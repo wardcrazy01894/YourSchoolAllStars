@@ -141,4 +141,28 @@ describe('michigan basketball dataset', () => {
     }
     expect(gaps.sort()).toEqual([...KNOWN_GAPS].sort())
   })
+
+  it('every player has a season row for every year in their tenure (per-player coverage)', () => {
+    // The standard (Alex): a player carries stats for EVERY season they were on
+    // the roster. The per-YEAR guard above only checks that SOMEONE covers each
+    // year×position — a single player can have a tenure-INTERNAL hole (e.g. Tim
+    // Hardaway Jr. listed 2011–2013 with only a 2013 row) and still pass it, then
+    // surface an out-of-window "career-best season" fallback in an era he never
+    // played. The bar here is per-player: every year in [firstYear, lastYear] must
+    // have a real season row.
+    //
+    // No allowlist by design. For a genuine non-playing year (a redshirt or an
+    // injury that wiped the WHOLE season), we TRIM tenure (firstYear/lastYear) to
+    // the years actually played rather than fabricate a row — so a tenure that
+    // spans a year is a promise that a sourced stat line exists for it. (Alex,
+    // 2026-06-26.)
+    const gaps: string[] = []
+    for (const p of players) {
+      const years = new Set(p.seasons.map((s) => s.year))
+      for (let y = p.firstYear; y <= p.lastYear; y++) {
+        if (!years.has(y)) gaps.push(`${p.id}:${y}`)
+      }
+    }
+    expect(gaps.sort()).toEqual([])
+  })
 })

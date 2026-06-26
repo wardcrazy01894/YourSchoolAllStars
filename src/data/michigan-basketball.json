@@ -12,6 +12,30 @@
       "lastYear": 1994,
       "seasons": [
         {
+          "year": 1992,
+          "stats": {
+            "pts": 17.6,
+            "reb": 4.3,
+            "ast": 4,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1993,
+          "stats": {
+            "pts": 15.4,
+            "reb": 4.2,
+            "ast": 3.9,
+            "stl": 1.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
           "year": 1994,
           "stats": {
             "pts": 19.9,
@@ -35,6 +59,30 @@
       "firstYear": 1992,
       "lastYear": 1994,
       "seasons": [
+        {
+          "year": 1992,
+          "stats": {
+            "pts": 11.1,
+            "reb": 6.2,
+            "ast": 1.8,
+            "stl": 0.4,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1993,
+          "stats": {
+            "pts": 14.6,
+            "reb": 7.4,
+            "ast": 1.9,
+            "stl": 0.6,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Michigan_Wolverines_men%27s_basketball_team"
+        },
         {
           "year": 1994,
           "stats": {
@@ -1253,6 +1301,18 @@
       "lastYear": 2008,
       "seasons": [
         {
+          "year": 2007,
+          "stats": {
+            "pts": 5,
+            "reb": 4,
+            "ast": 0.8,
+            "stl": 0.7,
+            "blk": 1.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ekpe-udoh-1.html"
+        },
+        {
           "year": 2008,
           "stats": {
             "pts": 6,
@@ -1474,6 +1534,42 @@
       "lastYear": 2012,
       "seasons": [
         {
+          "year": 2009,
+          "stats": {
+            "pts": 6.7,
+            "reb": 3.5,
+            "ast": 1.4,
+            "stl": 0.5,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 7.3,
+            "reb": 4.3,
+            "ast": 1.6,
+            "stl": 1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 8.9,
+            "reb": 5.8,
+            "ast": 1.6,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
           "year": 2012,
           "stats": {
             "pts": 9.2,
@@ -1494,6 +1590,18 @@
       "firstYear": 2010,
       "lastYear": 2011,
       "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 4.4,
+            "reb": 1.8,
+            "ast": 2.6,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+        },
         {
           "year": 2011,
           "stats": {
@@ -1560,6 +1668,18 @@
           },
           "honors": [],
           "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 2.7,
+            "reb": 3.6,
+            "ast": 0.1,
+            "stl": 0.3,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
         },
         {
           "year": 2013,
@@ -1635,6 +1755,33 @@
       "firstYear": 2011,
       "lastYear": 2013,
       "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 13.9,
+            "reb": 3.8,
+            "ast": 1.7,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [
+            "Big Ten All-Freshman Team (2011)",
+            "Honorable Mention All-Big Ten (2011)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Tim_Hardaway_Jr."
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 14.6,
+            "reb": 3.8,
+            "ast": 2.1,
+            "stl": 0.5,
+            "blk": 0.3
+          },
+          "honors": ["Third-Team All-Big Ten (2012)"],
+          "source": "https://en.wikipedia.org/wiki/Tim_Hardaway_Jr."
+        },
         {
           "year": 2013,
           "stats": {
@@ -1764,6 +1911,18 @@
       "lastYear": 2014,
       "seasons": [
         {
+          "year": 2013,
+          "stats": {
+            "pts": 11,
+            "reb": 3,
+            "ast": 1.3,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": ["NCAA Tournament All-South Regional Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/Nik_Stauskas"
+        },
+        {
           "year": 2014,
           "stats": {
             "pts": 17.5,
@@ -1799,6 +1958,18 @@
           },
           "honors": ["Big Ten All-Freshman Team"],
           "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 10.7,
+            "reb": 4.7,
+            "ast": 3,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
         },
         {
           "year": 2016,
@@ -2713,6 +2884,18 @@
       "firstYear": 2022,
       "lastYear": 2023,
       "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 3,
+            "reb": 1.1,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Kobe_Bufkin"
+        },
         {
           "year": 2023,
           "stats": {
