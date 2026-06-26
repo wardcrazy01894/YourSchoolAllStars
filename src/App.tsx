@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
 import { BBALL_POSITIONS, windowLabel, eligiblePositions } from './types'
 import type { BballPlayer, BballPosition, BballStats } from './types'
@@ -331,8 +331,11 @@ function Playing({
     }
   }
 
-  // Each new era hides the pool until the player spins the reel for it.
-  useEffect(() => {
+  // Each new era hides the pool until the player spins the reel for it. Use a
+  // LAYOUT effect so the reset lands BEFORE the browser paints — otherwise the
+  // next era's pool flashes for a frame (and leaks the upcoming lineup) because
+  // `reveal` is still true on the first render after the cursor advances.
+  useLayoutEffect(() => {
     setReveal(false)
     setSpinning(false)
     setSelectedId(null)
@@ -371,7 +374,11 @@ function Playing({
           <div className={`reel${spinning ? ' spinning' : ''}`}>
             {reelLabel}
           </div>
-          <button className="btn primary" disabled={spinning} onClick={spin}>
+          <button
+            className="btn primary"
+            disabled={spinning || !w}
+            onClick={spin}
+          >
             {spinning
               ? 'Spinning…'
               : `🎰 Spin era ${Math.min(state.cursor + 1, state.windows.length)} / ${state.windows.length}`}
