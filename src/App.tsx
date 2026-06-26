@@ -207,12 +207,15 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
   function finish(s: DraftState) {
     setPhase('done')
     const winByPos = windowByPosition(s.picks)
-    const rated = BBALL_POSITIONS.map((pos) => s.slots[pos])
-      .filter((p): p is BballPlayer => p !== null)
-      .map((p) => ({
-        position: p.position,
-        rating: playerRating(p, winByPos[p.position]),
-      }))
+    // Rate each player AS THE SLOT they fill: an alt-eligible player (combo
+    // guard → SG) is keyed by slot in `winByPos`, and takes the slot's position
+    // weight. Keying by `p.position` would miss the window and mis-weight them.
+    const rated = BBALL_POSITIONS.filter((pos) => s.slots[pos] !== null).map(
+      (pos) => ({
+        position: pos,
+        rating: playerRating(s.slots[pos]!, winByPos[pos]),
+      }),
+    )
     const grade = gradeLabel(projectedWins(rated, GAMES), GAMES)
     if (grade === 'PERFECT' || grade === 'HISTORIC' || grade === 'ELITE') {
       confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
@@ -533,12 +536,14 @@ function Results({
   dateKey: string
 }) {
   const winByPos = windowByPosition(state.picks)
-  const rated = BBALL_POSITIONS.map((pos) => state.slots[pos])
-    .filter((p): p is BballPlayer => p !== null)
-    .map((p) => ({
-      position: p.position,
-      rating: playerRating(p, winByPos[p.position]),
-    }))
+  // Rate each player as the slot they fill (matches the per-row RTG column and
+  // the draft-time window); see the same note in `finish`.
+  const rated = BBALL_POSITIONS.filter((pos) => state.slots[pos] !== null).map(
+    (pos) => ({
+      position: pos,
+      rating: playerRating(state.slots[pos]!, winByPos[pos]),
+    }),
+  )
   const strength = Math.round(teamStrength(rated))
   const wins = projectedWins(rated, GAMES)
   const grade = gradeLabel(wins, GAMES)

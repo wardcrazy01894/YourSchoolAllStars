@@ -4,7 +4,7 @@
 import { describe, it, expect } from 'vitest'
 import { michiganBasketball } from './index'
 import { BBALL_WINDOWS, playerInWindow } from '../lib/windows'
-import { BBALL_POSITIONS } from '../types'
+import { BBALL_POSITIONS, eligiblePositions } from '../types'
 
 const { players } = michiganBasketball
 
@@ -54,8 +54,11 @@ describe('michigan basketball dataset', () => {
     const gaps: string[] = []
     for (const w of BBALL_WINDOWS) {
       for (const pos of BBALL_POSITIONS) {
+        // Count alt-eligible players too — a PG/SG combo guard genuinely covers
+        // SG in the engine, so coverage must use eligiblePositions, not just the
+        // primary position (else the test reports a phantom gap the game lacks).
         const count = players.filter(
-          (p) => p.position === pos && playerInWindow(p, w),
+          (p) => eligiblePositions(p).includes(pos) && playerInWindow(p, w),
         ).length
         if (count === 0) gaps.push(`${w.start}-${w.end}/${pos}`)
       }

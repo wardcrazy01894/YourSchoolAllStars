@@ -78,6 +78,10 @@ describe('draftToSlot + player-then-slot', () => {
     const sg = draftToSlot(s, combo, 'SG')
     expect(sg.slots.SG?.id).toBe('combo')
     expect(sg.slots.PG).toBe(null)
+    // The pick records the SLOT it was placed in (SG), not the primary (PG),
+    // plus the era window — so rating/display key off the slot, not p.position.
+    expect(sg.picks[0].position).toBe('SG')
+    expect(sg.picks[0].window).toEqual(W10)
   })
 
   it('refuses a slot the player is not eligible for', () => {

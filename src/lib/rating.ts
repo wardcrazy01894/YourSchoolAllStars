@@ -98,7 +98,10 @@ export function seasonRating(season: BballSeason): number {
   return curve(seasonComposite(season))
 }
 
-/** The player's highest-rated season overall (career best). Null if none. */
+/**
+ * The player's highest-rated season overall (career best). Null if none.
+ * Ties resolve to the EARLIER season (strict `>`, seasons are oldest-first).
+ */
 export function bestSeason(player: BballPlayer): BballSeason | null {
   let best: BballSeason | null = null
   let bestC = -Infinity
@@ -116,6 +119,7 @@ export function bestSeason(player: BballPlayer): BballSeason | null {
  * The player's best season whose `year` falls INSIDE the window. This is the
  * spec'd behavior: a 2010–2013 window may only credit a player's 2010–2013
  * seasons, never a later peak. Null when the player has no season row in-window.
+ * Ties resolve to the EARLIER season (strict `>`, seasons are oldest-first).
  */
 export function bestSeasonInWindow(
   player: BballPlayer,

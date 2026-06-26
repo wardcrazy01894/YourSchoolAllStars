@@ -37,7 +37,13 @@ export type BballSeasonStats = Partial<BballStats>
 export interface BballSeason {
   year: number
   stats: BballSeasonStats
-  /** Honors earned THAT season (e.g. "Consensus All-American (2013)"). */
+  /**
+   * Honors the player earned within the seasons this row represents (e.g.
+   * "Consensus All-American (2013)"). A migrated single-season row represents a
+   * player's whole career and so carries their full honor set; the per-season
+   * backfill splits players into one row per year and binds each honor to its
+   * own year. Until then, honors here may carry a year outside `year`.
+   */
   honors: string[]
   /** Provenance: the URL the season's stats were sourced/verified from. */
   source: string
