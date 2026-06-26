@@ -56,11 +56,23 @@ import {
   type SavedDaily,
 } from './lib/progress'
 import { buildShareString } from './lib/share'
+import { buildReelPlan } from './lib/reel'
 import { setupAutoUpdate } from './lib/version'
 
 const SPORT = 'basketball'
 
 const GAMES = 40
+
+/** Spin duration (ms). Kept in sync with the wheel's CSS deceleration. */
+const SPIN_MS = 2600
+
+/** Read the user's reduced-motion preference once (stable for the component's life). */
+function usePrefersReducedMotion(): boolean {
+  return useState(
+    () =>
+      window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false,
+  )[0]
+}
 
 type StatKey = keyof BballStats
 const STAT_COLS: { key: StatKey; label: string }[] = [
@@ -434,9 +446,13 @@ function Playing({
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [reveal, setReveal] = useState(false)
   const [spinning, setSpinning] = useState(false)
-  const [reelLabel, setReelLabel] = useState('🎰')
-  const intervalRef = useRef<number | undefined>(undefined)
+  // `rolling` toggles the wheel's CSS transition on. Flipping it false→true AFTER
+  // the reset frame is committed is what triggers the decelerating scroll (set it
+  // true on mount and the column would jump to the target with no animation).
+  const [rolling, setRolling] = useState(false)
   const timeoutRef = useRef<number | undefined>(undefined)
+  const rafRef = useRef<number | undefined>(undefined)
+  const reduced = usePrefersReducedMotion()
   const w = currentWindow(state)
   const era = playersThisEra(state, players)
   const selected = selectedId
@@ -444,6 +460,15 @@ function Playing({
     : null
   const targetSlots = selected ? eligibleOpenSlots(state, selected) : []
   const skipsLeft = safeSkipsLeft(state)
+
+  // Geometry for this era's spin: a chronological wheel of era start years that
+  // lands on w.start. Memoized on the target year so it stays stable across the
+  // spin's re-renders (a fresh plan mid-spin would restart the scroll).
+  const targetYear = w?.start ?? null
+  const plan = useMemo(
+    () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
+    [wheel, targetYear],
+  )
 
   // Group players by primary position, sorted within group by IN-WINDOW points.
   const ptsIn = (p: BballPlayer) => seasonFor(p, w ?? undefined)?.stats.pts ?? 0
@@ -479,31 +504,35 @@ function Playing({
   useLayoutEffect(() => {
     setReveal(false)
     setSpinning(false)
+    setRolling(false)
     setSelectedId(null)
-    setReelLabel('🎰')
     return () => {
-      window.clearInterval(intervalRef.current)
       window.clearTimeout(timeoutRef.current)
+      if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
     }
   }, [state.cursor])
 
   function spin() {
-    if (!w || spinning || reveal) return
+    if (!w || spinning || reveal || !plan) return
+    if (import.meta.env.DEV && !plan.found) {
+      console.warn(`spin: target year ${targetYear} not on the wheel`)
+    }
+    // Honour prefers-reduced-motion: skip the scroll entirely and reveal at once.
+    if (reduced) {
+      setReveal(true)
+      return
+    }
     setSpinning(true)
-    intervalRef.current = window.setInterval(() => {
-      // `spin()` already returned early on `!w`. `w` is null either when the era
-      // sequence is exhausted (game complete → phase flips to 'done', unmounting
-      // this) or when spins is empty (blocked upstream by start()). Either way
-      // this body can't fire with an empty `wheel`, so no fallback is needed.
-      const r = wheel[Math.floor(Math.random() * wheel.length)]
-      setReelLabel(windowLabel(r))
-    }, 70)
+    setRolling(false) // pin the column at the top with the transition OFF…
+    // …then enable the transition on the next committed frame so the browser
+    // animates from the reset position instead of snapping to the target.
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = requestAnimationFrame(() => setRolling(true))
+    })
     timeoutRef.current = window.setTimeout(() => {
-      window.clearInterval(intervalRef.current)
-      setReelLabel(windowLabel(w))
       setSpinning(false)
       setReveal(true)
-    }, 1100)
+    }, SPIN_MS)
   }
 
   return (
@@ -517,8 +546,27 @@ function Playing({
 
       {!reveal ? (
         <div className="spinbar">
-          <div className={`reel${spinning ? ' spinning' : ''}`}>
-            {reelLabel}
+          <div className="wheel" aria-hidden="true">
+            {/* Highlight the landing slot only once the wheel is moving, so no
+                pre-spin year sits under the band looking pre-selected. */}
+            {rolling && <div className="wheel-band" />}
+            <div
+              className="wheel-col"
+              style={{
+                transform: `translateY(calc(var(--reel-cell) * ${
+                  rolling && plan ? -plan.offset : 0
+                }))`,
+                transition: rolling
+                  ? `transform ${SPIN_MS - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
+                  : 'none',
+              }}
+            >
+              {(plan?.cells ?? []).map((y, i) => (
+                <div className="wheel-cell" key={i}>
+                  {y}
+                </div>
+              ))}
+            </div>
           </div>
           <button
             className="btn primary"
