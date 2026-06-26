@@ -30,8 +30,10 @@ through only when it doesn't:
 
 ### Sports-Reference — what we may and may not do
 
-`sports-reference.com` (/cbb, /cfb) has clean per-player lines back to 1994. Two
-distinct constraints apply, and it's worth keeping them separate:
+`sports-reference.com` (/cbb, /cfb) has clean per-player lines back through the
+early 1990s (the Fab Five era and earlier) — we cite it as the source for King's
+and Jackson's 1992–93 rows. Two distinct constraints apply, and it's worth
+keeping them separate:
 
 - **Copyright:** individual **stat numbers are facts**, and facts aren't
   copyrightable (_Feist v. Rural_). SR's copyright covers its _compilation_ and
