@@ -101,7 +101,9 @@ puzzles — acceptable for a friends game.
    is hard by design (a five of 85-rated players drops to an 81-rated team after the
    haircut, just under the 85 team-strength undefeated cutoff). (Alex, 2026-06-26.)
 3. **Team strength** blends the position-weighted mean (PG ×1.15, C ×1.1) with the
-   **worst starter** (`0.6·mean + 0.4·min`) so one hole costs you ("no weak links").
+   **worst starter** (`0.75·mean + 0.25·min`) so one hole still costs you ("no weak
+   links") — eased from `0.4·min` to `0.25·min` (Alex, 2026-06-26) so a single soft
+   spot dents a strong four by ~5 pts rather than ~8.
 4. **Projected record**: logistic win prob `1/(1+e^(−(strength−57)/7.5))` × 40 games,
    with two overrides keyed off the **displayed (rounded) overall**: **85+ runs the
    table (40-0)**, and **below 30 goes winless (0-40)**. Strength 57 = coin-flip
