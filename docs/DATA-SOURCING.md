@@ -68,12 +68,11 @@ Rules (enforced by `src/data/dataset.test.ts`):
   `mgoblue.com` stat archives; Isaiah Livers (listed PF/SF) was classified PF to
   fill the 2018-21/PF cell.
 
-## Launch bar for the dataset
+## Launch bar for the dataset — met
 
-Flip `dataset.test.ts`'s coverage check from "tracks gaps" to
-`expect(gaps).toEqual([])`: **every (window × position) must have ≥1 eligible
-player** so no daily spin can strand an open slot. Until then, `skipRound` is the
-safety valve (leaves a hole) and the UI surfaces "no eligible players".
+`dataset.test.ts` asserts **every (window × position) has ≥1 eligible player**, so
+no daily era can strand an open slot. (If a future data edit empties a cell, CI
+fails.) The player's one `skip` is a strategic choice, not a coverage crutch.
 
 ## Football (2005+) — in progress
 

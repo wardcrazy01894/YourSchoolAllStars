@@ -374,7 +374,9 @@ function Playing({
         <div className="pos-group" key={g.pos}>
           <div className="pos-group-head">
             <span className="pos-chip">{g.pos}</span>
-            {g.filled && <span className="filled-tag">slot filled</span>}
+            {g.filled && !g.players.some((p) => isPickable(state, p)) && (
+              <span className="filled-tag">{g.pos} slot filled</span>
+            )}
           </div>
           <table className="pool">
             <thead>

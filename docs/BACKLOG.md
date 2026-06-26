@@ -46,9 +46,11 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
 
 ## Engine / quality
 
-- [ ] **Adjacent-position eligibility** (DECIDED): a player fills their primary
-      or an adjacent slot (PG↔SG↔SF↔PF↔C); draft UX = pick player → tap an open
-      highlighted slot. Engine `eligiblePlayers` + `game.draft` + UI change.
+- [x] **Multi-position eligibility ENGINE + UX**: players carry optional
+      `eligible: BballPosition[]`; draft is pick-player-then-tap-slot
+      (`draftToSlot`). Done in gameplay v2.
+- [ ] **Populate `eligible` in the data**: tag combo players (e.g. a PG who also
+      played SG) so the new multi-slot draft actually has choices to offer.
 - [ ] Bug-report flow (reuse KnowYourCity's worker pattern) for stat corrections —
       crucial for a stats game.
 - [ ] Provenance viewer: click a player to see their `source`.

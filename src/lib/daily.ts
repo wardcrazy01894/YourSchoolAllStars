@@ -1,10 +1,10 @@
 // Deterministic daily spins.
 //
-// GOAL: everyone who loads the game on a given day sees the SAME sequence of
-// spun windows, with NO backend. We hash the date string (in America/New_York —
-// the originals roll over at "midnight ET") into a seed, drive a seeded PRNG,
-// and pick one window per round. The reroll stream is a second deterministic
-// pass salted off the same seed, so a reroll is also stable per day.
+// GOAL: everyone who loads the game on a given day sees the SAME fixed sequence
+// of era windows, with NO backend. We hash the date string (in America/New_York
+// — the originals roll over at "midnight ET") into a seed, drive a seeded PRNG,
+// and draw the day's era sequence (6 for basketball: 5 starters + 1 skip). The
+// sequence is fixed up front, so a player's result never depends on when they skip.
 //
 // Stability note: spins are a pure function of (dateKey, sport, window list). If
 // the window list changes, past/future spins shift — fine for a friends game.

@@ -85,6 +85,18 @@ describe('draftToSlot + player-then-slot', () => {
     const s = initDraft([W14, ...SIX])
     expect(draftToSlot(s, pool[0], 'PG')).toBe(s) // pg10 not in 2014-2017
   })
+
+  it('refuses to draft the same multi-eligible player into a second slot', () => {
+    // combo (PG/SG) → PG in era 0; next era is the same window, SG still open.
+    let s = initDraft(SIX)
+    s = draftToSlot(s, pool[5], 'PG')
+    expect(s.slots.PG?.id).toBe('combo')
+    expect(isPickable(s, pool[5])).toBe(false) // already on the roster
+    const before = s
+    s = draftToSlot(s, pool[5], 'SG') // attempt double-draft
+    expect(s).toBe(before) // no-op; combo is not in SG
+    expect(s.slots.SG).toBe(null)
+  })
 })
 
 describe('isPickable + still-show-filled', () => {

@@ -8,7 +8,7 @@
 // to retune granularity (e.g. to 3-year or rolling windows) edit `buildWindows`
 // or the exported arrays; the engine reads whatever is here.
 
-import type { BballPlayer, BballPosition, YearWindow } from '../types'
+import type { BballPlayer, YearWindow } from '../types'
 
 /** Build contiguous non-overlapping windows of `size` years from `from`..`to`. */
 export function buildWindows(
@@ -38,20 +38,4 @@ export function tenureOverlaps(
 /** True if the player's tenure [firstYear, lastYear] overlaps the window. */
 export function playerInWindow(player: BballPlayer, w: YearWindow): boolean {
   return tenureOverlaps(player.firstYear, player.lastYear, w)
-}
-
-/**
- * Players draftable right now: eligible for the window AND playing a position
- * that is still open. Returned sorted by id for deterministic ordering (the UI
- * re-sorts by the user's chosen stat column).
- */
-export function eligiblePlayers(
-  pool: BballPlayer[],
-  w: YearWindow,
-  openPositions: BballPosition[],
-): BballPlayer[] {
-  const open = new Set(openPositions)
-  return pool
-    .filter((p) => open.has(p.position) && playerInWindow(p, w))
-    .sort((a, b) => a.id.localeCompare(b.id))
 }

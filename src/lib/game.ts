@@ -74,11 +74,17 @@ export function playersThisEra(
     .sort((a, b) => a.id.localeCompare(b.id))
 }
 
-/** Pickable = in the current window AND has at least one open eligible slot. */
+/** Pickable = in the current window, not already drafted, and has an open eligible slot. */
 export function isPickable(s: DraftState, player: BballPlayer): boolean {
   const w = currentWindow(s)
   if (!w) return false
+  if (alreadyDrafted(s, player)) return false
   return playerInWindow(player, w) && eligibleOpenSlots(s, player).length > 0
+}
+
+/** Is this player already on the roster? (Guards multi-eligible double-draft.) */
+export function alreadyDrafted(s: DraftState, player: BballPlayer): boolean {
+  return s.picks.some((pk) => pk.player.id === player.id)
 }
 
 /** Place a player into a chosen open, eligible slot; advance to the next era. */
@@ -87,6 +93,7 @@ export function draftToSlot(
   player: BballPlayer,
   position: BballPosition,
 ): DraftState {
+  if (alreadyDrafted(s, player)) return s
   if (!isPickable(s, player)) return s
   if (!eligibleOpenSlots(s, player).includes(position)) return s
   return {
@@ -104,7 +111,9 @@ export function skip(s: DraftState): DraftState {
 }
 
 export function canSkip(s: DraftState): boolean {
-  return !isComplete(s) && s.cursor < s.windows.length
+  // You can always skip an era while the game isn't over (isComplete already
+  // covers cursor >= windows.length).
+  return !isComplete(s)
 }
 
 /**

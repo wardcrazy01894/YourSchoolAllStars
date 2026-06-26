@@ -1,10 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import {
-  buildWindows,
-  BBALL_WINDOWS,
-  playerInWindow,
-  eligiblePlayers,
-} from './windows'
+import { buildWindows, BBALL_WINDOWS, playerInWindow } from './windows'
 import type { BballPlayer } from '../types'
 
 function mk(
@@ -63,22 +58,5 @@ describe('playerInWindow', () => {
   it('excludes a player entirely outside the window', () => {
     expect(playerInWindow(mk('d', 'PG', 2014, 2017), w)).toBe(false)
     expect(playerInWindow(mk('e', 'PG', 2006, 2009), w)).toBe(false)
-  })
-})
-
-describe('eligiblePlayers', () => {
-  const pool = [
-    mk('zeke', 'PG', 2010, 2013),
-    mk('alpha', 'PG', 2010, 2013),
-    mk('center', 'C', 2011, 2014),
-    mk('old', 'SF', 2000, 2003),
-  ]
-  it('filters by window AND open position, sorted by id', () => {
-    const out = eligiblePlayers(pool, { start: 2010, end: 2013 }, ['PG', 'C'])
-    expect(out.map((p) => p.id)).toEqual(['alpha', 'center', 'zeke'])
-  })
-  it('drops players whose position is already filled', () => {
-    const out = eligiblePlayers(pool, { start: 2010, end: 2013 }, ['C'])
-    expect(out.map((p) => p.id)).toEqual(['center'])
   })
 })

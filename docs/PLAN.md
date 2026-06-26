@@ -59,7 +59,7 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
 src/
   types.ts            domain types (Sport, BballPosition, BballPlayer, YearWindow)
   lib/
-    windows.ts        window config (buildWindows) + eligibility (playerInWindow, eligiblePlayers)
+    windows.ts        window config (buildWindows) + eligibility (tenureOverlaps, playerInWindow)
     daily.ts          getDateKey (ET), seeded PRNG (mulberry32), generateSpins (fixed era sequence)
     rating.ts         stat line → player rating → team strength → projected record
     game.ts           pure draft state machine (initDraft, draftToSlot, skip, isPickable, …)
