@@ -40,13 +40,25 @@ import {
   playerRating,
   bestSeason,
   seasonForWindow,
-  teamStrength,
-  projectedWins,
   recordLabel,
-  gradeLabel,
 } from './lib/rating'
+import {
+  evaluateRoster,
+  savedDailyFrom,
+  rosterFromSaved,
+  windowByPosition,
+} from './lib/result'
+import {
+  loadDaily,
+  loadStreak,
+  saveDailyResult,
+  type Streak,
+  type SavedDaily,
+} from './lib/progress'
 import { buildShareString } from './lib/share'
 import { setupAutoUpdate } from './lib/version'
+
+const SPORT = 'basketball'
 
 const GAMES = 40
 
@@ -62,15 +74,6 @@ const STAT_COLS: { key: StatKey; label: string }[] = [
 /** The season to show/rate for a player, given the era they're seen in. */
 function seasonFor(p: BballPlayer, w?: YearWindow): BballSeason | null {
   return w ? seasonForWindow(p, w) : bestSeason(p)
-}
-
-/** Map each filled position to the era window its player was drafted from. */
-function windowByPosition(
-  picks: { position: BballPosition; window: YearWindow }[],
-): Partial<Record<BballPosition, YearWindow>> {
-  const m: Partial<Record<BballPosition, YearWindow>> = {}
-  for (const pk of picks) m[pk.position] = pk.window
-  return m
 }
 
 /** Stat cell: a missing (unpublished) value shows as an em dash, not 0.0. */
@@ -120,7 +123,12 @@ export default function App() {
   }
 
   if (!schoolId) return <Picker onPick={chooseSchool} />
-  return <Game school={school} onExit={() => setSchoolId(null)} />
+  // key={school.id} makes the per-school remount explicit: Game's useState
+  // initializers (phase/state/streak below) all derive from the loaded save for
+  // THIS school, so a school change must start a fresh Game, not reuse stale state.
+  return (
+    <Game key={school.id} school={school} onExit={() => setSchoolId(null)} />
+  )
 }
 
 function Picker({ onPick }: { onPick: (id: string) => void }) {
@@ -204,8 +212,29 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     [seed, windows],
   )
 
-  const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>('landing')
-  const [state, setState] = useState<DraftState>(() => initDraft(spins))
+  // The daily is a ONE-SHOT: if today's result is already saved, open straight to
+  // the locked Results (reconstructed from the save) instead of letting them
+  // replay. `?date=` playtest days hydrate the same way, per day. Read ONCE via a
+  // useState initializer — it's a side-effectful localStorage read, not a derived
+  // value, so it must not live in a useMemo (which React may recompute).
+  const [savedToday] = useState(() => loadDaily(school.id, SPORT, dateKey))
+
+  const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
+    savedToday ? 'done' : 'landing',
+  )
+  const [state, setState] = useState<DraftState>(() =>
+    savedToday ? rosterFromSaved(savedToday, players) : initDraft(spins),
+  )
+  const [streak, setStreak] = useState<Streak>(() =>
+    loadStreak(school.id, SPORT),
+  )
+  // The persisted result for the locked view. Carries the EARNED wins/grade so a
+  // returning player sees what they actually scored, even if the dataset's stats
+  // were corrected since (the live re-rate would otherwise drift). Null until done.
+  const [result, setResult] = useState<SavedDaily | null>(savedToday)
+  // Already in the books on load (a returning visit), vs a fresh finish this
+  // session — drives whether Results shows the "come back tomorrow" banner.
+  const returning = savedToday !== null
 
   function start() {
     // Dead-era safety net (UI half): an empty wheel ⇒ no spins ⇒ an
@@ -223,18 +252,21 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
 
   function finish(s: DraftState) {
     setPhase('done')
-    const winByPos = windowByPosition(s.picks)
-    // Rate each player AS THE SLOT they fill: an alt-eligible player (combo
-    // guard → SG) is keyed by slot in `winByPos`, and takes the slot's position
-    // weight. Keying by `p.position` would miss the window and mis-weight them.
-    const rated = BBALL_POSITIONS.filter((pos) => s.slots[pos] !== null).map(
-      (pos) => ({
-        position: pos,
-        rating: playerRating(s.slots[pos]!, winByPos[pos]),
-      }),
-    )
-    const grade = gradeLabel(projectedWins(rated, GAMES), GAMES)
-    if (grade === 'PERFECT' || grade === 'HISTORIC' || grade === 'ELITE') {
+    const saved = savedDailyFrom(s, dateKey, GAMES)
+    setResult(saved)
+    // Persist + advance the per-device streak. saveDailyResult is idempotent and
+    // fail-safe. Only a REAL today play moves the streak — `?date=` playtest days
+    // save + lock but stay streak-neutral so testing a past/future day can't
+    // contaminate it.
+    const updated = saveDailyResult(school.id, SPORT, saved, {
+      advanceStreak: dateKey === getDateKey(),
+    })
+    setStreak(updated)
+    if (
+      saved.grade === 'PERFECT' ||
+      saved.grade === 'HISTORIC' ||
+      saved.grade === 'ELITE'
+    ) {
       confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
     }
   }
@@ -261,6 +293,7 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
           school={school}
           dateKey={dateKey}
           playable={spins.length > 0}
+          streak={streak}
           onStart={start}
         />
       )}
@@ -273,7 +306,14 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
         />
       )}
       {phase === 'done' && (
-        <Results school={school} state={state} dateKey={dateKey} />
+        <Results
+          school={school}
+          state={state}
+          dateKey={dateKey}
+          streak={streak}
+          saved={result}
+          returning={returning}
+        />
       )}
 
       <footer className="footer">
@@ -284,16 +324,32 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
   )
 }
 
+function StreakChips({ streak }: { streak: Streak }) {
+  if (streak.max === 0) return null // never completed a day — nothing to show
+  return (
+    <div className="streaks">
+      <span className="streak-chip" title="Consecutive days played">
+        🔥 {streak.current} day{streak.current === 1 ? '' : 's'}
+      </span>
+      <span className="streak-chip" title="Your longest streak">
+        🏆 best {streak.max}
+      </span>
+    </div>
+  )
+}
+
 function Landing({
   school,
   dateKey,
   playable,
+  streak,
   onStart,
 }: {
   school: School
   dateKey: string
   /** False when this school has no draftable wheel (no basketball data yet). */
   playable: boolean
+  streak: Streak
   onStart: () => void
 }) {
   return (
@@ -306,6 +362,7 @@ function Landing({
         slot. You can <strong>skip one era</strong>. How close to a perfect{' '}
         <strong>40&ndash;0</strong> can you get?
       </p>
+      <StreakChips streak={streak} />
       {playable ? (
         <button className="btn primary" onClick={onStart}>
           ▶ Play Today's Challenge
@@ -573,30 +630,28 @@ function Results({
   school,
   state,
   dateKey,
+  streak,
+  saved,
+  returning,
 }: {
   school: School
   state: DraftState
   dateKey: string
+  streak: Streak
+  /** The persisted result for this day; its EARNED wins/grade win over a re-rate. */
+  saved: SavedDaily | null
+  /** Already in the books on load (a returning visit) — shows the lock banner. */
+  returning: boolean
 }) {
-  const winByPos = windowByPosition(state.picks)
-  // Rate each player as the slot they fill (matches the per-row RTG column and
-  // the draft-time window); see the same note in `finish`.
-  const rated = BBALL_POSITIONS.filter((pos) => state.slots[pos] !== null).map(
-    (pos) => ({
-      position: pos,
-      rating: playerRating(state.slots[pos]!, winByPos[pos]),
-    }),
-  )
-  const strength = Math.round(teamStrength(rated))
-  const wins = projectedWins(rated, GAMES)
-  const grade = gradeLabel(wins, GAMES)
-
-  const ratingsByPosition = Object.fromEntries(
-    BBALL_POSITIONS.map((pos) => [
-      pos,
-      state.slots[pos] ? playerRating(state.slots[pos]!, winByPos[pos]) : null,
-    ]),
-  ) as Record<BballPosition, number | null>
+  // The live re-rate drives the per-row RTG table and team strength. But the
+  // headline record + share use the EARNED wins/grade from the save when present:
+  // a stats correction between play and replay must never rewrite what you scored.
+  // (On a fresh finish, saved was just computed from this same state, so they match.)
+  const live = evaluateRoster(state, GAMES)
+  const { ratingsByPosition, windowByPosition: winByPos } = live
+  const strength = Math.round(live.strength)
+  const wins = saved?.wins ?? live.wins
+  const grade = saved?.grade ?? live.grade
 
   const share = buildShareString({
     schoolName: school.short,
@@ -620,10 +675,16 @@ function Results({
 
   return (
     <section>
+      {returning && (
+        <div className="lock-note">
+          ✓ Today's challenge is in the books. Come back tomorrow for a new one.
+        </div>
+      )}
       <div className="record">
         <div className="big">{recordLabel(wins, GAMES)}</div>
         <div className="grade">{grade}</div>
         <p className="muted">Team strength {strength} / 100</p>
+        <StreakChips streak={streak} />
       </div>
 
       <RosterRail slots={state.slots} windows={winByPos} />

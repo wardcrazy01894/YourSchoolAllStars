@@ -3,7 +3,7 @@
 // streaks are per-device, exactly like KnowYourCity. (A cross-player leaderboard
 // would be the only thing needing a server.)
 
-import type { BballPosition } from '../types'
+import type { BballPosition, YearWindow } from '../types'
 
 export interface Streak {
   current: number
@@ -45,6 +45,13 @@ export function nextStreak(prev: Streak, dateKey: string): Streak {
 export interface SavedDaily {
   dateKey: string
   playerIds: Partial<Record<BballPosition, string>>
+  /**
+   * The era each slot was drafted from, so a returning player's LOCKED result
+   * re-rates on the same in-window season they earned (rating depends on the
+   * window). Optional + sport-agnostic (just year ranges): a save missing it
+   * still records the streak; the locked view just can't reconstruct the lineup.
+   */
+  windows?: Partial<Record<BballPosition, YearWindow>>
   wins: number
   grade: string
 }
@@ -91,22 +98,31 @@ export function loadDaily(
 }
 
 /**
- * Persist a completed daily and advance the streak. Idempotent for a given day:
- * if today's result is already saved, the streak isn't bumped again. Returns the
- * (possibly unchanged) streak.
+ * Persist a completed daily and (by default) advance the streak. Idempotent for
+ * a given day: if today's result is already saved, the streak isn't bumped again.
+ * Returns the (possibly unchanged) streak.
+ *
+ * `advanceStreak: false` saves + LOCKS the day but leaves the streak untouched —
+ * used for `?date=` playtest days, which aren't real daily play and must never
+ * contaminate the streak (e.g. testing an OLD day shouldn't reset it, nor should
+ * a FUTURE day inflate it). The daily is still persisted so the playtest day
+ * locks like a real one.
  */
 export function saveDailyResult(
   school: string,
   sport: string,
   result: SavedDaily,
+  opts: { advanceStreak?: boolean } = {},
 ): Streak {
+  const { advanceStreak = true } = opts
   const already = loadDaily(school, sport, result.dateKey)
   const saved = write(dailyKey(school, sport, result.dateKey), result)
   const prev = loadStreak(school, sport)
-  // Don't advance the streak if (a) the day was already counted, or (b) the
-  // daily didn't actually persist — otherwise a swallowed write would bump the
-  // streak while leaving the day replayable, double-counting on the next play.
-  if (already || !saved) return prev
+  // Don't advance the streak if (a) streak advancement is opted out (playtest
+  // day), (b) the day was already counted, or (c) the daily didn't actually
+  // persist — otherwise a swallowed write would bump the streak while leaving the
+  // day replayable, double-counting on the next play.
+  if (!advanceStreak || already || !saved) return prev
   const updated = nextStreak(prev, result.dateKey)
   write(streakKey(school, sport), updated)
   return updated
