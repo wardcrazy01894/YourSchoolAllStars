@@ -37,6 +37,7 @@ import {
   gradeLabel,
 } from './lib/rating'
 import { buildShareString } from './lib/share'
+import { setupAutoUpdate } from './lib/version'
 
 const GAMES = 40
 
@@ -78,6 +79,10 @@ export default function App() {
   useEffect(() => {
     applyTheme(school.theme)
   }, [school])
+
+  // Reload to the latest build when a new version is deployed and the tab
+  // regains focus — no stale tabs left open. No-op in local dev.
+  useEffect(() => setupAutoUpdate(), [])
 
   function chooseSchool(id: string) {
     localStorage.setItem(SCHOOL_STORAGE_KEY, id)
