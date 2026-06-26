@@ -84,12 +84,21 @@ describe('Playing — Hoops IQ stat hiding', () => {
     expect(screen.getByText('alpha Player')).toBeTruthy()
   })
 
-  it('does not leak the season year via the honor-star tooltip in Hoops IQ', () => {
+  it('hides the award ★ entirely in Hoops IQ (it hints who is decorated)', () => {
     renderPlaying(true)
-    // No title attribute on any star ⇒ no "(2001)" peeking through the tooltip.
-    for (const star of screen.getAllByText('★')) {
-      expect(star.getAttribute('title')).toBeNull()
-    }
+    // The fixture players carry an All-American honor, but Hoops IQ must not
+    // surface ANY star — the goal is to draft on names alone, and a star is a
+    // strong "this one is good" tell (and its tooltip would leak the year).
+    expect(screen.queryAllByText('★')).toHaveLength(0)
+  })
+
+  it('shows the award ★ (with a tooltip) when stats are visible', () => {
+    renderPlaying(false)
+    // Both fixture players are decorated ⇒ one star each.
+    const stars = screen.getAllByText('★')
+    expect(stars).toHaveLength(PLAYERS.length)
+    // The tooltip lists the honor when nothing is hidden.
+    expect(stars[0].getAttribute('title')).toContain('All-American')
   })
 })
 

@@ -514,8 +514,8 @@ function Landing({
       </p>
       {mode.hideStats && (
         <p className="muted">
-          🧠 Hoops IQ: the box-score stats stay hidden while you draft — go on
-          names and honors alone. The numbers reveal at the end.
+          🧠 Hoops IQ: stats, ratings, and award stars stay hidden while you
+          draft — go on names alone. Stats and ratings reveal at the end.
         </p>
       )}
       {mode.daily && <StreakChips streak={streak} />}
@@ -808,16 +808,12 @@ export function Playing({
                           {alt.length > 0 && (
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
-                          {s && s.honors.length > 0 && (
-                            // Hoops IQ: keep the ★ but drop the tooltip — honor
-                            // strings embed the year (e.g. "All-American (2003)"),
-                            // which would leak the hidden season.
-                            <span
-                              className="honor"
-                              title={
-                                hideStats ? undefined : s.honors.join(', ')
-                              }
-                            >
+                          {!hideStats && s && s.honors.length > 0 && (
+                            // Hoops IQ hides the ★ entirely: it's a strong "this
+                            // player is good" tell, and the honor strings embed
+                            // the year (e.g. "All-American (2003)") which would
+                            // leak the hidden season via the tooltip.
+                            <span className="honor" title={s.honors.join(', ')}>
                               ★
                             </span>
                           )}
