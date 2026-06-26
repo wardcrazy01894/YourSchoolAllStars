@@ -61,6 +61,22 @@ export const SCHOOLS: School[] = [
     basketball: undefined,
     available: false,
   },
+  {
+    id: 'florida',
+    name: 'Florida',
+    short: 'Florida',
+    mascot: 'Gators',
+    emoji: '🐊',
+    // Florida orange & blue (official: Blue #0021A5, Orange #FA4616).
+    theme: {
+      brand: '#0021a5',
+      brand2: '#1c3fb0',
+      accent: '#fa4616',
+      ink: '#0a1124',
+    },
+    basketball: undefined,
+    available: false,
+  },
 ]
 
 export const DEFAULT_SCHOOL_ID = 'michigan'

@@ -39,18 +39,10 @@ describe('michigan basketball dataset', () => {
     }
   })
 
-  it('window × position coverage only has the known (tracked) gaps', () => {
-    // Launch bar: no daily spin should strand a position with an empty pool.
-    // These cells still lack a sourced player (thin late-90s/early-00s + one
-    // 2018-21/PF). Each gap-fill PR deletes an entry here until it's []. Until
-    // then the UI's reroll/skip covers a stranded cell. See docs/BACKLOG.md.
-    const KNOWN_GAPS = [
-      '1998-2001/PF',
-      '1998-2001/PG',
-      '2002-2005/C',
-      '2002-2005/PF',
-      '2018-2021/PF',
-    ]
+  it('every window × position has at least one eligible player (launch bar)', () => {
+    // No daily spin can strand a position with an empty pool. All gaps filled —
+    // a data edit that empties any cell adds a gap here and fails CI.
+    const KNOWN_GAPS: string[] = []
     const gaps: string[] = []
     for (const w of BBALL_WINDOWS) {
       for (const pos of BBALL_POSITIONS) {

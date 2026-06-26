@@ -115,7 +115,12 @@ Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
 - **Windows: 4-year from 2005** (`FB_WINDOWS` = 2005-08 … 2021-24). Defensive
   box-score stats (tackles/sacks) aren't reliable before 2005 — hence the start.
 - **12 rounds** (one per slot). Draft = pick an eligible player, drop into an open
-  slot their position fits (single-position or FLEX). Same one re-spin.
+  slot their position fits (single-position or FLEX).
+- **Draft order: all 6 offense first, then all 6 defense** (`OFFENSE_SLOT_IDS`
+  then `DEFENSE_SLOT_IDS`; `sideForRound`).
+- **One re-spin per side** (`FB_RESPINS_PER_SIDE = 1`): a fresh re-spin for the
+  offensive half and another for the defensive half; an unused offensive re-spin
+  does not carry over. (Basketball stays at one re-spin for the whole game.)
 - **Stats** (`FbStats`, heterogeneous, per-position columns):
   - QB: pass yds/TD/INT (+ rush yds/TD for runners like Denard).
   - RB: rush yds/TD (+ rec/yds/TD). WR/TE: rec/yds/TD.
@@ -144,7 +149,10 @@ per-school sport selector.
 - **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
 - **M5 — Ship:** flip repo public → branch protection + Pages deploy.
 - **M6 — Football (2005+):** 12-slot roster, CFBD-sourced offense + 2005+ defense.
-- **M7 — North Carolina:** add the dataset; the registry already themes it.
+- **M7 — More schools:** the registry already themes **North Carolina** (Tar
+  Heels) and **Florida** (Gators); add their datasets to go live. End state: all
+  **3 schools × both sports** (basketball + football), added over time, Michigan
+  first.
 
 ## Open questions
 

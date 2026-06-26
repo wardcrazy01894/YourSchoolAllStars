@@ -40,8 +40,9 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
 
 - [x] **School registry** (`src/schools.ts`) + picker landing + per-school CSS
       theming. Engine is school-agnostic.
-- [ ] **North Carolina** basketball dataset (flip `unc.available` true, attach
-      dataset). Theming already wired (Carolina blue).
+- [ ] **North Carolina** (Tar Heels) and **Florida** (Gators) — both in the
+      registry/themed ("coming soon"); add datasets to go live. Target end state:
+      **all 3 schools × both sports** (basketball + football).
 
 ## Engine / quality
 

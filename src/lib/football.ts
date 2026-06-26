@@ -16,6 +16,26 @@ export const FB_WINDOWS: YearWindow[] = buildWindows(2005, 2024, 4)
 /** One draft round per roster slot. */
 export const FB_ROUNDS = FB_SLOTS.length
 
+/** Slot ids by side, in draft order. Offense is drafted first, then defense. */
+export const OFFENSE_SLOT_IDS = FB_SLOTS.filter(
+  (s) => s.side === 'offense',
+).map((s) => s.id)
+export const DEFENSE_SLOT_IDS = FB_SLOTS.filter(
+  (s) => s.side === 'defense',
+).map((s) => s.id)
+
+/**
+ * Re-spins allowed PER SIDE: one usable while drafting the 6 offensive slots, a
+ * separate one while drafting the 6 defensive slots (Alex's call). Unused
+ * offensive re-spins do NOT carry into defense.
+ */
+export const FB_RESPINS_PER_SIDE = 1
+
+/** Which side draft round `r` belongs to (0–5 offense, 6–11 defense). */
+export function sideForRound(round: number): 'offense' | 'defense' {
+  return round < OFFENSE_SLOT_IDS.length ? 'offense' : 'defense'
+}
+
 export function playerInWindow(player: FbPlayer, w: YearWindow): boolean {
   return tenureOverlaps(player.firstYear, player.lastYear, w)
 }
