@@ -5,507 +5,6 @@
   "_note": "Curated from Wikipedia season/player pages (CC-BY-SA), cross-checked vs official records. Each player carries a seasons[] array; every season row carries its source URL. See docs/DATA-SOURCING.md.",
   "players": [
     {
-      "id": "caleb-houstan",
-      "name": "Caleb Houstan",
-      "position": "SF",
-      "firstYear": 2022,
-      "lastYear": 2022,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "pts": 10.1,
-            "reb": 4,
-            "ast": 1.4,
-            "stl": 0.7,
-            "blk": 0.2
-          },
-          "honors": ["McDonald's All-American (2021)"],
-          "source": "https://en.wikipedia.org/wiki/Caleb_Houstan"
-        }
-      ]
-    },
-    {
-      "id": "caris-levert",
-      "name": "Caris LeVert",
-      "position": "SG",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "seasons": [
-        {
-          "year": 2016,
-          "stats": {
-            "pts": 16.5,
-            "reb": 5.3,
-            "ast": 4.9,
-            "stl": 1,
-            "blk": 0.2
-          },
-          "honors": ["Second-Team All-Big Ten (2014)"],
-          "source": "https://en.wikipedia.org/wiki/Caris_LeVert"
-        }
-      ]
-    },
-    {
-      "id": "charles-matthews",
-      "name": "Charles Matthews",
-      "position": "SF",
-      "firstYear": 2018,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2018,
-          "stats": {
-            "pts": 13,
-            "reb": 5.5,
-            "ast": 2.4,
-            "stl": 0.7,
-            "blk": 0.6
-          },
-          "honors": ["West Region Most Outstanding Player (2018)"],
-          "source": "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)"
-        }
-      ]
-    },
-    {
-      "id": "courtney-sims",
-      "name": "Courtney Sims",
-      "position": "C",
-      "firstYear": 2004,
-      "lastYear": 2007,
-      "seasons": [
-        {
-          "year": 2007,
-          "stats": {
-            "pts": 12.3,
-            "reb": 6.7,
-            "ast": 0.5,
-            "stl": 0.3,
-            "blk": 1.6
-          },
-          "honors": [
-            "2nd all-time Michigan career blocks leader (213 career blocks)",
-            "2004 NIT Championship team",
-            "NBA 2nd-round draft pick 2007 (Indiana Pacers)"
-          ],
-          "source": "https://mgoblue.com/sports/mens-basketball/roster/courtney-sims/784"
-        }
-      ]
-    },
-    {
-      "id": "daniel-horton",
-      "name": "Daniel Horton",
-      "position": "PG",
-      "firstYear": 2003,
-      "lastYear": 2006,
-      "seasons": [
-        {
-          "year": 2006,
-          "stats": {
-            "pts": 17.6,
-            "reb": 2.5,
-            "ast": 5.3,
-            "stl": 1.9,
-            "blk": 0.3
-          },
-          "honors": [
-            "Big Ten Freshman of the Year (2003)",
-            "NIT MVP (2004)",
-            "First-Team All-Big Ten (2006)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Daniel_Horton_(basketball)"
-        }
-      ]
-    },
-    {
-      "id": "danny-wolf",
-      "name": "Danny Wolf",
-      "position": "PF",
-      "firstYear": 2025,
-      "lastYear": 2025,
-      "seasons": [
-        {
-          "year": 2025,
-          "stats": {
-            "pts": 13.2,
-            "reb": 9.7,
-            "ast": 3.6,
-            "stl": 0.7,
-            "blk": 1.4
-          },
-          "honors": [
-            "Second-Team All-Big Ten (2025)",
-            "Big Ten Tournament All-Tournament Team (2025)",
-            "South Regional All-Tournament Team (2025)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Danny_Wolf"
-        }
-      ]
-    },
-    {
-      "id": "darius-morris",
-      "name": "Darius Morris",
-      "position": "PG",
-      "firstYear": 2010,
-      "lastYear": 2011,
-      "seasons": [
-        {
-          "year": 2011,
-          "stats": {
-            "pts": 15,
-            "reb": 4,
-            "ast": 6.7,
-            "stl": 1,
-            "blk": 0
-          },
-          "honors": ["Third-Team All-Big Ten (2011)"],
-          "source": "https://en.wikipedia.org/wiki/Darius_Morris"
-        }
-      ]
-    },
-    {
-      "id": "derrick-walton-jr",
-      "name": "Derrick Walton Jr.",
-      "position": "PG",
-      "firstYear": 2014,
-      "lastYear": 2017,
-      "seasons": [
-        {
-          "year": 2017,
-          "stats": {
-            "pts": 15.5,
-            "reb": 4.8,
-            "ast": 5,
-            "stl": 1.1,
-            "blk": 0
-          },
-          "honors": [
-            "Big Ten Tournament Most Outstanding Player (2017)",
-            "Second-Team All-Big Ten (2017)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "deshawn-sims",
-      "name": "DeShawn Sims",
-      "position": "PF",
-      "firstYear": 2007,
-      "lastYear": 2010,
-      "seasons": [
-        {
-          "year": 2010,
-          "stats": {
-            "pts": 16.8,
-            "reb": 7.6,
-            "ast": 0.9,
-            "stl": 1.1,
-            "blk": 0.7
-          },
-          "honors": [
-            "Second-Team All-Big Ten (2009)",
-            "Second-Team All-Big Ten (2010)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "devante-jones",
-      "name": "DeVante' Jones",
-      "position": "PG",
-      "firstYear": 2022,
-      "lastYear": 2022,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "pts": 10.3,
-            "reb": 4.5,
-            "ast": 4.6,
-            "stl": 0.9,
-            "blk": 0.1
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/DeVante%27_Jones"
-        }
-      ]
-    },
-    {
-      "id": "dion-harris",
-      "name": "Dion Harris",
-      "position": "SG",
-      "firstYear": 2004,
-      "lastYear": 2007,
-      "seasons": [
-        {
-          "year": 2005,
-          "stats": {
-            "pts": 14.3,
-            "reb": 2.8,
-            "ast": 3.5,
-            "stl": 1.1,
-            "blk": 0.2
-          },
-          "honors": [
-            "All-Big Ten Honorable Mention (2005)",
-            "All-Big Ten Third Team (2007)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Dion_Harris"
-        }
-      ]
-    },
-    {
-      "id": "dj-wilson",
-      "name": "D.J. Wilson",
-      "position": "PF",
-      "firstYear": 2015,
-      "lastYear": 2017,
-      "seasons": [
-        {
-          "year": 2017,
-          "stats": {
-            "pts": 11,
-            "reb": 5.3,
-            "ast": 1.3,
-            "stl": 0.5,
-            "blk": 1.5
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/D._J._Wilson"
-        }
-      ]
-    },
-    {
-      "id": "dug-mcdaniel",
-      "name": "Dug McDaniel",
-      "position": "PG",
-      "firstYear": 2023,
-      "lastYear": 2024,
-      "seasons": [
-        {
-          "year": 2024,
-          "stats": {
-            "pts": 16.3,
-            "reb": 3.7,
-            "ast": 4.7,
-            "stl": 1.1,
-            "blk": 0
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/Dug_McDaniel"
-        }
-      ]
-    },
-    {
-      "id": "duncan-robinson",
-      "name": "Duncan Robinson",
-      "position": "SF",
-      "firstYear": 2016,
-      "lastYear": 2018,
-      "seasons": [
-        {
-          "year": 2016,
-          "stats": {
-            "pts": 11.2,
-            "reb": 3.5,
-            "ast": 1.8,
-            "stl": 0.6,
-            "blk": 0.2
-          },
-          "honors": ["Big Ten Sixth Man of the Year (2018)"],
-          "source": "https://en.wikipedia.org/wiki/Duncan_Robinson_(basketball)"
-        }
-      ]
-    },
-    {
-      "id": "ekpe-udoh",
-      "name": "Ekpe Udoh",
-      "position": "C",
-      "firstYear": 2007,
-      "lastYear": 2008,
-      "seasons": [
-        {
-          "year": 2008,
-          "stats": {
-            "pts": 6,
-            "reb": 5,
-            "ast": 0.9,
-            "stl": 0.8,
-            "blk": 2.9
-          },
-          "honors": ["Big Ten All-Defensive Team (2008)"],
-          "source": "https://en.wikipedia.org/wiki/Ekpe_Udoh"
-        }
-      ]
-    },
-    {
-      "id": "eli-brooks",
-      "name": "Eli Brooks",
-      "position": "SG",
-      "firstYear": 2018,
-      "lastYear": 2022,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "pts": 12.8,
-            "reb": 3.7,
-            "ast": 2.9,
-            "stl": 1.2,
-            "blk": 0.1
-          },
-          "honors": ["Honorable Mention All-Big Ten (2022)"],
-          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
-        }
-      ]
-    },
-    {
-      "id": "franz-wagner",
-      "name": "Franz Wagner",
-      "position": "SF",
-      "firstYear": 2020,
-      "lastYear": 2021,
-      "seasons": [
-        {
-          "year": 2021,
-          "stats": {
-            "pts": 12.5,
-            "reb": 6.5,
-            "ast": 3,
-            "stl": 1.3,
-            "blk": 1
-          },
-          "honors": [
-            "Big Ten All-Freshman Team (2020)",
-            "Second-Team All-Big Ten (2021)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Franz_Wagner"
-        }
-      ]
-    },
-    {
-      "id": "glenn-robinson-iii",
-      "name": "Glenn Robinson III",
-      "position": "SF",
-      "firstYear": 2013,
-      "lastYear": 2014,
-      "seasons": [
-        {
-          "year": 2014,
-          "stats": {
-            "pts": 13.1,
-            "reb": 4.4,
-            "ast": 1.2,
-            "stl": 0.9,
-            "blk": 0.3
-          },
-          "honors": ["Big Ten All-Freshman Team (2013)"],
-          "source": "https://en.wikipedia.org/wiki/Glenn_Robinson_III"
-        }
-      ]
-    },
-    {
-      "id": "graham-brown",
-      "name": "Graham Brown",
-      "position": "PF",
-      "firstYear": 2003,
-      "lastYear": 2006,
-      "seasons": [
-        {
-          "year": 2004,
-          "stats": {
-            "pts": 4.6,
-            "reb": 4.1,
-            "ast": 0.4,
-            "stl": 0.8,
-            "blk": 0.3
-          },
-          "honors": ["2004 NIT Championship team"],
-          "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "hunter-dickinson",
-      "name": "Hunter Dickinson",
-      "position": "C",
-      "firstYear": 2021,
-      "lastYear": 2023,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "pts": 18.6,
-            "reb": 8.6,
-            "ast": 2.3,
-            "stl": 0.5,
-            "blk": 1.5
-          },
-          "honors": [
-            "Big Ten Freshman of the Year (2021)",
-            "Consensus Second-Team All-American (2021)",
-            "First-Team All-Big Ten (2021)",
-            "Second-Team All-Big Ten (2022)",
-            "First-Team All-Big Ten (2023)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Hunter_Dickinson"
-        }
-      ]
-    },
-    {
-      "id": "ignas-brazdeikis",
-      "name": "Ignas Brazdeikis",
-      "position": "SF",
-      "firstYear": 2019,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "pts": 14.8,
-            "reb": 5.4,
-            "ast": 0.8,
-            "stl": 0.7,
-            "blk": 0.5
-          },
-          "honors": [
-            "Big Ten Freshman of the Year (2019)",
-            "Second-Team All-Big Ten (2019)",
-            "AP Honorable Mention All-American (2019)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Ignas_Brazdeikis"
-        }
-      ]
-    },
-    {
-      "id": "isaiah-livers",
-      "name": "Isaiah Livers",
-      "position": "PF",
-      "firstYear": 2018,
-      "lastYear": 2021,
-      "seasons": [
-        {
-          "year": 2021,
-          "stats": {
-            "pts": 13.1,
-            "reb": 6,
-            "ast": 2,
-            "stl": 0.6,
-            "blk": 0.7
-          },
-          "honors": [
-            "Mr. Basketball of Michigan (2017)",
-            "2018 Big Ten Tournament Champion",
-            "2018 NCAA Tournament runner-up (team reached championship game)",
-            "Team captain 2020-21"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
-        }
-      ]
-    },
-    {
       "id": "jalen-rose",
       "name": "Jalen Rose",
       "position": "PG",
@@ -526,135 +25,6 @@
             "First-Team All-Big Ten (1994)"
           ],
           "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
-        }
-      ]
-    },
-    {
-      "id": "jamal-crawford",
-      "name": "Jamal Crawford",
-      "position": "SG",
-      "firstYear": 2000,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "pts": 16.6,
-            "reb": 2.8,
-            "ast": 4.5,
-            "stl": 1.1,
-            "blk": 0.9
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/Jamal_Crawford"
-        }
-      ]
-    },
-    {
-      "id": "jimmy-king",
-      "name": "Jimmy King",
-      "position": "SG",
-      "firstYear": 1992,
-      "lastYear": 1995,
-      "seasons": [
-        {
-          "year": 1995,
-          "stats": {
-            "pts": 14.7,
-            "reb": 5,
-            "ast": 2.9,
-            "stl": 1.9,
-            "blk": 0.2
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
-        }
-      ]
-    },
-    {
-      "id": "jon-teske",
-      "name": "Jon Teske",
-      "position": "C",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "pts": 11.6,
-            "reb": 6.7,
-            "ast": 1.1,
-            "stl": 1,
-            "blk": 1.8
-          },
-          "honors": ["Honorable Mention All-Big Ten (2019)"],
-          "source": "https://en.wikipedia.org/wiki/Jon_Teske"
-        }
-      ]
-    },
-    {
-      "id": "jordan-morgan",
-      "name": "Jordan Morgan",
-      "position": "C",
-      "firstYear": 2011,
-      "lastYear": 2014,
-      "seasons": [
-        {
-          "year": 2011,
-          "stats": {
-            "pts": 9.2,
-            "reb": 5.4,
-            "ast": 0.5,
-            "stl": 0.6,
-            "blk": 0.5
-          },
-          "honors": ["Big Ten All-Defensive Team (2013)"],
-          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "jordan-poole",
-      "name": "Jordan Poole",
-      "position": "SG",
-      "firstYear": 2018,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "pts": 12.1,
-            "reb": 3,
-            "ast": 2.2,
-            "stl": 1.1,
-            "blk": 0.2
-          },
-          "honors": ["Honorable Mention All-Big Ten (2019)"],
-          "source": "https://en.wikipedia.org/wiki/Jordan_Poole"
-        }
-      ]
-    },
-    {
-      "id": "josh-asselin",
-      "name": "Josh Asselin",
-      "position": "PF",
-      "firstYear": 1998,
-      "lastYear": 2001,
-      "seasons": [
-        {
-          "year": 2001,
-          "stats": {
-            "pts": 9.6,
-            "reb": 6,
-            "ast": 1.4,
-            "stl": 0.1,
-            "blk": 1.6
-          },
-          "honors": [
-            "Co-captain 2000-01",
-            "Career blocks top-10 all-time at Michigan (136 career blocks)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Josh_Asselin"
         }
       ]
     },
@@ -684,26 +54,522 @@
       ]
     },
     {
-      "id": "kobe-bufkin",
-      "name": "Kobe Bufkin",
+      "id": "jimmy-king",
+      "name": "Jimmy King",
       "position": "SG",
-      "firstYear": 2022,
-      "lastYear": 2023,
+      "firstYear": 1994,
+      "lastYear": 1995,
       "seasons": [
         {
-          "year": 2023,
+          "year": 1994,
+          "stats": {
+            "pts": 11.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 14.7
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jimmy_King"
+        }
+      ]
+    },
+    {
+      "id": "makhtar-ndiaye",
+      "name": "Makhtar N'Diaye",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 1.6,
+            "reb": 2.1,
+            "ast": 0.3,
+            "stl": 0.1,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=345"
+        }
+      ]
+    },
+    {
+      "id": "ray-jackson",
+      "name": "Ray Jackson",
+      "position": "SF",
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "reb": 6.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 15.8,
+            "reb": 5.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "maceo-baston",
+      "name": "Maceo Baston",
+      "position": "C",
+      "eligible": ["PF", "C"],
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 7.7,
+            "reb": 5.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 11.7,
+            "reb": 6.6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1995%E2%80%9596_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 10.3,
+            "reb": 6.8,
+            "ast": 0.4,
+            "stl": 0.8,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 12.7,
+            "reb": 7.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Robert_Traylor"
+        }
+      ]
+    },
+    {
+      "id": "maurice-taylor",
+      "name": "Maurice Taylor",
+      "position": "PF",
+      "firstYear": 1995,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 12.4,
+            "reb": 5.1,
+            "ast": 1.2,
+            "stl": 0.5,
+            "blk": 1.1
+          },
+          "honors": ["Big Ten Freshman of the Year"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=493"
+        },
+        {
+          "year": 1996,
           "stats": {
             "pts": 14,
-            "reb": 4.5,
+            "reb": 7,
+            "ast": 1.3,
+            "stl": 0.7,
+            "blk": 0.8
+          },
+          "honors": ["All-Big Ten 2nd Team"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=493"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 12.4,
+            "reb": 6.2,
+            "ast": 1.1,
+            "stl": 0.7,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=493"
+        }
+      ]
+    },
+    {
+      "id": "travis-conlan",
+      "name": "Travis Conlan",
+      "position": "PG",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {},
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1996,
+          "stats": {},
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 4.7,
+            "reb": 3.7,
+            "ast": 4.5,
+            "stl": 1.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1998,
+          "stats": {},
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "albert-white",
+      "name": "Albert White",
+      "position": "SF",
+      "firstYear": 1996,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 9,
+            "reb": 4.7
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Albert_White_(basketball)"
+        }
+      ]
+    },
+    {
+      "id": "louis-bullock",
+      "name": "Louis Bullock",
+      "position": "SG",
+      "firstYear": 1996,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 13.5,
+            "reb": 3,
+            "ast": 1.7,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=62"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 16.3,
+            "reb": 3,
+            "ast": 2.2,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=62"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 17.1,
+            "reb": 3.3,
             "ast": 2.9,
-            "stl": 1.3,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": ["led Big Ten in 3PM (93)", "led Big Ten in FT% (91.1%)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=62"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 20.7,
+            "reb": 4.1,
+            "ast": 2.3,
+            "stl": 1.2,
+            "blk": 0.2
+          },
+          "honors": ["Team MVP", "led Big Ten in FT% (86.4%)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=62"
+        }
+      ]
+    },
+    {
+      "id": "robert-traylor",
+      "name": "Robert Traylor",
+      "position": "PF",
+      "firstYear": 1996,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 9,
+            "reb": 5.9,
+            "ast": 0.5,
+            "stl": 0.9,
             "blk": 0.7
           },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=511"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 13.1,
+            "reb": 7.7,
+            "ast": 0.9,
+            "stl": 1.1,
+            "blk": 1
+          },
+          "honors": ["NIT Most Valuable Player (vacated)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=511"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 16.2,
+            "reb": 10.2,
+            "ast": 2.6,
+            "stl": 1.3,
+            "blk": 1.4
+          },
           "honors": [
-            "All-Big Ten Third-Team (2023)",
-            "All-Big Ten Honorable Mention (2023)"
+            "Co-Captain",
+            "Co-Team MVP",
+            "All-American 3rd Team NABC (vacated)"
           ],
-          "source": "https://en.wikipedia.org/wiki/Kobe_Bufkin"
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=511"
+        }
+      ],
+      "eligible": ["PF", "C"]
+    },
+    {
+      "id": "brandun-hughes",
+      "name": "Brandun Hughes",
+      "position": "SG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1997,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 8.8,
+            "reb": 1.9,
+            "ast": 2.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "jerod-ward",
+      "name": "Jerod Ward",
+      "position": "SF",
+      "firstYear": 1997,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 8.3,
+            "reb": 3.5,
+            "ast": 0.8
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 13.1,
+            "reb": 6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jerod_Ward"
+        }
+      ]
+    },
+    {
+      "id": "brandon-smith",
+      "name": "Brandon Smith",
+      "position": "SF",
+      "firstYear": 1999,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 8.3,
+            "reb": 3.7
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/brandon-smith/14285"
+        }
+      ]
+    },
+    {
+      "id": "josh-asselin",
+      "name": "Josh Asselin",
+      "position": "PF",
+      "firstYear": 1999,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 8.9,
+            "reb": 5.9
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "reb": 5.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 9.6,
+            "reb": 6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Josh_Asselin"
+        }
+      ],
+      "eligible": ["PF", "C"]
+    },
+    {
+      "id": "peter-vignier",
+      "name": "Peter Vignier",
+      "position": "C",
+      "firstYear": 1999,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 6.3,
+            "reb": 7.3,
+            "stl": 0.5,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/peter-vignier/884"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 4.8,
+            "reb": 4.1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/peter-vignier/884"
+        }
+      ]
+    },
+    {
+      "id": "robbie-reid",
+      "name": "Robbie Reid",
+      "position": "PG",
+      "firstYear": 1999,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 13.5,
+            "ast": 3.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "jamal-crawford",
+      "name": "Jamal Crawford",
+      "position": "PG",
+      "firstYear": 2000,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 16.6,
+            "reb": 2.8,
+            "ast": 4.5,
+            "stl": 1.1,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=92"
+        }
+      ]
+    },
+    {
+      "id": "kevin-gaines",
+      "name": "Kevin Gaines",
+      "position": "SG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2000,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 11.7,
+            "ast": 4.6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Michigan_Wolverines_men%27s_basketball_team"
         }
       ]
     },
@@ -715,28 +581,530 @@
       "lastYear": 2003,
       "seasons": [
         {
+          "year": 2000,
+          "stats": {
+            "pts": 14.4,
+            "reb": 7.9,
+            "ast": 1.5,
+            "stl": 0.5,
+            "blk": 0.5
+          },
+          "honors": ["Big Ten Freshman of the Year", "All-Big Ten 3rd Team"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=565"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 17.8,
+            "reb": 8.4,
+            "ast": 1.8,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": ["All-Big Ten 2nd Team"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=565"
+        },
+        {
           "year": 2002,
           "stats": {
             "pts": 14.8,
             "reb": 6.3,
-            "ast": 1.1,
-            "stl": 0.7,
+            "ast": 1.4,
+            "stl": 0.9,
             "blk": 0.3
           },
-          "honors": [
-            "Big Ten Freshman of the Year (2000)",
-            "Second-Team All-Big Ten (2001)",
-            "First-Team All-Big Ten (2003)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/LaVell_Blanchard"
+          "honors": ["All-Big Ten 3rd Team"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=565"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 16.2,
+            "reb": 6.8,
+            "ast": 1,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": ["All-Big Ten 1st Team"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=565"
         }
       ]
+    },
+    {
+      "id": "bernard-robinson-jr",
+      "name": "Bernard Robinson Jr.",
+      "position": "SG",
+      "firstYear": 2001,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 14.4,
+            "reb": 4.9,
+            "ast": 2.2,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=568"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 12.1,
+            "reb": 4.6,
+            "ast": 2.4,
+            "stl": 1.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=568"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 11.7,
+            "reb": 6.1,
+            "ast": 3.4,
+            "stl": 1.3,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=568"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 12.1,
+            "reb": 5.7,
+            "ast": 3.8,
+            "stl": 1.9,
+            "blk": 0.3
+          },
+          "honors": ["Team Co-MVP"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=568"
+        }
+      ],
+      "eligible": ["SG", "SF"]
+    },
+    {
+      "id": "chris-young",
+      "name": "Chris Young",
+      "position": "C",
+      "eligible": ["PF", "C"],
+      "firstYear": 2001,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 8.6
+          },
+          "honors": ["Big Ten FG% champion (64.0%)"],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/chris-young/858"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 11.4,
+            "reb": 5.7
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/chris-young/858"
+        }
+      ]
+    },
+    {
+      "id": "gavin-groninger",
+      "name": "Gavin Groninger",
+      "position": "PG",
+      "firstYear": 2001,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {},
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2002,
+          "stats": {},
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 1.5,
+            "reb": 1.1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/gavin-groninger/840"
+        }
+      ]
+    },
+    {
+      "id": "leon-jones",
+      "name": "Leon Jones",
+      "position": "SG",
+      "firstYear": 2002,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 5.8
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/roster.aspx?rp_id=855"
+        }
+      ]
+    },
+    {
+      "id": "chris-hunter",
+      "name": "Chris Hunter",
+      "position": "C",
+      "firstYear": 2003,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 5.4,
+            "reb": 3.5,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=574"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 5,
+            "reb": 3.4,
+            "ast": 0.5,
+            "stl": 0.5,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=574"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 9.3,
+            "reb": 3.4,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=574"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 8.1,
+            "reb": 3.8,
+            "ast": 0.4,
+            "stl": 0.6,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=574"
+        }
+      ],
+      "eligible": ["C", "PF"]
+    },
+    {
+      "id": "daniel-horton",
+      "name": "Daniel Horton",
+      "position": "PG",
+      "firstYear": 2003,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 15.2,
+            "reb": 2.3,
+            "ast": 4.5,
+            "stl": 1.4,
+            "blk": 0.4
+          },
+          "honors": ["Big Ten Freshman of the Year (2003)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=572"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 12.2,
+            "reb": 2.9,
+            "ast": 3.6,
+            "stl": 1.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=572"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 12.4,
+            "reb": 2.8,
+            "ast": 4.2,
+            "stl": 1.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=572"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 17.6,
+            "reb": 2.5,
+            "ast": 5.3,
+            "stl": 1.9,
+            "blk": 0.3
+          },
+          "honors": ["All-Big Ten First Team (media)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=572"
+        }
+      ]
+    },
+    {
+      "id": "graham-brown",
+      "name": "Graham Brown",
+      "position": "C",
+      "firstYear": 2003,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 5.8,
+            "reb": 4.6,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=573"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 4.6,
+            "reb": 4.1,
+            "ast": 0.4,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=573"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 5.5,
+            "reb": 5.2,
+            "ast": 0.7,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": ["Team Co-Captain"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=573"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 5.1,
+            "reb": 7.3,
+            "ast": 1.2,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": ["Team Co-Captain"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=573"
+        }
+      ],
+      "eligible": ["C", "PF"]
+    },
+    {
+      "id": "brent-petway",
+      "name": "Brent Petway",
+      "position": "PF",
+      "eligible": ["PF", "C"],
+      "firstYear": 2004,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 3.9,
+            "reb": 3.4,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=579"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 7.1,
+            "reb": 5.4,
+            "ast": 0.9,
+            "stl": 0.9,
+            "blk": 1.6
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=579"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 5.5,
+            "reb": 3.6,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=579"
+        }
+      ]
+    },
+    {
+      "id": "courtney-sims",
+      "name": "Courtney Sims",
+      "position": "C",
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 7.7,
+            "reb": 4.7,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 2
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=581"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 9.8,
+            "reb": 5.2,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 1.7
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=581"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 10.9,
+            "reb": 5.7,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 1.4
+          },
+          "honors": ["Big Ten FG% champion (63.3%)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=581"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 12.3,
+            "reb": 6.7,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 1.6
+          },
+          "honors": [
+            "2nd all-time Michigan career blocks leader (213 career blocks)",
+            "2004 NIT Championship team",
+            "NBA 2nd-round draft pick 2007 (Indiana Pacers)"
+          ],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/courtney-sims/784"
+        }
+      ]
+    },
+    {
+      "id": "dion-harris",
+      "name": "Dion Harris",
+      "position": "SG",
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 10.1,
+            "reb": 2.2,
+            "ast": 2.2,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=578"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 14.3,
+            "reb": 2.8,
+            "ast": 3.5,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": ["Team MVP"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=578"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 11.1,
+            "reb": 2.9,
+            "ast": 2.8,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=578"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 13.4,
+            "reb": 2.1,
+            "ast": 3.6,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": ["All-Big Ten Third Team"],
+          "source": "https://en.wikipedia.org/wiki/Dion_Harris"
+        }
+      ],
+      "eligible": ["SG", "PG"]
     },
     {
       "id": "lester-abram",
       "name": "Lester Abram",
       "position": "SF",
-      "firstYear": 2003,
+      "firstYear": 2004,
       "lastYear": 2007,
       "seasons": [
         {
@@ -748,10 +1116,174 @@
             "stl": 1,
             "blk": 0.3
           },
-          "honors": ["NIT Champion (2004)", "All-Big Ten Third Team (2004)"],
+          "honors": ["Team Co-MVP"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=571"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 6.7,
+            "reb": 4.7,
+            "ast": 1.3,
+            "stl": 0.3,
+            "blk": 0
+          },
+          "honors": ["Team Co-Captain"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=571"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 10,
+            "reb": 3.3,
+            "ast": 1,
+            "stl": 1,
+            "blk": 0.2
+          },
+          "honors": ["Team Co-Captain"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=571"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 9.1,
+            "reb": 3.8,
+            "ast": 2.1,
+            "stl": 0.9
+          },
+          "honors": [],
           "source": "https://en.wikipedia.org/wiki/Lester_Abram"
         }
+      ],
+      "eligible": ["SF", "PF"]
+    },
+    {
+      "id": "ron-coleman",
+      "name": "Ron Coleman",
+      "position": "SG",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 7.5,
+            "reb": 2.5,
+            "ast": 1.1,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=590"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 5.8,
+            "reb": 2.7,
+            "ast": 0.8,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=590"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 5.7,
+            "reb": 3.1,
+            "ast": 1.1,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=590"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 4.8,
+            "reb": 3.2,
+            "ast": 1.3,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=590"
+        }
+      ],
+      "eligible": ["SG", "SF"]
+    },
+    {
+      "id": "ekpe-udoh",
+      "name": "Ekpe Udoh",
+      "position": "C",
+      "firstYear": 2007,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 6,
+            "reb": 5,
+            "ast": 0.9,
+            "stl": 0.8,
+            "blk": 2.9
+          },
+          "honors": ["Big Ten All-Defensive Team (2008)"],
+          "source": "https://en.wikipedia.org/wiki/Ekpe_Udoh"
+        }
       ]
+    },
+    {
+      "id": "deshawn-sims",
+      "name": "DeShawn Sims",
+      "position": "PF",
+      "firstYear": 2008,
+      "lastYear": 2010,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 12.3,
+            "reb": 5.4
+          },
+          "honors": ["All-Big Ten Honorable Mention"],
+          "source": "https://en.wikipedia.org/wiki/DeShawn_Sims"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 15.4,
+            "reb": 6.8,
+            "ast": 0.7,
+            "stl": 1.1,
+            "blk": 0.8
+          },
+          "honors": [
+            "All-Big Ten 2nd Team (media)",
+            "All-Big Ten 3rd Team (coaches)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 16.8,
+            "reb": 7.6,
+            "ast": 0.9,
+            "stl": 1.1,
+            "blk": 0.7
+          },
+          "honors": [
+            "Second-Team All-Big Ten (2009)",
+            "Second-Team All-Big Ten (2010)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ],
+      "eligible": ["PF", "C"]
     },
     {
       "id": "manny-harris",
@@ -760,6 +1292,30 @@
       "firstYear": 2008,
       "lastYear": 2010,
       "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 16.1,
+            "reb": 4.2,
+            "ast": 2.7,
+            "stl": 1.4,
+            "blk": 0.2
+          },
+          "honors": ["All-Big Ten Second Team", "Big Ten All-Freshman Team"],
+          "source": "https://en.wikipedia.org/wiki/Manny_Harris"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 16.8,
+            "reb": 6.7,
+            "ast": 4.4,
+            "stl": 1.2,
+            "blk": 0.5
+          },
+          "honors": ["All-Big Ten First Team"],
+          "source": "https://en.wikipedia.org/wiki/Manny_Harris"
+        },
         {
           "year": 2010,
           "stats": {
@@ -775,23 +1331,365 @@
       ]
     },
     {
-      "id": "mike-smith",
-      "name": "Mike Smith",
-      "position": "PG",
-      "firstYear": 2021,
-      "lastYear": 2021,
+      "id": "laval-lucas-perry",
+      "name": "Laval Lucas-Perry",
+      "position": "SF",
+      "firstYear": 2009,
+      "lastYear": 2010,
       "seasons": [
         {
-          "year": 2021,
+          "year": 2009,
           "stats": {
-            "pts": 9,
-            "reb": 2.8,
-            "ast": 5.3,
-            "stl": 0.5,
-            "blk": 0
+            "pts": 6.5,
+            "reb": 1.7,
+            "ast": 1.2
           },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/Mike_Smith_(basketball,_born_1997)"
+          "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 4.8,
+            "reb": 2.3,
+            "ast": 1.7
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "stu-douglass",
+      "name": "Stu Douglass",
+      "position": "SG",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 6.1,
+            "reb": 1.4,
+            "ast": 2.1,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 6.8,
+            "reb": 2.2,
+            "ast": 2.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 7.1,
+            "reb": 3,
+            "ast": 1.7,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 7.5,
+            "reb": 2.6,
+            "ast": 2.3,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "zack-gibson",
+      "name": "Zack Gibson",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2009,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 3.9,
+            "reb": 2.2,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "zack-novak",
+      "name": "Zack Novak",
+      "position": "SF",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 9.2,
+            "reb": 4.5,
+            "ast": 1.8,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "darius-morris",
+      "name": "Darius Morris",
+      "position": "PG",
+      "firstYear": 2010,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 15,
+            "reb": 4,
+            "ast": 6.7,
+            "stl": 1,
+            "blk": 0
+          },
+          "honors": ["Third-Team All-Big Ten (2011)"],
+          "source": "https://en.wikipedia.org/wiki/Darius_Morris"
+        }
+      ]
+    },
+    {
+      "id": "evan-smotrycz",
+      "name": "Evan Smotrycz",
+      "position": "PF",
+      "eligible": ["PF", "SF"],
+      "firstYear": 2011,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 6.3,
+            "reb": 2.3,
+            "ast": 0.7,
+            "stl": 0.5,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 7.7,
+            "reb": 4.8,
+            "ast": 0.9,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "jon-horford",
+      "name": "Jon Horford",
+      "position": "PF",
+      "firstYear": 2011,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 2,
+            "reb": 2,
+            "ast": 0.1,
+            "stl": 0,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jon_Horford"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 3.8,
+            "reb": 4.2,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.7
+          },
+          "honors": ["Team Captain"],
+          "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "jordan-morgan",
+      "name": "Jordan Morgan",
+      "position": "C",
+      "firstYear": 2011,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 9.2,
+            "reb": 5.4,
+            "ast": 0.5,
+            "stl": 0.6,
+            "blk": 0.5
+          },
+          "honors": ["Big Ten All-Defensive Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 7.3,
+            "reb": 5.6,
+            "ast": 0.3,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/45978/jordan-morgan"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 4.6,
+            "reb": 4.3,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": ["All-Big Ten Defensive Team"],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/45978/jordan-morgan"
+        }
+      ]
+    },
+    {
+      "id": "tim-hardaway-jr",
+      "name": "Tim Hardaway Jr.",
+      "position": "SG",
+      "firstYear": 2011,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 14.5,
+            "reb": 4.7,
+            "ast": 2.4,
+            "stl": 0.7,
+            "blk": 0.4
+          },
+          "honors": ["First-Team All-Big Ten (2013)"],
+          "source": "https://en.wikipedia.org/wiki/Tim_Hardaway_Jr."
+        }
+      ]
+    },
+    {
+      "id": "trey-burke",
+      "name": "Trey Burke",
+      "position": "PG",
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 14.8,
+            "reb": 3.5,
+            "ast": 4.6,
+            "stl": 0.9,
+            "blk": 0.4
+          },
+          "honors": ["Big Ten Freshman of the Year", "All-Big Ten Second Team"],
+          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 18.6,
+            "reb": 3.2,
+            "ast": 6.7,
+            "stl": 1.6,
+            "blk": 0.5
+          },
+          "honors": [
+            "Wooden Award (2013)",
+            "Naismith Player of the Year (2013)",
+            "Oscar Robertson Trophy (2013)",
+            "Bob Cousy Award (2013)",
+            "Consensus First-Team All-American (2013)",
+            "Big Ten Player of the Year (2013)",
+            "Big Ten Freshman of the Year (2012)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Trey_Burke"
+        }
+      ]
+    },
+    {
+      "id": "glenn-robinson-iii",
+      "name": "Glenn Robinson III",
+      "position": "SF",
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 11,
+            "reb": 5.4,
+            "ast": 1.1,
+            "stl": 1,
+            "blk": 0.3
+          },
+          "honors": ["Big Ten All-Freshman Team"],
+          "source": "https://en.wikipedia.org/wiki/Glenn_Robinson_III"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 13.1,
+            "reb": 4.4,
+            "ast": 1.2,
+            "stl": 0.9,
+            "blk": 0.3
+          },
+          "honors": ["Big Ten All-Freshman Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/Glenn_Robinson_III"
         }
       ]
     },
@@ -813,77 +1711,6 @@
           },
           "honors": ["NCAA South Regional All-Tournament Team (2013)"],
           "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "moritz-wagner",
-      "name": "Moritz Wagner",
-      "position": "C",
-      "firstYear": 2016,
-      "lastYear": 2018,
-      "seasons": [
-        {
-          "year": 2018,
-          "stats": {
-            "pts": 14.6,
-            "reb": 7.1,
-            "ast": 0.8,
-            "stl": 1,
-            "blk": 0.5
-          },
-          "honors": [
-            "Second-Team All-Big Ten (2018)",
-            "Big Ten Tournament Most Outstanding Player (2018)",
-            "Final Four All-Tournament Team (2018)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Moritz_Wagner_(basketball)"
-        }
-      ]
-    },
-    {
-      "id": "moussa-diabate",
-      "name": "Moussa Diabaté",
-      "position": "C",
-      "firstYear": 2022,
-      "lastYear": 2022,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "pts": 9,
-            "reb": 6,
-            "ast": 0.8,
-            "stl": 0.3,
-            "blk": 0.9
-          },
-          "honors": ["Big Ten All-Freshman Team (2022)"],
-          "source": "https://en.wikipedia.org/wiki/Moussa_Diabat%C3%A9"
-        }
-      ]
-    },
-    {
-      "id": "muhammad-ali-abdur-rahkman",
-      "name": "Muhammad-Ali Abdur-Rahkman",
-      "position": "SG",
-      "firstYear": 2015,
-      "lastYear": 2018,
-      "seasons": [
-        {
-          "year": 2018,
-          "stats": {
-            "pts": 12.9,
-            "reb": 3.9,
-            "ast": 3.2,
-            "stl": 0.9,
-            "blk": 0.2
-          },
-          "honors": [
-            "Honorable Mention All-Big Ten (2018)",
-            "Big Ten Tournament All-Tournament Team (2018)",
-            "West Region All-Tournament Team (2018)"
-          ],
-          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/3136492/muhammad-ali-abdur-rahkman"
         }
       ]
     },
@@ -913,6 +1740,1151 @@
       ]
     },
     {
+      "id": "derrick-walton-jr",
+      "name": "Derrick Walton Jr.",
+      "position": "PG",
+      "firstYear": 2014,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 7.9,
+            "reb": 3,
+            "ast": 2.9,
+            "stl": 0.6,
+            "blk": 0
+          },
+          "honors": ["Big Ten All-Freshman Team"],
+          "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.6,
+            "reb": 5.4,
+            "ast": 4.5,
+            "stl": 1.8,
+            "blk": 0.1
+          },
+          "honors": ["3rd Team All-Big Ten"],
+          "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 15.5,
+            "reb": 4.8,
+            "ast": 5,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": ["2nd Team All-Big Ten", "Big Ten Tournament MOP"],
+          "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "kameron-chatman",
+      "name": "Kameron Chatman",
+      "position": "SF",
+      "firstYear": 2015,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 3.6,
+            "reb": 2.5,
+            "ast": 0.7,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "ricky-doyle",
+      "name": "Ricky Doyle",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2015,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 6.1,
+            "reb": 3.2,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "spike-albrecht",
+      "name": "Spike Albrecht",
+      "position": "PG",
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 7.5,
+            "reb": 2.3,
+            "ast": 3.9,
+            "stl": 0.9,
+            "blk": 0
+          },
+          "honors": ["NCAA Tournament All-Tournament Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 1.9,
+            "reb": 0.8,
+            "ast": 1.4,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "zak-irvin",
+      "name": "Zak Irvin",
+      "position": "SG",
+      "firstYear": 2015,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 14.2,
+            "reb": 4.8,
+            "ast": 1.5,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.8,
+            "reb": 4.5,
+            "ast": 3.1,
+            "stl": 0.8,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 13,
+            "reb": 4.5,
+            "ast": 3,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ],
+      "eligible": ["SG", "SF"]
+    },
+    {
+      "id": "aubrey-dawkins",
+      "name": "Aubrey Dawkins",
+      "position": "SG",
+      "eligible": ["SG"],
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 6.5,
+            "reb": 2.5,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
+    },
+    {
+      "id": "caris-levert",
+      "name": "Caris LeVert",
+      "position": "SG",
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 16.5,
+            "reb": 5.3,
+            "ast": 4.9,
+            "stl": 1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ],
+      "eligible": ["SG", "SF"]
+    },
+    {
+      "id": "dj-wilson",
+      "name": "D.J. Wilson",
+      "position": "PF",
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 2.7,
+            "reb": 0.7,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/D._J._Wilson"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 11,
+            "reb": 5.3,
+            "ast": 1.3,
+            "stl": 0.5,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/D._J._Wilson"
+        }
+      ],
+      "eligible": ["PF", "C"]
+    },
+    {
+      "id": "duncan-robinson",
+      "name": "Duncan Robinson",
+      "position": "SF",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.2,
+            "reb": 3.5,
+            "ast": 1.8,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Duncan_Robinson"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 7.7,
+            "reb": 1.7,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Duncan_Robinson"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 9.2,
+            "reb": 2.4,
+            "ast": 1.1,
+            "stl": 0.7,
+            "blk": 0.4
+          },
+          "honors": ["Big Ten Sixth Man of the Year"],
+          "source": "https://en.wikipedia.org/wiki/Duncan_Robinson"
+        }
+      ],
+      "eligible": ["SF", "SG"]
+    },
+    {
+      "id": "moritz-wagner",
+      "name": "Moritz Wagner",
+      "position": "C",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 2.9,
+            "reb": 1.6,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Moritz_Wagner_(basketball)"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 12.1,
+            "reb": 4.2,
+            "ast": 0.5,
+            "stl": 1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Moritz_Wagner_(basketball)"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 14.6,
+            "reb": 7.1,
+            "ast": 0.8,
+            "stl": 1,
+            "blk": 0.5
+          },
+          "honors": ["2nd Team All-Big Ten", "Big Ten Tournament MVP"],
+          "source": "https://en.wikipedia.org/wiki/Moritz_Wagner_(basketball)"
+        }
+      ],
+      "eligible": ["C", "PF"]
+    },
+    {
+      "id": "muhammad-ali-abdur-rahkman",
+      "name": "Muhammad-Ali Abdur-Rahkman",
+      "position": "SG",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 8.6,
+            "reb": 2.7,
+            "ast": 1.7,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/3136492/muhammad-ali-abdur-rahkman"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 9.1,
+            "reb": 2.8,
+            "ast": 2,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/3136492/muhammad-ali-abdur-rahkman"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 12.9,
+            "reb": 3.9,
+            "ast": 3.2,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": ["Honorable Mention All-Big Ten"],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/3136492/muhammad-ali-abdur-rahkman"
+        }
+      ],
+      "eligible": ["SG", "PG"]
+    },
+    {
+      "id": "zavier-simpson",
+      "name": "Zavier Simpson",
+      "position": "PG",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 1.6,
+            "reb": 0.6,
+            "ast": 1,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 7.3,
+            "reb": 3.2,
+            "ast": 3.7,
+            "stl": 1.3,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 8.8,
+            "reb": 5,
+            "ast": 6.6,
+            "stl": 1.4,
+            "blk": 0.1
+          },
+          "honors": ["2nd Team All-Big Ten"],
+          "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 12.9,
+            "reb": 4.5,
+            "ast": 7.9,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": ["2nd Team All-Big Ten"],
+          "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+        }
+      ]
+    },
+    {
+      "id": "charles-matthews",
+      "name": "Charles Matthews",
+      "position": "SF",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 13,
+            "reb": 5.5,
+            "ast": 2.4,
+            "stl": 0.7,
+            "blk": 0.6
+          },
+          "honors": ["NCAA West Regional MOP"],
+          "source": "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 12.2,
+            "reb": 5,
+            "ast": 1.4,
+            "stl": 1.1,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)"
+        }
+      ],
+      "eligible": ["SF", "SG"]
+    },
+    {
+      "id": "eli-brooks",
+      "name": "Eli Brooks",
+      "position": "SG",
+      "firstYear": 2018,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 1.8,
+            "reb": 1.1,
+            "ast": 1,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 2.5,
+            "reb": 1.2,
+            "ast": 1.1,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 10.6,
+            "reb": 3.7,
+            "ast": 2,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 9.5,
+            "reb": 3.1,
+            "ast": 3.1,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 12.8,
+            "reb": 3.7,
+            "ast": 2.9,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": ["Honorable Mention All-Big Ten (2022)"],
+          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+        }
+      ],
+      "eligible": ["PG", "SG"]
+    },
+    {
+      "id": "isaiah-livers",
+      "name": "Isaiah Livers",
+      "position": "PF",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 3.4,
+            "reb": 2.3,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 7.9,
+            "reb": 3.9,
+            "ast": 0.7,
+            "stl": 0.7,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 12.9,
+            "reb": 4,
+            "ast": 1.1,
+            "stl": 0.4,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 13.1,
+            "reb": 6,
+            "ast": 2,
+            "stl": 0.6,
+            "blk": 0.7
+          },
+          "honors": ["2nd Team All-Big Ten"],
+          "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
+        }
+      ],
+      "eligible": ["PF", "SF"]
+    },
+    {
+      "id": "jon-teske",
+      "name": "Jon Teske",
+      "position": "C",
+      "firstYear": 2018,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 3.4,
+            "reb": 3.3,
+            "ast": 0.4,
+            "stl": 0.6,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jon_Teske"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 9.5,
+            "reb": 7,
+            "ast": 0.9,
+            "stl": 0.7,
+            "blk": 2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jon_Teske"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 11.6,
+            "reb": 6.7,
+            "ast": 1.1,
+            "stl": 1,
+            "blk": 1.8
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jon_Teske"
+        }
+      ]
+    },
+    {
+      "id": "jordan-poole",
+      "name": "Jordan Poole",
+      "position": "SG",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 6.1,
+            "reb": 1.4,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jordan_Poole"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 12.1,
+            "reb": 3,
+            "ast": 2.2,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jordan_Poole"
+        }
+      ],
+      "eligible": ["SG", "PG"]
+    },
+    {
+      "id": "brandon-johns-jr",
+      "name": "Brandon Johns Jr.",
+      "position": "PF",
+      "firstYear": 2019,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 0.8,
+            "reb": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/brandon-johns-jr/18454"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 6,
+            "reb": 3.9
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/basketball/roster/brandon-johns-jr/21115"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 4.9,
+            "reb": 2.3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/basketball/roster/brandon-johns-jr/21115"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 3.2,
+            "reb": 2,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ],
+      "eligible": ["PF", "SF"]
+    },
+    {
+      "id": "ignas-brazdeikis",
+      "name": "Ignas Brazdeikis",
+      "position": "SF",
+      "firstYear": 2019,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 14.8,
+            "reb": 5.4,
+            "ast": 0.8,
+            "stl": 0.7,
+            "blk": 0.5
+          },
+          "honors": ["Big Ten Freshman of the Year", "2nd Team All-Big Ten"],
+          "source": "https://en.wikipedia.org/wiki/Ignas_Brazdeikis"
+        }
+      ],
+      "eligible": ["PF", "SF"]
+    },
+    {
+      "id": "franz-wagner",
+      "name": "Franz Wagner",
+      "position": "SF",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 11.6,
+            "reb": 5.6,
+            "ast": 1,
+            "stl": 1.3,
+            "blk": 0.6
+          },
+          "honors": ["All-Big Ten Freshman Team"],
+          "source": "https://en.wikipedia.org/wiki/Franz_Wagner_(basketball)"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 12.5,
+            "reb": 6.5,
+            "ast": 3,
+            "stl": 1.3,
+            "blk": 1
+          },
+          "honors": ["2nd Team All-Big Ten"],
+          "source": "https://en.wikipedia.org/wiki/Franz_Wagner_(basketball)"
+        }
+      ],
+      "eligible": ["SF", "PF"]
+    },
+    {
+      "id": "chaundee-brown",
+      "name": "Chaundee Brown Jr.",
+      "position": "SG",
+      "eligible": ["SG", "SF"],
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 8,
+            "reb": 3.1,
+            "ast": 0.6,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Chaundee_Brown"
+        }
+      ]
+    },
+    {
+      "id": "hunter-dickinson",
+      "name": "Hunter Dickinson",
+      "position": "C",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 14.1,
+            "reb": 7.4,
+            "ast": 0.9,
+            "stl": 0.3,
+            "blk": 1.4
+          },
+          "honors": ["Big Ten Freshman of the Year", "2nd Team All-American"],
+          "source": "https://en.wikipedia.org/wiki/Hunter_Dickinson"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 18.6,
+            "reb": 8.6,
+            "ast": 2.3,
+            "stl": 0.5,
+            "blk": 1.5
+          },
+          "honors": [
+            "Big Ten Freshman of the Year (2021)",
+            "Consensus Second-Team All-American (2021)",
+            "First-Team All-Big Ten (2021)",
+            "Second-Team All-Big Ten (2022)",
+            "First-Team All-Big Ten (2023)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Hunter_Dickinson"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 18.5,
+            "reb": 9,
+            "ast": 1.5,
+            "stl": 0.5,
+            "blk": 1.8
+          },
+          "honors": [
+            "All-Big Ten First Team",
+            "AP All-American Honorable Mention"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Hunter_Dickinson"
+        }
+      ]
+    },
+    {
+      "id": "mike-smith",
+      "name": "Mike Smith",
+      "position": "PG",
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 9,
+            "reb": 2.8,
+            "ast": 5.3,
+            "stl": 0.5,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Mike_Smith_(basketball,_born_1997)"
+        }
+      ]
+    },
+    {
+      "id": "caleb-houstan",
+      "name": "Caleb Houstan",
+      "position": "SF",
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10.1,
+            "reb": 4,
+            "ast": 1.4,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": ["McDonald's All-American (2021)"],
+          "source": "https://en.wikipedia.org/wiki/Caleb_Houstan"
+        }
+      ]
+    },
+    {
+      "id": "devante-jones",
+      "name": "DeVante' Jones",
+      "position": "PG",
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10.3,
+            "reb": 4.5,
+            "ast": 4.6,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/DeVante%27_Jones"
+        }
+      ]
+    },
+    {
+      "id": "kobe-bufkin",
+      "name": "Kobe Bufkin",
+      "position": "SG",
+      "firstYear": 2022,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 14,
+            "reb": 4.5,
+            "ast": 2.9,
+            "stl": 1.3,
+            "blk": 0.7
+          },
+          "honors": [
+            "All-Big Ten Third-Team (2023)",
+            "All-Big Ten Honorable Mention (2023)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Kobe_Bufkin"
+        }
+      ]
+    },
+    {
+      "id": "moussa-diabate",
+      "name": "Moussa Diabaté",
+      "position": "C",
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 9,
+            "reb": 6,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 0.9
+          },
+          "honors": ["Big Ten All-Freshman Team (2022)"],
+          "source": "https://en.wikipedia.org/wiki/Moussa_Diabat%C3%A9"
+        }
+      ]
+    },
+    {
+      "id": "dug-mcdaniel",
+      "name": "Dug McDaniel",
+      "position": "PG",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 8.6,
+            "reb": 3.1,
+            "ast": 3.6,
+            "stl": 1.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Dug_McDaniel"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 16.3,
+            "reb": 3.7,
+            "ast": 4.7,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Dug_McDaniel"
+        }
+      ]
+    },
+    {
+      "id": "jett-howard",
+      "name": "Jett Howard",
+      "position": "SF",
+      "eligible": ["SF", "SG"],
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 14.2,
+            "reb": 2.8,
+            "ast": 2,
+            "blk": 0.7
+          },
+          "honors": [
+            "Third-Team All-Big Ten (2023)",
+            "Big Ten All-Freshman Team (2023)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Jett_Howard"
+        }
+      ]
+    },
+    {
+      "id": "joey-baker",
+      "name": "Joey Baker",
+      "position": "SF",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 5.7,
+            "reb": 2.2,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/4395624/joey-baker"
+        }
+      ]
+    },
+    {
+      "id": "terrance-williams-ii",
+      "name": "Terrance Williams II",
+      "position": "PF",
+      "eligible": ["PF", "SF"],
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 6.1,
+            "reb": 5.9,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/4702236/terrance-williams-ii"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 12.4,
+            "reb": 4.5,
+            "ast": 1.5,
+            "stl": 0.6,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/4702236/terrance-williams-ii"
+        }
+      ]
+    },
+    {
+      "id": "jaelin-llewellyn",
+      "name": "Jaelin Llewellyn",
+      "position": "SG",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 5.2,
+            "reb": 1.2,
+            "ast": 1.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/gamelog/_/id/4398002/jaelin-llewellyn"
+        }
+      ]
+    },
+    {
+      "id": "nimari-burnett",
+      "name": "Nimari Burnett",
+      "position": "SG",
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 9.6,
+            "reb": 4.1,
+            "ast": 2.4,
+            "stl": 0.9,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/4433138/nimari-burnett"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 9.4,
+            "reb": 3.5,
+            "ast": 1.5,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/4433138/nimari-burnett"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 8.2,
+            "reb": 2.8,
+            "ast": 1.2,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/4433138/nimari-burnett"
+        }
+      ]
+    },
+    {
       "id": "olivier-nkamhoua",
       "name": "Olivier Nkamhoua",
       "position": "PF",
@@ -934,71 +2906,48 @@
       ]
     },
     {
-      "id": "ray-jackson",
-      "name": "Ray Jackson",
-      "position": "SF",
-      "firstYear": 1992,
-      "lastYear": 1995,
-      "seasons": [
-        {
-          "year": 1995,
-          "stats": {
-            "pts": 15.8,
-            "reb": 5.3,
-            "ast": 3,
-            "stl": 1.1,
-            "blk": 0.3
-          },
-          "honors": ["All-Big Ten (1994)", "All-Big Ten (1995)"],
-          "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
-        }
-      ]
-    },
-    {
-      "id": "robbie-reid",
-      "name": "Robbie Reid",
-      "position": "PG",
-      "firstYear": 1998,
-      "lastYear": 1999,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "pts": 13.5,
-            "reb": 3.4,
-            "ast": 3.1,
-            "stl": 1.1,
-            "blk": 0
-          },
-          "honors": [
-            "Led Big Ten in 3-point FG made in conference play (49) and 3-point FG% in conference play (45.8%) – 1998-99"
-          ],
-          "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "robert-traylor",
-      "name": "Robert Traylor",
+      "id": "tarris-reed-jr",
+      "name": "Tarris Reed Jr.",
       "position": "C",
-      "firstYear": 1996,
-      "lastYear": 1998,
+      "firstYear": 2024,
+      "lastYear": 2024,
       "seasons": [
         {
-          "year": 1998,
+          "year": 2024,
           "stats": {
-            "pts": 16.2,
-            "reb": 10.1,
-            "ast": 2.6,
-            "stl": 1.3,
+            "pts": 9,
+            "reb": 7.2,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 1.4
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Tarris_Reed"
+        }
+      ]
+    },
+    {
+      "id": "danny-wolf",
+      "name": "Danny Wolf",
+      "position": "PF",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 13.2,
+            "reb": 9.7,
+            "ast": 3.6,
+            "stl": 0.7,
             "blk": 1.4
           },
           "honors": [
-            "NABC Third-Team All-American (1998)",
-            "Big Ten Tournament MVP (1998, vacated)",
-            "McDonald's All-American (1995)"
+            "Second-Team All-Big Ten (2025)",
+            "Big Ten Tournament All-Tournament Team (2025)",
+            "South Regional All-Tournament Team (2025)"
           ],
-          "source": "https://en.wikipedia.org/wiki/Robert_Traylor"
+          "source": "https://en.wikipedia.org/wiki/Danny_Wolf"
         }
       ]
     },
@@ -1007,7 +2956,7 @@
       "name": "Roddy Gayle Jr.",
       "position": "SG",
       "firstYear": 2025,
-      "lastYear": 2025,
+      "lastYear": 2026,
       "seasons": [
         {
           "year": 2025,
@@ -1020,48 +2969,37 @@
           },
           "honors": [],
           "source": "https://en.wikipedia.org/wiki/Roddy_Gayle_Jr."
-        }
-      ]
-    },
-    {
-      "id": "spike-albrecht",
-      "name": "Spike Albrecht",
-      "position": "PG",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "seasons": [
+        },
         {
-          "year": 2015,
+          "year": 2026,
           "stats": {
-            "pts": 7.5,
-            "reb": 2.3,
-            "ast": 3.9,
-            "stl": 0.9,
-            "blk": 0
-          },
-          "honors": ["NCAA Tournament All-Tournament Team (2013)"],
-          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "tim-hardaway-jr",
-      "name": "Tim Hardaway Jr.",
-      "position": "SG",
-      "firstYear": 2011,
-      "lastYear": 2013,
-      "seasons": [
-        {
-          "year": 2013,
-          "stats": {
-            "pts": 14.5,
-            "reb": 4.7,
-            "ast": 2.4,
+            "pts": 7.3,
+            "reb": 3.3,
+            "ast": 1.3,
             "stl": 0.7,
-            "blk": 0.4
+            "blk": 0.5
           },
-          "honors": ["First-Team All-Big Ten (2013)"],
-          "source": "https://en.wikipedia.org/wiki/Tim_Hardaway_Jr."
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/5105836/roddy-gayle-jr"
+        }
+      ]
+    },
+    {
+      "id": "sam-walters",
+      "name": "Sam Walters",
+      "position": "SF",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 5,
+            "reb": 1.6,
+            "ast": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/sam-walters-3/gamelog/2025/"
         }
       ]
     },
@@ -1083,35 +3021,6 @@
           },
           "honors": [],
           "source": "https://en.wikipedia.org/wiki/Tre_Donaldson"
-        }
-      ]
-    },
-    {
-      "id": "trey-burke",
-      "name": "Trey Burke",
-      "position": "PG",
-      "firstYear": 2012,
-      "lastYear": 2013,
-      "seasons": [
-        {
-          "year": 2013,
-          "stats": {
-            "pts": 18.6,
-            "reb": 3.2,
-            "ast": 6.7,
-            "stl": 1.6,
-            "blk": 0.5
-          },
-          "honors": [
-            "Wooden Award (2013)",
-            "Naismith Player of the Year (2013)",
-            "Oscar Robertson Trophy (2013)",
-            "Bob Cousy Award (2013)",
-            "Consensus First-Team All-American (2013)",
-            "Big Ten Player of the Year (2013)",
-            "Big Ten Freshman of the Year (2012)"
-          ],
-          "source": "https://en.wikipedia.org/wiki/Trey_Burke"
         }
       ]
     },
@@ -1140,69 +3049,164 @@
       ]
     },
     {
-      "id": "zack-novak",
-      "name": "Zack Novak",
-      "position": "SF",
-      "firstYear": 2009,
-      "lastYear": 2012,
+      "id": "aday-mara",
+      "name": "Aday Mara",
+      "position": "C",
+      "firstYear": 2026,
+      "lastYear": 2026,
       "seasons": [
         {
-          "year": 2012,
+          "year": 2026,
           "stats": {
-            "pts": 9.2,
-            "reb": 4.5,
-            "ast": 1.8,
-            "stl": 0.8,
-            "blk": 0.1
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "zak-irvin",
-      "name": "Zak Irvin",
-      "position": "SG",
-      "firstYear": 2014,
-      "lastYear": 2017,
-      "seasons": [
-        {
-          "year": 2015,
-          "stats": {
-            "pts": 14.2,
-            "reb": 4.8,
-            "ast": 1.5,
-            "stl": 1,
-            "blk": 0.1
-          },
-          "honors": [],
-          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
-        }
-      ]
-    },
-    {
-      "id": "zavier-simpson",
-      "name": "Zavier Simpson",
-      "position": "PG",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "pts": 12.9,
-            "reb": 4.5,
-            "ast": 7.9,
-            "stl": 1,
-            "blk": 0.1
+            "pts": 12.1,
+            "reb": 6.8,
+            "ast": 2.4,
+            "stl": 0.4,
+            "blk": 2.6
           },
           "honors": [
-            "Second-Team All-Big Ten (2019)",
-            "Second-Team All-Big Ten (2020)",
-            "Big Ten All-Defensive Team (2019)"
+            "Big Ten Defensive Player of the Year (2026)",
+            "Third-Team All-Big Ten (2026)",
+            "All-Big Ten Defensive Team (2026)",
+            "NCAA All-Tournament Team (2026)"
           ],
-          "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
+        }
+      ]
+    },
+    {
+      "id": "elliot-cadeau",
+      "name": "Elliot Cadeau",
+      "position": "PG",
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 10.5,
+            "reb": 2.7,
+            "ast": 5.9,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": [
+            "NCAA Tournament Most Outstanding Player (2026)",
+            "All-Big Ten Honorable Mention (2026)"
+          ],
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
+        }
+      ]
+    },
+    {
+      "id": "lj-cason",
+      "name": "L.J. Cason",
+      "position": "SG",
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 8.4,
+            "reb": 1.9,
+            "ast": 2.4,
+            "stl": 0.9,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
+        }
+      ]
+    },
+    {
+      "id": "morez-johnson-jr",
+      "name": "Morez Johnson Jr.",
+      "position": "PF",
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 13.1,
+            "reb": 7.3,
+            "ast": 1.2,
+            "stl": 0.7,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
+        }
+      ]
+    },
+    {
+      "id": "trey-mckenney",
+      "name": "Trey McKenney",
+      "position": "SG",
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 9.9,
+            "reb": 2.8,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
+        }
+      ]
+    },
+    {
+      "id": "will-tschetter",
+      "name": "Will Tschetter",
+      "position": "SF",
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 3.5,
+            "reb": 1.9,
+            "ast": 0.6,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
+        }
+      ]
+    },
+    {
+      "id": "yaxel-lendeborg",
+      "name": "Yaxel Lendeborg",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 15.1,
+            "reb": 6.8,
+            "ast": 3.2,
+            "stl": 1.1,
+            "blk": 1.2
+          },
+          "honors": [
+            "Consensus First-Team All-American (2026)",
+            "Big Ten Player of the Year (2026)",
+            "First-Team All-Big Ten (2026)",
+            "All-Big Ten Defensive Team (2026)",
+            "NCAA Midwest Regional Most Outstanding Player (2026)"
+          ],
+          "source": "https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines"
         }
       ]
     }
