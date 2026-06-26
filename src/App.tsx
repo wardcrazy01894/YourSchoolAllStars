@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
 import { BBALL_POSITIONS, windowLabel, eligiblePositions } from './types'
 import type { BballPlayer, BballPosition, BballStats } from './types'
@@ -293,6 +293,11 @@ function Playing({
   onAdvance: (s: DraftState) => void
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [reveal, setReveal] = useState(false)
+  const [spinning, setSpinning] = useState(false)
+  const [reelLabel, setReelLabel] = useState('🎰')
+  const intervalRef = useRef<number | undefined>(undefined)
+  const timeoutRef = useRef<number | undefined>(undefined)
   const w = currentWindow(state)
   const era = playersThisEra(state, players)
   const selected = selectedId
@@ -326,6 +331,33 @@ function Playing({
     }
   }
 
+  // Each new era hides the pool until the player spins the reel for it.
+  useEffect(() => {
+    setReveal(false)
+    setSpinning(false)
+    setSelectedId(null)
+    setReelLabel('🎰')
+    return () => {
+      window.clearInterval(intervalRef.current)
+      window.clearTimeout(timeoutRef.current)
+    }
+  }, [state.cursor])
+
+  function spin() {
+    if (!w || spinning || reveal) return
+    setSpinning(true)
+    intervalRef.current = window.setInterval(() => {
+      const r = BBALL_WINDOWS[Math.floor(Math.random() * BBALL_WINDOWS.length)]
+      setReelLabel(windowLabel(r))
+    }, 70)
+    timeoutRef.current = window.setTimeout(() => {
+      window.clearInterval(intervalRef.current)
+      setReelLabel(windowLabel(w))
+      setSpinning(false)
+      setReveal(true)
+    }, 1100)
+  }
+
   return (
     <section>
       <RosterRail
@@ -334,92 +366,109 @@ function Playing({
         onPlace={place}
       />
 
-      <div className="roundbar">
-        <div className="era">
-          {w ? windowLabel(w) : ''}
-          <small>
-            Era {Math.min(state.cursor + 1, state.windows.length)} /{' '}
-            {state.windows.length}
-          </small>
-        </div>
-        <button
-          className="btn"
-          disabled={!canSkip(state)}
-          onClick={() => {
-            setSelectedId(null)
-            onAdvance(skip(state))
-          }}
-          title={
-            safeSkipsLeft(state) > 0
-              ? 'Skip to the next era'
-              : 'Skipping now leaves a hole'
-          }
-        >
-          ⏭ Skip era
-          {safeSkipsLeft(state) > 0 ? ` (${safeSkipsLeft(state)})` : ' ⚠'}
-        </button>
-      </div>
-
-      {selected && (
-        <div className="select-hint">
-          Placing <strong>{selected.name}</strong> — tap a highlighted slot
-          above.{' '}
-          <button className="linkbtn" onClick={() => setSelectedId(null)}>
-            cancel
+      {!reveal ? (
+        <div className="spinbar">
+          <div className={`reel${spinning ? ' spinning' : ''}`}>
+            {reelLabel}
+          </div>
+          <button className="btn primary" disabled={spinning} onClick={spin}>
+            {spinning
+              ? 'Spinning…'
+              : `🎰 Spin era ${Math.min(state.cursor + 1, state.windows.length)} / ${state.windows.length}`}
           </button>
         </div>
-      )}
-
-      {groups.map((g) => (
-        <div className="pos-group" key={g.pos}>
-          <div className="pos-group-head">
-            <span className="pos-chip">{g.pos}</span>
-            {g.filled && !g.players.some((p) => isPickable(state, p)) && (
-              <span className="filled-tag">{g.pos} slot filled</span>
-            )}
+      ) : (
+        <>
+          <div className="roundbar">
+            <div className="era">
+              {w ? windowLabel(w) : ''}
+              <small>
+                Era {Math.min(state.cursor + 1, state.windows.length)} /{' '}
+                {state.windows.length}
+              </small>
+            </div>
+            <button
+              className="btn"
+              disabled={!canSkip(state)}
+              onClick={() => {
+                setSelectedId(null)
+                onAdvance(skip(state))
+              }}
+              title={
+                safeSkipsLeft(state) > 0
+                  ? 'Skip to the next era'
+                  : 'Skipping now leaves a hole'
+              }
+            >
+              ⏭ Skip era
+              {safeSkipsLeft(state) > 0 ? ` (${safeSkipsLeft(state)})` : ' ⚠'}
+            </button>
           </div>
-          <table className="pool">
-            <thead>
-              <tr>
-                <th className="name">Player</th>
-                <th>YR</th>
-                {STAT_COLS.map((c) => (
-                  <th key={c.key}>{c.label}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {g.players.map((p) => {
-                const pickable = isPickable(state, p)
-                const alt = eligiblePositions(p).filter((x) => x !== p.position)
-                return (
-                  <tr
-                    key={p.id}
-                    className={`player${pickable ? '' : ' locked'}${selectedId === p.id ? ' selected' : ''}`}
-                    onClick={() => selectPlayer(p)}
-                  >
-                    <td className="name">
-                      {p.name}
-                      {alt.length > 0 && (
-                        <span className="alt-pos">+{alt.join('/')}</span>
-                      )}
-                      {p.honors.length > 0 && (
-                        <span className="honor" title={p.honors.join(', ')}>
-                          ★
-                        </span>
-                      )}
-                    </td>
-                    <td className="yr">'{String(p.bestSeason).slice(2)}</td>
+
+          {selected && (
+            <div className="select-hint">
+              Placing <strong>{selected.name}</strong> — tap a highlighted slot
+              above.{' '}
+              <button className="linkbtn" onClick={() => setSelectedId(null)}>
+                cancel
+              </button>
+            </div>
+          )}
+
+          {groups.map((g) => (
+            <div className="pos-group" key={g.pos}>
+              <div className="pos-group-head">
+                <span className="pos-chip">{g.pos}</span>
+                {g.filled && !g.players.some((p) => isPickable(state, p)) && (
+                  <span className="filled-tag">{g.pos} slot filled</span>
+                )}
+              </div>
+              <table className="pool">
+                <thead>
+                  <tr>
+                    <th className="name">Player</th>
+                    <th>YR</th>
                     {STAT_COLS.map((c) => (
-                      <td key={c.key}>{p.stats[c.key].toFixed(1)}</td>
+                      <th key={c.key}>{c.label}</th>
                     ))}
                   </tr>
-                )
-              })}
-            </tbody>
-          </table>
-        </div>
-      ))}
+                </thead>
+                <tbody>
+                  {g.players.map((p) => {
+                    const pickable = isPickable(state, p)
+                    const alt = eligiblePositions(p).filter(
+                      (x) => x !== p.position,
+                    )
+                    return (
+                      <tr
+                        key={p.id}
+                        className={`player${pickable ? '' : ' locked'}${selectedId === p.id ? ' selected' : ''}`}
+                        onClick={() => selectPlayer(p)}
+                      >
+                        <td className="name">
+                          {p.name}
+                          {alt.length > 0 && (
+                            <span className="alt-pos">+{alt.join('/')}</span>
+                          )}
+                          {p.honors.length > 0 && (
+                            <span className="honor" title={p.honors.join(', ')}>
+                              ★
+                            </span>
+                          )}
+                        </td>
+                        <td className="yr">'{String(p.bestSeason).slice(2)}</td>
+                        {STAT_COLS.map((c) => (
+                          <td key={c.key}>{p.stats[c.key].toFixed(1)}</td>
+                        ))}
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ))}
+        </>
+      )}
     </section>
   )
 }
