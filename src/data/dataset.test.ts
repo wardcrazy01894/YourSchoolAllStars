@@ -10,8 +10,14 @@ import {
   datasetMaxYear,
 } from '../lib/windows'
 import { BBALL_POSITIONS, eligiblePositions } from '../types'
+import type { BballStats } from '../types'
 
 const { players } = michiganBasketball
+
+// The complete box-score line every season row must now carry (Alex, 2026-06-26):
+// SR publishes per-game pts/reb/ast/stl/blk for essentially every D-I player, so
+// a missing field means we didn't look hard enough, not that the data is absent.
+const REQUIRED_STATS: (keyof BballStats)[] = ['pts', 'reb', 'ast', 'stl', 'blk']
 
 describe('michigan basketball dataset', () => {
   it('has players', () => {
@@ -43,7 +49,8 @@ describe('michigan basketball dataset', () => {
       for (const s of p.seasons) {
         expect(s.year).toBeGreaterThanOrEqual(p.firstYear)
         expect(s.year).toBeLessThanOrEqual(p.lastYear)
-        // Stats are PARTIAL by policy — but any present value is a number ≥ 0.
+        // Any present value is a number ≥ 0 (completeness is enforced separately
+        // by the REQUIRED_STATS guard below).
         for (const v of Object.values(s.stats)) {
           expect(typeof v).toBe('number')
           expect(v).toBeGreaterThanOrEqual(0)
@@ -59,6 +66,22 @@ describe('michigan basketball dataset', () => {
       const years = p.seasons.map((s) => s.year)
       expect(new Set(years).size).toBe(years.length)
     }
+  })
+
+  it('every season row carries a complete pts/reb/ast/stl/blk line', () => {
+    // Completeness mandate (Alex, 2026-06-26): no excuse for a partial statline —
+    // every player-year gets the full box score, with Sports-Reference as the
+    // ready fallback when official/Wikipedia/ESPN don't cover a field. A row
+    // missing any of the five is a sourcing gap to fill, not an accepted partial.
+    const gaps: string[] = []
+    for (const p of players) {
+      for (const s of p.seasons) {
+        const missing = REQUIRED_STATS.filter((k) => s.stats[k] === undefined)
+        if (missing.length)
+          gaps.push(`${p.id}:${s.year} missing ${missing.join(',')}`)
+      }
+    }
+    expect(gaps.sort()).toEqual([])
   })
 
   it('every player overlaps at least one basketball window', () => {
