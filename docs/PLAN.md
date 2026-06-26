@@ -97,8 +97,9 @@ puzzles — acceptable for a friends game.
    It's a binary per school (`School.power5`): non-power-5 schools take a flat
    `×0.95` haircut on every FINAL player rating (`NON_POWER5_RATING_FACTOR`), applied
    at the player level so per-position RTG, team strength, and record all reflect it.
-   Today only VCU (A-10) is non-power-5; a VCU 40-0 is hard by design (an 85 power-5
-   rating becomes 81 here, under the undefeated cutoff). (Alex, 2026-06-26.)
+   When VCU launches (Atlantic 10) it will be the lone non-power-5 school; a VCU 40-0
+   is hard by design (a five of 85-rated players drops to an 81-rated team after the
+   haircut, just under the 85 team-strength undefeated cutoff). (Alex, 2026-06-26.)
 3. **Team strength** blends the position-weighted mean (PG ×1.15, C ×1.1) with the
    **worst starter** (`0.6·mean + 0.4·min`) so one hole costs you ("no weak links").
 4. **Projected record**: logistic win prob `1/(1+e^(−(strength−57)/7.5))` × 40 games,

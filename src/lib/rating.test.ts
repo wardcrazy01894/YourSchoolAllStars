@@ -325,6 +325,21 @@ describe('projected record', () => {
     expect(projectedWins(five(30), 40)).toBe(1)
   })
 
+  it('the non-power-5 haircut can tip a marginal team over the winless cliff', () => {
+    // Where the two new features meet: a base 31 (1 win as power-5) is cut to 29 —
+    // under the 30 floor → 0-40. A base 32 is cut to 30 → still scrapes a win. Pin
+    // the 31/32 cliff so neither the factor nor the floor can drift unnoticed.
+    expect(Math.round(31 * NON_POWER5_RATING_FACTOR)).toBe(29)
+    expect(Math.round(32 * NON_POWER5_RATING_FACTOR)).toBe(30)
+    expect(projectedWins(five(31), 40)).toBe(1) // power-5: a 31 wins one
+    expect(
+      projectedWins(five(Math.round(31 * NON_POWER5_RATING_FACTOR)), 40),
+    ).toBe(0) // haircut ⇒ winless
+    expect(
+      projectedWins(five(Math.round(32 * NON_POWER5_RATING_FACTOR)), 40),
+    ).toBe(1) // just clears the floor
+  })
+
   it('a team at the pivot is ~.500; the curve sits a touch easier overall', () => {
     expect(projectedWins(five(WIN_PIVOT), 40)).toBe(20) // pivot ⇒ 50%
     // Eased curve (pivot lowered): a plain 60 overall now clears .500.

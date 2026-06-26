@@ -231,6 +231,13 @@ describe('savedDailyFrom', () => {
     expect(saved.playerIds).toEqual({ PG: 'p-PG' })
     expect(Object.keys(saved.windows ?? {})).toEqual(['PG'])
   })
+
+  it('threads the non-power-5 haircut through to the saved record', () => {
+    const state = stateFrom(fullPicks())
+    const power5 = savedDailyFrom(state, '2026-06-26', 40, true)
+    const midMajor = savedDailyFrom(state, '2026-06-26', 40, false)
+    expect(midMajor.wins).toBeLessThan(power5.wins)
+  })
 })
 
 describe('rosterFromSaved (round-trip)', () => {
