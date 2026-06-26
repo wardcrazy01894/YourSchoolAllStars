@@ -20,7 +20,7 @@ export interface School {
   name: string // "Michigan"
   short: string // "Michigan" (used in share text)
   mascot: string // "Wolverines"
-  emoji: string // crest stand-in until real logos
+  emoji: string // generic Unicode crest — we deliberately avoid trademarked school logos
   theme: Theme
   /** Basketball dataset, when the school is live. */
   basketball?: Dataset
@@ -54,7 +54,7 @@ export const SCHOOLS: School[] = [
     name: 'North Carolina',
     short: 'UNC',
     mascot: 'Tar Heels',
-    emoji: '👣', // "Tar Heel" footprints — distinct from VCU's ram (placeholder until real logos)
+    emoji: '👣', // "Tar Heel" footprints — distinct from VCU's ram
     // Carolina blue & navy (official: Carolina Blue #4B9CD3, Navy #13294B).
     theme: {
       brand: '#13294b',
