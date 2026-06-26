@@ -5,31 +5,34 @@ Strike through as they're answered.
 ## Answered
 
 - ~~Year-window width?~~ → **4-year, non-overlapping** ("college is 4 years").
-- ~~How to handle football's pre-2005 defensive-stat gap?~~ → **Football starts
-  2005**; basketball stays 1994+.
-- ~~What stat line represents a player?~~ → **Best single season.**
+- ~~Football's pre-2005 defensive-stat gap?~~ → **Football starts 2005**;
+  basketball 1994+.
+- ~~Stat line per player?~~ → **Best single season.**
 - ~~How much data at launch?~~ → **Full basketball rosters** (starters + key
-  rotation, ~7/season) at launch, sourced not fabricated.
+  rotation), sourced not fabricated.
+- ~~How hard should a perfect 40-0 be?~~ → **Rare, like the original (~4%)** —
+  tune the rating curve to make perfection a real chase. (Calibrate once the
+  dataset is complete.)
+- ~~Daily format?~~ → **One-shot + streaks**, AND a separate **free-play** mode
+  ("play as much as you want").
+- ~~Which modes at launch?~~ → **Daily + Classic (free-play) + Hoops IQ**
+  (stats-hidden).
+- ~~Multi-position eligibility?~~ → **Allow adjacent positions** (combo guards
+  slot into PG/SG, forwards into SF/PF, etc.).
+- ~~University picker + theming?~~ → **Yes** — landing is a school picker; the
+  whole UI re-themes to the chosen school's colors (Michigan maize/blue → UNC
+  Carolina blue). Built (see `src/schools.ts`).
 
 ## Open
 
-1. **Rating calibration.** The projected-record model (see `docs/PLAN.md`
-   §Rating model) is a reasonable first cut. Once the full dataset lands, do you
-   want me to tune it so a perfect 40-0 is roughly as rare as 40-0.com's "~4% go
-   undefeated", or leave it more forgiving for a friends game?
-2. **Multi-position eligibility.** Right now each player fills exactly one slot
-   (so "lock the PG" is literal). 40-0 lets some players slot into adjacent
-   positions (a combo guard at PG or SG). Want positional flexibility later, or
-   keep strict 1-position?
-3. **Modes.** Ship just the Daily Challenge first, or also the free-play
-   "Classic" (random spins, replayable) and "Hoops IQ" (stats hidden) modes?
-4. **Daily persistence.** Make the daily a true one-shot (your result is saved;
-   you can't replay until tomorrow), with streaks — or keep it replayable for
-   now? (Currently replayable.)
-5. **North Carolina timing.** Add UNC right after the Michigan basketball launch,
+1. **North Carolina timing.** Add UNC right after Michigan basketball launches,
    or after Michigan football too?
-6. **Domain / hosting.** Keep it on `wardcrazy01894.github.io/YourSchoolAllStars/`,
-   or do you want a custom domain (changes the Vite `base`)?
-7. **Honors weighting.** Should All-American / conference POY honors move the
-   needle as much as they do now (+9–12 to the composite), or should raw box-
-   score stats dominate?
+2. **Domain / hosting.** Keep it on
+   `wardcrazy01894.github.io/YourSchoolAllStars/`, or set up a custom domain
+   (changes the Vite `base`)?
+3. **Honors weighting.** All-American / conference-POY honors currently add a lot
+   (+9–12 to the composite). Keep that, or let raw box-score stats dominate more?
+   (Folds into the difficulty calibration.)
+4. **Go public + deploy.** Plan is to flip the repo public once the dataset's 5
+   coverage gaps are filled, which enables branch protection + the Pages deploy.
+   Good to do that automatically when gaps hit zero, or wait for your sign-off?

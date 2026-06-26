@@ -1,8 +1,14 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import confetti from 'canvas-confetti'
-import { michiganBasketball } from './data'
 import { BBALL_POSITIONS, windowLabel } from './types'
 import type { BballPlayer, BballPosition, BballStats } from './types'
+import {
+  SCHOOLS,
+  getSchool,
+  applyTheme,
+  DEFAULT_SCHOOL_ID,
+  type School,
+} from './schools'
 import { BBALL_WINDOWS } from './lib/windows'
 import {
   BBALL_ROUNDS,
@@ -32,7 +38,6 @@ import {
 import { buildShareString } from './lib/share'
 
 const GAMES = 40
-const SCHOOL = michiganBasketball.school
 
 type StatKey = keyof BballStats
 const STAT_COLS: { key: StatKey; label: string }[] = [
@@ -43,16 +48,108 @@ const STAT_COLS: { key: StatKey; label: string }[] = [
   { key: 'blk', label: 'BLK' },
 ]
 
+const SCHOOL_STORAGE_KEY = 'ysas:school'
+
+function param(name: string): string | null {
+  return new URLSearchParams(window.location.search).get(name)
+}
+
 /** ?date=YYYY-MM-DD overrides the day (playtesting); else today in ET. */
 function activeDateKey(): string {
-  const q = new URLSearchParams(window.location.search).get('date')
+  const q = param('date')
   if (q && /^\d{4}-\d{2}-\d{2}$/.test(q)) return q
   return getDateKey()
 }
 
+function initialSchoolId(): string | null {
+  const q = param('school')
+  if (q && getSchool(q)?.available) return q
+  const saved = localStorage.getItem(SCHOOL_STORAGE_KEY)
+  if (saved && getSchool(saved)?.available) return saved
+  return null
+}
+
 export default function App() {
+  const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
+  const school = getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
+
+  // Theme follows the chosen school (or the default while on the picker).
+  useEffect(() => {
+    applyTheme(school.theme)
+  }, [school])
+
+  function chooseSchool(id: string) {
+    localStorage.setItem(SCHOOL_STORAGE_KEY, id)
+    setSchoolId(id)
+  }
+
+  if (!schoolId) return <Picker onPick={chooseSchool} />
+  return <Game school={school} onExit={() => setSchoolId(null)} />
+}
+
+function Picker({ onPick }: { onPick: (id: string) => void }) {
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="puck">🏀</span>
+          <div>
+            YourSchoolAllStars
+            <small>Pick your school</small>
+          </div>
+        </div>
+      </header>
+      <section className="hero" style={{ paddingBottom: 8 }}>
+        <h1>Build your school's all-time team.</h1>
+        <p>
+          Spin a 4-year window, draft a starting five, and see how close to a
+          perfect season you can get. Choose a school to start.
+        </p>
+      </section>
+      <div className="picker">
+        {SCHOOLS.map((s) => (
+          <div
+            key={s.id}
+            className={`school-card${s.available ? '' : ' soon'}`}
+            style={{
+              background: `linear-gradient(160deg, ${s.theme.brand}, ${s.theme.brand2})`,
+              boxShadow: s.available
+                ? `inset 0 0 0 2px ${s.theme.accent}55`
+                : 'none',
+            }}
+            onClick={() => s.available && onPick(s.id)}
+            role={s.available ? 'button' : undefined}
+            aria-disabled={!s.available}
+          >
+            {!s.available && <span className="soon-chip">Coming soon</span>}
+            <div
+              className="crest"
+              style={{ background: s.theme.accent, color: s.theme.brand }}
+            >
+              {s.emoji}
+            </div>
+            <div className="sc-name">{s.name}</div>
+            <div className="sc-mascot">{s.mascot}</div>
+          </div>
+        ))}
+      </div>
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by any
+        university. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
+function Game({ school, onExit }: { school: School; onExit: () => void }) {
+  const players = school.basketball?.players ?? []
+  const provisional = school.basketball?.provisional ?? false
+
   const dateKey = useMemo(activeDateKey, [])
-  const seed = useMemo(() => seedFor(dateKey, 'basketball'), [dateKey])
+  const seed = useMemo(
+    () => seedFor(dateKey, `${school.id}:basketball`),
+    [dateKey, school.id],
+  )
   const spins = useMemo(
     () => generateSpins(seed, BBALL_ROUNDS, BBALL_WINDOWS),
     [seed],
@@ -80,11 +177,10 @@ export default function App() {
 
   function finish(s: DraftState) {
     setPhase('done')
-    const starters = BBALL_POSITIONS.map((pos) => s.slots[pos])
+    const rated = BBALL_POSITIONS.map((pos) => s.slots[pos])
       .filter((p): p is BballPlayer => p !== null)
       .map((p) => ({ position: p.position, rating: playerRating(p) }))
-    const wins = projectedWins(starters, GAMES)
-    const grade = gradeLabel(wins, GAMES)
+    const grade = gradeLabel(projectedWins(rated, GAMES), GAMES)
     if (grade === 'PERFECT' || grade === 'HISTORIC' || grade === 'ELITE') {
       confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
     }
@@ -98,48 +194,57 @@ export default function App() {
           <div>
             YourSchoolAllStars
             <small>
-              {SCHOOL} Basketball
-              {michiganBasketball.provisional ? ' · provisional data' : ''}
+              {school.name} Basketball{provisional ? ' · provisional data' : ''}
             </small>
           </div>
         </div>
-        {phase !== 'landing' && (
-          <button className="btn ghost" onClick={() => setPhase('landing')}>
-            ↺ New
-          </button>
-        )}
+        <button className="btn ghost" onClick={onExit}>
+          ↺ Switch school
+        </button>
       </header>
 
-      {phase === 'landing' && <Landing dateKey={dateKey} onStart={start} />}
-      {phase === 'playing' && (
-        <Playing state={state} onPick={pick} onState={setState} />
+      {phase === 'landing' && (
+        <Landing school={school} dateKey={dateKey} onStart={start} />
       )}
-      {phase === 'done' && <Results state={state} dateKey={dateKey} />}
+      {phase === 'playing' && (
+        <Playing
+          school={school}
+          players={players}
+          state={state}
+          onPick={pick}
+          onState={setState}
+        />
+      )}
+      {phase === 'done' && (
+        <Results school={school} state={state} dateKey={dateKey} />
+      )}
 
       <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by the
-        University of Michigan. Player data curated from public sources.
+        An independent fan project. Not affiliated with or endorsed by{' '}
+        {school.name}. Player data curated from public sources.
       </footer>
     </div>
   )
 }
 
 function Landing({
+  school,
   dateKey,
   onStart,
 }: {
+  school: School
   dateKey: string
   onStart: () => void
 }) {
   return (
     <section className="hero">
       <span className="banner">🗓️ Daily Challenge · {dateKey}</span>
-      <h1>Build {SCHOOL}'s all-time five.</h1>
+      <h1>Build {school.name}'s all-time five.</h1>
       <p>
-        Five rounds. Each round spins a 4-year window of {SCHOOL} basketball.
-        Draft one player into your starting five — PG, SG, SF, PF, C. Each slot
-        locks once filled. You get <strong>one re-spin</strong>. How close to a
-        perfect <strong>40&ndash;0</strong> can you get?
+        Five rounds. Each round spins a 4-year window of {school.name}{' '}
+        basketball. Draft one player into your starting five — PG, SG, SF, PF,
+        C. Each slot locks once filled. You get <strong>one re-spin</strong>.
+        How close to a perfect <strong>40&ndash;0</strong> can you get?
       </p>
       <button className="btn primary" onClick={onStart}>
         ▶ Play Today's Challenge
@@ -172,10 +277,14 @@ function RosterRail({ slots }: { slots: DraftState['slots'] }) {
 }
 
 function Playing({
+  school,
+  players,
   state,
   onPick,
   onState,
 }: {
+  school: School
+  players: BballPlayer[]
   state: DraftState
   onPick: (p: BballPlayer) => void
   onState: (s: DraftState) => void
@@ -183,9 +292,9 @@ function Playing({
   const [sortKey, setSortKey] = useState<StatKey>('pts')
   const w = currentWindow(state)
   const pool = useMemo(() => {
-    const list = currentPool(state, michiganBasketball.players)
+    const list = currentPool(state, players)
     return [...list].sort((a, b) => b.stats[sortKey] - a.stats[sortKey])
-  }, [state, sortKey])
+  }, [state, players, sortKey])
 
   return (
     <section>
@@ -248,7 +357,8 @@ function Playing({
       ) : (
         <div className="card empty-pool">
           <p>
-            No eligible {SCHOOL} players for an open position in this window.
+            No eligible {school.name} players for an open position in this
+            window.
           </p>
           <div className="row">
             {canReroll(state) && (
@@ -269,9 +379,16 @@ function Playing({
   )
 }
 
-function Results({ state, dateKey }: { state: DraftState; dateKey: string }) {
-  const starters = BBALL_POSITIONS.map((pos) => state.slots[pos])
-  const rated = starters
+function Results({
+  school,
+  state,
+  dateKey,
+}: {
+  school: School
+  state: DraftState
+  dateKey: string
+}) {
+  const rated = BBALL_POSITIONS.map((pos) => state.slots[pos])
     .filter((p): p is BballPlayer => p !== null)
     .map((p) => ({ position: p.position, rating: playerRating(p) }))
   const strength = Math.round(teamStrength(rated))
@@ -286,7 +403,7 @@ function Results({ state, dateKey }: { state: DraftState; dateKey: string }) {
   ) as Record<BballPosition, number | null>
 
   const share = buildShareString({
-    schoolName: SCHOOL,
+    schoolName: school.short,
     dateKey,
     wins,
     games: GAMES,

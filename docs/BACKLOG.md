@@ -4,13 +4,13 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
 
 ## Now (to launch Michigan basketball)
 
-- [ ] **Curate the full basketball dataset** (1994+), sourced. Replace the
-      provisional seed; set `_provisional: false`. (`docs/DATA-SOURCING.md`)
-- [ ] **Flip the dataset coverage guard** to require ≥1 player per
-      window×position; fix any gaps the curation surfaces.
-- [ ] **Calibrate the rating curve** against real spins (Q1 in QUESTIONS).
-- [ ] **Create the GitHub repo**, get CI green, apply branch protection, deploy
-      to Pages.
+- [x] **Curated basketball dataset** — 49 sourced players, `_provisional: false`.
+- [ ] **Fill the 5 `KNOWN_GAPS`** (window×position cells with no player) so the
+      guard empties to `[]`. Gap-fill pass running. (`docs/DATA-SOURCING.md`)
+- [ ] **Calibrate the rating curve** to ~4% perfect once gaps are filled.
+- [x] **GitHub repo + CI green** (private). Branch protection + Pages deploy
+      deferred until the repo goes public (after gaps filled).
+- [x] **University picker + per-school theming** (`src/schools.ts`).
 
 ## Daily polish
 
@@ -36,16 +36,18 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
 - [ ] CFBD ingestion script (offense + 2005+ defense), provenance per row.
 - [ ] Football rating model (separate position weights; out of 16 games).
 
-## Multi-school (M6)
+## Multi-school
 
-- [ ] **School registry** (`schools.json`: id, name, colors, sports, datasets) so
-      the engine is school-agnostic; landing becomes a school picker.
-- [ ] **North Carolina** basketball dataset.
-- [ ] Per-school theming (UNC Carolina blue).
+- [x] **School registry** (`src/schools.ts`) + picker landing + per-school CSS
+      theming. Engine is school-agnostic.
+- [ ] **North Carolina** basketball dataset (flip `unc.available` true, attach
+      dataset). Theming already wired (Carolina blue).
 
 ## Engine / quality
 
-- [ ] Multi-position eligibility (combo guards) if Alex wants it (Q2).
+- [ ] **Adjacent-position eligibility** (DECIDED): a player fills their primary
+      or an adjacent slot (PG↔SG↔SF↔PF↔C); draft UX = pick player → tap an open
+      highlighted slot. Engine `eligiblePlayers` + `game.draft` + UI change.
 - [ ] Bug-report flow (reuse KnowYourCity's worker pattern) for stat corrections —
       crucial for a stats game.
 - [ ] Provenance viewer: click a player to see their `source`.
