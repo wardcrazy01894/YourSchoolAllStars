@@ -77,8 +77,19 @@ Flip `dataset.test.ts`'s coverage check from "tracks gaps" to
 player** so no daily spin can strand an open slot. Until then, `skipRound` is the
 safety valve (leaves a hole) and the UI surfaces "no eligible players".
 
-## Football (later)
+## Football (2005+) — in progress
 
-`src/data/michigan-football.json` (2005+). Offense from CFBD player-season stats
-(QB pass yds/TD/INT; RB rush; WR/TE rec). Defense (DE/DT/LB/CB/S) tackles/sacks/
-INT from CFBD 2005+. Same provenance discipline. Window list starts at 2005.
+Target: `src/data/michigan-football.json`, schema = `FbPlayer`/`FbStats`
+(`src/types.ts`). Best single season per unique player; positions QB/RB/WR/TE
+(offense) and DE/DT/LB/CB/S (defense).
+
+- **Primary source = Wikipedia** (keyless, CC-BY-SA): player pages + "YYYY
+  Michigan Wolverines football team" season pages (statistical leaders). Two
+  curation passes are running — **offense** (pass/rush/rec) and **defense**
+  (tackles/TFL/sacks/INT/PBU/FF).
+- **Sports-Reference** only to verify a number (its data isn't redistributed).
+- **CFBD API** (collegefootballdata.com) is an optional future enrichment for
+  fuller per-season completeness — it needs a free API key (email signup), so
+  it's not a launch dependency; Wikipedia carries the marquee players.
+- **2005 floor** is a hard data limit: defensive box-score stats (tackles/sacks)
+  aren't reliable before then anywhere. Football windows therefore start at 2005.

@@ -104,6 +104,33 @@ advances; `reroll()` swaps the current round's window once; `skipRound()` leaves
 hole if a window strands an open position (a guaranteed weak link). All pure,
 all tested.
 
+## Football (16-0)
+
+Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
+
+- **Offense (6):** QB · RB · WR · TE · FLEX · FLEX. The two FLEX slots accept
+  RB/WR/TE.
+- **Defense (6):** DE · DT · LB · CB · S · FLEX. The defensive FLEX accepts any
+  defender (DE/DT/LB/CB/S).
+- **Windows: 4-year from 2005** (`FB_WINDOWS` = 2005-08 … 2021-24). Defensive
+  box-score stats (tackles/sacks) aren't reliable before 2005 — hence the start.
+- **12 rounds** (one per slot). Draft = pick an eligible player, drop into an open
+  slot their position fits (single-position or FLEX). Same one re-spin.
+- **Stats** (`FbStats`, heterogeneous, per-position columns):
+  - QB: pass yds/TD/INT (+ rush yds/TD for runners like Denard).
+  - RB: rush yds/TD (+ rec/yds/TD). WR/TE: rec/yds/TD.
+  - Defense: tackles, TFL, sacks, INT, PBU, FF.
+- **Rating (design, not yet built):** because stats differ by position, each
+  position gets its own normalized 0→100 curve off fixed anchors (e.g. a 1,000-yd
+  rusher, a 10-sack edge, a 4,000-yd passer all map high), then the same
+  weak-link-penalized team strength → projected record **out of 16**. Premium
+  slots (QB, and an edge rusher) can carry a small multiplier, TBD at calibration.
+
+Engine landed: `src/types.ts` (FbPosition/FbStats/FbPlayer/FB_SLOTS),
+`src/lib/football.ts` (FB_WINDOWS, slot eligibility incl. FLEX), tests. Still to
+build: football dataset (curation running), rating, and the football UI behind a
+per-school sport selector.
+
 ## Milestones
 
 - **M1 — Basketball vertical slice (DONE):** engine + tested rating/draft +

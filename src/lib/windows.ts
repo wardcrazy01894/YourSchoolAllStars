@@ -26,9 +26,18 @@ export function buildWindows(
 /** Basketball: 1994–2025 in 4-year blocks → 1994–97, 1998–01, … 2022–25. */
 export const BBALL_WINDOWS: YearWindow[] = buildWindows(1994, 2025, 4)
 
+/** True if a tenure [firstYear, lastYear] overlaps the window. Sport-agnostic. */
+export function tenureOverlaps(
+  firstYear: number,
+  lastYear: number,
+  w: YearWindow,
+): boolean {
+  return firstYear <= w.end && lastYear >= w.start
+}
+
 /** True if the player's tenure [firstYear, lastYear] overlaps the window. */
 export function playerInWindow(player: BballPlayer, w: YearWindow): boolean {
-  return player.firstYear <= w.end && player.lastYear >= w.start
+  return tenureOverlaps(player.firstYear, player.lastYear, w)
 }
 
 /**

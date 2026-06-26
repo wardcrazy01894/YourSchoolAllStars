@@ -48,3 +48,80 @@ export interface YearWindow {
 export function windowLabel(w: YearWindow): string {
   return `${w.start}–${w.end}`
 }
+
+// ── Football ─────────────────────────────────────────────────────────────────
+// 16-0 style: a 12-man roster — 6 offense (QB/RB/WR/TE + 2 FLEX) and 6 defense
+// (DE/DT/LB/CB/S + 1 FLEX). Football data starts at 2005 (defensive box-score
+// stats — tackles/sacks — aren't reliable before then).
+
+export type FbOffPosition = 'QB' | 'RB' | 'WR' | 'TE'
+export type FbDefPosition = 'DE' | 'DT' | 'LB' | 'CB' | 'S'
+export type FbPosition = FbOffPosition | FbDefPosition
+
+export const FB_OFF_POSITIONS: FbOffPosition[] = ['QB', 'RB', 'WR', 'TE']
+export const FB_DEF_POSITIONS: FbDefPosition[] = ['DE', 'DT', 'LB', 'CB', 'S']
+
+/**
+ * Per-season stats. Heterogeneous by position, so every field is optional; the
+ * UI/rating reads the columns relevant to the player's position. Per-game where
+ * it makes sense for defense (tackles), season totals for the rest (yards, TDs).
+ */
+export interface FbStats {
+  // Offense
+  passYds?: number
+  passTD?: number
+  passInt?: number // interceptions thrown (QB)
+  rushYds?: number
+  rushTD?: number
+  rec?: number
+  recYds?: number
+  recTD?: number
+  // Defense
+  tackles?: number // total tackles (season)
+  tfl?: number // tackles for loss
+  sacks?: number
+  defInt?: number // interceptions made
+  pbu?: number // passes broken up / defended
+  ff?: number // forced fumbles
+}
+
+export interface FbPlayer {
+  id: string
+  name: string
+  position: FbPosition
+  firstYear: number
+  lastYear: number
+  bestSeason: number
+  stats: FbStats
+  honors: string[]
+  source: string
+}
+
+/** A roster slot. Single-position slots accept one position; FLEX accepts many. */
+export interface RosterSlot {
+  id: string
+  label: string
+  side: 'offense' | 'defense'
+  accepts: FbPosition[]
+}
+
+/** The 12 starting slots, in draft/display order (offense, then defense). */
+export const FB_SLOTS: RosterSlot[] = [
+  { id: 'QB', label: 'QB', side: 'offense', accepts: ['QB'] },
+  { id: 'RB', label: 'RB', side: 'offense', accepts: ['RB'] },
+  { id: 'WR', label: 'WR', side: 'offense', accepts: ['WR'] },
+  { id: 'TE', label: 'TE', side: 'offense', accepts: ['TE'] },
+  { id: 'FLEX1', label: 'FLEX', side: 'offense', accepts: ['RB', 'WR', 'TE'] },
+  { id: 'FLEX2', label: 'FLEX', side: 'offense', accepts: ['RB', 'WR', 'TE'] },
+  { id: 'DE', label: 'DE', side: 'defense', accepts: ['DE'] },
+  { id: 'DT', label: 'DT', side: 'defense', accepts: ['DT'] },
+  { id: 'LB', label: 'LB', side: 'defense', accepts: ['LB'] },
+  { id: 'CB', label: 'CB', side: 'defense', accepts: ['CB'] },
+  { id: 'S', label: 'S', side: 'defense', accepts: ['S'] },
+  {
+    id: 'DFLEX',
+    label: 'FLEX',
+    side: 'defense',
+    accepts: ['DE', 'DT', 'LB', 'CB', 'S'],
+  },
+]
