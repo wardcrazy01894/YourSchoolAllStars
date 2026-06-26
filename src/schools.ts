@@ -24,8 +24,9 @@ export interface School {
   theme: Theme
   /** Basketball dataset, when the school is live. */
   basketball?: Dataset
-  /** Does this school field a football team at all? (VCU does not.) The sport
-   * picker hides football for schools where this is false. */
+  /** Does this school field a football team at all? (VCU does not.) Forward
+   * reservation: the sport picker is not built yet — when it is, it must hide
+   * football wherever this is false (else VCU would wrongly show football). */
   hasFootball: boolean
   /** False = shown in the picker as "coming soon" (no playable data yet). */
   available: boolean
@@ -123,8 +124,9 @@ export const SCHOOLS: School[] = [
     short: 'VCU',
     mascot: 'Rams',
     emoji: '🐏',
-    // VCU black & gold (official: Gold #F8B300, Black #000000). Basketball only —
-    // VCU does not field a football team.
+    // VCU black & gold (official: Gold #F8B300, Black #000000). `brand` is a
+    // near-black #1a1a1a (not pure #000000) so the deep panels read as a surface,
+    // not a void. Basketball only — VCU does not field a football team.
     theme: {
       brand: '#1a1a1a',
       brand2: '#2e2a17',

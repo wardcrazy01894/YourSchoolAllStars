@@ -304,6 +304,7 @@ function Playing({
     ? (era.find((p) => p.id === selectedId) ?? null)
     : null
   const targetSlots = selected ? eligibleOpenSlots(state, selected) : []
+  const skipsLeft = safeSkipsLeft(state)
 
   // Group players by primary position, sorted within group by points.
   const groups = BBALL_POSITIONS.map((pos) => ({
@@ -402,12 +403,12 @@ function Playing({
                 onAdvance(skip(state))
               }}
               title={
-                safeSkipsLeft(state) > 0
+                skipsLeft > 0
                   ? 'Skip this era (advance to the next)'
                   : 'No skips left'
               }
             >
-              ⏭ Skip era ({safeSkipsLeft(state)})
+              ⏭ Skip era ({skipsLeft})
             </button>
           </div>
 
