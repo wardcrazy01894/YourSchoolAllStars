@@ -56,8 +56,12 @@ Prefer the highest-priority source that has it: **UMich statsarchive → Wikiped
 as a cited `source` for a long-tail player no higher-priority source covers — a
 hand-picked factual line is OK; bulk-scraping or mirroring their database is not.
 So **don't drop a real player just because only SR has the number** — completeness
-matters too. The dataset guard test (`src/data/dataset.test.ts`) enforces shape,
-uniqueness, ≥1 stat per row, and both coverage guards. Full policy + rationale:
+matters too, on two axes: a **complete `pts/reb/ast/stl/blk` line for every row**,
+and a **row for every year a player actually played** (verify their true span at
+the school against SR — a too-narrow `firstYear`/`lastYear` silently drops real
+seasons). The dataset guard test (`src/data/dataset.test.ts`) enforces shape,
+uniqueness, the complete-5-stat-line guard, per-player tenure coverage, and the
+window-era and year position-coverage guards. Full policy + rationale:
 `docs/DATA-SOURCING.md`.
 
 ## Local commands
