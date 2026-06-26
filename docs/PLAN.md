@@ -60,9 +60,9 @@ src/
   types.ts            domain types (Sport, BballPosition, BballPlayer, YearWindow)
   lib/
     windows.ts        window config (buildWindows) + eligibility (playerInWindow, eligiblePlayers)
-    daily.ts          getDateKey (ET), seeded PRNG (mulberry32), generateSpins / generateRerollSpins
+    daily.ts          getDateKey (ET), seeded PRNG (mulberry32), generateSpins (fixed era sequence)
     rating.ts         stat line → player rating → team strength → projected record
-    game.ts           pure draft state machine (initDraft, draft, reroll, skipRound, …)
+    game.ts           pure draft state machine (initDraft, draftToSlot, skip, isPickable, …)
     share.ts          Wordle-style spoiler-free share string
   data/
     michigan-basketball.json   curated player dataset (49 players, sourced)
@@ -74,12 +74,12 @@ src/
 
 ### Daily determinism
 
-`seedFor(dateKey, sport)` hashes the ET date → a `mulberry32` seed. `generateSpins`
-draws one window per round; `generateRerollSpins` is a salted second pass giving
-each round a guaranteed-different alternate for the single re-spin. Everyone who
-loads the game on a given ET day sees the same spins. Stability caveat: spins are
-a pure function of the window list, so changing the window config shifts past/
-future puzzles — acceptable for a friends game.
+`seedFor(dateKey, sport)` hashes the ET date → a `mulberry32` seed.
+`generateSpins(seed, count, windows)` draws the day's FIXED era sequence —
+`count = DAILY_BBALL_ERAS = 6` (5 starters + 1 skip). Everyone on a given ET day
+gets the same six eras in the same order. Stability caveat: spins are a pure
+function of the window list, so changing the window config shifts past/future
+puzzles — acceptable for a friends game.
 
 ### Rating model (ours; 40-0's is proprietary) — all constants in `rating.ts`
 
@@ -98,11 +98,15 @@ These are tunable; calibrate against real spins once the full dataset lands.
 
 ### Draft flow (`game.ts`)
 
-`DraftState` holds the per-round windows, the five position slots, picks, and the
-reroll budget. `draft()` assigns a player to their (open, eligible) slot and
-advances; `reroll()` swaps the current round's window once; `skipRound()` leaves a
-hole if a window strands an open position (a guaranteed weak link). All pure,
-all tested.
+`DraftState` holds the fixed era sequence (`windows`), a `cursor` into it, the
+five position slots, and picks. At each era you **pick a player, then choose an
+open slot** they're eligible for (`draftToSlot`) — a player may be eligible for
+several positions (`eligible?: BballPosition[]`; a combo guard at PG or SG), so
+the UI is select-player-then-tap-slot. `skip` advances the cursor without
+drafting; with 6 eras for 5 slots you get one safe skip (`safeSkipsLeft`). The
+pool shows EVERY player whose tenure overlaps the era — including those whose slot
+is already filled (greyed, `isPickable` false) so you still see who was around.
+All pure, all tested.
 
 ## Football (16-0)
 

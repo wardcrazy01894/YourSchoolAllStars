@@ -6,7 +6,7 @@ import {
   mulberry32,
   seedFor,
   generateSpins,
-  generateRerollSpins,
+  DAILY_BBALL_ERAS,
 } from './daily'
 import { BBALL_WINDOWS } from './windows'
 
@@ -41,12 +41,12 @@ describe('seeded PRNG', () => {
 })
 
 describe('generateSpins', () => {
-  it('is deterministic for a given (date, sport)', () => {
+  it('is deterministic for a given (date, sport) and yields the daily era count', () => {
     const seed = seedFor('2026-06-25', 'basketball')
-    const a = generateSpins(seed, 5, BBALL_WINDOWS)
-    const b = generateSpins(seed, 5, BBALL_WINDOWS)
+    const a = generateSpins(seed, DAILY_BBALL_ERAS, BBALL_WINDOWS)
+    const b = generateSpins(seed, DAILY_BBALL_ERAS, BBALL_WINDOWS)
     expect(a).toEqual(b)
-    expect(a).toHaveLength(5)
+    expect(a).toHaveLength(6)
   })
   it('different days give different spin sequences (usually)', () => {
     const a = generateSpins(
@@ -64,22 +64,5 @@ describe('generateSpins', () => {
   it('only returns windows from the provided list', () => {
     const spins = generateSpins(42, 20, BBALL_WINDOWS)
     for (const s of spins) expect(BBALL_WINDOWS).toContainEqual(s)
-  })
-})
-
-describe('generateRerollSpins', () => {
-  it('returns an alternate that differs from each main spin', () => {
-    const seed = seedFor('2026-06-25', 'basketball')
-    const mains = generateSpins(seed, 5, BBALL_WINDOWS)
-    const rerolls = generateRerollSpins(seed, mains, BBALL_WINDOWS)
-    expect(rerolls).toHaveLength(5)
-    mains.forEach((m, i) => expect(rerolls[i].start).not.toBe(m.start))
-  })
-  it('is deterministic', () => {
-    const seed = seedFor('2026-06-25', 'basketball')
-    const mains = generateSpins(seed, 5, BBALL_WINDOWS)
-    expect(generateRerollSpins(seed, mains, BBALL_WINDOWS)).toEqual(
-      generateRerollSpins(seed, mains, BBALL_WINDOWS),
-    )
   })
 })

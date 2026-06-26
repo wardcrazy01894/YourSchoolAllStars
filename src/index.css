@@ -383,3 +383,74 @@ body {
   border-radius: 999px;
   padding: 2px 8px;
 }
+
+/* ── Draft: position groups + player-then-slot ───────────────────────────── */
+.slot.target {
+  cursor: pointer;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+.slot.target .pname {
+  color: var(--accent);
+  font-weight: 700;
+}
+.select-hint {
+  background: color-mix(in srgb, var(--accent) 14%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.linkbtn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+.pos-group {
+  margin: 14px 0;
+}
+.pos-group-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.filled-tag {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+.pool tr.player.locked {
+  cursor: default;
+  opacity: 0.4;
+}
+.pool tr.player.locked:hover td {
+  background: transparent;
+}
+.pool tr.player.selected td {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.alt-pos {
+  margin-left: 6px;
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--brand);
+  background: var(--accent);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.yr {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
