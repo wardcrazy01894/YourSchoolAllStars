@@ -1,0 +1,301 @@
+{
+  "_provisional": true,
+  "_note": "PROVISIONAL seed so the UI is playable. Being replaced by the curated, fully-sourced dataset from the data-curation pass (see docs/DATA-SOURCING.md). Do not treat these stat lines as verified.",
+  "school": "Michigan",
+  "sport": "basketball",
+  "players": [
+    {
+      "id": "jalen-rose",
+      "name": "Jalen Rose",
+      "position": "PG",
+      "firstYear": 1992,
+      "lastYear": 1994,
+      "bestSeason": 1994,
+      "stats": { "pts": 19.9, "reb": 5.1, "ast": 4.2, "stl": 1.0, "blk": 0.4 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "juwan-howard",
+      "name": "Juwan Howard",
+      "position": "PF",
+      "firstYear": 1992,
+      "lastYear": 1994,
+      "bestSeason": 1994,
+      "stats": { "pts": 20.8, "reb": 8.9, "ast": 2.5, "stl": 0.6, "blk": 1.1 },
+      "honors": ["Consensus All-American (1994)"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "jimmy-king",
+      "name": "Jimmy King",
+      "position": "SG",
+      "firstYear": 1992,
+      "lastYear": 1995,
+      "bestSeason": 1995,
+      "stats": { "pts": 14.7, "reb": 4.8, "ast": 3.5, "stl": 1.2, "blk": 0.4 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "ray-jackson",
+      "name": "Ray Jackson",
+      "position": "SF",
+      "firstYear": 1992,
+      "lastYear": 1995,
+      "bestSeason": 1995,
+      "stats": { "pts": 13.0, "reb": 5.0, "ast": 2.6, "stl": 1.4, "blk": 0.3 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "maceo-baston",
+      "name": "Maceo Baston",
+      "position": "C",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "bestSeason": 1998,
+      "stats": { "pts": 12.5, "reb": 6.8, "ast": 0.6, "stl": 0.6, "blk": 2.4 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "louis-bullock",
+      "name": "Louis Bullock",
+      "position": "SG",
+      "firstYear": 1996,
+      "lastYear": 1999,
+      "bestSeason": 1999,
+      "stats": { "pts": 20.7, "reb": 3.0, "ast": 3.2, "stl": 1.5, "blk": 0.1 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "robert-traylor",
+      "name": "Robert Traylor",
+      "position": "C",
+      "firstYear": 1996,
+      "lastYear": 1998,
+      "bestSeason": 1998,
+      "stats": { "pts": 16.4, "reb": 10.1, "ast": 1.5, "stl": 0.9, "blk": 1.7 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "bernard-robinson",
+      "name": "Bernard Robinson",
+      "position": "SF",
+      "firstYear": 2001,
+      "lastYear": 2004,
+      "bestSeason": 2004,
+      "stats": { "pts": 14.2, "reb": 5.5, "ast": 3.0, "stl": 1.3, "blk": 0.5 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "daniel-horton",
+      "name": "Daniel Horton",
+      "position": "PG",
+      "firstYear": 2003,
+      "lastYear": 2006,
+      "bestSeason": 2006,
+      "stats": { "pts": 16.9, "reb": 3.5, "ast": 4.0, "stl": 1.1, "blk": 0.2 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "manny-harris",
+      "name": "Manny Harris",
+      "position": "SG",
+      "firstYear": 2008,
+      "lastYear": 2010,
+      "bestSeason": 2010,
+      "stats": { "pts": 18.1, "reb": 6.7, "ast": 3.9, "stl": 1.3, "blk": 0.6 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "deshawn-sims",
+      "name": "DeShawn Sims",
+      "position": "PF",
+      "firstYear": 2007,
+      "lastYear": 2010,
+      "bestSeason": 2010,
+      "stats": { "pts": 16.6, "reb": 6.6, "ast": 1.3, "stl": 0.6, "blk": 1.0 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "trey-burke",
+      "name": "Trey Burke",
+      "position": "PG",
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "bestSeason": 2013,
+      "stats": { "pts": 18.6, "reb": 3.2, "ast": 6.7, "stl": 1.6, "blk": 0.2 },
+      "honors": [
+        "National Player of the Year (2013)",
+        "Consensus All-American (2013)",
+        "Wooden Award"
+      ],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "tim-hardaway-jr",
+      "name": "Tim Hardaway Jr.",
+      "position": "SG",
+      "firstYear": 2011,
+      "lastYear": 2013,
+      "bestSeason": 2012,
+      "stats": { "pts": 14.6, "reb": 3.7, "ast": 2.2, "stl": 0.7, "blk": 0.3 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "glenn-robinson-iii",
+      "name": "Glenn Robinson III",
+      "position": "SF",
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "bestSeason": 2013,
+      "stats": { "pts": 11.0, "reb": 5.4, "ast": 1.0, "stl": 0.8, "blk": 0.6 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "mitch-mcgary",
+      "name": "Mitch McGary",
+      "position": "C",
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "bestSeason": 2013,
+      "stats": { "pts": 6.3, "reb": 6.3, "ast": 1.1, "stl": 1.0, "blk": 0.9 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "nik-stauskas",
+      "name": "Nik Stauskas",
+      "position": "SG",
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "bestSeason": 2014,
+      "stats": { "pts": 17.5, "reb": 2.9, "ast": 3.3, "stl": 0.7, "blk": 0.1 },
+      "honors": [
+        "Big Ten Player of the Year (2014)",
+        "Consensus All-American (2014)"
+      ],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "caris-levert",
+      "name": "Caris LeVert",
+      "position": "SF",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": { "pts": 14.9, "reb": 4.9, "ast": 3.7, "stl": 1.4, "blk": 0.4 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "derrick-walton-jr",
+      "name": "Derrick Walton Jr.",
+      "position": "PG",
+      "firstYear": 2014,
+      "lastYear": 2017,
+      "bestSeason": 2017,
+      "stats": { "pts": 15.5, "reb": 5.2, "ast": 4.6, "stl": 1.0, "blk": 0.2 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "moritz-wagner",
+      "name": "Moritz Wagner",
+      "position": "C",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2018,
+      "stats": { "pts": 14.6, "reb": 7.1, "ast": 0.8, "stl": 0.5, "blk": 0.5 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "zavier-simpson",
+      "name": "Zavier Simpson",
+      "position": "PG",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2020,
+      "stats": { "pts": 12.9, "reb": 4.0, "ast": 7.9, "stl": 1.2, "blk": 0.3 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "jordan-poole",
+      "name": "Jordan Poole",
+      "position": "SG",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "bestSeason": 2019,
+      "stats": { "pts": 12.8, "reb": 2.5, "ast": 2.0, "stl": 0.8, "blk": 0.2 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "isaiah-livers",
+      "name": "Isaiah Livers",
+      "position": "PF",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": { "pts": 13.1, "reb": 6.0, "ast": 2.0, "stl": 0.8, "blk": 0.5 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "franz-wagner",
+      "name": "Franz Wagner",
+      "position": "SF",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": { "pts": 12.5, "reb": 6.5, "ast": 3.0, "stl": 1.3, "blk": 1.0 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "hunter-dickinson",
+      "name": "Hunter Dickinson",
+      "position": "C",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": { "pts": 18.5, "reb": 9.0, "ast": 1.8, "stl": 0.5, "blk": 1.5 },
+      "honors": ["Consensus All-American (2021)", "All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "jett-howard",
+      "name": "Jett Howard",
+      "position": "SG",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": { "pts": 14.2, "reb": 2.8, "ast": 2.0, "stl": 0.5, "blk": 0.2 },
+      "honors": ["All-Big Ten"],
+      "source": "provisional-pending-verification"
+    },
+    {
+      "id": "dug-mcdaniel",
+      "name": "Dug McDaniel",
+      "position": "PG",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": { "pts": 16.3, "reb": 2.9, "ast": 4.8, "stl": 1.4, "blk": 0.1 },
+      "honors": [],
+      "source": "provisional-pending-verification"
+    }
+  ]
+}

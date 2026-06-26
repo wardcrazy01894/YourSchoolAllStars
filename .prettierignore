@@ -1,0 +1,7 @@
+dist
+node_modules
+package-lock.json
+
+# Local-only / transient (not committed): harness settings + isolated worktrees.
+.claude/settings.local.json
+.claude/worktrees

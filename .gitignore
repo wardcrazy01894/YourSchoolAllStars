@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+*.log
+
+# Transient git worktrees created for isolated subagent/reviewer runs.
+.claude/worktrees/
+
+# Local-only harness settings.
+.claude/settings.local.json
+
+# Scratch dir created by data-pipeline scripts during local runs.
+scripts/tmp/
+data/_raw/

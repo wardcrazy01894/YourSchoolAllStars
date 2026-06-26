@@ -1,0 +1,21 @@
+// Dataset loader. The curated player list lives in JSON (easy for the
+// data-curation pass to regenerate); this module gives it a typed surface and
+// is the single import point for the app.
+
+import raw from './michigan-basketball.json'
+import type { BballPlayer } from '../types'
+
+export interface Dataset {
+  school: string
+  sport: 'basketball'
+  /** True while the bundled data is the provisional seed, not the curated set. */
+  provisional: boolean
+  players: BballPlayer[]
+}
+
+export const michiganBasketball: Dataset = {
+  school: raw.school,
+  sport: 'basketball',
+  provisional: raw._provisional === true,
+  players: raw.players as BballPlayer[],
+}
