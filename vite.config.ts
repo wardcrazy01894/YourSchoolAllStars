@@ -38,6 +38,10 @@ export default defineConfig({
   },
   test: {
     environment: 'jsdom',
+    // jsdom in this toolchain doesn't expose `localStorage` (Node 22's
+    // experimental global shadows it and is inert without --localstorage-file),
+    // so the persistence tests need an in-memory Storage shim — see the setup.
+    setupFiles: ['./src/test/setup.ts'],
     exclude: [...configDefaults.exclude, '**/.claude/worktrees/**'],
   },
 })
