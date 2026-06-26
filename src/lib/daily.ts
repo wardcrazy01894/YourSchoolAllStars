@@ -75,6 +75,11 @@ export function generateSpins(
   count: number,
   windows: YearWindow[],
 ): YearWindow[] {
+  // Dead-era safety net: an empty wheel (a data-less school → no rolling windows)
+  // has nothing to draw. Returning early avoids `windows[Math.floor(rng()*0)]`,
+  // which is `windows[0]` = undefined — a sequence of holes that would corrupt
+  // currentWindow and the rating layer. An empty wheel ⇒ an empty sequence.
+  if (windows.length === 0) return []
   const rng = mulberry32(seed)
   const out: YearWindow[] = []
   for (let i = 0; i < count; i++) {

@@ -65,4 +65,12 @@ describe('generateSpins', () => {
     const spins = generateSpins(42, 20, BBALL_WINDOWS)
     for (const s of spins) expect(BBALL_WINDOWS).toContainEqual(s)
   })
+  it('returns [] for an empty window list instead of undefined spins', () => {
+    // Dead-era safety net: a data-less school yields no rolling windows
+    // (datasetMaxYear → null → buildRollingWindows → []). Drawing from []
+    // must NOT produce [undefined, …] (which would corrupt currentWindow and
+    // the rating layer downstream) — an empty wheel means an empty sequence.
+    const spins = generateSpins(seedFor('2026-06-26', 'basketball'), 6, [])
+    expect(spins).toEqual([])
+  })
 })

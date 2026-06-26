@@ -15,7 +15,7 @@ import {
   SCHOOLS,
   type School,
 } from './schools'
-import { BBALL_WINDOWS } from './lib/windows'
+import { buildRollingWindows, datasetMaxYear } from './lib/windows'
 import {
   DAILY_BBALL_ERAS,
   getDateKey,
@@ -178,7 +178,12 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
 }
 
 function Game({ school, onExit }: { school: School; onExit: () => void }) {
-  const players = school.basketball?.players ?? []
+  // Memoized so its reference is stable across renders — it feeds the `windows`
+  // useMemo below, which would otherwise recompute every render on a fresh `[]`.
+  const players = useMemo(
+    () => school.basketball?.players ?? [],
+    [school.basketball],
+  )
   const provisional = school.basketball?.provisional ?? false
 
   const dateKey = useMemo(activeDateKey, [])
@@ -186,9 +191,17 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     () => seedFor(dateKey, `${school.id}:basketball`),
     [dateKey, school.id],
   )
+  // Data-driven ROLLING wheel (#16): overlapping 4-year eras from 1994 up to the
+  // dataset's most recent season, so the wheel grows itself as new seasons land
+  // (no hand-maintained fixed block list). A data-less school yields no windows;
+  // generateSpins then returns [] (dead-era safety net) rather than undefined spins.
+  const windows = useMemo(() => {
+    const maxYear = datasetMaxYear(players)
+    return maxYear === null ? [] : buildRollingWindows(1994, maxYear, 4)
+  }, [players])
   const spins = useMemo(
-    () => generateSpins(seed, DAILY_BBALL_ERAS, BBALL_WINDOWS),
-    [seed],
+    () => generateSpins(seed, DAILY_BBALL_ERAS, windows),
+    [seed, windows],
   )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>('landing')
@@ -243,7 +256,12 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
         <Landing school={school} dateKey={dateKey} onStart={start} />
       )}
       {phase === 'playing' && (
-        <Playing players={players} state={state} onAdvance={advance} />
+        <Playing
+          players={players}
+          state={state}
+          wheel={windows}
+          onAdvance={advance}
+        />
       )}
       {phase === 'done' && (
         <Results school={school} state={state} dateKey={dateKey} />
@@ -329,10 +347,13 @@ function RosterRail({
 function Playing({
   players,
   state,
+  wheel,
   onAdvance,
 }: {
   players: BballPlayer[]
   state: DraftState
+  /** The full rolling era wheel — the reel animation flashes labels from it. */
+  wheel: YearWindow[]
   onAdvance: (s: DraftState) => void
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -395,7 +416,8 @@ function Playing({
     if (!w || spinning || reveal) return
     setSpinning(true)
     intervalRef.current = window.setInterval(() => {
-      const r = BBALL_WINDOWS[Math.floor(Math.random() * BBALL_WINDOWS.length)]
+      const reel = wheel.length > 0 ? wheel : state.windows
+      const r = reel[Math.floor(Math.random() * reel.length)]
       setReelLabel(windowLabel(r))
     }, 70)
     timeoutRef.current = window.setTimeout(() => {
