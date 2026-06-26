@@ -24,7 +24,7 @@ export interface ReelPlan {
   cells: number[]
   /** Index into `cells` of the year the wheel lands on (placed in the LAST pass). */
   targetCell: number
-  /** Cells to translate UP so `targetCell` sits in the centre (landing) slot. */
+  /** Cells to translate UP so `targetCell` sits in the centre (landing) slot. Never negative. */
   offset: number
   /** False if `targetYear` isn't on this wheel (defensive — shouldn't happen). */
   found: boolean
@@ -60,7 +60,9 @@ export function buildReelPlan(
     years.length === 0 ? 0 : (passes - 1) * years.length + (found ? idx : 0)
   // Centre it: the viewport shows REEL_VISIBLE cells; the middle slot is at
   // floor(REEL_VISIBLE/2) from the top, so shift the target up by that many.
-  const offset = targetCell - Math.floor(REEL_VISIBLE / 2)
+  // Clamp at 0 so the documented "translate UP" invariant holds even for the
+  // degenerate empty wheel (targetCell 0 would otherwise yield a negative offset).
+  const offset = Math.max(0, targetCell - Math.floor(REEL_VISIBLE / 2))
 
   return { years, cells, targetCell, offset, found }
 }

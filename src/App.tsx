@@ -58,6 +58,14 @@ import {
 import { buildShareString } from './lib/share'
 import { buildReelPlan } from './lib/reel'
 import { setupAutoUpdate } from './lib/version'
+import {
+  MODES,
+  getMode,
+  isGameMode,
+  randomSeed,
+  type GameMode,
+  type ModeConfig,
+} from './lib/modes'
 
 const SPORT = 'basketball'
 
@@ -68,10 +76,11 @@ const SPIN_MS = 2600
 
 /** Read the user's reduced-motion preference once (stable for the component's life). */
 function usePrefersReducedMotion(): boolean {
-  return useState(
-    () =>
-      window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false,
-  )[0]
+  // useRef, not useState: this is a read-once value that never re-renders the
+  // component, so the discarded setState setter would only mislead.
+  return useRef(
+    window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false,
+  ).current
 }
 
 type StatKey = keyof BballStats
@@ -119,8 +128,14 @@ function initialSchoolId(): string | null {
   return null
 }
 
+function initialModeId(): GameMode | null {
+  const q = param('mode')
+  return isGameMode(q) ? q : null
+}
+
 export default function App() {
   const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
+  const [modeId, setModeId] = useState<GameMode | null>(initialModeId)
   const school = getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
 
   useEffect(() => {
@@ -134,12 +149,31 @@ export default function App() {
     setSchoolId(id)
   }
 
+  function switchSchool() {
+    setModeId(null)
+    setSchoolId(null)
+  }
+
   if (!schoolId) return <Picker onPick={chooseSchool} />
-  // key={school.id} makes the per-school remount explicit: Game's useState
-  // initializers (phase/state/streak below) all derive from the loaded save for
-  // THIS school, so a school change must start a fresh Game, not reuse stale state.
+  if (!modeId)
+    return (
+      <ModeMenu
+        school={school}
+        onPick={setModeId}
+        onSwitchSchool={switchSchool}
+      />
+    )
+  // key={school.id}:{modeId} makes the per-school/per-mode remount explicit:
+  // Game's useState initializers (seed/phase/state/streak) all derive from the
+  // chosen mode + loaded save, so a school OR mode change must start a fresh Game.
   return (
-    <Game key={school.id} school={school} onExit={() => setSchoolId(null)} />
+    <Game
+      key={`${school.id}:${modeId}`}
+      school={school}
+      mode={getMode(modeId)}
+      onExitToModes={() => setModeId(null)}
+      onSwitchSchool={switchSchool}
+    />
   )
 }
 
@@ -197,7 +231,69 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
   )
 }
 
-function Game({ school, onExit }: { school: School; onExit: () => void }) {
+function ModeMenu({
+  school,
+  onPick,
+  onSwitchSchool,
+}: {
+  school: School
+  onPick: (id: GameMode) => void
+  onSwitchSchool: () => void
+}) {
+  // The daily streak lives per school+sport; surface it here so returning players
+  // see it before they pick a mode (only the daily can advance it).
+  const [dailyStreak] = useState(() => loadStreak(school.id, SPORT))
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="puck">🏀</span>
+          <div>
+            YourSchoolAllStars
+            <small>{school.name}</small>
+          </div>
+        </div>
+        <button className="btn ghost" onClick={onSwitchSchool}>
+          ↺ Switch school
+        </button>
+      </header>
+      <section className="hero" style={{ paddingBottom: 8 }}>
+        <h1>{school.name} Basketball</h1>
+        <p>Choose how you want to play.</p>
+        <StreakChips streak={dailyStreak} />
+        <div className="sport-row">
+          <span className="sport-chip active">🏀 Basketball</span>
+          <span className="sport-chip soon">🏈 Football · soon</span>
+        </div>
+      </section>
+      <div className="mode-menu">
+        {MODES.map((m) => (
+          <button key={m.id} className="mode-card" onClick={() => onPick(m.id)}>
+            <span className="mode-emoji">{m.emoji}</span>
+            <span className="mode-name">{m.name}</span>
+            <span className="mode-blurb">{m.blurb}</span>
+          </button>
+        ))}
+      </div>
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by{' '}
+        {school.name}. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
+function Game({
+  school,
+  mode,
+  onExitToModes,
+  onSwitchSchool,
+}: {
+  school: School
+  mode: ModeConfig
+  onExitToModes: () => void
+  onSwitchSchool: () => void
+}) {
   // Memoized so its reference is stable across renders — it feeds the `windows`
   // useMemo below, which would otherwise recompute every render on a fresh `[]`.
   const players = useMemo(
@@ -207,9 +303,11 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
   const provisional = school.basketball?.provisional ?? false
 
   const dateKey = useMemo(activeDateKey, [])
-  const seed = useMemo(
-    () => seedFor(dateKey, `${school.id}:basketball`),
-    [dateKey, school.id],
+  // Daily mode shares ONE deterministic seed (same eras for everyone today);
+  // Classic/Hoops IQ get a fresh random seed per game — and a new one on "play
+  // again". State, not memo: playAgain mutates it to reshuffle the wheel.
+  const [gameSeed, setGameSeed] = useState<number>(() =>
+    mode.daily ? seedFor(dateKey, `${school.id}:${SPORT}`) : randomSeed(),
   )
   // Data-driven ROLLING wheel (#16): overlapping 4-year eras from 1994 up to the
   // dataset's most recent season, so the wheel grows itself as new seasons land
@@ -220,8 +318,8 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     return maxYear === null ? [] : buildRollingWindows(1994, maxYear, 4)
   }, [players])
   const spins = useMemo(
-    () => generateSpins(seed, DAILY_BBALL_ERAS, windows),
-    [seed, windows],
+    () => generateSpins(gameSeed, DAILY_BBALL_ERAS, windows),
+    [gameSeed, windows],
   )
 
   // The daily is a ONE-SHOT: if today's result is already saved, open straight to
@@ -229,7 +327,12 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
   // replay. `?date=` playtest days hydrate the same way, per day. Read ONCE via a
   // useState initializer — it's a side-effectful localStorage read, not a derived
   // value, so it must not live in a useMemo (which React may recompute).
-  const [savedToday] = useState(() => loadDaily(school.id, SPORT, dateKey))
+  // Only the DAILY is a one-shot with a persisted lock: load today's save so a
+  // returning player opens straight to locked Results. Free-play modes never load
+  // or save, so they always start fresh at the landing.
+  const [savedToday] = useState(() =>
+    mode.daily ? loadDaily(school.id, SPORT, dateKey) : null,
+  )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
     savedToday ? 'done' : 'landing',
@@ -266,14 +369,18 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     setPhase('done')
     const saved = savedDailyFrom(s, dateKey, GAMES)
     setResult(saved)
-    // Persist + advance the per-device streak. saveDailyResult is idempotent and
-    // fail-safe. Only a REAL today play moves the streak — `?date=` playtest days
-    // save + lock but stay streak-neutral so testing a past/future day can't
-    // contaminate it.
-    const updated = saveDailyResult(school.id, SPORT, saved, {
-      advanceStreak: dateKey === getDateKey(),
-    })
-    setStreak(updated)
+    // Only the DAILY persists + advances the per-device streak. Free-play modes
+    // (Classic / Hoops IQ) are replayable, so they neither save nor touch the
+    // streak. saveDailyResult is idempotent and fail-safe; only a REAL today play
+    // moves the streak — `?date=` playtest days save + lock but stay neutral.
+    if (mode.daily) {
+      const updated = saveDailyResult(school.id, SPORT, saved, {
+        advanceStreak: dateKey === getDateKey(),
+      })
+      setStreak(updated)
+    }
+    // Celebration is mode-agnostic on purpose: a great roster earns confetti in
+    // Classic / Hoops IQ too, even though those don't save or touch the streak.
     if (
       saved.grade === 'PERFECT' ||
       saved.grade === 'HISTORIC' ||
@@ -281,6 +388,16 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     ) {
       confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
     }
+  }
+
+  // Free-play replay: reshuffle to a fresh random wheel and start a new draft.
+  // (Not offered for the daily — that's a one-shot.)
+  function playAgain() {
+    const next = randomSeed()
+    setGameSeed(next)
+    setResult(null)
+    setState(initDraft(generateSpins(next, DAILY_BBALL_ERAS, windows)))
+    setPhase('playing')
   }
 
   return (
@@ -291,18 +408,25 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
           <div>
             YourSchoolAllStars
             <small>
-              {school.name} Basketball{provisional ? ' · provisional data' : ''}
+              {school.name} Basketball · {mode.name}
+              {provisional ? ' · provisional data' : ''}
             </small>
           </div>
         </div>
-        <button className="btn ghost" onClick={onExit}>
-          ↺ Switch school
-        </button>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onExitToModes}>
+            ← Modes
+          </button>
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ School
+          </button>
+        </div>
       </header>
 
       {phase === 'landing' && (
         <Landing
           school={school}
+          mode={mode}
           dateKey={dateKey}
           playable={spins.length > 0}
           streak={streak}
@@ -314,17 +438,20 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
           players={players}
           state={state}
           wheel={windows}
+          hideStats={mode.hideStats}
           onAdvance={advance}
         />
       )}
       {phase === 'done' && (
         <Results
           school={school}
+          mode={mode}
           state={state}
           dateKey={dateKey}
           streak={streak}
           saved={result}
           returning={returning}
+          onPlayAgain={playAgain}
         />
       )}
 
@@ -352,12 +479,14 @@ function StreakChips({ streak }: { streak: Streak }) {
 
 function Landing({
   school,
+  mode,
   dateKey,
   playable,
   streak,
   onStart,
 }: {
   school: School
+  mode: ModeConfig
   dateKey: string
   /** False when this school has no draftable wheel (no basketball data yet). */
   playable: boolean
@@ -366,18 +495,30 @@ function Landing({
 }) {
   return (
     <section className="hero">
-      <span className="banner">🗓️ Daily Challenge · {dateKey}</span>
+      <span className="banner">
+        {mode.daily
+          ? `🗓️ Daily Challenge · ${dateKey}`
+          : `${mode.emoji} ${mode.name}`}
+      </span>
       <h1>Build {school.name}'s all-time five.</h1>
       <p>
-        Six eras spin in a fixed order today — the same for everyone. Draft a
-        starting five (PG, SG, SF, PF, C): pick a player, then choose an open
-        slot. You can <strong>skip one era</strong>. How close to a perfect{' '}
+        {mode.daily
+          ? 'Six eras spin in a fixed order today — the same for everyone. '
+          : 'Six random eras spin, fresh every game. '}
+        Draft a starting five (PG, SG, SF, PF, C): pick a player, then choose an
+        open slot. You can <strong>skip one era</strong>. How close to a perfect{' '}
         <strong>40&ndash;0</strong> can you get?
       </p>
-      <StreakChips streak={streak} />
+      {mode.hideStats && (
+        <p className="muted">
+          🧠 Hoops IQ: the box-score stats stay hidden while you draft — go on
+          names and honors alone. The numbers reveal at the end.
+        </p>
+      )}
+      {mode.daily && <StreakChips streak={streak} />}
       {playable ? (
         <button className="btn primary" onClick={onStart}>
-          ▶ Play Today's Challenge
+          {mode.daily ? "▶ Play Today's Challenge" : `▶ Play ${mode.name}`}
         </button>
       ) : (
         <p className="muted">
@@ -388,17 +529,20 @@ function Landing({
   )
 }
 
-function RosterRail({
+export function RosterRail({
   slots,
   windows,
   targetable,
   onPlace,
+  hideRating,
 }: {
   slots: DraftState['slots']
   /** Era each filled slot was drafted from, so its rating matches the pick. */
   windows?: Partial<Record<BballPosition, YearWindow>>
   targetable?: BballPosition[]
   onPlace?: (pos: BballPosition) => void
+  /** Hoops IQ: suppress the numeric rating while drafting (revealed at the end). */
+  hideRating?: boolean
 }) {
   const targets = new Set(targetable ?? [])
   return (
@@ -417,7 +561,9 @@ function RosterRail({
             {p ? (
               <>
                 <div className="pname">{p.name}</div>
-                <div className="prate">{playerRating(p, windows?.[pos])}</div>
+                {!hideRating && (
+                  <div className="prate">{playerRating(p, windows?.[pos])}</div>
+                )}
               </>
             ) : (
               <div className="pname muted">
@@ -431,16 +577,19 @@ function RosterRail({
   )
 }
 
-function Playing({
+export function Playing({
   players,
   state,
   wheel,
+  hideStats,
   onAdvance,
 }: {
   players: BballPlayer[]
   state: DraftState
   /** The full rolling era wheel — the reel animation flashes labels from it. */
   wheel: YearWindow[]
+  /** Hoops IQ: hide box-score numbers (year + stats + rating) while drafting. */
+  hideStats: boolean
   onAdvance: (s: DraftState) => void
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -470,14 +619,18 @@ function Playing({
     [wheel, targetYear],
   )
 
-  // Group players by primary position, sorted within group by IN-WINDOW points.
+  // Group players by primary position. Normally sort within group by IN-WINDOW
+  // points, but in Hoops IQ that would leak the hidden stat ranking — sort by name
+  // instead so the order reveals nothing.
   const ptsIn = (p: BballPlayer) => seasonFor(p, w ?? undefined)?.stats.pts ?? 0
   const groups = BBALL_POSITIONS.map((pos) => ({
     pos,
     filled: state.slots[pos] !== null,
     players: era
       .filter((p) => p.position === pos)
-      .sort((a, b) => ptsIn(b) - ptsIn(a)),
+      .sort((a, b) =>
+        hideStats ? a.name.localeCompare(b.name) : ptsIn(b) - ptsIn(a),
+      ),
   })).filter((g) => g.players.length > 0)
 
   function place(pos: BballPosition) {
@@ -542,6 +695,7 @@ function Playing({
         windows={windowByPosition(state.picks)}
         targetable={targetSlots}
         onPlace={place}
+        hideRating={hideStats}
       />
 
       {!reveal ? (
@@ -627,10 +781,10 @@ function Playing({
                 <thead>
                   <tr>
                     <th className="name">Player</th>
-                    <th>YR</th>
-                    {STAT_COLS.map((c) => (
-                      <th key={c.key}>{c.label}</th>
-                    ))}
+                    {/* Hoops IQ hides the box-score columns while drafting. */}
+                    {!hideStats && <th>YR</th>}
+                    {!hideStats &&
+                      STAT_COLS.map((c) => <th key={c.key}>{c.label}</th>)}
                   </tr>
                 </thead>
                 <tbody>
@@ -652,15 +806,24 @@ function Playing({
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
                           {s && s.honors.length > 0 && (
-                            <span className="honor" title={s.honors.join(', ')}>
+                            // Hoops IQ: keep the ★ but drop the tooltip — honor
+                            // strings embed the year (e.g. "All-American (2003)"),
+                            // which would leak the hidden season.
+                            <span
+                              className="honor"
+                              title={
+                                hideStats ? undefined : s.honors.join(', ')
+                              }
+                            >
                               ★
                             </span>
                           )}
                         </td>
-                        <td className="yr">{fmtYear(s)}</td>
-                        {STAT_COLS.map((c) => (
-                          <td key={c.key}>{fmtStat(s, c.key)}</td>
-                        ))}
+                        {!hideStats && <td className="yr">{fmtYear(s)}</td>}
+                        {!hideStats &&
+                          STAT_COLS.map((c) => (
+                            <td key={c.key}>{fmtStat(s, c.key)}</td>
+                          ))}
                       </tr>
                     )
                   })}
@@ -676,13 +839,16 @@ function Playing({
 
 function Results({
   school,
+  mode,
   state,
   dateKey,
   streak,
   saved,
   returning,
+  onPlayAgain,
 }: {
   school: School
+  mode: ModeConfig
   state: DraftState
   dateKey: string
   streak: Streak
@@ -690,6 +856,8 @@ function Results({
   saved: SavedDaily | null
   /** Already in the books on load (a returning visit) — shows the lock banner. */
   returning: boolean
+  /** Free-play replay; only surfaced for non-daily modes. */
+  onPlayAgain: () => void
 }) {
   // The live re-rate drives the per-row RTG table and team strength. But the
   // headline record + share use the EARNED wins/grade from the save when present:
@@ -708,6 +876,8 @@ function Results({
     games: GAMES,
     grade,
     ratingsByPosition,
+    daily: mode.daily,
+    modeLabel: mode.name,
   })
 
   const [copied, setCopied] = useState(false)
@@ -721,6 +891,17 @@ function Results({
     )
   }
 
+  // Team totals across the starting five, per stat. A missing (unpublished) value
+  // counts as 0 so the row still sums what's known rather than blanking out.
+  const totals = STAT_COLS.map((c) => ({
+    key: c.key,
+    sum: BBALL_POSITIONS.reduce((acc, pos) => {
+      const p = state.slots[pos]
+      const s = p ? seasonFor(p, winByPos[pos]) : null
+      return acc + (s?.stats[c.key] ?? 0)
+    }, 0),
+  }))
+
   return (
     <section>
       {returning && (
@@ -732,7 +913,7 @@ function Results({
         <div className="big">{recordLabel(wins, GAMES)}</div>
         <div className="grade">{grade}</div>
         <p className="muted">Team strength {strength} / 100</p>
-        <StreakChips streak={streak} />
+        {mode.daily && <StreakChips streak={streak} />}
       </div>
 
       <RosterRail slots={state.slots} windows={winByPos} />
@@ -768,6 +949,16 @@ function Results({
               )
             })}
           </tbody>
+          <tfoot>
+            <tr className="totals">
+              <td className="name">Team totals</td>
+              <td className="yr"></td>
+              {totals.map((t) => (
+                <td key={t.key}>{t.sum.toFixed(1)}</td>
+              ))}
+              <td></td>
+            </tr>
+          </tfoot>
         </table>
       </div>
 
@@ -776,9 +967,16 @@ function Results({
         <button className="btn primary" onClick={copyShare}>
           {copied ? '✓ Copied' : '📋 Copy result'}
         </button>
+        {!mode.daily && (
+          <button className="btn" onClick={onPlayAgain}>
+            🔄 Play again
+          </button>
+        )}
       </div>
       <p className="center muted" style={{ marginTop: 14 }}>
-        New challenge at midnight ET. Come back tomorrow.
+        {mode.daily
+          ? 'New challenge at midnight ET. Come back tomorrow.'
+          : `Free play — spin up another ${mode.name} team any time.`}
       </p>
     </section>
   )
