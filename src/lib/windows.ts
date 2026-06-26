@@ -59,8 +59,23 @@ export function datasetMaxYear(
   return players.reduce<number>((m, p) => Math.max(m, p.lastYear), -Infinity)
 }
 
-/** Basketball: 1994–2025 in 4-year blocks → 1994–97, 1998–01, … 2022–25. */
-export const BBALL_WINDOWS: YearWindow[] = buildWindows(1994, 2025, 4)
+/**
+ * Basketball: 1994–2026 in 4-year blocks → 1994–97, 1998–01, … 2022–26. The span
+ * (33 years) doesn't tile evenly into 4-year blocks, so the trailing partial year
+ * (2026 — the championship season) is FOLDED into the final block: the last era
+ * is 2022–26 (5 years) rather than a degenerate one-year 2026–26 window. Keeps the
+ * wheel at 8 non-overlapping eras. #16 replaces this with the data-driven rolling
+ * wheel (`buildRollingWindows` + `datasetMaxYear`), which subsumes this fold.
+ */
+export const BBALL_WINDOWS: YearWindow[] = (() => {
+  const ws = buildWindows(1994, 2026, 4)
+  const last = ws[ws.length - 1]
+  if (ws.length > 1 && last.end - last.start + 1 < 4) {
+    ws[ws.length - 2] = { ...ws[ws.length - 2], end: last.end }
+    ws.pop()
+  }
+  return ws
+})()
 
 /** True if a tenure [firstYear, lastYear] overlaps the window. Sport-agnostic. */
 export function tenureOverlaps(

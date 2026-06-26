@@ -3,7 +3,7 @@
 
 import { describe, it, expect } from 'vitest'
 import { michiganBasketball } from './index'
-import { BBALL_WINDOWS, playerInWindow } from '../lib/windows'
+import { BBALL_WINDOWS, playerInWindow, datasetMaxYear } from '../lib/windows'
 import { BBALL_POSITIONS, eligiblePositions } from '../types'
 
 const { players } = michiganBasketball
@@ -32,6 +32,10 @@ describe('michigan basketball dataset', () => {
           expect(typeof v).toBe('number')
           expect(v).toBeGreaterThanOrEqual(0)
         }
+        // ...and a row must carry at least one real stat. An empty {} line would
+        // satisfy the per-year coverage guard below without contributing any
+        // ratable number — phantom coverage. Require ≥1 field so coverage is real.
+        expect(Object.keys(s.stats).length).toBeGreaterThanOrEqual(1)
         expect(s.source.length).toBeGreaterThan(0)
         expect(Array.isArray(s.honors)).toBe(true)
       }
@@ -65,6 +69,32 @@ describe('michigan basketball dataset', () => {
     }
     // A data edit that empties a covered cell adds a NEW gap and fails CI;
     // filling a known gap without updating KNOWN_GAPS also fails. Trends to [].
+    expect(gaps.sort()).toEqual([...KNOWN_GAPS].sort())
+  })
+
+  it('every YEAR × position has an actual season row (per-year coverage)', () => {
+    // The launch bar above is per-WINDOW (tenure-overlap), which a player can
+    // satisfy without having PLAYED that exact year. The real bar for the
+    // per-season model is stricter: for every year in the live range, each
+    // position must have a player who is eligible there AND has a real stat ROW
+    // that year — otherwise "best season in the spun window" can land on a year
+    // with nobody at a position. Coverage starts at 1994 (the first window year;
+    // earlier tenure artifacts fall in no window) and runs to the latest season.
+    const minYear = 1994
+    const maxYear = datasetMaxYear(players) ?? minYear
+    const KNOWN_GAPS: string[] = []
+    const gaps: string[] = []
+    for (let y = minYear; y <= maxYear; y++) {
+      const active = players.filter((p) => p.firstYear <= y && p.lastYear >= y)
+      for (const pos of BBALL_POSITIONS) {
+        const covered = active.some(
+          (p) =>
+            eligiblePositions(p).includes(pos) &&
+            p.seasons.some((s) => s.year === y),
+        )
+        if (!covered) gaps.push(`${y}/${pos}`)
+      }
+    }
     expect(gaps.sort()).toEqual([...KNOWN_GAPS].sort())
   })
 })
