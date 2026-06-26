@@ -16,6 +16,12 @@ import { playerInWindow } from './windows'
 export interface DraftPick {
   player: BballPlayer
   position: BballPosition
+  /**
+   * The era this player was drafted FROM. Display and rating resolve the
+   * player's best season within this window — so a slot always shows the stats
+   * (and year) that earned the pick, even after the cursor moves on.
+   */
+  window: YearWindow
 }
 
 export interface DraftState {
@@ -96,10 +102,12 @@ export function draftToSlot(
   if (alreadyDrafted(s, player)) return s
   if (!isPickable(s, player)) return s
   if (!eligibleOpenSlots(s, player).includes(position)) return s
+  const window = currentWindow(s)
+  if (!window) return s
   return {
     ...s,
     slots: { ...s.slots, [position]: player },
-    picks: [...s.picks, { player, position }],
+    picks: [...s.picks, { player, position, window }],
     cursor: s.cursor + 1,
   }
 }

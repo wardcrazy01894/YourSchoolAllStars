@@ -28,10 +28,14 @@ function mk(
     eligible,
     firstYear: first,
     lastYear: last,
-    bestSeason: last,
-    stats: { pts: 12, reb: 4, ast: 3, stl: 1, blk: 0.4 },
-    honors: [],
-    source: 'test',
+    seasons: [
+      {
+        year: last,
+        stats: { pts: 12, reb: 4, ast: 3, stl: 1, blk: 0.4 },
+        honors: [],
+        source: 'test',
+      },
+    ],
   }
 }
 
@@ -64,7 +68,7 @@ describe('draftToSlot + player-then-slot', () => {
     s = draftToSlot(s, pool[0], 'PG')
     expect(s.slots.PG?.id).toBe('pg10')
     expect(s.cursor).toBe(1)
-    expect(s.picks).toEqual([{ player: pool[0], position: 'PG' }])
+    expect(s.picks).toEqual([{ player: pool[0], position: 'PG', window: W10 }])
   })
 
   it('lets a multi-eligible player choose among open slots (combo guard → SG)', () => {
