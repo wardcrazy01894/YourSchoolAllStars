@@ -41,6 +41,17 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
 - Stack mirrors KnowYourCity: **React + TS + Vite**, static **GitHub Pages**,
   deterministic daily seed (no backend), CI (build/typecheck/lint/test/secret),
   branch protection, TDD. Repo `wardcrazy01894/YourSchoolAllStars`.
+- **Difficulty: rare, like the original (~4% perfect).** Calibrate the win
+  curve once the dataset is gap-free.
+- **Modes at launch: Daily + Classic + Hoops IQ.** Daily = one-shot per ET day
+  with streaks; Classic = free-play, replayable random spins (own seed); Hoops IQ
+  = stats hidden.
+- **Adjacent-position eligibility.** A player may fill their primary slot or an
+  adjacent one (PG↔SG, SG↔SF, SF↔PF, PF↔C) — drafting is "pick a player, then tap
+  a highlighted open slot." (Also softens thin-window coverage.)
+- **University picker + per-school theming.** Landing is a school picker; the UI
+  re-themes to the chosen school (Michigan maize/blue, UNC Carolina blue). Schools
+  live in a registry (`src/schools.ts`); adding one = one entry + its dataset.
 
 ## Architecture
 
@@ -54,10 +65,11 @@ src/
     game.ts           pure draft state machine (initDraft, draft, reroll, skipRound, …)
     share.ts          Wordle-style spoiler-free share string
   data/
-    michigan-basketball.json   curated player dataset (currently PROVISIONAL seed)
+    michigan-basketball.json   curated player dataset (49 players, sourced)
     index.ts                   typed loader
-    dataset.test.ts            integrity guard
-  App.tsx             React shell: Landing → Playing → Results
+    dataset.test.ts            integrity guard (incl. KNOWN_GAPS coverage check)
+  schools.ts          school registry + per-school theme tokens + applyTheme()
+  App.tsx             React shell: Picker → Landing → Playing → Results
 ```
 
 ### Daily determinism
@@ -95,15 +107,17 @@ all tested.
 ## Milestones
 
 - **M1 — Basketball vertical slice (DONE):** engine + tested rating/draft +
-  playable React UI on provisional data. Verified end-to-end (37–3 HISTORIC).
-- **M2 — Full basketball dataset:** curate ~200–250 sourced Michigan players
-  1994+; flip the dataset guard's coverage assertion to "every window×position
-  has ≥1 player"; calibrate the rating curve.
-- **M3 — Ship:** GitHub repo + CI green + branch protection + Pages deploy.
-- **M4 — Daily polish:** localStorage one-shot persistence, streaks, "yesterday's
-  solution", leaderboard (future), Hoops-IQ (stats-hidden) mode.
-- **M5 — Football (2005+):** 12-slot roster, CFBD-sourced offense + 2005+ defense.
-- **M6 — North Carolina:** second school behind the same engine (school registry).
+  playable React UI. Verified end-to-end (37–3 HISTORIC).
+- **M1.5 — School registry + picker + theming (DONE):** `schools.ts`, picker
+  landing, per-school CSS theming; Michigan live, UNC "coming soon".
+- **M2 — Full basketball dataset (IN PROGRESS):** 49 sourced players landed
+  (`_provisional: false`); **5 coverage gaps** left (tracked as `KNOWN_GAPS`),
+  gap-fill pass running. Then calibrate the rating curve to ~4% perfect.
+- **M3 — Modes:** Daily (one-shot + streaks) · Classic (free-play) · Hoops IQ.
+- **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
+- **M5 — Ship:** flip repo public → branch protection + Pages deploy.
+- **M6 — Football (2005+):** 12-slot roster, CFBD-sourced offense + 2005+ defense.
+- **M7 — North Carolina:** add the dataset; the registry already themes it.
 
 ## Open questions
 

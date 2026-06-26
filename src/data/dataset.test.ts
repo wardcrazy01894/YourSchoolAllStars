@@ -39,10 +39,18 @@ describe('michigan basketball dataset', () => {
     }
   })
 
-  it('every window has at least one eligible player at every position (playability)', () => {
-    // This is the real launch bar: no daily spin can strand a position with an
-    // empty pool. With the provisional seed some cells may be thin — this test
-    // documents the gaps it must clear before the curated data ships.
+  it('window × position coverage only has the known (tracked) gaps', () => {
+    // Launch bar: no daily spin should strand a position with an empty pool.
+    // These cells still lack a sourced player (thin late-90s/early-00s + one
+    // 2018-21/PF). Each gap-fill PR deletes an entry here until it's []. Until
+    // then the UI's reroll/skip covers a stranded cell. See docs/BACKLOG.md.
+    const KNOWN_GAPS = [
+      '1998-2001/PF',
+      '1998-2001/PG',
+      '2002-2005/C',
+      '2002-2005/PF',
+      '2018-2021/PF',
+    ]
     const gaps: string[] = []
     for (const w of BBALL_WINDOWS) {
       for (const pos of BBALL_POSITIONS) {
@@ -52,8 +60,8 @@ describe('michigan basketball dataset', () => {
         if (count === 0) gaps.push(`${w.start}-${w.end}/${pos}`)
       }
     }
-    // Provisional data WILL have gaps; assert we at least track them. Flip this
-    // to `expect(gaps).toEqual([])` once the curated dataset lands.
-    expect(Array.isArray(gaps)).toBe(true)
+    // A data edit that empties a covered cell adds a NEW gap and fails CI;
+    // filling a known gap without updating KNOWN_GAPS also fails. Trends to [].
+    expect(gaps.sort()).toEqual([...KNOWN_GAPS].sort())
   })
 })

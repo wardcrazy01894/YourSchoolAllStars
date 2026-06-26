@@ -56,13 +56,19 @@ Rules (enforced by `src/data/dataset.test.ts`):
 
 ## Status
 
-- **Provisional seed** (~26 marquee players, 1994–2024) is in place so the UI is
-  playable. Its `source` fields say `provisional-pending-verification` and
-  `_provisional: true` — these stats are **not yet verified** and must be
-  replaced before launch.
-- **Curation in progress:** two passes over Wikipedia season pages (1994–2008 and
-  2009–2025) are gathering each season's starters + top rotation, deduped to best
-  season, with a real `source` URL per player. Target ~200–250 players.
+- **Curated dataset landed: 49 unique players, `_provisional: false`.** Built
+  from two Wikipedia passes (1994–2008 and 2009–2025), deduped to each player's
+  best season, every row carrying a real `source` URL. Replaced the provisional
+  seed.
+- **5 known coverage gaps remain** (windows × positions with no sourced player),
+  locked into `dataset.test.ts` as `KNOWN_GAPS` so no new gap can sneak in:
+  `1998-2001/PG`, `1998-2001/PF`, `2002-2005/PF`, `2002-2005/C`, `2018-2021/PF`.
+  These are the thin late-90s/early-00s rotation players whose full 5-category
+  per-game lines aren't on Wikipedia; a targeted gap-fill pass (allowed to read
+  Sports-Reference to verify a missing steals/blocks number) is filling them. The
+  UI's reroll/skip covers a stranded cell until then.
+- Coverage by window (PG/SG/SF/PF/C counts) is regenerable; the launch bar is
+  every cell ≥ 1 (i.e. `KNOWN_GAPS` empties to `[]`).
 
 ## Launch bar for the dataset
 

@@ -15,8 +15,10 @@ it's _your_ school's all-time team you're building.
 
 ## Status
 
-**Playable vertical slice.** Engine + UI work end-to-end on a small **provisional**
-dataset (a verified, fully-sourced roster is in progress — see
+**Playable.** A **university picker** themes the whole UI to your school
+(Michigan maize/blue now; UNC Carolina blue queued). Michigan basketball runs on
+**49 sourced players** (1994–2025); 5 thin-era roster cells are still being
+filled (see
 [`docs/DATA-SOURCING.md`](docs/DATA-SOURCING.md)). Football (2005+) and North
 Carolina are staged behind the same engine.
 
