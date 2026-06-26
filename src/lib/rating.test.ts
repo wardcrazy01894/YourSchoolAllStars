@@ -12,6 +12,7 @@ import {
   recordLabel,
   gradeLabel,
   UNDEFEATED_STRENGTH,
+  WIN_PIVOT,
 } from './rating'
 import type {
   BballPlayer,
@@ -193,7 +194,7 @@ describe('teamStrength weak-link penalty', () => {
 
 describe('projected record', () => {
   it('winProbability is 0.5 at the pivot and monotonic', () => {
-    expect(winProbability(60)).toBeCloseTo(0.5, 5)
+    expect(winProbability(WIN_PIVOT)).toBeCloseTo(0.5, 5)
     expect(winProbability(90)).toBeGreaterThan(winProbability(70))
   })
   // A balanced five of equal ratings R has teamStrength === R (mean === min === R),
@@ -204,32 +205,49 @@ describe('projected record', () => {
       rating,
     }))
 
-  it('a 90+ overall runs the table — undefeated, for sure', () => {
+  it('the undefeated cutoff is a displayed overall of 85 (Alex, 2026-06-26)', () => {
+    // Pin the intent: anything rating 85 or better (as shown) runs the table.
+    expect(UNDEFEATED_STRENGTH).toBe(85)
+  })
+
+  it('an 85+ overall runs the table — undefeated, for sure', () => {
     expect(projectedWins(five(UNDEFEATED_STRENGTH), 40)).toBe(40)
+    expect(projectedWins(five(85), 40)).toBe(40)
+    expect(projectedWins(five(90), 40)).toBe(40)
     expect(projectedWins(five(95), 40)).toBe(40)
-    expect(projectedWins(five(97), 40)).toBe(40)
     expect(projectedWins(five(100), 40)).toBe(40)
+  })
+
+  it('every overall from 85 up through 89 is undefeated, not just the cutoff', () => {
+    for (const r of [85, 86, 87, 88, 89]) {
+      expect(projectedWins(five(r), 40)).toBe(40)
+    }
   })
 
   it('the undefeated cutoff follows the DISPLAYED (rounded) overall', () => {
     // Anchor to the constant: a strength rounding UP to it is undefeated; one
-    // rounding DOWN below it drops at least a game. (89.5→90 vs 89.4→89.)
+    // rounding DOWN below it drops at least a game. (84.5→85 vs 84.4→84.)
     expect(projectedWins(five(UNDEFEATED_STRENGTH - 0.5), 40)).toBe(40)
     expect(projectedWins(five(UNDEFEATED_STRENGTH - 0.6), 40)).toBeLessThan(40)
   })
 
-  it('mid-to-high 80s win a lot, but not all 40', () => {
-    // The high 80s are nearly perfect (39-ish) without crossing into undefeated.
-    for (const r of [85, 86, 87, 88, 89]) {
+  it('every overall 80 and up is at least 37 wins (Alex, 2026-06-26)', () => {
+    // The curve was eased so the 80s feel rewarding: 80–84 land in the high 30s
+    // (just shy of the 85 undefeated cutoff), 85+ run the table.
+    for (const r of [80, 81, 82, 83, 84]) {
       const wins = projectedWins(five(r), 40)
-      expect(wins).toBeGreaterThanOrEqual(39)
-      expect(wins).toBeLessThan(40)
+      expect(wins).toBeGreaterThanOrEqual(37)
+      expect(wins).toBeLessThan(40) // still short of undefeated below 85
     }
   })
 
-  it('sub-80 overalls are unchanged enough — a coin-flip team is ~.500', () => {
-    expect(projectedWins(five(60), 40)).toBe(20) // pivot ⇒ 50%
-    expect(projectedWins(five(75), 40)).toBeLessThan(38) // good, not elite
+  it('a team at the pivot is ~.500; the curve sits a touch easier overall', () => {
+    expect(projectedWins(five(WIN_PIVOT), 40)).toBe(20) // pivot ⇒ 50%
+    // Eased curve (pivot lowered): a plain 60 overall now clears .500.
+    expect(projectedWins(five(60), 40)).toBeGreaterThan(20)
+    // A 75 overall is strong but clearly short of undefeated (and not a stealth
+    // 39-win HISTORIC) — pin it exactly so the bound can't silently drift up.
+    expect(projectedWins(five(75), 40)).toBe(37)
   })
   it('recordLabel and gradeLabel', () => {
     expect(recordLabel(40, 40)).toBe('40–0')

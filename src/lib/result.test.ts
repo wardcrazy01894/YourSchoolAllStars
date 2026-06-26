@@ -66,8 +66,8 @@ describe('evaluateRoster', () => {
       expect(result.ratingsByPosition[pos]).toBe(86)
     }
     expect(Math.round(result.strength)).toBe(86)
-    expect(result.wins).toBe(39) // winProb(86) ≈ 0.963 × 40
-    expect(result.grade).toBe('HISTORIC') // 39/40 = 0.975 ≥ 0.9
+    expect(result.wins).toBe(40) // 86 ≥ the 85 undefeated cutoff ⇒ runs the table
+    expect(result.grade).toBe('PERFECT') // 40/40
   })
 
   it('rates only filled slots; empty slots read null and are absent from the score', () => {
@@ -87,7 +87,7 @@ describe('evaluateRoster', () => {
     // (6 eras, 5 slots, 1 safe skip, ≥1 eligible per window×position); this just
     // guarantees evaluateRoster degrades gracefully (no NaN) rather than penalizes.
     expect(result.strength).toBeCloseTo(86, 0)
-    expect(result.wins).toBe(39)
+    expect(result.wins).toBe(40) // 86 ≥ 85 ⇒ undefeated
   })
 
   it('uses the drafted window, not career-best, to pick the season', () => {
@@ -196,8 +196,8 @@ describe('savedDailyFrom', () => {
     const picks = fullPicks()
     const saved = savedDailyFrom(stateFrom(picks), '2026-06-26', 40)
     expect(saved.dateKey).toBe('2026-06-26')
-    expect(saved.wins).toBe(39)
-    expect(saved.grade).toBe('HISTORIC')
+    expect(saved.wins).toBe(40)
+    expect(saved.grade).toBe('PERFECT')
     for (const pos of BBALL_POSITIONS) {
       expect(saved.playerIds[pos]).toBe(`p-${pos}`)
       expect(saved.windows?.[pos]).toEqual(
