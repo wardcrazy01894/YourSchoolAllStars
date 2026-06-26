@@ -44,6 +44,16 @@ describe('honorsBonus', () => {
     expect(honorsBonus(['Wooden Award', 'Big Ten Player of the Year'])).toBe(16)
     expect(honorsBonus([])).toBe(0)
   })
+  it('credits the REAL hyphenated dataset formats (regression for the silent-miss bug)', () => {
+    // These are the exact shapes in michigan-basketball.json; the old
+    // adjacent-substring matcher scored them too low.
+    expect(honorsBonus(['Consensus Second-Team All-American (2021)'])).toBe(9)
+    expect(honorsBonus(['AP Third-Team All-American (1994)'])).toBe(6) // not consensus
+    expect(honorsBonus(['First-Team All-Big Ten (2006)'])).toBe(4)
+    expect(honorsBonus(['All-Big Ten'])).toBe(3)
+    expect(honorsBonus(['Big Ten Freshman of the Year (2003)'])).toBe(3)
+    expect(honorsBonus(['National Player of the Year (2013)'])).toBe(12)
+  })
   it('does not double-count overlapping substrings within one honor', () => {
     // "Consensus All-American" contains "all-american" too — count 9, not 15.
     expect(honorsBonus(['Consensus All-American'])).toBe(9)
