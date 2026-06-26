@@ -50,7 +50,9 @@ describe('sports registry', () => {
 
 describe('sportsForSchool', () => {
   it('offers basketball + football for a school that fields football', () => {
-    const offered = sportsForSchool(school({ hasFootball: true })).map((s) => s.id)
+    const offered = sportsForSchool(school({ hasFootball: true })).map(
+      (s) => s.id,
+    )
     expect(offered).toEqual(['basketball', 'football'])
   })
 
