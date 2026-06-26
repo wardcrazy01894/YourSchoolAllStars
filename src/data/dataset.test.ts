@@ -27,6 +27,10 @@ describe('michigan basketball dataset', () => {
       // under-cover. Every listed slot must be a real position.
       if (p.eligible) {
         for (const e of p.eligible) expect(BBALL_POSITIONS).toContain(e)
+        // ...and it must INCLUDE the primary position — `eligible` REPLACES the
+        // [position] default (it isn't additive), so omitting the primary would
+        // silently strip the player from their own primary slot's coverage.
+        expect(p.eligible).toContain(p.position)
       }
       expect(p.firstYear).toBeLessThanOrEqual(p.lastYear)
       // Always at least one season; each season is in-tenure and well-formed.
