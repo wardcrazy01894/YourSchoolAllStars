@@ -451,8 +451,8 @@ function Playing({
   // true on mount and the column would jump to the target with no animation).
   const [rolling, setRolling] = useState(false)
   const timeoutRef = useRef<number | undefined>(undefined)
+  const rafRef = useRef<number | undefined>(undefined)
   const reduced = usePrefersReducedMotion()
-  const spinMs = reduced ? 350 : SPIN_MS
   const w = currentWindow(state)
   const era = playersThisEra(state, players)
   const selected = selectedId
@@ -508,20 +508,31 @@ function Playing({
     setSelectedId(null)
     return () => {
       window.clearTimeout(timeoutRef.current)
+      if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
     }
   }, [state.cursor])
 
   function spin() {
     if (!w || spinning || reveal || !plan) return
+    if (import.meta.env.DEV && !plan.found) {
+      console.warn(`spin: target year ${targetYear} not on the wheel`)
+    }
+    // Honour prefers-reduced-motion: skip the scroll entirely and reveal at once.
+    if (reduced) {
+      setReveal(true)
+      return
+    }
     setSpinning(true)
     setRolling(false) // pin the column at the top with the transition OFF…
     // …then enable the transition on the next committed frame so the browser
     // animates from the reset position instead of snapping to the target.
-    requestAnimationFrame(() => requestAnimationFrame(() => setRolling(true)))
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = requestAnimationFrame(() => setRolling(true))
+    })
     timeoutRef.current = window.setTimeout(() => {
       setSpinning(false)
       setReveal(true)
-    }, spinMs)
+    }, SPIN_MS)
   }
 
   return (
@@ -536,7 +547,9 @@ function Playing({
       {!reveal ? (
         <div className="spinbar">
           <div className="wheel" aria-hidden="true">
-            <div className="wheel-band" />
+            {/* Highlight the landing slot only once the wheel is moving, so no
+                pre-spin year sits under the band looking pre-selected. */}
+            {rolling && <div className="wheel-band" />}
             <div
               className="wheel-col"
               style={{
@@ -544,7 +557,7 @@ function Playing({
                   rolling && plan ? -plan.offset : 0
                 }))`,
                 transition: rolling
-                  ? `transform ${spinMs - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
+                  ? `transform ${SPIN_MS - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
                   : 'none',
               }}
             >

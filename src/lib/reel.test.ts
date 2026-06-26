@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import type { YearWindow } from '../types'
-import { REEL_LOOPS, REEL_VISIBLE, reelYears, buildReelPlan } from './reel'
+import { REEL_LOOPS, reelYears, buildReelPlan } from './reel'
 
 const W = (start: number, end: number): YearWindow => ({ start, end })
 
@@ -44,9 +44,14 @@ describe('buildReelPlan', () => {
     )
   })
 
-  it('centres the target: offset shifts it into the middle viewport slot', () => {
+  it('centres the target in the middle viewport slot', () => {
     const plan = buildReelPlan(rollingWheel(), 1996)
-    expect(plan.offset).toBe(plan.targetCell - Math.floor(REEL_VISIBLE / 2))
+    // 1996 is index 2 of [1994..2000]; it lands in the final (5th) pass:
+    //   targetCell = (REEL_LOOPS) * 7 + 2 = 4*7 + 2 = 30
+    // and centres up by floor(REEL_VISIBLE/2) = 1 → offset 29.
+    expect(plan.targetCell).toBe(30)
+    expect(plan.offset).toBe(29)
+    expect(plan.cells[plan.targetCell]).toBe(1996)
   })
 
   it('travels a comparable distance for an early vs a late land', () => {
