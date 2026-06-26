@@ -21,10 +21,15 @@
   box-sizing: border-box;
 }
 
-html,
+html {
+  height: 100%;
+  /* Backstop colour so content taller than one viewport doesn't reveal a bare
+   * strip below the body gradient (the "blue changes partway down" bug). */
+  background: var(--ink);
+}
 body,
 #root {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
 }
 
@@ -39,8 +44,13 @@ body {
     Arial,
     sans-serif;
   color: var(--text);
+  /* `fixed` keeps the top glow anchored to the viewport and, with the solid
+   * --ink layer, paints the whole scrollable page a single consistent blue.
+   * iOS Safari may treat `fixed` as `scroll` — that's fine, the `html`
+   * background backstop above still covers the seam (don't remove it). */
   background:
-    radial-gradient(1200px 600px at 50% -10%, var(--brand-2), transparent 60%),
+    radial-gradient(1200px 600px at 50% -10%, var(--brand-2), transparent 60%)
+      fixed,
     var(--ink);
   -webkit-font-smoothing: antialiased;
 }

@@ -8,6 +8,9 @@ dist/
 # Transient git worktrees created for isolated subagent/reviewer runs.
 .claude/worktrees/
 
+# Adversarial-review output dropped in the repo root by reviewer agents.
+.review-*.md
+
 # Local-only harness settings.
 .claude/settings.local.json
 

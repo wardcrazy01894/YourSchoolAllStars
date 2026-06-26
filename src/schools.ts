@@ -20,11 +20,15 @@ export interface School {
   name: string // "Michigan"
   short: string // "Michigan" (used in share text)
   mascot: string // "Wolverines"
-  emoji: string // crest stand-in until real logos
+  emoji: string // generic Unicode crest — we deliberately avoid trademarked school logos
   theme: Theme
   /** Basketball dataset, when the school is live. */
   basketball?: Dataset
-  /** False = shown in the picker as "coming soon" (no data yet). */
+  /** Does this school field a football team at all? (VCU does not.) Forward
+   * reservation: the sport picker is not built yet — when it is, it must hide
+   * football wherever this is false (else VCU would wrongly show football). */
+  hasFootball: boolean
+  /** False = shown in the picker as "coming soon" (no playable data yet). */
   available: boolean
 }
 
@@ -43,6 +47,7 @@ export const SCHOOLS: School[] = [
       ink: '#0c1620',
     },
     basketball: michiganBasketball,
+    hasFootball: true,
     available: true,
   },
   {
@@ -50,7 +55,7 @@ export const SCHOOLS: School[] = [
     name: 'North Carolina',
     short: 'UNC',
     mascot: 'Tar Heels',
-    emoji: '🐏',
+    emoji: '👣', // "Tar Heel" footprints — distinct from VCU's ram
     // Carolina blue & navy (official: Carolina Blue #4B9CD3, Navy #13294B).
     theme: {
       brand: '#13294b',
@@ -59,6 +64,7 @@ export const SCHOOLS: School[] = [
       ink: '#0a1422',
     },
     basketball: undefined,
+    hasFootball: true,
     available: false,
   },
   {
@@ -75,6 +81,60 @@ export const SCHOOLS: School[] = [
       ink: '#0a1124',
     },
     basketball: undefined,
+    hasFootball: true,
+    available: false,
+  },
+  {
+    id: 'vt',
+    name: 'Virginia Tech',
+    short: 'Va Tech',
+    mascot: 'Hokies',
+    emoji: '🦃',
+    // Hokie maroon & burnt orange (official: Maroon #630031, Orange #CF4420).
+    theme: {
+      brand: '#630031',
+      brand2: '#7d2540',
+      accent: '#cf4420',
+      ink: '#1a0710',
+    },
+    basketball: undefined,
+    hasFootball: true,
+    available: false,
+  },
+  {
+    id: 'pitt',
+    name: 'Pittsburgh',
+    short: 'Pitt',
+    mascot: 'Panthers',
+    emoji: '🐾',
+    // Pitt navy & gold (official: Navy #003594, Gold #FFB81C).
+    theme: {
+      brand: '#003594',
+      brand2: '#1e4aa8',
+      accent: '#ffb81c',
+      ink: '#06122e',
+    },
+    basketball: undefined,
+    hasFootball: true,
+    available: false,
+  },
+  {
+    id: 'vcu',
+    name: 'VCU',
+    short: 'VCU',
+    mascot: 'Rams',
+    emoji: '🐏',
+    // VCU black & gold (official: Gold #F8B300, Black #000000). `brand` is a
+    // near-black #1a1a1a (not pure #000000) so the deep panels read as a surface,
+    // not a void. Basketball only — VCU does not field a football team.
+    theme: {
+      brand: '#1a1a1a',
+      brand2: '#2e2a17',
+      accent: '#f8b300',
+      ink: '#0c0c0a',
+    },
+    basketball: undefined,
+    hasFootball: false,
     available: false,
   },
 ]

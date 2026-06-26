@@ -106,14 +106,24 @@ export function draftToSlot(
 
 /** Skip the current era (draft nothing), advancing to the next. */
 export function skip(s: DraftState): DraftState {
-  if (isComplete(s)) return s
+  if (!canSkip(s)) return s
   return { ...s, cursor: s.cursor + 1 }
 }
 
+/**
+ * Skipping is allowed only while the game isn't over AND a skip wouldn't strand a
+ * slot (you get exactly `safeSkipsLeft` skips). The cap lives HERE in the state
+ * machine, not just in the button's `disabled`, so no caller can exceed it.
+ *
+ * Soft-lock freedom depends on a DATA invariant, not on this function: every
+ * window×position must have ≥1 eligible player (enforced by `KNOWN_GAPS = []` in
+ * `src/data/dataset.test.ts`). With that invariant, a player is always pickable in
+ * the current era, so `canSkip` returning false never strands you. If a future
+ * sport/school weakens that dataset test, restore the guarantee there — do not
+ * loosen the skip cap here.
+ */
 export function canSkip(s: DraftState): boolean {
-  // You can always skip an era while the game isn't over (isComplete already
-  // covers cursor >= windows.length).
-  return !isComplete(s)
+  return !isComplete(s) && safeSkipsLeft(s) > 0
 }
 
 /**
