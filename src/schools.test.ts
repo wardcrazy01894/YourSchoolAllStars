@@ -28,6 +28,14 @@ describe('school registry', () => {
     for (const s of SCHOOLS) expect(typeof s.hasFootball).toBe('boolean')
   })
 
+  it('flags conference strength (only VCU is non-power-5 today)', () => {
+    expect(getSchool('vcu')!.power5).toBe(false)
+    for (const id of ['michigan', 'unc', 'florida', 'vt', 'pitt']) {
+      expect(getSchool(id)!.power5).toBe(true)
+    }
+    for (const s of SCHOOLS) expect(typeof s.power5).toBe('boolean')
+  })
+
   it('includes the coming-soon schools', () => {
     for (const id of ['unc', 'florida', 'vt', 'pitt', 'vcu']) {
       expect(getSchool(id)?.available).toBe(false)

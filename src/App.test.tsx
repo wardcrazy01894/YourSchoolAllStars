@@ -54,6 +54,7 @@ function renderPlaying(hideStats: boolean) {
       state={state}
       wheel={WHEEL}
       hideStats={hideStats}
+      power5={true}
       onAdvance={() => {}}
     />,
   )
@@ -121,5 +122,18 @@ describe('RosterRail — hideRating', () => {
     expect(container.querySelector('.prate')).toBeNull()
     // The drafted name still shows — only the number is hidden.
     expect(screen.getByText('alpha Player')).toBeTruthy()
+  })
+
+  it('shows a lower RTG for a non-power-5 school (conference haircut)', () => {
+    const big10 = render(<RosterRail slots={slots} power5={true} />)
+    const power5Rtg = Number(
+      big10.container.querySelector('.prate')!.textContent,
+    )
+    cleanup()
+    const a10 = render(<RosterRail slots={slots} power5={false} />)
+    const midMajorRtg = Number(
+      a10.container.querySelector('.prate')!.textContent,
+    )
+    expect(midMajorRtg).toBeLessThan(power5Rtg)
   })
 })

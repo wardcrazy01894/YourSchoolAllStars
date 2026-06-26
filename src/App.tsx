@@ -532,7 +532,7 @@ function Game({
 
   function finish(s: DraftState) {
     setPhase('done')
-    const saved = savedDailyFrom(s, dateKey, GAMES)
+    const saved = savedDailyFrom(s, dateKey, GAMES, school.power5)
     setResult(saved)
     // Only the DAILY persists + advances the per-device streak. Free-play modes
     // (Classic / Hoops IQ) are replayable, so they neither save nor touch the
@@ -606,6 +606,7 @@ function Game({
           state={state}
           wheel={windows}
           hideStats={mode.hideStats}
+          power5={school.power5}
           onAdvance={advance}
         />
       )}
@@ -702,6 +703,7 @@ export function RosterRail({
   targetable,
   onPlace,
   hideRating,
+  power5 = true,
 }: {
   slots: DraftState['slots']
   /** Era each filled slot was drafted from, so its rating matches the pick. */
@@ -710,6 +712,8 @@ export function RosterRail({
   onPlace?: (pos: BballPosition) => void
   /** Hoops IQ: suppress the numeric rating while drafting (revealed at the end). */
   hideRating?: boolean
+  /** School's conference strength — false applies the non-power-5 rating haircut. */
+  power5?: boolean
 }) {
   const targets = new Set(targetable ?? [])
   return (
@@ -729,7 +733,9 @@ export function RosterRail({
               <>
                 <div className="pname">{p.name}</div>
                 {!hideRating && (
-                  <div className="prate">{playerRating(p, windows?.[pos])}</div>
+                  <div className="prate">
+                    {playerRating(p, windows?.[pos], power5)}
+                  </div>
                 )}
               </>
             ) : (
@@ -749,6 +755,7 @@ export function Playing({
   state,
   wheel,
   hideStats,
+  power5,
   onAdvance,
 }: {
   players: BballPlayer[]
@@ -757,6 +764,8 @@ export function Playing({
   wheel: YearWindow[]
   /** Hoops IQ: hide box-score numbers (year + stats + rating) while drafting. */
   hideStats: boolean
+  /** School's conference strength — false applies the non-power-5 rating haircut. */
+  power5: boolean
   onAdvance: (s: DraftState) => void
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -863,6 +872,7 @@ export function Playing({
         targetable={targetSlots}
         onPlace={place}
         hideRating={hideStats}
+        power5={power5}
       />
 
       {!reveal ? (
@@ -1026,7 +1036,7 @@ function Results({
   // headline record + share use the EARNED wins/grade from the save when present:
   // a stats correction between play and replay must never rewrite what you scored.
   // (On a fresh finish, saved was just computed from this same state, so they match.)
-  const live = evaluateRoster(state, GAMES)
+  const live = evaluateRoster(state, GAMES, school.power5)
   const { ratingsByPosition, windowByPosition: winByPos } = live
   const strength = Math.round(live.strength)
   const wins = saved?.wins ?? live.wins
@@ -1077,7 +1087,11 @@ function Results({
         {mode.daily && <StreakChips streak={streak} />}
       </div>
 
-      <RosterRail slots={state.slots} windows={winByPos} />
+      <RosterRail
+        slots={state.slots}
+        windows={winByPos}
+        power5={school.power5}
+      />
 
       <div className="card" style={{ marginTop: 16 }}>
         <table className="pool">
@@ -1105,7 +1119,9 @@ function Results({
                   {STAT_COLS.map((c) => (
                     <td key={c.key}>{p ? fmtStat(s, c.key) : '—'}</td>
                   ))}
-                  <td>{p ? playerRating(p, winByPos[pos]) : '—'}</td>
+                  <td>
+                    {p ? playerRating(p, winByPos[pos], school.power5) : '—'}
+                  </td>
                 </tr>
               )
             })}

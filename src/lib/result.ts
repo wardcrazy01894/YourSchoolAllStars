@@ -74,20 +74,30 @@ export interface RosterResult {
  * AS THE SLOT they fill, using the window they were drafted from — matching the
  * per-row RTG and the draft-time view. Empty slots are simply absent from the
  * team score (and read null per-position), which drags the projected record.
+ *
+ * `power5` (default true) toggles the non-power-5 conference haircut on every
+ * player rating — so the per-position RTG, team strength, and record all reflect
+ * the school's conference strength. See {@link playerRating}.
  */
-export function evaluateRoster(state: DraftState, games: number): RosterResult {
+export function evaluateRoster(
+  state: DraftState,
+  games: number,
+  power5 = true,
+): RosterResult {
   const winByPos = windowByPosition(state.picks)
   const rated: RatedStarter[] = BBALL_POSITIONS.filter(
     (pos) => state.slots[pos] !== null,
   ).map((pos) => ({
     position: pos,
-    rating: playerRating(state.slots[pos]!, winByPos[pos]),
+    rating: playerRating(state.slots[pos]!, winByPos[pos], power5),
   }))
   const wins = projectedWins(rated, games)
   const ratingsByPosition = Object.fromEntries(
     BBALL_POSITIONS.map((pos) => [
       pos,
-      state.slots[pos] ? playerRating(state.slots[pos]!, winByPos[pos]) : null,
+      state.slots[pos]
+        ? playerRating(state.slots[pos]!, winByPos[pos], power5)
+        : null,
     ]),
   ) as Record<BballPosition, number | null>
   return {
@@ -105,8 +115,9 @@ export function savedDailyFrom(
   state: DraftState,
   dateKey: string,
   games: number,
+  power5 = true,
 ): SavedDaily {
-  const { wins, grade } = evaluateRoster(state, games)
+  const { wins, grade } = evaluateRoster(state, games, power5)
   const winByPos = windowByPosition(state.picks)
   const playerIds: Partial<Record<BballPosition, string>> = {}
   const windows: Partial<Record<BballPosition, YearWindow>> = {}

@@ -44,8 +44,9 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
 - **Difficulty (revised 2026-06-26, Alex): a more forgiving curve.** The original
   "~4% perfect" target is retired — the win curve was intentionally eased so a
   strong, balanced five is rewarded with a 40-0 (undefeated cutoff at a displayed
-  85; pivot 57). Tuning lives in `rating.ts`; a future conference-strength penalty
-  (power-5 vs not) will pull non-power-5 schools back down.
+  85; pivot 57) — and a winless floor (a sub-30 overall goes 0-40). Tuning lives in
+  `rating.ts`. A conference-strength penalty (power-5 vs not) pulls non-power-5
+  schools back down via a flat haircut on every player rating (`School.power5`).
 - **Modes at launch: Daily + Classic + Hoops IQ.** Daily = one-shot per ET day
   with streaks; Classic = free-play, replayable random spins (own seed); Hoops IQ
   = stats hidden.
@@ -91,13 +92,23 @@ puzzles — acceptable for a friends game.
    (best tier per honor: e.g. National POY +12, Consensus AA +9, all-conf +3).
 2. **Player rating** ∈ [0,100] via a diminishing-returns curve:
    `100·(1 − e^(−composite/22))` — elite seasons separate at the top, no hard cap.
+   2b. **Conference strength (power-5 penalty).** A non-power-5 school's production is
+   discounted — 17 ppg in the Big Ten is worth more than 17 ppg in the Atlantic 10.
+   It's a binary per school (`School.power5`): non-power-5 schools take a flat
+   `×0.95` haircut on every FINAL player rating (`NON_POWER5_RATING_FACTOR`), applied
+   at the player level so per-position RTG, team strength, and record all reflect it.
+   When VCU launches (Atlantic 10) it will be the lone non-power-5 school; a VCU 40-0
+   is hard by design (a five of 85-rated players drops to an 81-rated team after the
+   haircut, just under the 85 team-strength undefeated cutoff). (Alex, 2026-06-26.)
 3. **Team strength** blends the position-weighted mean (PG ×1.15, C ×1.1) with the
    **worst starter** (`0.6·mean + 0.4·min`) so one hole costs you ("no weak links").
 4. **Projected record**: logistic win prob `1/(1+e^(−(strength−57)/7.5))` × 40 games,
-   with an **undefeated override**: a displayed (rounded) overall of **85+ runs the
-   table (40-0)**. Strength 57 = coin-flip (20–20); 80 ≈ 38 wins; 85+ = undefeated.
+   with two overrides keyed off the **displayed (rounded) overall**: **85+ runs the
+   table (40-0)**, and **below 30 goes winless (0-40)**. Strength 57 = coin-flip
+   (20–20); 80 ≈ 38 wins; 85+ = undefeated; ≤29 = 0-40.
    Grades: PERFECT / HISTORIC / ELITE / SOLID / BUBBLE / LOTTERY. (Eased 2026-06-26,
-   Alex — pivot 60→57, undefeated cutoff 90→85; see `rating.ts` for the constants.)
+   Alex — pivot 60→57, undefeated cutoff 90→85, winless floor at 30; see `rating.ts`
+   for the constants.)
 
 These are tunable; calibrate against real spins once the full dataset lands.
 

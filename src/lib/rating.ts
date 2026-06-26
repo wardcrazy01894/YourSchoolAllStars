@@ -153,14 +153,30 @@ export function seasonForWindow(
   return bestSeasonInWindow(player, w) ?? bestSeason(player)
 }
 
+// Conference strength: a non-power-5 program's box-score production is discounted
+// — 17 ppg in the Big Ten is worth more than 17 ppg in the A-10 (Alex's call). We
+// treat it as a binary (power-5 or not, per school) and apply a flat multiplier to
+// the FINAL player rating of non-power-5 schools. Slight by design — a strong five
+// still contends — but it makes a non-power-5 40-0 genuinely hard: an 85 power-5
+// rating becomes 81 here, dropping below the undefeated cutoff. Applied at the
+// player level so the per-position RTG, team strength, AND projected record all
+// reflect it. (Alex, 2026-06-26; he's OK if this makes a VCU 40-0 near-impossible.)
+export const NON_POWER5_RATING_FACTOR = 0.95
+
 /**
  * Player rating in [0,100]. With a window, rate the player's best season within
  * it (transitional fallback to career-best); without one, rate their career
- * best. 0 for a player with no seasons.
+ * best. 0 for a player with no seasons. `power5` defaults true (no penalty); pass
+ * false to apply the non-power-5 conference haircut ({@link NON_POWER5_RATING_FACTOR}).
  */
-export function playerRating(player: BballPlayer, w?: YearWindow): number {
+export function playerRating(
+  player: BballPlayer,
+  w?: YearWindow,
+  power5 = true,
+): number {
   const season = w ? seasonForWindow(player, w) : bestSeason(player)
-  return season ? seasonRating(season) : 0
+  const base = season ? seasonRating(season) : 0
+  return power5 ? base : Math.round(base * NON_POWER5_RATING_FACTOR)
 }
 
 // ── Team strength & projected record ─────────────────────────────────────────
@@ -178,6 +194,11 @@ export const WIN_SPREAD = 7.5 // smaller = steeper; this lifts the high-80s a to
 // 85+ team should never have the sigmoid's rounding shave a game off a 40-0.
 // (Alex, 2026-06-26: lowered 90→85 — any basketball rating 85+ goes undefeated.)
 export const UNDEFEATED_STRENGTH = 85
+// The mirror image at the bottom: a roster whose DISPLAYED (rounded) overall is
+// below this is simply winless (0-40) — the logistic tail alone would still hand
+// a sub-30 team a stray win or two, which feels wrong for a truly hopeless five.
+// (Alex, 2026-06-26: anything below a 30 goes 0-40.)
+export const WINLESS_STRENGTH = 30
 
 export interface RatedStarter {
   position: BballPosition
@@ -211,6 +232,8 @@ export function projectedWins(starters: RatedStarter[], games = 40): number {
   // An 85+ overall (as displayed, i.e. rounded) is undefeated, full stop — the
   // logistic curve alone would round a true elite down to 39-1, which feels wrong.
   if (Math.round(strength) >= UNDEFEATED_STRENGTH) return games
+  // Mirror floor: a sub-30 overall is winless (0-40), full stop.
+  if (Math.round(strength) < WINLESS_STRENGTH) return 0
   return Math.round(winProbability(strength) * games)
 }
 
