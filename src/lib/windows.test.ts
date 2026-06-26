@@ -1,5 +1,11 @@
 import { describe, it, expect } from 'vitest'
-import { buildWindows, BBALL_WINDOWS, playerInWindow } from './windows'
+import {
+  buildWindows,
+  buildRollingWindows,
+  datasetMaxYear,
+  BBALL_WINDOWS,
+  playerInWindow,
+} from './windows'
 import type { BballPlayer } from '../types'
 
 function mk(
@@ -45,6 +51,55 @@ describe('buildWindows', () => {
   it('exposes 8 basketball windows starting in 1994', () => {
     expect(BBALL_WINDOWS).toHaveLength(8)
     expect(BBALL_WINDOWS[0]).toEqual({ start: 1994, end: 1997 })
+  })
+})
+
+describe('buildRollingWindows', () => {
+  it('makes overlapping windows starting every year from `from`', () => {
+    // size 4, maxYear 2000 → last start is 2000 - 4 + 1 = 1997.
+    expect(buildRollingWindows(1994, 2000, 4)).toEqual([
+      { start: 1994, end: 1997 },
+      { start: 1995, end: 1998 },
+      { start: 1996, end: 1999 },
+      { start: 1997, end: 2000 },
+    ])
+  })
+
+  it('caps the last era so it never extends past the most recent season', () => {
+    // No window may end after maxYear. The latest start = maxYear - size + 1.
+    const ws = buildRollingWindows(1994, 2026, 4)
+    expect(ws[ws.length - 1]).toEqual({ start: 2023, end: 2026 })
+    expect(ws.every((w) => w.end <= 2026)).toBe(true)
+  })
+
+  it('advances the era cap by one as a new season is added', () => {
+    const ws2025 = buildRollingWindows(1994, 2025, 4)
+    const ws2026 = buildRollingWindows(1994, 2026, 4)
+    expect(ws2025[ws2025.length - 1]).toEqual({ start: 2022, end: 2025 })
+    expect(ws2026[ws2026.length - 1]).toEqual({ start: 2023, end: 2026 })
+  })
+
+  it('consecutive windows overlap by size-1 years', () => {
+    const ws = buildRollingWindows(2010, 2020, 4)
+    for (let i = 1; i < ws.length; i++) {
+      expect(ws[i].start).toBe(ws[i - 1].start + 1) // slides by exactly one year
+    }
+  })
+
+  it('returns nothing when the span is shorter than one window', () => {
+    expect(buildRollingWindows(2024, 2026, 4)).toEqual([]) // need 4 years, only 3
+  })
+})
+
+describe('datasetMaxYear', () => {
+  it('is the most recent season any player reached', () => {
+    expect(
+      datasetMaxYear([mk('a', 'PG', 1998, 2001), mk('b', 'C', 2010, 2014)]),
+    ).toBe(2014)
+  })
+
+  it('is null for an empty player set', () => {
+    expect(datasetMaxYear([])).toBe(null)
   })
 })
 
