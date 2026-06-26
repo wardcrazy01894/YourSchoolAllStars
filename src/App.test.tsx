@@ -94,8 +94,9 @@ describe('Playing — Hoops IQ stat hiding', () => {
 
   it('shows the award ★ (with a tooltip) when stats are visible', () => {
     renderPlaying(false)
+    // Both fixture players are decorated ⇒ one star each.
     const stars = screen.getAllByText('★')
-    expect(stars.length).toBeGreaterThan(0)
+    expect(stars).toHaveLength(PLAYERS.length)
     // The tooltip lists the honor when nothing is hidden.
     expect(stars[0].getAttribute('title')).toContain('All-American')
   })
