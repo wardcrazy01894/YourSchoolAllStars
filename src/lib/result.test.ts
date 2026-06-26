@@ -3,7 +3,13 @@ import { BBALL_POSITIONS } from '../types'
 import type { BballPlayer, BballPosition, YearWindow } from '../types'
 import type { DraftState, DraftPick } from './game'
 import { playerRating } from './rating'
-import { evaluateRoster, savedDailyFrom, rosterFromSaved } from './result'
+import {
+  evaluateRoster,
+  savedDailyFrom,
+  rosterFromSaved,
+  teamStatTotals,
+  windowByPosition,
+} from './result'
 
 const W = (start: number, end: number): YearWindow => ({ start, end })
 
@@ -112,6 +118,76 @@ describe('evaluateRoster', () => {
     expect(result.ratingsByPosition.SF).toBe(playerRating(p, window))
     // Sanity: the in-window rating is well below the career-peak rating.
     expect(playerRating(p, window)).toBeLessThan(playerRating(p, W(2003, 2005)))
+  })
+})
+
+describe('teamStatTotals', () => {
+  const KEYS: (keyof BballPlayer['seasons'][number]['stats'])[] = [
+    'pts',
+    'reb',
+    'ast',
+    'stl',
+    'blk',
+  ]
+
+  it('sums each stat across the full five (window-correct season)', () => {
+    const picks = fullPicks() // five identical STARTER_LINE starters
+    const state = stateFrom(picks)
+    const totals = teamStatTotals(state.slots, windowByPosition(picks), KEYS)
+    // 5 × {pts:20, reb:8, ast:5, stl:1, blk:1}
+    expect(totals.pts).toBe(100)
+    expect(totals.reb).toBe(40)
+    expect(totals.ast).toBe(25)
+    expect(totals.stl).toBe(5)
+    expect(totals.blk).toBe(5)
+  })
+
+  it('counts empty slots as zero (partial roster still sums what is filled)', () => {
+    const picks = fullPicks().filter(
+      (pk) => pk.position === 'PG' || pk.position === 'C',
+    )
+    const totals = teamStatTotals(
+      stateFrom(picks).slots,
+      windowByPosition(picks),
+      ['pts'],
+    )
+    expect(totals.pts).toBe(40) // two starters only
+  })
+
+  it('sums the SAME in-window season the box score shows, not career-best', () => {
+    // Late bloomer: weak 2001 in-window season, elite 2004 peak out of window.
+    const p: BballPlayer = {
+      id: 'late-bloomer',
+      name: 'Late Bloomer',
+      position: 'SF',
+      firstYear: 2001,
+      lastYear: 2004,
+      seasons: [
+        { year: 2001, stats: { pts: 4 }, honors: [], source: 'test' },
+        { year: 2004, stats: { pts: 28 }, honors: [], source: 'test' },
+      ],
+    }
+    const window = W(2000, 2002) // only 2001 is in-window
+    const picks: DraftPick[] = [{ player: p, position: 'SF', window }]
+    const totals = teamStatTotals(
+      stateFrom(picks).slots,
+      windowByPosition(picks),
+      ['pts'],
+    )
+    expect(totals.pts).toBe(4) // the in-window season, NOT the 28-pt peak
+  })
+
+  it('treats a missing (unpublished) stat as zero rather than NaN', () => {
+    const p = player('scorer', 'PG', 2001, { pts: 10 }) // no reb/ast/stl/blk
+    const window = W(2000, 2003)
+    const picks: DraftPick[] = [{ player: p, position: 'PG', window }]
+    const totals = teamStatTotals(
+      stateFrom(picks).slots,
+      windowByPosition(picks),
+      ['pts', 'reb'],
+    )
+    expect(totals.pts).toBe(10)
+    expect(totals.reb).toBe(0)
   })
 })
 

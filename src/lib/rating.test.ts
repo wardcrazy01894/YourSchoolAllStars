@@ -11,6 +11,7 @@ import {
   projectedWins,
   recordLabel,
   gradeLabel,
+  UNDEFEATED_STRENGTH,
 } from './rating'
 import type {
   BballPlayer,
@@ -204,16 +205,17 @@ describe('projected record', () => {
     }))
 
   it('a 90+ overall runs the table — undefeated, for sure', () => {
-    expect(projectedWins(five(90), 40)).toBe(40)
+    expect(projectedWins(five(UNDEFEATED_STRENGTH), 40)).toBe(40)
     expect(projectedWins(five(95), 40)).toBe(40)
     expect(projectedWins(five(97), 40)).toBe(40)
     expect(projectedWins(five(100), 40)).toBe(40)
   })
 
   it('the undefeated cutoff follows the DISPLAYED (rounded) overall', () => {
-    // 89.5 rounds to 90 → undefeated; 89.4 rounds to 89 → drops at least a game.
-    expect(projectedWins(five(89.5), 40)).toBe(40)
-    expect(projectedWins(five(89.4), 40)).toBeLessThan(40)
+    // Anchor to the constant: a strength rounding UP to it is undefeated; one
+    // rounding DOWN below it drops at least a game. (89.5→90 vs 89.4→89.)
+    expect(projectedWins(five(UNDEFEATED_STRENGTH - 0.5), 40)).toBe(40)
+    expect(projectedWins(five(UNDEFEATED_STRENGTH - 0.6), 40)).toBeLessThan(40)
   })
 
   it('mid-to-high 80s win a lot, but not all 40', () => {

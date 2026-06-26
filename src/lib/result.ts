@@ -4,11 +4,18 @@
 // unit-tested.
 
 import { BBALL_POSITIONS } from '../types'
-import type { BballPlayer, BballPosition, YearWindow } from '../types'
+import type {
+  BballPlayer,
+  BballPosition,
+  BballStats,
+  YearWindow,
+} from '../types'
 import type { DraftState, DraftPick } from './game'
 import {
+  bestSeason,
   playerRating,
   projectedWins,
+  seasonForWindow,
   teamStrength,
   gradeLabel,
   type RatedStarter,
@@ -22,6 +29,31 @@ export function windowByPosition(
   const m: Partial<Record<BballPosition, YearWindow>> = {}
   for (const pk of picks) m[pk.position] = pk.window
   return m
+}
+
+/**
+ * Per-stat totals across a (possibly partial) starting five, counting each
+ * player by the SAME season the box-score rows display: their best season in the
+ * window they were drafted from (career-best fallback). A missing (unpublished)
+ * stat counts as 0 so the row sums what's known rather than going NaN; empty
+ * slots contribute nothing. Keyed by the requested stat keys.
+ */
+export function teamStatTotals(
+  slots: Record<BballPosition, BballPlayer | null>,
+  winByPos: Partial<Record<BballPosition, YearWindow>>,
+  statKeys: (keyof BballStats)[],
+): Record<string, number> {
+  const totals: Record<string, number> = {}
+  for (const key of statKeys) totals[key] = 0
+  for (const pos of BBALL_POSITIONS) {
+    const p = slots[pos]
+    if (!p) continue
+    const w = winByPos[pos]
+    const season = w ? seasonForWindow(p, w) : bestSeason(p)
+    if (!season) continue
+    for (const key of statKeys) totals[key] += season.stats[key] ?? 0
+  }
+  return totals
 }
 
 export interface RosterResult {
