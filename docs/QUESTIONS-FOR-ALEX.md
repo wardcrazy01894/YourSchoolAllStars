@@ -23,16 +23,15 @@ Strike through as they're answered.
   whole UI re-themes to the chosen school's colors (Michigan maize/blue → UNC
   Carolina blue). Built (see `src/schools.ts`).
 
+- ~~North Carolina timing?~~ → **After Michigan basketball ships.**
+- ~~Domain / hosting?~~ → **Keep github.io for now**; may add a custom domain
+  later.
+- ~~Honors weighting?~~ → **Keep honors meaningful** (current +9–12 bonus).
+- ~~Go public + deploy?~~ → **Auto-flip the repo public** (→ Pages deploy +
+  branch protection) once the 5 coverage gaps are filled and the rating is
+  calibrated. No sign-off needed.
+
 ## Open
 
-1. **North Carolina timing.** Add UNC right after Michigan basketball launches,
-   or after Michigan football too?
-2. **Domain / hosting.** Keep it on
-   `wardcrazy01894.github.io/YourSchoolAllStars/`, or set up a custom domain
-   (changes the Vite `base`)?
-3. **Honors weighting.** All-American / conference-POY honors currently add a lot
-   (+9–12 to the composite). Keep that, or let raw box-score stats dominate more?
-   (Folds into the difficulty calibration.)
-4. **Go public + deploy.** Plan is to flip the repo public once the dataset's 5
-   coverage gaps are filled, which enables branch protection + the Pages deploy.
-   Good to do that automatically when gaps hit zero, or wait for your sign-off?
+_None right now — see `docs/BACKLOG.md` for upcoming work. New questions land
+here as they arise (e.g. football rating calibration, UNC must-include players)._
