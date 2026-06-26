@@ -19,7 +19,25 @@ contract for how changes get made — it mirrors the KnowYourCity setup.
 - Prefer **squash merge** to keep `main` linear.
 - Branch protection (`bash scripts/protect-main.sh`): required + strict checks,
   conversation-resolution required, applies to admins, no force-push/deletion.
-  Required approvals are **0** (solo repo — CI is the gate).
+  Required approvals are **0** in GitHub (solo repo — you can't approve your own
+  PR), so CI is the hard gate. The review below is the quality gate.
+
+## Every PR gets reviewed before merge
+
+CI green is necessary but **not sufficient**. Before merging any PR, run an
+**adversarial review of the diff** and address what it finds:
+
+- Use the **`adversarial-reviewer`** agent (or the **`/code-review`** skill) on
+  the PR's diff — it actively hunts bugs, regressions, and unexamined
+  assumptions, not just style.
+- **Post the findings on the PR** (a comment or inline) so there's a record, and
+  **resolve or fix** each one. Substantive fixes go in the same branch before
+  merge; conversation-resolution is required by branch protection.
+- Scale effort to the change: a docs/config one-liner gets a light pass; anything
+  touching engine logic, the rating model, the draft state machine, or data
+  integrity gets a full review. Trivial typo PRs can note "review: trivial".
+- This is non-negotiable going forward (Alex's call) — no self-merging unreviewed
+  code, even though GitHub lets a solo owner do it.
 
 ## How we write code — TDD is mandatory
 
