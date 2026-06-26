@@ -46,9 +46,10 @@ describe('buildReelPlan', () => {
 
   it('centres the target in the middle viewport slot', () => {
     const plan = buildReelPlan(rollingWheel(), 1996)
-    // 1996 is index 2 of [1994..2000]; it lands in the final (5th) pass:
-    //   targetCell = (REEL_LOOPS) * 7 + 2 = 4*7 + 2 = 30
-    // and centres up by floor(REEL_VISIBLE/2) = 1 → offset 29.
+    // 1996 is index 2 of [1994..2000]; it lands in the final pass:
+    //   targetCell = REEL_LOOPS * 7 + 2 = 4*7 + 2 = 30
+    // and centres up by floor(3/2) = 1 → offset 29.
+    expect(REEL_LOOPS).toBe(4) // guards the pinned 30/29 below
     expect(plan.targetCell).toBe(30)
     expect(plan.offset).toBe(29)
     expect(plan.cells[plan.targetCell]).toBe(1996)
@@ -78,10 +79,13 @@ describe('buildReelPlan', () => {
     expect(plan.cells[plan.targetCell]).toBe(1994)
   })
 
-  it('does not throw on an empty wheel', () => {
+  it('does not throw on an empty wheel, and keeps offset non-negative', () => {
     const plan = buildReelPlan([], 2000)
     expect(plan.years).toEqual([])
     expect(plan.cells).toEqual([])
     expect(plan.found).toBe(false)
+    // Degenerate case: nothing to scroll to — offset must not go negative.
+    expect(plan.targetCell).toBe(0)
+    expect(plan.offset).toBe(0)
   })
 })
