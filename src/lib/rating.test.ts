@@ -14,6 +14,7 @@ import {
   UNDEFEATED_STRENGTH,
   WINLESS_STRENGTH,
   WIN_PIVOT,
+  WEAK_LINK_BLEND,
   NON_POWER5_RATING_FACTOR,
 } from './rating'
 import type {
@@ -240,6 +241,17 @@ describe('teamStrength weak-link penalty', () => {
     expect(teamStrength(balanced)).toBeCloseTo(80, 5)
     // Mean of `hole` (weighted) is ~78 but the min=30 should pull it well down.
     expect(teamStrength(hole)).toBeLessThan(70)
+  })
+  it('weighs the worst starter at exactly WEAK_LINK_BLEND (0.25)', () => {
+    // Two equal-weight wings (both ×1.0): mean 60, min 30. teamStrength is
+    // (1-blend)·mean + blend·min, so this pins the blend exactly — a regression
+    // to the old 0.4 would read 48, not 52.5. (Alex eased 0.4→0.25, 2026-06-26.)
+    const pair = [
+      { position: 'SG' as const, rating: 90 },
+      { position: 'SF' as const, rating: 30 },
+    ]
+    expect(WEAK_LINK_BLEND).toBe(0.25)
+    expect(teamStrength(pair)).toBeCloseTo(0.75 * 60 + 0.25 * 30, 5) // 52.5
   })
   it('PG carries more weight than a wing', () => {
     const pgStar = teamStrength([
