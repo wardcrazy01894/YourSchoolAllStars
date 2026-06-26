@@ -45,7 +45,9 @@ body {
     sans-serif;
   color: var(--text);
   /* `fixed` keeps the top glow anchored to the viewport and, with the solid
-   * --ink layer, paints the whole scrollable page a single consistent blue. */
+   * --ink layer, paints the whole scrollable page a single consistent blue.
+   * iOS Safari may treat `fixed` as `scroll` — that's fine, the `html`
+   * background backstop above still covers the seam (don't remove it). */
   background:
     radial-gradient(1200px 600px at 50% -10%, var(--brand-2), transparent 60%)
       fixed,

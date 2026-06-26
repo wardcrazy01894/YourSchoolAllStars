@@ -138,6 +138,15 @@ describe('skip + fixed-era skip budget', () => {
     expect(safeSkipsLeft(s)).toBe(0) // used the buffer
   })
 
+  it('enforces the skip cap in the state machine, not just the UI', () => {
+    let s = initDraft(SIX)
+    s = skip(s) // the one allowed skip
+    expect(canSkip(s)).toBe(false)
+    const before = s
+    expect(skip(s)).toBe(before) // a second skip is a no-op
+    expect(s.cursor).toBe(1)
+  })
+
   it('a clean draft of five completes the game', () => {
     let s = initDraft(SIX)
     for (const p of pool.slice(0, 5)) s = draftToSlot(s, p, p.position)

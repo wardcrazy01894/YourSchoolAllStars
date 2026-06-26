@@ -106,14 +106,17 @@ export function draftToSlot(
 
 /** Skip the current era (draft nothing), advancing to the next. */
 export function skip(s: DraftState): DraftState {
-  if (isComplete(s)) return s
+  if (!canSkip(s)) return s
   return { ...s, cursor: s.cursor + 1 }
 }
 
+/**
+ * Skipping is allowed only while the game isn't over AND a skip wouldn't strand a
+ * slot (you get exactly `safeSkipsLeft` skips). The cap lives HERE in the state
+ * machine, not just in the button's `disabled`, so no caller can exceed it.
+ */
 export function canSkip(s: DraftState): boolean {
-  // You can always skip an era while the game isn't over (isComplete already
-  // covers cursor >= windows.length).
-  return !isComplete(s)
+  return !isComplete(s) && safeSkipsLeft(s) > 0
 }
 
 /**

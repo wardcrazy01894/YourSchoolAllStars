@@ -54,7 +54,7 @@ export const SCHOOLS: School[] = [
     name: 'North Carolina',
     short: 'UNC',
     mascot: 'Tar Heels',
-    emoji: '🐏',
+    emoji: '👣', // "Tar Heel" footprints — distinct from VCU's ram (placeholder until real logos)
     // Carolina blue & navy (official: Carolina Blue #4B9CD3, Navy #13294B).
     theme: {
       brand: '#13294b',

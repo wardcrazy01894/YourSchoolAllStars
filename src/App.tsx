@@ -396,7 +396,7 @@ function Playing({
             </div>
             <button
               className="btn"
-              disabled={!canSkip(state) || safeSkipsLeft(state) <= 0}
+              disabled={!canSkip(state)}
               onClick={() => {
                 setSelectedId(null)
                 onAdvance(skip(state))
