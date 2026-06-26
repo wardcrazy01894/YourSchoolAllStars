@@ -195,14 +195,39 @@ describe('projected record', () => {
     expect(winProbability(60)).toBeCloseTo(0.5, 5)
     expect(winProbability(90)).toBeGreaterThan(winProbability(70))
   })
-  it('an elite balanced five approaches a perfect 40-0', () => {
-    const elite = (['PG', 'SG', 'SF', 'PF', 'C'] as BballPosition[]).map(
-      (position) => ({
-        position,
-        rating: 97,
-      }),
-    )
-    expect(projectedWins(elite, 40)).toBeGreaterThanOrEqual(38)
+  // A balanced five of equal ratings R has teamStrength === R (mean === min === R),
+  // so `five(R)` lets us anchor record expectations directly to an overall.
+  const five = (rating: number) =>
+    (['PG', 'SG', 'SF', 'PF', 'C'] as BballPosition[]).map((position) => ({
+      position,
+      rating,
+    }))
+
+  it('a 90+ overall runs the table — undefeated, for sure', () => {
+    expect(projectedWins(five(90), 40)).toBe(40)
+    expect(projectedWins(five(95), 40)).toBe(40)
+    expect(projectedWins(five(97), 40)).toBe(40)
+    expect(projectedWins(five(100), 40)).toBe(40)
+  })
+
+  it('the undefeated cutoff follows the DISPLAYED (rounded) overall', () => {
+    // 89.5 rounds to 90 → undefeated; 89.4 rounds to 89 → drops at least a game.
+    expect(projectedWins(five(89.5), 40)).toBe(40)
+    expect(projectedWins(five(89.4), 40)).toBeLessThan(40)
+  })
+
+  it('mid-to-high 80s win a lot, but not all 40', () => {
+    // The high 80s are nearly perfect (39-ish) without crossing into undefeated.
+    for (const r of [85, 86, 87, 88, 89]) {
+      const wins = projectedWins(five(r), 40)
+      expect(wins).toBeGreaterThanOrEqual(39)
+      expect(wins).toBeLessThan(40)
+    }
+  })
+
+  it('sub-80 overalls are unchanged enough — a coin-flip team is ~.500', () => {
+    expect(projectedWins(five(60), 40)).toBe(20) // pivot ⇒ 50%
+    expect(projectedWins(five(75), 40)).toBeLessThan(38) // good, not elite
   })
   it('recordLabel and gradeLabel', () => {
     expect(recordLabel(40, 40)).toBe('40–0')

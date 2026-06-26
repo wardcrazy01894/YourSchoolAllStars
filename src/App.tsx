@@ -158,7 +158,6 @@ export default function App() {
   if (!modeId)
     return (
       <ModeMenu
-        key={school.id}
         school={school}
         onPick={setModeId}
         onSwitchSchool={switchSchool}
@@ -380,6 +379,8 @@ function Game({
       })
       setStreak(updated)
     }
+    // Celebration is mode-agnostic on purpose: a great roster earns confetti in
+    // Classic / Hoops IQ too, even though those don't save or touch the streak.
     if (
       saved.grade === 'PERFECT' ||
       saved.grade === 'HISTORIC' ||
@@ -528,7 +529,7 @@ function Landing({
   )
 }
 
-function RosterRail({
+export function RosterRail({
   slots,
   windows,
   targetable,
@@ -576,7 +577,7 @@ function RosterRail({
   )
 }
 
-function Playing({
+export function Playing({
   players,
   state,
   wheel,
@@ -805,7 +806,15 @@ function Playing({
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
                           {s && s.honors.length > 0 && (
-                            <span className="honor" title={s.honors.join(', ')}>
+                            // Hoops IQ: keep the ★ but drop the tooltip — honor
+                            // strings embed the year (e.g. "All-American (2003)"),
+                            // which would leak the hidden season.
+                            <span
+                              className="honor"
+                              title={
+                                hideStats ? undefined : s.honors.join(', ')
+                              }
+                            >
                               ★
                             </span>
                           )}
@@ -867,6 +876,8 @@ function Results({
     games: GAMES,
     grade,
     ratingsByPosition,
+    daily: mode.daily,
+    modeLabel: mode.name,
   })
 
   const [copied, setCopied] = useState(false)
@@ -879,6 +890,17 @@ function Results({
       () => {},
     )
   }
+
+  // Team totals across the starting five, per stat. A missing (unpublished) value
+  // counts as 0 so the row still sums what's known rather than blanking out.
+  const totals = STAT_COLS.map((c) => ({
+    key: c.key,
+    sum: BBALL_POSITIONS.reduce((acc, pos) => {
+      const p = state.slots[pos]
+      const s = p ? seasonFor(p, winByPos[pos]) : null
+      return acc + (s?.stats[c.key] ?? 0)
+    }, 0),
+  }))
 
   return (
     <section>
@@ -927,6 +949,16 @@ function Results({
               )
             })}
           </tbody>
+          <tfoot>
+            <tr className="totals">
+              <td className="name">Team totals</td>
+              <td className="yr"></td>
+              {totals.map((t) => (
+                <td key={t.key}>{t.sum.toFixed(1)}</td>
+              ))}
+              <td></td>
+            </tr>
+          </tfoot>
         </table>
       </div>
 

@@ -290,6 +290,18 @@ body {
 .pool tr.player:hover td {
   background: rgba(255, 255, 255, 0.04);
 }
+.pool tfoot tr.totals td {
+  border-bottom: none;
+  border-top: 2px solid var(--line);
+  font-weight: 800;
+  color: var(--text);
+}
+.pool tfoot tr.totals td.name {
+  color: var(--muted);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
 .pos-chip {
   display: inline-block;
   min-width: 26px;

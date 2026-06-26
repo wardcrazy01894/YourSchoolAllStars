@@ -27,4 +27,20 @@ describe('buildShareString', () => {
     expect(out).toContain('🟩🟦🟨🟥⬛')
     expect(out).not.toMatch(/[A-Z][a-z]+ [A-Z][a-z]+/) // no "First Last" names
   })
+
+  it('free-play shares are labelled by mode, never "Daily"', () => {
+    const out = buildShareString({
+      schoolName: 'Michigan',
+      dateKey: '2026-06-25',
+      wins: 31,
+      games: 40,
+      grade: 'GREAT',
+      ratingsByPosition: { PG: 95, SG: 80, SF: 65, PF: 40, C: null },
+      daily: false,
+      modeLabel: 'Classic',
+    })
+    expect(out).toContain('Classic')
+    expect(out).not.toContain('Daily')
+    expect(out).not.toContain('2026-06-25') // free play isn't tied to a date
+  })
 })
