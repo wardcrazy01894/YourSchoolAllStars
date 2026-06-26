@@ -5,8 +5,12 @@ the contract for where data comes from and the schema it lands in.
 
 ## Source priority
 
-Use the highest-priority source that actually has the number; fall through only
-when it doesn't:
+The priority pattern is **school's official archive → Wikipedia → official
+record books → ESPN → Sports-Reference**, and it applies to **every school we
+add** — the Michigan-specific entries below (statsarchive, mgoblue) are just this
+school's instances of "the official archive"; swap in the equivalent for each new
+program. Use the highest-priority source that actually has the number; fall
+through only when it doesn't:
 
 1. **UMich statsarchive** (`statsarchive.ath.umich.edu/VS-Basketball-M/`) — the
    official Michigan athletics game-by-game archive, per player by `pkey`. The
@@ -43,7 +47,9 @@ Given both, the policy is:
 
 - ✅ **Verification / cross-check oracle** — consult SR without hesitation to
   confirm a number, catch an error, or check which seasons exist. This is plainly
-  inside the Terms.
+  inside the Terms. SR's per-player page is also the **authority for a player's
+  full span at their school** — which season-ending years they actually appeared
+  in — so use it to set `firstYear`/`lastYear` honestly (see **Completeness**).
 - ✅ **Cited `source` for a long-tail player** — when statsarchive, Wikipedia, and
   mgoblue genuinely lack a clean per-game line, an SR **individual player page**
   is an acceptable `source` URL. **Do not omit a player just because only SR has
@@ -76,10 +82,10 @@ career-best line). `year` is the season-ending year (2012-13 → 2013).
       "position": "PG", // PG | SG | SF | PF | C (primary slot, used for grouping)
       "eligible": ["PG", "SG"], // OPTIONAL — the COMPLETE slot list (must include
       // the primary); replaces the default of just [position], not additive
-      "firstYear": 2012, // year their FIRST Michigan season ended
-      "lastYear": 2013, // year their LAST Michigan season ended
+      "firstYear": 2012, // year their FIRST season at the school ended
+      "lastYear": 2013, // year their LAST season at the school ended
       "seasons": [
-        // oldest first, one per year; stats are per-game and may be PARTIAL
+        // oldest first; one row per year played; per-game; COMPLETE 5-stat line
         {
           "year": 2012,
           "stats": {
@@ -114,23 +120,50 @@ Rules (enforced by `src/data/dataset.test.ts`):
 
 - `id` unique; `position` valid; `firstYear ≤ lastYear`; `seasons` non-empty.
 - Each season: `firstYear ≤ year ≤ lastYear`, unique within the player; every
-  present stat numeric ≥ 0 with **at least one** stat field; `source` non-empty;
-  `honors` an array.
+  stat numeric ≥ 0; a **complete `pts/reb/ast/stl/blk` line** (see
+  **Completeness**); `source` non-empty; `honors` an array.
 - **Eligibility into a window** = tenure `[firstYear,lastYear]` overlaps the
   window; the player is then rated by their **best in-window season**.
 - Two coverage guards: every (window × position) and every (year × position) has
   ≥1 eligible player — a data edit that empties any cell fails CI.
 
+## Completeness — two axes, both enforced
+
+The standard (Alex, 2026-06-26): **a complete statline for every player, for
+every year they played — no excuses.** SR publishes per-game pts/reb/ast/stl/blk
+and a full season list for essentially every D-I player, so a gap means we didn't
+look hard enough, not that the data is absent. Two distinct guards in
+`dataset.test.ts`:
+
+1. **Complete line per row** — every season row carries all five of
+   `pts/reb/ast/stl/blk`. A missing field is a sourcing gap to fill (reach for SR
+   readily), not an accepted partial. (`every season row carries a complete
+pts/reb/ast/stl/blk line`.)
+2. **A row for every year of tenure** — every year in `[firstYear,lastYear]` has
+   a real season row (`every player has a season row for every year in their
+tenure`). The corollary the tooling can't check for you: **`firstYear`/
+   `lastYear` must be the player's _true_ span at the school.** A too-narrow
+   tenure passes this guard while silently dropping real seasons — e.g. a player
+   listed for one year who actually played four. **When adding or editing a
+   player, verify their full span against SR** and add every season they appeared
+   in at that school (including years before the window range, for consistency —
+   they're harmless to the in-window ratings). For a genuine non-playing year
+   (full-season redshirt/injury) **trim** tenure to the years actually played
+   rather than fabricate a row.
+
 ## Status
 
-- **Per-season dataset complete: 95 unique players, ~199 season rows, spanning
-  1994–2026 (incl. the 2026 title team).** Restructured from single career-best
-  rows to one row per relevant season, every row carrying a real `source` URL.
+- **Per-season dataset complete: 95 unique players, ~259 season rows, spanning
+  1992–2026 (incl. the 2026 title team).** Restructured from single career-best
+  rows to one row per season actually played, every row carrying a real `source`
+  URL and a complete 5-stat line. Every player's full Michigan span was audited
+  against SR, so tenures reflect the years they actually played.
 - **Full coverage, two ways:** every (window × position) AND every
   (year × position) cell has ≥1 eligible player, so no daily spin — fixed or
-  rolling — can strand a slot. `dataset.test.ts` asserts both (no gaps) plus a
-  ≥1-stat-field guard so an empty line can't fake coverage; any data edit that
-  empties a cell fails CI.
+  rolling — can strand a slot. `dataset.test.ts` asserts both (no gaps) plus the
+  complete-line and per-player tenure-coverage guards (see **Completeness**), so
+  neither an empty line nor a too-narrow tenure can fake coverage; any data edit
+  that empties a cell fails CI.
 - Sourced primarily from the **UMich statsarchive** (game logs / season totals)
   and **Wikipedia** season pages, with **mgoblue.com** and per-player **ESPN**
   pages for recent players. Multi-position `eligible[]` lists cover adjacency
