@@ -41,8 +41,11 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
 - Stack mirrors KnowYourCity: **React + TS + Vite**, static **GitHub Pages**,
   deterministic daily seed (no backend), CI (build/typecheck/lint/test/secret),
   branch protection, TDD. Repo `wardcrazy01894/YourSchoolAllStars`.
-- **Difficulty: rare, like the original (~4% perfect).** Calibrate the win
-  curve once the dataset is gap-free.
+- **Difficulty (revised 2026-06-26, Alex): a more forgiving curve.** The original
+  "~4% perfect" target is retired — the win curve was intentionally eased so a
+  strong, balanced five is rewarded with a 40-0 (undefeated cutoff at a displayed
+  85; pivot 57). Tuning lives in `rating.ts`; a future conference-strength penalty
+  (power-5 vs not) will pull non-power-5 schools back down.
 - **Modes at launch: Daily + Classic + Hoops IQ.** Daily = one-shot per ET day
   with streaks; Classic = free-play, replayable random spins (own seed); Hoops IQ
   = stats hidden.
@@ -90,9 +93,11 @@ puzzles — acceptable for a friends game.
    `100·(1 − e^(−composite/22))` — elite seasons separate at the top, no hard cap.
 3. **Team strength** blends the position-weighted mean (PG ×1.15, C ×1.1) with the
    **worst starter** (`0.6·mean + 0.4·min`) so one hole costs you ("no weak links").
-4. **Projected record**: logistic win prob `1/(1+e^(−(strength−60)/8))` × 40 games.
-   Strength 60 = coin-flip (20–20); ~85 ≈ 38 wins; perfection needs a strong,
-   balanced five. Grades: PERFECT / HISTORIC / ELITE / SOLID / BUBBLE / LOTTERY.
+4. **Projected record**: logistic win prob `1/(1+e^(−(strength−57)/7.5))` × 40 games,
+   with an **undefeated override**: a displayed (rounded) overall of **85+ runs the
+   table (40-0)**. Strength 57 = coin-flip (20–20); 80 ≈ 38 wins; 85+ = undefeated.
+   Grades: PERFECT / HISTORIC / ELITE / SOLID / BUBBLE / LOTTERY. (Eased 2026-06-26,
+   Alex — pivot 60→57, undefeated cutoff 90→85; see `rating.ts` for the constants.)
 
 These are tunable; calibrate against real spins once the full dataset lands.
 
@@ -143,13 +148,14 @@ per-school sport selector.
 ## Milestones
 
 - **M1 — Basketball vertical slice (DONE):** engine + tested rating/draft +
-  playable React UI. Verified end-to-end (37–3 HISTORIC).
+  playable React UI. Verified end-to-end (37–3 HISTORIC under the original,
+  pre-2026-06-26 curve — the eased curve would score that roster higher).
 - **M1.5 — School registry + picker + theming (DONE):** `schools.ts`, picker
   landing, per-school CSS theming; Michigan live, UNC "coming soon".
 - **M2 — Full basketball dataset (DONE):** 53 sourced players, `_provisional:
 false`, **zero coverage gaps** (every window × position filled; the
-  `dataset.test.ts` coverage guard asserts it). Rating-curve calibration to ~4%
-  perfect is still TODO.
+  `dataset.test.ts` coverage guard asserts it). Win-curve eased per Alex
+  (2026-06-26): undefeated cutoff 85, pivot 57 — the old ~4% target is retired.
 - **M3 — Modes:** Daily (one-shot + streaks) · Classic (free-play) · Hoops IQ.
 - **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
 - **M5 — Ship:** flip repo public → branch protection + Pages deploy.

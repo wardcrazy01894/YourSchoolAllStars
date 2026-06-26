@@ -245,7 +245,9 @@ describe('projected record', () => {
     expect(projectedWins(five(WIN_PIVOT), 40)).toBe(20) // pivot ⇒ 50%
     // Eased curve (pivot lowered): a plain 60 overall now clears .500.
     expect(projectedWins(five(60), 40)).toBeGreaterThan(20)
-    expect(projectedWins(five(75), 40)).toBeLessThan(40) // good, not undefeated
+    // A 75 overall is strong but clearly short of undefeated (and not a stealth
+    // 39-win HISTORIC) — pin it exactly so the bound can't silently drift up.
+    expect(projectedWins(five(75), 40)).toBe(37)
   })
   it('recordLabel and gradeLabel', () => {
     expect(recordLabel(40, 40)).toBe('40–0')
