@@ -1,109 +1,127 @@
-// Draft state machine (pure). The UI holds one DraftState and calls these
-// transitions; everything here is deterministic and unit-tested.
+// Draft state machine (pure) — gameplay v2.
 //
-// Flow (mirrors 40-0): each round shows the window spun for that round; you draft
-// one eligible player into their position slot, which locks. You get ONE reroll
-// for the whole game, which swaps the current round's window for its deterministic
-// alternate. If a window has no eligible players for any open slot you may skip
-// the round (leaving a hole — a guaranteed weak link).
+// Flow (mirrors 40-0, with Alex's daily rule): the day fixes a SEQUENCE of eras
+// (windows) — 6 for the basketball daily (5 starters + 1 skip). You move through
+// them in order. At each era you either:
+//   • pick a player and choose which OPEN slot to put them in (a player may be
+//     eligible for several — a combo guard at PG or SG), which advances the era; or
+//   • SKIP, which just advances to the next era.
+// The game ends when all five slots are filled OR the era sequence runs out.
+// Because the eras are fixed up front, the outcome never depends on WHEN you skip.
 
 import type { BballPlayer, BballPosition, YearWindow } from '../types'
-import { BBALL_POSITIONS } from '../types'
-import { eligiblePlayers, playerInWindow } from './windows'
+import { BBALL_POSITIONS, eligiblePositions } from '../types'
+import { playerInWindow } from './windows'
 
-export interface DraftState {
-  spins: YearWindow[] // effective window per round (reroll mutates one entry)
-  rerollWindows: YearWindow[] // the alternate for each round
-  round: number // 0-based index of the current round
-  slots: Record<BballPosition, BballPlayer | null>
-  picks: BballPlayer[] // drafted players in order
-  rerollsLeft: number
-  rerolledRounds: number[] // rounds already swapped (so a round can't double-reroll)
+export interface DraftPick {
+  player: BballPlayer
+  position: BballPosition
 }
 
-export function initDraft(
-  spins: YearWindow[],
-  rerollWindows: YearWindow[],
-  rerolls = 1,
-): DraftState {
+export interface DraftState {
+  /** The fixed era sequence for this game (deterministic for the daily). */
+  windows: YearWindow[]
+  /** Index of the current era within `windows`. */
+  cursor: number
+  slots: Record<BballPosition, BballPlayer | null>
+  picks: DraftPick[]
+}
+
+export function initDraft(windows: YearWindow[]): DraftState {
   const slots = Object.fromEntries(
     BBALL_POSITIONS.map((p) => [p, null]),
   ) as Record<BballPosition, BballPlayer | null>
-  return {
-    spins,
-    rerollWindows,
-    round: 0,
-    slots,
-    picks: [],
-    rerollsLeft: rerolls,
-    rerolledRounds: [],
-  }
+  return { windows, cursor: 0, slots, picks: [] }
+}
+
+export function allSlotsFilled(s: DraftState): boolean {
+  return BBALL_POSITIONS.every((p) => s.slots[p] !== null)
 }
 
 export function isComplete(s: DraftState): boolean {
-  return s.round >= s.spins.length
+  return allSlotsFilled(s) || s.cursor >= s.windows.length
 }
 
 export function currentWindow(s: DraftState): YearWindow | null {
-  return isComplete(s) ? null : s.spins[s.round]
+  return s.cursor < s.windows.length ? s.windows[s.cursor] : null
 }
 
 export function openPositions(s: DraftState): BballPosition[] {
   return BBALL_POSITIONS.filter((p) => s.slots[p] === null)
 }
 
-/** Players the user can pick this round (eligible window + open slot). */
-export function currentPool(s: DraftState, pool: BballPlayer[]): BballPlayer[] {
+/** The open slots a given player could be placed into this game (regardless of window). */
+export function eligibleOpenSlots(
+  s: DraftState,
+  player: BballPlayer,
+): BballPosition[] {
+  return eligiblePositions(player).filter((pos) => s.slots[pos] === null)
+}
+
+/**
+ * Everyone eligible to APPEAR this era: all players whose tenure overlaps the
+ * current window — including those whose position is already filled (the UI shows
+ * them greyed). Sorted by id for deterministic ordering; the UI groups by position.
+ */
+export function playersThisEra(
+  s: DraftState,
+  pool: BballPlayer[],
+): BballPlayer[] {
   const w = currentWindow(s)
   if (!w) return []
-  return eligiblePlayers(pool, w, openPositions(s))
+  return pool
+    .filter((p) => playerInWindow(p, w))
+    .sort((a, b) => a.id.localeCompare(b.id))
 }
 
-export function canDraft(s: DraftState, player: BballPlayer): boolean {
+/** Pickable = in the current window, not already drafted, and has an open eligible slot. */
+export function isPickable(s: DraftState, player: BballPlayer): boolean {
   const w = currentWindow(s)
   if (!w) return false
-  if (s.slots[player.position] !== null) return false
-  return playerInWindow(player, w)
+  if (alreadyDrafted(s, player)) return false
+  return playerInWindow(player, w) && eligibleOpenSlots(s, player).length > 0
 }
 
-/** Draft a player into their position slot and advance to the next round. */
-export function draft(s: DraftState, player: BballPlayer): DraftState {
-  if (!canDraft(s, player)) return s
+/** Is this player already on the roster? (Guards multi-eligible double-draft.) */
+export function alreadyDrafted(s: DraftState, player: BballPlayer): boolean {
+  return s.picks.some((pk) => pk.player.id === player.id)
+}
+
+/** Place a player into a chosen open, eligible slot; advance to the next era. */
+export function draftToSlot(
+  s: DraftState,
+  player: BballPlayer,
+  position: BballPosition,
+): DraftState {
+  if (alreadyDrafted(s, player)) return s
+  if (!isPickable(s, player)) return s
+  if (!eligibleOpenSlots(s, player).includes(position)) return s
   return {
     ...s,
-    slots: { ...s.slots, [player.position]: player },
-    picks: [...s.picks, player],
-    round: s.round + 1,
+    slots: { ...s.slots, [position]: player },
+    picks: [...s.picks, { player, position }],
+    cursor: s.cursor + 1,
   }
 }
 
-/** Use the single reroll on the current round (swap to its alternate window). */
-export function reroll(s: DraftState): DraftState {
-  if (
-    isComplete(s) ||
-    s.rerollsLeft <= 0 ||
-    s.rerolledRounds.includes(s.round)
-  ) {
-    return s
-  }
-  const spins = [...s.spins]
-  spins[s.round] = s.rerollWindows[s.round]
-  return {
-    ...s,
-    spins,
-    rerollsLeft: s.rerollsLeft - 1,
-    rerolledRounds: [...s.rerolledRounds, s.round],
-  }
-}
-
-export function canReroll(s: DraftState): boolean {
-  return (
-    !isComplete(s) && s.rerollsLeft > 0 && !s.rerolledRounds.includes(s.round)
-  )
-}
-
-/** Skip the current round, leaving its slot(s) unfilled. Advances the round. */
-export function skipRound(s: DraftState): DraftState {
+/** Skip the current era (draft nothing), advancing to the next. */
+export function skip(s: DraftState): DraftState {
   if (isComplete(s)) return s
-  return { ...s, round: s.round + 1 }
+  return { ...s, cursor: s.cursor + 1 }
+}
+
+export function canSkip(s: DraftState): boolean {
+  // You can always skip an era while the game isn't over (isComplete already
+  // covers cursor >= windows.length).
+  return !isComplete(s)
+}
+
+/**
+ * How many more eras you can skip and STILL fill every slot. 0 means the next
+ * skip will leave a hole. Negative is clamped to 0.
+ */
+export function safeSkipsLeft(s: DraftState): number {
+  const erasLeft = s.windows.length - s.cursor
+  const slotsLeft = openPositions(s).length
+  return Math.max(0, erasLeft - slotsLeft)
 }

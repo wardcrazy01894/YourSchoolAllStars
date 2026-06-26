@@ -1,17 +1,20 @@
 // Deterministic daily spins.
 //
-// GOAL: everyone who loads the game on a given day sees the SAME sequence of
-// spun windows, with NO backend. We hash the date string (in America/New_York —
-// the originals roll over at "midnight ET") into a seed, drive a seeded PRNG,
-// and pick one window per round. The reroll stream is a second deterministic
-// pass salted off the same seed, so a reroll is also stable per day.
+// GOAL: everyone who loads the game on a given day sees the SAME fixed sequence
+// of era windows, with NO backend. We hash the date string (in America/New_York
+// — the originals roll over at "midnight ET") into a seed, drive a seeded PRNG,
+// and draw the day's era sequence (6 for basketball: 5 starters + 1 skip). The
+// sequence is fixed up front, so a player's result never depends on when they skip.
 //
 // Stability note: spins are a pure function of (dateKey, sport, window list). If
 // the window list changes, past/future spins shift — fine for a friends game.
 
 import type { YearWindow } from '../types'
 
-export const BBALL_ROUNDS = 5
+/** Basketball starters to draft (PG/SG/SF/PF/C). */
+export const BBALL_STARTERS = 5
+/** Daily basketball era sequence: starters + 1 skip = 6 fixed windows. */
+export const DAILY_BBALL_ERAS = BBALL_STARTERS + 1
 
 const GAME_TIMEZONE = 'America/New_York'
 
@@ -61,39 +64,21 @@ export function seedFor(dateKey: string, sport: string): number {
   return hashStringToSeed(`${sport}:${dateKey}`)
 }
 
-/** One window per round, picked from `windows` by the seeded PRNG. */
+/**
+ * The fixed era SEQUENCE for a game: `count` windows drawn from `windows` by the
+ * seeded PRNG. The daily uses count = slots + 1 (6 for basketball) so the player
+ * gets one skip; everyone on a given ET day gets the same sequence. Because the
+ * sequence is fixed up front, a player's result never depends on WHEN they skip.
+ */
 export function generateSpins(
   seed: number,
-  rounds: number,
+  count: number,
   windows: YearWindow[],
 ): YearWindow[] {
   const rng = mulberry32(seed)
   const out: YearWindow[] = []
-  for (let i = 0; i < rounds; i++) {
+  for (let i = 0; i < count; i++) {
     out.push(windows[Math.floor(rng() * windows.length)])
   }
   return out
-}
-
-/**
- * A deterministic alternate window per round for the single allowed reroll.
- * Salted off the seed; differs from the original spin for that round in all but
- * the degenerate single-window case (and an astronomically unlikely run of
- * identical PRNG picks that exits the guard loop, returning the original).
- */
-export function generateRerollSpins(
-  seed: number,
-  mains: YearWindow[],
-  windows: YearWindow[],
-): YearWindow[] {
-  const rng = mulberry32((seed ^ 0x9e3779b9) >>> 0)
-  return mains.map((main) => {
-    if (windows.length <= 1) return main
-    let pick = main
-    let guard = 0
-    while (pick.start === main.start && guard++ < 20) {
-      pick = windows[Math.floor(rng() * windows.length)]
-    }
-    return pick
-  })
 }

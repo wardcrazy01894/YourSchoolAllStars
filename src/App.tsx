@@ -1,32 +1,33 @@
 import { useEffect, useMemo, useState } from 'react'
 import confetti from 'canvas-confetti'
-import { BBALL_POSITIONS, windowLabel } from './types'
+import { BBALL_POSITIONS, windowLabel, eligiblePositions } from './types'
 import type { BballPlayer, BballPosition, BballStats } from './types'
 import {
-  SCHOOLS,
   getSchool,
   applyTheme,
   DEFAULT_SCHOOL_ID,
+  SCHOOLS,
   type School,
 } from './schools'
 import { BBALL_WINDOWS } from './lib/windows'
 import {
-  BBALL_ROUNDS,
+  DAILY_BBALL_ERAS,
   getDateKey,
   isValidDateKey,
   seedFor,
   generateSpins,
-  generateRerollSpins,
 } from './lib/daily'
 import {
   initDraft,
-  draft,
-  reroll,
-  canReroll,
-  skipRound,
+  draftToSlot,
+  skip,
+  canSkip,
+  safeSkipsLeft,
   isComplete,
+  isPickable,
   currentWindow,
-  currentPool,
+  playersThisEra,
+  eligibleOpenSlots,
   type DraftState,
 } from './lib/game'
 import {
@@ -56,7 +57,6 @@ function param(name: string): string | null {
   return new URLSearchParams(window.location.search).get(name)
 }
 
-/** ?date=YYYY-MM-DD overrides the day (playtesting); else today in ET. */
 function activeDateKey(): string {
   const q = param('date')
   if (q && isValidDateKey(q)) return q
@@ -75,13 +75,10 @@ export default function App() {
   const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
   const school = getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
 
-  // Theme follows the chosen school (or the default while on the picker).
   useEffect(() => {
     applyTheme(school.theme)
   }, [school])
 
-  // Reload to the latest build when a new version is deployed and the tab
-  // regains focus — no stale tabs left open. No-op in local dev.
   useEffect(() => setupAutoUpdate(), [])
 
   function chooseSchool(id: string) {
@@ -157,26 +154,19 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     [dateKey, school.id],
   )
   const spins = useMemo(
-    () => generateSpins(seed, BBALL_ROUNDS, BBALL_WINDOWS),
+    () => generateSpins(seed, DAILY_BBALL_ERAS, BBALL_WINDOWS),
     [seed],
-  )
-  const rerolls = useMemo(
-    () => generateRerollSpins(seed, spins, BBALL_WINDOWS),
-    [seed, spins],
   )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>('landing')
-  const [state, setState] = useState<DraftState>(() =>
-    initDraft(spins, rerolls),
-  )
+  const [state, setState] = useState<DraftState>(() => initDraft(spins))
 
   function start() {
-    setState(initDraft(spins, rerolls))
+    setState(initDraft(spins))
     setPhase('playing')
   }
 
-  function pick(p: BballPlayer) {
-    const next = draft(state, p)
+  function advance(next: DraftState) {
     setState(next)
     if (isComplete(next)) finish(next)
   }
@@ -213,13 +203,7 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
         <Landing school={school} dateKey={dateKey} onStart={start} />
       )}
       {phase === 'playing' && (
-        <Playing
-          school={school}
-          players={players}
-          state={state}
-          onPick={pick}
-          onState={setState}
-        />
+        <Playing players={players} state={state} onAdvance={advance} />
       )}
       {phase === 'done' && (
         <Results school={school} state={state} dateKey={dateKey} />
@@ -247,10 +231,10 @@ function Landing({
       <span className="banner">🗓️ Daily Challenge · {dateKey}</span>
       <h1>Build {school.name}'s all-time five.</h1>
       <p>
-        Five rounds. Each round spins a 4-year window of {school.name}{' '}
-        basketball. Draft one player into your starting five — PG, SG, SF, PF,
-        C. Each slot locks once filled. You get <strong>one re-spin</strong>.
-        How close to a perfect <strong>40&ndash;0</strong> can you get?
+        Six eras spin in a fixed order today — the same for everyone. Draft a
+        starting five (PG, SG, SF, PF, C): pick a player, then choose an open
+        slot. You can <strong>skip one era</strong>. How close to a perfect{' '}
+        <strong>40&ndash;0</strong> can you get?
       </p>
       <button className="btn primary" onClick={onStart}>
         ▶ Play Today's Challenge
@@ -259,13 +243,28 @@ function Landing({
   )
 }
 
-function RosterRail({ slots }: { slots: DraftState['slots'] }) {
+function RosterRail({
+  slots,
+  targetable,
+  onPlace,
+}: {
+  slots: DraftState['slots']
+  targetable?: BballPosition[]
+  onPlace?: (pos: BballPosition) => void
+}) {
+  const targets = new Set(targetable ?? [])
   return (
     <div className="rail">
       {BBALL_POSITIONS.map((pos) => {
         const p = slots[pos]
+        const isTarget = targets.has(pos)
         return (
-          <div key={pos} className={`slot ${p ? 'filled' : 'open'}`}>
+          <div
+            key={pos}
+            className={`slot ${p ? 'filled' : 'open'}${isTarget ? ' target' : ''}`}
+            onClick={() => isTarget && onPlace?.(pos)}
+            role={isTarget ? 'button' : undefined}
+          >
             <div className="pos">{pos}</div>
             {p ? (
               <>
@@ -273,7 +272,9 @@ function RosterRail({ slots }: { slots: DraftState['slots'] }) {
                 <div className="prate">{playerRating(p)}</div>
               </>
             ) : (
-              <div className="pname muted">—</div>
+              <div className="pname muted">
+                {isTarget ? 'tap to place' : '—'}
+              </div>
             )}
           </div>
         )
@@ -283,104 +284,142 @@ function RosterRail({ slots }: { slots: DraftState['slots'] }) {
 }
 
 function Playing({
-  school,
   players,
   state,
-  onPick,
-  onState,
+  onAdvance,
 }: {
-  school: School
   players: BballPlayer[]
   state: DraftState
-  onPick: (p: BballPlayer) => void
-  onState: (s: DraftState) => void
+  onAdvance: (s: DraftState) => void
 }) {
-  const [sortKey, setSortKey] = useState<StatKey>('pts')
+  const [selectedId, setSelectedId] = useState<string | null>(null)
   const w = currentWindow(state)
-  const pool = useMemo(() => {
-    const list = currentPool(state, players)
-    return [...list].sort((a, b) => b.stats[sortKey] - a.stats[sortKey])
-  }, [state, players, sortKey])
+  const era = playersThisEra(state, players)
+  const selected = selectedId
+    ? (era.find((p) => p.id === selectedId) ?? null)
+    : null
+  const targetSlots = selected ? eligibleOpenSlots(state, selected) : []
+
+  // Group players by primary position, sorted within group by points.
+  const groups = BBALL_POSITIONS.map((pos) => ({
+    pos,
+    filled: state.slots[pos] !== null,
+    players: era
+      .filter((p) => p.position === pos)
+      .sort((a, b) => b.stats.pts - a.stats.pts),
+  })).filter((g) => g.players.length > 0)
+
+  function place(pos: BballPosition) {
+    if (!selected) return
+    onAdvance(draftToSlot(state, selected, pos))
+    setSelectedId(null)
+  }
+
+  function selectPlayer(p: BballPlayer) {
+    if (!isPickable(state, p)) return
+    const slots = eligibleOpenSlots(state, p)
+    if (slots.length === 1) {
+      onAdvance(draftToSlot(state, p, slots[0]))
+      setSelectedId(null)
+    } else {
+      setSelectedId(p.id) // multi-slot: let them choose in the rail
+    }
+  }
 
   return (
     <section>
-      <RosterRail slots={state.slots} />
+      <RosterRail
+        slots={state.slots}
+        targetable={targetSlots}
+        onPlace={place}
+      />
 
       <div className="roundbar">
         <div className="era">
           {w ? windowLabel(w) : ''}
           <small>
-            Round {Math.min(state.round + 1, BBALL_ROUNDS)} / {BBALL_ROUNDS} ·
-            spin
+            Era {Math.min(state.cursor + 1, state.windows.length)} /{' '}
+            {state.windows.length}
           </small>
         </div>
         <button
           className="btn"
-          disabled={!canReroll(state)}
-          onClick={() => onState(reroll(state))}
+          disabled={!canSkip(state)}
+          onClick={() => {
+            setSelectedId(null)
+            onAdvance(skip(state))
+          }}
+          title={
+            safeSkipsLeft(state) > 0
+              ? 'Skip to the next era'
+              : 'Skipping now leaves a hole'
+          }
         >
-          🎲 Re-spin ({state.rerollsLeft})
+          ⏭ Skip era
+          {safeSkipsLeft(state) > 0 ? ` (${safeSkipsLeft(state)})` : ' ⚠'}
         </button>
       </div>
 
-      {pool.length > 0 ? (
-        <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+      {selected && (
+        <div className="select-hint">
+          Placing <strong>{selected.name}</strong> — tap a highlighted slot
+          above.{' '}
+          <button className="linkbtn" onClick={() => setSelectedId(null)}>
+            cancel
+          </button>
+        </div>
+      )}
+
+      {groups.map((g) => (
+        <div className="pos-group" key={g.pos}>
+          <div className="pos-group-head">
+            <span className="pos-chip">{g.pos}</span>
+            {g.filled && !g.players.some((p) => isPickable(state, p)) && (
+              <span className="filled-tag">{g.pos} slot filled</span>
+            )}
+          </div>
           <table className="pool">
             <thead>
               <tr>
                 <th className="name">Player</th>
+                <th>YR</th>
                 {STAT_COLS.map((c) => (
-                  <th
-                    key={c.key}
-                    className={sortKey === c.key ? 'active' : ''}
-                    onClick={() => setSortKey(c.key)}
-                  >
-                    {c.label}
-                  </th>
+                  <th key={c.key}>{c.label}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
-              {pool.map((p) => (
-                <tr key={p.id} className="player" onClick={() => onPick(p)}>
-                  <td className="name">
-                    <span className="pos-chip">{p.position}</span>
-                    {p.name}
-                    {p.honors.length > 0 && (
-                      <span className="honor" title={p.honors.join(', ')}>
-                        ★
-                      </span>
-                    )}
-                  </td>
-                  {STAT_COLS.map((c) => (
-                    <td key={c.key}>{p.stats[c.key].toFixed(1)}</td>
-                  ))}
-                </tr>
-              ))}
+              {g.players.map((p) => {
+                const pickable = isPickable(state, p)
+                const alt = eligiblePositions(p).filter((x) => x !== p.position)
+                return (
+                  <tr
+                    key={p.id}
+                    className={`player${pickable ? '' : ' locked'}${selectedId === p.id ? ' selected' : ''}`}
+                    onClick={() => selectPlayer(p)}
+                  >
+                    <td className="name">
+                      {p.name}
+                      {alt.length > 0 && (
+                        <span className="alt-pos">+{alt.join('/')}</span>
+                      )}
+                      {p.honors.length > 0 && (
+                        <span className="honor" title={p.honors.join(', ')}>
+                          ★
+                        </span>
+                      )}
+                    </td>
+                    <td className="yr">'{String(p.bestSeason).slice(2)}</td>
+                    {STAT_COLS.map((c) => (
+                      <td key={c.key}>{p.stats[c.key].toFixed(1)}</td>
+                    ))}
+                  </tr>
+                )
+              })}
             </tbody>
           </table>
         </div>
-      ) : (
-        <div className="card empty-pool">
-          <p>
-            No eligible {school.name} players for an open position in this
-            window.
-          </p>
-          <div className="row">
-            {canReroll(state) && (
-              <button
-                className="btn primary"
-                onClick={() => onState(reroll(state))}
-              >
-                🎲 Use your re-spin
-              </button>
-            )}
-            <button className="btn" onClick={() => onState(skipRound(state))}>
-              Skip this round (leaves a hole)
-            </button>
-          </div>
-        </div>
-      )}
+      ))}
     </section>
   )
 }
@@ -443,6 +482,7 @@ function Results({
           <thead>
             <tr>
               <th className="name">Your starting five</th>
+              <th>YR</th>
               {STAT_COLS.map((c) => (
                 <th key={c.key}>{c.label}</th>
               ))}
@@ -457,6 +497,9 @@ function Results({
                   <td className="name">
                     <span className="pos-chip">{pos}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
+                  </td>
+                  <td className="yr">
+                    {p ? `'${String(p.bestSeason).slice(2)}` : '—'}
                   </td>
                   {STAT_COLS.map((c) => (
                     <td key={c.key}>{p ? p.stats[c.key].toFixed(1) : '—'}</td>

@@ -22,8 +22,14 @@ export interface BballStats {
 
 export interface BballPlayer {
   id: string
-  name: string
+  /** Primary position — used for grouping/display in the pool. */
   position: BballPosition
+  /**
+   * All slots this player may fill (defaults to `[position]`). Lets a combo guard
+   * be drafted at PG or SG, etc. The player picks which open slot at draft time.
+   */
+  eligible?: BballPosition[]
+  name: string
   /** Year the player's FIRST Michigan season ended (1993-94 → 1994). */
   firstYear: number
   /** Year the player's LAST Michigan season ended. */
@@ -36,6 +42,11 @@ export interface BballPlayer {
   honors: string[]
   /** Provenance: the URL the stats were sourced/verified from. */
   source: string
+}
+
+/** The slots a player may fill — their explicit `eligible` list or just primary. */
+export function eligiblePositions(p: BballPlayer): BballPosition[] {
+  return p.eligible && p.eligible.length > 0 ? p.eligible : [p.position]
 }
 
 // ── Windows ──────────────────────────────────────────────────────────────────
