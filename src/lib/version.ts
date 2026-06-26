@@ -20,9 +20,11 @@ export async function fetchDeployedHash(
   fetchImpl: typeof fetch = fetch,
 ): Promise<string | null> {
   try {
-    const res = await fetchImpl(`${import.meta.env.BASE_URL}version.json`, {
-      cache: 'no-store',
-    })
+    // `cache: 'no-store'` only bypasses the browser cache; a `?v=` param also
+    // busts the GitHub Pages / Fastly EDGE cache, so we don't read a stale
+    // version.json from one edge node and reload-loop against it.
+    const url = `${import.meta.env.BASE_URL}version.json?v=${Date.now()}`
+    const res = await fetchImpl(url, { cache: 'no-store' })
     if (!res.ok) return null
     const data = (await res.json()) as { hash?: string }
     return data.hash ?? null
@@ -41,6 +43,10 @@ export function setupAutoUpdate(opts?: {
   minIntervalMs?: number
   loadedHash?: string
 }): () => void {
+  // In local dev there is no built bundle hash to compare against and Vite never
+  // serves version.json — skip entirely so a dev never gets reloaded.
+  if (import.meta.env.DEV) return () => {}
+
   const onUpdate = opts?.onUpdate ?? (() => window.location.reload())
   const minInterval = opts?.minIntervalMs ?? 60_000
   const loaded = opts?.loadedHash ?? LOADED_HASH
@@ -53,6 +59,7 @@ export function setupAutoUpdate(opts?: {
     if (now - last < minInterval) return
     last = now
     const deployed = await fetchDeployedHash()
+    if (stopped) return // cleanup may have run during the await — don't reload
     if (isStale(loaded, deployed ?? undefined)) onUpdate()
   }
 

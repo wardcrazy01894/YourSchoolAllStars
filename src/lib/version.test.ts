@@ -24,13 +24,24 @@ describe('fetchDeployedHash', () => {
       json: async () => ({ hash: 'deadbeef' }),
     } as Response)
     expect(await fetchDeployedHash(fetchMock)).toBe('deadbeef')
+    const url = fetchMock.mock.calls[0][0] as string
+    // base path + filename together (catches a dropped BASE_URL prefix) + cache-buster.
+    expect(url).toContain(`${import.meta.env.BASE_URL}version.json`)
+    expect(url).toMatch(/[?&]v=\d+/)
     expect(fetchMock).toHaveBeenCalledWith(
-      expect.stringContaining('version.json'),
+      expect.any(String),
       expect.objectContaining({ cache: 'no-store' }),
     )
   })
   it('returns null on a non-OK response', async () => {
     const fetchMock = vi.fn().mockResolvedValue({ ok: false } as Response)
+    expect(await fetchDeployedHash(fetchMock)).toBe(null)
+  })
+  it('returns null when version.json has no hash field', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({}),
+    } as Response)
     expect(await fetchDeployedHash(fetchMock)).toBe(null)
   })
   it('returns null when the fetch throws (offline)', async () => {
