@@ -703,7 +703,7 @@ export function RosterRail({
   targetable,
   onPlace,
   hideRating,
-  power5 = true,
+  power5,
 }: {
   slots: DraftState['slots']
   /** Era each filled slot was drafted from, so its rating matches the pick. */
@@ -712,8 +712,12 @@ export function RosterRail({
   onPlace?: (pos: BballPosition) => void
   /** Hoops IQ: suppress the numeric rating while drafting (revealed at the end). */
   hideRating?: boolean
-  /** School's conference strength — false applies the non-power-5 rating haircut. */
-  power5?: boolean
+  /**
+   * School's conference strength — false applies the non-power-5 rating haircut.
+   * REQUIRED (no default): an omitted prop would silently rate a non-power-5
+   * school at full power-5 value. Every call site must pass `school.power5`.
+   */
+  power5: boolean
 }) {
   const targets = new Set(targetable ?? [])
   return (
