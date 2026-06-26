@@ -67,8 +67,12 @@ import {
   type GameMode,
   type ModeConfig,
 } from './lib/modes'
-
-const SPORT = 'basketball'
+import {
+  getSport,
+  isSportId,
+  sportsForSchool,
+  type SportConfig,
+} from './lib/sports'
 
 const GAMES = 40
 
@@ -134,8 +138,14 @@ function initialModeId(): GameMode | null {
   return isGameMode(q) ? q : null
 }
 
+function initialSportId(): string | null {
+  const q = param('sport')
+  return isSportId(q) ? q : null
+}
+
 export default function App() {
   const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
+  const [sportId, setSportId] = useState<string | null>(initialSportId)
   const [modeId, setModeId] = useState<GameMode | null>(initialModeId)
   const school = getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
 
@@ -150,27 +160,57 @@ export default function App() {
     setSchoolId(id)
   }
 
+  // Each step back clears the steps below it so the flow can't keep a stale
+  // deeper selection (e.g. switching school must drop the chosen sport + mode).
+  function backToSports() {
+    setModeId(null)
+    setSportId(null)
+  }
   function switchSchool() {
     setModeId(null)
+    setSportId(null)
     setSchoolId(null)
   }
 
+  // Flow: school → sport → mode → game. Football routes to a "coming soon"
+  // screen until its data + engine land (#7) — never a half-built draft.
   if (!schoolId) return <Picker onPick={chooseSchool} />
+  if (!sportId)
+    return (
+      <SportMenu
+        school={school}
+        onPick={setSportId}
+        onSwitchSchool={switchSchool}
+      />
+    )
+  const sport = getSport(sportId)
+  if (!sport.available)
+    return (
+      <SportComingSoon
+        school={school}
+        sport={sport}
+        onBack={backToSports}
+        onSwitchSchool={switchSchool}
+      />
+    )
   if (!modeId)
     return (
       <ModeMenu
         school={school}
+        sport={sport}
         onPick={setModeId}
+        onBackToSports={backToSports}
         onSwitchSchool={switchSchool}
       />
     )
-  // key={school.id}:{modeId} makes the per-school/per-mode remount explicit:
-  // Game's useState initializers (seed/phase/state/streak) all derive from the
-  // chosen mode + loaded save, so a school OR mode change must start a fresh Game.
+  // key=school:sport:mode makes the remount explicit: Game's useState
+  // initializers (seed/phase/state/streak) all derive from the chosen sport +
+  // mode + loaded save, so any of those changing must start a fresh Game.
   return (
     <Game
-      key={`${school.id}:${modeId}`}
+      key={`${school.id}:${sport.id}:${modeId}`}
       school={school}
+      sport={sport}
       mode={getMode(modeId)}
       onExitToModes={() => setModeId(null)}
       onSwitchSchool={switchSchool}
@@ -232,40 +272,162 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
   )
 }
 
-function ModeMenu({
+function SportMenu({
   school,
   onPick,
   onSwitchSchool,
 }: {
   school: School
-  onPick: (id: GameMode) => void
+  onPick: (id: string) => void
   onSwitchSchool: () => void
 }) {
-  // The daily streak lives per school+sport; surface it here so returning players
-  // see it before they pick a mode (only the daily can advance it).
-  const [dailyStreak] = useState(() => loadStreak(school.id, SPORT))
+  // Only the sports this school actually fields (football is hidden where
+  // `hasFootball` is false). A not-yet-`available` sport still shows — it's a
+  // real card that routes to a "coming soon" screen, not a hidden one.
+  const sports = sportsForSchool(school)
   return (
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="ball">🏀</span>
+          <span className="ball">{school.emoji}</span>
           <div>
             YourSchoolAllStars
             <small>{school.name}</small>
           </div>
         </div>
-        <button className="btn ghost" onClick={onSwitchSchool}>
-          ↺ Switch school
-        </button>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ School
+          </button>
+        </div>
       </header>
       <section className="hero" style={{ paddingBottom: 8 }}>
-        <h1>{school.name} Basketball</h1>
+        <h1>{school.name}</h1>
+        <p>Pick a sport.</p>
+      </section>
+      <div className="mode-menu">
+        {sports.map((s) => (
+          <button
+            key={s.id}
+            className={`mode-card${s.available ? '' : ' soon'}`}
+            onClick={() => onPick(s.id)}
+          >
+            {!s.available && <span className="soon-chip">Coming soon</span>}
+            <span className="mode-emoji">{s.emoji}</span>
+            <span className="mode-name">{s.name}</span>
+            <span className="mode-blurb">{s.blurb}</span>
+          </button>
+        ))}
+      </div>
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by{' '}
+        {school.name}. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
+function SportComingSoon({
+  school,
+  sport,
+  onBack,
+  onSwitchSchool,
+}: {
+  school: School
+  sport: SportConfig
+  onBack: () => void
+  onSwitchSchool: () => void
+}) {
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="ball">{sport.emoji}</span>
+          <div>
+            YourSchoolAllStars
+            <small>
+              {school.name} {sport.name}
+            </small>
+          </div>
+        </div>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onBack}>
+            ← Sports
+          </button>
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ School
+          </button>
+        </div>
+      </header>
+      <section className="hero">
+        <span className="banner">
+          {sport.emoji} {school.name} {sport.name}
+        </span>
+        <h1>{sport.name} is coming soon.</h1>
+        <p>
+          We're building the {school.name} {sport.name.toLowerCase()} draft — a
+          per-season roster across the eras, sourced the same careful way as
+          basketball. It isn't playable yet, and we won't ship fabricated stats
+          to fake it.
+        </p>
+        <p className="muted">
+          In the meantime, the {school.name} basketball game is live.
+        </p>
+        <button className="btn primary" onClick={onBack}>
+          ← Back to sports
+        </button>
+      </section>
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by{' '}
+        {school.name}. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
+function ModeMenu({
+  school,
+  sport,
+  onPick,
+  onBackToSports,
+  onSwitchSchool,
+}: {
+  school: School
+  sport: SportConfig
+  onPick: (id: GameMode) => void
+  onBackToSports: () => void
+  onSwitchSchool: () => void
+}) {
+  // The daily streak lives per school+sport; surface it here so returning players
+  // see it before they pick a mode (only the daily can advance it).
+  const [dailyStreak] = useState(() => loadStreak(school.id, sport.id))
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="ball">{sport.emoji}</span>
+          <div>
+            YourSchoolAllStars
+            <small>
+              {school.name} {sport.name}
+            </small>
+          </div>
+        </div>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onBackToSports}>
+            ← Sports
+          </button>
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ School
+          </button>
+        </div>
+      </header>
+      <section className="hero" style={{ paddingBottom: 8 }}>
+        <h1>
+          {school.name} {sport.name}
+        </h1>
         <p>Choose how you want to play.</p>
         <StreakChips streak={dailyStreak} />
-        <div className="sport-row">
-          <span className="sport-chip active">🏀 Basketball</span>
-          <span className="sport-chip soon">🏈 Football · soon</span>
-        </div>
       </section>
       <div className="mode-menu">
         {MODES.map((m) => (
@@ -286,11 +448,13 @@ function ModeMenu({
 
 function Game({
   school,
+  sport,
   mode,
   onExitToModes,
   onSwitchSchool,
 }: {
   school: School
+  sport: SportConfig
   mode: ModeConfig
   onExitToModes: () => void
   onSwitchSchool: () => void
@@ -308,7 +472,7 @@ function Game({
   // Classic/Hoops IQ get a fresh random seed per game — and a new one on "play
   // again". State, not memo: playAgain mutates it to reshuffle the wheel.
   const [gameSeed, setGameSeed] = useState<number>(() =>
-    mode.daily ? seedFor(dateKey, `${school.id}:${SPORT}`) : randomSeed(),
+    mode.daily ? seedFor(dateKey, `${school.id}:${sport.id}`) : randomSeed(),
   )
   // Data-driven ROLLING wheel (#16): overlapping 4-year eras from 1994 up to the
   // dataset's most recent season, so the wheel grows itself as new seasons land
@@ -332,7 +496,7 @@ function Game({
   // returning player opens straight to locked Results. Free-play modes never load
   // or save, so they always start fresh at the landing.
   const [savedToday] = useState(() =>
-    mode.daily ? loadDaily(school.id, SPORT, dateKey) : null,
+    mode.daily ? loadDaily(school.id, sport.id, dateKey) : null,
   )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
@@ -342,7 +506,7 @@ function Game({
     savedToday ? rosterFromSaved(savedToday, players) : initDraft(spins),
   )
   const [streak, setStreak] = useState<Streak>(() =>
-    loadStreak(school.id, SPORT),
+    loadStreak(school.id, sport.id),
   )
   // The persisted result for the locked view. Carries the EARNED wins/grade so a
   // returning player sees what they actually scored, even if the dataset's stats
@@ -375,7 +539,7 @@ function Game({
     // streak. saveDailyResult is idempotent and fail-safe; only a REAL today play
     // moves the streak — `?date=` playtest days save + lock but stay neutral.
     if (mode.daily) {
-      const updated = saveDailyResult(school.id, SPORT, saved, {
+      const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: dateKey === getDateKey(),
       })
       setStreak(updated)
@@ -407,11 +571,11 @@ function Game({
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="ball">🏀</span>
+          <span className="ball">{sport.emoji}</span>
           <div>
             YourSchoolAllStars
             <small>
-              {school.name} Basketball · {mode.name}
+              {school.name} {sport.name} · {mode.name}
               {provisional ? ' · provisional data' : ''}
             </small>
           </div>
