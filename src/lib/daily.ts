@@ -8,6 +8,11 @@
 //
 // Stability note: spins are a pure function of (dateKey, sport, window list). If
 // the window list changes, past/future spins shift — fine for a friends game.
+// As of #16 the live wheel is the DATA-DRIVEN rolling wheel, which grows by one
+// era each time a new season lands in the dataset (datasetMaxYear rises). So
+// `floor(rng()*N)` → `floor(rng()*(N+1))` after each data extension, and every
+// `?date=YYYY-MM-DD` replay URL then resolves to a DIFFERENT puzzle than before.
+// Accepted for this scope (a daily friends game, not a fixed historical archive).
 
 import type { YearWindow } from '../types'
 
@@ -75,6 +80,11 @@ export function generateSpins(
   count: number,
   windows: YearWindow[],
 ): YearWindow[] {
+  // Dead-era safety net: an empty wheel (a data-less school → no rolling windows)
+  // has nothing to draw. Returning early avoids `windows[Math.floor(rng()*0)]`,
+  // which is `windows[0]` = undefined — a sequence of holes that would corrupt
+  // currentWindow and the rating layer. An empty wheel ⇒ an empty sequence.
+  if (windows.length === 0) return []
   const rng = mulberry32(seed)
   const out: YearWindow[] = []
   for (let i = 0; i < count; i++) {

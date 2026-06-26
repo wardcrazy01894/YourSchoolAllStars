@@ -4,11 +4,12 @@
 // career, per Alex's call). The daily game spins one window per draft round; you
 // may only draft players whose Michigan tenure OVERLAPS the spun window.
 //
-// The live `BBALL_WINDOWS` wheel is still NON-overlapping 4-year blocks from 1994
-// on. `buildRollingWindows` (overlapping, data-driven era cap) is the tested
-// foundation for the planned move to a rolling wheel; wiring it into the daily
-// follows once the draft engine gains dead-era handling. Windows are just data —
-// the engine reads whatever array is exported here.
+// The LIVE daily wheel is now the data-driven ROLLING wheel: the app spins
+// `buildRollingWindows(1994, datasetMaxYear(players), 4)` (overlapping 4-year
+// eras, capped at the most recent season). `BBALL_WINDOWS` (the old fixed,
+// non-overlapping blocks) is retained as a reference fixture and is still
+// exercised by the dataset/coverage tests — it's no longer what the game spins.
+// Windows are just data — the engine reads whatever array it's handed.
 
 import type { BballPlayer, YearWindow } from '../types'
 
@@ -64,8 +65,9 @@ export function datasetMaxYear(
  * (33 years) doesn't tile evenly into 4-year blocks, so the trailing partial year
  * (2026 — the championship season) is FOLDED into the final block: the last era
  * is 2022–26 (5 years) rather than a degenerate one-year 2026–26 window. Keeps the
- * wheel at 8 non-overlapping eras. #16 replaces this with the data-driven rolling
- * wheel (`buildRollingWindows` + `datasetMaxYear`), which subsumes this fold.
+ * wheel at 8 non-overlapping eras. As of #16 the live daily spins the data-driven
+ * rolling wheel (`buildRollingWindows` + `datasetMaxYear`) instead; this fixed
+ * list stays as a reference fixture and coverage-test baseline.
  */
 export const BBALL_WINDOWS: YearWindow[] = (() => {
   const ws = buildWindows(1994, 2026, 4)

@@ -15,7 +15,7 @@ import {
   SCHOOLS,
   type School,
 } from './schools'
-import { BBALL_WINDOWS } from './lib/windows'
+import { buildRollingWindows, datasetMaxYear } from './lib/windows'
 import {
   DAILY_BBALL_ERAS,
   getDateKey,
@@ -178,7 +178,12 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
 }
 
 function Game({ school, onExit }: { school: School; onExit: () => void }) {
-  const players = school.basketball?.players ?? []
+  // Memoized so its reference is stable across renders — it feeds the `windows`
+  // useMemo below, which would otherwise recompute every render on a fresh `[]`.
+  const players = useMemo(
+    () => school.basketball?.players ?? [],
+    [school.basketball],
+  )
   const provisional = school.basketball?.provisional ?? false
 
   const dateKey = useMemo(activeDateKey, [])
@@ -186,15 +191,27 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
     () => seedFor(dateKey, `${school.id}:basketball`),
     [dateKey, school.id],
   )
+  // Data-driven ROLLING wheel (#16): overlapping 4-year eras from 1994 up to the
+  // dataset's most recent season, so the wheel grows itself as new seasons land
+  // (no hand-maintained fixed block list). A data-less school yields no windows;
+  // generateSpins then returns [] (dead-era safety net) rather than undefined spins.
+  const windows = useMemo(() => {
+    const maxYear = datasetMaxYear(players)
+    return maxYear === null ? [] : buildRollingWindows(1994, maxYear, 4)
+  }, [players])
   const spins = useMemo(
-    () => generateSpins(seed, DAILY_BBALL_ERAS, BBALL_WINDOWS),
-    [seed],
+    () => generateSpins(seed, DAILY_BBALL_ERAS, windows),
+    [seed, windows],
   )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>('landing')
   const [state, setState] = useState<DraftState>(() => initDraft(spins))
 
   function start() {
+    // Dead-era safety net (UI half): an empty wheel ⇒ no spins ⇒ an
+    // already-complete draft that can never advance to Results. Don't enter the
+    // playing phase at all — the Landing button is also disabled in this case.
+    if (spins.length === 0) return
     setState(initDraft(spins))
     setPhase('playing')
   }
@@ -240,10 +257,20 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
       </header>
 
       {phase === 'landing' && (
-        <Landing school={school} dateKey={dateKey} onStart={start} />
+        <Landing
+          school={school}
+          dateKey={dateKey}
+          playable={spins.length > 0}
+          onStart={start}
+        />
       )}
       {phase === 'playing' && (
-        <Playing players={players} state={state} onAdvance={advance} />
+        <Playing
+          players={players}
+          state={state}
+          wheel={windows}
+          onAdvance={advance}
+        />
       )}
       {phase === 'done' && (
         <Results school={school} state={state} dateKey={dateKey} />
@@ -260,10 +287,13 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
 function Landing({
   school,
   dateKey,
+  playable,
   onStart,
 }: {
   school: School
   dateKey: string
+  /** False when this school has no draftable wheel (no basketball data yet). */
+  playable: boolean
   onStart: () => void
 }) {
   return (
@@ -276,9 +306,15 @@ function Landing({
         slot. You can <strong>skip one era</strong>. How close to a perfect{' '}
         <strong>40&ndash;0</strong> can you get?
       </p>
-      <button className="btn primary" onClick={onStart}>
-        ▶ Play Today's Challenge
-      </button>
+      {playable ? (
+        <button className="btn primary" onClick={onStart}>
+          ▶ Play Today's Challenge
+        </button>
+      ) : (
+        <p className="muted">
+          No {school.name} basketball data yet — check back soon.
+        </p>
+      )}
     </section>
   )
 }
@@ -329,10 +365,13 @@ function RosterRail({
 function Playing({
   players,
   state,
+  wheel,
   onAdvance,
 }: {
   players: BballPlayer[]
   state: DraftState
+  /** The full rolling era wheel — the reel animation flashes labels from it. */
+  wheel: YearWindow[]
   onAdvance: (s: DraftState) => void
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -395,7 +434,11 @@ function Playing({
     if (!w || spinning || reveal) return
     setSpinning(true)
     intervalRef.current = window.setInterval(() => {
-      const r = BBALL_WINDOWS[Math.floor(Math.random() * BBALL_WINDOWS.length)]
+      // `spin()` already returned early on `!w`. `w` is null either when the era
+      // sequence is exhausted (game complete → phase flips to 'done', unmounting
+      // this) or when spins is empty (blocked upstream by start()). Either way
+      // this body can't fire with an empty `wheel`, so no fallback is needed.
+      const r = wheel[Math.floor(Math.random() * wheel.length)]
       setReelLabel(windowLabel(r))
     }, 70)
     timeoutRef.current = window.setTimeout(() => {

@@ -3,7 +3,12 @@
 
 import { describe, it, expect } from 'vitest'
 import { michiganBasketball } from './index'
-import { BBALL_WINDOWS, playerInWindow, datasetMaxYear } from '../lib/windows'
+import {
+  BBALL_WINDOWS,
+  buildRollingWindows,
+  playerInWindow,
+  datasetMaxYear,
+} from '../lib/windows'
 import { BBALL_POSITIONS, eligiblePositions } from '../types'
 
 const { players } = michiganBasketball
@@ -63,6 +68,10 @@ describe('michigan basketball dataset', () => {
   })
 
   it('every window × position has at least one eligible player (launch bar)', () => {
+    // Defense-in-depth alongside the ROLLING-window guard below: this checks the
+    // retired fixed BBALL_WINDOWS fixture (no longer the live wheel as of #16, but
+    // still referenced by windows.test.ts). The rolling guard is the stricter,
+    // finer-grained bar for what the game ACTUALLY spins; kept both deliberately.
     // No daily spin can strand a position with an empty pool. All gaps filled —
     // a data edit that empties any cell adds a gap here and fails CI.
     const KNOWN_GAPS: string[] = []
@@ -80,6 +89,30 @@ describe('michigan basketball dataset', () => {
     }
     // A data edit that empties a covered cell adds a NEW gap and fails CI;
     // filling a known gap without updating KNOWN_GAPS also fails. Trends to [].
+    expect(gaps.sort()).toEqual([...KNOWN_GAPS].sort())
+  })
+
+  it('every ROLLING window × position has an eligible player (the live wheel)', () => {
+    // #16 flips the daily wheel from the 8 fixed BBALL_WINDOWS to the data-driven
+    // ROLLING wheel the app now spins: buildRollingWindows(1994, datasetMaxYear, 4)
+    // — ~30 overlapping 4-year eras. The soft-lock-freedom guarantee in game.ts
+    // (canSkip) rests on "every spun window × position has ≥1 eligible player," so
+    // the invariant must hold for the wheel the app ACTUALLY uses, not just the old
+    // fixed one. (It follows from per-year coverage, but lock it explicitly: a data
+    // edit that strands a rolling era would soft-lock a real daily.)
+    const maxYear = datasetMaxYear(players) ?? 1994
+    const wheel = buildRollingWindows(1994, maxYear, 4)
+    expect(wheel.length).toBeGreaterThan(0)
+    const KNOWN_GAPS: string[] = []
+    const gaps: string[] = []
+    for (const w of wheel) {
+      for (const pos of BBALL_POSITIONS) {
+        const count = players.filter(
+          (p) => eligiblePositions(p).includes(pos) && playerInWindow(p, w),
+        ).length
+        if (count === 0) gaps.push(`${w.start}-${w.end}/${pos}`)
+      }
+    }
     expect(gaps.sort()).toEqual([...KNOWN_GAPS].sort())
   })
 
