@@ -46,6 +46,7 @@ import {
   evaluateRoster,
   savedDailyFrom,
   rosterFromSaved,
+  teamStatTotals,
   windowByPosition,
 } from './lib/result'
 import {
@@ -182,7 +183,7 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="puck">🏀</span>
+          <span className="ball">🏀</span>
           <div>
             YourSchoolAllStars
             <small>Pick your school</small>
@@ -247,7 +248,7 @@ function ModeMenu({
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="puck">🏀</span>
+          <span className="ball">🏀</span>
           <div>
             YourSchoolAllStars
             <small>{school.name}</small>
@@ -391,8 +392,10 @@ function Game({
   }
 
   // Free-play replay: reshuffle to a fresh random wheel and start a new draft.
-  // (Not offered for the daily — that's a one-shot.)
+  // (Not offered for the daily — that's a one-shot; guard so a future refactor
+  // that mis-wires the button can't silently bypass the daily lock.)
   function playAgain() {
+    if (mode.daily) return
     const next = randomSeed()
     setGameSeed(next)
     setResult(null)
@@ -404,7 +407,7 @@ function Game({
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="puck">🏀</span>
+          <span className="ball">🏀</span>
           <div>
             YourSchoolAllStars
             <small>
@@ -891,16 +894,14 @@ function Results({
     )
   }
 
-  // Team totals across the starting five, per stat. A missing (unpublished) value
-  // counts as 0 so the row still sums what's known rather than blanking out.
-  const totals = STAT_COLS.map((c) => ({
-    key: c.key,
-    sum: BBALL_POSITIONS.reduce((acc, pos) => {
-      const p = state.slots[pos]
-      const s = p ? seasonFor(p, winByPos[pos]) : null
-      return acc + (s?.stats[c.key] ?? 0)
-    }, 0),
-  }))
+  // Team totals across the starting five, per stat (pure + unit-tested in
+  // result.ts so the "same season as the box score" invariant has regression
+  // coverage). A missing value counts as 0; empty slots contribute nothing.
+  const totals = teamStatTotals(
+    state.slots,
+    winByPos,
+    STAT_COLS.map((c) => c.key),
+  )
 
   return (
     <section>
@@ -953,8 +954,8 @@ function Results({
             <tr className="totals">
               <td className="name">Team totals</td>
               <td className="yr"></td>
-              {totals.map((t) => (
-                <td key={t.key}>{t.sum.toFixed(1)}</td>
+              {STAT_COLS.map((c) => (
+                <td key={c.key}>{totals[c.key].toFixed(1)}</td>
               ))}
               <td></td>
             </tr>
