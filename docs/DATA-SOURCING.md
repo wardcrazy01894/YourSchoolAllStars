@@ -141,7 +141,7 @@ look hard enough, not that the data is absent. Two distinct guards in
 pts/reb/ast/stl/blk line`.)
 2. **A row for every year of tenure** — every year in `[firstYear,lastYear]` has
    a real season row (`every player has a season row for every year in their
-tenure`). The corollary the tooling can't check for you: **`firstYear`/
+tenure (per-player coverage)`). The corollary the tooling can't check for you: **`firstYear`/
    `lastYear` must be the player's _true_ span at the school.** A too-narrow
    tenure passes this guard while silently dropping real seasons — e.g. a player
    listed for one year who actually played four. **When adding or editing a
@@ -153,7 +153,7 @@ tenure`). The corollary the tooling can't check for you: **`firstYear`/
 
 ## Status
 
-- **Per-season dataset complete: 95 unique players, ~259 season rows, spanning
+- **Per-season dataset complete: 95 unique players, 259 season rows, spanning
   1992–2026 (incl. the 2026 title team).** Restructured from single career-best
   rows to one row per season actually played, every row carrying a real `source`
   URL and a complete 5-stat line. Every player's full Michigan span was audited
