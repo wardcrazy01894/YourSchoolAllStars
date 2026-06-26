@@ -184,7 +184,10 @@ export function playerRating(
 // "No weak links": blend the position-weighted mean rating with the WORST
 // starter's rating, so a single hole costs you. Then logistic-map to a per-game
 // win probability and scale to N games.
-export const WEAK_LINK_BLEND = 0.4 // share of team strength from the worst starter
+// Share of team strength from the worst starter. Eased 0.4→0.25 (Alex,
+// 2026-06-26): a single weak link still costs you, but less punishingly — a
+// strong four no longer gets dragged ~8 pts by one soft spot, only ~5.
+export const WEAK_LINK_BLEND = 0.25
 // Team strength giving a coin-flip team. Lowered 60→57 (Alex, 2026-06-26) to
 // shift the whole curve slightly easier — every overall now wins a touch more,
 // and an 80+ team clears 37 wins.
