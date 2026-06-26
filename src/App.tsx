@@ -515,7 +515,7 @@ function Landing({
       {mode.hideStats && (
         <p className="muted">
           🧠 Hoops IQ: stats, ratings, and award stars stay hidden while you
-          draft — go on names alone. Everything reveals at the end.
+          draft — go on names alone. Stats and ratings reveal at the end.
         </p>
       )}
       {mode.daily && <StreakChips streak={streak} />}
