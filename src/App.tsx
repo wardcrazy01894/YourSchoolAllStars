@@ -208,6 +208,10 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
   const [state, setState] = useState<DraftState>(() => initDraft(spins))
 
   function start() {
+    // Dead-era safety net (UI half): an empty wheel ⇒ no spins ⇒ an
+    // already-complete draft that can never advance to Results. Don't enter the
+    // playing phase at all — the Landing button is also disabled in this case.
+    if (spins.length === 0) return
     setState(initDraft(spins))
     setPhase('playing')
   }
@@ -253,7 +257,12 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
       </header>
 
       {phase === 'landing' && (
-        <Landing school={school} dateKey={dateKey} onStart={start} />
+        <Landing
+          school={school}
+          dateKey={dateKey}
+          playable={spins.length > 0}
+          onStart={start}
+        />
       )}
       {phase === 'playing' && (
         <Playing
@@ -278,10 +287,13 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
 function Landing({
   school,
   dateKey,
+  playable,
   onStart,
 }: {
   school: School
   dateKey: string
+  /** False when this school has no draftable wheel (no basketball data yet). */
+  playable: boolean
   onStart: () => void
 }) {
   return (
@@ -294,9 +306,15 @@ function Landing({
         slot. You can <strong>skip one era</strong>. How close to a perfect{' '}
         <strong>40&ndash;0</strong> can you get?
       </p>
-      <button className="btn primary" onClick={onStart}>
-        ▶ Play Today's Challenge
-      </button>
+      {playable ? (
+        <button className="btn primary" onClick={onStart}>
+          ▶ Play Today's Challenge
+        </button>
+      ) : (
+        <p className="muted">
+          No {school.name} basketball data yet — check back soon.
+        </p>
+      )}
     </section>
   )
 }
@@ -416,8 +434,9 @@ function Playing({
     if (!w || spinning || reveal) return
     setSpinning(true)
     intervalRef.current = window.setInterval(() => {
-      const reel = wheel.length > 0 ? wheel : state.windows
-      const r = reel[Math.floor(Math.random() * reel.length)]
+      // `spin()` already returned early on `!w`, which is null only when the
+      // wheel is empty — so `wheel` is non-empty here; no fallback needed.
+      const r = wheel[Math.floor(Math.random() * wheel.length)]
       setReelLabel(windowLabel(r))
     }, 70)
     timeoutRef.current = window.setTimeout(() => {

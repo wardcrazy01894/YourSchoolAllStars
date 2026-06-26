@@ -68,6 +68,10 @@ describe('michigan basketball dataset', () => {
   })
 
   it('every window × position has at least one eligible player (launch bar)', () => {
+    // Defense-in-depth alongside the ROLLING-window guard below: this checks the
+    // retired fixed BBALL_WINDOWS fixture (no longer the live wheel as of #16, but
+    // still referenced by windows.test.ts). The rolling guard is the stricter,
+    // finer-grained bar for what the game ACTUALLY spins; kept both deliberately.
     // No daily spin can strand a position with an empty pool. All gaps filled —
     // a data edit that empties any cell adds a gap here and fails CI.
     const KNOWN_GAPS: string[] = []

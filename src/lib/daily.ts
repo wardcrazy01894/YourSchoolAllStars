@@ -8,6 +8,11 @@
 //
 // Stability note: spins are a pure function of (dateKey, sport, window list). If
 // the window list changes, past/future spins shift — fine for a friends game.
+// As of #16 the live wheel is the DATA-DRIVEN rolling wheel, which grows by one
+// era each time a new season lands in the dataset (datasetMaxYear rises). So
+// `floor(rng()*N)` → `floor(rng()*(N+1))` after each data extension, and every
+// `?date=YYYY-MM-DD` replay URL then resolves to a DIFFERENT puzzle than before.
+// Accepted for this scope (a daily friends game, not a fixed historical archive).
 
 import type { YearWindow } from '../types'
 
