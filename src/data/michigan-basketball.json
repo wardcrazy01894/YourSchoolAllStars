@@ -229,15 +229,27 @@
       "seasons": [
         {
           "year": 1995,
-          "stats": {},
+          "stats": {
+            "pts": 1.4,
+            "reb": 1.2,
+            "ast": 1.4,
+            "stl": 0.6,
+            "blk": 0.1
+          },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Michigan_Wolverines_men%27s_basketball_team"
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=87"
         },
         {
           "year": 1996,
-          "stats": {},
+          "stats": {
+            "pts": 4.5,
+            "reb": 2.9,
+            "ast": 4.8,
+            "stl": 1.5,
+            "blk": 0.1
+          },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Michigan_Wolverines_men%27s_basketball_team"
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=87"
         },
         {
           "year": 1997,
@@ -253,9 +265,15 @@
         },
         {
           "year": 1998,
-          "stats": {},
+          "stats": {
+            "pts": 5.3,
+            "reb": 2.8,
+            "ast": 4.2,
+            "stl": 1.6,
+            "blk": 0.0
+          },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Michigan_Wolverines_men%27s_basketball_team"
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=87"
         }
       ]
     },
@@ -724,15 +742,27 @@
       "seasons": [
         {
           "year": 2001,
-          "stats": {},
+          "stats": {
+            "pts": 5.6,
+            "reb": 1.6,
+            "ast": 1.5,
+            "stl": 0.1,
+            "blk": 0.0
+          },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Michigan_Wolverines_men%27s_basketball_team"
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=566"
         },
         {
           "year": 2002,
-          "stats": {},
+          "stats": {
+            "pts": 5.7,
+            "reb": 1.1,
+            "ast": 0.7,
+            "stl": 0.1,
+            "blk": 0.0
+          },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Michigan_Wolverines_men%27s_basketball_team"
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=566"
         },
         {
           "year": 2003,
@@ -1701,6 +1731,18 @@
       "lastYear": 2014,
       "seasons": [
         {
+          "year": 2013,
+          "stats": {
+            "pts": 7.5,
+            "reb": 6.3,
+            "ast": 0.6,
+            "stl": 1.1,
+            "blk": 0.7
+          },
+          "honors": ["NCAA South Regional All-Tournament Team (2013)"],
+          "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=650"
+        },
+        {
           "year": 2014,
           "stats": {
             "pts": 9.5,
@@ -1709,7 +1751,7 @@
             "stl": 0.4,
             "blk": 0.2
           },
-          "honors": ["NCAA South Regional All-Tournament Team (2013)"],
+          "honors": [],
           "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
         }
       ]

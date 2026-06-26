@@ -32,6 +32,10 @@ describe('michigan basketball dataset', () => {
           expect(typeof v).toBe('number')
           expect(v).toBeGreaterThanOrEqual(0)
         }
+        // ...and a row must carry at least one real stat. An empty {} line would
+        // satisfy the per-year coverage guard below without contributing any
+        // ratable number — phantom coverage. Require ≥1 field so coverage is real.
+        expect(Object.keys(s.stats).length).toBeGreaterThanOrEqual(1)
         expect(s.source.length).toBeGreaterThan(0)
         expect(Array.isArray(s.honors)).toBe(true)
       }
