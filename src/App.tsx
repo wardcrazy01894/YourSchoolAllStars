@@ -53,6 +53,7 @@ import {
   loadStreak,
   saveDailyResult,
   type Streak,
+  type SavedDaily,
 } from './lib/progress'
 import { buildShareString } from './lib/share'
 import { setupAutoUpdate } from './lib/version'
@@ -122,7 +123,12 @@ export default function App() {
   }
 
   if (!schoolId) return <Picker onPick={chooseSchool} />
-  return <Game school={school} onExit={() => setSchoolId(null)} />
+  // key={school.id} makes the per-school remount explicit: Game's useState
+  // initializers (phase/state/streak below) all derive from the loaded save for
+  // THIS school, so a school change must start a fresh Game, not reuse stale state.
+  return (
+    <Game key={school.id} school={school} onExit={() => setSchoolId(null)} />
+  )
 }
 
 function Picker({ onPick }: { onPick: (id: string) => void }) {
@@ -208,11 +214,10 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
 
   // The daily is a ONE-SHOT: if today's result is already saved, open straight to
   // the locked Results (reconstructed from the save) instead of letting them
-  // replay. `?date=` playtest days hydrate the same way, per day.
-  const savedToday = useMemo(
-    () => loadDaily(school.id, SPORT, dateKey),
-    [school.id, dateKey],
-  )
+  // replay. `?date=` playtest days hydrate the same way, per day. Read ONCE via a
+  // useState initializer — it's a side-effectful localStorage read, not a derived
+  // value, so it must not live in a useMemo (which React may recompute).
+  const [savedToday] = useState(() => loadDaily(school.id, SPORT, dateKey))
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
     savedToday ? 'done' : 'landing',
@@ -223,9 +228,13 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, SPORT),
   )
-  // True once the day is locked (already played on load, or just finished) — the
-  // Results view then says "already in the books" rather than implying a replay.
-  const [locked, setLocked] = useState(savedToday !== null)
+  // The persisted result for the locked view. Carries the EARNED wins/grade so a
+  // returning player sees what they actually scored, even if the dataset's stats
+  // were corrected since (the live re-rate would otherwise drift). Null until done.
+  const [result, setResult] = useState<SavedDaily | null>(savedToday)
+  // Already in the books on load (a returning visit), vs a fresh finish this
+  // session — drives whether Results shows the "come back tomorrow" banner.
+  const returning = savedToday !== null
 
   function start() {
     // Dead-era safety net (UI half): an empty wheel ⇒ no spins ⇒ an
@@ -243,17 +252,21 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
 
   function finish(s: DraftState) {
     setPhase('done')
-    // Persist the one-shot result and advance the per-device streak. saveDailyResult
-    // is idempotent and fail-safe (a swallowed write just doesn't bump the streak).
-    const updated = saveDailyResult(
-      school.id,
-      SPORT,
-      savedDailyFrom(s, dateKey, GAMES),
-    )
+    const saved = savedDailyFrom(s, dateKey, GAMES)
+    setResult(saved)
+    // Persist + advance the per-device streak. saveDailyResult is idempotent and
+    // fail-safe. Only a REAL today play moves the streak — `?date=` playtest days
+    // save + lock but stay streak-neutral so testing a past/future day can't
+    // contaminate it.
+    const updated = saveDailyResult(school.id, SPORT, saved, {
+      advanceStreak: dateKey === getDateKey(),
+    })
     setStreak(updated)
-    setLocked(true)
-    const { grade } = evaluateRoster(s, GAMES)
-    if (grade === 'PERFECT' || grade === 'HISTORIC' || grade === 'ELITE') {
+    if (
+      saved.grade === 'PERFECT' ||
+      saved.grade === 'HISTORIC' ||
+      saved.grade === 'ELITE'
+    ) {
       confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
     }
   }
@@ -298,7 +311,8 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
           state={state}
           dateKey={dateKey}
           streak={streak}
-          locked={locked}
+          saved={result}
+          returning={returning}
         />
       )}
 
@@ -617,25 +631,27 @@ function Results({
   state,
   dateKey,
   streak,
-  locked,
+  saved,
+  returning,
 }: {
   school: School
   state: DraftState
   dateKey: string
   streak: Streak
-  /** The day is in the books (already played on load, or just finished). */
-  locked: boolean
+  /** The persisted result for this day; its EARNED wins/grade win over a re-rate. */
+  saved: SavedDaily | null
+  /** Already in the books on load (a returning visit) — shows the lock banner. */
+  returning: boolean
 }) {
-  // One source of truth for the rate→record math (see src/lib/result.ts). The
-  // per-position window each player was drafted from drives the RTG column.
-  const {
-    strength: rawStrength,
-    wins,
-    grade,
-    ratingsByPosition,
-    windowByPosition: winByPos,
-  } = evaluateRoster(state, GAMES)
-  const strength = Math.round(rawStrength)
+  // The live re-rate drives the per-row RTG table and team strength. But the
+  // headline record + share use the EARNED wins/grade from the save when present:
+  // a stats correction between play and replay must never rewrite what you scored.
+  // (On a fresh finish, saved was just computed from this same state, so they match.)
+  const live = evaluateRoster(state, GAMES)
+  const { ratingsByPosition, windowByPosition: winByPos } = live
+  const strength = Math.round(live.strength)
+  const wins = saved?.wins ?? live.wins
+  const grade = saved?.grade ?? live.grade
 
   const share = buildShareString({
     schoolName: school.short,
@@ -659,7 +675,7 @@ function Results({
 
   return (
     <section>
-      {locked && (
+      {returning && (
         <div className="lock-note">
           ✓ Today's challenge is in the books. Come back tomorrow for a new one.
         </div>

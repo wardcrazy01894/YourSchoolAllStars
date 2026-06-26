@@ -143,4 +143,30 @@ describe('localStorage persistence', () => {
     expect(loadDaily(SCHOOL, SPORT, '2026-06-25')).toBeNull() // still replayable
     expect(loadStreak(SCHOOL, SPORT)).toEqual(EMPTY_STREAK)
   })
+  it('saves + locks the day but leaves the streak alone when advanceStreak is false', () => {
+    // `?date=` playtest day: the day must lock (so it can't be replayed), but a
+    // non-today date must NOT touch the streak — testing an old day shouldn't
+    // reset it, nor should a future day inflate it.
+    const streak = saveDailyResult(SCHOOL, SPORT, sampleDaily('2020-01-01'), {
+      advanceStreak: false,
+    })
+    expect(streak).toEqual(EMPTY_STREAK) // streak untouched
+    expect(loadStreak(SCHOOL, SPORT)).toEqual(EMPTY_STREAK)
+    expect(loadDaily(SCHOOL, SPORT, '2020-01-01')).toEqual(
+      sampleDaily('2020-01-01'),
+    ) // but the day is locked
+  })
+  it('does not let a playtest day reset a real streak', () => {
+    saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25')) // real day → streak 1
+    // Now playtest a much older day with advanceStreak off.
+    saveDailyResult(SCHOOL, SPORT, sampleDaily('2020-01-01'), {
+      advanceStreak: false,
+    })
+    // The real streak (and its lastDate) is preserved, so tomorrow still extends.
+    expect(loadStreak(SCHOOL, SPORT)).toEqual({
+      current: 1,
+      max: 1,
+      lastDate: '2026-06-25',
+    })
+  })
 })

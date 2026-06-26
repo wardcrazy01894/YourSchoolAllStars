@@ -197,4 +197,22 @@ describe('rosterFromSaved (round-trip)', () => {
       expect(recon.slots[pos]).toBeNull()
     }
   })
+
+  it('drops only the slots missing a window in a partial-windows save', () => {
+    // savedDailyFrom never emits a partial windows map (it's all-or-nothing per
+    // filled slot), but a hand-edited/migrated save could — reconstruct only the
+    // slots that have BOTH a known player and a stored window.
+    const picks = fullPicks()
+    const saved = savedDailyFrom(stateFrom(picks), '2026-06-26', 40)
+    const partial = { ...saved, windows: { PG: saved.windows!.PG } }
+    const recon = rosterFromSaved(
+      partial,
+      picks.map((pk) => pk.player),
+    )
+    expect(recon.slots.PG?.id).toBe('p-PG')
+    expect(recon.picks).toHaveLength(1)
+    for (const pos of BBALL_POSITIONS.filter((p) => p !== 'PG')) {
+      expect(recon.slots[pos]).toBeNull()
+    }
+  })
 })
