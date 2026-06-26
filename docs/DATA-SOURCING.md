@@ -56,19 +56,17 @@ Rules (enforced by `src/data/dataset.test.ts`):
 
 ## Status
 
-- **Curated dataset landed: 49 unique players, `_provisional: false`.** Built
-  from two Wikipedia passes (1994–2008 and 2009–2025), deduped to each player's
-  best season, every row carrying a real `source` URL. Replaced the provisional
-  seed.
-- **5 known coverage gaps remain** (windows × positions with no sourced player),
-  locked into `dataset.test.ts` as `KNOWN_GAPS` so no new gap can sneak in:
-  `1998-2001/PG`, `1998-2001/PF`, `2002-2005/PF`, `2002-2005/C`, `2018-2021/PF`.
-  These are the thin late-90s/early-00s rotation players whose full 5-category
-  per-game lines aren't on Wikipedia; a targeted gap-fill pass (allowed to read
-  Sports-Reference to verify a missing steals/blocks number) is filling them. The
-  UI's reroll/skip covers a stranded cell until then.
-- Coverage by window (PG/SG/SF/PF/C counts) is regenerable; the launch bar is
-  every cell ≥ 1 (i.e. `KNOWN_GAPS` empties to `[]`).
+- **Curated dataset complete: 53 unique players, `_provisional: false`,
+  zero coverage gaps.** Built from two Wikipedia passes (1994–2008 and 2009–2025)
+  plus a targeted gap-fill pass for the 5 thin-era cells, deduped to each
+  player's best season, every row carrying a real `source` URL.
+- **Launch bar met:** every window × position now has ≥ 1 eligible player, so no
+  daily spin can strand a slot. `dataset.test.ts` asserts this (no gaps); a data
+  edit that empties any cell fails CI.
+- The gap-fill players (Robbie Reid, Josh Asselin, Graham Brown, Courtney Sims,
+  Isaiah Livers→PF) were sourced from Wikipedia season pages + official
+  `mgoblue.com` stat archives; Isaiah Livers (listed PF/SF) was classified PF to
+  fill the 2018-21/PF cell.
 
 ## Launch bar for the dataset
 

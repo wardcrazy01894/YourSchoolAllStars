@@ -56,6 +56,27 @@
       "source": "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)"
     },
     {
+      "id": "courtney-sims",
+      "name": "Courtney Sims",
+      "position": "C",
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "bestSeason": 2007,
+      "stats": {
+        "pts": 12.3,
+        "reb": 6.7,
+        "ast": 0.5,
+        "stl": 0.3,
+        "blk": 1.6
+      },
+      "honors": [
+        "2nd all-time Michigan career blocks leader (213 career blocks)",
+        "2004 NIT Championship team",
+        "NBA 2nd-round draft pick 2007 (Indiana Pacers)"
+      ],
+      "source": "https://mgoblue.com/sports/mens-basketball/roster/courtney-sims/784"
+    },
+    {
       "id": "daniel-horton",
       "name": "Daniel Horton",
       "position": "PG",
@@ -314,6 +335,23 @@
       "source": "https://en.wikipedia.org/wiki/Glenn_Robinson_III"
     },
     {
+      "id": "graham-brown",
+      "name": "Graham Brown",
+      "position": "PF",
+      "firstYear": 2003,
+      "lastYear": 2006,
+      "bestSeason": 2004,
+      "stats": {
+        "pts": 4.6,
+        "reb": 4.1,
+        "ast": 0.4,
+        "stl": 0.8,
+        "blk": 0.3
+      },
+      "honors": ["2004 NIT Championship team"],
+      "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Michigan_Wolverines_men%27s_basketball_team"
+    },
+    {
       "id": "hunter-dickinson",
       "name": "Hunter Dickinson",
       "position": "C",
@@ -360,7 +398,7 @@
     {
       "id": "isaiah-livers",
       "name": "Isaiah Livers",
-      "position": "SF",
+      "position": "PF",
       "firstYear": 2018,
       "lastYear": 2021,
       "bestSeason": 2021,
@@ -371,7 +409,12 @@
         "stl": 0.6,
         "blk": 0.7
       },
-      "honors": ["Second-Team All-Big Ten (2021)"],
+      "honors": [
+        "Mr. Basketball of Michigan (2017)",
+        "2018 Big Ten Tournament Champion",
+        "2018 NCAA Tournament runner-up (team reached championship game)",
+        "Team captain 2020-21"
+      ],
       "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
     },
     {
@@ -478,6 +521,26 @@
       },
       "honors": ["Honorable Mention All-Big Ten (2019)"],
       "source": "https://en.wikipedia.org/wiki/Jordan_Poole"
+    },
+    {
+      "id": "josh-asselin",
+      "name": "Josh Asselin",
+      "position": "PF",
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "bestSeason": 2001,
+      "stats": {
+        "pts": 9.6,
+        "reb": 6,
+        "ast": 1.4,
+        "stl": 0.1,
+        "blk": 1.6
+      },
+      "honors": [
+        "Co-captain 2000-01",
+        "Career blocks top-10 all-time at Michigan (136 career blocks)"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Josh_Asselin"
     },
     {
       "id": "juwan-howard",
@@ -722,6 +785,25 @@
       },
       "honors": ["All-Big Ten (1994)", "All-Big Ten (1995)"],
       "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+    },
+    {
+      "id": "robbie-reid",
+      "name": "Robbie Reid",
+      "position": "PG",
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "bestSeason": 1999,
+      "stats": {
+        "pts": 13.5,
+        "reb": 3.4,
+        "ast": 3.1,
+        "stl": 1.1,
+        "blk": 0
+      },
+      "honors": [
+        "Led Big Ten in 3-point FG made in conference play (49) and 3-point FG% in conference play (45.8%) – 1998-99"
+      ],
+      "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Michigan_Wolverines_men%27s_basketball_team"
     },
     {
       "id": "robert-traylor",

@@ -2,6 +2,10 @@ import { describe, it, expect } from 'vitest'
 import {
   FB_WINDOWS,
   FB_ROUNDS,
+  FB_RESPINS_PER_SIDE,
+  OFFENSE_SLOT_IDS,
+  DEFENSE_SLOT_IDS,
+  sideForRound,
   canFillSlot,
   eligibleSlotsFor,
   eligiblePlayers,
@@ -54,6 +58,21 @@ describe('FB_SLOTS / windows', () => {
     expect(
       playerInWindow(mk('b', 'QB', 2010, 2013), { start: 2005, end: 2008 }),
     ).toBe(false)
+  })
+})
+
+describe('draft order + re-spins', () => {
+  it('offense is drafted first (rounds 0–5), defense second (6–11)', () => {
+    expect(OFFENSE_SLOT_IDS).toEqual(['QB', 'RB', 'WR', 'TE', 'FLEX1', 'FLEX2'])
+    expect(DEFENSE_SLOT_IDS).toEqual(['DE', 'DT', 'LB', 'CB', 'S', 'DFLEX'])
+    expect(sideForRound(0)).toBe('offense')
+    expect(sideForRound(5)).toBe('offense')
+    expect(sideForRound(6)).toBe('defense')
+    expect(sideForRound(11)).toBe('defense')
+  })
+
+  it('one re-spin per side', () => {
+    expect(FB_RESPINS_PER_SIDE).toBe(1)
   })
 })
 
