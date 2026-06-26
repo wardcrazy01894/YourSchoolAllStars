@@ -434,8 +434,10 @@ function Playing({
     if (!w || spinning || reveal) return
     setSpinning(true)
     intervalRef.current = window.setInterval(() => {
-      // `spin()` already returned early on `!w`, which is null only when the
-      // wheel is empty — so `wheel` is non-empty here; no fallback needed.
+      // `spin()` already returned early on `!w`. `w` is null either when the era
+      // sequence is exhausted (game complete → phase flips to 'done', unmounting
+      // this) or when spins is empty (blocked upstream by start()). Either way
+      // this body can't fire with an empty `wheel`, so no fallback is needed.
       const r = wheel[Math.floor(Math.random() * wheel.length)]
       setReelLabel(windowLabel(r))
     }, 70)
