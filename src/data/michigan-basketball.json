@@ -105,9 +105,33 @@
       "id": "jimmy-king",
       "name": "Jimmy King",
       "position": "SG",
-      "firstYear": 1994,
+      "firstYear": 1992,
       "lastYear": 1995,
       "seasons": [
+        {
+          "year": 1992,
+          "stats": {
+            "pts": 9.9,
+            "reb": 3.3,
+            "ast": 2.3,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jimmy-king-1.html"
+        },
+        {
+          "year": 1993,
+          "stats": {
+            "pts": 10.8,
+            "reb": 4.4,
+            "ast": 3.1,
+            "stl": 1.6,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jimmy-king-1.html"
+        },
         {
           "year": 1994,
           "stats": {
@@ -124,7 +148,7 @@
           "year": 1995,
           "stats": {
             "pts": 14.7,
-            "reb": 5.0,
+            "reb": 5,
             "ast": 2.9,
             "stl": 1.9,
             "blk": 0.2
@@ -140,7 +164,7 @@
       "position": "C",
       "eligible": ["C", "PF"],
       "firstYear": 1994,
-      "lastYear": 1994,
+      "lastYear": 1995,
       "seasons": [
         {
           "year": 1994,
@@ -153,6 +177,18 @@
           },
           "honors": [],
           "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=345"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 5,
+            "reb": 5.2,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/makhtar-ndiaye-1.html"
         }
       ]
     },
@@ -160,9 +196,33 @@
       "id": "ray-jackson",
       "name": "Ray Jackson",
       "position": "SF",
-      "firstYear": 1994,
+      "firstYear": 1992,
       "lastYear": 1995,
       "seasons": [
+        {
+          "year": 1992,
+          "stats": {
+            "pts": 4.6,
+            "reb": 3,
+            "ast": 1.7,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ray-jackson-1.html"
+        },
+        {
+          "year": 1993,
+          "stats": {
+            "pts": 9,
+            "reb": 4.1,
+            "ast": 2.2,
+            "stl": 1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ray-jackson-1.html"
+        },
         {
           "year": 1994,
           "stats": {
@@ -180,7 +240,7 @@
           "stats": {
             "pts": 15.8,
             "reb": 5.3,
-            "ast": 3.0,
+            "ast": 3,
             "stl": 1.1,
             "blk": 0.3
           },
@@ -204,7 +264,7 @@
             "reb": 5.5,
             "ast": 0.2,
             "stl": 0.7,
-            "blk": 1.0
+            "blk": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/maceo-baston-1.html"
@@ -224,14 +284,14 @@
         {
           "year": 1997,
           "stats": {
-            "pts": 10.3,
+            "pts": 10.4,
             "reb": 6.8,
             "ast": 0.4,
             "stl": 0.8,
             "blk": 1
           },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Michigan_Wolverines_men%27s_basketball_team"
+          "source": "https://www.sports-reference.com/cbb/players/maceo-baston-1.html"
         },
         {
           "year": 1998,
@@ -342,7 +402,7 @@
             "reb": 2.8,
             "ast": 4.2,
             "stl": 1.6,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=87"
@@ -359,7 +419,7 @@
         {
           "year": 1996,
           "stats": {
-            "pts": 9.0,
+            "pts": 9,
             "reb": 4.7,
             "ast": 1.2,
             "stl": 0.8,
@@ -492,7 +552,7 @@
             "reb": 1.9,
             "ast": 2.3,
             "stl": 0.6,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/brandun-hughes-1.html"
@@ -503,9 +563,33 @@
       "id": "jerod-ward",
       "name": "Jerod Ward",
       "position": "SF",
-      "firstYear": 1997,
+      "firstYear": 1995,
       "lastYear": 1998,
       "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 6,
+            "reb": 3.7,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jerod-ward-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 7.2,
+            "reb": 4.8,
+            "ast": 1,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jerod-ward-1.html"
+        },
         {
           "year": 1997,
           "stats": {
@@ -522,7 +606,7 @@
           "year": 1998,
           "stats": {
             "pts": 13.1,
-            "reb": 6.0,
+            "reb": 6,
             "ast": 0.9,
             "stl": 0.9,
             "blk": 0.4
@@ -536,9 +620,21 @@
       "id": "brandon-smith",
       "name": "Brandon Smith",
       "position": "SF",
-      "firstYear": 1999,
-      "lastYear": 1999,
+      "firstYear": 1998,
+      "lastYear": 2000,
       "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 3.2,
+            "reb": 1.3,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brandon-smith-2.html"
+        },
         {
           "year": 1999,
           "stats": {
@@ -546,7 +642,19 @@
             "reb": 3.7,
             "ast": 2.1,
             "stl": 1.3,
-            "blk": 1.0
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brandon-smith-2.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 7.9,
+            "reb": 3.9,
+            "ast": 1.8,
+            "stl": 1,
+            "blk": 0.7
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/brandon-smith-2.html"
@@ -557,9 +665,21 @@
       "id": "josh-asselin",
       "name": "Josh Asselin",
       "position": "PF",
-      "firstYear": 1999,
+      "firstYear": 1998,
       "lastYear": 2001,
       "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 2.6,
+            "reb": 2.6,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/josh-asselin-1.html"
+        },
         {
           "year": 1999,
           "stats": {
@@ -588,8 +708,8 @@
           "year": 2001,
           "stats": {
             "pts": 9.6,
-            "reb": 6.0,
-            "ast": 1.0,
+            "reb": 6,
+            "ast": 1,
             "stl": 0.5,
             "blk": 1.6
           },
@@ -603,9 +723,33 @@
       "id": "peter-vignier",
       "name": "Peter Vignier",
       "position": "C",
-      "firstYear": 1999,
+      "firstYear": 1997,
       "lastYear": 2000,
       "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.7,
+            "ast": 0,
+            "stl": 0,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/peter-vignier-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.7,
+            "ast": 0.3,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/peter-vignier-1.html"
+        },
         {
           "year": 1999,
           "stats": {
@@ -636,9 +780,21 @@
       "id": "robbie-reid",
       "name": "Robbie Reid",
       "position": "PG",
-      "firstYear": 1999,
+      "firstYear": 1998,
       "lastYear": 1999,
       "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 8.2,
+            "reb": 2.4,
+            "ast": 3.4,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/robbie-reid-1.html"
+        },
         {
           "year": 1999,
           "stats": {
@@ -646,7 +802,7 @@
             "reb": 3.4,
             "ast": 3.1,
             "stl": 1.1,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/robbie-reid-1.html"
@@ -816,9 +972,33 @@
       "name": "Chris Young",
       "position": "C",
       "eligible": ["PF", "C"],
-      "firstYear": 2001,
+      "firstYear": 1999,
       "lastYear": 2002,
       "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 2.6,
+            "reb": 3.4,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-young-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 4.7,
+            "reb": 3.7,
+            "ast": 0.1,
+            "stl": 0.5,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-young-1.html"
+        },
         {
           "year": 2001,
           "stats": {
@@ -849,9 +1029,21 @@
       "id": "gavin-groninger",
       "name": "Gavin Groninger",
       "position": "PG",
-      "firstYear": 2001,
+      "firstYear": 2000,
       "lastYear": 2003,
       "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 7.1,
+            "reb": 1.5,
+            "ast": 1.3,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/gavin-groninger-1.html"
+        },
         {
           "year": 2001,
           "stats": {
@@ -859,7 +1051,7 @@
             "reb": 1.6,
             "ast": 1.5,
             "stl": 0.1,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=566"
@@ -871,7 +1063,7 @@
             "reb": 1.1,
             "ast": 0.7,
             "stl": 0.1,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=566"
@@ -894,9 +1086,45 @@
       "id": "leon-jones",
       "name": "Leon Jones",
       "position": "SG",
-      "firstYear": 2002,
+      "firstYear": 1999,
       "lastYear": 2002,
       "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 4.3,
+            "reb": 1.7,
+            "ast": 1.2,
+            "stl": 0.6,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/leon-jones-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 8.7,
+            "reb": 2.7,
+            "ast": 1.8,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/leon-jones-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 2.7,
+            "reb": 1.5,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/leon-jones-1.html"
+        },
         {
           "year": 2002,
           "stats": {
@@ -904,7 +1132,7 @@
             "reb": 2.5,
             "ast": 1.5,
             "stl": 0.4,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/leon-jones-1.html"
@@ -1090,7 +1318,7 @@
       "position": "PF",
       "eligible": ["PF", "C"],
       "firstYear": 2004,
-      "lastYear": 2006,
+      "lastYear": 2007,
       "seasons": [
         {
           "year": 2004,
@@ -1127,6 +1355,18 @@
           },
           "honors": [],
           "source": "https://statsarchive.ath.umich.edu/VS-Basketball-M/bcmaster.php?pkey=579"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 6.8,
+            "reb": 5.9,
+            "ast": 1,
+            "stl": 0.6,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brent-petway-1.html"
         }
       ]
     },
@@ -1253,9 +1493,21 @@
       "id": "lester-abram",
       "name": "Lester Abram",
       "position": "SF",
-      "firstYear": 2004,
+      "firstYear": 2003,
       "lastYear": 2007,
       "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 10.6,
+            "reb": 4.4,
+            "ast": 1.3,
+            "stl": 1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lester-abram-1.html"
+        },
         {
           "year": 2004,
           "stats": {
@@ -1402,16 +1654,28 @@
       "id": "deshawn-sims",
       "name": "DeShawn Sims",
       "position": "PF",
-      "firstYear": 2008,
+      "firstYear": 2007,
       "lastYear": 2010,
       "seasons": [
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 3.4,
+            "reb": 2.3,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/deshawn-sims-1.html"
+        },
         {
           "year": 2008,
           "stats": {
             "pts": 12.3,
             "reb": 5.4,
             "ast": 0.9,
-            "stl": 1.0,
+            "stl": 1,
             "blk": 0.8
           },
           "honors": ["All-Big Ten Honorable Mention"],
@@ -1521,7 +1785,7 @@
             "reb": 2.3,
             "ast": 1.7,
             "stl": 0.6,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/laval-lucas-perry-1.html"
@@ -1554,7 +1818,7 @@
             "reb": 2.2,
             "ast": 2.5,
             "stl": 1.1,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/stu-douglass-1.html"
@@ -1590,9 +1854,21 @@
       "name": "Zack Gibson",
       "position": "C",
       "eligible": ["C", "PF"],
-      "firstYear": 2009,
-      "lastYear": 2009,
+      "firstYear": 2008,
+      "lastYear": 2010,
       "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 5.4,
+            "reb": 2.8,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/zack-gibson-1.html"
+        },
         {
           "year": 2009,
           "stats": {
@@ -1604,6 +1880,18 @@
           },
           "honors": [],
           "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 3.9,
+            "reb": 2.1,
+            "ast": 0.3,
+            "stl": 0.5,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/zack-gibson-1.html"
         }
       ]
     },
@@ -1793,7 +2081,7 @@
       "name": "Jordan Morgan",
       "position": "C",
       "firstYear": 2011,
-      "lastYear": 2013,
+      "lastYear": 2014,
       "seasons": [
         {
           "year": 2011,
@@ -1830,6 +2118,18 @@
           },
           "honors": ["All-Big Ten Defensive Team"],
           "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/45978/jordan-morgan"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 6.4,
+            "reb": 5,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jordan-morgan-1.html"
         }
       ]
     },
@@ -2087,7 +2387,7 @@
       "name": "Kameron Chatman",
       "position": "SF",
       "firstYear": 2015,
-      "lastYear": 2015,
+      "lastYear": 2016,
       "seasons": [
         {
           "year": 2015,
@@ -2100,6 +2400,18 @@
           },
           "honors": [],
           "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 2.8,
+            "reb": 1.4,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kameron-chatman-1.html"
         }
       ]
     },
@@ -2109,7 +2421,7 @@
       "position": "C",
       "eligible": ["C", "PF"],
       "firstYear": 2015,
-      "lastYear": 2015,
+      "lastYear": 2016,
       "seasons": [
         {
           "year": 2015,
@@ -2122,6 +2434,18 @@
           },
           "honors": [],
           "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 3.8,
+            "reb": 2,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ricky-doyle-1.html"
         }
       ]
     },
@@ -2129,9 +2453,33 @@
       "id": "spike-albrecht",
       "name": "Spike Albrecht",
       "position": "PG",
-      "firstYear": 2015,
+      "firstYear": 2013,
       "lastYear": 2016,
       "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 2.2,
+            "reb": 0.8,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/spike-albrecht-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 3.3,
+            "reb": 1.1,
+            "ast": 2,
+            "stl": 0.5,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/spike-albrecht-1.html"
+        },
         {
           "year": 2015,
           "stats": {
@@ -2162,9 +2510,21 @@
       "id": "zak-irvin",
       "name": "Zak Irvin",
       "position": "SG",
-      "firstYear": 2015,
+      "firstYear": 2014,
       "lastYear": 2017,
       "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 6.7,
+            "reb": 1.3,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/zak-irvin-1.html"
+        },
         {
           "year": 2015,
           "stats": {
@@ -2209,9 +2569,21 @@
       "name": "Aubrey Dawkins",
       "position": "SG",
       "eligible": ["SG"],
-      "firstYear": 2016,
+      "firstYear": 2015,
       "lastYear": 2016,
       "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 7,
+            "reb": 2.1,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/aubrey-dawkins-1.html"
+        },
         {
           "year": 2016,
           "stats": {
@@ -2230,9 +2602,45 @@
       "id": "caris-levert",
       "name": "Caris LeVert",
       "position": "SG",
-      "firstYear": 2016,
+      "firstYear": 2013,
       "lastYear": 2016,
       "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 2.3,
+            "reb": 1.1,
+            "ast": 0.8,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/caris-levert-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 12.9,
+            "reb": 4.3,
+            "ast": 2.9,
+            "stl": 1.2,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/caris-levert-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 14.9,
+            "reb": 4.9,
+            "ast": 3.7,
+            "stl": 1.8,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/caris-levert-1.html"
+        },
         {
           "year": 2016,
           "stats": {
@@ -2252,9 +2660,21 @@
       "id": "dj-wilson",
       "name": "D.J. Wilson",
       "position": "PF",
-      "firstYear": 2016,
+      "firstYear": 2015,
       "lastYear": 2017,
       "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 0.4,
+            "reb": 1.2,
+            "ast": 0,
+            "stl": 0,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dj-wilson-1.html"
+        },
         {
           "year": 2016,
           "stats": {
@@ -2378,9 +2798,21 @@
       "id": "muhammad-ali-abdur-rahkman",
       "name": "Muhammad-Ali Abdur-Rahkman",
       "position": "SG",
-      "firstYear": 2016,
+      "firstYear": 2015,
       "lastYear": 2018,
       "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 4.5,
+            "reb": 1.7,
+            "ast": 0.9,
+            "stl": 0.6,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/muhammad-ali-abdur-rahkman-1.html"
+        },
         {
           "year": 2016,
           "stats": {
@@ -2643,9 +3075,21 @@
       "id": "jon-teske",
       "name": "Jon Teske",
       "position": "C",
-      "firstYear": 2018,
+      "firstYear": 2017,
       "lastYear": 2020,
       "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.6,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jon-teske-1.html"
+        },
         {
           "year": 2018,
           "stats": {
@@ -2729,8 +3173,8 @@
           "year": 2019,
           "stats": {
             "pts": 0.8,
-            "reb": 1.0,
-            "ast": 0.0,
+            "reb": 1,
+            "ast": 0,
             "stl": 0.1,
             "blk": 0.1
           },
@@ -2740,7 +3184,7 @@
         {
           "year": 2020,
           "stats": {
-            "pts": 6.0,
+            "pts": 6,
             "reb": 3.9,
             "ast": 0.4,
             "stl": 0.5,
@@ -3042,7 +3486,7 @@
             "reb": 3.1,
             "ast": 3.6,
             "stl": 1.1,
-            "blk": 0.0
+            "blk": 0
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/players/dug-mcdaniel-1.html"
@@ -3074,7 +3518,7 @@
           "stats": {
             "pts": 14.2,
             "reb": 2.8,
-            "ast": 2.0,
+            "ast": 2,
             "stl": 0.4,
             "blk": 0.7
           },
@@ -3112,9 +3556,33 @@
       "name": "Terrance Williams II",
       "position": "PF",
       "eligible": ["PF", "SF"],
-      "firstYear": 2023,
+      "firstYear": 2021,
       "lastYear": 2024,
       "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 1.9,
+            "reb": 2.2,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/terrance-williamsii-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 4.7,
+            "reb": 2.4,
+            "ast": 0.5,
+            "stl": 0.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/terrance-williamsii-1.html"
+        },
         {
           "year": 2023,
           "stats": {
@@ -3145,9 +3613,21 @@
       "id": "jaelin-llewellyn",
       "name": "Jaelin Llewellyn",
       "position": "SG",
-      "firstYear": 2024,
+      "firstYear": 2023,
       "lastYear": 2024,
       "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 7,
+            "reb": 3.3,
+            "ast": 2.8,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jaelin-llewellyn-1.html"
+        },
         {
           "year": 2024,
           "stats": {
@@ -3232,9 +3712,21 @@
       "id": "tarris-reed-jr",
       "name": "Tarris Reed Jr.",
       "position": "C",
-      "firstYear": 2024,
+      "firstYear": 2023,
       "lastYear": 2024,
       "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 3.4,
+            "reb": 3.9,
+            "ast": 0.1,
+            "stl": 0.5,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tarris-reed-jr-1.html"
+        },
         {
           "year": 2024,
           "stats": {
@@ -3317,7 +3809,7 @@
         {
           "year": 2025,
           "stats": {
-            "pts": 5.0,
+            "pts": 5,
             "reb": 1.6,
             "ast": 0.6,
             "stl": 0.1,
@@ -3427,9 +3919,21 @@
       "id": "lj-cason",
       "name": "L.J. Cason",
       "position": "SG",
-      "firstYear": 2026,
+      "firstYear": 2025,
       "lastYear": 2026,
       "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 4.3,
+            "reb": 1.4,
+            "ast": 1,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lj-cason-1.html"
+        },
         {
           "year": 2026,
           "stats": {
@@ -3490,9 +3994,45 @@
       "id": "will-tschetter",
       "name": "Will Tschetter",
       "position": "SF",
-      "firstYear": 2026,
+      "firstYear": 2023,
       "lastYear": 2026,
       "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 2.3,
+            "reb": 1.4,
+            "ast": 0.4,
+            "stl": 0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-tschetter-1.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 6.8,
+            "reb": 2.4,
+            "ast": 0.6,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-tschetter-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 6.4,
+            "reb": 2.4,
+            "ast": 0.6,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-tschetter-1.html"
+        },
         {
           "year": 2026,
           "stats": {
