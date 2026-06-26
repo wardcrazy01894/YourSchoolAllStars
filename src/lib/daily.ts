@@ -77,8 +77,9 @@ export function generateSpins(
 
 /**
  * A deterministic alternate window per round for the single allowed reroll.
- * Salted off the seed and guaranteed to differ from the original spin for that
- * round (when more than one window exists).
+ * Salted off the seed; differs from the original spin for that round in all but
+ * the degenerate single-window case (and an astronomically unlikely run of
+ * identical PRNG picks that exits the guard loop, returning the original).
  */
 export function generateRerollSpins(
   seed: number,

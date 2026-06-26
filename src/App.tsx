@@ -13,6 +13,7 @@ import { BBALL_WINDOWS } from './lib/windows'
 import {
   BBALL_ROUNDS,
   getDateKey,
+  isValidDateKey,
   seedFor,
   generateSpins,
   generateRerollSpins,
@@ -57,7 +58,7 @@ function param(name: string): string | null {
 /** ?date=YYYY-MM-DD overrides the day (playtesting); else today in ET. */
 function activeDateKey(): string {
   const q = param('date')
-  if (q && /^\d{4}-\d{2}-\d{2}$/.test(q)) return q
+  if (q && isValidDateKey(q)) return q
   return getDateKey()
 }
 

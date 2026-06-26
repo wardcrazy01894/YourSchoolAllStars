@@ -23,19 +23,23 @@ export const STAT_WEIGHTS: Record<keyof BballStats, number> = {
 }
 
 // Honors add to the composite before the curve (recognition the box score
-// misses). Matched case-insensitively as substrings of each honor string.
-export const HONOR_BONUS: { match: string; bonus: number }[] = [
-  { match: 'national player of the year', bonus: 12 },
-  { match: 'wooden', bonus: 10 },
-  { match: 'naismith', bonus: 10 },
-  { match: 'consensus all-american', bonus: 9 },
-  { match: 'all-american', bonus: 6 },
-  { match: 'player of the year', bonus: 6 }, // conference POY
-  { match: 'first team all', bonus: 4 }, // all-conference first team
-  { match: 'all-big ten', bonus: 3 },
-  { match: 'freshman of the year', bonus: 3 },
-  { match: 'all-conference', bonus: 2 },
-]
+// misses). Real honor strings carry team qualifiers and hyphens — e.g.
+// "Consensus Second-Team All-American (2021)", "First-Team All-Big Ten" — so we
+// normalize (lowercase, hyphens→spaces) and score by feature, NOT by brittle
+// adjacent-substring matching. `honorTier` returns the single best tier for one
+// honor string; `honorsBonus` sums across a player's honors.
+export function honorTier(honor: string): number {
+  const s = honor.toLowerCase().replace(/-/g, ' ')
+  const has = (...words: string[]) => words.every((w) => s.includes(w))
+  if (has('national', 'player of the year')) return 12
+  if (s.includes('wooden') || s.includes('naismith')) return 10
+  if (s.includes('all american')) return s.includes('consensus') ? 9 : 6
+  if (s.includes('player of the year')) return 6 // conference POY
+  if (s.includes('first team all')) return 4 // all-conference first team
+  if (s.includes('freshman of the year')) return 3
+  if (s.includes('all big ten') || s.includes('all conference')) return 3
+  return 0
+}
 
 /** Curve steepness: composite that maps to ~63 rating. Larger = harsher. */
 export const RATING_SCALE = 22
@@ -50,17 +54,7 @@ export const POSITION_WEIGHT: Record<BballPosition, number> = {
 }
 
 export function honorsBonus(honors: string[]): number {
-  let bonus = 0
-  for (const h of honors) {
-    const lc = h.toLowerCase()
-    // Take the single best-matching honor tier, not the sum of overlapping ones.
-    let best = 0
-    for (const { match, bonus: b } of HONOR_BONUS) {
-      if (lc.includes(match)) best = Math.max(best, b)
-    }
-    bonus += best
-  }
-  return bonus
+  return honors.reduce((sum, h) => sum + honorTier(h), 0)
 }
 
 export function statComposite(stats: BballStats): number {

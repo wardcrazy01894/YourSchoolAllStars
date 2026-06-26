@@ -142,9 +142,10 @@ per-school sport selector.
   playable React UI. Verified end-to-end (37–3 HISTORIC).
 - **M1.5 — School registry + picker + theming (DONE):** `schools.ts`, picker
   landing, per-school CSS theming; Michigan live, UNC "coming soon".
-- **M2 — Full basketball dataset (IN PROGRESS):** 49 sourced players landed
-  (`_provisional: false`); **5 coverage gaps** left (tracked as `KNOWN_GAPS`),
-  gap-fill pass running. Then calibrate the rating curve to ~4% perfect.
+- **M2 — Full basketball dataset (DONE):** 53 sourced players, `_provisional:
+false`, **zero coverage gaps** (every window × position filled; the
+  `dataset.test.ts` coverage guard asserts it). Rating-curve calibration to ~4%
+  perfect is still TODO.
 - **M3 — Modes:** Daily (one-shot + streaks) · Classic (free-play) · Hoops IQ.
 - **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
 - **M5 — Ship:** flip repo public → branch protection + Pages deploy.
