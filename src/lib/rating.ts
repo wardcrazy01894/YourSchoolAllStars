@@ -169,11 +169,15 @@ export function playerRating(player: BballPlayer, w?: YearWindow): number {
 // starter's rating, so a single hole costs you. Then logistic-map to a per-game
 // win probability and scale to N games.
 export const WEAK_LINK_BLEND = 0.4 // share of team strength from the worst starter
-export const WIN_PIVOT = 60 // team strength giving a coin-flip team
+// Team strength giving a coin-flip team. Lowered 60→57 (Alex, 2026-06-26) to
+// shift the whole curve slightly easier — every overall now wins a touch more,
+// and an 80+ team clears 37 wins.
+export const WIN_PIVOT = 57
 export const WIN_SPREAD = 7.5 // smaller = steeper; this lifts the high-80s a touch
-// A roster whose DISPLAYED overall is this or better simply runs the table — a
-// 90+ team should never have the sigmoid's rounding shave a game off a 40-0.
-export const UNDEFEATED_STRENGTH = 90
+// A roster whose DISPLAYED overall is this or better simply runs the table — an
+// 85+ team should never have the sigmoid's rounding shave a game off a 40-0.
+// (Alex, 2026-06-26: lowered 90→85 — any basketball rating 85+ goes undefeated.)
+export const UNDEFEATED_STRENGTH = 85
 
 export interface RatedStarter {
   position: BballPosition
@@ -204,7 +208,7 @@ export function winProbability(strength: number): number {
 /** Projected wins out of `games` (default 40 for basketball). */
 export function projectedWins(starters: RatedStarter[], games = 40): number {
   const strength = teamStrength(starters)
-  // A 90+ overall (as displayed, i.e. rounded) is undefeated, full stop — the
+  // An 85+ overall (as displayed, i.e. rounded) is undefeated, full stop — the
   // logistic curve alone would round a true elite down to 39-1, which feels wrong.
   if (Math.round(strength) >= UNDEFEATED_STRENGTH) return games
   return Math.round(winProbability(strength) * games)
