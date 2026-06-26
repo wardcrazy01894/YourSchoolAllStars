@@ -79,15 +79,34 @@ describe('buildRollingWindows', () => {
     expect(ws2026[ws2026.length - 1]).toEqual({ start: 2023, end: 2026 })
   })
 
-  it('consecutive windows overlap by size-1 years', () => {
+  it('slides the window start by exactly one year each step', () => {
     const ws = buildRollingWindows(2010, 2020, 4)
     for (let i = 1; i < ws.length; i++) {
-      expect(ws[i].start).toBe(ws[i - 1].start + 1) // slides by exactly one year
+      expect(ws[i].start).toBe(ws[i - 1].start + 1) // slide-by-1 ⇒ size-1 overlap
+      expect(ws[i].start).toBeLessThanOrEqual(ws[i - 1].end) // genuine overlap
     }
+  })
+
+  it('size 1 degenerates to one-year, non-overlapping windows', () => {
+    expect(buildRollingWindows(2010, 2013, 1)).toEqual([
+      { start: 2010, end: 2010 },
+      { start: 2011, end: 2011 },
+      { start: 2012, end: 2012 },
+      { start: 2013, end: 2013 },
+    ])
+  })
+
+  it('returns [] for a non-positive size', () => {
+    expect(buildRollingWindows(1994, 2026, 0)).toEqual([])
+    expect(buildRollingWindows(1994, 2026, -4)).toEqual([])
   })
 
   it('returns nothing when the span is shorter than one window', () => {
     expect(buildRollingWindows(2024, 2026, 4)).toEqual([]) // need 4 years, only 3
+  })
+
+  it('returns [] when `from` is past the cap entirely', () => {
+    expect(buildRollingWindows(2030, 2026, 4)).toEqual([]) // from > maxYear
   })
 })
 

@@ -32,13 +32,14 @@ export function buildWindows(
  * start is `maxYear - size + 1`, so an era never extends past the most recent
  * completed season (`maxYear`); when a new season lands in the data, `maxYear`
  * rises and the cap advances by one automatically. Returns [] when the span is
- * shorter than one full window.
+ * shorter than one full window, or for a non-positive `size`.
  */
 export function buildRollingWindows(
   from: number,
   maxYear: number,
   size: number,
 ): YearWindow[] {
+  if (size <= 0) return []
   const out: YearWindow[] = []
   for (let start = from; start <= maxYear - size + 1; start++) {
     out.push({ start, end: start + size - 1 })
@@ -55,7 +56,7 @@ export function datasetMaxYear(
   players: ReadonlyArray<{ lastYear: number }>,
 ): number | null {
   if (players.length === 0) return null
-  return players.reduce((m, p) => Math.max(m, p.lastYear), -Infinity)
+  return players.reduce<number>((m, p) => Math.max(m, p.lastYear), -Infinity)
 }
 
 /** Basketball: 1994–2025 in 4-year blocks → 1994–97, 1998–01, … 2022–25. */
