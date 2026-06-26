@@ -396,19 +396,18 @@ function Playing({
             </div>
             <button
               className="btn"
-              disabled={!canSkip(state)}
+              disabled={!canSkip(state) || safeSkipsLeft(state) <= 0}
               onClick={() => {
                 setSelectedId(null)
                 onAdvance(skip(state))
               }}
               title={
                 safeSkipsLeft(state) > 0
-                  ? 'Skip to the next era'
-                  : 'Skipping now leaves a hole'
+                  ? 'Skip this era (advance to the next)'
+                  : 'No skips left'
               }
             >
-              ⏭ Skip era
-              {safeSkipsLeft(state) > 0 ? ` (${safeSkipsLeft(state)})` : ' ⚠'}
+              ⏭ Skip era ({safeSkipsLeft(state)})
             </button>
           </div>
 

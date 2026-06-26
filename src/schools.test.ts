@@ -21,6 +21,19 @@ describe('school registry', () => {
     expect(unc.basketball).toBeUndefined()
   })
 
+  it('tracks which schools field football (VCU does not)', () => {
+    expect(getSchool('vcu')!.hasFootball).toBe(false)
+    expect(getSchool('michigan')!.hasFootball).toBe(true)
+    expect(getSchool('vt')!.hasFootball).toBe(true)
+    for (const s of SCHOOLS) expect(typeof s.hasFootball).toBe('boolean')
+  })
+
+  it('includes the coming-soon schools', () => {
+    for (const id of ['unc', 'florida', 'vt', 'pitt', 'vcu']) {
+      expect(getSchool(id)?.available).toBe(false)
+    }
+  })
+
   it('every theme token is a hex color', () => {
     for (const s of SCHOOLS) {
       for (const v of Object.values(s.theme)) {

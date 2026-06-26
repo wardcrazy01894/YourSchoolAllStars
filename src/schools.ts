@@ -24,7 +24,10 @@ export interface School {
   theme: Theme
   /** Basketball dataset, when the school is live. */
   basketball?: Dataset
-  /** False = shown in the picker as "coming soon" (no data yet). */
+  /** Does this school field a football team at all? (VCU does not.) The sport
+   * picker hides football for schools where this is false. */
+  hasFootball: boolean
+  /** False = shown in the picker as "coming soon" (no playable data yet). */
   available: boolean
 }
 
@@ -43,6 +46,7 @@ export const SCHOOLS: School[] = [
       ink: '#0c1620',
     },
     basketball: michiganBasketball,
+    hasFootball: true,
     available: true,
   },
   {
@@ -59,6 +63,7 @@ export const SCHOOLS: School[] = [
       ink: '#0a1422',
     },
     basketball: undefined,
+    hasFootball: true,
     available: false,
   },
   {
@@ -75,6 +80,59 @@ export const SCHOOLS: School[] = [
       ink: '#0a1124',
     },
     basketball: undefined,
+    hasFootball: true,
+    available: false,
+  },
+  {
+    id: 'vt',
+    name: 'Virginia Tech',
+    short: 'Va Tech',
+    mascot: 'Hokies',
+    emoji: '🦃',
+    // Hokie maroon & burnt orange (official: Maroon #630031, Orange #CF4420).
+    theme: {
+      brand: '#630031',
+      brand2: '#7d2540',
+      accent: '#cf4420',
+      ink: '#1a0710',
+    },
+    basketball: undefined,
+    hasFootball: true,
+    available: false,
+  },
+  {
+    id: 'pitt',
+    name: 'Pittsburgh',
+    short: 'Pitt',
+    mascot: 'Panthers',
+    emoji: '🐾',
+    // Pitt navy & gold (official: Navy #003594, Gold #FFB81C).
+    theme: {
+      brand: '#003594',
+      brand2: '#1e4aa8',
+      accent: '#ffb81c',
+      ink: '#06122e',
+    },
+    basketball: undefined,
+    hasFootball: true,
+    available: false,
+  },
+  {
+    id: 'vcu',
+    name: 'VCU',
+    short: 'VCU',
+    mascot: 'Rams',
+    emoji: '🐏',
+    // VCU black & gold (official: Gold #F8B300, Black #000000). Basketball only —
+    // VCU does not field a football team.
+    theme: {
+      brand: '#1a1a1a',
+      brand2: '#2e2a17',
+      accent: '#f8b300',
+      ink: '#0c0c0a',
+    },
+    basketball: undefined,
+    hasFootball: false,
     available: false,
   },
 ]
