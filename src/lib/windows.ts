@@ -4,9 +4,11 @@
 // career, per Alex's call). The daily game spins one window per draft round; you
 // may only draft players whose Michigan tenure OVERLAPS the spun window.
 //
-// Windows are NON-overlapping 4-year blocks from 1994 on. They're just data —
-// to retune granularity (e.g. to 3-year or rolling windows) edit `buildWindows`
-// or the exported arrays; the engine reads whatever is here.
+// The live `BBALL_WINDOWS` wheel is still NON-overlapping 4-year blocks from 1994
+// on. `buildRollingWindows` (overlapping, data-driven era cap) is the tested
+// foundation for the planned move to a rolling wheel; wiring it into the daily
+// follows once the draft engine gains dead-era handling. Windows are just data —
+// the engine reads whatever array is exported here.
 
 import type { BballPlayer, YearWindow } from '../types'
 
@@ -21,6 +23,40 @@ export function buildWindows(
     out.push({ start, end: Math.min(start + size - 1, to) })
   }
   return out
+}
+
+/**
+ * Build ROLLING (overlapping) windows: every year in `from`..(maxYear-size+1)
+ * starts its own `size`-year era, so 2012, 2013 and 2014 each begin an era and
+ * consecutive windows slide by one year. The cap is data-driven — the latest
+ * start is `maxYear - size + 1`, so an era never extends past the most recent
+ * completed season (`maxYear`); when a new season lands in the data, `maxYear`
+ * rises and the cap advances by one automatically. Returns [] when the span is
+ * shorter than one full window, or for a non-positive `size`.
+ */
+export function buildRollingWindows(
+  from: number,
+  maxYear: number,
+  size: number,
+): YearWindow[] {
+  if (size <= 0) return []
+  const out: YearWindow[] = []
+  for (let start = from; start <= maxYear - size + 1; start++) {
+    out.push({ start, end: start + size - 1 })
+  }
+  return out
+}
+
+/**
+ * The most recent season any player in the set reached — the data-driven era
+ * cap input for {@link buildRollingWindows}. Null for an empty set (no seasons,
+ * so no windows).
+ */
+export function datasetMaxYear(
+  players: ReadonlyArray<{ lastYear: number }>,
+): number | null {
+  if (players.length === 0) return null
+  return players.reduce<number>((m, p) => Math.max(m, p.lastYear), -Infinity)
 }
 
 /** Basketball: 1994–2025 in 4-year blocks → 1994–97, 1998–01, … 2022–25. */
