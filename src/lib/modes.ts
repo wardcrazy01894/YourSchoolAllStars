@@ -6,8 +6,8 @@
 //                which locks and feeds the streak (the original 20-0 flow).
 //   • classic  — free play: a fresh RANDOM era sequence every game, replay forever,
 //                no lock, no streak.
-//   • hoops-iq — like classic, but stats are HIDDEN during the draft (you pick on
-//                names + honors alone); the numbers are revealed at Results.
+//   • hoops-iq — like classic, but stats, ratings, AND award stars are HIDDEN
+//                during the draft (you pick on names alone); all revealed at Results.
 //
 // Keeping this as plain data + flags means the React shell branches on the flags
 // rather than the mode id, so adding a fourth mode is a data change, not new
@@ -50,7 +50,7 @@ export const MODES: ModeConfig[] = [
     name: 'Hoops IQ',
     emoji: '🧠',
     blurb:
-      'Stats hidden. Draft on names and honors alone — the numbers reveal at the end.',
+      'Stats, ratings, and award stars hidden. Draft on names alone — they reveal at the end.',
     daily: false,
     hideStats: true,
   },
