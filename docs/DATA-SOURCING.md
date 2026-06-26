@@ -74,7 +74,8 @@ career-best line). `year` is the season-ending year (2012-13 → 2013).
       "id": "trey-burke", // kebab-case, unique
       "name": "Trey Burke",
       "position": "PG", // PG | SG | SF | PF | C (primary slot, used for grouping)
-      "eligible": ["PG", "SG"], // OPTIONAL — extra slots they may be drafted into
+      "eligible": ["PG", "SG"], // OPTIONAL — the COMPLETE slot list (must include
+      // the primary); replaces the default of just [position], not additive
       "firstYear": 2012, // year their FIRST Michigan season ended
       "lastYear": 2013, // year their LAST Michigan season ended
       "seasons": [
