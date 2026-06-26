@@ -16,6 +16,7 @@ const school = (over: Partial<School>): School => ({
   emoji: '❌',
   theme: { brand: '#000', brand2: '#111', accent: '#fff', ink: '#000' },
   hasFootball: true,
+  power5: true,
   available: true,
   ...over,
 })

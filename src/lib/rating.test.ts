@@ -12,7 +12,9 @@ import {
   recordLabel,
   gradeLabel,
   UNDEFEATED_STRENGTH,
+  WINLESS_STRENGTH,
   WIN_PIVOT,
+  NON_POWER5_RATING_FACTOR,
 } from './rating'
 import type {
   BballPlayer,
@@ -103,6 +105,66 @@ describe('playerRating', () => {
       'Consensus All-American',
     ])
     expect(playerRating(withHonor)).toBeGreaterThan(playerRating(base))
+  })
+})
+
+describe('conference strength (non-power-5 penalty)', () => {
+  // 17 ppg in the Big Ten is worth more than 17 ppg in the A-10. Non-power-5
+  // schools take a flat haircut on the FINAL player rating (Alex, 2026-06-26).
+  const line = { pts: 17, reb: 6, ast: 3, stl: 1, blk: 0.5 }
+
+  it('the penalty is a slight (<1) multiplier, not a flat subtraction', () => {
+    expect(NON_POWER5_RATING_FACTOR).toBeGreaterThan(0)
+    expect(NON_POWER5_RATING_FACTOR).toBeLessThan(1)
+  })
+
+  it('power5 (default true) is unchanged; non-power-5 is scaled down', () => {
+    const p = mk('SG', line)
+    const big10 = playerRating(p) // defaults to power-5
+    const a10 = playerRating(p, undefined, false)
+    expect(playerRating(p, undefined, true)).toBe(big10) // explicit true == default
+    expect(a10).toBeLessThan(big10)
+    expect(a10).toBe(Math.round(big10 * NON_POWER5_RATING_FACTOR))
+  })
+
+  it('applies the penalty to the in-window rating too (window + power5 thread together)', () => {
+    const player = mkSeasons('SF', [
+      { year: 2013, stats: line, honors: [], source: 't' },
+    ])
+    const w = { start: 2012, end: 2015 }
+    expect(playerRating(player, w, false)).toBe(
+      Math.round(playerRating(player, w, true) * NON_POWER5_RATING_FACTOR),
+    )
+  })
+
+  it('stays in [0,100] and a 0-rated (no-season) player stays 0', () => {
+    const elite = mk('C', { pts: 28, reb: 14, ast: 4, stl: 2, blk: 4 }, [
+      'National Player of the Year',
+    ])
+    const r = playerRating(elite, undefined, false)
+    expect(r).toBeGreaterThanOrEqual(0)
+    expect(r).toBeLessThanOrEqual(100)
+    const empty: BballPlayer = {
+      id: 'x',
+      name: 'x',
+      position: 'PG',
+      firstYear: 2010,
+      lastYear: 2010,
+      seasons: [],
+    }
+    expect(playerRating(empty, undefined, false)).toBe(0)
+  })
+
+  it('makes a non-power-5 40-0 hard: a near-elite five drops below the 85 cutoff', () => {
+    // A five whose power-5 rating sits at the undefeated cutoff (85) no longer
+    // runs the table once the conference haircut applies — exactly the intent
+    // ("might make it impossible for a VCU team to go 40-0, and that's OK").
+    const penalized = Math.round(85 * NON_POWER5_RATING_FACTOR)
+    expect(penalized).toBeLessThan(UNDEFEATED_STRENGTH)
+    const fivePenalized = (
+      ['PG', 'SG', 'SF', 'PF', 'C'] as BballPosition[]
+    ).map((position) => ({ position, rating: penalized }))
+    expect(projectedWins(fivePenalized, 40)).toBeLessThan(40)
   })
 })
 
@@ -239,6 +301,28 @@ describe('projected record', () => {
       expect(wins).toBeGreaterThanOrEqual(37)
       expect(wins).toBeLessThan(40) // still short of undefeated below 85
     }
+  })
+
+  it('the winless floor is a displayed overall of 30 (Alex, 2026-06-26)', () => {
+    expect(WINLESS_STRENGTH).toBe(30)
+  })
+
+  it('anything below a 30 overall goes 0-40, full stop', () => {
+    for (const r of [0, 10, 20, 25, 29]) {
+      expect(projectedWins(five(r), 40)).toBe(0)
+    }
+  })
+
+  it('the winless floor follows the DISPLAYED (rounded) overall', () => {
+    // Mirror of the undefeated override: a strength rounding DOWN below 30 is
+    // winless; one rounding UP to 30 scrapes a win. (29.4→29 vs 29.5→30.)
+    expect(projectedWins(five(WINLESS_STRENGTH - 0.6), 40)).toBe(0) // 29.4→29
+    expect(projectedWins(five(WINLESS_STRENGTH - 0.5), 40)).toBeGreaterThan(0) // 29.5→30
+  })
+
+  it('a 30 overall is NOT winless — it scrapes at least one win', () => {
+    expect(projectedWins(five(WINLESS_STRENGTH), 40)).toBeGreaterThan(0)
+    expect(projectedWins(five(30), 40)).toBe(1)
   })
 
   it('a team at the pivot is ~.500; the curve sits a touch easier overall', () => {

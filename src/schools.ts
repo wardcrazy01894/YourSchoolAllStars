@@ -28,6 +28,10 @@ export interface School {
    * reservation: the sport picker is not built yet — when it is, it must hide
    * football wherever this is false (else VCU would wrongly show football). */
   hasFootball: boolean
+  /** Power-5 (major) conference? Drives the conference-strength rating: non-power-5
+   * schools take a slight haircut on every player rating (17 ppg in the Big Ten is
+   * worth more than 17 ppg in the A-10). Today only VCU (Atlantic 10) is false. */
+  power5: boolean
   /** False = shown in the picker as "coming soon" (no playable data yet). */
   available: boolean
 }
@@ -48,6 +52,7 @@ export const SCHOOLS: School[] = [
     },
     basketball: michiganBasketball,
     hasFootball: true,
+    power5: true,
     available: true,
   },
   {
@@ -65,6 +70,7 @@ export const SCHOOLS: School[] = [
     },
     basketball: undefined,
     hasFootball: true,
+    power5: true,
     available: false,
   },
   {
@@ -82,6 +88,7 @@ export const SCHOOLS: School[] = [
     },
     basketball: undefined,
     hasFootball: true,
+    power5: true,
     available: false,
   },
   {
@@ -99,6 +106,7 @@ export const SCHOOLS: School[] = [
     },
     basketball: undefined,
     hasFootball: true,
+    power5: true,
     available: false,
   },
   {
@@ -116,6 +124,7 @@ export const SCHOOLS: School[] = [
     },
     basketball: undefined,
     hasFootball: true,
+    power5: true,
     available: false,
   },
   {
@@ -135,6 +144,7 @@ export const SCHOOLS: School[] = [
     },
     basketball: undefined,
     hasFootball: false,
+    power5: false, // Atlantic 10 — the lone non-power-5 school today
     available: false,
   },
 ]

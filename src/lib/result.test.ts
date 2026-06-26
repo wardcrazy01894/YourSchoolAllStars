@@ -119,6 +119,25 @@ describe('evaluateRoster', () => {
     // Sanity: the in-window rating is well below the career-peak rating.
     expect(playerRating(p, window)).toBeLessThan(playerRating(p, W(2003, 2005)))
   })
+
+  it('threads a non-power-5 flag through to every per-position rating and the record', () => {
+    const state = stateFrom(fullPicks()) // five elite 86-rated starters
+    const power5 = evaluateRoster(state, 40) // default true
+    const midMajor = evaluateRoster(state, 40, false)
+    for (const pos of BBALL_POSITIONS) {
+      expect(midMajor.ratingsByPosition[pos]).toBeLessThan(
+        power5.ratingsByPosition[pos]!,
+      )
+      // Penalty is applied at the player level (matches playerRating(power5=false)).
+      expect(midMajor.ratingsByPosition[pos]).toBe(
+        playerRating(state.slots[pos]!, midMajor.windowByPosition[pos], false),
+      )
+    }
+    expect(midMajor.strength).toBeLessThan(power5.strength)
+    // The power-5 elite five runs the table; the haircut knocks the mid-major off it.
+    expect(power5.wins).toBe(40)
+    expect(midMajor.wins).toBeLessThan(40)
+  })
 })
 
 describe('teamStatTotals', () => {
