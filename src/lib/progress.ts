@@ -3,7 +3,7 @@
 // streaks are per-device, exactly like KnowYourCity. (A cross-player leaderboard
 // would be the only thing needing a server.)
 
-import type { BballPosition } from '../types'
+import type { BballPosition, YearWindow } from '../types'
 
 export interface Streak {
   current: number
@@ -45,6 +45,13 @@ export function nextStreak(prev: Streak, dateKey: string): Streak {
 export interface SavedDaily {
   dateKey: string
   playerIds: Partial<Record<BballPosition, string>>
+  /**
+   * The era each slot was drafted from, so a returning player's LOCKED result
+   * re-rates on the same in-window season they earned (rating depends on the
+   * window). Optional + sport-agnostic (just year ranges): a save missing it
+   * still records the streak; the locked view just can't reconstruct the lineup.
+   */
+  windows?: Partial<Record<BballPosition, YearWindow>>
   wins: number
   grade: string
 }

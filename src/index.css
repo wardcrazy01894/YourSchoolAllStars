@@ -151,6 +151,37 @@ body {
   display: inline-block;
 }
 
+/* ── Streaks ─────────────────────────────────────────────────────────────── */
+.streaks {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 0 18px;
+}
+.streak-chip {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+
+/* The one-shot lock banner shown on a completed day's Results. */
+.lock-note {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
 /* ── Landing ─────────────────────────────────────────────────────────────── */
 .hero {
   text-align: center;
