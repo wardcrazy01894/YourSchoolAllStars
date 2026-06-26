@@ -113,12 +113,14 @@ describe('RosterRail — hideRating', () => {
   }
 
   it('shows the numeric rating by default', () => {
-    const { container } = render(<RosterRail slots={slots} />)
+    const { container } = render(<RosterRail slots={slots} power5={true} />)
     expect(container.querySelector('.prate')).not.toBeNull()
   })
 
   it('suppresses the rating when hideRating is true', () => {
-    const { container } = render(<RosterRail slots={slots} hideRating />)
+    const { container } = render(
+      <RosterRail slots={slots} hideRating power5={true} />,
+    )
     expect(container.querySelector('.prate')).toBeNull()
     // The drafted name still shows — only the number is hidden.
     expect(screen.getByText('alpha Player')).toBeTruthy()
