@@ -14,3 +14,4 @@
 - [ ] `npm run typecheck && npm run lint && npm run format:check && npm test && npm run build` all pass locally.
 - [ ] Docs updated in **this** PR if behavior changed (`docs/PLAN.md`, `docs/DATA-SOURCING.md`, `README.md`, `docs/QUESTIONS-FOR-ALEX.md`).
 - [ ] No secrets committed. No player stats fabricated — every new player row has a verifiable source.
+- [ ] **Adversarial review run** on the diff (`adversarial-reviewer` agent or `/code-review`); findings posted on the PR and resolved/fixed. (Trivial docs/config PRs: note "review: trivial".)
