@@ -26,13 +26,22 @@ export function dayDiff(a: string, b: string): number {
  */
 export function nextStreak(prev: Streak, dateKey: string): Streak {
   if (prev.lastDate === dateKey) return prev // already counted today
-  const consecutive =
-    prev.lastDate !== null && dayDiff(prev.lastDate, dateKey) === 1
-  const current = consecutive ? prev.current + 1 : 1
+  const diff = prev.lastDate === null ? null : dayDiff(prev.lastDate, dateKey)
+  // A date BEFORE the last completed day (e.g. opening an old `?date=` playtest
+  // URL) must leave the streak untouched — rolling `lastDate` backwards would
+  // make every later real day read as a gap and silently break the count. The
+  // daily itself is still persisted by saveDailyResult; only the streak is held.
+  if (diff !== null && diff < 0) return prev
+  const current = diff === 1 ? prev.current + 1 : 1
   return { current, max: Math.max(prev.max, current), lastDate: dateKey }
 }
 
-/** A completed daily, persisted so the day can't be replayed and reloads restore it. */
+/**
+ * A completed daily, persisted so the day can't be replayed and reloads restore
+ * it. NOTE: `playerIds` is keyed by `BballPosition` — when football lands its
+ * positions differ, so this will need to generalize (a sport-tagged union or a
+ * `Record<string, string>`) rather than be reused as-is.
+ */
 export interface SavedDaily {
   dateKey: string
   playerIds: Partial<Record<BballPosition, string>>
@@ -50,17 +59,22 @@ const dailyKey = (school: string, sport: string, dateKey: string) =>
 function read<T>(key: string, fallback: T): T {
   try {
     const raw = localStorage.getItem(key)
+    // v1 trusts the stored shape (one schema version). If SavedDaily/Streak ever
+    // gain/drop fields, add a runtime validation step here before the cast —
+    // a stale object would otherwise surface `undefined` at a consumer.
     return raw ? (JSON.parse(raw) as T) : fallback
   } catch {
     return fallback
   }
 }
 
-function write(key: string, value: unknown): void {
+/** Returns whether the value was actually persisted (false if storage threw). */
+function write(key: string, value: unknown): boolean {
   try {
     localStorage.setItem(key, JSON.stringify(value))
+    return true
   } catch {
-    /* storage full / disabled — non-fatal */
+    return false // storage full / disabled — non-fatal, caller decides
   }
 }
 
@@ -87,9 +101,12 @@ export function saveDailyResult(
   result: SavedDaily,
 ): Streak {
   const already = loadDaily(school, sport, result.dateKey)
-  write(dailyKey(school, sport, result.dateKey), result)
+  const saved = write(dailyKey(school, sport, result.dateKey), result)
   const prev = loadStreak(school, sport)
-  if (already) return prev // don't double-count a re-save of the same day
+  // Don't advance the streak if (a) the day was already counted, or (b) the
+  // daily didn't actually persist — otherwise a swallowed write would bump the
+  // streak while leaving the day replayable, double-counting on the next play.
+  if (already || !saved) return prev
   const updated = nextStreak(prev, result.dateKey)
   write(streakKey(school, sport), updated)
   return updated

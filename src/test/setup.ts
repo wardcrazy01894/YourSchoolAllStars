@@ -18,6 +18,8 @@ class MemoryStorage implements Storage {
   getItem(key: string): string | null {
     return this.store.has(key) ? (this.store.get(key) as string) : null
   }
+  // For Storage-interface compliance only — nothing in the suite calls key().
+  // Map iterates in insertion order (the spec leaves Storage order to the UA).
   key(index: number): string | null {
     return Array.from(this.store.keys())[index] ?? null
   }
