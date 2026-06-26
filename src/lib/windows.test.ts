@@ -55,6 +55,12 @@ describe('buildWindows', () => {
   it('exposes 8 basketball windows starting in 1994', () => {
     expect(BBALL_WINDOWS).toHaveLength(8)
     expect(BBALL_WINDOWS[0]).toEqual({ start: 1994, end: 1997 })
+    // The trailing partial year (2026) is folded into the final block rather
+    // than left as a 1-year window, so the last era spans 2022–2026 (5 years).
+    expect(BBALL_WINDOWS[BBALL_WINDOWS.length - 1]).toEqual({
+      start: 2022,
+      end: 2026,
+    })
   })
 })
 
