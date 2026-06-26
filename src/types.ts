@@ -20,6 +20,35 @@ export interface BballStats {
   blk: number // blocks per game
 }
 
+/**
+ * Per-game stats for ONE season. Partial by design: older role players don't
+ * always have a full published line (per the data policy — see CLAUDE.md /
+ * docs/DATA-SOURCING.md). A missing field means "unknown", which the rating
+ * model treats as 0. Starters should still carry the full five.
+ */
+export type BballSeasonStats = Partial<BballStats>
+
+/**
+ * One season of a player's career. The dataset stores every season a player is
+ * relevant for, so the game can represent them by their best season WITHIN the
+ * spun window (not a single career-best line). `year` is the season-ending year
+ * (2012-13 → 2013).
+ */
+export interface BballSeason {
+  year: number
+  stats: BballSeasonStats
+  /**
+   * Honors the player earned within the seasons this row represents (e.g.
+   * "Consensus All-American (2013)"). A migrated single-season row represents a
+   * player's whole career and so carries their full honor set; the per-season
+   * backfill splits players into one row per year and binds each honor to its
+   * own year. Until then, honors here may carry a year outside `year`.
+   */
+  honors: string[]
+  /** Provenance: the URL the season's stats were sourced/verified from. */
+  source: string
+}
+
 export interface BballPlayer {
   id: string
   /** Primary position — used for grouping/display in the pool. */
@@ -34,14 +63,12 @@ export interface BballPlayer {
   firstYear: number
   /** Year the player's LAST Michigan season ended. */
   lastYear: number
-  /** Year of the season the `stats` below describe (their best season). */
-  bestSeason: number
-  /** Per-game stats for `bestSeason`. */
-  stats: BballStats
-  /** Honors earned (e.g. "Consensus All-American (2013)"). Empty if none. */
-  honors: string[]
-  /** Provenance: the URL the stats were sourced/verified from. */
-  source: string
+  /**
+   * Every season the player is represented by, oldest first. Always non-empty.
+   * The engine picks the best season within the spun window for stats/rating;
+   * tenure ([firstYear, lastYear]) still governs which windows they APPEAR in.
+   */
+  seasons: BballSeason[]
 }
 
 /** The slots a player may fill — their explicit `eligible` list or just primary. */

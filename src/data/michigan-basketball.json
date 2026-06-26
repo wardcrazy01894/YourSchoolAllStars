@@ -2,7 +2,7 @@
   "school": "Michigan",
   "sport": "basketball",
   "_provisional": false,
-  "_note": "Curated from Wikipedia season/player pages (CC-BY-SA), cross-checked vs official records. Each row carries its source URL. See docs/DATA-SOURCING.md.",
+  "_note": "Curated from Wikipedia season/player pages (CC-BY-SA), cross-checked vs official records. Each player carries a seasons[] array; every season row carries its source URL. See docs/DATA-SOURCING.md.",
   "players": [
     {
       "id": "caleb-houstan",
@@ -10,16 +10,20 @@
       "position": "SF",
       "firstYear": 2022,
       "lastYear": 2022,
-      "bestSeason": 2022,
-      "stats": {
-        "pts": 10.1,
-        "reb": 4,
-        "ast": 1.4,
-        "stl": 0.7,
-        "blk": 0.2
-      },
-      "honors": ["McDonald's All-American (2021)"],
-      "source": "https://en.wikipedia.org/wiki/Caleb_Houstan"
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10.1,
+            "reb": 4,
+            "ast": 1.4,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": ["McDonald's All-American (2021)"],
+          "source": "https://en.wikipedia.org/wiki/Caleb_Houstan"
+        }
+      ]
     },
     {
       "id": "caris-levert",
@@ -27,16 +31,20 @@
       "position": "SG",
       "firstYear": 2013,
       "lastYear": 2016,
-      "bestSeason": 2016,
-      "stats": {
-        "pts": 16.5,
-        "reb": 5.3,
-        "ast": 4.9,
-        "stl": 1,
-        "blk": 0.2
-      },
-      "honors": ["Second-Team All-Big Ten (2014)"],
-      "source": "https://en.wikipedia.org/wiki/Caris_LeVert"
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 16.5,
+            "reb": 5.3,
+            "ast": 4.9,
+            "stl": 1,
+            "blk": 0.2
+          },
+          "honors": ["Second-Team All-Big Ten (2014)"],
+          "source": "https://en.wikipedia.org/wiki/Caris_LeVert"
+        }
+      ]
     },
     {
       "id": "charles-matthews",
@@ -44,16 +52,20 @@
       "position": "SF",
       "firstYear": 2018,
       "lastYear": 2019,
-      "bestSeason": 2018,
-      "stats": {
-        "pts": 13,
-        "reb": 5.5,
-        "ast": 2.4,
-        "stl": 0.7,
-        "blk": 0.6
-      },
-      "honors": ["West Region Most Outstanding Player (2018)"],
-      "source": "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)"
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 13,
+            "reb": 5.5,
+            "ast": 2.4,
+            "stl": 0.7,
+            "blk": 0.6
+          },
+          "honors": ["West Region Most Outstanding Player (2018)"],
+          "source": "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)"
+        }
+      ]
     },
     {
       "id": "courtney-sims",
@@ -61,20 +73,24 @@
       "position": "C",
       "firstYear": 2004,
       "lastYear": 2007,
-      "bestSeason": 2007,
-      "stats": {
-        "pts": 12.3,
-        "reb": 6.7,
-        "ast": 0.5,
-        "stl": 0.3,
-        "blk": 1.6
-      },
-      "honors": [
-        "2nd all-time Michigan career blocks leader (213 career blocks)",
-        "2004 NIT Championship team",
-        "NBA 2nd-round draft pick 2007 (Indiana Pacers)"
-      ],
-      "source": "https://mgoblue.com/sports/mens-basketball/roster/courtney-sims/784"
+      "seasons": [
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 12.3,
+            "reb": 6.7,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 1.6
+          },
+          "honors": [
+            "2nd all-time Michigan career blocks leader (213 career blocks)",
+            "2004 NIT Championship team",
+            "NBA 2nd-round draft pick 2007 (Indiana Pacers)"
+          ],
+          "source": "https://mgoblue.com/sports/mens-basketball/roster/courtney-sims/784"
+        }
+      ]
     },
     {
       "id": "daniel-horton",
@@ -82,20 +98,24 @@
       "position": "PG",
       "firstYear": 2003,
       "lastYear": 2006,
-      "bestSeason": 2006,
-      "stats": {
-        "pts": 17.6,
-        "reb": 2.5,
-        "ast": 5.3,
-        "stl": 1.9,
-        "blk": 0.3
-      },
-      "honors": [
-        "Big Ten Freshman of the Year (2003)",
-        "NIT MVP (2004)",
-        "First-Team All-Big Ten (2006)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Daniel_Horton_(basketball)"
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 17.6,
+            "reb": 2.5,
+            "ast": 5.3,
+            "stl": 1.9,
+            "blk": 0.3
+          },
+          "honors": [
+            "Big Ten Freshman of the Year (2003)",
+            "NIT MVP (2004)",
+            "First-Team All-Big Ten (2006)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Daniel_Horton_(basketball)"
+        }
+      ]
     },
     {
       "id": "danny-wolf",
@@ -103,20 +123,24 @@
       "position": "PF",
       "firstYear": 2025,
       "lastYear": 2025,
-      "bestSeason": 2025,
-      "stats": {
-        "pts": 13.2,
-        "reb": 9.7,
-        "ast": 3.6,
-        "stl": 0.7,
-        "blk": 1.4
-      },
-      "honors": [
-        "Second-Team All-Big Ten (2025)",
-        "Big Ten Tournament All-Tournament Team (2025)",
-        "South Regional All-Tournament Team (2025)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Danny_Wolf"
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 13.2,
+            "reb": 9.7,
+            "ast": 3.6,
+            "stl": 0.7,
+            "blk": 1.4
+          },
+          "honors": [
+            "Second-Team All-Big Ten (2025)",
+            "Big Ten Tournament All-Tournament Team (2025)",
+            "South Regional All-Tournament Team (2025)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Danny_Wolf"
+        }
+      ]
     },
     {
       "id": "darius-morris",
@@ -124,16 +148,20 @@
       "position": "PG",
       "firstYear": 2010,
       "lastYear": 2011,
-      "bestSeason": 2011,
-      "stats": {
-        "pts": 15,
-        "reb": 4,
-        "ast": 6.7,
-        "stl": 1,
-        "blk": 0
-      },
-      "honors": ["Third-Team All-Big Ten (2011)"],
-      "source": "https://en.wikipedia.org/wiki/Darius_Morris"
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 15,
+            "reb": 4,
+            "ast": 6.7,
+            "stl": 1,
+            "blk": 0
+          },
+          "honors": ["Third-Team All-Big Ten (2011)"],
+          "source": "https://en.wikipedia.org/wiki/Darius_Morris"
+        }
+      ]
     },
     {
       "id": "derrick-walton-jr",
@@ -141,19 +169,23 @@
       "position": "PG",
       "firstYear": 2014,
       "lastYear": 2017,
-      "bestSeason": 2017,
-      "stats": {
-        "pts": 15.5,
-        "reb": 4.8,
-        "ast": 5,
-        "stl": 1.1,
-        "blk": 0
-      },
-      "honors": [
-        "Big Ten Tournament Most Outstanding Player (2017)",
-        "Second-Team All-Big Ten (2017)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 15.5,
+            "reb": 4.8,
+            "ast": 5,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [
+            "Big Ten Tournament Most Outstanding Player (2017)",
+            "Second-Team All-Big Ten (2017)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "deshawn-sims",
@@ -161,19 +193,23 @@
       "position": "PF",
       "firstYear": 2007,
       "lastYear": 2010,
-      "bestSeason": 2010,
-      "stats": {
-        "pts": 16.8,
-        "reb": 7.6,
-        "ast": 0.9,
-        "stl": 1.1,
-        "blk": 0.7
-      },
-      "honors": [
-        "Second-Team All-Big Ten (2009)",
-        "Second-Team All-Big Ten (2010)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 16.8,
+            "reb": 7.6,
+            "ast": 0.9,
+            "stl": 1.1,
+            "blk": 0.7
+          },
+          "honors": [
+            "Second-Team All-Big Ten (2009)",
+            "Second-Team All-Big Ten (2010)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "devante-jones",
@@ -181,16 +217,20 @@
       "position": "PG",
       "firstYear": 2022,
       "lastYear": 2022,
-      "bestSeason": 2022,
-      "stats": {
-        "pts": 10.3,
-        "reb": 4.5,
-        "ast": 4.6,
-        "stl": 0.9,
-        "blk": 0.1
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/DeVante%27_Jones"
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10.3,
+            "reb": 4.5,
+            "ast": 4.6,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/DeVante%27_Jones"
+        }
+      ]
     },
     {
       "id": "dion-harris",
@@ -198,19 +238,23 @@
       "position": "SG",
       "firstYear": 2004,
       "lastYear": 2007,
-      "bestSeason": 2005,
-      "stats": {
-        "pts": 14.3,
-        "reb": 2.8,
-        "ast": 3.5,
-        "stl": 1.1,
-        "blk": 0.2
-      },
-      "honors": [
-        "All-Big Ten Honorable Mention (2005)",
-        "All-Big Ten Third Team (2007)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dion_Harris"
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 14.3,
+            "reb": 2.8,
+            "ast": 3.5,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [
+            "All-Big Ten Honorable Mention (2005)",
+            "All-Big Ten Third Team (2007)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Dion_Harris"
+        }
+      ]
     },
     {
       "id": "dj-wilson",
@@ -218,16 +262,20 @@
       "position": "PF",
       "firstYear": 2015,
       "lastYear": 2017,
-      "bestSeason": 2017,
-      "stats": {
-        "pts": 11,
-        "reb": 5.3,
-        "ast": 1.3,
-        "stl": 0.5,
-        "blk": 1.5
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/D._J._Wilson"
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 11,
+            "reb": 5.3,
+            "ast": 1.3,
+            "stl": 0.5,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/D._J._Wilson"
+        }
+      ]
     },
     {
       "id": "dug-mcdaniel",
@@ -235,16 +283,20 @@
       "position": "PG",
       "firstYear": 2023,
       "lastYear": 2024,
-      "bestSeason": 2024,
-      "stats": {
-        "pts": 16.3,
-        "reb": 3.7,
-        "ast": 4.7,
-        "stl": 1.1,
-        "blk": 0
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Dug_McDaniel"
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 16.3,
+            "reb": 3.7,
+            "ast": 4.7,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Dug_McDaniel"
+        }
+      ]
     },
     {
       "id": "duncan-robinson",
@@ -252,16 +304,20 @@
       "position": "SF",
       "firstYear": 2016,
       "lastYear": 2018,
-      "bestSeason": 2016,
-      "stats": {
-        "pts": 11.2,
-        "reb": 3.5,
-        "ast": 1.8,
-        "stl": 0.6,
-        "blk": 0.2
-      },
-      "honors": ["Big Ten Sixth Man of the Year (2018)"],
-      "source": "https://en.wikipedia.org/wiki/Duncan_Robinson_(basketball)"
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.2,
+            "reb": 3.5,
+            "ast": 1.8,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": ["Big Ten Sixth Man of the Year (2018)"],
+          "source": "https://en.wikipedia.org/wiki/Duncan_Robinson_(basketball)"
+        }
+      ]
     },
     {
       "id": "ekpe-udoh",
@@ -269,16 +325,20 @@
       "position": "C",
       "firstYear": 2007,
       "lastYear": 2008,
-      "bestSeason": 2008,
-      "stats": {
-        "pts": 6,
-        "reb": 5,
-        "ast": 0.9,
-        "stl": 0.8,
-        "blk": 2.9
-      },
-      "honors": ["Big Ten All-Defensive Team (2008)"],
-      "source": "https://en.wikipedia.org/wiki/Ekpe_Udoh"
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 6,
+            "reb": 5,
+            "ast": 0.9,
+            "stl": 0.8,
+            "blk": 2.9
+          },
+          "honors": ["Big Ten All-Defensive Team (2008)"],
+          "source": "https://en.wikipedia.org/wiki/Ekpe_Udoh"
+        }
+      ]
     },
     {
       "id": "eli-brooks",
@@ -286,16 +346,20 @@
       "position": "SG",
       "firstYear": 2018,
       "lastYear": 2022,
-      "bestSeason": 2022,
-      "stats": {
-        "pts": 12.8,
-        "reb": 3.7,
-        "ast": 2.9,
-        "stl": 1.2,
-        "blk": 0.1
-      },
-      "honors": ["Honorable Mention All-Big Ten (2022)"],
-      "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 12.8,
+            "reb": 3.7,
+            "ast": 2.9,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": ["Honorable Mention All-Big Ten (2022)"],
+          "source": "https://en.wikipedia.org/wiki/Eli_Brooks"
+        }
+      ]
     },
     {
       "id": "franz-wagner",
@@ -303,19 +367,23 @@
       "position": "SF",
       "firstYear": 2020,
       "lastYear": 2021,
-      "bestSeason": 2021,
-      "stats": {
-        "pts": 12.5,
-        "reb": 6.5,
-        "ast": 3,
-        "stl": 1.3,
-        "blk": 1
-      },
-      "honors": [
-        "Big Ten All-Freshman Team (2020)",
-        "Second-Team All-Big Ten (2021)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Franz_Wagner"
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 12.5,
+            "reb": 6.5,
+            "ast": 3,
+            "stl": 1.3,
+            "blk": 1
+          },
+          "honors": [
+            "Big Ten All-Freshman Team (2020)",
+            "Second-Team All-Big Ten (2021)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Franz_Wagner"
+        }
+      ]
     },
     {
       "id": "glenn-robinson-iii",
@@ -323,16 +391,20 @@
       "position": "SF",
       "firstYear": 2013,
       "lastYear": 2014,
-      "bestSeason": 2014,
-      "stats": {
-        "pts": 13.1,
-        "reb": 4.4,
-        "ast": 1.2,
-        "stl": 0.9,
-        "blk": 0.3
-      },
-      "honors": ["Big Ten All-Freshman Team (2013)"],
-      "source": "https://en.wikipedia.org/wiki/Glenn_Robinson_III"
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 13.1,
+            "reb": 4.4,
+            "ast": 1.2,
+            "stl": 0.9,
+            "blk": 0.3
+          },
+          "honors": ["Big Ten All-Freshman Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/Glenn_Robinson_III"
+        }
+      ]
     },
     {
       "id": "graham-brown",
@@ -340,16 +412,20 @@
       "position": "PF",
       "firstYear": 2003,
       "lastYear": 2006,
-      "bestSeason": 2004,
-      "stats": {
-        "pts": 4.6,
-        "reb": 4.1,
-        "ast": 0.4,
-        "stl": 0.8,
-        "blk": 0.3
-      },
-      "honors": ["2004 NIT Championship team"],
-      "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 4.6,
+            "reb": 4.1,
+            "ast": 0.4,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": ["2004 NIT Championship team"],
+          "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "hunter-dickinson",
@@ -357,22 +433,26 @@
       "position": "C",
       "firstYear": 2021,
       "lastYear": 2023,
-      "bestSeason": 2022,
-      "stats": {
-        "pts": 18.6,
-        "reb": 8.6,
-        "ast": 2.3,
-        "stl": 0.5,
-        "blk": 1.5
-      },
-      "honors": [
-        "Big Ten Freshman of the Year (2021)",
-        "Consensus Second-Team All-American (2021)",
-        "First-Team All-Big Ten (2021)",
-        "Second-Team All-Big Ten (2022)",
-        "First-Team All-Big Ten (2023)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hunter_Dickinson"
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 18.6,
+            "reb": 8.6,
+            "ast": 2.3,
+            "stl": 0.5,
+            "blk": 1.5
+          },
+          "honors": [
+            "Big Ten Freshman of the Year (2021)",
+            "Consensus Second-Team All-American (2021)",
+            "First-Team All-Big Ten (2021)",
+            "Second-Team All-Big Ten (2022)",
+            "First-Team All-Big Ten (2023)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Hunter_Dickinson"
+        }
+      ]
     },
     {
       "id": "ignas-brazdeikis",
@@ -380,20 +460,24 @@
       "position": "SF",
       "firstYear": 2019,
       "lastYear": 2019,
-      "bestSeason": 2019,
-      "stats": {
-        "pts": 14.8,
-        "reb": 5.4,
-        "ast": 0.8,
-        "stl": 0.7,
-        "blk": 0.5
-      },
-      "honors": [
-        "Big Ten Freshman of the Year (2019)",
-        "Second-Team All-Big Ten (2019)",
-        "AP Honorable Mention All-American (2019)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ignas_Brazdeikis"
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 14.8,
+            "reb": 5.4,
+            "ast": 0.8,
+            "stl": 0.7,
+            "blk": 0.5
+          },
+          "honors": [
+            "Big Ten Freshman of the Year (2019)",
+            "Second-Team All-Big Ten (2019)",
+            "AP Honorable Mention All-American (2019)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Ignas_Brazdeikis"
+        }
+      ]
     },
     {
       "id": "isaiah-livers",
@@ -401,21 +485,25 @@
       "position": "PF",
       "firstYear": 2018,
       "lastYear": 2021,
-      "bestSeason": 2021,
-      "stats": {
-        "pts": 13.1,
-        "reb": 6,
-        "ast": 2,
-        "stl": 0.6,
-        "blk": 0.7
-      },
-      "honors": [
-        "Mr. Basketball of Michigan (2017)",
-        "2018 Big Ten Tournament Champion",
-        "2018 NCAA Tournament runner-up (team reached championship game)",
-        "Team captain 2020-21"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 13.1,
+            "reb": 6,
+            "ast": 2,
+            "stl": 0.6,
+            "blk": 0.7
+          },
+          "honors": [
+            "Mr. Basketball of Michigan (2017)",
+            "2018 Big Ten Tournament Champion",
+            "2018 NCAA Tournament runner-up (team reached championship game)",
+            "Team captain 2020-21"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Isaiah_Livers"
+        }
+      ]
     },
     {
       "id": "jalen-rose",
@@ -423,19 +511,23 @@
       "position": "PG",
       "firstYear": 1992,
       "lastYear": 1994,
-      "bestSeason": 1994,
-      "stats": {
-        "pts": 19.9,
-        "reb": 5.7,
-        "ast": 3.9,
-        "stl": 1.2,
-        "blk": 0.2
-      },
-      "honors": [
-        "Consensus Second-Team All-American (1994)",
-        "First-Team All-Big Ten (1994)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 19.9,
+            "reb": 5.7,
+            "ast": 3.9,
+            "stl": 1.2,
+            "blk": 0.2
+          },
+          "honors": [
+            "Consensus Second-Team All-American (1994)",
+            "First-Team All-Big Ten (1994)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+        }
+      ]
     },
     {
       "id": "jamal-crawford",
@@ -443,16 +535,20 @@
       "position": "SG",
       "firstYear": 2000,
       "lastYear": 2000,
-      "bestSeason": 2000,
-      "stats": {
-        "pts": 16.6,
-        "reb": 2.8,
-        "ast": 4.5,
-        "stl": 1.1,
-        "blk": 0.9
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Jamal_Crawford"
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 16.6,
+            "reb": 2.8,
+            "ast": 4.5,
+            "stl": 1.1,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Jamal_Crawford"
+        }
+      ]
     },
     {
       "id": "jimmy-king",
@@ -460,16 +556,20 @@
       "position": "SG",
       "firstYear": 1992,
       "lastYear": 1995,
-      "bestSeason": 1995,
-      "stats": {
-        "pts": 14.7,
-        "reb": 5,
-        "ast": 2.9,
-        "stl": 1.9,
-        "blk": 0.2
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 14.7,
+            "reb": 5,
+            "ast": 2.9,
+            "stl": 1.9,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+        }
+      ]
     },
     {
       "id": "jon-teske",
@@ -477,16 +577,20 @@
       "position": "C",
       "firstYear": 2017,
       "lastYear": 2020,
-      "bestSeason": 2020,
-      "stats": {
-        "pts": 11.6,
-        "reb": 6.7,
-        "ast": 1.1,
-        "stl": 1,
-        "blk": 1.8
-      },
-      "honors": ["Honorable Mention All-Big Ten (2019)"],
-      "source": "https://en.wikipedia.org/wiki/Jon_Teske"
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 11.6,
+            "reb": 6.7,
+            "ast": 1.1,
+            "stl": 1,
+            "blk": 1.8
+          },
+          "honors": ["Honorable Mention All-Big Ten (2019)"],
+          "source": "https://en.wikipedia.org/wiki/Jon_Teske"
+        }
+      ]
     },
     {
       "id": "jordan-morgan",
@@ -494,16 +598,20 @@
       "position": "C",
       "firstYear": 2011,
       "lastYear": 2014,
-      "bestSeason": 2011,
-      "stats": {
-        "pts": 9.2,
-        "reb": 5.4,
-        "ast": 0.5,
-        "stl": 0.6,
-        "blk": 0.5
-      },
-      "honors": ["Big Ten All-Defensive Team (2013)"],
-      "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 9.2,
+            "reb": 5.4,
+            "ast": 0.5,
+            "stl": 0.6,
+            "blk": 0.5
+          },
+          "honors": ["Big Ten All-Defensive Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "jordan-poole",
@@ -511,16 +619,20 @@
       "position": "SG",
       "firstYear": 2018,
       "lastYear": 2019,
-      "bestSeason": 2019,
-      "stats": {
-        "pts": 12.1,
-        "reb": 3,
-        "ast": 2.2,
-        "stl": 1.1,
-        "blk": 0.2
-      },
-      "honors": ["Honorable Mention All-Big Ten (2019)"],
-      "source": "https://en.wikipedia.org/wiki/Jordan_Poole"
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 12.1,
+            "reb": 3,
+            "ast": 2.2,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": ["Honorable Mention All-Big Ten (2019)"],
+          "source": "https://en.wikipedia.org/wiki/Jordan_Poole"
+        }
+      ]
     },
     {
       "id": "josh-asselin",
@@ -528,19 +640,23 @@
       "position": "PF",
       "firstYear": 1998,
       "lastYear": 2001,
-      "bestSeason": 2001,
-      "stats": {
-        "pts": 9.6,
-        "reb": 6,
-        "ast": 1.4,
-        "stl": 0.1,
-        "blk": 1.6
-      },
-      "honors": [
-        "Co-captain 2000-01",
-        "Career blocks top-10 all-time at Michigan (136 career blocks)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Josh_Asselin"
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 9.6,
+            "reb": 6,
+            "ast": 1.4,
+            "stl": 0.1,
+            "blk": 1.6
+          },
+          "honors": [
+            "Co-captain 2000-01",
+            "Career blocks top-10 all-time at Michigan (136 career blocks)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Josh_Asselin"
+        }
+      ]
     },
     {
       "id": "juwan-howard",
@@ -548,20 +664,24 @@
       "position": "PF",
       "firstYear": 1992,
       "lastYear": 1994,
-      "bestSeason": 1994,
-      "stats": {
-        "pts": 20.8,
-        "reb": 9,
-        "ast": 2.4,
-        "stl": 1.5,
-        "blk": 0.7
-      },
-      "honors": [
-        "AP Third-Team All-American (1994)",
-        "NABC Second-Team All-American (1994)",
-        "First-Team All-Big Ten (1994)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 20.8,
+            "reb": 9,
+            "ast": 2.4,
+            "stl": 1.5,
+            "blk": 0.7
+          },
+          "honors": [
+            "AP Third-Team All-American (1994)",
+            "NABC Second-Team All-American (1994)",
+            "First-Team All-Big Ten (1994)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+        }
+      ]
     },
     {
       "id": "kobe-bufkin",
@@ -569,19 +689,23 @@
       "position": "SG",
       "firstYear": 2022,
       "lastYear": 2023,
-      "bestSeason": 2023,
-      "stats": {
-        "pts": 14,
-        "reb": 4.5,
-        "ast": 2.9,
-        "stl": 1.3,
-        "blk": 0.7
-      },
-      "honors": [
-        "All-Big Ten Third-Team (2023)",
-        "All-Big Ten Honorable Mention (2023)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kobe_Bufkin"
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 14,
+            "reb": 4.5,
+            "ast": 2.9,
+            "stl": 1.3,
+            "blk": 0.7
+          },
+          "honors": [
+            "All-Big Ten Third-Team (2023)",
+            "All-Big Ten Honorable Mention (2023)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Kobe_Bufkin"
+        }
+      ]
     },
     {
       "id": "lavell-blanchard",
@@ -589,20 +713,24 @@
       "position": "SF",
       "firstYear": 2000,
       "lastYear": 2003,
-      "bestSeason": 2002,
-      "stats": {
-        "pts": 14.8,
-        "reb": 6.3,
-        "ast": 1.1,
-        "stl": 0.7,
-        "blk": 0.3
-      },
-      "honors": [
-        "Big Ten Freshman of the Year (2000)",
-        "Second-Team All-Big Ten (2001)",
-        "First-Team All-Big Ten (2003)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/LaVell_Blanchard"
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 14.8,
+            "reb": 6.3,
+            "ast": 1.1,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [
+            "Big Ten Freshman of the Year (2000)",
+            "Second-Team All-Big Ten (2001)",
+            "First-Team All-Big Ten (2003)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/LaVell_Blanchard"
+        }
+      ]
     },
     {
       "id": "lester-abram",
@@ -610,16 +738,20 @@
       "position": "SF",
       "firstYear": 2003,
       "lastYear": 2007,
-      "bestSeason": 2004,
-      "stats": {
-        "pts": 13.1,
-        "reb": 4.2,
-        "ast": 1.3,
-        "stl": 1,
-        "blk": 0.3
-      },
-      "honors": ["NIT Champion (2004)", "All-Big Ten Third Team (2004)"],
-      "source": "https://en.wikipedia.org/wiki/Lester_Abram"
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 13.1,
+            "reb": 4.2,
+            "ast": 1.3,
+            "stl": 1,
+            "blk": 0.3
+          },
+          "honors": ["NIT Champion (2004)", "All-Big Ten Third Team (2004)"],
+          "source": "https://en.wikipedia.org/wiki/Lester_Abram"
+        }
+      ]
     },
     {
       "id": "manny-harris",
@@ -627,16 +759,20 @@
       "position": "PG",
       "firstYear": 2008,
       "lastYear": 2010,
-      "bestSeason": 2010,
-      "stats": {
-        "pts": 18.1,
-        "reb": 6,
-        "ast": 4.1,
-        "stl": 1.8,
-        "blk": 0.4
-      },
-      "honors": ["First-Team All-Big Ten (2009)"],
-      "source": "https://en.wikipedia.org/wiki/Manny_Harris"
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 18.1,
+            "reb": 6,
+            "ast": 4.1,
+            "stl": 1.8,
+            "blk": 0.4
+          },
+          "honors": ["First-Team All-Big Ten (2009)"],
+          "source": "https://en.wikipedia.org/wiki/Manny_Harris"
+        }
+      ]
     },
     {
       "id": "mike-smith",
@@ -644,16 +780,20 @@
       "position": "PG",
       "firstYear": 2021,
       "lastYear": 2021,
-      "bestSeason": 2021,
-      "stats": {
-        "pts": 9,
-        "reb": 2.8,
-        "ast": 5.3,
-        "stl": 0.5,
-        "blk": 0
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Mike_Smith_(basketball,_born_1997)"
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 9,
+            "reb": 2.8,
+            "ast": 5.3,
+            "stl": 0.5,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Mike_Smith_(basketball,_born_1997)"
+        }
+      ]
     },
     {
       "id": "mitch-mcgary",
@@ -661,16 +801,20 @@
       "position": "C",
       "firstYear": 2013,
       "lastYear": 2014,
-      "bestSeason": 2014,
-      "stats": {
-        "pts": 9.5,
-        "reb": 8.2,
-        "ast": 1.5,
-        "stl": 0.4,
-        "blk": 0.2
-      },
-      "honors": ["NCAA South Regional All-Tournament Team (2013)"],
-      "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 9.5,
+            "reb": 8.2,
+            "ast": 1.5,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": ["NCAA South Regional All-Tournament Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "moritz-wagner",
@@ -678,20 +822,24 @@
       "position": "C",
       "firstYear": 2016,
       "lastYear": 2018,
-      "bestSeason": 2018,
-      "stats": {
-        "pts": 14.6,
-        "reb": 7.1,
-        "ast": 0.8,
-        "stl": 1,
-        "blk": 0.5
-      },
-      "honors": [
-        "Second-Team All-Big Ten (2018)",
-        "Big Ten Tournament Most Outstanding Player (2018)",
-        "Final Four All-Tournament Team (2018)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Moritz_Wagner_(basketball)"
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 14.6,
+            "reb": 7.1,
+            "ast": 0.8,
+            "stl": 1,
+            "blk": 0.5
+          },
+          "honors": [
+            "Second-Team All-Big Ten (2018)",
+            "Big Ten Tournament Most Outstanding Player (2018)",
+            "Final Four All-Tournament Team (2018)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Moritz_Wagner_(basketball)"
+        }
+      ]
     },
     {
       "id": "moussa-diabate",
@@ -699,16 +847,20 @@
       "position": "C",
       "firstYear": 2022,
       "lastYear": 2022,
-      "bestSeason": 2022,
-      "stats": {
-        "pts": 9,
-        "reb": 6,
-        "ast": 0.8,
-        "stl": 0.3,
-        "blk": 0.9
-      },
-      "honors": ["Big Ten All-Freshman Team (2022)"],
-      "source": "https://en.wikipedia.org/wiki/Moussa_Diabat%C3%A9"
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 9,
+            "reb": 6,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 0.9
+          },
+          "honors": ["Big Ten All-Freshman Team (2022)"],
+          "source": "https://en.wikipedia.org/wiki/Moussa_Diabat%C3%A9"
+        }
+      ]
     },
     {
       "id": "muhammad-ali-abdur-rahkman",
@@ -716,20 +868,24 @@
       "position": "SG",
       "firstYear": 2015,
       "lastYear": 2018,
-      "bestSeason": 2018,
-      "stats": {
-        "pts": 12.9,
-        "reb": 3.9,
-        "ast": 3.2,
-        "stl": 0.9,
-        "blk": 0.2
-      },
-      "honors": [
-        "Honorable Mention All-Big Ten (2018)",
-        "Big Ten Tournament All-Tournament Team (2018)",
-        "West Region All-Tournament Team (2018)"
-      ],
-      "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/3136492/muhammad-ali-abdur-rahkman"
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 12.9,
+            "reb": 3.9,
+            "ast": 3.2,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": [
+            "Honorable Mention All-Big Ten (2018)",
+            "Big Ten Tournament All-Tournament Team (2018)",
+            "West Region All-Tournament Team (2018)"
+          ],
+          "source": "https://www.espn.com/mens-college-basketball/player/stats/_/id/3136492/muhammad-ali-abdur-rahkman"
+        }
+      ]
     },
     {
       "id": "nik-stauskas",
@@ -737,20 +893,24 @@
       "position": "SG",
       "firstYear": 2013,
       "lastYear": 2014,
-      "bestSeason": 2014,
-      "stats": {
-        "pts": 17.5,
-        "reb": 2.9,
-        "ast": 3.3,
-        "stl": 0.6,
-        "blk": 0.3
-      },
-      "honors": [
-        "Consensus Second-Team All-American (2014)",
-        "Big Ten Player of the Year (2014)",
-        "First-Team All-Big Ten (2014)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Nik_Stauskas"
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 17.5,
+            "reb": 2.9,
+            "ast": 3.3,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [
+            "Consensus Second-Team All-American (2014)",
+            "Big Ten Player of the Year (2014)",
+            "First-Team All-Big Ten (2014)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Nik_Stauskas"
+        }
+      ]
     },
     {
       "id": "olivier-nkamhoua",
@@ -758,16 +918,20 @@
       "position": "PF",
       "firstYear": 2024,
       "lastYear": 2024,
-      "bestSeason": 2024,
-      "stats": {
-        "pts": 14.8,
-        "reb": 7.1,
-        "ast": 2.7,
-        "stl": 0.6,
-        "blk": 0.6
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Olivier_Nkamhoua"
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 14.8,
+            "reb": 7.1,
+            "ast": 2.7,
+            "stl": 0.6,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Olivier_Nkamhoua"
+        }
+      ]
     },
     {
       "id": "ray-jackson",
@@ -775,16 +939,20 @@
       "position": "SF",
       "firstYear": 1992,
       "lastYear": 1995,
-      "bestSeason": 1995,
-      "stats": {
-        "pts": 15.8,
-        "reb": 5.3,
-        "ast": 3,
-        "stl": 1.1,
-        "blk": 0.3
-      },
-      "honors": ["All-Big Ten (1994)", "All-Big Ten (1995)"],
-      "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 15.8,
+            "reb": 5.3,
+            "ast": 3,
+            "stl": 1.1,
+            "blk": 0.3
+          },
+          "honors": ["All-Big Ten (1994)", "All-Big Ten (1995)"],
+          "source": "https://en.wikipedia.org/wiki/Fab_Five_(University_of_Michigan)"
+        }
+      ]
     },
     {
       "id": "robbie-reid",
@@ -792,18 +960,22 @@
       "position": "PG",
       "firstYear": 1998,
       "lastYear": 1999,
-      "bestSeason": 1999,
-      "stats": {
-        "pts": 13.5,
-        "reb": 3.4,
-        "ast": 3.1,
-        "stl": 1.1,
-        "blk": 0
-      },
-      "honors": [
-        "Led Big Ten in 3-point FG made in conference play (49) and 3-point FG% in conference play (45.8%) – 1998-99"
-      ],
-      "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 13.5,
+            "reb": 3.4,
+            "ast": 3.1,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [
+            "Led Big Ten in 3-point FG made in conference play (49) and 3-point FG% in conference play (45.8%) – 1998-99"
+          ],
+          "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "robert-traylor",
@@ -811,20 +983,24 @@
       "position": "C",
       "firstYear": 1996,
       "lastYear": 1998,
-      "bestSeason": 1998,
-      "stats": {
-        "pts": 16.2,
-        "reb": 10.1,
-        "ast": 2.6,
-        "stl": 1.3,
-        "blk": 1.4
-      },
-      "honors": [
-        "NABC Third-Team All-American (1998)",
-        "Big Ten Tournament MVP (1998, vacated)",
-        "McDonald's All-American (1995)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Robert_Traylor"
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 16.2,
+            "reb": 10.1,
+            "ast": 2.6,
+            "stl": 1.3,
+            "blk": 1.4
+          },
+          "honors": [
+            "NABC Third-Team All-American (1998)",
+            "Big Ten Tournament MVP (1998, vacated)",
+            "McDonald's All-American (1995)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Robert_Traylor"
+        }
+      ]
     },
     {
       "id": "roddy-gayle-jr",
@@ -832,16 +1008,20 @@
       "position": "SG",
       "firstYear": 2025,
       "lastYear": 2025,
-      "bestSeason": 2025,
-      "stats": {
-        "pts": 9.8,
-        "reb": 3.4,
-        "ast": 2.2,
-        "stl": 0.8,
-        "blk": 0.2
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Roddy_Gayle_Jr."
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 9.8,
+            "reb": 3.4,
+            "ast": 2.2,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Roddy_Gayle_Jr."
+        }
+      ]
     },
     {
       "id": "spike-albrecht",
@@ -849,16 +1029,20 @@
       "position": "PG",
       "firstYear": 2013,
       "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "pts": 7.5,
-        "reb": 2.3,
-        "ast": 3.9,
-        "stl": 0.9,
-        "blk": 0
-      },
-      "honors": ["NCAA Tournament All-Tournament Team (2013)"],
-      "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 7.5,
+            "reb": 2.3,
+            "ast": 3.9,
+            "stl": 0.9,
+            "blk": 0
+          },
+          "honors": ["NCAA Tournament All-Tournament Team (2013)"],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "tim-hardaway-jr",
@@ -866,16 +1050,20 @@
       "position": "SG",
       "firstYear": 2011,
       "lastYear": 2013,
-      "bestSeason": 2013,
-      "stats": {
-        "pts": 14.5,
-        "reb": 4.7,
-        "ast": 2.4,
-        "stl": 0.7,
-        "blk": 0.4
-      },
-      "honors": ["First-Team All-Big Ten (2013)"],
-      "source": "https://en.wikipedia.org/wiki/Tim_Hardaway_Jr."
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 14.5,
+            "reb": 4.7,
+            "ast": 2.4,
+            "stl": 0.7,
+            "blk": 0.4
+          },
+          "honors": ["First-Team All-Big Ten (2013)"],
+          "source": "https://en.wikipedia.org/wiki/Tim_Hardaway_Jr."
+        }
+      ]
     },
     {
       "id": "tre-donaldson",
@@ -883,16 +1071,20 @@
       "position": "PG",
       "firstYear": 2025,
       "lastYear": 2025,
-      "bestSeason": 2025,
-      "stats": {
-        "pts": 11.3,
-        "reb": 3.5,
-        "ast": 4.1,
-        "stl": 1,
-        "blk": 0.1
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/Tre_Donaldson"
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 11.3,
+            "reb": 3.5,
+            "ast": 4.1,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/Tre_Donaldson"
+        }
+      ]
     },
     {
       "id": "trey-burke",
@@ -900,24 +1092,28 @@
       "position": "PG",
       "firstYear": 2012,
       "lastYear": 2013,
-      "bestSeason": 2013,
-      "stats": {
-        "pts": 18.6,
-        "reb": 3.2,
-        "ast": 6.7,
-        "stl": 1.6,
-        "blk": 0.5
-      },
-      "honors": [
-        "Wooden Award (2013)",
-        "Naismith Player of the Year (2013)",
-        "Oscar Robertson Trophy (2013)",
-        "Bob Cousy Award (2013)",
-        "Consensus First-Team All-American (2013)",
-        "Big Ten Player of the Year (2013)",
-        "Big Ten Freshman of the Year (2012)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Trey_Burke"
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 18.6,
+            "reb": 3.2,
+            "ast": 6.7,
+            "stl": 1.6,
+            "blk": 0.5
+          },
+          "honors": [
+            "Wooden Award (2013)",
+            "Naismith Player of the Year (2013)",
+            "Oscar Robertson Trophy (2013)",
+            "Bob Cousy Award (2013)",
+            "Consensus First-Team All-American (2013)",
+            "Big Ten Player of the Year (2013)",
+            "Big Ten Freshman of the Year (2012)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Trey_Burke"
+        }
+      ]
     },
     {
       "id": "vladislav-goldin",
@@ -925,19 +1121,23 @@
       "position": "C",
       "firstYear": 2025,
       "lastYear": 2025,
-      "bestSeason": 2025,
-      "stats": {
-        "pts": 16.6,
-        "reb": 7,
-        "ast": 1.1,
-        "stl": 0.5,
-        "blk": 1.4
-      },
-      "honors": [
-        "First-Team All-Big Ten (2025)",
-        "Big Ten Tournament MVP (2025)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Vladislav_Goldin"
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 16.6,
+            "reb": 7,
+            "ast": 1.1,
+            "stl": 0.5,
+            "blk": 1.4
+          },
+          "honors": [
+            "First-Team All-Big Ten (2025)",
+            "Big Ten Tournament MVP (2025)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Vladislav_Goldin"
+        }
+      ]
     },
     {
       "id": "zack-novak",
@@ -945,16 +1145,20 @@
       "position": "SF",
       "firstYear": 2009,
       "lastYear": 2012,
-      "bestSeason": 2012,
-      "stats": {
-        "pts": 9.2,
-        "reb": 4.5,
-        "ast": 1.8,
-        "stl": 0.8,
-        "blk": 0.1
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 9.2,
+            "reb": 4.5,
+            "ast": 1.8,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "zak-irvin",
@@ -962,16 +1166,20 @@
       "position": "SG",
       "firstYear": 2014,
       "lastYear": 2017,
-      "bestSeason": 2015,
-      "stats": {
-        "pts": 14.2,
-        "reb": 4.8,
-        "ast": 1.5,
-        "stl": 1,
-        "blk": 0.1
-      },
-      "honors": [],
-      "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 14.2,
+            "reb": 4.8,
+            "ast": 1.5,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Michigan_Wolverines_men%27s_basketball_team"
+        }
+      ]
     },
     {
       "id": "zavier-simpson",
@@ -979,20 +1187,24 @@
       "position": "PG",
       "firstYear": 2017,
       "lastYear": 2020,
-      "bestSeason": 2020,
-      "stats": {
-        "pts": 12.9,
-        "reb": 4.5,
-        "ast": 7.9,
-        "stl": 1,
-        "blk": 0.1
-      },
-      "honors": [
-        "Second-Team All-Big Ten (2019)",
-        "Second-Team All-Big Ten (2020)",
-        "Big Ten All-Defensive Team (2019)"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 12.9,
+            "reb": 4.5,
+            "ast": 7.9,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [
+            "Second-Team All-Big Ten (2019)",
+            "Second-Team All-Big Ten (2020)",
+            "Big Ten All-Defensive Team (2019)"
+          ],
+          "source": "https://en.wikipedia.org/wiki/Zavier_Simpson"
+        }
+      ]
     }
   ]
 }

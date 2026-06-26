@@ -8,7 +8,14 @@
 //   • "no weak links" — one bad starter drags the record down,
 //   • the team's strength maps to a projected record out of N games.
 
-import type { BballPlayer, BballPosition, BballStats } from '../types'
+import type {
+  BballPlayer,
+  BballPosition,
+  BballSeason,
+  BballSeasonStats,
+  BballStats,
+  YearWindow,
+} from '../types'
 
 // ── Per-player rating ────────────────────────────────────────────────────────
 //
@@ -57,24 +64,103 @@ export function honorsBonus(honors: string[]): number {
   return honors.reduce((sum, h) => sum + honorTier(h), 0)
 }
 
-export function statComposite(stats: BballStats): number {
+/**
+ * Stat composite. Accepts a PARTIAL line — a missing field counts as 0 (the
+ * data policy allows partial lines for role players; rating must degrade
+ * gracefully rather than NaN).
+ */
+export function statComposite(stats: BballSeasonStats): number {
   return (
-    stats.pts * STAT_WEIGHTS.pts +
-    stats.reb * STAT_WEIGHTS.reb +
-    stats.ast * STAT_WEIGHTS.ast +
-    stats.stl * STAT_WEIGHTS.stl +
-    stats.blk * STAT_WEIGHTS.blk
+    (stats.pts ?? 0) * STAT_WEIGHTS.pts +
+    (stats.reb ?? 0) * STAT_WEIGHTS.reb +
+    (stats.ast ?? 0) * STAT_WEIGHTS.ast +
+    (stats.stl ?? 0) * STAT_WEIGHTS.stl +
+    (stats.blk ?? 0) * STAT_WEIGHTS.blk
   )
 }
 
-/**
- * Player rating in [0,100]. Diminishing-returns curve so elite seasons separate
- * at the top without an arbitrary hard cap. rating = 100·(1 − e^(−composite/scale)).
- */
-export function playerRating(player: BballPlayer): number {
-  const composite = statComposite(player.stats) + honorsBonus(player.honors)
+/** A single season's composite (stat line + that season's honors). */
+export function seasonComposite(season: BballSeason): number {
+  return statComposite(season.stats) + honorsBonus(season.honors)
+}
+
+/** Map a raw composite onto the [0,100] diminishing-returns curve. */
+function curve(composite: number): number {
   const r = 100 * (1 - Math.exp(-composite / RATING_SCALE))
   return Math.round(Math.max(0, Math.min(100, r)))
+}
+
+/**
+ * Rating in [0,100] for ONE season. Diminishing-returns curve so elite seasons
+ * separate at the top without an arbitrary hard cap.
+ */
+export function seasonRating(season: BballSeason): number {
+  return curve(seasonComposite(season))
+}
+
+/**
+ * The player's highest-rated season overall (career best). Null if none.
+ * Ties resolve to the EARLIER season (strict `>`, seasons are oldest-first).
+ */
+export function bestSeason(player: BballPlayer): BballSeason | null {
+  let best: BballSeason | null = null
+  let bestC = -Infinity
+  for (const s of player.seasons) {
+    const c = seasonComposite(s)
+    if (c > bestC) {
+      bestC = c
+      best = s
+    }
+  }
+  return best
+}
+
+/**
+ * The player's best season whose `year` falls INSIDE the window. This is the
+ * spec'd behavior: a 2010–2013 window may only credit a player's 2010–2013
+ * seasons, never a later peak. Null when the player has no season row in-window.
+ * Ties resolve to the EARLIER season (strict `>`, seasons are oldest-first).
+ */
+export function bestSeasonInWindow(
+  player: BballPlayer,
+  w: YearWindow,
+): BballSeason | null {
+  let best: BballSeason | null = null
+  let bestC = -Infinity
+  for (const s of player.seasons) {
+    if (s.year < w.start || s.year > w.end) continue
+    const c = seasonComposite(s)
+    if (c > bestC) {
+      bestC = c
+      best = s
+    }
+  }
+  return best
+}
+
+/**
+ * The season to represent a player by within a window: their best IN-window
+ * season, or — only as a transitional fallback while season coverage is still
+ * being backfilled — their career-best season. Once every player carries a row
+ * for each window their tenure overlaps, the fallback never fires and this is
+ * exactly {@link bestSeasonInWindow}. Null only for a player with no seasons
+ * (which the dataset guard forbids).
+ */
+export function seasonForWindow(
+  player: BballPlayer,
+  w: YearWindow,
+): BballSeason | null {
+  return bestSeasonInWindow(player, w) ?? bestSeason(player)
+}
+
+/**
+ * Player rating in [0,100]. With a window, rate the player's best season within
+ * it (transitional fallback to career-best); without one, rate their career
+ * best. 0 for a player with no seasons.
+ */
+export function playerRating(player: BballPlayer, w?: YearWindow): number {
+  const season = w ? seasonForWindow(player, w) : bestSeason(player)
+  return season ? seasonRating(season) : 0
 }
 
 // ── Team strength & projected record ─────────────────────────────────────────

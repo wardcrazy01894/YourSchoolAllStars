@@ -20,10 +20,14 @@ function mk(
     position,
     firstYear: first,
     lastYear: last,
-    bestSeason: last,
-    stats: { pts: 10, reb: 4, ast: 3, stl: 1, blk: 0.5 },
-    honors: [],
-    source: 'test',
+    seasons: [
+      {
+        year: last,
+        stats: { pts: 10, reb: 4, ast: 3, stl: 1, blk: 0.5 },
+        honors: [],
+        source: 'test',
+      },
+    ],
   }
 }
 

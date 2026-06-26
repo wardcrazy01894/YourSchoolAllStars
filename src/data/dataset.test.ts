@@ -4,7 +4,7 @@
 import { describe, it, expect } from 'vitest'
 import { michiganBasketball } from './index'
 import { BBALL_WINDOWS, playerInWindow } from '../lib/windows'
-import { BBALL_POSITIONS } from '../types'
+import { BBALL_POSITIONS, eligiblePositions } from '../types'
 
 const { players } = michiganBasketball
 
@@ -22,14 +22,22 @@ describe('michigan basketball dataset', () => {
     for (const p of players) {
       expect(BBALL_POSITIONS).toContain(p.position)
       expect(p.firstYear).toBeLessThanOrEqual(p.lastYear)
-      expect(p.bestSeason).toBeGreaterThanOrEqual(p.firstYear)
-      expect(p.bestSeason).toBeLessThanOrEqual(p.lastYear)
-      for (const v of Object.values(p.stats)) {
-        expect(typeof v).toBe('number')
-        expect(v).toBeGreaterThanOrEqual(0)
+      // Always at least one season; each season is in-tenure and well-formed.
+      expect(p.seasons.length).toBeGreaterThan(0)
+      for (const s of p.seasons) {
+        expect(s.year).toBeGreaterThanOrEqual(p.firstYear)
+        expect(s.year).toBeLessThanOrEqual(p.lastYear)
+        // Stats are PARTIAL by policy — but any present value is a number ≥ 0.
+        for (const v of Object.values(s.stats)) {
+          expect(typeof v).toBe('number')
+          expect(v).toBeGreaterThanOrEqual(0)
+        }
+        expect(s.source.length).toBeGreaterThan(0)
+        expect(Array.isArray(s.honors)).toBe(true)
       }
-      expect(p.source.length).toBeGreaterThan(0)
-      expect(Array.isArray(p.honors)).toBe(true)
+      // Season years are unique within a player (no duplicate season rows).
+      const years = p.seasons.map((s) => s.year)
+      expect(new Set(years).size).toBe(years.length)
     }
   })
 
@@ -46,8 +54,11 @@ describe('michigan basketball dataset', () => {
     const gaps: string[] = []
     for (const w of BBALL_WINDOWS) {
       for (const pos of BBALL_POSITIONS) {
+        // Count alt-eligible players too — a PG/SG combo guard genuinely covers
+        // SG in the engine, so coverage must use eligiblePositions, not just the
+        // primary position (else the test reports a phantom gap the game lacks).
         const count = players.filter(
-          (p) => p.position === pos && playerInWindow(p, w),
+          (p) => eligiblePositions(p).includes(pos) && playerInWindow(p, w),
         ).length
         if (count === 0) gaps.push(`${w.start}-${w.end}/${pos}`)
       }

@@ -3,18 +3,28 @@ import {
   statComposite,
   honorsBonus,
   playerRating,
+  bestSeason,
+  bestSeasonInWindow,
+  seasonForWindow,
   teamStrength,
   winProbability,
   projectedWins,
   recordLabel,
   gradeLabel,
 } from './rating'
-import type { BballPlayer, BballPosition } from '../types'
+import type {
+  BballPlayer,
+  BballPosition,
+  BballSeason,
+  BballSeasonStats,
+} from '../types'
 
+/** A single-season player (the common case in the migrated dataset). */
 function mk(
   position: BballPosition,
-  stats: BballPlayer['stats'],
+  stats: BballSeasonStats,
   honors: string[] = [],
+  year = 2013,
 ): BballPlayer {
   return {
     id: 'x',
@@ -22,10 +32,23 @@ function mk(
     position,
     firstYear: 2010,
     lastYear: 2013,
-    bestSeason: 2013,
-    stats,
-    honors,
-    source: 'test',
+    seasons: [{ year, stats, honors, source: 'test' }],
+  }
+}
+
+/** A multi-season player. */
+function mkSeasons(
+  position: BballPosition,
+  seasons: BballSeason[],
+): BballPlayer {
+  const years = seasons.map((s) => s.year)
+  return {
+    id: 'x',
+    name: 'x',
+    position,
+    firstYear: Math.min(...years),
+    lastYear: Math.max(...years),
+    seasons,
   }
 }
 
@@ -78,6 +101,59 @@ describe('playerRating', () => {
       'Consensus All-American',
     ])
     expect(playerRating(withHonor)).toBeGreaterThan(playerRating(base))
+  })
+})
+
+describe('partial stat lines', () => {
+  it('treats a missing field as 0 (no NaN)', () => {
+    // Only points published — the rest are unknown, not zero-by-fiat, but the
+    // composite must degrade gracefully to a finite number.
+    expect(statComposite({ pts: 10 })).toBe(10)
+    expect(statComposite({})).toBe(0)
+    const r = playerRating(mk('SG', { pts: 12 }))
+    expect(Number.isFinite(r)).toBe(true)
+    expect(r).toBeGreaterThan(0)
+  })
+})
+
+describe('best season within a window', () => {
+  const player = mkSeasons('SF', [
+    { year: 2010, stats: { pts: 8 }, honors: [], source: 't' },
+    { year: 2013, stats: { pts: 20 }, honors: [], source: 't' }, // career peak
+    { year: 2016, stats: { pts: 14 }, honors: [], source: 't' },
+  ])
+
+  it('bestSeason is the career peak', () => {
+    expect(bestSeason(player)?.year).toBe(2013)
+  })
+
+  it('bestSeasonInWindow only considers in-window seasons', () => {
+    // 2014–2017 window may NOT credit the 2013 peak — only the 2016 line.
+    expect(bestSeasonInWindow(player, { start: 2014, end: 2017 })?.year).toBe(
+      2016,
+    )
+    // 2009–2012 window only sees 2010.
+    expect(bestSeasonInWindow(player, { start: 2009, end: 2012 })?.year).toBe(
+      2010,
+    )
+    // A window with no season row → null.
+    expect(bestSeasonInWindow(player, { start: 2017, end: 2020 })).toBe(null)
+  })
+
+  it('playerRating(window) rates the in-window best, not the career peak', () => {
+    const peak = playerRating(player, { start: 2012, end: 2015 }) // sees 2013
+    const lull = playerRating(player, { start: 2014, end: 2017 }) // sees 2016
+    expect(peak).toBeGreaterThan(lull)
+  })
+
+  it('seasonForWindow falls back to career-best when no row is in-window', () => {
+    // Transitional: a single-best-season player still appears (by tenure) in a
+    // window their one row falls outside of — they get their best line, not 0.
+    const single = mk('PG', { pts: 18, reb: 4, ast: 6 }, [], 2013)
+    expect(seasonForWindow(single, { start: 2010, end: 2011 })?.year).toBe(2013)
+    expect(playerRating(single, { start: 2010, end: 2011 })).toBe(
+      playerRating(single),
+    )
   })
 })
 

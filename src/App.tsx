@@ -1,7 +1,13 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
 import { BBALL_POSITIONS, windowLabel, eligiblePositions } from './types'
-import type { BballPlayer, BballPosition, BballStats } from './types'
+import type {
+  BballPlayer,
+  BballPosition,
+  BballSeason,
+  BballStats,
+  YearWindow,
+} from './types'
 import {
   getSchool,
   applyTheme,
@@ -32,6 +38,8 @@ import {
 } from './lib/game'
 import {
   playerRating,
+  bestSeason,
+  seasonForWindow,
   teamStrength,
   projectedWins,
   recordLabel,
@@ -50,6 +58,31 @@ const STAT_COLS: { key: StatKey; label: string }[] = [
   { key: 'stl', label: 'STL' },
   { key: 'blk', label: 'BLK' },
 ]
+
+/** The season to show/rate for a player, given the era they're seen in. */
+function seasonFor(p: BballPlayer, w?: YearWindow): BballSeason | null {
+  return w ? seasonForWindow(p, w) : bestSeason(p)
+}
+
+/** Map each filled position to the era window its player was drafted from. */
+function windowByPosition(
+  picks: { position: BballPosition; window: YearWindow }[],
+): Partial<Record<BballPosition, YearWindow>> {
+  const m: Partial<Record<BballPosition, YearWindow>> = {}
+  for (const pk of picks) m[pk.position] = pk.window
+  return m
+}
+
+/** Stat cell: a missing (unpublished) value shows as an em dash, not 0.0. */
+function fmtStat(season: BballSeason | null, key: StatKey): string {
+  const v = season?.stats[key]
+  return v === undefined ? '—' : v.toFixed(1)
+}
+
+/** Year chip from a season, e.g. "'13"; em dash when there's no season. */
+function fmtYear(season: BballSeason | null): string {
+  return season ? `'${String(season.year).slice(2)}` : '—'
+}
 
 const SCHOOL_STORAGE_KEY = 'ysas:school'
 
@@ -173,9 +206,16 @@ function Game({ school, onExit }: { school: School; onExit: () => void }) {
 
   function finish(s: DraftState) {
     setPhase('done')
-    const rated = BBALL_POSITIONS.map((pos) => s.slots[pos])
-      .filter((p): p is BballPlayer => p !== null)
-      .map((p) => ({ position: p.position, rating: playerRating(p) }))
+    const winByPos = windowByPosition(s.picks)
+    // Rate each player AS THE SLOT they fill: an alt-eligible player (combo
+    // guard → SG) is keyed by slot in `winByPos`, and takes the slot's position
+    // weight. Keying by `p.position` would miss the window and mis-weight them.
+    const rated = BBALL_POSITIONS.filter((pos) => s.slots[pos] !== null).map(
+      (pos) => ({
+        position: pos,
+        rating: playerRating(s.slots[pos]!, winByPos[pos]),
+      }),
+    )
     const grade = gradeLabel(projectedWins(rated, GAMES), GAMES)
     if (grade === 'PERFECT' || grade === 'HISTORIC' || grade === 'ELITE') {
       confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
@@ -245,10 +285,13 @@ function Landing({
 
 function RosterRail({
   slots,
+  windows,
   targetable,
   onPlace,
 }: {
   slots: DraftState['slots']
+  /** Era each filled slot was drafted from, so its rating matches the pick. */
+  windows?: Partial<Record<BballPosition, YearWindow>>
   targetable?: BballPosition[]
   onPlace?: (pos: BballPosition) => void
 }) {
@@ -269,7 +312,7 @@ function RosterRail({
             {p ? (
               <>
                 <div className="pname">{p.name}</div>
-                <div className="prate">{playerRating(p)}</div>
+                <div className="prate">{playerRating(p, windows?.[pos])}</div>
               </>
             ) : (
               <div className="pname muted">
@@ -306,13 +349,14 @@ function Playing({
   const targetSlots = selected ? eligibleOpenSlots(state, selected) : []
   const skipsLeft = safeSkipsLeft(state)
 
-  // Group players by primary position, sorted within group by points.
+  // Group players by primary position, sorted within group by IN-WINDOW points.
+  const ptsIn = (p: BballPlayer) => seasonFor(p, w ?? undefined)?.stats.pts ?? 0
   const groups = BBALL_POSITIONS.map((pos) => ({
     pos,
     filled: state.slots[pos] !== null,
     players: era
       .filter((p) => p.position === pos)
-      .sort((a, b) => b.stats.pts - a.stats.pts),
+      .sort((a, b) => ptsIn(b) - ptsIn(a)),
   })).filter((g) => g.players.length > 0)
 
   function place(pos: BballPosition) {
@@ -366,6 +410,7 @@ function Playing({
     <section>
       <RosterRail
         slots={state.slots}
+        windows={windowByPosition(state.picks)}
         targetable={targetSlots}
         onPlace={place}
       />
@@ -446,6 +491,7 @@ function Playing({
                     const alt = eligiblePositions(p).filter(
                       (x) => x !== p.position,
                     )
+                    const s = seasonFor(p, w ?? undefined)
                     return (
                       <tr
                         key={p.id}
@@ -457,15 +503,15 @@ function Playing({
                           {alt.length > 0 && (
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
-                          {p.honors.length > 0 && (
-                            <span className="honor" title={p.honors.join(', ')}>
+                          {s && s.honors.length > 0 && (
+                            <span className="honor" title={s.honors.join(', ')}>
                               ★
                             </span>
                           )}
                         </td>
-                        <td className="yr">'{String(p.bestSeason).slice(2)}</td>
+                        <td className="yr">{fmtYear(s)}</td>
                         {STAT_COLS.map((c) => (
-                          <td key={c.key}>{p.stats[c.key].toFixed(1)}</td>
+                          <td key={c.key}>{fmtStat(s, c.key)}</td>
                         ))}
                       </tr>
                     )
@@ -489,9 +535,15 @@ function Results({
   state: DraftState
   dateKey: string
 }) {
-  const rated = BBALL_POSITIONS.map((pos) => state.slots[pos])
-    .filter((p): p is BballPlayer => p !== null)
-    .map((p) => ({ position: p.position, rating: playerRating(p) }))
+  const winByPos = windowByPosition(state.picks)
+  // Rate each player as the slot they fill (matches the per-row RTG column and
+  // the draft-time window); see the same note in `finish`.
+  const rated = BBALL_POSITIONS.filter((pos) => state.slots[pos] !== null).map(
+    (pos) => ({
+      position: pos,
+      rating: playerRating(state.slots[pos]!, winByPos[pos]),
+    }),
+  )
   const strength = Math.round(teamStrength(rated))
   const wins = projectedWins(rated, GAMES)
   const grade = gradeLabel(wins, GAMES)
@@ -499,7 +551,7 @@ function Results({
   const ratingsByPosition = Object.fromEntries(
     BBALL_POSITIONS.map((pos) => [
       pos,
-      state.slots[pos] ? playerRating(state.slots[pos]!) : null,
+      state.slots[pos] ? playerRating(state.slots[pos]!, winByPos[pos]) : null,
     ]),
   ) as Record<BballPosition, number | null>
 
@@ -531,7 +583,7 @@ function Results({
         <p className="muted">Team strength {strength} / 100</p>
       </div>
 
-      <RosterRail slots={state.slots} />
+      <RosterRail slots={state.slots} windows={winByPos} />
 
       <div className="card" style={{ marginTop: 16 }}>
         <table className="pool">
@@ -548,19 +600,18 @@ function Results({
           <tbody>
             {BBALL_POSITIONS.map((pos) => {
               const p = state.slots[pos]
+              const s = p ? seasonFor(p, winByPos[pos]) : null
               return (
                 <tr key={pos}>
                   <td className="name">
                     <span className="pos-chip">{pos}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
                   </td>
-                  <td className="yr">
-                    {p ? `'${String(p.bestSeason).slice(2)}` : '—'}
-                  </td>
+                  <td className="yr">{fmtYear(s)}</td>
                   {STAT_COLS.map((c) => (
-                    <td key={c.key}>{p ? p.stats[c.key].toFixed(1) : '—'}</td>
+                    <td key={c.key}>{p ? fmtStat(s, c.key) : '—'}</td>
                   ))}
-                  <td>{p ? playerRating(p) : '—'}</td>
+                  <td>{p ? playerRating(p, winByPos[pos]) : '—'}</td>
                 </tr>
               )
             })}
