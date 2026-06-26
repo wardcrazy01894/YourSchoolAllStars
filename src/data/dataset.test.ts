@@ -21,6 +21,17 @@ describe('michigan basketball dataset', () => {
   it('every row is well-formed', () => {
     for (const p of players) {
       expect(BBALL_POSITIONS).toContain(p.position)
+      // `eligible` is the COMPLETE set of slots a player may fill (it replaces
+      // the [position] default, not adds to it), and it feeds the coverage
+      // guards — so a typo'd entry would silently never match and quietly
+      // under-cover. Every listed slot must be a real position.
+      if (p.eligible) {
+        for (const e of p.eligible) expect(BBALL_POSITIONS).toContain(e)
+        // ...and it must INCLUDE the primary position — `eligible` REPLACES the
+        // [position] default (it isn't additive), so omitting the primary would
+        // silently strip the player from their own primary slot's coverage.
+        expect(p.eligible).toContain(p.position)
+      }
       expect(p.firstYear).toBeLessThanOrEqual(p.lastYear)
       // Always at least one season; each season is in-tenure and well-formed.
       expect(p.seasons.length).toBeGreaterThan(0)

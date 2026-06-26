@@ -49,13 +49,16 @@ incomplete.
 
 ## Data integrity — NO fabricated stats
 
-This is a stats game; wrong numbers poison it. **Every player row must carry a
-real `source`** (a URL it was taken/verified from). If a stat can't be found,
-omit the player — accuracy over completeness. The dataset guard test
-(`src/data/dataset.test.ts`) enforces shape, uniqueness, and window coverage.
-Prefer license-clean sources (Wikipedia CC-BY-SA, official `mgoblue.com` record
-books). Sports-Reference's ToS forbids building a game on their data — read it to
-verify a number, don't redistribute their database. See `docs/DATA-SOURCING.md`.
+This is a stats game; wrong numbers poison it. **Every season row must carry a
+real `source`** (a URL it was taken/verified from) — never fabricate a number.
+Prefer the highest-priority source that has it: **UMich statsarchive → Wikipedia
+(CC-BY-SA) → mgoblue.com → ESPN**. **Sports-Reference** is fine both to verify and
+as a cited `source` for a long-tail player no higher-priority source covers — a
+hand-picked factual line is OK; bulk-scraping or mirroring their database is not.
+So **don't drop a real player just because only SR has the number** — completeness
+matters too. The dataset guard test (`src/data/dataset.test.ts`) enforces shape,
+uniqueness, ≥1 stat per row, and both coverage guards. Full policy + rationale:
+`docs/DATA-SOURCING.md`.
 
 ## Local commands
 
