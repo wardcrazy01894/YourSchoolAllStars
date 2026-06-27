@@ -9,6 +9,7 @@ import {
   northCarolinaBasketball,
   floridaBasketball,
   vcuBasketball,
+  pittsburghBasketball,
   type Dataset,
   type FootballDataset,
 } from './data'
@@ -136,10 +137,10 @@ export const SCHOOLS: School[] = [
       accent: '#ffb81c',
       ink: '#06122e',
     },
-    basketball: undefined,
+    basketball: pittsburghBasketball,
     hasFootball: true,
     power5: true,
-    available: false,
+    available: true,
   },
   {
     id: 'vcu',
