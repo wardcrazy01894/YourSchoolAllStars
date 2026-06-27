@@ -100,6 +100,19 @@ export function modesForSport(sport: SportId): ModeConfig[] {
 }
 
 /**
+ * Whether `sport` actually offers mode `id`. `isGameMode` only checks that `id`
+ * is SOME real mode; this is the per-sport gate. Use it on a `?mode=` URL param
+ * (e.g. reject `?sport=basketball&mode=gridiron-iq`) so a cross-sport id can't
+ * skip the menu and mislabel the header/share with the other sport's mode.
+ */
+export function sportOffersMode(
+  sport: SportId,
+  id: string | null | undefined,
+): boolean {
+  return modesForSport(sport).some((m) => m.id === id)
+}
+
+/**
  * A fresh unsigned-32-bit seed for a replayable (non-daily) game. Non-deterministic
  * by design — each Classic/Hoops IQ play draws a different era sequence. Daily uses
  * `seedFor(dateKey, …)` instead so its sequence is stable for the whole ET day.

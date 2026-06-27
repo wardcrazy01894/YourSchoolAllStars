@@ -5,6 +5,7 @@ import {
   getMode,
   isGameMode,
   modesForSport,
+  sportOffersMode,
   randomSeed,
 } from './modes'
 
@@ -94,6 +95,32 @@ describe('modesForSport', () => {
       expect(ids).toContain('daily')
       expect(ids).toContain('classic')
     }
+  })
+})
+
+describe('sportOffersMode', () => {
+  it('accepts a universal mode for any sport', () => {
+    expect(sportOffersMode('basketball', 'daily')).toBe(true)
+    expect(sportOffersMode('football', 'classic')).toBe(true)
+  })
+
+  it('rejects the other sport’s stats-hidden mode (URL-param cross-sport guard)', () => {
+    // The bug this guards: ?sport=basketball&mode=gridiron-iq passes isGameMode
+    // (it IS a real mode) but must NOT be honored for basketball, or the header
+    // and share string mislabel the game with football’s mode.
+    expect(sportOffersMode('basketball', 'gridiron-iq')).toBe(false)
+    expect(sportOffersMode('football', 'hoops-iq')).toBe(false)
+  })
+
+  it('accepts each sport’s own stats-hidden mode', () => {
+    expect(sportOffersMode('basketball', 'hoops-iq')).toBe(true)
+    expect(sportOffersMode('football', 'gridiron-iq')).toBe(true)
+  })
+
+  it('rejects junk / missing ids', () => {
+    expect(sportOffersMode('basketball', 'nope')).toBe(false)
+    expect(sportOffersMode('football', null)).toBe(false)
+    expect(sportOffersMode('basketball', undefined)).toBe(false)
   })
 })
 

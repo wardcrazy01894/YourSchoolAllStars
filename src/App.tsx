@@ -93,6 +93,7 @@ import {
   getMode,
   isGameMode,
   modesForSport,
+  sportOffersMode,
   randomSeed,
   type GameMode,
   type ModeConfig,
@@ -224,7 +225,12 @@ export default function App() {
         onSwitchSchool={switchSchool}
       />
     )
-  if (!modeId)
+  // Fall through to the menu when there's no mode OR the mode isn't one THIS sport
+  // offers. `isGameMode` (in initialModeId) only validates that a `?mode=` param is
+  // some real mode — not that the chosen sport offers it — so a cross-sport URL like
+  // ?sport=basketball&mode=gridiron-iq would otherwise skip the menu and mislabel
+  // the header + share with the other sport's mode. `sportOffersMode` is the gate.
+  if (!modeId || !sportOffersMode(sport.id, modeId))
     return (
       <ModeMenu
         school={school}
@@ -1288,6 +1294,19 @@ function fmtFbYear(p: FbPlayer): string {
   return `'${String(p.bestSeason).slice(2)}`
 }
 
+/**
+ * A player's position stat line as one compact, readable string, e.g.
+ * "PYDS 2,800 · PTD 24 · INT 8 · RYDS 210". Used at Results to REVEAL the line
+ * that the draft hid — Gridiron IQ promises "they reveal at the end," and unlike
+ * basketball's five uniform columns, football's 12 heterogeneous stat sets don't
+ * fit one shared table, so each player carries its own inline summary instead.
+ */
+function fbStatSummary(p: FbPlayer): string {
+  return FB_STAT_COLS[p.position]
+    .map((c) => `${c.label} ${fmtFbStat(p.stats, c.key)}`)
+    .join(' · ')
+}
+
 function FbGame({
   school,
   sport,
@@ -1916,6 +1935,11 @@ function FbResults({
                   <td className="name">
                     <span className="pos-chip">{slot.label}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
+                    {p && (
+                      <div className="fb-statline muted">
+                        {fbStatSummary(p)}
+                      </div>
+                    )}
                   </td>
                   <td>{p ? p.position : '—'}</td>
                   <td className="yr">{p ? fmtFbYear(p) : '—'}</td>
