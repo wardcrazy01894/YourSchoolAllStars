@@ -90,9 +90,9 @@ import {
 } from './lib/football-result'
 import { setupAutoUpdate } from './lib/version'
 import {
-  MODES,
   getMode,
   isGameMode,
+  modesForSport,
   randomSeed,
   type GameMode,
   type ModeConfig,
@@ -446,10 +446,9 @@ function ModeMenu({
   // The daily streak lives per school+sport; surface it here so returning players
   // see it before they pick a mode (only the daily can advance it).
   const [dailyStreak] = useState(() => loadStreak(school.id, sport.id))
-  // Hoops IQ is a basketball-only mode (its name + the hidden-stats conceit are
-  // hoops flavour); football offers Daily + Classic only.
-  const modes =
-    sport.id === 'football' ? MODES.filter((m) => !m.hideStats) : MODES
+  // Daily + Classic are universal; the stats-hidden IQ mode is sport-flavoured —
+  // basketball shows Hoops IQ, football shows Gridiron IQ (never the other's).
+  const modes = modesForSport(sport.id)
   return (
     <div className="app">
       <header className="topbar">
@@ -1421,6 +1420,7 @@ function FbGame({
           players={players}
           state={state}
           wheel={windows}
+          hideStats={mode.hideStats}
           power5={school.power5}
           onAdvance={advance}
         />
@@ -1482,6 +1482,12 @@ function FbLanding({
         <strong>one re-spin per side</strong>. How close to a perfect{' '}
         <strong>16&ndash;0</strong> can you get?
       </p>
+      {mode.hideStats && (
+        <p className="muted">
+          🧠 Gridiron IQ: stats, ratings, and award stars stay hidden while you
+          draft — go on names alone. Everything reveals at the end.
+        </p>
+      )}
       {provisional && (
         <p className="muted">
           🧪 Mock data: this roster uses placeholder stats so the flow can be
@@ -1506,12 +1512,15 @@ function FbRosterRail({
   slots,
   targetable,
   onPlace,
+  hideRating,
   power5,
 }: {
   slots: FbDraftState['slots']
   /** Slot ids the selected player can be placed into (highlighted + tappable). */
   targetable?: string[]
   onPlace?: (slotId: string) => void
+  /** Gridiron IQ: suppress the numeric rating while drafting (shown at Results). */
+  hideRating?: boolean
   /** Conference strength — false applies the non-power-5 rating haircut. */
   power5: boolean
 }) {
@@ -1540,7 +1549,9 @@ function FbRosterRail({
                   {p ? (
                     <>
                       <div className="pname">{p.name}</div>
-                      <div className="prate">{fbPlayerRating(p, power5)}</div>
+                      {!hideRating && (
+                        <div className="prate">{fbPlayerRating(p, power5)}</div>
+                      )}
                     </>
                   ) : (
                     <div className="pname muted">
@@ -1561,6 +1572,7 @@ function FbPlaying({
   players,
   state,
   wheel,
+  hideStats,
   power5,
   onAdvance,
 }: {
@@ -1568,6 +1580,8 @@ function FbPlaying({
   state: FbDraftState
   /** The full rolling era wheel — the reel animation flashes labels from it. */
   wheel: YearWindow[]
+  /** Gridiron IQ: hide the box-score + rating + award stars while drafting. */
+  hideStats: boolean
   power5: boolean
   onAdvance: (s: FbDraftState) => void
 }) {
@@ -1612,10 +1626,15 @@ function FbPlaying({
     .map((pos) => ({
       pos,
       // Rating is window-independent for football (one stat line per player), so
-      // sort best-first by rating — no hidden-stat mode here to leak.
+      // normally sort best-first by rating. In Gridiron IQ that would leak the
+      // hidden ranking, so sort by name instead — the order reveals nothing.
       players: era
         .filter((p) => p.position === pos)
-        .sort((a, b) => fbPlayerRating(b, power5) - fbPlayerRating(a, power5)),
+        .sort((a, b) =>
+          hideStats
+            ? a.name.localeCompare(b.name)
+            : fbPlayerRating(b, power5) - fbPlayerRating(a, power5),
+        ),
     }))
     .filter((g) => g.players.length > 0)
 
@@ -1673,6 +1692,7 @@ function FbPlaying({
         slots={state.slots}
         targetable={targetSlotIds}
         onPlace={place}
+        hideRating={hideStats}
         power5={power5}
       />
 
@@ -1761,10 +1781,10 @@ function FbPlaying({
                   <thead>
                     <tr>
                       <th className="name">Player</th>
-                      <th>YR</th>
-                      {cols.map((c) => (
-                        <th key={c.key}>{c.label}</th>
-                      ))}
+                      {/* Gridiron IQ hides the box-score columns while drafting. */}
+                      {!hideStats && <th>YR</th>}
+                      {!hideStats &&
+                        cols.map((c) => <th key={c.key}>{c.label}</th>)}
                     </tr>
                   </thead>
                   <tbody>
@@ -1778,7 +1798,10 @@ function FbPlaying({
                         >
                           <td className="name">
                             {p.name}
-                            {p.honors.length > 0 && (
+                            {/* Hide the ★ in Gridiron IQ: it's a strong "good
+                                player" tell, and the honor strings embed the year
+                                (leaking the hidden season via the tooltip). */}
+                            {!hideStats && p.honors.length > 0 && (
                               <span
                                 className="honor"
                                 title={p.honors.join(', ')}
@@ -1787,10 +1810,11 @@ function FbPlaying({
                               </span>
                             )}
                           </td>
-                          <td className="yr">{fmtFbYear(p)}</td>
-                          {cols.map((c) => (
-                            <td key={c.key}>{fmtFbStat(p.stats, c.key)}</td>
-                          ))}
+                          {!hideStats && <td className="yr">{fmtFbYear(p)}</td>}
+                          {!hideStats &&
+                            cols.map((c) => (
+                              <td key={c.key}>{fmtFbStat(p.stats, c.key)}</td>
+                            ))}
                         </tr>
                       )
                     })}
