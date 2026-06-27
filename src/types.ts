@@ -59,9 +59,9 @@ export interface BballPlayer {
    */
   eligible?: BballPosition[]
   name: string
-  /** Year the player's FIRST Michigan season ended (1993-94 → 1994). */
+  /** Year the player's FIRST season at their school ended (1993-94 → 1994). */
   firstYear: number
-  /** Year the player's LAST Michigan season ended. */
+  /** Year the player's LAST season at their school ended. */
   lastYear: number
   /**
    * Every season the player is represented by, oldest first. Always non-empty.

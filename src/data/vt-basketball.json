@@ -2,7 +2,7 @@
   "school": "Virginia Tech",
   "sport": "basketball",
   "_provisional": false,
-  "_note": "1994-2024 curated from Sports-Reference per-season player tables (players_per_game), each row citing its SR season page. 2025-26 (2024-25, 2025-26 seasons) sourced from ESPN's keyless API (site.api roster + sports.core.api per-athlete season averages), each row citing the player's ESPN page. Medical-redshirt years declared via redshirtYears. ESPN-first for recent seasons, SR/Wikipedia fallback for older ones — see docs/DATA-SOURCING.md.",
+  "_note": "Virginia Tech men's basketball, 1994-2026. Per-season per-game lines (pts/reb/ast/stl/blk). 1994-2024 sourced from Sports-Reference (primarily individual player pages cbb/players/<slug>.html; a few low-usage bench rows cite the SR season page pending rate-limit clearing). 2023-26 recent players from ESPN's keyless API (site.api roster + sports.core.api per-athlete season averages). ESPN-first for recent seasons, SR/Wikipedia fallback for older ones. Honors (All-ACC/All-American/POY/All-Freshman, and pre-2005 All-Big East/Atlantic 10/Metro) verified via Wikipedia, hokiesports.com ACC-era awards, and official ACC releases. See docs/DATA-SOURCING.md.",
   "players": [
     {
       "id": "damon-watlington",
@@ -22,7 +22,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/damon-watlington-1.html"
         },
         {
           "year": 1995,
@@ -34,7 +34,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "source": "https://www.sports-reference.com/cbb/players/damon-watlington-1.html"
         },
         {
           "year": 1996,
@@ -46,7 +46,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/damon-watlington-1.html"
         }
       ]
     },
@@ -68,7 +68,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-good-1.html"
         },
         {
           "year": 1995,
@@ -80,7 +80,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-good-1.html"
         },
         {
           "year": 1996,
@@ -92,7 +92,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-good-1.html"
         }
       ]
     },
@@ -113,7 +113,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/troy-manns-1.html"
         },
         {
           "year": 1997,
@@ -125,7 +125,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/troy-manns-1.html"
         }
       ]
     },
@@ -146,7 +146,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "source": "https://www.sports-reference.com/cbb/players/myron-guillory-1.html"
         },
         {
           "year": 1996,
@@ -158,7 +158,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/myron-guillory-1.html"
         },
         {
           "year": 1997,
@@ -170,7 +170,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/myron-guillory-1.html"
         },
         {
           "year": 1998,
@@ -182,7 +182,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/myron-guillory-1.html"
         }
       ]
     },
@@ -203,7 +203,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/jenis-grindstaff-1.html"
         }
       ]
     },
@@ -225,7 +225,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/brendan-dunlop-1.html"
         },
         {
           "year": 1998,
@@ -237,7 +237,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/brendan-dunlop-1.html"
         },
         {
           "year": 1999,
@@ -249,7 +249,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/brendan-dunlop-1.html"
         },
         {
           "year": 2000,
@@ -261,7 +261,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/brendan-dunlop-1.html"
         }
       ]
     },
@@ -282,7 +282,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/jermaine-kimbrough-1.html"
         },
         {
           "year": 2000,
@@ -294,7 +294,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/jermaine-kimbrough-1.html"
         }
       ]
     },
@@ -316,7 +316,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/brian-chase-1.html"
         },
         {
           "year": 2001,
@@ -328,7 +328,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/brian-chase-1.html"
         },
         {
           "year": 2002,
@@ -340,7 +340,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/brian-chase-1.html"
         },
         {
           "year": 2003,
@@ -352,7 +352,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/brian-chase-1.html"
         }
       ]
     },
@@ -373,7 +373,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/markus-sailes-1.html"
         },
         {
           "year": 2004,
@@ -385,7 +385,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+          "source": "https://www.sports-reference.com/cbb/players/markus-sailes-1.html"
         },
         {
           "year": 2005,
@@ -397,7 +397,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+          "source": "https://www.sports-reference.com/cbb/players/markus-sailes-1.html"
         },
         {
           "year": 2006,
@@ -409,7 +409,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "source": "https://www.sports-reference.com/cbb/players/markus-sailes-1.html"
         },
         {
           "year": 2007,
@@ -421,7 +421,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+          "source": "https://www.sports-reference.com/cbb/players/markus-sailes-1.html"
         }
       ]
     },
@@ -443,7 +443,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+          "source": "https://www.sports-reference.com/cbb/players/jamon-gordon-1.html"
         },
         {
           "year": 2005,
@@ -455,7 +455,7 @@
             "blk": 1.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+          "source": "https://www.sports-reference.com/cbb/players/jamon-gordon-1.html"
         },
         {
           "year": 2006,
@@ -467,7 +467,7 @@
             "blk": 0.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "source": "https://www.sports-reference.com/cbb/players/jamon-gordon-1.html"
         },
         {
           "year": 2007,
@@ -479,7 +479,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+          "source": "https://www.sports-reference.com/cbb/players/jamon-gordon-1.html"
         }
       ]
     },
@@ -501,7 +501,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "source": "https://www.sports-reference.com/cbb/players/malcolm-delaney-1.html"
         },
         {
           "year": 2009,
@@ -512,8 +512,8 @@
             "stl": 1.5,
             "blk": 0.3
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "honors": ["Third-Team All-ACC (2009)"],
+          "source": "https://www.sports-reference.com/cbb/players/malcolm-delaney-1.html"
         },
         {
           "year": 2010,
@@ -524,8 +524,8 @@
             "stl": 1.2,
             "blk": 0.1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "honors": ["First-Team All-ACC (2010)"],
+          "source": "https://www.sports-reference.com/cbb/players/malcolm-delaney-1.html"
         },
         {
           "year": 2011,
@@ -536,8 +536,8 @@
             "stl": 1.6,
             "blk": 0.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "honors": ["First-Team All-ACC (2011)"],
+          "source": "https://www.sports-reference.com/cbb/players/malcolm-delaney-1.html"
         }
       ]
     },
@@ -558,7 +558,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "source": "https://www.sports-reference.com/cbb/players/hank-thorns-1.html"
         },
         {
           "year": 2009,
@@ -570,7 +570,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "source": "https://www.sports-reference.com/cbb/players/hank-thorns-1.html"
         }
       ]
     },
@@ -592,7 +592,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "source": "https://www.sports-reference.com/cbb/players/erick-green-1.html"
         },
         {
           "year": 2011,
@@ -604,7 +604,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "source": "https://www.sports-reference.com/cbb/players/erick-green-1.html"
         },
         {
           "year": 2012,
@@ -615,8 +615,8 @@
             "stl": 1.3,
             "blk": 0.1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "honors": ["Second-Team All-ACC (2012)"],
+          "source": "https://www.sports-reference.com/cbb/players/erick-green-1.html"
         },
         {
           "year": 2013,
@@ -627,8 +627,13 @@
             "stl": 1.3,
             "blk": 0.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "honors": [
+            "ACC Player of the Year (2013)",
+            "First-Team All-ACC (2013)",
+            "AP Third-Team All-American (2013)",
+            "NCAA Division I scoring leader (2013)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/erick-green-1.html"
         }
       ]
     },
@@ -649,7 +654,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/marquis-rankin-1.html"
         },
         {
           "year": 2013,
@@ -661,7 +666,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/marquis-rankin-1.html"
         }
       ]
     },
@@ -682,7 +687,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/devin-wilson-2.html"
         },
         {
           "year": 2015,
@@ -694,7 +699,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/devin-wilson-2.html"
         },
         {
           "year": 2016,
@@ -706,7 +711,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/devin-wilson-2.html"
         }
       ]
     },
@@ -727,7 +732,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-robinson-3.html"
         },
         {
           "year": 2017,
@@ -739,7 +744,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-robinson-3.html"
         },
         {
           "year": 2018,
@@ -750,8 +755,8 @@
             "stl": 1.2,
             "blk": 0.1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "honors": ["Second-Team All-ACC (2018)"],
+          "source": "https://www.sports-reference.com/cbb/players/justin-robinson-3.html"
         },
         {
           "year": 2019,
@@ -763,7 +768,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-robinson-3.html"
         }
       ]
     },
@@ -785,7 +790,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/seth-allen-1.html"
         },
         {
           "year": 2017,
@@ -797,7 +802,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/seth-allen-1.html"
         }
       ]
     },
@@ -818,7 +823,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/wabissa-bede-1.html"
         },
         {
           "year": 2019,
@@ -830,7 +835,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "source": "https://www.sports-reference.com/cbb/players/wabissa-bede-1.html"
         },
         {
           "year": 2020,
@@ -842,7 +847,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/wabissa-bede-1.html"
         },
         {
           "year": 2021,
@@ -854,7 +859,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/wabissa-bede-1.html"
         }
       ]
     },
@@ -876,7 +881,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/jalen-cone-1.html"
         },
         {
           "year": 2021,
@@ -888,7 +893,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/jalen-cone-1.html"
         }
       ]
     },
@@ -909,7 +914,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/storm-murphy-1.html"
         }
       ]
     },
@@ -931,7 +936,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/sean-pedulla-1.html"
         },
         {
           "year": 2023,
@@ -943,7 +948,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/sean-pedulla-1.html"
         },
         {
           "year": 2024,
@@ -954,8 +959,8 @@
             "stl": 1.2,
             "blk": 0.1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "honors": ["Third-Team All-ACC (2024)"],
+          "source": "https://www.sports-reference.com/cbb/players/sean-pedulla-1.html"
         }
       ]
     },
@@ -977,7 +982,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/jay-purcell-1.html"
         }
       ]
     },
@@ -998,7 +1003,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/jim-jackson-2.html"
         },
         {
           "year": 1997,
@@ -1010,7 +1015,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/jim-jackson-2.html"
         }
       ]
     },
@@ -1031,7 +1036,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-jackson-17.html"
         },
         {
           "year": 1996,
@@ -1043,7 +1048,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-jackson-17.html"
         },
         {
           "year": 1997,
@@ -1055,7 +1060,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-jackson-17.html"
         }
       ]
     },
@@ -1077,7 +1082,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/eddie-lucas-1.html"
         },
         {
           "year": 1999,
@@ -1088,8 +1093,8 @@
             "stl": 0.7,
             "blk": 0.1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "honors": ["Third-Team All-Atlantic 10 (1999)"],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-lucas-1.html"
         }
       ]
     },
@@ -1111,7 +1116,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+          "source": "https://www.sports-reference.com/cbb/players/zabian-dowdell-1.html"
         },
         {
           "year": 2005,
@@ -1122,8 +1127,8 @@
             "stl": 1.6,
             "blk": 0.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+          "honors": ["All-ACC Honorable Mention (2005)"],
+          "source": "https://www.sports-reference.com/cbb/players/zabian-dowdell-1.html"
         },
         {
           "year": 2006,
@@ -1134,8 +1139,8 @@
             "stl": 2.3,
             "blk": 0.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "honors": ["All-ACC Honorable Mention (2006)"],
+          "source": "https://www.sports-reference.com/cbb/players/zabian-dowdell-1.html"
         },
         {
           "year": 2007,
@@ -1146,8 +1151,8 @@
             "stl": 2.1,
             "blk": 0.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+          "honors": ["First-Team All-ACC (2007)"],
+          "source": "https://www.sports-reference.com/cbb/players/zabian-dowdell-1.html"
         }
       ]
     },
@@ -1169,7 +1174,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "source": "https://www.sports-reference.com/cbb/players/ad-vassallo-1.html"
         },
         {
           "year": 2007,
@@ -1181,7 +1186,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+          "source": "https://www.sports-reference.com/cbb/players/ad-vassallo-1.html"
         },
         {
           "year": 2008,
@@ -1192,8 +1197,8 @@
             "stl": 0.7,
             "blk": 0.5
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "honors": ["Third-Team All-ACC (2008)"],
+          "source": "https://www.sports-reference.com/cbb/players/ad-vassallo-1.html"
         },
         {
           "year": 2009,
@@ -1204,8 +1209,8 @@
             "stl": 0.8,
             "blk": 0.9
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "honors": ["Third-Team All-ACC (2009)"],
+          "source": "https://www.sports-reference.com/cbb/players/ad-vassallo-1.html"
         }
       ]
     },
@@ -1227,7 +1232,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "source": "https://www.sports-reference.com/cbb/players/dorenzo-hudson-1.html"
         },
         {
           "year": 2009,
@@ -1239,7 +1244,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "source": "https://www.sports-reference.com/cbb/players/dorenzo-hudson-1.html"
         },
         {
           "year": 2010,
@@ -1250,8 +1255,8 @@
             "stl": 0.8,
             "blk": 0.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "honors": ["Third-Team All-ACC (2010)"],
+          "source": "https://www.sports-reference.com/cbb/players/dorenzo-hudson-1.html"
         },
         {
           "year": 2011,
@@ -1263,7 +1268,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "source": "https://www.sports-reference.com/cbb/players/dorenzo-hudson-1.html"
         },
         {
           "year": 2012,
@@ -1275,7 +1280,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/dorenzo-hudson-1.html"
         }
       ]
     },
@@ -1296,7 +1301,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/robert-brown-4.html"
         },
         {
           "year": 2013,
@@ -1308,7 +1313,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/robert-brown-4.html"
         }
       ]
     },
@@ -1329,7 +1334,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/adam-smith-1.html"
         },
         {
           "year": 2015,
@@ -1341,7 +1346,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/adam-smith-1.html"
         }
       ]
     },
@@ -1363,7 +1368,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/ben-emelogu-1.html"
         }
       ]
     },
@@ -1385,7 +1390,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-bibbs-1.html"
         },
         {
           "year": 2016,
@@ -1397,7 +1402,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-bibbs-1.html"
         },
         {
           "year": 2017,
@@ -1409,7 +1414,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-bibbs-1.html"
         },
         {
           "year": 2018,
@@ -1421,7 +1426,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/justin-bibbs-1.html"
         }
       ]
     },
@@ -1442,7 +1447,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/jalen-hudson-1.html"
         },
         {
           "year": 2016,
@@ -1454,7 +1459,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/jalen-hudson-1.html"
         }
       ]
     },
@@ -1477,7 +1482,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/ahmed-hill-1.html"
         },
         {
           "year": 2017,
@@ -1489,7 +1494,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/ahmed-hill-1.html"
         },
         {
           "year": 2018,
@@ -1501,7 +1506,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/ahmed-hill-1.html"
         },
         {
           "year": 2019,
@@ -1513,7 +1518,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "source": "https://www.sports-reference.com/cbb/players/ahmed-hill-1.html"
         }
       ]
     },
@@ -1535,7 +1540,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/nickeil-alexander-walker-1.html"
         },
         {
           "year": 2019,
@@ -1546,8 +1551,8 @@
             "stl": 1.9,
             "blk": 0.5
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "honors": ["Third-Team All-ACC (2019)"],
+          "source": "https://www.sports-reference.com/cbb/players/nickeil-alexander-walker-1.html"
         }
       ]
     },
@@ -1568,7 +1573,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "source": "https://www.sports-reference.com/cbb/players/isaiah-wilkins-2.html"
         },
         {
           "year": 2020,
@@ -1580,7 +1585,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/isaiah-wilkins-2.html"
         }
       ]
     },
@@ -1602,7 +1607,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/tyrece-radford-1.html"
         },
         {
           "year": 2021,
@@ -1614,7 +1619,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/tyrece-radford-1.html"
         }
       ]
     },
@@ -1635,7 +1640,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/nahiem-alleyne-1.html"
         },
         {
           "year": 2021,
@@ -1647,7 +1652,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/nahiem-alleyne-1.html"
         },
         {
           "year": 2022,
@@ -1659,7 +1664,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/nahiem-alleyne-1.html"
         }
       ]
     },
@@ -1681,7 +1686,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/hunter-cattoor-1.html"
         },
         {
           "year": 2021,
@@ -1693,7 +1698,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/hunter-cattoor-1.html"
         },
         {
           "year": 2022,
@@ -1705,7 +1710,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/hunter-cattoor-1.html"
         },
         {
           "year": 2023,
@@ -1717,7 +1722,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/hunter-cattoor-1.html"
         },
         {
           "year": 2024,
@@ -1729,7 +1734,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/hunter-cattoor-1.html"
         }
       ]
     },
@@ -1751,7 +1756,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/darius-maddox-2.html"
         },
         {
           "year": 2022,
@@ -1763,7 +1768,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/darius-maddox-2.html"
         },
         {
           "year": 2023,
@@ -1775,7 +1780,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/darius-maddox-2.html"
         }
       ]
     },
@@ -1797,7 +1802,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/mj-collins-1.html"
         },
         {
           "year": 2024,
@@ -1809,7 +1814,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/mj-collins-1.html"
         },
         {
           "year": 2025,
@@ -1844,7 +1849,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/ty-outlaw-1.html"
         },
         {
           "year": 2019,
@@ -1856,7 +1861,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "source": "https://www.sports-reference.com/cbb/players/ty-outlaw-1.html"
         }
       ]
     },
@@ -1878,7 +1883,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-smith-5.html"
         },
         {
           "year": 1995,
@@ -1890,7 +1895,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-smith-5.html"
         },
         {
           "year": 1996,
@@ -1902,7 +1907,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-smith-5.html"
         }
       ]
     },
@@ -1923,7 +1928,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-browne-1.html"
         },
         {
           "year": 1997,
@@ -1935,7 +1940,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-browne-1.html"
         },
         {
           "year": 1998,
@@ -1947,7 +1952,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/shawn-browne-1.html"
         }
       ]
     },
@@ -1969,7 +1974,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/joe-hamilton-1.html"
         },
         {
           "year": 2002,
@@ -1981,7 +1986,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/joe-hamilton-1.html"
         }
       ]
     },
@@ -2003,7 +2008,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/carlos-dixon-1.html"
         },
         {
           "year": 2002,
@@ -2015,7 +2020,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/carlos-dixon-1.html"
         },
         {
           "year": 2003,
@@ -2027,7 +2032,7 @@
             "blk": 1.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/carlos-dixon-1.html"
         }
       ]
     },
@@ -2049,7 +2054,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/bryant-matthews-1.html"
         },
         {
           "year": 2002,
@@ -2061,7 +2066,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/bryant-matthews-1.html"
         },
         {
           "year": 2003,
@@ -2073,7 +2078,7 @@
             "blk": 1.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/bryant-matthews-1.html"
         },
         {
           "year": 2004,
@@ -2085,7 +2090,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+          "source": "https://www.sports-reference.com/cbb/players/bryant-matthews-1.html"
         }
       ]
     },
@@ -2106,8 +2111,8 @@
             "stl": 1,
             "blk": 1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+          "honors": ["ACC All-Freshman Team (2005)"],
+          "source": "https://www.sports-reference.com/cbb/players/deron-washington-1.html"
         },
         {
           "year": 2006,
@@ -2119,7 +2124,7 @@
             "blk": 1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "source": "https://www.sports-reference.com/cbb/players/deron-washington-1.html"
         },
         {
           "year": 2007,
@@ -2131,7 +2136,7 @@
             "blk": 1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+          "source": "https://www.sports-reference.com/cbb/players/deron-washington-1.html"
         },
         {
           "year": 2008,
@@ -2143,7 +2148,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "source": "https://www.sports-reference.com/cbb/players/deron-washington-1.html"
         }
       ]
     },
@@ -2164,7 +2169,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+          "source": "https://www.sports-reference.com/cbb/players/wynton-witherspoon-1.html"
         },
         {
           "year": 2006,
@@ -2176,7 +2181,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "source": "https://www.sports-reference.com/cbb/players/wynton-witherspoon-1.html"
         }
       ]
     },
@@ -2198,7 +2203,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "source": "https://www.sports-reference.com/cbb/players/jt-thompson-1.html"
         },
         {
           "year": 2009,
@@ -2210,7 +2215,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "source": "https://www.sports-reference.com/cbb/players/jt-thompson-1.html"
         },
         {
           "year": 2010,
@@ -2222,7 +2227,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "source": "https://www.sports-reference.com/cbb/players/jt-thompson-1.html"
         }
       ]
     },
@@ -2243,7 +2248,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "source": "https://www.sports-reference.com/cbb/players/manny-atkins-1.html"
         },
         {
           "year": 2011,
@@ -2255,7 +2260,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "source": "https://www.sports-reference.com/cbb/players/manny-atkins-1.html"
         }
       ]
     },
@@ -2277,7 +2282,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "source": "https://www.sports-reference.com/cbb/players/jarell-eddie-1.html"
         },
         {
           "year": 2012,
@@ -2289,7 +2294,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/jarell-eddie-1.html"
         },
         {
           "year": 2013,
@@ -2301,7 +2306,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/jarell-eddie-1.html"
         },
         {
           "year": 2014,
@@ -2313,7 +2318,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/jarell-eddie-1.html"
         }
       ]
     },
@@ -2335,7 +2340,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/chris-clarke-2.html"
         },
         {
           "year": 2017,
@@ -2347,7 +2352,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/chris-clarke-2.html"
         },
         {
           "year": 2018,
@@ -2359,7 +2364,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/chris-clarke-2.html"
         }
       ]
     },
@@ -2381,7 +2386,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/pj-horne-1.html"
         },
         {
           "year": 2019,
@@ -2393,7 +2398,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "source": "https://www.sports-reference.com/cbb/players/pj-horne-1.html"
         },
         {
           "year": 2020,
@@ -2405,7 +2410,7 @@
             "blk": 0.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "source": "https://www.sports-reference.com/cbb/players/pj-horne-1.html"
         }
       ]
     },
@@ -2426,8 +2431,11 @@
             "stl": 0.8,
             "blk": 0.3
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+          "honors": [
+            "All-ACC Honorable Mention (2020)",
+            "ACC All-Freshman Team (2020)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/landers-nolleyii-1.html"
         }
       ]
     },
@@ -2449,7 +2457,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/tyler-nickel-1.html"
         }
       ]
     },
@@ -2465,25 +2473,25 @@
           "year": 2023,
           "stats": {
             "pts": 1.3,
-            "reb": 1,
+            "reb": 1.0,
             "ast": 0.2,
-            "stl": 0,
+            "stl": 0.0,
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4684155"
         },
         {
           "year": 2024,
           "stats": {
-            "pts": 1.9,
-            "reb": 1,
-            "ast": 0.1,
+            "pts": 2.2,
+            "reb": 1.2,
+            "ast": 0.2,
             "stl": 0.1,
-            "blk": 0
+            "blk": 0.0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4684155"
         },
         {
           "year": 2025,
@@ -2517,7 +2525,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/ace-custis-1.html"
         },
         {
           "year": 1995,
@@ -2528,8 +2536,8 @@
             "stl": 1.5,
             "blk": 0.7
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "honors": ["First-Team All-Metro Conference (1995)"],
+          "source": "https://www.sports-reference.com/cbb/players/ace-custis-1.html"
         },
         {
           "year": 1996,
@@ -2540,8 +2548,8 @@
             "stl": 1.7,
             "blk": 1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "honors": ["First-Team All-Atlantic 10 (1996)"],
+          "source": "https://www.sports-reference.com/cbb/players/ace-custis-1.html"
         },
         {
           "year": 1997,
@@ -2552,8 +2560,8 @@
             "stl": 1.7,
             "blk": 0.7
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "honors": ["First-Team All-Atlantic 10 (1997)"],
+          "source": "https://www.sports-reference.com/cbb/players/ace-custis-1.html"
         }
       ]
     },
@@ -2575,7 +2583,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/andre-ray-1.html"
         },
         {
           "year": 1998,
@@ -2587,7 +2595,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/andre-ray-1.html"
         },
         {
           "year": 1999,
@@ -2599,7 +2607,7 @@
             "blk": 0.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/andre-ray-1.html"
         },
         {
           "year": 2000,
@@ -2611,7 +2619,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/andre-ray-1.html"
         }
       ]
     },
@@ -2633,7 +2641,7 @@
             "blk": 1.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/dennis-mims-1.html"
         },
         {
           "year": 2000,
@@ -2645,7 +2653,7 @@
             "blk": 2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/dennis-mims-1.html"
         },
         {
           "year": 2001,
@@ -2657,7 +2665,7 @@
             "blk": 2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/dennis-mims-1.html"
         }
       ]
     },
@@ -2678,7 +2686,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-whaley-1.html"
         },
         {
           "year": 1999,
@@ -2690,7 +2698,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-whaley-1.html"
         },
         {
           "year": 2000,
@@ -2702,7 +2710,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-whaley-1.html"
         }
       ]
     },
@@ -2769,7 +2777,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+          "source": "https://www.sports-reference.com/cbb/players/coleman-collins-1.html"
         },
         {
           "year": 2005,
@@ -2781,7 +2789,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+          "source": "https://www.sports-reference.com/cbb/players/coleman-collins-1.html"
         },
         {
           "year": 2006,
@@ -2793,7 +2801,7 @@
             "blk": 1.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+          "source": "https://www.sports-reference.com/cbb/players/coleman-collins-1.html"
         },
         {
           "year": 2007,
@@ -2805,7 +2813,7 @@
             "blk": 1.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+          "source": "https://www.sports-reference.com/cbb/players/coleman-collins-1.html"
         }
       ]
     },
@@ -2826,8 +2834,8 @@
             "stl": 2.1,
             "blk": 1.2
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+          "honors": ["ACC All-Freshman Team (2008)"],
+          "source": "https://www.sports-reference.com/cbb/players/jeff-allen-2.html"
         },
         {
           "year": 2009,
@@ -2839,7 +2847,7 @@
             "blk": 1.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "source": "https://www.sports-reference.com/cbb/players/jeff-allen-2.html"
         },
         {
           "year": 2010,
@@ -2851,7 +2859,7 @@
             "blk": 1.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "source": "https://www.sports-reference.com/cbb/players/jeff-allen-2.html"
         },
         {
           "year": 2011,
@@ -2862,8 +2870,8 @@
             "stl": 1.3,
             "blk": 0.7
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "honors": ["Second-Team All-ACC (2011)"],
+          "source": "https://www.sports-reference.com/cbb/players/jeff-allen-2.html"
         }
       ]
     },
@@ -2885,7 +2893,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+          "source": "https://www.sports-reference.com/cbb/players/victor-davila-1.html"
         },
         {
           "year": 2010,
@@ -2897,7 +2905,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "source": "https://www.sports-reference.com/cbb/players/victor-davila-1.html"
         },
         {
           "year": 2011,
@@ -2909,7 +2917,7 @@
             "blk": 1.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "source": "https://www.sports-reference.com/cbb/players/victor-davila-1.html"
         },
         {
           "year": 2012,
@@ -2921,7 +2929,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/victor-davila-1.html"
         }
       ]
     },
@@ -2943,7 +2951,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+          "source": "https://www.sports-reference.com/cbb/players/cadarian-raines-1.html"
         },
         {
           "year": 2011,
@@ -2955,7 +2963,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+          "source": "https://www.sports-reference.com/cbb/players/cadarian-raines-1.html"
         },
         {
           "year": 2012,
@@ -2967,7 +2975,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/cadarian-raines-1.html"
         },
         {
           "year": 2013,
@@ -2979,7 +2987,7 @@
             "blk": 1.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/cadarian-raines-1.html"
         },
         {
           "year": 2014,
@@ -2991,7 +2999,7 @@
             "blk": 0.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/cadarian-raines-1.html"
         }
       ]
     },
@@ -3013,7 +3021,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+          "source": "https://www.sports-reference.com/cbb/players/cj-barksdale-1.html"
         },
         {
           "year": 2013,
@@ -3025,7 +3033,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/cj-barksdale-1.html"
         },
         {
           "year": 2014,
@@ -3037,7 +3045,7 @@
             "blk": 0.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/cj-barksdale-1.html"
         }
       ]
     },
@@ -3058,7 +3066,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/marshall-wood-1.html"
         },
         {
           "year": 2014,
@@ -3070,7 +3078,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/marshall-wood-1.html"
         }
       ]
     },
@@ -3078,22 +3086,10 @@
       "id": "joey-van-zegeren",
       "name": "Joey van Zegeren",
       "position": "PF",
-      "firstYear": 2012,
+      "firstYear": 2013,
       "lastYear": 2015,
       "eligible": ["PF", "C"],
       "seasons": [
-        {
-          "year": 2012,
-          "stats": {
-            "pts": 0,
-            "reb": 0,
-            "ast": 0,
-            "stl": 0,
-            "blk": 0.3
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
-        },
         {
           "year": 2013,
           "stats": {
@@ -3104,7 +3100,7 @@
             "blk": 0.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/joey-van-zegeren-1.html"
         },
         {
           "year": 2014,
@@ -3116,7 +3112,7 @@
             "blk": 1.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/joey-van-zegeren-1.html"
         },
         {
           "year": 2015,
@@ -3128,7 +3124,7 @@
             "blk": 1.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/joey-van-zegeren-1.html"
         }
       ]
     },
@@ -3149,7 +3145,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+          "source": "https://www.sports-reference.com/cbb/players/christian-beyer-1.html"
         },
         {
           "year": 2014,
@@ -3161,7 +3157,7 @@
             "blk": 0
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+          "source": "https://www.sports-reference.com/cbb/players/christian-beyer-1.html"
         },
         {
           "year": 2015,
@@ -3173,7 +3169,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+          "source": "https://www.sports-reference.com/cbb/players/christian-beyer-1.html"
         }
       ]
     },
@@ -3195,7 +3191,7 @@
             "blk": 1.7
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/zach-leday-1.html"
         },
         {
           "year": 2017,
@@ -3206,8 +3202,8 @@
             "stl": 0.6,
             "blk": 1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "honors": ["All-ACC Honorable Mention (2017)"],
+          "source": "https://www.sports-reference.com/cbb/players/zach-leday-1.html"
         }
       ]
     },
@@ -3230,7 +3226,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+          "source": "https://www.sports-reference.com/cbb/players/kerry-blackshearjr-1.html"
         },
         {
           "year": 2018,
@@ -3242,7 +3238,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+          "source": "https://www.sports-reference.com/cbb/players/kerry-blackshearjr-1.html"
         },
         {
           "year": 2019,
@@ -3253,8 +3249,8 @@
             "stl": 0.7,
             "blk": 0.8
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+          "honors": ["Second-Team All-ACC (2019)"],
+          "source": "https://www.sports-reference.com/cbb/players/kerry-blackshearjr-1.html"
         }
       ]
     },
@@ -3275,8 +3271,8 @@
             "stl": 0.7,
             "blk": 1.3
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "honors": ["Second-Team All-ACC (2021)"],
+          "source": "https://www.sports-reference.com/cbb/players/keve-aluma-1.html"
         },
         {
           "year": 2022,
@@ -3287,8 +3283,8 @@
             "stl": 0.8,
             "blk": 0.9
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "honors": ["Second-Team All-ACC (2022)"],
+          "source": "https://www.sports-reference.com/cbb/players/keve-aluma-1.html"
         }
       ]
     },
@@ -3310,7 +3306,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/justyn-mutts-1.html"
         },
         {
           "year": 2022,
@@ -3322,7 +3318,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/justyn-mutts-1.html"
         },
         {
           "year": 2023,
@@ -3334,7 +3330,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/justyn-mutts-1.html"
         }
       ]
     },
@@ -3355,7 +3351,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-nguessan-1.html"
         },
         {
           "year": 2022,
@@ -3367,7 +3363,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/david-nguessan-1.html"
         }
       ]
     },
@@ -3388,8 +3384,8 @@
             "stl": 0.4,
             "blk": 1.1
           },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "honors": ["All-ACC Honorable Mention (2023)"],
+          "source": "https://www.sports-reference.com/cbb/players/grant-basile-1.html"
         }
       ]
     },
@@ -3411,7 +3407,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/mylyjael-poteat-1.html"
         },
         {
           "year": 2024,
@@ -3423,7 +3419,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/mylyjael-poteat-1.html"
         }
       ]
     },
@@ -3445,7 +3441,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/robbie-beran-1.html"
         }
       ]
     },
@@ -3466,7 +3462,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/mekhi-long-1.html"
         }
       ]
     },
@@ -3487,7 +3483,7 @@
             "blk": 2.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/jimmy-carruth-1.html"
         }
       ]
     },
@@ -3508,7 +3504,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+          "source": "https://www.sports-reference.com/cbb/players/travis-jackson-1.html"
         },
         {
           "year": 1995,
@@ -3520,7 +3516,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+          "source": "https://www.sports-reference.com/cbb/players/travis-jackson-1.html"
         },
         {
           "year": 1996,
@@ -3532,7 +3528,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/travis-jackson-1.html"
         }
       ]
     },
@@ -3553,7 +3549,7 @@
             "blk": 0.1
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+          "source": "https://www.sports-reference.com/cbb/players/keefe-matthews-1.html"
         },
         {
           "year": 1997,
@@ -3565,7 +3561,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/keefe-matthews-1.html"
         }
       ]
     },
@@ -3586,7 +3582,7 @@
             "blk": 2.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/rolan-roberts-1.html"
         },
         {
           "year": 1999,
@@ -3598,7 +3594,7 @@
             "blk": 2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/rolan-roberts-1.html"
         },
         {
           "year": 2000,
@@ -3610,7 +3606,7 @@
             "blk": 1.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/rolan-roberts-1.html"
         }
       ]
     },
@@ -3631,7 +3627,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+          "source": "https://www.sports-reference.com/cbb/players/russ-wheeler-1.html"
         },
         {
           "year": 1998,
@@ -3643,7 +3639,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+          "source": "https://www.sports-reference.com/cbb/players/russ-wheeler-1.html"
         },
         {
           "year": 1999,
@@ -3655,7 +3651,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+          "source": "https://www.sports-reference.com/cbb/players/russ-wheeler-1.html"
         },
         {
           "year": 2000,
@@ -3667,7 +3663,7 @@
             "blk": 0.9
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+          "source": "https://www.sports-reference.com/cbb/players/russ-wheeler-1.html"
         }
       ]
     },
@@ -3688,7 +3684,7 @@
             "blk": 1.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/carlton-carter-1.html"
         },
         {
           "year": 2002,
@@ -3700,7 +3696,7 @@
             "blk": 1.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/carlton-carter-1.html"
         }
       ]
     },
@@ -3721,7 +3717,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+          "source": "https://www.sports-reference.com/cbb/players/mibindo-dongo-1.html"
         },
         {
           "year": 2002,
@@ -3733,7 +3729,7 @@
             "blk": 0.3
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/mibindo-dongo-1.html"
         }
       ]
     },
@@ -3754,7 +3750,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/terry-taylor-1.html"
         },
         {
           "year": 2003,
@@ -3766,7 +3762,7 @@
             "blk": 0.5
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/terry-taylor-1.html"
         }
       ]
     },
@@ -3787,7 +3783,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+          "source": "https://www.sports-reference.com/cbb/players/dimari-thompkins-1.html"
         },
         {
           "year": 2003,
@@ -3799,7 +3795,7 @@
             "blk": 0.8
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/dimari-thompkins-1.html"
         }
       ]
     },
@@ -3820,7 +3816,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+          "source": "https://www.sports-reference.com/cbb/players/philip-mccandies-1.html"
         },
         {
           "year": 2004,
@@ -3832,7 +3828,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+          "source": "https://www.sports-reference.com/cbb/players/philip-mccandies-1.html"
         }
       ]
     },
@@ -3886,7 +3882,7 @@
             "blk": 0.6
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+          "source": "https://www.sports-reference.com/cbb/players/khadim-sy-1.html"
         }
       ]
     },
@@ -3952,7 +3948,7 @@
             "blk": 0.2
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+          "source": "https://www.sports-reference.com/cbb/players/lynn-kidd-1.html"
         },
         {
           "year": 2023,
@@ -3964,7 +3960,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+          "source": "https://www.sports-reference.com/cbb/players/lynn-kidd-1.html"
         },
         {
           "year": 2024,
@@ -3976,7 +3972,7 @@
             "blk": 0.4
           },
           "honors": [],
-          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+          "source": "https://www.sports-reference.com/cbb/players/lynn-kidd-1.html"
         }
       ]
     },
@@ -4231,7 +4227,7 @@
             "stl": 1.5,
             "blk": 0.7
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2026)"],
           "source": "https://www.espn.com/mens-college-basketball/player/_/id/4685673"
         }
       ]

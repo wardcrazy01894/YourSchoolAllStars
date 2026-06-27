@@ -222,13 +222,23 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
   and **Wikipedia** season pages, with **mgoblue.com** and per-player **ESPN**
   pages for recent players. Multi-position `eligible[]` lists cover adjacency
   honestly (e.g. a center who genuinely played some PF).
-- **Virginia Tech basketball is live (`src/data/vt-basketball.json`):** 93 players
-  spanning 1994–2024, curated from **Sports-Reference** per-season player tables
-  (`players_per_game` — the compiled per-game averages, not game logs), each row
-  carrying its SR season-page `source`. Same guards run over it as Michigan
-  (`dataset.test.ts` iterates both). Declared medical redshirts: Kerry Blackshear
-  (2017), Hokie examples in `redshirtYears`. 2025 is a known follow-up (SR
-  rate-limit deferred that one fetch); the dataset ships 1994–2024 now.
+- **Virginia Tech basketball is live (`src/data/vt-basketball.json`):** 106 players
+  spanning **1994–2026**. Older seasons (1994–2024) are sourced from
+  **Sports-Reference** per-game averages, cited to each player's **individual SR
+  player page** (`/cbb/players/<slug>.html`) — the per-row provenance the policy
+  wants. Recent players (2023–2026) come from **ESPN's keyless API** (site.api
+  roster + sports.core.api per-athlete season averages), cited to the ESPN player
+  page. Same guards run over it as Michigan (`dataset.test.ts` iterates both).
+  Declared medical redshirts in `redshirtYears`: **Kerry Blackshear Jr. (2017),
+  Ahmed Hill (2016), Ty Outlaw (2018)**. **Honors** (All-ACC 1st/2nd/3rd + HM,
+  All-American, ACC POY, ACC All-Freshman, and pre-2005 All-Big East / Atlantic 10 /
+  Metro) were back-filled from **Wikipedia**, **hokiesports.com ACC-era awards**,
+  and official ACC releases — never fabricated, mapped to the season-ending year
+  earned. **Known follow-up:** 8 rows for 3 low-usage bench players (Jon Smith
+  2000–02, Johnny Hamilton 2016–17, Ginika Ojiako 2020–22) still cite the SR
+  season page rather than an individual player page — they were below the cache
+  cutoff and SR was rate-limited (429) during this pass; convert them to
+  `/cbb/players/` URLs next time SR access is available.
 
 ## Football (2005+) — in progress
 
