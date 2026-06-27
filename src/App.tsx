@@ -1296,10 +1296,11 @@ function fmtFbYear(p: FbPlayer): string {
 
 /**
  * A player's position stat line as one compact, readable string, e.g.
- * "PYDS 2,800 · PTD 24 · INT 8 · RYDS 210". Used at Results to REVEAL the line
- * that the draft hid — Gridiron IQ promises "they reveal at the end," and unlike
- * basketball's five uniform columns, football's 12 heterogeneous stat sets don't
- * fit one shared table, so each player carries its own inline summary instead.
+ * "PYDS 2800 · PTD 24 · INT 8 · RYDS 210". Shown at Results for ALL football
+ * modes (mirroring basketball's Results stat columns) — NOT gated on hideStats.
+ * For Gridiron IQ this is where the draft-hidden line is finally revealed; for
+ * Daily/Classic it's the same end-of-game recap. Football's 12 heterogeneous stat
+ * sets don't fit one shared table, so each player carries its own inline summary.
  */
 function fbStatSummary(p: FbPlayer): string {
   return FB_STAT_COLS[p.position]

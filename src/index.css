@@ -341,7 +341,9 @@ body {
   color: var(--accent);
   margin-left: 6px;
 }
-/* Results-only reveal of a football player's hidden stat line (Gridiron IQ). */
+/* Football player's stat line under their name in the Results roster table.
+   Shown for every mode (like basketball's Results stat columns); for Gridiron IQ
+   it doubles as the end-of-game reveal of the line hidden during the draft. */
 .fb-statline {
   margin-top: 3px;
   font-size: 11px;
