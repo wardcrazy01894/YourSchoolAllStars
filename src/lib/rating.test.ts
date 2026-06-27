@@ -86,6 +86,25 @@ describe('honorsBonus', () => {
     // "Consensus All-American" contains "all-american" too — count 9, not 15.
     expect(honorsBonus(['Consensus All-American'])).toBe(9)
   })
+  it('credits sub-first-team and rookie/tournament honors (awards-rethink, 2026-06-27)', () => {
+    // The award-first ledger surfaces honors the old tiers scored as 0: lower
+    // all-conference teams, honorable mention, all-freshman, rookie of the year,
+    // and the Final Four Most Outstanding Player. They should all carry weight,
+    // ordered below the first-team/POY tiers.
+    expect(honorsBonus(['Second-Team All-ACC (2012)'])).toBe(3)
+    expect(honorsBonus(['Third-Team All-ACC (2009)'])).toBe(2)
+    expect(honorsBonus(['All-ACC Honorable Mention (2005)'])).toBe(1)
+    expect(honorsBonus(['ACC All-Freshman Team (2005)'])).toBe(2)
+    expect(honorsBonus(['ACC Rookie of the Year (2005)'])).toBe(3)
+    expect(honorsBonus(['ACC Defensive Player of the Year (2011)'])).toBe(6)
+    expect(honorsBonus(['First-Team All-ACC (2008)'])).toBe(4)
+    expect(honorsBonus(['NCAA Final Four Most Outstanding Player (2005)'])).toBe(
+      5,
+    )
+    // A bare all-conference nod with no stated team level still scores (the
+    // generic league-token catch), at the first-team-adjacent default of 3.
+    expect(honorsBonus(['All-ACC (1999)'])).toBe(3)
+  })
 })
 
 describe('playerRating', () => {

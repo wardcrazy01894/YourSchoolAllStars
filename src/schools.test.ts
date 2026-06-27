@@ -21,10 +21,16 @@ describe('school registry', () => {
     expect(vt.basketball?.players.length ?? 0).toBeGreaterThan(0)
   })
 
-  it('a not-yet-live school is flagged unavailable with no dataset', () => {
+  it('North Carolina is live and carries a basketball dataset', () => {
     const unc = getSchool('unc')!
-    expect(unc.available).toBe(false)
-    expect(unc.basketball).toBeUndefined()
+    expect(unc.available).toBe(true)
+    expect(unc.basketball?.players.length ?? 0).toBeGreaterThan(0)
+  })
+
+  it('a not-yet-live school is flagged unavailable with no dataset', () => {
+    const fla = getSchool('florida')!
+    expect(fla.available).toBe(false)
+    expect(fla.basketball).toBeUndefined()
   })
 
   it('tracks which schools field football (VCU does not)', () => {
@@ -43,7 +49,7 @@ describe('school registry', () => {
   })
 
   it('includes the coming-soon schools', () => {
-    for (const id of ['unc', 'florida', 'pitt', 'vcu']) {
+    for (const id of ['florida', 'pitt', 'vcu']) {
       expect(getSchool(id)?.available).toBe(false)
     }
   })

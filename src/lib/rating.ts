@@ -35,16 +35,37 @@ export const STAT_WEIGHTS: Record<keyof BballStats, number> = {
 // normalize (lowercase, hyphens→spaces) and score by feature, NOT by brittle
 // adjacent-substring matching. `honorTier` returns the single best tier for one
 // honor string; `honorsBonus` sums across a player's honors.
+// A bare all-conference selection with no stated team level (e.g. "All-ACC
+// (1999)") still deserves credit. Match on the LEAGUE token so any conference a
+// curated school plays in counts; the explicit First/Second/Third-Team and
+// Honorable-Mention checks run BEFORE this and win when a level is stated.
+const CONFERENCE_ALL_TEAM =
+  /\ball (acc|sec|big east|big ten|big 12|big twelve|atlantic 10|a 10|caa|colonial|metro|mountain west|pac 12|pac 10|conference)\b/
+
 export function honorTier(honor: string): number {
   const s = honor.toLowerCase().replace(/-/g, ' ')
   const has = (...words: string[]) => words.every((w) => s.includes(w))
+  // National honors.
   if (has('national', 'player of the year')) return 12
   if (s.includes('wooden') || s.includes('naismith')) return 10
   if (s.includes('all american')) return s.includes('consensus') ? 9 : 6
-  if (s.includes('player of the year')) return 6 // conference POY
-  if (s.includes('first team all')) return 4 // all-conference first team
-  if (s.includes('freshman of the year')) return 3
-  if (s.includes('all big ten') || s.includes('all conference')) return 3
+  // National-tournament honor: Final Four Most Outstanding Player.
+  if (s.includes('most outstanding player')) return 5
+  // Conference player-of-the-year (includes Defensive Player of the Year).
+  if (s.includes('player of the year')) return 6
+  // Conference rookie/freshman of the year.
+  if (s.includes('rookie of the year') || s.includes('freshman of the year'))
+    return 3
+  // All-conference, scored by team level — FIRST match wins, so the order
+  // (first → second → third → honorable mention) encodes the ranking.
+  if (s.includes('first team all')) return 4
+  if (s.includes('second team all')) return 3
+  if (s.includes('third team all')) return 2
+  if (s.includes('honorable mention')) return 1
+  // All-freshman/all-rookie team (a named all-conference frosh squad).
+  if (s.includes('all freshman')) return 2
+  // Generic all-conference nod with no stated team level.
+  if (CONFERENCE_ALL_TEAM.test(s)) return 3
   return 0
 }
 
