@@ -528,7 +528,6 @@
       "id": "andrew-fava",
       "name": "Andrew Fava",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2018,
       "lastYear": 2019,
       "seasons": [
@@ -561,8 +560,8 @@
     {
       "id": "andrew-nembhard",
       "name": "Andrew Nembhard",
-      "position": "SG",
-      "eligible": ["SG", "SF"],
+      "position": "PG",
+      "eligible": ["PG", "SG"],
       "firstYear": 2019,
       "lastYear": 2020,
       "seasons": [
@@ -1340,7 +1339,6 @@
       "id": "chris-chiozza",
       "name": "Chris Chiozza",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2015,
       "lastYear": 2018,
       "seasons": [
@@ -1912,7 +1910,7 @@
     {
       "id": "dametri-hill",
       "name": "Dametri Hill",
-      "position": "C",
+      "position": "PF",
       "eligible": ["PF", "C"],
       "firstYear": 1994,
       "lastYear": 1996,
@@ -2441,7 +2439,7 @@
     {
       "id": "donnell-harvey",
       "name": "Donnell Harvey",
-      "position": "C",
+      "position": "PF",
       "eligible": ["PF", "C"],
       "firstYear": 2000,
       "lastYear": 2000,
@@ -2590,7 +2588,6 @@
       "id": "eddie-shannon",
       "name": "Eddie Shannon",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 1996,
       "lastYear": 1999,
       "seasons": [
@@ -2850,7 +2847,6 @@
       "id": "erving-walker",
       "name": "Erving Walker",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2009,
       "lastYear": 2012,
       "seasons": [
@@ -2954,7 +2950,6 @@
       "id": "gorjok-gak",
       "name": "Gorjok Gak",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2017,
       "lastYear": 2020,
       "seasons": [
@@ -3404,7 +3399,6 @@
       "id": "jai-lucas",
       "name": "Jai Lucas",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2008,
       "lastYear": 2008,
       "seasons": [
@@ -3551,7 +3545,6 @@
       "id": "jason-jitoboh",
       "name": "Jason Jitoboh",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2020,
       "lastYear": 2023,
       "seasons": [
@@ -3653,7 +3646,6 @@
       "id": "joakim-noah",
       "name": "Joakim Noah",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2005,
       "lastYear": 2007,
       "seasons": [
@@ -3763,7 +3755,6 @@
       "id": "john-egbunu",
       "name": "John Egbunu",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2016,
       "lastYear": 2017,
       "seasons": [
@@ -3797,7 +3788,6 @@
       "id": "john-griffiths",
       "name": "John Griffiths",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 1994,
       "lastYear": 1997,
       "seasons": [
@@ -4966,7 +4956,6 @@
       "id": "mark-timinski",
       "name": "Mark Timinski",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 1997,
       "lastYear": 1999,
       "seasons": [
@@ -5194,7 +5183,6 @@
       "id": "micah-handlogten",
       "name": "Micah Handlogten",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2024,
       "lastYear": 2026,
       "seasons": [
@@ -5511,8 +5499,8 @@
     {
       "id": "nick-calathes",
       "name": "Nick Calathes",
-      "position": "SG",
-      "eligible": ["SG", "SF"],
+      "position": "PG",
+      "eligible": ["PG", "SG"],
       "firstYear": 2008,
       "lastYear": 2009,
       "seasons": [
@@ -5675,7 +5663,6 @@
       "id": "olivier-rioux",
       "name": "Olivier Rioux",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2026,
       "lastYear": 2026,
       "seasons": [
@@ -5904,7 +5891,6 @@
       "id": "ques-glover",
       "name": "Ques Glover",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2020,
       "lastYear": 2021,
       "seasons": [
@@ -6062,7 +6048,6 @@
       "id": "ronnie-king",
       "name": "Ronnie King",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 1999,
       "lastYear": 2002,
       "seasons": [
@@ -6109,7 +6094,6 @@
       "id": "rueben-chinyelu",
       "name": "Rueben Chinyelu",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2025,
       "lastYear": 2026,
       "seasons": [
@@ -6408,7 +6392,7 @@
     {
       "id": "svein-dyrkolbotn",
       "name": "Svein Dyrkolbotn",
-      "position": "C",
+      "position": "PF",
       "eligible": ["PF", "C"],
       "firstYear": 1994,
       "lastYear": 1995,
@@ -6443,7 +6427,6 @@
       "id": "taurean-green",
       "name": "Taurean Green",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2005,
       "lastYear": 2007,
       "seasons": [
@@ -6489,7 +6472,6 @@
       "id": "teddy-dupay",
       "name": "Teddy Dupay",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 1999,
       "lastYear": 2001,
       "seasons": [
@@ -6614,8 +6596,8 @@
     {
       "id": "tre-mann",
       "name": "Tre Mann",
-      "position": "SG",
-      "eligible": ["SG", "SF"],
+      "position": "PG",
+      "eligible": ["PG", "SG"],
       "firstYear": 2020,
       "lastYear": 2021,
       "seasons": [
@@ -6649,7 +6631,6 @@
       "id": "trey-bonham",
       "name": "Trey Bonham",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2023,
       "lastYear": 2023,
       "seasons": [
@@ -6748,7 +6729,7 @@
     {
       "id": "udonis-haslem",
       "name": "Udonis Haslem",
-      "position": "C",
+      "position": "PF",
       "eligible": ["PF", "C"],
       "firstYear": 1999,
       "lastYear": 2002,
@@ -6875,7 +6856,6 @@
       "id": "viktor-mikic",
       "name": "Viktor Mikic",
       "position": "C",
-      "eligible": ["PF", "C"],
       "firstYear": 2025,
       "lastYear": 2026,
       "seasons": [
@@ -6947,7 +6927,6 @@
       "id": "walter-hodge",
       "name": "Walter Hodge",
       "position": "PG",
-      "eligible": ["PG", "SG"],
       "firstYear": 2006,
       "lastYear": 2009,
       "seasons": [
