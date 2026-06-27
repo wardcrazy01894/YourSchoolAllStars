@@ -232,6 +232,34 @@ describe('respins (per side)', () => {
   })
 })
 
+describe('canRespin no-strand guard', () => {
+  it('refuses a respin that would strand a slot even when the side cap is unused', () => {
+    // 7 windows; draft one offensive slot → 11 slots still open, only 5 windows
+    // would remain after a respin advanced the cursor. Not enough to fill them,
+    // so canRespin is false — and crucially the offensive respin is still UNUSED,
+    // so this is the no-strand guard talking, not the per-side cap.
+    let s = initFbDraft(Array.from({ length: 7 }, () => W))
+    s = draftToSlot(s, byId('QB-a'), 'QB')
+    expect(s.respinsUsed.offense).toBe(0)
+    expect(openFbSlots(s).length).toBe(11)
+    expect(canRespin(s)).toBe(false)
+    expect(respin(s)).toBe(s) // no-op, same reference
+  })
+
+  it('is exact at the boundary (off-by-one pin)', () => {
+    // From the start 12 slots are open; a respin advances one window, so it needs
+    // 12 windows to REMAIN after it → a 13-window sequence just allows the first
+    // respin, a 12-window one strands a slot. Pins canRespin's `>=` against an
+    // off-by-one regression.
+    expect(canRespin(initFbDraft(Array.from({ length: 13 }, () => W)))).toBe(
+      true,
+    )
+    expect(canRespin(initFbDraft(Array.from({ length: 12 }, () => W)))).toBe(
+      false,
+    )
+  })
+})
+
 describe('completion', () => {
   it('is complete when all 12 slots are filled', () => {
     const s = fillDefense(fillOffense(initFbDraft(SEQ)))
@@ -246,6 +274,18 @@ describe('completion', () => {
     expect(s.cursor).toBe(2)
     expect(isFbComplete(s)).toBe(true)
     expect(allFbSlotsFilled(s)).toBe(false)
+  })
+
+  it('drafting or respinning past the end of the sequence is a no-op', () => {
+    // Exhaust a 2-window sequence, then confirm both transitions reject cleanly
+    // (same reference) once there is no current window left to draft from.
+    const short = initFbDraft([W, W])
+    let s = draftToSlot(short, byId('QB-a'), 'QB')
+    s = draftToSlot(s, byId('RB-a'), 'RB')
+    expect(isFbComplete(s)).toBe(true)
+    expect(currentFbWindow(s)).toBeNull()
+    expect(draftToSlot(s, byId('WR-a'), 'WR')).toBe(s)
+    expect(respin(s)).toBe(s)
   })
 })
 

@@ -168,6 +168,18 @@ export function draftToSlot(
  * ON THE CURRENT SIDE, and advancing wouldn't strand a slot (enough windows must
  * remain after the skip to fill every open slot). Like basketball's skip cap,
  * this lives in the state machine so no caller can exceed it.
+ *
+ * Soft-lock freedom depends on a DATA invariant, not on this count guard: the
+ * guard only ensures enough windows REMAIN, not that each remaining window holds
+ * a *pickable* player. And football's requirement is STRONGER than basketball's —
+ * side-gating hides the opposite side, so every window must hold a player who
+ * fits an open slot on the side you'll be drafting when you reach it (in practice
+ * every window needs both an offensive and a defensive option for the open
+ * position-classes). That per-window-PER-SIDE coverage is enforced in the dataset
+ * guard (`src/data/football-dataset.test.ts`, the Hall's-condition check per
+ * window × side). With that invariant, a pickable player always exists in the
+ * current era, so the cap never strands you. Do NOT loosen the cap here to
+ * compensate for a weaker dataset — fix the dataset guard instead.
  */
 export function canRespin(s: FbDraftState): boolean {
   if (isFbComplete(s)) return false
