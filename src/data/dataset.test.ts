@@ -2,7 +2,11 @@
 // the provisional seed and the curated set: a malformed player row fails CI.
 
 import { describe, it, expect } from 'vitest'
-import { michiganBasketball, virginiaTechBasketball } from './index'
+import {
+  michiganBasketball,
+  virginiaTechBasketball,
+  northCarolinaBasketball,
+} from './index'
 import type { Dataset } from './index'
 import {
   BBALL_WINDOWS,
@@ -21,7 +25,11 @@ const REQUIRED_STATS: (keyof BballStats)[] = ['pts', 'reb', 'ast', 'stl', 'blk']
 // Every bundled basketball dataset runs the SAME guards — the seed and the
 // curated sets alike. Adding a school = add its dataset here; a malformed row in
 // any of them fails CI.
-const DATASETS: Dataset[] = [michiganBasketball, virginiaTechBasketball]
+const DATASETS: Dataset[] = [
+  michiganBasketball,
+  virginiaTechBasketball,
+  northCarolinaBasketball,
+]
 
 describe.each(DATASETS)('$school basketball dataset', ({ players }) => {
   it('has players', () => {

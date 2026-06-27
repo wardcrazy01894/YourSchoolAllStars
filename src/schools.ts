@@ -6,6 +6,7 @@ import {
   michiganBasketball,
   michiganFootball,
   virginiaTechBasketball,
+  northCarolinaBasketball,
   type Dataset,
   type FootballDataset,
 } from './data'
@@ -79,10 +80,10 @@ export const SCHOOLS: School[] = [
       accent: '#4b9cd3',
       ink: '#0a1422',
     },
-    basketball: undefined,
+    basketball: northCarolinaBasketball,
     hasFootball: true,
     power5: true,
-    available: false,
+    available: true,
   },
   {
     id: 'florida',

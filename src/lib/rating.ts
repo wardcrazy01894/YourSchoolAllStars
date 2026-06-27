@@ -35,16 +35,58 @@ export const STAT_WEIGHTS: Record<keyof BballStats, number> = {
 // normalize (lowercase, hyphens→spaces) and score by feature, NOT by brittle
 // adjacent-substring matching. `honorTier` returns the single best tier for one
 // honor string; `honorsBonus` sums across a player's honors.
+// A bare all-conference selection with no stated team level (e.g. "All-ACC
+// (1999)") still deserves credit. Match on the LEAGUE token so any conference a
+// curated school plays in counts; the explicit First/Second/Third-Team and
+// Honorable-Mention checks run BEFORE this and win when a level is stated.
+const CONFERENCE_ALL_TEAM =
+  /\ball (acc|sec|big east|big ten|big 12|big twelve|atlantic 10|a 10|caa|colonial|metro|mountain west|pac 12|pac 10|conference)\b/
+
 export function honorTier(honor: string): number {
-  const s = honor.toLowerCase().replace(/-/g, ' ')
+  // Normalize so the SAME award scores identically regardless of how a source
+  // wrote it: lowercase, hyphens→spaces, and digit ordinals→words. The team
+  // level — not the word order ("First-Team All-X" vs "All-X First Team") — is
+  // what drives the tier, so we match on the ordinal+"team" token below, which
+  // appears in both orders. (PR #35 review: the old adjacent "first team all"
+  // matcher silently mis-scored the reverse order and the "1st"/"3rd" forms.)
+  const s = honor
+    .toLowerCase()
+    .replace(/-/g, ' ')
+    .replace(/\b1st\b/g, 'first')
+    .replace(/\b2nd\b/g, 'second')
+    .replace(/\b3rd\b/g, 'third')
   const has = (...words: string[]) => words.every((w) => s.includes(w))
+  // National honors.
   if (has('national', 'player of the year')) return 12
   if (s.includes('wooden') || s.includes('naismith')) return 10
-  if (s.includes('all american')) return s.includes('consensus') ? 9 : 6
-  if (s.includes('player of the year')) return 6 // conference POY
-  if (s.includes('first team all')) return 4 // all-conference first team
-  if (s.includes('freshman of the year')) return 3
-  if (s.includes('all big ten') || s.includes('all conference')) return 3
+  // College All-American. Exclude the McDonald's HS recruiting award — same
+  // words, but a high-school honor, not a college-season one.
+  if (s.includes('all american') && !s.includes('mcdonald'))
+    return s.includes('consensus') ? 9 : 6
+  // National-tournament honor: the Final Four / NCAA Tournament Most Outstanding
+  // Player (5) is the championship award; a REGIONAL MOP is a lesser one (3).
+  if (s.includes('most outstanding player'))
+    return s.includes('regional') ? 3 : 5
+  // Conference player-of-the-year (includes Defensive Player of the Year).
+  if (s.includes('player of the year')) return 6
+  // Conference rookie/freshman of the year, and sixth man of the year.
+  if (s.includes('rookie of the year') || s.includes('freshman of the year'))
+    return 3
+  if (s.includes('sixth man of the year')) return 3
+  // All-conference, scored by team level — FIRST match wins, so the order
+  // (first → second → third → honorable mention) encodes the ranking. Match the
+  // bare "<ordinal> team" token so BOTH word orders count (all-American team
+  // levels are already consumed above, so they never reach here).
+  if (s.includes('first team')) return 4
+  if (s.includes('second team')) return 3
+  if (s.includes('third team')) return 2
+  if (s.includes('honorable mention')) return 1
+  // Named all-conference squads, in either word order ("Big Ten All-Freshman
+  // Team" / "All-Big Ten Freshman Team", likewise all-defensive).
+  if (s.includes('freshman team') || s.includes('all freshman')) return 2
+  if (s.includes('defensive team')) return 3
+  // Generic all-conference nod with no stated team level.
+  if (CONFERENCE_ALL_TEAM.test(s)) return 3
   return 0
 }
 

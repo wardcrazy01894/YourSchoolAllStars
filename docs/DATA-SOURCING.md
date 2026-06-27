@@ -71,6 +71,51 @@ they were earned in**, formatted like Michigan's rows ("First-Team All-ACC
 silently under-rates a real star — treat a missing honor as a sourcing gap to
 fill, the same as a missing stat.
 
+### Honors gathering is AWARD-FIRST, not scorer-first (Alex, 2026-06-27)
+
+The wrong way (and the trap the earlier passes fell into): walk the **top point
+scorers** and look up _their_ honors. That silently misses every award won by a
+player who wasn't a high scorer — a lockdown defender's All-Defensive / DPOY nod,
+a glue-guy's All-Freshman selection, a low-usage role player's Honorable Mention.
+A stats game that under-credits real honors is poisoned the same way a wrong stat
+poisons it.
+
+The right way is **award-first**: enumerate the _awards themselves_, then attach
+each to whichever player won it, regardless of how many points they scored.
+
+1. **Build the count oracle from Sports-Reference.** Each SR player page carries
+   a **"bling" accolades block** listing career award **counts** ("4× All-ACC",
+   "2× Consensus All-American", "ACC Rookie of the Year"). These counts are
+   reliable and are the **validation oracle**: after encoding, the honors we wrote
+   for a player must **sum to their bling counts** — a mismatch is a missing or
+   spurious honor. (The SR per-year _awards column_ is incomplete — it's a
+   convenience, not the source of truth; trust the bling counts.)
+2. **Resolve each award's year and team level from the per-year award pages.**
+   SR's bling gives the count, not always the year/level. Pull those from the
+   per-year **"YYYY–YY <Conference> men's basketball season"** Wikipedia pages
+   (which list that season's First/Second/Third All-Conference teams + conference
+   POY/DPOY/ROY/All-Freshman) and the **"YYYY NCAA … Consensus All-Americans"**
+   pages. This assigns each All-Conference selection its correct **season-ending
+   year** and **team level**.
+3. **Validate, then fill the gaps.** Encode honors on the season row of the year
+   earned, then check each player's encoded counts against their bling counts.
+   Only re-fetch Wikipedia where they disagree — the oracle tells you exactly
+   which players still have an unresolved selection, so you cover _all_ the awards
+   without blindly fetching every page.
+
+This is the standing method for **every school**. The rating side was extended to
+match (`honorTier`, 2026-06-27): sub-first-team honors that the scorer-first pass
+never surfaced now actually score — **Second-Team** (3), **Third-Team** (2),
+**Honorable Mention** (1), **All-Freshman / All-Defensive team** (2 / 3),
+**Rookie/Freshman of the Year** and **Sixth Man of the Year** (3), conference
+**Defensive Player of the Year** (6), and the **Final Four / NCAA Tournament Most
+Outstanding Player** (5, vs a lesser **regional** MOP at 3) — so completeness in
+the ledger translates into the rating instead of silently scoring 0. `honorTier`
+is **format-agnostic**: it normalizes word order and digit ordinals, so the same
+award scores identically however a source wrote it (`First-Team All-Big Ten` =
+`All-Big Ten 1st Team`). The **McDonald's All-American** high-school recruiting
+award is deliberately excluded — it is not a college-season honor.
+
 ### Sports-Reference — what we may and may not do
 
 `sports-reference.com` (/cbb, /cfb) has clean per-player lines back through the
