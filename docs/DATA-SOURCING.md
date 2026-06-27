@@ -106,10 +106,15 @@ each to whichever player won it, regardless of how many points they scored.
 This is the standing method for **every school**. The rating side was extended to
 match (`honorTier`, 2026-06-27): sub-first-team honors that the scorer-first pass
 never surfaced now actually score — **Second-Team** (3), **Third-Team** (2),
-**Honorable Mention** (1), **All-Freshman** (2), **Rookie/Freshman of the Year**
-(3), conference **Defensive Player of the Year** (6), and **Final Four Most
-Outstanding Player** (5) — so completeness in the ledger translates into the
-rating instead of silently scoring 0.
+**Honorable Mention** (1), **All-Freshman / All-Defensive team** (2 / 3),
+**Rookie/Freshman of the Year** and **Sixth Man of the Year** (3), conference
+**Defensive Player of the Year** (6), and the **Final Four / NCAA Tournament Most
+Outstanding Player** (5, vs a lesser **regional** MOP at 3) — so completeness in
+the ledger translates into the rating instead of silently scoring 0. `honorTier`
+is **format-agnostic**: it normalizes word order and digit ordinals, so the same
+award scores identically however a source wrote it (`First-Team All-Big Ten` =
+`All-Big Ten 1st Team`). The **McDonald's All-American** high-school recruiting
+award is deliberately excluded — it is not a college-season honor.
 
 ### Sports-Reference — what we may and may not do
 

@@ -105,6 +105,58 @@ describe('honorsBonus', () => {
     // generic league-token catch), at the first-team-adjacent default of 3.
     expect(honorsBonus(['All-ACC (1999)'])).toBe(3)
   })
+  it('scores a team-level award the SAME in every word order / ordinal format (PR #35 review)', () => {
+    // Michigan's data carries the all-conference level in BOTH word orders and
+    // with digit ordinals ("1st"/"2nd"/"3rd"). The level — not the position of
+    // "All" — must drive the tier, or the same award scores differently.
+    // First team = 4, in any shape.
+    expect(honorsBonus(['First-Team All-Big Ten (2006)'])).toBe(4)
+    expect(honorsBonus(['All-Big Ten First Team'])).toBe(4)
+    expect(honorsBonus(['All-Big Ten First Team (media)'])).toBe(4)
+    expect(honorsBonus(['All-Big Ten 1st Team'])).toBe(4)
+    // Second team = 3, in any shape.
+    expect(honorsBonus(['Second-Team All-Big Ten (2010)'])).toBe(3)
+    expect(honorsBonus(['All-Big Ten Second Team'])).toBe(3)
+    expect(honorsBonus(['All-Big Ten 2nd Team'])).toBe(3)
+    // Third team = 2, in any shape.
+    expect(honorsBonus(['Third-Team All-Big Ten (2011)'])).toBe(2)
+    expect(honorsBonus(['All-Big Ten Third Team'])).toBe(2)
+    expect(honorsBonus(['All-Big Ten Third-Team (2023)'])).toBe(2)
+    expect(honorsBonus(['All-Big Ten 3rd Team'])).toBe(2)
+    expect(honorsBonus(['3rd Team All-Big Ten'])).toBe(2)
+    expect(honorsBonus(['All-Big Ten 3rd Team (coaches)'])).toBe(2)
+  })
+  it('scores all-freshman / all-defensive teams consistently across word order (PR #35 review)', () => {
+    // The all-freshman team is 2 whether written "Big Ten All-Freshman Team" or
+    // "All-Big Ten Freshman Team" — both appear in the data.
+    expect(honorsBonus(['Big Ten All-Freshman Team (2011)'])).toBe(2)
+    expect(honorsBonus(['All-Big Ten Freshman Team'])).toBe(2)
+    // The all-defensive team is 3 in either word order ("Big Ten All-Defensive
+    // Team" previously fell through to 0).
+    expect(honorsBonus(['All-Big Ten Defensive Team (2026)'])).toBe(3)
+    expect(honorsBonus(['Big Ten All-Defensive Team (2008)'])).toBe(3)
+  })
+  it('distinguishes national-tournament MOP from a regional MOP (PR #35 review)', () => {
+    // The Final Four / NCAA Tournament MOP is the championship honor (5); a
+    // REGIONAL Most Outstanding Player is a lesser tournament honor (3).
+    expect(
+      honorsBonus(['NCAA Final Four Most Outstanding Player (2005)']),
+    ).toBe(5)
+    expect(
+      honorsBonus(['NCAA Tournament Most Outstanding Player (2026)']),
+    ).toBe(5)
+    expect(
+      honorsBonus(['NCAA Midwest Regional Most Outstanding Player (2026)']),
+    ).toBe(3)
+  })
+  it('credits Sixth Man of the Year and excludes the McDonald’s HS award (PR #35 review)', () => {
+    // Conference Sixth Man of the Year is a real award (previously scored 0).
+    expect(honorsBonus(['Big Ten Sixth Man of the Year'])).toBe(3)
+    // McDonald's All-American is a HIGH-SCHOOL recruiting honor, not a college
+    // All-American — it must NOT score as one (was inflating to 6).
+    expect(honorsBonus(['McDonald’s All-American (2021)'])).toBe(0)
+    expect(honorsBonus(["McDonald's All-American (2021)"])).toBe(0)
+  })
 })
 
 describe('playerRating', () => {
