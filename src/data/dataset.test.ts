@@ -8,6 +8,7 @@ import {
   northCarolinaBasketball,
   floridaBasketball,
   vcuBasketball,
+  pittsburghBasketball,
 } from './index'
 import type { Dataset } from './index'
 import {
@@ -33,6 +34,7 @@ const DATASETS: Dataset[] = [
   northCarolinaBasketball,
   floridaBasketball,
   vcuBasketball,
+  pittsburghBasketball,
 ]
 
 describe.each(DATASETS)('$school basketball dataset', ({ players }) => {

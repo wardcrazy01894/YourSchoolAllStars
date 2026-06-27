@@ -41,10 +41,19 @@ describe('school registry', () => {
     expect(vcu.hasFootball).toBe(false)
   })
 
-  it('a not-yet-live school is flagged unavailable with no dataset', () => {
+  it('Pittsburgh is live and carries a basketball dataset', () => {
     const pitt = getSchool('pitt')!
-    expect(pitt.available).toBe(false)
-    expect(pitt.basketball).toBeUndefined()
+    expect(pitt.available).toBe(true)
+    expect(pitt.basketball?.players.length ?? 0).toBeGreaterThan(0)
+    expect(pitt.power5).toBe(true)
+  })
+
+  it('any unavailable school carries no basketball dataset', () => {
+    // Invariant (robust to there being zero coming-soon schools today): a school
+    // flagged unavailable must not also expose a playable dataset.
+    for (const s of SCHOOLS) {
+      if (!s.available) expect(s.basketball).toBeUndefined()
+    }
   })
 
   it('tracks which schools field football (VCU does not)', () => {
@@ -60,12 +69,6 @@ describe('school registry', () => {
       expect(getSchool(id)!.power5).toBe(true)
     }
     for (const s of SCHOOLS) expect(typeof s.power5).toBe('boolean')
-  })
-
-  it('includes the coming-soon schools', () => {
-    for (const id of ['pitt']) {
-      expect(getSchool(id)?.available).toBe(false)
-    }
   })
 
   it('every theme token is a hex color', () => {
