@@ -15,6 +15,12 @@ describe('school registry', () => {
     expect(m.theme.accent.toLowerCase()).toBe('#ffcb05')
   })
 
+  it('Virginia Tech is live and carries a basketball dataset', () => {
+    const vt = getSchool('vt')!
+    expect(vt.available).toBe(true)
+    expect(vt.basketball?.players.length ?? 0).toBeGreaterThan(0)
+  })
+
   it('a not-yet-live school is flagged unavailable with no dataset', () => {
     const unc = getSchool('unc')!
     expect(unc.available).toBe(false)
@@ -37,7 +43,7 @@ describe('school registry', () => {
   })
 
   it('includes the coming-soon schools', () => {
-    for (const id of ['unc', 'florida', 'vt', 'pitt', 'vcu']) {
+    for (const id of ['unc', 'florida', 'pitt', 'vcu']) {
       expect(getSchool(id)?.available).toBe(false)
     }
   })

@@ -28,6 +28,49 @@ through only when it doesn't:
    team page (`/team/stats/_/id/130/...`) re-points to the newest season each
    year and rots the provenance of older rows.
 
+### ESPN-first for recent seasons (Alex, 2026-06-27)
+
+For **recent seasons, prefer ESPN's keyless API** — it's structured, fast, and
+**not rate-limited** (unlike Sports-Reference, which bot-blocks and 429s on
+bursts). Use the higher-quality official-archive sources where they're clean, but
+when curating the **modern era reach for ESPN first**; fall back to **Wikipedia /
+Sports-Reference only once a season is too old for ESPN to serve** (ESPN's
+per-athlete season stats thin out / drop off for older years — exactly where SR
+and Wikipedia season pages are strongest). This is the standing workflow for every
+school, not a VT one-off. The two endpoints that worked (VT = team id `259`):
+
+```
+# Roster for a season (id + position + height per player), keyless:
+https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/<TEAMID>/roster?season=<YEAR>
+
+# Per-athlete SEASON AVERAGES (the compiled per-game line we store), keyless:
+https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/<YEAR>/types/2/athletes/<ATHLETEID>/statistics
+#   → splits.categories[].stats[] with names: avgPoints, avgRebounds, avgAssists,
+#     avgSteals, avgBlocks, gamesPlayed. `value` is the float; round to 1 dp.
+#   types/2 = regular season; <YEAR> is the season-ENDING year (2025-26 → 2026).
+```
+
+Gotchas: the ESPN **web pages** (`espn.com/.../team/stats/...`) are bot-walled
+(HTTP 202, empty body) and the `statistics/byathlete?team=…` endpoint **ignores**
+the team filter (returns league-wide leaders) — use the **roster → per-athlete
+core-API** pair above instead. ESPN's roster gives only G/F/C + height; assign
+PG/SG/SF/PF/C from height + role and use honest `eligible[]` for combo players.
+Cite each row's `source` as the player's ESPN page (`/player/_/id/<ATHLETEID>`).
+
+**Honors are NOT in ESPN (Alex, 2026-06-27).** ESPN's API exposes stats only —
+there is no awards/accolades endpoint or field (the athlete record carries none).
+So **honors are always a separate enrichment pass, no matter where the stat line
+came from**: pull All-Conference / All-American / Player-of-the-Year / conference
+ROY/FOY selections from **Sports-Reference player pages** (their "Awards" block,
+the most structured source) or **Wikipedia** (player-page infobox + the per-year
+"YYYY–YY <Conference> men's basketball season" All-Conference team pages and the
+"YYYY Consensus All-American" pages). Store them on the **season row whose `year`
+they were earned in**, formatted like Michigan's rows ("First-Team All-ACC
+(2013)", "ACC Player of the Year (2013)", "Consensus Second-Team All-American
+(2013)"). Honors feed the rating bonus (+9–12), so an omitted All-ACC selection
+silently under-rates a real star — treat a missing honor as a sourcing gap to
+fill, the same as a missing stat.
+
 ### Sports-Reference — what we may and may not do
 
 `sports-reference.com` (/cbb, /cfb) has clean per-player lines back through the
@@ -150,8 +193,17 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
    player, verify their full span against SR** and add every season they appeared
    in at that school (including years before the window range, for consistency —
    they're harmless to the in-window ratings). For a genuine non-playing year
-   (full-season redshirt/injury) **trim** tenure to the years actually played
-   rather than fabricate a row.
+   that splits an otherwise-continuous career (a **medical/other redshirt** —
+   e.g. Kerry Blackshear, on the VT roster 2016–2019 but redshirt-injured in
+   2016–17), **declare the year in `redshirtYears`** and keep every real season on
+   both sides — do _not_ truncate to a shorter contiguous span and do _not_
+   fabricate a row (Alex, 2026-06-27: "the guard shouldn't forbid a medical
+   redshirt year — keep all those years, it's OK he doesn't have the redshirt
+   one"). The guard treats a declared redshirt year as covered (`tenureGapYears`);
+   an _undeclared_ hole is still a sourcing gap and fails CI. Use a redshirt
+   declaration only when the surrounding years genuinely belong to one career; if
+   the missing year is just where the public record is thin, trim the span instead
+   of asserting a redshirt you can't source.
 
 ## Status
 
@@ -170,6 +222,23 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
   and **Wikipedia** season pages, with **mgoblue.com** and per-player **ESPN**
   pages for recent players. Multi-position `eligible[]` lists cover adjacency
   honestly (e.g. a center who genuinely played some PF).
+- **Virginia Tech basketball is live (`src/data/vt-basketball.json`):** 106 players
+  spanning **1994–2026**. Older seasons (1994–2024) are sourced from
+  **Sports-Reference** per-game averages, cited to each player's **individual SR
+  player page** (`/cbb/players/<slug>.html`) — the per-row provenance the policy
+  wants. Recent players (2023–2026) come from **ESPN's keyless API** (site.api
+  roster + sports.core.api per-athlete season averages), cited to the ESPN player
+  page. Same guards run over it as Michigan (`dataset.test.ts` iterates both).
+  Declared medical redshirts in `redshirtYears`: **Kerry Blackshear Jr. (2017),
+  Ahmed Hill (2016), Ty Outlaw (2018)**. **Honors** (All-ACC 1st/2nd/3rd + HM,
+  All-American, ACC POY, ACC All-Freshman, and pre-2005 All-Big East / Atlantic 10 /
+  Metro) were back-filled from **Wikipedia**, **hokiesports.com ACC-era awards**,
+  and official ACC releases — never fabricated, mapped to the season-ending year
+  earned. **Known follow-up:** 8 rows for 3 low-usage bench players (Jon Smith
+  2000–02, Johnny Hamilton 2016–17, Ginika Ojiako 2020–22) still cite the SR
+  season page rather than an individual player page — they were below the cache
+  cutoff and SR was rate-limited (429) during this pass; convert them to
+  `/cbb/players/` URLs next time SR access is available.
 
 ## Football (2005+) — in progress
 

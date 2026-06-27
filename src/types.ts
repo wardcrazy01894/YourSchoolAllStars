@@ -59,9 +59,9 @@ export interface BballPlayer {
    */
   eligible?: BballPosition[]
   name: string
-  /** Year the player's FIRST Michigan season ended (1993-94 → 1994). */
+  /** Year the player's FIRST season at their school ended (1993-94 → 1994). */
   firstYear: number
-  /** Year the player's LAST Michigan season ended. */
+  /** Year the player's LAST season at their school ended. */
   lastYear: number
   /**
    * Every season the player is represented by, oldest first. Always non-empty.
@@ -69,11 +69,38 @@ export interface BballPlayer {
    * tenure ([firstYear, lastYear]) still governs which windows they APPEAR in.
    */
   seasons: BballSeason[]
+  /**
+   * Years INSIDE [firstYear, lastYear] the player was on the roster but did not
+   * play — a medical (or other) redshirt. They legitimately have no `seasons` row
+   * for these years, yet the year still falls within their tenure (so they keep
+   * the real seasons on both sides instead of being truncated to a shorter span).
+   * The per-player tenure-coverage guard treats a declared redshirt year as
+   * covered; an UNdeclared hole is still a sourcing gap and fails CI. (Alex,
+   * 2026-06-27: "the guard shouldn't forbid a medical redshirt year — keep all
+   * those years, it's OK he doesn't have the redshirt one.")
+   */
+  redshirtYears?: number[]
 }
 
 /** The slots a player may fill — their explicit `eligible` list or just primary. */
 export function eligiblePositions(p: BballPlayer): BballPosition[] {
   return p.eligible && p.eligible.length > 0 ? p.eligible : [p.position]
+}
+
+/**
+ * Years in a player's tenure that lack a season row AND aren't a declared
+ * redshirt — i.e. real sourcing holes. Empty = fully covered. A medical redshirt
+ * (in `redshirtYears`) is an intentional gap and is NOT reported here, so the
+ * player keeps every real season on both sides of it rather than being truncated.
+ */
+export function tenureGapYears(p: BballPlayer): number[] {
+  const have = new Set(p.seasons.map((s) => s.year))
+  const redshirt = new Set(p.redshirtYears ?? [])
+  const gaps: number[] = []
+  for (let y = p.firstYear; y <= p.lastYear; y++) {
+    if (!have.has(y) && !redshirt.has(y)) gaps.push(y)
+  }
+  return gaps
 }
 
 // ── Windows ──────────────────────────────────────────────────────────────────
