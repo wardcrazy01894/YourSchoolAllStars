@@ -2,24 +2,28 @@
 // the provisional seed and the curated set: a malformed player row fails CI.
 
 import { describe, it, expect } from 'vitest'
-import { michiganBasketball } from './index'
+import { michiganBasketball, virginiaTechBasketball } from './index'
+import type { Dataset } from './index'
 import {
   BBALL_WINDOWS,
   buildRollingWindows,
   playerInWindow,
   datasetMaxYear,
 } from '../lib/windows'
-import { BBALL_POSITIONS, eligiblePositions } from '../types'
+import { BBALL_POSITIONS, eligiblePositions, tenureGapYears } from '../types'
 import type { BballStats } from '../types'
-
-const { players } = michiganBasketball
 
 // The complete box-score line every season row must now carry (Alex, 2026-06-26):
 // SR publishes per-game pts/reb/ast/stl/blk for essentially every D-I player, so
 // a missing field means we didn't look hard enough, not that the data is absent.
 const REQUIRED_STATS: (keyof BballStats)[] = ['pts', 'reb', 'ast', 'stl', 'blk']
 
-describe('michigan basketball dataset', () => {
+// Every bundled basketball dataset runs the SAME guards — the seed and the
+// curated sets alike. Adding a school = add its dataset here; a malformed row in
+// any of them fails CI.
+const DATASETS: Dataset[] = [michiganBasketball, virginiaTechBasketball]
+
+describe.each(DATASETS)('$school basketball dataset', ({ players }) => {
   it('has players', () => {
     expect(players.length).toBeGreaterThan(0)
   })
@@ -65,6 +69,19 @@ describe('michigan basketball dataset', () => {
       // Season years are unique within a player (no duplicate season rows).
       const years = p.seasons.map((s) => s.year)
       expect(new Set(years).size).toBe(years.length)
+      // A declared medical-redshirt year is a tenure-INTERNAL non-playing year:
+      // it must fall strictly inside (firstYear, lastYear) — a boundary "redshirt"
+      // would just be a too-wide tenure — and must NOT also carry a season row
+      // (the field exists precisely because there's no row that year).
+      if (p.redshirtYears) {
+        const yearSet = new Set(years)
+        for (const ry of p.redshirtYears) {
+          expect(ry).toBeGreaterThan(p.firstYear)
+          expect(ry).toBeLessThan(p.lastYear)
+          expect(yearSet.has(ry)).toBe(false)
+        }
+        expect(new Set(p.redshirtYears).size).toBe(p.redshirtYears.length)
+      }
     }
   })
 
@@ -174,17 +191,17 @@ describe('michigan basketball dataset', () => {
     // played. The bar here is per-player: every year in [firstYear, lastYear] must
     // have a real season row.
     //
-    // No allowlist by design. For a genuine non-playing year (a redshirt or an
-    // injury that wiped the WHOLE season), we TRIM tenure (firstYear/lastYear) to
-    // the years actually played rather than fabricate a row — so a tenure that
-    // spans a year is a promise that a sourced stat line exists for it. (Alex,
-    // 2026-06-26.)
+    // Genuine non-playing years come in two flavors. A medical (or other)
+    // redshirt year — on the roster but didn't play — is DECLARED in
+    // `redshirtYears`: we keep every real season on both sides of it and let the
+    // declared year be a covered hole (Alex, 2026-06-27: "the guard shouldn't
+    // forbid a medical redshirt year — keep all those years"). Anything else — a
+    // year inside [firstYear, lastYear] with neither a season row nor a redshirt
+    // declaration — is an UNsourced hole and a real gap. `tenureGapYears` encodes
+    // exactly that: a non-empty result is a sourcing gap and fails CI.
     const gaps: string[] = []
     for (const p of players) {
-      const years = new Set(p.seasons.map((s) => s.year))
-      for (let y = p.firstYear; y <= p.lastYear; y++) {
-        if (!years.has(y)) gaps.push(`${p.id}:${y}`)
-      }
+      for (const y of tenureGapYears(p)) gaps.push(`${p.id}:${y}`)
     }
     expect(gaps.sort()).toEqual([])
   })

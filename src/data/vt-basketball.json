@@ -1,0 +1,3960 @@
+{
+  "school": "Virginia Tech",
+  "sport": "basketball",
+  "_provisional": false,
+  "_note": "Curated from Sports-Reference per-season player tables (players_per_game). Each season row carries its SR season-page source. Medical-redshirt years declared via redshirtYears. See docs/DATA-SOURCING.md.",
+  "players": [
+    {
+      "id": "damon-watlington",
+      "name": "Damon Watlington",
+      "position": "PG",
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 8.8,
+            "reb": 2,
+            "ast": 1.9,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 13.8,
+            "reb": 3.8,
+            "ast": 3.1,
+            "stl": 1.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 12.8,
+            "reb": 2.4,
+            "ast": 2.6,
+            "stl": 0.7,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        }
+      ]
+    },
+    {
+      "id": "shawn-good",
+      "name": "Shawn Good",
+      "position": "PG",
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 5.2,
+            "reb": 2.4,
+            "ast": 2.4,
+            "stl": 1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 12.9,
+            "reb": 4.7,
+            "ast": 3.1,
+            "stl": 1.6,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 8.5,
+            "reb": 3.9,
+            "ast": 2.9,
+            "stl": 1.3,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        }
+      ]
+    },
+    {
+      "id": "troy-manns",
+      "name": "Troy Manns",
+      "position": "PG",
+      "firstYear": 1996,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 4.7,
+            "reb": 1.7,
+            "ast": 2.6,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 9.3,
+            "reb": 2.9,
+            "ast": 4.5,
+            "stl": 1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        }
+      ]
+    },
+    {
+      "id": "myron-guillory",
+      "name": "Myron Guillory",
+      "position": "PG",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 1.7,
+            "reb": 0.6,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 1.5,
+            "reb": 0.5,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 4.3,
+            "reb": 1.2,
+            "ast": 1.4,
+            "stl": 0.3,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 6,
+            "reb": 1.6,
+            "ast": 1.6,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        }
+      ]
+    },
+    {
+      "id": "jenis-grindstaff",
+      "name": "Jenis Grindstaff",
+      "position": "PG",
+      "firstYear": 1998,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 10.5,
+            "reb": 2.8,
+            "ast": 3.6,
+            "stl": 1.3,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        }
+      ]
+    },
+    {
+      "id": "brendan-dunlop",
+      "name": "Brendan Dunlop",
+      "position": "PG",
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 4.6,
+            "reb": 1.5,
+            "ast": 1.1,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 7.3,
+            "reb": 2.9,
+            "ast": 3.3,
+            "stl": 1.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 11.1,
+            "reb": 3.5,
+            "ast": 4,
+            "stl": 1.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 9.5,
+            "reb": 2.4,
+            "ast": 3.3,
+            "stl": 1.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "jermaine-kimbrough",
+      "name": "Jermaine Kimbrough",
+      "position": "PG",
+      "firstYear": 1999,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 3.1,
+            "reb": 0.9,
+            "ast": 0.6,
+            "stl": 0.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 1.6,
+            "reb": 0.5,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "brian-chase",
+      "name": "Brian Chase",
+      "position": "PG",
+      "firstYear": 2000,
+      "lastYear": 2003,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 12.9,
+            "reb": 3.8,
+            "ast": 1.3,
+            "stl": 1.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 12.9,
+            "reb": 2.9,
+            "ast": 2.1,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 11.3,
+            "reb": 2.1,
+            "ast": 1.8,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 7.1,
+            "reb": 2.4,
+            "ast": 2.3,
+            "stl": 0.5,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        }
+      ]
+    },
+    {
+      "id": "markus-sailes",
+      "name": "Markus Sailes",
+      "position": "PG",
+      "firstYear": 2003,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 1.9,
+            "reb": 0.5,
+            "ast": 0.7,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 4.9,
+            "reb": 3.6,
+            "ast": 2.8,
+            "stl": 1.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.7,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 3.7,
+            "reb": 2.3,
+            "ast": 1.7,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 2.1,
+            "reb": 1.4,
+            "ast": 1.1,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+        }
+      ]
+    },
+    {
+      "id": "jamon-gordon",
+      "name": "Jamon Gordon",
+      "position": "PG",
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 9.8,
+            "reb": 4.4,
+            "ast": 4.5,
+            "stl": 2.8,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 10.9,
+            "reb": 5.1,
+            "ast": 4.1,
+            "stl": 2.3,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 11.4,
+            "reb": 6,
+            "ast": 4.4,
+            "stl": 2.1,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 11.4,
+            "reb": 4.5,
+            "ast": 4.5,
+            "stl": 2.8,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+        }
+      ]
+    },
+    {
+      "id": "malcolm-delaney",
+      "name": "Malcolm Delaney",
+      "position": "PG",
+      "firstYear": 2008,
+      "lastYear": 2011,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 9.6,
+            "reb": 2.9,
+            "ast": 3.1,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 18.1,
+            "reb": 4,
+            "ast": 4.5,
+            "stl": 1.5,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 20.2,
+            "reb": 3.7,
+            "ast": 4.5,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 18.7,
+            "reb": 3.5,
+            "ast": 4,
+            "stl": 1.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        }
+      ]
+    },
+    {
+      "id": "hank-thorns",
+      "name": "Hank Thorns",
+      "position": "PG",
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 4.6,
+            "reb": 2,
+            "ast": 3.2,
+            "stl": 1.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 2.7,
+            "reb": 1.6,
+            "ast": 2.4,
+            "stl": 0.6,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        }
+      ]
+    },
+    {
+      "id": "erick-green",
+      "name": "Erick Green",
+      "position": "PG",
+      "firstYear": 2010,
+      "lastYear": 2013,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 2.6,
+            "reb": 0.9,
+            "ast": 0.9,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 11.6,
+            "reb": 2.3,
+            "ast": 2.7,
+            "stl": 1.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 15.6,
+            "reb": 3.3,
+            "ast": 2.8,
+            "stl": 1.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 25,
+            "reb": 4,
+            "ast": 3.8,
+            "stl": 1.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        }
+      ]
+    },
+    {
+      "id": "marquis-rankin",
+      "name": "Marquis Rankin",
+      "position": "PG",
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 2.5,
+            "reb": 1.1,
+            "ast": 1.1,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 3.4,
+            "reb": 1,
+            "ast": 0.9,
+            "stl": 0.6,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        }
+      ]
+    },
+    {
+      "id": "devin-wilson",
+      "name": "Devin Wilson",
+      "position": "PG",
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 9.2,
+            "reb": 3.2,
+            "ast": 4.8,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 6.5,
+            "reb": 2.9,
+            "ast": 4.2,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 2.1,
+            "reb": 1.8,
+            "ast": 2.2,
+            "stl": 0.8,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        }
+      ]
+    },
+    {
+      "id": "justin-robinson",
+      "name": "Justin Robinson",
+      "position": "PG",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 7.3,
+            "reb": 1.8,
+            "ast": 2.8,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 10.4,
+            "reb": 3,
+            "ast": 4.8,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 14,
+            "reb": 2.8,
+            "ast": 5.6,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 13.5,
+            "reb": 3.2,
+            "ast": 5,
+            "stl": 1.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        }
+      ]
+    },
+    {
+      "id": "seth-allen",
+      "name": "Seth Allen",
+      "position": "PG",
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 14.7,
+            "reb": 3,
+            "ast": 2.5,
+            "stl": 0.9,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 13.3,
+            "reb": 2.3,
+            "ast": 3.3,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        }
+      ]
+    },
+    {
+      "id": "wabissa-bede",
+      "name": "Wabissa Bede",
+      "position": "PG",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 2.5,
+            "reb": 0.9,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 3.8,
+            "reb": 2.5,
+            "ast": 2.3,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 5.2,
+            "reb": 3.7,
+            "ast": 5.5,
+            "stl": 1,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 3.9,
+            "reb": 2.3,
+            "ast": 3.1,
+            "stl": 0.9,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        }
+      ]
+    },
+    {
+      "id": "jalen-cone",
+      "name": "Jalen Cone",
+      "position": "PG",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 8,
+            "reb": 1.1,
+            "ast": 0.7,
+            "stl": 0.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 9.2,
+            "reb": 1.1,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        }
+      ]
+    },
+    {
+      "id": "storm-murphy",
+      "name": "Storm Murphy",
+      "position": "PG",
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 8,
+            "reb": 1.9,
+            "ast": 2.9,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        }
+      ]
+    },
+    {
+      "id": "sean-pedulla",
+      "name": "Sean Pedulla",
+      "position": "PG",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 5.4,
+            "reb": 1.2,
+            "ast": 1.3,
+            "stl": 0.6,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 15,
+            "reb": 3.6,
+            "ast": 3.8,
+            "stl": 1.2,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 16.4,
+            "reb": 4.3,
+            "ast": 4.6,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "jay-purcell",
+      "name": "Jay Purcell",
+      "position": "SG",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 13.3,
+            "reb": 4,
+            "ast": 3.3,
+            "stl": 1.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        }
+      ]
+    },
+    {
+      "id": "jim-jackson",
+      "name": "Jim Jackson",
+      "position": "SG",
+      "firstYear": 1996,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 4.6,
+            "reb": 2.3,
+            "ast": 1,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 7.7,
+            "reb": 3,
+            "ast": 1.8,
+            "stl": 0.9,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        }
+      ]
+    },
+    {
+      "id": "david-jackson",
+      "name": "David Jackson",
+      "position": "SG",
+      "firstYear": 1995,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 8.5,
+            "reb": 3,
+            "ast": 1.4,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 3.1,
+            "reb": 1.3,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 5.7,
+            "reb": 1.8,
+            "ast": 1.1,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        }
+      ]
+    },
+    {
+      "id": "eddie-lucas",
+      "name": "Eddie Lucas",
+      "position": "SG",
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 9.1,
+            "reb": 2.7,
+            "ast": 0.7,
+            "stl": 0.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 14.9,
+            "reb": 4.2,
+            "ast": 1.5,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        }
+      ]
+    },
+    {
+      "id": "zabian-dowdell",
+      "name": "Zabian Dowdell",
+      "position": "SG",
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 10.8,
+            "reb": 3,
+            "ast": 3.2,
+            "stl": 1.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 14.4,
+            "reb": 3.1,
+            "ast": 2.7,
+            "stl": 1.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 15.3,
+            "reb": 3.1,
+            "ast": 3.4,
+            "stl": 2.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 17.4,
+            "reb": 3.6,
+            "ast": 3.1,
+            "stl": 2.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+        }
+      ]
+    },
+    {
+      "id": "ad-vassallo",
+      "name": "A.D. Vassallo",
+      "position": "SG",
+      "firstYear": 2006,
+      "lastYear": 2009,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 6.9,
+            "reb": 2.5,
+            "ast": 0.9,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 11.1,
+            "reb": 4,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 16.9,
+            "reb": 4.6,
+            "ast": 2.2,
+            "stl": 0.7,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 19.1,
+            "reb": 6.2,
+            "ast": 2.6,
+            "stl": 0.8,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        }
+      ]
+    },
+    {
+      "id": "dorenzo-hudson",
+      "name": "Dorenzo Hudson",
+      "position": "SG",
+      "firstYear": 2008,
+      "lastYear": 2012,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 3.5,
+            "reb": 1.4,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 4.6,
+            "reb": 1.9,
+            "ast": 1.1,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 15.2,
+            "reb": 3.5,
+            "ast": 1.9,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 10.4,
+            "reb": 3.1,
+            "ast": 1.4,
+            "stl": 0.9,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 10.9,
+            "reb": 2.8,
+            "ast": 1.5,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        }
+      ]
+    },
+    {
+      "id": "robert-brown",
+      "name": "Robert Brown",
+      "position": "SG",
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 6.8,
+            "reb": 2.1,
+            "ast": 1.9,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 8.3,
+            "reb": 2.4,
+            "ast": 2.1,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        }
+      ]
+    },
+    {
+      "id": "adam-smith",
+      "name": "Adam Smith",
+      "position": "SG",
+      "firstYear": 2014,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 11,
+            "reb": 2.3,
+            "ast": 2.1,
+            "stl": 0.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 13.4,
+            "reb": 2.6,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        }
+      ]
+    },
+    {
+      "id": "ben-emelogu",
+      "name": "Ben Emelogu",
+      "position": "SG",
+      "firstYear": 2014,
+      "lastYear": 2014,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 10.5,
+            "reb": 3.1,
+            "ast": 1.9,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        }
+      ]
+    },
+    {
+      "id": "justin-bibbs",
+      "name": "Justin Bibbs",
+      "position": "SG",
+      "firstYear": 2015,
+      "lastYear": 2018,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 11.4,
+            "reb": 3,
+            "ast": 1.8,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.7,
+            "reb": 3.3,
+            "ast": 1,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 9.2,
+            "reb": 2.8,
+            "ast": 1.6,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 13.3,
+            "reb": 2.5,
+            "ast": 1.5,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        }
+      ]
+    },
+    {
+      "id": "jalen-hudson",
+      "name": "Jalen Hudson",
+      "position": "SG",
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 6.9,
+            "reb": 2,
+            "ast": 1.2,
+            "stl": 0.5,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 8.4,
+            "reb": 2.3,
+            "ast": 0.6,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-hill",
+      "name": "Ahmed Hill",
+      "position": "SG",
+      "firstYear": 2015,
+      "lastYear": 2019,
+      "eligible": ["SG", "SF"],
+      "redshirtYears": [2016],
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 8.7,
+            "reb": 3.7,
+            "ast": 1.5,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 11.4,
+            "reb": 3.2,
+            "ast": 1.2,
+            "stl": 0.2,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 10.6,
+            "reb": 3,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 13.1,
+            "reb": 3.9,
+            "ast": 1.3,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        }
+      ]
+    },
+    {
+      "id": "nickeil-alexander-walker",
+      "name": "Nickeil Alexander-Walker",
+      "position": "SG",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 10.7,
+            "reb": 3.8,
+            "ast": 1.5,
+            "stl": 0.8,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 16.2,
+            "reb": 4.1,
+            "ast": 4,
+            "stl": 1.9,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        }
+      ]
+    },
+    {
+      "id": "isaiah-wilkins",
+      "name": "Isaiah Wilkins",
+      "position": "SG",
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 4.7,
+            "reb": 2.3,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 4.3,
+            "reb": 2.6,
+            "ast": 1.3,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        }
+      ]
+    },
+    {
+      "id": "tyrece-radford",
+      "name": "Tyrece Radford",
+      "position": "SG",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 10.2,
+            "reb": 6.2,
+            "ast": 1.7,
+            "stl": 1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 12.2,
+            "reb": 5.9,
+            "ast": 2.1,
+            "stl": 0.6,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        }
+      ]
+    },
+    {
+      "id": "nahiem-alleyne",
+      "name": "Nahiem Alleyne",
+      "position": "SG",
+      "firstYear": 2020,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 8.8,
+            "reb": 2.3,
+            "ast": 1.4,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 11.1,
+            "reb": 2.6,
+            "ast": 1.7,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 9.6,
+            "reb": 2.8,
+            "ast": 1.5,
+            "stl": 0.7,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        }
+      ]
+    },
+    {
+      "id": "hunter-cattoor",
+      "name": "Hunter Cattoor",
+      "position": "SG",
+      "firstYear": 2020,
+      "lastYear": 2024,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 6.5,
+            "reb": 2.5,
+            "ast": 1.1,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 8.5,
+            "reb": 1.9,
+            "ast": 1.4,
+            "stl": 0.9,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10,
+            "reb": 4,
+            "ast": 2,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 10.8,
+            "reb": 3.7,
+            "ast": 2.4,
+            "stl": 1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 13.5,
+            "reb": 2.8,
+            "ast": 1.9,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "darius-maddox",
+      "name": "Darius Maddox",
+      "position": "SG",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 0.8,
+            "reb": 0.2,
+            "ast": 0.3,
+            "stl": 0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 6.4,
+            "reb": 1.9,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 8.5,
+            "reb": 3.2,
+            "ast": 1.1,
+            "stl": 0.6,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        }
+      ]
+    },
+    {
+      "id": "mj-collins",
+      "name": "MJ Collins",
+      "position": "SG",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "eligible": ["PG", "SG"],
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 4.1,
+            "reb": 2.4,
+            "ast": 1.4,
+            "stl": 0.4,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 7.4,
+            "reb": 2.8,
+            "ast": 2.7,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "ty-outlaw",
+      "name": "Ty Outlaw",
+      "position": "SG",
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "eligible": ["SG", "SF"],
+      "redshirtYears": [2018],
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 6.3,
+            "reb": 2.8,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 8.6,
+            "reb": 5.2,
+            "ast": 0.9,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        }
+      ]
+    },
+    {
+      "id": "shawn-smith",
+      "name": "Shawn Smith",
+      "position": "SF",
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 11.3,
+            "reb": 4.9,
+            "ast": 1.9,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 16,
+            "reb": 6.7,
+            "ast": 2.9,
+            "stl": 1.4,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 11.1,
+            "reb": 4.5,
+            "ast": 2.8,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        }
+      ]
+    },
+    {
+      "id": "shawn-browne",
+      "name": "Shawn Browne",
+      "position": "SF",
+      "firstYear": 1996,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 1,
+            "reb": 0.3,
+            "ast": 0,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 3.4,
+            "reb": 2,
+            "ast": 0.5,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 3.7,
+            "reb": 3,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        }
+      ]
+    },
+    {
+      "id": "joe-hamilton",
+      "name": "Joe Hamilton",
+      "position": "SF",
+      "firstYear": 2001,
+      "lastYear": 2002,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 8.9,
+            "reb": 2.9,
+            "ast": 1.5,
+            "stl": 1.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 6.6,
+            "reb": 2.9,
+            "ast": 1.3,
+            "stl": 0.6,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        }
+      ]
+    },
+    {
+      "id": "carlos-dixon",
+      "name": "Carlos Dixon",
+      "position": "SF",
+      "firstYear": 2001,
+      "lastYear": 2003,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 11,
+            "reb": 3.6,
+            "ast": 2.9,
+            "stl": 1.7,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 12.2,
+            "reb": 2.8,
+            "ast": 3.1,
+            "stl": 1.6,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 13.8,
+            "reb": 3.3,
+            "ast": 2.5,
+            "stl": 1.7,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        }
+      ]
+    },
+    {
+      "id": "bryant-matthews",
+      "name": "Bryant Matthews",
+      "position": "SF",
+      "firstYear": 2001,
+      "lastYear": 2004,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 9.1,
+            "reb": 5.2,
+            "ast": 1.8,
+            "stl": 1.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 9.9,
+            "reb": 5.1,
+            "ast": 2,
+            "stl": 1.1,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 17.3,
+            "reb": 7.1,
+            "ast": 2.2,
+            "stl": 1.7,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 22.1,
+            "reb": 8.9,
+            "ast": 1.5,
+            "stl": 2.5,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+        }
+      ]
+    },
+    {
+      "id": "deron-washington",
+      "name": "Deron Washington",
+      "position": "SF",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 7.9,
+            "reb": 4.6,
+            "ast": 1,
+            "stl": 1,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 10.5,
+            "reb": 5,
+            "ast": 1.1,
+            "stl": 1.6,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 12,
+            "reb": 5.3,
+            "ast": 1.5,
+            "stl": 1.2,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 13.1,
+            "reb": 6.5,
+            "ast": 2.3,
+            "stl": 1,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        }
+      ]
+    },
+    {
+      "id": "wynton-witherspoon",
+      "name": "Wynton Witherspoon",
+      "position": "SF",
+      "firstYear": 2005,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 2.4,
+            "reb": 1.3,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 6.3,
+            "reb": 1.5,
+            "ast": 0.9,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        }
+      ]
+    },
+    {
+      "id": "jt-thompson",
+      "name": "J.T. Thompson",
+      "position": "SF",
+      "firstYear": 2008,
+      "lastYear": 2010,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 5.6,
+            "reb": 4.1,
+            "ast": 0.4,
+            "stl": 0.6,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 6.5,
+            "reb": 3.7,
+            "ast": 0.7,
+            "stl": 1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 7.3,
+            "reb": 4.6,
+            "ast": 0.6,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        }
+      ]
+    },
+    {
+      "id": "manny-atkins",
+      "name": "Manny Atkins",
+      "position": "SF",
+      "firstYear": 2010,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 2.2,
+            "reb": 1.3,
+            "ast": 0.6,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 4.9,
+            "reb": 2,
+            "ast": 0.2,
+            "stl": 0.5,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        }
+      ]
+    },
+    {
+      "id": "jarell-eddie",
+      "name": "Jarell Eddie",
+      "position": "SF",
+      "firstYear": 2011,
+      "lastYear": 2014,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 2.9,
+            "reb": 2.2,
+            "ast": 0.5,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 9.1,
+            "reb": 4.8,
+            "ast": 1.4,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 12.3,
+            "reb": 5.6,
+            "ast": 1.3,
+            "stl": 0.3,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 13.3,
+            "reb": 5.4,
+            "ast": 1.2,
+            "stl": 0.4,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        }
+      ]
+    },
+    {
+      "id": "chris-clarke",
+      "name": "Chris Clarke",
+      "position": "SF",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 8.4,
+            "reb": 6,
+            "ast": 1.5,
+            "stl": 1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 11.4,
+            "reb": 7.3,
+            "ast": 3.3,
+            "stl": 1.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 8.2,
+            "reb": 6.3,
+            "ast": 3,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        }
+      ]
+    },
+    {
+      "id": "pj-horne",
+      "name": "P.J. Horne",
+      "position": "SF",
+      "firstYear": 2018,
+      "lastYear": 2020,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 4.6,
+            "reb": 2.4,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 3.3,
+            "reb": 2.2,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 7.6,
+            "reb": 4.2,
+            "ast": 0.3,
+            "stl": 0.7,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        }
+      ]
+    },
+    {
+      "id": "landers-nolleyii",
+      "name": "Landers Nolley II",
+      "position": "SF",
+      "firstYear": 2020,
+      "lastYear": 2020,
+      "eligible": ["SG", "SF"],
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 15.5,
+            "reb": 5.8,
+            "ast": 2.4,
+            "stl": 0.8,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        }
+      ]
+    },
+    {
+      "id": "tyler-nickel",
+      "name": "Tyler Nickel",
+      "position": "SF",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "eligible": ["SF", "SG"],
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 8.8,
+            "reb": 2.2,
+            "ast": 1.3,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "john-camden",
+      "name": "John Camden",
+      "position": "SF",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 1.3,
+            "reb": 1,
+            "ast": 0.2,
+            "stl": 0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 1.9,
+            "reb": 1,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "ace-custis",
+      "name": "Ace Custis",
+      "position": "PF",
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 10.9,
+            "reb": 9.1,
+            "ast": 2.1,
+            "stl": 1.5,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 15.8,
+            "reb": 10.5,
+            "ast": 2.5,
+            "stl": 1.5,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 13.4,
+            "reb": 9.5,
+            "ast": 2.4,
+            "stl": 1.7,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 14.7,
+            "reb": 9,
+            "ast": 2,
+            "stl": 1.7,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        }
+      ]
+    },
+    {
+      "id": "andre-ray",
+      "name": "Andre Ray",
+      "position": "PF",
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 2.6,
+            "reb": 1.2,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 3.4,
+            "reb": 4.3,
+            "ast": 1.7,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 3.7,
+            "reb": 3.9,
+            "ast": 1.5,
+            "stl": 0.4,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 4.8,
+            "reb": 4.5,
+            "ast": 2.3,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "dennis-mims",
+      "name": "Dennis Mims",
+      "position": "PF",
+      "firstYear": 1999,
+      "lastYear": 2001,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 7.4,
+            "reb": 5,
+            "ast": 1,
+            "stl": 0.6,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 14.2,
+            "reb": 7.6,
+            "ast": 1.6,
+            "stl": 0.8,
+            "blk": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 10.8,
+            "reb": 9.8,
+            "ast": 0.5,
+            "stl": 1.5,
+            "blk": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        }
+      ]
+    },
+    {
+      "id": "david-whaley",
+      "name": "David Whaley",
+      "position": "PF",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 2,
+            "reb": 0.4,
+            "ast": 0.1,
+            "stl": 0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 2.4,
+            "reb": 1.5,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 3.4,
+            "reb": 1.8,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "jon-smith",
+      "name": "Jon Smith",
+      "position": "PF",
+      "firstYear": 2000,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 1.9,
+            "reb": 1.1,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 3.6,
+            "reb": 2.8,
+            "ast": 0.7,
+            "stl": 0.1,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 1.7,
+            "reb": 1.9,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        }
+      ]
+    },
+    {
+      "id": "coleman-collins",
+      "name": "Coleman Collins",
+      "position": "PF",
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 8.7,
+            "reb": 3.7,
+            "ast": 0.5,
+            "stl": 0.5,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 11.4,
+            "reb": 7,
+            "ast": 0.8,
+            "stl": 0.6,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 14.5,
+            "reb": 6.8,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 1.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 7.8,
+            "reb": 4.8,
+            "ast": 0.8,
+            "stl": 0.5,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2007.html"
+        }
+      ]
+    },
+    {
+      "id": "jeff-allen",
+      "name": "Jeff Allen",
+      "position": "PF",
+      "firstYear": 2008,
+      "lastYear": 2011,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 11.8,
+            "reb": 7.6,
+            "ast": 0.9,
+            "stl": 2.1,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 13.7,
+            "reb": 8.4,
+            "ast": 1.3,
+            "stl": 1.8,
+            "blk": 1.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 12,
+            "reb": 7.4,
+            "ast": 1.2,
+            "stl": 1.7,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 13.4,
+            "reb": 9.7,
+            "ast": 1.8,
+            "stl": 1.3,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        }
+      ]
+    },
+    {
+      "id": "victor-davila",
+      "name": "Victor Davila",
+      "position": "PF",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 3.1,
+            "reb": 2,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2009.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 5.3,
+            "reb": 4.2,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 7.4,
+            "reb": 5.1,
+            "ast": 0.9,
+            "stl": 0.2,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 7.5,
+            "reb": 4.2,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        }
+      ]
+    },
+    {
+      "id": "cadarian-raines",
+      "name": "Cadarian Raines",
+      "position": "PF",
+      "firstYear": 2010,
+      "lastYear": 2014,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 1.5,
+            "reb": 1.8,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.5,
+            "ast": 0,
+            "stl": 0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2011.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 5.9,
+            "reb": 3.9,
+            "ast": 0.4,
+            "stl": 0.7,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 6.6,
+            "reb": 6.4,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 5.2,
+            "reb": 3.2,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        }
+      ]
+    },
+    {
+      "id": "cj-barksdale",
+      "name": "C.J. Barksdale",
+      "position": "PF",
+      "firstYear": 2012,
+      "lastYear": 2014,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 2.7,
+            "reb": 2.7,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 5.6,
+            "reb": 4.7,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 8.1,
+            "reb": 4.2,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        }
+      ]
+    },
+    {
+      "id": "marshall-wood",
+      "name": "Marshall Wood",
+      "position": "PF",
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 3.6,
+            "reb": 3.8,
+            "ast": 0.5,
+            "stl": 0.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 4,
+            "reb": 3.5,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        }
+      ]
+    },
+    {
+      "id": "joey-van-zegeren",
+      "name": "Joey van Zegeren",
+      "position": "PF",
+      "firstYear": 2012,
+      "lastYear": 2015,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 0,
+            "reb": 0,
+            "ast": 0,
+            "stl": 0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 3.3,
+            "reb": 3.1,
+            "ast": 0.1,
+            "stl": 0.3,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 6.4,
+            "reb": 5,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 1.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 9.8,
+            "reb": 5.3,
+            "ast": 0.2,
+            "stl": 0.4,
+            "blk": 1.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        }
+      ]
+    },
+    {
+      "id": "christian-beyer",
+      "name": "Christian Beyer",
+      "position": "PF",
+      "firstYear": 2013,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 1.8,
+            "reb": 2.8,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 1.1,
+            "reb": 2.3,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 3.8,
+            "reb": 3.2,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2015.html"
+        }
+      ]
+    },
+    {
+      "id": "zach-leday",
+      "name": "Zach LeDay",
+      "position": "PF",
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 15.5,
+            "reb": 7.9,
+            "ast": 1.4,
+            "stl": 0.8,
+            "blk": 1.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 16.9,
+            "reb": 7.5,
+            "ast": 1.3,
+            "stl": 0.6,
+            "blk": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        }
+      ]
+    },
+    {
+      "id": "kerry-blackshearjr",
+      "name": "Kerry Blackshear Jr.",
+      "position": "PF",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "eligible": ["PF", "C"],
+      "redshirtYears": [2017],
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 6.2,
+            "reb": 4.5,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 12.5,
+            "reb": 5.9,
+            "ast": 1.2,
+            "stl": 0.8,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2018.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 14.9,
+            "reb": 7.5,
+            "ast": 2.4,
+            "stl": 0.7,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2019.html"
+        }
+      ]
+    },
+    {
+      "id": "keve-aluma",
+      "name": "Keve Aluma",
+      "position": "PF",
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 15.2,
+            "reb": 7.9,
+            "ast": 2.2,
+            "stl": 0.7,
+            "blk": 1.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 15.8,
+            "reb": 6.5,
+            "ast": 1.9,
+            "stl": 0.8,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        }
+      ]
+    },
+    {
+      "id": "justyn-mutts",
+      "name": "Justyn Mutts",
+      "position": "PF",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "eligible": ["SF", "PF", "C"],
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 9.5,
+            "reb": 6.4,
+            "ast": 2.2,
+            "stl": 0.6,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10.1,
+            "reb": 7.4,
+            "ast": 3.4,
+            "stl": 1.2,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 13.3,
+            "reb": 7.4,
+            "ast": 4.6,
+            "stl": 1.5,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        }
+      ]
+    },
+    {
+      "id": "david-nguessan",
+      "name": "David N'Guessan",
+      "position": "PF",
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 2.6,
+            "reb": 2.3,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 3.7,
+            "reb": 2.7,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        }
+      ]
+    },
+    {
+      "id": "grant-basile",
+      "name": "Grant Basile",
+      "position": "PF",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 16.4,
+            "reb": 5.4,
+            "ast": 1.7,
+            "stl": 0.4,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        }
+      ]
+    },
+    {
+      "id": "mylyjael-poteat",
+      "name": "Mylyjael Poteat",
+      "position": "PF",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "eligible": ["PF", "C"],
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 3.4,
+            "reb": 2,
+            "ast": 0.3,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 6.4,
+            "reb": 3.5,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "robbie-beran",
+      "name": "Robbie Beran",
+      "position": "PF",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "eligible": ["SF", "PF"],
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 5.6,
+            "reb": 3.9,
+            "ast": 1.1,
+            "stl": 0.6,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "mekhi-long",
+      "name": "Mekhi Long",
+      "position": "PF",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 3.7,
+            "reb": 4.9,
+            "ast": 1,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "jimmy-carruth",
+      "name": "Jimmy Carruth",
+      "position": "C",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 4.7,
+            "reb": 3.8,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 2.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        }
+      ]
+    },
+    {
+      "id": "travis-jackson",
+      "name": "Travis Jackson",
+      "position": "C",
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 3.5,
+            "reb": 2.2,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1994.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 6.4,
+            "reb": 4.4,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1995.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 8.2,
+            "reb": 4.1,
+            "ast": 0.8,
+            "stl": 0.5,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        }
+      ]
+    },
+    {
+      "id": "keefe-matthews",
+      "name": "Keefe Matthews",
+      "position": "C",
+      "firstYear": 1996,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 3.4,
+            "reb": 1.8,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 7.7,
+            "reb": 4.6,
+            "ast": 0.8,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        }
+      ]
+    },
+    {
+      "id": "rolan-roberts",
+      "name": "Rolan Roberts",
+      "position": "C",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 13.6,
+            "reb": 6.4,
+            "ast": 0.8,
+            "stl": 0.6,
+            "blk": 2.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 14.1,
+            "reb": 5.9,
+            "ast": 1.2,
+            "stl": 1.4,
+            "blk": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 13.1,
+            "reb": 6.1,
+            "ast": 1.7,
+            "stl": 1.2,
+            "blk": 1.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "russ-wheeler",
+      "name": "Russ Wheeler",
+      "position": "C",
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 3.1,
+            "reb": 1.7,
+            "ast": 0.1,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1997.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 9.6,
+            "reb": 5.4,
+            "ast": 0.5,
+            "stl": 1.4,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 6.9,
+            "reb": 5.3,
+            "ast": 1,
+            "stl": 1,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 4.4,
+            "reb": 4.2,
+            "ast": 0.8,
+            "stl": 1,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "carlton-carter",
+      "name": "Carlton Carter",
+      "position": "C",
+      "firstYear": 2001,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 7.8,
+            "reb": 6.2,
+            "ast": 0.8,
+            "stl": 1.3,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 10,
+            "reb": 8.2,
+            "ast": 0.9,
+            "stl": 0.6,
+            "blk": 1.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        }
+      ]
+    },
+    {
+      "id": "mibindo-dongo",
+      "name": "Mibindo Dongo",
+      "position": "C",
+      "firstYear": 2001,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 5.9,
+            "reb": 4.8,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2001.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 2.9,
+            "reb": 3.2,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        }
+      ]
+    },
+    {
+      "id": "terry-taylor",
+      "name": "Terry Taylor",
+      "position": "C",
+      "firstYear": 2002,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 11.1,
+            "reb": 6.5,
+            "ast": 1,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 15.5,
+            "reb": 7.3,
+            "ast": 0.8,
+            "stl": 0.4,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        }
+      ]
+    },
+    {
+      "id": "dimari-thompkins",
+      "name": "Dimari Thompkins",
+      "position": "C",
+      "firstYear": 2002,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 2.9,
+            "reb": 1.8,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2002.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 5.4,
+            "reb": 4.4,
+            "ast": 1.9,
+            "stl": 0.6,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        }
+      ]
+    },
+    {
+      "id": "philip-mccandies",
+      "name": "Philip McCandies",
+      "position": "C",
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 3.1,
+            "reb": 3,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2003.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 5,
+            "reb": 3,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2004.html"
+        }
+      ]
+    },
+    {
+      "id": "johnny-hamilton",
+      "name": "Johnny Hamilton",
+      "position": "C",
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 1.8,
+            "reb": 2.2,
+            "ast": 0.2,
+            "stl": 0,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 3.7,
+            "reb": 1.3,
+            "ast": 0,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        }
+      ]
+    },
+    {
+      "id": "khadim-sy",
+      "name": "Khadim Sy",
+      "position": "C",
+      "firstYear": 2017,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 4,
+            "reb": 2.7,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2017.html"
+        }
+      ]
+    },
+    {
+      "id": "john-ojiako",
+      "name": "Ginika Ojiako",
+      "position": "C",
+      "firstYear": 2020,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 2.7,
+            "reb": 2.7,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.2,
+            "ast": 0,
+            "stl": 0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2021.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 2.4,
+            "reb": 1.9,
+            "ast": 0.1,
+            "stl": 0,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        }
+      ]
+    },
+    {
+      "id": "lynn-kidd",
+      "name": "Lynn Kidd",
+      "position": "C",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 0.7,
+            "reb": 1.1,
+            "ast": 0,
+            "stl": 0,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2022.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 5,
+            "reb": 3.4,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2023.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 13.2,
+            "reb": 6.5,
+            "ast": 1.1,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    }
+  ]
+}

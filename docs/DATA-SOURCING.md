@@ -150,8 +150,17 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
    player, verify their full span against SR** and add every season they appeared
    in at that school (including years before the window range, for consistency —
    they're harmless to the in-window ratings). For a genuine non-playing year
-   (full-season redshirt/injury) **trim** tenure to the years actually played
-   rather than fabricate a row.
+   that splits an otherwise-continuous career (a **medical/other redshirt** —
+   e.g. Kerry Blackshear, on the VT roster 2016–2019 but redshirt-injured in
+   2016–17), **declare the year in `redshirtYears`** and keep every real season on
+   both sides — do _not_ truncate to a shorter contiguous span and do _not_
+   fabricate a row (Alex, 2026-06-27: "the guard shouldn't forbid a medical
+   redshirt year — keep all those years, it's OK he doesn't have the redshirt
+   one"). The guard treats a declared redshirt year as covered (`tenureGapYears`);
+   an _undeclared_ hole is still a sourcing gap and fails CI. Use a redshirt
+   declaration only when the surrounding years genuinely belong to one career; if
+   the missing year is just where the public record is thin, trim the span instead
+   of asserting a redshirt you can't source.
 
 ## Status
 
@@ -170,6 +179,13 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
   and **Wikipedia** season pages, with **mgoblue.com** and per-player **ESPN**
   pages for recent players. Multi-position `eligible[]` lists cover adjacency
   honestly (e.g. a center who genuinely played some PF).
+- **Virginia Tech basketball is live (`src/data/vt-basketball.json`):** 93 players
+  spanning 1994–2024, curated from **Sports-Reference** per-season player tables
+  (`players_per_game` — the compiled per-game averages, not game logs), each row
+  carrying its SR season-page `source`. Same guards run over it as Michigan
+  (`dataset.test.ts` iterates both). Declared medical redshirts: Kerry Blackshear
+  (2017), Hokie examples in `redshirtYears`. 2025 is a known follow-up (SR
+  rate-limit deferred that one fetch); the dataset ships 1994–2024 now.
 
 ## Football (2005+) — in progress
 

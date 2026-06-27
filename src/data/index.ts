@@ -3,6 +3,7 @@
 // is the single import point for the app.
 
 import raw from './michigan-basketball.json'
+import vtRaw from './vt-basketball.json'
 import fbRaw from './michigan-football.json'
 import type { BballPlayer, FbPlayer } from '../types'
 
@@ -19,6 +20,13 @@ export const michiganBasketball: Dataset = {
   sport: 'basketball',
   provisional: raw._provisional === true,
   players: raw.players as BballPlayer[],
+}
+
+export const virginiaTechBasketball: Dataset = {
+  school: vtRaw.school,
+  sport: 'basketball',
+  provisional: vtRaw._provisional === true,
+  players: vtRaw.players as BballPlayer[],
 }
 
 export interface FootballDataset {
