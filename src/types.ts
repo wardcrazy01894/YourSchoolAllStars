@@ -126,6 +126,28 @@ export interface FbStats {
   ff?: number // forced fumbles
 }
 
+/**
+ * Every valid `FbStats` field, as a runtime list. `satisfies` ties it to the type
+ * so a typo (or a renamed field) fails to compile; the dataset guard uses it to
+ * reject rows carrying an unknown stat key (which would silently score 0).
+ */
+export const FB_STAT_KEYS = [
+  'passYds',
+  'passTD',
+  'passInt',
+  'rushYds',
+  'rushTD',
+  'rec',
+  'recYds',
+  'recTD',
+  'tackles',
+  'tfl',
+  'sacks',
+  'defInt',
+  'pbu',
+  'ff',
+] as const satisfies readonly (keyof FbStats)[]
+
 export interface FbPlayer {
   id: string
   name: string
