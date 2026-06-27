@@ -5,6 +5,7 @@
 import raw from './michigan-basketball.json'
 import vtRaw from './vt-basketball.json'
 import uncRaw from './unc-basketball.json'
+import flaRaw from './florida-basketball.json'
 import fbRaw from './michigan-football.json'
 import type { BballPlayer, FbPlayer } from '../types'
 
@@ -35,6 +36,13 @@ export const northCarolinaBasketball: Dataset = {
   sport: 'basketball',
   provisional: uncRaw._provisional === true,
   players: uncRaw.players as BballPlayer[],
+}
+
+export const floridaBasketball: Dataset = {
+  school: flaRaw.school,
+  sport: 'basketball',
+  provisional: flaRaw._provisional === true,
+  players: flaRaw.players as BballPlayer[],
 }
 
 export interface FootballDataset {

@@ -1,0 +1,7208 @@
+{
+  "school": "Florida",
+  "_provisional": false,
+  "players": [
+    {
+      "id": "adam-allen",
+      "name": "Adam Allen",
+      "position": "SF",
+      "firstYear": 2008,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 4.0,
+            "reb": 0.8,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adam-allen-1.html"
+        }
+      ]
+    },
+    {
+      "id": "adrian-moss",
+      "name": "Adrian Moss",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2003,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 2.5,
+            "reb": 1.9,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adrian-moss-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 6.8,
+            "reb": 4.6,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adrian-moss-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 2.4,
+            "reb": 2.3,
+            "ast": 0.6,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adrian-moss-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 3.1,
+            "reb": 2.4,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adrian-moss-1.html"
+        }
+      ]
+    },
+    {
+      "id": "adriel-davis",
+      "name": "Adriel Davis",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2000,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.5,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adriel-davis-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 0.0,
+            "reb": 1.0,
+            "ast": 0.5,
+            "stl": 0.0,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/adriel-davis-1.html"
+        }
+      ]
+    },
+    {
+      "id": "al-horford",
+      "name": "Al Horford",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2005,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 5.6,
+            "reb": 6.5,
+            "ast": 0.9,
+            "stl": 0.8,
+            "blk": 1.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/al-horford-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 11.3,
+            "reb": 7.6,
+            "ast": 2.0,
+            "stl": 1.0,
+            "blk": 1.7
+          },
+          "honors": ["Second-Team All-SEC (2006)"],
+          "source": "https://www.sports-reference.com/cbb/players/al-horford-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 13.2,
+            "reb": 9.5,
+            "ast": 2.2,
+            "stl": 0.7,
+            "blk": 1.8
+          },
+          "honors": ["First-Team All-SEC (2007)"],
+          "source": "https://www.sports-reference.com/cbb/players/al-horford-1.html"
+        }
+      ]
+    },
+    {
+      "id": "aleksander-szymczyk",
+      "name": "Aleksander Szymczyk",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 2.1,
+            "reb": 1.3,
+            "ast": 0.2,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/aleksander-szymczyk-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-condon",
+      "name": "Alex Condon",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 7.7,
+            "reb": 6.4,
+            "ast": 1.2,
+            "stl": 0.4,
+            "blk": 1.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-condon-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 10.6,
+            "reb": 7.5,
+            "ast": 2.2,
+            "stl": 0.9,
+            "blk": 1.3
+          },
+          "honors": ["Third-Team All-SEC (2025)"],
+          "source": "https://www.sports-reference.com/cbb/players/alex-condon-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 15.1,
+            "reb": 7.5,
+            "ast": 3.6,
+            "stl": 0.7,
+            "blk": 1.4
+          },
+          "honors": ["Third-Team All-SEC (2026)"],
+          "source": "https://www.sports-reference.com/cbb/players/alex-condon-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-fudge",
+      "name": "Alex Fudge",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 5.8,
+            "reb": 4.5,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-fudge-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-klatsky",
+      "name": "Alex Klatsky",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-klatsky-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.1,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-klatsky-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-klatsky-1.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-klatsky-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-kovatchev",
+      "name": "Alex Kovatchev",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.4,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-kovatchev-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-lloyd",
+      "name": "Alex Lloyd",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 1.2,
+            "reb": 0.8,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-lloyd-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-murphy",
+      "name": "Alex Murphy",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 5.1,
+            "reb": 2.0,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-murphy-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 3.3,
+            "reb": 1.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-murphy-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alex-tyus",
+      "name": "Alex Tyus",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2008,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 4.3,
+            "reb": 2.6,
+            "ast": 0.3,
+            "stl": 0.1,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-tyus-1.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 12.5,
+            "reb": 6.2,
+            "ast": 0.7,
+            "stl": 0.5,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-tyus-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 11.8,
+            "reb": 6.9,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 1.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-tyus-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 9.1,
+            "reb": 6.2,
+            "ast": 0.8,
+            "stl": 0.4,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alex-tyus-1.html"
+        }
+      ]
+    },
+    {
+      "id": "alijah-martin",
+      "name": "Alijah Martin",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 14.4,
+            "reb": 4.5,
+            "ast": 2.2,
+            "stl": 1.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/alijah-martin-1.html"
+        }
+      ]
+    },
+    {
+      "id": "allan-chaney",
+      "name": "Allan Chaney",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2009,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 3.0,
+            "reb": 2.1,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/allan-chaney-2.html"
+        }
+      ]
+    },
+    {
+      "id": "andrew-declercq",
+      "name": "Andrew DeClercq",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 8.8,
+            "reb": 7.9,
+            "ast": 1.5,
+            "stl": 1.2,
+            "blk": 1.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/andrew-declercq-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 13.2,
+            "reb": 8.8,
+            "ast": 1.4,
+            "stl": 1.2,
+            "blk": 1.1
+          },
+          "honors": ["Third-Team All-SEC (1995)"],
+          "source": "https://www.sports-reference.com/cbb/players/andrew-declercq-1.html"
+        }
+      ]
+    },
+    {
+      "id": "andrew-fava",
+      "name": "Andrew Fava",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 0.9,
+            "reb": 0.1,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/andrew-fava-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.2,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/andrew-fava-1.html"
+        }
+      ]
+    },
+    {
+      "id": "andrew-nembhard",
+      "name": "Andrew Nembhard",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 8.0,
+            "reb": 2.9,
+            "ast": 5.4,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/andrew-nembhard-1.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 11.2,
+            "reb": 3.0,
+            "ast": 5.6,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/andrew-nembhard-1.html"
+        }
+      ]
+    },
+    {
+      "id": "anthony-duruji",
+      "name": "Anthony Duruji",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 6.1,
+            "reb": 4.4,
+            "ast": 0.6,
+            "stl": 0.6,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/anthony-duruji-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 8.6,
+            "reb": 4.1,
+            "ast": 1.1,
+            "stl": 0.9,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/anthony-duruji-1.html"
+        }
+      ]
+    },
+    {
+      "id": "anthony-roberson",
+      "name": "Anthony Roberson",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2003,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 12.3,
+            "reb": 2.5,
+            "ast": 1.8,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": ["SEC Freshman of the Year (2003)"],
+          "source": "https://www.sports-reference.com/cbb/players/anthony-roberson-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 17.9,
+            "reb": 3.0,
+            "ast": 3.6,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": ["First-Team All-SEC (2004)"],
+          "source": "https://www.sports-reference.com/cbb/players/anthony-roberson-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 17.5,
+            "reb": 2.0,
+            "ast": 2.4,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": ["First-Team All-SEC (2005)"],
+          "source": "https://www.sports-reference.com/cbb/players/anthony-roberson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "antrone-lee",
+      "name": "Antrone Lee",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1996,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 0.4,
+            "reb": 0.5,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/antrone-lee-1.html"
+        }
+      ]
+    },
+    {
+      "id": "bennett-andersen",
+      "name": "Bennett Andersen",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/bennett-andersen-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 0.4,
+            "reb": 0.2,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/bennett-andersen-1.html"
+        }
+      ]
+    },
+    {
+      "id": "billy-donovan",
+      "name": "Billy Donovan",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2014,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.3,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/billy-donovan-2.html"
+        }
+      ]
+    },
+    {
+      "id": "bonell-colas",
+      "name": "Bonell Colas",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2001,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 3.0,
+            "reb": 2.0,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/bonell-colas-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 3.6,
+            "reb": 2.4,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/bonell-colas-1.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 4.8,
+            "reb": 2.7,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/bonell-colas-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 4.9,
+            "reb": 3.1,
+            "ast": 0.8,
+            "stl": 0.5,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/bonell-colas-1.html"
+        }
+      ]
+    },
+    {
+      "id": "boogie-fland",
+      "name": "Boogie Fland",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 11.6,
+            "reb": 2.5,
+            "ast": 3.5,
+            "stl": 1.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/boogie-fland-1.html"
+        }
+      ]
+    },
+    {
+      "id": "bradley-beal",
+      "name": "Bradley Beal",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2012,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 14.8,
+            "reb": 6.7,
+            "ast": 2.2,
+            "stl": 1.4,
+            "blk": 0.8
+          },
+          "honors": [
+            "First-Team All-SEC (2012)",
+            "SEC All-Freshman Team (2012)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/bradley-beal-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brandon-mckissic",
+      "name": "Brandon McKissic",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 5.8,
+            "reb": 2.5,
+            "ast": 1.8,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brandon-mckissic-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brandon-powell",
+      "name": "Brandon Powell",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2007,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 1.6,
+            "reb": 0.4,
+            "ast": 0.5,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brandon-powell-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brandone-francis",
+      "name": "Brandone Francis",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 2.0,
+            "reb": 1.0,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brandone-francis-1.html"
+        }
+      ]
+    },
+    {
+      "id": "braxton-ogbueze",
+      "name": "Braxton Ogbueze",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 0.8,
+            "reb": 0.6,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/braxton-ogbueze-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brent-wright",
+      "name": "Brent Wright",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 7.4,
+            "reb": 4.3,
+            "ast": 0.8,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brent-wright-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 8.2,
+            "reb": 5.9,
+            "ast": 1.4,
+            "stl": 1.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brent-wright-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 8.3,
+            "reb": 4.5,
+            "ast": 2.0,
+            "stl": 0.9,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brent-wright-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 12.7,
+            "reb": 6.2,
+            "ast": 1.7,
+            "stl": 1.3,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brent-wright-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brett-nelson",
+      "name": "Brett Nelson",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2000,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 8.1,
+            "reb": 1.5,
+            "ast": 3.0,
+            "stl": 1.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brett-nelson-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 15.3,
+            "reb": 2.7,
+            "ast": 4.3,
+            "stl": 1.9,
+            "blk": 0.4
+          },
+          "honors": ["First-Team All-SEC (2001)"],
+          "source": "https://www.sports-reference.com/cbb/players/brett-nelson-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 14.6,
+            "reb": 2.3,
+            "ast": 3.3,
+            "stl": 1.9,
+            "blk": 0.5
+          },
+          "honors": ["Second-Team All-SEC (2002)"],
+          "source": "https://www.sports-reference.com/cbb/players/brett-nelson-1.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 6.3,
+            "reb": 1.7,
+            "ast": 2.1,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brett-nelson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brett-swanson",
+      "name": "Brett Swanson",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2006,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 0.9,
+            "reb": 0.3,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brett-swanson-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 0.7,
+            "reb": 0.2,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brett-swanson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "brian-thompson",
+      "name": "Brian Thompson",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 5.5,
+            "reb": 3.9,
+            "ast": 1.3,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brian-thompson-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 4.4,
+            "reb": 3.6,
+            "ast": 0.8,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brian-thompson-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 7.0,
+            "reb": 6.0,
+            "ast": 1.8,
+            "stl": 1.0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/brian-thompson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "canyon-barry",
+      "name": "Canyon Barry",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2017,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 11.4,
+            "reb": 2.8,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": ["SEC Sixth Man of the Year (2017)"],
+          "source": "https://www.sports-reference.com/cbb/players/canyon-barry-1.html"
+        }
+      ]
+    },
+    {
+      "id": "casey-prather",
+      "name": "Casey Prather",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2011,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 1.2,
+            "reb": 1.1,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/casey-prather-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 2.0,
+            "reb": 1.8,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/casey-prather-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 6.2,
+            "reb": 3.7,
+            "ast": 1.0,
+            "stl": 0.9,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/casey-prather-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 13.8,
+            "reb": 5.0,
+            "ast": 1.6,
+            "stl": 1.0,
+            "blk": 0.5
+          },
+          "honors": ["First-Team All-SEC (2014)"],
+          "source": "https://www.sports-reference.com/cbb/players/casey-prather-1.html"
+        }
+      ]
+    },
+    {
+      "id": "chandler-parsons",
+      "name": "Chandler Parsons",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2008,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 8.1,
+            "reb": 4.0,
+            "ast": 1.4,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chandler-parsons-1.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 9.2,
+            "reb": 5.7,
+            "ast": 1.8,
+            "stl": 1.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chandler-parsons-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 12.4,
+            "reb": 6.9,
+            "ast": 2.6,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chandler-parsons-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 11.3,
+            "reb": 7.8,
+            "ast": 3.8,
+            "stl": 0.9,
+            "blk": 0.4
+          },
+          "honors": [
+            "SEC Player of the Year (2011)",
+            "First-Team All-SEC (2011)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/chandler-parsons-1.html"
+        }
+      ]
+    },
+    {
+      "id": "chase-johnson",
+      "name": "Chase Johnson",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 4.3,
+            "reb": 2.0,
+            "ast": 0.3,
+            "stl": 0.5,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chase-johnson-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 3.0,
+            "reb": 2.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chase-johnson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "chris-capko",
+      "name": "Chris Capko",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2003,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 0.1,
+            "reb": 0.4,
+            "ast": 0.4,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-capko-2.html"
+        }
+      ]
+    },
+    {
+      "id": "chris-chiozza",
+      "name": "Chris Chiozza",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2015,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 3.9,
+            "reb": 2.2,
+            "ast": 2.2,
+            "stl": 1.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-chiozza-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 7.2,
+            "reb": 2.9,
+            "ast": 4.3,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-chiozza-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 7.2,
+            "reb": 3.3,
+            "ast": 3.8,
+            "stl": 1.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-chiozza-1.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 11.1,
+            "reb": 4.3,
+            "ast": 6.1,
+            "stl": 1.9,
+            "blk": 0.1
+          },
+          "honors": ["First-Team All-SEC (2018)"],
+          "source": "https://www.sports-reference.com/cbb/players/chris-chiozza-1.html"
+        }
+      ]
+    },
+    {
+      "id": "chris-richard",
+      "name": "Chris Richard",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 3.8,
+            "reb": 2.6,
+            "ast": 0.1,
+            "stl": 0.3,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-richard-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 3.3,
+            "reb": 2.5,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-richard-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 5.9,
+            "reb": 3.6,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-richard-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 6.2,
+            "reb": 3.7,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": ["SEC Sixth Man of the Year (2007)"],
+          "source": "https://www.sports-reference.com/cbb/players/chris-richard-1.html"
+        }
+      ]
+    },
+    {
+      "id": "chris-walker",
+      "name": "Chris Walker",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2014,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 1.9,
+            "reb": 1.3,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-walker-6.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 4.7,
+            "reb": 3.5,
+            "ast": 0.1,
+            "stl": 0.3,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/chris-walker-6.html"
+        }
+      ]
+    },
+    {
+      "id": "christian-drejer",
+      "name": "Christian Drejer",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 3.6,
+            "reb": 1.6,
+            "ast": 2.4,
+            "stl": 0.4,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/christian-drejer-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 10.2,
+            "reb": 4.8,
+            "ast": 4.0,
+            "stl": 1.0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/christian-drejer-1.html"
+        }
+      ]
+    },
+    {
+      "id": "christopher-sutherland",
+      "name": "Christopher Sutherland",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2020,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/christopher-sutherland-1.html"
+        }
+      ]
+    },
+    {
+      "id": "cj-felder",
+      "name": "CJ Felder",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2022,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 3.5,
+            "reb": 2.3,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cj-felder-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 2.3,
+            "reb": 2.9,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cj-felder-1.html"
+        }
+      ]
+    },
+    {
+      "id": "cj-ingram-ii",
+      "name": "CJ Ingram II",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 2.2,
+            "reb": 0.9,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cj-ingram-ii-1.html"
+        }
+      ]
+    },
+    {
+      "id": "clayton-bates",
+      "name": "Clayton Bates",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 0.7,
+            "reb": 0.3,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/clayton-bates-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 1.8,
+            "reb": 0.3,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/clayton-bates-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.4,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/clayton-bates-1.html"
+        }
+      ]
+    },
+    {
+      "id": "cody-larson",
+      "name": "Cody Larson",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2012,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.8,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cody-larson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "colin-castleton",
+      "name": "Colin Castleton",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 12.4,
+            "reb": 6.4,
+            "ast": 1.1,
+            "stl": 0.5,
+            "blk": 2.3
+          },
+          "honors": ["Second-Team All-SEC (2021)"],
+          "source": "https://www.sports-reference.com/cbb/players/colin-castleton-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 16.2,
+            "reb": 9.0,
+            "ast": 1.5,
+            "stl": 0.9,
+            "blk": 2.2
+          },
+          "honors": ["Second-Team All-SEC (2022)"],
+          "source": "https://www.sports-reference.com/cbb/players/colin-castleton-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 16.0,
+            "reb": 7.7,
+            "ast": 2.7,
+            "stl": 0.9,
+            "blk": 3.0
+          },
+          "honors": ["First-Team All-SEC (2023)"],
+          "source": "https://www.sports-reference.com/cbb/players/colin-castleton-1.html"
+        }
+      ]
+    },
+    {
+      "id": "cooper-josefsberg",
+      "name": "Cooper Josefsberg",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cooper-josefsberg-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cooper-josefsberg-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.7,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cooper-josefsberg-1.html"
+        }
+      ]
+    },
+    {
+      "id": "corey-brewer",
+      "name": "Corey Brewer",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2005,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 7.5,
+            "reb": 3.4,
+            "ast": 2.0,
+            "stl": 1.4,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/corey-brewer-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 12.7,
+            "reb": 4.8,
+            "ast": 3.3,
+            "stl": 1.6,
+            "blk": 0.4
+          },
+          "honors": ["SEC Defensive Player of the Year (2006)"],
+          "source": "https://www.sports-reference.com/cbb/players/corey-brewer-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 13.2,
+            "reb": 4.7,
+            "ast": 2.9,
+            "stl": 1.9,
+            "blk": 0.4
+          },
+          "honors": [
+            "First-Team All-SEC (2007)",
+            "NCAA Final Four Most Outstanding Player (2007)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/corey-brewer-1.html"
+        }
+      ]
+    },
+    {
+      "id": "cornelius-ingram",
+      "name": "Cornelius Ingram",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 1.4,
+            "reb": 0.5,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/cornelius-ingram-1.html"
+        }
+      ]
+    },
+    {
+      "id": "craig-brown",
+      "name": "Craig Brown",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 14.8,
+            "reb": 4.9,
+            "ast": 3.2,
+            "stl": 1.5,
+            "blk": 0.1
+          },
+          "honors": ["Second-Team All-SEC (1994)"],
+          "source": "https://www.sports-reference.com/cbb/players/craig-brown-2.html"
+        }
+      ]
+    },
+    {
+      "id": "damen-maddox",
+      "name": "Damen Maddox",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.2,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/damen-maddox-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 0.5,
+            "reb": 1.0,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/damen-maddox-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 5.9,
+            "reb": 3.9,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 1.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/damen-maddox-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 6.1,
+            "reb": 5.4,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 1.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/damen-maddox-1.html"
+        }
+      ]
+    },
+    {
+      "id": "dametri-hill",
+      "name": "Dametri Hill",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 12.7,
+            "reb": 4.9,
+            "ast": 0.6,
+            "stl": 0.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dametri-hill-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 13.7,
+            "reb": 5.9,
+            "ast": 1.1,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dametri-hill-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 17.6,
+            "reb": 7.8,
+            "ast": 0.9,
+            "stl": 1.1,
+            "blk": 0.8
+          },
+          "honors": ["Second-Team All-SEC (1996)"],
+          "source": "https://www.sports-reference.com/cbb/players/dametri-hill-1.html"
+        }
+      ]
+    },
+    {
+      "id": "dan-cross",
+      "name": "Dan Cross",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 15.7,
+            "reb": 3.9,
+            "ast": 3.9,
+            "stl": 2.1,
+            "blk": 0.2
+          },
+          "honors": ["First-Team All-SEC (1994)"],
+          "source": "https://www.sports-reference.com/cbb/players/dan-cross-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 18.0,
+            "reb": 3.6,
+            "ast": 3.5,
+            "stl": 1.7,
+            "blk": 0.1
+          },
+          "honors": ["First-Team All-SEC (1995)"],
+          "source": "https://www.sports-reference.com/cbb/players/dan-cross-1.html"
+        }
+      ]
+    },
+    {
+      "id": "dan-werner",
+      "name": "Dan Werner",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2007,
+      "lastYear": 2010,
+      "seasons": [
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 1.8,
+            "reb": 1.3,
+            "ast": 0.8,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-werner-1.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 9.1,
+            "reb": 6.4,
+            "ast": 2.5,
+            "stl": 1.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-werner-1.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 8.9,
+            "reb": 4.9,
+            "ast": 2.3,
+            "stl": 1.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-werner-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 4.6,
+            "reb": 4.1,
+            "ast": 2.0,
+            "stl": 1.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-werner-1.html"
+        }
+      ]
+    },
+    {
+      "id": "dan-williams",
+      "name": "Dan Williams",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 2.2,
+            "reb": 0.7,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-williams-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 2.5,
+            "reb": 1.3,
+            "ast": 1.0,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-williams-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 5.6,
+            "reb": 2.7,
+            "ast": 2.1,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-williams-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 4.9,
+            "reb": 1.7,
+            "ast": 1.5,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dan-williams-1.html"
+        }
+      ]
+    },
+    {
+      "id": "david-huertas",
+      "name": "David Huertas",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2006,
+      "lastYear": 2006,
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 2.5,
+            "reb": 1.5,
+            "ast": 0.7,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/david-huertas-1.html"
+        }
+      ]
+    },
+    {
+      "id": "david-kliewer",
+      "name": "David Kliewer",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2000,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.5,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/david-kliewer-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.4,
+            "ast": 0.5,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/david-kliewer-1.html"
+        }
+      ]
+    },
+    {
+      "id": "david-lee",
+      "name": "David Lee",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2002,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 7.0,
+            "reb": 4.7,
+            "ast": 1.0,
+            "stl": 0.6,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/david-lee-1.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 11.2,
+            "reb": 6.8,
+            "ast": 1.8,
+            "stl": 0.7,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/david-lee-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 13.3,
+            "reb": 6.8,
+            "ast": 2.8,
+            "stl": 1.1,
+            "blk": 0.5
+          },
+          "honors": ["Second-Team All-SEC (2004)"],
+          "source": "https://www.sports-reference.com/cbb/players/david-lee-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 13.6,
+            "reb": 9.0,
+            "ast": 2.2,
+            "stl": 1.1,
+            "blk": 0.8
+          },
+          "honors": ["First-Team All-SEC (2005)"],
+          "source": "https://www.sports-reference.com/cbb/players/david-lee-1.html"
+        }
+      ]
+    },
+    {
+      "id": "deaundrae-ballard",
+      "name": "Deaundrae Ballard",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 3.7,
+            "reb": 1.7,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/deaundrae-ballard-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 4.6,
+            "reb": 1.7,
+            "ast": 0.2,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/deaundrae-ballard-1.html"
+        }
+      ]
+    },
+    {
+      "id": "denzel-aberdeen",
+      "name": "Denzel Aberdeen",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2023,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 1.6,
+            "reb": 0.3,
+            "ast": 0.2,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/denzel-aberdeen-1.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 3.3,
+            "reb": 0.9,
+            "ast": 0.7,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/denzel-aberdeen-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 7.7,
+            "reb": 1.7,
+            "ast": 1.4,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/denzel-aberdeen-1.html"
+        }
+      ]
+    },
+    {
+      "id": "devin-robinson",
+      "name": "Devin Robinson",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2015,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 6.4,
+            "reb": 2.8,
+            "ast": 0.7,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/devin-robinson-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 9.0,
+            "reb": 5.6,
+            "ast": 0.5,
+            "stl": 0.5,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/devin-robinson-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 11.1,
+            "reb": 6.1,
+            "ast": 0.6,
+            "stl": 0.9,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/devin-robinson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "devon-walker",
+      "name": "DeVon Walker",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 0.8,
+            "reb": 0.7,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/devon-walker-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 2.4,
+            "reb": 1.2,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/devon-walker-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 1.6,
+            "reb": 1.7,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/devon-walker-1.html"
+        }
+      ],
+      "redshirtYears": [2015]
+    },
+    {
+      "id": "dillon-graham",
+      "name": "Dillon Graham",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2013,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.2,
+            "ast": 0.2,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dillon-graham-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dillon-graham-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dillon-graham-1.html"
+        }
+      ]
+    },
+    {
+      "id": "donnell-harvey",
+      "name": "Donnell Harvey",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2000,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 10.1,
+            "reb": 7.0,
+            "ast": 1.0,
+            "stl": 0.7,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/donnell-harvey-1.html"
+        }
+      ]
+    },
+    {
+      "id": "dontay-bassett",
+      "name": "Dontay Bassett",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2018,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 1.7,
+            "reb": 1.6,
+            "ast": 0.2,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dontay-bassett-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 2.7,
+            "reb": 2.3,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dontay-bassett-1.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 1.2,
+            "reb": 1.7,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/dontay-bassett-1.html"
+        }
+      ]
+    },
+    {
+      "id": "dorian-finney-smith",
+      "name": "Dorian Finney-Smith",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 8.7,
+            "reb": 6.7,
+            "ast": 2.1,
+            "stl": 0.4,
+            "blk": 0.4
+          },
+          "honors": ["SEC Sixth Man of the Year (2014)"],
+          "source": "https://www.sports-reference.com/cbb/players/dorian-finney-smith-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 13.1,
+            "reb": 6.2,
+            "ast": 1.6,
+            "stl": 1.1,
+            "blk": 0.9
+          },
+          "honors": ["Second-Team All-SEC (2015)"],
+          "source": "https://www.sports-reference.com/cbb/players/dorian-finney-smith-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 14.7,
+            "reb": 8.3,
+            "ast": 2.1,
+            "stl": 0.9,
+            "blk": 0.8
+          },
+          "honors": ["Second-Team All-SEC (2016)"],
+          "source": "https://www.sports-reference.com/cbb/players/dorian-finney-smith-1.html"
+        }
+      ]
+    },
+    {
+      "id": "eddie-nunez",
+      "name": "Eddie Nunez",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1997,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 0.3,
+            "reb": 1.0,
+            "ast": 0.5,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-nunez-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.6,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-nunez-1.html"
+        }
+      ]
+    },
+    {
+      "id": "eddie-shannon",
+      "name": "Eddie Shannon",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1996,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 8.6,
+            "reb": 2.1,
+            "ast": 3.7,
+            "stl": 1.7,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-shannon-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 13.2,
+            "reb": 3.4,
+            "ast": 4.2,
+            "stl": 1.7,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-shannon-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 11.6,
+            "reb": 3.4,
+            "ast": 4.2,
+            "stl": 1.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-shannon-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 6.7,
+            "reb": 2.6,
+            "ast": 4.8,
+            "stl": 1.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eddie-shannon-1.html"
+        }
+      ]
+    },
+    {
+      "id": "egor-koulechov",
+      "name": "Egor Koulechov",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2018,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 13.8,
+            "reb": 6.4,
+            "ast": 1.2,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/egor-koulechov-1.html"
+        }
+      ]
+    },
+    {
+      "id": "eli-carter",
+      "name": "Eli Carter",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2014,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 0.4,
+            "reb": 0.7,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eli-carter-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 8.8,
+            "reb": 2.0,
+            "ast": 2.0,
+            "stl": 0.9,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eli-carter-1.html"
+        }
+      ]
+    },
+    {
+      "id": "elijah-kennedy",
+      "name": "Elijah Kennedy",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 1.3,
+            "reb": 0.7,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/elijah-kennedy-1.html"
+        }
+      ]
+    },
+    {
+      "id": "eloy-vargas",
+      "name": "Eloy Vargas",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2009,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.7,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eloy-vargas-1.html"
+        }
+      ]
+    },
+    {
+      "id": "eric-hester",
+      "name": "Eric Hester",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2017,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 2.4,
+            "reb": 0.6,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/eric-hester-1.html"
+        }
+      ]
+    },
+    {
+      "id": "erik-murphy",
+      "name": "Erik Murphy",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2010,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 3.5,
+            "reb": 2.4,
+            "ast": 0.2,
+            "stl": 0.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/erik-murphy-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 4.3,
+            "reb": 2.3,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/erik-murphy-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 10.5,
+            "reb": 4.5,
+            "ast": 0.9,
+            "stl": 0.5,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/erik-murphy-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 12.2,
+            "reb": 5.5,
+            "ast": 1.4,
+            "stl": 0.6,
+            "blk": 0.7
+          },
+          "honors": ["First-Team All-SEC (2013)"],
+          "source": "https://www.sports-reference.com/cbb/players/erik-murphy-1.html"
+        }
+      ]
+    },
+    {
+      "id": "erron-kinney",
+      "name": "Erron Kinney",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1997,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 2.5,
+            "reb": 1.3,
+            "ast": 0.3,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/erron-kinney-1.html"
+        }
+      ]
+    },
+    {
+      "id": "erving-walker",
+      "name": "Erving Walker",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 10.1,
+            "reb": 1.5,
+            "ast": 2.4,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/erving-walker-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 12.6,
+            "reb": 3.3,
+            "ast": 4.9,
+            "stl": 1.3,
+            "blk": 0.0
+          },
+          "honors": ["Second-Team All-SEC (2010)"],
+          "source": "https://www.sports-reference.com/cbb/players/erving-walker-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 14.6,
+            "reb": 2.9,
+            "ast": 3.4,
+            "stl": 1.1,
+            "blk": 0.0
+          },
+          "honors": ["Second-Team All-SEC (2011)"],
+          "source": "https://www.sports-reference.com/cbb/players/erving-walker-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 12.1,
+            "reb": 2.9,
+            "ast": 4.6,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": ["Second-Team All-SEC (2012)"],
+          "source": "https://www.sports-reference.com/cbb/players/erving-walker-1.html"
+        }
+      ]
+    },
+    {
+      "id": "garrett-tyler",
+      "name": "Garrett Tyler",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2005,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 1.3,
+            "reb": 0.7,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/garrett-tyler-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 1.1,
+            "reb": 0.6,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/garrett-tyler-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 0.7,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/garrett-tyler-1.html"
+        }
+      ]
+    },
+    {
+      "id": "gorjok-gak",
+      "name": "Gorjok Gak",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 1.5,
+            "reb": 1.5,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/gorjok-gak-1.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 2.2,
+            "reb": 2.4,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/gorjok-gak-1.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 0.0,
+            "reb": 1.5,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/gorjok-gak-1.html"
+        }
+      ],
+      "redshirtYears": [2019]
+    },
+    {
+      "id": "greg-cristell",
+      "name": "Greg Cristell",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1997,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 3.8,
+            "reb": 3.2,
+            "ast": 0.1,
+            "stl": 0.3,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-cristell-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 2.3,
+            "reb": 1.7,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-cristell-1.html"
+        }
+      ]
+    },
+    {
+      "id": "greg-stolt",
+      "name": "Greg Stolt",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1996,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 7.1,
+            "reb": 3.3,
+            "ast": 0.3,
+            "stl": 0.6,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-stolt-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 13.9,
+            "reb": 6.1,
+            "ast": 0.4,
+            "stl": 1.1,
+            "blk": 1.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-stolt-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 12.0,
+            "reb": 4.6,
+            "ast": 0.9,
+            "stl": 0.7,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-stolt-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 11.0,
+            "reb": 3.5,
+            "ast": 0.9,
+            "stl": 0.6,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-stolt-1.html"
+        }
+      ]
+    },
+    {
+      "id": "greg-williams",
+      "name": "Greg Williams",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 2.1,
+            "reb": 0.8,
+            "ast": 1.1,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-williams-3.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 8.4,
+            "reb": 2.7,
+            "ast": 4.0,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-williams-3.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 10.3,
+            "reb": 2.4,
+            "ast": 5.0,
+            "stl": 1.3,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-williams-3.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 11.3,
+            "reb": 2.4,
+            "ast": 4.0,
+            "stl": 1.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/greg-williams-3.html"
+        }
+      ]
+    },
+    {
+      "id": "hudson-fricke",
+      "name": "Hudson Fricke",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2008,
+      "lastYear": 2010,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 0.4,
+            "reb": 0.2,
+            "ast": 0.2,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/hudson-fricke-1.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/hudson-fricke-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/hudson-fricke-1.html"
+        }
+      ]
+    },
+    {
+      "id": "isaiah-brown",
+      "name": "Isaiah Brown",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 1.9,
+            "reb": 0.9,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/isaiah-brown-2.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 5.5,
+            "reb": 2.5,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/isaiah-brown-2.html"
+        }
+      ]
+    },
+    {
+      "id": "isaiah-stokes",
+      "name": "Isaiah Stokes",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2019,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 2.7,
+            "reb": 1.0,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/isaiah-stokes-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jack-berry",
+      "name": "Jack Berry",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2005,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.4,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jack-berry-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.4,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jack-berry-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 0.7,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jack-berry-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jack-may",
+      "name": "Jack May",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jack-may-2.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.2,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jack-may-2.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.2,
+            "ast": 0.0,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jack-may-2.html"
+        }
+      ],
+      "redshirtYears": [2022]
+    },
+    {
+      "id": "jacob-kurtz",
+      "name": "Jacob Kurtz",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2012,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jacob-kurtz-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.6,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jacob-kurtz-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 1.6,
+            "reb": 1.5,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jacob-kurtz-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 4.0,
+            "reb": 3.5,
+            "ast": 1.0,
+            "stl": 0.7,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jacob-kurtz-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jai-lucas",
+      "name": "Jai Lucas",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2008,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 8.5,
+            "reb": 1.7,
+            "ast": 2.3,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jai-lucas-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jalen-hudson",
+      "name": "Jalen Hudson",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 15.5,
+            "reb": 3.9,
+            "ast": 1.1,
+            "stl": 0.8,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jalen-hudson-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 9.3,
+            "reb": 2.9,
+            "ast": 0.9,
+            "stl": 0.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jalen-hudson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jamaal-horton",
+      "name": "Jamaal Horton",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1998,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 5.7,
+            "reb": 1.2,
+            "ast": 0.9,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jamaal-horton-1.html"
+        }
+      ]
+    },
+    {
+      "id": "james-white",
+      "name": "James White",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2002,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 6.1,
+            "reb": 2.9,
+            "ast": 1.7,
+            "stl": 0.9,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/james-white-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jason-anderson",
+      "name": "Jason Anderson",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 7.2,
+            "reb": 3.8,
+            "ast": 1.5,
+            "stl": 0.8,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-anderson-3.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 5.9,
+            "reb": 3.8,
+            "ast": 1.3,
+            "stl": 0.9,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-anderson-3.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 6.6,
+            "reb": 3.4,
+            "ast": 0.9,
+            "stl": 0.6,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-anderson-3.html"
+        }
+      ],
+      "redshirtYears": [1996]
+    },
+    {
+      "id": "jason-jitoboh",
+      "name": "Jason Jitoboh",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2020,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 1.8,
+            "reb": 1.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-jitoboh-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 0.9,
+            "reb": 0.6,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-jitoboh-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 4.1,
+            "reb": 2.4,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-jitoboh-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 3.1,
+            "reb": 1.5,
+            "ast": 0.7,
+            "stl": 0.2,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-jitoboh-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jason-williams",
+      "name": "Jason Williams",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1998,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 17.1,
+            "reb": 3.0,
+            "ast": 6.7,
+            "stl": 2.7,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jason-williams-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jhonny-victor",
+      "name": "Jhonny Victor",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.2,
+            "ast": 0.2,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jhonny-victor-1.html"
+        }
+      ]
+    },
+    {
+      "id": "joakim-noah",
+      "name": "Joakim Noah",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2005,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 3.5,
+            "reb": 2.5,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/joakim-noah-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 14.2,
+            "reb": 7.1,
+            "ast": 2.1,
+            "stl": 1.1,
+            "blk": 2.4
+          },
+          "honors": [
+            "First-Team All-SEC (2006)",
+            "NCAA Final Four Most Outstanding Player (2006)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/joakim-noah-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 12.0,
+            "reb": 8.4,
+            "ast": 2.3,
+            "stl": 1.1,
+            "blk": 1.8
+          },
+          "honors": [
+            "First-Team All-SEC (2007)",
+            "Consensus Second-Team All-American (2007)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/joakim-noah-1.html"
+        }
+      ]
+    },
+    {
+      "id": "joel-reinhart",
+      "name": "Joel Reinhart",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.5,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/joel-reinhart-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/joel-reinhart-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/joel-reinhart-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 3.8,
+            "reb": 3.1,
+            "ast": 0.6,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/joel-reinhart-1.html"
+        }
+      ]
+    },
+    {
+      "id": "john-egbunu",
+      "name": "John Egbunu",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.5,
+            "reb": 6.5,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 1.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/john-egbunu-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 7.8,
+            "reb": 6.6,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 1.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/john-egbunu-1.html"
+        }
+      ]
+    },
+    {
+      "id": "john-griffiths",
+      "name": "John Griffiths",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 1.0,
+            "reb": 1.2,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/john-griffiths-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 0.7,
+            "reb": 0.9,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/john-griffiths-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.9,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/john-griffiths-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.5,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/john-griffiths-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jon-horford",
+      "name": "Jon Horford",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2015,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 6.5,
+            "reb": 4.8,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jon-horford-1.html"
+        }
+      ]
+    },
+    {
+      "id": "jonathan-mitchell",
+      "name": "Jonathan Mitchell",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2007,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 1.4,
+            "reb": 1.2,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jonathan-mitchell-1.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 3.1,
+            "reb": 1.8,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/jonathan-mitchell-1.html"
+        }
+      ]
+    },
+    {
+      "id": "julian-rishwain",
+      "name": "Julian Rishwain",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 1.6,
+            "reb": 1.6,
+            "ast": 0.8,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/julian-rishwain-1.html"
+        }
+      ]
+    },
+    {
+      "id": "justin-hamilton",
+      "name": "Justin Hamilton",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2000,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 4.7,
+            "reb": 1.7,
+            "ast": 1.2,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/justin-hamilton-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 6.6,
+            "reb": 1.8,
+            "ast": 2.7,
+            "stl": 1.4,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/justin-hamilton-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 8.5,
+            "reb": 3.3,
+            "ast": 3.8,
+            "stl": 1.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/justin-hamilton-1.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 8.0,
+            "reb": 3.3,
+            "ast": 3.6,
+            "stl": 1.6,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/justin-hamilton-1.html"
+        }
+      ]
+    },
+    {
+      "id": "justin-leon",
+      "name": "Justin Leon",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 5.3,
+            "reb": 3.1,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/justin-leon-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 7.4,
+            "reb": 4.0,
+            "ast": 0.5,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/justin-leon-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kajus-kublickas",
+      "name": "Kajus Kublickas",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 0.8,
+            "reb": 0.3,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kajus-kublickas-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 0.7,
+            "reb": 1.2,
+            "ast": 0.3,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kajus-kublickas-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kasey-hill",
+      "name": "Kasey Hill",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2014,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 5.5,
+            "reb": 1.9,
+            "ast": 3.1,
+            "stl": 1.2,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kasey-hill-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 7.2,
+            "reb": 2.3,
+            "ast": 4.5,
+            "stl": 1.0,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kasey-hill-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 9.1,
+            "reb": 2.4,
+            "ast": 3.3,
+            "stl": 1.5,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kasey-hill-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 9.7,
+            "reb": 2.9,
+            "ast": 4.5,
+            "stl": 1.7,
+            "blk": 0.1
+          },
+          "honors": ["Second-Team All-SEC (2017)"],
+          "source": "https://www.sports-reference.com/cbb/players/kasey-hill-1.html"
+        }
+      ]
+    },
+    {
+      "id": "keith-stone",
+      "name": "Keith Stone",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 3.6,
+            "reb": 2.2,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/keith-stone-1.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 8.8,
+            "reb": 4.3,
+            "ast": 0.7,
+            "stl": 0.6,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/keith-stone-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 6.1,
+            "reb": 3.9,
+            "ast": 0.6,
+            "stl": 0.8,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/keith-stone-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kendrick-spruel",
+      "name": "Kendrick Spruel",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1996,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 2.0,
+            "reb": 1.0,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kendrick-spruel-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 5.6,
+            "reb": 2.8,
+            "ast": 0.3,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kendrick-spruel-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kenny-boynton",
+      "name": "Kenny Boynton",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2010,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 14.0,
+            "reb": 2.6,
+            "ast": 2.7,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenny-boynton-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 14.2,
+            "reb": 1.5,
+            "ast": 2.6,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": ["Second-Team All-SEC (2011)"],
+          "source": "https://www.sports-reference.com/cbb/players/kenny-boynton-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 15.9,
+            "reb": 2.6,
+            "ast": 2.7,
+            "stl": 0.8,
+            "blk": 0.0
+          },
+          "honors": ["First-Team All-SEC (2012)"],
+          "source": "https://www.sports-reference.com/cbb/players/kenny-boynton-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 12.0,
+            "reb": 3.0,
+            "ast": 2.8,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": ["Second-Team All-SEC (2013)"],
+          "source": "https://www.sports-reference.com/cbb/players/kenny-boynton-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kenny-kadji",
+      "name": "Kenny Kadji",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2009,
+      "lastYear": 2010,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 4.4,
+            "reb": 2.7,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenny-kadji-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.8,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenny-kadji-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kenyan-weaks",
+      "name": "Kenyan Weaks",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 9.3,
+            "reb": 2.6,
+            "ast": 0.7,
+            "stl": 0.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenyan-weaks-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 12.7,
+            "reb": 4.8,
+            "ast": 1.3,
+            "stl": 1.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenyan-weaks-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 11.3,
+            "reb": 3.4,
+            "ast": 1.7,
+            "stl": 2.3,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenyan-weaks-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 10.0,
+            "reb": 2.7,
+            "ast": 2.1,
+            "stl": 1.5,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kenyan-weaks-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kerry-blackshearjr",
+      "name": "Kerry Blackshear Jr.",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2020,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 12.8,
+            "reb": 7.5,
+            "ast": 1.6,
+            "stl": 0.6,
+            "blk": 0.6
+          },
+          "honors": ["Second-Team All-SEC (2020)"],
+          "source": "https://www.sports-reference.com/cbb/players/kerry-blackshearjr-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kevarrius-hayes",
+      "name": "Kevarrius Hayes",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 2.8,
+            "reb": 2.6,
+            "ast": 0.2,
+            "stl": 0.3,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevarrius-hayes-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 6.2,
+            "reb": 4.4,
+            "ast": 0.2,
+            "stl": 0.7,
+            "blk": 1.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevarrius-hayes-1.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 4.8,
+            "reb": 5.0,
+            "ast": 0.4,
+            "stl": 1.0,
+            "blk": 2.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevarrius-hayes-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 8.3,
+            "reb": 6.3,
+            "ast": 0.7,
+            "stl": 1.0,
+            "blk": 1.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevarrius-hayes-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kevaughn-allen",
+      "name": "KeVaughn Allen",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 11.6,
+            "reb": 2.7,
+            "ast": 1.6,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": ["SEC All-Freshman Team (2016)"],
+          "source": "https://www.sports-reference.com/cbb/players/kevaughn-allen-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 14.0,
+            "reb": 2.4,
+            "ast": 1.5,
+            "stl": 1.3,
+            "blk": 0.3
+          },
+          "honors": ["First-Team All-SEC (2017)"],
+          "source": "https://www.sports-reference.com/cbb/players/kevaughn-allen-1.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 11.0,
+            "reb": 2.4,
+            "ast": 2.4,
+            "stl": 1.0,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevaughn-allen-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 11.8,
+            "reb": 2.8,
+            "ast": 2.1,
+            "stl": 1.4,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevaughn-allen-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kevin-pazmino",
+      "name": "Kevin Pazmino",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kevin-pazmino-1.html"
+        }
+      ]
+    },
+    {
+      "id": "keyontae-johnson",
+      "name": "Keyontae Johnson",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2019,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 8.1,
+            "reb": 6.4,
+            "ast": 1.3,
+            "stl": 1.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/keyontae-johnson-1.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 14.0,
+            "reb": 7.1,
+            "ast": 1.6,
+            "stl": 1.2,
+            "blk": 0.3
+          },
+          "honors": ["First-Team All-SEC (2020)"],
+          "source": "https://www.sports-reference.com/cbb/players/keyontae-johnson-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 16.0,
+            "reb": 4.5,
+            "ast": 1.3,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/keyontae-johnson-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/keyontae-johnson-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kowacie-reeves",
+      "name": "Kowacie Reeves Jr.",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2022,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 5.5,
+            "reb": 1.4,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kowacie-reeves-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 8.5,
+            "reb": 2.6,
+            "ast": 0.5,
+            "stl": 0.5,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kowacie-reeves-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kyle-lofton",
+      "name": "Kyle Lofton",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 8.7,
+            "reb": 3.1,
+            "ast": 3.5,
+            "stl": 1.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kyle-lofton-1.html"
+        }
+      ]
+    },
+    {
+      "id": "kyle-mcclanahan",
+      "name": "Kyle McClanahan",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2009,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.3,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kyle-mcclanahan-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.4,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kyle-mcclanahan-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 0.9,
+            "reb": 0.4,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/kyle-mcclanahan-1.html"
+        }
+      ]
+    },
+    {
+      "id": "ladarius-halton",
+      "name": "Ladarius Halton",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1999,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 5.1,
+            "reb": 1.2,
+            "ast": 0.9,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ladarius-halton-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 3.2,
+            "reb": 1.5,
+            "ast": 1.4,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ladarius-halton-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 4.2,
+            "reb": 1.5,
+            "ast": 0.7,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ladarius-halton-1.html"
+        }
+      ],
+      "redshirtYears": [2000]
+    },
+    {
+      "id": "lee-humphrey",
+      "name": "Lee Humphrey",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 3.8,
+            "reb": 1.2,
+            "ast": 1.1,
+            "stl": 0.4,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lee-humphrey-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 4.8,
+            "reb": 1.0,
+            "ast": 1.0,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lee-humphrey-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 10.9,
+            "reb": 1.9,
+            "ast": 1.9,
+            "stl": 0.7,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lee-humphrey-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 10.3,
+            "reb": 1.3,
+            "ast": 1.3,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lee-humphrey-1.html"
+        }
+      ]
+    },
+    {
+      "id": "leron-williams",
+      "name": "Leron Williams",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1995,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 2.6,
+            "reb": 2.1,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/leron-williams-1.html"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 10.0,
+            "reb": 4.8,
+            "ast": 0.4,
+            "stl": 0.5,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/leron-williams-1.html"
+        }
+      ]
+    },
+    {
+      "id": "lexx-edwards",
+      "name": "Lexx Edwards",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lexx-edwards-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.5,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lexx-edwards-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 0.4,
+            "reb": 0.7,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/lexx-edwards-1.html"
+        }
+      ]
+    },
+    {
+      "id": "major-parker",
+      "name": "Major Parker",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 5.3,
+            "reb": 2.1,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/major-parker-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 5.0,
+            "reb": 3.1,
+            "ast": 1.3,
+            "stl": 0.8,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/major-parker-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 3.5,
+            "reb": 1.8,
+            "ast": 1.0,
+            "stl": 0.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/major-parker-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 5.1,
+            "reb": 3.4,
+            "ast": 1.6,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/major-parker-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mak-krause",
+      "name": "Mak Krause",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.1,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mak-krause-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mak-krause-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mario-boggan",
+      "name": "Mario Boggan",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2003,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 2.3,
+            "reb": 1.9,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mario-boggan-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mark-timinski",
+      "name": "Mark Timinski",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1997,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mark-timinski-1.html"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mark-timinski-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.2,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mark-timinski-1.html"
+        }
+      ]
+    },
+    {
+      "id": "marreese-speights",
+      "name": "Marreese Speights",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2007,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 4.1,
+            "reb": 2.6,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/marreese-speights-1.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 14.5,
+            "reb": 8.1,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 1.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/marreese-speights-1.html"
+        }
+      ]
+    },
+    {
+      "id": "martti-kuisma",
+      "name": "Martti Kuisma",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 4.6,
+            "reb": 2.4,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/martti-kuisma-1.html"
+        }
+      ]
+    },
+    {
+      "id": "matt-bonner",
+      "name": "Matt Bonner",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2000,
+      "lastYear": 2003,
+      "seasons": [
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 4.8,
+            "reb": 3.2,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/matt-bonner-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 13.3,
+            "reb": 7.7,
+            "ast": 1.5,
+            "stl": 0.8,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/matt-bonner-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 15.6,
+            "reb": 7.2,
+            "ast": 1.5,
+            "stl": 0.7,
+            "blk": 0.7
+          },
+          "honors": ["Second-Team All-SEC (2002)"],
+          "source": "https://www.sports-reference.com/cbb/players/matt-bonner-1.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 15.2,
+            "reb": 6.1,
+            "ast": 1.5,
+            "stl": 1.1,
+            "blk": 0.6
+          },
+          "honors": ["First-Team All-SEC (2003)"],
+          "source": "https://www.sports-reference.com/cbb/players/matt-bonner-1.html"
+        }
+      ]
+    },
+    {
+      "id": "matt-walsh",
+      "name": "Matt Walsh",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2003,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 12.2,
+            "reb": 4.7,
+            "ast": 3.1,
+            "stl": 1.5,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/matt-walsh-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 15.8,
+            "reb": 4.8,
+            "ast": 2.8,
+            "stl": 1.5,
+            "blk": 0.3
+          },
+          "honors": ["Second-Team All-SEC (2004)"],
+          "source": "https://www.sports-reference.com/cbb/players/matt-walsh-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 14.6,
+            "reb": 3.6,
+            "ast": 3.0,
+            "stl": 1.0,
+            "blk": 0.3
+          },
+          "honors": ["Second-Team All-SEC (2005)"],
+          "source": "https://www.sports-reference.com/cbb/players/matt-walsh-1.html"
+        }
+      ]
+    },
+    {
+      "id": "max-booker",
+      "name": "Max Booker",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2002,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.5,
+            "ast": 0.0,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/max-booker-1.html"
+        }
+      ]
+    },
+    {
+      "id": "micah-handlogten",
+      "name": "Micah Handlogten",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 5.3,
+            "reb": 6.9,
+            "ast": 0.8,
+            "stl": 0.6,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/micah-handlogten-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 2.6,
+            "reb": 4.9,
+            "ast": 1.1,
+            "stl": 0.6,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/micah-handlogten-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 4.1,
+            "reb": 5.9,
+            "ast": 0.7,
+            "stl": 0.5,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/micah-handlogten-1.html"
+        }
+      ]
+    },
+    {
+      "id": "michael-frazier",
+      "name": "Michael Frazier",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2013,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 5.6,
+            "reb": 3.1,
+            "ast": 0.9,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": ["SEC All-Freshman Team (2013)"],
+          "source": "https://www.sports-reference.com/cbb/players/michael-frazier-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 12.4,
+            "reb": 3.5,
+            "ast": 1.1,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/michael-frazier-1.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 12.1,
+            "reb": 4.1,
+            "ast": 1.4,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/michael-frazier-1.html"
+        }
+      ]
+    },
+    {
+      "id": "michael-weisenberg",
+      "name": "Michael Weisenberg",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2008,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 0.8,
+            "reb": 0.3,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/michael-weisenberg-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mike-mcfarland",
+      "name": "Mike McFarland",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1996,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.4,
+            "ast": 0.4,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mike-mcfarland-1.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "pts": 2.9,
+            "reb": 1.2,
+            "ast": 0.5,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mike-mcfarland-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mike-miller",
+      "name": "Mike Miller",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1999,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 12.2,
+            "reb": 5.2,
+            "ast": 2.1,
+            "stl": 1.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mike-miller-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 14.1,
+            "reb": 6.6,
+            "ast": 2.5,
+            "stl": 1.2,
+            "blk": 0.4
+          },
+          "honors": ["First-Team All-SEC (2000)"],
+          "source": "https://www.sports-reference.com/cbb/players/mike-miller-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mike-okauru",
+      "name": "Mike Okauru",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "pts": 3.8,
+            "reb": 1.0,
+            "ast": 0.6,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mike-okauru-1.html"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 1.4,
+            "reb": 0.6,
+            "ast": 0.3,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mike-okauru-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mike-rosario",
+      "name": "Mike Rosario",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 6.6,
+            "reb": 1.4,
+            "ast": 1.0,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mike-rosario-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 12.5,
+            "reb": 2.6,
+            "ast": 2.0,
+            "stl": 0.9,
+            "blk": 0.0
+          },
+          "honors": ["Second-Team All-SEC (2013)"],
+          "source": "https://www.sports-reference.com/cbb/players/mike-rosario-1.html"
+        }
+      ]
+    },
+    {
+      "id": "mohamed-abukar",
+      "name": "Mohamed Abukar",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 2.7,
+            "reb": 2.1,
+            "ast": 0.7,
+            "stl": 0.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mohamed-abukar-1.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 5.0,
+            "reb": 1.4,
+            "ast": 0.6,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/mohamed-abukar-1.html"
+        }
+      ]
+    },
+    {
+      "id": "myreon-jones",
+      "name": "Myreon Jones",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2022,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 8.5,
+            "reb": 2.8,
+            "ast": 1.6,
+            "stl": 1.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/myreon-jones-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 5.4,
+            "reb": 3.3,
+            "ast": 2.1,
+            "stl": 1.0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/myreon-jones-1.html"
+        }
+      ]
+    },
+    {
+      "id": "nick-calathes",
+      "name": "Nick Calathes",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 15.3,
+            "reb": 5.2,
+            "ast": 6.1,
+            "stl": 1.6,
+            "blk": 0.1
+          },
+          "honors": [
+            "SEC Freshman of the Year (2008)",
+            "Second-Team All-SEC (2008)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/nick-calathes-1.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 17.2,
+            "reb": 5.3,
+            "ast": 6.4,
+            "stl": 1.9,
+            "blk": 0.2
+          },
+          "honors": ["First-Team All-SEC (2009)"],
+          "source": "https://www.sports-reference.com/cbb/players/nick-calathes-1.html"
+        }
+      ]
+    },
+    {
+      "id": "niels-lane",
+      "name": "Niels Lane",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 1.1,
+            "reb": 0.7,
+            "ast": 0.3,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/niels-lane-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 3.0,
+            "reb": 2.0,
+            "ast": 0.5,
+            "stl": 0.3,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/niels-lane-1.html"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 2.4,
+            "reb": 1.2,
+            "ast": 0.2,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/niels-lane-1.html"
+        }
+      ]
+    },
+    {
+      "id": "noah-locke",
+      "name": "Noah Locke",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2019,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "pts": 9.4,
+            "reb": 2.3,
+            "ast": 0.6,
+            "stl": 0.4,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/noah-locke-1.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 10.6,
+            "reb": 2.5,
+            "ast": 0.7,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/noah-locke-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 10.6,
+            "reb": 2.4,
+            "ast": 0.7,
+            "stl": 0.6,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/noah-locke-1.html"
+        }
+      ]
+    },
+    {
+      "id": "obiora-nnaji",
+      "name": "Obiora Nnaji",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 3.6,
+            "reb": 3.5,
+            "ast": 0.2,
+            "stl": 0.3,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/obiora-nnaji-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 3.3,
+            "reb": 2.5,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/obiora-nnaji-1.html"
+        }
+      ]
+    },
+    {
+      "id": "olivier-rioux",
+      "name": "Olivier Rioux",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.5,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/olivier-rioux-1.html"
+        }
+      ]
+    },
+    {
+      "id": "omar-payne",
+      "name": "Omar Payne",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 3.8,
+            "reb": 3.6,
+            "ast": 0.2,
+            "stl": 0.3,
+            "blk": 1.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/omar-payne-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 3.8,
+            "reb": 3.2,
+            "ast": 0.4,
+            "stl": 0.4,
+            "blk": 1.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/omar-payne-1.html"
+        }
+      ]
+    },
+    {
+      "id": "orien-greene",
+      "name": "Orien Greene",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2001,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 3.4,
+            "reb": 2.3,
+            "ast": 2.7,
+            "stl": 1.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/orien-greene-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 5.2,
+            "reb": 2.8,
+            "ast": 2.9,
+            "stl": 2.0,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/orien-greene-1.html"
+        }
+      ]
+    },
+    {
+      "id": "osayi-osifo",
+      "name": "Osayi Osifo",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 1.9,
+            "reb": 2.6,
+            "ast": 0.4,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/osayi-osifo-1.html"
+        }
+      ]
+    },
+    {
+      "id": "patric-young",
+      "name": "Patric Young",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2011,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 3.4,
+            "reb": 3.8,
+            "ast": 0.3,
+            "stl": 0.6,
+            "blk": 0.8
+          },
+          "honors": ["SEC All-Freshman Team (2011)"],
+          "source": "https://www.sports-reference.com/cbb/players/patric-young-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 10.2,
+            "reb": 6.4,
+            "ast": 1.1,
+            "stl": 0.5,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/patric-young-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 10.1,
+            "reb": 6.3,
+            "ast": 0.9,
+            "stl": 0.9,
+            "blk": 1.6
+          },
+          "honors": ["Second-Team All-SEC (2013)"],
+          "source": "https://www.sports-reference.com/cbb/players/patric-young-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 11.0,
+            "reb": 6.2,
+            "ast": 0.8,
+            "stl": 0.6,
+            "blk": 1.1
+          },
+          "honors": [
+            "SEC Defensive Player of the Year (2014)",
+            "Second-Team All-SEC (2014)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/patric-young-1.html"
+        }
+      ]
+    },
+    {
+      "id": "patrick-oconnor",
+      "name": "Patrick O'Connor",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.4,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/patrick-oconnor-1.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 0.7,
+            "reb": 1.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/patrick-oconnor-1.html"
+        }
+      ]
+    },
+    {
+      "id": "phlandrous-flemingjr",
+      "name": "Phlandrous Fleming Jr.",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 11.1,
+            "reb": 4.4,
+            "ast": 2.1,
+            "stl": 1.5,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/phlandrous-flemingjr-1.html"
+        }
+      ]
+    },
+    {
+      "id": "ques-glover",
+      "name": "Ques Glover",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 4.4,
+            "reb": 1.0,
+            "ast": 0.6,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ques-glover-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 2.5,
+            "reb": 0.8,
+            "ast": 0.7,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ques-glover-1.html"
+        }
+      ]
+    },
+    {
+      "id": "rashid-al-kaleem",
+      "name": "Rashid Al-Kaleem",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 1.8,
+            "reb": 0.8,
+            "ast": 0.5,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/rashid-al-kaleem-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 3.0,
+            "reb": 0.7,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/rashid-al-kaleem-1.html"
+        }
+      ]
+    },
+    {
+      "id": "ray-shipman",
+      "name": "Ray Shipman",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2009,
+      "lastYear": 2010,
+      "seasons": [
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 3.8,
+            "reb": 2.1,
+            "ast": 0.5,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ray-shipman-1.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 2.7,
+            "reb": 1.6,
+            "ast": 0.4,
+            "stl": 0.8,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ray-shipman-1.html"
+        }
+      ]
+    },
+    {
+      "id": "riley-kugel",
+      "name": "Riley Kugel",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 9.9,
+            "reb": 2.8,
+            "ast": 1.0,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/riley-kugel-1.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 9.2,
+            "reb": 3.5,
+            "ast": 1.5,
+            "stl": 1.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/riley-kugel-1.html"
+        }
+      ]
+    },
+    {
+      "id": "rod-tishman",
+      "name": "Rod Tishman",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2010,
+      "lastYear": 2010,
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 0.6,
+            "reb": 0.4,
+            "ast": 0.6,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/rod-tishman-1.html"
+        }
+      ]
+    },
+    {
+      "id": "ronnie-king",
+      "name": "Ronnie King",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1999,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 1.9,
+            "reb": 0.7,
+            "ast": 0.0,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ronnie-king-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 1.7,
+            "reb": 0.4,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ronnie-king-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 1.1,
+            "reb": 1.1,
+            "ast": 0.3,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ronnie-king-1.html"
+        }
+      ],
+      "redshirtYears": [2001]
+    },
+    {
+      "id": "rueben-chinyelu",
+      "name": "Rueben Chinyelu",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 6.0,
+            "reb": 6.6,
+            "ast": 0.7,
+            "stl": 0.5,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/rueben-chinyelu-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 10.9,
+            "reb": 11.2,
+            "ast": 0.7,
+            "stl": 0.8,
+            "blk": 1.0
+          },
+          "honors": [
+            "Second-Team All-SEC (2026)",
+            "SEC Defensive Player of the Year (2026)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/rueben-chinyelu-1.html"
+        }
+      ]
+    },
+    {
+      "id": "ryan-appleby",
+      "name": "Ryan Appleby",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 1.0,
+            "reb": 0.5,
+            "ast": 1.2,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/ryan-appleby-1.html"
+        }
+      ]
+    },
+    {
+      "id": "sam-alexis",
+      "name": "Sam Alexis",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 4.7,
+            "reb": 3.5,
+            "ast": 0.4,
+            "stl": 0.3,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/sam-alexis-1.html"
+        }
+      ]
+    },
+    {
+      "id": "samson-ruzhentsev",
+      "name": "Samson Ruzhentsev",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 2.0,
+            "reb": 0.7,
+            "ast": 0.1,
+            "stl": 0.1,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/samson-ruzhentsev-1.html"
+        }
+      ]
+    },
+    {
+      "id": "schuyler-rimmer",
+      "name": "Schuyler Rimmer",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 1.4,
+            "reb": 1.2,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/schuyler-rimmer-1.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "pts": 1.2,
+            "reb": 0.9,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/schuyler-rimmer-1.html"
+        }
+      ]
+    },
+    {
+      "id": "scottie-lewis",
+      "name": "Scottie Lewis",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 8.5,
+            "reb": 3.6,
+            "ast": 0.8,
+            "stl": 1.2,
+            "blk": 1.2
+          },
+          "honors": ["SEC All-Freshman Team (2020)"],
+          "source": "https://www.sports-reference.com/cbb/players/scottie-lewis-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 7.9,
+            "reb": 3.1,
+            "ast": 1.5,
+            "stl": 1.6,
+            "blk": 1.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/scottie-lewis-1.html"
+        }
+      ]
+    },
+    {
+      "id": "scottie-wilbekin",
+      "name": "Scottie Wilbekin",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2011,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 2.4,
+            "reb": 1.5,
+            "ast": 1.6,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/scottie-wilbekin-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 2.6,
+            "reb": 1.5,
+            "ast": 1.6,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/scottie-wilbekin-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 9.1,
+            "reb": 2.9,
+            "ast": 5.0,
+            "stl": 1.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/scottie-wilbekin-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 13.1,
+            "reb": 2.4,
+            "ast": 3.6,
+            "stl": 1.6,
+            "blk": 0.0
+          },
+          "honors": [
+            "SEC Player of the Year (2014)",
+            "First-Team All-SEC (2014)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/scottie-wilbekin-1.html"
+        }
+      ]
+    },
+    {
+      "id": "seth-haimovitch",
+      "name": "Seth Haimovitch",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2002,
+      "lastYear": 2004,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/seth-haimovitch-1.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.0,
+            "ast": 0.2,
+            "stl": 0.1,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/seth-haimovitch-1.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/seth-haimovitch-1.html"
+        }
+      ]
+    },
+    {
+      "id": "shayne-payne",
+      "name": "Shayne Payne",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2008,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.1,
+            "ast": 0.1,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/shayne-payne-1.html"
+        }
+      ]
+    },
+    {
+      "id": "svein-dyrkolbotn",
+      "name": "Svein Dyrkolbotn",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 1.8,
+            "reb": 1.6,
+            "ast": 0.2,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/svein-dyrkolbotn-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 1.5,
+            "reb": 1.7,
+            "ast": 0.2,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/svein-dyrkolbotn-1.html"
+        }
+      ]
+    },
+    {
+      "id": "taurean-green",
+      "name": "Taurean Green",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2005,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "pts": 3.9,
+            "reb": 1.0,
+            "ast": 2.2,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/taurean-green-1.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 13.3,
+            "reb": 2.9,
+            "ast": 4.7,
+            "stl": 1.3,
+            "blk": 0.1
+          },
+          "honors": ["Second-Team All-SEC (2006)"],
+          "source": "https://www.sports-reference.com/cbb/players/taurean-green-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 13.3,
+            "reb": 2.4,
+            "ast": 3.7,
+            "stl": 1.1,
+            "blk": 0.0
+          },
+          "honors": ["Second-Team All-SEC (2007)"],
+          "source": "https://www.sports-reference.com/cbb/players/taurean-green-1.html"
+        }
+      ]
+    },
+    {
+      "id": "teddy-dupay",
+      "name": "Teddy Dupay",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 1999,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 11.0,
+            "reb": 1.6,
+            "ast": 2.8,
+            "stl": 1.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/teddy-dupay-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 8.6,
+            "reb": 1.6,
+            "ast": 2.6,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/teddy-dupay-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 13.4,
+            "reb": 2.3,
+            "ast": 2.8,
+            "stl": 1.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/teddy-dupay-1.html"
+        }
+      ]
+    },
+    {
+      "id": "thomas-haugh",
+      "name": "Thomas Haugh",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 3.9,
+            "reb": 3.7,
+            "ast": 0.6,
+            "stl": 0.3,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/thomas-haugh-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 9.8,
+            "reb": 6.1,
+            "ast": 2.2,
+            "stl": 0.8,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/thomas-haugh-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 17.1,
+            "reb": 6.1,
+            "ast": 2.1,
+            "stl": 1.1,
+            "blk": 1.0
+          },
+          "honors": ["First-Team All-SEC (2026)"],
+          "source": "https://www.sports-reference.com/cbb/players/thomas-haugh-1.html"
+        }
+      ]
+    },
+    {
+      "id": "tony-mickens",
+      "name": "Tony Mickens",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "pts": 1.9,
+            "reb": 1.5,
+            "ast": 0.9,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tony-mickens-1.html"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "pts": 2.4,
+            "reb": 2.0,
+            "ast": 0.8,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tony-mickens-1.html"
+        }
+      ]
+    },
+    {
+      "id": "tre-mann",
+      "name": "Tre Mann",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "pts": 5.3,
+            "reb": 1.9,
+            "ast": 0.7,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tre-mann-1.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 16.0,
+            "reb": 5.6,
+            "ast": 3.5,
+            "stl": 1.4,
+            "blk": 0.1
+          },
+          "honors": ["First-Team All-SEC (2021)"],
+          "source": "https://www.sports-reference.com/cbb/players/tre-mann-1.html"
+        }
+      ]
+    },
+    {
+      "id": "trey-bonham",
+      "name": "Trey Bonham",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 5.6,
+            "reb": 1.8,
+            "ast": 1.1,
+            "stl": 0.7,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/trey-bonham-1.html"
+        }
+      ]
+    },
+    {
+      "id": "tuongthach-gatkek",
+      "name": "Tuongthach Gatkek",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 1.7,
+            "reb": 1.8,
+            "ast": 0.2,
+            "stl": 0.4,
+            "blk": 0.8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tuongthach-gatkek-1.html"
+        }
+      ]
+    },
+    {
+      "id": "tyree-appleby",
+      "name": "Tyree Appleby",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "pts": 11.3,
+            "reb": 3.1,
+            "ast": 3.3,
+            "stl": 1.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tyree-appleby-1.html"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "pts": 10.9,
+            "reb": 2.1,
+            "ast": 3.7,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/tyree-appleby-1.html"
+        }
+      ]
+    },
+    {
+      "id": "tyrese-samuel",
+      "name": "Tyrese Samuel",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 13.9,
+            "reb": 7.4,
+            "ast": 1.9,
+            "stl": 1.1,
+            "blk": 1.1
+          },
+          "honors": ["Second-Team All-SEC (2024)"],
+          "source": "https://www.sports-reference.com/cbb/players/tyrese-samuel-1.html"
+        }
+      ]
+    },
+    {
+      "id": "udonis-haslem",
+      "name": "Udonis Haslem",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 1999,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "pts": 10.5,
+            "reb": 5.0,
+            "ast": 0.8,
+            "stl": 0.7,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/udonis-haslem-1.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "pts": 11.8,
+            "reb": 5.1,
+            "ast": 0.9,
+            "stl": 0.8,
+            "blk": 0.8
+          },
+          "honors": ["Third-Team All-SEC (2000)"],
+          "source": "https://www.sports-reference.com/cbb/players/udonis-haslem-1.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "pts": 16.8,
+            "reb": 7.5,
+            "ast": 1.0,
+            "stl": 0.8,
+            "blk": 1.0
+          },
+          "honors": ["First-Team All-SEC (2001)"],
+          "source": "https://www.sports-reference.com/cbb/players/udonis-haslem-1.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "pts": 16.0,
+            "reb": 8.3,
+            "ast": 1.6,
+            "stl": 0.9,
+            "blk": 1.3
+          },
+          "honors": ["Second-Team All-SEC (2002)"],
+          "source": "https://www.sports-reference.com/cbb/players/udonis-haslem-1.html"
+        }
+      ]
+    },
+    {
+      "id": "urban-klavzar",
+      "name": "Urban Klavzar",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 3.2,
+            "reb": 0.6,
+            "ast": 0.8,
+            "stl": 0.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/urban-klavzar-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 9.6,
+            "reb": 1.5,
+            "ast": 1.3,
+            "stl": 0.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/urban-klavzar-1.html"
+        }
+      ]
+    },
+    {
+      "id": "vernon-macklin",
+      "name": "Vernon Macklin",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2010,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "pts": 10.6,
+            "reb": 5.5,
+            "ast": 0.8,
+            "stl": 0.6,
+            "blk": 0.9
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/vernon-macklin-1.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 11.6,
+            "reb": 5.4,
+            "ast": 0.8,
+            "stl": 0.4,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/vernon-macklin-1.html"
+        }
+      ]
+    },
+    {
+      "id": "viktor-mikic",
+      "name": "Viktor Mikic",
+      "position": "C",
+      "eligible": ["C", "PF"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.5,
+            "ast": 0.0,
+            "stl": 0.3,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/viktor-mikic-1.html"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 1.3,
+            "reb": 0.8,
+            "ast": 0.4,
+            "stl": 0.0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/viktor-mikic-1.html"
+        }
+      ]
+    },
+    {
+      "id": "walter-claytonjr",
+      "name": "Walter Clayton Jr.",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 17.6,
+            "reb": 3.6,
+            "ast": 2.6,
+            "stl": 1.1,
+            "blk": 0.6
+          },
+          "honors": ["Second-Team All-SEC (2024)"],
+          "source": "https://www.sports-reference.com/cbb/players/walter-claytonjr-1.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 18.3,
+            "reb": 3.7,
+            "ast": 4.2,
+            "stl": 1.2,
+            "blk": 0.5
+          },
+          "honors": [
+            "First-Team All-SEC (2025)",
+            "Consensus First-Team All-American (2025)",
+            "NCAA Final Four Most Outstanding Player (2025)"
+          ],
+          "source": "https://www.sports-reference.com/cbb/players/walter-claytonjr-1.html"
+        }
+      ]
+    },
+    {
+      "id": "walter-hodge",
+      "name": "Walter Hodge",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2006,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "pts": 3.8,
+            "reb": 1.1,
+            "ast": 1.2,
+            "stl": 1.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/walter-hodge-1.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "pts": 5.7,
+            "reb": 1.2,
+            "ast": 1.5,
+            "stl": 0.4,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/walter-hodge-1.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "pts": 10.4,
+            "reb": 2.1,
+            "ast": 2.9,
+            "stl": 1.4,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/walter-hodge-1.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "pts": 8.9,
+            "reb": 1.5,
+            "ast": 2.3,
+            "stl": 1.3,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/walter-hodge-1.html"
+        }
+      ]
+    },
+    {
+      "id": "walter-pitchford",
+      "name": "Walter Pitchford",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2012,
+      "lastYear": 2012,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 0.5,
+            "reb": 0.3,
+            "ast": 0.1,
+            "stl": 0.0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/walter-pitchford-1.html"
+        }
+      ]
+    },
+    {
+      "id": "will-richard",
+      "name": "Will Richard",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2023,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "pts": 10.4,
+            "reb": 4.5,
+            "ast": 0.8,
+            "stl": 0.9,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-richard-2.html"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 11.4,
+            "reb": 3.9,
+            "ast": 1.3,
+            "stl": 0.9,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-richard-2.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 13.3,
+            "reb": 4.6,
+            "ast": 1.9,
+            "stl": 1.7,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-richard-2.html"
+        }
+      ]
+    },
+    {
+      "id": "will-yeguete",
+      "name": "Will Yeguete",
+      "position": "SF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2011,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2011,
+          "stats": {
+            "pts": 1.3,
+            "reb": 2.6,
+            "ast": 0.2,
+            "stl": 0.4,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-yeguete-1.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "pts": 4.4,
+            "reb": 6.3,
+            "ast": 1.0,
+            "stl": 1.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-yeguete-1.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "pts": 5.5,
+            "reb": 5.8,
+            "ast": 1.0,
+            "stl": 1.2,
+            "blk": 0.3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-yeguete-1.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "pts": 4.9,
+            "reb": 5.2,
+            "ast": 1.2,
+            "stl": 0.9,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/will-yeguete-1.html"
+        }
+      ]
+    },
+    {
+      "id": "xaivian-lee",
+      "name": "Xaivian Lee",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 11.6,
+            "reb": 3.7,
+            "ast": 4.2,
+            "stl": 1.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/xaivian-lee-1.html"
+        }
+      ]
+    },
+    {
+      "id": "zach-hodskins",
+      "name": "Zach Hodskins",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "pts": 0.0,
+            "reb": 0.0,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/zach-hodskins-1.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "pts": 0.3,
+            "reb": 0.1,
+            "ast": 0.0,
+            "stl": 0.0,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cbb/players/zach-hodskins-1.html"
+        }
+      ]
+    },
+    {
+      "id": "zyon-pullin",
+      "name": "Zyon Pullin",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "pts": 15.5,
+            "reb": 3.9,
+            "ast": 4.9,
+            "stl": 0.9,
+            "blk": 0.1
+          },
+          "honors": ["First-Team All-SEC (2024)"],
+          "source": "https://www.sports-reference.com/cbb/players/zyon-pullin-1.html"
+        }
+      ]
+    }
+  ]
+}
