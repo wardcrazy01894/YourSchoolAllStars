@@ -31,6 +31,15 @@ export const DEFENSE_SLOT_IDS = FB_SLOTS.filter(
  */
 export const FB_RESPINS_PER_SIDE = 1
 
+/**
+ * How many era windows the daily draws for a football game: one per slot plus the
+ * per-side re-spins (one offense + one defense). The extra windows are consumed
+ * only if the player re-spins; the per-side cap in the reducer still limits a
+ * side to one. With this many windows the sequence can never run dry before the
+ * roster is full, even if both re-spins are used.
+ */
+export const FB_DRAFT_ROUNDS = FB_SLOTS.length + 2 * FB_RESPINS_PER_SIDE
+
 /** Which side draft round `r` belongs to (0–5 offense, 6–11 defense). */
 export function sideForRound(round: number): 'offense' | 'defense' {
   return round < OFFENSE_SLOT_IDS.length ? 'offense' : 'defense'
