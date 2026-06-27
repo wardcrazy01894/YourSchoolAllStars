@@ -1,0 +1,2243 @@
+{
+  "school": "Michigan",
+  "sport": "football",
+  "_provisional": true,
+  "_note": "MOCK DATA — every row is placeholder to flesh out the football game flow (#7). Stats and names are fabricated; sources are PLACEHOLDER. Replace with real, sourced data after the flow is verified.",
+  "players": [
+    {
+      "id": "mock-qb-2005-star",
+      "name": "Avery Dorn",
+      "position": "QB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "passYds": 3220,
+        "passTD": 32,
+        "passInt": 7,
+        "rushYds": 640,
+        "rushTD": 9
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2005-role",
+      "name": "Bryce Knox",
+      "position": "QB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "passYds": 2170,
+        "passTD": 22,
+        "passInt": 10,
+        "rushYds": 430,
+        "rushTD": 6
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2005-depth",
+      "name": "Carter Stone",
+      "position": "QB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "passYds": 1190,
+        "passTD": 12,
+        "passInt": 13,
+        "rushYds": 240,
+        "rushTD": 3
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2005-star",
+      "name": "Dante Ellis",
+      "position": "RB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "rushYds": 1380,
+        "rushTD": 17,
+        "rec": 32,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2005-role",
+      "name": "Elliot Lowe",
+      "position": "RB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "rushYds": 930,
+        "rushTD": 11,
+        "rec": 22,
+        "recYds": 250,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2005-depth",
+      "name": "Foster Vance",
+      "position": "RB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "rushYds": 510,
+        "rushTD": 6,
+        "rec": 12,
+        "recYds": 140,
+        "recTD": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2005-star",
+      "name": "Grant Frost",
+      "position": "WR",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "rec": 64,
+        "recYds": 1010,
+        "recTD": 10
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2005-role",
+      "name": "Hayes Mraz",
+      "position": "WR",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "rec": 43,
+        "recYds": 680,
+        "recTD": 7
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2005-depth",
+      "name": "Isaiah Webb",
+      "position": "WR",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "rec": 24,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2005-star",
+      "name": "Jalen Gray",
+      "position": "TE",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "rec": 46,
+        "recYds": 600,
+        "recTD": 6
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2005-role",
+      "name": "Kade Nash",
+      "position": "TE",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "rec": 31,
+        "recYds": 400,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2005-depth",
+      "name": "Logan Ash",
+      "position": "TE",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "rec": 17,
+        "recYds": 220,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2005-star",
+      "name": "Micah Hale",
+      "position": "DE",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 51,
+        "tfl": 17,
+        "sacks": 10,
+        "ff": 4,
+        "defInt": 2
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2005-role",
+      "name": "Nolan Oaks",
+      "position": "DE",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "tackles": 34,
+        "tfl": 11,
+        "sacks": 7,
+        "ff": 2,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2005-depth",
+      "name": "Owen Beck",
+      "position": "DE",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 19,
+        "tfl": 6,
+        "sacks": 4,
+        "ff": 1,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2005-star",
+      "name": "Pierce Ivers",
+      "position": "DT",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 46,
+        "tfl": 12,
+        "sacks": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2005-role",
+      "name": "Quinn Pratt",
+      "position": "DT",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "tackles": 31,
+        "tfl": 8,
+        "sacks": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2005-depth",
+      "name": "Reece Cole",
+      "position": "DT",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 17,
+        "tfl": 4,
+        "sacks": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2005-star",
+      "name": "Silas Jett",
+      "position": "LB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 110,
+        "tfl": 14,
+        "sacks": 6,
+        "defInt": 3,
+        "pbu": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2005-role",
+      "name": "Tate Rhodes",
+      "position": "LB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "tackles": 74,
+        "tfl": 9,
+        "sacks": 4,
+        "defInt": 2,
+        "pbu": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2005-depth",
+      "name": "Avery Dorn",
+      "position": "LB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 41,
+        "tfl": 5,
+        "sacks": 2,
+        "defInt": 1,
+        "pbu": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2005-star",
+      "name": "Bryce Knox",
+      "position": "CB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 51,
+        "tfl": 4,
+        "defInt": 5,
+        "pbu": 13,
+        "ff": 2
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2005-role",
+      "name": "Carter Stone",
+      "position": "CB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "tackles": 34,
+        "tfl": 2,
+        "defInt": 3,
+        "pbu": 9,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2005-depth",
+      "name": "Dante Ellis",
+      "position": "CB",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 19,
+        "tfl": 1,
+        "defInt": 2,
+        "pbu": 5,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2005-star",
+      "name": "Elliot Lowe",
+      "position": "S",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 83,
+        "tfl": 6,
+        "defInt": 4,
+        "pbu": 8,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2006) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2005-role",
+      "name": "Foster Vance",
+      "position": "S",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2007,
+      "stats": {
+        "tackles": 56,
+        "tfl": 4,
+        "defInt": 2,
+        "pbu": 6,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2005-depth",
+      "name": "Grant Frost",
+      "position": "S",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "bestSeason": 2006,
+      "stats": {
+        "tackles": 31,
+        "tfl": 2,
+        "defInt": 1,
+        "pbu": 3,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2009-star",
+      "name": "Hayes Mraz",
+      "position": "QB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "passYds": 3220,
+        "passTD": 32,
+        "passInt": 7,
+        "rushYds": 640,
+        "rushTD": 9
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2009-role",
+      "name": "Isaiah Webb",
+      "position": "QB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "passYds": 2170,
+        "passTD": 22,
+        "passInt": 10,
+        "rushYds": 430,
+        "rushTD": 6
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2009-depth",
+      "name": "Jalen Gray",
+      "position": "QB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "passYds": 1190,
+        "passTD": 12,
+        "passInt": 13,
+        "rushYds": 240,
+        "rushTD": 3
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2009-star",
+      "name": "Kade Nash",
+      "position": "RB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "rushYds": 1380,
+        "rushTD": 17,
+        "rec": 32,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2009-role",
+      "name": "Logan Ash",
+      "position": "RB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "rushYds": 930,
+        "rushTD": 11,
+        "rec": 22,
+        "recYds": 250,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2009-depth",
+      "name": "Micah Hale",
+      "position": "RB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "rushYds": 510,
+        "rushTD": 6,
+        "rec": 12,
+        "recYds": 140,
+        "recTD": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2009-star",
+      "name": "Nolan Oaks",
+      "position": "WR",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "rec": 64,
+        "recYds": 1010,
+        "recTD": 10
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2009-role",
+      "name": "Owen Beck",
+      "position": "WR",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "rec": 43,
+        "recYds": 680,
+        "recTD": 7
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2009-depth",
+      "name": "Pierce Ivers",
+      "position": "WR",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "rec": 24,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2009-star",
+      "name": "Quinn Pratt",
+      "position": "TE",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "rec": 46,
+        "recYds": 600,
+        "recTD": 6
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2009-role",
+      "name": "Reece Cole",
+      "position": "TE",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "rec": 31,
+        "recYds": 400,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2009-depth",
+      "name": "Silas Jett",
+      "position": "TE",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "rec": 17,
+        "recYds": 220,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2009-star",
+      "name": "Tate Rhodes",
+      "position": "DE",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 51,
+        "tfl": 17,
+        "sacks": 10,
+        "ff": 4,
+        "defInt": 2
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2009-role",
+      "name": "Avery Dorn",
+      "position": "DE",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "tackles": 34,
+        "tfl": 11,
+        "sacks": 7,
+        "ff": 2,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2009-depth",
+      "name": "Bryce Knox",
+      "position": "DE",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 19,
+        "tfl": 6,
+        "sacks": 4,
+        "ff": 1,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2009-star",
+      "name": "Carter Stone",
+      "position": "DT",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 46,
+        "tfl": 12,
+        "sacks": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2009-role",
+      "name": "Dante Ellis",
+      "position": "DT",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "tackles": 31,
+        "tfl": 8,
+        "sacks": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2009-depth",
+      "name": "Elliot Lowe",
+      "position": "DT",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 17,
+        "tfl": 4,
+        "sacks": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2009-star",
+      "name": "Foster Vance",
+      "position": "LB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 110,
+        "tfl": 14,
+        "sacks": 6,
+        "defInt": 3,
+        "pbu": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2009-role",
+      "name": "Grant Frost",
+      "position": "LB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "tackles": 74,
+        "tfl": 9,
+        "sacks": 4,
+        "defInt": 2,
+        "pbu": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2009-depth",
+      "name": "Hayes Mraz",
+      "position": "LB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 41,
+        "tfl": 5,
+        "sacks": 2,
+        "defInt": 1,
+        "pbu": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2009-star",
+      "name": "Isaiah Webb",
+      "position": "CB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 51,
+        "tfl": 4,
+        "defInt": 5,
+        "pbu": 13,
+        "ff": 2
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2009-role",
+      "name": "Jalen Gray",
+      "position": "CB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "tackles": 34,
+        "tfl": 2,
+        "defInt": 3,
+        "pbu": 9,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2009-depth",
+      "name": "Kade Nash",
+      "position": "CB",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 19,
+        "tfl": 1,
+        "defInt": 2,
+        "pbu": 5,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2009-star",
+      "name": "Logan Ash",
+      "position": "S",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 83,
+        "tfl": 6,
+        "defInt": 4,
+        "pbu": 8,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2010) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2009-role",
+      "name": "Micah Hale",
+      "position": "S",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2011,
+      "stats": {
+        "tackles": 56,
+        "tfl": 4,
+        "defInt": 2,
+        "pbu": 6,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2009-depth",
+      "name": "Nolan Oaks",
+      "position": "S",
+      "firstYear": 2009,
+      "lastYear": 2012,
+      "bestSeason": 2010,
+      "stats": {
+        "tackles": 31,
+        "tfl": 2,
+        "defInt": 1,
+        "pbu": 3,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2013-star",
+      "name": "Owen Beck",
+      "position": "QB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "passYds": 3220,
+        "passTD": 32,
+        "passInt": 7,
+        "rushYds": 640,
+        "rushTD": 9
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2013-role",
+      "name": "Pierce Ivers",
+      "position": "QB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "passYds": 2170,
+        "passTD": 22,
+        "passInt": 10,
+        "rushYds": 430,
+        "rushTD": 6
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2013-depth",
+      "name": "Quinn Pratt",
+      "position": "QB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "passYds": 1190,
+        "passTD": 12,
+        "passInt": 13,
+        "rushYds": 240,
+        "rushTD": 3
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2013-star",
+      "name": "Reece Cole",
+      "position": "RB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "rushYds": 1380,
+        "rushTD": 17,
+        "rec": 32,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2013-role",
+      "name": "Silas Jett",
+      "position": "RB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "rushYds": 930,
+        "rushTD": 11,
+        "rec": 22,
+        "recYds": 250,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2013-depth",
+      "name": "Tate Rhodes",
+      "position": "RB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "rushYds": 510,
+        "rushTD": 6,
+        "rec": 12,
+        "recYds": 140,
+        "recTD": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2013-star",
+      "name": "Avery Dorn",
+      "position": "WR",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "rec": 64,
+        "recYds": 1010,
+        "recTD": 10
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2013-role",
+      "name": "Bryce Knox",
+      "position": "WR",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "rec": 43,
+        "recYds": 680,
+        "recTD": 7
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2013-depth",
+      "name": "Carter Stone",
+      "position": "WR",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "rec": 24,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2013-star",
+      "name": "Dante Ellis",
+      "position": "TE",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "rec": 46,
+        "recYds": 600,
+        "recTD": 6
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2013-role",
+      "name": "Elliot Lowe",
+      "position": "TE",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "rec": 31,
+        "recYds": 400,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2013-depth",
+      "name": "Foster Vance",
+      "position": "TE",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "rec": 17,
+        "recYds": 220,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2013-star",
+      "name": "Grant Frost",
+      "position": "DE",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 51,
+        "tfl": 17,
+        "sacks": 10,
+        "ff": 4,
+        "defInt": 2
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2013-role",
+      "name": "Hayes Mraz",
+      "position": "DE",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "tackles": 34,
+        "tfl": 11,
+        "sacks": 7,
+        "ff": 2,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2013-depth",
+      "name": "Isaiah Webb",
+      "position": "DE",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 19,
+        "tfl": 6,
+        "sacks": 4,
+        "ff": 1,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2013-star",
+      "name": "Jalen Gray",
+      "position": "DT",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 46,
+        "tfl": 12,
+        "sacks": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2013-role",
+      "name": "Kade Nash",
+      "position": "DT",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "tackles": 31,
+        "tfl": 8,
+        "sacks": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2013-depth",
+      "name": "Logan Ash",
+      "position": "DT",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 17,
+        "tfl": 4,
+        "sacks": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2013-star",
+      "name": "Micah Hale",
+      "position": "LB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 110,
+        "tfl": 14,
+        "sacks": 6,
+        "defInt": 3,
+        "pbu": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2013-role",
+      "name": "Nolan Oaks",
+      "position": "LB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "tackles": 74,
+        "tfl": 9,
+        "sacks": 4,
+        "defInt": 2,
+        "pbu": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2013-depth",
+      "name": "Owen Beck",
+      "position": "LB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 41,
+        "tfl": 5,
+        "sacks": 2,
+        "defInt": 1,
+        "pbu": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2013-star",
+      "name": "Pierce Ivers",
+      "position": "CB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 51,
+        "tfl": 4,
+        "defInt": 5,
+        "pbu": 13,
+        "ff": 2
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2013-role",
+      "name": "Quinn Pratt",
+      "position": "CB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "tackles": 34,
+        "tfl": 2,
+        "defInt": 3,
+        "pbu": 9,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2013-depth",
+      "name": "Reece Cole",
+      "position": "CB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 19,
+        "tfl": 1,
+        "defInt": 2,
+        "pbu": 5,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2013-star",
+      "name": "Silas Jett",
+      "position": "S",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 83,
+        "tfl": 6,
+        "defInt": 4,
+        "pbu": 8,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2014) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2013-role",
+      "name": "Tate Rhodes",
+      "position": "S",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
+      "stats": {
+        "tackles": 56,
+        "tfl": 4,
+        "defInt": 2,
+        "pbu": 6,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2013-depth",
+      "name": "Avery Dorn",
+      "position": "S",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2014,
+      "stats": {
+        "tackles": 31,
+        "tfl": 2,
+        "defInt": 1,
+        "pbu": 3,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2017-star",
+      "name": "Bryce Knox",
+      "position": "QB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "passYds": 3220,
+        "passTD": 32,
+        "passInt": 7,
+        "rushYds": 640,
+        "rushTD": 9
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2017-role",
+      "name": "Carter Stone",
+      "position": "QB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "passYds": 2170,
+        "passTD": 22,
+        "passInt": 10,
+        "rushYds": 430,
+        "rushTD": 6
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2017-depth",
+      "name": "Dante Ellis",
+      "position": "QB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "passYds": 1190,
+        "passTD": 12,
+        "passInt": 13,
+        "rushYds": 240,
+        "rushTD": 3
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2017-star",
+      "name": "Elliot Lowe",
+      "position": "RB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "rushYds": 1380,
+        "rushTD": 17,
+        "rec": 32,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2017-role",
+      "name": "Foster Vance",
+      "position": "RB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "rushYds": 930,
+        "rushTD": 11,
+        "rec": 22,
+        "recYds": 250,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2017-depth",
+      "name": "Grant Frost",
+      "position": "RB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "rushYds": 510,
+        "rushTD": 6,
+        "rec": 12,
+        "recYds": 140,
+        "recTD": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2017-star",
+      "name": "Hayes Mraz",
+      "position": "WR",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 64,
+        "recYds": 1010,
+        "recTD": 10
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2017-role",
+      "name": "Isaiah Webb",
+      "position": "WR",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "rec": 43,
+        "recYds": 680,
+        "recTD": 7
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2017-depth",
+      "name": "Jalen Gray",
+      "position": "WR",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 24,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2017-star",
+      "name": "Kade Nash",
+      "position": "TE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 46,
+        "recYds": 600,
+        "recTD": 6
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2017-role",
+      "name": "Logan Ash",
+      "position": "TE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "rec": 31,
+        "recYds": 400,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2017-depth",
+      "name": "Micah Hale",
+      "position": "TE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 17,
+        "recYds": 220,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2017-star",
+      "name": "Nolan Oaks",
+      "position": "DE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 51,
+        "tfl": 17,
+        "sacks": 10,
+        "ff": 4,
+        "defInt": 2
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2017-role",
+      "name": "Owen Beck",
+      "position": "DE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "tackles": 34,
+        "tfl": 11,
+        "sacks": 7,
+        "ff": 2,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2017-depth",
+      "name": "Pierce Ivers",
+      "position": "DE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 19,
+        "tfl": 6,
+        "sacks": 4,
+        "ff": 1,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2017-star",
+      "name": "Quinn Pratt",
+      "position": "DT",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 46,
+        "tfl": 12,
+        "sacks": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2017-role",
+      "name": "Reece Cole",
+      "position": "DT",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "tackles": 31,
+        "tfl": 8,
+        "sacks": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2017-depth",
+      "name": "Silas Jett",
+      "position": "DT",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 17,
+        "tfl": 4,
+        "sacks": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2017-star",
+      "name": "Tate Rhodes",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 110,
+        "tfl": 14,
+        "sacks": 6,
+        "defInt": 3,
+        "pbu": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2017-role",
+      "name": "Avery Dorn",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "tackles": 74,
+        "tfl": 9,
+        "sacks": 4,
+        "defInt": 2,
+        "pbu": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2017-depth",
+      "name": "Bryce Knox",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 41,
+        "tfl": 5,
+        "sacks": 2,
+        "defInt": 1,
+        "pbu": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2017-star",
+      "name": "Carter Stone",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 51,
+        "tfl": 4,
+        "defInt": 5,
+        "pbu": 13,
+        "ff": 2
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2017-role",
+      "name": "Dante Ellis",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "tackles": 34,
+        "tfl": 2,
+        "defInt": 3,
+        "pbu": 9,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2017-depth",
+      "name": "Elliot Lowe",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 19,
+        "tfl": 1,
+        "defInt": 2,
+        "pbu": 5,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2017-star",
+      "name": "Foster Vance",
+      "position": "S",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 83,
+        "tfl": 6,
+        "defInt": 4,
+        "pbu": 8,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2018) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2017-role",
+      "name": "Grant Frost",
+      "position": "S",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "tackles": 56,
+        "tfl": 4,
+        "defInt": 2,
+        "pbu": 6,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2017-depth",
+      "name": "Hayes Mraz",
+      "position": "S",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2018,
+      "stats": {
+        "tackles": 31,
+        "tfl": 2,
+        "defInt": 1,
+        "pbu": 3,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2021-star",
+      "name": "Isaiah Webb",
+      "position": "QB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "passYds": 3220,
+        "passTD": 32,
+        "passInt": 7,
+        "rushYds": 640,
+        "rushTD": 9
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2021-role",
+      "name": "Jalen Gray",
+      "position": "QB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "passYds": 2170,
+        "passTD": 22,
+        "passInt": 10,
+        "rushYds": 430,
+        "rushTD": 6
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-qb-2021-depth",
+      "name": "Kade Nash",
+      "position": "QB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "passYds": 1190,
+        "passTD": 12,
+        "passInt": 13,
+        "rushYds": 240,
+        "rushTD": 3
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2021-star",
+      "name": "Logan Ash",
+      "position": "RB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "rushYds": 1380,
+        "rushTD": 17,
+        "rec": 32,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2021-role",
+      "name": "Micah Hale",
+      "position": "RB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "rushYds": 930,
+        "rushTD": 11,
+        "rec": 22,
+        "recYds": 250,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-rb-2021-depth",
+      "name": "Nolan Oaks",
+      "position": "RB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "rushYds": 510,
+        "rushTD": 6,
+        "rec": 12,
+        "recYds": 140,
+        "recTD": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2021-star",
+      "name": "Owen Beck",
+      "position": "WR",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "rec": 64,
+        "recYds": 1010,
+        "recTD": 10
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2021-role",
+      "name": "Pierce Ivers",
+      "position": "WR",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "rec": 43,
+        "recYds": 680,
+        "recTD": 7
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-wr-2021-depth",
+      "name": "Quinn Pratt",
+      "position": "WR",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "rec": 24,
+        "recYds": 370,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2021-star",
+      "name": "Reece Cole",
+      "position": "TE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "rec": 46,
+        "recYds": 600,
+        "recTD": 6
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2021-role",
+      "name": "Silas Jett",
+      "position": "TE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "rec": 31,
+        "recYds": 400,
+        "recTD": 4
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-te-2021-depth",
+      "name": "Tate Rhodes",
+      "position": "TE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "rec": 17,
+        "recYds": 220,
+        "recTD": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2021-star",
+      "name": "Avery Dorn",
+      "position": "DE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 51,
+        "tfl": 17,
+        "sacks": 10,
+        "ff": 4,
+        "defInt": 2
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2021-role",
+      "name": "Bryce Knox",
+      "position": "DE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "tackles": 34,
+        "tfl": 11,
+        "sacks": 7,
+        "ff": 2,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-de-2021-depth",
+      "name": "Carter Stone",
+      "position": "DE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 19,
+        "tfl": 6,
+        "sacks": 4,
+        "ff": 1,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2021-star",
+      "name": "Dante Ellis",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 46,
+        "tfl": 12,
+        "sacks": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2021-role",
+      "name": "Elliot Lowe",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "tackles": 31,
+        "tfl": 8,
+        "sacks": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-dt-2021-depth",
+      "name": "Foster Vance",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 17,
+        "tfl": 4,
+        "sacks": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2021-star",
+      "name": "Grant Frost",
+      "position": "LB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 110,
+        "tfl": 14,
+        "sacks": 6,
+        "defInt": 3,
+        "pbu": 6,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2021-role",
+      "name": "Hayes Mraz",
+      "position": "LB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "tackles": 74,
+        "tfl": 9,
+        "sacks": 4,
+        "defInt": 2,
+        "pbu": 4,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-lb-2021-depth",
+      "name": "Isaiah Webb",
+      "position": "LB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 41,
+        "tfl": 5,
+        "sacks": 2,
+        "defInt": 1,
+        "pbu": 2,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2021-star",
+      "name": "Jalen Gray",
+      "position": "CB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 51,
+        "tfl": 4,
+        "defInt": 5,
+        "pbu": 13,
+        "ff": 2
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2021-role",
+      "name": "Kade Nash",
+      "position": "CB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "tackles": 34,
+        "tfl": 2,
+        "defInt": 3,
+        "pbu": 9,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-cb-2021-depth",
+      "name": "Logan Ash",
+      "position": "CB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 19,
+        "tfl": 1,
+        "defInt": 2,
+        "pbu": 5,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2021-star",
+      "name": "Micah Hale",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 83,
+        "tfl": 6,
+        "defInt": 4,
+        "pbu": 8,
+        "ff": 3
+      },
+      "honors": ["All-Conference (2022) [MOCK]"],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2021-role",
+      "name": "Nolan Oaks",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "tackles": 56,
+        "tfl": 4,
+        "defInt": 2,
+        "pbu": 6,
+        "ff": 2
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    },
+    {
+      "id": "mock-s-2021-depth",
+      "name": "Owen Beck",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2022,
+      "stats": {
+        "tackles": 31,
+        "tfl": 2,
+        "defInt": 1,
+        "pbu": 3,
+        "ff": 1
+      },
+      "honors": [],
+      "source": "PLACEHOLDER"
+    }
+  ]
+}

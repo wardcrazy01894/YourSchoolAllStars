@@ -3,7 +3,8 @@
 // is the single import point for the app.
 
 import raw from './michigan-basketball.json'
-import type { BballPlayer } from '../types'
+import fbRaw from './michigan-football.json'
+import type { BballPlayer, FbPlayer } from '../types'
 
 export interface Dataset {
   school: string
@@ -18,4 +19,19 @@ export const michiganBasketball: Dataset = {
   sport: 'basketball',
   provisional: raw._provisional === true,
   players: raw.players as BballPlayer[],
+}
+
+export interface FootballDataset {
+  school: string
+  sport: 'football'
+  /** True while the bundled data is MOCK/placeholder, not real sourced stats. */
+  provisional: boolean
+  players: FbPlayer[]
+}
+
+export const michiganFootball: FootballDataset = {
+  school: fbRaw.school,
+  sport: 'football',
+  provisional: fbRaw._provisional === true,
+  players: fbRaw.players as FbPlayer[],
 }
