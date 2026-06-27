@@ -98,9 +98,9 @@ describe('honorsBonus', () => {
     expect(honorsBonus(['ACC Rookie of the Year (2005)'])).toBe(3)
     expect(honorsBonus(['ACC Defensive Player of the Year (2011)'])).toBe(6)
     expect(honorsBonus(['First-Team All-ACC (2008)'])).toBe(4)
-    expect(honorsBonus(['NCAA Final Four Most Outstanding Player (2005)'])).toBe(
-      5,
-    )
+    expect(
+      honorsBonus(['NCAA Final Four Most Outstanding Player (2005)']),
+    ).toBe(5)
     // A bare all-conference nod with no stated team level still scores (the
     // generic league-token catch), at the first-team-adjacent default of 3.
     expect(honorsBonus(['All-ACC (1999)'])).toBe(3)
