@@ -135,6 +135,13 @@ describe('honorsBonus', () => {
     // Team" previously fell through to 0).
     expect(honorsBonus(['All-Big Ten Defensive Team (2026)'])).toBe(3)
     expect(honorsBonus(['Big Ten All-Defensive Team (2008)'])).toBe(3)
+    // The CAA and Atlantic 10 (and Big East) name their freshman all-conference
+    // squad the "All-Rookie Team" rather than "All-Freshman Team" — the SAME
+    // honor, so it scores the same 2 (VCU/Pitt data, 2026-06-27). Previously
+    // "All-Rookie Team" fell through every branch to 0.
+    expect(honorsBonus(['Atlantic 10 All-Rookie Team (2020)'])).toBe(2)
+    expect(honorsBonus(['CAA All-Rookie Team (2009)'])).toBe(2)
+    expect(honorsBonus(['All-Big East Rookie Team'])).toBe(2)
   })
   it('distinguishes national-tournament MOP from a regional MOP (PR #35 review)', () => {
     // The Final Four / NCAA Tournament MOP is the championship honor (5); a

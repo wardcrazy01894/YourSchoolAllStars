@@ -82,8 +82,16 @@ export function honorTier(honor: string): number {
   if (s.includes('third team')) return 2
   if (s.includes('honorable mention')) return 1
   // Named all-conference squads, in either word order ("Big Ten All-Freshman
-  // Team" / "All-Big Ten Freshman Team", likewise all-defensive).
-  if (s.includes('freshman team') || s.includes('all freshman')) return 2
+  // Team" / "All-Big Ten Freshman Team", likewise all-defensive). The CAA,
+  // Atlantic 10 and Big East call the same freshman squad the "All-Rookie Team"
+  // — the identical honor, so it scores the identical 2.
+  if (
+    s.includes('freshman team') ||
+    s.includes('all freshman') ||
+    s.includes('rookie team') ||
+    s.includes('all rookie')
+  )
+    return 2
   if (s.includes('defensive team')) return 3
   // Generic all-conference nod with no stated team level.
   if (CONFERENCE_ALL_TEAM.test(s)) return 3

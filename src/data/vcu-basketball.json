@@ -39,7 +39,7 @@
             "stl": 2.1,
             "blk": 0.0
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Rookie Team (2021)"],
           "source": "https://www.sports-reference.com/cbb/players/adrian-balwinjr-1.html"
         },
         {
@@ -51,7 +51,7 @@
             "stl": 2.5,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Atlantic 10 (2022)"],
           "source": "https://www.sports-reference.com/cbb/players/adrian-balwinjr-1.html"
         },
         {
@@ -63,7 +63,12 @@
             "stl": 2.2,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": [
+            "Atlantic 10 Player of the Year (2023)",
+            "Atlantic 10 Defensive Player of the Year (2023)",
+            "First-Team All-Atlantic 10 (2023)",
+            "Atlantic 10 All-Defensive Team (2023)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/adrian-balwinjr-1.html"
         }
       ]
@@ -462,7 +467,7 @@
             "stl": 1.0,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["Second-Team All-CAA (2007)"],
           "source": "https://www.sports-reference.com/cbb/players/ba-walker-1.html"
         }
       ]
@@ -662,7 +667,7 @@
             "stl": 0.9,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["CAA All-Rookie Team (2009)"],
           "source": "https://www.sports-reference.com/cbb/players/bradford-burgess-1.html"
         },
         {
@@ -698,7 +703,7 @@
             "stl": 1.1,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["First-Team All-CAA (2012)"],
           "source": "https://www.sports-reference.com/cbb/players/bradford-burgess-1.html"
         }
       ]
@@ -855,7 +860,7 @@
             "stl": 2.1,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["CAA All-Defensive Team (2012)"],
           "source": "https://www.sports-reference.com/cbb/players/briante-weber-1.html"
         },
         {
@@ -867,7 +872,10 @@
             "stl": 2.7,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": [
+            "Atlantic 10 Defensive Player of the Year (2013)",
+            "Atlantic 10 All-Defensive Team (2013)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/briante-weber-1.html"
         },
         {
@@ -879,7 +887,10 @@
             "stl": 3.5,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": [
+            "Atlantic 10 Defensive Player of the Year (2014)",
+            "Atlantic 10 All-Defensive Team (2014)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/briante-weber-1.html"
         },
         {
@@ -891,7 +902,10 @@
             "stl": 3.9,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": [
+            "Atlantic 10 Defensive Player of the Year (2015)",
+            "Atlantic 10 All-Defensive Team (2015)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/briante-weber-1.html"
         }
       ]
@@ -1163,7 +1177,7 @@
             "stl": 1.9,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["Third-Team All-CAA (2012)"],
           "source": "https://www.sports-reference.com/cbb/players/darius-theus-1.html"
         },
         {
@@ -1175,7 +1189,7 @@
             "stl": 2.4,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Defensive Team (2013)"],
           "source": "https://www.sports-reference.com/cbb/players/darius-theus-1.html"
         }
       ]
@@ -1368,7 +1382,7 @@
             "stl": 0.8,
             "blk": 0.5
           },
-          "honors": [],
+          "honors": ["Third-Team All-Atlantic 10 (2019)"],
           "source": "https://www.sports-reference.com/cbb/players/deriante-jenkins-1.html"
         },
         {
@@ -1527,7 +1541,7 @@
             "stl": 0.6,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["CAA All-Rookie Team (2001)"],
           "source": "https://www.sports-reference.com/cbb/players/domonic-jones-1.html"
         },
         {
@@ -1539,7 +1553,7 @@
             "stl": 1.7,
             "blk": 0.8
           },
-          "honors": [],
+          "honors": ["First-Team All-CAA (2002)"],
           "source": "https://www.sports-reference.com/cbb/players/domonic-jones-1.html"
         },
         {
@@ -1563,7 +1577,10 @@
             "stl": 1.1,
             "blk": 0.4
           },
-          "honors": [],
+          "honors": [
+            "CAA Player of the Year (2004)",
+            "First-Team All-CAA (2004)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/domonic-jones-1.html"
         }
       ]
@@ -1859,7 +1876,7 @@
             "stl": 1.4,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["First-Team All-CAA (2007)"],
           "source": "https://www.sports-reference.com/cbb/players/eric-maynor-1.html"
         },
         {
@@ -1871,7 +1888,10 @@
             "stl": 1.3,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": [
+            "CAA Player of the Year (2008)",
+            "First-Team All-CAA (2008)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/eric-maynor-1.html"
         },
         {
@@ -1883,7 +1903,10 @@
             "stl": 1.7,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": [
+            "CAA Player of the Year (2009)",
+            "First-Team All-CAA (2009)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/eric-maynor-1.html"
         }
       ]
@@ -2108,7 +2131,7 @@
             "stl": 0.6,
             "blk": 2.3
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Defensive Team (2021)"],
           "source": "https://www.sports-reference.com/cbb/players/hason-ward-1.html"
         },
         {
@@ -2378,7 +2401,7 @@
             "stl": 1.1,
             "blk": 1.4
           },
-          "honors": [],
+          "honors": ["Third-Team All-Atlantic 10 (2023)"],
           "source": "https://www.sports-reference.com/cbb/players/jalen-deloach-1.html"
         }
       ]
@@ -2436,7 +2459,10 @@
             "stl": 1.5,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-CAA (2008)",
+            "CAA All-Defensive Team (2008)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/jamal-shuler-1.html"
         }
       ]
@@ -2492,7 +2518,7 @@
             "stl": 0.6,
             "blk": 1.0
           },
-          "honors": [],
+          "honors": ["Second-Team All-CAA (2011)"],
           "source": "https://www.sports-reference.com/cbb/players/jamie-skeen-1.html"
         }
       ]
@@ -2694,7 +2720,7 @@
             "stl": 1.5,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Rookie Team (2022)"],
           "source": "https://www.sports-reference.com/cbb/players/jayden-nunn-1.html"
         },
         {
@@ -2764,7 +2790,7 @@
             "stl": 1.7,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2017)"],
           "source": "https://www.sports-reference.com/cbb/players/jequan-lewis-1.html"
         }
       ]
@@ -2822,7 +2848,7 @@
             "stl": 1.1,
             "blk": 0.4
           },
-          "honors": [],
+          "honors": ["Third-Team All-CAA (2007)"],
           "source": "https://www.sports-reference.com/cbb/players/jesse-pellot-rosa-1.html"
         }
       ]
@@ -2957,7 +2983,7 @@
             "stl": 1.9,
             "blk": 0.0
           },
-          "honors": [],
+          "honors": ["Second-Team All-CAA (2010)"],
           "source": "https://www.sports-reference.com/cbb/players/joey-rodriguez-1.html"
         },
         {
@@ -2969,7 +2995,7 @@
             "stl": 1.5,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["Third-Team All-CAA (2011)"],
           "source": "https://www.sports-reference.com/cbb/players/joey-rodriguez-1.html"
         }
       ]
@@ -3261,7 +3287,7 @@
             "stl": 1.1,
             "blk": 0.7
           },
-          "honors": [],
+          "honors": ["Second-Team All-Atlantic 10 (2025)"],
           "source": "https://www.sports-reference.com/cbb/players/joseph-bamisile-1.html"
         }
       ]
@@ -3467,7 +3493,7 @@
             "stl": 0.3,
             "blk": 0.5
           },
-          "honors": [],
+          "honors": ["Third-Team All-Atlantic 10 (2017)"],
           "source": "https://www.sports-reference.com/cbb/players/justin-tillman-1.html"
         },
         {
@@ -3479,7 +3505,10 @@
             "stl": 0.3,
             "blk": 1.0
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Atlantic 10 (2018)",
+            "Atlantic 10 All-Defensive Team (2018)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/justin-tillman-1.html"
         }
       ]
@@ -3535,7 +3564,7 @@
             "stl": 1.3,
             "blk": 1.2
           },
-          "honors": [],
+          "honors": ["Third-Team All-CAA (2012)"],
           "source": "https://www.sports-reference.com/cbb/players/juvonte-reddic-1.html"
         },
         {
@@ -3547,7 +3576,7 @@
             "stl": 1.4,
             "blk": 0.9
           },
-          "honors": [],
+          "honors": ["Second-Team All-Atlantic 10 (2013)"],
           "source": "https://www.sports-reference.com/cbb/players/juvonte-reddic-1.html"
         },
         {
@@ -3559,7 +3588,7 @@
             "stl": 1.3,
             "blk": 1.2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Atlantic 10 (2014)"],
           "source": "https://www.sports-reference.com/cbb/players/juvonte-reddic-1.html"
         }
       ]
@@ -3962,7 +3991,7 @@
             "stl": 1.6,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["CAA All-Rookie Team (1998)"],
           "source": "https://www.sports-reference.com/cbb/players/lamar-taylor-1.html"
         },
         {
@@ -4054,7 +4083,10 @@
             "stl": 0.3,
             "blk": 3.0
           },
-          "honors": [],
+          "honors": [
+            "CAA All-Defensive Team (2008)",
+            "CAA All-Rookie Team (2008)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/larry-sanders-1.html"
         },
         {
@@ -4066,7 +4098,11 @@
             "stl": 0.6,
             "blk": 2.7
           },
-          "honors": [],
+          "honors": [
+            "CAA Defensive Player of the Year (2009)",
+            "Second-Team All-CAA (2009)",
+            "CAA All-Defensive Team (2009)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/larry-sanders-1.html"
         },
         {
@@ -4078,7 +4114,11 @@
             "stl": 0.7,
             "blk": 2.6
           },
-          "honors": [],
+          "honors": [
+            "CAA Defensive Player of the Year (2010)",
+            "First-Team All-CAA (2010)",
+            "CAA All-Defensive Team (2010)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/larry-sanders-1.html"
         }
       ]
@@ -4359,7 +4399,7 @@
             "stl": 2.0,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2019)"],
           "source": "https://www.sports-reference.com/cbb/players/marcus-evans-2.html"
         },
         {
@@ -4661,7 +4701,7 @@
             "stl": 0.9,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2024)"],
           "source": "https://www.sports-reference.com/cbb/players/max-shulga-1.html"
         },
         {
@@ -4673,7 +4713,10 @@
             "stl": 1.8,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": [
+            "Atlantic 10 Player of the Year (2025)",
+            "First-Team All-Atlantic 10 (2025)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/max-shulga-1.html"
         }
       ]
@@ -4729,7 +4772,7 @@
             "stl": 0.8,
             "blk": 0.0
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Rookie Team (2013)"],
           "source": "https://www.sports-reference.com/cbb/players/melvin-johnson-2.html"
         },
         {
@@ -4741,7 +4784,7 @@
             "stl": 0.9,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["Atlantic 10 Sixth Man of the Year (2014)"],
           "source": "https://www.sports-reference.com/cbb/players/melvin-johnson-2.html"
         },
         {
@@ -4765,7 +4808,7 @@
             "stl": 1.3,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2016)"],
           "source": "https://www.sports-reference.com/cbb/players/melvin-johnson-2.html"
         }
       ]
@@ -5076,7 +5119,7 @@
             "stl": 0.6,
             "blk": 1.9
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Defensive Team (2015)"],
           "source": "https://www.sports-reference.com/cbb/players/mo-alie-cox-1.html"
         },
         {
@@ -5088,7 +5131,10 @@
             "stl": 0.7,
             "blk": 1.9
           },
-          "honors": [],
+          "honors": [
+            "Third-Team All-Atlantic 10 (2016)",
+            "Atlantic 10 All-Defensive Team (2016)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/mo-alie-cox-1.html"
         },
         {
@@ -5100,7 +5146,7 @@
             "stl": 0.8,
             "blk": 2.0
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Defensive Team (2017)"],
           "source": "https://www.sports-reference.com/cbb/players/mo-alie-cox-1.html"
         }
       ]
@@ -5178,7 +5224,7 @@
             "stl": 0.8,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["Atlantic 10 All-Rookie Team (2020)"],
           "source": "https://www.sports-reference.com/cbb/players/nahshon-hyland-1.html"
         },
         {
@@ -5190,7 +5236,10 @@
             "stl": 1.9,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": [
+            "Atlantic 10 Player of the Year (2021)",
+            "First-Team All-Atlantic 10 (2021)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/nahshon-hyland-1.html"
         }
       ]
@@ -5212,7 +5261,10 @@
             "stl": 0.6,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": [
+            "CAA Rookie of the Year (2003)",
+            "CAA All-Rookie Team (2003)"
+          ],
           "source": "https://www.sports-reference.com/cbb/players/nick-george-1.html"
         },
         {
@@ -5236,7 +5288,7 @@
             "stl": 0.9,
             "blk": 0.4
           },
-          "honors": [],
+          "honors": ["First-Team All-CAA (2005)"],
           "source": "https://www.sports-reference.com/cbb/players/nick-george-1.html"
         },
         {
@@ -5248,7 +5300,7 @@
             "stl": 1.3,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["First-Team All-CAA (2006)"],
           "source": "https://www.sports-reference.com/cbb/players/nick-george-1.html"
         }
       ]
@@ -6047,7 +6099,7 @@
             "stl": 1.3,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["Second-Team All-CAA (1996)"],
           "source": "https://www.sports-reference.com/cbb/players/sherman-hamilton-1.html"
         },
         {
@@ -6522,7 +6574,7 @@
             "stl": 0.9,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Atlantic 10 (2013)"],
           "source": "https://www.sports-reference.com/cbb/players/treveon-graham-1.html"
         },
         {
@@ -6534,7 +6586,7 @@
             "stl": 0.9,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2014)"],
           "source": "https://www.sports-reference.com/cbb/players/treveon-graham-1.html"
         },
         {
@@ -6546,7 +6598,7 @@
             "stl": 0.6,
             "blk": 0.3
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2015)"],
           "source": "https://www.sports-reference.com/cbb/players/treveon-graham-1.html"
         }
       ]
@@ -6784,7 +6836,7 @@
             "stl": 1.0,
             "blk": 0.2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Atlantic 10 (2021)"],
           "source": "https://www.sports-reference.com/cbb/players/vince-williams-2.html"
         },
         {
@@ -6796,7 +6848,7 @@
             "stl": 1.6,
             "blk": 1.1
           },
-          "honors": [],
+          "honors": ["First-Team All-Atlantic 10 (2022)"],
           "source": "https://www.sports-reference.com/cbb/players/vince-williams-2.html"
         }
       ]
@@ -6999,7 +7051,7 @@
             "stl": 1.2,
             "blk": 0.1
           },
-          "honors": [],
+          "honors": ["Atlantic 10 Sixth Man of the Year (2025)"],
           "source": "https://www.sports-reference.com/cbb/players/zeb-jackson-1.html"
         }
       ]
