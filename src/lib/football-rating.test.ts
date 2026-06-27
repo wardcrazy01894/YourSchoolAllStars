@@ -121,6 +121,20 @@ describe('fbPlayerRating', () => {
     }
   })
 
+  it('rates a pure pocket passer (no rushing) well on passing alone', () => {
+    // Guards the parity claim honestly: the QB ELITE fixture embeds 700 rush yds,
+    // so without this a rush-dependent regression would slip through.
+    const r = fbPlayerRating(
+      mkPlayer('QB', { passYds: 3500, passTD: 35, passInt: 8 }),
+    )
+    expect(r).toBeGreaterThanOrEqual(70)
+  })
+
+  it('clamps a negative composite (a QB who only throws picks) to 0', () => {
+    const r = fbPlayerRating(mkPlayer('QB', { passInt: 20 }))
+    expect(r).toBe(0)
+  })
+
   it('rates a replacement-level season low', () => {
     const r = fbPlayerRating(
       mkPlayer('RB', { rushYds: 120, rushTD: 1, rec: 4, recYds: 30 }),
@@ -229,5 +243,13 @@ describe('fbProjectedWins / labels', () => {
     expect(fbRecordLabel(16)).toBe('16–0')
     expect(fbGradeLabel(16)).toBe('PERFECT')
     expect(fbGradeLabel(0)).toBe('WINLESS')
+  })
+
+  it('labels the mid-tier grades by win share', () => {
+    expect(fbGradeLabel(15)).toBe('HISTORIC') // .94
+    expect(fbGradeLabel(13)).toBe('ELITE') // .81
+    expect(fbGradeLabel(11)).toBe('SOLID') // .69
+    expect(fbGradeLabel(9)).toBe('BOWL') // .56
+    expect(fbGradeLabel(5)).toBe('REBUILD') // .31
   })
 })

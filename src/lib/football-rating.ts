@@ -36,10 +36,12 @@ interface FbStatTerm {
 // (≈ a first-team All-American line). Tunable first cut.
 const FB_RATING_TERMS: Record<FbPosition, FbStatTerm[]> = {
   QB: [
-    { stat: 'passYds', ref: 3500, weight: 16 },
-    { stat: 'passTD', ref: 35, weight: 14 },
-    { stat: 'rushYds', ref: 700, weight: 7 },
-    { stat: 'rushTD', ref: 10, weight: 5 },
+    // Passing carries the bulk of the budget so a pure pocket passer rates well
+    // on stats alone; rushing is a bonus for dual-threats, not a requirement.
+    { stat: 'passYds', ref: 3500, weight: 18 },
+    { stat: 'passTD', ref: 35, weight: 16 },
+    { stat: 'rushYds', ref: 700, weight: 5 },
+    { stat: 'rushTD', ref: 10, weight: 3 },
     { stat: 'passInt', ref: 10, weight: 6, sign: -1 },
   ],
   RB: [
