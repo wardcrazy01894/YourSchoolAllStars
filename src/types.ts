@@ -101,8 +101,11 @@ export const FB_DEF_POSITIONS: FbDefPosition[] = ['DE', 'DT', 'LB', 'CB', 'S']
 
 /**
  * Per-season stats. Heterogeneous by position, so every field is optional; the
- * UI/rating reads the columns relevant to the player's position. Per-game where
- * it makes sense for defense (tackles), season totals for the rest (yards, TDs).
+ * UI/rating reads the columns relevant to the player's position. All counting
+ * stats are SEASON TOTALS — yards, TDs, and the defensive box score (tackles,
+ * TFL, sacks, INTs, PBUs, FFs) alike. The rating refs in `football-rating.ts`
+ * assume totals (e.g. an elite LB ≈ 120 tackles/season), so entering per-game
+ * numbers would silently crater a defender's rating.
  */
 export interface FbStats {
   // Offense
