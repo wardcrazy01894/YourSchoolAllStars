@@ -7,6 +7,8 @@ import {
   michiganFootball,
   virginiaTechBasketball,
   northCarolinaBasketball,
+  floridaBasketball,
+  vcuBasketball,
   type Dataset,
   type FootballDataset,
 } from './data'
@@ -98,10 +100,10 @@ export const SCHOOLS: School[] = [
       accent: '#fa4616',
       ink: '#0a1124',
     },
-    basketball: undefined,
+    basketball: floridaBasketball,
     hasFootball: true,
     power5: true,
-    available: false,
+    available: true,
   },
   {
     id: 'vt',
@@ -154,10 +156,10 @@ export const SCHOOLS: School[] = [
       accent: '#f8b300',
       ink: '#0c0c0a',
     },
-    basketball: undefined,
+    basketball: vcuBasketball,
     hasFootball: false,
     power5: false, // Atlantic 10 — the lone non-power-5 school today
-    available: false,
+    available: true,
   },
 ]
 

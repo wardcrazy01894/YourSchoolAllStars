@@ -6,6 +6,7 @@ import {
   michiganBasketball,
   virginiaTechBasketball,
   northCarolinaBasketball,
+  floridaBasketball,
   vcuBasketball,
 } from './index'
 import type { Dataset } from './index'
@@ -30,6 +31,7 @@ const DATASETS: Dataset[] = [
   michiganBasketball,
   virginiaTechBasketball,
   northCarolinaBasketball,
+  floridaBasketball,
   vcuBasketball,
 ]
 
