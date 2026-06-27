@@ -2,7 +2,12 @@
 // place that knows which schools exist, their colors, and where their data is.
 // Adding a school = add an entry here (+ its dataset) — nothing else changes.
 
-import { michiganBasketball, type Dataset } from './data'
+import {
+  michiganBasketball,
+  michiganFootball,
+  type Dataset,
+  type FootballDataset,
+} from './data'
 
 export interface Theme {
   /** Primary school color — deep panels & text-on-accent. */
@@ -24,9 +29,13 @@ export interface School {
   theme: Theme
   /** Basketball dataset, when the school is live. */
   basketball?: Dataset
-  /** Does this school field a football team at all? (VCU does not.) Forward
-   * reservation: the sport picker is not built yet — when it is, it must hide
-   * football wherever this is false (else VCU would wrongly show football). */
+  /** Football dataset, when the school's football game is live. Michigan ships a
+   * MOCK/provisional seed (flagged `provisional`) to flesh out the flow ahead of
+   * curated data; schools without it fall back to the "coming soon" screen. */
+  football?: FootballDataset
+  /** Does this school field a football team at all? (VCU does not.) The sport
+   * picker hides football wherever this is false (else VCU would wrongly show a
+   * football card). */
   hasFootball: boolean
   /** Power-5 (major) conference? Drives the conference-strength rating: non-power-5
    * schools take a slight haircut on every player rating (17 ppg in the Big Ten is
@@ -51,6 +60,7 @@ export const SCHOOLS: School[] = [
       ink: '#0c1620',
     },
     basketball: michiganBasketball,
+    football: michiganFootball,
     hasFootball: true,
     power5: true,
     available: true,

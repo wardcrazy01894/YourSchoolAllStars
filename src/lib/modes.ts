@@ -1,19 +1,23 @@
 // Game modes.
 //
-// One school's basketball game can be played three ways. They share the whole
-// engine (windows, spins, draft reducer, rating) and differ only in three knobs:
-//   • daily    — date-seeded so everyone gets the same eras; one result per day,
-//                which locks and feeds the streak (the original 20-0 flow).
-//   • classic  — free play: a fresh RANDOM era sequence every game, replay forever,
-//                no lock, no streak.
-//   • hoops-iq — like classic, but stats, ratings, AND award stars are HIDDEN
-//                during the draft (you pick on names alone); all revealed at Results.
+// A school's game can be played several ways. They share the whole engine
+// (windows, spins, draft reducer, rating) and differ only in a few flag knobs:
+//   • daily       — date-seeded so everyone gets the same eras; one result per
+//                   day, which locks and feeds the streak (the original 20-0 flow).
+//   • classic     — free play: a fresh RANDOM era sequence every game, replay
+//                   forever, no lock, no streak.
+//   • hoops-iq    — like classic, but stats, ratings, AND award stars are HIDDEN
+//                   during the draft (pick on names alone); revealed at Results.
+//   • gridiron-iq — the football analog of Hoops IQ (same hidden-stats conceit).
 //
-// Keeping this as plain data + flags means the React shell branches on the flags
-// rather than the mode id, so adding a fourth mode is a data change, not new
-// control flow scattered through the UI.
+// Daily + Classic are universal; the IQ modes are sport-flavoured, so each carries
+// a `sports` scope (see `modesForSport`). Keeping this as plain data + flags means
+// the React shell branches on the flags rather than the mode id, so adding a mode
+// is a data change, not new control flow scattered through the UI.
 
-export type GameMode = 'daily' | 'classic' | 'hoops-iq'
+import type { SportId } from './sports'
+
+export type GameMode = 'daily' | 'classic' | 'hoops-iq' | 'gridiron-iq'
 
 export interface ModeConfig {
   id: GameMode
@@ -24,6 +28,12 @@ export interface ModeConfig {
   daily: boolean
   /** Hide stats during the draft (revealed at Results) — draft by reputation. */
   hideStats: boolean
+  /**
+   * Which sports offer this mode, in menu order. Omitted = every sport (daily +
+   * classic are universal). The stats-hidden modes are sport-flavoured — Hoops IQ
+   * is basketball-only, Gridiron IQ football-only — so each scopes to its sport.
+   */
+  sports?: SportId[]
 }
 
 export const MODES: ModeConfig[] = [
@@ -53,6 +63,17 @@ export const MODES: ModeConfig[] = [
       'Stats, ratings, and award stars hidden. Draft on names alone — they reveal at the end.',
     daily: false,
     hideStats: true,
+    sports: ['basketball'],
+  },
+  {
+    id: 'gridiron-iq',
+    name: 'Gridiron IQ',
+    emoji: '🧠',
+    blurb:
+      'Stats, ratings, and award stars hidden. Draft on names alone — they reveal at the end.',
+    daily: false,
+    hideStats: true,
+    sports: ['football'],
   },
 ]
 
@@ -66,6 +87,29 @@ export function getMode(id: string | null | undefined): ModeConfig {
 /** True if `id` names a real mode — gate `?mode=` URLs before trusting them. */
 export function isGameMode(id: string | null | undefined): id is GameMode {
   return MODES.some((m) => m.id === id)
+}
+
+/**
+ * The modes a sport offers, in menu order. A mode with no `sports` scope is
+ * universal (daily + classic); a scoped mode (the sport-flavoured IQ modes) shows
+ * only for its sport — so basketball gets Hoops IQ and football gets Gridiron IQ,
+ * never the other's.
+ */
+export function modesForSport(sport: SportId): ModeConfig[] {
+  return MODES.filter((m) => !m.sports || m.sports.includes(sport))
+}
+
+/**
+ * Whether `sport` actually offers mode `id`. `isGameMode` only checks that `id`
+ * is SOME real mode; this is the per-sport gate. Use it on a `?mode=` URL param
+ * (e.g. reject `?sport=basketball&mode=gridiron-iq`) so a cross-sport id can't
+ * skip the menu and mislabel the header/share with the other sport's mode.
+ */
+export function sportOffersMode(
+  sport: SportId,
+  id: string | null | undefined,
+): boolean {
+  return modesForSport(sport).some((m) => m.id === id)
 }
 
 /**

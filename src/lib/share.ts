@@ -50,3 +50,33 @@ export function buildShareString(o: ShareOptions): string {
     SITE_URL,
   ].join('\n')
 }
+
+export interface FbShareOptions {
+  schoolName: string
+  dateKey: string
+  wins: number
+  games: number
+  grade: string
+  /** Rating per roster slot, in slot order (null = unfilled). 12 for football. */
+  ratings: (number | null)[]
+  daily?: boolean
+  modeLabel?: string
+}
+
+/**
+ * Football share string. Same spoiler-free shape as the basketball builder, but
+ * the squares come from the 12-man roster (in slot order) rather than the five
+ * basketball positions, and the projected record is out of 16.
+ */
+export function buildFbShareString(o: FbShareOptions): string {
+  const squares = o.ratings.map(ratingSquare).join('')
+  const subtitle =
+    o.daily === false ? (o.modeLabel ?? 'Free play') : `Daily ${o.dateKey}`
+  return [
+    `🏈 YourSchoolAllStars — ${o.schoolName}`,
+    subtitle,
+    `Projected ${o.wins}–${o.games - o.wins} · ${o.grade}`,
+    squares,
+    SITE_URL,
+  ].join('\n')
+}

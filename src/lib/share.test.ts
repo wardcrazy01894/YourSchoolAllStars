@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { ratingSquare, buildShareString } from './share'
+import { ratingSquare, buildShareString, buildFbShareString } from './share'
 
 describe('ratingSquare', () => {
   it('maps rating tiers to squares', () => {
@@ -42,5 +42,40 @@ describe('buildShareString', () => {
     expect(out).toContain('Classic')
     expect(out).not.toContain('Daily')
     expect(out).not.toContain('2026-06-25') // free play isn't tied to a date
+  })
+})
+
+describe('buildFbShareString', () => {
+  it('renders the 12-man roster as squares, record out of 16, no names', () => {
+    const out = buildFbShareString({
+      schoolName: 'Michigan',
+      dateKey: '2026-06-25',
+      wins: 13,
+      games: 16,
+      grade: 'ELITE',
+      ratings: [95, 80, 65, 40, null, 95, 80, 80, 65, 65, 40, null],
+    })
+    expect(out).toContain('🏈')
+    expect(out).toContain('Michigan')
+    expect(out).toContain('Daily 2026-06-25')
+    expect(out).toContain('13–3 · ELITE')
+    expect(out).toContain('🟩🟦🟨🟥⬛🟩🟦🟦🟨🟨🟥⬛')
+    expect(out).not.toMatch(/[A-Z][a-z]+ [A-Z][a-z]+/)
+  })
+
+  it('free-play football shares are labelled by mode, never "Daily"', () => {
+    const out = buildFbShareString({
+      schoolName: 'Michigan',
+      dateKey: '2026-06-25',
+      wins: 10,
+      games: 16,
+      grade: 'SOLID',
+      ratings: [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80],
+      daily: false,
+      modeLabel: 'Classic',
+    })
+    expect(out).toContain('Classic')
+    expect(out).not.toContain('Daily')
+    expect(out).not.toContain('2026-06-25')
   })
 })

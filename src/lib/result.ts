@@ -119,8 +119,9 @@ export function savedDailyFrom(
 ): SavedDaily {
   const { wins, grade } = evaluateRoster(state, games, power5)
   const winByPos = windowByPosition(state.picks)
-  const playerIds: Partial<Record<BballPosition, string>> = {}
-  const windows: Partial<Record<BballPosition, YearWindow>> = {}
+  // Keyed by slot string (BballPosition ids) — the sport-agnostic SavedDaily shape.
+  const playerIds: Record<string, string> = {}
+  const windows: Record<string, YearWindow> = {}
   for (const pos of BBALL_POSITIONS) {
     const p = state.slots[pos]
     if (!p) continue

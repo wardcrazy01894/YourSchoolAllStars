@@ -22,9 +22,9 @@ const school = (over: Partial<School>): School => ({
 })
 
 describe('sports registry', () => {
-  it('has basketball available and football scaffolded (not yet playable)', () => {
+  it('has both basketball and football playable', () => {
     expect(getSport('basketball').available).toBe(true)
-    expect(getSport('football').available).toBe(false)
+    expect(getSport('football').available).toBe(true)
   })
 
   it('defaults to basketball for an unknown / missing id', () => {

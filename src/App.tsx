@@ -1,12 +1,22 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
-import { BBALL_POSITIONS, windowLabel, eligiblePositions } from './types'
+import {
+  BBALL_POSITIONS,
+  windowLabel,
+  eligiblePositions,
+  FB_SLOTS,
+  FB_OFF_POSITIONS,
+  FB_DEF_POSITIONS,
+} from './types'
 import type {
   BballPlayer,
   BballPosition,
   BballSeason,
   BballStats,
   YearWindow,
+  FbPlayer,
+  FbPosition,
+  FbStats,
 } from './types'
 import {
   getSchool,
@@ -56,13 +66,34 @@ import {
   type Streak,
   type SavedDaily,
 } from './lib/progress'
-import { buildShareString } from './lib/share'
+import { buildShareString, buildFbShareString } from './lib/share'
 import { buildReelPlan } from './lib/reel'
+import {
+  initFbDraft,
+  draftToSlot as fbDraftToSlot,
+  currentSide as fbCurrentSide,
+  currentFbWindow,
+  isFbComplete,
+  isPickable as fbIsPickable,
+  eligibleOpenSlots as fbEligibleOpenSlots,
+  playersThisEra as fbPlayersThisEra,
+  canRespin as fbCanRespin,
+  respin as fbRespin,
+  type FbDraftState,
+} from './lib/football-game'
+import { FB_DRAFT_ROUNDS, FB_RESPINS_PER_SIDE } from './lib/football'
+import { fbPlayerRating, FB_GAMES } from './lib/football-rating'
+import {
+  fbEvaluate,
+  fbSavedDailyFrom,
+  fbRosterFromSaved,
+} from './lib/football-result'
 import { setupAutoUpdate } from './lib/version'
 import {
-  MODES,
   getMode,
   isGameMode,
+  modesForSport,
+  sportOffersMode,
   randomSeed,
   type GameMode,
   type ModeConfig,
@@ -172,8 +203,9 @@ export default function App() {
     setSchoolId(null)
   }
 
-  // Flow: school → sport → mode → game. Football routes to a "coming soon"
-  // screen until its data + engine land (#7) — never a half-built draft.
+  // Flow: school → sport → mode → game. A sport that isn't `available` yet routes
+  // to a "coming soon" screen rather than a half-built draft; both basketball and
+  // football are live, so today that screen only shows for a future sport.
   if (!schoolId) return <Picker onPick={chooseSchool} />
   if (!sportId)
     return (
@@ -193,7 +225,12 @@ export default function App() {
         onSwitchSchool={switchSchool}
       />
     )
-  if (!modeId)
+  // Fall through to the menu when there's no mode OR the mode isn't one THIS sport
+  // offers. `isGameMode` (in initialModeId) only validates that a `?mode=` param is
+  // some real mode — not that the chosen sport offers it — so a cross-sport URL like
+  // ?sport=basketball&mode=gridiron-iq would otherwise skip the menu and mislabel
+  // the header + share with the other sport's mode. `sportOffersMode` is the gate.
+  if (!modeId || !sportOffersMode(sport.id, modeId))
     return (
       <ModeMenu
         school={school}
@@ -206,9 +243,23 @@ export default function App() {
   // key=school:sport:mode makes the remount explicit: Game's useState
   // initializers (seed/phase/state/streak) all derive from the chosen sport +
   // mode + loaded save, so any of those changing must start a fresh Game.
+  // Football has its own parallel game component (12-man, two-phase draft, record
+  // out of 16) so the live basketball flow stays untouched.
+  const gameKey = `${school.id}:${sport.id}:${modeId}`
+  if (sport.id === 'football')
+    return (
+      <FbGame
+        key={gameKey}
+        school={school}
+        sport={sport}
+        mode={getMode(modeId)}
+        onExitToModes={() => setModeId(null)}
+        onSwitchSchool={switchSchool}
+      />
+    )
   return (
     <Game
-      key={`${school.id}:${sport.id}:${modeId}`}
+      key={gameKey}
       school={school}
       sport={sport}
       mode={getMode(modeId)}
@@ -401,6 +452,9 @@ function ModeMenu({
   // The daily streak lives per school+sport; surface it here so returning players
   // see it before they pick a mode (only the daily can advance it).
   const [dailyStreak] = useState(() => loadStreak(school.id, sport.id))
+  // Daily + Classic are universal; the stats-hidden IQ mode is sport-flavoured —
+  // basketball shows Hoops IQ, football shows Gridiron IQ (never the other's).
+  const modes = modesForSport(sport.id)
   return (
     <div className="app">
       <header className="topbar">
@@ -430,7 +484,7 @@ function ModeMenu({
         <StreakChips streak={dailyStreak} />
       </section>
       <div className="mode-menu">
-        {MODES.map((m) => (
+        {modes.map((m) => (
           <button key={m.id} className="mode-card" onClick={() => onPick(m.id)}>
             <span className="mode-emoji">{m.emoji}</span>
             <span className="mode-name">{m.name}</span>
@@ -1158,6 +1212,761 @@ function Results({
         {mode.daily
           ? 'New challenge at midnight ET. Come back tomorrow.'
           : `Free play — spin up another ${mode.name} team any time.`}
+      </p>
+    </section>
+  )
+}
+
+// ── Football ─────────────────────────────────────────────────────────────────
+// A parallel game flow for the 12-man, two-phase football draft. It mirrors the
+// basketball Game/Playing/Results trio but on FbDraftState (offense first, then
+// defense; one re-spin per side; record out of 16). Kept separate so the live
+// basketball path is untouched — the engine pieces it shares (rolling windows,
+// daily spins, reel plan, streak/daily persistence) are already sport-agnostic.
+
+type FbStatKey = keyof FbStats
+/**
+ * Per-position stat columns. Football's box score is heterogeneous (a QB's
+ * passing yards and a corner's interceptions are different scales), so each
+ * position shows only its relevant columns — and since the pool is grouped by
+ * position, every row in a group shares them. All values are SEASON TOTALS.
+ */
+const FB_STAT_COLS: Record<FbPosition, { key: FbStatKey; label: string }[]> = {
+  QB: [
+    { key: 'passYds', label: 'PYDS' },
+    { key: 'passTD', label: 'PTD' },
+    { key: 'passInt', label: 'INT' },
+    { key: 'rushYds', label: 'RYDS' },
+  ],
+  RB: [
+    { key: 'rushYds', label: 'RYDS' },
+    { key: 'rushTD', label: 'RTD' },
+    { key: 'rec', label: 'REC' },
+    { key: 'recYds', label: 'RcYD' },
+  ],
+  WR: [
+    { key: 'rec', label: 'REC' },
+    { key: 'recYds', label: 'YDS' },
+    { key: 'recTD', label: 'TD' },
+  ],
+  TE: [
+    { key: 'rec', label: 'REC' },
+    { key: 'recYds', label: 'YDS' },
+    { key: 'recTD', label: 'TD' },
+  ],
+  DE: [
+    { key: 'sacks', label: 'SK' },
+    { key: 'tfl', label: 'TFL' },
+    { key: 'tackles', label: 'TKL' },
+    { key: 'ff', label: 'FF' },
+  ],
+  DT: [
+    { key: 'sacks', label: 'SK' },
+    { key: 'tfl', label: 'TFL' },
+    { key: 'tackles', label: 'TKL' },
+  ],
+  LB: [
+    { key: 'tackles', label: 'TKL' },
+    { key: 'tfl', label: 'TFL' },
+    { key: 'sacks', label: 'SK' },
+    { key: 'defInt', label: 'INT' },
+  ],
+  CB: [
+    { key: 'defInt', label: 'INT' },
+    { key: 'pbu', label: 'PBU' },
+    { key: 'tackles', label: 'TKL' },
+  ],
+  S: [
+    { key: 'tackles', label: 'TKL' },
+    { key: 'defInt', label: 'INT' },
+    { key: 'pbu', label: 'PBU' },
+  ],
+}
+
+/** Football stat cell: a missing total shows as an em dash, not 0. */
+function fmtFbStat(stats: FbStats, key: FbStatKey): string {
+  const v = stats[key]
+  return v === undefined ? '—' : String(v)
+}
+
+/** Season chip from a football player's best season, e.g. "'18". */
+function fmtFbYear(p: FbPlayer): string {
+  return `'${String(p.bestSeason).slice(2)}`
+}
+
+/**
+ * A player's position stat line as one compact, readable string, e.g.
+ * "PYDS 2800 · PTD 24 · INT 8 · RYDS 210". Shown at Results for ALL football
+ * modes (mirroring basketball's Results stat columns) — NOT gated on hideStats.
+ * For Gridiron IQ this is where the draft-hidden line is finally revealed; for
+ * Daily/Classic it's the same end-of-game recap. Football's 12 heterogeneous stat
+ * sets don't fit one shared table, so each player carries its own inline summary.
+ */
+function fbStatSummary(p: FbPlayer): string {
+  return FB_STAT_COLS[p.position]
+    .map((c) => `${c.label} ${fmtFbStat(p.stats, c.key)}`)
+    .join(' · ')
+}
+
+function FbGame({
+  school,
+  sport,
+  mode,
+  onExitToModes,
+  onSwitchSchool,
+}: {
+  school: School
+  sport: SportConfig
+  mode: ModeConfig
+  onExitToModes: () => void
+  onSwitchSchool: () => void
+}) {
+  const players = useMemo(
+    () => school.football?.players ?? [],
+    [school.football],
+  )
+  // For football, `provisional` means the bundled stats are MOCK placeholders —
+  // good enough to test every screen + mode before real sourced data lands.
+  const provisional = school.football?.provisional ?? false
+
+  const dateKey = useMemo(activeDateKey, [])
+  const [gameSeed, setGameSeed] = useState<number>(() =>
+    mode.daily ? seedFor(dateKey, `${school.id}:${sport.id}`) : randomSeed(),
+  )
+  // Football's rolling wheel starts at 2005 (defensive box scores aren't reliable
+  // before then — see docs/DATA-SOURCING.md), 4-year eras up to the dataset's max.
+  const windows = useMemo(() => {
+    const maxYear = datasetMaxYear(players)
+    return maxYear === null ? [] : buildRollingWindows(2005, maxYear, 4)
+  }, [players])
+  // FB_DRAFT_ROUNDS windows: one per slot + the two per-side re-spins, so the
+  // sequence can never run dry even if both re-spins are used.
+  const spins = useMemo(
+    () => generateSpins(gameSeed, FB_DRAFT_ROUNDS, windows),
+    [gameSeed, windows],
+  )
+
+  const [savedToday] = useState(() =>
+    mode.daily ? loadDaily(school.id, sport.id, dateKey) : null,
+  )
+
+  const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
+    savedToday ? 'done' : 'landing',
+  )
+  const [state, setState] = useState<FbDraftState>(() =>
+    savedToday ? fbRosterFromSaved(savedToday, players) : initFbDraft(spins),
+  )
+  const [streak, setStreak] = useState<Streak>(() =>
+    loadStreak(school.id, sport.id),
+  )
+  const [result, setResult] = useState<SavedDaily | null>(savedToday)
+  const returning = savedToday !== null
+
+  function start() {
+    if (spins.length === 0) return
+    setState(initFbDraft(spins))
+    setPhase('playing')
+  }
+
+  function advance(next: FbDraftState) {
+    setState(next)
+    if (isFbComplete(next)) finish(next)
+  }
+
+  function finish(s: FbDraftState) {
+    setPhase('done')
+    const saved = fbSavedDailyFrom(s, dateKey, school.power5)
+    setResult(saved)
+    if (mode.daily) {
+      const updated = saveDailyResult(school.id, sport.id, saved, {
+        advanceStreak: dateKey === getDateKey(),
+      })
+      setStreak(updated)
+    }
+    if (
+      saved.grade === 'PERFECT' ||
+      saved.grade === 'HISTORIC' ||
+      saved.grade === 'ELITE'
+    ) {
+      confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
+    }
+  }
+
+  function playAgain() {
+    if (mode.daily) return
+    const next = randomSeed()
+    setGameSeed(next)
+    setResult(null)
+    setState(initFbDraft(generateSpins(next, FB_DRAFT_ROUNDS, windows)))
+    setPhase('playing')
+  }
+
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="ball">{sport.emoji}</span>
+          <div>
+            YourSchoolAllStars
+            <small>
+              {school.name} {sport.name} · {mode.name}
+              {provisional ? ' · mock data' : ''}
+            </small>
+          </div>
+        </div>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onExitToModes}>
+            ← Modes
+          </button>
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ School
+          </button>
+        </div>
+      </header>
+
+      {phase === 'landing' && (
+        <FbLanding
+          school={school}
+          mode={mode}
+          dateKey={dateKey}
+          playable={spins.length > 0}
+          provisional={provisional}
+          streak={streak}
+          onStart={start}
+        />
+      )}
+      {phase === 'playing' && (
+        <FbPlaying
+          players={players}
+          state={state}
+          wheel={windows}
+          hideStats={mode.hideStats}
+          power5={school.power5}
+          onAdvance={advance}
+        />
+      )}
+      {phase === 'done' && (
+        <FbResults
+          school={school}
+          mode={mode}
+          state={state}
+          dateKey={dateKey}
+          streak={streak}
+          saved={result}
+          returning={returning}
+          onPlayAgain={playAgain}
+        />
+      )}
+
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by{' '}
+        {school.name}. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
+function FbLanding({
+  school,
+  mode,
+  dateKey,
+  playable,
+  provisional,
+  streak,
+  onStart,
+}: {
+  school: School
+  mode: ModeConfig
+  dateKey: string
+  /** False when this school has no draftable football wheel (no data yet). */
+  playable: boolean
+  /** Mock/placeholder data — surfaced so playtesters know stats aren't real yet. */
+  provisional: boolean
+  streak: Streak
+  onStart: () => void
+}) {
+  return (
+    <section className="hero">
+      <span className="banner">
+        {mode.daily
+          ? `🗓️ Daily Challenge · ${dateKey}`
+          : `${mode.emoji} ${mode.name}`}
+      </span>
+      <h1>Build {school.name}'s all-time roster.</h1>
+      <p>
+        {mode.daily
+          ? 'Eras spin in a fixed order today — the same for everyone. '
+          : 'Eras spin fresh every game. '}
+        Draft 12 starters: six on offense (QB, RB, WR, TE, two FLEX), then six
+        on defense (DE, DT, LB, CB, S, FLEX). You get{' '}
+        <strong>one re-spin per side</strong>. How close to a perfect{' '}
+        <strong>16&ndash;0</strong> can you get?
+      </p>
+      {mode.hideStats && (
+        <p className="muted">
+          🧠 Gridiron IQ: stats, ratings, and award stars stay hidden while you
+          draft — go on names alone. Everything reveals at the end.
+        </p>
+      )}
+      {provisional && (
+        <p className="muted">
+          🧪 Mock data: this roster uses placeholder stats so the flow can be
+          tested end to end. Real, sourced numbers land once it plays right.
+        </p>
+      )}
+      {mode.daily && <StreakChips streak={streak} />}
+      {playable ? (
+        <button className="btn primary" onClick={onStart}>
+          {mode.daily ? "▶ Play Today's Challenge" : `▶ Play ${mode.name}`}
+        </button>
+      ) : (
+        <p className="muted">
+          No {school.name} football data yet — check back soon.
+        </p>
+      )}
+    </section>
+  )
+}
+
+function FbRosterRail({
+  slots,
+  targetable,
+  onPlace,
+  hideRating,
+  power5,
+}: {
+  slots: FbDraftState['slots']
+  /** Slot ids the selected player can be placed into (highlighted + tappable). */
+  targetable?: string[]
+  onPlace?: (slotId: string) => void
+  /** Gridiron IQ: suppress the numeric rating while drafting (shown at Results). */
+  hideRating?: boolean
+  /** Conference strength — false applies the non-power-5 rating haircut. */
+  power5: boolean
+}) {
+  const targets = new Set(targetable ?? [])
+  const sides: { side: 'offense' | 'defense'; label: string }[] = [
+    { side: 'offense', label: 'Offense' },
+    { side: 'defense', label: 'Defense' },
+  ]
+  return (
+    <>
+      {sides.map((grp) => (
+        <div className="fb-rail-group" key={grp.side}>
+          <div className="fb-rail-label">{grp.label}</div>
+          <div className="rail fb">
+            {FB_SLOTS.filter((slot) => slot.side === grp.side).map((slot) => {
+              const p = slots[slot.id]
+              const isTarget = targets.has(slot.id)
+              return (
+                <div
+                  key={slot.id}
+                  className={`slot ${p ? 'filled' : 'open'}${isTarget ? ' target' : ''}`}
+                  onClick={() => isTarget && onPlace?.(slot.id)}
+                  role={isTarget ? 'button' : undefined}
+                >
+                  <div className="pos">{slot.label}</div>
+                  {p ? (
+                    <>
+                      <div className="pname">{p.name}</div>
+                      {!hideRating && (
+                        <div className="prate">{fbPlayerRating(p, power5)}</div>
+                      )}
+                    </>
+                  ) : (
+                    <div className="pname muted">
+                      {isTarget ? 'tap to place' : '—'}
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      ))}
+    </>
+  )
+}
+
+function FbPlaying({
+  players,
+  state,
+  wheel,
+  hideStats,
+  power5,
+  onAdvance,
+}: {
+  players: FbPlayer[]
+  state: FbDraftState
+  /** The full rolling era wheel — the reel animation flashes labels from it. */
+  wheel: YearWindow[]
+  /** Gridiron IQ: hide the box-score + rating + award stars while drafting. */
+  hideStats: boolean
+  power5: boolean
+  onAdvance: (s: FbDraftState) => void
+}) {
+  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [reveal, setReveal] = useState(false)
+  const [spinning, setSpinning] = useState(false)
+  const [rolling, setRolling] = useState(false)
+  const timeoutRef = useRef<number | undefined>(undefined)
+  const rafRef = useRef<number | undefined>(undefined)
+  const reduced = usePrefersReducedMotion()
+  const w = currentFbWindow(state)
+  const side = fbCurrentSide(state)
+  const era = fbPlayersThisEra(state, players)
+  const selected = selectedId
+    ? (era.find((p) => p.id === selectedId) ?? null)
+    : null
+  const targetSlotIds = selected
+    ? fbEligibleOpenSlots(state, selected).map((s) => s.id)
+    : []
+  const canRespin = fbCanRespin(state)
+  const respinsLeft = FB_RESPINS_PER_SIDE - state.respinsUsed[side]
+
+  const targetYear = w?.start ?? null
+  const plan = useMemo(
+    () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
+    [wheel, targetYear],
+  )
+
+  // The current side's positions, in roster order. `era` is already side-filtered
+  // by the engine, so grouping by these covers exactly the draftable pool.
+  const sidePositions = side === 'offense' ? FB_OFF_POSITIONS : FB_DEF_POSITIONS
+  // A position is "covered" when no OPEN slot on this side still accepts it (its
+  // dedicated slot and every eligible FLEX are filled) — drives the covered tag.
+  const openAcceptsPos = (pos: FbPosition) =>
+    FB_SLOTS.some(
+      (slot) =>
+        slot.side === side &&
+        state.slots[slot.id] === null &&
+        slot.accepts.includes(pos),
+    )
+  const groups = sidePositions
+    .map((pos) => ({
+      pos,
+      // Rating is window-independent for football (one stat line per player), so
+      // normally sort best-first by rating. In Gridiron IQ that would leak the
+      // hidden ranking, so sort by name instead — the order reveals nothing.
+      players: era
+        .filter((p) => p.position === pos)
+        .sort((a, b) =>
+          hideStats
+            ? a.name.localeCompare(b.name)
+            : fbPlayerRating(b, power5) - fbPlayerRating(a, power5),
+        ),
+    }))
+    .filter((g) => g.players.length > 0)
+
+  function place(slotId: string) {
+    if (!selected) return
+    onAdvance(fbDraftToSlot(state, selected, slotId))
+    setSelectedId(null)
+  }
+
+  function selectPlayer(p: FbPlayer) {
+    if (!fbIsPickable(state, p)) return
+    const slots = fbEligibleOpenSlots(state, p)
+    if (slots.length === 1) {
+      onAdvance(fbDraftToSlot(state, p, slots[0].id))
+      setSelectedId(null)
+    } else {
+      setSelectedId(p.id) // multi-slot (FLEX): let them choose in the rail
+    }
+  }
+
+  useLayoutEffect(() => {
+    setReveal(false)
+    setSpinning(false)
+    setRolling(false)
+    setSelectedId(null)
+    return () => {
+      window.clearTimeout(timeoutRef.current)
+      if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
+    }
+  }, [state.cursor])
+
+  function spin() {
+    if (!w || spinning || reveal || !plan) return
+    if (import.meta.env.DEV && !plan.found) {
+      console.warn(`spin: target year ${targetYear} not on the wheel`)
+    }
+    if (reduced) {
+      setReveal(true)
+      return
+    }
+    setSpinning(true)
+    setRolling(false)
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = requestAnimationFrame(() => setRolling(true))
+    })
+    timeoutRef.current = window.setTimeout(() => {
+      setSpinning(false)
+      setReveal(true)
+    }, SPIN_MS)
+  }
+
+  return (
+    <section>
+      <FbRosterRail
+        slots={state.slots}
+        targetable={targetSlotIds}
+        onPlace={place}
+        hideRating={hideStats}
+        power5={power5}
+      />
+
+      {!reveal ? (
+        <div className="spinbar">
+          <div className="wheel" aria-hidden="true">
+            {rolling && <div className="wheel-band" />}
+            <div
+              className="wheel-col"
+              style={{
+                transform: `translateY(calc(var(--reel-cell) * ${
+                  rolling && plan ? -plan.offset : 0
+                }))`,
+                transition: rolling
+                  ? `transform ${SPIN_MS - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
+                  : 'none',
+              }}
+            >
+              {(plan?.cells ?? []).map((y, i) => (
+                <div className="wheel-cell" key={i}>
+                  {y}
+                </div>
+              ))}
+            </div>
+          </div>
+          <button
+            className="btn primary"
+            disabled={spinning || !w}
+            onClick={spin}
+          >
+            {spinning
+              ? 'Spinning…'
+              : `🎰 Spin era ${Math.min(state.cursor + 1, state.windows.length)} / ${state.windows.length}`}
+          </button>
+        </div>
+      ) : (
+        <>
+          <div className="roundbar">
+            <div className="era">
+              {w ? windowLabel(w) : ''}
+              <small>
+                {side === 'offense' ? 'Offense' : 'Defense'} · Era{' '}
+                {Math.min(state.cursor + 1, state.windows.length)} /{' '}
+                {state.windows.length}
+              </small>
+            </div>
+            <button
+              className="btn"
+              disabled={!canRespin}
+              onClick={() => {
+                setSelectedId(null)
+                onAdvance(fbRespin(state))
+              }}
+              title={
+                canRespin
+                  ? 'Re-spin this era (advance to the next without drafting)'
+                  : 'No re-spins left on this side'
+              }
+            >
+              🔄 Re-spin {side === 'offense' ? 'O' : 'D'} ({respinsLeft})
+            </button>
+          </div>
+
+          {selected && (
+            <div className="select-hint">
+              Placing <strong>{selected.name}</strong> — tap a highlighted slot
+              above.{' '}
+              <button className="linkbtn" onClick={() => setSelectedId(null)}>
+                cancel
+              </button>
+            </div>
+          )}
+
+          {groups.map((g) => {
+            const cols = FB_STAT_COLS[g.pos]
+            const covered = !openAcceptsPos(g.pos)
+            return (
+              <div className="pos-group" key={g.pos}>
+                <div className="pos-group-head">
+                  <span className="pos-chip">{g.pos}</span>
+                  {covered && (
+                    <span className="filled-tag">{g.pos} covered</span>
+                  )}
+                </div>
+                <table className="pool">
+                  <thead>
+                    <tr>
+                      <th className="name">Player</th>
+                      {/* Gridiron IQ hides the box-score columns while drafting. */}
+                      {!hideStats && <th>YR</th>}
+                      {!hideStats &&
+                        cols.map((c) => <th key={c.key}>{c.label}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {g.players.map((p) => {
+                      const pickable = fbIsPickable(state, p)
+                      return (
+                        <tr
+                          key={p.id}
+                          className={`player${pickable ? '' : ' locked'}${selectedId === p.id ? ' selected' : ''}`}
+                          onClick={() => selectPlayer(p)}
+                        >
+                          <td className="name">
+                            {p.name}
+                            {/* Hide the ★ in Gridiron IQ: it's a strong "good
+                                player" tell, and the honor strings embed the year
+                                (leaking the hidden season via the tooltip). */}
+                            {!hideStats && p.honors.length > 0 && (
+                              <span
+                                className="honor"
+                                title={p.honors.join(', ')}
+                              >
+                                ★
+                              </span>
+                            )}
+                          </td>
+                          {!hideStats && <td className="yr">{fmtFbYear(p)}</td>}
+                          {!hideStats &&
+                            cols.map((c) => (
+                              <td key={c.key}>{fmtFbStat(p.stats, c.key)}</td>
+                            ))}
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            )
+          })}
+        </>
+      )}
+    </section>
+  )
+}
+
+function FbResults({
+  school,
+  mode,
+  state,
+  dateKey,
+  streak,
+  saved,
+  returning,
+  onPlayAgain,
+}: {
+  school: School
+  mode: ModeConfig
+  state: FbDraftState
+  dateKey: string
+  streak: Streak
+  /** The persisted result for this day; its EARNED wins/grade win over a re-rate. */
+  saved: SavedDaily | null
+  returning: boolean
+  onPlayAgain: () => void
+}) {
+  // Live re-rate drives the per-row RTG + team strength; the headline record +
+  // share use the EARNED wins/grade from the save when present (a stats fix
+  // between play and replay must never rewrite what you scored).
+  const live = fbEvaluate(state, school.power5)
+  const strength = Math.round(live.strength)
+  const wins = saved?.wins ?? live.wins
+  const grade = saved?.grade ?? live.grade
+  const ratings = FB_SLOTS.map((slot) => live.ratingBySlot[slot.id] ?? null)
+
+  const share = buildFbShareString({
+    schoolName: school.short,
+    dateKey,
+    wins,
+    games: FB_GAMES,
+    grade,
+    ratings,
+    daily: mode.daily,
+    modeLabel: mode.name,
+  })
+
+  const [copied, setCopied] = useState(false)
+  function copyShare() {
+    navigator.clipboard?.writeText(share).then(
+      () => {
+        setCopied(true)
+        setTimeout(() => setCopied(false), 1600)
+      },
+      () => {},
+    )
+  }
+
+  return (
+    <section>
+      {returning && (
+        <div className="lock-note">
+          ✓ Today's challenge is in the books. Come back tomorrow for a new one.
+        </div>
+      )}
+      <div className="record">
+        <div className="big">
+          {wins}&ndash;{FB_GAMES - wins}
+        </div>
+        <div className="grade">{grade}</div>
+        <p className="muted">Team strength {strength} / 100</p>
+        {mode.daily && <StreakChips streak={streak} />}
+      </div>
+
+      <FbRosterRail slots={state.slots} power5={school.power5} />
+
+      <div className="card" style={{ marginTop: 16 }}>
+        <table className="pool">
+          <thead>
+            <tr>
+              <th className="name">Your roster</th>
+              <th>POS</th>
+              <th>YR</th>
+              <th>RTG</th>
+            </tr>
+          </thead>
+          <tbody>
+            {FB_SLOTS.map((slot) => {
+              const p = state.slots[slot.id]
+              return (
+                <tr key={slot.id}>
+                  <td className="name">
+                    <span className="pos-chip">{slot.label}</span>
+                    {p ? p.name : <span className="muted">(empty)</span>}
+                    {p && (
+                      <div className="fb-statline muted">
+                        {fbStatSummary(p)}
+                      </div>
+                    )}
+                  </td>
+                  <td>{p ? p.position : '—'}</td>
+                  <td className="yr">{p ? fmtFbYear(p) : '—'}</td>
+                  <td>{p ? fbPlayerRating(p, school.power5) : '—'}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <pre className="share-pre">{share}</pre>
+      <div className="row">
+        <button className="btn primary" onClick={copyShare}>
+          {copied ? '✓ Copied' : '📋 Copy result'}
+        </button>
+        {!mode.daily && (
+          <button className="btn" onClick={onPlayAgain}>
+            🔄 Play again
+          </button>
+        )}
+      </div>
+      <p className="center muted" style={{ marginTop: 14 }}>
+        {mode.daily
+          ? 'New challenge at midnight ET. Come back tomorrow.'
+          : `Free play — spin up another ${mode.name} roster any time.`}
       </p>
     </section>
   )

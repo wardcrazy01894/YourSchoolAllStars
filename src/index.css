@@ -236,6 +236,29 @@ body {
   margin-top: 4px;
 }
 
+/* Football roster rail: 12 slots split into offense + defense groups, each a
+   6-wide grid (the basketball rail is a single 5-wide row). */
+.fb-rail-group {
+  margin: 12px 0;
+}
+.fb-rail-label {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.rail.fb {
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0;
+}
+@media (max-width: 520px) {
+  .rail.fb {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* ── Round header ────────────────────────────────────────────────────────── */
 .roundbar {
   display: flex;
@@ -317,6 +340,14 @@ body {
 .honor {
   color: var(--accent);
   margin-left: 6px;
+}
+/* Football player's stat line under their name in the Results roster table.
+   Shown for every mode (like basketball's Results stat columns); for Gridiron IQ
+   it doubles as the end-of-game reveal of the line hidden during the draft. */
+.fb-statline {
+  margin-top: 3px;
+  font-size: 11px;
+  line-height: 1.3;
 }
 
 .empty-pool {
