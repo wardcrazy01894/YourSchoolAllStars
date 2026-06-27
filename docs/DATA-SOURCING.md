@@ -57,6 +57,20 @@ core-API** pair above instead. ESPN's roster gives only G/F/C + height; assign
 PG/SG/SF/PF/C from height + role and use honest `eligible[]` for combo players.
 Cite each row's `source` as the player's ESPN page (`/player/_/id/<ATHLETEID>`).
 
+**Honors are NOT in ESPN (Alex, 2026-06-27).** ESPN's API exposes stats only —
+there is no awards/accolades endpoint or field (the athlete record carries none).
+So **honors are always a separate enrichment pass, no matter where the stat line
+came from**: pull All-Conference / All-American / Player-of-the-Year / conference
+ROY/FOY selections from **Sports-Reference player pages** (their "Awards" block,
+the most structured source) or **Wikipedia** (player-page infobox + the per-year
+"YYYY–YY <Conference> men's basketball season" All-Conference team pages and the
+"YYYY Consensus All-American" pages). Store them on the **season row whose `year`
+they were earned in**, formatted like Michigan's rows ("First-Team All-ACC
+(2013)", "ACC Player of the Year (2013)", "Consensus Second-Team All-American
+(2013)"). Honors feed the rating bonus (+9–12), so an omitted All-ACC selection
+silently under-rates a real star — treat a missing honor as a sourcing gap to
+fill, the same as a missing stat.
+
 ### Sports-Reference — what we may and may not do
 
 `sports-reference.com` (/cbb, /cfb) has clean per-player lines back through the
