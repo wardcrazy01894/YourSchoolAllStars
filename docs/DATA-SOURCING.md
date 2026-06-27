@@ -28,6 +28,35 @@ through only when it doesn't:
    team page (`/team/stats/_/id/130/...`) re-points to the newest season each
    year and rots the provenance of older rows.
 
+### ESPN-first for recent seasons (Alex, 2026-06-27)
+
+For **recent seasons, prefer ESPN's keyless API** — it's structured, fast, and
+**not rate-limited** (unlike Sports-Reference, which bot-blocks and 429s on
+bursts). Use the higher-quality official-archive sources where they're clean, but
+when curating the **modern era reach for ESPN first**; fall back to **Wikipedia /
+Sports-Reference only once a season is too old for ESPN to serve** (ESPN's
+per-athlete season stats thin out / drop off for older years — exactly where SR
+and Wikipedia season pages are strongest). This is the standing workflow for every
+school, not a VT one-off. The two endpoints that worked (VT = team id `259`):
+
+```
+# Roster for a season (id + position + height per player), keyless:
+https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/<TEAMID>/roster?season=<YEAR>
+
+# Per-athlete SEASON AVERAGES (the compiled per-game line we store), keyless:
+https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/<YEAR>/types/2/athletes/<ATHLETEID>/statistics
+#   → splits.categories[].stats[] with names: avgPoints, avgRebounds, avgAssists,
+#     avgSteals, avgBlocks, gamesPlayed. `value` is the float; round to 1 dp.
+#   types/2 = regular season; <YEAR> is the season-ENDING year (2025-26 → 2026).
+```
+
+Gotchas: the ESPN **web pages** (`espn.com/.../team/stats/...`) are bot-walled
+(HTTP 202, empty body) and the `statistics/byathlete?team=…` endpoint **ignores**
+the team filter (returns league-wide leaders) — use the **roster → per-athlete
+core-API** pair above instead. ESPN's roster gives only G/F/C + height; assign
+PG/SG/SF/PF/C from height + role and use honest `eligible[]` for combo players.
+Cite each row's `source` as the player's ESPN page (`/player/_/id/<ATHLETEID>`).
+
 ### Sports-Reference — what we may and may not do
 
 `sports-reference.com` (/cbb, /cfb) has clean per-player lines back through the

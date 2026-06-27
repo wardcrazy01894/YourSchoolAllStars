@@ -2,7 +2,7 @@
   "school": "Virginia Tech",
   "sport": "basketball",
   "_provisional": false,
-  "_note": "Curated from Sports-Reference per-season player tables (players_per_game). Each season row carries its SR season-page source. Medical-redshirt years declared via redshirtYears. See docs/DATA-SOURCING.md.",
+  "_note": "1994-2024 curated from Sports-Reference per-season player tables (players_per_game), each row citing its SR season page. 2025-26 (2024-25, 2025-26 seasons) sourced from ESPN's keyless API (site.api roster + sports.core.api per-athlete season averages), each row citing the player's ESPN page. Medical-redshirt years declared via redshirtYears. ESPN-first for recent seasons, SR/Wikipedia fallback for older ones — see docs/DATA-SOURCING.md.",
   "players": [
     {
       "id": "damon-watlington",
@@ -1784,7 +1784,7 @@
       "name": "MJ Collins",
       "position": "SG",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "eligible": ["PG", "SG"],
       "seasons": [
         {
@@ -1810,6 +1810,18 @@
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 7.7,
+            "reb": 2.4,
+            "ast": 0.5,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5105401"
         }
       ]
     },
@@ -2446,7 +2458,7 @@
       "name": "John Camden",
       "position": "SF",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "eligible": ["SF", "PF"],
       "seasons": [
         {
@@ -2472,6 +2484,18 @@
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 16.8,
+            "reb": 5.5,
+            "ast": 2.1,
+            "stl": 1.1,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4684155"
         }
       ]
     },
@@ -3953,6 +3977,328 @@
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cbb/schools/virginia-tech/men/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "ben-hammond",
+      "name": "Ben Hammond",
+      "position": "PG",
+      "eligible": ["PG"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 5.6,
+            "reb": 1.7,
+            "ast": 2.1,
+            "stl": 1.2,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4873105"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 13.2,
+            "reb": 2.3,
+            "ast": 3.2,
+            "stl": 2.0,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4873105"
+        }
+      ]
+    },
+    {
+      "id": "tyler-johnson-g",
+      "name": "Tyler Johnson",
+      "position": "SG",
+      "eligible": ["SG", "SF"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 6.7,
+            "reb": 4.8,
+            "ast": 1.0,
+            "stl": 0.8,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5165275"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 8.0,
+            "reb": 4.5,
+            "ast": 1.6,
+            "stl": 1.1,
+            "blk": 0.6
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5165275"
+        }
+      ]
+    },
+    {
+      "id": "jaden-schutt",
+      "name": "Jaden Schutt",
+      "position": "SG",
+      "eligible": ["SG"],
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 7.7,
+            "reb": 2.8,
+            "ast": 1.5,
+            "stl": 0.6,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4712846"
+        },
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 7.7,
+            "reb": 1.6,
+            "ast": 0.9,
+            "stl": 0.5,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4712846"
+        }
+      ]
+    },
+    {
+      "id": "jaydon-young",
+      "name": "Jaydon Young",
+      "position": "SG",
+      "eligible": ["SG", "SF"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 8.1,
+            "reb": 1.7,
+            "ast": 1.4,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4711266"
+        }
+      ]
+    },
+    {
+      "id": "brandon-rechsteiner",
+      "name": "Brandon Rechsteiner",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 7.0,
+            "reb": 1.0,
+            "ast": 2.8,
+            "stl": 0.6,
+            "blk": 0.0
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5103590"
+        }
+      ]
+    },
+    {
+      "id": "rodney-brown",
+      "name": "Rodney Brown Jr.",
+      "position": "SG",
+      "eligible": ["SG", "SF"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 4.1,
+            "reb": 2.1,
+            "ast": 1.8,
+            "stl": 0.2,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5037870"
+        }
+      ]
+    },
+    {
+      "id": "patrick-wessler",
+      "name": "Patrick Wessler",
+      "position": "C",
+      "eligible": ["PF", "C"],
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "pts": 3.9,
+            "reb": 2.9,
+            "ast": 0.2,
+            "stl": 0.2,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4838717"
+        }
+      ]
+    },
+    {
+      "id": "neoklis-avdalas",
+      "name": "Neoklis Avdalas",
+      "position": "SF",
+      "eligible": ["SG", "SF"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 12.1,
+            "reb": 3.1,
+            "ast": 4.6,
+            "stl": 0.6,
+            "blk": 0.5
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5311829"
+        }
+      ]
+    },
+    {
+      "id": "jailen-bedford",
+      "name": "Jailen Bedford",
+      "position": "SG",
+      "eligible": ["SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 11.3,
+            "reb": 3.3,
+            "ast": 1.3,
+            "stl": 0.5,
+            "blk": 0.1
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5177040"
+        }
+      ]
+    },
+    {
+      "id": "amani-hansberry",
+      "name": "Amani Hansberry",
+      "position": "PF",
+      "eligible": ["SF", "PF"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 14.3,
+            "reb": 7.4,
+            "ast": 2.4,
+            "stl": 1.5,
+            "blk": 0.7
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/4685673"
+        }
+      ]
+    },
+    {
+      "id": "christian-gurdak",
+      "name": "Christian Gurdak",
+      "position": "C",
+      "eligible": ["PF", "C"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 5.6,
+            "reb": 4.4,
+            "ast": 0.3,
+            "stl": 0.3,
+            "blk": 0.4
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5101850"
+        }
+      ]
+    },
+    {
+      "id": "antonio-dorn",
+      "name": "Antonio Dorn",
+      "position": "C",
+      "eligible": ["C"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 2.6,
+            "reb": 1.8,
+            "ast": 0.4,
+            "stl": 0.1,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5311831"
+        }
+      ]
+    },
+    {
+      "id": "izaiah-pasha",
+      "name": "Izaiah Pasha",
+      "position": "PG",
+      "eligible": ["PG", "SG"],
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "seasons": [
+        {
+          "year": 2026,
+          "stats": {
+            "pts": 2.0,
+            "reb": 0.8,
+            "ast": 0.7,
+            "stl": 0.3,
+            "blk": 0.2
+          },
+          "honors": [],
+          "source": "https://www.espn.com/mens-college-basketball/player/_/id/5239617"
         }
       ]
     }
