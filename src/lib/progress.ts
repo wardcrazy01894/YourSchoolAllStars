@@ -3,7 +3,7 @@
 // streaks are per-device, exactly like KnowYourCity. (A cross-player leaderboard
 // would be the only thing needing a server.)
 
-import type { BballPosition, YearWindow } from '../types'
+import type { YearWindow } from '../types'
 
 export interface Streak {
   current: number
@@ -38,20 +38,22 @@ export function nextStreak(prev: Streak, dateKey: string): Streak {
 
 /**
  * A completed daily, persisted so the day can't be replayed and reloads restore
- * it. NOTE: `playerIds` is keyed by `BballPosition` — when football lands its
- * positions differ, so this will need to generalize (a sport-tagged union or a
- * `Record<string, string>`) rather than be reused as-is.
+ * it. Sport-agnostic by key: `playerIds`/`windows` are keyed by a SLOT string —
+ * basketball uses its `BballPosition` ids (`PG`/`SG`/…), football uses its
+ * `FB_SLOTS` ids (`QB`/`FLEX1`/`DFLEX`/…). Each sport's (de)serializer owns the
+ * key vocabulary; this layer just stores opaque string→value maps so one daily
+ * lock + streak path serves both games.
  */
 export interface SavedDaily {
   dateKey: string
-  playerIds: Partial<Record<BballPosition, string>>
+  playerIds: Record<string, string>
   /**
    * The era each slot was drafted from, so a returning player's LOCKED result
    * re-rates on the same in-window season they earned (rating depends on the
    * window). Optional + sport-agnostic (just year ranges): a save missing it
    * still records the streak; the locked view just can't reconstruct the lineup.
    */
-  windows?: Partial<Record<BballPosition, YearWindow>>
+  windows?: Record<string, YearWindow>
   wins: number
   grade: string
 }

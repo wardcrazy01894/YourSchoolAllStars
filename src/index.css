@@ -236,6 +236,29 @@ body {
   margin-top: 4px;
 }
 
+/* Football roster rail: 12 slots split into offense + defense groups, each a
+   6-wide grid (the basketball rail is a single 5-wide row). */
+.fb-rail-group {
+  margin: 12px 0;
+}
+.fb-rail-label {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.rail.fb {
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0;
+}
+@media (max-width: 520px) {
+  .rail.fb {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* ── Round header ────────────────────────────────────────────────────────── */
 .roundbar {
   display: flex;

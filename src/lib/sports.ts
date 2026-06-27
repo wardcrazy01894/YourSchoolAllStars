@@ -2,10 +2,11 @@
 //
 // A school can field more than one sport. Each sport shares the school → sport →
 // mode → game flow, but the playable engine (positions, roster size, eras,
-// dataset) is sport-specific. Basketball is live; football is scaffolded here so
-// the picker is a REAL step now — its config exists and routes, but `available`
-// is false until the football dataset + engine land (#7). No fabricated data: an
-// unavailable sport opens a "coming soon" screen, never a half-built draft.
+// dataset) is sport-specific. Both basketball and football are live (#7); the
+// per-sport `available` flag stays so a future sport can be scaffolded behind a
+// "coming soon" screen rather than shipping a half-built draft. Whether a given
+// SCHOOL can actually play a live sport still depends on it carrying that
+// dataset — a data-less school degrades to the empty-wheel "no data yet" landing.
 //
 // Which sports a given SCHOOL offers is a separate question (a school may not
 // field football at all — see `School.hasFootball`); `sportsForSchool` combines
@@ -19,7 +20,8 @@ export interface SportConfig {
   id: SportId
   name: string // "Basketball"
   emoji: string // 🏀
-  /** Playable now? Basketball yes; football is scaffolding until #7 lands. */
+  /** Playable now? Both basketball and football are live; the flag remains so a
+   *  future sport can be scaffolded behind a "coming soon" screen. */
   available: boolean
   /** One-line tease for the sport card. */
   blurb: string
@@ -37,8 +39,8 @@ export const SPORTS: SportConfig[] = [
     id: 'football',
     name: 'Football',
     emoji: '🏈',
-    available: false,
-    blurb: 'Build an all-time roster across the eras. Coming soon.',
+    available: true,
+    blurb: 'Draft a 12-man roster across the eras and chase a perfect 16–0.',
   },
 ]
 
