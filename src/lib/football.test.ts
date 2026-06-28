@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
-  FB_WINDOWS,
+  FB_FIRST_YEAR,
+  fbWindows,
   FB_ROUNDS,
   FB_RESPINS_PER_SIDE,
   OFFENSE_SLOT_IDS,
@@ -43,12 +44,16 @@ describe('FB_SLOTS / windows', () => {
     expect(FB_SLOTS.filter((s) => s.side === 'defense')).toHaveLength(6)
   })
 
-  it('windows are 4-year blocks starting at 2005', () => {
-    expect(FB_WINDOWS[0]).toEqual({ start: 2005, end: 2008 })
-    expect(FB_WINDOWS[FB_WINDOWS.length - 1]).toEqual({
-      start: 2021,
-      end: 2024,
-    })
+  it('fbWindows is the rolling 4-year wheel from 2016 to the dataset max', () => {
+    // Same data-driven rolling scheme basketball uses: one era per starting year
+    // from FB_FIRST_YEAR (2016, the CFBD defensive-data floor) up to maxYear.
+    const wheel = fbWindows([{ lastYear: 2024 }])
+    expect(FB_FIRST_YEAR).toBe(2016)
+    expect(wheel[0]).toEqual({ start: 2016, end: 2019 })
+    expect(wheel[wheel.length - 1]).toEqual({ start: 2021, end: 2024 })
+    expect(wheel).toHaveLength(6)
+    // No data → no windows (a school without football).
+    expect(fbWindows([])).toEqual([])
   })
 
   it('playerInWindow honors tenure overlap', () => {

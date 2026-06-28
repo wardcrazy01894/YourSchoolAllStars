@@ -116,8 +116,9 @@ export function windowLabel(w: YearWindow): string {
 
 // ── Football ─────────────────────────────────────────────────────────────────
 // 16-0 style: a 12-man roster — 6 offense (QB/RB/WR/TE + 2 FLEX) and 6 defense
-// (DE/DT/LB/CB/S + 1 FLEX). Football data starts at 2005 (defensive box-score
-// stats — tackles/sacks — aren't reliable before then).
+// (DE/DT/LB/CB/S + 1 FLEX). Football data starts at 2016 — the CFBD API's
+// defensive box scores (tackles/sacks/TFL) only exist from then, and a window
+// needs both sides (see docs/DATA-SOURCING.md).
 
 export type FbOffPosition = 'QB' | 'RB' | 'WR' | 'TE'
 export type FbDefPosition = 'DE' | 'DT' | 'LB' | 'CB' | 'S'

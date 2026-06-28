@@ -3,15 +3,32 @@
 // The draft mirrors basketball but onto the 12-man roster (FB_SLOTS): each round
 // spins a window; you pick an eligible player and drop them into an OPEN slot
 // their position fits — a single-position slot (QB, DE, …) or a FLEX that
-// accepts several. Football data starts at 2005 (see docs/DATA-SOURCING.md).
+// accepts several. Football data starts at 2016 (see docs/DATA-SOURCING.md).
 
-import { buildWindows, tenureOverlaps } from './windows'
+import { buildRollingWindows, datasetMaxYear, tenureOverlaps } from './windows'
 import type { FbPlayer, RosterSlot, YearWindow } from '../types'
 import { FB_SLOTS } from '../types'
 
-/** 2005–2024 in 4-year blocks → 2005-08, 2009-12, 2013-16, 2017-20, 2021-24.
- *  (2025+ folds into the next block once enough seasons exist.) */
-export const FB_WINDOWS: YearWindow[] = buildWindows(2005, 2024, 4)
+/**
+ * First season on the football era wheel. CFBD's defensive box scores
+ * (tackles/sacks/TFL) only exist from 2016, and a window needs BOTH sides, so
+ * the rolling wheel starts here. See docs/DATA-SOURCING.md.
+ */
+export const FB_FIRST_YEAR = 2016
+
+/**
+ * The live football era wheel: rolling 4-year windows from {@link FB_FIRST_YEAR}
+ * to the dataset's most recent season — the SAME data-driven rolling scheme
+ * basketball uses (`buildRollingWindows` + `datasetMaxYear`), so the daily
+ * "pick a year, span 4" plays identically across sports. Empty for a school with
+ * no football data (no seasons → no windows).
+ */
+export function fbWindows(
+  players: ReadonlyArray<{ lastYear: number }>,
+): YearWindow[] {
+  const maxYear = datasetMaxYear(players)
+  return maxYear === null ? [] : buildRollingWindows(FB_FIRST_YEAR, maxYear, 4)
+}
 
 /** One draft round per roster slot. */
 export const FB_ROUNDS = FB_SLOTS.length

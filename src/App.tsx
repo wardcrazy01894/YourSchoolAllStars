@@ -81,7 +81,7 @@ import {
   respin as fbRespin,
   type FbDraftState,
 } from './lib/football-game'
-import { FB_DRAFT_ROUNDS, FB_RESPINS_PER_SIDE } from './lib/football'
+import { FB_DRAFT_ROUNDS, FB_RESPINS_PER_SIDE, fbWindows } from './lib/football'
 import { fbPlayerRating, FB_GAMES } from './lib/football-rating'
 import {
   fbEvaluate,
@@ -1333,12 +1333,10 @@ function FbGame({
   const [gameSeed, setGameSeed] = useState<number>(() =>
     mode.daily ? seedFor(dateKey, `${school.id}:${sport.id}`) : randomSeed(),
   )
-  // Football's rolling wheel starts at 2005 (defensive box scores aren't reliable
-  // before then — see docs/DATA-SOURCING.md), 4-year eras up to the dataset's max.
-  const windows = useMemo(() => {
-    const maxYear = datasetMaxYear(players)
-    return maxYear === null ? [] : buildRollingWindows(2005, maxYear, 4)
-  }, [players])
+  // Football's rolling wheel: 4-year eras from 2016 (the CFBD defensive-data
+  // floor — see docs/DATA-SOURCING.md) up to the dataset's max season. Same
+  // data-driven rolling scheme basketball uses.
+  const windows = useMemo(() => fbWindows(players), [players])
   // FB_DRAFT_ROUNDS windows: one per slot + the two per-side re-spins, so the
   // sequence can never run dry even if both re-spins are used.
   const spins = useMemo(

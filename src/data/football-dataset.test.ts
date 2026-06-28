@@ -5,7 +5,7 @@
 
 import { describe, it, expect } from 'vitest'
 import { michiganFootball } from './index'
-import { FB_WINDOWS, playerInWindow } from '../lib/football'
+import { fbWindows, playerInWindow } from '../lib/football'
 import { fbStatComposite } from '../lib/football-rating'
 import {
   FB_OFF_POSITIONS,
@@ -19,6 +19,9 @@ import type { FbPosition } from '../types'
 const { players, provisional } = michiganFootball
 const ALL_POSITIONS: FbPosition[] = [...FB_OFF_POSITIONS, ...FB_DEF_POSITIONS]
 const STAT_KEY_SET = new Set<string>(FB_STAT_KEYS)
+// The live era wheel the game actually spins (rolling 4-year eras from 2016 to
+// the dataset's max). The coverage guard below iterates exactly this set.
+const FB_WINDOWS = fbWindows(players)
 
 /** Every subset of `xs` (power set), used for the Hall's-condition coverage check. */
 function subsets<T>(xs: T[]): T[][] {
@@ -116,6 +119,18 @@ describe('michigan football dataset', () => {
     if (!provisional) return
     for (const p of players) {
       expect(p.source).toBe('PLACEHOLDER')
+    }
+  })
+
+  it('once real (not provisional), every source is a real citation', () => {
+    // The mirror of the provisional guard: once the curated data lands, NO row
+    // may still carry the PLACEHOLDER marker (a half-migrated dataset), and every
+    // source must be a real-looking URL — this is a stats game; an uncited number
+    // is a fabricated number (see docs/DATA-SOURCING.md).
+    if (provisional) return
+    for (const p of players) {
+      expect(p.source).not.toBe('PLACEHOLDER')
+      expect(p.source).toMatch(/^https?:\/\//)
     }
   })
 })
