@@ -2,8 +2,8 @@
 //
 // A "school" hosts two games — basketball and football — but only the data
 // differs; the engine (windows, daily spins, rating → projected record, draft
-// reducer) is sport-parameterized. v1 ships Michigan basketball; football
-// (2005+) and North Carolina are staged behind the same contracts.
+// reducer) is sport-parameterized. Multiple schools ship basketball, and
+// Michigan football (2016+) is live — all behind the same contracts.
 
 export type Sport = 'basketball' | 'football'
 
