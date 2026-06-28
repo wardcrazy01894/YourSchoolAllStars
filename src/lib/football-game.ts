@@ -181,15 +181,13 @@ export function draftToSlot(
  * current era, so the cap never strands you. Do NOT loosen the cap here to
  * compensate for a weaker dataset — fix the dataset guard instead.
  *
- * SCOPE CAVEAT: that per-window×side coverage is enforced only for the windows in
- * `FB_WINDOWS` (the five non-overlapping 2005–2024 blocks the dataset guard
- * iterates). The LIVE game spins the data-driven ROLLING wheel
- * (`buildRollingWindows(2005, …, 4)`), whose overlapping eras are NOT the same
- * set. In practice a rolling window is a 4-year span contained within the dataset's
- * range, so it's at least as rich as the block guard checks; but a synthetic or
- * out-of-range window is outside the guarantee. The count guard below still holds
- * unconditionally (it only reasons about how many windows REMAIN) — it's the
- * "a pickable player always exists" half that leans on the dataset invariant.
+ * SCOPE CAVEAT: that per-window×side coverage is enforced for exactly the rolling
+ * wheel the live game spins — `fbWindows(players)` = rolling 4-year eras from 2016
+ * to the dataset max — since the dataset guard iterates that same wheel. A
+ * synthetic or out-of-range window passed by hand is outside the guarantee. The
+ * count guard below still holds unconditionally (it only reasons about how many
+ * windows REMAIN) — it's the "a pickable player always exists" half that leans on
+ * the dataset invariant.
  */
 export function canRespin(s: FbDraftState): boolean {
   if (isFbComplete(s)) return false

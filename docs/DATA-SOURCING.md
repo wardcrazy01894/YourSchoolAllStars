@@ -152,7 +152,7 @@ Given both, the policy is:
 This loosens the earlier verify-only stance (Alex's call, 2026-06-26): accuracy
 **and** completeness — stop dropping real players over a sourcing technicality.
 
-(Football sources — Wikipedia, the CFBD API — are covered in the **Football**
+(Football sources — the CFBD API pipeline — are covered in the **Football**
 section below.)
 
 ## Schema (`src/data/michigan-basketball.json`)
@@ -324,24 +324,83 @@ AA was real). Operational details that bit us:
   name-normalizer must strip them to match roster names — and check for collisions
   after stripping.
 
-## Football (2005+) — MOCK seed live; curated data pending
+## Football (2016+) — LIVE on a scripted CFBD pipeline
 
-A **MOCK/provisional** `src/data/michigan-football.json` (135 players,
-`_provisional: true`) already exists and powers the playable football mode — it
-fleshes out the end-to-end flow ahead of curated data and is flagged provisional
-in the loader. The work below is to **replace that mock seed with curated, sourced
-data**. Schema = `FbPlayer`/`FbStats` (`src/types.ts`); best single season per
-unique player; positions QB/RB/WR/TE (offense) and DE/DT/LB/CB/S (defense).
+Football is **live** with real, sourced data: `src/data/michigan-football.json`
+(`_provisional: false`) is built from the **CFBD API** (collegefootballdata.com)
+via a **reusable, parameterized pipeline** plus one hand-curation pass. Schema =
+`FbPlayer`/`FbStats` (`src/types.ts`); one row per unique player carrying their
+**best single season** (totals); positions QB/RB/WR/TE (offense) and DE/DT/LB/CB/S
+(defense). The dataset guard (`src/data/football-dataset.test.ts`) enforces shape,
+unique ids, position-relevant non-zero stat lines, per-window Hall's-condition
+coverage, and — now that it's real — that every `source` is a real `http(s)` URL.
 
-- **Primary source = Wikipedia** (keyless, CC-BY-SA): player pages + "YYYY
-  Michigan Wolverines football team" season pages (statistical leaders). Two
-  curation passes are running — **offense** (pass/rush/rec) and **defense**
-  (tackles/TFL/sacks/INT/PBU/FF).
-- **Sports-Reference** (/cfb) — per the SR policy above: verify freely, and an
-  individual player page is an acceptable cited `source` for a long-tail player
-  when Wikipedia/mgoblue/CFBD lack a clean line. No bulk scraping or DB mirroring.
-- **CFBD API** (collegefootballdata.com) is an optional future enrichment for
-  fuller per-season completeness — it needs a free API key (email signup), so
-  it's not a launch dependency; Wikipedia carries the marquee players.
-- **2005 floor** is a hard data limit: defensive box-score stats (tackles/sacks)
-  aren't reliable before then anywhere. Football windows therefore start at 2005.
+### Why CFBD, and why 2016
+
+- **CFBD** (collegefootballdata.com) is a free, keyed JSON API with structured
+  per-season box scores. It beats hand-curating Wikipedia season pages: one script
+  pulls every player/stat for a span, so a new school is a flag change, not a
+  research project.
+- **2016 is a hard floor for Michigan.** CFBD's `defensive` category (tackles,
+  TFL, sacks, PD) only exists from **2016 onward** — verified at both the season
+  (`/stats/player/season`) and per-game (`/games/players`) endpoints; pre-2016
+  only has `interceptions`. A draftable defense needs that box score, and a window
+  needs both sides, so the era wheel starts at 2016. (Re-check this floor per
+  school — it may differ.)
+- **Rolling 4-year windows** from 2016 to the dataset's max year (same scheme as
+  basketball — see `fbWindows` in `src/lib/football.ts`), giving eras 2016–19 …
+  2021–24. Each window must independently fill all 12 slots per side (Hall's
+  condition), which the guard test verifies.
+
+### Step 1 — pull the raw draft (`scripts/fetch-football.mjs`)
+
+Reusable for any school. Reads the API key from the `CFBD_API_KEY` **environment
+variable only** — never a file (gitleaks secret-scan runs in CI):
+
+```bash
+export CFBD_API_KEY=…                       # free key from collegefootballdata.com
+node scripts/fetch-football.mjs --team Michigan --start 2016 --end 2024 \
+  --out scratchpad/mich-fb.json
+```
+
+It hits `/roster` and `/stats/player/season` per year, maps CFBD's long-form stat
+rows into `FbStats` keys (STAT_MAP), aggregates per player across years (keeping
+every season under `_seasons` so curation can re-pick after a position change),
+scores each season with a composite that **mirrors `src/lib/football-rating.ts`**
+(keep the two TERMS tables in sync), picks the best season, and writes a draft JSON
+plus a per-window coverage report.
+
+### Step 2 — curate (manual, the one non-scriptable part)
+
+CFBD's roster position codes are **coarse**: edge rushers and interior linemen are
+both `DL`, every defensive back is `DB`. The draft needs the fine positions
+DE/DT and CB/S, which **cannot come from CFBD** — they're hand-authored. The
+throwaway curation script (kept out of the repo, in `scratchpad/`) holds a
+**hand-verified name→position map** for the defenders and:
+
+- reassigns each defender to DE/DT/LB/CB/S (offense trusts CFBD's QB/RB/WR/TE),
+- re-picks the best season under the **final** position, keeping only that
+  position's relevant, **positive** stats (CFBD reports NET rushing, so a QB's
+  sack/kneel yards can go negative — the guard rejects negatives),
+- drops walk-ons below a small composite floor and any defender not in the map
+  (better to omit than ship a wrong position into a position-based draft),
+- verifies Hall's-condition coverage per rolling window **before** writing, and
+- stamps each row's `source` as the CFBD citation for its best season.
+
+### For a new school
+
+1. `node scripts/fetch-football.mjs --team <School> --start <floor> --end <year>`
+   — first confirm the school's own defensive-data floor (don't assume 2016).
+2. Build a name→position map for that school's defenders (DE/DT, CB/S) from a
+   reliable roster source; re-run the curation step.
+3. Set the loader's `_provisional: false` once the guard test is green.
+
+### Sources & honors
+
+- **`source` = CFBD** (`https://collegefootballdata.com/ — CFBD player season
+stats, <School> <year>`). **Sports-Reference** (/cfb) remains an acceptable
+  cited source to verify or to fill a long-tail line per the SR policy above — no
+  bulk scraping.
+- **Honors are intentionally deferred** (`honors: []`) pending a separate
+  award-page pass — never fabricate them (see the honors policy + memory note on
+  re-deriving from SR award pages).

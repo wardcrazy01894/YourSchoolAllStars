@@ -1,2243 +1,1922 @@
 {
   "school": "Michigan",
   "sport": "football",
-  "_provisional": true,
-  "_note": "MOCK DATA — every row is placeholder to flesh out the football game flow (#7). Stats and names are fabricated; sources are PLACEHOLDER. Replace with real, sourced data after the flow is verified.",
+  "_provisional": false,
+  "_note": "Real data. Stats are single-best-season totals from the CFBD API (collegefootballdata.com), pulled via scripts/fetch-football.mjs; DE/DT and CB/S splits hand-verified (CFBD roster only gives coarse DL/DB). Defensive box scores exist in CFBD from 2016 on, so the era wheel starts at 2016. honors[] is intentionally empty pending a separate award-page pass.",
   "players": [
     {
-      "id": "mock-qb-2005-star",
-      "name": "Avery Dorn",
-      "position": "QB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "passYds": 3220,
-        "passTD": 32,
-        "passInt": 7,
-        "rushYds": 640,
-        "rushTD": 9
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2005-role",
-      "name": "Bryce Knox",
-      "position": "QB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "passYds": 2170,
-        "passTD": 22,
-        "passInt": 10,
-        "rushYds": 430,
-        "rushTD": 6
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2005-depth",
-      "name": "Carter Stone",
-      "position": "QB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "passYds": 1190,
-        "passTD": 12,
-        "passInt": 13,
-        "rushYds": 240,
-        "rushTD": 3
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2005-star",
-      "name": "Dante Ellis",
+      "id": "de-veon-smith",
+      "name": "De'Veon Smith",
       "position": "RB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2016,
       "stats": {
-        "rushYds": 1380,
-        "rushTD": 17,
-        "rec": 32,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2005-role",
-      "name": "Elliot Lowe",
-      "position": "RB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "rushYds": 930,
-        "rushTD": 11,
-        "rec": 22,
-        "recYds": 250,
-        "recTD": 2
+        "rec": 16,
+        "recYds": 66,
+        "rushTD": 10,
+        "rushYds": 846
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-rb-2005-depth",
-      "name": "Foster Vance",
-      "position": "RB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "rushYds": 510,
-        "rushTD": 6,
-        "rec": 12,
-        "recYds": 140,
-        "recTD": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2005-star",
-      "name": "Grant Frost",
-      "position": "WR",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "rec": 64,
-        "recYds": 1010,
-        "recTD": 10
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2005-role",
-      "name": "Hayes Mraz",
-      "position": "WR",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "rec": 43,
-        "recYds": 680,
-        "recTD": 7
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2005-depth",
-      "name": "Isaiah Webb",
-      "position": "WR",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "rec": 24,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2005-star",
-      "name": "Jalen Gray",
+      "id": "jake-butt",
+      "name": "Jake Butt",
       "position": "TE",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
       "stats": {
-        "rec": 46,
-        "recYds": 600,
-        "recTD": 6
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2005-role",
-      "name": "Kade Nash",
-      "position": "TE",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "rec": 31,
-        "recYds": 400,
-        "recTD": 4
+        "rec": 51,
+        "recTD": 3,
+        "recYds": 654
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2015"
     },
     {
-      "id": "mock-te-2005-depth",
-      "name": "Logan Ash",
-      "position": "TE",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
+      "id": "jehu-chesson",
+      "name": "Jehu Chesson",
+      "position": "WR",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "bestSeason": 2015,
       "stats": {
-        "rec": 17,
-        "recYds": 220,
-        "recTD": 2
+        "rec": 50,
+        "recTD": 9,
+        "recYds": 764,
+        "rushYds": 155
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2015"
     },
     {
-      "id": "mock-de-2005-star",
-      "name": "Micah Hale",
-      "position": "DE",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
+      "id": "amara-darboh",
+      "name": "Amara Darboh",
+      "position": "WR",
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "bestSeason": 2016,
       "stats": {
-        "tackles": 51,
-        "tfl": 17,
-        "sacks": 10,
-        "ff": 4,
+        "rec": 57,
+        "recTD": 7,
+        "recYds": 862
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "jourdan-lewis",
+      "name": "Jourdan Lewis",
+      "position": "CB",
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "pbu": 9,
+        "tfl": 3.5,
+        "tackles": 27,
         "defInt": 2
       },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-de-2005-role",
-      "name": "Nolan Oaks",
-      "position": "DE",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
+      "id": "khalid-hill",
+      "name": "Khalid Hill",
+      "position": "RB",
+      "firstYear": 2014,
+      "lastYear": 2017,
+      "bestSeason": 2016,
       "stats": {
-        "tackles": 34,
-        "tfl": 11,
-        "sacks": 7,
-        "ff": 2,
+        "rec": 16,
+        "recTD": 3,
+        "recYds": 118,
+        "rushTD": 10,
+        "rushYds": 39
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "matthew-godin",
+      "name": "Matthew Godin",
+      "position": "DT",
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "sacks": 1,
+        "tfl": 3,
+        "tackles": 27
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "channing-stribling",
+      "name": "Channing Stribling",
+      "position": "CB",
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "pbu": 12,
+        "tfl": 3,
+        "tackles": 29,
+        "defInt": 4
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "grant-perry",
+      "name": "Grant Perry",
+      "position": "WR",
+      "firstYear": 2015,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "rec": 25,
+        "recTD": 1,
+        "recYds": 307
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "jabrill-peppers",
+      "name": "Jabrill Peppers",
+      "position": "LB",
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "pbu": 1,
+        "sacks": 4,
+        "tfl": 13.5,
+        "tackles": 72,
         "defInt": 1
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-de-2005-depth",
-      "name": "Owen Beck",
-      "position": "DE",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
+      "id": "karan-higdon",
+      "name": "Karan Higdon",
+      "position": "RB",
+      "firstYear": 2015,
+      "lastYear": 2018,
+      "bestSeason": 2018,
       "stats": {
-        "tackles": 19,
-        "tfl": 6,
-        "sacks": 4,
-        "ff": 1,
-        "defInt": 1
+        "rec": 7,
+        "recYds": 43,
+        "rushTD": 10,
+        "rushYds": 1180
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
     },
     {
-      "id": "mock-dt-2005-star",
-      "name": "Pierce Ivers",
-      "position": "DT",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 46,
-        "tfl": 12,
-        "sacks": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2005-role",
-      "name": "Quinn Pratt",
-      "position": "DT",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "tackles": 31,
-        "tfl": 8,
-        "sacks": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2005-depth",
-      "name": "Reece Cole",
-      "position": "DT",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 17,
-        "tfl": 4,
-        "sacks": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2005-star",
-      "name": "Silas Jett",
-      "position": "LB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 110,
-        "tfl": 14,
-        "sacks": 6,
-        "defInt": 3,
-        "pbu": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2005-role",
-      "name": "Tate Rhodes",
-      "position": "LB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "tackles": 74,
-        "tfl": 9,
-        "sacks": 4,
-        "defInt": 2,
-        "pbu": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2005-depth",
-      "name": "Avery Dorn",
-      "position": "LB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 41,
-        "tfl": 5,
-        "sacks": 2,
-        "defInt": 1,
-        "pbu": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2005-star",
-      "name": "Bryce Knox",
-      "position": "CB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 51,
-        "tfl": 4,
-        "defInt": 5,
-        "pbu": 13,
-        "ff": 2
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2005-role",
-      "name": "Carter Stone",
-      "position": "CB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "tackles": 34,
-        "tfl": 2,
-        "defInt": 3,
-        "pbu": 9,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2005-depth",
-      "name": "Dante Ellis",
-      "position": "CB",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 19,
-        "tfl": 1,
-        "defInt": 2,
-        "pbu": 5,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2005-star",
-      "name": "Elliot Lowe",
-      "position": "S",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 83,
-        "tfl": 6,
-        "defInt": 4,
-        "pbu": 8,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2006) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2005-role",
-      "name": "Foster Vance",
-      "position": "S",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2007,
-      "stats": {
-        "tackles": 56,
-        "tfl": 4,
-        "defInt": 2,
-        "pbu": 6,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2005-depth",
-      "name": "Grant Frost",
-      "position": "S",
-      "firstYear": 2005,
-      "lastYear": 2008,
-      "bestSeason": 2006,
-      "stats": {
-        "tackles": 31,
-        "tfl": 2,
-        "defInt": 1,
-        "pbu": 3,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2009-star",
-      "name": "Hayes Mraz",
+      "id": "wilton-speight",
+      "name": "Wilton Speight",
       "position": "QB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
+      "firstYear": 2015,
+      "lastYear": 2017,
+      "bestSeason": 2016,
       "stats": {
-        "passYds": 3220,
-        "passTD": 32,
         "passInt": 7,
-        "rushYds": 640,
-        "rushTD": 9
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2009-role",
-      "name": "Isaiah Webb",
-      "position": "QB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "passYds": 2170,
-        "passTD": 22,
-        "passInt": 10,
-        "rushYds": 430,
-        "rushTD": 6
+        "passTD": 18,
+        "passYds": 2538,
+        "rushTD": 1
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-qb-2009-depth",
-      "name": "Jalen Gray",
-      "position": "QB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
+      "id": "ben-gedeon",
+      "name": "Ben Gedeon",
+      "position": "LB",
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "bestSeason": 2016,
       "stats": {
-        "passYds": 1190,
-        "passTD": 12,
-        "passInt": 13,
-        "rushYds": 240,
-        "rushTD": 3
+        "pbu": 2,
+        "sacks": 4.5,
+        "tfl": 15,
+        "tackles": 94
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-rb-2009-star",
-      "name": "Kade Nash",
-      "position": "RB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
+      "id": "brandon-watson",
+      "name": "Brandon Watson",
+      "position": "CB",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2018,
       "stats": {
-        "rushYds": 1380,
-        "rushTD": 17,
-        "rec": 32,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2009-role",
-      "name": "Logan Ash",
-      "position": "RB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "rushYds": 930,
-        "rushTD": 11,
-        "rec": 22,
-        "recYds": 250,
-        "recTD": 2
+        "pbu": 5,
+        "tfl": 2.5,
+        "tackles": 34,
+        "defInt": 3
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
     },
     {
-      "id": "mock-rb-2009-depth",
-      "name": "Micah Hale",
-      "position": "RB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
+      "id": "bryan-mone",
+      "name": "Bryan Mone",
+      "position": "DT",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2018,
       "stats": {
-        "rushYds": 510,
-        "rushTD": 6,
-        "rec": 12,
-        "recYds": 140,
-        "recTD": 1
+        "sacks": 1,
+        "tfl": 2,
+        "tackles": 12
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
     },
     {
-      "id": "mock-wr-2009-star",
-      "name": "Nolan Oaks",
-      "position": "WR",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "rec": 64,
-        "recYds": 1010,
-        "recTD": 10
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2009-role",
-      "name": "Owen Beck",
-      "position": "WR",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "rec": 43,
-        "recYds": 680,
-        "recTD": 7
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2009-depth",
-      "name": "Pierce Ivers",
-      "position": "WR",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "rec": 24,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2009-star",
-      "name": "Quinn Pratt",
-      "position": "TE",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "rec": 46,
-        "recYds": 600,
-        "recTD": 6
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2009-role",
-      "name": "Reece Cole",
-      "position": "TE",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "rec": 31,
-        "recYds": 400,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2009-depth",
-      "name": "Silas Jett",
-      "position": "TE",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "rec": 17,
-        "recYds": 220,
-        "recTD": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-de-2009-star",
-      "name": "Tate Rhodes",
+      "id": "chase-winovich",
+      "name": "Chase Winovich",
       "position": "DE",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2017,
       "stats": {
-        "tackles": 51,
-        "tfl": 17,
-        "sacks": 10,
-        "ff": 4,
+        "sacks": 8.5,
+        "tfl": 20,
+        "tackles": 70
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "chris-evans",
+      "name": "Chris Evans",
+      "position": "RB",
+      "firstYear": 2016,
+      "lastYear": 2020,
+      "bestSeason": 2017,
+      "stats": {
+        "rec": 16,
+        "recTD": 1,
+        "recYds": 157,
+        "rushTD": 6,
+        "rushYds": 685
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "chris-wormley",
+      "name": "Chris Wormley",
+      "position": "DE",
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "sacks": 6,
+        "tfl": 8,
+        "tackles": 37
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "delano-hill",
+      "name": "Delano Hill",
+      "position": "S",
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "pbu": 3,
+        "tfl": 4.5,
+        "tackles": 50,
+        "defInt": 3
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "devin-bush",
+      "name": "Devin Bush",
+      "position": "LB",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "pbu": 8,
+        "sacks": 5,
+        "tfl": 9.5,
+        "tackles": 93,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "dymonte-thomas",
+      "name": "Dymonte Thomas",
+      "position": "S",
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "pbu": 9,
+        "tackles": 64,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "jordan-glasgow",
+      "name": "Jordan Glasgow",
+      "position": "LB",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2019,
+      "stats": {
+        "pbu": 1,
+        "sacks": 5,
+        "tfl": 7,
+        "tackles": 89
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "josh-metellus",
+      "name": "Josh Metellus",
+      "position": "S",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2019,
+      "stats": {
+        "pbu": 5,
+        "tfl": 4,
+        "tackles": 74,
         "defInt": 2
       },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
     },
     {
-      "id": "mock-de-2009-role",
-      "name": "Avery Dorn",
+      "id": "josh-uche",
+      "name": "Josh Uche",
       "position": "DE",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2019,
       "stats": {
-        "tackles": 34,
-        "tfl": 11,
-        "sacks": 7,
-        "ff": 2,
-        "defInt": 1
+        "sacks": 8.5,
+        "tfl": 11.5,
+        "tackles": 35
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
     },
     {
-      "id": "mock-de-2009-depth",
-      "name": "Bryce Knox",
-      "position": "DE",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 19,
-        "tfl": 6,
-        "sacks": 4,
-        "ff": 1,
-        "defInt": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2009-star",
-      "name": "Carter Stone",
-      "position": "DT",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 46,
-        "tfl": 12,
-        "sacks": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2009-role",
-      "name": "Dante Ellis",
-      "position": "DT",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "tackles": 31,
-        "tfl": 8,
-        "sacks": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2009-depth",
-      "name": "Elliot Lowe",
-      "position": "DT",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 17,
-        "tfl": 4,
-        "sacks": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2009-star",
-      "name": "Foster Vance",
-      "position": "LB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 110,
-        "tfl": 14,
-        "sacks": 6,
-        "defInt": 3,
-        "pbu": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2009-role",
-      "name": "Grant Frost",
-      "position": "LB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "tackles": 74,
-        "tfl": 9,
-        "sacks": 4,
-        "defInt": 2,
-        "pbu": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2009-depth",
-      "name": "Hayes Mraz",
-      "position": "LB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 41,
-        "tfl": 5,
-        "sacks": 2,
-        "defInt": 1,
-        "pbu": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2009-star",
-      "name": "Isaiah Webb",
-      "position": "CB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 51,
-        "tfl": 4,
-        "defInt": 5,
-        "pbu": 13,
-        "ff": 2
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2009-role",
-      "name": "Jalen Gray",
-      "position": "CB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "tackles": 34,
-        "tfl": 2,
-        "defInt": 3,
-        "pbu": 9,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2009-depth",
-      "name": "Kade Nash",
-      "position": "CB",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 19,
-        "tfl": 1,
-        "defInt": 2,
-        "pbu": 5,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2009-star",
-      "name": "Logan Ash",
-      "position": "S",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 83,
-        "tfl": 6,
-        "defInt": 4,
-        "pbu": 8,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2010) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2009-role",
-      "name": "Micah Hale",
-      "position": "S",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2011,
-      "stats": {
-        "tackles": 56,
-        "tfl": 4,
-        "defInt": 2,
-        "pbu": 6,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2009-depth",
-      "name": "Nolan Oaks",
-      "position": "S",
-      "firstYear": 2009,
-      "lastYear": 2012,
-      "bestSeason": 2010,
-      "stats": {
-        "tackles": 31,
-        "tfl": 2,
-        "defInt": 1,
-        "pbu": 3,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2013-star",
-      "name": "Owen Beck",
-      "position": "QB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "passYds": 3220,
-        "passTD": 32,
-        "passInt": 7,
-        "rushYds": 640,
-        "rushTD": 9
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2013-role",
-      "name": "Pierce Ivers",
-      "position": "QB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "passYds": 2170,
-        "passTD": 22,
-        "passInt": 10,
-        "rushYds": 430,
-        "rushTD": 6
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2013-depth",
-      "name": "Quinn Pratt",
-      "position": "QB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "passYds": 1190,
-        "passTD": 12,
-        "passInt": 13,
-        "rushYds": 240,
-        "rushTD": 3
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2013-star",
-      "name": "Reece Cole",
-      "position": "RB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "rushYds": 1380,
-        "rushTD": 17,
-        "rec": 32,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2013-role",
-      "name": "Silas Jett",
-      "position": "RB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "rushYds": 930,
-        "rushTD": 11,
-        "rec": 22,
-        "recYds": 250,
-        "recTD": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2013-depth",
-      "name": "Tate Rhodes",
-      "position": "RB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "rushYds": 510,
-        "rushTD": 6,
-        "rec": 12,
-        "recYds": 140,
-        "recTD": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2013-star",
-      "name": "Avery Dorn",
+      "id": "kekoa-crawford",
+      "name": "Kekoa Crawford",
       "position": "WR",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "rec": 64,
-        "recYds": 1010,
-        "recTD": 10
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2013-role",
-      "name": "Bryce Knox",
-      "position": "WR",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "rec": 43,
-        "recYds": 680,
-        "recTD": 7
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2013-depth",
-      "name": "Carter Stone",
-      "position": "WR",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "rec": 24,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2013-star",
-      "name": "Dante Ellis",
-      "position": "TE",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "rec": 46,
-        "recYds": 600,
-        "recTD": 6
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2013-role",
-      "name": "Elliot Lowe",
-      "position": "TE",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "rec": 31,
-        "recYds": 400,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2013-depth",
-      "name": "Foster Vance",
-      "position": "TE",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "bestSeason": 2017,
       "stats": {
         "rec": 17,
-        "recYds": 220,
-        "recTD": 2
+        "recTD": 1,
+        "recYds": 243
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
     },
     {
-      "id": "mock-de-2013-star",
-      "name": "Grant Frost",
-      "position": "DE",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
+      "id": "khaleke-hudson",
+      "name": "Khaleke Hudson",
+      "position": "LB",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2017,
       "stats": {
-        "tackles": 51,
-        "tfl": 17,
-        "sacks": 10,
-        "ff": 4,
+        "pbu": 9,
+        "sacks": 7.5,
+        "tfl": 16,
+        "tackles": 78,
         "defInt": 2
       },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-de-2013-role",
-      "name": "Hayes Mraz",
-      "position": "DE",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "tackles": 34,
-        "tfl": 11,
-        "sacks": 7,
-        "ff": 2,
-        "defInt": 1
-      },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
     },
     {
-      "id": "mock-de-2013-depth",
-      "name": "Isaiah Webb",
-      "position": "DE",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "tackles": 19,
-        "tfl": 6,
-        "sacks": 4,
-        "ff": 1,
-        "defInt": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2013-star",
-      "name": "Jalen Gray",
-      "position": "DT",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "tackles": 46,
-        "tfl": 12,
-        "sacks": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2013-role",
-      "name": "Kade Nash",
-      "position": "DT",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "tackles": 31,
-        "tfl": 8,
-        "sacks": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2013-depth",
-      "name": "Logan Ash",
-      "position": "DT",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "tackles": 17,
-        "tfl": 4,
-        "sacks": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2013-star",
-      "name": "Micah Hale",
-      "position": "LB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "tackles": 110,
-        "tfl": 14,
-        "sacks": 6,
-        "defInt": 3,
-        "pbu": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2013-role",
-      "name": "Nolan Oaks",
-      "position": "LB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "tackles": 74,
-        "tfl": 9,
-        "sacks": 4,
-        "defInt": 2,
-        "pbu": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2013-depth",
-      "name": "Owen Beck",
-      "position": "LB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "tackles": 41,
-        "tfl": 5,
-        "sacks": 2,
-        "defInt": 1,
-        "pbu": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2013-star",
-      "name": "Pierce Ivers",
+      "id": "lavert-hill",
+      "name": "Lavert Hill",
       "position": "CB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2019,
       "stats": {
-        "tackles": 51,
-        "tfl": 4,
-        "defInt": 5,
-        "pbu": 13,
-        "ff": 2
-      },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2013-role",
-      "name": "Quinn Pratt",
-      "position": "CB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
-      "stats": {
-        "tackles": 34,
-        "tfl": 2,
-        "defInt": 3,
-        "pbu": 9,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2013-depth",
-      "name": "Reece Cole",
-      "position": "CB",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
-      "stats": {
-        "tackles": 19,
+        "pbu": 10,
         "tfl": 1,
-        "defInt": 2,
-        "pbu": 5,
-        "ff": 1
+        "tackles": 16,
+        "defInt": 3
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
     },
     {
-      "id": "mock-s-2013-star",
-      "name": "Silas Jett",
-      "position": "S",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2014,
+      "id": "maurice-hurst",
+      "name": "Maurice Hurst",
+      "position": "DT",
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "bestSeason": 2017,
       "stats": {
-        "tackles": 83,
-        "tfl": 6,
-        "defInt": 4,
-        "pbu": 8,
-        "ff": 3
+        "sacks": 5.5,
+        "tfl": 13.5,
+        "tackles": 58
       },
-      "honors": ["All-Conference (2014) [MOCK]"],
-      "source": "PLACEHOLDER"
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
     },
     {
-      "id": "mock-s-2013-role",
-      "name": "Tate Rhodes",
-      "position": "S",
-      "firstYear": 2013,
-      "lastYear": 2016,
-      "bestSeason": 2015,
+      "id": "michael-dwumfour",
+      "name": "Michael Dwumfour",
+      "position": "DT",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2018,
       "stats": {
-        "tackles": 56,
+        "sacks": 3,
         "tfl": 4,
-        "defInt": 2,
+        "tackles": 21
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
+    },
+    {
+      "id": "mike-mccray",
+      "name": "Mike McCray",
+      "position": "LB",
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "bestSeason": 2016,
+      "stats": {
         "pbu": 6,
-        "ff": 2
+        "sacks": 4.5,
+        "tfl": 13.5,
+        "tackles": 72,
+        "defInt": 2
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-s-2013-depth",
-      "name": "Avery Dorn",
-      "position": "S",
-      "firstYear": 2013,
+      "id": "noah-furbush",
+      "name": "Noah Furbush",
+      "position": "LB",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "pbu": 1,
+        "sacks": 1,
+        "tfl": 3,
+        "tackles": 30,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "rashan-gary",
+      "name": "Rashan Gary",
+      "position": "DE",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "sacks": 6,
+        "tfl": 12.5,
+        "tackles": 59
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "ryan-glasgow",
+      "name": "Ryan Glasgow",
+      "position": "DT",
+      "firstYear": 2016,
       "lastYear": 2016,
-      "bestSeason": 2014,
+      "bestSeason": 2016,
       "stats": {
-        "tackles": 31,
-        "tfl": 2,
-        "defInt": 1,
-        "pbu": 3,
-        "ff": 1
+        "sacks": 4,
+        "tfl": 10,
+        "tackles": 41
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
     },
     {
-      "id": "mock-qb-2017-star",
-      "name": "Bryce Knox",
-      "position": "QB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "passYds": 3220,
-        "passTD": 32,
-        "passInt": 7,
-        "rushYds": 640,
-        "rushTD": 9
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2017-role",
-      "name": "Carter Stone",
-      "position": "QB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2019,
-      "stats": {
-        "passYds": 2170,
-        "passTD": 22,
-        "passInt": 10,
-        "rushYds": 430,
-        "rushTD": 6
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2017-depth",
-      "name": "Dante Ellis",
-      "position": "QB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "passYds": 1190,
-        "passTD": 12,
-        "passInt": 13,
-        "rushYds": 240,
-        "rushTD": 3
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2017-star",
-      "name": "Elliot Lowe",
-      "position": "RB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "rushYds": 1380,
-        "rushTD": 17,
-        "rec": 32,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2017-role",
-      "name": "Foster Vance",
-      "position": "RB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2019,
-      "stats": {
-        "rushYds": 930,
-        "rushTD": 11,
-        "rec": 22,
-        "recYds": 250,
-        "recTD": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2017-depth",
-      "name": "Grant Frost",
-      "position": "RB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "rushYds": 510,
-        "rushTD": 6,
-        "rec": 12,
-        "recYds": 140,
-        "recTD": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2017-star",
-      "name": "Hayes Mraz",
-      "position": "WR",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "rec": 64,
-        "recYds": 1010,
-        "recTD": 10
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2017-role",
-      "name": "Isaiah Webb",
-      "position": "WR",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2019,
-      "stats": {
-        "rec": 43,
-        "recYds": 680,
-        "recTD": 7
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2017-depth",
-      "name": "Jalen Gray",
-      "position": "WR",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "rec": 24,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2017-star",
-      "name": "Kade Nash",
+      "id": "sean-mckeon",
+      "name": "Sean McKeon",
       "position": "TE",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "rec": 46,
-        "recYds": 600,
-        "recTD": 6
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2017-role",
-      "name": "Logan Ash",
-      "position": "TE",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2019,
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2017,
       "stats": {
         "rec": 31,
-        "recYds": 400,
-        "recTD": 4
+        "recTD": 3,
+        "recYds": 301
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
     },
     {
-      "id": "mock-te-2017-depth",
-      "name": "Micah Hale",
+      "id": "taco-charlton",
+      "name": "Taco Charlton",
+      "position": "DE",
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "bestSeason": 2016,
+      "stats": {
+        "sacks": 9.5,
+        "tfl": 13,
+        "tackles": 39
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2016"
+    },
+    {
+      "id": "tru-wilson",
+      "name": "Tru Wilson",
+      "position": "RB",
+      "firstYear": 2016,
+      "lastYear": 2019,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 5,
+        "recYds": 30,
+        "rushTD": 1,
+        "rushYds": 364
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
+    },
+    {
+      "id": "tyree-kinnel",
+      "name": "Tyree Kinnel",
+      "position": "S",
+      "firstYear": 2016,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "pbu": 6,
+        "tfl": 4.5,
+        "tackles": 66,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "ambry-thomas",
+      "name": "Ambry Thomas",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "bestSeason": 2019,
+      "stats": {
+        "pbu": 3,
+        "tfl": 3,
+        "tackles": 38,
+        "defInt": 3
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "aubrey-solomon",
+      "name": "Aubrey Solomon",
+      "position": "DT",
+      "firstYear": 2017,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "tfl": 1.5,
+        "tackles": 16
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "brad-hawkins",
+      "name": "Brad Hawkins",
+      "position": "S",
+      "firstYear": 2017,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "pbu": 4,
+        "tfl": 3,
+        "tackles": 60
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "brandon-peters",
+      "name": "Brandon Peters",
+      "position": "QB",
+      "firstYear": 2017,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "passInt": 2,
+        "passTD": 4,
+        "passYds": 672
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "carlo-kemp",
+      "name": "Carlo Kemp",
+      "position": "DT",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "sacks": 2,
+        "tfl": 4.5,
+        "tackles": 40
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "david-long",
+      "name": "David Long",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2018,
+      "bestSeason": 2017,
+      "stats": {
+        "pbu": 6,
+        "tfl": 2,
+        "tackles": 20,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2017"
+    },
+    {
+      "id": "devin-gil",
+      "name": "Devin Gil",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "bestSeason": 2018,
+      "stats": {
+        "sacks": 1.5,
+        "tfl": 3,
+        "tackles": 32
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
+    },
+    {
+      "id": "donovan-peoples-jones",
+      "name": "Donovan Peoples-Jones",
+      "position": "WR",
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 45,
+        "recTD": 8,
+        "recYds": 581,
+        "rushYds": 37
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
+    },
+    {
+      "id": "josh-ross",
+      "name": "Josh Ross",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "pbu": 2,
+        "sacks": 0.5,
+        "tfl": 9,
+        "tackles": 106
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "kwity-paye",
+      "name": "Kwity Paye",
+      "position": "DE",
+      "firstYear": 2017,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "sacks": 6.5,
+        "tfl": 12.5,
+        "tackles": 50
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "nick-eubanks",
+      "name": "Nick Eubanks",
       "position": "TE",
       "firstYear": 2017,
       "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "rec": 17,
-        "recYds": 220,
-        "recTD": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-de-2017-star",
-      "name": "Nolan Oaks",
-      "position": "DE",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 51,
-        "tfl": 17,
-        "sacks": 10,
-        "ff": 4,
-        "defInt": 2
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-de-2017-role",
-      "name": "Owen Beck",
-      "position": "DE",
-      "firstYear": 2017,
-      "lastYear": 2020,
       "bestSeason": 2019,
       "stats": {
-        "tackles": 34,
-        "tfl": 11,
-        "sacks": 7,
-        "ff": 2,
-        "defInt": 1
+        "rec": 26,
+        "recTD": 4,
+        "recYds": 254
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
     },
     {
-      "id": "mock-de-2017-depth",
-      "name": "Pierce Ivers",
-      "position": "DE",
+      "id": "nico-collins",
+      "name": "Nico Collins",
+      "position": "WR",
       "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 19,
-        "tfl": 6,
-        "sacks": 4,
-        "ff": 1,
-        "defInt": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2017-star",
-      "name": "Quinn Pratt",
-      "position": "DT",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 46,
-        "tfl": 12,
-        "sacks": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2017-role",
-      "name": "Reece Cole",
-      "position": "DT",
-      "firstYear": 2017,
-      "lastYear": 2020,
+      "lastYear": 2019,
       "bestSeason": 2019,
       "stats": {
-        "tackles": 31,
-        "tfl": 8,
-        "sacks": 4,
-        "ff": 2
+        "rec": 37,
+        "recTD": 7,
+        "recYds": 729
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
     },
     {
-      "id": "mock-dt-2017-depth",
-      "name": "Silas Jett",
-      "position": "DT",
+      "id": "tarik-black",
+      "name": "Tarik Black",
+      "position": "WR",
       "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 17,
-        "tfl": 4,
-        "sacks": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2017-star",
-      "name": "Tate Rhodes",
-      "position": "LB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 110,
-        "tfl": 14,
-        "sacks": 6,
-        "defInt": 3,
-        "pbu": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2017-role",
-      "name": "Avery Dorn",
-      "position": "LB",
-      "firstYear": 2017,
-      "lastYear": 2020,
+      "lastYear": 2019,
       "bestSeason": 2019,
       "stats": {
-        "tackles": 74,
-        "tfl": 9,
-        "sacks": 4,
-        "defInt": 2,
-        "pbu": 4,
-        "ff": 2
+        "rec": 25,
+        "recTD": 1,
+        "recYds": 323
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
     },
     {
-      "id": "mock-lb-2017-depth",
-      "name": "Bryce Knox",
-      "position": "LB",
+      "id": "zach-gentry",
+      "name": "Zach Gentry",
+      "position": "TE",
       "firstYear": 2017,
-      "lastYear": 2020,
+      "lastYear": 2018,
       "bestSeason": 2018,
       "stats": {
-        "tackles": 41,
-        "tfl": 5,
-        "sacks": 2,
-        "defInt": 1,
-        "pbu": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2017-star",
-      "name": "Carter Stone",
-      "position": "CB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 51,
-        "tfl": 4,
-        "defInt": 5,
-        "pbu": 13,
-        "ff": 2
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2017-role",
-      "name": "Dante Ellis",
-      "position": "CB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2019,
-      "stats": {
-        "tackles": 34,
-        "tfl": 2,
-        "defInt": 3,
-        "pbu": 9,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-cb-2017-depth",
-      "name": "Elliot Lowe",
-      "position": "CB",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 19,
-        "tfl": 1,
-        "defInt": 2,
-        "pbu": 5,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2017-star",
-      "name": "Foster Vance",
-      "position": "S",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 83,
-        "tfl": 6,
-        "defInt": 4,
-        "pbu": 8,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2018) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2017-role",
-      "name": "Grant Frost",
-      "position": "S",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2019,
-      "stats": {
-        "tackles": 56,
-        "tfl": 4,
-        "defInt": 2,
-        "pbu": 6,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-s-2017-depth",
-      "name": "Hayes Mraz",
-      "position": "S",
-      "firstYear": 2017,
-      "lastYear": 2020,
-      "bestSeason": 2018,
-      "stats": {
-        "tackles": 31,
-        "tfl": 2,
-        "defInt": 1,
-        "pbu": 3,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2021-star",
-      "name": "Isaiah Webb",
-      "position": "QB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "passYds": 3220,
-        "passTD": 32,
-        "passInt": 7,
-        "rushYds": 640,
-        "rushTD": 9
-      },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2021-role",
-      "name": "Jalen Gray",
-      "position": "QB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
-      "stats": {
-        "passYds": 2170,
-        "passTD": 22,
-        "passInt": 10,
-        "rushYds": 430,
-        "rushTD": 6
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-qb-2021-depth",
-      "name": "Kade Nash",
-      "position": "QB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "passYds": 1190,
-        "passTD": 12,
-        "passInt": 13,
-        "rushYds": 240,
-        "rushTD": 3
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2021-star",
-      "name": "Logan Ash",
-      "position": "RB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "rushYds": 1380,
-        "rushTD": 17,
         "rec": 32,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-rb-2021-role",
-      "name": "Micah Hale",
-      "position": "RB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
-      "stats": {
-        "rushYds": 930,
-        "rushTD": 11,
-        "rec": 22,
-        "recYds": 250,
-        "recTD": 2
+        "recTD": 2,
+        "recYds": 514
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
     },
     {
-      "id": "mock-rb-2021-depth",
-      "name": "Nolan Oaks",
-      "position": "RB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "rushYds": 510,
-        "rushTD": 6,
-        "rec": 12,
-        "recYds": 140,
-        "recTD": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2021-star",
-      "name": "Owen Beck",
-      "position": "WR",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "rec": 64,
-        "recYds": 1010,
-        "recTD": 10
-      },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2021-role",
-      "name": "Pierce Ivers",
-      "position": "WR",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
-      "stats": {
-        "rec": 43,
-        "recYds": 680,
-        "recTD": 7
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-wr-2021-depth",
-      "name": "Quinn Pratt",
-      "position": "WR",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "rec": 24,
-        "recYds": 370,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2021-star",
-      "name": "Reece Cole",
-      "position": "TE",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "rec": 46,
-        "recYds": 600,
-        "recTD": 6
-      },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2021-role",
-      "name": "Silas Jett",
-      "position": "TE",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
-      "stats": {
-        "rec": 31,
-        "recYds": 400,
-        "recTD": 4
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-te-2021-depth",
-      "name": "Tate Rhodes",
-      "position": "TE",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "rec": 17,
-        "recYds": 220,
-        "recTD": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-de-2021-star",
-      "name": "Avery Dorn",
+      "id": "aidan-hutchinson",
+      "name": "Aidan Hutchinson",
       "position": "DE",
-      "firstYear": 2021,
-      "lastYear": 2024,
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "sacks": 14,
+        "tfl": 16.5,
+        "tackles": 62
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "donovan-jeter",
+      "name": "Donovan Jeter",
+      "position": "DT",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "tfl": 2,
+        "tackles": 24
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "joe-milton",
+      "name": "Joe Milton",
+      "position": "QB",
+      "firstYear": 2018,
+      "lastYear": 2020,
+      "bestSeason": 2020,
+      "stats": {
+        "passInt": 4,
+        "passTD": 4,
+        "passYds": 1077,
+        "rushTD": 1,
+        "rushYds": 109
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2020"
+    },
+    {
+      "id": "oliver-martin",
+      "name": "Oliver Martin",
+      "position": "WR",
+      "firstYear": 2018,
+      "lastYear": 2018,
+      "bestSeason": 2018,
+      "stats": {
+        "rec": 11,
+        "recTD": 1,
+        "recYds": 125,
+        "rushYds": 11
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2018"
+    },
+    {
+      "id": "ronnie-bell",
+      "name": "Ronnie Bell",
+      "position": "WR",
+      "firstYear": 2018,
+      "lastYear": 2022,
       "bestSeason": 2022,
       "stats": {
-        "tackles": 51,
-        "tfl": 17,
-        "sacks": 10,
-        "ff": 4,
+        "rec": 62,
+        "recTD": 4,
+        "recYds": 889,
+        "rushYds": 23
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "shea-patterson",
+      "name": "Shea Patterson",
+      "position": "QB",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "bestSeason": 2019,
+      "stats": {
+        "passInt": 8,
+        "passTD": 23,
+        "passYds": 3061,
+        "rushTD": 5,
+        "rushYds": 50
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "cameron-mcgrone",
+      "name": "Cameron McGrone",
+      "position": "LB",
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "pbu": 1,
+        "sacks": 3.5,
+        "tfl": 9,
+        "tackles": 65
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "christopher-hinton",
+      "name": "Christopher Hinton",
+      "position": "DT",
+      "firstYear": 2019,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "sacks": 1,
+        "tfl": 1,
+        "tackles": 32
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "cornelius-johnson",
+      "name": "Cornelius Johnson",
+      "position": "WR",
+      "firstYear": 2019,
+      "lastYear": 2023,
+      "bestSeason": 2021,
+      "stats": {
+        "rec": 40,
+        "recTD": 3,
+        "recYds": 627,
+        "rushYds": 30
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "daxton-hill",
+      "name": "Daxton Hill",
+      "position": "S",
+      "firstYear": 2019,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "pbu": 8,
+        "tfl": 4.5,
+        "tackles": 69,
         "defInt": 2
       },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
     },
     {
-      "id": "mock-de-2021-role",
-      "name": "Bryce Knox",
-      "position": "DE",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
+      "id": "erick-all",
+      "name": "Erick All",
+      "position": "TE",
+      "firstYear": 2019,
+      "lastYear": 2022,
+      "bestSeason": 2021,
       "stats": {
-        "tackles": 34,
-        "tfl": 11,
-        "sacks": 7,
-        "ff": 2,
-        "defInt": 1
+        "rec": 38,
+        "recTD": 2,
+        "recYds": 437
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
     },
     {
-      "id": "mock-de-2021-depth",
-      "name": "Carter Stone",
-      "position": "DE",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
+      "id": "gemon-green",
+      "name": "Gemon Green",
+      "position": "CB",
+      "firstYear": 2019,
+      "lastYear": 2022,
+      "bestSeason": 2020,
       "stats": {
-        "tackles": 19,
-        "tfl": 6,
-        "sacks": 4,
-        "ff": 1,
-        "defInt": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2021-star",
-      "name": "Dante Ellis",
-      "position": "DT",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "tackles": 46,
-        "tfl": 12,
-        "sacks": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2021-role",
-      "name": "Elliot Lowe",
-      "position": "DT",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
-      "stats": {
-        "tackles": 31,
-        "tfl": 8,
-        "sacks": 4,
-        "ff": 2
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-dt-2021-depth",
-      "name": "Foster Vance",
-      "position": "DT",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "tackles": 17,
-        "tfl": 4,
-        "sacks": 2,
-        "ff": 1
-      },
-      "honors": [],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2021-star",
-      "name": "Grant Frost",
-      "position": "LB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
-      "stats": {
-        "tackles": 110,
-        "tfl": 14,
-        "sacks": 6,
-        "defInt": 3,
         "pbu": 6,
-        "ff": 3
-      },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
-    },
-    {
-      "id": "mock-lb-2021-role",
-      "name": "Hayes Mraz",
-      "position": "LB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2023,
-      "stats": {
-        "tackles": 74,
-        "tfl": 9,
-        "sacks": 4,
-        "defInt": 2,
-        "pbu": 4,
-        "ff": 2
+        "tackles": 22
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2020"
     },
     {
-      "id": "mock-lb-2021-depth",
-      "name": "Isaiah Webb",
-      "position": "LB",
-      "firstYear": 2021,
-      "lastYear": 2024,
+      "id": "giles-jackson",
+      "name": "Giles Jackson",
+      "position": "WR",
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "bestSeason": 2020,
+      "stats": {
+        "rec": 15,
+        "recYds": 167,
+        "rushYds": 5
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2020"
+    },
+    {
+      "id": "hassan-haskins",
+      "name": "Hassan Haskins",
+      "position": "RB",
+      "firstYear": 2019,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "rec": 18,
+        "recYds": 131,
+        "rushTD": 20,
+        "rushYds": 1327
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "luke-schoonmaker",
+      "name": "Luke Schoonmaker",
+      "position": "TE",
+      "firstYear": 2019,
+      "lastYear": 2022,
       "bestSeason": 2022,
       "stats": {
-        "tackles": 41,
+        "rec": 35,
+        "recTD": 3,
+        "recYds": 418
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "michael-barrett",
+      "name": "Michael Barrett",
+      "position": "LB",
+      "firstYear": 2019,
+      "lastYear": 2023,
+      "bestSeason": 2022,
+      "stats": {
+        "pbu": 1,
+        "sacks": 3.5,
+        "tfl": 4,
+        "tackles": 58,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "mike-danna",
+      "name": "Mike Danna",
+      "position": "DE",
+      "firstYear": 2019,
+      "lastYear": 2019,
+      "bestSeason": 2019,
+      "stats": {
+        "sacks": 3,
+        "tfl": 3,
+        "tackles": 38
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "mike-sainristil",
+      "name": "Mike Sainristil",
+      "position": "CB",
+      "firstYear": 2019,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "pbu": 6,
         "tfl": 5,
+        "tackles": 36,
+        "defInt": 6
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "taylor-upshaw",
+      "name": "Taylor Upshaw",
+      "position": "DE",
+      "firstYear": 2019,
+      "lastYear": 2022,
+      "bestSeason": 2022,
+      "stats": {
         "sacks": 2,
-        "defInt": 1,
-        "pbu": 2,
-        "ff": 1
+        "tfl": 4.5,
+        "tackles": 12,
+        "defInt": 1
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
     },
     {
-      "id": "mock-cb-2021-star",
-      "name": "Jalen Gray",
+      "id": "vincent-gray",
+      "name": "Vincent Gray",
       "position": "CB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
+      "firstYear": 2019,
+      "lastYear": 2021,
+      "bestSeason": 2021,
       "stats": {
-        "tackles": 51,
-        "tfl": 4,
-        "defInt": 5,
-        "pbu": 13,
-        "ff": 2
+        "pbu": 7,
+        "tfl": 3.5,
+        "tackles": 46
       },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
     },
     {
-      "id": "mock-cb-2021-role",
-      "name": "Kade Nash",
-      "position": "CB",
-      "firstYear": 2021,
-      "lastYear": 2024,
+      "id": "zach-charbonnet",
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "bestSeason": 2019,
+      "stats": {
+        "rec": 8,
+        "recYds": 30,
+        "rushTD": 11,
+        "rushYds": 726
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2019"
+    },
+    {
+      "id": "a-j-henning",
+      "name": "A.J. Henning",
+      "position": "WR",
+      "firstYear": 2020,
+      "lastYear": 2022,
+      "bestSeason": 2021,
+      "stats": {
+        "rec": 10,
+        "recYds": 79,
+        "rushYds": 162
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "blake-corum",
+      "name": "Blake Corum",
+      "position": "RB",
+      "firstYear": 2020,
+      "lastYear": 2023,
       "bestSeason": 2023,
       "stats": {
-        "tackles": 34,
-        "tfl": 2,
-        "defInt": 3,
-        "pbu": 9,
-        "ff": 1
+        "rec": 16,
+        "recTD": 1,
+        "recYds": 117,
+        "rushTD": 27,
+        "rushYds": 1245
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
     },
     {
-      "id": "mock-cb-2021-depth",
-      "name": "Logan Ash",
-      "position": "CB",
-      "firstYear": 2021,
-      "lastYear": 2024,
-      "bestSeason": 2022,
+      "id": "cade-mcnamara",
+      "name": "Cade McNamara",
+      "position": "QB",
+      "firstYear": 2020,
+      "lastYear": 2022,
+      "bestSeason": 2021,
       "stats": {
-        "tackles": 19,
+        "passInt": 6,
+        "passTD": 15,
+        "passYds": 2576,
+        "rushTD": 1,
+        "rushYds": 26
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "david-ojabo",
+      "name": "David Ojabo",
+      "position": "DE",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "sacks": 11,
+        "tfl": 12,
+        "tackles": 35
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "jaylen-harrell",
+      "name": "Jaylen Harrell",
+      "position": "DE",
+      "firstYear": 2020,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "sacks": 7.5,
+        "tfl": 10,
+        "tackles": 30
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "kalel-mullings",
+      "name": "Kalel Mullings",
+      "position": "RB",
+      "firstYear": 2020,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 6,
+        "recYds": 35,
+        "rushTD": 12,
+        "rushYds": 948
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "makari-paige",
+      "name": "Makari Paige",
+      "position": "S",
+      "firstYear": 2020,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 4,
         "tfl": 1,
-        "defInt": 2,
-        "pbu": 5,
-        "ff": 1
+        "tackles": 45,
+        "defInt": 2
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
     },
     {
-      "id": "mock-s-2021-star",
-      "name": "Micah Hale",
-      "position": "S",
+      "id": "mazi-smith",
+      "name": "Mazi Smith",
+      "position": "DT",
+      "firstYear": 2020,
+      "lastYear": 2022,
+      "bestSeason": 2022,
+      "stats": {
+        "sacks": 1,
+        "tfl": 3,
+        "tackles": 44
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "mike-morris",
+      "name": "Mike Morris",
+      "position": "DE",
+      "firstYear": 2020,
+      "lastYear": 2022,
+      "bestSeason": 2022,
+      "stats": {
+        "sacks": 7,
+        "tfl": 10.5,
+        "tackles": 21
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "nikhai-hill-green",
+      "name": "Nikhai Hill-Green",
+      "position": "LB",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "pbu": 1,
+        "tfl": 2,
+        "tackles": 50
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "roman-wilson",
+      "name": "Roman Wilson",
+      "position": "WR",
+      "firstYear": 2020,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "rec": 48,
+        "recTD": 12,
+        "recYds": 789,
+        "rushYds": 10
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "andrel-anthony-jr",
+      "name": "Andrel Anthony Jr.",
+      "position": "WR",
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "bestSeason": 2021,
+      "stats": {
+        "rec": 12,
+        "recTD": 3,
+        "recYds": 248,
+        "rushYds": 6
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "braiden-mcgregor",
+      "name": "Braiden McGregor",
+      "position": "DE",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "sacks": 4.5,
+        "tfl": 9,
+        "tackles": 26
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "daylen-baldwin",
+      "name": "Daylen Baldwin",
+      "position": "WR",
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "bestSeason": 2021,
+      "stats": {
+        "rec": 17,
+        "recTD": 2,
+        "recYds": 256
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "dj-turner",
+      "name": "DJ Turner",
+      "position": "CB",
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "bestSeason": 2021,
+      "stats": {
+        "pbu": 7,
+        "tfl": 1,
+        "tackles": 33,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "donovan-edwards",
+      "name": "Donovan Edwards",
+      "position": "RB",
       "firstYear": 2021,
       "lastYear": 2024,
       "bestSeason": 2022,
       "stats": {
-        "tackles": 83,
-        "tfl": 6,
-        "defInt": 4,
-        "pbu": 8,
-        "ff": 3
+        "rec": 18,
+        "recTD": 2,
+        "recYds": 200,
+        "rushTD": 7,
+        "rushYds": 991
       },
-      "honors": ["All-Conference (2022) [MOCK]"],
-      "source": "PLACEHOLDER"
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
     },
     {
-      "id": "mock-s-2021-role",
-      "name": "Nolan Oaks",
-      "position": "S",
+      "id": "j-j-mccarthy",
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "passInt": 4,
+        "passTD": 22,
+        "passYds": 2991,
+        "rushTD": 3,
+        "rushYds": 202
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "ja-den-mcburrows",
+      "name": "Ja'Den Mcburrows",
+      "position": "CB",
       "firstYear": 2021,
       "lastYear": 2024,
       "bestSeason": 2023,
       "stats": {
-        "tackles": 56,
-        "tfl": 4,
-        "defInt": 2,
-        "pbu": 6,
-        "ff": 2
+        "tfl": 2,
+        "tackles": 7,
+        "defInt": 1
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
     },
     {
-      "id": "mock-s-2021-depth",
-      "name": "Owen Beck",
+      "id": "junior-colson",
+      "name": "Junior Colson",
+      "position": "LB",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "bestSeason": 2022,
+      "stats": {
+        "sacks": 2,
+        "tfl": 6,
+        "tackles": 80
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "kris-jenkins",
+      "name": "Kris Jenkins",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "bestSeason": 2022,
+      "stats": {
+        "sacks": 2,
+        "tfl": 3.5,
+        "tackles": 48
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "quinten-johnson",
+      "name": "Quinten Johnson",
       "position": "S",
       "firstYear": 2021,
       "lastYear": 2024,
-      "bestSeason": 2022,
+      "bestSeason": 2024,
       "stats": {
-        "tackles": 31,
-        "tfl": 2,
-        "defInt": 1,
-        "pbu": 3,
-        "ff": 1
+        "pbu": 5,
+        "tfl": 1,
+        "tackles": 43
       },
       "honors": [],
-      "source": "PLACEHOLDER"
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "r-j-moten",
+      "name": "R.J. Moten",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "bestSeason": 2021,
+      "stats": {
+        "pbu": 3,
+        "tackles": 35,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2021"
+    },
+    {
+      "id": "rayshaun-benny",
+      "name": "Rayshaun Benny",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "sacks": 1,
+        "tfl": 5.5,
+        "tackles": 27
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "rod-moore",
+      "name": "Rod Moore",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "bestSeason": 2022,
+      "stats": {
+        "pbu": 4,
+        "tfl": 1.5,
+        "tackles": 45,
+        "defInt": 4
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "tj-guy",
+      "name": "TJ Guy",
+      "position": "DE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "sacks": 5.5,
+        "tfl": 7,
+        "tackles": 32
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "c-j-stokes",
+      "name": "C.J. Stokes",
+      "position": "RB",
+      "firstYear": 2022,
+      "lastYear": 2023,
+      "bestSeason": 2022,
+      "stats": {
+        "rec": 1,
+        "recYds": 15,
+        "rushTD": 1,
+        "rushYds": 273
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "colston-loveland",
+      "name": "Colston Loveland",
+      "position": "TE",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 56,
+        "recTD": 5,
+        "recYds": 582
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "derrick-moore",
+      "name": "Derrick Moore",
+      "position": "DE",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "sacks": 5,
+        "tfl": 6,
+        "tackles": 34
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "eyabi-anoma",
+      "name": "Eyabi Anoma",
+      "position": "DE",
+      "firstYear": 2022,
+      "lastYear": 2022,
+      "bestSeason": 2022,
+      "stats": {
+        "sacks": 3,
+        "tfl": 4.5,
+        "tackles": 15
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2022"
+    },
+    {
+      "id": "jimmy-rolder",
+      "name": "Jimmy Rolder",
+      "position": "LB",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "tfl": 1.5,
+        "tackles": 26
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "kenneth-grant",
+      "name": "Kenneth Grant",
+      "position": "DT",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "sacks": 3,
+        "tfl": 6.5,
+        "tackles": 32
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "mason-graham",
+      "name": "Mason Graham",
+      "position": "DT",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "sacks": 3.5,
+        "tfl": 7,
+        "tackles": 46
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "peyton-o-leary",
+      "name": "Peyton O'Leary",
+      "position": "WR",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 10,
+        "recTD": 1,
+        "recYds": 102
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "tyler-morris",
+      "name": "Tyler Morris",
+      "position": "WR",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 23,
+        "recTD": 2,
+        "recYds": 248,
+        "rushYds": 9
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "will-johnson",
+      "name": "Will Johnson",
+      "position": "CB",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "pbu": 4,
+        "tfl": 1,
+        "tackles": 23,
+        "defInt": 4
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "zeke-berry",
+      "name": "Zeke Berry",
+      "position": "CB",
+      "firstYear": 2022,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 9,
+        "tfl": 2.5,
+        "tackles": 37,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "a-j-barner",
+      "name": "A.J. Barner",
+      "position": "TE",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "rec": 22,
+        "recTD": 1,
+        "recYds": 249
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "brandyn-hillman",
+      "name": "Brandyn Hillman",
+      "position": "S",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 2,
+        "tfl": 1.5,
+        "tackles": 21
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "cameron-brandt",
+      "name": "Cameron Brandt",
+      "position": "DE",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "sacks": 3,
+        "tfl": 4,
+        "tackles": 13
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "ernest-hausmann",
+      "name": "Ernest Hausmann",
+      "position": "LB",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 1,
+        "sacks": 2,
+        "tfl": 7,
+        "tackles": 89,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "fredrick-moore",
+      "name": "Fredrick Moore",
+      "position": "WR",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 11,
+        "recTD": 1,
+        "recYds": 128,
+        "rushYds": 28
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "josaiah-stewart",
+      "name": "Josaiah Stewart",
+      "position": "DE",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "sacks": 8.5,
+        "tfl": 13,
+        "tackles": 33
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "josh-wallace",
+      "name": "Josh Wallace",
+      "position": "CB",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "pbu": 4,
+        "tfl": 2,
+        "tackles": 28
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "jyaire-hill",
+      "name": "Jyaire Hill",
+      "position": "CB",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 8,
+        "tfl": 5.5,
+        "tackles": 35,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "keon-sabb",
+      "name": "Keon Sabb",
+      "position": "S",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "bestSeason": 2023,
+      "stats": {
+        "pbu": 2,
+        "tfl": 1,
+        "tackles": 22,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "marlin-klein",
+      "name": "Marlin Klein",
+      "position": "TE",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 13,
+        "recYds": 108
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "semaj-morgan",
+      "name": "Semaj Morgan",
+      "position": "WR",
+      "firstYear": 2023,
+      "lastYear": 2024,
+      "bestSeason": 2023,
+      "stats": {
+        "rec": 22,
+        "recTD": 2,
+        "recYds": 204,
+        "rushYds": 67
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2023"
+    },
+    {
+      "id": "aamir-hall",
+      "name": "Aamir Hall",
+      "position": "CB",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 4,
+        "tfl": 2.5,
+        "tackles": 38,
+        "defInt": 2
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "hogan-hansen",
+      "name": "Hogan Hansen",
+      "position": "TE",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "rec": 7,
+        "recTD": 1,
+        "recYds": 78
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "jaishawn-barham",
+      "name": "Jaishawn Barham",
+      "position": "LB",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 2,
+        "sacks": 1,
+        "tfl": 3.5,
+        "tackles": 66
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
+    },
+    {
+      "id": "wesley-walker",
+      "name": "Wesley Walker",
+      "position": "CB",
+      "firstYear": 2024,
+      "lastYear": 2024,
+      "bestSeason": 2024,
+      "stats": {
+        "pbu": 1,
+        "tfl": 1,
+        "tackles": 32,
+        "defInt": 1
+      },
+      "honors": [],
+      "source": "https://collegefootballdata.com/ — CFBD player season stats, Michigan 2024"
     }
   ]
 }
