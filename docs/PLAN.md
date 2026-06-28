@@ -4,8 +4,10 @@
 
 A daily, no-backend, share-friendly draft game in the family of
 [20-0.com](https://www.20-0.com/) (whose **40-0** = college basketball and
-**16-0** = college football), but scoped to **one school at a time**. v1 is
-**Michigan basketball**; football (2005+) and **North Carolina** follow behind
+**16-0** = college football), but scoped to **one school at a time**. Six
+basketball schools are live (Michigan — the default — plus North Carolina,
+Florida, Virginia Tech, Pittsburgh, and VCU); **football (2005+)** is playable on
+a MOCK/provisional Michigan dataset behind a per-school sport picker. All run on
 the same engine contracts.
 
 Because the school is fixed, the "spin" is a **4-year year-window** rather than a
@@ -69,9 +71,11 @@ src/
     game.ts           pure draft state machine (initDraft, draftToSlot, skip, isPickable, …)
     share.ts          Wordle-style spoiler-free share string
   data/
-    michigan-basketball.json   curated player dataset (49 players, sourced)
-    index.ts                   typed loader
-    dataset.test.ts            integrity guard (incl. KNOWN_GAPS coverage check)
+    michigan-basketball.json   curated player dataset (95 players / 259 rows, sourced)
+    {unc,florida,vt,pitt,vcu}-basketball.json   the other five live schools
+    michigan-football.json     MOCK/provisional football seed (curated data pending)
+    index.ts                   typed loader (one Dataset per school)
+    dataset.test.ts            integrity guard (shape, coverage, completeness, tenure)
   schools.ts          school registry + per-school theme tokens + applyTheme()
   App.tsx             React shell: Picker → Landing → Playing → Results
 ```
@@ -97,9 +101,9 @@ puzzles — acceptable for a friends game.
    It's a binary per school (`School.power5`): non-power-5 schools take a flat
    `×0.95` haircut on every FINAL player rating (`NON_POWER5_RATING_FACTOR`), applied
    at the player level so per-position RTG, team strength, and record all reflect it.
-   When VCU launches (Atlantic 10) it will be the lone non-power-5 school; a VCU 40-0
-   is hard by design (a five of 85-rated players drops to an 81-rated team after the
-   haircut, just under the 85 team-strength undefeated cutoff). (Alex, 2026-06-26.)
+   VCU (Atlantic 10) is the lone non-power-5 school today; a VCU 40-0 is hard by
+   design (a five of 85-rated players drops to an 81-rated team after the haircut,
+   just under the 85 team-strength undefeated cutoff). (Alex, 2026-06-26.)
 3. **Team strength** blends the position-weighted mean (PG ×1.15, C ×1.1) with the
    **worst starter** (`0.75·mean + 0.25·min`) so one hole still costs you ("no weak
    links") — eased from `0.4·min` to `0.25·min` (Alex, 2026-06-26) so a single soft
@@ -147,16 +151,18 @@ Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
   - QB: pass yds/TD/INT (+ rush yds/TD for runners like Denard).
   - RB: rush yds/TD (+ rec/yds/TD). WR/TE: rec/yds/TD.
   - Defense: tackles, TFL, sacks, INT, PBU, FF.
-- **Rating (design, not yet built):** because stats differ by position, each
-  position gets its own normalized 0→100 curve off fixed anchors (e.g. a 1,000-yd
-  rusher, a 10-sack edge, a 4,000-yd passer all map high), then the same
+- **Rating (built — `football-rating.ts`):** because stats differ by position,
+  each position gets its own normalized 0→100 curve off fixed anchors (e.g. a
+  1,000-yd rusher, a 10-sack edge, a 4,000-yd passer all map high), then the same
   weak-link-penalized team strength → projected record **out of 16**. Premium
   slots (QB, and an edge rusher) can carry a small multiplier, TBD at calibration.
 
-Engine landed: `src/types.ts` (FbPosition/FbStats/FbPlayer/FB_SLOTS),
-`src/lib/football.ts` (FB_WINDOWS, slot eligibility incl. FLEX), tests. Still to
-build: football dataset (curation running), rating, and the football UI behind a
-per-school sport selector.
+Football is **playable** end-to-end: `src/types.ts`
+(FbPosition/FbStats/FbPlayer/FB_SLOTS), `src/lib/football.ts` (FB_WINDOWS, slot
+eligibility incl. FLEX), `football-game.ts` (draft state machine),
+`football-rating.ts` + `football-result.ts` (rating → record out of 16), the
+football UI in `App.tsx`, and a MOCK/provisional `michigan-football.json` seed —
+all tested. **Still to build: a curated (non-mock) football dataset.**
 
 ## Milestones
 
@@ -164,19 +170,23 @@ per-school sport selector.
   playable React UI. Verified end-to-end (37–3 HISTORIC under the original,
   pre-2026-06-26 curve — the eased curve would score that roster higher).
 - **M1.5 — School registry + picker + theming (DONE):** `schools.ts`, picker
-  landing, per-school CSS theming; Michigan live, UNC "coming soon".
-- **M2 — Full basketball dataset (DONE):** 53 sourced players, `_provisional:
-false`, **zero coverage gaps** (every window × position filled; the
-  `dataset.test.ts` coverage guard asserts it). Win-curve eased per Alex
-  (2026-06-26): undefeated cutoff 85, pivot 57 — the old ~4% target is retired.
+  landing, per-school CSS theming. Six schools live (Michigan, UNC, Florida, VT,
+  Pitt, VCU).
+- **M2 — Full basketball dataset (DONE):** Michigan = 95 sourced players / 259
+  season rows, `_provisional: false`, **zero coverage gaps** (every window ×
+  position AND year × position filled; the `dataset.test.ts` coverage guards
+  assert it). Win-curve eased per Alex (2026-06-26): undefeated cutoff 85, pivot
+  57 — the old ~4% target is retired.
 - **M3 — Modes:** Daily (one-shot + streaks) · Classic (free-play) · Hoops IQ.
 - **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
-- **M5 — Ship:** flip repo public → branch protection + Pages deploy.
-- **M6 — Football (2005+):** 12-slot roster, CFBD-sourced offense + 2005+ defense.
-- **M7 — More schools:** the registry already themes **North Carolina** (Tar
-  Heels) and **Florida** (Gators); add their datasets to go live. End state: all
-  **3 schools × both sports** (basketball + football), added over time, Michigan
-  first.
+- **M5 — Ship (DONE):** repo public, branch protection on, Pages deploy live
+  (`.github/workflows/deploy.yml`).
+- **M6 — Football (2005+) (PLAYABLE ON MOCK):** 12-slot roster, engine + rating +
+  UI all built and playable on a MOCK Michigan seed; a curated (CFBD/Wikipedia)
+  dataset is the remaining work.
+- **M7 — More schools (6 LIVE):** Michigan, North Carolina, Florida, Virginia
+  Tech, Pittsburgh, and VCU all ship real basketball datasets. End state: those
+  schools × both sports (curated football data still to come), added over time.
 
 ## Open questions
 

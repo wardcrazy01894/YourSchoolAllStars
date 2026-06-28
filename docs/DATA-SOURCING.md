@@ -284,12 +284,54 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
   season page rather than an individual player page — they were below the cache
   cutoff and SR was rate-limited (429) during this pass; convert them to
   `/cbb/players/` URLs next time SR access is available.
+- **Four more basketball schools are live**, each running the same `dataset.test.ts`
+  guards (shape, uniqueness, complete 5-stat line, per-player tenure coverage,
+  window/year position coverage) with `_provisional: false` and zero gaps:
+  - **North Carolina** (`unc-basketball.json`) — 106 players / 283 rows, 1994–2026.
+  - **Florida** (`florida-basketball.json`) — 191 players / 438 rows, 1994–2026.
+  - **Pittsburgh** (`pitt-basketball.json`) — 197 players / 442 rows, 1994–2026.
+  - **VCU** (`vcu-basketball.json`) — 198 players / 420 rows, 1994–2026. The lone
+    **non-power-5** school (Atlantic 10; `School.power5 = false`) and fields no
+    football. Conferences over the span: Metro (through 1995) → CAA (1996–2012) →
+    Atlantic 10 (2013+) — so the 1994/1995 season-ending rows are Metro-era.
+    Stats follow the same priority (official/Wikipedia → SR per-player page → ESPN
+    keyless API for recent players). **Honors** for these were re-derived award-first
+    from Sports-Reference's own per-conference award pages — see **Honors: the
+    SR-award-page route** below.
 
-## Football (2005+) — in progress
+### Honors: the SR-award-page route (and its gotchas)
 
-Target: `src/data/michigan-football.json`, schema = `FbPlayer`/`FbStats`
-(`src/types.ts`). Best single season per unique player; positions QB/RB/WR/TE
-(offense) and DE/DT/LB/CB/S (defense).
+The most reliable way to populate `honors` is to re-derive them from
+**Sports-Reference's per-conference award pages**, then verify any All-American
+against the player's own SR page. A prior human/LLM "research pass" is unreliable
+in BOTH directions — in one session it both **omitted ~13 real honored VCU
+players** and **fabricated 4 Pitt All-Americans** (only DeJuan Blair's consensus
+AA was real). Operational details that bit us:
+
+- **URLs moved to `/cbb/awards/men/<slug>.html`** — the old `/cbb/awards/<slug>`
+  now 301-redirects, so fetch with `curl -L` and the `/men/` path.
+- **All-conference page:** table `id="all-conf"`; the team level (1st/2nd/3rd)
+  lives in separator rows `<tr class='thead'><td colspan=20>1st Team</td>`. **SR
+  has NO Honorable Mention section** — HM can't be SR-verified (use Wikipedia /
+  official conference releases for HM).
+- **Single-award page ids:** `conf-poy`, `conf-dpoy`, `conf-roy`,
+  `conf-sixth-man`, `conf-all-defense`, `conf-all-frosh`.
+- **Slug quirks:** the CAA is `coastal` on SR.
+- **Co-/tied winners** are marked `"(T)"` in the season cell (e.g.
+  `"2001-02 (T)"`) — an exact-string year filter MISSES these. (Brandin Knight's
+  2002 Big East POY is a real shared award, not a fabrication.)
+- **Name suffixes:** SR omits generational suffixes (Jr./Sr./II/III/IV), so a
+  name-normalizer must strip them to match roster names — and check for collisions
+  after stripping.
+
+## Football (2005+) — MOCK seed live; curated data pending
+
+A **MOCK/provisional** `src/data/michigan-football.json` (135 players,
+`_provisional: true`) already exists and powers the playable football mode — it
+fleshes out the end-to-end flow ahead of curated data and is flagged provisional
+in the loader. The work below is to **replace that mock seed with curated, sourced
+data**. Schema = `FbPlayer`/`FbStats` (`src/types.ts`); best single season per
+unique player; positions QB/RB/WR/TE (offense) and DE/DT/LB/CB/S (defense).
 
 - **Primary source = Wikipedia** (keyless, CC-BY-SA): player pages + "YYYY
   Michigan Wolverines football team" season pages (statistical leaders). Two

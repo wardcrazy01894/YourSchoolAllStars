@@ -10,9 +10,10 @@ Strike through as they're answered.
 - ~~Stat line per player?~~ → **Best single season.**
 - ~~How much data at launch?~~ → **Full basketball rosters** (starters + key
   rotation), sourced not fabricated.
-- ~~How hard should a perfect 40-0 be?~~ → **Rare, like the original (~4%)** —
-  tune the rating curve to make perfection a real chase. (Calibrate once the
-  dataset is complete.)
+- ~~How hard should a perfect 40-0 be?~~ → _(Superseded 2026-06-26.)_ Originally
+  "rare, like the original (~4%)"; **revised to a more forgiving curve** — the
+  ~4% target is **retired** (undefeated cutoff 85, pivot 57, winless floor 30).
+  See `docs/PLAN.md` §Rating model and `src/lib/rating.ts`.
 - ~~Daily format?~~ → **One-shot + streaks**, AND a separate **free-play** mode
   ("play as much as you want").
 - ~~Which modes at launch?~~ → **Daily + Classic (free-play) + Hoops IQ**
@@ -27,9 +28,9 @@ Strike through as they're answered.
 - ~~Domain / hosting?~~ → **Keep github.io for now**; may add a custom domain
   later.
 - ~~Honors weighting?~~ → **Keep honors meaningful** (current +9–12 bonus).
-- ~~Go public + deploy?~~ → **Auto-flip the repo public** (→ Pages deploy +
-  branch protection) once the 5 coverage gaps are filled and the rating is
-  calibrated. No sign-off needed.
+- ~~Go public + deploy?~~ → **Done.** The repo was auto-flipped public once the
+  coverage gaps were filled and the rating calibrated; Pages deploy + branch
+  protection are live.
 
 ## Open
 

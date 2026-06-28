@@ -4,23 +4,28 @@ A daily draft game for one school's all-time greats. Each day spins a sequence o
 **4-year windows** from your school's history; you draft a starting five — **PG,
 SG, SF, PF, C** — one player per round, each slot locking once filled. You get
 **one re-spin**. The better and more balanced your five, the closer to a perfect
-**40–0** season. First school up: **Michigan**.
+**40–0** season. Six schools are live; Michigan is the default.
 
 It's the [40-0.com](https://www.20-0.com/40-0/) idea (and its football sibling
 [16-0](https://www.20-0.com/16-0/daily)), narrowed to a single university — so
 it's _your_ school's all-time team you're building.
 
-> Independent fan project. Not affiliated with or endorsed by the University of
-> Michigan. Player data is curated from public, license-clean sources.
+> Independent fan project. Not affiliated with or endorsed by any of the
+> universities featured. Player data is curated from public, license-clean
+> sources.
 
 ## Status
 
-**Playable.** A **university picker** themes the whole UI to your school
-(Michigan maize/blue now; UNC Carolina blue queued). Michigan basketball runs on
-**49 sourced players** (1994–2025); 5 thin-era roster cells are still being
-filled (see
-[`docs/DATA-SOURCING.md`](docs/DATA-SOURCING.md)). Football (2005+) and North
-Carolina are staged behind the same engine.
+**Live & deployed** (public, on GitHub Pages). A **university picker** themes the
+whole UI to your school. **Six basketball schools** are playable: **Michigan,
+North Carolina, Florida, Virginia Tech, Pittsburgh, and VCU** (Michigan is the
+default; VCU is the lone non-power-5 school and fields no football). Each runs on
+a fully sourced, gap-free dataset — Michigan alone is **95 sourced players / 259
+season rows (1992–2026)**, with every (window × position) and (year × position)
+cell covered (see [`docs/DATA-SOURCING.md`](docs/DATA-SOURCING.md)). **Football
+(2005+)** is playable behind a per-school sport picker on a **MOCK/provisional**
+Michigan dataset (engine, rating, and UI all built; curated football data is the
+remaining work).
 
 ## How to play
 
