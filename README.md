@@ -1,5 +1,7 @@
 # YourSchoolAllStars 🏀
 
+**▶ Play it live: https://wardcrazy01894.github.io/YourSchoolAllStars/**
+
 A daily draft game for one school's all-time greats. Each day spins a sequence of
 **4-year windows** from your school's history; you draft a starting five — **PG,
 SG, SF, PF, C** — one player per round, each slot locking once filled. You get
