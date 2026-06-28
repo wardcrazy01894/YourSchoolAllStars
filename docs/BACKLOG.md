@@ -2,14 +2,17 @@
 
 Roughly priority-ordered. Pull items into PRs; keep each PR small.
 
-## Now (to launch Michigan basketball)
+## Now (to launch Michigan basketball) — DONE
 
-- [x] **Curated basketball dataset** — 49 sourced players, `_provisional: false`.
-- [ ] **Fill the 5 `KNOWN_GAPS`** (window×position cells with no player) so the
-      guard empties to `[]`. Gap-fill pass running. (`docs/DATA-SOURCING.md`)
-- [ ] **Calibrate the rating curve** to ~4% perfect once gaps are filled.
-- [x] **GitHub repo + CI green** (private). Branch protection + Pages deploy
-      deferred until the repo goes public (after gaps filled).
+- [x] **Curated basketball dataset** — Michigan = 95 sourced players / 259 rows,
+      `_provisional: false`.
+- [x] **Fill the `KNOWN_GAPS`** — every window×position AND year×position cell now
+      has a player; the guard lists are empty `[]`. (`docs/DATA-SOURCING.md`)
+- [x] **Rating curve calibrated** — the ~4% perfect target was **retired** (Alex,
+      2026-06-26) for a more forgiving curve (undefeated cutoff 85, pivot 57,
+      winless floor 30). Tuning lives in `src/lib/rating.ts`.
+- [x] **GitHub repo + CI green**, repo **public**, branch protection on, Pages
+      deploy live (`.github/workflows/deploy.yml`).
 - [x] **University picker + per-school theming** (`src/schools.ts`).
 
 ## Daily polish
@@ -29,20 +32,24 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
       (stats-hidden) toggle.
 - [ ] **"By position" draft view** (40-0 has it).
 
-## Football (M5)
+## Football (M6) — playable on MOCK data
 
-- [ ] Football types + 12-slot roster (QB/RB/WR/TE + 2 flex; DE/DT/LB/CB/S + 1
-      flex), windows from 2005.
-- [ ] CFBD ingestion script (offense + 2005+ defense), provenance per row.
-- [ ] Football rating model (separate position weights; out of 16 games).
+- [x] Football types + 12-slot roster (QB/RB/WR/TE + 2 flex; DE/DT/LB/CB/S + 1
+      flex), windows from 2005 (`src/types.ts`, `src/lib/football.ts`).
+- [x] Football rating model + draft state machine + UI (`football-rating.ts`,
+      `football-game.ts`, `football-result.ts`, `App.tsx`), playable on a MOCK
+      `michigan-football.json` seed.
+- [ ] **Curated (non-mock) football dataset** — CFBD/Wikipedia ingestion (offense + 2005+ defense), provenance per row, to replace the MOCK seed.
 
 ## Multi-school
 
 - [x] **School registry** (`src/schools.ts`) + picker landing + per-school CSS
       theming. Engine is school-agnostic.
-- [ ] **North Carolina** (Tar Heels) and **Florida** (Gators) — both in the
-      registry/themed ("coming soon"); add datasets to go live. Target end state:
-      **all 3 schools × both sports** (basketball + football).
+- [x] **Six basketball schools live** — Michigan, North Carolina, Florida,
+      Virginia Tech, Pittsburgh, VCU (VCU non-power-5, no football). Each ships a
+      real, gap-free, sourced dataset.
+- [ ] **More schools / curated football data** — end state: the live schools ×
+      both sports (curated football still to come).
 
 ## Engine / quality
 
