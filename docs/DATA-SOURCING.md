@@ -292,7 +292,8 @@ tenure (per-player coverage)`). The corollary the tooling can't check for you: *
   - **Pittsburgh** (`pitt-basketball.json`) — 197 players / 442 rows, 1994–2026.
   - **VCU** (`vcu-basketball.json`) — 198 players / 420 rows, 1994–2026. The lone
     **non-power-5** school (Atlantic 10; `School.power5 = false`) and fields no
-    football. Conferences over the span: CAA (through 2012) → Atlantic 10 (2013+).
+    football. Conferences over the span: Metro (through 1995) → CAA (1996–2012) →
+    Atlantic 10 (2013+) — so the 1994/1995 season-ending rows are Metro-era.
     Stats follow the same priority (official/Wikipedia → SR per-player page → ESPN
     keyless API for recent players). **Honors** for these were re-derived award-first
     from Sports-Reference's own per-conference award pages — see **Honors: the
