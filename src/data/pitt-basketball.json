@@ -5002,7 +5002,7 @@
       "id": "michael-young",
       "name": "Michael Young",
       "position": "PF",
-      "eligible": ["SF", "PF", "C"],
+      "eligible": ["SF", "PF"],
       "firstYear": 2014,
       "lastYear": 2017,
       "seasons": [
