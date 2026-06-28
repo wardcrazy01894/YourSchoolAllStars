@@ -220,3 +220,27 @@ describe.each(DATASETS)('$school basketball dataset', ({ players }) => {
     expect(gaps.sort()).toEqual([])
   })
 })
+
+describe('Pittsburgh centers (small-ball-era bigs are C-eligible)', () => {
+  // Alex flagged that Pitt's C slot in several windows was falling to scrubs
+  // (a sub-3-rebound "center") while the team's actual 6'8"–6'9" frontcourt
+  // anchors were tagged forward-only. In the small-ball era a 6'9" four often
+  // IS the five; these players each genuinely manned center, verified by their
+  // SR listed height + role. They must be eligible at C so the draft pool offers
+  // a real center, not a benchwarmer. (`eligible` is the COMPLETE slot set, so
+  // C-eligibility is asserted via eligiblePositions, and these keep SF/PF too.)
+  const C_ELIGIBLE_BIGS = [
+    'isaac-hawkins', // 6'8" — 14.2/9.2 as the 1998 frontcourt anchor
+    'talib-zanna', // 6'9" — back-to-basket 4/5, 13/8 senior year
+    'michael-young', // 6'9" — 2017 All-ACC big who played the 5 in small lineups
+    'ryan-luther', // 6'9" — stretch big who slid to center
+    'john-hugley', // 6'9" — post-up center (id is john-hugley; "John Hugley IV")
+    'mouhamadou-gueye', // 6'9" — shot-blocking five
+  ]
+
+  it.each(C_ELIGIBLE_BIGS)('%s is eligible at C', (id) => {
+    const p = pittsburghBasketball.players.find((pl) => pl.id === id)
+    expect(p, `expected Pitt player id "${id}" to exist`).toBeTruthy()
+    expect(eligiblePositions(p!)).toContain('C')
+  })
+})

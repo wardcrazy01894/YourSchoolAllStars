@@ -2774,7 +2774,7 @@
       "id": "isaac-hawkins",
       "name": "Isaac Hawkins",
       "position": "PF",
-      "eligible": ["SF", "PF"],
+      "eligible": ["SF", "PF", "C"],
       "firstYear": 1997,
       "lastYear": 2001,
       "seasons": [
@@ -3675,7 +3675,7 @@
       "id": "john-hugley",
       "name": "John Hugley IV",
       "position": "PF",
-      "eligible": ["SF", "PF"],
+      "eligible": ["SF", "PF", "C"],
       "firstYear": 2021,
       "lastYear": 2023,
       "seasons": [
@@ -5002,7 +5002,7 @@
       "id": "michael-young",
       "name": "Michael Young",
       "position": "PF",
-      "eligible": ["SF", "PF"],
+      "eligible": ["SF", "PF", "C"],
       "firstYear": 2014,
       "lastYear": 2017,
       "seasons": [
@@ -5261,7 +5261,7 @@
       "id": "mouhamadou-gueye",
       "name": "Mouhamadou Gueye",
       "position": "PF",
-      "eligible": ["SF", "PF"],
+      "eligible": ["SF", "PF", "C"],
       "firstYear": 2022,
       "lastYear": 2022,
       "seasons": [
@@ -6007,7 +6007,7 @@
       "id": "ryan-luther",
       "name": "Ryan Luther",
       "position": "PF",
-      "eligible": ["SF", "PF"],
+      "eligible": ["SF", "PF", "C"],
       "firstYear": 2015,
       "lastYear": 2018,
       "seasons": [
@@ -6504,7 +6504,7 @@
       "id": "talib-zanna",
       "name": "Talib Zanna",
       "position": "PF",
-      "eligible": ["SF", "PF"],
+      "eligible": ["SF", "PF", "C"],
       "firstYear": 2010,
       "lastYear": 2014,
       "seasons": [
