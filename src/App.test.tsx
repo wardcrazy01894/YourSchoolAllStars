@@ -113,7 +113,9 @@ describe('RosterRail — hideRating', () => {
   }
 
   it('shows the numeric rating by default', () => {
-    const { container } = render(<RosterRail slots={slots} power5Of={() => true} />)
+    const { container } = render(
+      <RosterRail slots={slots} power5Of={() => true} />,
+    )
     expect(container.querySelector('.prate')).not.toBeNull()
   })
 

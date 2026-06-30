@@ -106,7 +106,11 @@ export function evaluateRoster(
     (pos) => state.slots[pos] !== null,
   ).map((pos) => ({
     position: pos,
-    rating: playerRating(state.slots[pos]!, winByPos[pos], p5(state.slots[pos]!)),
+    rating: playerRating(
+      state.slots[pos]!,
+      winByPos[pos],
+      p5(state.slots[pos]!),
+    ),
   }))
   const wins = projectedWins(rated, games)
   const ratingsByPosition = Object.fromEntries(
