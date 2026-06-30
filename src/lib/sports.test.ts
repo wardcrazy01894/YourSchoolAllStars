@@ -84,6 +84,14 @@ describe('sportPlayableForSchool', () => {
     ).toBe(true)
   })
 
+  it('basketball is NOT playable for a school with no basketball dataset', () => {
+    // Unreachable today (every real school carries basketball), but the guard is
+    // symmetric with football — verify it.
+    expect(
+      sportPlayableForSchool(school({ basketball: undefined }), 'basketball'),
+    ).toBe(false)
+  })
+
   it('football is playable only when the school carries a football dataset', () => {
     expect(
       sportPlayableForSchool(

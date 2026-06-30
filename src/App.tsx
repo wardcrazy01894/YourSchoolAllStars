@@ -498,9 +498,12 @@ function SportMenu({
             <button
               key={s.id}
               className={`mode-card${playable ? '' : ' soon'}`}
-              onClick={playable ? () => onPick(s.id) : undefined}
-              disabled={!playable}
+              // `aria-disabled` (not native `disabled`) keeps a "coming soon"
+              // card in the tab order so screen-reader users can still reach it
+              // and hear the chip — it's non-clickable because `onClick` is a
+              // no-op when not playable, not because it's removed from focus.
               aria-disabled={!playable}
+              onClick={playable ? () => onPick(s.id) : undefined}
             >
               {!playable && <span className="soon-chip">Coming soon</span>}
               <span className="mode-emoji">{s.emoji}</span>
