@@ -24,7 +24,16 @@ import {
   DEFAULT_SCHOOL_ID,
   SCHOOLS,
   type School,
+  type Theme,
 } from './schools'
+import {
+  buildFullPool,
+  buildSchoolWheels,
+  generateFullSpins,
+  power5OfFull,
+  type FullPlayer,
+  type SchoolWheel,
+} from './lib/full'
 import { buildRollingWindows, datasetMaxYear } from './lib/windows'
 import {
   DAILY_BBALL_ERAS,
@@ -68,7 +77,7 @@ import {
   type SavedDaily,
 } from './lib/progress'
 import { buildShareString, buildFbShareString } from './lib/share'
-import { buildReelPlan } from './lib/reel'
+import { buildReelPlan, buildIndexReelPlan } from './lib/reel'
 import {
   initFbDraft,
   draftToSlot as fbDraftToSlot,
@@ -111,6 +120,52 @@ const GAMES = 40
 
 /** Spin duration (ms). Kept in sync with the wheel's CSS deceleration. */
 const SPIN_MS = 2600
+
+// ── Full Basketball ───────────────────────────────────────────────────────────
+// Sentinel "school" ids for the two cross-school home cards. They aren't real
+// `School`s (no single dataset), so routing special-cases them before the normal
+// school → sport → mode flow. Full Football is a placeholder card until its
+// engine ships.
+const FULL_BBALL_ID = 'full-basketball'
+const FULL_FB_ID = 'full-football'
+
+/** Neutral multi-school theme for the Full games (no single school's colors). */
+const FULL_THEME: Theme = {
+  brand: '#1f2933',
+  brand2: '#323f4b',
+  accent: '#f0b429',
+  ink: '#0b1118',
+}
+
+/**
+ * A synthetic `School` so Full Basketball can reuse `ModeMenu` (which is keyed on
+ * `school.id`/`name`/`theme`). It has no `basketball` dataset of its own — the
+ * combined pool is built from every live school in `FullGame` — but it carries the
+ * sentinel id used for its own daily lock + streak namespace.
+ */
+const FULL_BBALL_SCHOOL: School = {
+  id: FULL_BBALL_ID,
+  name: 'Full Basketball',
+  short: 'Full',
+  mascot: 'All Schools',
+  emoji: '🏀',
+  theme: FULL_THEME,
+  hasFootball: false,
+  power5: true,
+  available: true,
+}
+
+/** schoolId → display metadata (name + emoji) for Full era labels and per-pick tags. */
+const SCHOOL_META = new Map(
+  SCHOOLS.map((s) => [s.id, { name: s.name, emoji: s.emoji }]),
+)
+
+/** The per-pick origin tag for a drafted player, if it carries school provenance
+ *  (a `FullPlayer` in Full Basketball). Plain single-school picks return null. */
+function schoolTagOf(p: BballPlayer): { name: string; emoji: string } | null {
+  const id = (p as Partial<FullPlayer>).schoolId
+  return id ? (SCHOOL_META.get(id) ?? null) : null
+}
 
 /** Read the user's reduced-motion preference once (stable for the component's life). */
 function usePrefersReducedMotion(): boolean {
@@ -158,11 +213,16 @@ function activeDateKey(): string {
   return getDateKey()
 }
 
+/** True for a routable school id — a live `School` OR the Full Basketball sentinel. */
+function isRoutableSchoolId(id: string | null | undefined): boolean {
+  return id === FULL_BBALL_ID || (!!id && !!getSchool(id)?.available)
+}
+
 function initialSchoolId(): string | null {
   const q = param('school')
-  if (q && getSchool(q)?.available) return q
+  if (isRoutableSchoolId(q)) return q
   const saved = localStorage.getItem(SCHOOL_STORAGE_KEY)
-  if (saved && getSchool(saved)?.available) return saved
+  if (isRoutableSchoolId(saved)) return saved
   return null
 }
 
@@ -180,7 +240,12 @@ export default function App() {
   const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
   const [sportId, setSportId] = useState<string | null>(initialSportId)
   const [modeId, setModeId] = useState<GameMode | null>(initialModeId)
-  const school = getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
+  // The Full Basketball sentinel isn't a real `School`; substitute its synthetic
+  // descriptor so the theme effect + any school-typed consumer stay well-typed.
+  const isFull = schoolId === FULL_BBALL_ID
+  const school = isFull
+    ? FULL_BBALL_SCHOOL
+    : getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
 
   useEffect(() => {
     applyTheme(school.theme)
