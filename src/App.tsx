@@ -32,7 +32,7 @@ import {
   generateFullSpins,
   power5OfFull,
   type FullPlayer,
-  type SchoolWheel,
+  type EraSpin,
 } from './lib/full'
 import { buildRollingWindows, datasetMaxYear } from './lib/windows'
 import {
@@ -127,7 +127,6 @@ const SPIN_MS = 2600
 // school → sport → mode flow. Full Football is a placeholder card until its
 // engine ships.
 const FULL_BBALL_ID = 'full-basketball'
-const FULL_FB_ID = 'full-football'
 
 /** Neutral multi-school theme for the Full games (no single school's colors). */
 const FULL_THEME: Theme = {
@@ -274,6 +273,31 @@ export default function App() {
   // to a "coming soon" screen rather than a half-built draft; both basketball and
   // football are live, so today that screen only shows for a future sport.
   if (!schoolId) return <Picker onPick={chooseSchool} />
+  // Full Basketball is implicitly basketball (no sport step): jump straight from
+  // the home card to the mode menu (the same 4 modes, incl. Daily IQ) → FullGame.
+  // It owns the `full-basketball` daily lock + streak namespace via PR 2.
+  if (isFull) {
+    const bball = getSport('basketball')
+    if (!modeId || !sportOffersMode('basketball', modeId))
+      return (
+        <ModeMenu
+          school={FULL_BBALL_SCHOOL}
+          sport={bball}
+          onPick={setModeId}
+          onBackToSports={switchSchool}
+          onSwitchSchool={switchSchool}
+        />
+      )
+    return (
+      <FullGame
+        key={`${FULL_BBALL_ID}:${modeId}`}
+        sport={bball}
+        mode={getMode(modeId)}
+        onExitToModes={() => setModeId(null)}
+        onSwitchSchool={switchSchool}
+      />
+    )
+  }
   if (!sportId)
     return (
       <SportMenu
@@ -356,6 +380,44 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
         </p>
       </section>
       <div className="picker">
+        {/* Cross-school games first: draft from EVERY school, team + era spun
+            together. Full Basketball is live; Full Football waits on its engine. */}
+        <div
+          className="school-card"
+          style={{
+            background: `linear-gradient(160deg, ${FULL_THEME.brand}, ${FULL_THEME.brand2})`,
+            boxShadow: `inset 0 0 0 2px ${FULL_THEME.accent}55`,
+          }}
+          onClick={() => onPick(FULL_BBALL_ID)}
+          role="button"
+        >
+          <div
+            className="crest"
+            style={{ background: FULL_THEME.accent, color: FULL_THEME.brand }}
+          >
+            🏀
+          </div>
+          <div className="sc-name">Full Basketball</div>
+          <div className="sc-mascot">All schools · any era</div>
+        </div>
+        <div
+          className="school-card soon"
+          style={{
+            background: `linear-gradient(160deg, ${FULL_THEME.brand}, ${FULL_THEME.brand2})`,
+            boxShadow: 'none',
+          }}
+          aria-disabled={true}
+        >
+          <span className="soon-chip">Coming soon</span>
+          <div
+            className="crest"
+            style={{ background: FULL_THEME.accent, color: FULL_THEME.brand }}
+          >
+            🏈
+          </div>
+          <div className="sc-name">Full Football</div>
+          <div className="sc-mascot">All schools · any era</div>
+        </div>
         {SCHOOLS.map((s) => (
           <div
             key={s.id}
@@ -780,6 +842,211 @@ function Game({
   )
 }
 
+// ── Full Basketball ──────────────────────────────────────────────────────────
+// Same draft flow as the single-school basketball Game, but every era spins BOTH
+// a team and a window: a cross-school pool is scoped to the era's school each
+// round, the spinner runs a two-phase (team → year) reel, and each starter is
+// rated with its OWN school's power-5 flag (the non-power-5 haircut is per-player,
+// never team-wide). It owns the `full-basketball` daily lock + streak namespace.
+function FullGame({
+  sport,
+  mode,
+  onExitToModes,
+  onSwitchSchool,
+}: {
+  sport: SportConfig
+  mode: ModeConfig
+  onExitToModes: () => void
+  onSwitchSchool: () => void
+}) {
+  const school = FULL_BBALL_SCHOOL
+  // The cross-school pool and per-school era wheels derive from the live schools
+  // once; they don't change during a session. Empty-data schools drop out in the
+  // builders, so a dead era can never surface.
+  const pool = useMemo(() => buildFullPool(SCHOOLS), [])
+  const wheels = useMemo(() => buildSchoolWheels(SCHOOLS), [])
+
+  const dateKey = useMemo(activeDateKey, [])
+  // Daily/Daily-IQ share ONE deterministic seed for today (same team+era sequence
+  // for everyone); free-play modes get a fresh random seed per game. `seedFor`
+  // ignores the mode, so Daily and Daily IQ naturally draw the same sequence.
+  const [gameSeed, setGameSeed] = useState<number>(() =>
+    mode.daily ? seedFor(dateKey, 'full:basketball') : randomSeed(),
+  )
+  const eras = useMemo<EraSpin[]>(
+    () => generateFullSpins(gameSeed, DAILY_BBALL_ERAS, wheels),
+    [gameSeed, wheels],
+  )
+  // The draft engine consumes a plain window list; eras[cursor] re-supplies the
+  // school for that window, kept in lockstep with state.cursor.
+  const spins = useMemo(() => eras.map((e) => e.window), [eras])
+
+  const [savedToday] = useState(() =>
+    mode.daily ? loadDaily(school.id, sport.id, dateKey, mode.id) : null,
+  )
+  const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
+    savedToday ? 'done' : 'landing',
+  )
+  const [state, setState] = useState<DraftState>(() =>
+    savedToday ? rosterFromSaved(savedToday, pool) : initDraft(spins),
+  )
+  const [streak, setStreak] = useState<Streak>(() =>
+    loadStreak(school.id, sport.id, mode.id),
+  )
+  const [result, setResult] = useState<SavedDaily | null>(savedToday)
+  const returning = savedToday !== null
+
+  // This era's team: scope the surfaced pool + year wheel to its school, and
+  // compute the team-reel landing index. Memoized on the school id so their
+  // references stay stable across a spin's re-renders (a fresh array mid-spin
+  // would restart the reel) and only change when the cursor advances.
+  const eraSpin = eras[state.cursor] as EraSpin | undefined
+  const eraSchoolId = eraSpin?.schoolId ?? null
+  const eraWheel = useMemo(
+    () =>
+      eraSchoolId
+        ? (wheels.find((w) => w.schoolId === eraSchoolId)?.windows ?? [])
+        : [],
+    [wheels, eraSchoolId],
+  )
+  const eraPool = useMemo(
+    () => (eraSchoolId ? pool.filter((p) => p.schoolId === eraSchoolId) : pool),
+    [pool, eraSchoolId],
+  )
+  const teamReel = useMemo(
+    () =>
+      wheels.map((w) => {
+        const m = SCHOOL_META.get(w.schoolId)
+        return { emoji: m?.emoji ?? '🏀', name: m?.name ?? w.schoolId }
+      }),
+    [wheels],
+  )
+  const teamTarget = useMemo(
+    () =>
+      eraSchoolId ? wheels.findIndex((w) => w.schoolId === eraSchoolId) : 0,
+    [wheels, eraSchoolId],
+  )
+  const eraTag = useMemo(() => {
+    if (!eraSchoolId) return undefined
+    const m = SCHOOL_META.get(eraSchoolId)
+    return { emoji: m?.emoji ?? '🏀', name: m?.name ?? eraSchoolId }
+  }, [eraSchoolId])
+
+  function start() {
+    if (spins.length === 0) return
+    setState(initDraft(spins))
+    setPhase('playing')
+  }
+
+  function advance(next: DraftState) {
+    setState(next)
+    if (isComplete(next)) finish(next)
+  }
+
+  function finish(s: DraftState) {
+    setPhase('done')
+    // Per-player power-5: rate each starter on its OWN school's flag, so a
+    // non-power-5 pick is dinged without touching its power-5 teammates.
+    const saved = savedDailyFrom(s, dateKey, GAMES, power5OfFull)
+    setResult(saved)
+    if (mode.daily) {
+      const updated = saveDailyResult(school.id, sport.id, saved, {
+        advanceStreak: dateKey === getDateKey(),
+        mode: mode.id,
+      })
+      setStreak(updated)
+    }
+    if (
+      saved.grade === 'PERFECT' ||
+      saved.grade === 'HISTORIC' ||
+      saved.grade === 'ELITE'
+    ) {
+      confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
+    }
+  }
+
+  function playAgain() {
+    if (mode.daily) return
+    const next = randomSeed()
+    setGameSeed(next)
+    setResult(null)
+    setState(
+      initDraft(
+        generateFullSpins(next, DAILY_BBALL_ERAS, wheels).map((e) => e.window),
+      ),
+    )
+    setPhase('playing')
+  }
+
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="ball">{school.emoji}</span>
+          <div>
+            YourSchoolAllStars
+            <small>
+              {school.name} · {mode.name}
+            </small>
+          </div>
+        </div>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onExitToModes}>
+            ← Modes
+          </button>
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ Home
+          </button>
+        </div>
+      </header>
+
+      {phase === 'landing' && (
+        <Landing
+          school={school}
+          mode={mode}
+          dateKey={dateKey}
+          playable={spins.length > 0}
+          streak={streak}
+          onStart={start}
+        />
+      )}
+      {phase === 'playing' && (
+        <Playing
+          players={eraPool}
+          state={state}
+          wheel={eraWheel}
+          hideStats={mode.hideStats}
+          power5Of={power5OfFull}
+          onAdvance={advance}
+          teamReel={teamReel}
+          teamTarget={teamTarget}
+          eraTag={eraTag}
+          schoolTag={schoolTagOf}
+        />
+      )}
+      {phase === 'done' && (
+        <Results
+          school={school}
+          mode={mode}
+          state={state}
+          dateKey={dateKey}
+          streak={streak}
+          saved={result}
+          returning={returning}
+          onPlayAgain={playAgain}
+          power5Of={power5OfFull}
+          schoolTag={schoolTagOf}
+        />
+      )}
+
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by any
+        school. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
 function StreakChips({ streak }: { streak: Streak }) {
   if (streak.max === 0) return null // never completed a day — nothing to show
   return (
@@ -854,6 +1121,7 @@ export function RosterRail({
   onPlace,
   hideRating,
   power5Of,
+  schoolTag,
 }: {
   slots: DraftState['slots']
   /** Era each filled slot was drafted from, so its rating matches the pick. */
@@ -869,6 +1137,9 @@ export function RosterRail({
    * pass `() => school.power5`; Full Basketball resolves each player's own school.
    */
   power5Of: (player: BballPlayer) => boolean
+  /** Full Basketball: the school each pick came from, shown as a small origin tag.
+   *  Omitted (single-school games) → no tag. */
+  schoolTag?: (player: BballPlayer) => { name: string; emoji: string } | null
 }) {
   const targets = new Set(targetable ?? [])
   return (
@@ -876,6 +1147,7 @@ export function RosterRail({
       {BBALL_POSITIONS.map((pos) => {
         const p = slots[pos]
         const isTarget = targets.has(pos)
+        const tag = p ? (schoolTag?.(p) ?? null) : null
         return (
           <div
             key={pos}
@@ -887,6 +1159,11 @@ export function RosterRail({
             {p ? (
               <>
                 <div className="pname">{p.name}</div>
+                {tag && (
+                  <div className="school-tag" title={tag.name}>
+                    {tag.emoji} {tag.name}
+                  </div>
+                )}
                 {!hideRating && (
                   <div className="prate">
                     {playerRating(p, windows?.[pos], power5Of(p))}
@@ -912,6 +1189,10 @@ export function Playing({
   hideStats,
   power5Of,
   onAdvance,
+  teamReel,
+  teamTarget,
+  eraTag,
+  schoolTag,
 }: {
   players: BballPlayer[]
   state: DraftState
@@ -923,6 +1204,18 @@ export function Playing({
    * that player. Single-school games pass `() => school.power5`. */
   power5Of: (player: BballPlayer) => boolean
   onAdvance: (s: DraftState) => void
+  /**
+   * Full Basketball: the ordered team wheel. When present the spin runs a
+   * SEQUENTIAL two-phase reel — the team lands first, then the year. Omitted
+   * (single-school games) → the single year reel, unchanged.
+   */
+  teamReel?: { emoji: string; name: string }[]
+  /** Index in `teamReel` of THIS era's school (where the team reel lands). */
+  teamTarget?: number
+  /** Full Basketball: this era's school, labelled on the era bar. */
+  eraTag?: { emoji: string; name: string }
+  /** Full Basketball: per-pick origin tag, forwarded to the roster rail. */
+  schoolTag?: (player: BballPlayer) => { name: string; emoji: string } | null
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [reveal, setReveal] = useState(false)
@@ -931,6 +1224,9 @@ export function Playing({
   // the reset frame is committed is what triggers the decelerating scroll (set it
   // true on mount and the column would jump to the target with no animation).
   const [rolling, setRolling] = useState(false)
+  // Full Basketball spins two reels in sequence: 'team' lands the school, then
+  // 'year' lands the era. 'idle' = single-school games (year reel only).
+  const [spinPhase, setSpinPhase] = useState<'idle' | 'team' | 'year'>('idle')
   const timeoutRef = useRef<number | undefined>(undefined)
   const rafRef = useRef<number | undefined>(undefined)
   const reduced = usePrefersReducedMotion()
@@ -950,6 +1246,24 @@ export function Playing({
     () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
     [wheel, targetYear],
   )
+  // Full Basketball: geometry for the TEAM reel (phase 1). Present only when the
+  // caller supplies a team wheel; single-school games leave it null and spin the
+  // year reel alone. Memoized so it stays stable across the spin's re-renders.
+  const teamPlan = useMemo(
+    () =>
+      teamReel && teamReel.length > 0
+        ? buildIndexReelPlan(teamReel.length, teamTarget ?? 0)
+        : null,
+    [teamReel, teamTarget],
+  )
+  const twoPhase = teamPlan !== null
+  // Each phase of a two-phase spin takes half the budget so the whole sequence
+  // still lands in SPIN_MS; a single-phase spin uses the full budget.
+  const phaseMs = twoPhase ? Math.round(SPIN_MS / 2) : SPIN_MS
+  // Which strip the wheel is currently scrolling — team emojis during 'team',
+  // era years otherwise. Its offset drives the translate.
+  const activeOffset =
+    spinPhase === 'team' ? (teamPlan?.offset ?? 0) : (plan?.offset ?? 0)
 
   // Group players by primary position. Normally sort within group by IN-WINDOW
   // points, but in Hoops IQ that would leak the hidden stat ranking — sort by name
@@ -990,12 +1304,23 @@ export function Playing({
     setReveal(false)
     setSpinning(false)
     setRolling(false)
+    setSpinPhase('idle')
     setSelectedId(null)
     return () => {
       window.clearTimeout(timeoutRef.current)
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
     }
   }, [state.cursor])
+
+  // Start one reel scroll: pin the column at the top with the transition OFF,
+  // then enable it on the next committed frame so the browser animates from the
+  // reset position instead of snapping to the target.
+  function rollOnce() {
+    setRolling(false)
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = requestAnimationFrame(() => setRolling(true))
+    })
+  }
 
   function spin() {
     if (!w || spinning || reveal || !plan) return
@@ -1008,16 +1333,26 @@ export function Playing({
       return
     }
     setSpinning(true)
-    setRolling(false) // pin the column at the top with the transition OFF…
-    // …then enable the transition on the next committed frame so the browser
-    // animates from the reset position instead of snapping to the target.
-    rafRef.current = requestAnimationFrame(() => {
-      rafRef.current = requestAnimationFrame(() => setRolling(true))
-    })
-    timeoutRef.current = window.setTimeout(() => {
-      setSpinning(false)
-      setReveal(true)
-    }, SPIN_MS)
+    if (twoPhase) {
+      // Phase 1: land the TEAM, then phase 2: land the YEAR, then reveal.
+      setSpinPhase('team')
+      rollOnce()
+      timeoutRef.current = window.setTimeout(() => {
+        setSpinPhase('year')
+        rollOnce()
+        timeoutRef.current = window.setTimeout(() => {
+          setSpinning(false)
+          setReveal(true)
+        }, phaseMs)
+      }, phaseMs)
+    } else {
+      setSpinPhase('idle')
+      rollOnce()
+      timeoutRef.current = window.setTimeout(() => {
+        setSpinning(false)
+        setReveal(true)
+      }, phaseMs)
+    }
   }
 
   return (
@@ -1029,30 +1364,40 @@ export function Playing({
         onPlace={place}
         hideRating={hideStats}
         power5Of={power5Of}
+        schoolTag={schoolTag}
       />
 
       {!reveal ? (
         <div className="spinbar">
           <div className="wheel" aria-hidden="true">
             {/* Highlight the landing slot only once the wheel is moving, so no
-                pre-spin year sits under the band looking pre-selected. */}
+                pre-spin cell sits under the band looking pre-selected. */}
             {rolling && <div className="wheel-band" />}
             <div
               className="wheel-col"
               style={{
                 transform: `translateY(calc(var(--reel-cell) * ${
-                  rolling && plan ? -plan.offset : 0
+                  rolling ? -activeOffset : 0
                 }))`,
                 transition: rolling
-                  ? `transform ${SPIN_MS - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
+                  ? `transform ${phaseMs - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
                   : 'none',
               }}
             >
-              {(plan?.cells ?? []).map((y, i) => (
-                <div className="wheel-cell" key={i}>
-                  {y}
-                </div>
-              ))}
+              {/* Phase 1 (Full Basketball) scrolls the TEAM strip; otherwise the
+                  era YEAR strip. The reveal of which team you landed on is the
+                  point of the first reel, so it shows emoji + name. */}
+              {spinPhase === 'team'
+                ? (teamPlan?.cells ?? []).map((idx, i) => (
+                    <div className="wheel-cell wheel-team" key={i}>
+                      {teamReel?.[idx]?.emoji} {teamReel?.[idx]?.name}
+                    </div>
+                  ))
+                : (plan?.cells ?? []).map((y, i) => (
+                    <div className="wheel-cell" key={i}>
+                      {y}
+                    </div>
+                  ))}
             </div>
           </div>
           <button
@@ -1061,7 +1406,9 @@ export function Playing({
             onClick={spin}
           >
             {spinning
-              ? 'Spinning…'
+              ? spinPhase === 'team'
+                ? 'Picking team…'
+                : 'Spinning…'
               : `🎰 Spin era ${Math.min(state.cursor + 1, state.windows.length)} / ${state.windows.length}`}
           </button>
         </div>
@@ -1069,6 +1416,7 @@ export function Playing({
         <>
           <div className="roundbar">
             <div className="era">
+              {eraTag ? `${eraTag.emoji} ${eraTag.name} · ` : ''}
               {w ? windowLabel(w) : ''}
               <small>
                 Era {Math.min(state.cursor + 1, state.windows.length)} /{' '}
@@ -1175,6 +1523,8 @@ function Results({
   saved,
   returning,
   onPlayAgain,
+  power5Of,
+  schoolTag,
 }: {
   school: School
   mode: ModeConfig
@@ -1187,12 +1537,21 @@ function Results({
   returning: boolean
   /** Free-play replay; only surfaced for non-daily modes. */
   onPlayAgain: () => void
+  /**
+   * Per-player conference strength. Omitted (single-school games) → the school's
+   * own flag for every starter. Full Basketball passes a per-player resolver so
+   * the non-power-5 haircut hits only the starters from non-power-5 schools.
+   */
+  power5Of?: (player: BballPlayer) => boolean
+  /** Full Basketball: the school each starter came from, shown as an origin tag. */
+  schoolTag?: (player: BballPlayer) => { name: string; emoji: string } | null
 }) {
+  const power5 = power5Of ?? (() => school.power5)
   // The live re-rate drives the per-row RTG table and team strength. But the
   // headline record + share use the EARNED wins/grade from the save when present:
   // a stats correction between play and replay must never rewrite what you scored.
   // (On a fresh finish, saved was just computed from this same state, so they match.)
-  const live = evaluateRoster(state, GAMES, school.power5)
+  const live = evaluateRoster(state, GAMES, power5)
   const { ratingsByPosition, windowByPosition: winByPos } = live
   const strength = Math.round(live.strength)
   const wins = saved?.wins ?? live.wins
@@ -1246,7 +1605,8 @@ function Results({
       <RosterRail
         slots={state.slots}
         windows={winByPos}
-        power5Of={() => school.power5}
+        power5Of={power5}
+        schoolTag={schoolTag}
       />
 
       <div className="card" style={{ marginTop: 16 }}>
@@ -1275,9 +1635,7 @@ function Results({
                   {STAT_COLS.map((c) => (
                     <td key={c.key}>{p ? fmtStat(s, c.key) : '—'}</td>
                   ))}
-                  <td>
-                    {p ? playerRating(p, winByPos[pos], school.power5) : '—'}
-                  </td>
+                  <td>{p ? playerRating(p, winByPos[pos], power5(p)) : '—'}</td>
                 </tr>
               )
             })}

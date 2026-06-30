@@ -140,4 +140,70 @@ describe('RosterRail — hideRating', () => {
     )
     expect(midMajorRtg).toBeLessThan(power5Rtg)
   })
+
+  it('rates each starter on its OWN power-5 flag (per-player, not team-wide)', () => {
+    // A mixed rail: PG resolves power5=true, SG power5=false. The SG must be
+    // dinged while the PG keeps its full power-5 rating — proving the haircut is
+    // applied per player, never to the whole team.
+    const mixed = { ...slots, PG: PLAYERS[0], SG: PLAYERS[1] }
+    const power5Of = (p: BballPlayer) => p.position !== 'SG'
+    const { container } = render(
+      <RosterRail slots={mixed} power5Of={power5Of} />,
+    )
+    const rates = [...container.querySelectorAll('.prate')].map((n) =>
+      Number(n.textContent),
+    )
+    // Same player flagged both ways: power-5 value beats the haircut value.
+    const pgPower5 = render(
+      <RosterRail slots={{ ...slots, PG: PLAYERS[1] }} power5Of={() => true} />,
+    ).container.querySelector('.prate')!.textContent
+    const pgHaircut = render(
+      <RosterRail
+        slots={{ ...slots, PG: PLAYERS[1] }}
+        power5Of={() => false}
+      />,
+    ).container.querySelector('.prate')!.textContent
+    // The SG slot in the mixed rail took the haircut value, not the power-5 one.
+    expect(rates).toContain(Number(pgHaircut))
+    expect(Number(pgHaircut)).toBeLessThan(Number(pgPower5))
+  })
+
+  it('renders a school-origin tag only when schoolTag is supplied (Full mode)', () => {
+    const plain = render(<RosterRail slots={slots} power5Of={() => true} />)
+    expect(plain.container.querySelector('.school-tag')).toBeNull()
+    cleanup()
+    const full = render(
+      <RosterRail
+        slots={slots}
+        power5Of={() => true}
+        schoolTag={() => ({ emoji: '〽️', name: 'Michigan' })}
+      />,
+    )
+    const tag = full.container.querySelector('.school-tag')
+    expect(tag).not.toBeNull()
+    expect(tag!.textContent).toContain('Michigan')
+  })
+})
+
+describe('Playing — Full Basketball era label', () => {
+  it('prefixes the era bar with the spun school when eraTag is supplied', () => {
+    const state = initDraft(WHEEL)
+    render(
+      <Playing
+        players={PLAYERS}
+        state={state}
+        wheel={WHEEL}
+        hideStats={false}
+        power5Of={() => true}
+        onAdvance={() => {}}
+        teamReel={[{ emoji: '〽️', name: 'Michigan' }]}
+        teamTarget={0}
+        eraTag={{ emoji: '〽️', name: 'Michigan' }}
+        schoolTag={() => ({ emoji: '〽️', name: 'Michigan' })}
+      />,
+    )
+    // Reduced motion reveals instantly; the era bar then names the school.
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+    expect(screen.getByText(/Michigan/)).toBeTruthy()
+  })
 })

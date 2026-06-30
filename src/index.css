@@ -235,6 +235,17 @@ body {
   font-weight: 800;
   margin-top: 4px;
 }
+/* Full Basketball: the school each starter came from, under the player name. */
+.slot .school-tag {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--muted);
+  margin-top: 3px;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* Football roster rail: 12 slots split into offense + defense groups, each a
    6-wide grid (the basketball rail is a single 5-wide row). */
@@ -603,6 +614,16 @@ body {
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
   color: var(--accent);
+}
+/* Full Basketball phase-1 reel shows team emoji + name, which is longer than a
+   year — scale it down and keep it on one line so it fits the wheel cell. */
+.wheel-cell.wheel-team {
+  font-size: clamp(15px, 4vw, 22px);
+  padding: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 /* ── Mode menu (school → sport → mode) ───────────────────────────────────── */
