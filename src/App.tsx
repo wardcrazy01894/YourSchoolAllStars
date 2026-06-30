@@ -113,6 +113,7 @@ import {
   getSport,
   isSportId,
   sportsForSchool,
+  sportPlayableForSchool,
   type SportConfig,
 } from './lib/sports'
 
@@ -269,9 +270,10 @@ export default function App() {
     setSchoolId(null)
   }
 
-  // Flow: school → sport → mode → game. A sport that isn't `available` yet routes
-  // to a "coming soon" screen rather than a half-built draft; both basketball and
-  // football are live, so today that screen only shows for a future sport.
+  // Flow: school → sport → mode → game. A sport that isn't playable for this
+  // school routes to a "coming soon" screen rather than a half-built draft. Today
+  // that's football everywhere but Michigan (it's the only school with a curated
+  // football dataset), plus any future not-yet-`available` sport.
   if (!schoolId) return <Picker onPick={chooseSchool} />
   // Full Basketball is implicitly basketball (no sport step): jump straight from
   // the home card to the mode menu (the same 4 modes, incl. Daily IQ) → FullGame.
@@ -307,7 +309,10 @@ export default function App() {
       />
     )
   const sport = getSport(sportId)
-  if (!sport.available)
+  // Coming-soon when the sport isn't playable FOR THIS SCHOOL — either it's not
+  // globally available yet, or the school carries no dataset for it (every school
+  // but Michigan fields football but has no curated football data yet).
+  if (!sportPlayableForSchool(school, sport.id))
     return (
       <SportComingSoon
         school={school}
@@ -462,8 +467,9 @@ function SportMenu({
   onSwitchSchool: () => void
 }) {
   // Only the sports this school actually fields (football is hidden where
-  // `hasFootball` is false). A not-yet-`available` sport still shows — it's a
-  // real card that routes to a "coming soon" screen, not a hidden one.
+  // `hasFootball` is false). A sport the school can't play yet (no dataset —
+  // football everywhere but Michigan) still shows, but as a disabled "coming
+  // soon" card rather than a clickable one that would open an empty draft.
   const sports = sportsForSchool(school)
   return (
     <div className="app">
@@ -486,18 +492,23 @@ function SportMenu({
         <p>Pick a sport.</p>
       </section>
       <div className="mode-menu">
-        {sports.map((s) => (
-          <button
-            key={s.id}
-            className={`mode-card${s.available ? '' : ' soon'}`}
-            onClick={() => onPick(s.id)}
-          >
-            {!s.available && <span className="soon-chip">Coming soon</span>}
-            <span className="mode-emoji">{s.emoji}</span>
-            <span className="mode-name">{s.name}</span>
-            <span className="mode-blurb">{s.blurb}</span>
-          </button>
-        ))}
+        {sports.map((s) => {
+          const playable = sportPlayableForSchool(school, s.id)
+          return (
+            <button
+              key={s.id}
+              className={`mode-card${playable ? '' : ' soon'}`}
+              onClick={playable ? () => onPick(s.id) : undefined}
+              disabled={!playable}
+              aria-disabled={!playable}
+            >
+              {!playable && <span className="soon-chip">Coming soon</span>}
+              <span className="mode-emoji">{s.emoji}</span>
+              <span className="mode-name">{s.name}</span>
+              <span className="mode-blurb">{s.blurb}</span>
+            </button>
+          )
+        })}
       </div>
       <footer className="footer">
         An independent fan project. Not affiliated with or endorsed by{' '}

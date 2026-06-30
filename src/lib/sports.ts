@@ -68,3 +68,20 @@ export function sportsForSchool(school: School): SportConfig[] {
     (s) => s.id === 'basketball' || (s.id === 'football' && school.hasFootball),
   )
 }
+
+/**
+ * Is this sport actually PLAYABLE for THIS school right now? `sportsForSchool`
+ * decides whether to *show* a sport's card; this decides whether that card routes
+ * into a real draft or to the "coming soon" screen. A sport is playable only when
+ * it's globally `available` AND the school carries that sport's dataset — football
+ * ships for Michigan only today, so every other school's football card (it still
+ * fields football) reads as "coming soon" instead of opening an empty draft.
+ */
+export function sportPlayableForSchool(
+  school: School,
+  sportId: SportId,
+): boolean {
+  const sport = SPORTS.find((s) => s.id === sportId)
+  if (!sport?.available) return false
+  return sportId === 'football' ? !!school.football : !!school.basketball
+}
