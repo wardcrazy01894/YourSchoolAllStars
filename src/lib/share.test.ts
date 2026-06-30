@@ -55,6 +55,8 @@ describe('buildShareString', () => {
       dailyLabel: 'Daily IQ',
     })
     expect(out).toContain('Daily IQ 2026-06-25')
+    // Guard against a double-subtitle regression emitting the plain label too.
+    expect(out).not.toContain('\nDaily 2026-06-25')
   })
 })
 
@@ -103,5 +105,6 @@ describe('buildFbShareString', () => {
       dailyLabel: 'Daily IQ',
     })
     expect(out).toContain('Daily IQ 2026-06-25')
+    expect(out).not.toContain('\nDaily 2026-06-25')
   })
 })
