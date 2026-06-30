@@ -4,20 +4,31 @@
 // (windows, spins, draft reducer, rating) and differ only in a few flag knobs:
 //   • daily       — date-seeded so everyone gets the same eras; one result per
 //                   day, which locks and feeds the streak (the original 20-0 flow).
+//   • daily-iq    — the SAME day-seeded eras as Daily, but stats/ratings/stars are
+//                   HIDDEN during the draft (like Hoops IQ). Its OWN one-shot lock +
+//                   streak (see progress.ts mode namespacing), so a player can do
+//                   both Daily and Daily IQ each day. Universal across sports.
 //   • classic     — free play: a fresh RANDOM era sequence every game, replay
 //                   forever, no lock, no streak.
 //   • hoops-iq    — like classic, but stats, ratings, AND award stars are HIDDEN
 //                   during the draft (pick on names alone); revealed at Results.
 //   • gridiron-iq — the football analog of Hoops IQ (same hidden-stats conceit).
 //
-// Daily + Classic are universal; the IQ modes are sport-flavoured, so each carries
-// a `sports` scope (see `modesForSport`). Keeping this as plain data + flags means
+// Daily, Daily IQ + Classic are universal; the IQ modes (Hoops/Gridiron) are
+// sport-flavoured, so each carries a `sports` scope (see `modesForSport`). Daily IQ
+// is universal even though it hides stats — its hidden-stats twist isn't tied to a
+// sport. Keeping this as plain data + flags means
 // the React shell branches on the flags rather than the mode id, so adding a mode
 // is a data change, not new control flow scattered through the UI.
 
 import type { SportId } from './sports'
 
-export type GameMode = 'daily' | 'classic' | 'hoops-iq' | 'gridiron-iq'
+export type GameMode =
+  | 'daily'
+  | 'daily-iq'
+  | 'classic'
+  | 'hoops-iq'
+  | 'gridiron-iq'
 
 export interface ModeConfig {
   id: GameMode
@@ -45,6 +56,15 @@ export const MODES: ModeConfig[] = [
       "Today's puzzle — the same eras for everyone. One shot. Build a streak.",
     daily: true,
     hideStats: false,
+  },
+  {
+    id: 'daily-iq',
+    name: 'Daily IQ',
+    emoji: '🧠',
+    blurb:
+      "Today's same eras — but stats, ratings, and stars are hidden. Draft on names. One shot, its own streak.",
+    daily: true,
+    hideStats: true,
   },
   {
     id: 'classic',

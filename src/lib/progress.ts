@@ -4,6 +4,7 @@
 // would be the only thing needing a server.)
 
 import type { YearWindow } from '../types'
+import type { GameMode } from './modes'
 
 export interface Streak {
   current: number
@@ -59,11 +60,24 @@ export interface SavedDaily {
 }
 
 // ── localStorage wrappers (fail-safe) ────────────────────────────────────────
-const ns = (school: string, sport: string) => `ysas:${school}:${sport}`
-const streakKey = (school: string, sport: string) =>
-  `${ns(school, sport)}:streak`
-const dailyKey = (school: string, sport: string, dateKey: string) =>
-  `${ns(school, sport)}:daily:${dateKey}`
+// The key namespace is mode-aware but LEGACY-COMPATIBLE: the classic Daily
+// (`mode` omitted or `'daily'`) keeps the original `ysas:{school}:{sport}` keys
+// so existing streaks survive untouched. Any OTHER daily mode (e.g. `daily-iq`)
+// gets its own `ysas:{school}:{sport}:{mode}` namespace — its own lock + streak —
+// so a player can complete both Daily and Daily IQ each day independently. Only
+// daily modes ever reach these wrappers (classic/IQ free-play never lock).
+const ns = (school: string, sport: string, mode?: GameMode) =>
+  !mode || mode === 'daily'
+    ? `ysas:${school}:${sport}`
+    : `ysas:${school}:${sport}:${mode}`
+const streakKey = (school: string, sport: string, mode?: GameMode) =>
+  `${ns(school, sport, mode)}:streak`
+const dailyKey = (
+  school: string,
+  sport: string,
+  dateKey: string,
+  mode?: GameMode,
+) => `${ns(school, sport, mode)}:daily:${dateKey}`
 
 function read<T>(key: string, fallback: T): T {
   try {
@@ -87,16 +101,21 @@ function write(key: string, value: unknown): boolean {
   }
 }
 
-export function loadStreak(school: string, sport: string): Streak {
-  return read<Streak>(streakKey(school, sport), EMPTY_STREAK)
+export function loadStreak(
+  school: string,
+  sport: string,
+  mode?: GameMode,
+): Streak {
+  return read<Streak>(streakKey(school, sport, mode), EMPTY_STREAK)
 }
 
 export function loadDaily(
   school: string,
   sport: string,
   dateKey: string,
+  mode?: GameMode,
 ): SavedDaily | null {
-  return read<SavedDaily | null>(dailyKey(school, sport, dateKey), null)
+  return read<SavedDaily | null>(dailyKey(school, sport, dateKey, mode), null)
 }
 
 /**
@@ -109,23 +128,27 @@ export function loadDaily(
  * contaminate the streak (e.g. testing an OLD day shouldn't reset it, nor should
  * a FUTURE day inflate it). The daily is still persisted so the playtest day
  * locks like a real one.
+ *
+ * `mode` selects the namespace: omitted/`'daily'` uses the legacy keys (the
+ * classic Daily Challenge), any other daily mode (`daily-iq`) gets its own lock +
+ * streak — so completing one leaves the other free for the same day.
  */
 export function saveDailyResult(
   school: string,
   sport: string,
   result: SavedDaily,
-  opts: { advanceStreak?: boolean } = {},
+  opts: { advanceStreak?: boolean; mode?: GameMode } = {},
 ): Streak {
-  const { advanceStreak = true } = opts
-  const already = loadDaily(school, sport, result.dateKey)
-  const saved = write(dailyKey(school, sport, result.dateKey), result)
-  const prev = loadStreak(school, sport)
+  const { advanceStreak = true, mode } = opts
+  const already = loadDaily(school, sport, result.dateKey, mode)
+  const saved = write(dailyKey(school, sport, result.dateKey, mode), result)
+  const prev = loadStreak(school, sport, mode)
   // Don't advance the streak if (a) streak advancement is opted out (playtest
   // day), (b) the day was already counted, or (c) the daily didn't actually
   // persist — otherwise a swallowed write would bump the streak while leaving the
   // day replayable, double-counting on the next play.
   if (!advanceStreak || already || !saved) return prev
   const updated = nextStreak(prev, result.dateKey)
-  write(streakKey(school, sport), updated)
+  write(streakKey(school, sport, mode), updated)
   return updated
 }

@@ -170,3 +170,60 @@ describe('localStorage persistence', () => {
     })
   })
 })
+
+describe('mode namespacing (Daily vs Daily IQ)', () => {
+  it('treats an omitted mode and explicit "daily" as the SAME legacy keys', () => {
+    // Existing streaks live under `ysas:{school}:{sport}`. The classic Daily must
+    // keep that key (mode omitted === mode 'daily') so current streaks survive the
+    // upgrade — only the new daily-iq namespace is additive.
+    saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25')) // no mode → legacy
+    expect(loadStreak(SCHOOL, SPORT, 'daily')).toEqual({
+      current: 1,
+      max: 1,
+      lastDate: '2026-06-25',
+    })
+    expect(loadDaily(SCHOOL, SPORT, '2026-06-25', 'daily')).toEqual(
+      sampleDaily('2026-06-25'),
+    )
+    // …and the legacy (mode-less) reader sees a save made under explicit 'daily'.
+    saveDailyResult(SCHOOL, 'football', sampleDaily('2026-06-25'), {
+      mode: 'daily',
+    })
+    expect(loadDaily(SCHOOL, 'football', '2026-06-25')).toEqual(
+      sampleDaily('2026-06-25'),
+    )
+  })
+
+  it('locks + streaks Daily and Daily IQ independently for the same day', () => {
+    // Playing Daily must not lock or advance Daily IQ (and vice versa) — each is
+    // its own one-shot, so a player can complete both each day.
+    saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25'), { mode: 'daily' })
+    expect(loadDaily(SCHOOL, SPORT, '2026-06-25', 'daily-iq')).toBeNull()
+    expect(loadStreak(SCHOOL, SPORT, 'daily-iq')).toEqual(EMPTY_STREAK)
+
+    const iq = saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25'), {
+      mode: 'daily-iq',
+    })
+    expect(iq).toEqual({ current: 1, max: 1, lastDate: '2026-06-25' })
+    // Daily's own lock + streak are untouched by the Daily IQ save.
+    expect(loadStreak(SCHOOL, SPORT, 'daily')).toEqual({
+      current: 1,
+      max: 1,
+      lastDate: '2026-06-25',
+    })
+    expect(loadDaily(SCHOOL, SPORT, '2026-06-25', 'daily')).toEqual(
+      sampleDaily('2026-06-25'),
+    )
+  })
+
+  it('stores a non-default daily mode under a mode-suffixed key, leaving legacy untouched', () => {
+    saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25'), {
+      mode: 'daily-iq',
+    })
+    expect(
+      localStorage.getItem(`ysas:${SCHOOL}:${SPORT}:daily-iq:streak`),
+    ).not.toBeNull()
+    // The legacy daily key must NOT be written by a daily-iq save.
+    expect(localStorage.getItem(`ysas:${SCHOOL}:${SPORT}:streak`)).toBeNull()
+  })
+})

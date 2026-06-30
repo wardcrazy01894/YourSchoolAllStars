@@ -15,30 +15,46 @@ describe('MODES', () => {
     expect(new Set(ids).size).toBe(ids.length)
   })
 
-  it('marks exactly one mode as the daily (one-shot + streak) flow', () => {
-    expect(MODES.filter((m) => m.daily)).toHaveLength(1)
-    expect(MODES.find((m) => m.daily)?.id).toBe('daily')
+  it('marks both daily flows (Daily Challenge + Daily IQ) as date-seeded one-shots', () => {
+    // Two modes now lock + advance a streak: the classic Daily Challenge and the
+    // stats-hidden Daily IQ. They share the day's eras (the seed ignores mode) but
+    // each carries its OWN lock + streak (see progress.ts mode namespacing).
+    expect(MODES.filter((m) => m.daily).map((m) => m.id)).toEqual([
+      'daily',
+      'daily-iq',
+    ])
   })
 
-  it('hides stats only in the IQ modes (Hoops IQ + Gridiron IQ)', () => {
+  it('hides stats in the IQ modes (Daily IQ, Hoops IQ, Gridiron IQ)', () => {
     expect(MODES.filter((m) => m.hideStats).map((m) => m.id)).toEqual([
+      'daily-iq',
       'hoops-iq',
       'gridiron-iq',
     ])
   })
 
-  it('scopes each stats-hidden mode to exactly one sport', () => {
+  it('scopes each SPORT-FLAVOURED stats-hidden mode to exactly one sport', () => {
     // Hoops IQ / Gridiron IQ are sport-flavoured, so each must declare its one
-    // sport (the universal modes — daily, classic — omit `sports`).
-    for (const m of MODES.filter((x) => x.hideStats)) {
+    // sport. Daily IQ is a universal daily flow (omits `sports`) — so the scope
+    // check is on the non-daily IQ modes only.
+    for (const m of MODES.filter((x) => x.hideStats && !x.daily)) {
       expect(m.sports).toHaveLength(1)
     }
   })
 
-  it('the daily mode is never a stats-hidden mode', () => {
-    // A locked daily result is shared with colored squares; hiding stats there
-    // would be incoherent. Guard the combination explicitly.
-    for (const m of MODES) if (m.daily) expect(m.hideStats).toBe(false)
+  it('the CLASSIC Daily Challenge is never a stats-hidden mode', () => {
+    // The headline Daily Challenge reveals stats during the draft (Daily IQ is the
+    // hidden-stats sibling). Guard that the classic daily stays revealed so its
+    // streak headline + reputation-free draft don't silently flip.
+    expect(getMode('daily').hideStats).toBe(false)
+  })
+
+  it('Daily IQ is a universal daily flow with stats hidden', () => {
+    const iq = getMode('daily-iq')
+    expect(iq.id).toBe('daily-iq')
+    expect(iq.daily).toBe(true)
+    expect(iq.hideStats).toBe(true)
+    expect(iq.sports).toBeUndefined() // universal — offered to every sport
   })
 
   it('every mode carries display copy', () => {
@@ -65,6 +81,7 @@ describe('getMode', () => {
 describe('isGameMode', () => {
   it('accepts real modes and rejects junk', () => {
     expect(isGameMode('daily')).toBe(true)
+    expect(isGameMode('daily-iq')).toBe(true)
     expect(isGameMode('hoops-iq')).toBe(true)
     expect(isGameMode('gridiron-iq')).toBe(true)
     expect(isGameMode('nope')).toBe(false)
@@ -73,26 +90,29 @@ describe('isGameMode', () => {
 })
 
 describe('modesForSport', () => {
-  it('offers basketball Daily + Classic + Hoops IQ (not Gridiron IQ)', () => {
+  it('offers basketball Daily + Daily IQ + Classic + Hoops IQ (not Gridiron IQ)', () => {
     expect(modesForSport('basketball').map((m) => m.id)).toEqual([
       'daily',
+      'daily-iq',
       'classic',
       'hoops-iq',
     ])
   })
 
-  it('offers football Daily + Classic + Gridiron IQ (not Hoops IQ)', () => {
+  it('offers football Daily + Daily IQ + Classic + Gridiron IQ (not Hoops IQ)', () => {
     expect(modesForSport('football').map((m) => m.id)).toEqual([
       'daily',
+      'daily-iq',
       'classic',
       'gridiron-iq',
     ])
   })
 
-  it('always offers the universal modes (daily + classic) to both sports', () => {
+  it('always offers the universal modes (daily + daily-iq + classic) to both sports', () => {
     for (const sport of ['basketball', 'football'] as const) {
       const ids = modesForSport(sport).map((m) => m.id)
       expect(ids).toContain('daily')
+      expect(ids).toContain('daily-iq')
       expect(ids).toContain('classic')
     }
   })
@@ -102,6 +122,8 @@ describe('sportOffersMode', () => {
   it('accepts a universal mode for any sport', () => {
     expect(sportOffersMode('basketball', 'daily')).toBe(true)
     expect(sportOffersMode('football', 'classic')).toBe(true)
+    expect(sportOffersMode('basketball', 'daily-iq')).toBe(true)
+    expect(sportOffersMode('football', 'daily-iq')).toBe(true)
   })
 
   it('rejects the other sport’s stats-hidden mode (URL-param cross-sport guard)', () => {
