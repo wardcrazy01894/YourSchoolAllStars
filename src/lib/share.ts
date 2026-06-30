@@ -32,6 +32,12 @@ export interface ShareOptions {
   daily?: boolean
   /** Mode label for free-play shares, e.g. "Classic". Ignored when daily. */
   modeLabel?: string
+  /**
+   * Prefix for a DAILY share's dated subtitle. Defaults to "Daily"; the stats-
+   * hidden daily variant passes "Daily IQ" so its share reads "Daily IQ <date>"
+   * and isn't confused with the regular daily. Ignored for free-play shares.
+   */
+  dailyLabel?: string
 }
 
 export function buildShareString(o: ShareOptions): string {
@@ -41,7 +47,9 @@ export function buildShareString(o: ShareOptions): string {
   // Free-play results must NOT masquerade as the daily — label them by mode and
   // drop the date (a free-play game isn't tied to "today's" puzzle).
   const subtitle =
-    o.daily === false ? (o.modeLabel ?? 'Free play') : `Daily ${o.dateKey}`
+    o.daily === false
+      ? (o.modeLabel ?? 'Free play')
+      : `${o.dailyLabel ?? 'Daily'} ${o.dateKey}`
   return [
     `${o.emoji ?? '🏀'} YourSchoolAllStars — ${o.schoolName}`,
     subtitle,
@@ -61,6 +69,8 @@ export interface FbShareOptions {
   ratings: (number | null)[]
   daily?: boolean
   modeLabel?: string
+  /** See ShareOptions.dailyLabel — "Daily IQ" for the stats-hidden daily variant. */
+  dailyLabel?: string
 }
 
 /**
@@ -71,7 +81,9 @@ export interface FbShareOptions {
 export function buildFbShareString(o: FbShareOptions): string {
   const squares = o.ratings.map(ratingSquare).join('')
   const subtitle =
-    o.daily === false ? (o.modeLabel ?? 'Free play') : `Daily ${o.dateKey}`
+    o.daily === false
+      ? (o.modeLabel ?? 'Free play')
+      : `${o.dailyLabel ?? 'Daily'} ${o.dateKey}`
   return [
     `🏈 YourSchoolAllStars — ${o.schoolName}`,
     subtitle,
