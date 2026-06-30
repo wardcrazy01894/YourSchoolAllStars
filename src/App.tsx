@@ -749,7 +749,7 @@ function Landing({
     <section className="hero">
       <span className="banner">
         {mode.daily
-          ? `🗓️ Daily Challenge · ${dateKey}`
+          ? `${mode.id === DEFAULT_MODE ? '🗓️ Daily Challenge' : `${mode.emoji} ${mode.name}`} · ${dateKey}`
           : `${mode.emoji} ${mode.name}`}
       </span>
       <h1>Build {school.name}'s all-time five.</h1>
@@ -763,8 +763,9 @@ function Landing({
       </p>
       {mode.hideStats && (
         <p className="muted">
-          🧠 Hoops IQ: stats, ratings, and award stars stay hidden while you
-          draft — go on names alone. Stats and ratings reveal at the end.
+          {mode.emoji} {mode.name}: stats, ratings, and award stars stay hidden
+          while you draft — go on names alone. Stats and ratings reveal at the
+          end.
         </p>
       )}
       {mode.daily && <StreakChips streak={streak} />}
@@ -1520,7 +1521,7 @@ function FbLanding({
     <section className="hero">
       <span className="banner">
         {mode.daily
-          ? `🗓️ Daily Challenge · ${dateKey}`
+          ? `${mode.id === DEFAULT_MODE ? '🗓️ Daily Challenge' : `${mode.emoji} ${mode.name}`} · ${dateKey}`
           : `${mode.emoji} ${mode.name}`}
       </span>
       <h1>Build {school.name}'s all-time roster.</h1>
@@ -1535,8 +1536,8 @@ function FbLanding({
       </p>
       {mode.hideStats && (
         <p className="muted">
-          🧠 Gridiron IQ: stats, ratings, and award stars stay hidden while you
-          draft — go on names alone. Everything reveals at the end.
+          {mode.emoji} {mode.name}: stats, ratings, and award stars stay hidden
+          while you draft — go on names alone. Everything reveals at the end.
         </p>
       )}
       {provisional && (
