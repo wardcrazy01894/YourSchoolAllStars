@@ -138,6 +138,42 @@ describe('evaluateRoster', () => {
     expect(power5.wins).toBe(40)
     expect(midMajor.wins).toBeLessThan(40)
   })
+
+  it('applies a power-5 RESOLVER per player — only the non-power-5 starter is dinged', () => {
+    // The mixed-school case (Full Basketball): power5 is resolved per player, not
+    // per team. One starter (the SF) is non-power-5; the rest are power-5. Only the
+    // SF's rating takes the haircut — its power-5 teammates are untouched.
+    const state = stateFrom(fullPicks()) // five identical elite 86-rated starters
+    const resolver = (p: BballPlayer) => p.position !== 'SF'
+    const result = evaluateRoster(state, 40, resolver)
+    for (const pos of BBALL_POSITIONS) {
+      const expected = playerRating(
+        state.slots[pos]!,
+        result.windowByPosition[pos],
+        pos !== 'SF', // SF resolves false, everyone else true
+      )
+      expect(result.ratingsByPosition[pos]).toBe(expected)
+    }
+    // The four power-5 starters keep the full 86; only the SF is knocked below it.
+    expect(result.ratingsByPosition.PG).toBe(86)
+    expect(result.ratingsByPosition.SF).toBeLessThan(86)
+    // And it is strictly between the all-power-5 and all-mid-major team strengths.
+    const allPower5 = evaluateRoster(state, 40, true)
+    const allMidMajor = evaluateRoster(state, 40, false)
+    expect(result.strength).toBeLessThan(allPower5.strength)
+    expect(result.strength).toBeGreaterThan(allMidMajor.strength)
+  })
+
+  it('savedDailyFrom accepts a per-player power-5 resolver too', () => {
+    const state = stateFrom(fullPicks())
+    const resolver = (p: BballPlayer) => p.position !== 'SF'
+    const mixed = savedDailyFrom(state, '2026-06-26', 40, resolver)
+    const allPower5 = savedDailyFrom(state, '2026-06-26', 40, true)
+    const allMidMajor = savedDailyFrom(state, '2026-06-26', 40, false)
+    // One dinged starter sits the record between all-power-5 and all-mid-major.
+    expect(mixed.wins).toBeLessThanOrEqual(allPower5.wins)
+    expect(mixed.wins).toBeGreaterThanOrEqual(allMidMajor.wins)
+  })
 })
 
 describe('teamStatTotals', () => {
