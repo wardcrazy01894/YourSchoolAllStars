@@ -63,6 +63,7 @@ import {
   loadDaily,
   loadStreak,
   saveDailyResult,
+  EMPTY_STREAK,
   type Streak,
   type SavedDaily,
 } from './lib/progress'
@@ -95,6 +96,7 @@ import {
   modesForSport,
   sportOffersMode,
   randomSeed,
+  DEFAULT_MODE,
   type GameMode,
   type ModeConfig,
 } from './lib/modes'
@@ -449,12 +451,21 @@ function ModeMenu({
   onBackToSports: () => void
   onSwitchSchool: () => void
 }) {
-  // The daily streak lives per school+sport; surface it here so returning players
-  // see it before they pick a mode (only the daily can advance it).
-  const [dailyStreak] = useState(() => loadStreak(school.id, sport.id))
-  // Daily + Classic are universal; the stats-hidden IQ mode is sport-flavoured —
-  // basketball shows Hoops IQ, football shows Gridiron IQ (never the other's).
+  // Daily + Daily IQ + Classic are universal; the stats-hidden IQ mode is
+  // sport-flavoured — basketball shows Hoops IQ, football shows Gridiron IQ.
   const modes = modesForSport(sport.id)
+  // Each DAILY flow keeps its own lock + streak (Daily and Daily IQ are separate
+  // one-shots). Read each here so the headline can show the classic Daily streak
+  // and every daily card can show its own — read ONCE (side-effectful storage).
+  const [streaks] = useState(
+    () =>
+      Object.fromEntries(
+        modes
+          .filter((m) => m.daily)
+          .map((m) => [m.id, loadStreak(school.id, sport.id, m.id)]),
+      ) as Record<string, Streak>,
+  )
+  const dailyStreak = streaks['daily'] ?? EMPTY_STREAK
   return (
     <div className="app">
       <header className="topbar">
@@ -484,13 +495,31 @@ function ModeMenu({
         <StreakChips streak={dailyStreak} />
       </section>
       <div className="mode-menu">
-        {modes.map((m) => (
-          <button key={m.id} className="mode-card" onClick={() => onPick(m.id)}>
-            <span className="mode-emoji">{m.emoji}</span>
-            <span className="mode-name">{m.name}</span>
-            <span className="mode-blurb">{m.blurb}</span>
-          </button>
-        ))}
+        {modes.map((m) => {
+          // The classic Daily's streak is the headline above; the OTHER daily
+          // flows (Daily IQ) show their own current streak inline on the card —
+          // each is a separate one-shot with an independent streak.
+          const s = m.daily && m.id !== DEFAULT_MODE ? streaks[m.id] : undefined
+          return (
+            <button
+              key={m.id}
+              className="mode-card"
+              onClick={() => onPick(m.id)}
+            >
+              <span className="mode-emoji">{m.emoji}</span>
+              <span className="mode-name">{m.name}</span>
+              <span className="mode-blurb">{m.blurb}</span>
+              {s && s.current > 0 && (
+                <span
+                  className="streak-chip"
+                  title="Your current streak in this mode"
+                >
+                  🔥 {s.current} day{s.current === 1 ? '' : 's'}
+                </span>
+              )}
+            </button>
+          )
+        })}
       </div>
       <footer className="footer">
         An independent fan project. Not affiliated with or endorsed by{' '}
@@ -550,7 +579,7 @@ function Game({
   // returning player opens straight to locked Results. Free-play modes never load
   // or save, so they always start fresh at the landing.
   const [savedToday] = useState(() =>
-    mode.daily ? loadDaily(school.id, sport.id, dateKey) : null,
+    mode.daily ? loadDaily(school.id, sport.id, dateKey, mode.id) : null,
   )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
@@ -560,7 +589,7 @@ function Game({
     savedToday ? rosterFromSaved(savedToday, players) : initDraft(spins),
   )
   const [streak, setStreak] = useState<Streak>(() =>
-    loadStreak(school.id, sport.id),
+    loadStreak(school.id, sport.id, mode.id),
   )
   // The persisted result for the locked view. Carries the EARNED wins/grade so a
   // returning player sees what they actually scored, even if the dataset's stats
@@ -595,6 +624,7 @@ function Game({
     if (mode.daily) {
       const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: dateKey === getDateKey(),
+        mode: mode.id,
       })
       setStreak(updated)
     }
@@ -719,7 +749,7 @@ function Landing({
     <section className="hero">
       <span className="banner">
         {mode.daily
-          ? `🗓️ Daily Challenge · ${dateKey}`
+          ? `${mode.id === DEFAULT_MODE ? '🗓️ Daily Challenge' : `${mode.emoji} ${mode.name}`} · ${dateKey}`
           : `${mode.emoji} ${mode.name}`}
       </span>
       <h1>Build {school.name}'s all-time five.</h1>
@@ -733,8 +763,9 @@ function Landing({
       </p>
       {mode.hideStats && (
         <p className="muted">
-          🧠 Hoops IQ: stats, ratings, and award stars stay hidden while you
-          draft — go on names alone. Stats and ratings reveal at the end.
+          {mode.emoji} {mode.name}: stats, ratings, and award stars stay hidden
+          while you draft — go on names alone. Stats and ratings reveal at the
+          end.
         </p>
       )}
       {mode.daily && <StreakChips streak={streak} />}
@@ -1347,7 +1378,7 @@ function FbGame({
   )
 
   const [savedToday] = useState(() =>
-    mode.daily ? loadDaily(school.id, sport.id, dateKey) : null,
+    mode.daily ? loadDaily(school.id, sport.id, dateKey, mode.id) : null,
   )
 
   const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
@@ -1357,7 +1388,7 @@ function FbGame({
     savedToday ? fbRosterFromSaved(savedToday, players) : initFbDraft(spins),
   )
   const [streak, setStreak] = useState<Streak>(() =>
-    loadStreak(school.id, sport.id),
+    loadStreak(school.id, sport.id, mode.id),
   )
   const [result, setResult] = useState<SavedDaily | null>(savedToday)
   const returning = savedToday !== null
@@ -1380,6 +1411,7 @@ function FbGame({
     if (mode.daily) {
       const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: dateKey === getDateKey(),
+        mode: mode.id,
       })
       setStreak(updated)
     }
@@ -1489,7 +1521,7 @@ function FbLanding({
     <section className="hero">
       <span className="banner">
         {mode.daily
-          ? `🗓️ Daily Challenge · ${dateKey}`
+          ? `${mode.id === DEFAULT_MODE ? '🗓️ Daily Challenge' : `${mode.emoji} ${mode.name}`} · ${dateKey}`
           : `${mode.emoji} ${mode.name}`}
       </span>
       <h1>Build {school.name}'s all-time roster.</h1>
@@ -1504,8 +1536,8 @@ function FbLanding({
       </p>
       {mode.hideStats && (
         <p className="muted">
-          🧠 Gridiron IQ: stats, ratings, and award stars stay hidden while you
-          draft — go on names alone. Everything reveals at the end.
+          {mode.emoji} {mode.name}: stats, ratings, and award stars stay hidden
+          while you draft — go on names alone. Everything reveals at the end.
         </p>
       )}
       {provisional && (
