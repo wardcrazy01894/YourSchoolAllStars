@@ -94,7 +94,11 @@ export function buildReelPlan(
   loops: number = REEL_LOOPS,
 ): ReelPlan {
   const years = reelYears(windows)
-  const plan = buildIndexReelPlan(years.length, years.indexOf(targetYear), loops)
+  const plan = buildIndexReelPlan(
+    years.length,
+    years.indexOf(targetYear),
+    loops,
+  )
   return {
     years,
     cells: plan.cells.map((i) => years[i]),
