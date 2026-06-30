@@ -5,8 +5,13 @@ import {
   getSport,
   isSportId,
   sportsForSchool,
+  sportPlayableForSchool,
 } from './sports'
 import type { School } from '../schools'
+import type { Dataset, FootballDataset } from '../data'
+
+const bballDataset = { players: [] } as unknown as Dataset
+const fbDataset = { players: [] } as unknown as FootballDataset
 
 const school = (over: Partial<School>): School => ({
   id: 'x',
@@ -66,5 +71,44 @@ describe('sportsForSchool', () => {
 
   it('always lists basketball first (the flagship sport)', () => {
     expect(sportsForSchool(school({}))[0].id).toBe('basketball')
+  })
+})
+
+describe('sportPlayableForSchool', () => {
+  it('basketball is playable when the school carries a basketball dataset', () => {
+    expect(
+      sportPlayableForSchool(
+        school({ basketball: bballDataset }),
+        'basketball',
+      ),
+    ).toBe(true)
+  })
+
+  it('basketball is NOT playable for a school with no basketball dataset', () => {
+    // Unreachable today (every real school carries basketball), but the guard is
+    // symmetric with football — verify it.
+    expect(
+      sportPlayableForSchool(school({ basketball: undefined }), 'basketball'),
+    ).toBe(false)
+  })
+
+  it('football is playable only when the school carries a football dataset', () => {
+    expect(
+      sportPlayableForSchool(
+        school({ hasFootball: true, football: fbDataset }),
+        'football',
+      ),
+    ).toBe(true)
+  })
+
+  it('football is NOT playable (coming soon) for a school with no football dataset', () => {
+    // Every non-Michigan school fields football but has no curated dataset yet —
+    // the card shows as "coming soon", not a playable draft.
+    expect(
+      sportPlayableForSchool(
+        school({ hasFootball: true, football: undefined }),
+        'football',
+      ),
+    ).toBe(false)
   })
 })
