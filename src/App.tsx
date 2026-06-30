@@ -660,7 +660,7 @@ function Game({
           state={state}
           wheel={windows}
           hideStats={mode.hideStats}
-          power5={school.power5}
+          power5Of={() => school.power5}
           onAdvance={advance}
         />
       )}
@@ -757,7 +757,7 @@ export function RosterRail({
   targetable,
   onPlace,
   hideRating,
-  power5,
+  power5Of,
 }: {
   slots: DraftState['slots']
   /** Era each filled slot was drafted from, so its rating matches the pick. */
@@ -767,11 +767,12 @@ export function RosterRail({
   /** Hoops IQ: suppress the numeric rating while drafting (revealed at the end). */
   hideRating?: boolean
   /**
-   * School's conference strength — false applies the non-power-5 rating haircut.
-   * REQUIRED (no default): an omitted prop would silently rate a non-power-5
-   * school at full power-5 value. Every call site must pass `school.power5`.
+   * Per-player conference strength — false applies the non-power-5 rating
+   * haircut to THAT player. REQUIRED (no default): an omitted resolver would
+   * silently rate a non-power-5 player at full power-5 value. Single-school games
+   * pass `() => school.power5`; Full Basketball resolves each player's own school.
    */
-  power5: boolean
+  power5Of: (player: BballPlayer) => boolean
 }) {
   const targets = new Set(targetable ?? [])
   return (
@@ -792,7 +793,7 @@ export function RosterRail({
                 <div className="pname">{p.name}</div>
                 {!hideRating && (
                   <div className="prate">
-                    {playerRating(p, windows?.[pos], power5)}
+                    {playerRating(p, windows?.[pos], power5Of(p))}
                   </div>
                 )}
               </>
@@ -813,7 +814,7 @@ export function Playing({
   state,
   wheel,
   hideStats,
-  power5,
+  power5Of,
   onAdvance,
 }: {
   players: BballPlayer[]
@@ -822,8 +823,9 @@ export function Playing({
   wheel: YearWindow[]
   /** Hoops IQ: hide box-score numbers (year + stats + rating) while drafting. */
   hideStats: boolean
-  /** School's conference strength — false applies the non-power-5 rating haircut. */
-  power5: boolean
+  /** Per-player conference strength — false applies the non-power-5 haircut to
+   * that player. Single-school games pass `() => school.power5`. */
+  power5Of: (player: BballPlayer) => boolean
   onAdvance: (s: DraftState) => void
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -930,7 +932,7 @@ export function Playing({
         targetable={targetSlots}
         onPlace={place}
         hideRating={hideStats}
-        power5={power5}
+        power5Of={power5Of}
       />
 
       {!reveal ? (
@@ -1148,7 +1150,7 @@ function Results({
       <RosterRail
         slots={state.slots}
         windows={winByPos}
-        power5={school.power5}
+        power5Of={() => school.power5}
       />
 
       <div className="card" style={{ marginTop: 16 }}>

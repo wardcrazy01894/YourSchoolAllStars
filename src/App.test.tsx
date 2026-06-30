@@ -54,7 +54,7 @@ function renderPlaying(hideStats: boolean) {
       state={state}
       wheel={WHEEL}
       hideStats={hideStats}
-      power5={true}
+      power5Of={() => true}
       onAdvance={() => {}}
     />,
   )
@@ -113,13 +113,15 @@ describe('RosterRail — hideRating', () => {
   }
 
   it('shows the numeric rating by default', () => {
-    const { container } = render(<RosterRail slots={slots} power5={true} />)
+    const { container } = render(
+      <RosterRail slots={slots} power5Of={() => true} />,
+    )
     expect(container.querySelector('.prate')).not.toBeNull()
   })
 
   it('suppresses the rating when hideRating is true', () => {
     const { container } = render(
-      <RosterRail slots={slots} hideRating power5={true} />,
+      <RosterRail slots={slots} hideRating power5Of={() => true} />,
     )
     expect(container.querySelector('.prate')).toBeNull()
     // The drafted name still shows — only the number is hidden.
@@ -127,12 +129,12 @@ describe('RosterRail — hideRating', () => {
   })
 
   it('shows a lower RTG for a non-power-5 school (conference haircut)', () => {
-    const big10 = render(<RosterRail slots={slots} power5={true} />)
+    const big10 = render(<RosterRail slots={slots} power5Of={() => true} />)
     const power5Rtg = Number(
       big10.container.querySelector('.prate')!.textContent,
     )
     cleanup()
-    const a10 = render(<RosterRail slots={slots} power5={false} />)
+    const a10 = render(<RosterRail slots={slots} power5Of={() => false} />)
     const midMajorRtg = Number(
       a10.container.querySelector('.prate')!.textContent,
     )

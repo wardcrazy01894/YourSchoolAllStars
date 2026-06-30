@@ -56,6 +56,20 @@ export function teamStatTotals(
   return totals
 }
 
+/**
+ * Resolve the power-5 flag to use when rating a given player. A plain `boolean`
+ * means "every player on this roster shares the school's conference strength"
+ * (the single-school games); a function lets a MIXED roster (Full Basketball)
+ * resolve the haircut PER PLAYER from that player's own school — so a non-power-5
+ * starter is dinged without dragging their power-5 teammates. See {@link playerRating}.
+ */
+export type Power5Spec = boolean | ((player: BballPlayer) => boolean)
+
+/** Normalize a {@link Power5Spec} to a per-player resolver. */
+function power5Resolver(spec: Power5Spec): (player: BballPlayer) => boolean {
+  return typeof spec === 'function' ? spec : () => spec
+}
+
 export interface RosterResult {
   /** One entry per FILLED slot, rated as the slot it fills (premium weights). */
   rated: RatedStarter[]
@@ -75,28 +89,35 @@ export interface RosterResult {
  * per-row RTG and the draft-time view. Empty slots are simply absent from the
  * team score (and read null per-position), which drags the projected record.
  *
- * `power5` (default true) toggles the non-power-5 conference haircut on every
- * player rating — so the per-position RTG, team strength, and record all reflect
- * the school's conference strength. See {@link playerRating}.
+ * `power5` (default true) toggles the non-power-5 conference haircut. Pass a
+ * boolean for a single-school roster (every player shares it) or a per-player
+ * resolver for a MIXED roster (Full Basketball) — see {@link Power5Spec}. Either
+ * way it flows into the per-position RTG, team strength, and projected record.
+ * See {@link playerRating}.
  */
 export function evaluateRoster(
   state: DraftState,
   games: number,
-  power5 = true,
+  power5: Power5Spec = true,
 ): RosterResult {
+  const p5 = power5Resolver(power5)
   const winByPos = windowByPosition(state.picks)
   const rated: RatedStarter[] = BBALL_POSITIONS.filter(
     (pos) => state.slots[pos] !== null,
   ).map((pos) => ({
     position: pos,
-    rating: playerRating(state.slots[pos]!, winByPos[pos], power5),
+    rating: playerRating(
+      state.slots[pos]!,
+      winByPos[pos],
+      p5(state.slots[pos]!),
+    ),
   }))
   const wins = projectedWins(rated, games)
   const ratingsByPosition = Object.fromEntries(
     BBALL_POSITIONS.map((pos) => [
       pos,
       state.slots[pos]
-        ? playerRating(state.slots[pos]!, winByPos[pos], power5)
+        ? playerRating(state.slots[pos]!, winByPos[pos], p5(state.slots[pos]!))
         : null,
     ]),
   ) as Record<BballPosition, number | null>
@@ -115,7 +136,7 @@ export function savedDailyFrom(
   state: DraftState,
   dateKey: string,
   games: number,
-  power5 = true,
+  power5: Power5Spec = true,
 ): SavedDaily {
   const { wins, grade } = evaluateRoster(state, games, power5)
   const winByPos = windowByPosition(state.picks)
