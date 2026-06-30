@@ -43,6 +43,21 @@ describe('buildShareString', () => {
     expect(out).not.toContain('Daily')
     expect(out).not.toContain('2026-06-25') // free play isn't tied to a date
   })
+
+  it('the Daily IQ variant labels its share "Daily IQ <date>", not just "Daily"', () => {
+    const out = buildShareString({
+      schoolName: 'Michigan',
+      dateKey: '2026-06-25',
+      wins: 28,
+      games: 40,
+      grade: 'GOOD',
+      ratingsByPosition: { PG: 95, SG: 80, SF: 65, PF: 40, C: null },
+      dailyLabel: 'Daily IQ',
+    })
+    expect(out).toContain('Daily IQ 2026-06-25')
+    // Guard against a double-subtitle regression emitting the plain label too.
+    expect(out).not.toContain('\nDaily 2026-06-25')
+  })
 })
 
 describe('buildFbShareString', () => {
@@ -77,5 +92,19 @@ describe('buildFbShareString', () => {
     expect(out).toContain('Classic')
     expect(out).not.toContain('Daily')
     expect(out).not.toContain('2026-06-25')
+  })
+
+  it('the Daily IQ variant labels its football share "Daily IQ <date>"', () => {
+    const out = buildFbShareString({
+      schoolName: 'Michigan',
+      dateKey: '2026-06-25',
+      wins: 11,
+      games: 16,
+      grade: 'GOOD',
+      ratings: [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80],
+      dailyLabel: 'Daily IQ',
+    })
+    expect(out).toContain('Daily IQ 2026-06-25')
+    expect(out).not.toContain('\nDaily 2026-06-25')
   })
 })

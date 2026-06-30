@@ -1580,6 +1580,10 @@ function Results({
     ratingsByPosition,
     daily: mode.daily,
     modeLabel: mode.name,
+    // Daily IQ shares read "Daily IQ <date>"; the regular Daily stays "Daily
+    // <date>". Keyed on the concrete mode id (not `hideStats`) so a future
+    // daily-hidden-stats mode can't silently inherit the "Daily IQ" label.
+    dailyLabel: mode.id === 'daily-iq' ? 'Daily IQ' : 'Daily',
   })
 
   const [copied, setCopied] = useState(false)
@@ -2356,6 +2360,8 @@ function FbResults({
     ratings,
     daily: mode.daily,
     modeLabel: mode.name,
+    // See basketball share: Daily IQ reads "Daily IQ <date>" (keyed on mode id).
+    dailyLabel: mode.id === 'daily-iq' ? 'Daily IQ' : 'Daily',
   })
 
   const [copied, setCopied] = useState(false)
