@@ -1,6 +1,12 @@
 import { describe, it, expect } from 'vitest'
 import type { YearWindow } from '../types'
-import { REEL_LOOPS, reelYears, buildReelPlan } from './reel'
+import {
+  REEL_LOOPS,
+  REEL_VISIBLE,
+  reelYears,
+  buildReelPlan,
+  buildIndexReelPlan,
+} from './reel'
 
 const W = (start: number, end: number): YearWindow => ({ start, end })
 
@@ -85,6 +91,49 @@ describe('buildReelPlan', () => {
     expect(plan.cells).toEqual([])
     expect(plan.found).toBe(false)
     // Degenerate case: nothing to scroll to — offset must not go negative.
+    expect(plan.targetCell).toBe(0)
+    expect(plan.offset).toBe(0)
+  })
+})
+
+describe('buildIndexReelPlan', () => {
+  it('renders loops+1 passes of count cells, each pass 0..count-1', () => {
+    const plan = buildIndexReelPlan(6, 2)
+    expect(plan.count).toBe(6)
+    expect(plan.cells).toHaveLength((REEL_LOOPS + 1) * 6)
+    // First pass is the strip 0..5 in order.
+    expect(plan.cells.slice(0, 6)).toEqual([0, 1, 2, 3, 4, 5])
+  })
+
+  it('lands on the target index, in the final pass, centred', () => {
+    const plan = buildIndexReelPlan(6, 2)
+    expect(plan.found).toBe(true)
+    expect(plan.cells[plan.targetCell]).toBe(2)
+    // Final pass: targetCell = REEL_LOOPS * 6 + 2 = 26; centre up by floor(3/2)=1.
+    expect(plan.targetCell).toBe(REEL_LOOPS * 6 + 2)
+    expect(plan.offset).toBe(plan.targetCell - Math.floor(REEL_VISIBLE / 2))
+    expect(plan.targetCell).toBeGreaterThanOrEqual(REEL_LOOPS * plan.count)
+  })
+
+  it('honours a custom loop count', () => {
+    const plan = buildIndexReelPlan(6, 0, 1)
+    expect(plan.cells).toHaveLength(2 * 6) // (1 + 1) passes
+  })
+
+  it('flags an out-of-range index (defensive) and degrades to index 0', () => {
+    const hi = buildIndexReelPlan(6, 9)
+    expect(hi.found).toBe(false)
+    expect(hi.cells[hi.targetCell]).toBe(0)
+    const lo = buildIndexReelPlan(6, -1)
+    expect(lo.found).toBe(false)
+    expect(lo.cells[lo.targetCell]).toBe(0)
+  })
+
+  it('does not throw on a zero-count reel, keeping offset non-negative', () => {
+    const plan = buildIndexReelPlan(0, 0)
+    expect(plan.count).toBe(0)
+    expect(plan.cells).toEqual([])
+    expect(plan.found).toBe(false)
     expect(plan.targetCell).toBe(0)
     expect(plan.offset).toBe(0)
   })
