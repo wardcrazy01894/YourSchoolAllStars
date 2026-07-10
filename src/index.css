@@ -352,6 +352,10 @@ body {
   color: var(--accent);
   margin-left: 6px;
 }
+/* A player can carry several distinct award badges — keep the row compact. */
+.honor + .honor {
+  margin-left: 2px;
+}
 /* Football player's stat line under their name in the Results roster table.
    Shown for every mode (like basketball's Results stat columns); for Gridiron IQ
    it doubles as the end-of-game reveal of the line hidden during the draft. */

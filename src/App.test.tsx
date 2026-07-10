@@ -85,21 +85,23 @@ describe('Playing — Hoops IQ stat hiding', () => {
     expect(screen.getByText('alpha Player')).toBeTruthy()
   })
 
-  it('hides the award ★ entirely in Hoops IQ (it hints who is decorated)', () => {
+  it('hides award badges entirely in Hoops IQ (they hint who is decorated)', () => {
     renderPlaying(true)
     // The fixture players carry an All-American honor, but Hoops IQ must not
-    // surface ANY star — the goal is to draft on names alone, and a star is a
-    // strong "this one is good" tell (and its tooltip would leak the year).
+    // surface ANY badge — the goal is to draft on names alone, and a badge is
+    // a strong "this one is good" tell (and its tooltip would leak the year).
+    expect(screen.queryAllByText('🌟')).toHaveLength(0)
     expect(screen.queryAllByText('★')).toHaveLength(0)
   })
 
-  it('shows the award ★ (with a tooltip) when stats are visible', () => {
+  it('shows a per-award badge (with a tooltip) when stats are visible', () => {
     renderPlaying(false)
-    // Both fixture players are decorated ⇒ one star each.
-    const stars = screen.getAllByText('★')
-    expect(stars).toHaveLength(PLAYERS.length)
-    // The tooltip lists the honor when nothing is hidden.
-    expect(stars[0].getAttribute('title')).toContain('All-American')
+    // Both fixture players carry an All-American honor ⇒ one 🌟 badge each,
+    // not the old generic ★.
+    const badges = screen.getAllByText('🌟')
+    expect(badges).toHaveLength(PLAYERS.length)
+    // The tooltip names the honor when nothing is hidden.
+    expect(badges[0].getAttribute('title')).toContain('All-American')
   })
 })
 

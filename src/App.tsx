@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
+import { honorBadges } from './lib/honors'
 import {
   BBALL_POSITIONS,
   windowLabel,
@@ -1500,15 +1501,22 @@ export function Playing({
                           {alt.length > 0 && (
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
-                          {!hideStats && s && s.honors.length > 0 && (
-                            // Hoops IQ hides the ★ entirely: it's a strong "this
-                            // player is good" tell, and the honor strings embed
-                            // the year (e.g. "All-American (2003)") which would
-                            // leak the hidden season via the tooltip.
-                            <span className="honor" title={s.honors.join(', ')}>
-                              ★
-                            </span>
-                          )}
+                          {!hideStats &&
+                            s &&
+                            // Hoops IQ hides the badges entirely: they're a
+                            // strong "this player is good" tell, and the honor
+                            // strings embed the year (e.g. "All-American
+                            // (2003)") which would leak the hidden season via
+                            // the tooltip.
+                            honorBadges(s.honors).map((b) => (
+                              <span
+                                key={b.emoji}
+                                className="honor"
+                                title={`${b.label}: ${b.honors.join(', ')}`}
+                              >
+                                {b.emoji}
+                              </span>
+                            ))}
                         </td>
                         {!hideStats && <td className="yr">{fmtYear(s)}</td>}
                         {!hideStats &&
@@ -2291,17 +2299,20 @@ function FbPlaying({
                         >
                           <td className="name">
                             {p.name}
-                            {/* Hide the ★ in Gridiron IQ: it's a strong "good
-                                player" tell, and the honor strings embed the year
-                                (leaking the hidden season via the tooltip). */}
-                            {!hideStats && p.honors.length > 0 && (
-                              <span
-                                className="honor"
-                                title={p.honors.join(', ')}
-                              >
-                                ★
-                              </span>
-                            )}
+                            {/* Hide the badges in Gridiron IQ: they're a strong
+                                "good player" tell, and the honor strings embed
+                                the year (leaking the hidden season via the
+                                tooltip). */}
+                            {!hideStats &&
+                              honorBadges(p.honors).map((b) => (
+                                <span
+                                  key={b.emoji}
+                                  className="honor"
+                                  title={`${b.label}: ${b.honors.join(', ')}`}
+                                >
+                                  {b.emoji}
+                                </span>
+                              ))}
                           </td>
                           {!hideStats && <td className="yr">{fmtFbYear(p)}</td>}
                           {!hideStats &&
