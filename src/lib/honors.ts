@@ -30,7 +30,11 @@ const RULES: Rule[] = [
     label: 'National Player of the Year',
   },
   {
-    test: (h) => /all.americ/i.test(h) && !/second|third|honorable/i.test(h),
+    // "McDonald's All-American" is a high-school recruiting honor that would
+    // otherwise wear the college first-team 🌟 — excluded here and given its
+    // own badge further down the prestige order.
+    test: (h) =>
+      /all.americ/i.test(h) && !/second|third|honorable|mcdonald/i.test(h),
     emoji: '🌟',
     label: 'First-Team All-American',
   },
@@ -40,7 +44,7 @@ const RULES: Rule[] = [
     label: 'Second-Team All-American',
   },
   {
-    test: (h) => /all.americ/i.test(h),
+    test: (h) => /all.americ/i.test(h) && !/mcdonald/i.test(h),
     emoji: '✨',
     label: 'Third-Team / HM All-American',
   },
@@ -92,6 +96,11 @@ const RULES: Rule[] = [
     emoji: '🎖️',
     label: 'All-Conference Honorable Mention',
   },
+  {
+    test: (h) => /mcdonald/i.test(h),
+    emoji: '🍔',
+    label: "McDonald's All-American (high school)",
+  },
 ]
 
 const FALLBACK: Rule = {
@@ -134,7 +143,8 @@ export function honorBadges(honors: string[]): HonorBadge[] {
   const byEmoji = new Map<string, { rank: number; badge: HonorBadge }>()
   for (const honor of honors) {
     const rule = ruleFor(honor)
-    const rank = RULES.indexOf(rule) === -1 ? RULES.length : RULES.indexOf(rule)
+    const idx = RULES.indexOf(rule)
+    const rank = idx === -1 ? RULES.length : idx
     const existing = byEmoji.get(rule.emoji)
     if (existing) {
       existing.badge.honors.push(honor)

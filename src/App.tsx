@@ -1466,9 +1466,13 @@ export function Playing({
           )}
 
           {/* Above the tables so it's seen before scrolling. No key in Hoops
-              IQ: badges are hidden there, and listing award tiers would only
-              advertise what's being withheld. */}
-          {!hideStats && <HonorKey />}
+              IQ (badges hidden there, and listing award tiers would only
+              advertise what's being withheld), and none when no one in the
+              pool is decorated — don't explain badges that can't appear. */}
+          {!hideStats &&
+            groups.some((g) =>
+              g.players.some((p) => p.seasons.some((s) => s.honors.length > 0)),
+            ) && <HonorKey />}
 
           {groups.map((g) => (
             <div className="pos-group" key={g.pos}>
@@ -1506,22 +1510,12 @@ export function Playing({
                           {alt.length > 0 && (
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
-                          {!hideStats &&
-                            s &&
-                            // Hoops IQ hides the badges entirely: they're a
-                            // strong "this player is good" tell, and the honor
-                            // strings embed the year (e.g. "All-American
-                            // (2003)") which would leak the hidden season via
-                            // the tooltip.
-                            honorBadges(s.honors).map((b) => (
-                              <span
-                                key={b.emoji}
-                                className="honor"
-                                title={`${b.label}: ${b.honors.join(', ')}`}
-                              >
-                                {b.emoji}
-                              </span>
-                            ))}
+                          {/* Hoops IQ hides the badges entirely: they're a
+                              strong "this player is good" tell, and the honor
+                              strings embed the year (e.g. "All-American
+                              (2003)") which would leak the hidden season via
+                              the tooltip. */}
+                          {!hideStats && s && <HonorBadges honors={s.honors} />}
                         </td>
                         {!hideStats && <td className="yr">{fmtYear(s)}</td>}
                         {!hideStats &&
@@ -1538,6 +1532,27 @@ export function Playing({
         </>
       )}
     </section>
+  )
+}
+
+/** A player's award badges: distinct glyphs, most prestigious first, each with
+ *  a hover tooltip (title) and the same text for screen readers (aria-label —
+ *  emoji alone read poorly, and `title` isn't reliably announced). */
+function HonorBadges({ honors }: { honors: string[] }) {
+  return (
+    <>
+      {honorBadges(honors).map((b) => (
+        <span
+          key={b.emoji}
+          className="honor"
+          role="img"
+          aria-label={`${b.label}: ${b.honors.join(', ')}`}
+          title={`${b.label}: ${b.honors.join(', ')}`}
+        >
+          {b.emoji}
+        </span>
+      ))}
+    </>
   )
 }
 
@@ -1680,16 +1695,7 @@ export function Results({
                     {p ? p.name : <span className="muted">(empty)</span>}
                     {/* Results always reveal stats (even the IQ modes), so
                         badges are safe to show here. */}
-                    {s &&
-                      honorBadges(s.honors).map((b) => (
-                        <span
-                          key={b.emoji}
-                          className="honor"
-                          title={`${b.label}: ${b.honors.join(', ')}`}
-                        >
-                          {b.emoji}
-                        </span>
-                      ))}
+                    {s && <HonorBadges honors={s.honors} />}
                   </td>
                   <td className="yr">{fmtYear(s)}</td>
                   {STAT_COLS.map((c) => (
@@ -1713,7 +1719,13 @@ export function Results({
         </table>
       </div>
 
-      <HonorKey />
+      {/* Only when a starter is actually decorated — don't explain badges
+          that can't appear. */}
+      {BBALL_POSITIONS.some((pos) => {
+        const p = state.slots[pos]
+        const s = p ? seasonFor(p, winByPos[pos]) : null
+        return (s?.honors.length ?? 0) > 0
+      }) && <HonorKey />}
 
       <pre className="share-pre">{share}</pre>
       <div className="row">
@@ -2105,7 +2117,7 @@ function FbRosterRail({
   )
 }
 
-function FbPlaying({
+export function FbPlaying({
   players,
   state,
   wheel,
@@ -2348,16 +2360,7 @@ function FbPlaying({
                                 "good player" tell, and the honor strings embed
                                 the year (leaking the hidden season via the
                                 tooltip). */}
-                            {!hideStats &&
-                              honorBadges(p.honors).map((b) => (
-                                <span
-                                  key={b.emoji}
-                                  className="honor"
-                                  title={`${b.label}: ${b.honors.join(', ')}`}
-                                >
-                                  {b.emoji}
-                                </span>
-                              ))}
+                            {!hideStats && <HonorBadges honors={p.honors} />}
                           </td>
                           {!hideStats && <td className="yr">{fmtFbYear(p)}</td>}
                           {!hideStats &&
@@ -2469,16 +2472,7 @@ function FbResults({
                     {p ? p.name : <span className="muted">(empty)</span>}
                     {/* Results always reveal stats (even Gridiron IQ), so
                         badges are safe to show here. */}
-                    {p &&
-                      honorBadges(p.honors).map((b) => (
-                        <span
-                          key={b.emoji}
-                          className="honor"
-                          title={`${b.label}: ${b.honors.join(', ')}`}
-                        >
-                          {b.emoji}
-                        </span>
-                      ))}
+                    {p && <HonorBadges honors={p.honors} />}
                     {p && (
                       <div className="fb-statline muted">
                         {fbStatSummary(p)}

@@ -1,10 +1,11 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
-import type { BballPlayer } from './types'
+import type { BballPlayer, FbPlayer } from './types'
 import { initDraft } from './lib/game'
+import { initFbDraft } from './lib/football-game'
 import { getMode } from './lib/modes'
 import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
-import { Playing, RosterRail, Results } from './App'
+import { Playing, RosterRail, Results, FbPlaying } from './App'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -169,6 +170,59 @@ describe('Results — award badges on the final roster', () => {
   it('offers the badge key so mobile players can decode the badges', () => {
     renderResults()
     expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
+  })
+})
+
+describe('FbPlaying — award badges and key', () => {
+  function fbPlayer(id: string, honors: string[]): FbPlayer {
+    return {
+      id,
+      name: `${id} Player`,
+      position: 'QB',
+      firstYear: 2000,
+      lastYear: 2003,
+      bestSeason: 2001,
+      stats: { passYds: 3000, passTD: 25, passInt: 6, rushYds: 200 },
+      honors,
+      source: 'https://example.test/fixture',
+    }
+  }
+
+  function renderFbPlaying(hideStats: boolean, honors: string[]) {
+    render(
+      <FbPlaying
+        players={[fbPlayer('alpha', honors)]}
+        state={initFbDraft(WHEEL)}
+        wheel={WHEEL}
+        hideStats={hideStats}
+        power5={true}
+        onAdvance={() => {}}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+  }
+
+  const HONORS = ['First-Team All-Big Ten (2001)']
+
+  it('shows badges and the key when stats are visible', () => {
+    renderFbPlaying(false, HONORS)
+    const badges = screen
+      .getAllByText('🥇')
+      .filter((el) => el.getAttribute('title'))
+    expect(badges).toHaveLength(1)
+    expect(badges[0].getAttribute('title')).toContain('All-Big Ten')
+    expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
+  })
+
+  it('hides badges AND the key in Gridiron IQ', () => {
+    renderFbPlaying(true, HONORS)
+    expect(screen.queryAllByText('🥇')).toHaveLength(0)
+    expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
+  })
+
+  it('hides the key while the pool carries no honors (today’s football data)', () => {
+    renderFbPlaying(false, [])
+    expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
   })
 })
 

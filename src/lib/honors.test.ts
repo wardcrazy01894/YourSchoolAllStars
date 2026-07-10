@@ -20,6 +20,12 @@ describe('honorEmoji — national awards', () => {
     // National honorable mention shares the lowest national tier.
     expect(honorEmoji('AP All-American Honorable Mention (2013)')).toBe('✨')
   })
+
+  it("gives McDonald's All-American (a high-school honor) its own badge", () => {
+    // It contains "All-American" but is a recruiting honor, not an NCAA
+    // selection — it must NOT wear the college first-team 🌟.
+    expect(honorEmoji("McDonald's All-American (2021)")).toBe('🍔')
+  })
 })
 
 describe('honorEmoji — conference awards', () => {
