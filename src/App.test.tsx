@@ -2,7 +2,9 @@ import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
 import type { BballPlayer } from './types'
 import { initDraft } from './lib/game'
-import { Playing, RosterRail } from './App'
+import { getMode } from './lib/modes'
+import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
+import { Playing, RosterRail, Results } from './App'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -116,9 +118,57 @@ describe('Playing — Hoops IQ stat hiding', () => {
     expect(screen.getByText('First-Team All-Conference')).toBeTruthy()
   })
 
+  it('places the badge key above the pool tables where it gets seen', () => {
+    renderPlaying(false)
+    const summary = screen.getByText(/what do the badges mean/i)
+    const firstTable = document.querySelector('table.pool')
+    expect(firstTable).toBeTruthy()
+    // The key precedes the first pool table in document order.
+    expect(
+      summary.compareDocumentPosition(firstTable!) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
+  })
+
   it('hides the badge key in Hoops IQ (no badges ⇒ nothing to explain)', () => {
     renderPlaying(true)
     expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
+  })
+})
+
+describe('Results — award badges on the final roster', () => {
+  function renderResults() {
+    const state = initDraft(WHEEL)
+    state.slots.PG = PLAYERS[0]
+    state.picks = [{ player: PLAYERS[0], position: 'PG', window: WHEEL[0] }]
+    render(
+      <Results
+        school={getSchool(DEFAULT_SCHOOL_ID)!}
+        mode={getMode('daily')}
+        state={state}
+        dateKey="2026-07-10"
+        streak={{ current: 1, max: 1, lastDate: null }}
+        saved={null}
+        returning={false}
+        onPlayAgain={() => {}}
+      />,
+    )
+  }
+
+  it('shows each starter’s award badges next to their name', () => {
+    renderResults()
+    // The PG fixture carries an All-American honor ⇒ its 🌟 badge (with the
+    // explaining tooltip) appears on the final roster table too.
+    const badges = screen
+      .getAllByText('🌟')
+      .filter((el) => el.getAttribute('title'))
+    expect(badges).toHaveLength(1)
+    expect(badges[0].getAttribute('title')).toContain('All-American')
+  })
+
+  it('offers the badge key so mobile players can decode the badges', () => {
+    renderResults()
+    expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
   })
 })
 

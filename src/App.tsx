@@ -1465,6 +1465,11 @@ export function Playing({
             </div>
           )}
 
+          {/* Above the tables so it's seen before scrolling. No key in Hoops
+              IQ: badges are hidden there, and listing award tiers would only
+              advertise what's being withheld. */}
+          {!hideStats && <HonorKey />}
+
           {groups.map((g) => (
             <div className="pos-group" key={g.pos}>
               <div className="pos-group-head">
@@ -1530,9 +1535,6 @@ export function Playing({
               </table>
             </div>
           ))}
-          {/* No key in Hoops IQ: badges are hidden there, and listing award
-              tiers would only advertise what's being withheld. */}
-          {!hideStats && <HonorKey />}
         </>
       )}
     </section>
@@ -1556,7 +1558,7 @@ function HonorKey() {
   )
 }
 
-function Results({
+export function Results({
   school,
   mode,
   state,
@@ -1676,6 +1678,18 @@ function Results({
                   <td className="name">
                     <span className="pos-chip">{pos}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
+                    {/* Results always reveal stats (even the IQ modes), so
+                        badges are safe to show here. */}
+                    {s &&
+                      honorBadges(s.honors).map((b) => (
+                        <span
+                          key={b.emoji}
+                          className="honor"
+                          title={`${b.label}: ${b.honors.join(', ')}`}
+                        >
+                          {b.emoji}
+                        </span>
+                      ))}
                   </td>
                   <td className="yr">{fmtYear(s)}</td>
                   {STAT_COLS.map((c) => (
@@ -1698,6 +1712,8 @@ function Results({
           </tfoot>
         </table>
       </div>
+
+      <HonorKey />
 
       <pre className="share-pre">{share}</pre>
       <div className="row">
@@ -2287,6 +2303,15 @@ function FbPlaying({
             </div>
           )}
 
+          {/* Above the tables so it's seen before scrolling. No key in
+              Gridiron IQ (badges hidden there), and none while the football
+              dataset carries no honors — don't explain badges that can't
+              appear. */}
+          {!hideStats &&
+            groups.some((g) => g.players.some((p) => p.honors.length > 0)) && (
+              <HonorKey />
+            )}
+
           {groups.map((g) => {
             const cols = FB_STAT_COLS[g.pos]
             const covered = !openAcceptsPos(g.pos)
@@ -2347,13 +2372,6 @@ function FbPlaying({
               </div>
             )
           })}
-          {/* No key in Gridiron IQ (badges hidden there), and none while the
-              football dataset carries no honors — don't explain badges that
-              can't appear. */}
-          {!hideStats &&
-            groups.some((g) => g.players.some((p) => p.honors.length > 0)) && (
-              <HonorKey />
-            )}
         </>
       )}
     </section>
@@ -2449,6 +2467,18 @@ function FbResults({
                   <td className="name">
                     <span className="pos-chip">{slot.label}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
+                    {/* Results always reveal stats (even Gridiron IQ), so
+                        badges are safe to show here. */}
+                    {p &&
+                      honorBadges(p.honors).map((b) => (
+                        <span
+                          key={b.emoji}
+                          className="honor"
+                          title={`${b.label}: ${b.honors.join(', ')}`}
+                        >
+                          {b.emoji}
+                        </span>
+                      ))}
                     {p && (
                       <div className="fb-statline muted">
                         {fbStatSummary(p)}
@@ -2464,6 +2494,12 @@ function FbResults({
           </tbody>
         </table>
       </div>
+
+      {/* Only once the football dataset carries honors — don't explain badges
+          that can't appear. */}
+      {FB_SLOTS.some(
+        (slot) => (state.slots[slot.id]?.honors.length ?? 0) > 0,
+      ) && <HonorKey />}
 
       <pre className="share-pre">{share}</pre>
       <div className="row">
