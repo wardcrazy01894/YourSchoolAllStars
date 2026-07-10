@@ -1,8 +1,11 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
-import type { BballPlayer } from './types'
+import type { BballPlayer, FbPlayer } from './types'
 import { initDraft } from './lib/game'
-import { Playing, RosterRail } from './App'
+import { initFbDraft } from './lib/football-game'
+import { getMode } from './lib/modes'
+import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
+import { Playing, RosterRail, Results, FbPlaying } from './App'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -85,21 +88,141 @@ describe('Playing — Hoops IQ stat hiding', () => {
     expect(screen.getByText('alpha Player')).toBeTruthy()
   })
 
-  it('hides the award ★ entirely in Hoops IQ (it hints who is decorated)', () => {
+  it('hides award badges entirely in Hoops IQ (they hint who is decorated)', () => {
     renderPlaying(true)
     // The fixture players carry an All-American honor, but Hoops IQ must not
-    // surface ANY star — the goal is to draft on names alone, and a star is a
-    // strong "this one is good" tell (and its tooltip would leak the year).
+    // surface ANY badge — the goal is to draft on names alone, and a badge is
+    // a strong "this one is good" tell (and its tooltip would leak the year).
+    expect(screen.queryAllByText('🌟')).toHaveLength(0)
     expect(screen.queryAllByText('★')).toHaveLength(0)
   })
 
-  it('shows the award ★ (with a tooltip) when stats are visible', () => {
+  it('shows a per-award badge (with a tooltip) when stats are visible', () => {
     renderPlaying(false)
-    // Both fixture players are decorated ⇒ one star each.
-    const stars = screen.getAllByText('★')
-    expect(stars).toHaveLength(PLAYERS.length)
-    // The tooltip lists the honor when nothing is hidden.
-    expect(stars[0].getAttribute('title')).toContain('All-American')
+    // Both fixture players carry an All-American honor ⇒ one 🌟 badge each,
+    // not the old generic ★. Filter to tooltip-bearing badges: the badge key
+    // at the foot of the pool also shows a 🌟, but without a title.
+    const badges = screen
+      .getAllByText('🌟')
+      .filter((el) => el.getAttribute('title'))
+    expect(badges).toHaveLength(PLAYERS.length)
+    // The tooltip names the honor when nothing is hidden.
+    expect(badges[0].getAttribute('title')).toContain('All-American')
+  })
+
+  it('offers a collapsible badge key when stats are visible (mobile has no hover)', () => {
+    renderPlaying(false)
+    expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
+    // Expanding it lists every badge with its meaning.
+    fireEvent.click(screen.getByText(/what do the badges mean/i))
+    expect(screen.getByText('National Player of the Year')).toBeTruthy()
+    expect(screen.getByText('First-Team All-Conference')).toBeTruthy()
+  })
+
+  it('places the badge key above the pool tables where it gets seen', () => {
+    renderPlaying(false)
+    const summary = screen.getByText(/what do the badges mean/i)
+    const firstTable = document.querySelector('table.pool')
+    expect(firstTable).toBeTruthy()
+    // The key precedes the first pool table in document order.
+    expect(
+      summary.compareDocumentPosition(firstTable!) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
+  })
+
+  it('hides the badge key in Hoops IQ (no badges ⇒ nothing to explain)', () => {
+    renderPlaying(true)
+    expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
+  })
+})
+
+describe('Results — award badges on the final roster', () => {
+  function renderResults() {
+    const state = initDraft(WHEEL)
+    state.slots.PG = PLAYERS[0]
+    state.picks = [{ player: PLAYERS[0], position: 'PG', window: WHEEL[0] }]
+    render(
+      <Results
+        school={getSchool(DEFAULT_SCHOOL_ID)!}
+        mode={getMode('daily')}
+        state={state}
+        dateKey="2026-07-10"
+        streak={{ current: 1, max: 1, lastDate: null }}
+        saved={null}
+        returning={false}
+        onPlayAgain={() => {}}
+      />,
+    )
+  }
+
+  it('shows each starter’s award badges next to their name', () => {
+    renderResults()
+    // The PG fixture carries an All-American honor ⇒ its 🌟 badge (with the
+    // explaining tooltip) appears on the final roster table too.
+    const badges = screen
+      .getAllByText('🌟')
+      .filter((el) => el.getAttribute('title'))
+    expect(badges).toHaveLength(1)
+    expect(badges[0].getAttribute('title')).toContain('All-American')
+  })
+
+  it('offers the badge key so mobile players can decode the badges', () => {
+    renderResults()
+    expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
+  })
+})
+
+describe('FbPlaying — award badges and key', () => {
+  function fbPlayer(id: string, honors: string[]): FbPlayer {
+    return {
+      id,
+      name: `${id} Player`,
+      position: 'QB',
+      firstYear: 2000,
+      lastYear: 2003,
+      bestSeason: 2001,
+      stats: { passYds: 3000, passTD: 25, passInt: 6, rushYds: 200 },
+      honors,
+      source: 'https://example.test/fixture',
+    }
+  }
+
+  function renderFbPlaying(hideStats: boolean, honors: string[]) {
+    render(
+      <FbPlaying
+        players={[fbPlayer('alpha', honors)]}
+        state={initFbDraft(WHEEL)}
+        wheel={WHEEL}
+        hideStats={hideStats}
+        power5={true}
+        onAdvance={() => {}}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+  }
+
+  const HONORS = ['First-Team All-Big Ten (2001)']
+
+  it('shows badges and the key when stats are visible', () => {
+    renderFbPlaying(false, HONORS)
+    const badges = screen
+      .getAllByText('🥇')
+      .filter((el) => el.getAttribute('title'))
+    expect(badges).toHaveLength(1)
+    expect(badges[0].getAttribute('title')).toContain('All-Big Ten')
+    expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
+  })
+
+  it('hides badges AND the key in Gridiron IQ', () => {
+    renderFbPlaying(true, HONORS)
+    expect(screen.queryAllByText('🥇')).toHaveLength(0)
+    expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
+  })
+
+  it('hides the key while the pool carries no honors (today’s football data)', () => {
+    renderFbPlaying(false, [])
+    expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
   })
 })
 

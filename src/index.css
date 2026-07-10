@@ -352,6 +352,33 @@ body {
   color: var(--accent);
   margin-left: 6px;
 }
+/* A player can carry several distinct award badges — keep the row compact. */
+.honor + .honor {
+  margin-left: 2px;
+}
+/* Collapsible award-badge key under the pool — the touch-friendly stand-in
+   for the badge tooltips (no hover on mobile). */
+.honor-key {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.honor-key summary {
+  cursor: pointer;
+  user-select: none;
+}
+.honor-key ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 4px 16px;
+}
+.honor-key li .honor {
+  margin-left: 0;
+  margin-right: 6px;
+}
 /* Football player's stat line under their name in the Results roster table.
    Shown for every mode (like basketball's Results stat columns); for Gridiron IQ
    it doubles as the end-of-game reveal of the line hidden during the draft. */

@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
+import { honorBadges, HONOR_LEGEND } from './lib/honors'
 import {
   BBALL_POSITIONS,
   windowLabel,
@@ -1464,6 +1465,15 @@ export function Playing({
             </div>
           )}
 
+          {/* Above the tables so it's seen before scrolling. No key in Hoops
+              IQ (badges hidden there, and listing award tiers would only
+              advertise what's being withheld), and none when no one in the
+              pool is decorated — don't explain badges that can't appear. */}
+          {!hideStats &&
+            groups.some((g) =>
+              g.players.some((p) => p.seasons.some((s) => s.honors.length > 0)),
+            ) && <HonorKey />}
+
           {groups.map((g) => (
             <div className="pos-group" key={g.pos}>
               <div className="pos-group-head">
@@ -1500,15 +1510,12 @@ export function Playing({
                           {alt.length > 0 && (
                             <span className="alt-pos">+{alt.join('/')}</span>
                           )}
-                          {!hideStats && s && s.honors.length > 0 && (
-                            // Hoops IQ hides the ★ entirely: it's a strong "this
-                            // player is good" tell, and the honor strings embed
-                            // the year (e.g. "All-American (2003)") which would
-                            // leak the hidden season via the tooltip.
-                            <span className="honor" title={s.honors.join(', ')}>
-                              ★
-                            </span>
-                          )}
+                          {/* Hoops IQ hides the badges entirely: they're a
+                              strong "this player is good" tell, and the honor
+                              strings embed the year (e.g. "All-American
+                              (2003)") which would leak the hidden season via
+                              the tooltip. */}
+                          {!hideStats && s && <HonorBadges honors={s.honors} />}
                         </td>
                         {!hideStats && <td className="yr">{fmtYear(s)}</td>}
                         {!hideStats &&
@@ -1528,7 +1535,45 @@ export function Playing({
   )
 }
 
-function Results({
+/** A player's award badges: distinct glyphs, most prestigious first, each with
+ *  a hover tooltip (title) and the same text for screen readers (aria-label —
+ *  emoji alone read poorly, and `title` isn't reliably announced). */
+function HonorBadges({ honors }: { honors: string[] }) {
+  return (
+    <>
+      {honorBadges(honors).map((b) => (
+        <span
+          key={b.emoji}
+          className="honor"
+          role="img"
+          aria-label={`${b.label}: ${b.honors.join(', ')}`}
+          title={`${b.label}: ${b.honors.join(', ')}`}
+        >
+          {b.emoji}
+        </span>
+      ))}
+    </>
+  )
+}
+
+/** Collapsible key explaining the award badges. Tooltips cover desktop hover,
+ *  but touch devices have no hover — this is the mobile-reachable fallback. */
+function HonorKey() {
+  return (
+    <details className="honor-key">
+      <summary>🏆 What do the badges mean?</summary>
+      <ul>
+        {HONOR_LEGEND.map((e) => (
+          <li key={e.emoji}>
+            <span className="honor">{e.emoji}</span> {e.label}
+          </li>
+        ))}
+      </ul>
+    </details>
+  )
+}
+
+export function Results({
   school,
   mode,
   state,
@@ -1648,6 +1693,9 @@ function Results({
                   <td className="name">
                     <span className="pos-chip">{pos}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
+                    {/* Results always reveal stats (even the IQ modes), so
+                        badges are safe to show here. */}
+                    {s && <HonorBadges honors={s.honors} />}
                   </td>
                   <td className="yr">{fmtYear(s)}</td>
                   {STAT_COLS.map((c) => (
@@ -1670,6 +1718,14 @@ function Results({
           </tfoot>
         </table>
       </div>
+
+      {/* Only when a starter is actually decorated — don't explain badges
+          that can't appear. */}
+      {BBALL_POSITIONS.some((pos) => {
+        const p = state.slots[pos]
+        const s = p ? seasonFor(p, winByPos[pos]) : null
+        return (s?.honors.length ?? 0) > 0
+      }) && <HonorKey />}
 
       <pre className="share-pre">{share}</pre>
       <div className="row">
@@ -2061,7 +2117,7 @@ function FbRosterRail({
   )
 }
 
-function FbPlaying({
+export function FbPlaying({
   players,
   state,
   wheel,
@@ -2259,6 +2315,15 @@ function FbPlaying({
             </div>
           )}
 
+          {/* Above the tables so it's seen before scrolling. No key in
+              Gridiron IQ (badges hidden there), and none while the football
+              dataset carries no honors — don't explain badges that can't
+              appear. */}
+          {!hideStats &&
+            groups.some((g) => g.players.some((p) => p.honors.length > 0)) && (
+              <HonorKey />
+            )}
+
           {groups.map((g) => {
             const cols = FB_STAT_COLS[g.pos]
             const covered = !openAcceptsPos(g.pos)
@@ -2291,17 +2356,11 @@ function FbPlaying({
                         >
                           <td className="name">
                             {p.name}
-                            {/* Hide the ★ in Gridiron IQ: it's a strong "good
-                                player" tell, and the honor strings embed the year
-                                (leaking the hidden season via the tooltip). */}
-                            {!hideStats && p.honors.length > 0 && (
-                              <span
-                                className="honor"
-                                title={p.honors.join(', ')}
-                              >
-                                ★
-                              </span>
-                            )}
+                            {/* Hide the badges in Gridiron IQ: they're a strong
+                                "good player" tell, and the honor strings embed
+                                the year (leaking the hidden season via the
+                                tooltip). */}
+                            {!hideStats && <HonorBadges honors={p.honors} />}
                           </td>
                           {!hideStats && <td className="yr">{fmtFbYear(p)}</td>}
                           {!hideStats &&
@@ -2411,6 +2470,9 @@ function FbResults({
                   <td className="name">
                     <span className="pos-chip">{slot.label}</span>
                     {p ? p.name : <span className="muted">(empty)</span>}
+                    {/* Results always reveal stats (even Gridiron IQ), so
+                        badges are safe to show here. */}
+                    {p && <HonorBadges honors={p.honors} />}
                     {p && (
                       <div className="fb-statline muted">
                         {fbStatSummary(p)}
@@ -2426,6 +2488,12 @@ function FbResults({
           </tbody>
         </table>
       </div>
+
+      {/* Only once the football dataset carries honors — don't explain badges
+          that can't appear. */}
+      {FB_SLOTS.some(
+        (slot) => (state.slots[slot.id]?.honors.length ?? 0) > 0,
+      ) && <HonorKey />}
 
       <pre className="share-pre">{share}</pre>
       <div className="row">

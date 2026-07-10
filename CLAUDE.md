@@ -43,9 +43,9 @@ CI green is necessary but **not sufficient**. Before merging any PR, run an
 
 Every behavior change is **test-first**: red → green → refactor. Keep game logic
 in **pure functions** under `src/lib` (`windows`, `daily`, `rating`, `game`,
-`share`) so it's unit-testable without the DOM; keep the React shell thin and
-verify it manually / with Playwright. New logic without a failing-first test is
-incomplete.
+`share`, `honors`) so it's unit-testable without the DOM; keep the React shell
+thin and verify it manually / with Playwright. New logic without a failing-first
+test is incomplete.
 
 ## Data integrity — NO fabricated stats
 
