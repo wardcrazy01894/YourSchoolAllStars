@@ -97,11 +97,28 @@ describe('Playing — Hoops IQ stat hiding', () => {
   it('shows a per-award badge (with a tooltip) when stats are visible', () => {
     renderPlaying(false)
     // Both fixture players carry an All-American honor ⇒ one 🌟 badge each,
-    // not the old generic ★.
-    const badges = screen.getAllByText('🌟')
+    // not the old generic ★. Filter to tooltip-bearing badges: the badge key
+    // at the foot of the pool also shows a 🌟, but without a title.
+    const badges = screen
+      .getAllByText('🌟')
+      .filter((el) => el.getAttribute('title'))
     expect(badges).toHaveLength(PLAYERS.length)
     // The tooltip names the honor when nothing is hidden.
     expect(badges[0].getAttribute('title')).toContain('All-American')
+  })
+
+  it('offers a collapsible badge key when stats are visible (mobile has no hover)', () => {
+    renderPlaying(false)
+    expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
+    // Expanding it lists every badge with its meaning.
+    fireEvent.click(screen.getByText(/what do the badges mean/i))
+    expect(screen.getByText('National Player of the Year')).toBeTruthy()
+    expect(screen.getByText('First-Team All-Conference')).toBeTruthy()
+  })
+
+  it('hides the badge key in Hoops IQ (no badges ⇒ nothing to explain)', () => {
+    renderPlaying(true)
+    expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
   })
 })
 

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { honorEmoji, honorBadges } from './honors'
+import { honorEmoji, honorBadges, HONOR_LEGEND } from './honors'
 
 describe('honorEmoji — national awards', () => {
   it('maps national player-of-the-year awards to 🏆', () => {
@@ -110,5 +110,43 @@ describe('honorBadges', () => {
 
   it('returns an empty list for no honors', () => {
     expect(honorBadges([])).toEqual([])
+  })
+})
+
+describe('HONOR_LEGEND', () => {
+  it('covers every glyph honorEmoji can produce, exactly once', () => {
+    const sample = [
+      'Wooden Award (2013)',
+      'Consensus First-Team All-American (2013)',
+      'Consensus Second-Team All-American (1998)',
+      'AP Third-Team All-American (2014)',
+      'Big Ten Player of the Year (2013)',
+      'First-Team All-Big Ten (2013)',
+      'Second-Team All-SEC (2007)',
+      'Third-Team All-Big East (2009)',
+      'All-ACC Honorable Mention (2019)',
+      'SEC Defensive Player of the Year (2007)',
+      'Big Ten Freshman of the Year (2018)',
+      'SEC Sixth Man of the Year (2006)',
+      'Big Ten Tournament MVP (2017)',
+      'Team MVP (2004)', // fallback ★
+    ]
+    const produced = new Set(sample.map(honorEmoji))
+    const legend = HONOR_LEGEND.map((e) => e.emoji)
+    for (const emoji of produced) expect(legend).toContain(emoji)
+    expect(new Set(legend).size).toBe(legend.length)
+  })
+
+  it('pairs every glyph with a human-readable label', () => {
+    for (const entry of HONOR_LEGEND) {
+      expect(entry.label.length).toBeGreaterThan(3)
+    }
+  })
+
+  it('leads with the most prestigious badge (national POY)', () => {
+    expect(HONOR_LEGEND[0]).toEqual({
+      emoji: '🏆',
+      label: 'National Player of the Year',
+    })
   })
 })

@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import confetti from 'canvas-confetti'
-import { honorBadges } from './lib/honors'
+import { honorBadges, HONOR_LEGEND } from './lib/honors'
 import {
   BBALL_POSITIONS,
   windowLabel,
@@ -1530,9 +1530,29 @@ export function Playing({
               </table>
             </div>
           ))}
+          {/* No key in Hoops IQ: badges are hidden there, and listing award
+              tiers would only advertise what's being withheld. */}
+          {!hideStats && <HonorKey />}
         </>
       )}
     </section>
+  )
+}
+
+/** Collapsible key explaining the award badges. Tooltips cover desktop hover,
+ *  but touch devices have no hover — this is the mobile-reachable fallback. */
+function HonorKey() {
+  return (
+    <details className="honor-key">
+      <summary>🏆 What do the badges mean?</summary>
+      <ul>
+        {HONOR_LEGEND.map((e) => (
+          <li key={e.emoji}>
+            <span className="honor">{e.emoji}</span> {e.label}
+          </li>
+        ))}
+      </ul>
+    </details>
   )
 }
 
@@ -2327,6 +2347,13 @@ function FbPlaying({
               </div>
             )
           })}
+          {/* No key in Gridiron IQ (badges hidden there), and none while the
+              football dataset carries no honors — don't explain badges that
+              can't appear. */}
+          {!hideStats &&
+            groups.some((g) => g.players.some((p) => p.honors.length > 0)) && (
+              <HonorKey />
+            )}
         </>
       )}
     </section>

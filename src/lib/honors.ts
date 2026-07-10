@@ -116,6 +116,18 @@ export interface HonorBadge {
   honors: string[]
 }
 
+export interface LegendEntry {
+  emoji: string
+  label: string
+}
+
+/** Every badge glyph the classifier can produce, most prestigious first —
+ *  drives the on-page badge key (hover tooltips don't exist on touch). */
+export const HONOR_LEGEND: LegendEntry[] = [
+  ...RULES.map(({ emoji, label }) => ({ emoji, label })),
+  { emoji: FALLBACK.emoji, label: FALLBACK.label },
+]
+
 /** Collapse a player's honors into distinct badges, most prestigious first.
  *  Honors sharing a glyph merge into one badge carrying all their strings. */
 export function honorBadges(honors: string[]): HonorBadge[] {
