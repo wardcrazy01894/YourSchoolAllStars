@@ -152,8 +152,8 @@ Given both, the policy is:
 This loosens the earlier verify-only stance (Alex's call, 2026-06-26): accuracy
 **and** completeness — stop dropping real players over a sourcing technicality.
 
-(Football sources — the CFBD API pipeline — are covered in the **Football**
-section below.)
+(Football sources — the mgoblue.com pipeline + SR backfill — are covered in the
+**Football** section below.)
 
 ## Schema (`src/data/michigan-basketball.json`)
 
@@ -324,83 +324,110 @@ AA was real). Operational details that bit us:
   name-normalizer must strip them to match roster names — and check for collisions
   after stripping.
 
-## Football (2016+) — LIVE on a scripted CFBD pipeline
+## Football (1994+) — LIVE on the official-site pipeline
 
-Football is **live** with real, sourced data: `src/data/michigan-football.json`
-(`_provisional: false`) is built from the **CFBD API** (collegefootballdata.com)
-via a **reusable, parameterized pipeline** plus one hand-curation pass. Schema =
-`FbPlayer`/`FbStats` (`src/types.ts`); one row per unique player carrying their
-**best single season** (totals); positions QB/RB/WR/TE (offense) and DE/DT/LB/CB/S
-(defense). The dataset guard (`src/data/football-dataset.test.ts`) enforces shape,
-unique ids, position-relevant non-zero stat lines, per-window Hall's-condition
-coverage, and — now that it's real — that every `source` is a real `http(s)` URL.
+Football is **live** with real, per-season sourced data:
+`src/data/michigan-football.json` (`_provisional: false`) is built from
+**mgoblue.com** (the official athletics site — the top-priority source class)
+via a reusable pipeline plus a scripted curation pass, with **Sports-Reference**
+backfilling 1994–96 and repairing a handful of broken official rows. Schema =
+`FbPlayer`/`FbSeason` (`src/types.ts`): **one row per season** a player is
+represented by (totals), exactly like basketball, so the engine credits a player
+by their best season **within the spun window** — never an out-of-era line.
+Positions are QB/RB/WR/TE (offense) and DE/DT/LB/CB/S (defense).
 
-### Why CFBD, and why 2016
+The dataset guard (`src/data/football-dataset.test.ts`) enforces per-season
+shape (sorted, unique, inside tenure), position-relevant stats, a **rushing
+line on every QB season** (`rushYds`+`rushTD`; net can be negative — the NCAA
+counts sacks against rushing), tenure coverage (every year has a row or a
+declared `redshirtYears` entry), per-window Hall's-condition coverage over the
+live 1994+ wheel, and a real `http(s)` `source` on every season row.
 
-- **CFBD** (collegefootballdata.com) is a free, keyed JSON API with structured
-  per-season box scores. It beats hand-curating Wikipedia season pages: one script
-  pulls every player/stat for a span, so a new school is a flag change, not a
-  research project.
-- **2016 is a hard floor for Michigan.** CFBD's `defensive` category (tackles,
-  TFL, sacks, PD) only exists from **2016 onward** — verified at both the season
-  (`/stats/player/season`) and per-game (`/games/players`) endpoints; pre-2016
-  only has `interceptions`. A draftable defense needs that box score, and a window
-  needs both sides, so the era wheel starts at 2016. (Re-check this floor per
-  school — it may differ.)
-- **Rolling 4-year windows** from 2016 to the dataset's max year (same scheme as
-  basketball — see `fbWindows` in `src/lib/football.ts`), giving eras 2016–19 …
-  2021–24. Each window must independently fill all 12 slots per side (Hall's
-  condition), which the guard test verifies.
+### Why mgoblue.com, and the 1997 defensive floor
 
-### Step 1 — pull the raw draft (`scripts/fetch-football.mjs`)
+- **mgoblue.com** publishes official per-player cumulative season stats —
+  passing/rushing/receiving AND the full defensive box score (tackles, TFL,
+  sacks, INT, PBU, FF) — for **1997 onward**. The pages are server-rendered
+  Nuxt/Sidearm pages with a parseable `__NUXT_DATA__` payload; no API key.
+  This beats the previous CFBD pipeline, whose defensive box scores only start
+  in 2016 (that pipeline, `scripts/fetch-football.mjs`, is retained for schools
+  without a Sidearm stats archive).
+- **1994–96**: Sports-Reference season pages carry complete offense tables
+  (passing / rushing & receiving, all players) — used as the cited source for
+  those seasons. **Per-player defense (tackles/TFL/sacks) before 1997 is not
+  published by any citable source** (SR has INT-only; Bentley/Wikipedia are
+  sparse), so pre-1997 defenders carry INT-only lines where SR has them. This
+  is a documented data floor, not a sourcing slip.
+- **Eligibility is season-ROW-based** (`playerInWindow` checks rows, not tenure
+  overlap), so the 1994–96 windows still fill every defensive slot from the
+  1997 season rows they contain, and a window can never show stats from outside
+  its own years.
+- **Rolling 4-year windows** from **1994** (same floor as basketball) to the
+  dataset's max year — eras 1994–97 … 2021–24.
 
-Reusable for any school. Reads the API key from the `CFBD_API_KEY` **environment
-variable only** — never a file (gitleaks secret-scan runs in CI):
+### Step 1 — pull the official draft (`scripts/fetch-football-mgoblue.mjs`)
 
 ```bash
-export CFBD_API_KEY=…                       # free key from collegefootballdata.com
-node scripts/fetch-football.mjs --team Michigan --start 2016 --end 2024 \
-  --out scratchpad/mich-fb.json
+node scripts/fetch-football-mgoblue.mjs --site https://mgoblue.com \
+  --start 1997 --end 2024 --out scratchpad/mich-fb.json
 ```
 
-It hits `/roster` and `/stats/player/season` per year, maps CFBD's long-form stat
-rows into `FbStats` keys (STAT_MAP), aggregates per player across years (keeping
-every season under `_seasons` so curation can re-pick after a position change),
-scores each season with a composite that **mirrors `src/lib/football-rating.ts`**
-(keep the two TERMS tables in sync), picks the best season, and writes a draft JSON
-plus a per-window coverage report.
+Per year it parses the stats page (`/sports/football/stats/<year>`) and roster
+(`/sports/football/roster/<year>`), joins them on Sidearm's stable person id
+(season bio ids change year to year; truncated "Last, F" rows are expanded
+against the roster), maps categories into `FbStats` keys, merges players across
+years, and emits per-season rows (each `source` = that year's stats URL) plus a
+per-window coverage report. The composite table **mirrors
+`src/lib/football-rating.ts`** — keep the two TERMS tables in sync.
 
-### Step 2 — curate (manual, the one non-scriptable part)
+### Step 2 — curate (scripted, with a hand-verified override map)
 
-CFBD's roster position codes are **coarse**: edge rushers and interior linemen are
-both `DL`, every defensive back is `DB`. The draft needs the fine positions
-DE/DT and CB/S, which **cannot come from CFBD** — they're hand-authored. The
-throwaway curation script (kept out of the repo, in `scratchpad/`) holds a
-**hand-verified name→position map** for the defenders and:
+The curation pass (scratchpad script; its inputs/decisions are recorded in the
+dataset `_note` and this doc) does, in order:
 
-- reassigns each defender to DE/DT/LB/CB/S (offense trusts CFBD's QB/RB/WR/TE),
-- re-picks the best season under the **final** position, keeping only that
-  position's relevant, **positive** stats (CFBD reports NET rushing, so a QB's
-  sack/kneel yards can go negative — the guard rejects negatives),
-- drops walk-ons below a small composite floor and any defender not in the map
-  (better to omit than ship a wrong position into a position-based draft),
-- verifies Hall's-condition coverage per rolling window **before** writing, and
-- stamps each row's `source` as the CFBD citation for its best season.
+- **Repair mgoblue mislinks.** The official payload occasionally attaches a
+  stat line to the wrong player's bio (e.g. Frank Clark's 2014 line under a
+  center's name; Marquise Walker's 1999–2000 receiving under a nonexistent
+  "Tommy Jones"). Every repair was verified against SR's table for that year;
+  repaired/reassigned rows carry the **SR page as `source`** so numbers always
+  match their citation.
+- **Merge SR 1994–96** rows (offense + INT-only defense) by name.
+- **Resolve positions**: hand override map (agent-verified with citations) >
+  the previous hand-verified dataset > roster `positionShort` votes > SR `pos`
+  column. Coarse codes (`DB`/`DL`) are never defaulted — unresolved players
+  above the composite floor were individually verified; low-confidence
+  marginal players are **dropped** (better to omit than ship a wrong position).
+- **Cross-validate vs SR**: every overlapping player-season is compared; a
+  defender whose tackles diverge wildly is repaired from SR. (Small deltas are
+  bowl-game scope — SR excludes bowls before 2002; mgoblue's inclusion varies
+  by vintage. Each row matches its own cited page.)
+- **Offensive players keep only offensive keys** for 2005+ unless SR
+  corroborates their defensive stats (kills mislinked phantom lines while
+  keeping real two-way seasons).
+- **QB rushing**: every QB season carries `rushYds`/`rushTD` (0 when the
+  rushing table has no row — the tables are exhaustive, so absence = none).
+- Trim below a small composite floor, de-collide same-name ids with a
+  `-<firstYear>` suffix (two different Will Johnsons exist), auto-declare
+  interior tenure gaps as `redshirtYears`, and verify Hall's-condition
+  coverage per rolling window before writing.
 
 ### For a new school
 
-1. `node scripts/fetch-football.mjs --team <School> --start <floor> --end <year>`
-   — first confirm the school's own defensive-data floor (don't assume 2016).
-2. Build a name→position map for that school's defenders (DE/DT, CB/S) from a
-   reliable roster source; re-run the curation step.
-3. Set the loader's `_provisional: false` once the guard test is green.
+1. Check whether the school's athletics site is Sidearm with a stats archive
+   (`<site>/sports/football/stats/<year>`) and find its floor year; run
+   `fetch-football-mgoblue.mjs --site <url>`. Otherwise fall back to the CFBD
+   pipeline (`fetch-football.mjs`, needs `CFBD_API_KEY`, defense 2016+ only).
+2. Backfill pre-floor years from SR season pages (offense is complete there).
+3. Build the position override map for coarse/ambiguous defenders from citable
+   sources; drop what can't be verified.
+4. Set `_provisional: false` once the guard test is green.
 
 ### Sources & honors
 
-- **`source` = CFBD** (`https://collegefootballdata.com/ — CFBD player season
-stats, <School> <year>`). **Sports-Reference** (/cfb) remains an acceptable
-  cited source to verify or to fill a long-tail line per the SR policy above — no
-  bulk scraping.
-- **Honors are intentionally deferred** (`honors: []`) pending a separate
-  award-page pass — never fabricate them (see the honors policy + memory note on
-  re-deriving from SR award pages).
+- **`source` per season row** = the exact page the numbers came from: the
+  year's mgoblue stats URL, or the SR season page for 1994–96 rows and
+  SR-repaired rows. SR remains fine to verify or fill long-tail lines per the
+  SR policy above — no bulk mirroring of their database.
+- **Honors are intentionally deferred** (`honors: []` per season) pending a
+  separate award-page pass — never fabricate them (see the honors policy +
+  memory note on re-deriving from SR award pages).

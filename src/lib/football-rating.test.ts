@@ -1,10 +1,13 @@
 import { describe, it, expect } from 'vitest'
-import type { FbPlayer, FbPosition, FbStats } from '../types'
+import type { FbPlayer, FbPosition, FbSeason, FbStats } from '../types'
 import {
   FB_GAMES,
   fbStatComposite,
   fbHonorTier,
   fbHonorsBonus,
+  fbBestSeason,
+  fbBestSeasonInWindow,
+  fbSeasonForWindow,
   fbPlayerRating,
   fbTeamStrength,
   fbProjectedWins,
@@ -30,6 +33,14 @@ const ELITE: Record<FbPosition, FbStats> = {
 
 const ALL_POSITIONS = Object.keys(ELITE) as FbPosition[]
 
+function mkSeason(
+  year: number,
+  stats: FbStats,
+  honors: string[] = [],
+): FbSeason {
+  return { year, stats, honors, source: 'https://example.com' }
+}
+
 function mkPlayer(
   position: FbPosition,
   stats: FbStats,
@@ -41,10 +52,24 @@ function mkPlayer(
     position,
     firstYear: 2010,
     lastYear: 2010,
-    bestSeason: 2010,
-    stats,
-    honors,
-    source: 'https://example.com',
+    seasons: [mkSeason(2010, stats, honors)],
+  }
+}
+
+/** A QB with a distinct line each year 2014–2017; 2016 is the career peak. */
+function mkCareerQB(): FbPlayer {
+  return {
+    id: 'qb-career',
+    name: 'Career QB',
+    position: 'QB',
+    firstYear: 2014,
+    lastYear: 2017,
+    seasons: [
+      mkSeason(2014, { passYds: 900, passTD: 5, passInt: 4 }),
+      mkSeason(2015, { passYds: 1800, passTD: 12, passInt: 6 }),
+      mkSeason(2016, { passYds: 3300, passTD: 30, passInt: 6, rushTD: 4 }),
+      mkSeason(2017, { passYds: 2100, passTD: 14, passInt: 9 }),
+    ],
   }
 }
 
@@ -105,7 +130,68 @@ describe('fbHonorTier / fbHonorsBonus', () => {
   })
 })
 
+describe('fbBestSeason / fbBestSeasonInWindow / fbSeasonForWindow', () => {
+  it('career best is the peak season across all years', () => {
+    expect(fbBestSeason(mkCareerQB())?.year).toBe(2016)
+  })
+
+  it('window-scoped best only considers seasons INSIDE the window', () => {
+    // 2014–2015 era must never credit the 2016 peak.
+    const s = fbBestSeasonInWindow(mkCareerQB(), { start: 2012, end: 2015 })
+    expect(s?.year).toBe(2015)
+  })
+
+  it('returns null when no season falls in the window', () => {
+    expect(
+      fbBestSeasonInWindow(mkCareerQB(), { start: 2018, end: 2021 }),
+    ).toBeNull()
+  })
+
+  it('ties resolve to the earlier season', () => {
+    const p: FbPlayer = {
+      ...mkCareerQB(),
+      seasons: [
+        mkSeason(2014, { passYds: 2000, passTD: 15, passInt: 5 }),
+        mkSeason(2015, { passYds: 2000, passTD: 15, passInt: 5 }),
+      ],
+    }
+    expect(fbBestSeasonInWindow(p, { start: 2014, end: 2017 })?.year).toBe(2014)
+  })
+
+  it('fbSeasonForWindow falls back to career best only when nothing is in-window', () => {
+    const inWin = fbSeasonForWindow(mkCareerQB(), { start: 2014, end: 2017 })
+    expect(inWin?.year).toBe(2016)
+    const fallback = fbSeasonForWindow(mkCareerQB(), { start: 2019, end: 2022 })
+    expect(fallback?.year).toBe(2016)
+  })
+})
+
 describe('fbPlayerRating', () => {
+  it('rates by the best season WITHIN the given window, not the career peak', () => {
+    const p = mkCareerQB()
+    const early = fbPlayerRating(p, { start: 2012, end: 2015 })
+    const peak = fbPlayerRating(p, { start: 2014, end: 2017 })
+    expect(early).toBeLessThan(peak)
+    // And the windowless rating equals the peak-window rating (career best).
+    expect(fbPlayerRating(p)).toBe(peak)
+  })
+
+  it("counts only the in-window season's honors", () => {
+    const p = mkCareerQB()
+    p.seasons[2] = mkSeason(2016, p.seasons[2].stats, [
+      'Consensus All-American (2016)',
+    ])
+    const undecorated: FbPlayer = mkCareerQB()
+    // Honor year (2016) outside the window → no lift vs the plain career.
+    expect(fbPlayerRating(p, { start: 2012, end: 2015 })).toBe(
+      fbPlayerRating(undecorated, { start: 2012, end: 2015 }),
+    )
+    // Honor year inside the window → lift.
+    expect(fbPlayerRating(p, { start: 2014, end: 2017 })).toBeGreaterThan(
+      fbPlayerRating(undecorated, { start: 2014, end: 2017 }),
+    )
+  })
+
   it('is bounded to [0, 100]', () => {
     for (const pos of ALL_POSITIONS) {
       const r = fbPlayerRating(mkPlayer(pos, ELITE[pos]))
@@ -152,8 +238,8 @@ describe('fbPlayerRating', () => {
 
   it('applies the non-power-5 haircut when power5 is false', () => {
     const p = mkPlayer('WR', ELITE.WR)
-    const full = fbPlayerRating(p, true)
-    const docked = fbPlayerRating(p, false)
+    const full = fbPlayerRating(p, undefined, true)
+    const docked = fbPlayerRating(p, undefined, false)
     expect(docked).toBeLessThan(full)
     expect(docked).toBe(Math.round(full * FB_NON_POWER5_RATING_FACTOR))
   })

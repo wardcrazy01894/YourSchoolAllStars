@@ -3,18 +3,21 @@
 // The draft mirrors basketball but onto the 12-man roster (FB_SLOTS): each round
 // spins a window; you pick an eligible player and drop them into an OPEN slot
 // their position fits — a single-position slot (QB, DE, …) or a FLEX that
-// accepts several. Football data starts at 2016 (see docs/DATA-SOURCING.md).
+// accepts several. Football data starts at 1994 (see docs/DATA-SOURCING.md).
 
-import { buildRollingWindows, datasetMaxYear, tenureOverlaps } from './windows'
+import { buildRollingWindows, datasetMaxYear } from './windows'
 import type { FbPlayer, RosterSlot, YearWindow } from '../types'
 import { FB_SLOTS } from '../types'
 
 /**
- * First season on the football era wheel. CFBD's defensive box scores
- * (tackles/sacks/TFL) only exist from 2016, and a window needs BOTH sides, so
- * the rolling wheel starts here. See docs/DATA-SOURCING.md.
+ * First season on the football era wheel — matches basketball's 1994 floor.
+ * Official per-player stats (mgoblue.com) cover 1997+ on both sides of the
+ * ball; 1994–96 offense comes from Sports-Reference, while pre-1997 defense
+ * is INT-only (no source publishes tackles that far back). Since eligibility
+ * is season-ROW-based, windows starting 1994–96 still fill every defensive
+ * slot from the 1997 rows they contain. See docs/DATA-SOURCING.md.
  */
-export const FB_FIRST_YEAR = 2016
+export const FB_FIRST_YEAR = 1994
 
 /**
  * The live football era wheel: rolling 4-year windows from {@link FB_FIRST_YEAR}
@@ -62,8 +65,16 @@ export function sideForRound(round: number): 'offense' | 'defense' {
   return round < OFFENSE_SLOT_IDS.length ? 'offense' : 'defense'
 }
 
+/**
+ * Football eligibility is SEASON-ROW-based, not tenure-based (deliberately
+ * stricter than basketball): a player may be drafted from an era only if they
+ * have an actual season row inside it, so the stats/rating shown can never
+ * come from a year outside the spun window. A tenure year with no sourced
+ * line (e.g. a pre-1997 defensive season no source publishes) shrinks
+ * eligibility instead of leaking a wrong-year line into the era.
+ */
 export function playerInWindow(player: FbPlayer, w: YearWindow): boolean {
-  return tenureOverlaps(player.firstYear, player.lastYear, w)
+  return player.seasons.some((s) => s.year >= w.start && s.year <= w.end)
 }
 
 /** Can this player's position go in this slot? (single-position or FLEX). */

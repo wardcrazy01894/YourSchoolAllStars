@@ -49,10 +49,12 @@ function mk(
     position,
     firstYear: first,
     lastYear: last,
-    bestSeason: first,
-    stats: STATLINE[position],
-    honors: [],
-    source: 'test',
+    seasons: Array.from({ length: last - first + 1 }, (_, i) => ({
+      year: first + i,
+      stats: STATLINE[position],
+      honors: [],
+      source: 'test',
+    })),
   }
 }
 

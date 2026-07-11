@@ -182,7 +182,7 @@ export function draftToSlot(
  * compensate for a weaker dataset — fix the dataset guard instead.
  *
  * SCOPE CAVEAT: that per-window×side coverage is enforced for exactly the rolling
- * wheel the live game spins — `fbWindows(players)` = rolling 4-year eras from 2016
+ * wheel the live game spins — `fbWindows(players)` = rolling 4-year eras from 1994
  * to the dataset max — since the dataset guard iterates that same wheel. A
  * synthetic or out-of-range window passed by hand is outside the guarantee. The
  * count guard below still holds unconditionally (it only reasons about how many
@@ -207,14 +207,15 @@ export function respin(s: FbDraftState): FbDraftState {
   }
 }
 
-/** One RatedFbStarter per filled slot (in pick order). */
+/** One RatedFbStarter per filled slot (in pick order), each rated by the best
+ *  season INSIDE the era they were drafted from — never an out-of-era peak. */
 export function ratedStarters(
   s: FbDraftState,
   power5: boolean,
 ): RatedFbStarter[] {
   return s.picks.map((pk) => ({
     position: pk.player.position,
-    rating: fbPlayerRating(pk.player, power5),
+    rating: fbPlayerRating(pk.player, pk.window, power5),
   }))
 }
 

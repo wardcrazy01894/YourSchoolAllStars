@@ -27,10 +27,12 @@ function mk(
     position,
     firstYear: first,
     lastYear: last,
-    bestSeason: last,
-    stats: {},
-    honors: [],
-    source: 'test',
+    seasons: Array.from({ length: last - first + 1 }, (_, i) => ({
+      year: first + i,
+      stats: {},
+      honors: [],
+      source: 'test',
+    })),
   }
 }
 
@@ -44,25 +46,33 @@ describe('FB_SLOTS / windows', () => {
     expect(FB_SLOTS.filter((s) => s.side === 'defense')).toHaveLength(6)
   })
 
-  it('fbWindows is the rolling 4-year wheel from 2016 to the dataset max', () => {
+  it('fbWindows is the rolling 4-year wheel from 1994 to the dataset max', () => {
     // Same data-driven rolling scheme basketball uses: one era per starting year
-    // from FB_FIRST_YEAR (2016, the CFBD defensive-data floor) up to maxYear.
+    // from FB_FIRST_YEAR (1994, same floor as basketball) up to maxYear.
     const wheel = fbWindows([{ lastYear: 2024 }])
-    expect(FB_FIRST_YEAR).toBe(2016)
-    expect(wheel[0]).toEqual({ start: 2016, end: 2019 })
+    expect(FB_FIRST_YEAR).toBe(1994)
+    expect(wheel[0]).toEqual({ start: 1994, end: 1997 })
     expect(wheel[wheel.length - 1]).toEqual({ start: 2021, end: 2024 })
-    expect(wheel).toHaveLength(6)
+    expect(wheel).toHaveLength(28)
     // No data → no windows (a school without football).
     expect(fbWindows([])).toEqual([])
   })
 
-  it('playerInWindow honors tenure overlap', () => {
+  it('playerInWindow requires a season ROW inside the window', () => {
     expect(
       playerInWindow(mk('a', 'QB', 2006, 2009), { start: 2005, end: 2008 }),
     ).toBe(true)
     expect(
       playerInWindow(mk('b', 'QB', 2010, 2013), { start: 2005, end: 2008 }),
     ).toBe(false)
+    // Tenure overlaps but the only season ROW is outside → NOT eligible. This
+    // is the wrong-era-stats fix: with no in-window row there is nothing the
+    // era could honestly credit, so the player simply isn't offered.
+    const sparse: FbPlayer = {
+      ...mk('c', 'QB', 2006, 2009),
+      seasons: [{ year: 2009, stats: {}, honors: [], source: 'test' }],
+    }
+    expect(playerInWindow(sparse, { start: 2005, end: 2008 })).toBe(false)
   })
 })
 

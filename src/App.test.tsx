@@ -181,10 +181,20 @@ describe('FbPlaying — award badges and key', () => {
       position: 'QB',
       firstYear: 2000,
       lastYear: 2003,
-      bestSeason: 2001,
-      stats: { passYds: 3000, passTD: 25, passInt: 6, rushYds: 200 },
-      honors,
-      source: 'https://example.test/fixture',
+      seasons: [
+        {
+          year: 2001,
+          stats: {
+            passYds: 3000,
+            passTD: 25,
+            passInt: 6,
+            rushYds: 200,
+            rushTD: 3,
+          },
+          honors,
+          source: 'https://example.test/fixture',
+        },
+      ],
     }
   }
 
