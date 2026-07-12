@@ -123,6 +123,25 @@ describe('fbHonorTier / fbHonorsBonus', () => {
     )
   })
 
+  it('scores the Big Ten MVP (Silver Football) like a conference POY', () => {
+    expect(fbHonorTier('Big Ten MVP (Silver Football) (1997)')).toBe(
+      fbHonorTier('Big Ten Defensive Player of the Year (1997)'),
+    )
+  })
+
+  it('scores national trophies (Lombardi/Camp/Maxwell) — never 0', () => {
+    // The dataset carries "Lombardi Award (2021)" (Hutchinson) — a national
+    // trophy must lift the rating, not silently score 0.
+    for (const h of [
+      'Lombardi Award (2021)',
+      'Walter Camp Award (2022)',
+      'Maxwell Award (2022)',
+    ]) {
+      expect(fbHonorTier(h), h).toBeGreaterThan(0)
+      expect(fbHonorTier(h), h).toBeLessThan(fbHonorTier('Heisman Trophy'))
+    }
+  })
+
   it('scores an unknown string as 0 and sums across honors', () => {
     expect(fbHonorTier('Team Captain')).toBe(0)
     const bonus = fbHonorsBonus(['Heisman Trophy', 'Team Captain'])

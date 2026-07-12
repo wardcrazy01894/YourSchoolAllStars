@@ -2,7 +2,7 @@
   "school": "Michigan",
   "sport": "football",
   "_provisional": false,
-  "_note": "Real per-season data, 1994-2025. Primary source: mgoblue.com official cumulative season statistics (per-player, offense AND defense, 1997+), pulled via scripts/fetch-football-mgoblue.mjs. 1994-1996 offense from Sports-Reference season pages (complete tables); pre-1997 per-player defense (tackles/TFL/sacks) is not published by any citable source, so those seasons carry INT-only lines where SR has them (a documented data floor - see docs/DATA-SOURCING.md). A handful of mgoblue rows that mislink a stat line to the wrong player (verified against SR) were reassigned or repaired with SR cited as that row's source. QB rushYds is the NCAA net (sacks count against rushing), so it can be negative. redshirtYears marks tenure years with no ratable season row (redshirt, injury, or a position-switch year with no line at the listed position). honors[] is per-season and intentionally empty pending the award-page pass.",
+  "_note": "Real per-season data, 1994-2025. Primary source: mgoblue.com official cumulative season statistics (per-player, offense AND defense, 1997+), pulled via scripts/fetch-football-mgoblue.mjs. 1994-1996 offense from Sports-Reference season pages (complete tables); pre-1997 per-player defense (tackles/TFL/sacks) is not published by any citable source, so those seasons carry INT-only lines where SR has them (a documented data floor - see docs/DATA-SOURCING.md). A handful of mgoblue rows that mislink a stat line to the wrong player (verified against SR) were reassigned or repaired with SR cited as that row's source. QB rushYds is the NCAA net (sacks count against rushing), so it can be negative. redshirtYears marks tenure years with no ratable season row (redshirt, injury, or a position-switch year with no line at the listed position). honors[] is per-season, derived award-first from Wikipedia's per-year All-Big Ten / All-America team articles plus the Big Ten individual-award and Silver Football pages, then verified by a programmatic wikitext re-derivation pass (13 agent omissions caught and fixed; zero fabrications found). A handful of mgoblue-omitted seasons (e.g. Peppers 2015, Charbonnet 2019) plus two mgoblue-omitted QBs (Sheridan, O'Korn) were filled from SR, cited per row.",
   "players": [
     {
       "id": "amani-toomer",
@@ -15,12 +15,11 @@
           "year": 1994,
           "stats": {
             "rushYds": 13,
-            "rushTD": 0,
             "rec": 49,
             "recYds": 1033,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1994)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1994.html"
         },
         {
@@ -29,12 +28,11 @@
             "passYds": 37,
             "passInt": 1,
             "rushYds": 15,
-            "rushTD": 0,
             "rec": 39,
             "recYds": 623,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1995)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1995.html"
         }
       ]
@@ -49,8 +47,7 @@
         {
           "year": 1994,
           "stats": {
-            "rushYds": 69,
-            "rushTD": 0
+            "rushYds": 69
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1994.html"
@@ -59,7 +56,6 @@
           "year": 1995,
           "stats": {
             "rushYds": 182,
-            "rushTD": 0,
             "rec": 4,
             "recYds": 19
           },
@@ -70,7 +66,6 @@
           "year": 1996,
           "stats": {
             "rushYds": 66,
-            "rushTD": 0,
             "rec": 3,
             "recYds": 23
           },
@@ -100,8 +95,7 @@
         {
           "year": 1994,
           "stats": {
-            "rushYds": 29,
-            "rushTD": 0
+            "rushYds": 29
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1994.html"
@@ -110,7 +104,6 @@
           "year": 1995,
           "stats": {
             "rushYds": 175,
-            "rushTD": 0,
             "rec": 14,
             "recYds": 91,
             "recTD": 2
@@ -121,7 +114,6 @@
         {
           "year": 1996,
           "stats": {
-            "passInt": 0,
             "rushYds": 698,
             "rushTD": 10,
             "rec": 9,
@@ -190,7 +182,7 @@
           "stats": {
             "defInt": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1995)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1995.html"
         }
       ]
@@ -234,8 +226,6 @@
         {
           "year": 1994,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 33,
             "recYds": 336,
             "recTD": 2
@@ -246,9 +236,6 @@
         {
           "year": 1995,
           "stats": {
-            "passInt": 0,
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 40,
             "recYds": 360,
             "recTD": 1
@@ -269,7 +256,6 @@
           "year": 1994,
           "stats": {
             "rushYds": 37,
-            "rushTD": 0,
             "rec": 33,
             "recYds": 548
           },
@@ -280,12 +266,11 @@
           "year": 1995,
           "stats": {
             "rushYds": 105,
-            "rushTD": 0,
             "rec": 46,
             "recYds": 888,
             "recTD": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1995)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1995.html"
         }
       ]
@@ -348,7 +333,7 @@
             "rushYds": -40,
             "rushTD": 0
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1994)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1994.html"
         }
       ]
@@ -374,13 +359,12 @@
         {
           "year": 1995,
           "stats": {
-            "passInt": 0,
             "rushYds": 1724,
             "rushTD": 12,
             "rec": 4,
             "recYds": 48
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1995)", "All-American (1995)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1995.html"
         }
       ]
@@ -397,7 +381,7 @@
           "stats": {
             "defInt": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1994)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1994.html"
         }
       ]
@@ -465,7 +449,7 @@
             "rec": 1,
             "recYds": 28
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         }
       ]
@@ -482,7 +466,10 @@
           "stats": {
             "defInt": 5
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (1995)",
+            "Big Ten Freshman of the Year (1995)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1995.html"
         },
         {
@@ -495,14 +482,13 @@
             "recTD": 1,
             "defInt": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1996)", "All-American (1996)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1996.html"
         },
         {
           "year": 1997,
           "stats": {
             "passYds": 28,
-            "passInt": 0,
             "rushYds": 21,
             "rushTD": 1,
             "rec": 12,
@@ -514,7 +500,13 @@
             "defInt": 8,
             "pbu": 9
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (1997)",
+            "Unanimous All-American (1997)",
+            "Heisman Trophy (1997)",
+            "Big Ten MVP (Silver Football) (1997)",
+            "Big Ten Defensive Player of the Year (1997)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         }
       ]
@@ -565,7 +557,6 @@
           "year": 1998,
           "stats": {
             "rushYds": 646,
-            "rushTD": 0,
             "rec": 14,
             "recYds": 102
           },
@@ -630,8 +621,6 @@
         {
           "year": 1995,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 9,
             "recYds": 71,
             "recTD": 1
@@ -642,13 +631,11 @@
         {
           "year": 1996,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 32,
             "recYds": 518,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1996)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1996.html"
         },
         {
@@ -659,7 +646,7 @@
             "recTD": 5,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1997)", "All-American (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         },
         {
@@ -669,7 +656,7 @@
             "recYds": 247,
             "recTD": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         }
       ]
@@ -694,7 +681,7 @@
           "stats": {
             "defInt": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1996)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1996.html"
         },
         {
@@ -705,7 +692,7 @@
             "defInt": 5,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1997)", "All-American (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         },
         {
@@ -730,8 +717,6 @@
         {
           "year": 1995,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 4,
             "recYds": 38
           },
@@ -741,8 +726,6 @@
         {
           "year": 1996,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 13,
             "recYds": 169
           },
@@ -836,8 +819,6 @@
         {
           "year": 1995,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 5,
             "recYds": 43
           },
@@ -848,7 +829,6 @@
           "year": 1996,
           "stats": {
             "rushYds": 6,
-            "rushTD": 0,
             "rec": 42,
             "recYds": 718,
             "recTD": 2
@@ -875,7 +855,7 @@
             "recTD": 11,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         }
       ]
@@ -890,8 +870,6 @@
         {
           "year": 1996,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 4,
             "recYds": 40,
             "recTD": 1
@@ -913,7 +891,6 @@
           "year": 1998,
           "stats": {
             "rushYds": 73,
-            "rushTD": 0,
             "rec": 16,
             "recYds": 154,
             "recTD": 1,
@@ -926,7 +903,6 @@
           "year": 1999,
           "stats": {
             "rushYds": 31,
-            "rushTD": 0,
             "rec": 38,
             "recYds": 289,
             "recTD": 3,
@@ -973,8 +949,7 @@
         {
           "year": 1996,
           "stats": {
-            "rushYds": 13,
-            "rushTD": 0
+            "rushYds": 13
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/1996.html"
@@ -997,14 +972,13 @@
             "sacks": 2,
             "defInt": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         },
         {
           "year": 1999,
           "stats": {
             "rushYds": 5,
-            "rushTD": 0,
             "tackles": 95,
             "tfl": 10,
             "sacks": 4,
@@ -1012,7 +986,7 @@
             "pbu": 2,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         }
       ]
@@ -1027,8 +1001,6 @@
         {
           "year": 1996,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 1,
             "recYds": 40,
             "recTD": 1
@@ -1049,7 +1021,6 @@
           "year": 1998,
           "stats": {
             "rushYds": 4,
-            "rushTD": 0,
             "rec": 42,
             "recYds": 603,
             "recTD": 1,
@@ -1066,7 +1037,7 @@
             "recTD": 6,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         }
       ]
@@ -1171,7 +1142,7 @@
             "defInt": 2,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         },
         {
@@ -1182,7 +1153,7 @@
             "defInt": 3,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         }
       ]
@@ -1197,13 +1168,12 @@
         {
           "year": 1997,
           "stats": {
-            "passInt": 0,
             "rushYds": 549,
             "rushTD": 5,
             "rec": 22,
             "recYds": 219
           },
-          "honors": [],
+          "honors": ["Big Ten Freshman of the Year (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         },
         {
@@ -1225,20 +1195,19 @@
             "rec": 33,
             "recYds": 168
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         },
         {
           "year": 2000,
           "stats": {
-            "passInt": 0,
             "rushYds": 1733,
             "rushTD": 18,
             "rec": 17,
             "recYds": 271,
             "recTD": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2000)", "All-American (2000)"],
           "source": "https://mgoblue.com/sports/football/stats/2000"
         }
       ]
@@ -1331,7 +1300,7 @@
             "sacks": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         }
       ]
@@ -1356,7 +1325,6 @@
         {
           "year": 1998,
           "stats": {
-            "passInt": 0,
             "rec": 10,
             "recYds": 176,
             "recTD": 1,
@@ -1369,7 +1337,6 @@
           "year": 1999,
           "stats": {
             "passYds": 23,
-            "passInt": 0,
             "rec": 15,
             "recYds": 163,
             "recTD": 1
@@ -1464,7 +1431,7 @@
             "tfl": 14,
             "sacks": 7
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1997)", "All-American (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         }
       ]
@@ -1593,7 +1560,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         },
         {
@@ -1605,7 +1572,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["All-American (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         }
       ]
@@ -1682,7 +1649,7 @@
             "sacks": 7,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         },
         {
@@ -1766,7 +1733,7 @@
             "tfl": 9,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         },
         {
@@ -1777,7 +1744,7 @@
             "sacks": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1999)", "All-American (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         }
       ]
@@ -1798,7 +1765,7 @@
             "defInt": 1,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1997)", "All-American (1997)"],
           "source": "https://mgoblue.com/sports/football/stats/1997"
         },
         {
@@ -1810,7 +1777,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         }
       ]
@@ -1842,7 +1809,7 @@
             "pbu": 4,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (1998)"],
           "source": "https://mgoblue.com/sports/football/stats/1998"
         },
         {
@@ -1855,7 +1822,7 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         }
       ]
@@ -1916,7 +1883,6 @@
           "year": 1998,
           "stats": {
             "rushYds": 7,
-            "rushTD": 0,
             "rec": 14,
             "recYds": 149,
             "recTD": 2,
@@ -1937,19 +1903,18 @@
             "defInt": 1,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (1999)"],
           "source": "https://mgoblue.com/sports/football/stats/1999"
         },
         {
           "year": 2000,
           "stats": {
             "rushYds": 12,
-            "rushTD": 0,
             "rec": 67,
             "recYds": 1130,
             "recTD": 14
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2000)", "All-American (2000)"],
           "source": "https://mgoblue.com/sports/football/stats/2000"
         }
       ]
@@ -2076,7 +2041,6 @@
           "year": 2000,
           "stats": {
             "rushYds": 85,
-            "rushTD": 0,
             "tackles": 10,
             "ff": 1
           },
@@ -2125,7 +2089,7 @@
             "defInt": 2,
             "pbu": 7
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2000)"],
           "source": "https://mgoblue.com/sports/football/stats/2000"
         },
         {
@@ -2137,7 +2101,11 @@
             "pbu": 7,
             "ff": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2001)",
+            "All-American (2001)",
+            "Big Ten Defensive Player of the Year (2001)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2001"
         }
       ]
@@ -2185,13 +2153,12 @@
             "passYds": 51,
             "passInt": 1,
             "rushYds": 29,
-            "rushTD": 0,
             "rec": 86,
             "recYds": 1143,
             "recTD": 11,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2001)", "All-American (2001)"],
           "source": "https://mgoblue.com/sports/football/stats/2001"
         }
       ]
@@ -2292,7 +2259,7 @@
             "defInt": 2,
             "pbu": 11
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2001)"],
           "source": "https://mgoblue.com/sports/football/stats/2001"
         }
       ]
@@ -2320,7 +2287,6 @@
           "year": 1999,
           "stats": {
             "rushYds": 67,
-            "rushTD": 0,
             "rec": 4,
             "recYds": 36
           },
@@ -2331,7 +2297,6 @@
           "year": 2000,
           "stats": {
             "rushYds": 151,
-            "rushTD": 0,
             "rec": 3,
             "recYds": 24,
             "tackles": 2
@@ -2344,7 +2309,6 @@
           "stats": {
             "passYds": 21,
             "passTD": 1,
-            "passInt": 0,
             "rushYds": 126,
             "rushTD": 2,
             "tackles": 4
@@ -2397,7 +2361,6 @@
           "year": 2000,
           "stats": {
             "rushYds": 40,
-            "rushTD": 0,
             "rec": 18,
             "recYds": 257,
             "recTD": 3
@@ -2475,7 +2438,7 @@
             "recYds": 579,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2002)", "All-American (2002)"],
           "source": "https://mgoblue.com/sports/football/stats/2002"
         }
       ]
@@ -2621,7 +2584,6 @@
           "year": 1999,
           "stats": {
             "rushYds": 13,
-            "rushTD": 0,
             "rec": 1,
             "recYds": 5,
             "tackles": 6
@@ -2700,7 +2662,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2001)"],
           "source": "https://mgoblue.com/sports/football/stats/2001"
         },
         {
@@ -2712,7 +2674,7 @@
             "defInt": 1,
             "pbu": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2002)"],
           "source": "https://mgoblue.com/sports/football/stats/2002"
         }
       ]
@@ -2864,7 +2826,6 @@
           "year": 2000,
           "stats": {
             "rushYds": 99,
-            "rushTD": 0,
             "rec": 7,
             "recYds": 106,
             "recTD": 2,
@@ -2877,7 +2838,6 @@
           "year": 2001,
           "stats": {
             "rushYds": 11,
-            "rushTD": 0,
             "rec": 14,
             "recYds": 252,
             "recTD": 2,
@@ -2890,7 +2850,6 @@
           "year": 2002,
           "stats": {
             "rushYds": 57,
-            "rushTD": 0,
             "rec": 46,
             "recYds": 530,
             "recTD": 5
@@ -2983,7 +2942,7 @@
             "tfl": 12,
             "sacks": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2001)"],
           "source": "https://mgoblue.com/sports/football/stats/2001"
         },
         {
@@ -2996,7 +2955,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2002)"],
           "source": "https://mgoblue.com/sports/football/stats/2002"
         }
       ]
@@ -3095,7 +3054,6 @@
           "year": 2003,
           "stats": {
             "rushYds": 17,
-            "rushTD": 0,
             "rec": 8,
             "recYds": 114
           },
@@ -3202,7 +3160,12 @@
             "recYds": 367,
             "recTD": 2
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2003)",
+            "Consensus All-American (2003)",
+            "Big Ten MVP (Silver Football) (2003)",
+            "Big Ten Offensive Player of the Year (2003)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         }
       ]
@@ -3251,7 +3214,7 @@
             "tfl": 9.5,
             "sacks": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         }
       ]
@@ -3307,7 +3270,7 @@
             "pbu": 10,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         }
       ]
@@ -3369,7 +3332,7 @@
             "recTD": 1,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         }
       ]
@@ -3504,7 +3467,7 @@
             "tfl": 8,
             "sacks": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         }
       ]
@@ -3604,7 +3567,7 @@
             "sacks": 6,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2001)"],
           "source": "https://mgoblue.com/sports/football/stats/2001"
         },
         {
@@ -3712,32 +3675,35 @@
             "recYds": 1035,
             "recTD": 10
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2002)"],
           "source": "https://mgoblue.com/sports/football/stats/2002"
         },
         {
           "year": 2003,
           "stats": {
             "rushYds": 21,
-            "rushTD": 0,
             "rec": 85,
             "recYds": 1138,
             "recTD": 14
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         },
         {
           "year": 2004,
           "stats": {
             "rushYds": 61,
-            "rushTD": 0,
             "rec": 97,
             "recYds": 1330,
             "recTD": 15,
             "tackles": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2004)",
+            "Unanimous All-American (2004)",
+            "Big Ten MVP (Silver Football) (2004)",
+            "Big Ten Offensive Player of the Year (2004)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         }
       ]
@@ -3747,7 +3713,7 @@
       "name": "David Underwood",
       "position": "RB",
       "firstYear": 2001,
-      "lastYear": 2003,
+      "lastYear": 2004,
       "seasons": [
         {
           "year": 2001,
@@ -3778,6 +3744,17 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2003"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "rushYds": 129,
+            "rushTD": 2,
+            "rec": 1,
+            "recYds": 8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2004.html"
         }
       ]
     },
@@ -3792,9 +3769,7 @@
           "year": 2001,
           "stats": {
             "passYds": 88,
-            "passInt": 0,
             "rushYds": 21,
-            "rushTD": 0,
             "rec": 2,
             "recYds": 71,
             "recTD": 1
@@ -3912,7 +3887,7 @@
             "pbu": 15,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2002)", "All-American (2002)"],
           "source": "https://mgoblue.com/sports/football/stats/2002"
         },
         {
@@ -3937,7 +3912,10 @@
             "pbu": 4,
             "ff": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2004)",
+            "Consensus All-American (2004)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         }
       ]
@@ -4093,7 +4071,7 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         },
         {
@@ -4105,7 +4083,10 @@
             "pbu": 1,
             "ff": 2
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2004)",
+            "Consensus All-American (2004)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         }
       ]
@@ -4143,7 +4124,7 @@
             "sacks": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2004)"],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         },
         {
@@ -4153,7 +4134,7 @@
             "tfl": 6.5,
             "sacks": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2005)"],
           "source": "https://mgoblue.com/sports/football/stats/2005"
         }
       ]
@@ -4218,7 +4199,7 @@
             "recYds": 772,
             "recTD": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         },
         {
@@ -4229,7 +4210,7 @@
             "recTD": 3,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2004)"],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         },
         {
@@ -4240,7 +4221,7 @@
             "recTD": 8,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2005)"],
           "source": "https://mgoblue.com/sports/football/stats/2005"
         }
       ]
@@ -4404,7 +4385,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         },
         {
@@ -4522,7 +4503,7 @@
             "recYds": 184,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2004)"],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         },
         {
@@ -4531,7 +4512,7 @@
             "rec": 11,
             "recYds": 86
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2005)"],
           "source": "https://mgoblue.com/sports/football/stats/2005"
         }
       ]
@@ -4565,7 +4546,6 @@
           "year": 2005,
           "stats": {
             "rushYds": 3,
-            "rushTD": 0,
             "rec": 12,
             "recYds": 96,
             "tackles": 3
@@ -4624,7 +4604,6 @@
           "year": 2006,
           "stats": {
             "rushYds": 12,
-            "rushTD": 0,
             "tackles": 18,
             "ff": 1
           },
@@ -4670,7 +4649,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2006)", "All-American (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         }
       ],
@@ -4795,7 +4774,7 @@
             "pbu": 4,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2004)"],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         },
         {
@@ -4818,7 +4797,11 @@
             "sacks": 12,
             "ff": 4
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2006)",
+            "Unanimous All-American (2006)",
+            "Big Ten Defensive Player of the Year (2006)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         }
       ]
@@ -4890,7 +4873,7 @@
             "pbu": 5,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2005)"],
           "source": "https://mgoblue.com/sports/football/stats/2005"
         },
         {
@@ -4902,7 +4885,10 @@
             "defInt": 3,
             "pbu": 15
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2006)",
+            "Consensus All-American (2006)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         }
       ]
@@ -4929,7 +4915,6 @@
           "year": 2004,
           "stats": {
             "rushYds": 46,
-            "rushTD": 0,
             "rec": 2,
             "tackles": 5
           },
@@ -4978,6 +4963,42 @@
       "redshirtYears": [2005]
     },
     {
+      "id": "scott-mcclintock",
+      "name": "Scott McClintock",
+      "position": "LB",
+      "firstYear": 2003,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2003,
+          "stats": {
+            "defInt": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2003.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "tackles": 58,
+            "tfl": 5.5,
+            "defInt": 2,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2004"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "tackles": 9
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2005"
+        }
+      ]
+    },
+    {
       "id": "steve-breaston",
       "name": "Steve Breaston",
       "position": "WR",
@@ -4989,7 +5010,6 @@
           "stats": {
             "passYds": 36,
             "passTD": 1,
-            "passInt": 0,
             "rushYds": 65,
             "rushTD": 2,
             "rec": 38,
@@ -4997,14 +5017,13 @@
             "recTD": 3,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["Big Ten Freshman of the Year (2003)"],
           "source": "https://mgoblue.com/sports/football/stats/2003"
         },
         {
           "year": 2004,
           "stats": {
             "rushYds": 76,
-            "rushTD": 0,
             "rec": 34,
             "recYds": 291,
             "recTD": 3
@@ -5015,9 +5034,7 @@
         {
           "year": 2005,
           "stats": {
-            "passInt": 0,
             "rushYds": 101,
-            "rushTD": 0,
             "rec": 26,
             "recYds": 291,
             "recTD": 2,
@@ -5030,7 +5047,6 @@
           "year": 2006,
           "stats": {
             "rushYds": 79,
-            "rushTD": 0,
             "rec": 58,
             "recYds": 670,
             "recTD": 2
@@ -5169,7 +5185,6 @@
           "stats": {
             "passYds": 11,
             "passTD": 1,
-            "passInt": 0,
             "rec": 67,
             "recYds": 882,
             "recTD": 8,
@@ -5219,7 +5234,7 @@
             "pbu": 1,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2006)", "All-American (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         }
       ]
@@ -5319,7 +5334,7 @@
             "rushTD": 0,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         },
         {
@@ -5332,7 +5347,7 @@
             "rushTD": 0,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2007)"],
           "source": "https://mgoblue.com/sports/football/stats/2007"
         }
       ]
@@ -5510,7 +5525,7 @@
             "pbu": 6,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         },
         {
@@ -5522,7 +5537,7 @@
             "defInt": 3,
             "pbu": 10
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2007)"],
           "source": "https://mgoblue.com/sports/football/stats/2007"
         }
       ]
@@ -5572,7 +5587,10 @@
             "recYds": 237,
             "recTD": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2004)",
+            "Big Ten Freshman of the Year (2004)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2004"
         },
         {
@@ -5595,7 +5613,7 @@
             "rec": 17,
             "recYds": 125
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2006)", "All-American (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         },
         {
@@ -5606,7 +5624,7 @@
             "rec": 8,
             "recYds": 50
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2007)"],
           "source": "https://mgoblue.com/sports/football/stats/2007"
         }
       ]
@@ -5656,34 +5674,6 @@
       ]
     },
     {
-      "id": "scott-mcclintock",
-      "name": "Scott McClintock",
-      "position": "LB",
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "seasons": [
-        {
-          "year": 2004,
-          "stats": {
-            "tackles": 58,
-            "tfl": 5.5,
-            "defInt": 2,
-            "pbu": 4
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2004"
-        },
-        {
-          "year": 2005,
-          "stats": {
-            "tackles": 9
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2005"
-        }
-      ]
-    },
-    {
       "id": "shawn-crable",
       "name": "Shawn Crable",
       "position": "LB",
@@ -5721,7 +5711,7 @@
             "pbu": 3,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         },
         {
@@ -5733,7 +5723,7 @@
             "pbu": 1,
             "ff": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2007)"],
           "source": "https://mgoblue.com/sports/football/stats/2007"
         }
       ]
@@ -5811,15 +5801,64 @@
           "year": 2005,
           "stats": {
             "passYds": 13,
-            "passInt": 0,
             "rushYds": 81,
-            "rushTD": 0,
             "rec": 8,
             "recYds": 64,
             "tackles": 1
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2005"
+        }
+      ]
+    },
+    {
+      "id": "brandon-harrison",
+      "name": "Brandon Harrison",
+      "position": "S",
+      "firstYear": 2005,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "tackles": 24,
+            "defInt": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "tackles": 30,
+            "tfl": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "tackles": 42,
+            "tfl": 6.5,
+            "sacks": 0.5,
+            "defInt": 1,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2007"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "tackles": 69,
+            "tfl": 7,
+            "sacks": 3,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2008"
         }
       ]
     },
@@ -5934,7 +5973,6 @@
           "year": 2005,
           "stats": {
             "rushYds": 38,
-            "rushTD": 0,
             "rec": 27,
             "recYds": 433,
             "recTD": 6
@@ -5946,24 +5984,22 @@
           "year": 2006,
           "stats": {
             "rushYds": 19,
-            "rushTD": 0,
             "rec": 38,
             "recYds": 703,
             "recTD": 9
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2006)"],
           "source": "https://mgoblue.com/sports/football/stats/2006"
         },
         {
           "year": 2007,
           "stats": {
             "rushYds": 119,
-            "rushTD": 0,
             "rec": 72,
             "recYds": 1174,
             "recTD": 12
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2007)", "All-American (2007)"],
           "source": "https://mgoblue.com/sports/football/stats/2007"
         }
       ]
@@ -6287,7 +6323,7 @@
             "sacks": 10,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2008)"],
           "source": "https://mgoblue.com/sports/football/stats/2008"
         },
         {
@@ -6299,7 +6335,11 @@
             "pbu": 2,
             "ff": 2
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2009)",
+            "All-American (2009)",
+            "Big Ten MVP (Silver Football) (2009)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2009"
         }
       ]
@@ -6369,8 +6409,7 @@
         {
           "year": 2006,
           "stats": {
-            "rushYds": 41,
-            "rushTD": 0
+            "rushYds": 41
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2006"
@@ -6388,7 +6427,6 @@
           "year": 2008,
           "stats": {
             "rushYds": 122,
-            "rushTD": 0,
             "rec": 6,
             "recYds": 23
           },
@@ -6431,7 +6469,6 @@
           "year": 2007,
           "stats": {
             "rushYds": 16,
-            "rushTD": 0,
             "rec": 20,
             "recYds": 246,
             "recTD": 2
@@ -6471,7 +6508,6 @@
           "year": 2007,
           "stats": {
             "rushYds": 17,
-            "rushTD": 0,
             "rec": 39,
             "recYds": 366,
             "recTD": 3,
@@ -6604,39 +6640,6 @@
       ]
     },
     {
-      "id": "brandon-harrison",
-      "name": "Brandon Harrison",
-      "position": "S",
-      "firstYear": 2007,
-      "lastYear": 2008,
-      "seasons": [
-        {
-          "year": 2007,
-          "stats": {
-            "tackles": 42,
-            "tfl": 6.5,
-            "sacks": 0.5,
-            "defInt": 1,
-            "pbu": 4
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2007"
-        },
-        {
-          "year": 2008,
-          "stats": {
-            "tackles": 69,
-            "tfl": 7,
-            "sacks": 3,
-            "pbu": 3,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2008"
-        }
-      ]
-    },
-    {
       "id": "donovan-warren",
       "name": "Donovan Warren",
       "position": "CB",
@@ -6675,7 +6678,7 @@
             "defInt": 4,
             "pbu": 7
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2009)"],
           "source": "https://mgoblue.com/sports/football/stats/2009"
         }
       ]
@@ -6821,7 +6824,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2010)"],
           "source": "https://mgoblue.com/sports/football/stats/2010"
         }
       ]
@@ -6837,7 +6840,6 @@
           "year": 2007,
           "stats": {
             "rushYds": 9,
-            "rushTD": 0,
             "rec": 4,
             "recYds": 37
           },
@@ -6898,8 +6900,7 @@
         {
           "year": 2007,
           "stats": {
-            "rushYds": 2,
-            "rushTD": 0
+            "rushYds": 2
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2007"
@@ -7067,7 +7068,6 @@
           "year": 2008,
           "stats": {
             "rushYds": 6,
-            "rushTD": 0,
             "rec": 11,
             "recYds": 101,
             "tackles": 2
@@ -7391,6 +7391,59 @@
       ]
     },
     {
+      "id": "martavious-odoms",
+      "name": "Martavious Odoms",
+      "position": "WR",
+      "firstYear": 2008,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "rushYds": 10,
+            "rec": 49,
+            "recYds": 443
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "rushYds": 5,
+            "rushTD": 1,
+            "rec": 22,
+            "recYds": 272,
+            "recTD": 1,
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2009"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "rec": 16,
+            "recYds": 241,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2010"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "rushYds": 6,
+            "rec": 7,
+            "recYds": 131,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2011"
+        }
+      ]
+    },
+    {
       "id": "michael-shaw",
       "name": "Michael Shaw",
       "position": "RB",
@@ -7401,7 +7454,6 @@
           "year": 2008,
           "stats": {
             "rushYds": 215,
-            "rushTD": 0,
             "rec": 6,
             "recYds": 32,
             "recTD": 1
@@ -7480,7 +7532,7 @@
             "tfl": 6,
             "sacks": 2.5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2010)"],
           "source": "https://mgoblue.com/sports/football/stats/2010"
         },
         {
@@ -7490,7 +7542,7 @@
             "tfl": 6,
             "sacks": 3.5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2011)"],
           "source": "https://mgoblue.com/sports/football/stats/2011"
         }
       ]
@@ -7529,6 +7581,38 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2010"
+        }
+      ]
+    },
+    {
+      "id": "nick-sheridan",
+      "name": "Nick Sheridan",
+      "position": "QB",
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "seasons": [
+        {
+          "year": 2008,
+          "stats": {
+            "passYds": 613,
+            "passTD": 2,
+            "passInt": 5,
+            "rushYds": 92,
+            "rushTD": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "passYds": 88,
+            "passInt": 1,
+            "rushYds": 11,
+            "rushTD": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2009.html"
         }
       ]
     },
@@ -7756,7 +7840,7 @@
             "tfl": 5.5,
             "sacks": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2012)"],
           "source": "https://mgoblue.com/sports/football/stats/2012"
         }
       ]
@@ -7790,7 +7874,12 @@
             "rushTD": 14,
             "tackles": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2010)",
+            "All-American (2010)",
+            "Big Ten MVP (Silver Football) (2010)",
+            "Big Ten Offensive Player of the Year (2010)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2010"
         },
         {
@@ -7802,7 +7891,7 @@
             "rushYds": 1176,
             "rushTD": 16
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2011)"],
           "source": "https://mgoblue.com/sports/football/stats/2011"
         },
         {
@@ -7927,7 +8016,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2012)"],
           "source": "https://mgoblue.com/sports/football/stats/2012"
         }
       ]
@@ -7943,7 +8032,6 @@
           "year": 2009,
           "stats": {
             "rushYds": 11,
-            "rushTD": 0,
             "rec": 10,
             "recYds": 102,
             "recTD": 1
@@ -7955,7 +8043,6 @@
           "year": 2010,
           "stats": {
             "rushYds": 17,
-            "rushTD": 0,
             "rec": 17,
             "recYds": 211
           },
@@ -7967,50 +8054,6 @@
           "stats": {
             "rec": 5,
             "recYds": 75
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2011"
-        }
-      ]
-    },
-    {
-      "id": "martavious-odoms",
-      "name": "Martavious Odoms",
-      "position": "WR",
-      "firstYear": 2009,
-      "lastYear": 2011,
-      "seasons": [
-        {
-          "year": 2009,
-          "stats": {
-            "rushYds": 5,
-            "rushTD": 1,
-            "rec": 22,
-            "recYds": 272,
-            "recTD": 1,
-            "tackles": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2009"
-        },
-        {
-          "year": 2010,
-          "stats": {
-            "rec": 16,
-            "recYds": 241,
-            "recTD": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2010"
-        },
-        {
-          "year": 2011,
-          "stats": {
-            "rushYds": 6,
-            "rushTD": 0,
-            "rec": 7,
-            "recYds": 131,
-            "recTD": 3
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2011"
@@ -8038,8 +8081,7 @@
         {
           "year": 2010,
           "stats": {
-            "rushYds": 56,
-            "rushTD": 0
+            "rushYds": 56
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2010"
@@ -8072,7 +8114,7 @@
             "recTD": 7,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2010)"],
           "source": "https://mgoblue.com/sports/football/stats/2010"
         },
         {
@@ -8170,7 +8212,6 @@
           "stats": {
             "passYds": 17,
             "passTD": 1,
-            "passInt": 0,
             "rushYds": 298,
             "rushTD": 2,
             "rec": 11,
@@ -8367,7 +8408,7 @@
       "name": "Carvin Johnson",
       "position": "S",
       "firstYear": 2010,
-      "lastYear": 2010,
+      "lastYear": 2011,
       "seasons": [
         {
           "year": 2010,
@@ -8379,6 +8420,15 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2010"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "tackles": 14,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2011.html"
         }
       ]
     },
@@ -8533,9 +8583,7 @@
           "year": 2011,
           "stats": {
             "passYds": 11,
-            "passInt": 0,
             "rushYds": 7,
-            "rushTD": 0,
             "rec": 9,
             "recYds": 121,
             "recTD": 2
@@ -8547,7 +8595,6 @@
           "year": 2012,
           "stats": {
             "rushYds": 7,
-            "rushTD": 0,
             "rec": 20,
             "recYds": 331,
             "recTD": 2,
@@ -8645,7 +8692,6 @@
           "year": 2011,
           "stats": {
             "rushYds": 26,
-            "rushTD": 0,
             "rec": 31,
             "recYds": 453,
             "recTD": 3,
@@ -8658,7 +8704,6 @@
           "year": 2012,
           "stats": {
             "rushYds": 67,
-            "rushTD": 0,
             "rec": 49,
             "recYds": 829,
             "recTD": 4,
@@ -8670,15 +8715,13 @@
         {
           "year": 2013,
           "stats": {
-            "passInt": 0,
             "rushYds": 4,
-            "rushTD": 0,
             "rec": 89,
             "recYds": 1373,
             "recTD": 9,
             "tackles": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2013)"],
           "source": "https://mgoblue.com/sports/football/stats/2013"
         }
       ]
@@ -8819,7 +8862,6 @@
           "year": 2011,
           "stats": {
             "rushYds": 43,
-            "rushTD": 0,
             "rec": 1,
             "recYds": 28
           },
@@ -8928,7 +8970,7 @@
             "defInt": 6,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2013)"],
           "source": "https://mgoblue.com/sports/football/stats/2013"
         },
         {
@@ -9138,7 +9180,7 @@
             "sacks": 4.5,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2013)"],
           "source": "https://mgoblue.com/sports/football/stats/2013"
         },
         {
@@ -9181,7 +9223,7 @@
             "pbu": 3,
             "ff": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2012)"],
           "source": "https://mgoblue.com/sports/football/stats/2012"
         },
         {
@@ -9204,7 +9246,7 @@
             "pbu": 3,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2014)"],
           "source": "https://mgoblue.com/sports/football/stats/2014"
         }
       ]
@@ -9268,8 +9310,7 @@
         {
           "year": 2011,
           "stats": {
-            "rushYds": 79,
-            "rushTD": 0
+            "rushYds": 79
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2011"
@@ -9326,7 +9367,6 @@
           "year": 2015,
           "stats": {
             "rushYds": 2,
-            "rushTD": 0,
             "rec": 58,
             "recYds": 727,
             "recTD": 5,
@@ -9342,7 +9382,7 @@
             "recYds": 862,
             "recTD": 7
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ],
@@ -9359,7 +9399,6 @@
           "year": 2012,
           "stats": {
             "rushYds": 13,
-            "rushTD": 0,
             "tackles": 1
           },
           "honors": [],
@@ -9369,7 +9408,6 @@
           "year": 2013,
           "stats": {
             "rushYds": 53,
-            "rushTD": 0,
             "rec": 6,
             "recYds": 46,
             "tackles": 6
@@ -9381,7 +9419,6 @@
           "year": 2014,
           "stats": {
             "rushYds": 64,
-            "rushTD": 0,
             "rec": 15,
             "recYds": 111,
             "tackles": 4
@@ -9412,13 +9449,12 @@
           "year": 2013,
           "stats": {
             "rushYds": 34,
-            "rushTD": 0,
             "rec": 49,
             "recYds": 748,
             "recTD": 6,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2013)"],
           "source": "https://mgoblue.com/sports/football/stats/2013"
         },
         {
@@ -9429,7 +9465,7 @@
             "recTD": 4,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2014)"],
           "source": "https://mgoblue.com/sports/football/stats/2014"
         }
       ]
@@ -9604,7 +9640,6 @@
           "year": 2013,
           "stats": {
             "rushYds": 6,
-            "rushTD": 0,
             "rec": 6,
             "recYds": 40
           },
@@ -9615,7 +9650,6 @@
           "year": 2014,
           "stats": {
             "rushYds": 213,
-            "rushTD": 0,
             "rec": 11,
             "recYds": 65,
             "tackles": 1
@@ -9674,6 +9708,50 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2015"
+        }
+      ]
+    },
+    {
+      "id": "royce-jenkins-stone",
+      "name": "Royce Jenkins-Stone",
+      "position": "LB",
+      "firstYear": 2012,
+      "lastYear": 2015,
+      "seasons": [
+        {
+          "year": 2012,
+          "stats": {
+            "tackles": 6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "tackles": 5
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2013"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "tackles": 8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "tackles": 40,
+            "tfl": 6,
+            "sacks": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2015.html"
         }
       ]
     },
@@ -9804,7 +9882,57 @@
             "sacks": 4.5,
             "pbu": 2
           },
+          "honors": ["Second-Team All-Big Ten (2016)"],
+          "source": "https://mgoblue.com/sports/football/stats/2016"
+        }
+      ]
+    },
+    {
+      "id": "channing-stribling",
+      "name": "Channing Stribling",
+      "position": "CB",
+      "firstYear": 2013,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2013,
+          "stats": {
+            "tackles": 16,
+            "ff": 1
+          },
           "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2013.html"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "tackles": 7,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "tackles": 17,
+            "tfl": 0.5,
+            "defInt": 2,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2015"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "tackles": 27,
+            "tfl": 3,
+            "sacks": 1,
+            "defInt": 4,
+            "pbu": 13
+          },
+          "honors": ["Second-Team All-Big Ten (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -9846,7 +9974,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2015)"],
           "source": "https://mgoblue.com/sports/football/stats/2015"
         },
         {
@@ -9856,7 +9984,7 @@
             "tfl": 8.5,
             "sacks": 6
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2016)", "All-American (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -9871,8 +9999,7 @@
         {
           "year": 2013,
           "stats": {
-            "rushYds": 117,
-            "rushTD": 0
+            "rushYds": 117
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2013"
@@ -9957,7 +10084,7 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -10013,7 +10140,6 @@
           "year": 2013,
           "stats": {
             "rushYds": 9,
-            "rushTD": 0,
             "tackles": 1
           },
           "honors": [],
@@ -10023,7 +10149,6 @@
           "year": 2014,
           "stats": {
             "passYds": 18,
-            "passInt": 0,
             "rushYds": 361,
             "rushTD": 4,
             "rec": 1,
@@ -10124,13 +10249,12 @@
           "year": 2015,
           "stats": {
             "rushYds": 2,
-            "rushTD": 0,
             "rec": 51,
             "recYds": 654,
             "recTD": 3,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2015)", "All-American (2015)"],
           "source": "https://mgoblue.com/sports/football/stats/2015"
         },
         {
@@ -10140,7 +10264,10 @@
             "recYds": 546,
             "recTD": 4
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2016)",
+            "Consensus All-American (2016)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -10156,7 +10283,6 @@
           "year": 2013,
           "stats": {
             "rushYds": 1,
-            "rushTD": 0,
             "rec": 15,
             "recYds": 221,
             "recTD": 1,
@@ -10185,7 +10311,7 @@
             "recTD": 9,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2015)"],
           "source": "https://mgoblue.com/sports/football/stats/2015"
         },
         {
@@ -10240,7 +10366,7 @@
             "pbu": 20,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2015)", "All-American (2015)"],
           "source": "https://mgoblue.com/sports/football/stats/2015"
         },
         {
@@ -10251,7 +10377,10 @@
             "defInt": 2,
             "pbu": 11
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2016)",
+            "Consensus All-American (2016)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -10305,42 +10434,6 @@
       ]
     },
     {
-      "id": "royce-jenkins-stone",
-      "name": "Royce Jenkins-Stone",
-      "position": "LB",
-      "firstYear": 2013,
-      "lastYear": 2015,
-      "seasons": [
-        {
-          "year": 2013,
-          "stats": {
-            "tackles": 5
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2013"
-        },
-        {
-          "year": 2014,
-          "stats": {
-            "tackles": 8
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/michigan/2014.html"
-        },
-        {
-          "year": 2015,
-          "stats": {
-            "tackles": 40,
-            "tfl": 6,
-            "sacks": 3,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/michigan/2015.html"
-        }
-      ]
-    },
-    {
       "id": "ryan-glasgow",
       "name": "Ryan Glasgow",
       "position": "DT",
@@ -10384,7 +10477,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -10434,7 +10527,7 @@
             "sacks": 10,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         }
       ]
@@ -10528,6 +10621,60 @@
         }
       ],
       "redshirtYears": [2015]
+    },
+    {
+      "id": "jabrill-peppers",
+      "name": "Jabrill Peppers",
+      "position": "LB",
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "tackles": 8
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "rushYds": 72,
+            "rushTD": 2,
+            "rec": 8,
+            "recYds": 79,
+            "tackles": 45,
+            "tfl": 5.5,
+            "pbu": 10
+          },
+          "honors": [
+            "First-Team All-Big Ten (2015)",
+            "All-American (2015)",
+            "Big Ten Freshman of the Year (2015)"
+          ],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "rushYds": 167,
+            "rushTD": 3,
+            "rec": 2,
+            "recYds": 3,
+            "tackles": 67,
+            "tfl": 13,
+            "sacks": 3,
+            "defInt": 1
+          },
+          "honors": [
+            "First-Team All-Big Ten (2016)",
+            "Unanimous All-American (2016)",
+            "Big Ten Defensive Player of the Year (2016)"
+          ],
+          "source": "https://mgoblue.com/sports/football/stats/2016"
+        }
+      ]
     },
     {
       "id": "jeremy-clark",
@@ -10664,7 +10811,10 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2017)",
+            "Consensus All-American (2017)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         }
       ]
@@ -10702,7 +10852,6 @@
           "year": 2017,
           "stats": {
             "rushYds": 57,
-            "rushTD": 0,
             "rec": 22,
             "recYds": 277,
             "tackles": 84,
@@ -10763,38 +10912,6 @@
       ]
     },
     {
-      "id": "channing-stribling",
-      "name": "Channing Stribling",
-      "position": "CB",
-      "firstYear": 2015,
-      "lastYear": 2016,
-      "seasons": [
-        {
-          "year": 2015,
-          "stats": {
-            "tackles": 17,
-            "tfl": 0.5,
-            "defInt": 2,
-            "pbu": 3
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2015"
-        },
-        {
-          "year": 2016,
-          "stats": {
-            "tackles": 27,
-            "tfl": 3,
-            "sacks": 1,
-            "defInt": 4,
-            "pbu": 13
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2016"
-        }
-      ]
-    },
-    {
       "id": "chase-winovich",
       "name": "Chase Winovich",
       "position": "DE",
@@ -10828,7 +10945,7 @@
             "sacks": 8,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2017)"],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         },
         {
@@ -10839,7 +10956,7 @@
             "sacks": 5,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         }
       ]
@@ -10887,7 +11004,6 @@
           "year": 2018,
           "stats": {
             "passYds": 12,
-            "passInt": 0,
             "rec": 20,
             "recYds": 147,
             "tackles": 2
@@ -10968,7 +11084,6 @@
           "year": 2015,
           "stats": {
             "rushYds": 19,
-            "rushTD": 0,
             "rec": 1,
             "recYds": 3
           },
@@ -10993,7 +11108,7 @@
             "rec": 8,
             "recYds": 131
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2017)"],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         },
         {
@@ -11005,7 +11120,7 @@
             "recYds": 43,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         }
       ]
@@ -11128,7 +11243,6 @@
           "year": 2017,
           "stats": {
             "rushYds": 13,
-            "rushTD": 0,
             "tackles": 70,
             "tfl": 5.5,
             "sacks": 1,
@@ -11180,7 +11294,7 @@
             "rushTD": 1,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2016)"],
           "source": "https://mgoblue.com/sports/football/stats/2016"
         },
         {
@@ -11278,7 +11392,7 @@
             "defInt": 1,
             "pbu": 8
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2017)"],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         },
         {
@@ -11289,7 +11403,11 @@
             "sacks": 5,
             "pbu": 6
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2018)",
+            "Consensus All-American (2018)",
+            "Big Ten Defensive Player of the Year (2018)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         }
       ]
@@ -11305,7 +11423,6 @@
           "year": 2016,
           "stats": {
             "rushYds": 160,
-            "rushTD": 0,
             "rec": 5,
             "recYds": 59,
             "tackles": 3
@@ -11317,7 +11434,6 @@
           "year": 2017,
           "stats": {
             "rushYds": 43,
-            "rushTD": 0,
             "rec": 11,
             "recYds": 81,
             "tackles": 2
@@ -11328,26 +11444,35 @@
       ]
     },
     {
-      "id": "jabrill-peppers",
-      "name": "Jabrill Peppers",
-      "position": "LB",
+      "id": "john-o-korn",
+      "name": "John O'Korn",
+      "position": "QB",
       "firstYear": 2016,
-      "lastYear": 2016,
+      "lastYear": 2017,
       "seasons": [
         {
           "year": 2016,
           "stats": {
-            "rushYds": 167,
-            "rushTD": 3,
-            "rec": 2,
-            "recYds": 3,
-            "tackles": 67,
-            "tfl": 13,
-            "sacks": 3,
-            "defInt": 1
+            "passYds": 173,
+            "passTD": 2,
+            "passInt": 0,
+            "rushYds": 31,
+            "rushTD": 0
           },
           "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2016"
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2016.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "passYds": 973,
+            "passTD": 2,
+            "passInt": 6,
+            "rushYds": -54,
+            "rushTD": 0
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2017.html"
         }
       ]
     },
@@ -11435,7 +11560,7 @@
             "defInt": 3,
             "pbu": 6
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         },
         {
@@ -11446,7 +11571,7 @@
             "defInt": 2,
             "pbu": 5
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -11497,7 +11622,7 @@
             "pbu": 2,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -11513,7 +11638,6 @@
           "year": 2016,
           "stats": {
             "rushYds": 15,
-            "rushTD": 0,
             "rec": 4,
             "recYds": 47,
             "recTD": 1,
@@ -11562,7 +11686,7 @@
             "pbu": 9,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2017)"],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         },
         {
@@ -11584,7 +11708,7 @@
             "sacks": 1.5,
             "pbu": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -11613,7 +11737,7 @@
             "defInt": 2,
             "pbu": 7
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2017)"],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         },
         {
@@ -11624,7 +11748,7 @@
             "defInt": 1,
             "pbu": 5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         },
         {
@@ -11639,7 +11763,7 @@
             "defInt": 3,
             "pbu": 10
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -11719,7 +11843,7 @@
             "sacks": 6,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2017)"],
           "source": "https://mgoblue.com/sports/football/stats/2017"
         },
         {
@@ -11729,7 +11853,7 @@
             "tfl": 7.5,
             "sacks": 3.5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         }
       ]
@@ -11793,8 +11917,7 @@
         {
           "year": 2016,
           "stats": {
-            "rushYds": 1,
-            "rushTD": 0
+            "rushYds": 1
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2016"
@@ -11846,7 +11969,6 @@
           "year": 2018,
           "stats": {
             "rushYds": 11,
-            "rushTD": 0,
             "rec": 2,
             "recYds": 5,
             "tackles": 9,
@@ -11864,7 +11986,7 @@
             "defInt": 3,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -11928,7 +12050,6 @@
           "year": 2019,
           "stats": {
             "rushYds": 3,
-            "rushTD": 0,
             "tackles": 7
           },
           "honors": [],
@@ -11998,7 +12119,7 @@
             "pbu": 4,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
@@ -12067,7 +12188,7 @@
             "tfl": 4.5,
             "sacks": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         },
         {
@@ -12108,7 +12229,7 @@
             "defInt": 1,
             "pbu": 8
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         }
       ]
@@ -12145,6 +12266,48 @@
             "tfl": 0.5
           },
           "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2019"
+        }
+      ]
+    },
+    {
+      "id": "donovan-peoples-jones",
+      "name": "Donovan Peoples-Jones",
+      "position": "WR",
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "rushYds": 57,
+            "rec": 22,
+            "recYds": 277
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2017.html"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "rushYds": 37,
+            "rec": 47,
+            "recYds": 612,
+            "recTD": 8,
+            "tackles": 1
+          },
+          "honors": ["Third-Team All-Big Ten (2018)"],
+          "source": "https://mgoblue.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "rec": 34,
+            "recYds": 438,
+            "recTD": 6,
+            "tackles": 1
+          },
+          "honors": ["Third-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -12202,7 +12365,7 @@
             "sacks": 0.5,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
@@ -12246,7 +12409,7 @@
             "tfl": 13,
             "sacks": 6.5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2019)"],
           "source": "https://www.sports-reference.com/cfb/schools/michigan/2019.html"
         },
         {
@@ -12259,7 +12422,7 @@
             "tfl": 4,
             "sacks": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2020)"],
           "source": "https://mgoblue.com/sports/football/stats/2020"
         }
       ]
@@ -12414,7 +12577,7 @@
             "recYds": 514,
             "recTD": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         }
       ]
@@ -12444,7 +12607,7 @@
             "pbu": 6,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         },
         {
@@ -12464,7 +12627,13 @@
             "pbu": 3,
             "ff": 2
           },
-          "honors": [],
+          "honors": [
+            "Unanimous All-American (2021)",
+            "Big Ten MVP (Silver Football) (2021)",
+            "Big Ten Defensive Player of the Year (2021)",
+            "Lombardi Award (2021)",
+            "First-Team All-Big Ten (2021)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
@@ -12505,39 +12674,6 @@
         }
       ],
       "redshirtYears": [2019]
-    },
-    {
-      "id": "donovan-peoples-jones",
-      "name": "Donovan Peoples-Jones",
-      "position": "WR",
-      "firstYear": 2018,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2018,
-          "stats": {
-            "rushYds": 37,
-            "rushTD": 0,
-            "rec": 47,
-            "recYds": 612,
-            "recTD": 8,
-            "tackles": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2018"
-        },
-        {
-          "year": 2019,
-          "stats": {
-            "rec": 34,
-            "recYds": 438,
-            "recTD": 6,
-            "tackles": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2019"
-        }
-      ]
     },
     {
       "id": "hunter-reynolds",
@@ -12630,7 +12766,6 @@
           "year": 2018,
           "stats": {
             "rushYds": 11,
-            "rushTD": 0,
             "rec": 11,
             "recYds": 125,
             "recTD": 1
@@ -12661,7 +12796,6 @@
           "year": 2019,
           "stats": {
             "rushYds": 9,
-            "rushTD": 0,
             "rec": 48,
             "recYds": 758,
             "recTD": 1
@@ -12693,7 +12827,6 @@
         {
           "year": 2022,
           "stats": {
-            "passInt": 0,
             "rushYds": 23,
             "rushTD": 1,
             "rec": 62,
@@ -12701,7 +12834,7 @@
             "recTD": 4,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         }
       ]
@@ -12722,7 +12855,7 @@
             "rushYds": 273,
             "rushTD": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2018)"],
           "source": "https://mgoblue.com/sports/football/stats/2018"
         },
         {
@@ -12734,7 +12867,7 @@
             "rushYds": 50,
             "rushTD": 5
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2019)"],
           "source": "https://mgoblue.com/sports/football/stats/2019"
         }
       ]
@@ -12762,6 +12895,139 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2020"
+        }
+      ]
+    },
+    {
+      "id": "cameron-mcgrone",
+      "name": "Cameron McGrone",
+      "position": "LB",
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 66,
+            "tfl": 10,
+            "sacks": 4,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 26,
+            "tfl": 2,
+            "sacks": 0.5
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2020"
+        }
+      ]
+    },
+    {
+      "id": "christopher-hinton",
+      "name": "Christopher Hinton",
+      "position": "DT",
+      "firstYear": 2019,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 10,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 13,
+            "tfl": 2,
+            "sacks": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 32,
+            "tfl": 1,
+            "sacks": 1,
+            "pbu": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
+      "id": "cornelius-johnson",
+      "name": "Cornelius Johnson",
+      "position": "WR",
+      "firstYear": 2019,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "rec": 4,
+            "recYds": 61,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "rec": 16,
+            "recYds": 254,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "rushYds": 30,
+            "rec": 40,
+            "recYds": 627,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "rec": 32,
+            "recYds": 499,
+            "recTD": 6
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "rushYds": 40,
+            "rec": 47,
+            "recYds": 604,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2023"
         }
       ]
     },
@@ -12804,7 +13070,7 @@
             "defInt": 2,
             "pbu": 8
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
@@ -12926,11 +13192,10 @@
           "year": 2020,
           "stats": {
             "rushYds": 5,
-            "rushTD": 0,
             "rec": 15,
             "recYds": 167
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2020)"],
           "source": "https://mgoblue.com/sports/football/stats/2020"
         }
       ]
@@ -12957,7 +13222,6 @@
         {
           "year": 2020,
           "stats": {
-            "passInt": 0,
             "rushYds": 375,
             "rushTD": 6,
             "tackles": 1,
@@ -12975,7 +13239,7 @@
             "recYds": 131,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
@@ -13028,8 +13292,6 @@
         {
           "year": 2021,
           "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
             "rec": 17,
             "recYds": 165,
             "recTD": 3
@@ -13044,7 +13306,7 @@
             "recYds": 418,
             "recTD": 3
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         }
       ],
@@ -13061,9 +13323,7 @@
           "year": 2019,
           "stats": {
             "passYds": 25,
-            "passInt": 0,
             "rushYds": 14,
-            "rushTD": 0,
             "tackles": 7
           },
           "honors": [],
@@ -13084,7 +13344,6 @@
           "year": 2021,
           "stats": {
             "rushYds": 3,
-            "rushTD": 0,
             "tackles": 20,
             "tfl": 2,
             "sacks": 1,
@@ -13102,7 +13361,7 @@
             "defInt": 2,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         },
         {
@@ -13114,7 +13373,7 @@
             "pbu": 2,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         }
       ]
@@ -13136,6 +13395,73 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2019"
+        }
+      ]
+    },
+    {
+      "id": "mike-sainristil",
+      "name": "Mike Sainristil",
+      "position": "CB",
+      "firstYear": 2019,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "rec": 8,
+            "recYds": 145,
+            "recTD": 1,
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "rec": 7,
+            "recYds": 82,
+            "recTD": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "rushYds": 7,
+            "rec": 21,
+            "recYds": 305,
+            "recTD": 2,
+            "tackles": 5
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 58,
+            "tfl": 6.5,
+            "sacks": 2,
+            "defInt": 1,
+            "pbu": 7
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 44,
+            "tfl": 5,
+            "sacks": 2,
+            "defInt": 6,
+            "pbu": 6,
+            "ff": 2
+          },
+          "honors": ["First-Team All-Big Ten (2023)", "All-American (2023)"],
+          "source": "https://mgoblue.com/sports/football/stats/2023"
         }
       ]
     },
@@ -13223,8 +13549,39 @@
             "pbu": 7,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
+      "id": "zach-charbonnet",
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "firstYear": 2019,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2019,
+          "stats": {
+            "rushYds": 726,
+            "rushTD": 11,
+            "rec": 8,
+            "recYds": 30
+          },
+          "honors": ["Third-Team All-Big Ten (2019)"],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2019.html"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "rushYds": 124,
+            "rushTD": 1,
+            "rec": 6,
+            "recYds": 41
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2020"
         }
       ]
     },
@@ -13239,7 +13596,6 @@
           "year": 2020,
           "stats": {
             "rushYds": 15,
-            "rushTD": 0,
             "rec": 6,
             "recYds": 59,
             "tackles": 1
@@ -13255,18 +13611,17 @@
             "rec": 10,
             "recYds": 79
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         },
         {
           "year": 2022,
           "stats": {
             "rushYds": 9,
-            "rushTD": 0,
             "rec": 9,
             "recYds": 60
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         }
       ]
@@ -13299,7 +13654,7 @@
             "recYds": 141,
             "recTD": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         },
         {
@@ -13311,7 +13666,11 @@
             "recYds": 80,
             "recTD": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2022)",
+            "Unanimous All-American (2022)",
+            "Big Ten MVP (Silver Football) (2022)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         },
         {
@@ -13324,7 +13683,7 @@
             "recTD": 1,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2023)", "All-American (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         }
       ]
@@ -13358,7 +13717,7 @@
             "rushTD": 1,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         },
         {
@@ -13421,112 +13780,6 @@
       ]
     },
     {
-      "id": "cameron-mcgrone",
-      "name": "Cameron McGrone",
-      "position": "LB",
-      "firstYear": 2020,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 26,
-            "tfl": 2,
-            "sacks": 0.5
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2020"
-        }
-      ]
-    },
-    {
-      "id": "christopher-hinton",
-      "name": "Christopher Hinton",
-      "position": "DT",
-      "firstYear": 2020,
-      "lastYear": 2021,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 13,
-            "tfl": 2,
-            "sacks": 1,
-            "pbu": 2
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2020"
-        },
-        {
-          "year": 2021,
-          "stats": {
-            "tackles": 32,
-            "tfl": 1,
-            "sacks": 1,
-            "pbu": 2,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2021"
-        }
-      ]
-    },
-    {
-      "id": "cornelius-johnson",
-      "name": "Cornelius Johnson",
-      "position": "WR",
-      "firstYear": 2020,
-      "lastYear": 2023,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "rec": 16,
-            "recYds": 254,
-            "recTD": 3
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2020"
-        },
-        {
-          "year": 2021,
-          "stats": {
-            "rushYds": 30,
-            "rushTD": 0,
-            "rec": 40,
-            "recYds": 627,
-            "recTD": 3
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2021"
-        },
-        {
-          "year": 2022,
-          "stats": {
-            "rushYds": 0,
-            "rushTD": 0,
-            "rec": 32,
-            "recYds": 499,
-            "recTD": 6
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "rushYds": 40,
-            "rushTD": 0,
-            "rec": 47,
-            "recYds": 604,
-            "recTD": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
       "id": "david-ojabo",
       "name": "David Ojabo",
       "position": "DE",
@@ -13550,7 +13803,7 @@
             "pbu": 3,
             "ff": 5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2021)"],
           "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
@@ -13632,7 +13885,6 @@
           "year": 2022,
           "stats": {
             "passYds": 15,
-            "passInt": 0,
             "rushYds": 31,
             "rushTD": 3,
             "tackles": 12
@@ -13661,7 +13913,7 @@
             "recYds": 35,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2024)"],
           "source": "https://mgoblue.com/sports/football/stats/2024"
         }
       ]
@@ -13757,7 +14009,7 @@
             "sacks": 0.5,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         }
       ]
@@ -13798,8 +14050,35 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
+        }
+      ]
+    },
+    {
+      "id": "nikhai-hill-green",
+      "name": "Nikhai Hill-Green",
+      "position": "LB",
+      "firstYear": 2020,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2020.html"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 50,
+            "tfl": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
     },
@@ -13814,7 +14093,6 @@
           "year": 2020,
           "stats": {
             "rushYds": 9,
-            "rushTD": 0,
             "rec": 9,
             "recYds": 122,
             "recTD": 1
@@ -13826,7 +14104,6 @@
           "year": 2021,
           "stats": {
             "rushYds": 59,
-            "rushTD": 0,
             "rec": 25,
             "recYds": 420,
             "recTD": 3
@@ -13850,33 +14127,12 @@
           "year": 2023,
           "stats": {
             "rushYds": 10,
-            "rushTD": 0,
             "rec": 48,
             "recYds": 789,
             "recTD": 12
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
-      "id": "zach-charbonnet",
-      "name": "Zach Charbonnet",
-      "position": "RB",
-      "firstYear": 2020,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "rushYds": 124,
-            "rushTD": 1,
-            "rec": 6,
-            "recYds": 41
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2020"
         }
       ]
     },
@@ -13891,7 +14147,6 @@
           "year": 2021,
           "stats": {
             "rushYds": 6,
-            "rushTD": 0,
             "rec": 12,
             "recYds": 248,
             "recTD": 3
@@ -13998,7 +14253,7 @@
             "defInt": 1,
             "pbu": 10
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         }
       ]
@@ -14015,7 +14270,6 @@
           "stats": {
             "passYds": 75,
             "passTD": 1,
-            "passInt": 0,
             "rushYds": 174,
             "rushTD": 3,
             "rec": 20,
@@ -14028,7 +14282,6 @@
         {
           "year": 2022,
           "stats": {
-            "passInt": 0,
             "rushYds": 991,
             "rushTD": 7,
             "rec": 18,
@@ -14042,7 +14295,6 @@
           "year": 2023,
           "stats": {
             "passYds": 34,
-            "passInt": 0,
             "rushYds": 497,
             "rushTD": 5,
             "rec": 30,
@@ -14056,7 +14308,6 @@
           "stats": {
             "passYds": 23,
             "passTD": 1,
-            "passInt": 0,
             "rushYds": 589,
             "rushTD": 4,
             "rec": 18,
@@ -14078,8 +14329,7 @@
         {
           "year": 2021,
           "stats": {
-            "rushYds": 17,
-            "rushTD": 0
+            "rushYds": 17
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2021"
@@ -14125,7 +14375,7 @@
             "rushYds": 306,
             "rushTD": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         },
         {
@@ -14137,7 +14387,7 @@
             "rushYds": 202,
             "rushTD": 3
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         }
       ]
@@ -14206,7 +14456,7 @@
             "sacks": 2,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2022)"],
           "source": "https://mgoblue.com/sports/football/stats/2022"
         },
         {
@@ -14216,7 +14466,7 @@
             "tfl": 2,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         }
       ]
@@ -14255,74 +14505,8 @@
             "sacks": 2,
             "defInt": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
-      "id": "mike-sainristil",
-      "name": "Mike Sainristil",
-      "position": "CB",
-      "firstYear": 2021,
-      "lastYear": 2023,
-      "seasons": [
-        {
-          "year": 2021,
-          "stats": {
-            "rushYds": 7,
-            "rushTD": 0,
-            "rec": 21,
-            "recYds": 305,
-            "recTD": 2,
-            "tackles": 5
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2021"
-        },
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 58,
-            "tfl": 6.5,
-            "sacks": 2,
-            "defInt": 1,
-            "pbu": 7
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "tackles": 44,
-            "tfl": 5,
-            "sacks": 2,
-            "defInt": 6,
-            "pbu": 6,
-            "ff": 2
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
-      "id": "nikhai-hill-green",
-      "name": "Nikhai Hill-Green",
-      "position": "LB",
-      "firstYear": 2021,
-      "lastYear": 2021,
-      "seasons": [
-        {
-          "year": 2021,
-          "stats": {
-            "tackles": 50,
-            "tfl": 2,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://mgoblue.com/sports/football/stats/2021"
         }
       ]
     },
@@ -14458,7 +14642,7 @@
             "sacks": 1.5,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -14499,7 +14683,7 @@
             "defInt": 2,
             "pbu": 3
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         },
         {
@@ -14664,8 +14848,7 @@
         {
           "year": 2023,
           "stats": {
-            "rushYds": 8,
-            "rushTD": 0
+            "rushYds": 8
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2023"
@@ -14682,7 +14865,6 @@
         {
           "year": 2022,
           "stats": {
-            "passInt": 0,
             "rec": 16,
             "recYds": 235,
             "recTD": 2,
@@ -14699,7 +14881,7 @@
             "recTD": 4,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         },
         {
@@ -14710,7 +14892,7 @@
             "recTD": 5,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2024)"],
           "source": "https://mgoblue.com/sports/football/stats/2024"
         }
       ]
@@ -14807,7 +14989,7 @@
             "pbu": 3,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -14874,7 +15056,7 @@
             "defInt": 1,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -14903,7 +15085,7 @@
             "defInt": 1,
             "pbu": 6
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         },
         {
@@ -14914,7 +15096,7 @@
             "sacks": 3,
             "pbu": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2024)"],
           "source": "https://mgoblue.com/sports/football/stats/2024"
         }
       ]
@@ -14946,7 +15128,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         },
         {
@@ -14957,7 +15139,10 @@
             "sacks": 3.5,
             "pbu": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big Ten (2024)",
+            "Unanimous All-American (2024)"
+          ],
           "source": "https://mgoblue.com/sports/football/stats/2024"
         }
       ]
@@ -15003,7 +15188,7 @@
             "rec": 2,
             "recYds": 11
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -15077,7 +15262,6 @@
           "year": 2024,
           "stats": {
             "rushYds": 9,
-            "rushTD": 0,
             "rec": 23,
             "recYds": 248,
             "recTD": 2
@@ -15113,7 +15297,7 @@
             "defInt": 4,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-Big Ten (2023)", "All-American (2023)"],
           "source": "https://mgoblue.com/sports/football/stats/2023"
         },
         {
@@ -15124,7 +15308,7 @@
             "defInt": 2,
             "pbu": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2024)"],
           "source": "https://mgoblue.com/sports/football/stats/2024"
         }
       ]
@@ -15172,7 +15356,7 @@
             "defInt": 1,
             "pbu": 10
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -15350,7 +15534,7 @@
             "sacks": 1,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -15375,7 +15559,6 @@
           "year": 2024,
           "stats": {
             "rushYds": 28,
-            "rushTD": 0,
             "rec": 11,
             "recYds": 128,
             "recTD": 1
@@ -15411,7 +15594,7 @@
             "sacks": 8.5,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2024)"],
           "source": "https://mgoblue.com/sports/football/stats/2024"
         }
       ]
@@ -15560,9 +15743,7 @@
         {
           "year": 2024,
           "stats": {
-            "passInt": 0,
             "rushYds": 32,
-            "rushTD": 0,
             "rec": 27,
             "recYds": 139,
             "recTD": 1,
@@ -15574,9 +15755,7 @@
         {
           "year": 2025,
           "stats": {
-            "passInt": 0,
             "rushYds": 25,
-            "rushTD": 0,
             "rec": 20,
             "recYds": 223,
             "recTD": 1
@@ -15800,8 +15979,7 @@
         {
           "year": 2024,
           "stats": {
-            "rushYds": 120,
-            "rushTD": 0
+            "rushYds": 120
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
@@ -15814,7 +15992,7 @@
             "rec": 9,
             "recYds": 92
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
@@ -15980,9 +16158,7 @@
         {
           "year": 2025,
           "stats": {
-            "passInt": 0,
             "rushYds": 5,
-            "rushTD": 0,
             "rec": 39,
             "recYds": 588,
             "recTD": 3
@@ -16099,7 +16275,7 @@
             "rec": 13,
             "recYds": 50
           },
-          "honors": [],
+          "honors": ["Third-Team All-Big Ten (2025)"],
           "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]

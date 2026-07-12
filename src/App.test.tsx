@@ -115,7 +115,7 @@ describe('Playing — Hoops IQ stat hiding', () => {
     expect(screen.getByText(/what do the badges mean/i)).toBeTruthy()
     // Expanding it lists every badge with its meaning.
     fireEvent.click(screen.getByText(/what do the badges mean/i))
-    expect(screen.getByText('National Player of the Year')).toBeTruthy()
+    expect(screen.getByText('National award')).toBeTruthy()
     expect(screen.getByText('First-Team All-Conference')).toBeTruthy()
   })
 

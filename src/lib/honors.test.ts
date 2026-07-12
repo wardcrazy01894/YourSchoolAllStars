@@ -10,6 +10,17 @@ describe('honorEmoji — national awards', () => {
     expect(honorEmoji('Bob Cousy Award (2013)')).toBe('🏆')
   })
 
+  it("maps football's national trophies to 🏆 too", () => {
+    expect(honorEmoji('Heisman Trophy (1997)')).toBe('🏆')
+    expect(honorEmoji('Walter Camp Award (2021)')).toBe('🏆')
+    expect(honorEmoji('Maxwell Award (2021)')).toBe('🏆')
+    expect(honorEmoji('Lombardi Award (2021)')).toBe('🏆')
+  })
+
+  it('maps the Big Ten MVP (Silver Football) to the conference POY crown', () => {
+    expect(honorEmoji('Big Ten MVP (Silver Football) (2022)')).toBe('👑')
+  })
+
   it('maps All-American teams to the star family, one glyph per team', () => {
     expect(honorEmoji('Consensus First-Team All-American (2013)')).toBe('🌟')
     expect(honorEmoji('Consensus Second-Team All-American (1998)')).toBe('⭐')
@@ -149,10 +160,10 @@ describe('HONOR_LEGEND', () => {
     }
   })
 
-  it('leads with the most prestigious badge (national POY)', () => {
+  it('leads with the most prestigious badge (national hardware)', () => {
     expect(HONOR_LEGEND[0]).toEqual({
       emoji: '🏆',
-      label: 'National Player of the Year',
+      label: 'National award',
     })
   })
 })
