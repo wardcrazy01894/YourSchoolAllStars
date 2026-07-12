@@ -31,10 +31,14 @@ function mk(id: string, position: FbPosition): FbPlayer {
     position,
     firstYear: W.start,
     lastYear: W.end,
-    bestSeason: W.start,
-    stats: STATLINE[position],
-    honors: [],
-    source: 'test',
+    seasons: [
+      {
+        year: W.start,
+        stats: STATLINE[position],
+        honors: [],
+        source: 'test',
+      },
+    ],
   }
 }
 

@@ -12,7 +12,13 @@
 // FIRST CUT, meant to be retuned (as the basketball model was) once real data and
 // playtesting expose where it's too generous or too harsh.
 
-import type { FbPlayer, FbPosition, FbStats } from '../types'
+import type {
+  FbPlayer,
+  FbPosition,
+  FbSeason,
+  FbStats,
+  YearWindow,
+} from '../types'
 import { NON_POWER5_RATING_FACTOR } from './rating'
 
 /** A perfect college football season — 16-0 (12 regular + conference title +
@@ -146,15 +152,87 @@ function fbCurve(composite: number): number {
  *  basketball (a school-level conference adjustment, sport-independent). */
 export const FB_NON_POWER5_RATING_FACTOR = NON_POWER5_RATING_FACTOR
 
+// ── Season selection (mirrors rating.ts) ─────────────────────────────────────
+
+/** Raw composite for ONE season: position-relevant stats + that year's honors. */
+export function fbSeasonComposite(
+  position: FbPosition,
+  season: FbSeason,
+): number {
+  return fbStatComposite(position, season.stats) + fbHonorsBonus(season.honors)
+}
+
+/** Rating in [0,100] for ONE season at the player's position. */
+export function fbSeasonRating(position: FbPosition, season: FbSeason): number {
+  return fbCurve(fbSeasonComposite(position, season))
+}
+
 /**
- * Player rating in [0,100] from their best-season stat line + honors. `power5`
- * defaults true (no penalty); pass false to apply the non-power-5 haircut.
+ * The player's highest-rated season overall (career best). Null if none.
+ * Ties resolve to the EARLIER season (strict `>`, seasons are oldest-first).
  */
-export function fbPlayerRating(player: FbPlayer, power5 = true): number {
-  const composite =
-    fbStatComposite(player.position, player.stats) +
-    fbHonorsBonus(player.honors)
-  const base = fbCurve(composite)
+export function fbBestSeason(player: FbPlayer): FbSeason | null {
+  let best: FbSeason | null = null
+  let bestC = -Infinity
+  for (const s of player.seasons) {
+    const c = fbSeasonComposite(player.position, s)
+    if (c > bestC) {
+      bestC = c
+      best = s
+    }
+  }
+  return best
+}
+
+/**
+ * The player's best season whose `year` falls INSIDE the window — a 2014–2017
+ * era may only credit 2014–2017 seasons, never a peak outside it. Null when
+ * the player has no season row in-window.
+ */
+export function fbBestSeasonInWindow(
+  player: FbPlayer,
+  w: YearWindow,
+): FbSeason | null {
+  let best: FbSeason | null = null
+  let bestC = -Infinity
+  for (const s of player.seasons) {
+    if (s.year < w.start || s.year > w.end) continue
+    const c = fbSeasonComposite(player.position, s)
+    if (c > bestC) {
+      bestC = c
+      best = s
+    }
+  }
+  return best
+}
+
+/**
+ * The season to represent a player by within a window: their best IN-window
+ * season. The career-best fallback exists only for out-of-contract callers
+ * (e.g. replaying a stale save whose window no longer matches the player's
+ * rows) — live eligibility requires an in-window season row, so the fallback
+ * never fires during play.
+ */
+export function fbSeasonForWindow(
+  player: FbPlayer,
+  w: YearWindow,
+): FbSeason | null {
+  return fbBestSeasonInWindow(player, w) ?? fbBestSeason(player)
+}
+
+/**
+ * Player rating in [0,100]. With a window, rate the player's best season
+ * within it (stale-save fallback to career best); without one, rate their
+ * career best. 0 for a player with no seasons. `power5` defaults true (no
+ * penalty); pass false to apply the non-power-5 haircut.
+ */
+export function fbPlayerRating(
+  player: FbPlayer,
+  w?: YearWindow,
+  power5 = true,
+): number {
+  const season = w ? fbSeasonForWindow(player, w) : fbBestSeason(player)
+  const base = season ? fbSeasonRating(player.position, season) : 0
   return power5 ? base : Math.round(base * FB_NON_POWER5_RATING_FACTOR)
 }
 

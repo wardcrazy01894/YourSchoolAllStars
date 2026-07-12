@@ -17,6 +17,7 @@ import type {
   YearWindow,
   FbPlayer,
   FbPosition,
+  FbSeason,
   FbStats,
 } from './types'
 import {
@@ -93,11 +94,17 @@ import {
   type FbDraftState,
 } from './lib/football-game'
 import { FB_DRAFT_ROUNDS, FB_RESPINS_PER_SIDE, fbWindows } from './lib/football'
-import { fbPlayerRating, FB_GAMES } from './lib/football-rating'
+import {
+  fbPlayerRating,
+  fbSeasonForWindow,
+  fbBestSeason,
+  FB_GAMES,
+} from './lib/football-rating'
 import {
   fbEvaluate,
   fbSavedDailyFrom,
   fbRosterFromSaved,
+  fbWindowBySlot,
 } from './lib/football-result'
 import { setupAutoUpdate } from './lib/version'
 import {
@@ -1767,6 +1774,7 @@ const FB_STAT_COLS: Record<FbPosition, { key: FbStatKey; label: string }[]> = {
     { key: 'passTD', label: 'PTD' },
     { key: 'passInt', label: 'INT' },
     { key: 'rushYds', label: 'RYDS' },
+    { key: 'rushTD', label: 'RTD' },
   ],
   RB: [
     { key: 'rushYds', label: 'RYDS' },
@@ -1819,22 +1827,34 @@ function fmtFbStat(stats: FbStats, key: FbStatKey): string {
   return v === undefined ? '—' : String(v)
 }
 
-/** Season chip from a football player's best season, e.g. "'18". */
-function fmtFbYear(p: FbPlayer): string {
-  return `'${String(p.bestSeason).slice(2)}`
+/**
+ * The season representing a football player in a window: best in-window (the
+ * only case live play produces), career-best fallback for stale saves, null
+ * only for the (guard-forbidden) empty-seasons row.
+ */
+function fbSeasonShown(p: FbPlayer, w?: YearWindow): FbSeason | null {
+  return w ? fbSeasonForWindow(p, w) : fbBestSeason(p)
+}
+
+/** Season chip, e.g. "'18", from the season shown for the window. */
+function fmtFbYear(season: FbSeason | null): string {
+  return season ? `'${String(season.year).slice(2)}` : '—'
 }
 
 /**
  * A player's position stat line as one compact, readable string, e.g.
- * "PYDS 2800 · PTD 24 · INT 8 · RYDS 210". Shown at Results for ALL football
- * modes (mirroring basketball's Results stat columns) — NOT gated on hideStats.
- * For Gridiron IQ this is where the draft-hidden line is finally revealed; for
- * Daily/Classic it's the same end-of-game recap. Football's 12 heterogeneous stat
- * sets don't fit one shared table, so each player carries its own inline summary.
+ * "PYDS 2800 · PTD 24 · INT 8 · RYDS 210 · RTD 3". Shown at Results for ALL
+ * football modes (mirroring basketball's Results stat columns) — NOT gated on
+ * hideStats. For Gridiron IQ this is where the draft-hidden line is finally
+ * revealed; for Daily/Classic it's the same end-of-game recap. Football's 12
+ * heterogeneous stat sets don't fit one shared table, so each player carries
+ * its own inline summary. The line comes from the season shown for the drafted
+ * era — never an out-of-era year.
  */
-function fbStatSummary(p: FbPlayer): string {
+function fbStatSummary(p: FbPlayer, season: FbSeason | null): string {
+  if (!season) return ''
   return FB_STAT_COLS[p.position]
-    .map((c) => `${c.label} ${fmtFbStat(p.stats, c.key)}`)
+    .map((c) => `${c.label} ${fmtFbStat(season.stats, c.key)}`)
     .join(' · ')
 }
 
@@ -2063,6 +2083,7 @@ function FbRosterRail({
   onPlace,
   hideRating,
   power5,
+  windowBySlot,
 }: {
   slots: FbDraftState['slots']
   /** Slot ids the selected player can be placed into (highlighted + tappable). */
@@ -2072,6 +2093,8 @@ function FbRosterRail({
   hideRating?: boolean
   /** Conference strength — false applies the non-power-5 rating haircut. */
   power5: boolean
+  /** Era each slot was drafted from — scopes the shown rating to that era. */
+  windowBySlot: Record<string, YearWindow>
 }) {
   const targets = new Set(targetable ?? [])
   const sides: { side: 'offense' | 'defense'; label: string }[] = [
@@ -2099,7 +2122,9 @@ function FbRosterRail({
                     <>
                       <div className="pname">{p.name}</div>
                       {!hideRating && (
-                        <div className="prate">{fbPlayerRating(p, power5)}</div>
+                        <div className="prate">
+                          {fbPlayerRating(p, windowBySlot[slot.id], power5)}
+                        </div>
                       )}
                     </>
                   ) : (
@@ -2174,15 +2199,15 @@ export function FbPlaying({
   const groups = sidePositions
     .map((pos) => ({
       pos,
-      // Rating is window-independent for football (one stat line per player), so
-      // normally sort best-first by rating. In Gridiron IQ that would leak the
-      // hidden ranking, so sort by name instead — the order reveals nothing.
+      // Sort best-first by the rating of each player's best season WITHIN this
+      // era (what drafting them here actually scores). In Gridiron IQ that
+      // would leak the hidden ranking, so sort by name instead.
       players: era
         .filter((p) => p.position === pos)
         .sort((a, b) =>
-          hideStats
+          hideStats || !w
             ? a.name.localeCompare(b.name)
-            : fbPlayerRating(b, power5) - fbPlayerRating(a, power5),
+            : fbPlayerRating(b, w, power5) - fbPlayerRating(a, w, power5),
         ),
     }))
     .filter((g) => g.players.length > 0)
@@ -2243,6 +2268,7 @@ export function FbPlaying({
         onPlace={place}
         hideRating={hideStats}
         power5={power5}
+        windowBySlot={fbWindowBySlot(state.picks)}
       />
 
       {!reveal ? (
@@ -2320,9 +2346,12 @@ export function FbPlaying({
               dataset carries no honors — don't explain badges that can't
               appear. */}
           {!hideStats &&
-            groups.some((g) => g.players.some((p) => p.honors.length > 0)) && (
-              <HonorKey />
-            )}
+            groups.some((g) =>
+              g.players.some(
+                (p) =>
+                  (fbSeasonShown(p, w ?? undefined)?.honors.length ?? 0) > 0,
+              ),
+            ) && <HonorKey />}
 
           {groups.map((g) => {
             const cols = FB_STAT_COLS[g.pos]
@@ -2348,6 +2377,9 @@ export function FbPlaying({
                   <tbody>
                     {g.players.map((p) => {
                       const pickable = fbIsPickable(state, p)
+                      // The season this era would credit — eligibility
+                      // guarantees an in-window row, so no out-of-era stats.
+                      const season = fbSeasonShown(p, w ?? undefined)
                       return (
                         <tr
                           key={p.id}
@@ -2360,12 +2392,18 @@ export function FbPlaying({
                                 "good player" tell, and the honor strings embed
                                 the year (leaking the hidden season via the
                                 tooltip). */}
-                            {!hideStats && <HonorBadges honors={p.honors} />}
+                            {!hideStats && season && (
+                              <HonorBadges honors={season.honors} />
+                            )}
                           </td>
-                          {!hideStats && <td className="yr">{fmtFbYear(p)}</td>}
+                          {!hideStats && (
+                            <td className="yr">{fmtFbYear(season)}</td>
+                          )}
                           {!hideStats &&
                             cols.map((c) => (
-                              <td key={c.key}>{fmtFbStat(p.stats, c.key)}</td>
+                              <td key={c.key}>
+                                {season ? fmtFbStat(season.stats, c.key) : '—'}
+                              </td>
                             ))}
                         </tr>
                       )
@@ -2450,7 +2488,11 @@ function FbResults({
         {mode.daily && <StreakChips streak={streak} />}
       </div>
 
-      <FbRosterRail slots={state.slots} power5={school.power5} />
+      <FbRosterRail
+        slots={state.slots}
+        power5={school.power5}
+        windowBySlot={live.windowBySlot}
+      />
 
       <div className="card" style={{ marginTop: 16 }}>
         <table className="pool">
@@ -2465,6 +2507,11 @@ function FbResults({
           <tbody>
             {FB_SLOTS.map((slot) => {
               const p = state.slots[slot.id]
+              // Everything on the row reads from the season credited for the
+              // era this slot was drafted from — never an out-of-era year.
+              const season = p
+                ? fbSeasonShown(p, live.windowBySlot[slot.id])
+                : null
               return (
                 <tr key={slot.id}>
                   <td className="name">
@@ -2472,16 +2519,24 @@ function FbResults({
                     {p ? p.name : <span className="muted">(empty)</span>}
                     {/* Results always reveal stats (even Gridiron IQ), so
                         badges are safe to show here. */}
-                    {p && <HonorBadges honors={p.honors} />}
+                    {p && season && <HonorBadges honors={season.honors} />}
                     {p && (
                       <div className="fb-statline muted">
-                        {fbStatSummary(p)}
+                        {fbStatSummary(p, season)}
                       </div>
                     )}
                   </td>
                   <td>{p ? p.position : '—'}</td>
-                  <td className="yr">{p ? fmtFbYear(p) : '—'}</td>
-                  <td>{p ? fbPlayerRating(p, school.power5) : '—'}</td>
+                  <td className="yr">{fmtFbYear(season)}</td>
+                  <td>
+                    {p
+                      ? fbPlayerRating(
+                          p,
+                          live.windowBySlot[slot.id],
+                          school.power5,
+                        )
+                      : '—'}
+                  </td>
                 </tr>
               )
             })}
@@ -2491,9 +2546,11 @@ function FbResults({
 
       {/* Only once the football dataset carries honors — don't explain badges
           that can't appear. */}
-      {FB_SLOTS.some(
-        (slot) => (state.slots[slot.id]?.honors.length ?? 0) > 0,
-      ) && <HonorKey />}
+      {FB_SLOTS.some((slot) => {
+        const p = state.slots[slot.id]
+        const season = p ? fbSeasonShown(p, live.windowBySlot[slot.id]) : null
+        return (season?.honors.length ?? 0) > 0
+      }) && <HonorKey />}
 
       <pre className="share-pre">{share}</pre>
       <div className="row">

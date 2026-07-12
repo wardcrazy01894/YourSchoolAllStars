@@ -3,7 +3,7 @@
 // A "school" hosts two games — basketball and football — but only the data
 // differs; the engine (windows, daily spins, rating → projected record, draft
 // reducer) is sport-parameterized. Multiple schools ship basketball, and
-// Michigan football (2016+) is live — all behind the same contracts.
+// Michigan football (1994+) is live — all behind the same contracts.
 
 export type Sport = 'basketball' | 'football'
 
@@ -116,9 +116,9 @@ export function windowLabel(w: YearWindow): string {
 
 // ── Football ─────────────────────────────────────────────────────────────────
 // 16-0 style: a 12-man roster — 6 offense (QB/RB/WR/TE + 2 FLEX) and 6 defense
-// (DE/DT/LB/CB/S + 1 FLEX). Football data starts at 2016 — the CFBD API's
-// defensive box scores (tackles/sacks/TFL) only exist from then, and a window
-// needs both sides (see docs/DATA-SOURCING.md).
+// (DE/DT/LB/CB/S + 1 FLEX). The era wheel starts at 1994 (same floor as
+// basketball); per-season sourcing and its pre-1997 defensive data floor are
+// documented in docs/DATA-SOURCING.md.
 
 export type FbOffPosition = 'QB' | 'RB' | 'WR' | 'TE'
 export type FbDefPosition = 'DE' | 'DT' | 'LB' | 'CB' | 'S'
@@ -176,16 +176,51 @@ export const FB_STAT_KEYS = [
   'ff',
 ] as const satisfies readonly (keyof FbStats)[]
 
+/**
+ * One season of a football player's career — season TOTALS plus the honors
+ * earned that year and the URL the line was sourced/verified from. Mirrors
+ * `BballSeason`, so the engine can represent a player by their best season
+ * WITHIN the spun window instead of a single career-best line (which showed
+ * stats from outside the drafted era).
+ */
+export interface FbSeason {
+  year: number
+  stats: FbStats
+  honors: string[]
+  source: string
+}
+
 export interface FbPlayer {
   id: string
   name: string
   position: FbPosition
   firstYear: number
   lastYear: number
-  bestSeason: number
-  stats: FbStats
-  honors: string[]
-  source: string
+  /**
+   * Every season the player is represented by, oldest first. Always non-empty.
+   * The engine picks the best season within the spun window for stats/rating;
+   * tenure ([firstYear, lastYear]) still governs which windows they APPEAR in.
+   */
+  seasons: FbSeason[]
+  /**
+   * Years INSIDE the tenure with no season row because the player didn't play
+   * (redshirt) — same contract as `BballPlayer.redshirtYears`.
+   */
+  redshirtYears?: number[]
+}
+
+/**
+ * Football tenure years lacking both a season row and a redshirt declaration —
+ * real sourcing holes. Mirrors {@link tenureGapYears}.
+ */
+export function fbTenureGapYears(p: FbPlayer): number[] {
+  const have = new Set(p.seasons.map((s) => s.year))
+  const redshirt = new Set(p.redshirtYears ?? [])
+  const gaps: number[] = []
+  for (let y = p.firstYear; y <= p.lastYear; y++) {
+    if (!have.has(y) && !redshirt.has(y)) gaps.push(y)
+  }
+  return gaps
 }
 
 /** A roster slot. Single-position slots accept one position; FLEX accepts many. */

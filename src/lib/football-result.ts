@@ -56,11 +56,11 @@ export function fbEvaluate(
 ): FbRosterResult {
   const rated = ratedStarters(state, power5)
   const res = fbDraftResult(state, power5)
-  const playerBySlot = new Map(state.picks.map((pk) => [pk.slotId, pk.player]))
+  const pickBySlot = new Map(state.picks.map((pk) => [pk.slotId, pk]))
   const ratingBySlot = Object.fromEntries(
     FB_SLOTS.map((slot) => {
-      const p = playerBySlot.get(slot.id)
-      return [slot.id, p ? fbPlayerRating(p, power5) : null]
+      const pk = pickBySlot.get(slot.id)
+      return [slot.id, pk ? fbPlayerRating(pk.player, pk.window, power5) : null]
     }),
   ) as Record<string, number | null>
   return {
