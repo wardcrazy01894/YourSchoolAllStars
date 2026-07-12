@@ -2,7 +2,7 @@
   "school": "Michigan",
   "sport": "football",
   "_provisional": false,
-  "_note": "Real per-season data, 1994-2024. Primary source: mgoblue.com official cumulative season statistics (per-player, offense AND defense, 1997+), pulled via scripts/fetch-football-mgoblue.mjs. 1994-1996 offense from Sports-Reference season pages (complete tables); pre-1997 per-player defense (tackles/TFL/sacks) is not published by any citable source, so those seasons carry INT-only lines where SR has them (a documented data floor - see docs/DATA-SOURCING.md). A handful of mgoblue rows that mislink a stat line to the wrong player (verified against SR) were reassigned or repaired with SR cited as that row's source. QB rushYds is the NCAA net (sacks count against rushing), so it can be negative. redshirtYears marks tenure years with no ratable season row (redshirt, injury, or a position-switch year with no line at the listed position). honors[] is per-season and intentionally empty pending the award-page pass.",
+  "_note": "Real per-season data, 1994-2025. Primary source: mgoblue.com official cumulative season statistics (per-player, offense AND defense, 1997+), pulled via scripts/fetch-football-mgoblue.mjs. 1994-1996 offense from Sports-Reference season pages (complete tables); pre-1997 per-player defense (tackles/TFL/sacks) is not published by any citable source, so those seasons carry INT-only lines where SR has them (a documented data floor - see docs/DATA-SOURCING.md). A handful of mgoblue rows that mislink a stat line to the wrong player (verified against SR) were reassigned or repaired with SR cited as that row's source. QB rushYds is the NCAA net (sacks count against rushing), so it can be negative. redshirtYears marks tenure years with no ratable season row (redshirt, injury, or a position-switch year with no line at the listed position). honors[] is per-season and intentionally empty pending the award-page pass.",
   "players": [
     {
       "id": "amani-toomer",
@@ -14409,7 +14409,7 @@
       "name": "Rayshaun Benny",
       "position": "DT",
       "firstYear": 2021,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2021,
@@ -14449,6 +14449,17 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 35,
+            "tfl": 3,
+            "sacks": 1.5,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -14457,7 +14468,7 @@
       "name": "Rod Moore",
       "position": "S",
       "firstYear": 2021,
-      "lastYear": 2023,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2021,
@@ -14490,15 +14501,25 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2023"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 6,
+            "defInt": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
-      ]
+      ],
+      "redshirtYears": [2024]
     },
     {
       "id": "tj-guy",
       "name": "TJ Guy",
       "position": "DE",
       "firstYear": 2021,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2021,
@@ -14537,6 +14558,17 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 18,
+            "tfl": 3,
+            "sacks": 2.5,
+            "defInt": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -14730,7 +14762,7 @@
       "name": "Derrick Moore",
       "position": "DE",
       "firstYear": 2022,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2022,
@@ -14765,6 +14797,18 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 30,
+            "tfl": 10.5,
+            "sacks": 10,
+            "pbu": 3,
+            "ff": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -14793,7 +14837,7 @@
       "name": "Jimmy Rolder",
       "position": "LB",
       "firstYear": 2022,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2022,
@@ -14820,6 +14864,18 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 73,
+            "tfl": 7,
+            "sacks": 2,
+            "defInt": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -14911,7 +14967,7 @@
       "name": "Max Bredeson",
       "position": "TE",
       "firstYear": 2022,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2022,
@@ -14940,6 +14996,15 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "rec": 2,
+            "recYds": 11
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15069,7 +15134,7 @@
       "name": "Zeke Berry",
       "position": "CB",
       "firstYear": 2022,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2022,
@@ -15099,6 +15164,16 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 33,
+            "defInt": 1,
+            "pbu": 10
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15126,7 +15201,7 @@
       "name": "Brandyn Hillman",
       "position": "S",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2023,
@@ -15146,6 +15221,18 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 49,
+            "tfl": 2.5,
+            "defInt": 1,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15154,7 +15241,7 @@
       "name": "Cameron Brandt",
       "position": "DE",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2023,
@@ -15175,6 +15262,55 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 22,
+            "tfl": 1.5,
+            "sacks": 0.5
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "enow-etta",
+      "name": "Enow Etta",
+      "position": "DE",
+      "firstYear": 2023,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2023"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 4,
+            "tfl": 0.5,
+            "sacks": 0.5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 15,
+            "tfl": 2.5,
+            "sacks": 0.5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15183,7 +15319,7 @@
       "name": "Ernest Hausmann",
       "position": "LB",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2023,
@@ -15205,6 +15341,17 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 68,
+            "tfl": 5.5,
+            "sacks": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15294,7 +15441,7 @@
       "name": "Jyaire Hill",
       "position": "CB",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2023,
@@ -15316,6 +15463,19 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 36,
+            "tfl": 3,
+            "sacks": 1,
+            "defInt": 1,
+            "pbu": 5,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15346,7 +15506,7 @@
       "name": "Marlin Klein",
       "position": "TE",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2023,
@@ -15365,6 +15525,16 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "rec": 24,
+            "recYds": 248,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15373,7 +15543,7 @@
       "name": "Semaj Morgan",
       "position": "WR",
       "firstYear": 2023,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2023,
@@ -15400,6 +15570,53 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "passInt": 0,
+            "rushYds": 25,
+            "rushTD": 0,
+            "rec": 20,
+            "recYds": 223,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "trey-pierce",
+      "name": "Trey Pierce",
+      "position": "DT",
+      "firstYear": 2023,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2023"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 7
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 30,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15426,11 +15643,98 @@
       ]
     },
     {
+      "id": "bryson-kuzdzal",
+      "name": "Bryson Kuzdzal",
+      "position": "RB",
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "rushYds": 326,
+            "rushTD": 4,
+            "rec": 4,
+            "recYds": 10,
+            "tackles": 4
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "cole-sullivan",
+      "name": "Cole Sullivan",
+      "position": "LB",
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 4
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 44,
+            "tfl": 5,
+            "sacks": 2,
+            "defInt": 3,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "dominic-nichols",
+      "name": "Dominic Nichols",
+      "position": "DE",
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 19,
+            "tfl": 5.5,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
       "id": "hogan-hansen",
       "name": "Hogan Hansen",
       "position": "TE",
       "firstYear": 2024,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2024,
@@ -15442,6 +15746,15 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "rec": 6,
+            "recYds": 74
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15450,7 +15763,7 @@
       "name": "Jaishawn Barham",
       "position": "LB",
       "firstYear": 2024,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2024,
@@ -15462,6 +15775,47 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 32,
+            "tfl": 10,
+            "sacks": 4,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "jordan-marshall",
+      "name": "Jordan Marshall",
+      "position": "RB",
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "rushYds": 120,
+            "rushTD": 0
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "rushYds": 932,
+            "rushTD": 10,
+            "rec": 9,
+            "recYds": 92
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15470,7 +15824,7 @@
       "name": "Mason Curtis",
       "position": "S",
       "firstYear": 2024,
-      "lastYear": 2024,
+      "lastYear": 2025,
       "seasons": [
         {
           "year": 2024,
@@ -15481,6 +15835,18 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 34,
+            "tfl": 2,
+            "sacks": 1,
+            "defInt": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     },
@@ -15501,6 +15867,318 @@
           },
           "honors": [],
           "source": "https://mgoblue.com/sports/football/stats/2024"
+        }
+      ]
+    },
+    {
+      "id": "andrew-marsh",
+      "name": "Andrew Marsh",
+      "position": "WR",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "rushYds": 13,
+            "rushTD": 1,
+            "rec": 45,
+            "recYds": 651,
+            "recTD": 4,
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "bryce-underwood",
+      "name": "Bryce Underwood",
+      "position": "QB",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "passYds": 2428,
+            "passTD": 11,
+            "passInt": 9,
+            "rushYds": 392,
+            "rushTD": 6,
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "channing-goodwin",
+      "name": "Channing Goodwin",
+      "position": "WR",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "rec": 12,
+            "recYds": 148
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "damon-payne",
+      "name": "Damon Payne",
+      "position": "DT",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 16,
+            "tfl": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "deakon-tonielli",
+      "name": "Deakon Tonielli",
+      "position": "TE",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "rec": 8,
+            "recYds": 72,
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "donaven-mcculley",
+      "name": "Donaven McCulley",
+      "position": "WR",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "passInt": 0,
+            "rushYds": 5,
+            "rushTD": 0,
+            "rec": 39,
+            "recYds": 588,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "elijah-dotson",
+      "name": "Elijah Dotson",
+      "position": "CB",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 11,
+            "defInt": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "jacob-oden",
+      "name": "Jacob Oden",
+      "position": "S",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 3,
+            "defInt": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "jaden-mangham",
+      "name": "Jaden Mangham",
+      "position": "S",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 30,
+            "tfl": 2,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/michigan/2025.html"
+        }
+      ]
+    },
+    {
+      "id": "jayden-sanders",
+      "name": "Jayden Sanders",
+      "position": "CB",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 23,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "jordan-young",
+      "name": "Jordan Young",
+      "position": "S",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 15,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "justice-haynes",
+      "name": "Justice Haynes",
+      "position": "RB",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "rushYds": 857,
+            "rushTD": 10,
+            "rec": 13,
+            "recYds": 50
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "tj-metcalf",
+      "name": "TJ Metcalf",
+      "position": "S",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 58,
+            "tfl": 2.5,
+            "defInt": 1,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "tre-williams",
+      "name": "Tr\u00e9 Williams",
+      "position": "DT",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 20,
+            "tfl": 5.5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "troy-bowles",
+      "name": "Troy Bowles",
+      "position": "LB",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "tackles": 27,
+            "tfl": 2,
+            "sacks": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "zack-marshall",
+      "name": "Zack Marshall",
+      "position": "TE",
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2025,
+          "stats": {
+            "rec": 16,
+            "recYds": 199,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://mgoblue.com/sports/football/stats/2025"
         }
       ]
     }
