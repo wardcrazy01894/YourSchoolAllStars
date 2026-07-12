@@ -160,10 +160,10 @@ describe('HONOR_LEGEND', () => {
     }
   })
 
-  it('leads with the most prestigious badge (national POY)', () => {
+  it('leads with the most prestigious badge (national hardware)', () => {
     expect(HONOR_LEGEND[0]).toEqual({
       emoji: '🏆',
-      label: 'National Player of the Year',
+      label: 'National award',
     })
   })
 })
