@@ -410,13 +410,21 @@ dataset `_note` and this doc) does, in order:
   `-<firstYear>` suffix (two different Will Johnsons exist), auto-declare
   interior tenure gaps as `redshirtYears`, and verify Hall's-condition
   coverage per rolling window before writing.
+- **`redshirtYears` semantics are broad by design**: an auto-declared gap
+  year means "no ratable season row" — an actual redshirt, an injury year,
+  a position-switch year with no line at the listed position, or a season
+  the source's tables simply don't credit. They are NOT individually
+  verified redshirt designations; treat them as coverage bookkeeping, not
+  biography. (The tenure guard accepts them so a real gap in sourcing still
+  fails CI loudly.)
 
 ### For a new school
 
 1. Check whether the school's athletics site is Sidearm with a stats archive
    (`<site>/sports/football/stats/<year>`) and find its floor year; run
    `fetch-football-mgoblue.mjs --site <url>`. Otherwise fall back to the CFBD
-   pipeline (`fetch-football.mjs`, needs `CFBD_API_KEY`, defense 2016+ only).
+   pipeline (`fetch-football.mjs`, needs `CFBD_API_KEY`, defense 2016+ only) —
+   it emits the same per-season `FbSeason[]` draft shape.
 2. Backfill pre-floor years from SR season pages (offense is complete there).
 3. Build the position override map for coarse/ambiguous defenders from citable
    sources; drop what can't be verified.

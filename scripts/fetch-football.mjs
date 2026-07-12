@@ -314,21 +314,26 @@ for (const [id, p] of players) {
     position: pos,
     firstYear: years[0],
     lastYear: years[years.length - 1],
-    bestSeason: best.year,
-    stats: best.line,
-    honors: [],
-    source: `https://collegefootballdata.com/ (stats/player/season team=${TEAM})`,
+    // Per-season rows, matching the FbSeason schema (src/types.ts) that the
+    // dataset guard now requires — the same shape fetch-football-mgoblue.mjs
+    // emits, so curation is interchangeable between the two pipelines.
+    seasons: years.map((y) => ({
+      year: y,
+      stats: p.seasons.get(y),
+      honors: [],
+      source: `https://collegefootballdata.com/ (stats/player/season team=${TEAM} year=${y})`,
+    })),
     _composite: Math.round(bestC * 10) / 10,
+    _bestSeason: best.year,
     _ambiguousPosition: p.ambiguous || undefined,
-    // Every ratable season, so curation can re-pick the best season after a
-    // manual position reassignment (a DB → S override changes which season wins).
-    _seasons: Object.fromEntries(years.map((y) => [y, p.seasons.get(y)])),
   })
   if (p.ambiguous)
     needsReview.push(`${p.name} (${pos}): ambiguous roster position — confirm`)
 }
 
-draft.sort((a, b) => a.bestSeason - b.bestSeason || b._composite - a._composite)
+draft.sort(
+  (a, b) => a._bestSeason - b._bestSeason || b._composite - a._composite,
+)
 
 // ── coverage report against the fixed 4-year windows ─────────────────────────
 const WINDOWS = []

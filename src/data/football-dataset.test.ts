@@ -20,7 +20,7 @@ import type { FbPosition } from '../types'
 const { players, provisional } = michiganFootball
 const ALL_POSITIONS: FbPosition[] = [...FB_OFF_POSITIONS, ...FB_DEF_POSITIONS]
 const STAT_KEY_SET = new Set<string>(FB_STAT_KEYS)
-// The live era wheel the game actually spins (rolling 4-year eras from 2016 to
+// The live era wheel the game actually spins (rolling 4-year eras from 1994 to
 // the dataset's max). The coverage guard below iterates exactly this set.
 const FB_WINDOWS = fbWindows(players)
 
