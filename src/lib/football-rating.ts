@@ -130,6 +130,9 @@ export function fbHonorTier(honor: string): number {
     return s.includes('consensus') || s.includes('unanimous') ? 9 : 6
   if (has('player of the year')) return 6 // national or conference POY
   if (s.includes('silver football')) return 6 // Big Ten MVP — the conference POY
+  // National trophies (best lineman / national POY hardware) — below the
+  // Heisman and consensus-AA tiers, level with a POY.
+  if (/lombardi|walter camp|maxwell award/.test(s)) return 6
   if (has('first team all')) return 4 // first-team all-conference
   if (has('freshman of the year')) return 3
   if (s.includes('all big ten') || s.includes('all conference')) return 3

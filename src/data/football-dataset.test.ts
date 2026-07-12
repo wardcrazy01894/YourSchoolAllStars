@@ -6,7 +6,8 @@
 import { describe, it, expect } from 'vitest'
 import { michiganFootball } from './index'
 import { fbWindows, playerInWindow } from '../lib/football'
-import { fbStatComposite } from '../lib/football-rating'
+import { fbStatComposite, fbHonorTier } from '../lib/football-rating'
+import { honorEmoji } from '../lib/honors'
 import {
   FB_OFF_POSITIONS,
   FB_DEF_POSITIONS,
@@ -168,6 +169,25 @@ describe('michigan football dataset', () => {
       for (const s of p.seasons) {
         expect(s.source, `${p.id} ${s.year}`).not.toBe('PLACEHOLDER')
         expect(s.source, `${p.id} ${s.year}`).toMatch(/^https?:\/\//)
+      }
+    }
+  })
+
+  it('every honor string scores a rating tier and a real badge', () => {
+    // Honors feed the rating bonus and the badge UI. A string neither system
+    // recognizes silently under-rates the player (tier 0) and renders the
+    // generic ★ — exactly how the Lombardi Award once shipped scoring
+    // nothing. Football honors are award-first by policy, so every one must
+    // map; a new honor class requires teaching fbHonorTier + honors.ts first.
+    for (const p of players) {
+      for (const s of p.seasons) {
+        for (const h of s.honors) {
+          expect(
+            fbHonorTier(h),
+            `${p.id} ${s.year} "${h}" tier`,
+          ).toBeGreaterThan(0)
+          expect(honorEmoji(h), `${p.id} ${s.year} "${h}" badge`).not.toBe('★')
+        }
       }
     }
   })

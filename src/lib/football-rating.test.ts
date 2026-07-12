@@ -129,6 +129,19 @@ describe('fbHonorTier / fbHonorsBonus', () => {
     )
   })
 
+  it('scores national trophies (Lombardi/Camp/Maxwell) — never 0', () => {
+    // The dataset carries "Lombardi Award (2021)" (Hutchinson) — a national
+    // trophy must lift the rating, not silently score 0.
+    for (const h of [
+      'Lombardi Award (2021)',
+      'Walter Camp Award (2022)',
+      'Maxwell Award (2022)',
+    ]) {
+      expect(fbHonorTier(h), h).toBeGreaterThan(0)
+      expect(fbHonorTier(h), h).toBeLessThan(fbHonorTier('Heisman Trophy'))
+    }
+  })
+
   it('scores an unknown string as 0 and sums across honors', () => {
     expect(fbHonorTier('Team Captain')).toBe(0)
     const bonus = fbHonorsBonus(['Heisman Trophy', 'Team Captain'])

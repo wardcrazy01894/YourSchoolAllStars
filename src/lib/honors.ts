@@ -22,14 +22,14 @@ interface Rule {
  *  "Player of the Year" rule that would otherwise swallow them. */
 const RULES: Rule[] = [
   {
-    // Basketball (Wooden/Naismith/…) and football (Heisman/Camp/Maxwell)
-    // national player-of-the-year hardware share the trophy.
+    // Basketball (Wooden/Naismith/…) and football (Heisman/Camp/Maxwell/
+    // Lombardi) national hardware share the trophy.
     test: (h) =>
-      /wooden award|naismith|oscar robertson|bob cousy|national player of the year|heisman|walter camp|maxwell award/i.test(
+      /wooden award|naismith|oscar robertson|bob cousy|national player of the year|heisman|walter camp|maxwell award|lombardi/i.test(
         h,
       ),
     emoji: '🏆',
-    label: 'National Player of the Year',
+    label: 'National award',
   },
   {
     // "McDonald's All-American" is a high-school recruiting honor that would
@@ -74,7 +74,8 @@ const RULES: Rule[] = [
     label: 'Freshman / rookie honors',
   },
   {
-    test: (h) => /player of the year/i.test(h),
+    // The Silver Football IS the Big Ten's MVP/POY hardware — same crown.
+    test: (h) => /player of the year|silver football/i.test(h),
     emoji: '👑',
     label: 'Conference Player of the Year',
   },
