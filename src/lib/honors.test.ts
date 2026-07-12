@@ -10,6 +10,12 @@ describe('honorEmoji — national awards', () => {
     expect(honorEmoji('Bob Cousy Award (2013)')).toBe('🏆')
   })
 
+  it("maps football's national POY awards to 🏆 too", () => {
+    expect(honorEmoji('Heisman Trophy (1997)')).toBe('🏆')
+    expect(honorEmoji('Walter Camp Award (2021)')).toBe('🏆')
+    expect(honorEmoji('Maxwell Award (2021)')).toBe('🏆')
+  })
+
   it('maps All-American teams to the star family, one glyph per team', () => {
     expect(honorEmoji('Consensus First-Team All-American (2013)')).toBe('🌟')
     expect(honorEmoji('Consensus Second-Team All-American (1998)')).toBe('⭐')

@@ -123,6 +123,12 @@ describe('fbHonorTier / fbHonorsBonus', () => {
     )
   })
 
+  it('scores the Big Ten MVP (Silver Football) like a conference POY', () => {
+    expect(fbHonorTier('Big Ten MVP (Silver Football) (1997)')).toBe(
+      fbHonorTier('Big Ten Defensive Player of the Year (1997)'),
+    )
+  })
+
   it('scores an unknown string as 0 and sums across honors', () => {
     expect(fbHonorTier('Team Captain')).toBe(0)
     const bonus = fbHonorsBonus(['Heisman Trophy', 'Team Captain'])

@@ -22,8 +22,10 @@ interface Rule {
  *  "Player of the Year" rule that would otherwise swallow them. */
 const RULES: Rule[] = [
   {
+    // Basketball (Wooden/Naismith/…) and football (Heisman/Camp/Maxwell)
+    // national player-of-the-year hardware share the trophy.
     test: (h) =>
-      /wooden award|naismith|oscar robertson|bob cousy|national player of the year/i.test(
+      /wooden award|naismith|oscar robertson|bob cousy|national player of the year|heisman|walter camp|maxwell award/i.test(
         h,
       ),
     emoji: '🏆',

@@ -436,6 +436,15 @@ dataset `_note` and this doc) does, in order:
   year's mgoblue stats URL, or the SR season page for 1994–96 rows and
   SR-repaired rows. SR remains fine to verify or fill long-tail lines per the
   SR policy above — no bulk mirroring of their database.
-- **Honors are intentionally deferred** (`honors: []` per season) pending a
-  separate award-page pass — never fabricate them (see the honors policy +
-  memory note on re-deriving from SR award pages).
+- **Honors are per-season and award-first**: derived from Wikipedia's per-year
+  "YYYY All-Big Ten Conference football team" and "YYYY College Football
+  All-America Team" articles plus the Big Ten individual-award and Silver
+  Football pages, formatted to the same strings basketball uses
+  ("First-Team All-Big Ten (YYYY)", "Consensus All-American (YYYY)", …).
+  Extraction is agent-assisted but **verified by a programmatic wikitext
+  re-derivation** over every year — the verification diff caught 13 agent
+  omissions (incl. Hutchinson's and Ojabo's 2021 first-team nods) and zero
+  fabrications; never trust a research ledger unverified (see the honors
+  memory note). All-conference honors keep the HIGHEST team level across the
+  coaches/media selectors. OL/specialist selections are recorded in the
+  ledger but have no dataset row to land on (not draftable positions).
