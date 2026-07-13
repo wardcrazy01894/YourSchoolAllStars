@@ -129,13 +129,32 @@ describe('fbHonorTier / fbHonorsBonus', () => {
     )
   })
 
-  it('scores national trophies (Lombardi/Camp/Maxwell) — never 0', () => {
+  it('scores all-conference honors for ANY conference a school plays in', () => {
+    // Pitt was Big East through 2012, ACC after — its honors must score like
+    // Michigan's Big Ten ones do.
+    expect(fbHonorTier('First-Team All-Big East (2003)')).toBe(
+      fbHonorTier('First-Team All-Big Ten (2003)'),
+    )
+    expect(fbHonorTier('Second-Team All-ACC (2015)')).toBe(
+      fbHonorTier('Second-Team All-Big Ten (2015)'),
+    )
+    expect(fbHonorTier('Second-Team All-ACC (2015)')).toBeGreaterThan(0)
+    expect(fbHonorTier('Big East Offensive Player of the Year (2003)')).toBe(6)
+    expect(fbHonorTier('ACC Defensive Player of the Year (2013)')).toBe(6)
+  })
+
+  it('scores national trophies (Lombardi/Camp/Maxwell/Outland/…) — never 0', () => {
     // The dataset carries "Lombardi Award (2021)" (Hutchinson) — a national
     // trophy must lift the rating, not silently score 0.
     for (const h of [
       'Lombardi Award (2021)',
       'Walter Camp Award (2022)',
       'Maxwell Award (2022)',
+      'Outland Trophy (2013)',
+      'Bronko Nagurski Trophy (2013)',
+      'Chuck Bednarik Award (2013)',
+      'Biletnikoff Award (2003)',
+      'Johnny Unitas Golden Arm Award (2021)',
     ]) {
       expect(fbHonorTier(h), h).toBeGreaterThan(0)
       expect(fbHonorTier(h), h).toBeLessThan(fbHonorTier('Heisman Trophy'))

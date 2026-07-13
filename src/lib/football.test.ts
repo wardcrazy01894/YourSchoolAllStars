@@ -46,16 +46,33 @@ describe('FB_SLOTS / windows', () => {
     expect(FB_SLOTS.filter((s) => s.side === 'defense')).toHaveLength(6)
   })
 
-  it('fbWindows is the rolling 4-year wheel from 1994 to the dataset max', () => {
-    // Same data-driven rolling scheme basketball uses: one era per starting year
-    // from FB_FIRST_YEAR (1994, same floor as basketball) up to maxYear.
-    const wheel = fbWindows([{ lastYear: 2024 }])
+  it('fbWindows is the rolling 4-year wheel from the dataset floor to its max', () => {
+    // Same data-driven rolling scheme basketball uses: one era per starting
+    // year from the dataset's own floor (never before FB_FIRST_YEAR = 1994,
+    // the app-wide era floor) up to maxYear.
+    const wheel = fbWindows([{ firstYear: 1994, lastYear: 2024 }])
     expect(FB_FIRST_YEAR).toBe(1994)
     expect(wheel[0]).toEqual({ start: 1994, end: 1997 })
     expect(wheel[wheel.length - 1]).toEqual({ start: 2021, end: 2024 })
     expect(wheel).toHaveLength(28)
     // No data → no windows (a school without football).
     expect(fbWindows([])).toEqual([])
+  })
+
+  it('fbWindows starts at the dataset floor when coverage begins later', () => {
+    // A school whose sourced data starts later (Pitt: no per-player defense
+    // anywhere before 1999, so curation floors the dataset at 1996 and the
+    // first era is 1996–99) gets a LATER wheel start — windows never span
+    // years before the school's earliest season row.
+    const wheel = fbWindows([
+      { firstYear: 1996, lastYear: 2025 },
+      { firstYear: 2001, lastYear: 2003 },
+    ])
+    expect(wheel[0]).toEqual({ start: 1996, end: 1999 })
+    expect(wheel[wheel.length - 1]).toEqual({ start: 2022, end: 2025 })
+    // And a floor EARLIER than FB_FIRST_YEAR is clamped up to 1994.
+    const clamped = fbWindows([{ firstYear: 1990, lastYear: 2000 }])
+    expect(clamped[0]).toEqual({ start: 1994, end: 1997 })
   })
 
   it('playerInWindow requires a season ROW inside the window', () => {

@@ -4,7 +4,7 @@
 // in under the provisional flag all fail CI.
 
 import { describe, it, expect } from 'vitest'
-import { michiganFootball } from './index'
+import { michiganFootball, pittsburghFootball } from './index'
 import { fbWindows, playerInWindow } from '../lib/football'
 import { fbStatComposite, fbHonorTier } from '../lib/football-rating'
 import { honorEmoji } from '../lib/honors'
@@ -18,12 +18,8 @@ import {
 } from '../types'
 import type { FbPosition } from '../types'
 
-const { players, provisional } = michiganFootball
 const ALL_POSITIONS: FbPosition[] = [...FB_OFF_POSITIONS, ...FB_DEF_POSITIONS]
 const STAT_KEY_SET = new Set<string>(FB_STAT_KEYS)
-// The live era wheel the game actually spins (rolling 4-year eras from 1994 to
-// the dataset's max). The coverage guard below iterates exactly this set.
-const FB_WINDOWS = fbWindows(players)
 
 /** Every subset of `xs` (power set), used for the Hall's-condition coverage check. */
 function subsets<T>(xs: T[]): T[][] {
@@ -33,7 +29,17 @@ function subsets<T>(xs: T[]): T[][] {
   )
 }
 
-describe('michigan football dataset', () => {
+// Every live football dataset runs the same guard — a new school's data must
+// clear the identical bar (per-season shape, sources, tenure, honors mapping,
+// and Hall's-condition coverage over its OWN wheel).
+describe.each([
+  ['michigan', michiganFootball],
+  ['pitt', pittsburghFootball],
+])('%s football dataset', (_school, dataset) => {
+  const { players, provisional } = dataset
+  // The live era wheel the game actually spins for THIS dataset (rolling
+  // 4-year eras from its own floor to its max).
+  const FB_WINDOWS = fbWindows(players)
   it('has players', () => {
     expect(players.length).toBeGreaterThan(0)
   })

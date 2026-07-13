@@ -23,9 +23,10 @@ interface Rule {
 const RULES: Rule[] = [
   {
     // Basketball (Wooden/Naismith/…) and football (Heisman/Camp/Maxwell/
-    // Lombardi) national hardware share the trophy.
+    // Lombardi/Outland/Nagurski/Bednarik/Biletnikoff/…) national hardware
+    // share the trophy.
     test: (h) =>
-      /wooden award|naismith|oscar robertson|bob cousy|national player of the year|heisman|walter camp|maxwell award|lombardi/i.test(
+      /wooden award|naismith|oscar robertson|bob cousy|national player of the year|heisman|walter camp|maxwell award|lombardi|outland|nagurski|bednarik|biletnikoff|golden arm|doak walker|butkus|thorpe award|rimington/i.test(
         h,
       ),
     emoji: '🏆',

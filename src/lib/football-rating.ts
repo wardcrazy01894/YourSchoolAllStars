@@ -130,12 +130,24 @@ export function fbHonorTier(honor: string): number {
     return s.includes('consensus') || s.includes('unanimous') ? 9 : 6
   if (has('player of the year')) return 6 // national or conference POY
   if (s.includes('silver football')) return 6 // Big Ten MVP — the conference POY
-  // National trophies (best lineman / national POY hardware) — below the
-  // Heisman and consensus-AA tiers, level with a POY.
-  if (/lombardi|walter camp|maxwell award/.test(s)) return 6
+  // National trophies (positional hardware / national POY) — below the Heisman
+  // and consensus-AA tiers, level with a POY.
+  if (
+    /lombardi|walter camp|maxwell award|outland|nagurski|bednarik|biletnikoff|golden arm|doak walker|butkus|thorpe|rimington/.test(
+      s,
+    )
+  )
+    return 6
   if (has('first team all')) return 4 // first-team all-conference
-  if (has('freshman of the year')) return 3
-  if (s.includes('all big ten') || s.includes('all conference')) return 3
+  if (has('freshman of the year') || has('rookie of the year')) return 3
+  // Any conference's all-team (mirrors rating.ts's CONFERENCE_ALL_TEAM): the
+  // league token, not the league, drives the tier.
+  if (
+    /\ball (acc|sec|big east|big ten|big 12|big twelve|pac 12|pac 10|conference)\b/.test(
+      s,
+    )
+  )
+    return 3
   return 0
 }
 
