@@ -7,9 +7,9 @@
     {
       "id": "brandon-williams",
       "name": "Brandon Williams",
-      "position": "LB",
+      "position": "RB",
       "firstYear": 1998,
-      "lastYear": 2001,
+      "lastYear": 1998,
       "seasons": [
         {
           "year": 1998,
@@ -21,21 +21,8 @@
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 42,
-            "tfl": 4,
-            "sacks": 3,
-            "pbu": 2,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
         }
-      ],
-      "redshirtYears": [1999, 2000]
+      ]
     },
     {
       "id": "chris-feola",
@@ -1070,6 +1057,27 @@
             "tfl": 2,
             "sacks": 1,
             "pbu": 1
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
+        }
+      ]
+    },
+    {
+      "id": "brandon-williams-2001",
+      "name": "Brandon Williams",
+      "position": "LB",
+      "firstYear": 2001,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 42,
+            "tfl": 4,
+            "sacks": 3,
+            "pbu": 2,
+            "ff": 1
           },
           "honors": [],
           "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
