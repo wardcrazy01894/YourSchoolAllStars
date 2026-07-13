@@ -217,7 +217,10 @@ describe.each([
     // an injury/COVID year), and nobody redshirts three times, so both bounds
     // are hard failures pointing at a false name-merge in the data pipeline.
     for (const p of players) {
-      expect(p.lastYear - p.firstYear, `${p.id} tenure span`).toBeLessThanOrEqual(5)
+      expect(
+        p.lastYear - p.firstYear,
+        `${p.id} tenure span`,
+      ).toBeLessThanOrEqual(5)
       expect(
         (p.redshirtYears ?? []).length,
         `${p.id} declared redshirt years`,
