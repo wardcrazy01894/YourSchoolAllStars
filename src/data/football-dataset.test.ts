@@ -208,4 +208,23 @@ describe.each([
       expect(fbTenureGapYears(p), `${p.id} tenure gaps`).toEqual([])
     }
   })
+
+  it('no impossible tenures: spans and declared redshirts fit a real career', () => {
+    // Two different humans sharing a name once merged into one "player" — a
+    // 1994 CB and a 2007 WR — bridged by a fabricated 12-year redshirtYears
+    // block that satisfied the tenure-coverage guard above while lying about
+    // who played when. Real careers top out around six seasons (redshirt plus
+    // an injury/COVID year), and nobody redshirts three times, so both bounds
+    // are hard failures pointing at a false name-merge in the data pipeline.
+    for (const p of players) {
+      expect(
+        p.lastYear - p.firstYear,
+        `${p.id} tenure span`,
+      ).toBeLessThanOrEqual(5)
+      expect(
+        (p.redshirtYears ?? []).length,
+        `${p.id} declared redshirt years`,
+      ).toBeLessThanOrEqual(2)
+    }
+  })
 })
