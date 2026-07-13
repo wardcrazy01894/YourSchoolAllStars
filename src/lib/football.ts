@@ -20,17 +20,25 @@ import { FB_SLOTS } from '../types'
 export const FB_FIRST_YEAR = 1994
 
 /**
- * The live football era wheel: rolling 4-year windows from {@link FB_FIRST_YEAR}
- * to the dataset's most recent season — the SAME data-driven rolling scheme
- * basketball uses (`buildRollingWindows` + `datasetMaxYear`), so the daily
- * "pick a year, span 4" plays identically across sports. Empty for a school with
- * no football data (no seasons → no windows).
+ * The live football era wheel: rolling 4-year windows from the DATASET's own
+ * floor (its earliest firstYear, never before {@link FB_FIRST_YEAR}) to its
+ * most recent season — the same data-driven rolling scheme basketball uses
+ * (`buildRollingWindows` + `datasetMaxYear`), so the daily "pick a year,
+ * span 4" plays identically across sports. The data-driven START lets a
+ * school whose sourced coverage begins later (Pitt: 1996) spin a wheel that
+ * never offers an era its data can't fill. Empty for a school with no
+ * football data (no seasons → no windows).
  */
 export function fbWindows(
-  players: ReadonlyArray<{ lastYear: number }>,
+  players: ReadonlyArray<{ firstYear: number; lastYear: number }>,
 ): YearWindow[] {
   const maxYear = datasetMaxYear(players)
-  return maxYear === null ? [] : buildRollingWindows(FB_FIRST_YEAR, maxYear, 4)
+  if (maxYear === null) return []
+  const minYear = players.reduce<number>(
+    (m, p) => Math.min(m, p.firstYear),
+    Infinity,
+  )
+  return buildRollingWindows(Math.max(FB_FIRST_YEAR, minYear), maxYear, 4)
 }
 
 /** One draft round per roster slot. */

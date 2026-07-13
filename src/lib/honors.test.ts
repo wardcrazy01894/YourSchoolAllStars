@@ -15,6 +15,10 @@ describe('honorEmoji — national awards', () => {
     expect(honorEmoji('Walter Camp Award (2021)')).toBe('🏆')
     expect(honorEmoji('Maxwell Award (2021)')).toBe('🏆')
     expect(honorEmoji('Lombardi Award (2021)')).toBe('🏆')
+    expect(honorEmoji('Outland Trophy (2013)')).toBe('🏆')
+    expect(honorEmoji('Bronko Nagurski Trophy (2013)')).toBe('🏆')
+    expect(honorEmoji('Biletnikoff Award (2003)')).toBe('🏆')
+    expect(honorEmoji('Johnny Unitas Golden Arm Award (2021)')).toBe('🏆')
   })
 
   it('maps the Big Ten MVP (Silver Football) to the conference POY crown', () => {

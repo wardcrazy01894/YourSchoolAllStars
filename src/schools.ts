@@ -10,6 +10,7 @@ import {
   floridaBasketball,
   vcuBasketball,
   pittsburghBasketball,
+  pittsburghFootball,
   type Dataset,
   type FootballDataset,
 } from './data'
@@ -138,6 +139,7 @@ export const SCHOOLS: School[] = [
       ink: '#06122e',
     },
     basketball: pittsburghBasketball,
+    football: pittsburghFootball,
     hasFootball: true,
     power5: true,
     available: true,
