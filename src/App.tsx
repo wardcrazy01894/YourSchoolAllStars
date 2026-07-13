@@ -378,7 +378,7 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="ball">🏀</span>
+          <span className="ball">🏆</span>
           <div>
             YourSchoolAllStars
             <small>Pick your school</small>
@@ -388,8 +388,8 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
       <section className="hero" style={{ paddingBottom: 8 }}>
         <h1>Build your school's all-time team.</h1>
         <p>
-          Spin a 4-year window, draft a starting five, and see how close to a
-          perfect season you can get. Choose a school to start.
+          Spin a 4-year window, draft your starting roster, and see how close to
+          a perfect season you can get. Choose a school to start.
         </p>
       </section>
       <div className="picker">
