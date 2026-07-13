@@ -2,8 +2,379 @@
   "school": "Pittsburgh",
   "sport": "football",
   "_provisional": false,
-  "_note": "Real per-season data, 1998-2025. Sources by span: pittsburghpanthers.com official Sidearm cumulative stats (2013-2025, via scripts/fetch-football-mgoblue.mjs --site); the Wayback-archived official CollegeSports-era cumulative pages (seasons 1999, 2001-2005 - full per-player offense AND defense); Sports-Reference season pages (offense 1998+, full defense 2005-2012, and gap-heals for seasons the official payloads omit, e.g. Twyman 2019). The wheel floor is 1998: no citable per-player defensive stats exist for Pitt before the 1999 archive (SR pre-2005 is INT-only, the 2000 cumulative page was never archived - a documented one-year defense hole covered by adjacent years), so eras before 1998-2001 cannot fill a defense. Coarse roster codes (DL/DB) were resolved to fine positions player-by-player with citations; unverifiable marginal players were dropped rather than guessed. QB rushYds is the NCAA net (can be negative). redshirtYears marks tenure years with no ratable season row (coverage bookkeeping, not verified biography). honors[] is per-season and empty pending the Pitt award pass.",
+  "_note": "Real per-season data, 1998-2025 (the computed wheel floor is 1998). Sources by span: pittsburghpanthers.com official Sidearm stats (2013-2025); the Wayback-archived official CollegeSports-era cumulative pages (1999, 2001-2004 full offense+defense; the 2005-06 capture is MID-SEASON and deliberately unused; the 2000 page was never archived - a one-year defense hole covered by adjacent years); Sports-Reference (offense 1998+, full defense 2005-2012, and gap-heals for seasons the official payloads omit or mislink, each verified against SR). Per-player defense for 1994-1997 exists ONLY in the digitized Pitt media guides at digital.library.pitt.edu (objects pitt:31735062136191/-183/-175 and pitt:31735038318758), which sit behind a human-verification wall automated tooling cannot pass - when those pages are retrieved manually, parse them and the data-driven wheel floor extends toward 1994 automatically. Coarse roster codes (DL/DB) were resolved player-by-player with citations; SR offense-table position guesses are never trusted for defenders. QB rushYds is the NCAA net. redshirtYears is coverage bookkeeping, not verified biography. honors[] is per-season, award-first (official Pitt media-guide honorees list + Wikipedia per-year All-America/ACC-season articles + conference award pages), with the attach step skipping honors whose season has no stat row (2000-hole honorees noted in the ledger).",
   "players": [
+    {
+      "id": "brandon-williams",
+      "name": "Brandon Williams",
+      "position": "LB",
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rushYds": 394,
+            "rushTD": 2,
+            "rec": 6,
+            "recYds": 48
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 42,
+            "tfl": 4,
+            "sacks": 3,
+            "pbu": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
+        }
+      ],
+      "redshirtYears": [1999, 2000]
+    },
+    {
+      "id": "chris-feola",
+      "name": "Chris Feola",
+      "position": "RB",
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rushYds": 44,
+            "rec": 2,
+            "recYds": 6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rushYds": 114,
+            "rushTD": 1,
+            "rec": 7,
+            "recYds": 30
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        }
+      ]
+    },
+    {
+      "id": "juan-williams",
+      "name": "Juan Williams",
+      "position": "TE",
+      "firstYear": 1998,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rec": 11,
+            "recYds": 170,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        }
+      ]
+    },
+    {
+      "id": "julius-dixon",
+      "name": "Julius Dixon",
+      "position": "WR",
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rec": 5,
+            "recYds": 59
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rec": 6,
+            "recYds": 116,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        }
+      ]
+    },
+    {
+      "id": "kenney-ketchen",
+      "name": "Kenney Ketchen",
+      "position": "WR",
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rec": 11,
+            "recYds": 134,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rec": 5,
+            "recYds": 51
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        }
+      ]
+    },
+    {
+      "id": "kevan-barlow",
+      "name": "Kevan Barlow",
+      "position": "RB",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rushYds": 533,
+            "rushTD": 4,
+            "rec": 11,
+            "recYds": 140,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rushYds": 630,
+            "rushTD": 6,
+            "passYds": 13,
+            "passTD": 1,
+            "rec": 6,
+            "recYds": 94,
+            "recTD": 1
+          },
+          "honors": ["Second-Team All-Big East (1999)"],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rushYds": 1053,
+            "rushTD": 8,
+            "rec": 13,
+            "recYds": 134,
+            "recTD": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "kirk-mcmullen",
+      "name": "Kirk Mcmullen",
+      "position": "TE",
+      "firstYear": 1998,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rec": 5,
+            "recYds": 54
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rec": 14,
+            "recYds": 184,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        }
+      ]
+    },
+    {
+      "id": "latef-grim",
+      "name": "Latef Grim",
+      "position": "WR",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rushYds": 6,
+            "rushTD": 1,
+            "rec": 60,
+            "recYds": 906,
+            "recTD": 9
+          },
+          "honors": ["First-Team All-Big East (1998)"],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rec": 75,
+            "recYds": 1106,
+            "recTD": 4
+          },
+          "honors": ["First-Team All-Big East (1999)"],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rec": 39,
+            "recYds": 595,
+            "recTD": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "matt-lytle",
+      "name": "Matt Lytle",
+      "position": "QB",
+      "firstYear": 1998,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "passYds": 2092,
+            "passTD": 16,
+            "passInt": 14,
+            "rushYds": 120,
+            "rushTD": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        }
+      ]
+    },
+    {
+      "id": "r-j-english",
+      "name": "R.J. English",
+      "position": "WR",
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rec": 12,
+            "recYds": 137,
+            "recTD": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rec": 15,
+            "recYds": 326,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "rec": 41,
+            "recYds": 760,
+            "recTD": 6,
+            "tackles": 4
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
+        }
+      ],
+      "redshirtYears": [1999]
+    },
+    {
+      "id": "rickey-mendenhall",
+      "name": "Rickey Mendenhall",
+      "position": "RB",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rushYds": 146,
+            "rushTD": 2,
+            "rec": 1,
+            "recYds": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "rushYds": 34
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1999.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rushYds": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
+        }
+      ]
+    },
+    {
+      "id": "terry-murphy",
+      "name": "Terry Murphy",
+      "position": "WR",
+      "firstYear": 1998,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "rec": 40,
+            "recYds": 563,
+            "recTD": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1998.html"
+        }
+      ]
+    },
     {
       "id": "antonio-bryant",
       "name": "Antonio Bryant",
@@ -28,7 +399,12 @@
             "recYds": 1302,
             "recTD": 11
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2000)",
+            "Consensus All-American (2000)",
+            "Big East Offensive Player of the Year (2000)",
+            "Biletnikoff Award (2000)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
         },
         {
@@ -38,7 +414,7 @@
             "recYds": 659,
             "recTD": 9
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2001)"],
           "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
         }
       ]
@@ -67,7 +443,7 @@
           "stats": {
             "defInt": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2000)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
         },
         {
@@ -79,28 +455,8 @@
             "pbu": 1,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2001)"],
           "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
-        }
-      ]
-    },
-    {
-      "id": "chris-feola",
-      "name": "Chris Feola",
-      "position": "RB",
-      "firstYear": 1999,
-      "lastYear": 1999,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "rushYds": 114,
-            "rushTD": 1,
-            "rec": 7,
-            "recYds": 30
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
         }
       ]
     },
@@ -150,6 +506,23 @@
       ]
     },
     {
+      "id": "hank-poteat",
+      "name": "Hank Poteat",
+      "position": "CB",
+      "firstYear": 1999,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "defInt": 3
+          },
+          "honors": ["First-Team All-Big East (1999)"],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/1999.html"
+        }
+      ]
+    },
+    {
       "id": "john-turman",
       "name": "John Turman",
       "position": "QB",
@@ -179,79 +552,6 @@
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
-        }
-      ]
-    },
-    {
-      "id": "julius-dixon",
-      "name": "Julius Dixon",
-      "position": "WR",
-      "firstYear": 1999,
-      "lastYear": 1999,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "rec": 6,
-            "recYds": 116,
-            "recTD": 1
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
-        }
-      ]
-    },
-    {
-      "id": "kevan-barlow",
-      "name": "Kevan Barlow",
-      "position": "RB",
-      "firstYear": 1999,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "rushYds": 630,
-            "rushTD": 6,
-            "passYds": 13,
-            "passTD": 1,
-            "rec": 6,
-            "recYds": 94,
-            "recTD": 1
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "rushYds": 1053,
-            "rushTD": 8,
-            "rec": 13,
-            "recYds": 134,
-            "recTD": 1
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
-        }
-      ]
-    },
-    {
-      "id": "kirk-mcmullen",
-      "name": "Kirk Mcmullen",
-      "position": "TE",
-      "firstYear": 1999,
-      "lastYear": 1999,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "rec": 14,
-            "recYds": 184,
-            "recTD": 3
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
         }
       ]
     },
@@ -300,35 +600,6 @@
           },
           "honors": [],
           "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
-        }
-      ]
-    },
-    {
-      "id": "latef-grim",
-      "name": "Latef Grim",
-      "position": "WR",
-      "firstYear": 1999,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "rec": 75,
-            "recYds": 1106,
-            "recTD": 4
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "rec": 39,
-            "recYds": 595,
-            "recTD": 2
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
         }
       ]
     },
@@ -449,7 +720,7 @@
             "pbu": 7,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (1999)"],
           "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
         },
         {
@@ -462,7 +733,7 @@
             "pbu": 5,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2001)"],
           "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
         }
       ],
@@ -502,6 +773,54 @@
         }
       ],
       "redshirtYears": [2000]
+    },
+    {
+      "id": "torrie-cox",
+      "name": "Torrie Cox",
+      "position": "CB",
+      "firstYear": 1999,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "rushYds": 62,
+            "rushTD": 1
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212191956/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/1999-2000/99-teamcume.html"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rushYds": 6
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 48,
+            "tfl": 1.5,
+            "defInt": 1,
+            "pbu": 11
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "tackles": 82,
+            "defInt": 2,
+            "pbu": 13,
+            "ff": 1
+          },
+          "honors": ["First-Team All-Big East (2002)"],
+          "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
+        }
+      ]
     },
     {
       "id": "brennan-carroll",
@@ -578,7 +897,7 @@
             "recTD": 9,
             "tackles": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2003)"],
           "source": "https://web.archive.org/web/20051212190510/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2003-2004/teamcume.html"
         }
       ]
@@ -640,36 +959,6 @@
       ]
     },
     {
-      "id": "r-j-english",
-      "name": "R.J. English",
-      "position": "WR",
-      "firstYear": 2000,
-      "lastYear": 2001,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "rec": 15,
-            "recYds": 326,
-            "recTD": 3
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2000.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "rec": 41,
-            "recYds": 760,
-            "recTD": 6,
-            "tackles": 4
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
-        }
-      ]
-    },
-    {
       "id": "rod-rutherford",
       "name": "Rod Rutherford",
       "position": "QB",
@@ -709,7 +998,7 @@
             "passYds": 2783,
             "passTD": 22
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2002)"],
           "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
         },
         {
@@ -721,7 +1010,7 @@
             "passYds": 3679,
             "passTD": 37
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2003)"],
           "source": "https://web.archive.org/web/20051212190510/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2003-2004/teamcume.html"
         }
       ]
@@ -781,27 +1070,6 @@
             "tfl": 2,
             "sacks": 1,
             "pbu": 1
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
-        }
-      ]
-    },
-    {
-      "id": "brandon-williams",
-      "name": "Brandon Williams",
-      "position": "LB",
-      "firstYear": 2001,
-      "lastYear": 2001,
-      "seasons": [
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 42,
-            "tfl": 4,
-            "sacks": 3,
-            "pbu": 2,
-            "ff": 1
           },
           "honors": [],
           "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
@@ -900,7 +1168,7 @@
             "pbu": 4,
             "ff": 7
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2002)"],
           "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
         },
         {
@@ -1001,7 +1269,7 @@
             "sacks": 2,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2004)"],
           "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
         }
       ]
@@ -1022,7 +1290,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2001)"],
           "source": "https://web.archive.org/web/20051212190419/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2001-2002/teamcume.html"
         },
         {
@@ -1035,7 +1303,7 @@
             "pbu": 4,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2002)"],
           "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
         }
       ]
@@ -1197,10 +1465,10 @@
         {
           "year": 2005,
           "stats": {
-            "rushYds": 9
+            "rushYds": 10
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ],
       "redshirtYears": [2003]
@@ -1249,14 +1517,14 @@
         {
           "year": 2005,
           "stats": {
-            "rushYds": 325,
+            "rushYds": 351,
             "rushTD": 1,
             "rec": 7,
             "recYds": 56,
             "recTD": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ],
       "redshirtYears": [2003]
@@ -1415,7 +1683,7 @@
             "tfl": 7.5,
             "sacks": 2.5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2004)"],
           "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
         }
       ]
@@ -1453,51 +1721,6 @@
           },
           "honors": [],
           "source": "https://web.archive.org/web/20051212190510/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2003-2004/teamcume.html"
-        }
-      ]
-    },
-    {
-      "id": "bernard-lay",
-      "name": "Bernard Lay",
-      "position": "CB",
-      "firstYear": 2002,
-      "lastYear": 2005,
-      "seasons": [
-        {
-          "year": 2002,
-          "stats": {
-            "tackles": 5
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
-        },
-        {
-          "year": 2003,
-          "stats": {
-            "tackles": 37,
-            "defInt": 1,
-            "pbu": 14
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051212190510/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2003-2004/teamcume.html"
-        },
-        {
-          "year": 2004,
-          "stats": {
-            "defInt": 3
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2004.html"
-        },
-        {
-          "year": 2005,
-          "stats": {
-            "tackles": 29,
-            "tfl": 3,
-            "defInt": 3
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -1602,12 +1825,12 @@
         {
           "year": 2005,
           "stats": {
-            "rec": 13,
-            "recYds": 135,
+            "rec": 21,
+            "recYds": 244,
             "recTD": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -1698,6 +1921,54 @@
       ]
     },
     {
+      "id": "josh-lay",
+      "name": "Josh Lay",
+      "position": "CB",
+      "firstYear": 2002,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2002,
+          "stats": {
+            "tackles": 5
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212190445/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2002-2003/teamcume.html"
+        },
+        {
+          "year": 2003,
+          "stats": {
+            "tackles": 37,
+            "defInt": 1,
+            "pbu": 14
+          },
+          "honors": [],
+          "source": "https://web.archive.org/web/20051212190510/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+        },
+        {
+          "year": 2004,
+          "stats": {
+            "tackles": 22,
+            "tfl": 0.5,
+            "defInt": 3,
+            "pbu": 12
+          },
+          "honors": ["Second-Team All-Big East (2004)"],
+          "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
+        },
+        {
+          "year": 2005,
+          "stats": {
+            "tackles": 29,
+            "tfl": 3,
+            "defInt": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
+        }
+      ]
+    },
+    {
       "id": "larry-fitzgerald",
       "name": "Larry Fitzgerald",
       "position": "WR",
@@ -1711,7 +1982,10 @@
             "recYds": 1005,
             "recTD": 12
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2002)",
+            "Big East Rookie of the Year (2002)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2002.html"
         },
         {
@@ -1722,7 +1996,13 @@
             "recYds": 1672,
             "recTD": 22
           },
-          "honors": [],
+          "honors": [
+            "Unanimous All-American (2003)",
+            "First-Team All-Big East (2003)",
+            "Big East Offensive Player of the Year (2003)",
+            "Biletnikoff Award (2003)",
+            "Walter Camp Award (2003)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2003.html"
         }
       ]
@@ -1870,13 +2150,13 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 29,
+            "tackles": 32,
             "tfl": 4,
             "sacks": 1,
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -1922,14 +2202,14 @@
         {
           "year": 2005,
           "stats": {
-            "rushYds": 113,
+            "rushYds": 118,
             "rushTD": 1,
-            "rec": 10,
-            "recYds": 82,
+            "rec": 14,
+            "recYds": 132,
             "recTD": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -1960,21 +2240,21 @@
             "passYds": 3067,
             "passTD": 24
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2004)"],
           "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
         },
         {
           "year": 2005,
           "stats": {
-            "rushYds": -121,
-            "rushTD": 5,
-            "passInt": 7,
-            "passYds": 1770,
-            "passTD": 13,
+            "passYds": 2392,
+            "passTD": 17,
+            "passInt": 9,
+            "rushYds": -139,
+            "rushTD": 6,
             "tackles": 1
           },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "honors": ["Second-Team All-Big East (2005)"],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -1983,7 +2263,8 @@
             "passTD": 25,
             "passInt": 9,
             "rushYds": 77,
-            "rushTD": 2
+            "rushTD": 2,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
@@ -2058,7 +2339,7 @@
             "tfl": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2101,12 +2382,12 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 23,
-            "tfl": 3.5,
-            "sacks": 1.5
+            "tackles": 27,
+            "tfl": 5.5,
+            "sacks": 2.5
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2195,18 +2476,18 @@
             "recYds": 1297,
             "recTD": 10
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2004)"],
           "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
         },
         {
           "year": 2005,
           "stats": {
-            "rec": 34,
-            "recYds": 710,
-            "recTD": 5
+            "rec": 49,
+            "recYds": 962,
+            "recTD": 7
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -2236,7 +2517,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2004)"],
           "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
         },
         {
@@ -2248,7 +2529,7 @@
             "defInt": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2005)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
@@ -2260,7 +2541,11 @@
             "defInt": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2006)",
+            "All-American (2006)",
+            "Big East Defensive Player of the Year (2006)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
         }
       ]
@@ -2312,10 +2597,10 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 3
+            "tackles": 5
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2407,19 +2692,20 @@
         {
           "year": 2005,
           "stats": {
-            "rec": 14,
-            "recYds": 141,
-            "recTD": 1
+            "rec": 17,
+            "recYds": 168,
+            "recTD": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
           "stats": {
             "rec": 26,
             "recYds": 302,
-            "recTD": 4
+            "recTD": 4,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
@@ -2444,13 +2730,13 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 35,
-            "tfl": 4.5,
-            "sacks": 2.5,
+            "tackles": 43,
+            "tfl": 5.5,
+            "sacks": 3.5,
             "pbu": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2495,12 +2781,12 @@
         {
           "year": 2005,
           "stats": {
-            "rec": 13,
-            "recYds": 196,
+            "rec": 16,
+            "recYds": 226,
             "recTD": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2554,7 +2840,7 @@
             "tfl": 1,
             "defInt": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2005)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
@@ -2564,7 +2850,7 @@
             "tfl": 4,
             "defInt": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2006)", "All-American (2006)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
         }
       ]
@@ -2589,13 +2875,13 @@
         {
           "year": 2005,
           "stats": {
-            "rec": 28,
-            "recYds": 288,
-            "recTD": 2,
-            "tackles": 6
+            "rec": 37,
+            "recYds": 374,
+            "recTD": 3,
+            "tackles": 7
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2604,7 +2890,8 @@
             "passTD": 1,
             "rec": 57,
             "recYds": 847,
-            "recTD": 6
+            "recTD": 6,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
@@ -2642,13 +2929,13 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 36,
+            "tackles": 45,
             "tfl": 5.5,
             "sacks": 1,
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2679,10 +2966,10 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 12
+            "tackles": 14
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2726,12 +3013,12 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 7,
-            "tfl": 3,
-            "sacks": 2
+            "tackles": 13,
+            "tfl": 4,
+            "sacks": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2779,42 +3066,11 @@
         {
           "year": 2005,
           "stats": {
-            "rec": 13,
-            "recYds": 137
+            "rec": 15,
+            "recYds": 156
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-        }
-      ]
-    },
-    {
-      "id": "josh-lay",
-      "name": "Josh Lay",
-      "position": "CB",
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "seasons": [
-        {
-          "year": 2004,
-          "stats": {
-            "tackles": 22,
-            "tfl": 0.5,
-            "defInt": 3,
-            "pbu": 12
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051027210402/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2004-2005/teamcume.html"
-        },
-        {
-          "year": 2005,
-          "stats": {
-            "tackles": 16,
-            "tfl": 2,
-            "defInt": 1,
-            "pbu": 11
-          },
-          "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -2839,7 +3095,7 @@
             "tackles": 4
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2908,7 +3164,7 @@
             "pbu": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -2951,13 +3207,13 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 31,
-            "tfl": 3,
-            "sacks": 1,
+            "tackles": 41,
+            "tfl": 5,
+            "sacks": 2,
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -2999,12 +3255,12 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 9,
+            "tackles": 14,
             "tfl": 4,
             "sacks": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3027,10 +3283,10 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 4
+            "tackles": 8
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3070,7 +3326,7 @@
             "sacks": 5,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         }
       ]
@@ -3091,7 +3347,7 @@
             "passInt": 0
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3138,9 +3394,10 @@
             "rushYds": -51,
             "rushTD": 2,
             "rec": 1,
-            "recYds": 23
+            "recYds": 23,
+            "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         }
       ]
@@ -3180,7 +3437,8 @@
             "rushYds": 110,
             "rushTD": 1,
             "rec": 7,
-            "recYds": 60
+            "recYds": 60,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
@@ -3198,6 +3456,45 @@
       ]
     },
     {
+      "id": "corey-davis",
+      "name": "Corey Davis",
+      "position": "CB",
+      "firstYear": 2005,
+      "lastYear": 2011,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "tackles": 5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
+        },
+        {
+          "year": 2006,
+          "stats": {
+            "tackles": 23,
+            "tfl": 3,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "rushYds": 48,
+            "rec": 5,
+            "recYds": 64,
+            "tackles": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
+        }
+      ],
+      "redshirtYears": [2007, 2008, 2009, 2010]
+    },
+    {
       "id": "eric-thatcher",
       "name": "Eric Thatcher",
       "position": "CB",
@@ -3207,12 +3504,11 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 12,
-            "tfl": 1,
+            "tackles": 16,
             "sacks": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3255,13 +3551,12 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 4,
-            "tfl": 2,
-            "sacks": 3,
-            "pbu": 2
+            "tackles": 6,
+            "tfl": 1,
+            "sacks": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3370,12 +3665,12 @@
         {
           "year": 2005,
           "stats": {
-            "rushYds": 15,
+            "rushYds": 34,
             "rec": 1,
             "recYds": 5
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3400,6 +3695,25 @@
       ]
     },
     {
+      "id": "nick-williams",
+      "name": "Nick Williams",
+      "position": "DT",
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "seasons": [
+        {
+          "year": 2005,
+          "stats": {
+            "tackles": 8,
+            "tfl": 1,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
+        }
+      ]
+    },
+    {
       "id": "rashaad-duncan",
       "name": "Rashaad Duncan",
       "position": "DT",
@@ -3409,12 +3723,12 @@
         {
           "year": 2005,
           "stats": {
-            "tackles": 10,
+            "tackles": 15,
             "tfl": 1,
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3460,13 +3774,13 @@
         {
           "year": 2005,
           "stats": {
-            "rushYds": 246,
+            "rushYds": 411,
             "rushTD": 1,
-            "rec": 3,
-            "recYds": 17
+            "rec": 5,
+            "recYds": 35
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         }
       ]
     },
@@ -3505,7 +3819,7 @@
             "defInt": 1,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2007)", "All-American (2007)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
         },
         {
@@ -3516,7 +3830,11 @@
             "sacks": 4,
             "defInt": 2
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2008)",
+            "All-American (2008)",
+            "Big East Defensive Player of the Year (2008)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
         }
       ]
@@ -3534,7 +3852,7 @@
             "tackles": 4
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20051101161029/http://pittsburghpanthers.collegesports.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2005.html"
         },
         {
           "year": 2006,
@@ -3582,7 +3900,7 @@
             "sacks": 1,
             "defInt": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2008)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
         },
         {
@@ -3592,8 +3910,45 @@
             "tfl": 2,
             "defInt": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
+        }
+      ]
+    },
+    {
+      "id": "austin-ransom",
+      "name": "Austin Ransom",
+      "position": "CB",
+      "firstYear": 2006,
+      "lastYear": 2008,
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "tackles": 3
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "tackles": 11
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
+        },
+        {
+          "year": 2008,
+          "stats": {
+            "tackles": 89,
+            "tfl": 8.5,
+            "sacks": 2.5,
+            "defInt": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
         }
       ]
     },
@@ -3617,7 +3972,8 @@
           "year": 2007,
           "stats": {
             "rec": 8,
-            "recYds": 49
+            "recYds": 49,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
@@ -3626,7 +3982,8 @@
           "year": 2008,
           "stats": {
             "rec": 23,
-            "recYds": 201
+            "recYds": 201,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
@@ -3637,7 +3994,8 @@
             "rushYds": 56,
             "rushTD": 1,
             "rec": 12,
-            "recYds": 139
+            "recYds": 139,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
@@ -3663,6 +4021,15 @@
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
         },
         {
+          "year": 2007,
+          "stats": {
+            "tackles": 15,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
+        },
+        {
           "year": 2008,
           "stats": {
             "rushYds": 25,
@@ -3680,11 +4047,10 @@
             "recYds": 529,
             "recTD": 10
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2009)", "All-American (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         }
-      ],
-      "redshirtYears": [2007]
+      ]
     },
     {
       "id": "doug-fulmer",
@@ -3750,7 +4116,10 @@
             "pbu": 1,
             "ff": 3
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2009)",
+            "Big East Defensive Player of the Year (2009)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         }
       ]
@@ -3871,6 +4240,33 @@
       "redshirtYears": [2007]
     },
     {
+      "id": "lowell-robinson",
+      "name": "Lowell Robinson",
+      "position": "CB",
+      "firstYear": 2006,
+      "lastYear": 2007,
+      "seasons": [
+        {
+          "year": 2006,
+          "stats": {
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
+        },
+        {
+          "year": 2007,
+          "stats": {
+            "tackles": 3,
+            "defInt": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
+        }
+      ]
+    },
+    {
       "id": "nate-byham",
       "name": "Nate Byham",
       "position": "TE",
@@ -3882,7 +4278,8 @@
           "stats": {
             "rec": 2,
             "recYds": 34,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2006.html"
@@ -3892,7 +4289,8 @@
           "stats": {
             "rec": 15,
             "recYds": 210,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
@@ -3904,7 +4302,7 @@
             "recYds": 260,
             "recTD": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2008)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
         },
         {
@@ -3913,7 +4311,7 @@
             "rec": 10,
             "recYds": 108
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         }
       ]
@@ -3941,7 +4339,8 @@
           "stats": {
             "rec": 36,
             "recYds": 496,
-            "recTD": 5
+            "recTD": 5,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
@@ -3951,7 +4350,9 @@
           "stats": {
             "rec": 21,
             "recYds": 298,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1,
+            "ff": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
@@ -4154,7 +4555,7 @@
             "defInt": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         },
         {
@@ -4197,7 +4598,7 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2008)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
         },
         {
@@ -4209,7 +4610,11 @@
             "defInt": 1,
             "ff": 3
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2009)",
+            "All-American (2009)",
+            "Big East Defensive Player of the Year (2009)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         },
         {
@@ -4271,7 +4676,11 @@
             "pbu": 4,
             "ff": 4
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2010)",
+            "All-American (2010)",
+            "Big East Defensive Player of the Year (2010)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
         }
       ]
@@ -4291,9 +4700,13 @@
             "rushTD": 14,
             "rec": 33,
             "recYds": 244,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2007)",
+            "Big East Rookie of the Year (2007)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2007.html"
         },
         {
@@ -4303,9 +4716,10 @@
             "rushYds": 1488,
             "rushTD": 21,
             "rec": 32,
-            "recYds": 305
+            "recYds": 305,
+            "tackles": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2008)", "All-American (2008)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2008.html"
         }
       ]
@@ -4628,7 +5042,7 @@
             "tackles": 30,
             "tfl": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2011)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
         }
       ]
@@ -4679,7 +5093,7 @@
             "defInt": 1,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2011)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
         }
       ]
@@ -4799,7 +5213,8 @@
             "rushYds": 33,
             "rec": 25,
             "recYds": 174,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 5
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
@@ -4832,7 +5247,7 @@
             "recYds": 1111,
             "recTD": 8
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2009)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         },
         {
@@ -4843,7 +5258,7 @@
             "recYds": 822,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2010)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
         }
       ]
@@ -4932,7 +5347,7 @@
             "sacks": 0.5,
             "pbu": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2011)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
         }
       ]
@@ -5073,7 +5488,7 @@
             "pbu": 1,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2010)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
         },
         {
@@ -5232,9 +5647,16 @@
             "rushTD": 17,
             "rec": 25,
             "recYds": 189,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1,
+            "ff": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-Big East (2009)",
+            "All-American (2009)",
+            "Big East Offensive Player of the Year (2009)",
+            "Big East Rookie of the Year (2009)"
+          ],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2009.html"
         },
         {
@@ -5245,7 +5667,7 @@
             "rec": 27,
             "recYds": 216
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2010)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
         }
       ]
@@ -5286,7 +5708,7 @@
             "defInt": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2011)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
         },
         {
@@ -5380,7 +5802,8 @@
           "stats": {
             "rec": 43,
             "recYds": 589,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 3
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
@@ -5390,7 +5813,8 @@
           "stats": {
             "rec": 39,
             "recYds": 493,
-            "recTD": 4
+            "recTD": 4,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
@@ -5400,9 +5824,10 @@
           "stats": {
             "rec": 62,
             "recYds": 983,
-            "recTD": 6
+            "recTD": 6,
+            "tackles": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2012)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
         }
       ]
@@ -5432,7 +5857,8 @@
             "rushTD": 8,
             "rec": 24,
             "recYds": 213,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
@@ -5443,9 +5869,10 @@
             "rushYds": 958,
             "rushTD": 9,
             "rec": 30,
-            "recYds": 200
+            "recYds": 200,
+            "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2011)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
         },
         {
@@ -5455,9 +5882,10 @@
             "rushTD": 11,
             "rec": 36,
             "recYds": 340,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2012)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
         }
       ]
@@ -5538,7 +5966,8 @@
             "passTD": 10,
             "passInt": 11,
             "rushYds": 86,
-            "rushTD": 4
+            "rushTD": 4,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
@@ -5584,7 +6013,7 @@
             "pbu": 4,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2011)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
         },
         {
@@ -5596,7 +6025,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-Big East (2012)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
         },
         {
@@ -5608,8 +6037,76 @@
             "pbu": 3,
             "ff": 4
           },
+          "honors": [
+            "First-Team All-ACC (2013)",
+            "Unanimous All-American (2013)",
+            "ACC Defensive Player of the Year (2013)",
+            "Outland Trophy (2013)",
+            "Bronko Nagurski Trophy (2013)",
+            "Chuck Bednarik Award (2013)",
+            "Lombardi Award (2013)"
+          ],
+          "source": "https://pittsburghpanthers.com/sports/football/stats/2013"
+        }
+      ]
+    },
+    {
+      "id": "anthony-gonzalez",
+      "name": "Anthony Gonzalez",
+      "position": "LB",
+      "firstYear": 2010,
+      "lastYear": 2014,
+      "seasons": [
+        {
+          "year": 2010,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2010.html"
+        },
+        {
+          "year": 2011,
+          "stats": {
+            "rushYds": 36,
+            "rushTD": 1,
+            "rec": 9,
+            "recYds": 58
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
+        },
+        {
+          "year": 2012,
+          "stats": {
+            "tackles": 10,
+            "tfl": 1,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
+        },
+        {
+          "year": 2013,
+          "stats": {
+            "tackles": 79,
+            "tfl": 3.5,
+            "defInt": 1,
+            "pbu": 5
+          },
           "honors": [],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2013"
+        },
+        {
+          "year": 2014,
+          "stats": {
+            "tackles": 81,
+            "tfl": 5,
+            "sacks": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://pittsburghpanthers.com/sports/football/stats/2014"
         }
       ]
     },
@@ -5695,7 +6192,8 @@
             "rushYds": 25,
             "rec": 53,
             "recYds": 754,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
@@ -5706,9 +6204,10 @@
             "rushYds": 30,
             "rec": 73,
             "recYds": 975,
-            "recTD": 5
+            "recTD": 5,
+            "tackles": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2012)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
         },
         {
@@ -5758,7 +6257,7 @@
             "tfl": 4,
             "defInt": 6
           },
-          "honors": [],
+          "honors": ["Second-Team All-Big East (2012)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
         },
         {
@@ -5952,49 +6451,6 @@
       "redshirtYears": [2011]
     },
     {
-      "id": "anthony-gonzalez",
-      "name": "Anthony Gonzalez",
-      "position": "LB",
-      "firstYear": 2011,
-      "lastYear": 2014,
-      "seasons": [
-        {
-          "year": 2011,
-          "stats": {
-            "rushYds": 36,
-            "rushTD": 1,
-            "rec": 9,
-            "recYds": 58
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
-        },
-        {
-          "year": 2013,
-          "stats": {
-            "tackles": 79,
-            "tfl": 3.5,
-            "defInt": 1,
-            "pbu": 5
-          },
-          "honors": [],
-          "source": "https://pittsburghpanthers.com/sports/football/stats/2013"
-        },
-        {
-          "year": 2014,
-          "stats": {
-            "tackles": 81,
-            "tfl": 5,
-            "sacks": 1,
-            "pbu": 2
-          },
-          "honors": [],
-          "source": "https://pittsburghpanthers.com/sports/football/stats/2014"
-        }
-      ],
-      "redshirtYears": [2012]
-    },
-    {
       "id": "drew-carswell",
       "name": "Drew Carswell",
       "position": "TE",
@@ -6006,7 +6462,9 @@
           "stats": {
             "rec": 13,
             "recYds": 140,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 2,
+            "ff": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
@@ -6016,7 +6474,8 @@
           "stats": {
             "rec": 13,
             "recYds": 163,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
@@ -6060,7 +6519,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2015)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2015"
         },
         {
@@ -6072,7 +6531,7 @@
             "pbu": 1,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2016)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
         }
       ],
@@ -6120,7 +6579,8 @@
             "rushTD": 2,
             "rec": 14,
             "recYds": 88,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2011.html"
@@ -6131,7 +6591,8 @@
             "rushYds": 141,
             "rushTD": 3,
             "rec": 8,
-            "recYds": 78
+            "recYds": 78,
+            "tackles": 4
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
@@ -6277,7 +6738,8 @@
           "stats": {
             "rushYds": 14,
             "rec": 7,
-            "recYds": 66
+            "recYds": 66,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
@@ -6441,7 +6903,7 @@
             "tfl": 1.5,
             "sacks": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-ACC (2015)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2015"
         }
       ]
@@ -6545,7 +7007,8 @@
           "stats": {
             "rec": 13,
             "recYds": 173,
-            "recTD": 3
+            "recTD": 3,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2012.html"
@@ -6905,7 +7368,12 @@
             "recYds": 70,
             "tackles": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-ACC (2014)",
+            "All-American (2014)",
+            "ACC Player of the Year (2014)",
+            "ACC Offensive Player of the Year (2014)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2014"
         },
         {
@@ -6929,7 +7397,7 @@
             "recTD": 4,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2016)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
         }
       ]
@@ -7416,7 +7884,7 @@
             "recYds": 926,
             "recTD": 6
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2015)", "All-American (2015)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2015"
         }
       ]
@@ -7672,67 +8140,6 @@
       ]
     },
     {
-      "id": "oluwaseun-idowu",
-      "name": "Oluwaseun Idowu",
-      "position": "LB",
-      "firstYear": 2014,
-      "lastYear": 2018,
-      "seasons": [
-        {
-          "year": 2014,
-          "stats": {
-            "rushYds": 263,
-            "rec": 11,
-            "recYds": 73
-          },
-          "honors": [],
-          "source": "https://pittsburghpanthers.com/sports/football/stats/2014"
-        },
-        {
-          "year": 2015,
-          "stats": {
-            "tackles": 2
-          },
-          "honors": [],
-          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2015.html"
-        },
-        {
-          "year": 2016,
-          "stats": {
-            "tackles": 74,
-            "tfl": 2,
-            "ff": 2
-          },
-          "honors": [],
-          "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
-        },
-        {
-          "year": 2017,
-          "stats": {
-            "tackles": 94,
-            "tfl": 11.5,
-            "sacks": 5,
-            "pbu": 2,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://pittsburghpanthers.com/sports/football/stats/2017"
-        },
-        {
-          "year": 2018,
-          "stats": {
-            "tackles": 82,
-            "tfl": 9.5,
-            "sacks": 2.5,
-            "pbu": 5,
-            "ff": 2
-          },
-          "honors": [],
-          "source": "https://pittsburghpanthers.com/sports/football/stats/2018"
-        }
-      ]
-    },
-    {
       "id": "pat-amara",
       "name": "Pat Amara",
       "position": "S",
@@ -7906,8 +8313,6 @@
         {
           "year": 2015,
           "stats": {
-            "rec": 5,
-            "recYds": 54,
             "tackles": 1
           },
           "honors": [],
@@ -8026,7 +8431,7 @@
             "rec": 15,
             "recYds": 66
           },
-          "honors": [],
+          "honors": ["Third-Team All-ACC (2018)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2018"
         }
       ]
@@ -8288,7 +8693,10 @@
             "pbu": 6,
             "ff": 1
           },
-          "honors": [],
+          "honors": [
+            "Third-Team All-ACC (2015)",
+            "ACC Defensive Rookie of the Year (2015)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2015"
         },
         {
@@ -8301,7 +8709,7 @@
             "pbu": 2,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2016)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
         },
         {
@@ -8315,7 +8723,7 @@
             "defInt": 1,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2017)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2017"
         }
       ]
@@ -8354,6 +8762,57 @@
           },
           "honors": [],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
+        }
+      ]
+    },
+    {
+      "id": "oluwaseun-idowu",
+      "name": "Oluwaseun Idowu",
+      "position": "LB",
+      "firstYear": 2015,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2015,
+          "stats": {
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "tackles": 74,
+            "tfl": 2,
+            "ff": 2
+          },
+          "honors": [],
+          "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 94,
+            "tfl": 11.5,
+            "sacks": 5,
+            "pbu": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://pittsburghpanthers.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 82,
+            "tfl": 9.5,
+            "sacks": 2.5,
+            "pbu": 5,
+            "ff": 2
+          },
+          "honors": [],
+          "source": "https://pittsburghpanthers.com/sports/football/stats/2018"
         }
       ]
     },
@@ -8418,7 +8877,10 @@
             "recYds": 77,
             "recTD": 1
           },
-          "honors": [],
+          "honors": [
+            "Second-Team All-ACC (2015)",
+            "ACC Offensive Rookie of the Year (2015)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2015"
         },
         {
@@ -8455,7 +8917,7 @@
             "recYds": 66,
             "tackles": 6
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2018)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2018"
         }
       ]
@@ -8487,7 +8949,10 @@
             "recTD": 1,
             "tackles": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-ACC (2016)",
+            "Consensus All-American (2016)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2016"
         },
         {
@@ -8497,7 +8962,7 @@
             "rec": 17,
             "recYds": 186
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2017)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2017"
         }
       ]
@@ -8644,7 +9109,7 @@
             "tfl": 7,
             "sacks": 2
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2019)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2019"
         }
       ]
@@ -8739,7 +9204,7 @@
             "defInt": 2,
             "pbu": 7
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2020)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2020"
         }
       ]
@@ -8793,7 +9258,7 @@
             "defInt": 1,
             "pbu": 12
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2019)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2019"
         }
       ]
@@ -8895,7 +9360,7 @@
             "recTD": 4,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["Third-Team All-ACC (2019)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2019"
         }
       ]
@@ -9522,7 +9987,13 @@
             "rushTD": 5,
             "tackles": 1
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-ACC (2021)",
+            "All-American (2021)",
+            "ACC Player of the Year (2021)",
+            "ACC Offensive Player of the Year (2021)",
+            "Johnny Unitas Golden Arm Award (2021)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2021"
         }
       ]
@@ -9663,7 +10134,7 @@
             "pbu": 1,
             "ff": 4
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2019)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2019"
         },
         {
@@ -9674,7 +10145,10 @@
             "sacks": 9,
             "pbu": 3
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-ACC (2020)",
+            "Consensus All-American (2020)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2020"
         }
       ]
@@ -9778,7 +10252,7 @@
             "pbu": 2,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2020)", "All-American (2020)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2020.html"
         }
       ],
@@ -9876,6 +10350,26 @@
       ]
     },
     {
+      "id": "chase-brown",
+      "name": "Chase Brown",
+      "position": "RB",
+      "firstYear": 2018,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "rushYds": 352,
+            "rec": 10,
+            "recYds": 75,
+            "tackles": 5
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2018.html"
+        }
+      ]
+    },
+    {
       "id": "deslin-alexandre",
       "name": "Deslin Alexandre",
       "position": "DE",
@@ -9932,7 +10426,7 @@
             "sacks": 5.5,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -10055,7 +10549,7 @@
             "sacks": 10.5,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2019)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2019.html"
         }
       ]
@@ -10174,7 +10668,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         },
         {
@@ -10214,7 +10708,7 @@
             "pbu": 11,
             "ff": 3
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2019)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2019"
         },
         {
@@ -10682,7 +11176,7 @@
             "pbu": 9,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2022)", "All-American (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -10720,7 +11214,7 @@
             "sacks": 9,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2021)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2021.html"
         },
         {
@@ -10784,7 +11278,7 @@
             "recYds": 1063,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -10843,7 +11337,7 @@
             "pbu": 3,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2019)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2019"
         }
       ]
@@ -10890,7 +11384,7 @@
             "tfl": 14.5,
             "sacks": 4
           },
-          "honors": [],
+          "honors": ["Third-Team All-ACC (2020)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2020"
         },
         {
@@ -10901,7 +11395,7 @@
             "sacks": 4,
             "defInt": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2021)"],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2021.html"
         },
         {
@@ -10914,7 +11408,7 @@
             "pbu": 3,
             "ff": 2
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -10943,7 +11437,8 @@
             "rushYds": 54,
             "rushTD": 1,
             "rec": 1,
-            "recYds": 7
+            "recYds": 7,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2020.html"
@@ -11179,10 +11674,6 @@
         {
           "year": 2020,
           "stats": {
-            "rushYds": 65,
-            "rec": 44,
-            "recYds": 634,
-            "recTD": 3,
             "tackles": 27,
             "tfl": 1.5,
             "defInt": 1,
@@ -11201,7 +11692,7 @@
             "pbu": 6,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2021)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2021"
         },
         {
@@ -11211,7 +11702,7 @@
             "tfl": 0.5,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -11243,7 +11734,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2021)", "All-American (2021)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2021"
         },
         {
@@ -11253,7 +11744,11 @@
             "tfl": 14.5,
             "sacks": 7.5
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-ACC (2022)",
+            "Unanimous All-American (2022)",
+            "ACC Defensive Player of the Year (2022)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -11447,6 +11942,27 @@
       ]
     },
     {
+      "id": "dj-turner",
+      "name": "DJ Turner",
+      "position": "WR",
+      "firstYear": 2020,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2020,
+          "stats": {
+            "rushYds": 65,
+            "rec": 44,
+            "recYds": 634,
+            "recTD": 3,
+            "tackles": 1
+          },
+          "honors": ["First-Team All-ACC (2020)"],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2020.html"
+        }
+      ]
+    },
+    {
       "id": "israel-abanikanda",
       "name": "Israel Abanikanda",
       "position": "RB",
@@ -11486,7 +12002,7 @@
             "recYds": 146,
             "recTD": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2022)", "All-American (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         }
       ]
@@ -11545,7 +12061,7 @@
             "recTD": 4,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2020)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2020"
         },
         {
@@ -11557,7 +12073,11 @@
             "recYds": 1593,
             "recTD": 17
           },
-          "honors": [],
+          "honors": [
+            "First-Team All-ACC (2021)",
+            "Consensus All-American (2021)",
+            "Biletnikoff Award (2021)"
+          ],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2021"
         }
       ]
@@ -11623,7 +12143,7 @@
             "recTD": 6,
             "tackles": 2
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2021)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2021"
         }
       ]
@@ -11759,7 +12279,7 @@
             "recYds": 9,
             "recTD": 4
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2021)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2021"
         },
         {
@@ -11780,7 +12300,7 @@
             "recYds": 326,
             "recTD": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2023)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2023"
         },
         {
@@ -11792,7 +12312,7 @@
             "recTD": 4,
             "tackles": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         }
       ]
@@ -11910,7 +12430,7 @@
             "defInt": 3,
             "pbu": 8
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2022)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2022"
         },
         {
@@ -11921,7 +12441,7 @@
             "defInt": 4,
             "pbu": 10
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2023)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2023"
         }
       ]
@@ -12100,7 +12620,7 @@
             "recYds": 721,
             "recTD": 6
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2023)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2023"
         }
       ]
@@ -12224,7 +12744,7 @@
             "recYds": 813,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         }
       ]
@@ -12413,7 +12933,7 @@
             "defInt": 2,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2025)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
         }
       ]
@@ -12472,7 +12992,7 @@
             "defInt": 2,
             "pbu": 2
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2025)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
         }
       ]
@@ -12521,7 +13041,7 @@
             "pbu": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2023)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2023"
         },
         {
@@ -12533,7 +13053,7 @@
             "pbu": 8,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         }
       ]
@@ -12647,7 +13167,7 @@
             "recYds": 695,
             "recTD": 5
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2025)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
         }
       ]
@@ -12678,7 +13198,7 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2024)", "All-American (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         },
         {
@@ -12691,7 +13211,7 @@
             "pbu": 3,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Second-Team All-ACC (2025)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
         }
       ]
@@ -12757,9 +13277,6 @@
         {
           "year": 2024,
           "stats": {
-            "rec": 10,
-            "recYds": 100,
-            "recTD": 2,
             "tackles": 1,
             "tfl": 0.5,
             "defInt": 1,
@@ -12795,7 +13312,7 @@
             "pbu": 9,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["Third-Team All-ACC (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         },
         {
@@ -12992,7 +13509,7 @@
             "recYds": 579,
             "recTD": 4
           },
-          "honors": [],
+          "honors": ["First-Team All-ACC (2024)", "All-American (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         },
         {
@@ -13068,7 +13585,7 @@
             "sacks": 1,
             "ff": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2025)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
         }
       ]
@@ -13277,7 +13794,7 @@
             "tfl": 2,
             "pbu": 1
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2024)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2024"
         },
         {
@@ -13290,6 +13807,37 @@
           },
           "honors": [],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
+        }
+      ]
+    },
+    {
+      "id": "raphael-williams",
+      "name": "Raphael Williams",
+      "position": "WR",
+      "firstYear": 2024,
+      "lastYear": 2025,
+      "seasons": [
+        {
+          "year": 2024,
+          "stats": {
+            "rec": 37,
+            "recYds": 426,
+            "recTD": 6,
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2024.html"
+        },
+        {
+          "year": 2025,
+          "stats": {
+            "rushYds": 4,
+            "rec": 51,
+            "recYds": 701,
+            "recTD": 7
+          },
+          "honors": [],
+          "source": "https://www.sports-reference.com/cfb/schools/pittsburgh/2025.html"
         }
       ]
     },
@@ -13621,7 +14169,7 @@
             "defInt": 1,
             "pbu": 4
           },
-          "honors": [],
+          "honors": ["All-ACC Honorable Mention (2025)"],
           "source": "https://pittsburghpanthers.com/sports/football/stats/2025"
         }
       ]
@@ -13636,10 +14184,6 @@
         {
           "year": 2025,
           "stats": {
-            "rushYds": 4,
-            "rec": 51,
-            "recYds": 701,
-            "recTD": 7,
             "tackles": 15,
             "tfl": 3,
             "sacks": 1.5
