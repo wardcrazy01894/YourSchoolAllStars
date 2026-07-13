@@ -133,7 +133,7 @@ export function fbHonorTier(honor: string): number {
   // National trophies (positional hardware / national POY) — below the Heisman
   // and consensus-AA tiers, level with a POY.
   if (
-    /lombardi|walter camp|maxwell award|outland|nagurski|bednarik|biletnikoff|golden arm|doak walker|butkus|thorpe|rimington/.test(
+    /lombardi|walter camp|maxwell award|outland|nagurski|bednarik|biletnikoff|golden arm|doak walker|butkus|thorpe|rimington|o'brien/.test(
       s,
     )
   )
