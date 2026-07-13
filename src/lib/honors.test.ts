@@ -19,6 +19,7 @@ describe('honorEmoji — national awards', () => {
     expect(honorEmoji('Bronko Nagurski Trophy (2013)')).toBe('🏆')
     expect(honorEmoji('Biletnikoff Award (2003)')).toBe('🏆')
     expect(honorEmoji('Johnny Unitas Golden Arm Award (2021)')).toBe('🏆')
+    expect(honorEmoji("Davey O'Brien Award (1996)")).toBe('🏆')
   })
 
   it('maps the Big Ten MVP (Silver Football) to the conference POY crown', () => {

@@ -448,3 +448,35 @@ dataset `_note` and this doc) does, in order:
   memory note). All-conference honors keep the HIGHEST team level across the
   coaches/media selectors. OL/specialist selections are recorded in the
   ledger but have no dataset row to land on (not draftable positions).
+
+### Florida (1994–2025) — third live football school
+
+`src/data/florida-football.json` (493 players) follows the same pipeline +
+curation recipe; full provenance lives in the dataset `_note`. Source map:
+
+- **2006–2025**: floridagators.com Sidearm stats/roster payloads
+  (`fetch-football-mgoblue.mjs --site https://floridagators.com`, floor 2006),
+  then **cross-validated player-by-player against SR season tables** — the
+  audit caught ~30 Sidearm bio-mislinks (Hargreaves' 2013 freshman line under
+  a kicker's bio, Trey Burton's 11-TD 2010 under a walk-on, Will Grier's 2015
+  passing under a DB, a near-fully mislinked 2021 payload). Repaired rows cite
+  the SR season page. SR has no PBU before 2013, so official PBU stands there.
+- **1996–2005**: Wayback-archived **official** gatorzone.com sources — per-year
+  history pages (1996 offense, 1998), `stats/team.pdf` + `defe.pdf` (1999),
+  `history/<year>/team.pdf`/`stats.pdf` packages (2000–2005), and
+  `notes/final/2002.pdf` for the 2002 defense. Every parsed table validated
+  against its printed totals row. The archived 1997 pages are mid-season
+  ("After 10 Games") and deliberately unused — 1997 comes from the 1998 media
+  guide instead.
+- **1994–1995** (+ final 1996 defense, 1997): transcribed from the digitized
+  official **media guides** (Internet Archive item `01-florida-gators`) at
+  full page-scan resolution, validated by the guides' own per-row BP checksum
+  (BP = TTFL+FH+FF+FR+BLK+PD+INT), exact column totals, and the printed AVG
+  columns. UF credited fractional sacks in halves AND thirds — Kevin Carter's
+  11.8 (= 11⅚) 1994 sacks are confirmed by the archived UF record book.
+- **Honors** were derived **programmatically from Wikipedia wikitext** (the
+  Florida All-Americans list with its consensus/unanimous color legend,
+  per-year All-SEC articles 1994–2025 keeping the highest AP/Coaches level,
+  national-award winner tables, SEC individual awards). The Davey O'Brien
+  Award (Wuerffel ×2, Tebow) was new to the honor systems and is now scored
+  (`fbHonorTier`) and badged (`honors.ts`) with tests.

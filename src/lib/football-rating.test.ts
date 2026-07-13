@@ -155,10 +155,21 @@ describe('fbHonorTier / fbHonorsBonus', () => {
       'Chuck Bednarik Award (2013)',
       'Biletnikoff Award (2003)',
       'Johnny Unitas Golden Arm Award (2021)',
+      // Florida carries the O'Brien three times (Wuerffel ×2, Tebow).
+      "Davey O'Brien Award (1996)",
     ]) {
       expect(fbHonorTier(h), h).toBeGreaterThan(0)
       expect(fbHonorTier(h), h).toBeLessThan(fbHonorTier('Heisman Trophy'))
     }
+  })
+
+  it('scores SEC honors like any other conference (Florida)', () => {
+    expect(fbHonorTier('First-Team All-SEC (1996)')).toBe(
+      fbHonorTier('First-Team All-Big Ten (1996)'),
+    )
+    expect(fbHonorTier('Second-Team All-SEC (2005)')).toBeGreaterThan(0)
+    expect(fbHonorTier('SEC Player of the Year (1996)')).toBe(6)
+    expect(fbHonorTier('SEC Freshman of the Year (2006)')).toBe(3)
   })
 
   it('scores an unknown string as 0 and sums across honors', () => {
