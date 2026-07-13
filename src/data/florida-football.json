@@ -2,7 +2,7 @@
   "school": "Florida",
   "sport": "football",
   "_provisional": false,
-  "_note": "Real per-season data, 1994-2025, all sides of the ball. Sources by span: floridagators.com official Sidearm stats + roster payloads (2006-2025; pipeline draft cross-validated player-by-player against Sports-Reference season tables, which exposed and repaired ~30 Sidearm bio-mislinks - e.g. Vernon Hargreaves' 2013 freshman line filed under a kicker's bio and Trey Burton's 2010 14-TD season under a walk-on - each repaired/reassigned row cites the SR season page it was verified against; SR carries no PBU before 2013, so official PBU stands there). 1996-2005 come from Wayback-archived OFFICIAL sources: gatorzone.com per-season history pages (final 1996 offense; 1998 cumulative + 11-game defense), the gatorzone stats PDFs (team.pdf/defe.pdf: 1999 through the SEC Championship), history/<year>/team.pdf and stats.pdf packages (2000-2005 finals incl. bowls where published; 2001 through the SECCG), and the notes/final/2002.pdf defensive tables - every parsed table validated against its printed totals row (column sums exact). 1994-1995 are transcribed from the digitized official Florida media guides (1995 + 1996 guides, Internet Archive item 01-florida-gators) at full page-scan resolution, validated by the guides' own per-row BP checksum (BP = TTFL+FH+FF+FR+BLK+PD+INT), column totals (UT/AT/TT exact to the printed 635/462/1097 and 605/440/1045), the printed AVG columns, and the interception-returns cross-table; guide scope is regular season incl. the SEC Championship (bowls excluded, as printed). UF credited fractional sacks in halves AND thirds (Kevin Carter's 11.8 = 11 5/6 QBS in 1994 is confirmed by the archived UF record book). 1997 (11-game regular season) and the final 1996 defense come from the 1998/1997 media guides under the same checksum discipline. Positions: verified player-by-player with citations (floridagators.com bios/rosters back to 1996, Wikipedia, draft profiles); coarse roster codes (DL/DB/STAR/BUCK) were never defaulted; OL/K/P/LS are not draftable and were dropped (incl. honored specialists: Maurkice Pouncey, Chas Henry, Johnny Townsend); two same-name humans (the David Reeses) disambiguated via SR's own split rows. honors[] is per-season and award-first, derived programmatically from Wikipedia wikitext (the Florida All-Americans list page with its consensus/unanimous color legend, per-year All-SEC team articles 1994-2025 with AP/Coaches levels - highest level kept, national award winner tables, and the SEC individual awards page); honors whose winner has no dataset row (OL/K/P) are recorded in the build ledger, not attached. redshirtYears is coverage bookkeeping, not verified biography.",
+  "_note": "Real per-season data, 1994-2025, all sides of the ball. Sources by span: floridagators.com official Sidearm stats + roster payloads (2006-2025; pipeline draft cross-validated player-by-player against Sports-Reference season tables, which exposed the official payload's Sidearm bio-mislinks - e.g. Vernon Hargreaves' 2013 freshman line filed under a kicker's bio, Trey Burton's 11-TD 2010 under a walk-on, and a badly mislinked 2021 page. 31 mislinked rows were deleted, 42 diverging rows replaced with the SR line, and 45 missing owner-seasons installed from SR - in total 83 season rows across 70 players cite the SR season page they were verified against; SR carries no PBU before 2013, so official PBU stands there). 1996-2005 offense and 1998-2005 defense come from Wayback-archived OFFICIAL sources: gatorzone.com per-season history pages (final 1996 offense; 1998 cumulative + 11-game defense), the gatorzone stats PDFs (team.pdf/defe.pdf: 1999 through the SEC Championship), history/<year>/team.pdf and stats.pdf packages (2000-2005 finals incl. bowls where published; 2001 through the SECCG), and the notes/final/2002.pdf defensive tables - every parsed table validated against its printed totals row (column sums exact). The archived 1997 gatorzone stats pages are MID-SEASON (After 10 Games) and deliberately unused. 1994-1995 (all stats), the final 12-game 1996 defense, and all of 1997 are transcribed from the digitized official Florida media guides (1995/1996/1997/1998 guides, Internet Archive item 01-florida-gators) at full page-scan resolution, validated by the guides' own per-row BP checksum (BP = TTFL+FH+FF+FR+BLK+PD+INT), exact column totals (e.g. UT/AT/TT 635/462/1097 in 1994), the printed AVG columns, and the interception-returns cross-tables. UF credited fractional sacks in halves AND thirds (Kevin Carter's 11.8 = 11 5/6 QBS in 1994 is confirmed by the archived UF record book). Positions: verified player-by-player with citations (floridagators.com bios/rosters back to 1996, Wikipedia, draft profiles); coarse roster codes (DL/DB/STAR/BUCK) were never defaulted; OL/K/P/LS are not draftable and were dropped (incl. honored specialists: Maurkice Pouncey, Chas Henry, Johnny Townsend). Two different humans named David Reese overlapped 2018: the starter LB ships as david-reese-ii per SR's own split rows; the same-name walk-on's marginal rows were trimmed below the pool floor. honors[] is per-season and award-first, derived programmatically from Wikipedia wikitext (the Florida All-Americans list page with its consensus/unanimous color legend, per-year All-SEC team articles 1994-2025 with AP/Coaches levels - highest level kept, national award winner tables, and the SEC individual awards page); honors whose winner has no dataset row (OL/K/P) are recorded in the build ledger, not attached. redshirtYears is coverage bookkeeping, not verified biography.",
   "players": [
     {
       "id": "anthone-lott",
@@ -46,7 +46,7 @@
             "ff": 1
           },
           "honors": ["First-Team All-SEC (1996)"],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -140,7 +140,7 @@
             "ff": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -320,7 +320,7 @@
             "pbu": 5
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -656,7 +656,7 @@
             "pbu": 9
           },
           "honors": ["Second-Team All-SEC (1996)"],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -804,7 +804,7 @@
             "pbu": 4
           },
           "honors": ["First-Team All-SEC (1996)"],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -936,7 +936,7 @@
             "tackles": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -977,7 +977,7 @@
             "pbu": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -1086,7 +1086,7 @@
             "ff": 1
           },
           "honors": ["First-Team All-SEC (1996)"],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -1153,7 +1153,7 @@
             "tackles": 6
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -1210,7 +1210,7 @@
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -1261,7 +1261,7 @@
             "sacks": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -1418,7 +1418,7 @@
             "ff": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         }
       ]
     },
@@ -1595,7 +1595,7 @@
             "tackles": 19
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -1639,7 +1639,7 @@
             "ff": 1
           },
           "honors": ["First-Team All-SEC (1996)"],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -1740,7 +1740,7 @@
             "ff": 4
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -1789,7 +1789,7 @@
             "tackles": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -1832,7 +1832,7 @@
             "pbu": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2012,7 +2012,7 @@
             "pbu": 3
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2064,8 +2064,7 @@
             "rec": 13,
             "recYds": 163,
             "recTD": 1,
-            "passInt": 0,
-            "tackles": 2
+            "passInt": 0
           },
           "honors": [],
           "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
@@ -2121,7 +2120,7 @@
             "ff": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2172,7 +2171,7 @@
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2254,7 +2253,7 @@
             "sacks": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2308,7 +2307,7 @@
             "ff": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2340,7 +2339,7 @@
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2386,7 +2385,7 @@
             "tackles": 3
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2638,7 +2637,7 @@
             "ff": 2
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2682,7 +2681,7 @@
             "sacks": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2735,7 +2734,7 @@
             "pbu": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
@@ -2777,7 +2776,7 @@
             "ff": 1
           },
           "honors": [],
-          "source": "https://web.archive.org/web/20000525131124/http://www.gatorzone.com:80/football/history.php?his=1996/indio1996.html"
+          "source": "https://archive.org/details/01-florida-gators"
         },
         {
           "year": 1997,
