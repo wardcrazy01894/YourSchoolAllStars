@@ -43,14 +43,45 @@ node scripts/fetch-football-mgoblue.mjs --site https://goheels.com \
   **Fetch with the `id_` raw-capture suffix** — a plain
   `/web/<year>/<url>` fetch returns the Wayback interstitial, not the page:
   `http://web.archive.org/web/<TIMESTAMP>id_/<original-url>`
-- **1994–2002: NOT yet found.** No archived `teamcume.html` before 2002-2003.
-  Candidates, in priority order: (a) other page names on the pre-2002
-  `tarheelblue.com`/`tarheelblue.ocsn.com` hosts (the CDX shows per-GAME pages
-  like `112998aaa.html` — look for a season/cume variant); (b) digitized UNC
-  media guides (Internet Archive — the Florida route; guides carry the PRIOR
-  season's full stats); (c) **Sports-Reference** (offense complete every year;
-  full defense only 2005+, pre-2005 is INT-only — a documented floor, same as
-  Michigan's pre-1997).
+- **2010–2011: the only captures are MID-SEASON** (Nov 10 / Sep 26) — unusable
+  (the Pitt lesson: scope date decides, never capture date). 2012–2015 have no
+  cume at all. **SR covers 2005+ with FULL defense**, so 2010–2015 comes from
+  SR (verified: 2010 = 47 defensive rows with tackles; 2013 = 49; 2015 = 46).
+- **1994–2002 official cumes**: the pre-CSTV site published each season's cume
+  as a **DATE-NAMED page** (`stats/071102aaa.html` = the 2001 final, "as of
+  Dec 01, 2001", full defense ✓), NOT under a predictable path — plus a
+  one-off `archive/teamcume-02.html` for 2002 (FINAL STATS ✓). These have to
+  be **discovered** (`discover-old-cumes.mjs` crawls the archived stats/archive
+  dirs, fetches each page, and keeps the LATEST-SCOPE cume per season).
+- **1994–1996** (if no cume exists that far back): SR offense + INT-only
+  defense — the documented Michigan pre-1997 precedent. Windows starting
+  1994–96 still fill their defensive slots from the 1997 rows they contain, so
+  the wheel stays playable from 1994.
+
+### Dead ends (do not re-try)
+
+- **Internet Archive UNC media guides**: the `north-carolina-football-<year>-media-guide`
+  items are **cover images only** — no PDFs (unlike Florida's guides).
+- **goheels record book / media guide PDFs**: they carry only career/season
+  TOP-10 lists and single-leader-per-year tables — not per-season rosters.
+  (The real PDF lives on the Sidearm S3 host, not the `goheels.com/documents/…`
+  path, which returns the SPA shell.)
+
+### The roster join (the key that unlocks the cume era)
+
+The TAS cumes print names **abbreviated** — `Williams, A.` on offense,
+`30 Thornton, D.` on defense — so rows can't be identified from the cume
+alone. **goheels.com keeps historical ROSTERS back to 1997**
+(`/sports/football/roster/<year>`, server-rendered), each entry carrying
+jersey + full name + a spelled-out position:
+
+    Jersey Number | 30 | David Thornton | Position | Linebacker | Academic Year | Sr.
+
+`fetch-rosters.mjs` pulls 1997–2025 (29 files, `rosters/<year>.json`). This is
+BOTH the name-expansion key (defense joins on jersey, offense on
+last-name + first-initial) AND the position oracle for the whole pre-Sidearm
+era — better than SR's coarse codes. Ambiguous joins are reported, never
+guessed.
 
 ## Known issues to resolve during curation (already spotted)
 

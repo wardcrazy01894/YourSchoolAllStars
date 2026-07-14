@@ -1,0 +1,68 @@
+{
+ "season": 2006,
+ "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+ "rows": [
+  {
+   "table": "passing_standard",
+   "name": "Joe Dailey",
+   "pos": "QB",
+   "stats": {
+    "games": 10,
+    "pass_cmp": 112,
+    "pass_att": 195,
+    "pass_cmp_pct": 57.4,
+    "pass_yds": 1316,
+    "pass_td": 7,
+    "pass_td_pct": 3.6,
+    "pass_int": 10,
+    "pass_int_pct": 5.1,
+    "pass_yds_per_att": 6.7,
+    "pass_adj_yds_per_att": 5.16,
+    "pass_yds_per_cmp": 11.8,
+    "pass_yds_per_g": 131.6,
+    "pass_rating": 115.7
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Cameron Sexton",
+   "pos": "QB",
+   "stats": {
+    "games": 8,
+    "pass_cmp": 57,
+    "pass_att": 136,
+    "pass_cmp_pct": 41.9,
+    "pass_yds": 840,
+    "pass_td": 4,
+    "pass_td_pct": 2.9,
+    "pass_int": 8,
+    "pass_int_pct": 5.9,
+    "pass_yds_per_att": 6.2,
+    "pass_adj_yds_per_att": 4.12,
+    "pass_yds_per_cmp": 14.7,
+    "pass_yds_per_g": 105,
+    "pass_rating": 91.7
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Bobby Rome",
+   "pos": "RB",
+   "stats": {
+    "games": 12,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_cmp_pct": 0,
+    "pass_yds": 0,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 0,
+    "pass_adj_yds_per_att": 0,
+    "pass_yds_per_g": 0,
+    "pass_rating": 0
+   }
+  }
+ ]
+}

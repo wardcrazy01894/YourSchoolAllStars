@@ -1,0 +1,69 @@
+{
+ "season": 2021,
+ "source": "http://web.archive.org/web/20241007111315/https://www.sports-reference.com/cfb/schools/north-carolina/2021.html",
+ "rows": [
+  {
+   "table": "passing_standard",
+   "name": "Sam Howell",
+   "pos": "QB",
+   "stats": {
+    "games": 12,
+    "pass_cmp": 217,
+    "pass_att": 347,
+    "pass_cmp_pct": 62.5,
+    "pass_yds": 3056,
+    "pass_td": 24,
+    "pass_td_pct": 6.9,
+    "pass_int": 9,
+    "pass_int_pct": 2.6,
+    "pass_yds_per_att": 8.8,
+    "pass_adj_yds_per_att": 9.02,
+    "pass_yds_per_cmp": 14.1,
+    "pass_yds_per_g": 254.7,
+    "pass_rating": 154.2
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Jacolby Criswell",
+   "pos": "QB",
+   "stats": {
+    "games": 4,
+    "pass_cmp": 13,
+    "pass_att": 21,
+    "pass_cmp_pct": 61.9,
+    "pass_yds": 179,
+    "pass_td": 1,
+    "pass_td_pct": 4.8,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 8.5,
+    "pass_adj_yds_per_att": 9.48,
+    "pass_yds_per_cmp": 13.8,
+    "pass_yds_per_g": 44.8,
+    "pass_rating": 149.2
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Drake Maye",
+   "pos": "QB",
+   "stats": {
+    "games": 4,
+    "pass_cmp": 7,
+    "pass_att": 10,
+    "pass_cmp_pct": 70,
+    "pass_yds": 89,
+    "pass_td": 1,
+    "pass_td_pct": 10,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 8.9,
+    "pass_adj_yds_per_att": 10.9,
+    "pass_yds_per_cmp": 12.7,
+    "pass_yds_per_g": 22.3,
+    "pass_rating": 177.8
+   }
+  }
+ ]
+}

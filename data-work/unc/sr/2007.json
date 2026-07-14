@@ -1,0 +1,89 @@
+{
+ "season": 2007,
+ "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+ "rows": [
+  {
+   "table": "passing_standard",
+   "name": "T.J. Yates",
+   "pos": "QB",
+   "stats": {
+    "games": 12,
+    "pass_cmp": 218,
+    "pass_att": 365,
+    "pass_cmp_pct": 59.7,
+    "pass_yds": 2655,
+    "pass_td": 14,
+    "pass_td_pct": 3.8,
+    "pass_int": 18,
+    "pass_int_pct": 4.9,
+    "pass_yds_per_att": 7.3,
+    "pass_adj_yds_per_att": 5.82,
+    "pass_yds_per_cmp": 12.2,
+    "pass_yds_per_g": 221.3,
+    "pass_rating": 123.6
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Bobby Rome",
+   "pos": "RB",
+   "stats": {
+    "games": 12,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_cmp_pct": 100,
+    "pass_yds": 50,
+    "pass_td": 1,
+    "pass_td_pct": 100,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 50,
+    "pass_adj_yds_per_att": 70,
+    "pass_yds_per_cmp": 50,
+    "pass_yds_per_g": 4.2,
+    "pass_rating": 850
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Cameron Sexton",
+   "pos": "QB",
+   "stats": {
+    "games": 1,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_cmp_pct": 100,
+    "pass_yds": 9,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 9,
+    "pass_adj_yds_per_att": 9,
+    "pass_yds_per_cmp": 9,
+    "pass_yds_per_g": 9,
+    "pass_rating": 175.6
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Joe Dailey",
+   "pos": "WR",
+   "stats": {
+    "games": 8,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_cmp_pct": 0,
+    "pass_yds": 0,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 1,
+    "pass_int_pct": 100,
+    "pass_yds_per_att": 0,
+    "pass_adj_yds_per_att": -45,
+    "pass_yds_per_g": 0,
+    "pass_rating": -200
+   }
+  }
+ ]
+}
