@@ -1173,46 +1173,6 @@
    }
   },
   {
-   "name": "J. Gouveia-Winslow",
-   "year": 2009,
-   "stats": {
-    "tackles": 3,
-    "tfl": 1
-   }
-  },
-  {
-   "name": "J. Gouveia-Winslow",
-   "year": 2010,
-   "stats": {
-    "tackles": 41,
-    "tfl": 1,
-    "defInt": 2,
-    "pbu": 1,
-    "ff": 2
-   }
-  },
-  {
-   "name": "J. Gouveia-Winslow",
-   "year": 2011,
-   "stats": {
-    "tackles": 9,
-    "tfl": 1,
-    "sacks": 0.5,
-    "defInt": 1,
-    "pbu": 1
-   }
-  },
-  {
-   "name": "J. Gouveia-Winslow",
-   "year": 2012,
-   "stats": {
-    "rushYds": 8,
-    "tackles": 28,
-    "tfl": 1.5,
-    "ff": 1
-   }
-  },
-  {
    "name": "Ron Cooper",
    "year": 2010,
    "stats": {
@@ -1223,42 +1183,6 @@
    "name": "Scott Demler",
    "year": 2010,
    "stats": {
-    "pbu": 1
-   }
-  },
-  {
-   "name": "Derek Di Nardo",
-   "year": 2011,
-   "stats": {
-    "tackles": 2,
-    "defInt": 1
-   }
-  },
-  {
-   "name": "Derek Di Nardo",
-   "year": 2012,
-   "stats": {
-    "tackles": 1
-   }
-  },
-  {
-   "name": "Derek Di Nardo",
-   "year": 2013,
-   "stats": {
-    "tackles": 9,
-    "tfl": 0.5,
-    "ff": 1
-   }
-  },
-  {
-   "name": "Derek Di Nardo",
-   "year": 2014,
-   "stats": {
-    "rushYds": 30,
-    "tackles": 30,
-    "tfl": 5,
-    "sacks": 3,
-    "defInt": 1,
     "pbu": 1
    }
   },
@@ -1336,89 +1260,11 @@
    }
   },
   {
-   "name": "Drake De Iuliis",
-   "year": 2017,
-   "stats": {
-    "tackles": 1
-   }
-  },
-  {
-   "name": "Drake De Iuliis",
-   "year": 2020,
-   "stats": {
-    "rec": 4,
-    "recYds": 30
-   }
-  },
-  {
-   "name": "Drake De Iuliis",
-   "year": 2021,
-   "stats": {
-    "rec": 5,
-    "recYds": 76,
-    "recTD": 1
-   }
-  },
-  {
-   "name": "Drake De Iuliis",
-   "year": 2022,
-   "stats": {
-    "rec": 3,
-    "recYds": 14,
-    "tackles": 1
-   }
-  },
-  {
-   "name": "Emmanuel Belmar",
-   "year": 2017,
-   "stats": {
-    "tackles": 4,
-    "tfl": 1
-   }
-  },
-  {
-   "name": "Emmanuel Belmar",
-   "year": 2018,
-   "stats": {
-    "tackles": 29,
-    "tfl": 4,
-    "sacks": 2,
-    "ff": 1
-   }
-  },
-  {
-   "name": "Emmanuel Belmar",
-   "year": 2019,
-   "stats": {
-    "tackles": 39,
-    "tfl": 5.5,
-    "sacks": 4
-   }
-  },
-  {
-   "name": "Emmanuel Belmar",
-   "year": 2020,
-   "stats": {
-    "tackles": 9,
-    "tfl": 3.5,
-    "sacks": 3
-   }
-  },
-  {
    "name": "Hendon Hooker",
    "year": 2017,
    "stats": {
     "rushYds": 0,
     "rushTD": 0
-   }
-  },
-  {
-   "name": "Sam Denmark",
-   "year": 2017,
-   "stats": {
-    "rec": 2,
-    "recYds": 28,
-    "recTD": 1
    }
   },
   {
@@ -1476,26 +1322,6 @@
    "stats": {
     "rec": 1,
     "recYds": 8
-   }
-  },
-  {
-   "name": "Antwaun Powell-Ryland",
-   "year": 2023,
-   "stats": {
-    "tackles": 40,
-    "tfl": 14.5,
-    "sacks": 9.5,
-    "ff": 3
-   }
-  },
-  {
-   "name": "Antwaun Powell-Ryland",
-   "year": 2024,
-   "stats": {
-    "tackles": 43,
-    "tfl": 19,
-    "sacks": 16,
-    "ff": 3
    }
   },
   {
@@ -1562,17 +1388,6 @@
  ],
  "holes": [
   {
-   "srName": "ron moody",
-   "year": 2001,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 31,
-    "recTD": 0
-   }
-  },
-  {
    "srName": "vinnie burns",
    "year": 2001,
    "stats": {
@@ -1584,58 +1399,6 @@
     "rec": 0,
     "recYds": 0,
     "recTD": 0
-   }
-  },
-  {
-   "srName": "_ goff",
-   "year": 2003,
-   "stats": {
-    "passYds": 31,
-    "passTD": 0,
-    "passInt": 0
-   }
-  },
-  {
-   "srName": "jeron gouveia-winslow",
-   "year": 2010,
-   "stats": {
-    "tackles": 41,
-    "tfl": 1,
-    "sacks": 0,
-    "defInt": 2,
-    "ff": 2
-   }
-  },
-  {
-   "srName": "jeron gouveia-winslow",
-   "year": 2012,
-   "stats": {
-    "rushYds": 8,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0,
-    "tackles": 28,
-    "tfl": 2,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 1
-   }
-  },
-  {
-   "srName": "derek dinardo",
-   "year": 2014,
-   "stats": {
-    "rushYds": 30,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0,
-    "tackles": 30,
-    "tfl": 5,
-    "sacks": 3,
-    "defInt": 1,
-    "ff": 0
    }
   },
   {
@@ -1656,83 +1419,6 @@
     "defInt": 0,
     "ff": 0
    }
-  },
-  {
-   "srName": "samuel denmark",
-   "year": 2017,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 2,
-    "recYds": 28,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "emmanual belmar",
-   "year": 2018,
-   "stats": {
-    "tackles": 29,
-    "tfl": 4,
-    "sacks": 2,
-    "defInt": 0,
-    "ff": 1
-   }
-  },
-  {
-   "srName": "emmanual belmar",
-   "year": 2019,
-   "stats": {
-    "tackles": 39,
-    "tfl": 6,
-    "sacks": 4,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "drake deiuliis",
-   "year": 2020,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 4,
-    "recYds": 30,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "drake deiuliis",
-   "year": 2021,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 5,
-    "recYds": 76,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "antwuan powell",
-   "year": 2023,
-   "stats": {
-    "tackles": 40,
-    "tfl": 15,
-    "sacks": 9.5,
-    "defInt": 0,
-    "ff": 3
-   }
-  },
-  {
-   "srName": "antwuan powell",
-   "year": 2024,
-   "stats": {
-    "tackles": 43,
-    "tfl": 19,
-    "sacks": 16,
-    "defInt": 0,
-    "ff": 3
-   }
   }
  ],
  "positions": [
@@ -1743,7 +1429,9 @@
    "wmtVotes": {
     "DL": 2
    },
-   "srDefVotes": {},
+   "srDefVotes": {
+    "DL": 2
+   },
    "srOffVotes": {}
   },
   {
@@ -2962,7 +2650,10 @@
    "wmtVotes": {
     "DL": 4
    },
-   "srDefVotes": {},
+   "srDefVotes": {
+    "DE": 1,
+    "DL": 3
+   },
    "srOffVotes": {}
   },
   {
@@ -3272,7 +2963,9 @@
    "span": "2009-2012",
    "composite": 17.1,
    "wmtVotes": {},
-   "srDefVotes": {},
+   "srDefVotes": {
+    "LB": 4
+   },
    "srOffVotes": {}
   },
   {
@@ -3588,7 +3281,10 @@
    "wmtVotes": {
     "DB": 4
    },
-   "srDefVotes": {},
+   "srDefVotes": {
+    "DB": 2,
+    "LB": 2
+   },
    "srOffVotes": {}
   },
   {
@@ -4460,8 +4156,8 @@
    "wmtVotes": {},
    "srDefVotes": {},
    "srOffVotes": {
-    "TE": 1,
-    "WR": 1
+    "WR": 3,
+    "TE": 1
    }
   },
   {

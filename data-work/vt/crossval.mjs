@@ -34,6 +34,20 @@ const normName = (s) =>
     .replace(/\s+/g, ' ')
     .trim()
 
+// SR name variant → OUR merged key (cume/WMT name space). Verified pairs —
+// same human, same seasons; SR spells/splits differently.
+const SR_RENAME = {
+  'jeron gouveia-winslow': 'j gouveia-winslow',
+  'derek dinardo': 'derek di nardo',
+  'antwuan powell': 'antwaun powell-ryland', // added -Ryland mid-career
+  'emmanual belmar': 'emmanuel belmar', // SR misspelling
+  'drake deiuliis': 'drake de iuliis',
+  'samuel denmark': 'sam denmark',
+  'ron moody': 'ronald moody',
+  '_ goff': 'lance goff', // SR data glitch drops the first name
+}
+const srKey = (s) => SR_RENAME[normName(s)] ?? normName(s)
+
 // SR table → FbStats mapping
 const SR_OFF = {
   pass_yds: 'passYds',
@@ -59,7 +73,7 @@ for (let y = 1994; y <= 2025; y++) {
   if (!existsSync(f)) continue
   const d = JSON.parse(readFileSync(f))
   for (const r of d.rows) {
-    const key = normName(r.name)
+    const key = srKey(r.name)
     if (!srBy.has(key)) srBy.set(key, new Map())
     if (!srBy.get(key).has(y))
       srBy.get(key).set(y, { stats: {}, offPos: [], defPos: [], src: d.source })

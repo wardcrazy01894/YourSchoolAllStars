@@ -1,0 +1,313 @@
+[
+{
+"name": "Antoine Hopkins",
+"years": "2009-2012",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2010,
+"tackles": 45,
+"tfl": 6.5,
+"sacks": 2,
+"pbu": 1
+}
+},
+{
+"name": "Vinny Mihota",
+"years": "2015-2018",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2016,
+"tackles": 43,
+"tfl": 7,
+"sacks": 2,
+"pbu": 3
+}
+},
+{
+"name": "Danny Wheel",
+"years": "1995-1997",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1997,
+"tackles": 61,
+"tfl": 3,
+"sacks": 2
+}
+},
+{
+"name": "Jason Lallis",
+"years": "2001-2004",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2002,
+"tackles": 48,
+"tfl": 4,
+"sacks": 2,
+"ff": 1
+}
+},
+{
+"name": "Khalil Ladler",
+"years": "2017-2019",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2018,
+"tackles": 66,
+"tfl": 4.5,
+"sacks": 1,
+"pbu": 3,
+"ff": 2
+}
+},
+{
+"name": "Ben Bell",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 40,
+"tfl": 5.5,
+"sacks": 2.5
+}
+},
+{
+"name": "Lamar Cobb",
+"years": "1999-2002",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2000,
+"tackles": 47,
+"tfl": 5,
+"sacks": 1,
+"pbu": 2,
+"ff": 1
+}
+},
+{
+"name": "Donovan Riley",
+"years": "2012-2015",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2014,
+"tackles": 53,
+"tfl": 1,
+"sacks": 1,
+"defInt": 2,
+"pbu": 2,
+"ff": 1
+}
+},
+{
+"name": "Roland Minor",
+"years": "2004-2006",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2005,
+"tackles": 33,
+"tfl": 0.5,
+"defInt": 3,
+"pbu": 3
+}
+},
+{
+"name": "Marcus Gildersleeve",
+"years": "1996-1998",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1997,
+"rec": 17,
+"recYds": 286,
+"recTD": 3
+}
+},
+{
+"name": "Dorian Porch",
+"years": "2006-2009",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2008,
+"tackles": 48,
+"tfl": 4,
+"sacks": 1,
+"defInt": 1,
+"pbu": 4
+}
+},
+{
+"name": "Brion Murray",
+"years": "2019-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2020,
+"tackles": 36,
+"tfl": 1,
+"defInt": 2,
+"pbu": 4
+}
+},
+{
+"name": "Cris Hill",
+"years": "2008-2011",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2011,
+"tackles": 34,
+"tfl": 1,
+"defInt": 1,
+"pbu": 7
+}
+},
+{
+"name": "John Graves",
+"years": "2007-2010",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2010,
+"tackles": 37,
+"tfl": 5,
+"sacks": 1.5,
+"pbu": 1
+}
+},
+{
+"name": "C.J. McCray",
+"years": "2021-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2023,
+"tackles": 21,
+"tfl": 3.5,
+"sacks": 3.5
+}
+},
+{
+"name": "Elhadj Fall",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 25,
+"tfl": 3.5,
+"sacks": 2.5,
+"ff": 1
+}
+},
+{
+"name": "Lawrence Lewis",
+"years": "1994-1995",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 32,
+"tfl": 3,
+"sacks": 2,
+"pbu": 2,
+"ff": 1
+}
+},
+{
+"name": "Michael Cole",
+"years": "2012-2012",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2012,
+"tackles": 43,
+"tfl": 1,
+"defInt": 2,
+"pbu": 1
+}
+},
+{
+"name": "Demetrius Taylor",
+"years": "2006-2009",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2009,
+"tackles": 31,
+"tfl": 5,
+"sacks": 1.5
+}
+},
+{
+"name": "Kelvin Gilliam Jr.",
+"years": "2024-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 35,
+"tfl": 3,
+"sacks": 1,
+"ff": 1
+}
+},
+{
+"name": "Dan Wilkinson",
+"years": "1999-2001",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2001,
+"tackles": 43,
+"tfl": 2,
+"sacks": 1
+}
+},
+{
+"name": "Derrius Monroe",
+"years": "1998-2001",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2001,
+"tackles": 44,
+"tfl": 3,
+"sacks": 1
+}
+},
+{
+"name": "Keyshawn Burgos",
+"years": "2022-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 33,
+"tfl": 2,
+"sacks": 0.5
+}
+},
+{
+"name": "Armani Chatman",
+"years": "2019-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2020,
+"tackles": 32,
+"tfl": 1,
+"sacks": 1,
+"pbu": 6
+}
+},
+{
+"name": "Billy Hardee",
+"years": "2000-2002",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2002,
+"tackles": 60,
+"tfl": 3,
+"pbu": 2
+}
+},
+{
+"name": "Larry Austin",
+"years": "1998-2001",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1999,
+"tackles": 38,
+"tfl": 1,
+"sacks": 1,
+"defInt": 1,
+"pbu": 2,
+"ff": 1
+}
+}
+]

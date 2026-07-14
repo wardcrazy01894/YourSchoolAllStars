@@ -1,0 +1,265 @@
+[
+{
+"name": "Emmett Laws",
+"years": "2024-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 12,
+"tfl": 1,
+"sacks": 1
+}
+},
+{
+"name": "Isaiah Hamlette",
+"years": "2011-2011",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2011,
+"tackles": 7,
+"tfl": 2,
+"sacks": 1
+}
+},
+{
+"name": "Wayne Ward",
+"years": "1998-2001",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2000,
+"rushYds": 82,
+"rec": 4,
+"recYds": 54,
+"tackles": 26
+}
+},
+{
+"name": "Mark Costen",
+"years": "2001-2002",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2001,
+"tackles": 11,
+"tfl": 2,
+"sacks": 0.5
+}
+},
+{
+"name": "Isaac Montgomery",
+"years": "2003-2003",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2003,
+"tackles": 14,
+"tfl": 1,
+"ff": 1
+}
+},
+{
+"name": "Tyree Rodgers",
+"years": "2018-2019",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2018,
+"tackles": 18,
+"tfl": 1,
+"ff": 1
+}
+},
+{
+"name": "Deon Provitt",
+"years": "2000-2001",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2001,
+"tackles": 22,
+"pbu": 1
+}
+},
+{
+"name": "Zion Debose",
+"years": "2018-2020",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2020,
+"tackles": 6,
+"tfl": 1,
+"sacks": 1
+}
+},
+{
+"name": "Ny'Quee Hawkins",
+"years": "2020-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2022,
+"tackles": 25,
+"tfl": 0.5
+}
+},
+{
+"name": "DJ Harvey",
+"years": "2021-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2022,
+"tackles": 6,
+"tfl": 1,
+"pbu": 1,
+"ff": 1
+}
+},
+{
+"name": "Sean Ruffing",
+"years": "1997-1997",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1997,
+"tackles": 11,
+"tfl": 2
+}
+},
+{
+"name": "Dwight Tucker",
+"years": "2009-2011",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2010,
+"tackles": 4,
+"tfl": 1,
+"sacks": 1
+}
+},
+{
+"name": "James Jennette",
+"years": "2023-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 9,
+"tfl": 1,
+"sacks": 0.5,
+"pbu": 1
+}
+},
+{
+"name": "Steven Hunt",
+"years": "1996-1999",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 15,
+"tfl": 1,
+"pbu": 1
+}
+},
+{
+"name": "Kwamaine Battle",
+"years": "2009-2010",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2009,
+"tackles": 7,
+"tfl": 1.5,
+"sacks": 0.5
+}
+},
+{
+"name": "Donaldven Manning",
+"years": "2012-2012",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2012,
+"tackles": 4,
+"defInt": 1
+}
+},
+{
+"name": "Tyron Edmond",
+"years": "1995-1998",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1997,
+"tackles": 12
+}
+},
+{
+"name": "Philip Hicks",
+"years": "1999-1999",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 12,
+"ff": 1
+}
+},
+{
+"name": "Vernon Dozier",
+"years": "1994-1994",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1994,
+"tackles": 18
+}
+},
+{
+"name": "Jimmy E. Williams",
+"years": "2002-2002",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2002,
+"tackles": 18
+}
+},
+{
+"name": "Wiley Brown",
+"years": "2010-2011",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2010,
+"tackles": 13,
+"ff": 1
+}
+},
+{
+"name": "Malachi Madison",
+"years": "2022-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 1,
+"tfl": 1,
+"sacks": 1
+}
+},
+{
+"name": "Nadir Thompson",
+"years": "2019-2021",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2020,
+"tackles": 7,
+"tfl": 1,
+"ff": 1
+}
+},
+{
+"name": "Aycen Stevens",
+"years": "2024-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 14,
+"tfl": 0.5
+}
+},
+{
+"name": "Jason Murphy",
+"years": "2002-2002",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2002,
+"tackles": 15
+}
+}
+]
