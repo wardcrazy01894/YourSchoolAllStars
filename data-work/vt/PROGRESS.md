@@ -89,12 +89,21 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
       fetched + parsed into `data-work/vt/gap/<season>.json` (48–62 rows/yr,
       checksums green; see the SOLVED section above). Rosters for positions
       2002–2012 in `rosters/`; 1994–2001 positions resolved at merge.
-- [ ] **Stage 3 — merge + curate**: merge persons across years (beware
-      name-twin classes from Pitt lessons: tenure span ≤5yr guard, no
-      cross-decade merges), position resolution (defense-table pos beats
-      offense-table guesses), SR cross-validation of the WMT era (Sidearm-era
-      bio-mislink class may not apply to WMT, but validate anyway), QB rushing
-      lines on every QB season, id de-collision, redshirtYears gap declaration.
+- [~] **Stage 3 — merge + curate** (IN PROGRESS): `merge.mjs` run →
+      `merged.json`: 674 persons (58 OL/K/P/LS-only excluded, 0 adjacency
+      twin-splits, **355 position-unresolved** — coarse DL/DB codes plus all
+      1994–2001-only players; the WMT roster join covers 2002+). Remaining
+      in this stage:
+      1. **SR sweep** (`web.archive.org/web/2024/https://www.sports-reference.com/cfb/schools/virginia-tech/<year>.html`):
+         per-season tables → (a) positions for the unresolved set — defense-
+         table pos authoritative, never let offense-table pos vote on
+         defenders (Pitt lesson); (b) phantom/hole/delta cross-validation of
+         BOTH eras (known suspect: Burmeister 2021 rec:1/recTD:2).
+      2. Composite-floor trim (mirror TERMS in scripts/fetch-football-mgoblue.mjs
+         / src/lib/football-rating.ts), drop low-confidence marginal players.
+      3. QB rushing lines on every QB season; id de-collision
+         (`-<firstYear>` suffix); interior gaps → redshirtYears; per-window
+         Hall's-condition coverage check.
 - [ ] **Stage 4 — honors**: programmatic wikitext derivation + SR award pages;
       attach per-season; re-verify counts after any rebuild.
 - [ ] **Stage 5 — ship**: build `src/data/vt-football.json`, wire
@@ -106,17 +115,16 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
 
 ## Next actions
 
-1. **Stage 3 merge**: write `data-work/vt/merge.mjs` — merge gap/ + wmt/ rows
-   into persons across 1994–2025. The overlap year is none (gap ends 2012,
-   wmt starts 2013) but PEOPLE span the boundary (e.g. Logan Thomas
-   2011–2013) — merge by normalized name with the tenure-span (≤5yr) and
-   name-twin guards from the Pitt lessons. Positions: WMT position_code
-   (2013+ stats rows and 2002–2012 rosters, joined by personId where
-   possible, else name); 1994–2001 from SR rosters/honors research with
-   citations, low-confidence marginal players dropped.
-2. SR cross-validation sweep (esp. the WMT era; known suspect: Burmeister
-   2021 rec line) + composite-floor trim + id de-collision + redshirtYears.
-3. Honors (stage 4), then ship (stage 5).
+1. Write `data-work/vt/fetch-sr.mjs`: download SR VT season pages 1994–2025
+   via Wayback (`web.archive.org/web/2024/https://www.sports-reference.com/cfb/schools/virginia-tech/<year>.html`
+   — direct SR 403s scripted fetches) into `sr-html/<year>.html`. Note SR
+   pre-redesign snapshots use different table ids (`passing`,
+   `rushing_and_receiving`, positional columns) — see Pitt lesson.
+2. Write `parse-sr.mjs` + `crossval.mjs`: extract SR rows (name, pos, key
+   stats), resolve the 355 unresolved positions (defense-table pos beats
+   offense-table), and emit a phantom/hole/delta report vs merged.json.
+3. Repair deltas (SR-cited rows), trim below composite floor, finalize
+   (QB rush lines, ids, redshirtYears), then honors + ship.
 
 ## Decisions log
 
