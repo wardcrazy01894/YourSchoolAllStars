@@ -523,9 +523,25 @@ committed so the work is session-restartable). Source map:
   seasons (2002–03) were at free safety — so his CB rating leans on
   safety-year tackle totals. Flagged from the adversarial review; revisit if
   per-season positions ever land in the schema.
-- **Honors**: not yet attached (`honors: []` everywhere) — same staging as
-  Michigan (stats PR first, honors follow-up). Wikipedia per-year All-Big
-  East/All-ACC coverage is too spotty for VT (only ~half the years exist);
-  the follow-up should lean on the archived official media-guide PDFs
-  (`hokiesports.com/football/<year>MG/…`) + `allamericans.html` +
-  `awards.html` Wayback pages (see `data-work/vt/PROGRESS.md`).
+- **Honors** (218 per-season strings) are derived **programmatically from the
+  sources**, never a hand ledger:
+  - **1994–2015 — the OFFICIAL site** (Wayback): `awards.html` gives the
+    per-year all-conference teams (Big East through 2003, ACC from 2004;
+    where two selectors are listed — ACSMA/media and coaches — the **highest
+    team level wins**) plus the conference individual awards (POY / Offensive
+    / Defensive / Special Teams / Rookie). `allamericans.html` gives the
+    All-Americans, and its own **C/U legend** supplies Consensus /
+    Unanimous. Only **first-team** All-America selections are recorded (the
+    same convention the other schools use), and its academic-AA table is
+    excluded.
+  - **2016–2025 — Wikipedia**: per-year All-ACC articles (2017 and 2020–23
+    live under the long-form "All-Atlantic Coast Conference" title), parsed
+    with a **rowspan-aware wikitable reader** — the naive "cell before the
+    school" read grabs a class column ("So."/"Sr.") in the years that have
+    one. Plus the national hardware (Corey Moore's 1999 Lombardi + Nagurski).
+    Wikipedia lists no honorable mentions, so HM exists only through 2015.
+  - **Verified**: `verify-honors.mjs` re-derives every shipped string from the
+    ledgers and diffs the dataset — **0 phantoms, 0 omissions**; a sampled
+    independent fact-check of 14 marquee honors came back 14/14 confirmed.
+    Unmatched ledger entries are all kickers/punters/OL (positions the game
+    doesn't carry) or players trimmed below the composite floor.

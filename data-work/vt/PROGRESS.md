@@ -104,15 +104,23 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
       3. QB rushing lines on every QB season; id de-collision
          (`-<firstYear>` suffix); interior gaps → redshirtYears; per-window
          Hall's-condition coverage check.
-- [ ] **Stage 4 — honors** (FOLLOW-UP PR, not blocking): shipped with
-      `honors: []` per the Michigan precedent (stats PR #50 → honors PR #52).
-      Wikipedia per-year All-Big East/All-ACC articles are too spotty for VT
-      (saved ones are in `honors-wiki/`; 1995 + 2016-2025 only). The follow-up
-      should use the Wayback-archived OFFICIAL sources instead:
-      `hokiesports.com/football/allamericans.html`, `awards.html`, and the
-      per-year media-guide PDFs (`/football/<year>MG/records.pdf` etc.,
-      2002MG-2008MG confirmed archived) + SR award pages per the honors
-      memory. Then `attach-honors` + re-verify counts.
+- [x] **Stage 4 — honors (DONE)**: 218 per-season honors, derived
+      programmatically. `parse-honors-official.mjs` reads the Wayback-archived
+      OFFICIAL pages saved in `honors-src/` (awards.html → all-conference by
+      year, highest team level across selectors, + conference individual
+      awards; allamericans.html → first-team AAs with its own C/U legend for
+      Consensus/Unanimous). `parse-honors-wiki.mjs` fills 2016–2025 All-ACC
+      (rowspan-aware wikitable parser — a class column breaks the naive read)
+      and the national hardware. `attach-honors.mjs --write` lands them on the
+      exact season won; `verify-honors.mjs` re-derives from the ledgers and
+      diffs the shipped file (0 phantoms, 0 omissions; gates the PR).
+      Independent fact-check of 14 marquee honors: 14/14 confirmed.
+      KNOWN LIMITS (by source, not by slip): no honorable mentions after 2015
+      (Wikipedia doesn't list them); only first-team AAs are recorded (project
+      convention — VT's post-2015 AAs are all 2nd/3rd team anyway); Heisman
+      finalists aren't honors (Vick's 1999 3rd-place finish has no line, same
+      as every other school).
+
 - [x] **Stage 5 — ship (stats)**: `build-dataset.mjs` → 398 players →
       `src/data/vt-football.json`; wired into `src/data/index.ts` +
       `src/schools.ts`; all guard tests green (447 total); browser-verified
@@ -125,9 +133,15 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
 
 ## Next actions
 
-**The stats dataset is SHIPPED (PR on branch data/vt-football).** The only
-remaining work is Stage 4 (honors follow-up PR) — see the stage list above
-for sources. Everything below this line is the historical worklist from the
+**VT FOOTBALL IS COMPLETE.** Stats shipped (PR #58, merged) and honors
+shipped (this branch): 404 players, 1994–2025, 218 per-season honors, all
+sourced and programmatically verified. Nothing is outstanding for VT.
+
+If you extend this work: the pipeline here is the reusable recipe for the
+NEXT school (UNC is the last live school with no football dataset) — the WMT
+API path, the Wayback official-cume path, the SR cross-validation sweep, the
+cited-position research pass, and the honors derivation + verify gate all
+generalize. Everything below this line is the historical worklist from the
 curation pass, kept for provenance.
 
 ## Historical: crossval worklist (resolved)
