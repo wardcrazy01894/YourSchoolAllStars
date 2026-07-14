@@ -116,6 +116,38 @@ describe('fbEvaluate', () => {
   })
 })
 
+describe('per-player power-5 (Full Football)', () => {
+  it('a resolver dings ONLY the flagged player, never their teammates', () => {
+    const s = fullRoster()
+    const allP5 = fbEvaluate(s, true)
+    const onlyQbDinged = fbEvaluate(s, (p) => p.id !== 'QB-a')
+    expect(onlyQbDinged.ratingBySlot['QB']).toBeLessThan(
+      allP5.ratingBySlot['QB']!,
+    )
+    for (const slot of FB_SLOTS.map((x) => x.id).filter((id) => id !== 'QB')) {
+      expect(onlyQbDinged.ratingBySlot[slot]).toBe(allP5.ratingBySlot[slot])
+    }
+    expect(onlyQbDinged.strength).toBeLessThan(allP5.strength)
+  })
+
+  it('a boolean spec still applies roster-wide (single-school games)', () => {
+    const s = fullRoster()
+    const viaBool = fbEvaluate(s, false)
+    const viaResolver = fbEvaluate(s, () => false)
+    expect(viaResolver.ratingBySlot).toEqual(viaBool.ratingBySlot)
+    expect(viaResolver.wins).toBe(viaBool.wins)
+  })
+
+  it('fbSavedDailyFrom accepts a resolver and persists the resolved record', () => {
+    const s = fullRoster()
+    const saved = fbSavedDailyFrom(s, '2026-06-27', (p) => p.id !== 'QB-a')
+    expect(saved.wins).toBe(fbEvaluate(s, (p) => p.id !== 'QB-a').wins)
+    expect(saved.wins).toBeLessThanOrEqual(
+      fbSavedDailyFrom(s, '2026-06-27', true).wins,
+    )
+  })
+})
+
 describe('save / restore round-trip', () => {
   it('serializes a completed draft into the persisted daily shape', () => {
     const saved = fbSavedDailyFrom(fullRoster(), '2026-06-27', true)

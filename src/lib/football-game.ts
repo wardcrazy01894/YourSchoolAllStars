@@ -207,15 +207,33 @@ export function respin(s: FbDraftState): FbDraftState {
   }
 }
 
+/**
+ * Resolve the power-5 flag to use when rating a given player. A plain `boolean`
+ * means "every player on this roster shares the school's conference strength"
+ * (the single-school games); a function lets a MIXED roster (Full Football)
+ * resolve the haircut PER PLAYER from that player's own school — so a
+ * non-power-5 starter is dinged without dragging their power-5 teammates.
+ * Football's twin of basketball's `Power5Spec` (result.ts).
+ */
+export type FbPower5Spec = boolean | ((player: FbPlayer) => boolean)
+
+/** Normalize a {@link FbPower5Spec} to a per-player resolver. */
+export function fbPower5Resolver(
+  spec: FbPower5Spec,
+): (player: FbPlayer) => boolean {
+  return typeof spec === 'function' ? spec : () => spec
+}
+
 /** One RatedFbStarter per filled slot (in pick order), each rated by the best
  *  season INSIDE the era they were drafted from — never an out-of-era peak. */
 export function ratedStarters(
   s: FbDraftState,
-  power5: boolean,
+  power5: FbPower5Spec,
 ): RatedFbStarter[] {
+  const p5 = fbPower5Resolver(power5)
   return s.picks.map((pk) => ({
     position: pk.player.position,
-    rating: fbPlayerRating(pk.player, pk.window, power5),
+    rating: fbPlayerRating(pk.player, pk.window, p5(pk.player)),
   }))
 }
 
@@ -227,7 +245,10 @@ export interface FbDraftResult {
 }
 
 /** Projected record out of 16 for the drafted roster. */
-export function fbDraftResult(s: FbDraftState, power5: boolean): FbDraftResult {
+export function fbDraftResult(
+  s: FbDraftState,
+  power5: FbPower5Spec,
+): FbDraftResult {
   const wins = fbProjectedWins(ratedStarters(s, power5))
   return {
     wins,
