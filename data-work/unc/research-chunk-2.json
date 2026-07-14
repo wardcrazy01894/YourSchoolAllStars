@@ -1,0 +1,196 @@
+[
+{
+"name": "Jared McAdoo",
+"years": "2010-2010",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2010,
+"tfl": 2,
+"sacks": 1.5,
+"tackles": 19
+}
+},
+{
+"name": "Travis Shaw",
+"years": "2022-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 26,
+"tfl": 4,
+"pbu": 1
+}
+},
+{
+"name": "Da'Norris Searcey",
+"years": "2008-2008",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2008,
+"tfl": 2,
+"sacks": 2,
+"pbu": 3,
+"tackles": 25
+}
+},
+{
+"name": "Leroy Jackson",
+"years": "2024-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 36,
+"pbu": 1
+}
+},
+{
+"name": "Mywan Jackson",
+"years": "2009-2010",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2010,
+"tfl": 1,
+"pbu": 3,
+"tackles": 20
+}
+},
+{
+"name": "Tyler Powell",
+"years": "2014-2015",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2015,
+"tfl": 1,
+"sacks": 0.5,
+"tackles": 23
+}
+},
+{
+"name": "Peter Mangum",
+"years": "2010-2012",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2012,
+"tfl": 2,
+"tackles": 30
+}
+},
+{
+"name": "Lejond Cavazos",
+"years": "2022-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2022,
+"tackles": 18,
+"tfl": 1,
+"pbu": 2
+}
+},
+{
+"name": "Xach Gill",
+"years": "2018-2020",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2019,
+"tackles": 10,
+"tfl": 1,
+"sacks": 1
+}
+},
+{
+"name": "Jacolbe Cowan",
+"years": "2022-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 18,
+"tfl": 1.5
+}
+},
+{
+"name": "Tayon Holloway",
+"years": "2023-2023",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2023,
+"tackles": 19,
+"tfl": 1.5,
+"pbu": 1
+}
+},
+{
+"name": "Joe Dailey",
+"years": "2006-2006",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2006,
+"rushYds": 61,
+"rushTD": 1,
+"passYds": 1316,
+"passTD": 7,
+"passInt": 10,
+"tackles": 1
+}
+},
+{
+"name": "Coleman Bryson",
+"years": "2025-2025",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2025,
+"tackles": 17,
+"pbu": 2
+}
+},
+{
+"name": "Malcolm Ziglar",
+"years": "2024-2025",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2024,
+"tackles": 7
+}
+},
+{
+"name": "Raymond Vohasek",
+"years": "2021-2022",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2022,
+"tackles": 14,
+"tfl": 1,
+"pbu": 2
+}
+},
+{
+"name": "Jalon Thompson",
+"years": "2025-2025",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2025,
+"tackles": 9,
+"pbu": 2
+}
+},
+{
+"name": "Obi Egbuna",
+"years": "2019-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2020,
+"tackles": 8,
+"pbu": 2
+}
+},
+{
+"name": "Xavier Lewis",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 8,
+"tfl": 0.5,
+"sacks": 0.5
+}
+}
+]

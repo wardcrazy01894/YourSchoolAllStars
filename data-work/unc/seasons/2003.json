@@ -1,0 +1,607 @@
+{
+ "year": 2003,
+ "from": "official-cume",
+ "players": [
+  {
+   "name": "Adarius Bowman",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 10,
+    "recYds": 181,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Alden Blizzard",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 16,
+    "tfl": 4,
+    "sacks": 4,
+    "pbu": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Bobby Blizzard",
+   "position": "Tight End",
+   "stats": {
+    "rec": 20,
+    "recYds": 161,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Brandon Russell",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 1,
+    "rec": 20,
+    "recYds": 242,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Brian Chacos",
+   "position": "Offensive Tackle",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Brian Rackley",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "C.J. Stephens",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": -26,
+    "passYds": 186,
+    "passTD": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "C.J. Stephens",
+   "position": "Quarterback",
+   "stats": {
+    "tackles": 7,
+    "tfl": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Cedrick Holt",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 15,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Chad Scott",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 182,
+    "rushTD": 3,
+    "rec": 17,
+    "recYds": 243,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Chase Page",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 47,
+    "tfl": 5,
+    "sacks": 1.5
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Chris Curry",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 9
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Chris Hawkins",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 30,
+    "tfl": 2,
+    "pbu": 8
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Clarence Gaddy",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Clay Roberson",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "D.J. Walker",
+   "position": "Free Safety",
+   "stats": {
+    "tackles": 26,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Danny Rumley",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 3,
+    "recYds": 55
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Darian Durant",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 396,
+    "rushTD": 6,
+    "passYds": 2551,
+    "passTD": 18,
+    "passInt": 10,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "David Wooldridge",
+   "position": "Placekicker/Punt",
+   "stats": {
+    "rushYds": 24,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Derrele Mitchell",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 17,
+    "recYds": 146,
+    "recTD": 2,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Derrele Mitchell",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 65,
+    "pbu": 8,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Derrick Johnson",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 27,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Devllen Bullard",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 45,
+    "tfl": 1.5,
+    "sacks": 0.5
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Dexter Reid",
+   "position": "Free Safety",
+   "stats": {
+    "tackles": 132,
+    "tfl": 3.5,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Doug Justice",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 44,
+    "tfl": 1.5,
+    "ff": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Fred Sparkman",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 19
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Greg Warren",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Isaac Mooring",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 22,
+    "tfl": 4.5,
+    "sacks": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Isaiah Thomas",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 32,
+    "tfl": 1,
+    "ff": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jacoby Watkins",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jacque Lewis",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 374,
+    "rushTD": 1,
+    "rec": 34,
+    "recYds": 391,
+    "recTD": 5,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "James Gibson",
+   "position": "Fullback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jarwarski Pollock",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 40,
+    "rec": 71,
+    "recYds": 745,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jason Brown",
+   "position": "Center",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jeff Longhany",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 50,
+    "tfl": 6.5,
+    "sacks": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jermicus Banks",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 16,
+    "tfl": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jesse Holley",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 12,
+    "recYds": 168,
+    "recTD": 2,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jocques Dumas",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 16,
+    "tfl": 3,
+    "sacks": 2,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Joe Kedra",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "John Dunn",
+   "position": "Tight End",
+   "stats": {
+    "rec": 3,
+    "recYds": 31,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jon Hamlett",
+   "position": "Tight End",
+   "stats": {
+    "rec": 11,
+    "recYds": 115,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Jonas Seawright",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 9,
+    "tfl": 0.5
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Justin Phillips",
+   "position": "Tight End",
+   "stats": {
+    "rec": 2,
+    "recYds": 28
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Kareen Taylor",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Larry Edwards",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 88,
+    "tfl": 5.5,
+    "sacks": 0.5,
+    "pbu": 2,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Madison Hedgecock",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 55,
+    "tfl": 6,
+    "sacks": 1.5,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Mahlon Carey",
+   "position": "Strong Safety",
+   "stats": {
+    "tackles": 96,
+    "tfl": 1,
+    "defInt": 2,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Mark McTamney",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Matt Baker",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": -11,
+    "passYds": 166,
+    "passTD": 1,
+    "passInt": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Melik Brown",
+   "position": "LB/DL",
+   "stats": {
+    "tackles": 20,
+    "tfl": 1.5,
+    "sacks": 0.5
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Michael Harris",
+   "position": "Strong Safety",
+   "stats": {
+    "tackles": 37,
+    "tfl": 0.5,
+    "sacks": 0.5,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Michael Waddell",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1,
+    "pbu": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Mickey Rice",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Ronnie McGill",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 654,
+    "rushTD": 7,
+    "passYds": 24,
+    "passTD": 1,
+    "rec": 7,
+    "recYds": 54,
+    "tackles": 3,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Skip Seagraves",
+   "position": "Offensive Tackle",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Tommy Davis",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 30,
+    "tfl": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Tommy Richardson",
+   "position": "Strong Safety",
+   "stats": {
+    "tackles": 4,
+    "tfl": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Topher Roberts",
+   "position": "Placekicker/Punt",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Victor Worsley",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 6,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Wallace Wright",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 17,
+    "recTD": 1,
+    "tackles": 22,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  },
+  {
+   "name": "Willie Parker",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 181,
+    "rec": 7,
+    "recYds": 28
+   },
+   "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html"
+  }
+ ]
+}

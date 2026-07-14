@@ -1,0 +1,550 @@
+{
+ "year": 2022,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "British Brooks",
+   "position": "Running Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Chris Collins",
+   "position": "Jack",
+   "stats": {
+    "tackles": 20,
+    "tfl": 0.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Antoine Green",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 43,
+    "recYds": 798,
+    "recTD": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Kamari Morales",
+   "position": "Tight End",
+   "stats": {
+    "rec": 29,
+    "recYds": 358,
+    "recTD": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Storm Duck",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 46,
+    "tfl": 1,
+    "defInt": 3,
+    "pbu": 9,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Giovanni Biggers",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 69,
+    "tfl": 1,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Obi Egbuna",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Drew Little",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Kevin Hester Jr.",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 49,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Jacolby Criswell",
+   "position": "QB",
+   "stats": {
+    "passYds": 9,
+    "passInt": 0,
+    "rushYds": 39,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "D.J. Jones",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 124,
+    "rushTD": 1,
+    "rec": 12,
+    "recYds": 102,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Elijah Green",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 558,
+    "rushTD": 8,
+    "rec": 17,
+    "recYds": 107,
+    "recTD": 1,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Josh Downs",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 94,
+    "recYds": 1029,
+    "recTD": 11,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Cam'Ron Kelly",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 49,
+    "tfl": 0.5,
+    "defInt": 1,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Tony Grimes",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 36,
+    "pbu": 7,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Cedric Gray",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 145,
+    "tfl": 12,
+    "sacks": 1,
+    "defInt": 2,
+    "pbu": 6,
+    "ff": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Jake Harkleroad",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Ben Kiernan",
+   "position": "Punter",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Drake Maye",
+   "position": "QB",
+   "stats": {
+    "passYds": 4321,
+    "passTD": 38,
+    "passInt": 7,
+    "rushYds": 698,
+    "rushTD": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Kaimon Rucker",
+   "position": "DE",
+   "stats": {
+    "tackles": 37,
+    "tfl": 7,
+    "sacks": 3.5,
+    "pbu": 1,
+    "ff": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "J.J. Jones",
+   "position": "WR",
+   "stats": {
+    "rec": 24,
+    "recYds": 434,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Caleb Hood",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 250,
+    "rushTD": 0,
+    "rec": 13,
+    "recYds": 119,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Power Echols",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 103,
+    "tfl": 5,
+    "sacks": 2,
+    "defInt": 1,
+    "pbu": 2,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Bryson Nesbit",
+   "position": "Tight End",
+   "stats": {
+    "rec": 35,
+    "recYds": 507,
+    "recTD": 4,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Justin Olson",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "John Copenhaver",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 4,
+    "rushTD": 0,
+    "rec": 15,
+    "recYds": 222,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Myles Murphy",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 29,
+    "tfl": 1.5,
+    "sacks": 1,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Raymond Vohasek",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 14,
+    "tfl": 1,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Don Chapman",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 32,
+    "pbu": 3,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Jahvaree Ritzie",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 48,
+    "tfl": 2,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Desmond Evans",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 25,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Raneiria 'Rara' Dillworth",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "DeAndre Boykins",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 67,
+    "tfl": 5.5,
+    "sacks": 2,
+    "defInt": 1,
+    "pbu": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Kedrick Bingley-Jones",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Dontavius Nash",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Keeshawn Silver",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Kobe Paysour",
+   "position": "WR",
+   "stats": {
+    "passInt": 0,
+    "rec": 29,
+    "recYds": 324,
+    "recTD": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "George Pettaway",
+   "position": "RB",
+   "stats": {
+    "rushYds": 93,
+    "rushTD": 2,
+    "rec": 5,
+    "recYds": 21
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Andre Greene Jr.",
+   "position": "TE",
+   "stats": {
+    "rec": 3,
+    "recYds": 26,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Omarion Hampton",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 401,
+    "rushTD": 6,
+    "rec": 6,
+    "recYds": 40,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Corey Gaynor",
+   "position": "Offensive Line",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Gavin Blackwell",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 18,
+    "recYds": 239,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Will Hardy",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 38,
+    "defInt": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Noah Taylor",
+   "position": "Jack",
+   "stats": {
+    "tackles": 28,
+    "tfl": 6,
+    "sacks": 3.5,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Lejond Cavazos",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Travis Shaw",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 18,
+    "tfl": 0.5,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Marcus Allen",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 16,
+    "tfl": 1,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Dontae Balfour",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Randy Caldwell",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 6,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Jacolbe Cowan",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 6,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Jalen Brooks",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Sebastian Cheeks",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Ladaeson DeAndre Hollins",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Noah Burnette",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  },
+  {
+   "name": "Malik McGowan",
+   "position": "Offensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2022"
+  }
+ ]
+}

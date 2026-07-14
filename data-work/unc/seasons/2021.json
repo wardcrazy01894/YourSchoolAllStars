@@ -1,0 +1,432 @@
+{
+ "year": 2021,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "Tomon Fox",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Beau Corrales",
+   "position": "Wide Receiver",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Tyrone Hopper",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "British Brooks",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 295,
+    "rushTD": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Garrett Walston",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 18,
+    "rushTD": 0,
+    "rec": 18,
+    "recYds": 184,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Trey Morrison",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Chris Collins",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Jahlil Taylor",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Jeremiah Gemmel",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Sam Howell",
+   "position": "QB",
+   "stats": {
+    "passYds": 3056,
+    "passTD": 24,
+    "passInt": 9,
+    "rushYds": 828,
+    "rushTD": 11
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Eugene Asante",
+   "position": "QB",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Antoine Green",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 31,
+    "recYds": 612,
+    "recTD": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Kamari Morales",
+   "position": "Tight End",
+   "stats": {
+    "rec": 24,
+    "recYds": 220,
+    "recTD": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Storm Duck",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Tomari Fox",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Giovanni Biggers",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Obi Egbuna",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Drew Little",
+   "position": "Deep Snapper",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Kevin Hester Jr.",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Jacolby Criswell",
+   "position": "QB",
+   "stats": {
+    "passYds": 179,
+    "passTD": 1,
+    "passInt": 0,
+    "rushYds": 68,
+    "rushTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "D.J. Jones",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 253,
+    "rushTD": 0,
+    "rec": 12,
+    "recYds": 55
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Elijah Green",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 39,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Josh Downs",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 101,
+    "recYds": 1335,
+    "recTD": 8
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Cam'Ron Kelly",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Tony Grimes",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Cedric Gray",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Jonathan Kim",
+   "position": "Place-Kicker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Christopher Holliday",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Ben Kiernan",
+   "position": "Punter",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Alex Nobles",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Kristian Varner",
+   "position": null,
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Drake Maye",
+   "position": "QB",
+   "stats": {
+    "passYds": 89,
+    "passTD": 1,
+    "passInt": 0,
+    "rushYds": 62,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Kaimon Rucker",
+   "position": "DE",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "J.J. Jones",
+   "position": "WR",
+   "stats": {
+    "rec": 4,
+    "recYds": 67
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Stephen Gosnell",
+   "position": "TE",
+   "stats": {
+    "rec": 2,
+    "recYds": 11
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Ty Chandler",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 1092,
+    "rushTD": 13,
+    "rec": 15,
+    "recYds": 216,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Caleb Hood",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 97,
+    "rushTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Power Echols",
+   "position": "Linebacker",
+   "stats": {
+    "rushYds": 21,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Bryson Nesbit",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 1,
+    "rushTD": 0,
+    "rec": 7,
+    "recYds": 154,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Joshua Ezeudu",
+   "position": "Offensive Line",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Ja'Qurious Conley",
+   "position": "Defensive Back",
+   "stats": {
+    "rec": 11,
+    "recYds": 243,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Justin Olson",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 9,
+    "recYds": 143,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Kyler McMichael",
+   "position": "Defensive Back",
+   "stats": {
+    "rec": 1,
+    "recYds": 75,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "John Copenhaver",
+   "position": "Tight End",
+   "stats": {
+    "rec": 2,
+    "recYds": 9,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Myles Murphy",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Raymond Vohasek",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Don Chapman",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Jahvaree Ritzie",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Desmond Evans",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Raneiria 'Rara' Dillworth",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "DeAndre Boykins",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Cameron Roseman-Sinclair",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Kedrick Bingley-Jones",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Dontavius Nash",
+   "position": "Defensive Back",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Clyde Pinder",
+   "position": null,
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  },
+  {
+   "name": "Keeshawn Silver",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2021"
+  }
+ ]
+}

@@ -1,0 +1,613 @@
+{
+ "year": 2013,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Bryn Renner",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1765,
+    "passTD": 10,
+    "passInt": 5,
+    "rushYds": -43,
+    "rushTD": 2,
+    "tfl": 1,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Marquise Williams",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1698,
+    "passTD": 15,
+    "passInt": 6,
+    "rushYds": 536,
+    "rushTD": 6,
+    "rec": 2,
+    "recYds": 52,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Quinshad Davis",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 61,
+    "passTD": 2,
+    "rushYds": 1,
+    "rec": 48,
+    "recYds": 730,
+    "recTD": 10,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Ryan Switzer",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 59,
+    "passTD": 1,
+    "rushYds": 29,
+    "rec": 32,
+    "recYds": 341,
+    "recTD": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "A.J. Blue",
+   "position": "Tailback",
+   "stats": {
+    "passYds": 23,
+    "rushYds": 298,
+    "rushTD": 1,
+    "rec": 18,
+    "recYds": 140,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Kanler Coker",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 6
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Eric Ebron",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 7,
+    "rec": 62,
+    "recYds": 973,
+    "recTD": 3,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "T.J. Thorpe",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -4,
+    "rec": 24,
+    "recYds": 267,
+    "recTD": 2,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Khris Francis",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 236,
+    "rushTD": 1,
+    "rec": 11,
+    "recYds": 82,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Sean Tapley",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -8,
+    "rec": 21,
+    "recYds": 241,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Johnathan Howard",
+   "position": "WR",
+   "stats": {
+    "rec": 22,
+    "recYds": 278,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Romar Morris",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 296,
+    "rushTD": 5,
+    "rec": 12,
+    "recYds": 63
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Jack Tabb",
+   "position": "LB/TE",
+   "stats": {
+    "rec": 7,
+    "recYds": 119,
+    "recTD": 1,
+    "tackles": 11
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "T.J. Logan",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 533,
+    "rushTD": 4,
+    "rec": 10,
+    "recYds": 124
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Kendrick Singleton",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 3,
+    "rec": 6,
+    "recYds": 66,
+    "recTD": 1,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Damien Washington",
+   "position": "Safety",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Mark McNeill",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 6,
+    "recYds": 107
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Charles Brunson",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 58
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Nic Platt",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 23,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Darien McNeill",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Tre Boston",
+   "position": "Safety",
+   "stats": {
+    "tfl": 5,
+    "defInt": 5,
+    "pbu": 6,
+    "tackles": 94
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Jeff Schoettmer",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 5,
+    "sacks": 0.5,
+    "pbu": 3,
+    "tackles": 85
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Kareem Martin",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 22,
+    "sacks": 11.5,
+    "ff": 3,
+    "pbu": 3,
+    "tackles": 82
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Jabari Price",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 5,
+    "ff": 1,
+    "pbu": 9,
+    "tackles": 80
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Travis Hughes",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 6,
+    "sacks": 1,
+    "pbu": 1,
+    "tackles": 76
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Dominique Green",
+   "position": "DB",
+   "stats": {
+    "tfl": 2,
+    "defInt": 3,
+    "pbu": 5,
+    "tackles": 59
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Norkeithus Otis",
+   "position": "Bandit",
+   "stats": {
+    "tfl": 14,
+    "sacks": 8.5,
+    "defInt": 1,
+    "ff": 3,
+    "pbu": 2,
+    "tackles": 50
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Tim Scott",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 2,
+    "pbu": 3,
+    "tackles": 49
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Malik Simmons",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 2,
+    "pbu": 1,
+    "tackles": 47
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Ethan Farmer",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 3,
+    "ff": 1,
+    "tackles": 30
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Darius Lipford",
+   "position": "Bandit",
+   "stats": {
+    "tfl": 6,
+    "sacks": 2.5,
+    "pbu": 1,
+    "tackles": 29
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Brandon Ellerbe",
+   "position": "Ram",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1.5,
+    "tackles": 28
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Tim Jackson",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 1,
+    "sacks": 0.5,
+    "pbu": 2,
+    "tackles": 26
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Terry Shankle",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 4,
+    "sacks": 2,
+    "pbu": 2,
+    "tackles": 23
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Junior Gnonkonde",
+   "position": "Bandit",
+   "stats": {
+    "ff": 1,
+    "pbu": 2,
+    "tackles": 22
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Justin Thomason",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 2,
+    "tackles": 22
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Brian Walker",
+   "position": "Defensive Back",
+   "stats": {
+    "defInt": 1,
+    "pbu": 6,
+    "tackles": 21
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Nathan Staub",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "tackles": 19
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Darien Rankin",
+   "position": "Safety",
+   "stats": {
+    "defInt": 1,
+    "pbu": 1,
+    "tackles": 13
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Devonte Brown",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Alex Dixon",
+   "position": "Cornerback",
+   "stats": {
+    "pbu": 1,
+    "tackles": 10
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "T.J. Jiles",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 10
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Shawn Underwood",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 10
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Mack Hollins",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 10
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Shakeel Rashad",
+   "position": "Bandit",
+   "stats": {
+    "tfl": 1,
+    "sacks": 1,
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Desmond Lawrence",
+   "position": "DB",
+   "stats": {
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Mikey Bart",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 1,
+    "sacks": 1,
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Nick Weiler",
+   "position": "Punter/Kicker",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Jessie Rogers",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Ryan Mangum",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Connor Gonet",
+   "position": "Fullback",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Dan Mastromatteo",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Kameron Jackson",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Landon Turner",
+   "position": "Offensive Guard",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Tommy Heffernan",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Kedrick Davis",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Joe Jackson",
+   "position": "Safety",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Clint Heaven",
+   "position": "Safety",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Jeff Battle",
+   "position": "Safety",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Allen Champagne",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  },
+  {
+   "name": "Eric Albright",
+   "position": "Tight End",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html"
+  }
+ ]
+}

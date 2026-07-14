@@ -1,0 +1,574 @@
+{
+ "year": 2015,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Marquise Williams",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 3072,
+    "passTD": 24,
+    "passInt": 10,
+    "rushYds": 948,
+    "rushTD": 13,
+    "rec": 1,
+    "recYds": 37,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Mitch Trubisky",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 555,
+    "passTD": 6,
+    "rushYds": 101,
+    "rushTD": 3
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Quinshad Davis",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 37,
+    "passTD": 1,
+    "rec": 55,
+    "recYds": 638,
+    "recTD": 4,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Ryan Switzer",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 11,
+    "rushYds": 6,
+    "rec": 55,
+    "recYds": 697,
+    "recTD": 6,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Caleb Henderson",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 53
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Brandon Fritts",
+   "position": "Tight End",
+   "stats": {
+    "rec": 16,
+    "recYds": 203,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "T.J. Logan",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 400,
+    "rushTD": 5,
+    "rec": 11,
+    "recYds": 151,
+    "recTD": 1,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Romar Morris",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 64,
+    "rushTD": 1,
+    "rec": 9,
+    "recYds": 54
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Mack Hollins",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 30,
+    "recYds": 745,
+    "recTD": 8,
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Kendrick Singleton",
+   "position": "TE/WR",
+   "stats": {
+    "rec": 12,
+    "recYds": 142,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Elijah Hood",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 1463,
+    "rushTD": 17,
+    "rec": 13,
+    "recYds": 71
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Damien Washington",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 8,
+    "recYds": 115,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Bug Howard",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 29,
+    "recYds": 488,
+    "recTD": 4,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Khris Francis",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 37,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Charles Brunson",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 25,
+    "rushTD": 1,
+    "rec": 1,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Austin Proehl",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 4,
+    "rec": 12,
+    "recYds": 225,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jordan Fieulleteau",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 6,
+    "recYds": 100
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Dalton Stogner",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 2,
+    "recYds": 9
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Ty'Son Williams",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 57,
+    "rec": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Donnie Miles",
+   "position": "Safety",
+   "stats": {
+    "tfl": 2,
+    "ff": 1,
+    "pbu": 2,
+    "tackles": 128
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Shakeel Rashad",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 9,
+    "sacks": 1.5,
+    "defInt": 2,
+    "ff": 3,
+    "pbu": 2,
+    "tackles": 126
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jeff Schoettmer",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 7,
+    "defInt": 2,
+    "ff": 1,
+    "pbu": 1,
+    "tackles": 97
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "M.J. Stewart",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 4,
+    "ff": 1,
+    "pbu": 14,
+    "tackles": 62
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Desmond Lawrence",
+   "position": "CB",
+   "stats": {
+    "tfl": 3,
+    "defInt": 2,
+    "pbu": 14,
+    "tackles": 59
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Andre Smith",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 1,
+    "ff": 1,
+    "pbu": 1,
+    "tackles": 53
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Sam Smiley",
+   "position": "Safety",
+   "stats": {
+    "tfl": 1,
+    "defInt": 1,
+    "pbu": 1,
+    "tackles": 48
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jeremiah Clarke",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "tackles": 44
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Justin Thomason",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 5,
+    "sacks": 3.5,
+    "tackles": 42
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Dominquie Green",
+   "position": "Safety",
+   "stats": {
+    "defInt": 2,
+    "ff": 1,
+    "pbu": 2,
+    "tackles": 41
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Nazair Jones",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 4,
+    "defInt": 1,
+    "ff": 1,
+    "pbu": 3,
+    "tackles": 40
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Dajaun Drennon",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 5,
+    "sacks": 1.5,
+    "pbu": 1,
+    "tackles": 39
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Cayson Collins",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 3,
+    "ff": 1,
+    "tackles": 38
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Malik Simmons",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 2,
+    "pbu": 7,
+    "tackles": 34
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Junior Gnonkonde",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 7,
+    "sacks": 3.5,
+    "pbu": 1,
+    "tackles": 34
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jessie Rogers",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 3,
+    "sacks": 1,
+    "tackles": 30
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Mikey Bart",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 7,
+    "sacks": 6.5,
+    "ff": 1,
+    "tackles": 29
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Tyler Powell",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 1,
+    "sacks": 0.5,
+    "tackles": 23
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Robert Dinkins",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 1,
+    "sacks": 1,
+    "pbu": 1,
+    "tackles": 21
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Cole Holcomb",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 15
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jalen Dalton",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 1,
+    "pbu": 2,
+    "tackles": 15
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Brian Walker",
+   "position": "CB",
+   "stats": {
+    "tfl": 1,
+    "pbu": 5,
+    "tackles": 12
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Malik Carney",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Mike Hughes",
+   "position": "Cornerback",
+   "stats": {
+    "pbu": 3,
+    "tackles": 11
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "J.K. Britt",
+   "position": "Safety",
+   "stats": {
+    "pbu": 2,
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Nick Weiler",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Ayden Bonilla",
+   "position": "Linebacker",
+   "stats": {
+    "ff": 1,
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Aaron Crawford",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Allen Artis",
+   "position": "Safety",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Joe Jackson",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Ian Dibble",
+   "position": "DT/FB",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Hunter Crafford",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Dan Mastromatteo",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Kedrick Davis",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jonathan Sugg",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "Jon Heck",
+   "position": "Offensive Tackle",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  },
+  {
+   "name": "T.J. Jiles",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+  }
+ ]
+}

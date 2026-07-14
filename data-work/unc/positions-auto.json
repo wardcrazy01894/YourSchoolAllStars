@@ -1,0 +1,2447 @@
+[
+ {
+  "name": "Alge Crumpler",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chris Keldorf",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chuckie Parquet",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Deon Dyer",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Domonique Williams",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dre' Bly",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Harris",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Williams",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jason Peace",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jomo Legins",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonathan Linton",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kevin Carty",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kivuusama Mays",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "L.C. Stevens",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Geter",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Na Brown",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Octavus Barnes",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Omar Brown",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Oscar Davenport",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Reggie Love",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Robert Williams",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ronnie Robinson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Steve Fisher",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Allen Mogridge",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Saunders",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bosley Allen",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bryan Griffin",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Danny Davis",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dauntae' Finger",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Keith Newman",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kory Bailey",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Quincy Monk",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ravon Anderson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ronald Curry",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Rufus Brown",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sedrick Hodge",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tyrell Godwin",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Antwon Black",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Billy-Dee Greenwood",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chesley Borders",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Daniel Davis",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "David Bomar",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "DeFonte Coleman",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Errol Hood",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jason Horton",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Julius Peppers",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Luke Huard",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sam Aiken",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tim Burgess",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Andre' Williams",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Anderson",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Perkins",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Russell",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Spoon",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chelsey Borders",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Clay Roberson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "David Scott",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "David Thornton",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Derrick Johnson",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dexter Reid",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Donte' Thorogood",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Donti Coats",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Eric Davis",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ian Alexander",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Isaac Mooring",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Isaiah Robinson",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jamal Jones",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "James Faison",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joey Evans",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kevin Knight",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kitwana Jones",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Malcolm Stewart",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Merceda Perry",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Harris",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Waddell",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nathan Sutton",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Richard Moore",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Robert Harris",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ross McAllister",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ryan Sims",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Stephon McQueen",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Will Chapman",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Willie Parker",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Zach Hilton",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Aaron Leak",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chris Curry",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chris Hawkins",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Clarence Gaddy",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Danny Rumley",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darian Durant",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darryl Grant",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "David McIntosh",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Doug Brown",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jacque Lewis",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jermicus Banks",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jocques Dumas",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Madison Hedgecock",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bobby Blizzard",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Carl Smalls",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cedrick Holt",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chase Page",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "C.J. Stephens",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Derrele Mitchell",
+  "position": "WR",
+  "basis": "sr-off"
+ },
+ {
+  "name": "Devllen Bullard",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Doug Justice",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jarwarski Pollock",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jeff Longhany",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonas Seawright",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kendall High",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Larry Jessup",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Lewis Burnham",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mahlon Carey",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Matt Baker",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Gilmore",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ronnie Bryant",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sean Williams",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Terrance Highsmith",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tommy Davis",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tommy Richardson",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Adarius Bowman",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Alden Blizzard",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brian Rackley",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chad Scott",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "D.J. Walker",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Fred Sparkman",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Isaiah Thomas",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jacoby Watkins",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "James Gibson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jesse Holley",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joe Kedra",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "John Dunn",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jon Hamlett",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Justin Phillips",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kareen Taylor",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Larry Edwards",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Melik Brown",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mickey Rice",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ronnie McGill",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Victor Worsley",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bryan Bethea",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Daunte Fields",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Del Roberts",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Durrell Mapp",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Gerald Sensabaugh",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Hilee Taylor",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jared Hall",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kentwan Balmer",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Khalif Mitchell",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kyndraus Guy",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Leon Scroggins",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Linwood Williams",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Lionell Green",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Martel Thatch",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Martin Jernigan",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Mason",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Quinton Person",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Rikki Cook",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Scott Brumett",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shelton Bynum",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Terry Hunter",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Trimane Goddard",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Vince Wilson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bobby Rome II",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Garrett White",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joseph Bozich",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Justin Warren",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mark Paschal",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nick Starcevic",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Richard Quinn",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Trey Brenner",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Elzy",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Tate",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brooks Foster",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bryan Dixon",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Camaron Thomas",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cameron Sexton",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chase Rice",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dirk Engram",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "E.J. Wilson",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Hakeem Nicks",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jermaine Strong",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Hemby",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kennedy Tinsley",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kenton Thornton",
+  "position": "WR",
+  "basis": "sr-off"
+ },
+ {
+  "name": "Richard Rich",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ryan Taylor",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tavares Brown",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Wesley Flagg",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Aleric Mullins",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "B.J. Phillips",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bruce Carter",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Charles Brown",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Da'Norris Searcy",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darius Massenburg",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darius Powell",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Deunta Williams",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ed Barham",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Elleby",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Little",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Hayden Hunter",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Johnny White",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonathan Smith",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kendric Burney",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marvin Austin",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Matt Merletti",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Quan Sturdivant",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ryan Houston",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shaun Draughn",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tavorris Jolly",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "T.J. Yates",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tydreke Powell",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Zack Pianalto",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Parker-Boyd",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Christian Wilson",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cooter Arnold",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ebele Okakpu",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "James Arnold",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Linwan Euwell",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Paulus",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Quinton Coples",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Vince Jacobs",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Zach Brown",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "A.J. Blue",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Braden Hanson",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brian Gupton",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Donte Paige-Moss",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dwight Jones",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Gene Robinson",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Herman Davidson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Hunter Furr",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Nix",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joshua Adams",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joshua McKie",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Lecount Fantroy",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shane Mularkey",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bryn Renner",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Curtis Byrd",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Curtis Campbell",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darius Lipford",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Devon Ramsey",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dion Guy",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "DJ Bunn",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Erik Highsmith",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jabari Price",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jheranie Boyd",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kareem Martin",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kenny Owens",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kevin Reddick",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Matt Kolojejchick",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nelson Hurst",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Terry Shankle",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tim Jackson",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Todd Harrelson",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tre Boston",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Ellerbe",
+  "position": "S",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Devonte Brown",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Eric Ebron",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ethan Farmer",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Fabby Desir",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Giovani Bernard",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Norkeithus Otis",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "P.J. Clyburn",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Reggie Wilkins",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sean Tapley",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shawn Underwood",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tim Scott",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "T.J. Thorpe",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tommy Heffernan",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Travis Hughes",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Alex Dixon",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Damien Washington",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darien Rankin",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jeff Schoettmer",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jessie Rogers",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Justin Thomason",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kameron Jackson",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Malik Simmons",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mark McNeill",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marquise Williams",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nic Platt",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Quinshad Davis",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Romar Morris",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Roy Smith",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sam Smiley",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shakeel Rashad",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "T.J. Jiles",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Travis Riley",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brian Walker",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Charles Brunson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Clint Heaven",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Connor Gonet",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dan Mastromatteo",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darien McNeill",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Desmond Lawrence",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Eric Albright",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jeff Battle",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joe Jackson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Johnathan Howard",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Junior Gnonkonde",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kanler Coker",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kedrick Davis",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Khris Francis",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mikey Bart",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nathan Staub",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ryan Switzer",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "T.J. Logan",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Alex Bales",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Allen Artis",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Austin Proehl",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bug Howard",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cayson Collins",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dajaun Drennon",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dominquie Green",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Donnie Miles",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Elijah Hood",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Fieulleteau",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mitch Trubisky",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "M.J. Stewart",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nazair Jones",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tyrell Tomlin",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Aaron Crawford",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Andre Smith",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ayden Bonilla",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Fritts",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Caleb Henderson",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cole Holcomb",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dalton Stogner",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Hunter Crafford",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ian Dibble",
+  "position": "DT",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Jalen Dalton",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jeremiah Clarke",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "J.K. Britt",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Malik Carney",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Hughes",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Robert Dinkins",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ty'Son Williams",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Allen Cater",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Carl Tucker",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Corey Bell Jr.",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Devin Perry",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jake Bargas",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "J.B. Copeland",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Cunningham",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordon Brown",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Josh Cabrera",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Juval Mollette",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marlon Dunlap",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Myles Dorn",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nathan Elliott",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Roscoe Johnson",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Stephen Albright",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Thomas Jackson",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tomon Fox",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Antwuan Branch",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Beau Corrales",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Harris",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chazz Surratt",
+  "position": "LB",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Chris Ripberger",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dante DiMaggio",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dazz Newsome",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dominique Ross",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Johnathon Sutton",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kayne Roberts",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "K.J. Sails",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Malik Robinson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Manny Miles",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mason Veal",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Carter",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Myles Wolfolk",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Patrice Rene",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tyrone Hopper",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Ratliff-Williams",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Austin Chrismon",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Austyn Chestnut",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ben Stobaugh",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "British Brooks",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cade Fortin",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Caleb Rozar",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chris Collins",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "D.J. Ford",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Garrett Walston",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Ross",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jace Ruder",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jack Davidson",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jack Dinges",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jahlil Taylor",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jake Lawler",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Javonte Williams",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jeremiah Gemmel",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonathan Smith",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kyle Wright",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Matthew Flint",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Rontavius Groves",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tre Shaw",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Antoine Green",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Antonio Williams",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dyami Brown",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Emery Simmons",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Eugene Asante",
+  "position": "LB",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Josh Henderson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kamari Morales",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Noah Turner",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "R Johnson",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sam Howell",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Vincent Amendola",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Alex Nobles",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cedric Gray",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Elijah Green",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jacolby Criswell",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jake Harkleroad",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jefferson Boaz",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Josh Downs",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kendall Karr",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Khafre Brown",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Bryson Nesbit",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Caleb Hood",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Desmond Evans",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Drake Maye",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "J.J. Jones",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "John Copenhaver",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Justin Olson",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kaimon Rucker",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Power Echols",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Raneiria 'Rara' Dillworth",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Stephen Gosnell",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ty Chandler",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Andre Greene Jr.",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Gavin Blackwell",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "George Pettaway",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jalen Brooks",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kobe Paysour",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Noah Taylor",
+  "position": "LB",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Omarion Hampton",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Randy Caldwell",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sebastian Cheeks",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Amare Campbell",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Amari Gainer",
+  "position": "LB",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Brooks Miller",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Cade Law",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chris Culliver",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Christian Hamilton",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Conner Harrell",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Deems May",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Devontez Walker",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Gibson Macrae",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jaybron Harvey",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Louie",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kellan Hood",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nate McCollum",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tychaun Chapman",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tyler Thompson",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Alex Taylor",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Austin Blaske",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Caleb LaVallee",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Charleston French",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darwin Barlow",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Davion Gause",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jake Johnson",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Javarius Green",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Shipp",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mali Hamrick",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Max Johnson",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Merdinger",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Short",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Paul Billups II",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Andrew Simpson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Austin Alexander",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Au'Tori Newkirk",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Aziah Johnson",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Benjamin Hall",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Connor Cox",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Daniel Anderson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Demon June",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Evan Bennett",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Gio Lopez",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jaylen McGill",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonathan Agumadu",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jordan Owens",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Khmori House",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Madrid Tucker",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mikai Gbayor",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nathan Leacock",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Peyton Waters",
+  "position": "S",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Pryce Yates",
+  "position": "DE",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Shamar Easter",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shanard Clower",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Smith Vilbert",
+  "position": "DE",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Thaddeus Dixon",
+  "position": "CB",
+  "basis": "sr-def"
+ },
+ {
+  "name": "Timir Hickman-Collins",
+  "position": "LB",
+  "basis": "wmt-fine"
+ }
+]

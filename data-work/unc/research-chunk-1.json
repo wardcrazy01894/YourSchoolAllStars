@@ -1,0 +1,224 @@
+[
+{
+"name": "CJ Mims",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 42,
+"tfl": 2.5,
+"sacks": 2,
+"ff": 1
+}
+},
+{
+"name": "Barrington Edwards",
+"years": "2004-2005",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2005,
+"rushYds": 397,
+"rushTD": 2,
+"rec": 10,
+"recYds": 99,
+"tackles": 1
+}
+},
+{
+"name": "Isaiah Johnson",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 41,
+"tfl": 2.5,
+"sacks": 2
+}
+},
+{
+"name": "Armani Chatman",
+"years": "2023-2023",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2023,
+"tackles": 18,
+"tfl": 0.5,
+"defInt": 2,
+"pbu": 4,
+"ff": 1
+}
+},
+{
+"name": "Jakeen Harris",
+"years": "2024-2024",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2024,
+"tackles": 68,
+"tfl": 1,
+"pbu": 4
+}
+},
+{
+"name": "Jaiden Patterson",
+"years": "2024-2025",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2025,
+"tackles": 34,
+"tfl": 2,
+"defInt": 1,
+"pbu": 5
+}
+},
+{
+"name": "Tony Grimes",
+"years": "2020-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2022,
+"tackles": 36,
+"pbu": 7,
+"ff": 1
+}
+},
+{
+"name": "Giovanni Biggers",
+"years": "2019-2023",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2022,
+"tackles": 69,
+"tfl": 1,
+"pbu": 2
+}
+},
+{
+"name": "Cam'Ron Kelly",
+"years": "2020-2022",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2020,
+"tackles": 55,
+"tfl": 1,
+"pbu": 3,
+"ff": 1
+}
+},
+{
+"name": "James Cooter Arnold",
+"years": "2005-2007",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2005,
+"rushYds": 187,
+"rec": 4,
+"recYds": 29,
+"tackles": 3
+}
+},
+{
+"name": "Cam Thomas",
+"years": "2008-2008",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2008,
+"tfl": 4,
+"sacks": 1,
+"tackles": 34
+}
+},
+{
+"name": "Michael McAdoo",
+"years": "2008-2009",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2009,
+"tackles": 20,
+"tfl": 7,
+"sacks": 1
+}
+},
+{
+"name": "D'Antre Robinson",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 38,
+"tfl": 2.5,
+"sacks": 0.5,
+"ff": 1
+}
+},
+{
+"name": "Gavin Gibson",
+"years": "2025-2025",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2025,
+"tackles": 38,
+"tfl": 3,
+"pbu": 3,
+"ff": 1
+}
+},
+{
+"name": "Melvin Williams",
+"years": "2008-2009",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2009,
+"tackles": 31,
+"tfl": 0.5,
+"defInt": 1,
+"pbu": 4
+}
+},
+{
+"name": "Will Hardy",
+"years": "2022-2025",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2025,
+"tackles": 53,
+"tfl": 2
+}
+},
+{
+"name": "Myles Murphy",
+"years": "2021-2023",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2022,
+"tackles": 29,
+"tfl": 1.5,
+"sacks": 1,
+"pbu": 1
+}
+},
+{
+"name": "Kendrick Singleton",
+"years": "2012-2015",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2014,
+"rec": 13,
+"recYds": 153,
+"recTD": 1,
+"tackles": 6
+}
+},
+{
+"name": "Wallace Wright",
+"years": "2003-2004",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2004,
+"rushYds": 2,
+"rec": 10,
+"recYds": 119,
+"recTD": 2
+}
+}
+]

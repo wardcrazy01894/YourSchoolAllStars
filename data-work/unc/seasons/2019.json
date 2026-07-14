@@ -1,0 +1,499 @@
+{
+ "year": 2019,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "Carl Tucker",
+   "position": "Tight End",
+   "stats": {
+    "rec": 5,
+    "recYds": 54,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Jake Bargas",
+   "position": "Tight End",
+   "stats": {
+    "rec": 3,
+    "recYds": 15,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Aaron Crawford",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 50,
+    "tfl": 9,
+    "sacks": 3,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Myles Dorn",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 83,
+    "tfl": 4.5,
+    "defInt": 2,
+    "pbu": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Corey Bell Jr.",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Allen Cater",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 20,
+    "tfl": 2.5,
+    "sacks": 0.5,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Tomon Fox",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0.5,
+    "sacks": 0.5,
+    "defInt": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Chazz Surratt",
+   "position": "QB",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0,
+    "tackles": 115,
+    "tfl": 15,
+    "sacks": 6.5,
+    "defInt": 1,
+    "pbu": 3,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Michael Carter",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 1003,
+    "rushTD": 3,
+    "rec": 21,
+    "recYds": 154,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Dazz Newsome",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 9,
+    "rushTD": 0,
+    "rec": 72,
+    "recYds": 1018,
+    "recTD": 10
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Beau Corrales",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 40,
+    "recYds": 575,
+    "recTD": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Myles Wolfolk",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 25,
+    "tfl": 1,
+    "defInt": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Tyrone Hopper",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 16,
+    "tfl": 1.5,
+    "sacks": 1.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Jace Ruder",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 7,
+    "passInt": 0,
+    "rushYds": 22,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Rontavius Groves",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 2,
+    "passTD": 1,
+    "passInt": 0,
+    "rushYds": 11,
+    "rushTD": 0,
+    "rec": 27,
+    "recYds": 250,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Javonte Williams",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 933,
+    "rushTD": 5,
+    "rec": 17,
+    "recYds": 176,
+    "recTD": 1,
+    "tackles": 2,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "British Brooks",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 10,
+    "rushTD": 1,
+    "tackles": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Garrett Walston",
+   "position": "Tight End",
+   "stats": {
+    "rec": 9,
+    "recYds": 76,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Greg Ross",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 26,
+    "tfl": 2,
+    "pbu": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "D.J. Ford",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 54,
+    "tfl": 2.5,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Jake Lawler",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Tre Shaw",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 6,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Matthew Flint",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Xach Gill",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 10,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Jahlil Taylor",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 11,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Jeremiah Gemmel",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 84,
+    "tfl": 7.5,
+    "sacks": 2.5,
+    "pbu": 2,
+    "ff": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Sam Howell",
+   "position": "QB",
+   "stats": {
+    "passYds": 3641,
+    "passTD": 38,
+    "passInt": 7,
+    "rushYds": 35,
+    "rushTD": 1,
+    "rec": 3,
+    "recYds": 23,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Eugene Asante",
+   "position": "QB",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Antonio Williams",
+   "position": "RB",
+   "stats": {
+    "rushYds": 322,
+    "rushTD": 3,
+    "rec": 2,
+    "recYds": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "R Johnson",
+   "position": "TE",
+   "stats": {
+    "rec": 2,
+    "recYds": 39
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Vincent Amendola",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 48,
+    "passInt": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Dyami Brown",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 18,
+    "passInt": 0,
+    "rushYds": 2,
+    "rushTD": 0,
+    "rec": 51,
+    "recYds": 1034,
+    "recTD": 12,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Josh Henderson",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 127,
+    "rushTD": 0,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Antoine Green",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 8,
+    "recYds": 217,
+    "recTD": 2,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Emery Simmons",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 4,
+    "recYds": 72,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Kamari Morales",
+   "position": "Tight End",
+   "stats": {
+    "rec": 1,
+    "recYds": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Jason Strowbridge",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 45,
+    "tfl": 6.5,
+    "sacks": 3,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Storm Duck",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 37,
+    "tfl": 2,
+    "defInt": 2,
+    "pbu": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Tomari Fox",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 15,
+    "tfl": 0.5,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Wyatt Tunall",
+   "position": "Offensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Giovanni Biggers",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Obi Egbuna",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 4,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Graham Eklund",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Drew Little",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "C Bell",
+   "position": null,
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Cooper Graham",
+   "position": "Place-kicker/Punter",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Kevin Hester Jr.",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  },
+  {
+   "name": "Noah Turner",
+   "position": "Tight End",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2019"
+  }
+ ]
+}

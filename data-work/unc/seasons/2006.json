@@ -1,0 +1,378 @@
+{
+ "year": 2006,
+ "from": "official-cume",
+ "players": [
+  {
+   "name": "Andre Barbour",
+   "position": "Offensive Tackle",
+   "stats": {
+    "rec": 1,
+    "recYds": 1,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Anthony Elzy",
+   "position": "Tailback",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Bobby Rome II",
+   "position": "Fullback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Brandon Tate",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 20,
+    "rec": 5,
+    "recYds": 72,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Brooks Foster",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 15,
+    "rec": 38,
+    "recYds": 486,
+    "recTD": 2,
+    "tackles": 5,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Bryan Bethea",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 18,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Bryan Dixon",
+   "position": "Strong Safety",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Camaron Thomas",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1.5,
+    "sacks": 1.5
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Cameron Sexton",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 25,
+    "rushTD": 1,
+    "passYds": 840,
+    "passTD": 4,
+    "passInt": 8
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Chase Rice",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 31,
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Connor Barth",
+   "position": "Placekicker/Punt",
+   "stats": {
+    "rushYds": 21
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Dirk Engram",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 7
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Durrell Mapp",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 87,
+    "tfl": 4,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "E.J. Wilson",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 19,
+    "tfl": 3,
+    "sacks": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Garrett Reynolds",
+   "position": "Offensive Tackle",
+   "stats": {
+    "tackles": 26,
+    "tfl": 3.5,
+    "sacks": 3
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Garrett White",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Hakeem Nicks",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 10,
+    "rec": 39,
+    "recYds": 660,
+    "recTD": 4,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Hilee Taylor",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 29,
+    "tfl": 5,
+    "sacks": 3,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "James Cooter Arnold",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 48,
+    "tfl": 1,
+    "pbu": 2,
+    "ff": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Jermaine Strong",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 18,
+    "pbu": 5,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Joe Dailey",
+   "position": "Wide Reciever/QB",
+   "stats": {
+    "rushYds": 61,
+    "rushTD": 1,
+    "passYds": 1316,
+    "passTD": 7,
+    "passInt": 10,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Jordan Hemby",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Justin Warren",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 77,
+    "rushTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Kennedy Tinsley",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Kenton Thornton",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 5,
+    "recYds": 47
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Kenton Thornton",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 22,
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Kentwan Balmer",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 16,
+    "tfl": 2.5,
+    "sacks": 2.5,
+    "pbu": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Kyndraus Guy",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 26,
+    "tfl": 3.5,
+    "sacks": 1.5,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Mark Paschal",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 23,
+    "tfl": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Martel Thatch",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Nick Starcevic",
+   "position": "Fullback",
+   "stats": {
+    "rec": 1,
+    "recYds": 8,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Richard Rich",
+   "position": "Cornerback",
+   "stats": {
+    "rushYds": -1,
+    "rec": 2,
+    "recYds": 24,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Rock Wells",
+   "position": "Athlete",
+   "stats": {
+    "rec": 1,
+    "recYds": 7
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Ryan Taylor",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Shawn Lawson",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 28,
+    "tfl": 2,
+    "sacks": 2,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Tavares Brown",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Trey Brenner",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 23,
+    "tfl": 1,
+    "sacks": 1,
+    "pbu": 1,
+    "ff": 2
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  },
+  {
+   "name": "Wesley Flagg",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html"
+  }
+ ]
+}

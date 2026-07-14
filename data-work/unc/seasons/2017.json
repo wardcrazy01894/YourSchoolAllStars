@@ -1,0 +1,423 @@
+{
+ "year": 2017,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "Nathan Elliott",
+   "position": "QB",
+   "stats": {
+    "passYds": 925,
+    "passTD": 10,
+    "passInt": 5,
+    "rushYds": 134,
+    "rushTD": 0,
+    "rec": 1,
+    "recYds": 33
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Josh Cabrera",
+   "position": "TE",
+   "stats": {
+    "rec": 11,
+    "recYds": 113,
+    "recTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Devin Perry",
+   "position": "TE",
+   "stats": {
+    "rec": 1,
+    "recYds": 16
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Austin Proehl",
+   "position": "Wide Receiver",
+   "stats": {
+    "passInt": 0,
+    "rec": 21,
+    "recYds": 337,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jordon Brown",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 613,
+    "rushTD": 4,
+    "rec": 29,
+    "recYds": 237
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "A Ratliff",
+   "position": null,
+   "stats": {
+    "passYds": 86,
+    "passTD": 2,
+    "passInt": 0,
+    "rushYds": 1,
+    "rushTD": 0,
+    "rec": 35,
+    "recYds": 630,
+    "recTD": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Thomas Jackson",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 7,
+    "recYds": 97,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Carl Tucker",
+   "position": "Tight End",
+   "stats": {
+    "rec": 6,
+    "recYds": 100
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jordan Cunningham",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 26,
+    "recYds": 307,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Brandon Fritts",
+   "position": "Tight End",
+   "stats": {
+    "rec": 25,
+    "recYds": 177,
+    "recTD": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jake Bargas",
+   "position": "Tight End",
+   "stats": {
+    "rec": 8,
+    "recYds": 72
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Cole Holcomb",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "M.J. Stewart",
+   "position": "Cornerback",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Cayson Collins",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Malik Carney",
+   "position": "Defensive End",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jeremiah Clarke",
+   "position": "Defensive Tackle",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Aaron Crawford",
+   "position": "Defensive Tackle",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Myles Dorn",
+   "position": "Safety",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jalen Dalton",
+   "position": "Defensive Tackle",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Ayden Bonilla",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Tolson Jeffrey",
+   "position": "Place-Kicker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Dajaun Drennon",
+   "position": "Defensive End",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Corey Bell Jr.",
+   "position": "Cornerback",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Juval Mollette",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 2,
+    "recYds": 19
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jay-Jay McCargo",
+   "position": "Offensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "J.K. Britt",
+   "position": "Safety",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Hunter Crafford",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Allen Cater",
+   "position": "Defensive End",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Tomon Fox",
+   "position": "Defensive End",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Roscoe Johnson",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -6,
+    "rushTD": 0,
+    "rec": 9,
+    "recYds": 90
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Allen Artis",
+   "position": "Safety",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Chazz Surratt",
+   "position": "QB",
+   "stats": {
+    "passYds": 1342,
+    "passTD": 8,
+    "passInt": 3,
+    "rushYds": 210,
+    "rushTD": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Mason Veal",
+   "position": "TE",
+   "stats": {
+    "rec": 1,
+    "recYds": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Manny Miles",
+   "position": "RB",
+   "stats": {
+    "passYds": 5,
+    "passInt": 0,
+    "rushYds": 3,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Michael Carter",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 559,
+    "rushTD": 8,
+    "rec": 11,
+    "recYds": 100,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Johnathon Sutton",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 81,
+    "rushTD": 0,
+    "rec": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Dazz Newsome",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 52,
+    "rushTD": 0,
+    "rec": 18,
+    "recYds": 227
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Beau Corrales",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 9,
+    "recYds": 143,
+    "recTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Donnie Miles",
+   "position": "Safety",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Myles Wolfolk",
+   "position": "Safety",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "K.J. Sails",
+   "position": "Cornerback",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Patrice Rene",
+   "position": "Cornerback",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Antwuan Branch",
+   "position": "Tailback",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Tyrone Hopper",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Dominique Ross",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Jordon Riley",
+   "position": "Defensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Malik Robinson",
+   "position": "Linebacker",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Tommy Bancroft",
+   "position": "Deep Snapper",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Cam Dillard",
+   "position": "Center",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Kayne Roberts",
+   "position": "Tailback",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Dante DiMaggio",
+   "position": "Wide Receiver",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Chris Ripberger",
+   "position": "Safety",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2017"
+  },
+  {
+   "name": "Brandon Harris",
+   "position": "QB",
+   "stats": {
+    "passYds": 346,
+    "passTD": 1,
+    "passInt": 8,
+    "rushYds": 86,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2017"
+  }
+ ]
+}

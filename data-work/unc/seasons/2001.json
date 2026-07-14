@@ -1,0 +1,495 @@
+{
+ "year": 2001,
+ "from": "official-cume",
+ "players": [
+  {
+   "name": "Aaron Leak",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 3,
+    "passYds": 24
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Andre' Williams",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 520,
+    "rushTD": 4,
+    "rec": 5,
+    "recYds": 25
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Anthony Perkins",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 17,
+    "tfl": 1,
+    "sacks": 1,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Billy-Dee Greenwood",
+   "position": "Safety",
+   "stats": {
+    "tackles": 67,
+    "tfl": 1,
+    "pbu": 7
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Bosley Allen",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 39,
+    "recYds": 562,
+    "recTD": 4,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Brandon Russell",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 2,
+    "rec": 19,
+    "recYds": 235,
+    "recTD": 1,
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Chelsey Borders",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 8,
+    "rec": 27,
+    "recYds": 448,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Chris Bender",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 40,
+    "tfl": 9,
+    "sacks": 2.5,
+    "pbu": 2,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Chris Curry",
+   "position": "Safety",
+   "stats": {
+    "tackles": 5,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Chris Hawkins",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Clarence Gaddy",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Danny Davis",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 7,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Danny Rumley",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Darian Durant",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 128,
+    "rushTD": 2,
+    "passYds": 1843,
+    "passTD": 17,
+    "passInt": 10
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Darryl Grant",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "David McIntosh",
+   "position": "Safety",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "David Thornton",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 131,
+    "tfl": 10,
+    "sacks": 3,
+    "defInt": 1,
+    "pbu": 5,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "DeFonte Coleman",
+   "position": "Safety",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Derrick Johnson",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 10,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Dexter Reid",
+   "position": "Safety",
+   "stats": {
+    "tackles": 99,
+    "tfl": 5,
+    "sacks": 2,
+    "defInt": 2,
+    "pbu": 5,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Donti Coats",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 8,
+    "tfl": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Doug Brown",
+   "position": "Tight End",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Eric Davis",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 11,
+    "tfl": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Errol Hood",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 74,
+    "tfl": 6,
+    "pbu": 6
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Greg Warren",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Isaac Mooring",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 21,
+    "tfl": 2,
+    "sacks": 2
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Isaiah Robinson",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 2,
+    "recYds": 21,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Jacque Lewis",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 241,
+    "rushTD": 1,
+    "rec": 8,
+    "recYds": 63,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Jeff Reed",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Jermicus Banks",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Jocques Dumas",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 8,
+    "tfl": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Julius Peppers",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 63,
+    "tfl": 19,
+    "sacks": 9.5,
+    "defInt": 3,
+    "pbu": 9,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Kevin Knight",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 49,
+    "tfl": 2,
+    "sacks": 1,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Kitwana Jones",
+   "position": "Fullback",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Kory Bailey",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 44,
+    "recYds": 608,
+    "recTD": 6,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Madison Hedgecock",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 1,
+    "tackles": 5,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Malcolm Stewart",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Merceda Perry",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 39,
+    "tfl": 3,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Michael Harris",
+   "position": "Tailback",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Michael Waddell",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 54,
+    "tfl": 1,
+    "pbu": 14
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 125,
+    "tfl": 6,
+    "defInt": 2,
+    "pbu": 8,
+    "ff": 3
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Richard Moore",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 11,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Robert Harris",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Ronald Curry",
+   "position": "Quarterback",
+   "stats": {
+    "rushYds": 253,
+    "rushTD": 3,
+    "passYds": 1005,
+    "passTD": 8,
+    "passInt": 6
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Ryan Sims",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 51,
+    "tfl": 8,
+    "sacks": 5,
+    "pbu": 4
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Sam Aiken",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 1,
+    "rec": 46,
+    "recYds": 789,
+    "recTD": 8,
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Will Chapman",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 29,
+    "tfl": 3,
+    "pbu": 2,
+    "ff": 1
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Willie Parker",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 400,
+    "rushTD": 3,
+    "rec": 2,
+    "recYds": 26
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  },
+  {
+   "name": "Zach Hilton",
+   "position": "Tight End",
+   "stats": {
+    "rec": 12,
+    "recYds": 88,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+  }
+ ]
+}

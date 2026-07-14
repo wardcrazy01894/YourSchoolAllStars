@@ -1,0 +1,478 @@
+{
+ "year": 2020,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "Tomon Fox",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 36,
+    "tfl": 10.5,
+    "sacks": 7,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Chazz Surratt",
+   "position": "QB",
+   "stats": {
+    "tackles": 91,
+    "tfl": 7.5,
+    "sacks": 6,
+    "defInt": 1,
+    "pbu": 3,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Michael Carter",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 1245,
+    "rushTD": 9,
+    "rec": 25,
+    "recYds": 267,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Dazz Newsome",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 21,
+    "rushTD": 1,
+    "rec": 54,
+    "recYds": 684,
+    "recTD": 6,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Beau Corrales",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 13,
+    "recYds": 238,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Tyrone Hopper",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 27,
+    "tfl": 2,
+    "sacks": 2,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jace Ruder",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 11,
+    "passInt": 0,
+    "rushYds": -3,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Rontavius Groves",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 1,
+    "passTD": 1,
+    "passInt": 0,
+    "rec": 4,
+    "recYds": 41
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Javonte Williams",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 1140,
+    "rushTD": 19,
+    "rec": 25,
+    "recYds": 305,
+    "recTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "British Brooks",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 99,
+    "rushTD": 0,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Garrett Walston",
+   "position": "Tight End",
+   "stats": {
+    "rec": 19,
+    "recYds": 255,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Austyn Chestnut",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Chris Collins",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 13,
+    "tfl": 3,
+    "sacks": 3,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Xach Gill",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jahlil Taylor",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 18,
+    "tfl": 2.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jeremiah Gemmel",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 78,
+    "tfl": 6,
+    "sacks": 2.5,
+    "defInt": 1,
+    "pbu": 4,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Eugene Asante",
+   "position": "QB",
+   "stats": {
+    "passYds": 3586,
+    "passTD": 30,
+    "passInt": 7,
+    "rushYds": 146,
+    "rushTD": 5,
+    "rec": 1,
+    "recYds": 1,
+    "recTD": 1,
+    "tackles": 27,
+    "tfl": 0.5,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Dyami Brown",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 55,
+    "recYds": 1099,
+    "recTD": 8,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Josh Henderson",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 61,
+    "rushTD": 0,
+    "rec": 3,
+    "recYds": 10,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Antoine Green",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 4,
+    "recYds": 38,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Emery Simmons",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 15,
+    "recYds": 201,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Kamari Morales",
+   "position": "Tight End",
+   "stats": {
+    "rec": 2,
+    "recYds": 16,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Storm Duck",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 4,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Tomari Fox",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 46,
+    "tfl": 6,
+    "sacks": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Wyatt Tunall",
+   "position": "Offensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Giovanni Biggers",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 3,
+    "defInt": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Obi Egbuna",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 8,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Drew Little",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Kevin Hester Jr.",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 10,
+    "tfl": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jacolby Criswell",
+   "position": "QB",
+   "stats": {
+    "passYds": 16,
+    "passInt": 1,
+    "rushYds": 26,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Kendall Karr",
+   "position": "TE",
+   "stats": {
+    "rec": 1,
+    "recYds": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jefferson Boaz",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 3,
+    "passInt": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "D.J. Jones",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 65,
+    "rushTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Elijah Green",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 55,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Josh Downs",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -3,
+    "rushTD": 0,
+    "rec": 7,
+    "recYds": 119,
+    "recTD": 3,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Khafre Brown",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 15,
+    "recYds": 337,
+    "recTD": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Cam'Ron Kelly",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 55,
+    "tfl": 1,
+    "pbu": 3,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Tony Grimes",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 14,
+    "tfl": 1.5,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Ty Murray",
+   "position": "Offensive Line",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Cedric Gray",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jonathan Kim",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Jake Harkleroad",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Welton Spottsville",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Christopher Holliday",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Ben Kiernan",
+   "position": "Punter",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Alex Nobles",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  },
+  {
+   "name": "Kristian Varner",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2020"
+  }
+ ]
+}

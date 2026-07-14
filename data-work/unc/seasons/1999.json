@@ -1,0 +1,259 @@
+{
+ "year": 1999,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Ronald Curry",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 682,
+    "passTD": 3,
+    "passInt": 10,
+    "rushYds": 226,
+    "rushTD": 2
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Domonique Williams",
+   "position": "QB",
+   "stats": {
+    "passYds": 352,
+    "passTD": 2,
+    "rushYds": 183,
+    "rec": 1,
+    "recYds": 5
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Luke Huard",
+   "position": "QB",
+   "stats": {
+    "passYds": 256,
+    "passTD": 1,
+    "passInt": 2,
+    "rushYds": -31,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Antwon Black",
+   "position": "Safety",
+   "stats": {
+    "passYds": 139,
+    "passInt": 2,
+    "rushYds": 82,
+    "defInt": 2
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Jason Peace",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 18,
+    "rushYds": 19,
+    "rec": 23,
+    "recYds": 373,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Brian Schmitz",
+   "position": "Punter/Kicker",
+   "stats": {
+    "passYds": 11
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Sam Aiken",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 3,
+    "recYds": 16
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Ronnie Robinson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 12,
+    "rushTD": 2
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Kory Bailey",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -8,
+    "rec": 25,
+    "recYds": 418,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 12,
+    "recYds": 184
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Alge Crumpler",
+   "position": "Tight End",
+   "stats": {
+    "rec": 20,
+    "recYds": 191
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Deon Dyer",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 233,
+    "rushTD": 2,
+    "rec": 7,
+    "recYds": 55,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Dauntae' Finger",
+   "position": "TE",
+   "stats": {
+    "rec": 10,
+    "recYds": 81,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "DeFonte Coleman",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 11
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Chesley Borders",
+   "position": "WR",
+   "stats": {
+    "rec": 4,
+    "recYds": 37
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Anthony Saunders",
+   "position": "RB",
+   "stats": {
+    "rushYds": 297,
+    "rushTD": 1,
+    "rec": 2,
+    "recYds": 27,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Danny Davis",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 4,
+    "recYds": 38
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Daniel Davis",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 303,
+    "rushTD": 2,
+    "rec": 3,
+    "recYds": 20
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Rufus Brown",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 275,
+    "rushTD": 1,
+    "rec": 2,
+    "recYds": 2
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Billy-Dee Greenwood",
+   "position": "DB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "David Bomar",
+   "position": "Safety",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Errol Hood",
+   "position": "DB",
+   "stats": {
+    "defInt": 5
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Jason Horton",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Julius Peppers",
+   "position": "DL",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "LB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Tim Burgess",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  }
+ ]
+}

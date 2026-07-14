@@ -1,0 +1,265 @@
+{
+ "year": 1998,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Oscar Davenport",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1208,
+    "passTD": 8,
+    "passInt": 3,
+    "rushYds": -63
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Ronald Curry",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 975,
+    "passTD": 6,
+    "passInt": 7,
+    "rushYds": 419,
+    "rushTD": 2
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Brian Schmitz",
+   "position": "Punter/Kicker",
+   "stats": {
+    "passYds": 4
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Kevin Carty",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": -2,
+    "rushYds": -2
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Anthony Saunders",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 55,
+    "rec": 1,
+    "recYds": -2
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "Linebacker",
+   "stats": {
+    "rec": 1,
+    "recYds": 4
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Na Brown",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 48,
+    "rushTD": 1,
+    "rec": 55,
+    "recYds": 897,
+    "recTD": 6
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Kory Bailey",
+   "position": "WR",
+   "stats": {
+    "rec": 38,
+    "recYds": 363,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Rufus Brown",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 534,
+    "rushTD": 3,
+    "rec": 12,
+    "recYds": 87
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Deon Dyer",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 258,
+    "rushTD": 6,
+    "rec": 6,
+    "recYds": 58,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Dauntae' Finger",
+   "position": "Tight End",
+   "stats": {
+    "rec": 3,
+    "recYds": 30
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Allen Mogridge",
+   "position": "Tight End",
+   "stats": {
+    "rec": 4,
+    "recYds": 32,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Bryan Griffin",
+   "position": "Tight End",
+   "stats": {
+    "rec": 1,
+    "recYds": 23
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Danny Davis",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 2,
+    "recYds": 21
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Ronnie Robinson",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 61,
+    "rushTD": 1,
+    "rec": 5,
+    "recYds": 36
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "L.C. Stevens",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 25,
+    "recYds": 414,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Bosley Allen",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 3,
+    "recYds": 107
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Ravon Anderson",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 128,
+    "rec": 3,
+    "recYds": 16
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Tyrell Godwin",
+   "position": "Cornerback",
+   "stats": {
+    "rushYds": 6,
+    "rec": 1,
+    "recYds": -2
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 2,
+    "recYds": 42
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Chuckie Parquet",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -4,
+    "rec": 2,
+    "recYds": 22
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Jason Peace",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 4,
+    "recYds": 37
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Dre' Bly",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 4
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "Safety",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 5
+   },
+   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  }
+ ]
+}

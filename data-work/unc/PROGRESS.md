@@ -97,6 +97,30 @@ guessed.
   the fetcher lists them. Resolve via SR fine codes + cited research, never a
   guess (VT's `resolve-positions.mjs` + `positions-override.json` pattern).
 
+## THE 1994 FLOOR — a hard, sourced limit (decide before shipping)
+
+**UNC's dataset starts at 1997, not 1994.** This is not a sourcing shortcut; it
+is forced by the data:
+
+- UNC's earliest citable **per-player defensive** stats are **2000** (the
+  archived official cumes). A 176-page scan of every archived page on every old
+  UNC host (`tarheelblue.ocsn.com`, `tarheelblue.com`, `fansonly`) found season
+  cumes for 2000, 2001 and 2002 and NOTHING earlier. Sports-Reference has no
+  tackle table before 2005. The IA "media guides" are cover images. The official
+  record book has only top-10 lists.
+- The engine's era wheel is rolling 4-year windows, and each window must be able
+  to fill a 6-slot defensive roster (Hall's condition, enforced by
+  `football-dataset.test.ts`). The windows 1994-97, 1995-98 and 1996-99 contain
+  NO year with defensive stats, so they are unfillable — including 1994-1996
+  would fail CI, not just look thin.
+- **1997–2000 is the earliest viable window** (it reaches 2000's defense), so
+  1997 is the floor. Seasons 1997–1999 carry SR offense + INT-only defense —
+  exactly the documented Michigan pre-1997 pattern, where the early windows fill
+  their defensive slots from the first year that has them.
+
+Cost of the floor: three seasons (1994–96), and the pre-1997 seasons of players
+who span it (e.g. Dre' Bly's 1996). Everything from 1997 on is complete.
+
 ## Pipeline stages & status
 
 - [x] **Stage 0 — scaffold**: branch `data/unc-football`, this doc, platform

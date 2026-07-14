@@ -1,0 +1,222 @@
+{
+ "year": 1997,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Chris Keldorf",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1448,
+    "passTD": 12,
+    "passInt": 9,
+    "rushYds": -108,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Oscar Davenport",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1380,
+    "passTD": 7,
+    "passInt": 3,
+    "rushYds": 12,
+    "rushTD": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Kevin Carty",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 52,
+    "rushYds": -4
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Alge Crumpler",
+   "position": "Tight End",
+   "stats": {
+    "rec": 24,
+    "recYds": 278,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Chuckie Parquet",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 6
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Deon Dyer",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 90,
+    "rushTD": 1,
+    "rec": 5,
+    "recYds": 31
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Domonique Williams",
+   "position": "Athlete",
+   "stats": {
+    "rushYds": 50,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 42
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Jason Peace",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 32,
+    "recYds": 418,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Jonathan Linton",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 1004,
+    "rushTD": 10,
+    "rec": 29,
+    "recYds": 286,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "L.C. Stevens",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 45,
+    "recYds": 727,
+    "recTD": 3
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Mike Geter",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 245,
+    "rec": 5,
+    "recYds": 20
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Na Brown",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 55,
+    "recYds": 610,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Octavus Barnes",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 21,
+    "recYds": 441,
+    "recTD": 5
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Ronnie Robinson",
+   "position": "Fullback",
+   "stats": {
+    "rec": 3,
+    "recYds": 21
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Dre' Bly",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 5
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Greg Williams",
+   "position": "Safety",
+   "stats": {
+    "defInt": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "Safety",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Kivuusama Mays",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "Safety",
+   "stats": {
+    "defInt": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Robert Williams",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  }
+ ]
+}
