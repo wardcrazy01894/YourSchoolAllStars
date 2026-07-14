@@ -386,6 +386,11 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Antwon Black",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Damon Dawson",
   "position": "DE",
   "basis": "wmt-fine"
@@ -458,11 +463,6 @@
  {
   "name": "Anthony Saunders",
   "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Antwon Black",
-  "position": "S",
   "basis": "wmt-fine"
  },
  {

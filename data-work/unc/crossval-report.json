@@ -17,6 +17,14 @@
    "big": false
   },
   {
+   "name": "David Thornton",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
    "name": "Julius Peppers",
    "year": 2000,
    "stat": "ff",
@@ -46,14 +54,6 @@
    "stat": "recYds",
    "ours": 410,
    "sr": 400,
-   "big": false
-  },
-  {
-   "name": "David Thornton",
-   "year": 2001,
-   "stat": "ff",
-   "ours": 1,
-   "sr": 0,
    "big": false
   },
   {
@@ -1912,18 +1912,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Sean Boyd",
-   "span": "1994-1995",
-   "composite": 24.7,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {
-    "DB": 2
-   },
-   "srOffVotes": {}
-  },
-  {
    "name": "Dominique Green",
    "span": "2013-2014",
    "composite": 24.7,
@@ -2008,18 +1996,6 @@
    }
   },
   {
-   "name": "Oscar Sturgis",
-   "span": "1994-1994",
-   "composite": 20.7,
-   "wmtVotes": {
-    "DL": 1
-   },
-   "srDefVotes": {
-    "DL": 1
-   },
-   "srOffVotes": {}
-  },
-  {
    "name": "Barrington Edwards",
    "span": "2004-2006",
    "composite": 20.3,
@@ -2100,18 +2076,6 @@
    },
    "srDefVotes": {
     "DB": 4
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Fuzzy Lee",
-   "span": "1994-1995",
-   "composite": 18.5,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {
-    "DB": 2
    },
    "srOffVotes": {}
   },
@@ -2230,18 +2194,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Ronald Curry",
-   "span": "1998-2001",
-   "composite": 14.1,
-   "wmtVotes": {
-    "QB": 4
-   },
-   "srDefVotes": {},
-   "srOffVotes": {
-    "QB": 6
-   }
-  },
-  {
    "name": "Raymond Vohasek",
    "span": "2021-2022",
    "composite": 13.6,
@@ -2277,6 +2229,16 @@
     "RB": 1,
     "WR": 1
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jimmy Hitchcock",
+   "span": "1994-1994",
+   "composite": 12.9,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -2424,16 +2386,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Eric Thomas",
-   "span": "1994-1995",
-   "composite": 8.2,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Da'Norris Searcey",
    "span": "2007-2008",
    "composite": 8.1,
@@ -2577,16 +2529,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Jimmy Hitchcock",
-   "span": "1994-1994",
-   "composite": 4.2,
-   "wmtVotes": {
-    "DB": 1
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Malcolm Ziglar",
    "span": "2024-2025",
    "composite": 3.9,
@@ -2604,18 +2546,6 @@
    "composite": 3.3,
    "wmtVotes": {
     "DB": 1
-   },
-   "srDefVotes": {
-    "DB": 1
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Ronald Thomas",
-   "span": "1994-1996",
-   "composite": 3.2,
-   "wmtVotes": {
-    "DB": 3
    },
    "srDefVotes": {
     "DB": 1
@@ -2716,16 +2646,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Wendell Camp",
-   "span": "1994-1995",
-   "composite": 2,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Ryan Mangum",
    "span": "2012-2014",
    "composite": 2,
@@ -2747,6 +2667,14 @@
    "srDefVotes": {
     "DB": 3
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Anrwon Black",
+   "span": "1997-1997",
+   "composite": 1.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -2870,16 +2798,6 @@
    "span": "1994-1994",
    "composite": 0.8,
    "wmtVotes": {},
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
-   "name": "Clay Eddie",
-   "span": "1994-1994",
-   "composite": 0.8,
-   "wmtVotes": {
-    "DB": 1
-   },
    "srDefVotes": {},
    "srOffVotes": {}
   },
@@ -3026,7 +2944,7 @@
    "srOffVotes": {}
   },
   {
-   "name": "ScottC aparell",
+   "name": "Scott Caparelli",
    "span": "1994-1994",
    "composite": 0.4,
    "wmtVotes": {},
@@ -3167,16 +3085,6 @@
    "srDefVotes": {
     "DB": 1
    },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Jamez Griffin",
-   "span": "1994-1994",
-   "composite": 0.2,
-   "wmtVotes": {
-    "DB": 1
-   },
-   "srDefVotes": {},
    "srOffVotes": {}
   },
   {

@@ -2290,6 +2290,54 @@
       ]
     },
     {
+      "id": "antwon-black",
+      "name": "Antwon Black",
+      "position": "S",
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 9
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 63,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "passYds": 139,
+            "passInt": 2,
+            "rushYds": 82,
+            "defInt": 2,
+            "tackles": 15,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rushYds": 23,
+            "passYds": 124
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
+    },
+    {
       "id": "domonique-williams",
       "name": "Domonique Williams",
       "position": "QB",
@@ -2672,46 +2720,6 @@
             "rushTD": 3,
             "rec": 2,
             "recYds": 25
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        }
-      ]
-    },
-    {
-      "id": "antwon-black",
-      "name": "Antwon Black",
-      "position": "S",
-      "firstYear": 1998,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 1998,
-          "stats": {
-            "tackles": 63,
-            "tfl": 1
-          },
-          "honors": [],
-          "source": "https://archive.org/details/carolinafootball1999unse"
-        },
-        {
-          "year": 1999,
-          "stats": {
-            "passYds": 139,
-            "passInt": 2,
-            "rushYds": 82,
-            "defInt": 2,
-            "tackles": 15,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "rushYds": 23,
-            "passYds": 124
           },
           "honors": [],
           "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"

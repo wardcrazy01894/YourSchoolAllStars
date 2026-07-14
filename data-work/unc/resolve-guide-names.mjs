@@ -209,8 +209,17 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
       if (g.firstName) {
         const f = firstOf(r)
         const want = norm(g.firstName)
-        // Accept a prefix either way ("Ben" for "Benjamin", and OCR truncation).
-        if (!(f.startsWith(want) || want.startsWith(f))) return false
+        // Accept a prefix either way ("Ben" for "Benjamin", and OCR truncation), and
+        // absorb a SINGLE mis-scanned letter — the first name is scanned off the
+        // same page as the surname and takes the same OCR damage ("Anrwon Black" is
+        // Antwon Black. Without this tolerance the veto, which exists to stop a name
+        // being confused with a DIFFERENT name, would instead throw away a man
+        // because of one bad pixel. One edit cannot turn Robert into Greg.
+        const ok =
+          f.startsWith(want) ||
+          want.startsWith(f) ||
+          (f.length >= 5 && want.length >= 5 && edit(f, want) <= 1)
+        if (!ok) return false
       }
       if (g.initial && firstOf(r)[0] !== g.initial) return false
       return true
