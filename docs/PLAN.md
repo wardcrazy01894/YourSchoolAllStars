@@ -6,8 +6,9 @@ A daily, no-backend, share-friendly draft game in the family of
 [20-0.com](https://www.20-0.com/) (whose **40-0** = college basketball and
 **16-0** = college football), but scoped to **one school at a time**. Six
 basketball schools are live (Michigan — the default — plus North Carolina,
-Florida, Virginia Tech, Pittsburgh, and VCU), and **football (1994+)** is live on
-four of them (Michigan, Pittsburgh, Florida, Virginia Tech) behind a per-school
+Florida, Virginia Tech, Pittsburgh, and VCU), and **football** is live on
+all five that field it (Michigan, Pittsburgh, Florida, Virginia Tech, North
+Carolina) behind a per-school
 sport picker — all real, sourced datasets. Two cross-school modes (**Full
 Basketball**, **Full Football**) spin a team AND an era each round. All run on
 the same engine contracts.
@@ -75,7 +76,7 @@ src/
   data/
     michigan-basketball.json   curated player dataset (95 players / 259 rows, sourced)
     {unc,florida,vt,pitt,vcu}-basketball.json   the other five live schools
-    {michigan,pitt,florida,vt}-football.json   the four live football datasets
+    {michigan,pitt,florida,vt,unc}-football.json   the five live football datasets
     index.ts                   typed loader (one Dataset per school)
     dataset.test.ts            integrity guard (shape, coverage, completeness, tenure)
   schools.ts          school registry + per-school theme tokens + applyTheme()

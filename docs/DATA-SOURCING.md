@@ -555,3 +555,67 @@ committed so the work is session-restartable). Source map:
     **14/14 confirmed**.
     Unmatched ledger entries are all kickers/punters/OL (positions the game
     doesn't carry) or players trimmed below the composite floor.
+
+### North Carolina (1997–2025) — fifth live football school
+
+`src/data/unc-football.json` (365 players, 100 honors). The pipeline is
+committed at `data-work/unc/` (scripts + parsed checkpoints + `PROGRESS.md`).
+
+**Why the floor is 1997, not 1994.** UNC's earliest citable **per-player
+defensive** stats are **2000**. A scan of all 176 archived pages across every
+old UNC host (`tarheelblue.ocsn.com`, `tarheelblue.com`, `fansonly`) found
+season cumes for 2000–2002 and nothing earlier; Sports-Reference has no tackle
+table before 2005; the Internet Archive's UNC "media guides" are cover images
+only; the official record book carries top-10 lists, not rosters. The era wheel
+needs every 4-year window to fill a 6-slot defensive roster (Hall's condition,
+enforced by CI), and the windows 1994–97, 1995–98 and 1996–99 contain **no year
+with defensive stats at all** — so including 1994–96 would fail the guard, not
+merely look thin. **1997–2000 is the earliest viable window.** Seasons 1997–99
+carry SR offense + INT-only defense, exactly the Michigan pre-1997 pattern where
+the early windows fill their defensive slots from the first year that has them.
+
+Source map:
+
+- **2016–2025** — goheels.com **is Sidearm**, so
+  `fetch-football-mgoblue.mjs --site https://goheels.com` works unchanged (its
+  stats pages carry no defensive block before 2016 — that's the Sidearm floor).
+  The payload **mislinks defensive lines onto offensive players** (the Florida
+  class: it credited WR Dyami Brown with 2 sacks and 4 TFL), so a defensive key
+  from these years survives only if SR corroborates it — **451 fabricated keys
+  were stripped**.
+- **2000–2007, 2009** — the Wayback-archived **official** Automated-ScoreBook
+  season cumes from the old site. Pre-2003 they're **date-named**
+  (`stats/071102aaa.html` is the 2001 final), so they had to be _discovered_, not
+  guessed: `classify-cumes.py` fetches every archived page and classifies it by
+  its **printed scope** ("FINAL STATS" / "as of Dec 01, 2001") — never the
+  capture date, since 2010/2011 survive only as mid-season captures (the Pitt
+  trap) and are deliberately unused. Every parsed column is checksum-validated
+  against the printed Total row.
+- **2008, 2010–2015 and 1997–1999** — Sports-Reference (full defense from 2005;
+  INT-only before).
+- **The roster join is what unlocks the cume era.** The cumes print names
+  abbreviated (`30 Thornton, D.`), but goheels keeps **historical rosters back to
+  1997** with jersey + full name + a spelled-out position ("Linebacker") — both
+  the name-expansion key (jersey for defense, name for offense) and a better
+  position oracle than SR's coarse codes.
+- **Positions**: rosters/SR fine codes, then a **cited research pass** for 56
+  players (`data-work/unc/positions-override.json`); 2 were dropped rather than
+  guessed. The VT convert-guard needed **strengthening** here: Chazz Surratt's
+  roster line reads "Quarterback" for all four years even though he moved to
+  linebacker and was a first-team All-ACC/consensus All-American _there_, so any
+  real defensive production without a defensive fine code now goes to research
+  (VT's version only fired when a coarse DL/DB vote existed).
+- **Honors** (100): the **official media guide** supplies All-Conference by year
+  _with team level_ (and the 2013+ media/coaches split) plus the ACC awards;
+  Wikipedia supplies first-team All-Americans (with consensus status), the
+  national trophies, and 2025's All-ACC. The guide's _National Awards_ page is
+  deliberately **not** parsed — it lists notable **finishes**, not wins (its
+  Heisman block names four Tar Heels, none of whom won it), so parsing it would
+  fabricate awards. `verify-honors.mjs` re-derives and diffs: 0 phantoms, 0
+  omissions.
+
+Format traps in the archived cumes, each of which silently produced zero or
+wrong rows (all now handled and commented in `parse-cume.mjs`): CRLF vs
+**CR-only** line endings; two different name shapes; alpha jersey suffixes
+(`1A`); `.` printed for a zero; and captures that embed the cume **twice**,
+which double-counted every stat.

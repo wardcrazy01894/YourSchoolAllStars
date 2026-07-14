@@ -121,38 +121,15 @@ is forced by the data:
 Cost of the floor: three seasons (1994–96), and the pre-1997 seasons of players
 who span it (e.g. Dre' Bly's 1996). Everything from 1997 on is complete.
 
-## Pipeline stages & status
+## Pipeline stages & status — ALL DONE (PR open, not merged)
 
-- [x] **Stage 0 — scaffold**: branch `data/unc-football`, this doc, platform
-      probe (Sidearm, floor 2016), gap-source map.
-- [x] **Stage 1 — Sidearm fetch (2016–2025)**: 277 players / 548 rows.
-- [ ] **Stage 2 — gap years**: 2003–2011 from the archived OCSN `teamcume.html`
-      pages (write a fetch+parse pair modelled on `data-work/vt/fetch-gap.mjs`
-      + `parse-gap.mjs`, incl. the **printed-Total checksum** on every parsed
-      column); then find/decide the 1994–2002 source (see candidates above).
-- [ ] **Stage 3 — merge + curate**: person merge with the year-adjacency guard;
-      **carry the VT offense-code-on-defenders fix**; SR cross-validation sweep
-      (phantoms/holes/deltas); cited position research for the unresolved;
-      composite-floor trim; QB rushing lines; ids; redshirtYears.
-- [ ] **Stage 4 — honors**: award-first derivation. UNC's official site
-      (goheels.com) + the archived tarheelblue honors pages are primary; the
-      per-year All-ACC Wikipedia articles (VT's `parse-honors-wiki.mjs` reader
-      handles them) fill the rest. Attach + **verify-honors-style re-derive
-      diff** + an independent fact-check sample.
-- [ ] **Stage 5 — ship**: build `src/data/unc-football.json`, wire
-      `src/data/index.ts` + `src/schools.ts`, guard tests green, docs, browser
-      verify (UNC single-school + auto-join of Full Football), PR + adversarial
-      review.
+- [x] Stage 0 scaffold · [x] Stage 1 Sidearm 2016-25 · [x] Stage 2 gap years
+      (official cumes 2000-09 + SR) · [x] Stage 3 merge + curate (cited research
+      for 56 positions) · [x] Stage 4 honors (100, verified) · [x] Stage 5 ship
+      (365 players, 458 tests green, browser-verified, PR open).
 
-## Next actions
-
-1. Write `data-work/unc/fetch-gap.mjs` — for each season 2003–2011, resolve the
-   newest CDX capture of `.../<yyyy>-<yyyy>/teamcume.html` and download it with
-   the **`id_` raw suffix**; store the snapshot URL per year for row citation.
-2. Write `parse-gap.mjs` for the Automated-ScoreBook fixed-width tables
-   (Pitt/VT precedent), validating every mapped column against the printed
-   Total row.
-3. Probe the 1994–2002 gap (candidates above) and record the decision here.
+**Open question for Alex: the 1997 floor** (see the section above). Everything
+from 1997 on is complete; 1994-96 is not sourceable without failing CI.
 
 ## Decisions log
 

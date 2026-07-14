@@ -42,8 +42,9 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
       and Virginia Tech all ship real per-season data (1994+, `_provisional:
 false`) with a cited `source` on every row and per-season honors. See
       `docs/DATA-SOURCING.md` for each school's source map.
-- [ ] **UNC football dataset** — the one live school still basketball-only; it
-      auto-joins Full Football the moment a real dataset lands.
+- [x] **UNC football dataset** — North Carolina ships real per-season data
+      (1997+, see DATA-SOURCING for why the floor is 1997) and has auto-joined
+      Full Football. **Every live school now ships both sports.**
 
 ## Multi-school
 
@@ -54,8 +55,9 @@ false`) with a cited `source` on every row and per-season honors. See
       real, gap-free, sourced dataset.
 - [x] **Full (cross-school) modes** — Full Basketball + Full Football spin a
       team AND an era each round, pooling every school with a real dataset.
-- [ ] **More schools** — end state: the live schools × both sports (UNC football
-      is the remaining gap).
+- [ ] **More schools** — the six live schools now ship every sport they field
+      (VCU has no football team). Adding a NEW school is the next frontier;
+      `data-work/unc/` and `data-work/vt/` are the committed recipes.
 
 ## Engine / quality
 
