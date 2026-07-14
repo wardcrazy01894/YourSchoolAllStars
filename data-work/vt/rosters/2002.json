@@ -1,0 +1,582 @@
+{
+ "season": 2002,
+ "teamId": 127664,
+ "api": "https://api.wmt.games/api/statistics/teams/127664/players?per_page=200",
+ "fetched": "2026-07-14T04:15:42.778Z",
+ "players": [
+  {
+   "personId": 184344,
+   "name": "Alex Markogiannakis",
+   "position": "LB",
+   "class": "Sr.",
+   "jersey": "39"
+  },
+  {
+   "personId": 188387,
+   "name": "Andrew Fleck",
+   "position": "TE",
+   "class": "Fr.",
+   "jersey": "93"
+  },
+  {
+   "personId": 184354,
+   "name": "Anthony Davis",
+   "position": "OL",
+   "class": "Sr.",
+   "jersey": "57"
+  },
+  {
+   "personId": 184360,
+   "name": "Anthony Nelson",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "67"
+  },
+  {
+   "personId": 184335,
+   "name": "Billy Hardee",
+   "position": "DB",
+   "class": "Sr.",
+   "jersey": "25"
+  },
+  {
+   "personId": 188403,
+   "name": "Blake Warren",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "40"
+  },
+  {
+   "personId": 188398,
+   "name": "Bob Ruff",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "54"
+  },
+  {
+   "personId": 184351,
+   "name": "Brandon Manning",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "48"
+  },
+  {
+   "personId": 188382,
+   "name": "Bryan Randall",
+   "position": "QB",
+   "class": "So.",
+   "jersey": "03"
+  },
+  {
+   "personId": 184352,
+   "name": "Carter Warley",
+   "position": "K",
+   "class": "Jr.",
+   "jersey": "49"
+  },
+  {
+   "personId": 232725,
+   "name": "Cary Wade",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "30"
+  },
+  {
+   "personId": 188391,
+   "name": "Cedric Humes",
+   "position": "RB",
+   "class": "Fr.",
+   "jersey": "34"
+  },
+  {
+   "personId": 184341,
+   "name": "Chad Cooper",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "33"
+  },
+  {
+   "personId": 184350,
+   "name": "Chris Buie",
+   "position": "LB",
+   "class": "Jr.",
+   "jersey": "46"
+  },
+  {
+   "personId": 188386,
+   "name": "Chris Clifton",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "16"
+  },
+  {
+   "personId": 188397,
+   "name": "Chris Pannell",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "94"
+  },
+  {
+   "personId": 188400,
+   "name": "Chris Shreve",
+   "position": "WR",
+   "class": "Jr.",
+   "jersey": "81"
+  },
+  {
+   "personId": 184380,
+   "name": "Cols Colas",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "99"
+  },
+  {
+   "personId": 188384,
+   "name": "Curtis Bradley",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "59"
+  },
+  {
+   "personId": 188402,
+   "name": "D.J. Walton",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "24"
+  },
+  {
+   "personId": 188394,
+   "name": "Danny McGrath",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "69"
+  },
+  {
+   "personId": 188408,
+   "name": "Darryl Tapp",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "58"
+  },
+  {
+   "personId": 188388,
+   "name": "DeAngelo Hall",
+   "position": "DB",
+   "class": "So.",
+   "jersey": "04"
+  },
+  {
+   "personId": 184346,
+   "name": "Doug Easlick",
+   "position": "RB",
+   "class": "Jr.",
+   "jersey": "43"
+  },
+  {
+   "personId": 184324,
+   "name": "Eric Green",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "01"
+  },
+  {
+   "personId": 184329,
+   "name": "Ernest Wilford",
+   "position": "WR",
+   "class": "Jr.",
+   "jersey": "19"
+  },
+  {
+   "personId": 188410,
+   "name": "Fred Lee",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "88"
+  },
+  {
+   "personId": 184328,
+   "name": "Garnell Wilds",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "17"
+  },
+  {
+   "personId": 184325,
+   "name": "Grant Noel",
+   "position": "QB",
+   "class": "Sr.",
+   "jersey": "11"
+  },
+  {
+   "personId": 232729,
+   "name": "Greg Burnop",
+   "position": "TE",
+   "class": "Fr.",
+   "jersey": "87"
+  },
+  {
+   "personId": 184356,
+   "name": "Jacob Gibson",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "60"
+  },
+  {
+   "personId": 184358,
+   "name": "Jake Grove",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "64"
+  },
+  {
+   "personId": 188383,
+   "name": "James Anderson",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "47"
+  },
+  {
+   "personId": 184365,
+   "name": "James Miller",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "76"
+  },
+  {
+   "personId": 184372,
+   "name": "Jared Mazzetta",
+   "position": "TE",
+   "class": "So.",
+   "jersey": "85"
+  },
+  {
+   "personId": 184376,
+   "name": "Jason Lallis",
+   "position": "DL",
+   "class": "So.",
+   "jersey": "91"
+  },
+  {
+   "personId": 188396,
+   "name": "Jason Murphy",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "72"
+  },
+  {
+   "personId": 188393,
+   "name": "Jeff King",
+   "position": "TE",
+   "class": "Fr.",
+   "jersey": "90"
+  },
+  {
+   "personId": 184378,
+   "name": "Jim Davis",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "95"
+  },
+  {
+   "personId": 188411,
+   "name": "Jimmy E. Williams",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "98"
+  },
+  {
+   "personId": 232728,
+   "name": "Jimmy Martin",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "52"
+  },
+  {
+   "personId": 188405,
+   "name": "Jimmy Williams",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "18"
+  },
+  {
+   "personId": 232727,
+   "name": "John Candelas",
+   "position": "RB",
+   "class": "Fr.",
+   "jersey": "44"
+  },
+  {
+   "personId": 184367,
+   "name": "Jon Dunn",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "79"
+  },
+  {
+   "personId": 184379,
+   "name": "Jon Mollerup",
+   "position": "K",
+   "class": "Sr.",
+   "jersey": "97"
+  },
+  {
+   "personId": 188409,
+   "name": "Jonathan Lewis",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "56"
+  },
+  {
+   "personId": 188401,
+   "name": "Jordan Trott",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "41"
+  },
+  {
+   "personId": 184345,
+   "name": "Josh Spence",
+   "position": "RB",
+   "class": "So.",
+   "jersey": "42"
+  },
+  {
+   "personId": 188389,
+   "name": "Justin Hamilton",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "27"
+  },
+  {
+   "personId": 184373,
+   "name": "Keith Willis",
+   "position": "TE",
+   "class": "Jr.",
+   "jersey": "86"
+  },
+  {
+   "personId": 184353,
+   "name": "Ken Keister",
+   "position": "OL",
+   "class": "Sr.",
+   "jersey": "55"
+  },
+  {
+   "personId": 188390,
+   "name": "Kevin Hilton",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "75"
+  },
+  {
+   "personId": 184362,
+   "name": "Kevin Jones",
+   "position": "RB",
+   "class": "So.",
+   "jersey": "07"
+  },
+  {
+   "personId": 184363,
+   "name": "Kevin Lewis",
+   "position": "DL",
+   "class": "So.",
+   "jersey": "70"
+  },
+  {
+   "personId": 184337,
+   "name": "Lamar Cobb",
+   "position": "DL",
+   "class": "Sr.",
+   "jersey": "28"
+  },
+  {
+   "personId": 184333,
+   "name": "Lee Suggs",
+   "position": "RB",
+   "class": "Sr.",
+   "jersey": "22"
+  },
+  {
+   "personId": 184364,
+   "name": "Luke Owens",
+   "position": "OL",
+   "class": "Sr.",
+   "jersey": "74"
+  },
+  {
+   "personId": 188404,
+   "name": "Marcus Vick",
+   "position": "QB",
+   "class": "Fr.",
+   "jersey": "05"
+  },
+  {
+   "personId": 184377,
+   "name": "Mark Costen",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "92"
+  },
+  {
+   "personId": 184332,
+   "name": "Michael Crawford",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "21"
+  },
+  {
+   "personId": 184349,
+   "name": "Mikal Baaqee",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "45"
+  },
+  {
+   "personId": 184340,
+   "name": "Mike Daniels",
+   "position": "DB",
+   "class": "So.",
+   "jersey": "31"
+  },
+  {
+   "personId": 188407,
+   "name": "Mike Imoh",
+   "position": "RB",
+   "class": "Fr.",
+   "jersey": "20"
+  },
+  {
+   "personId": 184371,
+   "name": "Nathaniel Adibi",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "83"
+  },
+  {
+   "personId": 188406,
+   "name": "Nic Schmitt",
+   "position": "K",
+   "class": "Fr.",
+   "jersey": "23"
+  },
+  {
+   "personId": 188385,
+   "name": "Reggie Butler",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "61"
+  },
+  {
+   "personId": 184326,
+   "name": "Richard Johnson",
+   "position": "WR",
+   "class": "So.",
+   "jersey": "12"
+  },
+  {
+   "personId": 184374,
+   "name": "Robert Peaslee",
+   "position": "P",
+   "class": "Jr.",
+   "jersey": "89"
+  },
+  {
+   "personId": 184361,
+   "name": "Robert Ramsey",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "68"
+  },
+  {
+   "personId": 184330,
+   "name": "Ronyell Whitaker",
+   "position": "DB",
+   "class": "Sr.",
+   "jersey": "02"
+  },
+  {
+   "personId": 184338,
+   "name": "Sam Fatherly",
+   "position": "DB",
+   "class": "So.",
+   "jersey": "29"
+  },
+  {
+   "personId": 184336,
+   "name": "Shawn Witten",
+   "position": "WR",
+   "class": "Sr.",
+   "jersey": "26"
+  },
+  {
+   "personId": 232726,
+   "name": "Steve Canter",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "37"
+  },
+  {
+   "personId": 184375,
+   "name": "Terrell Parham",
+   "position": "WR",
+   "class": "Sr.",
+   "jersey": "09"
+  },
+  {
+   "personId": 188399,
+   "name": "Tim Sandidge",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "71"
+  },
+  {
+   "personId": 184357,
+   "name": "Travis Conway",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "62"
+  },
+  {
+   "personId": 184355,
+   "name": "Vegas Robinson",
+   "position": "LB",
+   "class": "Jr.",
+   "jersey": "06"
+  },
+  {
+   "personId": 184368,
+   "name": "Vincent Fuller",
+   "position": "DB",
+   "class": "So.",
+   "jersey": "08"
+  },
+  {
+   "personId": 184343,
+   "name": "Vinnie Burns",
+   "position": "P",
+   "class": "So.",
+   "jersey": "38"
+  },
+  {
+   "personId": 188392,
+   "name": "Will Hunt",
+   "position": "QB",
+   "class": "Fr.",
+   "jersey": "13"
+  },
+  {
+   "personId": 188395,
+   "name": "Will Montgomery",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "66"
+  },
+  {
+   "personId": 184342,
+   "name": "Willie Pile",
+   "position": "DB",
+   "class": "Sr.",
+   "jersey": "35"
+  }
+ ]
+}
