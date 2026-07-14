@@ -71,9 +71,14 @@ In priority order (docs/DATA-SOURCING.md source policy):
 ## Pipeline stages & status
 
 - [x] **Stage 0 — scaffold**: branch `data/vt-football`, this doc, team-id map.
-- [ ] **Stage 1 — WMT fetch (2013–2025)**: `data-work/vt/fetch-wmt.mjs` →
-      commit raw per-season parsed drafts to `data-work/vt/wmt/<season>.json`
-      (one file per season so partial progress survives).
+- [x] **Stage 1 — WMT fetch (2013–2025)**: `data-work/vt/fetch-wmt.mjs` →
+      `data-work/vt/wmt/<season>.json`, 13 seasons, 51–65 stat rows each
+      (idempotent; re-run with `--force` to refresh). Spot-checked: Evans 2016
+      3552/29/8 + 846/12 rush ✓, Thomas 2013 2907/16/13 ✓. **Known suspect for
+      Stage 3:** Burmeister 2021 `rec:1, recYds:3, recTD:2` (impossible line —
+      WMT xml-aggregation glitch class; SR cross-validation must resolve).
+      pbu = sPassesBrokenUp (pure breakups, matches shipped datasets);
+      QB rushYds is NCAA net.
 - [ ] **Stage 2 — gap years (1994–2012)**: probe sources (above), parse into
       `data-work/vt/gap/<season>.json` with per-row `source` URLs.
 - [ ] **Stage 3 — merge + curate**: merge persons across years (beware
@@ -93,11 +98,13 @@ In priority order (docs/DATA-SOURCING.md source policy):
 
 ## Next actions
 
-1. Write `data-work/vt/fetch-wmt.mjs` (WMT API → FbSeason-draft JSON per
-   season, source URL = the hokiesports stats page for that season:
-   `https://hokiesports.com/sports/football/stats/season/<season>`).
-   Run for 2013–2025; commit per-season outputs.
-2. Probe Wayback CDX for old hokiesports.com stats archive (gap years).
+1. Probe Wayback CDX for old hokiesports.com stats archive (gap years
+   1994–2012): `hokiesports.com/football/stats*`, `/football/archives*`,
+   OCSN-era `*teamcume.html`. Verify capture dates are POST-season.
+2. Parse whatever the archive covers into `data-work/vt/gap/<season>.json`
+   (same row shape as wmt/, `source` = the Wayback URL).
+3. Fill remaining holes from SR season pages via Wayback
+   (offense all years; defense 2005+ full, pre-2005 INT-only).
 
 ## Decisions log
 

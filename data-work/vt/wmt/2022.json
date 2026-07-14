@@ -1,0 +1,786 @@
+{
+ "season": 2022,
+ "teamId": 544615,
+ "source": "https://hokiesports.com/sports/football/stats/season/2022",
+ "api": "https://api.wmt.games/api/statistics/teams/544615/players?per_page=200",
+ "fetched": "2026-07-14T04:07:37.750Z",
+ "rosterCount": 123,
+ "noStatBlock": 41,
+ "players": [
+  {
+   "personId": 2074049,
+   "name": "Alan Tisdale",
+   "position": "LB",
+   "class": "Sr.",
+   "games": 5,
+   "gamesStarted": 5,
+   "stats": {
+    "tackles": 36,
+    "tfl": 1,
+    "sacks": 1
+   }
+  },
+  {
+   "personId": 2106304,
+   "name": "Armani Chatman",
+   "position": "DB",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "tackles": 22,
+    "tfl": 1,
+    "defInt": 1,
+    "pbu": 5
+   }
+  },
+  {
+   "personId": 2228390,
+   "name": "Brion Murray",
+   "position": "DB",
+   "class": "Sr.",
+   "games": 7,
+   "gamesStarted": 3,
+   "stats": {
+    "tackles": 17,
+    "tfl": 1,
+    "sacks": 1,
+    "pbu": 2
+   }
+  },
+  {
+   "personId": 2751662,
+   "name": "Bryce Duke",
+   "position": "RB",
+   "class": "Fr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "rushYds": 59,
+    "rec": 3,
+    "recYds": 29,
+    "recTD": 1
+   }
+  },
+  {
+   "personId": 2577004,
+   "name": "C.J. McCray",
+   "position": "DL",
+   "class": "So.",
+   "games": 11,
+   "gamesStarted": 1,
+   "stats": {
+    "tackles": 20,
+    "tfl": 2.5,
+    "sacks": 2,
+    "ff": 1
+   }
+  },
+  {
+   "personId": 2751660,
+   "name": "Cam Johnson",
+   "position": "DB",
+   "class": "Fr.",
+   "games": 2,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "personId": 2074067,
+   "name": "Chamarri Conner",
+   "position": "DB",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "tackles": 67,
+    "tfl": 2,
+    "pbu": 2
+   }
+  },
+  {
+   "personId": 2576730,
+   "name": "Chance Black",
+   "position": "RB",
+   "class": "Fr.",
+   "games": 11,
+   "gamesStarted": 1,
+   "stats": {
+    "rushYds": 119,
+    "rec": 3,
+    "recYds": 23
+   }
+  },
+  {
+   "personId": 2577039,
+   "name": "Christian Moss",
+   "position": "WR",
+   "class": "Fr.",
+   "games": 6,
+   "gamesStarted": 0,
+   "stats": {
+    "rec": 6,
+    "recYds": 71
+   }
+  },
+  {
+   "personId": 2074223,
+   "name": "Cole Beck",
+   "position": "WR",
+   "class": "Sr.",
+   "games": 10,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2577113,
+   "name": "Cole Nelson",
+   "position": "DL",
+   "class": "So.",
+   "games": 11,
+   "gamesStarted": 2,
+   "stats": {
+    "tackles": 24,
+    "tfl": 5.5,
+    "sacks": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "personId": 2041802,
+   "name": "Connor Blumrick",
+   "position": "TE",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 3,
+   "stats": {
+    "rushYds": -1,
+    "rec": 8,
+    "recYds": 88
+   }
+  },
+  {
+   "personId": 2577018,
+   "name": "Da'Wain Lofton",
+   "position": "WR",
+   "class": "So.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "rushYds": -3,
+    "rec": 22,
+    "recYds": 254,
+    "recTD": 2,
+    "tackles": 3
+   }
+  },
+  {
+   "personId": 2751661,
+   "name": "Dae'Quan Wright",
+   "position": "TE",
+   "class": "Fr.",
+   "games": 7,
+   "gamesStarted": 1,
+   "stats": {
+    "rec": 19,
+    "recYds": 208
+   }
+  },
+  {
+   "personId": 2073944,
+   "name": "Dax Hollifield",
+   "position": "LB",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "tackles": 82,
+    "tfl": 6.5,
+    "sacks": 2,
+    "pbu": 6,
+    "ff": 1
+   }
+  },
+  {
+   "personId": 2228423,
+   "name": "Dean Ferguson",
+   "position": "LB",
+   "class": "Jr.",
+   "games": 5,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2576904,
+   "name": "DJ Harvey",
+   "position": "DB",
+   "class": "Fr.",
+   "games": 10,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 6,
+    "tfl": 1,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "personId": 2413347,
+   "name": "Dorian Strong",
+   "position": "DB",
+   "class": "Jr.",
+   "games": 4,
+   "gamesStarted": 4,
+   "stats": {
+    "tackles": 10,
+    "pbu": 3
+   }
+  },
+  {
+   "personId": 1909504,
+   "name": "Drake De Iuliis",
+   "position": "TE",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 2,
+   "stats": {
+    "rec": 3,
+    "recYds": 14,
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2576936,
+   "name": "Elijah Howard",
+   "position": "DB",
+   "class": "Fr.",
+   "games": 9,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "personId": 2238477,
+   "name": "Grant Wells",
+   "position": "QB",
+   "class": "Jr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "passYds": 2171,
+    "passTD": 9,
+    "passInt": 9,
+    "rushYds": 205,
+    "rushTD": 6
+   }
+  },
+  {
+   "personId": 2228332,
+   "name": "J.R. Walker",
+   "position": "LB",
+   "class": "Jr.",
+   "games": 10,
+   "gamesStarted": 2,
+   "stats": {
+    "tackles": 18,
+    "tfl": 2
+   }
+  },
+  {
+   "personId": 2576913,
+   "name": "Jack Hollifield",
+   "position": "OL",
+   "class": "Fr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "personId": 1912163,
+   "name": "Jadan Blue",
+   "position": "WR",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 5,
+   "stats": {
+    "rec": 12,
+    "recYds": 128,
+    "recTD": 1,
+    "tackles": 2
+   }
+  },
+  {
+   "personId": 2576988,
+   "name": "Jaden Keller",
+   "position": "LB",
+   "class": "Fr.",
+   "games": 11,
+   "gamesStarted": 2,
+   "stats": {
+    "tackles": 25,
+    "tfl": 1.5,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "personId": 1909526,
+   "name": "Jalen Holston",
+   "position": "RB",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "rushYds": 321,
+    "rushTD": 5,
+    "rec": 10,
+    "recYds": 66,
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2576942,
+   "name": "Jalen Hoyle",
+   "position": "DB",
+   "class": "Fr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 6,
+    "tfl": 1
+   }
+  },
+  {
+   "personId": 2577410,
+   "name": "Jalen Stroman",
+   "position": "DB",
+   "class": "So.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 43,
+    "pbu": 2,
+    "ff": 2
+   }
+  },
+  {
+   "personId": 1900013,
+   "name": "Jason Brown",
+   "position": "QB",
+   "class": "Sr.",
+   "games": 3,
+   "gamesStarted": 0,
+   "stats": {
+    "passYds": 65,
+    "rushYds": -9,
+    "rushTD": 0
+   }
+  },
+  {
+   "personId": 2577005,
+   "name": "Jayden McDonald",
+   "position": "LB",
+   "class": "Fr.",
+   "games": 10,
+   "gamesStarted": 3,
+   "stats": {
+    "tackles": 20,
+    "tfl": 3,
+    "sacks": 1
+   }
+  },
+  {
+   "personId": 1909524,
+   "name": "Jaylen Griffin",
+   "position": "DL",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 10,
+   "stats": {
+    "tackles": 27,
+    "tfl": 5.5,
+    "sacks": 2
+   }
+  },
+  {
+   "personId": 2576973,
+   "name": "Jaylen Jones",
+   "position": "WR",
+   "class": "So.",
+   "games": 10,
+   "gamesStarted": 0,
+   "stats": {
+    "rec": 3,
+    "recYds": 37,
+    "tackles": 2,
+    "ff": 1
+   }
+  },
+  {
+   "personId": 2751726,
+   "name": "John Love",
+   "position": "K",
+   "class": "Fr.",
+   "games": 2,
+   "gamesStarted": 0,
+   "stats": {
+    "rushYds": 11
+   }
+  },
+  {
+   "personId": 2577021,
+   "name": "Jorden McDonald",
+   "position": "DE",
+   "class": "Fr.",
+   "games": 5,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "personId": 2228536,
+   "name": "Josh Fuga",
+   "position": "DL",
+   "class": "Jr.",
+   "games": 10,
+   "gamesStarted": 5,
+   "stats": {
+    "tackles": 12,
+    "tfl": 2,
+    "sacks": 0.5,
+    "pbu": 2
+   }
+  },
+  {
+   "personId": 2228607,
+   "name": "Justin Pollock",
+   "position": "LS",
+   "class": "Jr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2074276,
+   "name": "Kaleb Smith",
+   "position": "WR",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 10,
+   "stats": {
+    "rec": 37,
+    "recYds": 674,
+    "recTD": 3
+   }
+  },
+  {
+   "personId": 2576995,
+   "name": "Keli Lawson",
+   "position": "LB",
+   "class": "Fr.",
+   "games": 8,
+   "gamesStarted": 1,
+   "stats": {
+    "tackles": 23,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "personId": 2413350,
+   "name": "Keonta Jenkins",
+   "position": "LB",
+   "class": "Jr.",
+   "games": 11,
+   "gamesStarted": 9,
+   "stats": {
+    "tackles": 40,
+    "tfl": 2,
+    "defInt": 1,
+    "pbu": 3
+   }
+  },
+  {
+   "personId": 2228335,
+   "name": "Keshawn King",
+   "position": "RB",
+   "class": "Jr.",
+   "games": 9,
+   "gamesStarted": 8,
+   "stats": {
+    "rushYds": 443,
+    "rushTD": 3,
+    "rec": 20,
+    "recYds": 137,
+    "recTD": 1
+   }
+  },
+  {
+   "personId": 2074050,
+   "name": "Keshon Artis",
+   "position": "LB",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 10,
+    "tfl": 1.5
+   }
+  },
+  {
+   "personId": 2751616,
+   "name": "Keyshawn Burgos",
+   "position": "DL",
+   "class": "Fr.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 3,
+    "tfl": 0.5
+   }
+  },
+  {
+   "personId": 2751626,
+   "name": "Kyree Moyston",
+   "position": "DL",
+   "class": "Fr.",
+   "games": 4,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1,
+    "tfl": 0.5
+   }
+  },
+  {
+   "personId": 2228374,
+   "name": "Luke Bussel",
+   "position": "WR",
+   "class": "Jr.",
+   "games": 8,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2751678,
+   "name": "Malachi Madison",
+   "position": "DL",
+   "class": "Fr.",
+   "games": 2,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2577413,
+   "name": "Malachi Thomas",
+   "position": "RB",
+   "class": "So.",
+   "games": 3,
+   "gamesStarted": 2,
+   "stats": {
+    "rushYds": 146,
+    "rushTD": 1,
+    "rec": 13,
+    "recYds": 91,
+    "recTD": 1
+   }
+  },
+  {
+   "personId": 2751627,
+   "name": "Mansoor Delane",
+   "position": "DB",
+   "class": "Fr.",
+   "games": 8,
+   "gamesStarted": 4,
+   "stats": {
+    "tackles": 38,
+    "tfl": 3.5,
+    "defInt": 1,
+    "pbu": 8,
+    "ff": 2
+   }
+  },
+  {
+   "personId": 2228564,
+   "name": "Mario Kendricks",
+   "position": "DL",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 6,
+   "stats": {
+    "tackles": 19,
+    "tfl": 5,
+    "sacks": 1,
+    "pbu": 3
+   }
+  },
+  {
+   "personId": 2074069,
+   "name": "Nasir Peoples",
+   "position": "DB",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "tackles": 61,
+    "tfl": 4.5,
+    "pbu": 1
+   }
+  },
+  {
+   "personId": 2228525,
+   "name": "Nick Gallo",
+   "position": "TE",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "rec": 30,
+    "recYds": 256
+   }
+  },
+  {
+   "personId": 2228600,
+   "name": "Norell Pollard",
+   "position": "DL",
+   "class": "Sr.",
+   "games": 11,
+   "gamesStarted": 11,
+   "stats": {
+    "tackles": 15,
+    "tfl": 3,
+    "sacks": 1.5,
+    "pbu": 1
+   }
+  },
+  {
+   "personId": 2228381,
+   "name": "Ny'Quee Hawkins",
+   "position": "DB",
+   "class": "Jr.",
+   "games": 9,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 25,
+    "tfl": 0.5
+   }
+  },
+  {
+   "personId": 2576962,
+   "name": "Nyke Johnson",
+   "position": "DB",
+   "class": "Fr.",
+   "games": 8,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "personId": 2420177,
+   "name": "Stephen Gosnell",
+   "position": "WR",
+   "class": "Jr.",
+   "games": 9,
+   "gamesStarted": 1,
+   "stats": {
+    "rec": 10,
+    "recYds": 134,
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 2751658,
+   "name": "Tucker Holloway",
+   "position": "WR",
+   "class": "Fr.",
+   "games": 5,
+   "gamesStarted": 0,
+   "stats": {
+    "rec": 3,
+    "recYds": 18,
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 1952047,
+   "name": "Ty Eller",
+   "position": "TE",
+   "class": "Sr.",
+   "games": 9,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "personId": 1909518,
+   "name": "TyJuan Garbutt",
+   "position": "DL",
+   "class": "Sr.",
+   "games": 9,
+   "gamesStarted": 9,
+   "stats": {
+    "tackles": 29,
+    "tfl": 12,
+    "sacks": 6.5,
+    "pbu": 1,
+    "ff": 2
+   }
+  },
+  {
+   "personId": 2413328,
+   "name": "Wilfried Pene",
+   "position": "DL",
+   "class": "So.",
+   "games": 11,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 12,
+    "tfl": 2,
+    "sacks": 0.5
+   }
+  },
+  {
+   "personId": 2576967,
+   "name": "Will Johnson",
+   "position": "LB",
+   "class": "Fr.",
+   "games": 1,
+   "gamesStarted": 0,
+   "stats": {
+    "tackles": 2,
+    "tfl": 0.5
+   }
+  },
+  {
+   "personId": 2228472,
+   "name": "Will Kakavitsas",
+   "position": "WR",
+   "class": "Jr.",
+   "games": 8,
+   "gamesStarted": 0,
+   "stats": {
+    "rec": 1,
+    "recYds": 8
+   }
+  }
+ ]
+}
