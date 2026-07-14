@@ -21,7 +21,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
-const FIRST = 1997
+const FIRST = 1994
 const LAST = 2025
 
 const FINE = new Set(['QB', 'RB', 'WR', 'TE', 'DE', 'DT', 'LB', 'CB', 'S'])

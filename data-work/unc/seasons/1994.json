@@ -1,0 +1,243 @@
+{
+ "year": 1994,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Jason Stanicek",
+   "position": "QB",
+   "stats": {
+    "passYds": 1222,
+    "passTD": 7,
+    "passInt": 7,
+    "rushYds": 281,
+    "rushTD": 3
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Mike Thomas",
+   "position": "QB",
+   "stats": {
+    "passYds": 715,
+    "passTD": 8,
+    "passInt": 3,
+    "rushYds": 45,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Octavus Barnes",
+   "position": "WR",
+   "stats": {
+    "passYds": 48,
+    "passTD": 1,
+    "rushYds": 10,
+    "rec": 32,
+    "recYds": 609,
+    "recTD": 3
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Tucker Perry",
+   "position": "QB",
+   "stats": {
+    "passYds": 1,
+    "rushYds": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Malcolm Marshall",
+   "position": "RB",
+   "stats": {
+    "rushYds": 198,
+    "rushTD": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "William Henderson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 251,
+    "rushTD": 1,
+    "rec": 1,
+    "recYds": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "_ Patton",
+   "position": null,
+   "stats": {
+    "rec": 1,
+    "recYds": 17
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Mike Geter",
+   "position": "RB",
+   "stats": {
+    "rushYds": 56,
+    "rec": 2,
+    "recYds": 12
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Maurice McGregor",
+   "position": "RB",
+   "stats": {
+    "rushYds": 23,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Marcus Wall",
+   "position": "WR",
+   "stats": {
+    "rushYds": 31,
+    "rushTD": 1,
+    "rec": 29,
+    "recYds": 569,
+    "recTD": 9
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Chris Watson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 65
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Leon Johnson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 805,
+    "rushTD": 7,
+    "rec": 29,
+    "recYds": 266,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Jonathan Linton",
+   "position": "RB",
+   "stats": {
+    "rushYds": 19
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Greg DeLong",
+   "position": "TE",
+   "stats": {
+    "rec": 12,
+    "recYds": 141
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Freddie Jones",
+   "position": "TE",
+   "stats": {
+    "rec": 4,
+    "recYds": 30
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Darrin Ashford",
+   "position": "WR",
+   "stats": {
+    "rec": 17,
+    "recYds": 240,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Curtis Johnson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 721,
+    "rushTD": 7,
+    "rec": 10,
+    "recYds": 101
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Fuzzy Lee",
+   "position": "DB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "James Hamilton",
+   "position": "LB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Mike Morton",
+   "position": "LB",
+   "stats": {
+    "defInt": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "DB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Oscar Sturgis",
+   "position": "DL",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "DB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Sean Boyd",
+   "position": "DB",
+   "stats": {
+    "defInt": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "DB",
+   "stats": {
+    "defInt": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  }
+ ]
+}

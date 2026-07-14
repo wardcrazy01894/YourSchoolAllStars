@@ -241,9 +241,11 @@
    "name": "Keith Newman",
    "position": "Linebacker",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 132,
+    "sacks": 4
    },
-   "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+   "source": "https://en.wikipedia.org/wiki/Keith_Newman"
   },
   {
    "name": "Sedrick Hodge",
@@ -260,6 +262,33 @@
     "defInt": 5
    },
    "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "position": "DE",
+   "stats": {
+    "tfl": 23
+   },
+   "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
+  },
+  {
+   "name": "Ryan Sims",
+   "position": "DT",
+   "stats": {
+    "tackles": 31,
+    "tfl": 4,
+    "sacks": 2
+   },
+   "source": "https://www.footballdb.com/players/ryan-sims-simsry01"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": "LB",
+   "stats": {
+    "tackles": 138,
+    "sacks": 5
+   },
+   "source": "https://goheels.com/sports/football/roster/brandon-spoon/2980"
   }
  ]
 }

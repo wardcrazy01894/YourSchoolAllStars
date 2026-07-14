@@ -1237,506 +1237,6 @@
  ],
  "holes": [
   {
-   "srName": "jason stanicek",
-   "year": 1994,
-   "stats": {
-    "passYds": 1222,
-    "passTD": 7,
-    "passInt": 7,
-    "rushYds": 281,
-    "rushTD": 3,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "mike thomas",
-   "year": 1994,
-   "stats": {
-    "passYds": 715,
-    "passTD": 8,
-    "passInt": 3,
-    "rushYds": 45,
-    "rushTD": 1,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "mike thomas",
-   "year": 1995,
-   "stats": {
-    "passYds": 2436,
-    "passTD": 10,
-    "passInt": 19,
-    "rushYds": 53,
-    "rushTD": 1,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "octavus barnes",
-   "year": 1994,
-   "stats": {
-    "passYds": 48,
-    "passTD": 1,
-    "passInt": 0,
-    "rushYds": 10,
-    "rushTD": 0,
-    "rec": 32,
-    "recYds": 609,
-    "recTD": 3
-   }
-  },
-  {
-   "srName": "octavus barnes",
-   "year": 1995,
-   "stats": {
-    "rushYds": -10,
-    "rushTD": 0,
-    "rec": 53,
-    "recYds": 970,
-    "recTD": 5
-   }
-  },
-  {
-   "srName": "octavus barnes",
-   "year": 1996,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 23,
-    "recYds": 378,
-    "recTD": 6
-   }
-  },
-  {
-   "srName": "malcolm marshall",
-   "year": 1994,
-   "stats": {
-    "rushYds": 198,
-    "rushTD": 2,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "william henderson",
-   "year": 1994,
-   "stats": {
-    "rushYds": 251,
-    "rushTD": 1,
-    "rec": 1,
-    "recYds": 1,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "mike geter",
-   "year": 1994,
-   "stats": {
-    "rushYds": 56,
-    "rushTD": 0,
-    "rec": 2,
-    "recYds": 12,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "mike geter",
-   "year": 1995,
-   "stats": {
-    "rushYds": 134,
-    "rushTD": 1,
-    "rec": 2,
-    "recYds": 11,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "mike geter",
-   "year": 1996,
-   "stats": {
-    "rushYds": 95,
-    "rushTD": 1,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "maurice mcgregor",
-   "year": 1995,
-   "stats": {
-    "rushYds": 40,
-    "rushTD": 1,
-    "rec": 1,
-    "recYds": 4,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "maurice mcgregor",
-   "year": 1996,
-   "stats": {
-    "rushYds": 132,
-    "rushTD": 2,
-    "rec": 2,
-    "recYds": 10,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "marcus wall",
-   "year": 1994,
-   "stats": {
-    "rushYds": 31,
-    "rushTD": 1,
-    "rec": 29,
-    "recYds": 569,
-    "recTD": 9
-   }
-  },
-  {
-   "srName": "marcus wall",
-   "year": 1995,
-   "stats": {
-    "rushYds": 2,
-    "rushTD": 0,
-    "rec": 28,
-    "recYds": 424,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "chris watson",
-   "year": 1994,
-   "stats": {
-    "rushYds": 65,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "chris watson",
-   "year": 1995,
-   "stats": {
-    "rushYds": 131,
-    "rushTD": 0,
-    "rec": 8,
-    "recYds": 76,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "chris watson",
-   "year": 1996,
-   "stats": {
-    "rushYds": 64,
-    "rushTD": 1,
-    "rec": 13,
-    "recYds": 101,
-    "recTD": 2
-   }
-  },
-  {
-   "srName": "leon johnson",
-   "year": 1994,
-   "stats": {
-    "rushYds": 805,
-    "rushTD": 7,
-    "rec": 29,
-    "recYds": 266,
-    "recTD": 2
-   }
-  },
-  {
-   "srName": "leon johnson",
-   "year": 1995,
-   "stats": {
-    "passYds": 90,
-    "passTD": 1,
-    "passInt": 0,
-    "rushYds": 963,
-    "rushTD": 12,
-    "rec": 54,
-    "recYds": 408,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "leon johnson",
-   "year": 1996,
-   "stats": {
-    "passYds": 40,
-    "passTD": 0,
-    "passInt": 0,
-    "rushYds": 913,
-    "rushTD": 10,
-    "rec": 39,
-    "recYds": 381,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "jonathan linton",
-   "year": 1995,
-   "stats": {
-    "rushYds": 350,
-    "rushTD": 4,
-    "rec": 8,
-    "recYds": 67,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "jonathan linton",
-   "year": 1996,
-   "stats": {
-    "rushYds": 200,
-    "rushTD": 0,
-    "rec": 5,
-    "recYds": 56,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "greg delong",
-   "year": 1994,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 12,
-    "recYds": 141,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "freddie jones",
-   "year": 1994,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 4,
-    "recYds": 30,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "freddie jones",
-   "year": 1995,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 16,
-    "recYds": 182,
-    "recTD": 2
-   }
-  },
-  {
-   "srName": "freddie jones",
-   "year": 1996,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 32,
-    "recYds": 288,
-    "recTD": 4
-   }
-  },
-  {
-   "srName": "darrin ashford",
-   "year": 1994,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 17,
-    "recYds": 240,
-    "recTD": 2
-   }
-  },
-  {
-   "srName": "darrin ashford",
-   "year": 1995,
-   "stats": {
-    "rushYds": 7,
-    "rushTD": 0,
-    "rec": 9,
-    "recYds": 189,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "darrin ashford",
-   "year": 1996,
-   "stats": {
-    "rushYds": -14,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 37,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "curtis johnson",
-   "year": 1994,
-   "stats": {
-    "rushYds": 721,
-    "rushTD": 7,
-    "rec": 10,
-    "recYds": 101,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "oscar davenport",
-   "year": 1995,
-   "stats": {
-    "passYds": 151,
-    "passTD": 1,
-    "passInt": 1,
-    "rushYds": -7,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "oscar davenport",
-   "year": 1996,
-   "stats": {
-    "passYds": 351,
-    "passTD": 2,
-    "passInt": 1,
-    "rushYds": 1,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "na brown",
-   "year": 1995,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 45,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "na brown",
-   "year": 1996,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 52,
-    "recYds": 534,
-    "recTD": 4
-   }
-  },
-  {
-   "srName": "marc montoro",
-   "year": 1995,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 10,
-    "recYds": 198,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "lc stevens",
-   "year": 1995,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 6,
-    "recYds": 90,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "lc stevens",
-   "year": 1996,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 44,
-    "recYds": 771,
-    "recTD": 7
-   }
-  },
-  {
-   "srName": "ebenezer ekuban",
-   "year": 1996,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 5,
-    "recYds": 62,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "chuckie parquet",
-   "year": 1995,
-   "stats": {
-    "rushYds": 35,
-    "rushTD": 1,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "chris keldorf",
-   "year": 1996,
-   "stats": {
-    "passYds": 2347,
-    "passTD": 23,
-    "passInt": 5,
-    "rushYds": -117,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "deon dyer",
-   "year": 1996,
-   "stats": {
-    "rushYds": 58,
-    "rushTD": 0,
-    "rec": 2,
-    "recYds": 39,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "jason peace",
-   "year": 1996,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 59,
-    "recTD": 0
-   }
-  },
-  {
    "srName": "dauntae' finger",
    "year": 1998,
    "stats": {
@@ -2922,6 +2422,18 @@
    "srOffVotes": {}
   },
   {
+   "name": "Sean Boyd",
+   "span": "1994-1995",
+   "composite": 6.4,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "Peter Mangum",
    "span": "2010-2012",
    "composite": 6.1,
@@ -3022,6 +2534,42 @@
    "name": "Jalon Thompson",
    "span": "2025-2025",
    "composite": 3.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Fuzzy Lee",
+   "span": "1994-1995",
+   "composite": 3.2,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Terry Billups",
+   "span": "1994-1996",
+   "composite": 3.2,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ronald Thomas",
+   "span": "1996-1996",
+   "composite": 3.2,
    "wmtVotes": {
     "DB": 1
    },
@@ -3208,6 +2756,18 @@
    "srOffVotes": {}
   },
   {
+   "name": "Oscar Sturgis",
+   "span": "1994-1994",
+   "composite": 1,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "Greg Warren",
    "span": "2001-2003",
    "composite": 1,
@@ -3245,6 +2805,14 @@
    "srDefVotes": {
     "DB": 1
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "_ Patton",
+   "span": "1994-1994",
+   "composite": 0.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {

@@ -254,6 +254,14 @@
     "defInt": 1
    },
    "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+  },
+  {
+   "name": "Ryan Sims",
+   "position": "DT",
+   "stats": {
+    "tackles": 33
+   },
+   "source": "https://www.footballdb.com/players/ryan-sims-simsry01"
   }
  ]
 }

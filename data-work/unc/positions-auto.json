@@ -1,12 +1,125 @@
 [
  {
-  "name": "Alge Crumpler",
+  "name": "Chris Watson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Curtis Johnson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Darrin Ashford",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Freddie Jones",
   "position": "TE",
   "basis": "wmt-fine"
  },
  {
-  "name": "Chris Keldorf",
+  "name": "Fuzzy Lee",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/bio792.aspx"
+ },
+ {
+  "name": "Greg DeLong",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "James Hamilton",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jason Stanicek",
   "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonathan Linton",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Leon Johnson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Malcolm Marshall",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marcus Wall",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Maurice McGregor",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Geter",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Morton",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Thomas",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Octavus Barnes",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Omar Brown",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Reggie Love",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sean Boyd",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.gettyimages.com/detail/news-photo/cornerback-sean-boyd-of-the-north-carolina-tarheels-news-photo/298332"
+ },
+ {
+  "name": "Terry Billups",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Terry_Billups"
+ },
+ {
+  "name": "Tucker Perry",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "William Henderson",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brian Simmons",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -15,13 +128,78 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Deon Dyer",
+  "name": "Darien Johnson",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "D.J. Williams",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ebenezer Ekuban",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "L.C. Stevens",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marc Montoro",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marcus Jones",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Michael Cordora",
   "position": "RB",
   "basis": "wmt-fine"
  },
  {
-  "name": "Domonique Williams",
+  "name": "Na Brown",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Oscar Davenport",
   "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shane Pierson",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Toney Coles",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Alge Crumpler",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Allen Mogridge",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Chris Keldorf",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Deon Dyer",
+  "position": "RB",
   "basis": "wmt-fine"
  },
  {
@@ -30,8 +208,8 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Greg Harris",
-  "position": "WR",
+  "name": "Greg Ellis",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -50,8 +228,28 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Jonathan Linton",
-  "position": "RB",
+  "name": "Robert Williams",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Russell Davis",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shawn Lyons",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Domonique Williams",
+  "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Harris",
+  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -61,46 +259,6 @@
  },
  {
   "name": "Kivuusama Mays",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "L.C. Stevens",
-  "position": "WR",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Mike Geter",
-  "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Na Brown",
-  "position": "WR",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Octavus Barnes",
-  "position": "WR",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Omar Brown",
-  "position": "S",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Oscar Davenport",
-  "position": "QB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Reggie Love",
-  "position": "CB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Robert Williams",
   "position": "LB",
   "basis": "wmt-fine"
  },
@@ -115,11 +273,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Allen Mogridge",
-  "position": "TE",
-  "basis": "wmt-fine"
- },
- {
   "name": "Anthony Saunders",
   "position": "RB",
   "basis": "wmt-fine"
@@ -127,6 +280,11 @@
  {
   "name": "Bosley Allen",
   "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Spoon",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -172,6 +330,11 @@
  {
   "name": "Rufus Brown",
   "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ryan Sims",
+  "position": "DT",
   "basis": "wmt-fine"
  },
  {
@@ -262,11 +425,6 @@
  {
   "name": "Brandon Russell",
   "position": "WR",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Brandon Spoon",
-  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -392,11 +550,6 @@
  {
   "name": "Ross McAllister",
   "position": "DE",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Ryan Sims",
-  "position": "DT",
   "basis": "wmt-fine"
  },
  {

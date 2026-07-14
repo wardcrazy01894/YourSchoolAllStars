@@ -217,6 +217,24 @@
     "defInt": 1
    },
    "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "DE",
+   "stats": {
+    "sacks": 9,
+    "tfl": 9
+   },
+   "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
+  },
+  {
+   "name": "Russell Davis",
+   "position": "DT",
+   "stats": {
+    "tackles": 60,
+    "sacks": 3
+   },
+   "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)"
   }
  ]
 }

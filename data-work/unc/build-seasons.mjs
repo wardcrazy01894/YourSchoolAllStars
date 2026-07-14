@@ -4,8 +4,15 @@
 // Output: data-work/unc/seasons/<year>.json — [{ name, position, stats, source }]
 //
 // SOURCE MAP (why each year comes from where — see PROGRESS.md):
-//   1997–1999  SR   offense complete; defense is INT-ONLY (SR has no tackle
-//                   table before 2005) — the documented Michigan-style floor.
+//   1994–1999  SR   offense complete; defense is INT-ONLY (SR publishes no
+//                   tackle table before 2005, and no other source publishes
+//                   UNC's per-player defense before 2000 — see PROGRESS.md).
+//                   These seasons are INCLUDED (Alex's call) so every stat and
+//                   honor we DO have is in the dataset; the missing pre-2000
+//                   defense is tracked by a FAILING guard test (Hall's
+//                   condition on the 1994-97/1995-98/1996-99 windows), which is
+//                   the precise, testable definition of what still has to be
+//                   sourced before this can merge.
 //   2000–2004  official archived cumes — the ONLY source of per-player defense
 //                   before SR's tackle table starts (2005)
 //   2005–2015  SR   (full defense from 2005, and more complete than the cumes,
@@ -33,8 +40,8 @@ const OUT_DIR = join(HERE, 'seasons')
 // cume-sourced 2005 lost its starting quarterback (and with him every passing
 // TD that season). Prefer SR wherever it carries the same stats.
 const SR_YEARS = new Set([
-  1997, 1998, 1999, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014,
-  2015,
+  1994, 1995, 1996, 1997, 1998, 1999, 2005, 2006, 2007, 2008, 2009, 2010, 2011,
+  2012, 2013, 2014, 2015,
 ])
 const CUME_YEARS = new Set([2000, 2001, 2002, 2003, 2004])
 
@@ -218,6 +225,40 @@ for (const year of [...CUME_YEARS].sort()) {
     )
     report.push(`${year}: ${players.length} rows (Sidearm)`)
   }
+}
+
+// ── official record-book supplement (1994–1999 defensive line) ───────────────
+// UNC publishes no per-player defense before 2000, but its official RECORD BOOK
+// names individual player-SEASONS on the sack / TFL leaderboards. Those are the
+// only 1994-99 defensive-line seasons any source carries, and without them the
+// early windows have no DE or DT at all. Merged in with their citation.
+{
+  const sup = JSON.parse(
+    readFileSync(join(HERE, 'record-book-supplement.json')),
+  )
+  let added = 0
+  for (const s of sup.seasons) {
+    const f = join(OUT_DIR, `${s.year}.json`)
+    if (!existsSync(f)) continue
+    const d = JSON.parse(readFileSync(f))
+    const key = norm(s.name)
+    const existing = d.players.find((p) => norm(p.name) === key)
+    if (existing) {
+      existing.stats = { ...existing.stats, ...s.stats }
+      existing.position = existing.position ?? s.position
+      existing.source = s.source ?? sup._source
+    } else {
+      d.players.push({
+        name: s.name,
+        position: s.position,
+        stats: s.stats,
+        source: s.source ?? sup._source,
+      })
+    }
+    writeFileSync(f, JSON.stringify(d, null, 1))
+    added++
+  }
+  report.push(`record book: merged ${added} supplemental 1994-99 DL seasons`)
 }
 
 for (const r of report) console.log(r)

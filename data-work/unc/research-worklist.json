@@ -1,6 +1,27 @@
 {
- "worklist": [],
+ "worklist": [
+  {
+   "name": "Ronald Thomas",
+   "span": "1996-1996",
+   "composite": 3.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  }
+ ],
  "dropBelowFloor": [
+  {
+   "name": "_ Patton",
+   "composite": 0.8
+  },
+  {
+   "name": "Oscar Sturgis",
+   "composite": 1
+  },
   {
    "name": "Jason Helton",
    "composite": 0.2

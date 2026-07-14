@@ -1,15 +1,1280 @@
 {
  "players": [
   {
-   "name": "Alge Crumpler",
-   "key": "alge crumpler",
+   "name": "_ Patton",
+   "key": "_ patton",
+   "position": null,
+   "positionVotes": {},
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rec": 1,
+      "recYds": 17
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Chris Watson",
+   "key": "chris watson",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 3
+   },
+   "firstYear": 1994,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 65
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 131,
+      "rec": 8,
+      "recYds": 76
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": 64,
+      "rushTD": 1,
+      "rec": 13,
+      "recYds": 101,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Curtis Johnson",
+   "key": "curtis johnson",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 721,
+      "rushTD": 7,
+      "rec": 10,
+      "recYds": 101
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Darrin Ashford",
+   "key": "darrin ashford",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 3
+   },
+   "firstYear": 1994,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rec": 17,
+      "recYds": 240,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 7,
+      "rec": 9,
+      "recYds": 189,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": -14,
+      "rec": 3,
+      "recYds": 37
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Freddie Jones",
+   "key": "freddie jones",
    "position": "TE",
    "positionVotes": {
     "TE": 3
    },
-   "firstYear": 1997,
+   "firstYear": 1994,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rec": 4,
+      "recYds": 30
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 16,
+      "recYds": 182,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 32,
+      "recYds": 288,
+      "recTD": 4
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Fuzzy Lee",
+   "key": "fuzzy lee",
+   "position": null,
+   "positionVotes": {
+    "DB": 2
+   },
+   "firstYear": 1994,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Greg DeLong",
+   "key": "greg delong",
+   "position": "TE",
+   "positionVotes": {
+    "TE": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rec": 12,
+      "recYds": 141
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "James Hamilton",
+   "key": "james hamilton",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Jason Stanicek",
+   "key": "jason stanicek",
+   "position": "QB",
+   "positionVotes": {
+    "QB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "passYds": 1222,
+      "passTD": 7,
+      "passInt": 7,
+      "rushYds": 281,
+      "rushTD": 3
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Jonathan Linton",
+   "key": "jonathan linton",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 4
+   },
+   "firstYear": 1994,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 19
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 350,
+      "rushTD": 4,
+      "rec": 8,
+      "recYds": 67
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": 200,
+      "rec": 5,
+      "recYds": 56,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rushYds": 1004,
+      "rushTD": 10,
+      "rec": 29,
+      "recYds": 286,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Leon Johnson",
+   "key": "leon johnson",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 3
+   },
+   "firstYear": 1994,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 805,
+      "rushTD": 7,
+      "rec": 29,
+      "recYds": 266,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "passYds": 90,
+      "passTD": 1,
+      "rushYds": 963,
+      "rushTD": 12,
+      "rec": 54,
+      "recYds": 408
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "passYds": 40,
+      "rushYds": 913,
+      "rushTD": 10,
+      "rec": 39,
+      "recYds": 381
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Malcolm Marshall",
+   "key": "malcolm marshall",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 198,
+      "rushTD": 2
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Marcus Wall",
+   "key": "marcus wall",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 2
+   },
+   "firstYear": 1994,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 31,
+      "rushTD": 1,
+      "rec": 29,
+      "recYds": 569,
+      "recTD": 9
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 2,
+      "rec": 28,
+      "recYds": 424,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Maurice McGregor",
+   "key": "maurice mcgregor",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 3
+   },
+   "firstYear": 1994,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 23,
+      "rushTD": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 40,
+      "rushTD": 1,
+      "rec": 1,
+      "recYds": 4
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": 132,
+      "rushTD": 2,
+      "rec": 2,
+      "recYds": 10
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Mike Geter",
+   "key": "mike geter",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 4
+   },
+   "firstYear": 1994,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 56,
+      "rec": 2,
+      "recYds": 12
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 134,
+      "rushTD": 1,
+      "rec": 2,
+      "recYds": 11
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": 95,
+      "rushTD": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rushYds": 245,
+      "rec": 5,
+      "recYds": 20
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Mike Morton",
+   "key": "mike morton",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 2
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Mike Thomas",
+   "key": "mike thomas",
+   "position": "QB",
+   "positionVotes": {
+    "QB": 2
+   },
+   "firstYear": 1994,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "passYds": 715,
+      "passTD": 8,
+      "passInt": 3,
+      "rushYds": 45,
+      "rushTD": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "passYds": 2436,
+      "passTD": 10,
+      "passInt": 19,
+      "rushYds": 53,
+      "rushTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Octavus Barnes",
+   "key": "octavus barnes",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 4
+   },
+   "firstYear": 1994,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "passYds": 48,
+      "passTD": 1,
+      "rushYds": 10,
+      "rec": 32,
+      "recYds": 609,
+      "recTD": 3
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": -10,
+      "rec": 53,
+      "recYds": 970,
+      "recTD": 5
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 23,
+      "recYds": 378,
+      "recTD": 6
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rec": 21,
+      "recYds": 441,
+      "recTD": 5
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Omar Brown",
+   "key": "omar brown",
+   "position": "S",
+   "positionVotes": {
+    "DB": 2,
+    "S": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "defInt": 2
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Oscar Sturgis",
+   "key": "oscar sturgis",
+   "position": null,
+   "positionVotes": {
+    "DL": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Reggie Love",
+   "key": "reggie love",
+   "position": "CB",
+   "positionVotes": {
+    "DB": 2,
+    "CB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Sean Boyd",
+   "key": "sean boyd",
+   "position": null,
+   "positionVotes": {
+    "DB": 2
+   },
+   "firstYear": 1994,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 2
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Terry Billups",
+   "key": "terry billups",
+   "position": null,
+   "positionVotes": {
+    "DB": 3
+   },
+   "firstYear": 1994,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Tucker Perry",
+   "key": "tucker perry",
+   "position": "QB",
+   "positionVotes": {
+    "QB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "passYds": 1,
+      "rushYds": 2
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "William Henderson",
+   "key": "william henderson",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 1
+   },
+   "firstYear": 1994,
+   "lastYear": 1994,
+   "seasons": [
+    {
+     "year": 1994,
+     "stats": {
+      "rushYds": 251,
+      "rushTD": 1,
+      "rec": 1,
+      "recYds": 1
+     },
+     "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Brian Simmons",
+   "key": "brian simmons",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 2
+   },
+   "firstYear": 1995,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 2
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 4
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Chuckie Parquet",
+   "key": "chuckie parquet",
+   "position": "WR",
+   "positionVotes": {
+    "QB": 1,
+    "WR": 3
+   },
+   "firstYear": 1995,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 35,
+      "rushTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 2,
+      "recYds": 18
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rec": 1,
+      "recYds": 6
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "rushYds": -4,
+      "rec": 2,
+      "recYds": 22
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Darien Johnson",
+   "key": "darien johnson",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 1,
+      "recYds": 9
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "D.J. Williams",
+   "key": "dj williams",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 1,
+      "recYds": 10
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "key": "ebenezer ekuban",
+   "position": "DE",
+   "positionVotes": {
+    "TE": 2,
+    "DE": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 1,
+      "recYds": 4,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 5,
+      "recYds": 62,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "tfl": 23
+     },
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "L.C. Stevens",
+   "key": "lc stevens",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 4
+   },
+   "firstYear": 1995,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 6,
+      "recYds": 90,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 44,
+      "recYds": 771,
+      "recTD": 7
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rec": 45,
+      "recYds": 727,
+      "recTD": 3
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "rec": 25,
+      "recYds": 414,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Marc Montoro",
+   "key": "marc montoro",
+   "position": "TE",
+   "positionVotes": {
+    "TE": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 10,
+      "recYds": 198,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Marcus Jones",
+   "key": "marcus jones",
+   "position": "DT",
+   "positionVotes": {
+    "DT": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "tfl": 19
+     },
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Michael Cordora",
+   "key": "michael cordora",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rushYds": 1,
+      "rushTD": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Na Brown",
+   "key": "na brown",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 4
+   },
+   "firstYear": 1995,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "rec": 3,
+      "recYds": 45
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 52,
+      "recYds": 534,
+      "recTD": 4
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rec": 55,
+      "recYds": 610,
+      "recTD": 4
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "rushYds": 48,
+      "rushTD": 1,
+      "rec": 55,
+      "recYds": 897,
+      "recTD": 6
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Oscar Davenport",
+   "key": "oscar davenport",
+   "position": "QB",
+   "positionVotes": {
+    "QB": 4
+   },
+   "firstYear": 1995,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "passYds": 151,
+      "passTD": 1,
+      "passInt": 1,
+      "rushYds": -7
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1996,
+     "stats": {
+      "passYds": 351,
+      "passTD": 2,
+      "passInt": 1,
+      "rushYds": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "passYds": 1380,
+      "passTD": 7,
+      "passInt": 3,
+      "rushYds": 12,
+      "rushTD": 2
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "passYds": 1208,
+      "passTD": 8,
+      "passInt": 3,
+      "rushYds": -63
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Shane Pierson",
+   "key": "shane pierson",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Toney Coles",
+   "key": "toney coles",
+   "position": "QB",
+   "positionVotes": {
+    "QB": 1
+   },
+   "firstYear": 1995,
+   "lastYear": 1995,
+   "seasons": [
+    {
+     "year": 1995,
+     "stats": {
+      "passYds": 10
+     },
+     "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Alge Crumpler",
+   "key": "alge crumpler",
+   "position": "TE",
+   "positionVotes": {
+    "TE": 4
+   },
+   "firstYear": 1996,
    "lastYear": 2000,
    "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "rushTD": 1,
+      "rec": 1,
+      "recYds": 4
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
     {
      "year": 1997,
      "stats": {
@@ -42,15 +1307,57 @@
    ]
   },
   {
+   "name": "Allen Mogridge",
+   "key": "allen mogridge",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 1,
+    "TE": 1
+   },
+   "firstYear": 1996,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": -3
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "rec": 4,
+      "recYds": 32,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
    "name": "Chris Keldorf",
    "key": "chris keldorf",
    "position": "QB",
    "positionVotes": {
-    "QB": 1
+    "QB": 2
    },
-   "firstYear": 1997,
+   "firstYear": 1996,
    "lastYear": 1997,
    "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "passYds": 2347,
+      "passTD": 23,
+      "passInt": 5,
+      "rushYds": -117
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
     {
      "year": 1997,
      "stats": {
@@ -66,46 +1373,25 @@
    ]
   },
   {
-   "name": "Chuckie Parquet",
-   "key": "chuckie parquet",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 2
-   },
-   "firstYear": 1997,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rec": 1,
-      "recYds": 6
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "rushYds": -4,
-      "rec": 2,
-      "recYds": 22
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
    "name": "Deon Dyer",
    "key": "deon dyer",
    "position": "RB",
    "positionVotes": {
-    "RB": 3
+    "RB": 4
    },
-   "firstYear": 1997,
+   "firstYear": 1996,
    "lastYear": 1999,
    "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": 58,
+      "rec": 2,
+      "recYds": 39
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
     {
      "year": 1997,
      "stats": {
@@ -144,6 +1430,290 @@
    ]
   },
   {
+   "name": "Dre' Bly",
+   "key": "dre bly",
+   "position": "CB",
+   "positionVotes": {
+    "DB": 1,
+    "CB": 2
+   },
+   "firstYear": 1996,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 11
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "defInt": 5
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "defInt": 4
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Greg Ellis",
+   "key": "greg ellis",
+   "position": "DE",
+   "positionVotes": {
+    "DE": 2
+   },
+   "firstYear": 1996,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "sacks": 12.5,
+      "tfl": 12.5
+     },
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "sacks": 9,
+      "tfl": 9
+     },
+     "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Greg Williams",
+   "key": "greg williams",
+   "position": "S",
+   "positionVotes": {
+    "DB": 1,
+    "S": 1
+   },
+   "firstYear": 1996,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "defInt": 2
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Jason Peace",
+   "key": "jason peace",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 4
+   },
+   "firstYear": 1996,
+   "lastYear": 1999,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "rec": 3,
+      "recYds": 59
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "rec": 32,
+      "recYds": 418,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "rec": 4,
+      "recYds": 37
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1999,
+     "stats": {
+      "passYds": 18,
+      "rushYds": 19,
+      "rec": 23,
+      "recYds": 373,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Jomo Legins",
+   "key": "jomo legins",
+   "position": "S",
+   "positionVotes": {
+    "DB": 1,
+    "S": 2
+   },
+   "firstYear": 1996,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Robert Williams",
+   "key": "robert williams",
+   "position": "LB",
+   "positionVotes": {
+    "DB": 1,
+    "LB": 1
+   },
+   "firstYear": 1996,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "defInt": 2
+     },
+     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Ronald Thomas",
+   "key": "ronald thomas",
+   "position": null,
+   "positionVotes": {
+    "DB": 1
+   },
+   "firstYear": 1996,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "defInt": 1
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Russell Davis",
+   "key": "russell davis",
+   "position": "DT",
+   "positionVotes": {
+    "DT": 2
+   },
+   "firstYear": 1996,
+   "lastYear": 1997,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "tackles": 27,
+      "sacks": 2.5
+     },
+     "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1997,
+     "stats": {
+      "tackles": 60,
+      "sacks": 3
+     },
+     "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Shawn Lyons",
+   "key": "shawn lyons",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 1
+   },
+   "firstYear": 1996,
+   "lastYear": 1996,
+   "seasons": [
+    {
+     "year": 1996,
+     "stats": {
+      "rushYds": 4
+     },
+     "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
    "name": "Domonique Williams",
    "key": "domonique williams",
    "position": "QB",
@@ -172,34 +1742,6 @@
       "recYds": 5
      },
      "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Dre' Bly",
-   "key": "dre bly",
-   "position": "CB",
-   "positionVotes": {
-    "CB": 2
-   },
-   "firstYear": 1997,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "defInt": 5
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "defInt": 4
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
      "from": "sports-reference"
     }
    ]
@@ -239,121 +1781,6 @@
       "recYds": 184
      },
      "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Greg Williams",
-   "key": "greg williams",
-   "position": "S",
-   "positionVotes": {
-    "S": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "defInt": 2
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Jason Peace",
-   "key": "jason peace",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 3
-   },
-   "firstYear": 1997,
-   "lastYear": 1999,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rec": 32,
-      "recYds": 418,
-      "recTD": 2
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "rec": 4,
-      "recYds": 37
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1999,
-     "stats": {
-      "passYds": 18,
-      "rushYds": 19,
-      "rec": 23,
-      "recYds": 373,
-      "recTD": 1
-     },
-     "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Jomo Legins",
-   "key": "jomo legins",
-   "position": "S",
-   "positionVotes": {
-    "S": 2
-   },
-   "firstYear": 1997,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "defInt": 1
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "defInt": 1
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Jonathan Linton",
-   "key": "jonathan linton",
-   "position": "RB",
-   "positionVotes": {
-    "RB": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rushYds": 1004,
-      "rushTD": 10,
-      "rec": 29,
-      "recYds": 286,
-      "recTD": 1
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
      "from": "sports-reference"
     }
    ]
@@ -402,211 +1829,6 @@
      "year": 1997,
      "stats": {
       "defInt": 1
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "L.C. Stevens",
-   "key": "lc stevens",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 2
-   },
-   "firstYear": 1997,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rec": 45,
-      "recYds": 727,
-      "recTD": 3
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "rec": 25,
-      "recYds": 414,
-      "recTD": 2
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Mike Geter",
-   "key": "mike geter",
-   "position": "RB",
-   "positionVotes": {
-    "RB": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rushYds": 245,
-      "rec": 5,
-      "recYds": 20
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Na Brown",
-   "key": "na brown",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 2
-   },
-   "firstYear": 1997,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rec": 55,
-      "recYds": 610,
-      "recTD": 4
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "rushYds": 48,
-      "rushTD": 1,
-      "rec": 55,
-      "recYds": 897,
-      "recTD": 6
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Octavus Barnes",
-   "key": "octavus barnes",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "rec": 21,
-      "recYds": 441,
-      "recTD": 5
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Omar Brown",
-   "key": "omar brown",
-   "position": "S",
-   "positionVotes": {
-    "S": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "defInt": 2
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Oscar Davenport",
-   "key": "oscar davenport",
-   "position": "QB",
-   "positionVotes": {
-    "QB": 2
-   },
-   "firstYear": 1997,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "passYds": 1380,
-      "passTD": 7,
-      "passInt": 3,
-      "rushYds": 12,
-      "rushTD": 2
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 1998,
-     "stats": {
-      "passYds": 1208,
-      "passTD": 8,
-      "passInt": 3,
-      "rushYds": -63
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Reggie Love",
-   "key": "reggie love",
-   "position": "CB",
-   "positionVotes": {
-    "CB": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "defInt": 1
-     },
-     "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Robert Williams",
-   "key": "robert williams",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 1
-   },
-   "firstYear": 1997,
-   "lastYear": 1997,
-   "seasons": [
-    {
-     "year": 1997,
-     "stats": {
-      "defInt": 2
      },
      "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html",
      "from": "sports-reference"
@@ -687,28 +1909,6 @@
      "year": 1998,
      "stats": {
       "defInt": 5
-     },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Allen Mogridge",
-   "key": "allen mogridge",
-   "position": "TE",
-   "positionVotes": {
-    "TE": 1
-   },
-   "firstYear": 1998,
-   "lastYear": 1998,
-   "seasons": [
-    {
-     "year": 1998,
-     "stats": {
-      "rec": 4,
-      "recYds": 32,
-      "recTD": 1
      },
      "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
      "from": "sports-reference"
@@ -799,6 +1999,39 @@
       "tackles": 1
      },
      "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+     "from": "official-cume"
+    }
+   ]
+  },
+  {
+   "name": "Brandon Spoon",
+   "key": "brandon spoon",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 2
+   },
+   "firstYear": 1998,
+   "lastYear": 2000,
+   "seasons": [
+    {
+     "year": 1998,
+     "stats": {
+      "tackles": 138,
+      "sacks": 5
+     },
+     "source": "https://goheels.com/sports/football/roster/brandon-spoon/2980",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2000,
+     "stats": {
+      "tackles": 131,
+      "tfl": 13,
+      "sacks": 1,
+      "pbu": 1,
+      "ff": 3
+     },
+     "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
      "from": "official-cume"
     }
    ]
@@ -926,9 +2159,11 @@
     {
      "year": 1998,
      "stats": {
-      "defInt": 1
+      "defInt": 1,
+      "tackles": 132,
+      "sacks": 4
      },
-     "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html",
+     "source": "https://en.wikipedia.org/wiki/Keith_Newman",
      "from": "sports-reference"
     }
    ]
@@ -1147,6 +2382,58 @@
      },
      "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html",
      "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Ryan Sims",
+   "key": "ryan sims",
+   "position": "DT",
+   "positionVotes": {
+    "DT": 4
+   },
+   "firstYear": 1998,
+   "lastYear": 2001,
+   "seasons": [
+    {
+     "year": 1998,
+     "stats": {
+      "tackles": 31,
+      "tfl": 4,
+      "sacks": 2
+     },
+     "source": "https://www.footballdb.com/players/ryan-sims-simsry01",
+     "from": "sports-reference"
+    },
+    {
+     "year": 1999,
+     "stats": {
+      "tackles": 33
+     },
+     "source": "https://www.footballdb.com/players/ryan-sims-simsry01",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2000,
+     "stats": {
+      "tackles": 52,
+      "tfl": 9,
+      "sacks": 6,
+      "pbu": 3
+     },
+     "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
+     "from": "official-cume"
+    },
+    {
+     "year": 2001,
+     "stats": {
+      "tackles": 51,
+      "tfl": 8,
+      "sacks": 5,
+      "pbu": 4
+     },
+     "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+     "from": "official-cume"
     }
    ]
   },
@@ -1773,30 +3060,6 @@
       "tackles": 1
      },
      "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
-     "from": "official-cume"
-    }
-   ]
-  },
-  {
-   "name": "Brandon Spoon",
-   "key": "brandon spoon",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 1
-   },
-   "firstYear": 2000,
-   "lastYear": 2000,
-   "seasons": [
-    {
-     "year": 2000,
-     "stats": {
-      "tackles": 131,
-      "tfl": 13,
-      "sacks": 1,
-      "pbu": 1,
-      "ff": 3
-     },
-     "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
      "from": "official-cume"
     }
    ]
@@ -2689,40 +3952,6 @@
       "sacks": 5
      },
      "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
-     "from": "official-cume"
-    }
-   ]
-  },
-  {
-   "name": "Ryan Sims",
-   "key": "ryan sims",
-   "position": "DT",
-   "positionVotes": {
-    "DT": 2
-   },
-   "firstYear": 2000,
-   "lastYear": 2001,
-   "seasons": [
-    {
-     "year": 2000,
-     "stats": {
-      "tackles": 52,
-      "tfl": 9,
-      "sacks": 6,
-      "pbu": 3
-     },
-     "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2001,
-     "stats": {
-      "tackles": 51,
-      "tfl": 8,
-      "sacks": 5,
-      "pbu": 4
-     },
-     "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
      "from": "official-cume"
     }
    ]

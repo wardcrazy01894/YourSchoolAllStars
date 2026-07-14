@@ -364,5 +364,23 @@
   "source": "https://www.ourlads.com/ncaa-football-depth-charts/depth-chart/north-carolina/91395",
   "confidence": "high",
   "note": "Depth chart lists him at nose tackle"
+ },
+ "Sean Boyd": {
+  "position": "CB",
+  "source": "https://www.gettyimages.com/detail/news-photo/cornerback-sean-boyd-of-the-north-carolina-tarheels-news-photo/298332",
+  "confidence": "medium",
+  "note": "Contemporary photo caption identifies him as cornerback"
+ },
+ "Fuzzy Lee": {
+  "position": "CB",
+  "source": "https://www.tarheeltimes.com/bio792.aspx",
+  "confidence": "medium",
+  "note": "Robert \"Fuzzy\" Lee, DB; coverage describes him as cornerback"
+ },
+ "Terry Billups": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Terry_Billups",
+  "confidence": "high",
+  "note": "Wikipedia: started/backed up at cornerback 1994-97; later NFL CB"
  }
 }

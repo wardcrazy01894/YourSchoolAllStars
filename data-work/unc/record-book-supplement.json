@@ -1,0 +1,112 @@
+{
+ "_note": "Per-season DEFENSIVE lines for 1994-1999 that exist NOWHERE else. UNC published no per-player defensive stats before 2000 (see PROGRESS.md), but its official RECORD BOOK's SEASON leaderboards name individual player-seasons with their totals. Each line below is a hand-picked factual entry transcribed from that book (the project's sourcing policy explicitly allows this), and each cites it. These are the only 1994-99 defensive-line seasons any source publishes, so they are also the only thing standing between the 1994-96 era wheel and a soft-locked draft. Lines are PARTIAL by nature (the leaderboards publish the record stat, not a full box score) - the same shape as Michigan's pre-1997 INT-only defenders. A second block (below, marked researched) carries per-season DT lines that only NARRATIVE sources state - Wikipedia/footballdb player pages quoting the season totals. They exist because the 1996-99 windows otherwise have no defensive tackle at all. Each carries the exact quoted sentence. Russell Davis's 1998 line was DELIBERATELY EXCLUDED: its own source says he 'played in only two games due to an ankle injury' yet credits 36 tackles - self-contradictory, so it is not used.",
+ "_source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf",
+ "_page": "Defensive Records (p.161): SACKS-Season and TACKLES FOR LOSSES-Season leaderboards",
+ "seasons": [
+  {
+   "name": "Greg Ellis",
+   "year": 1996,
+   "position": "DE",
+   "stats": {
+    "sacks": 12.5,
+    "tfl": 12.5
+   },
+   "note": "SACKS - SEASON, #3 all-time: 12.5 sacks for 99 yards. TFL not separately listed for this season; the sack count is a floor for TFL (every sack is a TFL), so tfl is recorded at the same value - a documented UNDERCOUNT, never an invention."
+  },
+  {
+   "name": "Greg Ellis",
+   "year": 1997,
+   "position": "DE",
+   "stats": {
+    "sacks": 9,
+    "tfl": 9
+   },
+   "note": "SACKS - SEASON: 9 sacks for 65 yards. tfl = sacks floor, as above."
+  },
+  {
+   "name": "Marcus Jones",
+   "year": 1995,
+   "position": "DT",
+   "stats": {
+    "tfl": 19
+   },
+   "note": "TACKLES FOR LOSSES - SEASON, #7 all-time: 19. (ACC Defensive Player of the Year 1995.)"
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "year": 1998,
+   "position": "DE",
+   "stats": {
+    "tfl": 23
+   },
+   "note": "TACKLES FOR LOSSES - SEASON, #2 all-time: 23."
+  },
+  {
+   "name": "Russell Davis",
+   "year": 1996,
+   "position": "DT",
+   "stats": {
+    "tackles": 27,
+    "sacks": 2.5
+   },
+   "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)",
+   "note": "researched; quote: 'In 1996 as a sophomore, Davis had 27 tackles and 2.5 sacks.'"
+  },
+  {
+   "name": "Russell Davis",
+   "year": 1997,
+   "position": "DT",
+   "stats": {
+    "tackles": 60,
+    "sacks": 3
+   },
+   "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)",
+   "note": "researched; quote: 'In 1997 as a junior, Davis had 60 tackles and three sacks in 10 games (with 9 starts).'"
+  },
+  {
+   "name": "Ryan Sims",
+   "year": 1998,
+   "position": "DT",
+   "stats": {
+    "tackles": 31,
+    "tfl": 4,
+    "sacks": 2
+   },
+   "source": "https://www.footballdb.com/players/ryan-sims-simsry01",
+   "note": "researched; quote: '31 tackles, including four tackles for loss and two sacks'"
+  },
+  {
+   "name": "Ryan Sims",
+   "year": 1999,
+   "position": "DT",
+   "stats": {
+    "tackles": 33
+   },
+   "source": "https://www.footballdb.com/players/ryan-sims-simsry01",
+   "note": "researched; quote: '33 tackles while starting all 11 games'"
+  },
+  {
+   "name": "Brandon Spoon",
+   "year": 1998,
+   "position": "LB",
+   "stats": {
+    "tackles": 138,
+    "sacks": 5
+   },
+   "source": "https://goheels.com/sports/football/roster/brandon-spoon/2980",
+   "note": "researched, OFFICIAL goheels bio; quote: 'had 138 tackles ... second on the team in sacks with five for 37 yards.'"
+  },
+  {
+   "name": "Keith Newman",
+   "year": 1998,
+   "position": "LB",
+   "stats": {
+    "tackles": 132,
+    "sacks": 4,
+    "defInt": 1
+   },
+   "source": "https://en.wikipedia.org/wiki/Keith_Newman",
+   "note": "researched; quote: 'as a senior, he posted four sacks, 132 tackles, and an interception, and was a second-team All-ACC selection.'"
+  }
+ ]
+}
