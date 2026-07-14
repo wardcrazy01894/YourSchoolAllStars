@@ -106,7 +106,7 @@ function parseRow(line, { jerseyFirst = false } = {}) {
   // TAS prints "." for a zero (e.g. a defender with 0 solo tackles) — so the
   // cells group must accept it, or those rows vanish and the checksum breaks.
   let m = rest.match(
-    /^\s*([A-Za-z'. -]+?,\s*[A-Za-z][A-Za-z'.]*)\s+([\d.\-].*)$/,
+    /^\s*([A-Za-z'. -]+?,\s*[A-Za-z][A-Za-z'.]*)\s+([\d.-].*)$/,
   )
   if (m) {
     const name = m[1].trim()
@@ -114,7 +114,7 @@ function parseRow(line, { jerseyFirst = false } = {}) {
   }
   // "First Last" / "First M. Last"
   m = rest.match(
-    /^\s*([A-Z][A-Za-z'.-]+(?:\s+[A-Z][A-Za-z'.-]+)+)\s{2,}([\d.\-].*)$/,
+    /^\s*([A-Z][A-Za-z'.-]+(?:\s+[A-Z][A-Za-z'.-]+)+)\s{2,}([\d.-].*)$/,
   )
   if (m) {
     const name = m[1].trim()
