@@ -1,0 +1,202 @@
+<!-- source: https://en.wikipedia.org/wiki/2023_College_Football_All-America_Team -->
+{{Short description|College football honors}}
+{{Use mdy dates|date=January 2025}}
+{{sidebar
+| width = 25em
+| title = 2023 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2023 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2022 All-America college football team|2022]] &nbsp; [[2024 All-America college football team|2024]]→
+}}
+
+The '''2023 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions. The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite magazine|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |title=Walter Camp and His Gridiron Game |access-date=December 6, 2023 |date=October 1961 |volume=12 |issue=6 |author=Martin, John Stuart |magazine=[[American Heritage (magazine)|American Heritage]] |url-status=dead |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 }}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=December 6, 2023 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> The National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled in the 1950s the first list of All-Americans, including first-team selections on teams created for a national audience.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=December 6, 2023 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref> Since 1957, [[College Sports Communicators]] (CSC) have bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA, as well as [[National Association of Intercollegiate Athletics|NAIA]] and [[NJCAA]] athletes.
+
+The 2023 College Football All-America Team is composed of the following [[College Football All-American]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Football Foundation]] (WCFF), ''[[Sporting News]]'' (TSN, from its historic name of ''The Sporting News''), ''[[Sports Illustrated]]'' (SI), ''[[The Athletic]]'' (Athletic), ''[[USA Today]]'' (USAT), [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (CFN), [[Athlon Sports]], [[Phil Steele]] and [[Fox Sports]] (FOX).
+
+Currently, the NCAA compiles consensus All-America teams in the sports of [[Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources. Players are chosen against other players playing at their position only. To be selected a consensus All-American, players must be chosen to the first team on at least half of the five official selectors recognized by the NCAA. Second and third-team honors are used to break ties. Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, TSN and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 6, 2023 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+The following players were recognized as consensus All-Americans for 2023. Unanimous selections are followed by an asterisk (*).
+
+{| class="wikitable sortable"
+|+2023 Consensus All-Americans<ref>{{cite news|first=Kevin|last=Skiver|title=2023 consensus All-America team: Marvin Harrison Jr., Zak Zinter lead Big Ten selections|date=December 14, 2023|newspaper=Detroit Free Press|url=https://www.freep.com/story/sports/college/2023/12/14/2023-consensus-all-america-football-team-big-ten-players-unanimous-marvin-harrison-zak-zinter/71919444007/|access-date=January 1, 2024}}</ref>
+! Name !! Position !! Year !! School
+|-
+| [[Jayden Daniels]]|| Quarterback|| rowspan="2"|Senior ||[[2023 LSU Tigers football team|LSU]]
+|-
+| [[Cody Schrader]] ||rowspan="2"| Running back || [[2023 Missouri Tigers football team|Missouri]] 
+|-
+| [[Ollie Gordon II]]* || Sophomore || [[2023 Oklahoma State Cowboys football team|Oklahoma State]]
+|-
+| [[Rome Odunze]] || rowspan="3"| Wide receiver || Senior || [[2023 Washington Huskies football team|Washington]] 
+|-
+| [[Marvin Harrison Jr.]]* || rowspan=4|Junior || [[2023 Ohio State Buckeyes football team|Ohio State]]
+|-
+| [[Malik Nabers]]* || [[2023 LSU Tigers football team|LSU]] 
+|-
+| [[Brock Bowers]]* || Tight end || [[2023 Georgia Bulldogs football team|Georgia]]
+|-
+| [[Joe Alt]]* || rowspan="4"| Offensive line || [[2023 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| [[Olu Fashanu]] || rowspan=3|Senior ||[[2023 Penn State Nittany Lions football team|Penn State]]
+|- 
+| [[Cooper Beebe]]* || [[2023 Kansas State Wildcats football team|Kansas State]] 
+|-
+| [[Zak Zinter]]* || [[2023 Michigan Wolverines football team|Michigan]] 
+|-
+| [[Jackson Powers-Johnson]]* || Center || rowspan=3|Junior || [[2023 Oregon Ducks football team|Oregon]] 
+|-
+| [[Jonah Elliss]] || rowspan="4"| Defensive line || [[2023 Utah Utes football team|Utah]] 
+|-
+| [[Johnny Newton]] || [[2023 Illinois Fighting Illini football team|Illinois]]
+|-
+| [[Laiatu Latu]]* || rowspan="4"|Senior || [[2023 UCLA Bruins football team|UCLA]] 
+|-
+| [[T'Vondre Sweat]]* || [[2023 Texas Longhorns football team|Texas]]
+|-
+| [[Payton Wilson]]* ||rowspan="3"| Linebacker || [[2023 NC State Wolfpack football team|NC State]] 
+|-
+| [[Edgerrin Cooper]] || [[2023 Texas A&M Aggies football team|Texas A&M]]
+|-
+| [[Dallas Turner]] || rowspan="2"|Junior || [[2023 Alabama Crimson Tide football team|Alabama]]
+|-
+| [[Cooper DeJean]]* || rowspan="3"| Defensive back ||  [[2023 Iowa Hawkeyes football team|Iowa]]
+|-
+| [[Malaki Starks]] || Sophomore || [[2023 Georgia Bulldogs football team|Georgia]]
+|-
+| [[Xavier Watts]]* || rowspan=2|Senior || [[2023 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| [[Tory Taylor]]* || Punter || [[2023 Iowa Hawkeyes football team|Iowa]]
+|-
+|  [[Graham Nicholson]] || Kicker || Junior ||[[2023 Miami RedHawks football team|Miami (OH)]]
+|-
+| [[Travis Hunter]]|| All-purpose ||  Sophomore ||[[2023 Colorado Buffaloes football team|Colorado]]
+|}
+
+==Offense==
+===Quarterback===
+* '''[[Jayden Daniels]]''', [[2023 LSU Tigers football team|LSU]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', Athlon Sports, ESPN, CBS, PFF, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+* [[Michael Penix Jr.]], [[2023 Washington Huskies football team|Washington]] <small>('''WCFF''')</small>
+
+===Running back===
+* [[Blake Corum]], [[2023 Michigan Wolverines football team|Michigan]] <small>('''AFCA''')</small>
+*'''[[Ollie Gordon II]]''', [[2023 Oklahoma State Cowboys football team|Oklahoma State]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*[[Omarion Hampton]], [[2023 North Carolina Tar Heels football team|North Carolina]] <small>('''WCFF''')</small>
+*'''[[Cody Schrader]]''', [[2023 Missouri Tigers football team|Missouri]] <small>('''AP''', '''TSN''', Athlon Sports, ESPN, CBS, USAT, SI, FOX, Phil Steele)</small>
+
+===Wide receiver===
+*'''[[Marvin Harrison Jr.]]''', [[2023 Ohio State Buckeyes football team|Ohio State]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, Athlon Sports, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*'''[[Malik Nabers]]''', [[2023 LSU Tigers football team|LSU]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, Athlon Sports, The Athletic, USAT, SI, PFF, FOX, Phil Steele)</small>
+*'''[[Rome Odunze]]''', [[2023 Washington Huskies football team|Washington]] <small>('''AP''', '''FWAA''', '''TSN''', Athlon Sports, CBS, The Athletic, SI, FOX, Phil Steele)</small>
+
+===Tight end===
+*'''[[Brock Bowers]]''', [[2023 Georgia Bulldogs football team|Georgia]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, PFF, USAT, SI, FOX, Phil Steele)</small>
+
+===Offensive line===
+*'''[[Joe Alt]]''', [[2023 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*'''[[Cooper Beebe]]''', [[2023 Kansas State Wildcats football team|Kansas State]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*'''[[Olu Fashanu]]''', [[2023 Penn State Nittany Lions football team|Penn State]] <small>('''AP''', '''AFCA''', '''TSN''', '''WCFF''', CBS, Athlon Sports, The Athletic, USAT, SI, FOX)</small>
+*[[Taliese Fuaga]], [[2023 Oregon State Beavers football team|Oregon State]] <small>('''FWAA''', Athlon Sports, ESPN, CBS, Phil Steele)</small> 
+*[[Sedrick Van Pran-Granger]], [[2023 Georgia Bulldogs football team|Georgia]] <small>(ESPN, SI)</small>
+*'''[[Zak Zinter]]''', [[2023 Michigan Wolverines football team|Michigan]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, Athlon Sports, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+
+===Center===
+*'''[[Jackson Powers-Johnson]]''', [[2023 Oregon Ducks football team|Oregon]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athlon Sports, The Athletic, USAT, FOX, Phil Steele)</small>
+
+==Defense==
+===Defensive line===
+*'''[[Jonah Elliss]]''', [[2023 Utah Utes football team|Utah]] <small>('''FWAA''', '''TSN''', '''WCFF''', FOX, Phil Steele)</small>
+*[[Jalen Green (American football)|Jalen Green]], [[2023 James Madison Dukes football team|James Madison]] <small>('''AP''', '''WCFF''', Athlon Sports, The Athletic, USAT, SI)</small>
+*'''[[Laiatu Latu]]''', [[2023 UCLA Bruins football team|UCLA]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*'''[[Johnny Newton]]''', [[2023 Illinois Fighting Illini football team|Illinois]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*'''[[T'Vondre Sweat]]''', [[2023 Texas Longhorns football team|Texas]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*[[Jared Verse]], [[2023 Florida State Seminoles football team|Florida State]] <small> ('''FWAA''') </small>
+
+===Linebacker===
+*'''[[Edgerrin Cooper]]''', [[2023 Texas A&M Aggies football team|Texas A&M]] <small>('''AP''', '''AFCA''', '''WCFF''', Athlon Sports, ESPN, CBS, The Athletic, PFF, FOX, Phil Steele)</small>
+*[[Jason Henderson (American football)|Jason Henderson]], [[2023 Old Dominion Monarchs football team|Old Dominion]] <small>('''TSN''', '''WCFF''', Athlon Sports)</small>
+*[[Jay Higgins]], [[2023 Iowa Hawkeyes football team|Iowa]] <small>('''FWAA''', USAT, SI, FOX, Phil Steele)</small>
+*'''[[Dallas Turner]]''', [[2023 Alabama Crimson Tide football team|Alabama]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', Athlon Sports, ESPN, CBS, The Athletic, USAT, Phil Steele)</small>
+*'''[[Payton Wilson]]''', [[2023 NC State Wolfpack football team|NC State]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athlon Sports, ESPN, PFF, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*[[Jeremiah Trotter Jr.]], [[2023 Clemson Tigers football team|Clemson]] <small>(ESPN, SI)</small>
+
+===Defensive back===
+*[[Terrion Arnold]], [[2023 Alabama Crimson Tide football team|Alabama]] <small>('''AP''', ESPN)</small>
+*[[Beanie Bishop]], [[2023 West Virginia Mountaineers football team|West Virginia]] <small>('''FWAA, WCFF''', Phil Steele)</small>
+*[[Billy Bowman Jr.]], [[2023 Oklahoma Sooners football team|Oklahoma]] <small>(CBS)</small>
+*'''[[Cooper DeJean]]''', [[2023 Iowa Hawkeyes football team|Iowa]] <small>('''AP''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', Athlon Sports, CBS, The Athletic, USAT, FOX, Phil Steele)</small>
+*[[Will Johnson (cornerback)|Will Johnson]], [[2023 Michigan Wolverines football team|Michigan]] <small>(SI)</small>
+*[[Kool-Aid McKinstry]], [[2023 Alabama Crimson Tide football team|Alabama]] <small>('''AP''', '''TSN''', CBS, Athlon Sports, PFF, USAT, Phil Steele, SI)</small>
+*[[Quinyon Mitchell]], [[2023 Toledo Rockets football team|Toledo]] <small>(The Athletic)</small>
+*[[Tyler Nubin]], [[2023 Minnesota Golden Gophers football team|Minnesota]] <small>('''TSN''', PFF, Athlon Sports, The Athletic, FOX)</small>
+*[[Mike Sainristil]], [[2023 Michigan Wolverines football team|Michigan]] <small>('''TSN''', ESPN, FOX)</small>
+*'''[[Malaki Starks]]''', [[2023 Georgia Bulldogs football team|Georgia]] <small>('''AP''', '''AFCA''', '''FWAA''', '''WCFF''', Athlon Sports, ESPN, CBS, USAT, SI, Phil Steele)</small>
+*[[Trey Taylor]], [[2023 Air Force Falcons football team|Air Force]] <small>('''AFCA''')</small>
+*'''[[Xavier Watts]]''', [[2023 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*[[Kris Abrams-Draine]], [[2023 Missouri Tigers football team|Missouri]] <small>(Athlon Sports)</small>
+*[[Caleb Downs]], [[2023 Alabama Crimson Tide football team|Alabama]] <small>(PFF)</small>
+
+==Special teams==
+===Kicker===
+*'''[[Graham Nicholson]]''', [[2023 Miami RedHawks football team|Miami (OH)]] <small>('''AP''', '''AFCA''', '''TSN''', '''WCFF''', ESPN, CBS, Athlon Sports, The Athletic, USAT, SI, FOX)</small>
+* [[Jose Pizano]], [[2023 UNLV Rebels football team|UNLV]] <small>('''FWAA''', Phil Steele)</small>
+* [[Joshua Karty]], [[2023 Stanford Cardinal football team|Stanford]] <small>(PFF)</small>
+
+===Punter===
+*'''[[Tory Taylor]]''', [[2023 Iowa Hawkeyes football team|Iowa]] <small>('''AP''', '''AFCA''', '''FWAA, WCFF''', '''TSN''', Athlon Sports, ESPN, CBS, The Athletic, USAT, SI, FOX, Phil Steele)</small>
+*[[James Burnip]], [[2023 Alabama Crimson Tide football team|Alabama]] <small>(PFF)</small>
+
+===All-purpose / return specialist===
+*[[Zachariah Branch]], [[2023 USC Trojans football team|USC]] <small>('''TSN''', Athlon Sports, ESPN, USAT)</small>
+*[[Jayden Harrison]], [[2023 Marshall Thundering Herd football team|Marshall]] <small>('''FWAA, WCFF''', Athlon Sports, CBS, FOX, Phil Steele)</small>
+*[[Ashton Jeanty]], [[2023 Boise State Broncos football team|Boise State]] <small>(ESPN, USAT)</small>
+*[[Ismail Mahdi]], [[2023 Texas State Bobcats football team|Texas State]] <small>(CBS)</small>
+*[[Xavier Worthy]], [[2023 Texas Longhorns football team|Texas]] <small>(CBS, The Athletic, FOX)</small>
+*[[Cooper DeJean]], [[2023 Iowa Hawkeyes football team|Iowa]] <small>(SI)</small>
+*[[Travis Hunter (American football)|'''Travis Hunter''']], [[2023 Colorado Buffaloes football team|Colorado]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', SI, Athlon Sports, Phil Steele)</small>
+*[[LaJohntay Wester]], [[2023 Florida Atlantic Owls football team|Florida Atlantic]] <small>('''FWAA''', Phil Steele)</small>
+*[[Sione Vaki]], [[2023 Utah Utes football team|Utah]] <small>(FOX)</small>
+*[[Barion Brown]], [[2023 Kentucky Wildcats football team|Kentucky]] <small>('''TSN''')</small>
+
+===Long snapper===
+*[[James Rosenberry Jr.]], [[2023 Florida State Seminoles football team|FSU]] <small>('''AFCA''')</small>
+*[[Joe Shimko]], [[2023 NC State Wolfpack football team|NC State]] (<small>Phil Steele)</small>
+
+==See also==
+* [[2023 FCS College Football All-America Team]]
+* [[2023 All-ACC football team]]
+* [[2023 All-Big 12 Conference football team]]
+* [[2023 All-Big Ten Conference football team]]
+* [[2023 All-Pac-12 Conference football team]]
+* [[2023 All-SEC football team]]
+
+==Footnotes==
+{{Reflist}}
+
+==References==
+*[https://www.afca.com/lsus-jayden-daniels-and-notre-dames-xavier-watts-headline-the-2023-afca-fbs-coaches-all-america-teams/ American Football Coaches Association All-America Team] 
+*[https://apnews.com/article/ap-allamerica-team-45e5dac6434336de5712779fbc0e7e6f/ Associated Press All-America Team]
+*[https://www.cbssports.com/college-football/news/2023-cbs-sports-all-america-team-sec-leads-all-conferences-with-alabama-holding-most-selections/ CBS Sports All-America Team]
+*[https://www.nytimes.com/athletic/5114962/2023/12/06/college-football-all-america-teams-2023/ The Athletic All-America Team]
+*[https://www.foxsports.com/stories/college-football/college-football-fox-sports-2023-all-america-team/ FOX All-America Team]
+*[https://www.si.com/college/2023/12/06/sports-illustrateds-2023-college-football-all-americans/ Sports Illustrated All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2023/12/06/college-football-all-america-team-jayden-daniels/71823653007/ USA Today All-America Team]
+*[https://waltercamp.org/the-134th-walter-camp-all-america-teams-1st-and-2nd-teams/ Walter Camp All-America Team]
+*[https://www.sportswriters.net/fwaa/news/2023/12/11/seven-repeat-honorees-highlight-2023-fwaa-all-america-team-presented-by-the-goodyear-cotton-bowl-classic/ Football Writers Association of America All-America Team]
+*[https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2023-sporting-news/1d9927b44bf0d5390a6d4f34/ The Sporting News College Football All-America Team] 
+*[https://www.espn.com/college-football/story/_/id/39083782/espn-2023-college-football-all-america-team/ ESPN All-America Team]
+*[https://www.pff.com/news/college-football-2023-pff-college-all-america-team-lsu-qb-jayden-daniels-ohio-state-wr-marvin-harrison-jr-and-more/ PFF College All-America Team]
+*[https://athlonsports.com/college-football/college-footballs-2023-postseason-all-america-team/ Athlon Sports College Football's Postseason All-America Team] 
+*[https://philsteele.com/2023-phil-steeles-2023-fbs-post-season-all-conf-teams/ Phil Steele Postseason All Conference Teams]
+
+{{2023 NCAA Division I FBS College Football Consensus All-Americans}}
+{{College Football All-America Teams}}
+{{2023 NCAA Division I FBS football season navbox}}
+
+[[Category:2023 NCAA Division I FBS football season|All-America Team]]
+[[Category:All-America college football teams]]

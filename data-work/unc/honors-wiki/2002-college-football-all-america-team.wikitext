@@ -1,0 +1,219 @@
+<!-- source: https://en.wikipedia.org/wiki/2002_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2002}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2002 College Football All-America Team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[College Football All-America Team]]
+| heading2 = 
+| content2 = [[2002 NCAA Division I-A football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2001 College Football All-America Team|2001]] &nbsp; [[2003 College Football All-America Team|2003]] → 
+}}
+
+The '''2002 All-America college football team''' is composed of the following All-American Teams: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[The Sporting News]]'' (TSN), ''[[Pro Football Weekly]]'' (PFW), ''[[Sports Illustrated]]'' (CNNSI) and [[ESPN]].
+
+The [[College Football All-America Team]] is an honor given annually to the best American college football players at their respective positions. The original usage of the term All-America seems to have been to such a list selected by football pioneer Walter Camp in the 1890s. To be selected a consensus All-American, players must be chosen to the first team on at least two of the five official selectors as recognized by the NCAA. Second- and third-team honors are used to break ties. Players named first-team by all five selectors are deemed [[unanimous All-American]]s. The [[NCAA]] officially recognizes All-Americans selected by the AP, AFCA, FWAA, TSN, and the WCFF to determine Consensus All-Americans.
+
+Fourteen players were recognized as consensus All-Americans for 2002, 7 of them unanimously. [[List of unanimous All-Americans in college football|Unanimous selections]] are followed by an asterisk (*)
+
+{| class="wikitable sortable"
+|+2002 Consensus All-Americans
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Carson|Palmer}} || Quarterback || {{sort|4|Senior}} || [[2002 USC Trojans football team|USC]]
+|-
+| {{sortname|Larry|Johnson|Larry Johnson (running back)}}* || rowspan="2" | Running back ||{{sort|4|Senior}} || [[2002 Penn State Nittany Lions football team|Penn State]]
+|-
+| {{sortname|Willis|McGahee}} ||{{sort|2|Sophomore}} || [[2002 Miami Hurricanes football team|Miami (FL)]]
+|-
+| {{sortname|Charles|Rogers|Charles Rogers (wide receiver)}}* || rowspan=3|Wide receiver ||{{sort|3|Junior}} || [[2002 Michigan State Spartans football team|Michigan State]]
+|-
+| {{sortname|Reggie|Williams|dab=wide receiver}} || {{sort|2|Sophomore}} || [[2002 Washington Huskies football team|Washington]]
+|-
+| {{sortname|Rashaun|Woods}} || {{sort|3|Junior}} || [[2002 Oklahoma State Cowboys football team|Oklahoma State]]
+|-
+| {{sortname|Dallas|Clark}}* || Tight end ||{{sort|4|Senior}} || [[2002 Iowa Hawkeyes football team|Iowa]]
+|-
+| {{sortname|Brett|Romberg}} || Center ||{{sort|4|Senior}} || Miami (FL)
+|-
+| {{sortname|Shawn|Andrews|dab=American football}} || rowspan="4" | Offensive line ||{{sort|2|Sophomore}} || [[2002 Arkansas Razorbacks football team|Arkansas]]
+|-
+| {{sortname|Eric|Steinbach}} ||{{sort|4|Senior}} || Iowa
+|-
+| {{sortname|Derrick|Dockery}} || {{sort|4|Senior}} || [[2002 Texas Longhorns football|Texas]]
+|-
+| {{sortname|Jordan|Gross}} || {{sort|4|Senior}} || [[2002 Utah Utes football team|Utah]]
+|-
+| {{sortname|Terrell|Suggs}}* || rowspan=4|Defensive line ||{{sort|4|Senior}} || [[2002 Arizona State Sun Devils football team|Arizona State]]
+|-
+| {{sortname|David|Pollack}} || {{sort|2|Sophomore}} || [[2002 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Rien|Long}} || {{sort|3|Junior}} || [[2002 Washington State Cougars football|Washington State]]
+|-
+| {{sortname|Tommie|Harris}} || {{sort|2|Sophomore}} || [[2002 Oklahoma Sooners football team|Oklahoma]]
+|-
+| {{sortname|Teddy|Lehman}} || rowspan="3" | Linebacker ||{{sort|3|Junior}} || [[2002 Oklahoma Sooners football team|Oklahoma]]
+|-
+| {{sortname|E. J.|Henderson}} ||{{sort|4|Senior}} || [[2002 Maryland Terrapins football team|Maryland]]
+|-
+| {{sortname|Matt|Wilhelm}} || {{sort|4|Senior}} || [[2002 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Mike|Doss}}* || rowspan="4"|Defensive back || {{sort|4|Senior}} || [[2002 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Terence|Newman}}* ||{{sort|4|Senior}} || [[2002 Kansas State Wildcats football team|Kansas State]]
+|-
+| {{sortname|Shane|Walton}}* ||{{sort|4|Senior}} || [[2002 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| {{sortname|Troy|Polamalu}} || {{sort|4|Senior}} || [[2002 USC Trojans football team|USC]]
+|-
+| {{sortname|Mike|Nugent}} || Kicker || {{sort|2|Sophomore}} || [[2002 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Derek|Abney}} || Kick returner || {{sort|3|Junior}} || [[2002 Kentucky Wildcats football team|Kentucky]]
+|-
+| {{sortname|Mark|Mariscal}} || Punter ||{{sort|3|Junior}} || [[2002 Colorado Buffaloes football team|Colorado]]
+|}
+
+==Offense==
+===Quarterback===
+*'''[[Carson Palmer]]''', Southern California <small>('''AP-1''', '''FWAA''', '''TSN''', CNNSI, ESPN, WCFF-2)</small>
+*[[Ken Dorsey]], Miami (Fla.) <small>('''AFCA''', '''WCFF''' (tie), AP-3)</small>
+*[[Brad Banks]], Iowa <small>('''WCFF''' (tie), AP-2)</small>
+*[[Byron Leftwich]], Marshall  <small>(PFW)</small>
+
+===Running back===
+*'''[[Larry Johnson (running back)|Larry Johnson]]''', Penn State <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', PFW, CNNSI, ESPN)</small>
+*'''[[Willis McGahee]]''', Miami (Fla.) <small>('''AP-1''', '''FWAA''', '''WCFF''', '''TSN''', PFW, CNNSI, ESPN)</small>
+*[[Chris Brown (running back, born 1981)|Chris Brown]], Colorado <small>('''AFCA''', AP-2, WCFF-2)</small>
+*[[Quentin Griffin]], Oklahoma <small>(AP-2, WCFF-2)</small>
+*[[Avon Cobourne]], West Virginia <small>(AP-3)</small>
+*[[Steven Jackson]], Oregon State <small>(AP-3)</small>
+
+===Wide receiver===
+*'''[[Charles Rogers (wide receiver)|Charles Rogers]]''', Michigan State <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', PFW, CNNSI, ESPN)</small>
+*'''[[Reggie Williams (wide receiver)|Reggie Williams]]''', Washington <small>('''AP-1''', '''FWAA''', ESPN)</small>
+*'''[[Rashaun Woods]]''', Oklahoma State <small>('''WCFF''', '''TSN''', CNNSI, AP-2)</small>
+*[[Nate Burleson]], Nevada <small>('''AFCA''', AP-2, WCFF-2)</small>
+*[[Brandon Lloyd]], Illinois <small>(PFW)</small>
+*[[J. R. Tolver]], San Diego State <small>(WCFF-2)</small>
+*[[Andre Johnson]], Miami <small>(AP-3)</small>
+*[[Shaun McDonald (American football)|Shaun McDonald]], Arizona State <small>(AP-3)</small>
+
+===Tight end===
+*'''[[Dallas Clark]]''', Iowa <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', CNNSI, ESPN)</small>
+*[[Bennie Joppru]], Michigan <small>(PFW, AP-3)</small>
+*[[Kellen Winslow II]], Miami <small>(AP-2, WCFF-2)</small>
+
+===Offensive line===
+*'''[[Shawn Andrews (American football)|Shawn Andrews]]''', Arkansas <small>('''AP-1''', '''AFCA''', '''FWAA''', '''TSN''', CNNSI, ESPN, WCFF-2)</small>
+*'''[[Jordan Gross]]''', Utah <small>('''AP-1''', '''FWAA''', '''WCFF''', PFW, CNNSI, ESPN)</small>
+*'''[[Brett Romberg]]''', Miami (Fla.) <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', CNNSI)</small>
+*'''[[Eric Steinbach]]''', Iowa <small>('''AP-1''', '''AFCA''', '''WCFF''', '''TSN''', PFW, ESPN)</small>
+*'''[[Derrick Dockery]]''', Texas <small>('''AP-1''', '''FWAA''', '''WCFF''')</small>
+*[[Brett Williams (offensive lineman)|Brett Williams]], Florida State <small>('''AFCA''', '''TSN''', AP-2, WCFF-2)</small>
+*[[Derrick Roche]], Washington State <small>('''AFCA''', AP-2, WCFF-2)</small>
+*[[Bruce Nelson (American football)|Bruce Nelson]], Iowa <small>('''FWAA''', CNNSI, AP-3)</small>
+*[[Jeff Faine]], Notre Dame <small>('''TSN''', PFW, ESPN, AP-2, WCFF-2)</small>
+*[[Wayne Lucier]], Colorado <small>('''TSN''')</small>
+*[[Jon Stinchcomb]], Georgia <small>('''WCFF''', AP-2)</small>
+*[[Robert Gallery]], Iowa <small>(PFW)</small>
+*[[Torrin Tucker]], Southern Mississippi <small>(PFW)</small>
+*[[Vince Manuwai]], Hawaii <small>(CNNSI, AP-2, WCFF-2)</small>
+*[[Todd Wike]], Maryland <small>(ESPN)</small>
+*[[Steve Sciullo]], Marshall <small>(WCFF-2)</small>
+*[[Sherko Haji-Rasouli]], Miami <small>(AP-3)</small>
+*[[Montrae Holland]], Florida State <small>(AP-3)</small>
+*Will Ofenheusle, Tennessee <small>(AP-3)</small>
+*Mike Saffer, UCLA <small>(AP-3)</small>
+
+==Defense==
+===Ends===
+*'''[[Terrell Suggs]]''', Arizona State <small>('''WCFF''', '''AP-1''', '''FWAA''', '''AFCA''', '''TSN''', PFW, CNNSI, ESPN)</small>
+*'''[[David Pollack]]''', Georgia <small>('''AP-1''', '''FWAA''', '''TSN''', PFW, CNNSI, ESPN, WCFF-2)</small>
+*[[Calvin Pace]], Wake Forest <small>('''AFCA''', AP-3)</small>
+*[[Michael Haynes (defensive lineman)|Michael Haynes]], Penn State <small>('''FWAA''', CNNSI, AP-2, WCFF-2)</small>
+*[[Cory Redding]], Texas <small>('''WCFF''', AP-2)</small>
+*[[Jarret Johnson]], Alabama <small>(AP-3)</small>
+
+===Tackle===
+*'''[[Tommie Harris]]''', Oklahoma <small>('''AP-1''', '''AFCA''', '''WCFF''')</small>
+*'''[[Rien Long]]''', Washington State <small>('''AP-1''', '''FWAA''', '''TSN''', CNNSI, ESPN)</small>
+*[[Jimmy Kennedy (American football)|Jimmy Kennedy]], Penn State <small>('''WCFF''', '''TSN''', PFW, ESPN, AP-3)</small>
+*[[Jerome McDougle]], Miami (Fla.) <small>('''AFCA''', AP-2, WCFF-2)</small>
+*[[Dewayne Robertson]], Kentucky <small>(PFW)</small>
+*[[Dan Klecko]], Temple <small>(AP-2)</small>
+*[[William Joseph (American football)|William Joseph]], Miami <small>(WCFF-2, AP-3)</small>
+
+===Linebacker===
+*'''[[Teddy Lehman]]''', Oklahoma <small>('''AP-1''', '''FWAA''', '''WCFF''', '''TSN''', CNNSI, ESPN)</small>
+*'''[[E.J. Henderson]]''', Maryland <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', PFW, CNNSI, ESPN)</small>
+*'''[[Matt Wilhelm]]''', Ohio State <small>('''AP-1''', '''FWAA''', '''TSN''', CNNSI)</small>
+*[[Boss Bailey]], Georgia <small>('''AFCA''', '''WCFF''', AP-2)</small>
+*[[Bradie James]], LSU <small>('''TSN''', '''AFCA''', AP-2, WCFF-2)</small>
+*[[Rod Davis (American football)|Rod Davis]], Southern Mississippi <small>(PFW, AP-3)</small>
+*[[LaMarcus McDonald]], TCU  <small>(PFW, AP-2)</small>
+*[[Courtney Watson (American football)|Courtney Watson]], Notre Dame  <small>(ESPN, WCFF-2, AP-3)</small>
+*[[Gerald Hayes]], Pittsburgh <small>(WCFF-2, AP-3)</small>
+
+===Cornerback===
+*'''[[Terence Newman]]''', Kansas State <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', CNNSI, ESPN)</small>
+*'''[[Shane Walton]]''', Notre Dame <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', PFW, CNNSI)</small>
+*[[Marlin Jackson]], Michigan  <small>(PFW, AP-2)</small>
+*[[Marcus Trufant]], Washington State,<small>(ESPN, AP-2)</small>
+*[[Rod Babers]], Texas <small>(AP-3)</small>
+*[[Vontez Duff]], Notre Dame <small>(AP-3)</small>
+*[[Chris Gamble]], Ohio State <small>(AP-3)</small>
+
+===Safety===
+*'''[[Mike Doss]]''', Ohio State <small>('''AP-1''', '''AFCA''', '''FWAA''', '''WCFF''', '''TSN''', PFW, CNNSI, ESPN)</small>
+*'''[[Troy Polamalu]]''', Southern California <small>('''AP-1''', '''FWAA''', '''WCFF''', ESPN)</small>
+*[[Brandon Everage]], Oklahoma <small>('''AFCA''', PFW, AP-2, WCFF-2)</small>
+*[[Terrence Holt]], North Carolina State <small>('''TSN''', AP-2, WCFF-2)</small>
+*[[Jim Leonhard]], Wisconsin <small>(CNNSI, WCFF-2, AP-3)</small>
+*[[Derrick Strait]], Oklahoma <small>(WCFF-2)</small>
+
+==Special teams==
+===Kicker===
+*'''[[Mike Nugent]]''', Ohio State <small>('''AFCA''', '''WCFF''', '''AP-1''')</small>
+*[[Nate Kaeding]], Iowa <small>('''TSN''', '''FWAA''', PFW, CNNSI, ESPN, AP-2, WCFF-2)</small>
+*Billy Bennett, Georgia <small>(AP-3)</small>
+
+===Punter===
+*'''[[Mark Mariscal]]''', Colorado <small>('''AP-1''', '''AFCA''', '''WCFF''', '''TSN''', CNNSI, ESPN)</small>
+*[[Andy Groom]], Ohio State <small>('''FWAA''', AP-2)</small>
+*[[Eddie Johnson (punter)|Eddie Johnson]], Idaho State <small>(PFW)</small>
+*[[Glenn Pakulak]], Kentucky <small>(WCFF-2, AP-3)</small>
+
+===All-purpose player / return specialist===
+*'''[[Derek Abney]]''', Kentucky <small>('''AP-1''', '''FWAA''', '''WCFF''', '''TSN''', CNNSI-KR, ESPN)</small>
+*[[DeJuan Groce]], Nebraska <small>('''AFCA''', CNNSI-PR, AP-2, WCFF-2)</small>
+*Charles Pauley, San Jose State <small>(AP-3)</small>
+
+==See also==
+* [[2002 All-Atlantic Coast Conference football team]]
+* [[2002 All-Big 12 Conference football team]]
+* [[2002 All-Big Ten Conference football team]]
+* [[2002 All-Pacific-10 Conference football team]]
+* [[2002 All-SEC football team]]
+
+==References==
+*{{cite web|title=Football Award Winners|page=15|publisher=NCAA|url=http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|access-date=December 22, 2023}}
+*[http://www.afca.com/pdf3/68830.pdf?ATCLID=289547&SPSID=69273&SPID=7863&DB_OEM_ID=9300 Coaches']{{dead link|date=September 2016 |bot=InternetArchiveBot |fix-attempted=yes }} - AFCA
+*[http://www.big12sports.com/ViewArticle.dbml?SPSID=106181&SPID=13139&DB_OEM_ID=10410&ATCLID=1518392 AP] - Associated Press 
+*[http://www.sportswriters.net/fwaa/awards/allamerica/alltime.pdf Writers] {{Webarchive|url=https://web.archive.org/web/20190304073432/http://www.sportswriters.net/fwaa/awards/allamerica/alltime.pdf |date=2019-03-04 }} - FWAA
+*[https://web.archive.org/web/20090227143400/http://www.sportingnews.com/archives/almanac/nfl/cfbamer.html TSN] - The Sporting News
+*[https://waltercamp.org/awards/all-america-team/all-america-team-2002/ Walter Camp] - Walter Camp
+*Pro Football Weekly, November 30, 2002.
+*[https://web.archive.org/web/20030217044708/http://sportsillustrated.cnn.com/football/college/2002/all_americans/ SI] - Sports Illustrated
+*[http://static.espn.go.com/ncf/columns/maisel_ivan/1475384.html ESPN] - ESPN
+
+{{2002 NCAA Division I-A College Football Consensus All-Americans}}
+{{College Football All-America Teams}}
+{{2002 NCAA Division I-A football season navbox}}
+
+[[Category:2002 NCAA Division I-A football season|All-America Team]]
+[[Category:All-America college football teams]]

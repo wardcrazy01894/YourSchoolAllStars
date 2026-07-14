@@ -1,0 +1,608 @@
+{
+ "season": 2003,
+ "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
+ "scope": "as of Nov 22, 2003",
+ "players": [
+  {
+   "name": "Adarius Bowman",
+   "position": "Wide Receiver",
+   "jersey": "84",
+   "stats": {
+    "rec": 10,
+    "recYds": 181,
+    "recTD": 2
+   }
+  },
+  {
+   "name": "Alden Blizzard",
+   "position": "Defensive End",
+   "jersey": "41",
+   "stats": {
+    "tackles": 16,
+    "tfl": 4,
+    "sacks": 4,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Bobby Blizzard",
+   "position": "Tight End",
+   "jersey": "89",
+   "stats": {
+    "rec": 20,
+    "recYds": 161,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Brandon Russell",
+   "position": "Wide Receiver",
+   "jersey": "82",
+   "stats": {
+    "rushYds": 1,
+    "rec": 20,
+    "recYds": 242,
+    "recTD": 1,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brian Chacos",
+   "position": "Offensive Tackle",
+   "jersey": "65",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brian Rackley",
+   "position": "Defensive End",
+   "jersey": "42",
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "C.J. Stephens",
+   "position": "Quarterback",
+   "jersey": "7",
+   "stats": {
+    "rushYds": -26,
+    "passYds": 186,
+    "passTD": 1
+   }
+  },
+  {
+   "name": "C.J. Stephens",
+   "position": "Quarterback",
+   "jersey": "7",
+   "stats": {
+    "tackles": 7,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Cedrick Holt",
+   "position": "Cornerback",
+   "jersey": "13",
+   "stats": {
+    "tackles": 15,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Chad Scott",
+   "position": "Tailback",
+   "jersey": "6",
+   "stats": {
+    "rushYds": 182,
+    "rushTD": 3,
+    "rec": 17,
+    "recYds": 243,
+    "recTD": 1,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Chase Page",
+   "position": "Defensive Tackle",
+   "jersey": "95",
+   "stats": {
+    "tackles": 47,
+    "tfl": 5,
+    "sacks": 1.5
+   }
+  },
+  {
+   "name": "Chris Curry",
+   "position": "Wide Receiver",
+   "jersey": "12",
+   "stats": {
+    "rec": 1,
+    "recYds": 9
+   }
+  },
+  {
+   "name": "Chris Hawkins",
+   "position": "Cornerback",
+   "jersey": "6",
+   "stats": {
+    "tackles": 30,
+    "tfl": 2,
+    "pbu": 8
+   }
+  },
+  {
+   "name": "Clarence Gaddy",
+   "position": "Linebacker",
+   "jersey": "37",
+   "stats": {
+    "tackles": 8
+   }
+  },
+  {
+   "name": "Clay Roberson",
+   "position": "Linebacker",
+   "jersey": "11",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "D.J. Walker",
+   "position": "Free Safety",
+   "jersey": "28",
+   "stats": {
+    "tackles": 26,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Danny Rumley",
+   "position": "Wide Receiver",
+   "jersey": "19",
+   "stats": {
+    "rec": 3,
+    "recYds": 55
+   }
+  },
+  {
+   "name": "Darian Durant",
+   "position": "Quarterback",
+   "jersey": "4",
+   "stats": {
+    "rushYds": 396,
+    "rushTD": 6,
+    "passYds": 2551,
+    "passTD": 18,
+    "passInt": 10,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "David Wooldridge",
+   "position": "Placekicker/Punt",
+   "jersey": "45",
+   "stats": {
+    "rushYds": 24,
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Derrele Mitchell",
+   "position": "Wide Receiver",
+   "jersey": "1",
+   "stats": {
+    "rec": 17,
+    "recYds": 146,
+    "recTD": 2,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Derrele Mitchell",
+   "position": "Wide Receiver",
+   "jersey": "1",
+   "stats": {
+    "tackles": 65,
+    "pbu": 8,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Derrick Johnson",
+   "position": "Cornerback",
+   "jersey": "2",
+   "stats": {
+    "tackles": 27,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Devllen Bullard",
+   "position": "Linebacker",
+   "jersey": "57",
+   "stats": {
+    "tackles": 45,
+    "tfl": 1.5,
+    "sacks": 0.5
+   }
+  },
+  {
+   "name": "Dexter Reid",
+   "position": "Free Safety",
+   "jersey": "24",
+   "stats": {
+    "tackles": 132,
+    "tfl": 3.5,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Doug Justice",
+   "position": "Linebacker",
+   "jersey": "53",
+   "stats": {
+    "tackles": 44,
+    "tfl": 1.5,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Fred Sparkman",
+   "position": "Linebacker",
+   "jersey": "30",
+   "stats": {
+    "tackles": 19
+   }
+  },
+  {
+   "name": "Greg Warren",
+   "position": "Deep Snapper",
+   "jersey": "56",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Isaac Mooring",
+   "position": "Defensive Tackle",
+   "jersey": "92",
+   "stats": {
+    "tackles": 22,
+    "tfl": 4.5,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "Isaiah Thomas",
+   "position": "Defensive Line",
+   "jersey": "96",
+   "stats": {
+    "tackles": 32,
+    "tfl": 1,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Jacoby Watkins",
+   "position": "Cornerback",
+   "jersey": "16",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Jacque Lewis",
+   "position": "Tailback",
+   "jersey": "20",
+   "stats": {
+    "rushYds": 374,
+    "rushTD": 1,
+    "rec": 34,
+    "recYds": 391,
+    "recTD": 5,
+    "tackles": 4
+   }
+  },
+  {
+   "name": "James Gibson",
+   "position": "Fullback",
+   "jersey": "36",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jarwarski Pollock",
+   "position": "Wide Receiver",
+   "jersey": "5",
+   "stats": {
+    "rushYds": 40,
+    "rec": 71,
+    "recYds": 745,
+    "recTD": 1,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jason Brown",
+   "position": "Center",
+   "jersey": "72",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jeff Longhany",
+   "position": "Linebacker",
+   "jersey": "52",
+   "stats": {
+    "tackles": 50,
+    "tfl": 6.5,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "Jermicus Banks",
+   "position": "Defensive Tackle",
+   "jersey": "90",
+   "stats": {
+    "tackles": 16,
+    "tfl": 2
+   }
+  },
+  {
+   "name": "Jesse Holley",
+   "position": "Wide Receiver",
+   "jersey": "9",
+   "stats": {
+    "rec": 12,
+    "recYds": 168,
+    "recTD": 2,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jocques Dumas",
+   "position": "Defensive End",
+   "jersey": "43",
+   "stats": {
+    "tackles": 16,
+    "tfl": 3,
+    "sacks": 2,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Joe Kedra",
+   "position": "Linebacker",
+   "jersey": "55",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "John Dunn",
+   "position": "Tight End",
+   "jersey": "93",
+   "stats": {
+    "rec": 3,
+    "recYds": 31,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Jon Hamlett",
+   "position": "Tight End",
+   "jersey": "86",
+   "stats": {
+    "rec": 11,
+    "recYds": 115,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Jonas Seawright",
+   "position": "Defensive Tackle",
+   "jersey": "69",
+   "stats": {
+    "tackles": 9,
+    "tfl": 0.5
+   }
+  },
+  {
+   "name": "Justin Phillips",
+   "position": "Tight End",
+   "jersey": "95",
+   "stats": {
+    "rec": 2,
+    "recYds": 28
+   }
+  },
+  {
+   "name": "Kareen Taylor",
+   "position": "Defensive Back",
+   "jersey": "27",
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Larry Edwards",
+   "position": "Linebacker",
+   "jersey": "32",
+   "stats": {
+    "tackles": 88,
+    "tfl": 5.5,
+    "sacks": 0.5,
+    "pbu": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Madison Hedgecock",
+   "position": "Defensive End",
+   "jersey": "44",
+   "stats": {
+    "tackles": 55,
+    "tfl": 6,
+    "sacks": 1.5,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Mahlon Carey",
+   "position": "Strong Safety",
+   "jersey": "23",
+   "stats": {
+    "tackles": 96,
+    "tfl": 1,
+    "defInt": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Mark McTamney",
+   "position": "Defensive Back",
+   "jersey": "34",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Matt Baker",
+   "position": "Quarterback",
+   "jersey": "17",
+   "stats": {
+    "rushYds": -11,
+    "passYds": 166,
+    "passTD": 1,
+    "passInt": 1
+   }
+  },
+  {
+   "name": "Melik Brown",
+   "position": "LB/DL",
+   "jersey": "58",
+   "stats": {
+    "tackles": 20,
+    "tfl": 1.5,
+    "sacks": 0.5
+   }
+  },
+  {
+   "name": "Michael Harris",
+   "position": "Strong Safety",
+   "jersey": "26",
+   "stats": {
+    "tackles": 37,
+    "tfl": 0.5,
+    "sacks": 0.5,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Michael Waddell",
+   "position": "Cornerback",
+   "jersey": "18",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Mickey Rice",
+   "position": "Defensive Tackle",
+   "jersey": "97",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Ronnie McGill",
+   "position": "Running Back",
+   "jersey": "25",
+   "stats": {
+    "rushYds": 654,
+    "rushTD": 7,
+    "passYds": 24,
+    "passTD": 1,
+    "rec": 7,
+    "recYds": 54,
+    "tackles": 3,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Skip Seagraves",
+   "position": "Offensive Tackle",
+   "jersey": "75",
+   "stats": {
+    "tackles": 6
+   }
+  },
+  {
+   "name": "Tommy Davis",
+   "position": "Defensive End",
+   "jersey": "80",
+   "stats": {
+    "tackles": 30,
+    "tfl": 2
+   }
+  },
+  {
+   "name": "Tommy Richardson",
+   "position": "Strong Safety",
+   "jersey": "8",
+   "stats": {
+    "tackles": 4,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Topher Roberts",
+   "position": "Placekicker/Punt",
+   "jersey": "14",
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Victor Worsley",
+   "position": "Linebacker",
+   "jersey": "54",
+   "stats": {
+    "tackles": 6,
+    "tfl": 1,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Wallace Wright",
+   "position": "Wide Receiver",
+   "jersey": "29",
+   "stats": {
+    "rec": 1,
+    "recYds": 17,
+    "recTD": 1,
+    "tackles": 22,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Willie Parker",
+   "position": "Tailback",
+   "jersey": "15",
+   "stats": {
+    "rushYds": 181,
+    "rec": 7,
+    "recYds": 28
+   }
+  }
+ ]
+}

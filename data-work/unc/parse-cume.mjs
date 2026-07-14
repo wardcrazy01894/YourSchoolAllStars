@@ -55,6 +55,7 @@ function rosterFor(year) {
   const d = JSON.parse(readFileSync(f))
   const byJersey = new Map()
   const byAbbrev = new Map()
+  const byFullName = new Map()
   for (const p of d.players) {
     if (p.jersey) {
       const k = String(p.jersey).trim()
@@ -65,8 +66,9 @@ function rosterFor(year) {
     const init = parts[0][0].toLowerCase()
     const k = `${last}:${init}`
     byAbbrev.set(k, [...(byAbbrev.get(k) ?? []), p])
+    byFullName.set(p.name.toLowerCase().replace(/[.']/g, ''), p)
   }
-  return { byJersey, byAbbrev, source: d.source }
+  return { byJersey, byAbbrev, byFullName, source: d.source }
 }
 
 /** "Williams, A." → key "williams:a"; "Thornton, D." → "thornton:d". */
@@ -75,12 +77,68 @@ const abbrevKey = (s) => {
   if (!m) return null
   return `${m[1].trim().toLowerCase().replace(/\s+/g, ' ')}:${m[2].toLowerCase()}`
 }
+/** "Brandon Spoon" → key "spoon:b" (same key space as the abbreviated form). */
+const fullNameKey = (s) => {
+  const parts = s.trim().split(/\s+/)
+  if (parts.length < 2) return null
+  return `${parts.at(-1).toLowerCase()}:${parts[0][0].toLowerCase()}`
+}
+
+/**
+ * One table row → { jersey, name, key, cells }.
+ *
+ * The name format changes with the page vintage — "Williams, A." (2001–03,
+ * 2005–09) vs the full "Brandon Russell" (2000, 2004) — and defensive rows are
+ * jersey-first in both. Handle both, and key them into the SAME space so the
+ * roster join doesn't care which vintage it's looking at.
+ */
+function parseRow(line, { jerseyFirst = false } = {}) {
+  let rest = line
+  let jersey = null
+  if (jerseyFirst) {
+    // TAS appends a letter when two players share a number ("1A Green, L").
+    const jm = rest.match(/^\s*(\d{1,2})([A-Za-z])?\s+(.*)$/)
+    if (!jm) return null
+    jersey = jm[1] // the letter is a TAS disambiguator, not part of the number
+    rest = jm[3]
+  }
+  // "Last, F." / "Last, F". The stat run may START with a "." placeholder —
+  // TAS prints "." for a zero (e.g. a defender with 0 solo tackles) — so the
+  // cells group must accept it, or those rows vanish and the checksum breaks.
+  let m = rest.match(
+    /^\s*([A-Za-z'.\- ]+?,\s*[A-Za-z][A-Za-z'.]*)\s+([\d.\-].*)$/,
+  )
+  if (m) {
+    const name = m[1].trim()
+    return { jersey, name, key: abbrevKey(name), cells: m[2].trim().split(/\s+/) }
+  }
+  // "First Last" / "First M. Last"
+  m = rest.match(
+    /^\s*([A-Z][A-Za-z'.\-]+(?:\s+[A-Z][A-Za-z'.\-]+)+)\s{2,}([\d.\-].*)$/,
+  )
+  if (m) {
+    const name = m[1].trim()
+    return {
+      jersey,
+      name,
+      key: fullNameKey(name),
+      cells: m[2].trim().split(/\s+/),
+    }
+  }
+  return null
+}
 
 const isPseudo = (n) => /^(Total|Opponents|Team|TM)\b/i.test(n.trim())
 
 function preBlocks(html) {
+  // Line endings differ by page vintage and BOTH forms break naive parsing:
+  //   • CRLF (2000–2002): JS's `.` never crosses a \r, so a row regex ending
+  //     in `(.*)$` silently matches NOTHING.
+  //   • CR-only, classic Mac (2003–2004): splitting on '\n' yields ONE line,
+  //     so no table is found at all.
+  // Normalize both to '\n' before anything else looks at the text.
   return [...html.matchAll(/<pre[^>]*>([\s\S]*?)<\/pre>/gi)].map((m) =>
-    unescape(m[1].replace(/<[^>]+>/g, '')),
+    unescape(m[1].replace(/<[^>]+>/g, '')).replace(/\r\n?/g, '\n'),
   )
 }
 
@@ -122,90 +180,118 @@ function parseSeason(season) {
     if (v !== 0) p.stats[k] = (p.stats[k] ?? 0) + v
   }
 
-  // Column checksum against the printed Total row.
+  // Column checksum against the printed Total row. `get` reads the same column
+  // from a player row and from the Total row, so a column-index slip shows up
+  // as a mismatch instead of silently shipping wrong numbers.
   const check = (label, rows, get, totalRow) => {
     if (!totalRow) return
     const want = get(totalRow)
     const got = rows.reduce((a, r) => a + get(r), 0)
     if (Math.abs(want - got) > 0.101)
-      problems.push(`${season} ${label}: Σrows ${got} != Total ${want}`)
+      problems.push(
+        `${season} ${label}: Σrows ${Math.round(got * 10) / 10} != Total ${want}`,
+      )
   }
+
+  // Some captures embed the SAME cume twice (a screen block and a print
+  // block). Processing both would double every stat, so each table kind is
+  // taken exactly once — the first occurrence wins.
+  const seenTable = new Set()
 
   for (const block of blocks) {
     for (const { header, rows } of tables(block)) {
-      const cells = (line) => line.trim().split(/\s{1,}/)
+      const kind = header.split(/\s+/)[0].toUpperCase()
+      if (/^(RUSHING|PASSING|RECEIVING|DEFENSIVE)$/.test(kind)) {
+        if (seenTable.has(kind)) continue
+        seenTable.add(kind)
+      }
       const dataRows = rows.filter((r) => !isPseudo(r))
       const totalRow = rows.find((r) => /^\s*Total/i.test(r))
+      // A row's NUMERIC columns, whatever its label shape — a player row
+      // ("Williams, A. 11 170 …" or "Chad Scott 11 143 …"), a TEAM/TM pseudo
+      // row, or the printed Total ("Total.......... 12 479 …"). Used only by
+      // the checksums, which must read the same column from every row.
+      const nums = (line) =>
+        line
+          .replace(/^\s*[^0-9-]*(?=\s-?\d)/, '')
+          .trim()
+          .split(/\s+/)
 
       // ── offense ───────────────────────────────────────────────────────────
+      const joinOffense = (label, r) => {
+        const row = parseRow(r)
+        if (!row?.key) return null
+        // When the cume prints the FULL name (2000, 2004), match it exactly —
+        // the lastname+initial key alone is ambiguous on a roster with two
+        // "A. Williams" (Andre and Alge), and a wrong join would silently
+        // credit one player's stats to another.
+        const exact = row.name.includes(',')
+          ? null
+          : roster?.byFullName.get(row.name.toLowerCase().replace(/[.']/g, ''))
+        const hit = exact ? [exact] : (roster?.byAbbrev.get(row.key) ?? [])
+        if (hit.length !== 1) {
+          problems.push(
+            `${season} ${label}: ${row.name} → ${hit.length} roster matches`,
+          )
+          return null
+        }
+        const key = exact ? exact.name.toLowerCase() : row.key
+        return { row, p: touch(key, hit[0].name, hit[0].position, hit[0].jersey) }
+      }
+
       if (/^RUSHING\b/i.test(header)) {
-        // name G Att Gain Loss Net Avg TD Long Avg/G
+        // name G/GP Att Gain Loss Net Avg TD Long Avg/G
         for (const r of dataRows) {
-          const m = r.match(/^\s*(.+?,\s*[A-Za-z][A-Za-z'.]*\.?)\s+(.*)$/)
-          if (!m) continue
-          const c = cells(m[2])
-          const key = abbrevKey(m[1])
-          if (!key) continue
-          const hit = roster?.byAbbrev.get(key) ?? []
-          if (hit.length !== 1) {
-            problems.push(
-              `${season} rushing: ${m[1].trim()} → ${hit.length} roster matches`,
-            )
-            continue
-          }
-          const p = touch(key, hit[0].name, hit[0].position, hit[0].jersey)
-          bump(p, 'rushYds', num(c[4]))
-          bump(p, 'rushTD', num(c[6]))
+          const j = joinOffense('rushing', r)
+          if (!j) continue
+          bump(j.p, 'rushYds', num(j.row.cells[4]))
+          bump(j.p, 'rushTD', num(j.row.cells[6]))
         }
-        check(
-          'rush net',
-          rows.filter((r) => !/^\s*(Total|Opponents)/i.test(r)),
-          (r) => num(cells(r.replace(/^\s*.+?,\s*[A-Za-z][A-Za-z'.]*\.?/, ''))[4]),
-          totalRow,
-        )
+        const summable = rows.filter((r) => !/^\s*(Total|Opponents)/i.test(r))
+        check('rush net', summable, (r) => num(nums(r)[4]), totalRow)
+        check('rush TD', summable, (r) => num(nums(r)[6]), totalRow)
       } else if (/^PASSING\b/i.test(header)) {
-        // name G Effic Att-Cmp-Int Pct Yds TD Lng Avg/G
+        // name G/GP Effic Att-Cmp-Int Pct Yds TD Lng Avg/G
         for (const r of dataRows) {
-          const m = r.match(/^\s*(.+?,\s*[A-Za-z][A-Za-z'.]*\.?)\s+(.*)$/)
-          if (!m) continue
-          const c = cells(m[2])
-          const key = abbrevKey(m[1])
-          const hit = key ? (roster?.byAbbrev.get(key) ?? []) : []
-          if (hit.length !== 1) continue
-          const p = touch(key, hit[0].name, hit[0].position, hit[0].jersey)
+          const j = joinOffense('passing', r)
+          if (!j) continue
+          const c = j.row.cells
           const aci = String(c[2]).split('-') // Att-Cmp-Int
-          bump(p, 'passYds', num(c[4]))
-          bump(p, 'passTD', num(c[5]))
-          bump(p, 'passInt', num(aci[2]))
+          bump(j.p, 'passYds', num(c[4]))
+          bump(j.p, 'passTD', num(c[5]))
+          bump(j.p, 'passInt', num(aci[2]))
         }
+        const summable = rows.filter((r) => !/^\s*(Total|Opponents)/i.test(r))
+        check('pass yds', summable, (r) => num(nums(r)[4]), totalRow)
+        check('pass TD', summable, (r) => num(nums(r)[5]), totalRow)
       } else if (/^RECEIVING\b/i.test(header)) {
-        // name G No. Yds Avg TD Long Avg/G
+        // name G/GP No. Yds Avg TD Long Avg/G
         for (const r of dataRows) {
-          const m = r.match(/^\s*(.+?,\s*[A-Za-z][A-Za-z'.]*\.?)\s+(.*)$/)
-          if (!m) continue
-          const c = cells(m[2])
-          const key = abbrevKey(m[1])
-          const hit = key ? (roster?.byAbbrev.get(key) ?? []) : []
-          if (hit.length !== 1) continue
-          const p = touch(key, hit[0].name, hit[0].position, hit[0].jersey)
-          bump(p, 'rec', num(c[1]))
-          bump(p, 'recYds', num(c[2]))
-          bump(p, 'recTD', num(c[4]))
+          const j = joinOffense('receiving', r)
+          if (!j) continue
+          const c = j.row.cells
+          bump(j.p, 'rec', num(c[1]))
+          bump(j.p, 'recYds', num(c[2]))
+          bump(j.p, 'recTD', num(c[4]))
         }
+        const summable = rows.filter((r) => !/^\s*(Total|Opponents)/i.test(r))
+        check('rec', summable, (r) => num(nums(r)[1]), totalRow)
+        check('rec yds', summable, (r) => num(nums(r)[2]), totalRow)
       } else if (/DEFENSIVE LEADERS/i.test(header)) {
-        // jersey name GP UT AT Total ForLoss No-Yards Int-Yds PD QBH Rcv FF …
-        // (column names drift: "TFL/Yds" vs "ForLoss"; "BrUp"+"PD" vs "PD")
+        // jersey name [GP] Solo/UT Ast/AT Total TFL Sacks Int BrUp/PD QBH Rcv FF
+        // Column NAMES drift across vintages, so read them from the header
+        // rather than assuming an order (2004 has no GP column at all).
         const head = header.replace(/\s+/g, ' ').trim().split(' ')
         const idxOf = (...names) => {
           for (const n of names) {
             const i = head.findIndex((h) => h.toLowerCase() === n.toLowerCase())
-            if (i >= 0) return i - 2 // header starts at "DEFENSIVE LEADERS"
+            if (i >= 0) return i - 2 // header starts with "DEFENSIVE LEADERS"
           }
           return -1
         }
         const iTot = idxOf('Total')
-        const iTfl = idxOf('ForLoss', 'TFL/Yds', 'TFL-Yds')
-        const iSack = idxOf('No-Yards', 'No-Yds')
+        const iTfl = idxOf('ForLoss', 'TFL-Yds', 'TFL/Yds', 'TFL')
+        const iSack = idxOf('No-Yards', 'No-Yds', 'Sacks')
         const iInt = idxOf('Int-Yds')
         const iBrup = idxOf('BrUp', 'BU')
         const iPd = idxOf('PD')
@@ -215,35 +301,49 @@ function parseSeason(season) {
           continue
         }
         for (const r of dataRows) {
-          const m = r.match(/^\s*(\d+)\s+(.+?,\s*[A-Za-z][A-Za-z'.]*\.?)\s+(.*)$/)
-          if (!m) continue
-          const jersey = m[1]
-          const c = cells(m[3])
-          const hits = roster?.byJersey.get(jersey) ?? []
-          const key = abbrevKey(m[2])
-          // Prefer the jersey match whose surname agrees with the row.
-          const surname = key?.split(':')[0]
+          const row = parseRow(r, { jerseyFirst: true })
+          if (!row) continue
+          const hits = roster?.byJersey.get(row.jersey) ?? []
+          const surname = row.key?.split(':')[0]
           const hit =
-            hits.find((h) => h.name.split(/\s+/).at(-1).toLowerCase() === surname) ??
-            (hits.length === 1 ? hits[0] : null)
+            hits.find(
+              (h) => h.name.split(/\s+/).at(-1).toLowerCase() === surname,
+            ) ?? (hits.length === 1 ? hits[0] : null)
           if (!hit) {
             problems.push(
-              `${season} defense: #${jersey} ${m[2].trim()} → no roster match`,
+              `${season} defense: #${row.jersey} ${row.name} → no roster match`,
             )
             continue
           }
-          const p = touch(key ?? `#${jersey}`, hit.name, hit.position, jersey)
+          const c = row.cells
+          const p = touch(row.key ?? `#${row.jersey}`, hit.name, hit.position, row.jersey)
           bump(p, 'tackles', num(c[iTot]))
           if (iTfl >= 0) bump(p, 'tfl', pairFirst(c[iTfl]))
           if (iSack >= 0) bump(p, 'sacks', pairFirst(c[iSack]))
           if (iInt >= 0) bump(p, 'defInt', pairFirst(c[iInt]))
-          // PBU: the pure break-ups column when the table splits BrUp/PD,
-          // else the single PD column (PD = BrUp + INT in the split layout,
-          // so never sum them).
+          // pbu = pure break-ups when the table splits BrUp/PD; else the single
+          // PD column. NEVER sum them (PD = BrUp + INT in the split layout).
           const iPbu = iBrup >= 0 ? iBrup : iPd
           if (iPbu >= 0) bump(p, 'pbu', num(c[iPbu]))
           if (iFf >= 0) bump(p, 'ff', num(c[iFf]))
         }
+        // The defense table's own total row is "Totals ..." (not "Total.....").
+        // Player rows are JERSEY-first, so their columns must come from
+        // parseRow (which strips the jersey) — reading them positionally would
+        // count the jersey as a stat and shift every column by one.
+        const defTotal = rows.find((r) => /^\s*Totals?\b/i.test(r))
+        const defCol = (r) => {
+          const row = parseRow(r, { jerseyFirst: true })
+          return num((row ? row.cells : nums(r))[iTot])
+        }
+        // TEAM/TM pseudo-rows are not players (never emitted) but DO count
+        // toward the printed total, so the checksum must include them.
+        check(
+          'tackles',
+          rows.filter((r) => !/^\s*(Total|Opponents)/i.test(r)),
+          defCol,
+          defTotal,
+        )
       }
     }
   }

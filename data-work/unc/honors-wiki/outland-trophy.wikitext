@@ -1,0 +1,203 @@
+<!-- source: https://en.wikipedia.org/wiki/Outland_Trophy -->
+{{Short description|Award for the best college football interior lineman in the United States}}
+{{Infobox sports award
+| name           = Outland Trophy
+| current_awards = 
+| image          = 
+| imagesize      = 
+| caption        = 
+| description    = Best [[interior lineman]] in [[college football]]
+| presenter      = [[Football Writers Association of America]]
+| country        = United States
+| location       = 
+| year           = 1946
+| holder         = [[2025 Utah Utes football team|Utah]] offensive tackle [[Spencer Fano]]
+| website        = [http://www.sportswriters.net/fwaa/awards/outland/ sportswriters.net]
+}}
+The '''Outland Trophy''' is awarded to the best [[college football]] [[interior lineman]] in the United States as adjudged by the [[Football Writers Association of America]].  It is named after [[John H. Outland]]. One of only a few players ever to be named an [[College Football All-America Team|All-American]] at two positions, Outland garnered consensus All-America honors in 1898 as a [[Tackle (gridiron football position)|tackle]] and consensus honors as a [[Halfback (American football)|halfback]] in 1899. Outland had always contended that football tackles and [[Guard (gridiron football)|guards]] deserved greater recognition and conceived the Outland Trophy as a means of providing this recognition.<ref name=Connor/> In 1988, [[Jimmy Ridlon]] was commissioned to design and sculpt the Outland Trophy. A member of the [[National College Football Awards Association]], the award has become one of college football's most prestigious.<ref>{{cite news|title=College football: 2016 Outland Trophy watch list announced|url=https://www.ncaa.com/news/football/article/2016-07-08/college-football-2016-outland-trophy-watch-list-announced|access-date=April 12, 2017|work=NCAA.com|date=July 8, 2016}}</ref>
+
+==Winners==
+[[File:Gabe Carimi ASU.jpg|thumb|right|2010 winner [[Gabe Carimi]]]]
+{| class="wikitable sortable"
+|-
+!  Year !! Player !! Position !! School !! Ref.
+|-
+| [[1946 college football season|1946]] || [[George Connor (American football)|George Connor]] || [[Tackle (gridiron football position)|Tackle]] || [[1946 Notre Dame Fighting Irish football team|Notre Dame]] || <ref name=Connor>{{cite news|title=Lineman Award To Irish Tackle|url=https://www.newspapers.com/clip/10209442/lineman_award_to_irish_tackle/|access-date=April 12, 2017|work=Albuquerque Journal|agency=Associated Press|date=December 8, 1946|page=9|via=Newspapers.com}}</ref>
+|-
+| [[1947 college football season|1947]] || [[Joe Steffy]] || [[Guard (gridiron football)|Guard]] || [[1947 Army Cadets football team|Army]] || <ref>{{cite news|title=Army's Joe Steffy Chosen For Outland Trophy|url=https://www.newspapers.com/clip/10210723/armys_joe_steffy_chosen_for_outland/|access-date=April 12, 2017|work=Lead Daily Call|agency=United Press|date=December 9, 1947|page=2|via=Newspapers.com}}</ref>
+|-
+| [[1948 college football season|1948]] || [[Bill Fischer (American football)|Bill Fischer]] || Guard || [[1948 Notre Dame Fighting Irish football team|Notre Dame]] (2) || 
+|-
+| [[1949 college football season|1949]] || [[Ed Bagdon]] || Guard || [[1949 Michigan State Spartans football team|Michigan State]] || <ref>{{cite news |title=Ed Bagdon, MSU's lone Outland winner, is dead |url=https://www.newspapers.com/article/lansing-state-journal-ed-bagdon-msus-l/140359980/ |access-date=February 6, 2024 |work=Lansing State Journal |date=October 30, 1990 |page=3C}}</ref>
+|-
+| [[1950 college football season|1950]] || [[Bob Gain]] || Tackle || [[1950 Kentucky Wildcats football team|Kentucky]] || 
+|-
+| [[1951 college football season|1951]] || [[Jim Weatherall]] || Tackle || [[1951 Oklahoma Sooners football team|Oklahoma]] || 
+|-
+| [[1952 college football season|1952]] || [[Dick Modzelewski]] || Tackle || [[1952 Maryland Terrapins football team|Maryland]] || 
+|-
+| [[1953 college football season|1953]] || [[J. D. Roberts]] || Guard || [[1953 Oklahoma Sooners football team|Oklahoma]] (2) || 
+|-
+| [[1954 college football season|1954]] || [[Bud Brooks]] || Guard || [[1954 Arkansas Razorbacks football team|Arkansas]] || 
+|-
+| [[1955 college football season|1955]] || [[Cal Jones]] || Guard || [[1955 Iowa Hawkeyes football team|Iowa]] || 
+|-
+| [[1956 college football season|1956]] || [[Jim Parker (American football)|Jim Parker]] || Guard || [[1956 Ohio State Buckeyes football team|Ohio State]] || 
+|-
+| [[1957 college football season|1957]] || [[Alex Karras]] || Tackle || [[1957 Iowa Hawkeyes football team|Iowa]] (2) || 
+|-
+| [[1958 college football season|1958]] || [[Zeke Smith]] || Guard || [[1958 Auburn Tigers football team|Auburn]] || 
+|-
+| [[1959 college football season|1959]] || [[Mike McGee (American football)|Mike McGee]] || Tackle || [[1959 Duke Blue Devils football team|Duke]] || 
+|-
+| [[1960 college football season|1960]] || [[Tom Brown (guard)|Tom Brown]] || Guard || [[1960 Minnesota Golden Gophers football team|Minnesota]] || 
+|-
+| [[1961 college football season|1961]] || [[Merlin Olsen]] || Tackle || [[1961 Utah State Aggies football team|Utah State]] || 
+|-
+| [[1962 NCAA University Division football season|1962]] || [[Bobby Bell]] || Tackle || [[1962 Minnesota Golden Gophers football team|Minnesota]] (2) || 
+|-
+| [[1963 NCAA University Division football season|1963]] || [[Scott Appleton]] || Tackle || [[1963 Texas Longhorns football team|Texas]] || 
+|-
+| [[1964 NCAA University Division football season|1964]] || [[Steve DeLong]] || [[Middle guard]] || [[1964 Tennessee Volunteers football team|Tennessee]] || 
+|-
+| [[1965 NCAA University Division football season|1965]] || [[Tommy Nobis]] || Guard || [[1965 Texas Longhorns football team|Texas]] (2) || 
+|-
+| [[1966 NCAA University Division football season|1966]] || [[Loyd Phillips]] || [[Defensive tackle]] || [[1966 Arkansas Razorbacks football team|Arkansas]] (2) || 
+|-
+| [[1967 NCAA University Division football season|1967]] || [[Ron Yary]] || [[Offensive tackle]] || [[1967 USC Trojans football team|USC]] || 
+|-
+| [[1968 NCAA University Division football season|1968]] || [[Bill Stanfill]] || Defensive tackle || [[1968 Georgia Bulldogs football team|Georgia]] || 
+|-
+| [[1969 NCAA University Division football season|1969]] || [[Mike Reid (singer)|Mike Reid]] || Defensive tackle || [[1969 Penn State Nittany Lions football team|Penn State]] || 
+|-
+| [[1970 NCAA University Division football season|1970]] || [[Jim Stillwagon]] || Middle guard || [[1970 Ohio State Buckeyes football team|Ohio State]] (2) || 
+|-
+| [[1971 NCAA University Division football season|1971]] || [[Larry Jacobson]] || Defensive tackle || [[1971 Nebraska Cornhuskers football team|Nebraska]] || 
+|-
+| [[1972 NCAA University Division football season|1972]] || [[Rich Glover]] || Middle guard || [[1972 Nebraska Cornhuskers football team|Nebraska]] (2) || 
+|-
+| [[1973 NCAA Division I football season|1973]] || [[John Hicks (American football)|John Hicks]] || Offensive tackle || [[1973 Ohio State Buckeyes football team|Ohio State]] (3) || 
+|-
+| [[1974 NCAA Division I football season|1974]] || [[Randy White (American football)|Randy White]] || Defensive tackle || [[1974 Maryland Terrapins football team|Maryland]] (2) || 
+|-
+| [[1975 NCAA Division I football season|1975]] || [[Lee Roy Selmon]] || Defensive tackle || [[1975 Oklahoma Sooners football team|Oklahoma]] (3) || 
+|-
+| [[1976 NCAA Division I football season|1976]] || [[Ross Browner]] || [[Defensive end]] || [[1976 Notre Dame Fighting Irish football team|Notre Dame]] (3) || 
+|-
+| [[1977 NCAA Division I football season|1977]] || [[Brad Shearer]] || Defensive tackle || [[1977 Texas Longhorns football team|Texas]] (3) || 
+|-
+| [[1978 NCAA Division I-A football season|1978]] || [[Greg Roberts (American football)|Greg Roberts]] || Guard || [[1978 Oklahoma Sooners football team|Oklahoma]] (4) || 
+|-
+| [[1979 NCAA Division I-A football season|1979]] || [[Jim Ritcher]] || [[Center (gridiron football)|Center]] || [[1979 NC State Wolfpack football team|NC State]] || 
+|-
+| [[1980 NCAA Division I-A football season|1980]] || [[Mark May]] || Offensive tackle || [[1980 Pittsburgh Panthers football team|Pittsburgh]] || 
+|-
+| [[1981 NCAA Division I-A football season|1981]] || [[Dave Rimington]] || Center || [[1981 Nebraska Cornhuskers football team|Nebraska]] (3) || 
+|-
+| [[1982 NCAA Division I-A football season|1982]] || Dave Rimington (2) || Center || [[1982 Nebraska Cornhuskers football team|Nebraska]] (4) || 
+|-
+| [[1983 NCAA Division I-A football season|1983]] || [[Dean Steinkuhler]] || Guard || [[1982 Nebraska Cornhuskers football team|Nebraska]] (5) || 
+|-
+| [[1984 NCAA Division I-A football season|1984]] || [[Bruce Smith]] || Defensive tackle || [[1984 Virginia Tech Hokies football team|Virginia Tech]] || 
+|-
+| [[1985 NCAA Division I-A football season|1985]] || [[Mike Ruth]] || Middle guard || [[1985 Boston College Eagles football team|Boston College]] || 
+|-
+| [[1986 NCAA Division I-A football season|1986]] || [[Jason Buck]] || Defensive tackle || [[1986 BYU Cougars football team|BYU]] || 
+|-
+| [[1987 NCAA Division I-A football season|1987]] || [[Chad Hennings]] || Defensive tackle || [[1987 Air Force Falcons football team|Air Force]] || 
+|-
+| [[1988 NCAA Division I-A football season|1988]] || [[Tracy Rocker]] || Defensive tackle || [[1988 Auburn Tigers football team|Auburn]] (2) || 
+|-
+| [[1989 NCAA Division I-A football season|1989]] || [[Mohammed Elewonibi]] || Guard || [[1989 BYU Cougars football team|BYU]] (2) || 
+|-
+| [[1990 NCAA Division I-A football season|1990]] || [[Russell Maryland]] || Defensive tackle || [[1990 Miami Hurricanes football team|Miami (FL)]] || 
+|
+|-
+| [[1991 NCAA Division I-A football season|1991]] || [[Steve Emtman]] || Defensive tackle || [[1991 Washington Huskies football team|Washington]] || 
+|-
+| [[1992 NCAA Division I-A football season|1992]] || [[Will Shields]] || Guard || [[1992 Nebraska Cornhuskers football team|Nebraska]] (6) || 
+|-
+| [[1993 NCAA Division I-A football season|1993]] || [[Rob Waldrop]] || Defensive tackle || [[1993 Arizona Wildcats football team|Arizona]] || 
+|-
+| [[1994 NCAA Division I-A football season|1994]] || [[Zach Wiegert]] || Offensive tackle || [[1994 Nebraska Cornhuskers football team|Nebraska]] (7) || 
+|-
+| [[1995 NCAA Division I-A football season|1995]] || [[Jonathan Ogden]] || Offensive tackle || [[1995 UCLA Bruins football team|UCLA]] || 
+|-
+| [[1996 NCAA Division I-A football season|1996]] || [[Orlando Pace]] || Offensive tackle || [[1996 Ohio State Buckeyes football team|Ohio State]] (4) || 
+|-
+| [[1997 NCAA Division I-A football season|1997]] || [[Aaron Taylor (American football, born 1975)|Aaron Taylor]] || Guard || [[1997 Nebraska Cornhuskers football team|Nebraska]] (8) || 
+|-
+| [[1998 NCAA Division I-A football season|1998]] || [[Kris Farris]] || Offensive tackle || [[1998 UCLA Bruins football team|UCLA]] (2) || 
+|-
+| [[1999 NCAA Division I-A football season|1999]] || [[Chris Samuels]] || Offensive tackle || [[1999 Alabama Crimson Tide football team|Alabama]] || 
+|-
+| [[2000 NCAA Division I-A football season|2000]] || [[John Henderson (defensive tackle)|John Henderson]] || Defensive tackle || [[2000 Tennessee Volunteers football team|Tennessee]] (2) || 
+|-
+| [[2001 NCAA Division I-A football season|2001]] || [[Bryant McKinnie]] || Offensive tackle || [[2001 Miami Hurricanes football team|Miami (FL)]] (2) || 
+|-
+| [[2002 NCAA Division I-A football season|2002]] || [[Rien Long]] || Defensive tackle || [[2002 Washington State Cougars football team|Washington State]] || 
+|-
+| [[2003 NCAA Division I-A football season|2003]] || [[Robert Gallery]] || Offensive tackle || [[2003 Iowa Hawkeyes football team|Iowa]] (3) || <ref>{{cite web|title=Iowa's Gallery Wins Outland Trophy|url=https://hawkeyesports.com/news/2003/12/11/iowa_s_gallery_wins_outland_trophy.aspx|access-date=August 11, 2019|work=[[Iowa Hawkeyes|University of Iowa Athletic Department]]|date=December 11, 2003}}</ref>
+|-
+| [[2004 NCAA Division I-A football season|2004]] || [[Jammal Brown]] || Offensive tackle || [[2004 Oklahoma Sooners football team|Oklahoma]] (5) || 
+|-
+| [[2005 NCAA Division I-A football season|2005]] || [[Greg Eslinger]] || Center || [[2005 Minnesota Golden Gophers football team|Minnesota]] (3) || 
+|-
+| [[2006 NCAA Division I FBS football season|2006]] || [[Joe Thomas (offensive tackle)|Joe Thomas]] || Offensive tackle || [[2006 Wisconsin Badgers football team|Wisconsin]] || 
+|-
+| [[2007 NCAA Division I FBS football season|2007]] || [[Glenn Dorsey]] || Defensive tackle || [[2007 LSU Tigers football team|LSU]] || 
+|-
+| [[2008 NCAA Division I FBS football season|2008]] || [[Andre Smith (offensive tackle)|Andre Smith]] || Offensive tackle || [[2008 Alabama Crimson Tide football team|Alabama]] (2) || 
+|-
+| [[2009 NCAA Division I FBS football season|2009]] || [[Ndamukong Suh]] || Defensive tackle || [[2009 Nebraska Cornhuskers football team|Nebraska]] (9) || <ref>{{cite web|title=Suh wins Outland, Bednarik awards|url=https://journalstar.com/sports/huskers/football/suh-wins-outland-bednarik-awards/article_1b6756a7-b096-564e-8db3-fef03670d4c5.html|access-date=August 11, 2019|work=[[Lincoln Journal Star]]|date=December 10, 2009}}</ref>
+|-
+| [[2010 NCAA Division I FBS football season|2010]] || [[Gabe Carimi]] || Offensive tackle || [[2010 Wisconsin Badgers football team|Wisconsin]] (2) || 
+|-
+| [[2011 NCAA Division I FBS football season|2011]] || [[Barrett Jones]] || Offensive tackle || [[2011 Alabama Crimson Tide football team|Alabama]] (3) || 
+|-
+| [[2012 NCAA Division I FBS football season|2012]] || [[Luke Joeckel]] || Offensive tackle || [[2012 Texas A&M Aggies football team|Texas A&M]] || 
+|-
+| [[2013 NCAA Division I FBS football season|2013]] || [[Aaron Donald]] || Defensive tackle || [[2013 Pittsburgh Panthers football team|Pittsburgh]] (2) || 
+|-
+| [[2014 NCAA Division I FBS football season|2014]] || [[Brandon Scherff]] || Offensive tackle || [[2014 Iowa Hawkeyes football team|Iowa]] (4) || <ref>{{cite news|title=Iowa T Brandon Scherff wins Outland Trophy|url=https://www.si.com/college-football/2014/12/11/ap-fbc-college-football-awards-outland-trophy|access-date=April 12, 2017|work=Sports Illustrated|agency=Associated Press|date=December 11, 2014}}</ref>
+|-
+| [[2015 NCAA Division I FBS football season|2015]] || [[Joshua Garnett]] || Guard || [[2015 Stanford Cardinal football team|Stanford]] || <ref>{{cite news|title=Stanford's Joshua Garnett wins Outland Trophy|url=http://www.sfgate.com/collegesports/article/Stanford-s-Joshua-Garnett-wins-Outland-Trophy-6690917.php|access-date=April 12, 2017|work=San Francisco Chronicle|date=December 11, 2015}}</ref>
+|-
+| [[2016 NCAA Division I FBS football season|2016]] || [[Cam Robinson]] || Offensive tackle || [[2016 Alabama Crimson Tide football team|Alabama]] (4) || <ref>{{cite news|title=Alabama's Cam Robinson wins Outland Trophy|url=https://www.usatoday.com/story/sports/ncaaf/2016/12/08/alabamas-cam-robinson-wins-outland-trophy/95171726/|access-date=April 12, 2017|work=USA Today|agency=Associated Press|date=December 8, 2016}}</ref>
+|-
+| [[2017 NCAA Division I FBS football season|2017]] || [[Ed Oliver (American football)|Ed Oliver]] || Defensive tackle || [[2017 Houston Cougars football team|Houston]] || <ref>{{cite news|title=UH's Ed Oliver wins Outland Trophy|url=http://www.chron.com/sports/cougars/article/UH-s-Ed-Oliver-wins-Outland-Trophy-12414689.php|access-date=December 7, 2017|work=Houston Chronicle|date=December 7, 2017}}</ref>
+|-
+| [[2018 NCAA Division I FBS football season|2018]] || [[Quinnen Williams]] || Defensive tackle || [[2018 Alabama Crimson Tide football team|Alabama]] (5) || <ref>{{Cite web|url=https://www.al.com/alabama/2018/12/alabama-dl-quinnen-williams-wins-outland-trophy.html|title=Quinnen Williams wins Outland Trophy, but not Bednarik|date=December 7, 2018|website=al}}</ref>
+|-
+| [[2019 NCAA Division I FBS football season|2019]] || [[Penei Sewell]] || Offensive tackle || [[Oregon Ducks football|Oregon]] || <ref>{{Cite web|url=https://www.oregonlive.com/ducks/2019/12/oregon-ducks-ol-penei-sewell-wins-outland-trophy.html|title=Oregon Ducks OL Penei Sewell wins Outland Trophy|first=James Crepea &#124; The|last=Oregonian/OregonLive|date=December 13, 2019|website=oregonlive}}</ref>
+|-
+| [[2020 NCAA Division I FBS football season|2020]] || [[Alex Leatherwood]] || Offensive tackle || [[2020 Alabama Crimson Tide football team|Alabama]] (6) || <ref>{{cite web|last=Martin|first=Tyler|title=Alabama OT Alex Leatherwood Wins 2020 Outland Trophy|url=https://www.si.com/college/alabama/bamacentral/alabama-ot-alex-leatherwood-wins-2020-outland-trophy|website=si.com|publisher=Sports Illustrated|date=January 7, 2021|access-date=May 19, 2026}}</ref>
+|-
+| [[2021 NCAA Division I FBS football season|2021]] || [[Jordan Davis (defensive tackle)|Jordan Davis]] || Defensive tackle || [[Georgia Bulldogs football|Georgia]] (2) || <ref>{{cite web|last=Reno|first=Harrison|title=Jordan Davis Wins Outland Trophy|url=https://www.si.com/college/georgia/news/jordan-davis-wins-outland-trophy|website=si.com|publisher=Sports Illustrated|date=December 9, 2021|access-date=May 19, 2026}}</ref>
+|-
+| [[2022 NCAA Division I FBS football season|2022]] || [[Olu Oluwatimi]] || Center || [[2022 Michigan Wolverines football team|Michigan]] || <ref>{{cite web|last=Ablauf|first=Dave|last2=Shepard|first2=Chad|title=Oluwatimi Wins Pair of National Awards, Claiming Outland, Rimington Trophies|url=https://mgoblue.com/news/2022/12/8/football-oluwatimi-wins-pair-of-national-awards-claiming-outland-rimington-trophies|website=mgoblue.com|publisher=University of Michigan|date=December 8, 2022|access-date=May 19, 2026}}</ref>
+|-
+| [[2023 NCAA Division I FBS football season|2023]] || [[T'Vondre Sweat]] || Defensive tackle || [[2023 Texas Longhorns football team|Texas]] (4) || <ref>{{cite web|title=Sweat wins 2023 Outland Trophy|url=https://texaslonghorns.com/news/2023/12/8/football-sweat-wins-2023-outland-trophy|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 8, 2023|access-date=May 19, 2026}}</ref>
+|-
+| [[2024 NCAA Division I FBS football season|2024]] || [[Kelvin Banks Jr.]] || Offensive tackle || [[Texas Longhorns football|Texas]] (5) || <ref>{{cite web|last=Tafolla|first=Grace|title=No. 4/4/3 Football's Banks wins 2024 Outland Trophy|url=https://texaslonghorns.com/news/2024/12/12/no-4-4-3-footballs-banks-wins-2024-outland-trophy|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 12, 2024|access-date=May 19, 2026}}</ref>
+|-
+| [[2025 NCAA Division I FBS football season|2025]] || [[Spencer Fano]] || Offensive tackle || [[2025 Utah Utes football team|Utah]] || <ref>{{cite web|title=Spencer Fano Named Utah Football's First Outland Trophy Recipient|url=https://utahutes.com/news/2025/12/12/spencer-fano-named-utah-footballs-first-outland-trophy-recipient|website=utahutes.com|publisher=University of Utah|date=December 12, 2025|access-date=May 19, 2026}}</ref>
+|}
+
+== See also ==
+* [[Lombardi Award]]
+* [[Rimington Trophy]]
+* [[UPI Lineman of the Year (College)]]
+
+==References==
+{{reflist|2}}
+
+==External links==
+*[http://www.sportswriters.net/fwaa/awards/outland/ Outland Trophy website] {{Webarchive|url=https://web.archive.org/web/20110722010010/http://www.sportswriters.net/fwaa/awards/outland/ |date=2011-07-22 }}
+
+{{Outland Trophy}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1946]]
+[[Category:1946 establishments in the United States]]

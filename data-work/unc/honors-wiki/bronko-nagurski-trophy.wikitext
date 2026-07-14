@@ -1,0 +1,113 @@
+<!-- source: https://en.wikipedia.org/wiki/Bronko_Nagurski_Trophy -->
+{{short description|Award to the best defensive player in US college football}}
+{{Use American English|date=December 2025}}
+{{Use mdy dates|date=December 2025}}
+{{Infobox sports award
+| name           = Bronko Nagurski Trophy
+| current_awards = 
+| image          = Nagurski.jpg
+| imagesize      =
+| caption        = 
+| description    = The best defensive player in college football
+| presenter      = Charlotte Touchdown Club and [[Football Writers Association of America]]
+| country        = United States
+| location       = 
+| year           = 1993
+| holder         = [[2025 Texas Tech Red Raiders football team|Texas Tech]] linebacker [[Jacob Rodriguez]]
+| website        = {{url|http://www.touchdownclub.com}}
+}}
+
+The '''Bronko Nagurski Trophy''' has been awarded annually since 1993 to the [[college football|collegiate]] [[American football]] defensive player adjudged by the membership of the [[Football Writers Association of America]] (FWAA) to be the best in the [[National Collegiate Athletic Association]] (NCAA). The award is named for [[Bronko Nagurski]], who played football for the [[University of Minnesota]] and [[Chicago Bears]], and is presented by the Charlotte Touchdown Club and FWAA.<ref>{{cite news|title=College football: 2016 Bronko Nagurski Trophy watch list announced|url=https://www.ncaa.com/news/football/article/2016-07-08/college-football-2016-bronko-nagurski-trophy-watch-list-announced|access-date=July 5, 2017|work=NCAA.com|publisher=Football Writers Association of America|date=July 8, 2016}}</ref>
+
+==Winners==
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! Year !! Winner !! Pos. !! School !! class="unsortable" |Ref
+|-
+| [[1993 NCAA Division I-A football season|1993]] || {{sortname|Rob|Waldrop}} || [[Defensive tackle|DT]] || [[1993 Arizona Wildcats football team|Arizona]] || 
+|-
+| [[1994 NCAA Division I-A football season|1994]] || {{sortname|Warren|Sapp}} || [[Defensive tackle|DT]] || [[1994 Miami Hurricanes football team|Miami (FL)]] || 
+|-
+| [[1995 NCAA Division I-A football season|1995]] || {{sortname|Pat|Fitzgerald}} || [[Linebacker|LB]] || [[1995 Northwestern Wildcats football team|Northwestern]] || 
+|-
+| [[1996 NCAA Division I-A football season|1996]] || {{sortname|Pat|Fitzgerald|nolink=y}} (2) || [[Linebacker|LB]] || [[1996 Northwestern Wildcats football team|Northwestern]] (2) || 
+|-
+| [[1997 NCAA Division I-A football season|1997]] || {{sortname|Charles|Woodson}} || [[Cornerback|CB]] || [[1997 Michigan Wolverines football team|Michigan]] || 
+|-
+| [[1998 NCAA Division I-A football season|1998]] || {{sortname|Champ|Bailey}} || [[Cornerback|CB]] || [[1998 Georgia Bulldogs football team|Georgia]] || 
+|-
+| [[1999 NCAA Division I-A football season|1999]] || {{sortname|Corey|Moore}} || [[Defensive end|DE]] || [[1999 Virginia Tech Hokies football team|Virginia Tech]] || 
+|-
+| [[2000 NCAA Division I-A football season|2000]] || {{sortname|Dan|Morgan}} || [[Linebacker|LB]] || [[2000 Miami Hurricanes football team|Miami (FL)]] (2) || <ref>{{cite web|title=Morgan Wins Bronko Nagurksi Trophy|url=https://miamihurricanes.com/news/2000/12/04/205546585-2/|website=miamihurricanes.com|publisher=University of Miami|date=December 4, 2000|access-date=May 27, 2026}}</ref>
+|-
+| [[2001 NCAA Division I-A football season|2001]] || {{sortname|Roy|Williams|dab=safety}} || [[Strong safety|SS]] || [[2001 Oklahoma Sooners football team|Oklahoma]] || <ref>{{cite web|title=Roy Williams Nabs Bronko Nagurski Award|url=https://soonersports.com/news/2001/12/10/208375503|website=soonersports.com|publisher=University of Oklahoma|date=December 10, 2001|access-date=May 27, 2026}}</ref>
+|-
+| [[2002 NCAA Division I-A football season|2002]] || {{sortname|Terrell|Suggs}} || [[Defensive end|DE]] || [[2002 Arizona State Sun Devils football team|Arizona State]] || 
+|-
+| [[2003 NCAA Division I-A football season|2003]] || {{sortname|Derrick|Strait}} || [[Cornerback|CB]] || [[2003 Oklahoma Sooners football team|Oklahoma]] (2) || <ref>{{cite web|title=Strait Captures Bronko Nagurski Trophy As Nation's Top Defensive Player|url=https://soonersports.com/news/2003/12/8/208403691|website=soonersports.com|publisher=University of Oklahoma|date=December 8, 2003|access-date=May 27, 2026}}</ref>
+|-
+| [[2004 NCAA Division I-A football season|2004]] || {{sortname|Derrick|Johnson}} || [[Linebacker|LB]] || [[2004 Texas Longhorns football team|Texas]] || <ref>{{cite web|title=Derrick Johnson wins Nagurski Trophy|url=https://texaslonghorns.com/news/2004/12/6/120604aaa_655|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 6, 2004|access-date=May 27, 2026}}</ref>
+|-
+| [[2005 NCAA Division I-A football season|2005]] || {{sortname|Elvis|Dumervil}} || [[Defensive end|DE]] || [[2005 Louisville Cardinals football team|Louisville]] || <ref>{{cite web|title=Dumervil Awarded Bronko Nagurski Trophy|url=https://gocards.com/news/2005/12/5/Dumervil_Awarded_Bronko_Nagurski_Trophy|website=gocards.com|publisher=University of Louisville|date=December 5, 2005|access-date=May 27, 2026}}</ref>
+|-
+| [[2006 NCAA Division I FBS football season|2006]] || {{sortname|James|Laurinaitis}} || [[Linebacker|LB]] || [[2006 Ohio State Buckeyes football team|Ohio State]] || <ref>{{cite web|title=Ohio State's Laurinaitis wins Bronko Nagurski Trophy|url=https://ohiostatebuckeyes.com/news/2006/12/4/ohio-states-laurinaitis-wins-bronko-nagurski-trophy|website=ohiostatebuckeyes.com|publisher=The Ohio State University|date=December 4, 2006|access-date=May 27, 2026}}</ref>
+|-
+| [[2007 NCAA Division I FBS football season|2007]] || {{sortname|Glenn|Dorsey}} || [[Defensive tackle|DT]] || [[2007 LSU Tigers football team|LSU]] || 
+|-
+| [[2008 NCAA Division I FBS football season|2008]] || {{sortname|Brian|Orakpo}} || [[Defensive end|DE]] || [[2008 Texas Longhorns football team|Texas]] (2) || <ref>{{cite web|title=Orakpo claims Nagurski Trophy one day after graduating|url=https://texaslonghorns.com/news/2008/12/7/120708aac_410|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 7, 2008|access-date=May 27, 2026}}</ref>
+|-
+| [[2009 NCAA Division I FBS football season|2009]] || {{sortname|Ndamukong|Suh}} || [[Defensive tackle|DT]] || [[2009 Nebraska Cornhuskers football team|Nebraska]] || <ref>{{cite web|title=Suh Earns Bronko Nagurski Award As Nation's Top Defender|url=https://huskers.com/news/2009/12/7/suh-earns-bronko-nagurski-award-as-nations-top-defender|website=huskers.com|publisher=University of Nebraska–Lincoln|date=December 7, 2009|access-date=May 27, 2026}}</ref>
+|-
+| [[2010 NCAA Division I FBS football season|2010]] || {{sortname|Da'Quan|Bowers}} || [[Defensive end|DE]] || [[2010 Clemson Tigers football team|Clemson]] || <ref>{{cite web|title=Bowers Wins Bronko Nagurski Award|url=https://clemsontigers.com/news/2010/12/6/bowers-wins-bronko-nagurski-award|website=clemsontigers.com|publisher=Clemson University|date=December 6, 2010|access-date=May 27, 2026}}</ref><ref>{{cite news|last1=Cranston|first1=Mike|title=Clemson DE Bowers wins Bronko Nagurski Trophy|url=http://newsok.com/article/feed/220914|access-date=July 5, 2017|work=The Oklahoman|agency=Associated Press|date=December 6, 2010}}</ref>
+|-
+| [[2011 NCAA Division I FBS football season|2011]] || {{sortname|Luke|Kuechly}} || [[Linebacker|LB]] || [[2011 Boston College Eagles football team|Boston College]] || <ref>{{cite web|title=Kuechly wins Bronko Nagurski Award|url=https://bceagles.com/news/2011/12/12/Kuechly_wins_Bronko_Nagurski_Award|website=bceagles.com|publisher=Boston College|date=December 12, 2011|access-date=May 27, 2026}}</ref><ref>{{cite web|title=Boston College's Kuechly wins 2011 Bronko Nagurski Trophy|url=https://footballfoundation.org/news/2011/12/13/_51297.aspx|website=footballfoundation.org|publisher=National Football Foundation & College Hall of Fame|date=December 13, 2011|access-date=May 27, 2026}}</ref>
+
+|-
+| [[2012 NCAA Division I FBS football season|2012]] || {{sortname|Manti|Teʻo}} || [[Linebacker|LB]] || [[2012 Notre Dame Fighting Irish football team|Notre Dame]] || <ref>{{cite web|title=Manti Te'o Wins Nagurski Award For Top Defensive Player|url=https://fightingirish.com/manti-teo-wins-nagurski-award-for-top-defensive-player/|website=fightingirish.com|publisher=University of Notre Dame|date=December 3, 2012|access-date=May 27, 2026}}</ref><ref>{{cite news|title=Notre Dame's Te'o wins Nagurski Award for top defensive player|url=https://www.usatoday.com/story/sports/ncaaf/2012/12/03/notre-dames-teo-wins-nagurski-award-for-top-defensive-player/1744549/|access-date=July 5, 2017|work=USA Today|agency=Associated Press|date=December 3, 2012}}</ref>
+|-
+| [[2013 NCAA Division I FBS football season|2013]] || {{sortname|Aaron|Donald}} || [[Defensive tackle|DT]] || [[2013 Pittsburgh Panthers football team|Pittsburgh]] || <ref>{{cite web|title=PITT'S AARON DONALD SELECTED WINNER OF 2013 BRONKO NAGURSKI TROPHY|url=https://pittsburghpanthers.com/news/2013/12/9/pitt_s_aaron_donald_selected_winner_of_2013_bronko_nagurski_trophy|website=pittsburghpanthers.com|publisher=University of Pittsburgh|date=December 9, 2013|access-date=May 27, 2026}}</ref><ref>{{cite news|last1=Werner|first1=Sam|title=Pitt defensive tackle Donald wins Nagurski Trophy|url=https://www.post-gazette.com/sports/Pitt/2013/12/09/Donald-wins-Nagurski-Trophy/stories/201312090178|access-date=July 5, 2017|work=Pittsburgh Post-Gazette|date=December 9, 2013}}</ref>
+|-
+| [[2014 NCAA Division I FBS football season|2014]] || {{sortname|Scooby|Wright}} || [[Linebacker|LB]] || [[2014 Arizona Wildcats football team|Arizona]] (2) || <ref>{{cite news|title=Arizona LB Scooby Wright wins Nagurski Award|url=https://www.usatoday.com/story/sports/ncaaf/2014/12/09/arizona-linebacker-wright-wins-nagurski-award/20122341/|access-date=July 5, 2017|work=USA Today|agency=Associated Press|date=December 8, 2014}}</ref>
+|-
+| [[2015 NCAA Division I FBS football season|2015]] || {{sortname|Tyler|Matakevich}}|| [[Linebacker|LB]] || [[2015 Temple Owls football team|Temple]] || <ref>{{cite web|title=Watch: Matakevich Wins Bronko Nagurski Award|url=https://owlsports.com/news/2015/12/7/FB_1207154941|website=owlsports.com|publisher=Temple University|date=December 7, 2015|access-date=May 27, 2026}}</ref><ref>{{cite news|last1=Scarcella|first1=Rich|title=Temple's Matakevich wins Bronko Nagurski Trophy|url=http://www.readingeagle.com/sports/article/temple-matakevich-wins-bronko-nagurski-trophy|access-date=July 5, 2017|work=Reading Eagle|date=December 8, 2015}}</ref>
+|-
+| [[2016 NCAA Division I FBS football season|2016]] || {{sortname|Jonathan|Allen}}|| [[Defensive end|DE]] || [[2016 Alabama Crimson Tide football team|Alabama]] || <ref>{{cite web|title=Alabama's Jonathan Allen Wins 2016 Bronko Nagurski Trophy|url=https://rolltide.com/news/2016/12/5/football-alabamas-jonathan-allen-wins-2016-bronko-nagurski-trophy|website=rolltide.com|publisher=The University of Alabama|date=December 5, 2016|access-date=May 27, 2026}}</ref><ref>{{cite news|last1=Potter|first1=Charlie|title=Alabama's Jonathan Allen wins Bronko Nagurski Trophy|url=http://www.cbssports.com/college-football/news/alabamas-jonathan-allen-wins-bronko-nagurski-trophy/|access-date=July 5, 2017|work=CBS Sports|date=December 6, 2016}}</ref>
+|-
+| [[2017 NCAA Division I FBS football season|2017]] || {{sortname|Bradley|Chubb}}|| [[Defensive end|DE]] || [[2017 NC State Wolfpack football team|NC State]] || <ref>{{cite web|title=Chubb Wins Bronko Nagurski Trophy|url=https://gopack.com/news/2017/12/4/football-chubb-wins-bronco-naguarski-trophy|website=gopack.com|publisher=North Carolina State University|date=December 4, 2017|access-date=May 27, 2026}}</ref><ref>{{cite news|last1=Reed|first1=Steve|title=NC State DE Bradley Chubb wins Nagurski Award as top defender|url=http://www.chicagotribune.com/sports/college/ct-nc-state-bradley-chubb-bronko-nagurski-award-20171204-story.html|access-date=December 5, 2017|publisher=Chicago Tribune|date=December 5, 2017}}</ref>
+|-
+| [[2018 NCAA Division I FBS football season|2018]] || {{sortname|Josh|Allen|Josh Hines-Allen}}|| [[Linebacker|LB]] || [[2018 Kentucky Wildcats football team|Kentucky]] || <ref>{{cite web|title=Josh Allen Wins Bronko Nagurski Trophy|url=https://ukathletics.com/news/2018/12/03/football-josh-allen-wins-bronko-nagurski-trophy/|website=ukathletics.com|publisher=University of Kentucky|date=December 3, 2018|access-date=May 27, 2026}}</ref><ref>{{cite news|last1=Pilgram|first1=Jack|title=Josh Allen wins Bronko Nagurski Trophy for Defensive Player of the Year|url=http://kentuckysportsradio.com/football-2/josh-allen-wins-bronko-nagurski-trophy-for-defensive-player-of-the-year/|access-date=December 3, 2018|publisher=Kentucky Sports Radio|date=December 3, 2018}}</ref>
+|-
+| [[2019 NCAA Division I FBS football season|2019]] || {{sortname|Chase|Young}}|| [[Defensive end|DE]] || [[2019 Ohio State Buckeyes football team|Ohio State]] (2) || <ref>{{cite web|title=Chase Young Wins 2019 Bronko Nagurski Award|url=https://ohiostatebuckeyes.com/news/2019/12/9/chase-young-wins-2019-bronko-nagerski-award|website=ohiostatebuckeyes.com|publisher=The Ohio State University|date=December 9, 2019|access-date=May 27, 2026}}</ref><ref>{{cite news|url=https://collegefootballtalk.nbcsports.com/2019/12/09/heisman-finalist-chase-young-named-the-2019-nagurski-trophy-winner/ |title=Heisman finalist Chase Young named the 2019 Nagurski Trophy winner |first=John |last=Taylor |work=College Football Talk |publisher=NBC Sports |date=December 9, 2019 |access-date=December 10, 2019}}</ref>
+|-
+| [[2020 NCAA Division I FBS football season|2020]] || {{sortname|Zaven|Collins}} || [[Linebacker|LB]] || [[2020 Tulsa Golden Hurricane football team|Tulsa]] || <ref>{{cite web|title=Zaven Collins Wins Bronko Nagurski Trophy|url=https://tulsahurricane.com/news/2020/12/23/football-zaven-collins-wins-bronko-nagurski-trophy|website=tulsahurricane.com|publisher=University of Tulsa|date=December 23, 2020|access-date=May 27, 2026}}</ref><ref>{{cite web |last1=Thompson |first1=Jaylon |title=Zaven Collins wins Bronko Nagurski Award |url=https://247sports.com/Article/Zaven-Collins-wins-Bronko-Nagurski-Award-Tulsa-Golden-Hurricane-157720948/ |website=247 Sports |access-date=24 December 2020}}</ref>
+|-
+| [[2021 NCAA Division I FBS football season|2021]] || {{sortname|Will|Anderson Jr.}} || [[Linebacker|LB]] || [[2021 Alabama Crimson Tide football team|Alabama]] (2) || <ref>{{cite web|title=Alabama Football's Will Anderson Jr. Wins 2021 Nagurski Trophy|url=https://rolltide.com/news/2021/12/6/alabama-footballs-will-anderson-jr-wins-2021-nagurski-trophy|website=rolltide.com|publisher=The University of Alabama|date=December 6, 2021|access-date=May 27, 2026}}</ref>
+|-
+| [[2022 NCAA Division I FBS football season|2022]] || {{sortname|Will|Anderson Jr.|nolink=y}} (2) || [[Linebacker|LB]] || [[2022 Alabama Crimson Tide football team|Alabama]] (3) || <ref>{{cite web|title=Alabama Football's Will Anderson Jr. Wins Nagurski Trophy for Second Consecutive Year|url=https://rolltide.com/news/2022/12/5/alabama-footballs-will-anderson-jr-wins-nagurski-trophy-for-second-consecutive-year|website=rolltide.com|publisher=The University of Alabama|date=December 5, 2022|access-date=May 27, 2026}}</ref>
+|-
+| [[2023 NCAA Division I FBS football season|2023]] || {{sortname|Xavier|Watts}} || [[Safety (gridiron football position)|S]] || [[2023 Notre Dame Fighting Irish football team|Notre Dame]] (2) || <ref>{{cite web|title=Xavier Watts Wins Bronko Nagurski Trophy|url=https://fightingirish.com/xavier-watts-wins-bronko-nagurski-trophy/|website=fightingirish.com|publisher=University of Notre Dame|date=December 4, 2023|access-date=May 27, 2026}}</ref>
+|-
+| [[2024 NCAA Division I FBS football season|2024]] || {{sortname|Kyle|Kennard}} || [[Defensive end|DE]] || [[2024 South Carolina Gamecocks football team|South Carolina]] || <ref>{{cite web|title=Kyle Kennard Wins the 2024 Bronko Nagurski Trophy|url=https://gamecocksonline.com/news/2024/12/09/kennard-wins-the-2024-bronco-nagurski-trophy/|website=gamecocksonline.com|publisher=University of South Carolina|date=December 9, 2024|access-date=May 27, 2026}}</ref>
+|-
+| [[2025 NCAA Division I FBS football season|2025]] || {{sortname|Jacob|Rodriguez}} || [[Linebacker|LB]] || [[2025 Texas Tech Red Raiders football team|Texas Tech]] || <ref>{{cite web|title=Rodriguez wins Bronko Nagurski Trophy|url=https://texastech.com/news/2025/12/8/football-Rodriguez-wins-Bronko-Nagurski-Trophy|website=texastech.com|publisher=Texas Tech University|date=December 8, 2025|access-date=May 27, 2026}}</ref>
+|}
+
+==See also==
+* [[Chuck Bednarik Award]], a similar award given by the Maxwell Football Club
+
+==References==
+;General
+* {{cite web|title=Bronko Nagurski Award Winners|url=https://www.sports-reference.com/cfb/awards/nagurski.html|publisher=Sports Reference|access-date=July 5, 2017}}
+
+;Footnotes
+{{Reflist|60em}}
+
+==External links==
+*[http://www.touchdownclub.com The Bronko Nagurski Charlotte Touchdown Club]
+
+{{Bronko Nagurski Trophy}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1993]]
+[[Category:1993 establishments in the United States]]

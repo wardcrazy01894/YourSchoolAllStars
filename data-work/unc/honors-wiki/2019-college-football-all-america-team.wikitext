@@ -1,0 +1,201 @@
+<!-- source: https://en.wikipedia.org/wiki/2019_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2019}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2019 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2019 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2018 All-America college football team|2018]] &nbsp; [[2020 All-America college football team|2020]] → 
+}}
+
+The '''2019 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].<ref>{{Cite book |title=The Michigan alumnus |publisher=University of Michigan Library |year=2010 |page=495 |asin=B0037HO8MY}}</ref><ref>{{Cite journal |last=Martin, John Stuart |date=October 1961 |title=Walter Camp and His Gridiron Game |url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |url-status=dead |volume=12 |issue=6 |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 |access-date=October 17, 2011 |journal=[[American Heritage (magazine)|American Heritage]]}}</ref><ref>{{Cite web |last=Newsome, Ron |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |access-date=October 17, 2011 |publisher=[[CBS Interactive]]/[[NCAA.org]]}}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> The National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled, in the 1950, the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{Cite web |title=Football Award Winners |url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 |access-date=October 17, 2011 |publisher=[[NCAA]]}}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, including all NCAA championship sports.
+
+The 2019 All-America college football team is composed of the following [[All-America college football team|All-America]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[Sporting News]]'' (''TSN'', from its historic name of ''The Sporting News''), ''[[Sports Illustrated]]'' (''SI''), ''[[The Athletic]]'' (Athletic), ''[[USA Today]]'' (USAT) [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], [[Athlon Sports Communications|Athlon Sports]], and [[Fox Sports]] (FOX).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least two of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{Cite web |date=September 15, 2010 |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |url-status=dead |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |archive-date=January 3, 2012 |access-date=December 10, 2011 |publisher=[[National Collegiate Athletic Association]]}}</ref>
+
+Twenty-five players were recognized as consensus All-Americans for 2019, 16 of them unanimously. [[List of unanimous All-Americans in college football|Unanimous selections]] are followed by an asterisk (*)
+
+{| class="wikitable sortable"
+|+2019 Consensus All-Americans<ref>{{cite web|title=Football Award Winners|publisher=NCAA|year=2023|page=17|url=http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|access-date=January 1, 2024|archive-url=https://web.archive.org/web/20231226151159/http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|archive-date=December 26, 2023|url-status=live}}</ref>
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Joe|Burrow}}* || Quarterback || {{sort|4|Senior}} || [[2019 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Chuba|Hubbard}}* || rowspan="2" | Running back ||{{sort|2|Sophomore}} || [[2019 Oklahoma State Cowboys football team|Oklahoma State]]
+|-
+| {{sortname|Jonathan|Taylor|Jonathan Taylor (American football)}}* ||{{sort|3|Junior}} || [[2019 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Ja'Marr|Chase}}* || rowspan="2" | Wide receiver ||{{sort|2|Sophomore}} || [[2019 LSU Tigers football team|LSU]]
+|-
+| {{sortname|CeeDee|Lamb}} ||{{sort|3|Junior}} || [[2019 Oklahoma Sooners football team|Oklahoma]]
+|-
+| {{sortname|Harrison|Bryant}}* || Tight end ||{{sort|4|Senior}} || [[2019 Florida Atlantic Owls football team|FAU]]
+|-
+| {{sortname|Tyler|Biadasz}}* || Center || {{sort|3|Junior}} || [[2019 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Wyatt|Davis}} || rowspan="4" | Offensive line ||{{sort|3|Sophomore}} || [[2019 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|John|Simpson|John Simpson (American football)}} ||{{sort|4|Senior}} || [[2019 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Penei|Sewell}}* ||{{sort|2|Sophomore}} || [[2019 Oregon Ducks football team|Oregon]]
+|-
+| {{sortname|Andrew|Thomas|Andrew Thomas (American football)}}* ||{{sort|3|Junior}} || [[2019 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Bradlee|Anae}} || rowspan="4" | Defensive line ||{{sort|4|Senior}} || [[2019 Utah Utes football team|Utah]]
+|-
+| {{sortname|Derrick|Brown|Derrick Brown (American football)}}* ||{{sort|4|Senior}} || [[2019 Auburn Tigers football team|Auburn]]
+|-
+| {{sortname|James|Lynch|James Lynch (American football)}}* ||{{sort|3|Junior}} || [[2019 Baylor Bears football team|Baylor]]
+|-
+| {{sortname|Chase|Young}}* ||{{sort|3|Junior}} || [[2019 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Zack|Baun}} || rowspan="4" | Linebacker || {{sort|4|Senior}} || [[2019 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Micah|Parsons}} || {{sort|2|Sophomore}} || [[2019 Penn State Nittany Lions football team|Penn State]]
+|-
+| {{sortname|Isaiah|Simmons}}* || {{sort|3|Junior}} || [[2019 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Evan|Weaver}}* ||{{sort|4|Senior}} || [[2019 California Golden Bears football team|California]]
+|-
+| {{sortname|Grant|Delpit}} || rowspan="5" | Defensive back ||{{sort|3|Junior}} || [[2019 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Jeff|Okudah}}* ||{{sort|3|Junior}} || [[2019 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|J. R.|Reed|J. R. Reed (American football, born 1996)}} ||{{sort|4| Senior}} || [[2019 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Derek|Stingley Jr.}} ||{{sort|1|Freshman}} || [[2019 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Antoine|Winfield Jr.}}* ||{{sort|2|Sophomore}} || [[2019 Minnesota Golden Gophers football team|Minnesota]]
+|-
+| {{sortname|Max|Duffy}}* || Punter || {{sort|3|Junior}} || [[2019 Kentucky Wildcats football team|Kentucky]]
+|-
+| {{sortname|Lynn|Bowden}} || All-purpose ||{{sort|3|Junior}} || [[2019 Kentucky Wildcats football team|Kentucky]]
+|-
+| {{sortname|Keith|Duncan}} || Placekicker ||{{sort|4| Junior}} || [[2019 Iowa Hawkeyes football team|Iowa]]
+|}
+
+==Offense==
+===Quarterback===
+*'''[[Joe Burrow]]''', [[2019 LSU Tigers football team|LSU]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''',  USAT, '''WCFF''')</small>
+
+===Running back===
+*[[J. K. Dobbins]], [[2019 Ohio State Buckeyes football team|Ohio State]] <small>(Athletic, Athlon, CBS, Phil Steele, SI, USAT)</small>
+*[[Travis Etienne]], [[2019 Clemson Tigers football team|Clemson]] <small>(USAT)</small>
+*'''[[Chuba Hubbard]]''', [[2019 Oklahoma State Cowboys football team|Oklahoma State]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''', '''WCFF''')</small>
+*'''[[Jonathan Taylor (American football)|Jonathan Taylor]]''', [[2019 Wisconsin Badgers football team|Wisconsin]] <small>('''AFCA''', '''AP''', Athletic, Athlon, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''', '''WCFF''')</small>
+
+===Wide receiver===
+*'''[[Ja'Marr Chase]]''', [[2019 LSU Tigers football team|LSU]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''', USAT, '''WCFF''')</small>
+*[[Jerry Jeudy]], [[2019 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''')</small>
+*'''[[CeeDee Lamb]]''', [[2019 Oklahoma Sooners football team|Oklahoma]] <small>('''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''',  USAT, '''WCFF''')</small>
+*[[DeVonta Smith]], [[2019 Alabama Crimson Tide football team|Alabama]] <small>(Athlon)</small>
+
+===Tight end===
+*'''[[Harrison Bryant]]''', [[2019 Florida Atlantic Owls football team|FAU]] <small>('''AFCA''', '''AP''', Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''',  USAT, '''WCFF''')</small>
+*[[Hunter Bryant]], [[2019 Washington Huskies football team|Washington]] <small>(Athletic)</small>
+
+===Offensive line===
+*'''[[Tyler Biadasz]]''', [[2019 Wisconsin Badgers football team|Wisconsin]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''',  USAT, '''WCFF''')</small>
+*'''[[Wyatt Davis]]''', [[2019 Ohio State Buckeyes football team|Ohio State]] <small>('''AP''', Athletic, Athlon, CBS, ESPN, '''TSN''', USAT)</small>
+*[[Kevin Dotson (American football)|Kevin Dotson]], [[2019 Louisiana Ragin' Cajuns football team|Louisiana]] <small>('''AP''', SI, USAT)</small>
+*[[Alex Leatherwood]], [[2019 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''')</small>
+*[[Shane Lemieux]], [[2019 Oregon Ducks football team|Oregon]] <small>(SI)</small>
+*[[Damien Lewis (American football)|Damien Lewis]], [[2019 LSU Tigers football team|LSU]] <small>(Athletic)</small>
+*'''[[Penei Sewell]]''', [[2019 Oregon Ducks football team|Oregon]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI,  '''TSN''',  USAT, '''WCFF''')</small>
+*'''[[John Simpson (American football)|John Simpson]]''', [[2019 Clemson Tigers football team|Clemson]] <small>('''AFCA''', '''FWAA''', Phil Steele, '''TSN''',  '''WCFF''', ESPN)</small>
+*'''[[Andrew Thomas (American football)|Andrew Thomas]]''', [[2019 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', '''AP''', Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''', '''WCFF''')</small>
+*[[Jedrick Wills]], [[2019 Alabama Crimson Tide football team|Alabama]] <small>(Athletic, Athlon, CBS, USAT)</small>
+*[[Tristan Wirfs]], [[2019 Iowa Hawkeyes football team|Iowa]] <small>('''FWAA''', Phil Steele, '''WCFF''')</small>
+
+==Defense==
+===Defensive line===
+*'''[[Bradlee Anae]]''', [[2019 Utah Utes football team|Utah]] <small>('''AFCA''', ESPN, '''FWAA''', Phil Steele, SI, USAT, '''TSN''', '''WCFF''')</small>
+*'''[[Derrick Brown (American football)|Derrick Brown]]''', [[2019 Auburn Tigers football team|Auburn]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''', USAT, '''WCFF''')</small>
+*[[A. J. Epenesa]], [[2019 Iowa Hawkeyes football team|Iowa]] <small>(Athletic)</small>
+*[[Javon Kinlaw]], [[2019 South Carolina Gamecocks football team|South Carolina]] <small>('''AP''')</small>
+*'''[[James Lynch (American football)|James Lynch]]''', [[2019 Baylor Bears football team|Baylor]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, '''TSN''', USAT, '''WCFF''')</small>
+*[[Quincy Roche]], [[2019 Temple Owls football team|Temple]] <small>(SI)</small>
+*[[Curtis Weaver]], [[2019 Boise State Broncos football team|Boise State]] <small>(Athlon, CBS, '''WCFF''')</small>
+*'''[[Chase Young]]''', [[2019 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''',  Phil Steele, SI, '''TSN''', USAT, '''WCFF''')</small>
+
+===Linebacker===
+*'''[[Zack Baun]]''', [[2019 Wisconsin Badgers football team|Wisconsin]] <small>('''FWAA''', Phil Steele, '''WCFF''')</small>
+*[[Jonathan Greenard]], [[2019 Florida Gators football team|Florida]] <small>(CBS)</small>
+*'''[[Micah Parsons]]''', [[2019 Penn State Nittany Lions football team|Penn State]] <small>('''AFCA''', '''AP''', Athlon, ESPN, SI, USAT)</small>
+*[[Hamilcar Rashed Jr.]], [[2019 Oregon State Beavers football team|Oregon State]] <small>(Athletic, Phil Steele, SI)</small>
+*'''[[Isaiah Simmons]]''', [[2019 Clemson Tigers football team|Clemson]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, USAT, '''TSN''', '''WCFF''')</small>
+*[[Curtis Weaver]], [[2019 Boise State Broncos football team|Boise State]] <small>('''TSN''')</small>
+*'''[[Evan Weaver]]''', [[2019 California Golden Bears football team|California]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, '''TSN''', USAT, '''WCFF''')</small>
+
+===Defensive back===
+*[[Julian Blackmon]], [[2019 Utah Utes football team|Utah]] <small>(Athletic, SI)</small>
+*'''[[Grant Delpit]]''', [[2019 LSU Tigers football team|LSU]] <small>('''AFCA''', CBS, '''TSN''', '''WCFF''')</small>
+*[[Xavier McKinney]], [[2019 Alabama Crimson Tide football team|Alabama]] <small>(Athlon, ESPN, USAT)</small>
+*'''[[Jeff Okudah]]''', [[2019 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''',  Phil Steele, SI, '''TSN''', USAT, '''WCFF''')</small>
+*[[Amik Robertson]], [[2019 Louisiana Tech Bulldogs football team|Louisiana Tech]] <small>('''FWAA''', Phil Steele)</small>
+*'''[[J. R. Reed (American football, born 1996)|J. R. Reed]]''', [[2019 Georgia Bulldogs football team|Georgia]] <small>('''AP''', '''FWAA''', Phil Steele, '''WCFF''')</small>
+*'''[[Derek Stingley Jr.]]''', [[2019 LSU Tigers football team|LSU]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, SI, '''TSN''', USAT)</small>
+*'''[[Antoine Winfield Jr.]]''', [[2019 Minnesota Golden Gophers football team|Minnesota]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, '''FWAA''', Phil Steele, SI, '''TSN''', USAT, '''WCFF''')</small>
+
+==Special teams==
+===Kicker===
+*[[Rodrigo Blankenship]], [[2019 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', SI, USAT, '''WCFF''')</small>
+*Gabe Brkic, [[2019 Oklahoma Sooners football team|Oklahoma]] <small>(CBS)</small>
+*'''[[Keith Duncan]]''', [[2019 Iowa Hawkeyes football team|Iowa]] <small>('''AP''', Athletic, Athlon, Phil Steele, '''TSN''', '''FWAA''')</small>
+*[[Nick Sciba]], [[2019 Wake Forest Demon Deacons football team|Wake Forest]] <small>(ESPN)</small>
+
+===Punter===
+*'''[[Max Duffy]]''', [[2019 Kentucky Wildcats football team|Kentucky]] <small>('''AFCA''', '''AP''', Athletic, Athlon, ESPN, '''FWAA''', Phil Steele, '''TSN''', USAT, '''WCFF''')</small>
+*[[Braden Mann]], [[2019 Texas A&M Aggies football team|Texas A&M]] <small>(CBS, SI)</small>
+
+===All-purpose / return specialist===
+*'''[[Lynn Bowden]]''', [[2019 Kentucky Wildcats football team|Kentucky]] <small>('''AFCA''', '''AP''', Athletic, Athlon, CBS, ESPN, Phil Steele, SI, '''TSN''', USAT)</small>
+*[[J. K. Dobbins]], [[2019 Ohio State Buckeyes football team|Ohio State]] <small>('''FWAA''')</small>
+*[[Joe Reed (wide receiver)|Joe Reed]], [[2019 Virginia Cavaliers football team|Virginia]] <small>(Athlon, CBS, '''FWAA''', Phil Steele, '''WCFF''')</small>
+*[[Jaylen Waddle]], [[2019 Alabama Crimson Tide football team|Alabama]] <small>(Athlon, CBS, '''FWAA''', Phil Steele, SI, '''TSN''', USAT)</small>
+*[[Steven Wirtel]], [[2019 Iowa State Cyclones football team|Iowa State]] <small>(Phil Steele)</small>
+*[[Joshua Youngblood]], [[2019 Kansas State Wildcats football team|Kansas State]] <small>(ESPN)</small>
+
+==See also==
+* [[2019 All-ACC football team]]
+* [[2019 All-Big Ten Conference football team]]
+* [[2019 All-Big 12 Conference football team]]
+* [[2019 All-Pac-12 Conference football team]]
+* [[2019 All-SEC football team]]
+* [[2019 American Athletic Conference football season#All-conference teams|2019 All-AAC football team]]
+* [[2019 Conference USA football season#All-conference teams|2019 All-Conference USA football team]]
+* [[2019 Mid-American Conference football season#All-conference teams|2019 All-MAC football team]]
+* [[2019 Mountain West Conference football season#All-conference teams|2019 All-Mountain West football team]]
+* [[2019 Sun Belt Conference football season#All-conference teams|2019 All-Sun Belt football team]]
+
+==Footnotes==
+{{reflist}}
+
+==References==
+*[https://www.afca.com/wisconsins-jonathan-taylor-lsus-grant-delpit-headline-2019-afca-fbs-coaches-all-america-teams/ AFCA All-America Team]
+*[https://apnews.com/09ff7f4dba45126d077bf440e4046f8b/ AP All-America teams]
+*[https://athlonsports.com/college-football/college-footballs-2019-postseason-all-america-team Athlon Sports All-America Team]
+*[https://www.cbssports.com/college-football/news/2019-cbs-sports-all-america-team-ohio-state-sec-lead-the-way-with-most-selections/ CBS Sports All-America Team]
+*[https://www.espn.com/college-football/story/_/id/28293527/college-football-all-america-team ESPN All-America Team]
+*[http://plus.philsteele.com/All_Conference/2019/2019_FBS_Postseason/All-American.html Phil Steele All-America Team]
+*{{cite web|title=2019 FWAA ALL-AMERICA TEAM UNVEILED|date=December 19, 2019|publisher=Football Writers Association of America|url=http://sportswriters.net/fwaa/news/2019/allamerica191219.html|url-status=deviated|archive-url=https://web.archive.org/web/20200117202838/https://www.sportswriters.net/fwaa/news/2019/allamerica191219.html|archive-date=January 17, 2020}}
+*[https://www.si.com/college/2019/12/11/college-football-all-america-team/ Sports Illustrated All-America Team]
+*[https://www.nytimes.com/athletic/1449493/2019/12/11/college-football-2019-all-america-teams-the-athletic/ The Athletic All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2019/12/11/college-football-all-american-team-led-joe-burrow-chase-young/4398195002/ USA Today All-America Team]
+*[https://waltercamp.org/walter-camp-football-foundation-announces-2019-all-america-teams-the-130th-selected/ Walter Camp All-America Team]
+*[https://www.sportingnews.com/us/ncaa-football/news/sporting-news-2019-college-football-all-americans/b3bevye8lma310clpads6xo1w Sporting News All-America Team]
+
+{{2019 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2019 NCAA Division I FBS football season navbox}}
+
+[[Category:2019 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

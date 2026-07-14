@@ -1,0 +1,445 @@
+{
+ "season": 2007,
+ "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
+ "scope": "as of Nov 28, 2007",
+ "players": [
+  {
+   "name": "Aleric Mullins",
+   "position": "Defensive Tackle",
+   "jersey": "97",
+   "stats": {
+    "tackles": 19,
+    "tfl": 3.5,
+    "sacks": 2,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Anthony Elzy",
+   "position": "Tailback",
+   "jersey": "6",
+   "stats": {
+    "rushYds": 321,
+    "rushTD": 5,
+    "rec": 10,
+    "recYds": 73,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "B.J. Phillips",
+   "position": "Tight End",
+   "jersey": "81",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brandon Tate",
+   "position": "Wide Receiver",
+   "jersey": "87",
+   "stats": {
+    "rushYds": 131,
+    "rushTD": 1,
+    "rec": 25,
+    "recYds": 479,
+    "recTD": 5,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brooks Foster",
+   "position": "Wide Receiver",
+   "jersey": "1",
+   "stats": {
+    "rushYds": 2,
+    "rec": 29,
+    "recYds": 417,
+    "recTD": 2,
+    "tackles": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Bruce Carter",
+   "position": "Linebacker",
+   "jersey": "54",
+   "stats": {
+    "tackles": 25,
+    "tfl": 2,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Calvin Darity",
+   "position": "Offensive Guard",
+   "jersey": "79",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Camaron Thomas",
+   "position": "Defensive Tackle",
+   "jersey": "93",
+   "stats": {
+    "tackles": 8,
+    "tfl": 1.5,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Cameron Sexton",
+   "position": "Quarterback",
+   "jersey": "11",
+   "stats": {
+    "rushYds": 3,
+    "passYds": 9
+   }
+  },
+  {
+   "name": "Charles Brown",
+   "position": "Cornerback",
+   "jersey": "42",
+   "stats": {
+    "tackles": 59,
+    "tfl": 5,
+    "sacks": 1,
+    "defInt": 2,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Chase Rice",
+   "position": "Linebacker",
+   "jersey": "44",
+   "stats": {
+    "tackles": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Da'Norris Searcy",
+   "position": "Strong Safety",
+   "jersey": "30",
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "Darius Massenburg",
+   "position": "Defensive End",
+   "jersey": "98",
+   "stats": {
+    "tackles": 11,
+    "tfl": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Darius Powell",
+   "position": "Defensive End",
+   "jersey": "40",
+   "stats": {
+    "tackles": 4,
+    "tfl": 1,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Deunta Williams",
+   "position": "Free Safety",
+   "jersey": "27",
+   "stats": {
+    "tackles": 57,
+    "tfl": 2,
+    "defInt": 3,
+    "pbu": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "E.J. Wilson",
+   "position": "Defensive End",
+   "jersey": "92",
+   "stats": {
+    "tackles": 44,
+    "tfl": 9.5,
+    "sacks": 5,
+    "pbu": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Ed Barham",
+   "position": "Tight End",
+   "jersey": "80",
+   "stats": {
+    "rec": 1,
+    "recYds": 7
+   }
+  },
+  {
+   "name": "Greg Elleby",
+   "position": "Defensive End",
+   "jersey": "95",
+   "stats": {
+    "tackles": 3,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Greg Little",
+   "position": "Tailback",
+   "jersey": "8",
+   "stats": {
+    "rushYds": 300,
+    "rushTD": 2,
+    "rec": 13,
+    "recYds": 99,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Hakeem Nicks",
+   "position": "Wide Receiver",
+   "jersey": "88",
+   "stats": {
+    "rushYds": -1,
+    "rec": 74,
+    "recYds": 958,
+    "recTD": 5
+   }
+  },
+  {
+   "name": "Hayden Hunter",
+   "position": "Linebacker",
+   "jersey": "57",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "James Cooter Arnold",
+   "position": "Wide Receiver",
+   "jersey": "2",
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Johnny White",
+   "position": "Cornerback",
+   "jersey": "34",
+   "stats": {
+    "rushYds": 399,
+    "rec": 15,
+    "recYds": 159
+   }
+  },
+  {
+   "name": "Jonathan Smith",
+   "position": "Free Safety",
+   "jersey": "28",
+   "stats": {
+    "tackles": 6
+   }
+  },
+  {
+   "name": "Kendric Burney",
+   "position": "Cornerback",
+   "jersey": "16",
+   "stats": {
+    "tackles": 50,
+    "tfl": 4.5,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Kennedy Tinsley",
+   "position": "Linebacker",
+   "jersey": "36",
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Kenton Thornton",
+   "position": "Wide Receiver",
+   "jersey": "3",
+   "stats": {
+    "rec": 3,
+    "recYds": 40,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Kyle Jolly",
+   "position": "Offensive Tackle",
+   "jersey": "72",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Mark Paschal",
+   "position": "Linebacker",
+   "jersey": "41",
+   "stats": {
+    "tackles": 53,
+    "tfl": 6.5,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Marvin Austin",
+   "position": "Defensive Tackle",
+   "jersey": "9",
+   "stats": {
+    "tackles": 26,
+    "tfl": 6,
+    "sacks": 4
+   }
+  },
+  {
+   "name": "Matt Merletti",
+   "position": "Strong Safety",
+   "jersey": "25",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Quan Sturdivant",
+   "position": "Linebacker",
+   "jersey": "52",
+   "stats": {
+    "tackles": 47,
+    "tfl": 1.5,
+    "sacks": 1,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Richard Quinn",
+   "position": "Tight End",
+   "jersey": "89",
+   "stats": {
+    "rec": 4,
+    "recYds": 27,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Richard Rich",
+   "position": "Cornerback",
+   "jersey": "26",
+   "stats": {
+    "rushYds": 32,
+    "rec": 4,
+    "recYds": 30,
+    "tackles": 13
+   }
+  },
+  {
+   "name": "Ryan Houston",
+   "position": "Tailback",
+   "jersey": "32",
+   "stats": {
+    "rushYds": 145,
+    "rushTD": 1
+   }
+  },
+  {
+   "name": "Ryan Taylor",
+   "position": "Linebacker",
+   "jersey": "49",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Shaun Draughn",
+   "position": "Tailback",
+   "jersey": "20",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "T.J. Yates",
+   "position": "Quarterback",
+   "jersey": "13",
+   "stats": {
+    "rushYds": -123,
+    "rushTD": 2,
+    "passYds": 2655,
+    "passTD": 14,
+    "passInt": 18,
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Tavorris Jolly",
+   "position": "Cornerback",
+   "jersey": "24",
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "Terrence Brown",
+   "position": "Placekicker/Punt",
+   "jersey": "19",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Trimane Goddard",
+   "position": "Strong Safety",
+   "jersey": "31",
+   "stats": {
+    "tackles": 59,
+    "tfl": 2.5,
+    "sacks": 1,
+    "defInt": 2,
+    "pbu": 5,
+    "ff": 3
+   }
+  },
+  {
+   "name": "Tydreke Powell",
+   "position": "Defensive Tackle",
+   "jersey": "91",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Wesley Flagg",
+   "position": "Linebacker",
+   "jersey": "51",
+   "stats": {
+    "tackles": 23,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Zack Pianalto",
+   "position": "Tight End",
+   "jersey": "17",
+   "stats": {
+    "rec": 24,
+    "recYds": 204,
+    "tackles": 1
+   }
+  }
+ ]
+}

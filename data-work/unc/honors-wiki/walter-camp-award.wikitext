@@ -1,0 +1,292 @@
+<!-- source: https://en.wikipedia.org/wiki/Walter_Camp_Award -->
+{{Short description|American college football award}}
+{{Use American English|date=January 2026}}
+{{Use mdy dates|date=August 2024}}
+{{infobox sports award
+| name           = Walter Camp Award
+| current_awards = 
+| image          = Wacamplogo.jpg
+| imagesize      = 200px
+| caption        = Walter Camp Foundation logo
+| description    = Player of the year in [[college football]]
+| presenter      = [[Walter Camp Football Foundation]]
+| country        = [[United States]]
+| location       = 
+| year           = 1967
+| year2          = 
+| holder         = [[2025 Indiana Hoosiers football team|Indiana]] quarterback [[Fernando Mendoza]]
+| website        = {{URL|https://waltercamp.org/|WalterCamp.org}}
+}}
+The '''Walter Camp Player of the Year Award''' is given annually to the [[college football|collegiate]] [[American football]] player of the year, as decided by a group of [[National Collegiate Athletic Association]] (NCAA) [[NCAA Division I Football Bowl Subdivision|Division I FBS]] [[head coach]]es and sports information directors under the auspices of the [[Walter Camp Football Foundation]]. The award is named for [[Walter Camp]], an important and influential figure in the development of the sport. Three players have won the award twice: [[Colt McCoy]] of the University of Texas in  2008 and 2009, [[Archie Griffin]] of Ohio State in 1974 and 1975, and [[O. J. Simpson]] of USC in 1967 and 1968.
+
+==Winners==
+{| class="wikitable sortable"
+|+ List of Walter Camp Award winners
+! Year !! Winner !! Position !! School !! Ref
+|-
+| [[1967 NCAA University Division football season|1967]] || [[O. J. Simpson]] || [[Running back|RB]] || [[1967 USC Trojans football team|USC]] || rowspan="2" |<ref name=ESPN>{{cite news|title=College Football Awards - Walter Camp Award|url=https://www.espn.com/college-football/awards/_/id/20|access-date=March 1, 2017|work=ESPN.com}}</ref>
+|-
+| [[1968 NCAA University Division football season|1968]] || O. J. Simpson (2) || RB || [[1968 USC Trojans football team|USC]]
+|-
+| [[1969 NCAA University Division football season|1969]] || [[Steve Owens (American football)|Steve Owens]] || RB || [[1969 Oklahoma Sooners football team|Oklahoma]] ||
+|-
+| [[1970 NCAA University Division football season|1970]] || [[Jim Plunkett]] || [[Quarterback|QB]] || [[1970 Stanford Indians football team|Stanford]] ||
+|-
+| [[1971 NCAA University Division football season|1971]] || [[Pat Sullivan (American football)|Pat Sullivan]] || QB || [[1971 Auburn Tigers football team|Auburn]] ||
+|-
+| [[1972 NCAA University Division football season|1972]] || [[Johnny Rodgers]] || [[Wide receiver|WR]] || [[1972 Nebraska Cornhuskers football team|Nebraska]] ||
+|-
+| [[1973 NCAA Division I football season|1973]] || [[John Cappelletti]] || RB || [[1973 Penn State Nittany Lions football team|Penn State]] ||
+|-
+| [[1974 NCAA Division I football season|1974]] || [[Archie Griffin]] || RB || [[1974 Ohio State Buckeyes football team|Ohio State]] || rowspan="2" |
+|-
+| [[1975 NCAA Division I football season|1975]] || Archie Griffin (2) || RB || [[1975 Ohio State Buckeyes football team|Ohio State]]
+|-
+| [[1976 NCAA Division I football season|1976]] || [[Tony Dorsett]] || RB || [[1976 Pittsburgh Panthers football team|Pittsburgh]] ||
+|-
+| [[1977 NCAA Division I football season|1977]] || [[Ken MacAfee]] || [[Tight end|TE]] || [[1977 Notre Dame Fighting Irish football team|Notre Dame]] ||
+|-
+| [[1978 NCAA Division I-A football season|1978]] || [[Billy Sims]] || RB || [[1978 Oklahoma Sooners football team|Oklahoma]] ||
+|-
+| [[1979 NCAA Division I-A football season|1979]] || [[Charles White (American football)|Charles White]] || RB || [[1979 USC Trojans football team|USC]] ||
+|-
+| [[1980 NCAA Division I-A football season|1980]] || [[Hugh Green (American football)|Hugh Green]] || [[Defensive end|DE]] || [[1980 Pittsburgh Panthers football team|Pittsburgh]] ||
+|-
+| [[1981 NCAA Division I-A football season|1981]] || [[Marcus Allen]] || RB || [[1981 USC Trojans football team|USC]]
+|
+|-
+| [[1982 NCAA Division I-A football season|1982]] || [[Herschel Walker]] || RB || [[1982 Georgia Bulldogs football team|Georgia]]
+|
+|-
+| [[1983 NCAA Division I-A football season|1983]] || [[Mike Rozier]] || RB || [[1983 Nebraska Cornhuskers football team|Nebraska]]
+|
+|-
+| [[1984 NCAA Division I-A football season|1984]] || [[Doug Flutie]] || QB || [[1984 Boston College Eagles football team|Boston College]]
+|
+|-
+| [[1985 NCAA Division I-A football season|1985]] || [[Bo Jackson]] || RB || [[1985 Auburn Tigers football team|Auburn]]
+|
+|-
+| [[1986 NCAA Division I-A football season|1986]] || [[Vinny Testaverde]] || QB || [[1986 Miami Hurricanes football team|Miami (FL)]]
+|
+|-
+| [[1987 NCAA Division I-A football season|1987]] || [[Tim Brown (American football)|Tim Brown]] || WR || [[1987 Notre Dame Fighting Irish football team|Notre Dame]]
+|
+|-
+| [[1988 NCAA Division I-A football season|1988]] || [[Barry Sanders]] || RB || [[1988 Oklahoma Sooners football team|Oklahoma State]]
+|
+|-
+| [[1989 NCAA Division I-A football season|1989]] || [[Anthony Thompson (American football)|Anthony Thompson]] || RB || [[1989 Indiana Hoosiers football team|Indiana]] ||<ref>{{cite news|title=Coaches, SID's vote Thompson best|url=https://news.google.com/newspapers?nid=1696&dat=19891127&id=J_gaAAAAIBAJ&sjid=gUcEAAAAIBAJ&pg=5075,7040715|access-date=October 17, 2016|work=Daily News|agency=Associated Press|date=November 27, 1989|page=10}}</ref>
+|-
+| [[1990 NCAA Division I-A football season|1990]] || [[Raghib Ismail]] || WR/[[Return specialist|RS]] || [[1990 Notre Dame Fighting Irish football team|Notre Dame]]
+|
+|-
+| [[1991 NCAA Division I-A football season|1991]] || [[Desmond Howard]] || WR || [[1991 Michigan Wolverines football team|Michigan]]
+|
+|-
+| [[1992 NCAA Division I-A football season|1992]] || [[Gino Torretta]] || QB || [[1992 Miami Hurricanes football team|Miami (FL)]]
+|
+|-
+| [[1993 NCAA Division I-A football season|1993]] || [[Charlie Ward]] || QB || [[1993 Florida State Seminoles football team|Florida State]]
+|<ref>{{cite news|title=Ward receives Walter Camp Award|url=https://news.google.com/newspapers?nid=1901&dat=19931130&id=aIwfAAAAIBAJ&sjid=hNMEAAAAIBAJ&pg=1374,7243953|access-date=October 17, 2016|work=The News-Journal|agency=Associated Press|date=November 30, 1993|page=6B}}</ref>
+|-
+| [[1994 NCAA Division I-A football season|1994]] || [[Rashaan Salaam]] || RB || [[1994 Colorado Buffaloes football team|Colorado]]
+|
+|-
+| [[1995 NCAA Division I-A football season|1995]] || [[Eddie George]] || RB || [[1995 Ohio State Buckeyes football team|Ohio State]]
+|
+|-
+| [[1996 NCAA Division I-A football season|1996]] || [[Danny Wuerffel]] || QB || [[1996 Florida Gators football team|Florida]]
+|
+|-
+| [[1997 NCAA Division I-A football season|1997]] || [[Charles Woodson]] || [[Cornerback|CB]] || [[1997 Michigan Wolverines football team|Michigan]]
+|
+|-
+| [[1998 NCAA Division I-A football season|1998]] || [[Ricky Williams]] || RB || [[1998 Texas Longhorns football team|Texas]]
+|
+|-
+| [[1999 NCAA Division I-A football season|1999]] || [[Ron Dayne]] || RB || [[1999 Wisconsin Badgers football team|Wisconsin]]
+|
+|-
+| [[2000 NCAA Division I-A football season|2000]] || [[Josh Heupel]] || QB || [[2000 Oklahoma Sooners football team|Oklahoma]]
+|<ref>{{cite news|title=Heupel, Stoops win Camp awards|url=https://news.google.com/newspapers?nid=1957&dat=20001129&id=h3tGAAAAIBAJ&sjid=7ucMAAAAIBAJ&pg=3156,7875486|access-date=October 17, 2016|work=The Daily Gazette|date=November 29, 2000|page=C3}}</ref>
+|-
+| [[2001 NCAA Division I-A football season|2001]] || [[Eric Crouch]] || QB || [[2001 Nebraska Cornhuskers football team|Nebraska]]
+|<ref>{{cite news|title=Crouch takes O'Brien and Camp Awards|url=https://news.google.com/newspapers?nid=1933&dat=20011206&id=oScgAAAAIBAJ&sjid=WmsFAAAAIBAJ&pg=959,5725509|access-date=October 17, 2016|work=McCook Daily Gazette|agency=Associated Press|date=December 7, 2001|page=12}}</ref>
+|-
+| [[2002 NCAA Division I-A football season|2002]] || [[Larry Johnson (running back)|Larry Johnson]] || RB || [[2002 Penn State Nittany Lions football team|Penn State]]
+|
+|-
+| [[2003 NCAA Division I-A football season|2003]] || [[Larry Fitzgerald]] || WR || [[2003 Pittsburgh Panthers football team|Pittsburgh]]
+|
+|-
+| [[2004 NCAA Division I-A football season|2004]] || [[Matt Leinart]] || QB || [[2004 USC Trojans football team|USC]]
+|
+|-
+| [[2005 NCAA Division I-A football season|2005]] || [[Reggie Bush]] || RB || [[2005 USC Trojans football team|USC]]
+|
+|-
+| [[2006 NCAA Division I FBS football season|2006]] || [[Troy Smith]] || QB || [[2006 Ohio State Buckeyes football team|Ohio State]]
+|
+|-
+| [[2007 NCAA Division I FBS football season|2007]] || [[Darren McFadden]] || RB || [[2007 Arkansas Razorbacks football team|Arkansas]]
+|
+|-
+| [[2008 NCAA Division I FBS football season|2008]] || [[Colt McCoy]] || QB || [[2008 Texas Longhorns football team|Texas]]
+| rowspan="2" |
+|-
+| [[2009 NCAA Division I FBS football season|2009]] || Colt McCoy (2) || QB || [[2009 Texas Longhorns football team|Texas]]
+|-
+| [[2010 NCAA Division I FBS football season|2010]] || [[Cam Newton]] || QB || [[2010 Auburn Tigers football team|Auburn]]
+|
+|-
+| [[2011 NCAA Division I FBS football season|2011]] || [[Andrew Luck]] || QB || [[2011 Stanford Cardinal football team|Stanford]]
+|
+|-
+| [[2012 NCAA Division I FBS football season|2012]] || [[Manti Te'o]] || [[Linebacker|LB]] || [[2012 Notre Dame Fighting Irish football team|Notre Dame]]
+|<ref>{{cite news|last1=Scheuring|first1=Ian|title=Manti Te'o wins Maxwell, Bednarik, Walter Camp player-of-the-year awards|url=https://www.hawaiinewsnow.com/story/20283664/manti-teo-wins-maxwell-bednarik-walter-camp-player-of-the-year-awards|access-date=January 8, 2017|work=Hawaii News Now}}</ref>
+|-
+| [[2013 NCAA Division I FBS football season|2013]] || [[Jameis Winston]] || QB || [[2013 Florida State Seminoles football team|Florida State]]
+|
+|-
+| [[2014 NCAA Division I FBS football season|2014]] || [[Marcus Mariota]] || QB || [[2014 Oregon Ducks football team|Oregon]]
+|
+|-
+| [[2015 NCAA Division I FBS football season|2015]] || [[Derrick Henry]] || RB || [[2015 Alabama Crimson Tide football team|Alabama]]
+|
+|-
+| [[2016 NCAA Division I FBS football season|2016]] || [[Lamar Jackson]] || QB || [[2016 Louisville Cardinals football team|Louisville]]
+|<ref>{{cite news|title=Louisville QB Lamar Jackson wins Camp, Maxwell awards|url=https://www.bostonglobe.com/sports/colleges/2016/12/08/louisville-lamar-jackson-wins-camp-maxwell-awards/4qZvPBj2K4yec8VCLXGAWI/story.html|access-date=December 10, 2016|work=The Boston Globe|date=December 9, 2016}}</ref>
+|-
+| [[2017 NCAA Division I FBS football season|2017]] || [[Baker Mayfield]] || QB || [[2017 Oklahoma Sooners football team|Oklahoma]]
+|
+|-
+| [[2018 NCAA Division I FBS football season|2018]] || [[Tua Tagovailoa]] || QB || [[2018 Alabama Crimson Tide football team|Alabama]]
+|
+|-
+| [[2019 NCAA Division I FBS football season|2019]] || [[Joe Burrow]] || QB || [[2019 LSU Tigers football team|LSU]]
+|<ref>{{cite web|title=LSU Quarterback Joe Burrow Wins Walter Camp Player of the Year Award|url=https://www.si.com/college/lsu/football/burrow-becomes-first-lsu-player-to-take-home-award/|access-date=December 12, 2019|work=si.com|date=December 12, 2019}}</ref>
+|-
+| [[2020 NCAA Division I FBS football season|2020]] || [[DeVonta Smith]] || WR || [[2020 Alabama Crimson Tide football team|Alabama]]
+|
+|-
+| [[2021 NCAA Division I FBS football season|2021]] || [[Kenneth Walker III]]|| RB || [[2021 Michigan State Spartans football team|Michigan State]]
+|
+|-
+| [[2022 NCAA Division I FBS football season|2022]] || [[Caleb Williams]] || QB || [[2022 USC Trojans football team|USC]]
+|
+|-
+| [[2023 NCAA Division I FBS football season|2023]] || [[Jayden Daniels]] || QB || [[2023 LSU Tigers football team|LSU]]
+| <ref>{{cite web |last1=Aldam |first1=Will |title=LSU quarterback Jayden Daniels named 2023 Walter Camp Player of the Year |url=https://www.ctinsider.com/sports/article/walter-camp-jayden-daniels-18537151.php |website=CT Insider |access-date=April 14, 2024 |date= December 8, 2023}}</ref>
+|-
+| [[2024 NCAA Division I FBS football season|2024]] || [[Travis Hunter]] || CB/WR || [[2024 Colorado Buffaloes football team|Colorado]]
+| <ref>{{cite web |last1=Madera |first1=Mike |title=Colorado junior WR/DB Travis Hunter is the 2024 Walter Camp Player of the Year |url=https://waltercamp.org/colorado-junior-wr-db-travis-hunter-is-the-2024-walter-camp-player-of-the-year-presented-by-crabtree-lexus-of-new-haven/ |website=WalterCamp.org |publisher=[[Walter Camp Football Foundation]] |access-date=April 14, 2025 |date=December 12, 2024}}</ref>
+|-
+| [[2025 NCAA Division I FBS football season|2025]] || [[Fernando Mendoza]] || QB || [[2025 Indiana Hoosiers football team|Indiana]]
+| <ref>{{cite web |last=Madera |first=Mike |title=Indiana quarterback Fernando Mendoza Selected 2025 Walter Camp Player of the Year, presented by Crabtree Lexus of New Haven |url=https://waltercamp.org/indiana-quarterback-fernando-mendoza-selected-2025-walter-camp-player-of-the-year-presented-by-crabtree-lexus-of-new-haven/ |date=December 10, 2025 |access-date=December 11, 2025}}</ref>
+|}
+
+== Awards won by school ==
+This is a list of the schools that have had a player win the Walter Camp Award.  [[USC Trojans football|USC]] has the most award winners, with seven. In total, players from 22 different schools have won the Walter Camp Award.
+
+{| class="wikitable sortable"
+|-
+! School
+! Trophies
+|-
+|[[USC Trojans football|USC]]
+| 7*
+|-
+| [[Ohio State Buckeyes football|Ohio State]]
+| 4*
+|-
+| [[Oklahoma Sooners football|Oklahoma]]
+| 4
+|-
+| [[Notre Dame Fighting Irish football|Notre Dame]]
+| 4
+|-
+| [[Alabama Crimson Tide football|Alabama]]
+| 3
+|-
+| [[Auburn Tigers football|Auburn]]
+| 3
+|-
+| [[Nebraska Cornhuskers football|Nebraska]]
+| 3
+|-
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 3
+|-
+| [[Texas Longhorns football|Texas]]
+| 3*
+|-
+| [[Colorado Buffaloes football|Colorado]]
+| 2
+|-
+| [[Florida State Seminoles football|Florida State]]
+| 2
+|-
+| [[Indiana Hoosiers football|Indiana]]
+| 2
+|-
+| [[LSU Tigers football|LSU]]
+| 2
+|-
+| [[Miami Hurricanes football|Miami]]
+| 2
+|-
+| [[Michigan Wolverines football|Michigan]]
+| 2
+|-
+| [[Penn State Nittany Lions football|Penn State]]
+| 2
+|-
+| [[Stanford Cardinal football|Stanford]]
+| 2
+|-
+| [[Arkansas Razorbacks football|Arkansas]]
+| 1
+|-
+| [[Boston College Eagles football|Boston College]]
+| 1
+|-
+| [[Florida Gators football|Florida]]
+| 1
+|-
+| [[Georgia Bulldogs football|Georgia]]
+| 1
+|-
+| [[Louisville Cardinals football|Louisville]]
+| 1
+|-
+| [[Michigan State Spartans football|Michigan State]]
+|1
+|-
+| [[Oklahoma State Cowboys football|Oklahoma State]]
+| 1
+|-
+| [[Oregon Ducks football|Oregon]]
+| 1
+|-
+| [[Wisconsin Badgers football|Wisconsin]]
+| 1
+|}
+<nowiki>*</nowiki>Designates double award winner
+
+==References==
+;General
+* {{cite web|title=Walter Camp Player of the Year Award Winners|url=https://www.sports-reference.com/cfb/awards/camp-poy.html|publisher=Sports Reference|access-date=March 1, 2017}}
+
+;Footnotes
+{{Reflist|2}}
+
+==External links==
+*{{Official website|https://waltercamp.org/index.php/teams_and_awards/awards/}}
+
+{{Walter Camp Award}}
+{{College football award navbox}}
+
+[[Category:Walter Camp Award winners| ]]
+[[Category:College football national player awards]]
+[[Category:Awards established in 1967]]

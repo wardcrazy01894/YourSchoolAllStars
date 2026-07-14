@@ -1,30 +1,68 @@
 {
  "2000": {
-  "season": 2000,
-  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/060101aab.html",
-  "snapshot": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/060101aab.html",
+  "url": "http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
+  "ts": "20021114000638",
+  "snapshot": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
+  "hasDefense": true,
   "scope": "as of Nov 19, 2000",
-  "scopeDate": "Nov 19, 2000"
+  "season": 2000
  },
  "2001": {
-  "season": 2001,
-  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/071102aaa.html",
-  "snapshot": "http://web.archive.org/web/20030121155618id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/071102aaa.html",
+  "url": "http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+  "ts": "20021121143616",
+  "snapshot": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+  "hasDefense": true,
   "scope": "as of Dec 01, 2001",
-  "scopeDate": "Dec 01, 2001"
+  "season": 2001
  },
  "2002": {
-  "season": 2002,
-  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/teamcume-02.html",
-  "snapshot": "http://web.archive.org/web/20040121140115id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/teamcume-02.html",
+  "url": "http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html",
+  "ts": "20030814171120",
+  "snapshot": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html",
+  "hasDefense": true,
   "scope": "FINAL STATS",
-  "scopeDate": null
+  "season": 2002
  },
  "2003": {
   "season": 2003,
-  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/teamcume.html",
-  "snapshot": "http://web.archive.org/web/20040405115508id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/teamcume.html",
-  "scope": "as of Nov 22, 2003",
-  "scopeDate": "Nov 22, 2003"
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
+  "scope": "as of Nov 22, 2003"
+ },
+ "2004": {
+  "season": 2004,
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
+  "scope": "as of Jan 03, 2005"
+ },
+ "2005": {
+  "season": 2005,
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
+  "scope": "as of Nov 28, 2005"
+ },
+ "2006": {
+  "season": 2006,
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
+  "scope": "Final Stats"
+ },
+ "2007": {
+  "season": 2007,
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
+  "scope": "as of Nov 28, 2007"
+ },
+ "2008": {
+  "season": 2008,
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2008-2009/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20100413220410id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2008-2009/teamcume.html",
+  "scope": "as of Dec 28, 2008"
+ },
+ "2009": {
+  "season": 2009,
+  "url": "http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
+  "scope": "as of Dec 26, 2009"
  }
 }

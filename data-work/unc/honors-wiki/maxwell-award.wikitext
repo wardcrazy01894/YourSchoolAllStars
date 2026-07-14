@@ -1,0 +1,398 @@
+<!-- source: https://en.wikipedia.org/wiki/Maxwell_Award -->
+{{Short description|College football award}}
+{{Use American English|date=December 2025}}
+{{Use mdy dates|date=December 2025}}
+{{Infobox sports award
+| name           = The Maxwell Award
+| current_awards =
+| image          = Maxwell Football Award.png
+| imagesize      = 
+| caption        = 
+| description    = College Football Player of the Year Award
+| presenter      = [[Maxwell Football Club]]
+| country        = United States
+| location       = [[Ambler, Pennsylvania]]
+| year           = 1937
+| year2          = 
+| holder         = [[2025 Indiana Hoosiers football team|Indiana]] quarterback [[Fernando Mendoza]]
+| website        = [https://maxwellfootballclub.org/maxwell-award/ Maxwell Award]
+}}
+The '''Maxwell Award''' is presented annually to the [[college football]] player judged by a panel of [[sportscaster]]s, [[sportswriter]]s, and [[National Collegiate Athletic Association]] [[head coach]]es and the membership of the [[Maxwell Football Club]] to be the best all-around in the United States. The [[award]] is named after [[Tiny Maxwell|Robert "Tiny" Maxwell]], a [[Swarthmore College]] football player, coach, and sportswriter. [[Johnny Lattner]] (1952, 1953) and [[Tim Tebow]] (2007, 2008) are the only players to have won the award twice. It is the college equivalent of the [[Bert Bell Award]] of the [[National Football League]], also given out by the Maxwell Club.<ref name=Hornung/><ref name=Blanda/>
+
+==Winners==
+{| class="wikitable sortable" style="text-align: center;"
+|+ List of Maxwell Award winners<ref>{{cite web|title=Maxwell Award {{pipe}} All-time winners|url=https://maxwellfootballclub.substack.com/p/maxwell-award|website=maxwellfootballclub.substack.com|publisher=Maxwell Football Club|access-date=May 21, 2026}}</ref>
+! Year !! Player 
+! {{Abbr|Pos.|Position}} !! School !! class=unsortable | {{abbr|Ref|Reference}}
+|-
+| 1937 || {{sortname|Clint|Frank}}
+| [[Halfback (American football)|HB]] || [[1937 Yale Bulldogs football team|Yale]]
+|
+|-
+| 1938 || {{sortname|Davey|O'Brien}}
+| [[Quarterback|QB]] || [[1938 TCU Horned Frogs football team|TCU]]
+|
+|-
+| 1939 || {{sortname|Nile|Kinnick}}
+| [[Halfback (American football)|HB]] || [[1939 Iowa Hawkeyes football team|Iowa]]
+|
+|-
+| 1940 || {{sortname|Tom|Harmon}}
+| [[Halfback (American football)|HB]] || [[1940 Michigan Wolverines football team|Michigan]]
+|
+|-
+| 1941 || {{sortname|Bill|Dudley}}
+| [[Halfback (American football)|HB]], [[Safety (gridiron football position)|S]], [[Kickoff returner|KR]] || [[1941 Virginia Cavaliers football team|Virginia]]
+|
+|-
+| 1942 || {{sortname|Paul|Governali}}
+| [[Quarterback|QB]] || [[1942 Columbia Lions football team|Columbia]]
+|
+|-
+| 1943 || {{sortname|Bob|Odell|dab=American football}}
+| [[Halfback (American football)|HB]] || [[1943 Penn Quakers football team|Penn]]
+|
+|-
+| 1944 || {{sortname|Glenn|Davis|dab=halfback}}
+| [[Halfback (American football)|HB]] || [[1944 Army Cadets football team|Army]]
+|
+|-
+| 1945 || {{sortname|Doc|Blanchard}}
+| [[Fullback (gridiron football)|FB]] || [[1945 Army Cadets football team|Army]] (2)
+|
+|-
+| 1946 || {{sortname|Charley|Trippi}}
+| [[Halfback (American football)|HB]], [[Quarterback|QB]], [[Punter (gridiron football)|P]] || [[1946 Georgia Bulldogs football team|Georgia]]
+|<ref>{{cite news|title=Trippi Winner Of Football Award|url=https://news.google.com/newspapers?nid=1298&dat=19461211&id=KtxLAAAAIBAJ&pg=5884,2000658|access-date=April 4, 2017|work=The Free Lance-Star|agency=Associated Press|date=December 11, 1946|page=3}}</ref>
+|-
+| 1947 || {{sortname|Doak|Walker}}
+| [[Halfback (American football)|HB]], [[Placekicker|K]] || [[1947 SMU Mustangs football team|SMU]]
+|
+|-
+| 1948 || {{sortname|Chuck|Bednarik}}
+| [[Center (gridiron football)|C]], [[Linebacker|LB]] || [[1948 Penn Quakers football team|Penn]] (2)
+|
+|-
+| 1949 || {{sortname|Leon|Hart}}
+| [[End (gridiron football)|E]] || [[1949 Notre Dame Fighting Irish football team|Notre Dame]]
+|
+|-
+| 1950 || {{sortname|Reds|Bagnell}}
+| [[Halfback (American football)|HB]] || [[1950 Penn Quakers football team|Penn]] (3)
+|
+|-
+| 1951 || {{sortname|Dick|Kazmaier}}
+| [[Halfback (American football)|HB]] || [[1951 Princeton Tigers football team|Princeton]]
+|
+|-
+| 1952 || {{sortname|Johnny|Lattner}}
+| [[Halfback (American football)|HB]] || [[1952 Notre Dame Fighting Irish football team|Notre Dame]] (2)
+|
+|-
+| 1953 || {{sortname|Johnny|Lattner}} (2)
+| [[Halfback (American football)|HB]] || [[1953 Notre Dame Fighting Irish football team|Notre Dame]] (3)
+|
+|-
+| 1954 || {{sortname|Ron|Beagle}}
+| [[End (gridiron football)|E]] || [[1954 Navy Midshipmen football team|Navy]]
+|
+|-
+| 1955 || {{sortname|Howard|Cassady}}
+| [[Halfback (American football)|HB]] || [[1955 Ohio State Buckeyes football team|Ohio State]]
+|
+|-
+| 1956 || {{sortname|Tommy|McDonald|dab=American football}}
+| [[Halfback (American football)|HB]] || [[1956 Oklahoma Sooners football team|Oklahoma]]
+|
+|-
+| 1957 || {{sortname|Bob|Reifsnyder}}
+| [[Tackle (gridiron football position)|T]] || [[1957 Navy Midshipmen football team|Navy]] (2)
+|
+|-
+| 1958 || {{sortname|Pete|Dawkins}}
+| [[Halfback (American football)|HB]] || [[1958 Army Cadets football team|Army]] (3)
+|
+|-
+| 1959 || {{sortname|Richie|Lucas}}
+| [[Quarterback|QB]] || [[1959 Penn State Nittany Lions football team|Penn State]]
+|
+|-
+| 1960 || {{sortname|Joe|Bellino}}
+| [[Halfback (American football)|HB]] || [[1960 Navy Midshipmen football team|Navy]] (3)
+|
+|-
+| 1961 || {{sortname|Bob|Ferguson|dab=fullback}}
+| [[Fullback (gridiron football)|FB]] || [[1961 Ohio State Buckeyes football team|Ohio State]] (2)
+|<ref name=Hornung>{{cite news|title=Hornung, Ferguson Honored as 'Best'|url=https://news.google.com/newspapers?nid=1368&dat=19620206&id=HG5QAAAAIBAJ&pg=7130,2491937&hl=en|access-date=July 11, 2016|work=The Milwaukee Sentinel|agency=Associated Press|date=February 6, 1962}}</ref>
+|-
+| 1962 || {{sortname|Terry|Baker}}
+| [[Quarterback|QB]] || [[1962 Oregon State Beavers football team|Oregon State]]
+|
+|-
+| 1963 || {{sortname|Roger|Staubach}}
+| [[Quarterback|QB]] || [[1963 Navy Midshipmen football team|Navy]] (4)
+|
+|-
+| 1964 || {{sortname|Glenn|Ressler}}
+| [[Guard (gridiron football)|G]] || [[1964 Penn State Nittany Lions football team|Penn State]] (2)
+|<ref name="Unitas2">{{cite news|title=Unitas, Ressler To Receive Awards|url=https://news.google.com/newspapers?nid=1873&dat=19641204&id=A5MeAAAAIBAJ&pg=3442,713555&hl=en|access-date=July 11, 2016|work=Daytona Beach Morning Journal|agency=Associated Press|date=December 4, 1964|page=17}}</ref>
+|-
+| 1965 || {{sortname|Tommy|Nobis}}
+| [[Guard (gridiron football)|G]], [[Linebacker|LB]] || [[1965 Texas Longhorns football team|Texas]]
+|
+|-
+| 1966 || {{sortname|Jim|Lynch}}
+| [[Linebacker|LB]] || [[1966 Notre Dame Fighting Irish football team|Notre Dame]] (4)
+|<ref>{{cite news|title=Maxwell Club Cites Lynch, Meredith|url=https://news.google.com/newspapers?nid=1310&dat=19670124&id=G6pVAAAAIBAJ&pg=5898,5169197&hl=en|access-date=July 11, 2016|work=Eugene Register-Guard|agency=Associated Press|date=January 24, 1967|page=2B}}</ref>
+|-
+| 1967 || {{sortname|Gary|Beban}}
+| [[Quarterback|QB]] || [[1967 UCLA Bruins football team|UCLA]]
+|<ref>{{cite news|title=Beban, Unitas Win Awards|url=https://news.google.com/newspapers?nid=2512&dat=19671220&id=AvlHAAAAIBAJ&pg=3655,7159812&hl=en|access-date=July 11, 2016|work=The Morning Record|agency=Associated Press|date=December 20, 1967|page=9}}</ref>
+|-
+| 1968 || {{sortname|O. J.|Simpson}}
+| [[Running back|RB]] || [[1968 USC Trojans football team|USC]]
+|<ref>{{cite news|title=Simpson, Kelly Win Maxwell Awards|url=https://news.google.com/newspapers?nid=1144&dat=19681218&id=B8wbAAAAIBAJ&pg=7516,967396&hl=en|access-date=July 11, 2016|work=The Pittsburgh Press|agency=United Press International|date=December 18, 1968|page=74}}</ref>
+|-
+| 1969 || {{sortname|Mike|Reid|dab=singer}}
+| [[Defensive tackle|DT]] || [[1969 Penn State Nittany Lions football team|Penn State]] (3)
+|<ref>{{cite news|title=Reid, Gabriel Are Top Rated|url=https://news.google.com/newspapers?nid=2245&dat=19700120&id=khgzAAAAIBAJ&pg=3072,1654141&hl=en|access-date=July 11, 2016|work=Lodi News-Sentinel|agency=United Press International|date=January 20, 1970|page=8}}</ref>
+|-
+| 1970 || {{sortname|Jim|Plunkett}}
+| [[Quarterback|QB]] || [[1970 Stanford Indians football team|Stanford]]
+|<ref name=Blanda>{{cite news|title=New Award For Blanda|url=https://news.google.com/newspapers?nid=1129&dat=19701218&id=idlaAAAAIBAJ&pg=2477,3129409&hl=en|access-date=July 11, 2016|work=Pittsburgh Post-Gazette|agency=Associated Press|date=December 18, 1970|page=21}}</ref>
+|-
+| 1971 || {{sortname|Ed|Marinaro}}
+| [[Running back|RB]] || [[1971 Cornell Big Red football team|Cornell]]
+|
+|-
+| 1972 || {{sortname|Brad|Van Pelt}}
+| [[Safety (gridiron football position)|S]] || [[1972 Michigan State Spartans football team|Michigan State]]
+|
+|-
+| 1973 || {{sortname|John|Cappelletti}}
+| [[Running back|RB]] || [[1973 Penn State Nittany Lions football team|Penn State]] (4)
+|
+|-
+| 1974 || {{sortname|Steve|Joachim}}
+| [[Quarterback|QB]] || [[1974 Temple Owls football team|Temple]]
+|
+|-
+| 1975 || {{sortname|Archie|Griffin}}
+| [[Running back|RB]] || [[1975 Ohio State Buckeyes football team|Ohio State]] (3)
+|
+|-
+| 1976 || {{sortname|Tony|Dorsett}}
+| [[Running back|RB]] || [[1976 Pittsburgh Panthers football team|Pittsburgh]]
+|<ref>{{cite news|title=Tony Dorsett Receives Maxwell Club Award|url=https://www.newspapers.com/clip/11444137/tony_dorsett_receives_maxwell_club_award/|access-date=June 3, 2017|work=The Morning Herald|agency=Associated Press|date=January 20, 1977|page=20|via=Newspapers.com}}</ref>
+|-
+| 1977 || {{sortname|Ross|Browner}}
+| [[Defensive end|DE]] || [[1977 Notre Dame Fighting Irish football team|Notre Dame]] (5)
+|
+|-
+| 1978 || {{sortname|Chuck|Fusina}}
+| [[Quarterback|QB]] || [[1978 Penn State Nittany Lions football team|Penn State]] (5)
+|
+|-
+| 1979 || {{sortname|Charles|White|dab=American football}}
+| [[Running back|RB]] || [[1979 USC Trojans football team|USC]] (2)
+|
+|-
+| 1980 || {{sortname|Hugh|Green|dab=American football}}
+| [[Defensive end|DE]] || [[1980 Pittsburgh Panthers football team|Pittsburgh]] (2)
+|
+|-
+| 1981 || {{sortname|Marcus|Allen}}
+| [[Running back|RB]] || [[1981 USC Trojans football team|USC]] (3)
+|
+|-
+| 1982 || {{sortname|Herschel|Walker}}
+| [[Running back|RB]] || [[1982 Georgia Bulldogs football team|Georgia]] (2)
+|
+|-
+| 1983 || {{sortname|Mike|Rozier}}
+| [[Running back|RB]] || [[1983 Nebraska Cornhuskers football team|Nebraska]]
+|
+|-
+| 1984 || {{sortname|Doug|Flutie}}
+| [[Quarterback|QB]] || [[1984 Boston College Eagles football team|Boston College]]
+|
+|-
+| 1985 || {{sortname|Chuck|Long}}
+| [[Quarterback|QB]] || [[1985 Iowa Hawkeyes football team|Iowa]] (2)
+|
+|-
+| 1986 || {{sortname|Vinny|Testaverde}}
+| [[Quarterback|QB]] || [[1986 Miami Hurricanes football team|Miami (FL)]]
+|
+|-
+| 1987 || {{sortname|Don|McPherson}}
+| [[Quarterback|QB]] || [[1987 Syracuse Orangemen football team|Syracuse]]
+|<ref>{{cite news|title=Sports People; McPherson Honored|url=https://www.nytimes.com/1987/12/18/sports/sports-people-mcpherson-honored.html|access-date=March 1, 2017|work=The New York Times|date=December 18, 1987}}</ref>
+|-
+| 1988 || {{sortname|Barry|Sanders}}
+| [[Running back|RB]] || [[1988 Oklahoma State Cowboys football team|Oklahoma State]]
+|<ref>{{cite news|last1=Cialini|first1=Joe|title=Oklahoma State running back Barry Sanders, winner of the...|url=http://www.upi.com/Archives/1988/12/13/Oklahoma-State-running-back-Barry-Sanders-winner-of-the/1453597992400/|access-date=March 1, 2017|work=United Press International|date=December 13, 1988}}</ref>
+|-
+| 1989 || {{sortname|Anthony|Thompson|dab=American football}}
+| [[Running back|RB]] || [[1989 Indiana Hoosiers football team|Indiana]]
+|<ref>{{cite news|title=Sports People: College Football; Indiana Running Back Wins Maxwell Award|url=https://www.nytimes.com/1989/12/16/sports/sports-people-college-football-indiana-running-back-wins-maxwell-award.html|access-date=March 1, 2017|work=The New York Times|agency=Associated Press|date=December 16, 1989}}</ref>
+|-
+|  1990 || {{sortname|Ty|Detmer}}
+| [[Quarterback|QB]] || [[1990 BYU Cougars football team|BYU]]
+|<ref>{{cite news|title=Detmer Gets a New Honor: the Maxwell|url=https://www.latimes.com/archives/la-xpm-1990-12-13-sp-9067-story.html|access-date=March 1, 2017|work=Los Angeles Times|agency=Associated Press|date=December 13, 1990}}</ref>
+|-
+| 1991 || {{sortname|Desmond|Howard}}
+| [[Wide receiver|WR]], [[Return specialist|RS]] || [[1991 Michigan Wolverines football team|Michigan]] (2)
+|<ref>{{cite news|last1=Thomas|first1=Robert Jr.|title=College Football; Howard Receives Honor As Nation's Top Player|url=https://www.nytimes.com/1991/12/08/sports/college-football-howard-receives-honor-as-nation-s-top-player.html|access-date=March 1, 2017|work=The New York Times|date=December 8, 1991}}</ref>
+|-
+| 1992 || {{sortname|Gino|Torretta}}
+| [[Quarterback|QB]] || [[1992 Miami Hurricanes football team|Miami (FL)]] (2)
+|<ref>{{cite news|title=Torretta Wins Two More Awards|url=https://www.chicagotribune.com/1992/12/07/torretta-wins-two-more-awards/|access-date=March 1, 2017|work=Chicago Tribune|date=December 7, 1992}}</ref>
+|-
+| 1993 || {{sortname|Charlie|Ward}}
+| [[Quarterback|QB]] || [[1993 Florida State Seminoles football team|Florida State]]
+|
+|-
+| 1994 || {{sortname|Kerry|Collins}}
+| [[Quarterback|QB]] || [[1994 Penn State Nittany Lions football team|Penn State]] (6)
+|<ref>{{cite news|title=Sports People: College Football; Two Awards for Penn State Quarterback|url=https://www.nytimes.com/1994/12/09/sports/sports-people-college-football-two-awards-for-penn-state-quarterback.html|access-date=March 1, 2017|work=The New York Times|date=December 9, 1994}}</ref>
+|-
+| 1995 || {{sortname|Eddie|George}}
+| [[Running back|RB]] || [[1995 Ohio State Buckeyes football team|Ohio State]] (4)
+|
+|-
+| 1996 || {{sortname|Danny|Wuerffel}}
+| [[Quarterback|QB]] || [[1996 Florida Gators football team|Florida]]
+|
+|-
+| 1997 || {{sortname|Peyton|Manning}}
+| [[Quarterback|QB]] || [[1997 Tennessee Volunteers football team|Tennessee]]
+|<ref>{{cite news|title=Manning, Woodson earn football honors|url=https://news.google.com/newspapers?nid=1356&dat=19971212&id=Z_JPAAAAIBAJ&pg=1907,6700069|access-date=December 5, 2016|work=Ocala Star-Banner|agency=Associated Press|date=December 12, 1997|page=3C}}</ref>
+|-
+| 1998 || {{sortname|Ricky|Williams}}
+| [[Running back|RB]] || [[1998 Texas Longhorns football team|Texas]] (2)
+|
+|-
+| 1999 || {{sortname|Ron|Dayne}}
+| [[Running back|RB]] || [[1999 Wisconsin Badgers football team|Wisconsin]]
+|
+|-
+| 2000 || {{sortname|Drew|Brees}}
+| [[Quarterback|QB]] || [[2000 Purdue Boilermakers football team|Purdue]]
+|<ref>{{cite web|first=Jon|last=Marks|title=New Orleans Saints' Drew Brees accepts Maxwell Club's Bert Bell Award|date=March 5, 2000|work=NOLA.com|publisher=The Times-Picayune|url=http://www.nola.com/saints/index.ssf/2010/03/new_orleans_saints_drew_brees_8.html|access-date=April 7, 2012}}</ref>
+|-
+| 2001 || {{sortname|Ken|Dorsey}}
+| [[Quarterback|QB]] || [[2001 Miami Hurricanes football team|Miami (FL)]] (3)
+|
+|-
+| 2002 || {{sortname|Larry|Johnson|dab=running back}}
+| [[Running back|RB]] || [[2002 Penn State Nittany Lions football team|Penn State]] (7)
+|
+|-
+| 2003 || {{sortname|Eli|Manning}}
+| [[Quarterback|QB]] || [[2003 Ole Miss Rebels football team|Ole Miss]]
+|
+|-
+| 2004 || {{sortname|Jason|White|dab=American football}}
+| [[Quarterback|QB]] || [[2004 Oklahoma Sooners football team|Oklahoma]] (2)
+|<ref>{{cite news|title=White Takes Maxwell, Davey O'Brien Awards|url=https://news.google.com/newspapers?nid=1697&dat=20041210&id=RTUqAAAAIBAJ&pg=4291,1102870|access-date=October 17, 2016|work=Park City Daily News|agency=Associated Press|date=December 10, 2004|page=10C}}</ref>
+|-
+| 2005 || {{sortname|Vince|Young}}
+| [[Quarterback|QB]] || [[2005 Texas Longhorns football team|Texas]] (3)
+|
+|-
+| 2006 || {{sortname|Brady|Quinn}}
+| [[Quarterback|QB]] || [[2006 Notre Dame Fighting Irish football team|Notre Dame]] (6)
+|<ref>{{cite news|title=Quinn beats out Smith for Maxwell|url=https://news.google.com/newspapers?nid=1893&dat=20061208&id=sgspAAAAIBAJ&pg=1578,4916472|access-date=October 17, 2016|work=The Southeast Missourian|agency=Associated Press|date=December 8, 2006|page=4B}}</ref>
+|-
+| 2007 || {{sortname|Tim|Tebow}}
+| [[Quarterback|QB]] || [[2007 Florida Gators football team|Florida]] (2)
+|
+|-
+| 2008 || {{sortname|Tim|Tebow}} (2)
+| [[Quarterback|QB]] || [[2008 Florida Gators football team|Florida]] (3)
+| 
+|-
+| 2009 || {{sortname|Colt|McCoy}}
+| [[Quarterback|QB]] || [[2009 Texas Longhorns football team|Texas]] (4)
+| <ref>{{cite web|title=McCoy named 2009 Maxwell and Davey O'Brien Award winner|url=https://texaslonghorns.com/news/2009/12/10/121009aac_660|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 10, 2009|access-date=May 21, 2026}}</ref>
+|-
+| 2010 || {{sortname|Cam|Newton}}
+| [[Quarterback|QB]] || [[2010 Auburn Tigers football team|Auburn]]
+| <ref>{{cite web|title=Auburn to retire Cam Newton's Jersey Number|url=https://auburntigers.com/news/2025/8/18/auburn-to-retire-cam-newtons-jersey-number|quote=Newton was a consensus All-American in his lone season at Auburn and won the Walter Camp Award, Maxwell Award, Manning Award, Davey O'Brien Award and was Associated Press National Player of the Year|website=auburntigers.com|publisher=Auburn University|date=August 18, 2025|access-date=May 21, 2026}}</ref>
+|-
+| 2011 || {{sortname|Andrew|Luck}}
+| [[Quarterback|QB]] || [[2011 Stanford Cardinal football team|Stanford]] (2)
+| <ref>{{cite web|title=Indianapolis Selects Andrew Luck With First Overall Pick|url=https://gostanford.com/news/2012/04/26/indianapolis-selects-andrew-luck-with-first-overall-pick|quote=As a fourth-year junior, Luck earned Walter Camp Football Foundation Player of the Year honors and was also the recipient of the Maxwell Trophy as the nation's top player|website=gostanford.com|publisher=Leland Stanford Junior University|date=April 26, 2012|access-date=May 21, 2026}}</ref>
+|-
+| 2012 || {{sortname|Manti|Te'o}}
+| [[Linebacker|LB]] || [[2012 Notre Dame Fighting Irish football team|Notre Dame]] (7)
+| <ref>{{cite web|title=Manti Te'o Wins Maxwell Award|url=https://fightingirish.com/manti-teo-wins-maxwell-award/|website=fightingirish.co|publisher=University of Notre Dame|date=December 6, 2012|access-date=May 21, 2026}}</ref>
+|-
+| 2013 || {{sortname|A. J.|McCarron}}
+| [[Quarterback|QB]] || [[2013 Alabama Crimson Tide football team|Alabama]]
+| <ref>{{cite web|title=AJ McCarron Wins Maxwell Award|url=https://rolltide.com/news/2013/12/12/AJ_McCarron_Wins_Maxwell_Award|website=rolltide.com|publisher=The University of Alabama|date=December 12, 2013|access-date=May 21, 2026}}</ref>
+|-
+| 2014 || {{sortname|Marcus|Mariota}}
+| [[Quarterback|QB]] || [[2014 Oregon Ducks football team|Oregon]]
+| <ref>{{cite web|last=Moseley|first=Rob|title=Mariota Wins Camp, Maxwell Awards|url=https://goducks.com/sports/2014/12/12/209805489|website=goducks.com|publisher=University of Oregon|date=December 12, 2014|access-date=May 21, 2026}}</ref>
+|-
+| 2015 || {{sortname|Derrick|Henry}}
+| [[Running back|RB]] || [[2015 Alabama Crimson Tide football team|Alabama]] (2)
+| <ref>{{cite web|title=Alabama RB Derrick Henry wins Maxwell Award, Doak Walker Award|url=https://www.espn.com/college-football/story/_/id/14340074/derrick-henry-alabama-crimson-tide-wins-maxwell-award-doak-walker-award|website=ESPN.com|publisher=ESPN|date=December 10, 2015|access-date=May 21, 2026}}</ref>
+|-
+| 2016 || {{sortname|Lamar|Jackson}}
+| [[Quarterback|QB]] || [[2016 Louisville Cardinals football team|Louisville]]
+| <ref>{{cite web|title=Lamar Jackson wins Maxwell Award for college player of the year|url=https://www.ncaa.com/news/football/article/2016-12-08/college-football-lamar-jackson-wins-maxwell-award-college-player|website=NCAA.com|publisher=National Collegiate Athletic Association|date=December 8, 2016|access-date=May 21, 2026}}</ref>
+|-
+| 2017 || {{sortname|Baker|Mayfield}}
+| [[Quarterback|QB]] || [[2017 Oklahoma Sooners football team|Oklahoma]] (3)
+| <ref>{{cite web|title=Oklahoma's Baker Mayfield wins Maxwell, Davey O'Brien awards|url=https://www.nfl.com/news/oklahoma-s-baker-mayfield-wins-maxwell-davey-o-brien-awards-0ap3000000889437|website=NFL.com|publisher=National Football League|date=December 7, 2017|access-date=May 21, 2026}}</ref>
+|-
+| 2018 || {{sortname|Tua|Tagovailoa}}
+| [[Quarterback|QB]] || [[2018 Alabama Crimson Tide football team|Alabama]] (3)
+| <ref>{{cite web|title=Alabama Football's Tua Tagovailoa, Jerry Jeudy and Quinnen Williams Take Home National Honors|url=https://rolltide.com/news/2018/12/6/alabama-footballs-tua-tagovailoa-jerry-jeudy-and-quinnen-williams-take-home-national-honors|website=rolltide.com|publisher=The University of Alabama|date=December 6, 2018|access-date=May 21, 2026}}</ref>
+|-
+| 2019 || {{sortname|Joe|Burrow}}
+| [[Quarterback|QB]] || [[2019 LSU Tigers football team|LSU]]
+| <ref>{{cite web|last=Bonagura|first=Kyle|title=LSU QB Joe Burrow wins Maxwell and Davey O'Brien awards|url=https://www.espn.com/college-football/story/_/id/28287145/lsu-qb-joe-burrow-wins-maxwell-davey-obrien-awards|website=ESPN.com|publisher=ESPN|date=December 12, 2019|access-date=May 21, 2026}}</ref>
+|-
+| 2020 || {{sortname|DeVonta|Smith}}
+| [[Wide receiver|WR]] || [[2020 Alabama Crimson Tide football team|Alabama]] (4)
+| <ref>{{cite web|last=Olson|first=Eric|title=Smith adds Maxwell Award to collection of postseason honors|url=https://apnews.com/article/college-football-alabama-alabama-crimson-tide-football-football-michigan-wolverines-football-fc34d2c8ab9933f97d89b81827818a4a|website=apnews.com|publisher=Associated Press|date=January 7, 2021|access-date=May 21, 2026}}</ref>
+|-
+| 2021 || {{sortname|Bryce|Young}}
+| [[Quarterback|QB]] || [[2021 Alabama Crimson Tide football team|Alabama]] (5)
+| <ref>{{cite web|title=Bryce Young Collects Two Honors at 2021 Home Depot College Football Awards, Alabama Earns Four Walter Camp All-America Honors|url=https://rolltide.com/news/2021/12/9/bryce-young-collects-two-honors-at-2021-home-depot-college-football-awards-alabama-earns-four-walter-camp-all-america-honors|website=rolltide.com|publisher=The University of Alabama|date=December 9, 2021|access-date=May 21, 2026}}</ref>
+|-
+| 2022 || {{sortname|Caleb|Williams}}
+| [[Quarterback|QB]] || [[2022 USC Trojans football team|USC]] (4)
+| <ref>{{cite web|title=USC's Caleb Williams Wins Maxwell Award and Named Walter Camp Player of the Year|url=https://usctrojans.com/news/2022/12/8/football-uscs-caleb-williams-wins-maxwell-award-and-named-walter-camp-player-of-the-year|website=usctrojans.com|publisher=University of Southern California|date=December 8, 2022|access-date=May 21, 2026}}</ref>
+|-
+| 2023 || {{sortname|Michael|Penix Jr.}}
+| [[Quarterback|QB]] || [[2023 Washington Huskies football team|Washington]]
+| <ref>{{cite web|title=Penix Jr., DeBoer Take Home Honors At Home Depot Award Show|url=https://gohuskies.com/news/2023/12/8/football-penix-jr-deboer-take-home-honors-at-home-deport-award-show|website=gohuskies.com|publisher=University of Washington|date=December 8, 2023|access-date=May 21, 2026}}</ref>
+|-
+| 2024 || {{sortname|Ashton|Jeanty}}
+| [[Running back|RB]] || [[2024 Boise State Broncos football team|Boise State]]
+| <ref>{{cite web|title=Ashton Jeanty Wins Doak Walker Award and Maxwell Award|url=https://broncosports.com/news/2024/12/12/football-ashton-jeanty-wins-doak-walker-award-and-maxwell-award|website=broncosports.com|publisher=Boise State University|date=December 12, 2024|access-date=May 21, 2026}}</ref>
+|-
+| 2025 || {{sortname|Fernando|Mendoza}}
+| [[Quarterback|QB]] || [[2025 Indiana Hoosiers football team|Indiana]] (2)
+| <ref>{{cite web|title=Maxwell Football Club Honors Cignetti, Mendoza with National Awards|url=https://iuhoosiers.com/news/2026/3/14/maxwell-football-club-honors-cignetti-mendoza-with-national-awards|website=iuhoosiers.com|publisher=Indiana University Bloomington|date=March 14, 2026|access-date=May 21, 2026}}</ref>
+|}
+
+==References==
+;General
+* {{cite web|title=Maxwell Award Winners|url=https://www.sports-reference.com/cfb/awards/maxwell.html|publisher=Sports Reference|access-date=July 12, 2016}}
+* {{cite news|title=Maxwell Award Winners|url=http://usatoday30.usatoday.com/sports/college/football/2011-12-08-3942526547_x.htm|access-date=March 1, 2017|work=USA Today|agency=Associated Press|date=December 8, 2011}}
+
+;Footnotes
+{{Reflist|30em}}
+
+{{Maxwell Award Winners}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1937]]
+[[Category:Maxwell Award winners| ]]
