@@ -2333,7 +2333,7 @@ function FbLanding({
   )
 }
 
-function FbRosterRail({
+export function FbRosterRail({
   slots,
   targetable,
   onPlace,

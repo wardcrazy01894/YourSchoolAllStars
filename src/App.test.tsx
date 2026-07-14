@@ -1,11 +1,12 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
 import type { BballPlayer, FbPlayer } from './types'
+import { FB_SLOTS } from './types'
 import { initDraft } from './lib/game'
 import { initFbDraft } from './lib/football-game'
 import { getMode } from './lib/modes'
 import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
-import { Playing, RosterRail, Results, FbPlaying } from './App'
+import { Playing, RosterRail, Results, FbPlaying, FbRosterRail } from './App'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -338,5 +339,139 @@ describe('Playing — Full Basketball era label', () => {
     // Reduced motion reveals instantly; the era bar then names the school.
     fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
     expect(screen.getByText(/Michigan/)).toBeTruthy()
+  })
+})
+
+// ── Full Football component wiring ───────────────────────────────────────────
+// FbPlaying/FbRosterRail are separate components from their basketball twins, so
+// the Full-mode props (era tag, origin tags, per-player power-5) need their own
+// pins — a football-only slip wouldn't trip the basketball tests above.
+
+function fullFbPlayer(id: string, position: FbPlayer['position']): FbPlayer {
+  const stats =
+    position === 'QB'
+      ? { passYds: 3000, passTD: 25, passInt: 6, rushYds: 200, rushTD: 3 }
+      : { rushYds: 1200, rushTD: 14, rec: 20, recYds: 180, recTD: 1 }
+  return {
+    id,
+    name: `${id} Player`,
+    position,
+    firstYear: 2000,
+    lastYear: 2003,
+    seasons: [
+      { year: 2001, stats, honors: [], source: 'https://example.test/fixture' },
+    ],
+  }
+}
+
+describe('FbRosterRail — per-player power-5 + origin tags (Full Football)', () => {
+  const emptySlots = Object.fromEntries(
+    FB_SLOTS.map((s) => [s.id, null]),
+  ) as Record<string, FbPlayer | null>
+  const qb = fullFbPlayer('qb1', 'QB')
+  const rb = fullFbPlayer('rb1', 'RB')
+  const windowBySlot = { QB: WHEEL[0], RB: WHEEL[0] }
+
+  it('rates each starter on its OWN power-5 flag (per-player, not team-wide)', () => {
+    // The same RB rated both ways establishes the two reference values…
+    const rbOnly = { ...emptySlots, RB: rb }
+    const rbPower5 = Number(
+      render(
+        <FbRosterRail
+          slots={rbOnly}
+          power5Of={() => true}
+          windowBySlot={windowBySlot}
+        />,
+      ).container.querySelector('.prate')!.textContent,
+    )
+    cleanup()
+    const rbHaircut = Number(
+      render(
+        <FbRosterRail
+          slots={rbOnly}
+          power5Of={() => false}
+          windowBySlot={windowBySlot}
+        />,
+      ).container.querySelector('.prate')!.textContent,
+    )
+    cleanup()
+    expect(rbHaircut).toBeLessThan(rbPower5)
+    // …then a MIXED rail (QB power-5, RB not) must show the RB's haircut value
+    // while the QB keeps a full power-5 rating.
+    const mixed = { ...emptySlots, QB: qb, RB: rb }
+    const { container } = render(
+      <FbRosterRail
+        slots={mixed}
+        power5Of={(p) => p.position !== 'RB'}
+        windowBySlot={windowBySlot}
+      />,
+    )
+    const rates = [...container.querySelectorAll('.prate')].map((n) =>
+      Number(n.textContent),
+    )
+    expect(rates).toContain(rbHaircut)
+    expect(rates).not.toContain(rbPower5)
+  })
+
+  it('renders a school-origin tag only when schoolTag is supplied (Full mode)', () => {
+    const slots = { ...emptySlots, QB: qb }
+    const plain = render(
+      <FbRosterRail
+        slots={slots}
+        power5Of={() => true}
+        windowBySlot={windowBySlot}
+      />,
+    )
+    expect(plain.container.querySelector('.school-tag')).toBeNull()
+    cleanup()
+    const full = render(
+      <FbRosterRail
+        slots={slots}
+        power5Of={() => true}
+        windowBySlot={windowBySlot}
+        schoolTag={() => ({ emoji: '🐊', name: 'Florida' })}
+      />,
+    )
+    const tag = full.container.querySelector('.school-tag')
+    expect(tag).not.toBeNull()
+    expect(tag!.textContent).toContain('Florida')
+  })
+})
+
+describe('FbPlaying — Full Football era label', () => {
+  it('prefixes the era bar with the spun school when eraTag is supplied', () => {
+    render(
+      <FbPlaying
+        players={[fullFbPlayer('qb1', 'QB')]}
+        state={initFbDraft(WHEEL)}
+        wheel={WHEEL}
+        hideStats={false}
+        power5Of={() => true}
+        onAdvance={() => {}}
+        teamReel={[{ emoji: '🐊', name: 'Florida' }]}
+        teamTarget={0}
+        eraTag={{ emoji: '🐊', name: 'Florida' }}
+        schoolTag={() => ({ emoji: '🐊', name: 'Florida' })}
+      />,
+    )
+    // Reduced motion reveals instantly; the era bar then names the school.
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+    expect(screen.getByText(/Florida/)).toBeTruthy()
+  })
+
+  it('omits any school label when eraTag is absent (single-school games)', () => {
+    render(
+      <FbPlaying
+        players={[fullFbPlayer('qb1', 'QB')]}
+        state={initFbDraft(WHEEL)}
+        wheel={WHEEL}
+        hideStats={false}
+        power5Of={() => true}
+        onAdvance={() => {}}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+    expect(screen.queryByText(/Florida/)).toBeNull()
+    expect(screen.getByText(/2000–2003/)).toBeTruthy()
   })
 })
