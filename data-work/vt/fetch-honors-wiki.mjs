@@ -43,9 +43,13 @@ for (let y = 2004; y <= 2025; y++)
       ? `${y} All-Atlantic Coast Conference football team`
       : `${y} All-ACC football team`,
   )
-// Per-year national All-America pages: the consensus/unanimous status for
-// VT's first-teamers, and the 2016+ All-American selections the archived
-// official list (ends 2015) can't cover.
+// Per-year national All-America pages. These are EVIDENCE, not a parse input:
+// the official list supplies the AAs (and its own C/U legend), but it ends at
+// 2015, so these pages are what was checked to establish that VT has NO
+// first-team All-American at a draftable position in 2016–2025 (the only VT
+// name in any of them is Christian Darrisaw, 2020, by a single selector — and
+// he's an OL, a position the game doesn't carry). Keep them committed so that
+// claim stays auditable; no parser reads them.
 for (const y of [1996, 1998, 1999, 2003, 2004, 2005]) // official-list 1st-team years
   pages.push(`${y} College Football All-America Team`)
 for (let y = 2016; y <= 2025; y++)

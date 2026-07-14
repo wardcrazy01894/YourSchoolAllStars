@@ -540,8 +540,18 @@ committed so the work is session-restartable). Source map:
     school" read grabs a class column ("So."/"Sr.") in the years that have
     one. Plus the national hardware (Corey Moore's 1999 Lombardi + Nagurski).
     Wikipedia lists no honorable mentions, so HM exists only through 2015.
-  - **Verified**: `verify-honors.mjs` re-derives every shipped string from the
-    ledgers and diffs the dataset — **0 phantoms, 0 omissions**; a sampled
-    independent fact-check of 14 marquee honors came back 14/14 confirmed.
+    The official All-America list also ends at 2015 — the per-year national
+    All-America articles (kept in `honors-wiki/`) are the audit trail for the
+    gap: VT has **no first-team All-American at a draftable position in
+    2016–2025** (the lone VT name is Christian Darrisaw, 2020, one selector,
+    an OL).
+  - **Verified two ways.** `verify-honors.mjs` re-derives every shipped string
+    from the ledgers and diffs the dataset (**0 phantoms, 0 omissions**) — but
+    that only proves the attach step is faithful to the ledgers, since it
+    shares their name-matching and team-level rules. Source-level correctness
+    is a _separate_ check: the parsers assert their source layouts (a markup
+    change throws rather than silently mis-parsing), and a sampled independent
+    fact-check of 14 marquee honors against the public record came back
+    **14/14 confirmed**.
     Unmatched ledger entries are all kickers/punters/OL (positions the game
     doesn't carry) or players trimmed below the composite floor.

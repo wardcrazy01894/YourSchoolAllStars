@@ -10,9 +10,9 @@
 //   (First-Team All-Big East (YYYY), All-American (YYYY), Big East Defensive
 //   Player of the Year (YYYY), …). All-conference keeps the HIGHEST team per
 //   player-year across selectors (ACSMA/COACHES); HM only when no team made.
-//   All-Americans: FIRST-team by any selector on the official list →
-//   "All-American (YYYY)" (consensus/unanimous upgraded later from the
-//   per-year Wikipedia All-America pages by derive-honors.mjs).
+//   All-Americans: FIRST-team on the official list → "All-American (YYYY)",
+//   upgraded to Consensus/Unanimous from that page's OWN <sup> C/U legend.
+//   (Only first-team AAs are emitted — the project-wide convention.)
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { dirname, join } from 'node:path'
@@ -191,10 +191,25 @@ const add = (year, name, honor, source) =>
   const file = 'allamericans-20151210.html'
   const src = sources[file]
   const raw = unescape(readFileSync(join(SRC, file), 'utf8'))
+  // The page carries THREE tables under <div class="headline"> sections:
+  // "Athletic All-Americans" (the one we want), "Football Honorable Mention
+  // All-Americans", and "Academic All-Americans" (CoSIDA — an academic honor
+  // that must never become a football All-America line). Scope to the athletic
+  // section EXPLICITLY: relying on the other tables happening to have fewer
+  // columns would silently start ingesting them if the page markup ever
+  // changed. Fail loudly if the section is missing.
+  const sections = raw.split(/<div class="headline">/).slice(1)
+  const athletic = sections.find((s) =>
+    /^\s*Athletic All-Americans\s*<\/div>/.test(s),
+  )
+  if (!athletic)
+    throw new Error(
+      `${file}: no "Athletic All-Americans" section — page markup changed`,
+    )
   // Table rows: year | name (the cell's <sup> marks C = Consensus,
   // U = Unanimous — the official list's own legend) | team (1st/2nd/3rd) |
   // selectors | pos
-  for (const tr of raw.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
+  for (const tr of athletic.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
     const rawCells = [...tr[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map(
       (c) => c[1],
     )

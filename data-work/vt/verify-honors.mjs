@@ -12,6 +12,17 @@
 //   MISSING — a ledger entry (for a player-season that EXISTS in the dataset)
 //             that didn't make it into the shipped file
 // Exits nonzero on any diff, so it can gate the PR.
+//
+// WHAT THIS DOES AND DOESN'T PROVE (don't over-trust a "0/0"): it re-derives
+// from the SAME ledgers with the SAME name-matching and highest-team-level
+// rules as attach-honors.mjs, so it catches a stale write, a hand-edit of the
+// shipped honors, or attach's logic drifting from a fresh recompute. It does
+// NOT catch a wrong {year, name, honor} triple coming out of the HTML/wikitext
+// parsers, a bad NAME_MAP entry, or an identity error upstream in merge.mjs —
+// both scripts would agree on the same wrong answer. Source-level correctness
+// is covered separately: the parsers assert their source layouts, and the
+// derivation was independently fact-checked against the public record
+// (14/14 marquee honors confirmed — see PROGRESS.md).
 
 import { readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'

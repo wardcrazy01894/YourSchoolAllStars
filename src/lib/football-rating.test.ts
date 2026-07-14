@@ -157,6 +157,12 @@ describe('fbHonorTier / fbHonorsBonus', () => {
       'Johnny Unitas Golden Arm Award (2021)',
       // Florida carries the O'Brien three times (Wuerffel ×2, Tebow).
       "Davey O'Brien Award (1996)",
+      // Every trophy the honors pipelines can EMIT must score, not just the
+      // ones a dataset happens to carry today — the guard test only sees
+      // shipped strings, so an unlisted award would score 0 in silence the
+      // first time a school won it. (VT's derivation pulls the Hendricks
+      // page; no VT winner yet, but the tier must be ready.)
+      'Ted Hendricks Award (2024)',
     ]) {
       expect(fbHonorTier(h), h).toBeGreaterThan(0)
       expect(fbHonorTier(h), h).toBeLessThan(fbHonorTier('Heisman Trophy'))
