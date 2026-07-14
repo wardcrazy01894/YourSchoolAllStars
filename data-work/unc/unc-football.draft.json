@@ -14523,6 +14523,26 @@
    ]
   },
   {
+   "id": "melkart-abou-jaoude",
+   "name": "Melkart Abou Jaoude",
+   "position": "DE",
+   "firstYear": 2025,
+   "lastYear": 2025,
+   "seasons": [
+    {
+     "year": 2025,
+     "stats": {
+      "tackles": 47,
+      "tfl": 12,
+      "sacks": 10.5,
+      "ff": 1
+     },
+     "honors": [],
+     "source": "https://goheels.com/sports/football/stats/2025"
+    }
+   ]
+  },
+  {
    "id": "mikai-gbayor",
    "name": "Mikai Gbayor",
    "position": "LB",
@@ -14595,6 +14615,25 @@
       "tackles": 20,
       "tfl": 2,
       "pbu": 6
+     },
+     "honors": [],
+     "source": "https://goheels.com/sports/football/stats/2025"
+    }
+   ]
+  },
+  {
+   "id": "xavier-lewis",
+   "name": "Xavier Lewis",
+   "position": "DT",
+   "firstYear": 2025,
+   "lastYear": 2025,
+   "seasons": [
+    {
+     "year": 2025,
+     "stats": {
+      "tackles": 8,
+      "tfl": 0.5,
+      "sacks": 0.5
      },
      "honors": [],
      "source": "https://goheels.com/sports/football/stats/2025"

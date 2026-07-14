@@ -155,7 +155,14 @@ for (const year of [...CUME_YEARS].sort()) {
   // the research worklist. SR has FULL defense for every Sidearm year, so a
   // defensive key survives only if SR corroborates it for that player-season.
   const DEF_KEYS = ['tackles', 'tfl', 'sacks', 'defInt', 'pbu', 'ff']
-  const srDef = new Map() // `${key}:${year}` → Set(stat keys SR credits)
+  // The two sources punctuate names differently — Sidearm's "Melkart Abou
+  // Jaoude" is SR's "Melkart Abou-Jaoude". Matching on the normal key alone
+  // finds no SR row, "no corroboration" then deletes the player's REAL line
+  // (his 47 tackles and 10.5 sacks), and a second-team All-ACC lineman
+  // disappears from the game entirely. Compare on a loose key that ignores all
+  // punctuation and spacing.
+  const loose = (s) => norm(s).replace(/[^a-z0-9]/g, '')
+  const srDef = new Map() // `${looseKey}:${year}` → Set(stat keys SR credits)
   for (let y = 2016; y <= 2025; y++) {
     const f = join(HERE, 'sr', `${y}.json`)
     if (!existsSync(f)) continue
@@ -170,13 +177,13 @@ for (const year of [...CUME_YEARS].sort()) {
       if (r.stats.def_int) has.add('defInt')
       if (r.stats.pass_defended) has.add('pbu')
       if (r.stats.fumbles_forced) has.add('ff')
-      srDef.set(`${norm(r.name)}:${y}`, has)
+      srDef.set(`${loose(r.name)}:${y}`, has)
     }
   }
   let stripped = 0
   for (const p of all) {
     for (const s of p.seasons) {
-      const has = srDef.get(`${norm(p.name)}:${s.year}`) ?? new Set()
+      const has = srDef.get(`${loose(p.name)}:${s.year}`) ?? new Set()
       for (const k of DEF_KEYS) {
         if (s.stats[k] !== undefined && !has.has(k)) {
           delete s.stats[k]

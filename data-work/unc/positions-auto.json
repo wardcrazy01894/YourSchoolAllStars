@@ -1000,6 +1000,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Darrius Massenburg",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.tarheelblog.com/2007/24470194/unc-depth-chart"
+ },
+ {
   "name": "Deunta Williams",
   "position": "S",
   "basis": "wmt-fine"
@@ -2720,6 +2726,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Melkart Abou Jaoude",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/article162927.aspx"
+ },
+ {
   "name": "Mikai Gbayor",
   "position": "LB",
   "basis": "wmt-fine"
@@ -2763,5 +2775,11 @@
   "name": "Timir Hickman-Collins",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Xavier Lewis",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.ourlads.com/ncaa-football-depth-charts/depth-chart/north-carolina/91395"
  }
 ]

@@ -1222,7 +1222,12 @@
   {
    "name": "Melkart Abou Jaoude",
    "year": 2025,
-   "stats": {}
+   "stats": {
+    "tackles": 47,
+    "tfl": 12,
+    "sacks": 10.5,
+    "ff": 1
+   }
   },
   {
    "name": "Reggie Love II",
@@ -2300,6 +2305,16 @@
    "srDefVotes": {
     "LB": 2
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Melkart Abou Jaoude",
+   "span": "2025-2025",
+   "composite": 45.8,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -3680,16 +3695,6 @@
    "composite": 0,
    "wmtVotes": {
     "DB": 1
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
-   "name": "Melkart Abou Jaoude",
-   "span": "2025-2025",
-   "composite": 0,
-   "wmtVotes": {
-    "DL": 1
    },
    "srDefVotes": {},
    "srOffVotes": {}

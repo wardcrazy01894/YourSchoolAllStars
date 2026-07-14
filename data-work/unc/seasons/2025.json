@@ -374,7 +374,12 @@
   {
    "name": "Melkart Abou Jaoude",
    "position": "Defensive Line",
-   "stats": {},
+   "stats": {
+    "tackles": 47,
+    "tfl": 12,
+    "sacks": 10.5,
+    "ff": 1
+   },
    "source": "https://goheels.com/sports/football/stats/2025"
   },
   {

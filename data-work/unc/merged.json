@@ -21287,7 +21287,12 @@
    "seasons": [
     {
      "year": 2025,
-     "stats": {},
+     "stats": {
+      "tackles": 47,
+      "tfl": 12,
+      "sacks": 10.5,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2025",
      "from": "sidearm"
     }

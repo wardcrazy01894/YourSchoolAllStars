@@ -346,5 +346,23 @@
   "confidence": "medium",
   "source": "https://www.tarheeltimes.com/recruitprofile90.aspx",
   "note": "Cooter Arnold; multi-position (tailback/DB/WR), rush-heavy line, shared TB role"
+ },
+ "Melkart Abou Jaoude": {
+  "position": "DE",
+  "source": "https://www.tarheeltimes.com/article162927.aspx",
+  "confidence": "high",
+  "note": "Tar Heel Times: \"Defensive End Melkart Abou Jaoude\"; ACC sack leader, edge usage"
+ },
+ "Darrius Massenburg": {
+  "position": "DE",
+  "source": "https://www.tarheelblog.com/2007/24470194/unc-depth-chart",
+  "confidence": "high",
+  "note": "2007 UNC depth chart lists him at Left End"
+ },
+ "Xavier Lewis": {
+  "position": "DT",
+  "source": "https://www.ourlads.com/ncaa-football-depth-charts/depth-chart/north-carolina/91395",
+  "confidence": "high",
+  "note": "Depth chart lists him at nose tackle"
  }
 }
