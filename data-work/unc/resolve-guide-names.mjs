@@ -179,6 +179,7 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
   const neighbours = [...rosterFor(season + 1), ...rosterFor(season - 1)]
   const resolved = []
   const unresolved = []
+  const mismatches = []
 
   for (const p of d.players) {
     const g = parseGuideName(p.rawName)
@@ -189,33 +190,63 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
       const toks = r.name.split(/\s+/).filter(Boolean)
       return norm(toks[toks.length - 1])
     }
+    const firstOf = (r) => norm(r.name.split(/\s+/)[0] ?? '')
+
+    // THE GUIDE'S OWN FIRST NAME IS EVIDENCE, AND IT VETOES.
+    //
+    // A candidate must survive this check even when it is the ONLY candidate. That
+    // was the bug: the narrowing filters below ran only when `cands.length > 1`, so
+    // a lone candidate was accepted without ever being compared to the name the
+    // guide actually printed. Combined with a surname fuzzy-match that allowed two
+    // edits — enough to turn Perry into Curry, Terry into Curry, Thornton into
+    // Horton — the 1999 table handed Ronald Curry, the starting QUARTERBACK, three
+    // tackles, four TFL and a sack, and erased Merceda Perry's, David Thornton's and
+    // Jeb Terry's seasons. Every check in the pipeline passed: the numbers were read
+    // correctly off the page and then attached to the wrong men.
+    //
+    // A candidate is only admissible if nothing the guide printed contradicts it.
+    const admissible = (r) => {
+      if (g.firstName) {
+        const f = firstOf(r)
+        const want = norm(g.firstName)
+        // Accept a prefix either way ("Ben" for "Benjamin", and OCR truncation).
+        if (!(f.startsWith(want) || want.startsWith(f))) return false
+      }
+      if (g.initial && firstOf(r)[0] !== g.initial) return false
+      return true
+    }
+    // OCR letter-noise in a surname is worth ONE edit, not two. It was introduced
+    // for "Hobgood-Chiftick" → "Hobgood-Chittick", which is a single substitution;
+    // at two edits it starts matching genuinely different people (perry/curry,
+    // terry/curry and thornton/horton are all exactly two apart). Short surnames get
+    // no fuzz at all — at five letters, two names two edits apart are simply two
+    // different names.
+    const fuzz = (pool) => {
+      if (sn.length < 7) return []
+      const near = pool.filter((r) => edit(lastOf(r), sn) <= 1)
+      return near.length === 1 ? near : []
+    }
+
     // 1. Whole name, ignoring spacing — this catches the guides' split surnames
     //    ("Jomo Leg ins" is Jomo Legins).
     const fullKey = norm(g.full)
     let cands = roster.filter((r) => norm(r.name) === fullKey)
     // 2. Otherwise match on the surname.
     if (!cands.length) cands = roster.filter((r) => lastOf(r) === sn)
-    // 3. Otherwise allow OCR letter-noise in the surname, but ONLY if exactly one
-    //    roster player is close enough ("Hobgood-Chiftick" → "Hobgood-Chittick").
-    if (!cands.length) {
-      const near = roster.filter((r) => edit(lastOf(r), sn) <= 2)
-      if (near.length === 1) cands = near
-    }
+    // 3. Otherwise allow OCR letter-noise in the surname (see `fuzz`).
+    if (!cands.length) cands = fuzz(roster)
     // 4. Fall back to the ADJACENT seasons' rosters. A scan can lose a name (the
     //    1994 roster page is set with leader dots and OCR mangles part of it), but a
     //    player who recorded tackles in season Y is on the roster in Y±1 unless he
     //    was a senior (then Y-1 has him) or a true freshman (Y+1 does). This is how
     //    Brian Simmons and James Hamilton — both real, both in the 1994 table — get
-    //    their names back. The match still has to be unique and position-consistent
-    //    below, so this widens the search without loosening the standard.
+    //    their names back.
     if (!cands.length) {
-      const near = [...neighbours]
-      cands = near.filter((r) => lastOf(r) === sn)
-      if (!cands.length) {
-        const fuzzy = near.filter((r) => edit(lastOf(r), sn) <= 2)
-        if (fuzzy.length === 1) cands = fuzzy
-      }
+      cands = neighbours.filter((r) => lastOf(r) === sn)
+      if (!cands.length) cands = fuzz(neighbours)
     }
+    // Whatever the step, the guide's printed name has the final say.
+    cands = cands.filter(admissible)
     // 5. Last resort — the guide's own PROSE. A senior who was neither captured by
     //    the roster scan nor present the following year is otherwise lost: Jimmy
     //    Hitchcock, the 1994 starting cornerback, appears nowhere on the parsed
@@ -242,13 +273,7 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
       if (top && top[1] >= 3 && (!second || top[1] >= 3 * second[1]))
         cands = [{ name: `${top[0]} ${g.surname}`, position: null }]
     }
-    // Narrow by the initial / first name the guide gives, then by position family.
-    if (cands.length > 1 && g.initial)
-      cands = cands.filter(
-        (r) => norm(r.name)[0] === g.initial || r.name[0].toLowerCase() === g.initial,
-      )
-    if (cands.length > 1 && g.firstName)
-      cands = cands.filter((r) => norm(r.name).startsWith(norm(g.firstName)))
+    // Still ambiguous? Let the defensive table's own position code break the tie.
     if (cands.length > 1 && g.code && FAMILY[g.code]) {
       const fam = FAMILY[g.code]
       const narrowed = cands.filter((r) =>
@@ -257,16 +282,16 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
       if (narrowed.length) cands = narrowed
     }
 
-    // A name the guide already prints IN FULL ("Julius Peppers") needs no roster at
-    // all — it is already a player. Requiring a roster hit for these dropped real
-    // players purely because a roster was incomplete (goheels' 1999 has no Peppers).
-    // The roster is still consulted, but only for the position.
+    // A name the guide already prints IN FULL ("Julius Peppers", "Merceda Perry") is
+    // already a player and needs no roster at all — the roster is consulted only for
+    // the position. Demanding a roster hit here is what let a bad fuzzy match win:
+    // the rosters have holes (goheels' 1999 has no Peppers, and no Perry), and a
+    // missing man must fall back to his own printed name, never to somebody else's.
     if (g.firstName && cands.length !== 1) {
-      const r = cands.length === 1 ? cands[0] : null
       resolved.push({
         name: g.full.replace(/\s+/g, ' ').trim(),
-        position: r?.position ?? null,
-        rosterPosition: r?.position ?? null,
+        position: null,
+        rosterPosition: null,
         stats: {
           tackles: p.tackles,
           tfl: p.tfl,
@@ -281,6 +306,10 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
 
     if (cands.length === 1) {
       const r = cands[0]
+      // The join must agree with what the page says. `admissible` already enforces
+      // this, so a hit here means a path bypassed it — record it and fail the run.
+      if (!admissible(r))
+        mismatches.push({ printed: p.rawName, resolved: r.name })
       resolved.push({
         name: r.name,
         position: bestPosition(g.code, r.position),
@@ -313,7 +342,28 @@ for (const f of readdirSync(join(HERE, 'guide')).sort()) {
       1,
     ),
   )
-  report.push({ season, kept: resolved.length, unresolved })
+  report.push({ season, kept: resolved.length, unresolved, mismatches })
+}
+
+// SELF-CHECK — the guard for the failure that actually happened.
+// A resolved player's name must not CONTRADICT what the guide printed. Every check
+// in this pipeline verified that the numbers were read off the page correctly; none
+// of them verified that they were then attached to the right man, and so a
+// quarterback shipped with a sack. This asserts the join itself, and it fails the
+// run rather than writing a file.
+let violations = 0
+for (const r of report) {
+  for (const v of r.mismatches) {
+    console.error(`  ✗ ${r.season}: guide printed "${v.printed}" → resolved to "${v.resolved}"`)
+    violations++
+  }
+}
+if (violations) {
+  console.error(
+    `\nFATAL: ${violations} resolved name(s) contradict the printed name. ` +
+      `A stat attached to the wrong player is worse than no stat at all.`,
+  )
+  process.exit(1)
 }
 
 for (const r of report) {

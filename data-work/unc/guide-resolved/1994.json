@@ -277,7 +277,7 @@
    "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
-   "name": "Fuzzy Lee",
+   "name": "Reggie Love",
    "position": "CB",
    "rosterPosition": "CB",
    "stats": {
@@ -290,9 +290,9 @@
    "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
-   "name": "Clay Eddie",
-   "position": "FS",
-   "rosterPosition": "FS",
+   "name": "Kevin Addis",
+   "position": "DB",
+   "rosterPosition": "OLB",
    "stats": {
     "tackles": 8,
     "tfl": 0,
@@ -368,9 +368,9 @@
    "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
-   "name": "ScottC aparell",
+   "name": "Scott Caparelli",
    "position": "KS",
-   "rosterPosition": "PK",
+   "rosterPosition": null,
    "stats": {
     "tackles": 2,
     "tfl": 0,

@@ -111,6 +111,11 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Kevin Addis",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Kivuusama Mays",
   "position": "LB",
   "basis": "wmt-fine"
@@ -261,11 +266,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Kevin Addis",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
   "name": "L.C. Stevens",
   "position": "WR",
   "basis": "wmt-fine"
@@ -386,11 +386,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Antwon Black",
-  "position": "S",
-  "basis": "wmt-fine"
- },
- {
   "name": "Damon Dawson",
   "position": "DE",
   "basis": "wmt-fine"
@@ -466,6 +461,11 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Antwon Black",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Billy-Dee Greenwood",
   "position": "S",
   "basis": "wmt-fine"
@@ -528,7 +528,7 @@
  {
   "name": "Ronald Curry",
   "position": "QB",
-  "basis": "sr-off"
+  "basis": "wmt-fine"
  },
  {
   "name": "Rufus Brown",
@@ -571,6 +571,11 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "David Thornton",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "DeFonte Coleman",
   "position": "S",
   "basis": "wmt-fine"
@@ -583,6 +588,11 @@
  {
   "name": "Jason Horton",
   "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jeb Terry",
+  "position": "DT",
   "basis": "wmt-fine"
  },
  {
@@ -616,6 +626,11 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Robert Harris",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Sam Aiken",
   "position": "WR",
   "basis": "wmt-fine"
@@ -643,11 +658,6 @@
  {
   "name": "David Scott",
   "position": "CB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "David Thornton",
-  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -713,11 +723,6 @@
  {
   "name": "Richard Moore",
   "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Robert Harris",
-  "position": "LB",
   "basis": "wmt-fine"
  },
  {

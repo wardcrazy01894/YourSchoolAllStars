@@ -10,12 +10,9 @@
     "passTD": 3,
     "passInt": 10,
     "rushYds": 226,
-    "rushTD": 2,
-    "tackles": 3,
-    "tfl": 4,
-    "sacks": 1
+    "rushTD": 2
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
   },
   {
    "name": "Domonique Williams",
@@ -112,7 +109,7 @@
     "recYds": 184,
     "tackles": 2
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Alge Crumpler",
@@ -245,9 +242,9 @@
    "position": "Cornerback",
    "stats": {
     "defInt": 1,
-    "tackles": 6
+    "tackles": 24
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Julius Peppers",
@@ -283,6 +280,16 @@
     "pbu": 2
    },
    "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Merceda Perry",
+   "position": null,
+   "stats": {
+    "tackles": 83,
+    "tfl": 4,
+    "sacks": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Quinton Savage",
@@ -417,6 +424,22 @@
    "source": "https://archive.org/details/carolinafootball2000unse"
   },
   {
+   "name": "Robert Harris",
+   "position": null,
+   "stats": {
+    "tackles": 7
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "David Thornton",
+   "position": null,
+   "stats": {
+    "tackles": 6
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
    "name": "Willie Quick",
    "position": null,
    "stats": {
@@ -436,6 +459,14 @@
   {
    "name": "Eric Davis",
    "position": "Defensive End",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Jeb Terry",
+   "position": "Defensive Tackle",
    "stats": {
     "tackles": 3
    },

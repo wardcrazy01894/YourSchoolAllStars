@@ -180,11 +180,11 @@
    "position": "CB",
    "stats": {
     "defInt": 1,
-    "tackles": 8,
+    "tackles": 63,
     "tfl": 4,
     "pbu": 2
    },
-   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse + https://archive.org/details/carolinafootball1995unse"
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
   },
   {
    "name": "James Hamilton",
@@ -233,11 +233,12 @@
   },
   {
    "name": "Reggie Love",
-   "position": "DB",
+   "position": "CB",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 8
    },
-   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
   },
   {
    "name": "Sean Boyd",
@@ -396,12 +397,12 @@
    "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
-   "name": "Clay Eddie",
-   "position": "FS",
+   "name": "Kevin Addis",
+   "position": "DB",
    "stats": {
-    "tackles": 5
+    "tackles": 8
    },
-   "source": "https://archive.org/details/carolinafootball1995unse + https://archive.org/details/carolinafootball1995unse"
+   "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
    "name": "John Bradley",
@@ -431,6 +432,14 @@
    "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
+   "name": "Clay Eddie",
+   "position": "FS",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
    "name": "Beau Parry",
    "position": "OLB",
    "stats": {
@@ -440,7 +449,7 @@
    "source": "https://archive.org/details/carolinafootball1995unse"
   },
   {
-   "name": "ScottC aparell",
+   "name": "Scott Caparelli",
    "position": "KS",
    "stats": {
     "tackles": 2
