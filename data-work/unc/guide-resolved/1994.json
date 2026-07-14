@@ -1,0 +1,423 @@
+{
+ "season": 1994,
+ "source": "https://archive.org/details/carolinafootball1995unse",
+ "sourceNote": "1995 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1994 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1995unse.",
+ "players": [
+  {
+   "name": "Mike Morton",
+   "position": "WLB",
+   "rosterPosition": "WLB",
+   "stats": {
+    "tackles": 126,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 2,
+    "pbu": 7
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Eddie Mason",
+   "position": "SLB",
+   "rosterPosition": "SLB",
+   "stats": {
+    "tackles": 76,
+    "tfl": 4,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Kerry Mock",
+   "position": "SLB",
+   "rosterPosition": "SLB",
+   "stats": {
+    "tackles": 75,
+    "tfl": 4.5,
+    "sacks": 1.5,
+    "defInt": 0,
+    "pbu": 7
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Fuzzy Lee",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 63,
+    "tfl": 4,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Marcus Jones",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 62,
+    "tfl": 12.5,
+    "sacks": 7.5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "James Hamilton",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 59,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Sean Boyd",
+   "position": "SS",
+   "rosterPosition": "SS",
+   "stats": {
+    "tackles": 57,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 2,
+    "pbu": 10
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Eric Thomas",
+   "position": "FS",
+   "rosterPosition": "FS",
+   "stats": {
+    "tackles": 48,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Riddick Parker",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 41,
+    "tfl": 4,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Oscar Sturgis",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 39,
+    "tfl": 9,
+    "sacks": 2,
+    "defInt": 1,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Greg Black",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 37,
+    "tfl": 4,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 31,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Jimmy Hitchcock",
+   "position": "DB",
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 27,
+    "tfl": 4,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 6
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 26,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 24,
+    "tfl": 5,
+    "sacks": 4,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Brian Simmons",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 23,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Rick Terry",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 19,
+    "tfl": 2,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Kivuusama Mays",
+   "position": "WLB",
+   "rosterPosition": "WLB",
+   "stats": {
+    "tackles": 16,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Wendell Camp",
+   "position": "SS",
+   "rosterPosition": "SS",
+   "stats": {
+    "tackles": 13,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "DT",
+   "rosterPosition": "LB",
+   "stats": {
+    "tackles": 12,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Ronald Thomas",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 11,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Fuzzy Lee",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 8,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Clay Eddie",
+   "position": "FS",
+   "rosterPosition": "FS",
+   "stats": {
+    "tackles": 8,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "John Bradley",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 7,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Doug Leonard",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 5,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Andre Purvis",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 5,
+    "tfl": 3,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Clay Eddie",
+   "position": "FS",
+   "rosterPosition": "FS",
+   "stats": {
+    "tackles": 5,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Beau Parry",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 3,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "ScottC aparell",
+   "position": "KS",
+   "rosterPosition": "PK",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Ryan Marsh",
+   "position": "SLB",
+   "rosterPosition": "SLB",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Jamez Griffin",
+   "position": "SS",
+   "rosterPosition": "SS",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Nate Hobgood-Chittick",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 0,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  }
+ ]
+}

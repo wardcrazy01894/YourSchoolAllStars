@@ -1,7 +1,27 @@
 [
  {
+  "name": "Andre Purvis",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Beau Parry",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brian Simmons",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Chris Watson",
   "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Clay Eddie",
+  "position": "S",
   "basis": "wmt-fine"
  },
  {
@@ -15,6 +35,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Doug Leonard",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Eddie Mason",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Eric Thomas",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Freddie Jones",
   "position": "TE",
   "basis": "wmt-fine"
@@ -22,12 +57,21 @@
  {
   "name": "Fuzzy Lee",
   "position": "CB",
-  "basis": "override",
-  "source": "https://www.tarheeltimes.com/bio792.aspx"
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Black",
+  "position": "DT",
+  "basis": "wmt-fine"
  },
  {
   "name": "Greg DeLong",
   "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Greg Ellis",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -36,13 +80,39 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jamez Griffin",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Jason Stanicek",
   "position": "QB",
   "basis": "wmt-fine"
  },
  {
+  "name": "Jimmy Hitchcock",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://archive.org/details/carolinafootball1995unse"
+ },
+ {
+  "name": "John Bradley",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Jonathan Linton",
   "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kerry Mock",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kivuusama Mays",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -53,6 +123,11 @@
  {
   "name": "Malcolm Marshall",
   "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marcus Jones",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -91,21 +166,44 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Oscar Sturgis",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Reggie Love",
   "position": "CB",
   "basis": "wmt-fine"
  },
  {
-  "name": "Sean Boyd",
+  "name": "Rick Terry",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Riddick Parker",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ronald Thomas",
   "position": "CB",
-  "basis": "override",
-  "source": "https://www.gettyimages.com/detail/news-photo/cornerback-sean-boyd-of-the-north-carolina-tarheels-news-photo/298332"
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ryan Marsh",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sean Boyd",
+  "position": "S",
+  "basis": "wmt-fine"
  },
  {
   "name": "Terry Billups",
   "position": "CB",
-  "basis": "override",
-  "source": "https://en.wikipedia.org/wiki/Terry_Billups"
+  "basis": "wmt-fine"
  },
  {
   "name": "Tucker Perry",
@@ -113,13 +211,18 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "William Henderson",
-  "position": "RB",
+  "name": "Vonnie Holliday",
+  "position": "DT",
   "basis": "wmt-fine"
  },
  {
-  "name": "Brian Simmons",
-  "position": "LB",
+  "name": "Wendell Camp",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "William Henderson",
+  "position": "RB",
   "basis": "wmt-fine"
  },
  {
@@ -143,6 +246,26 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jamie Carrick",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jomo Legins",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Keith Newman",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Kevin Addis",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "L.C. Stevens",
   "position": "WR",
   "basis": "wmt-fine"
@@ -153,8 +276,13 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Marcus Jones",
+  "name": "Marcus Dow",
   "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mark Dunn",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -163,8 +291,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Mike Pringley",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Na Brown",
   "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nate Hobgood-Chittick",
+  "position": "DT",
   "basis": "wmt-fine"
  },
  {
@@ -173,8 +311,33 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Robert Williams",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Russell Davis",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Shane Pierson",
   "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Shawn Lyons",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Steve Fisher",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Teto Simpson",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -189,7 +352,12 @@
  },
  {
   "name": "Allen Mogridge",
-  "position": "RB",
+  "position": "TE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Brandon Spoon",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -200,16 +368,11 @@
  {
   "name": "Deon Dyer",
   "position": "RB",
-  "basis": "wmt-fine"
+  "basis": "sr-off"
  },
  {
   "name": "Dre' Bly",
   "position": "CB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Greg Ellis",
-  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -223,23 +386,13 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Jomo Legins",
+  "name": "Antwon Black",
   "position": "S",
   "basis": "wmt-fine"
  },
  {
-  "name": "Robert Williams",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Russell Davis",
-  "position": "DT",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Shawn Lyons",
-  "position": "LB",
+  "name": "Damon Dawson",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -258,7 +411,22 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Kivuusama Mays",
+  "name": "Merceda Perry",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Quinton Savage",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ricco McCain",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Ricky Smith",
   "position": "LB",
   "basis": "wmt-fine"
  },
@@ -268,8 +436,28 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Steve Fisher",
+  "name": "Ross McAllister",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sedrick Hodge",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Stephon McQueen",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Anderson",
   "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Perkins",
+  "position": "DT",
   "basis": "wmt-fine"
  },
  {
@@ -278,13 +466,13 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Bosley Allen",
-  "position": "WR",
+  "name": "Billy-Dee Greenwood",
+  "position": "S",
   "basis": "wmt-fine"
  },
  {
-  "name": "Brandon Spoon",
-  "position": "LB",
+  "name": "Bosley Allen",
+  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -303,8 +491,23 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Keith Newman",
-  "position": "LB",
+  "name": "David Bomar",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Doug Brown",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Errol Hood",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Joey Evans",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -325,7 +528,7 @@
  {
   "name": "Ronald Curry",
   "position": "QB",
-  "basis": "wmt-fine"
+  "basis": "sr-off"
  },
  {
   "name": "Rufus Brown",
@@ -338,23 +541,23 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Sedrick Hodge",
+  "name": "Shawn Woodard",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Sherrod Peace",
+  "position": "DT",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Tim Burgess",
   "position": "LB",
   "basis": "wmt-fine"
  },
  {
   "name": "Tyrell Godwin",
   "position": "CB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Antwon Black",
-  "position": "S",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Billy-Dee Greenwood",
-  "position": "S",
   "basis": "wmt-fine"
  },
  {
@@ -368,18 +571,13 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "David Bomar",
-  "position": "S",
-  "basis": "wmt-fine"
- },
- {
   "name": "DeFonte Coleman",
   "position": "S",
   "basis": "wmt-fine"
  },
  {
-  "name": "Errol Hood",
-  "position": "CB",
+  "name": "Eric Davis",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -393,8 +591,28 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Kevin Knight",
+  "position": "CB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Luke Huard",
   "position": "QB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Malcolm Stewart",
+  "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Marcus Jones",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Nathan Sutton",
+  "position": "S",
   "basis": "wmt-fine"
  },
  {
@@ -403,23 +621,8 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Tim Burgess",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
   "name": "Andre' Williams",
   "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Anthony Anderson",
-  "position": "CB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Anthony Perkins",
-  "position": "DT",
   "basis": "wmt-fine"
  },
  {
@@ -468,11 +671,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Eric Davis",
-  "position": "DT",
-  "basis": "wmt-fine"
- },
- {
   "name": "Ian Alexander",
   "position": "LB",
   "basis": "wmt-fine"
@@ -498,28 +696,8 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Joey Evans",
-  "position": "DE",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Kevin Knight",
-  "position": "CB",
-  "basis": "wmt-fine"
- },
- {
   "name": "Kitwana Jones",
   "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Malcolm Stewart",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Merceda Perry",
-  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -533,11 +711,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Nathan Sutton",
-  "position": "S",
-  "basis": "wmt-fine"
- },
- {
   "name": "Richard Moore",
   "position": "RB",
   "basis": "wmt-fine"
@@ -545,16 +718,6 @@
  {
   "name": "Robert Harris",
   "position": "LB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Ross McAllister",
-  "position": "DE",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Stephon McQueen",
-  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -610,11 +773,6 @@
  {
   "name": "David McIntosh",
   "position": "S",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Doug Brown",
-  "position": "TE",
   "basis": "wmt-fine"
  },
  {

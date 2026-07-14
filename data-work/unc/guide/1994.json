@@ -1,0 +1,363 @@
+{
+ "season": 1994,
+ "guideYear": 1995,
+ "page": 100,
+ "ocr": "archive",
+ "srCheck": {
+  "agree": 8,
+  "disagree": 0
+ },
+ "fmtViolations": 4,
+ "source": "https://archive.org/details/carolinafootball1995unse",
+ "sourceNote": "1995 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1994 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1995unse.",
+ "read": {
+  "rotated": false,
+  "mode": "anchor",
+  "slope": 0.006,
+  "anchor": "center"
+ },
+ "columns": [
+  "T",
+  "A",
+  "HIT",
+  "_FC",
+  "_FR",
+  "DP_PBU",
+  "_PRES",
+  "TFL",
+  "SACKS",
+  "INT"
+ ],
+ "players": [
+  {
+   "rawName": "Morton, lb",
+   "T": 76,
+   "A": 50,
+   "tackles": 126,
+   "tfl": 2,
+   "sacks": 0,
+   "defInt": 2,
+   "pbu": 7
+  },
+  {
+   "rawName": "Mason, lb",
+   "T": 51,
+   "A": 25,
+   "tackles": 76,
+   "tfl": 4,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 8
+  },
+  {
+   "rawName": "Mock, lb",
+   "T": 51,
+   "A": 24,
+   "tackles": 75,
+   "tfl": 4.5,
+   "sacks": 1.5,
+   "defInt": 0,
+   "pbu": 7
+  },
+  {
+   "rawName": "Lee, db",
+   "T": 44,
+   "A": 19,
+   "tackles": 63,
+   "tfl": 4,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 2
+  },
+  {
+   "rawName": "M Jones, de",
+   "T": 39,
+   "A": 23,
+   "tackles": 62,
+   "tfl": 12.5,
+   "sacks": 7.5,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Hamilton, lb",
+   "T": 36,
+   "A": 23,
+   "tackles": 59,
+   "tfl": 3,
+   "sacks": 1,
+   "defInt": 1,
+   "pbu": 0
+  },
+  {
+   "rawName": "Boyd, db",
+   "T": 43,
+   "A": 14,
+   "tackles": 57,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 2,
+   "pbu": 10
+  },
+  {
+   "rawName": "E Thomas, db",
+   "T": 33,
+   "A": 15,
+   "tackles": 48,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 8
+  },
+  {
+   "rawName": "Parker, dt",
+   "T": 29,
+   "A": 12,
+   "tackles": 41,
+   "tfl": 4,
+   "sacks": 2,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Sturgis, de",
+   "T": 27,
+   "A": 12,
+   "tackles": 39,
+   "tfl": 9,
+   "sacks": 2,
+   "defInt": 1,
+   "pbu": 1
+  },
+  {
+   "rawName": "Black, dt",
+   "T": 21,
+   "A": 16,
+   "tackles": 37,
+   "tfl": 4,
+   "sacks": 1,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Brown, db",
+   "T": 22,
+   "A": 9,
+   "tackles": 31,
+   "tfl": 2,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 2
+  },
+  {
+   "rawName": "Hitchcock, db",
+   "T": 18,
+   "A": 9,
+   "tackles": 27,
+   "tfl": 4,
+   "sacks": 1,
+   "defInt": 0,
+   "pbu": 6
+  },
+  {
+   "rawName": "Billups, db",
+   "T": 21,
+   "A": 5,
+   "tackles": 26,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 2
+  },
+  {
+   "rawName": "Ellis, de",
+   "T": 13,
+   "A": 11,
+   "tackles": 24,
+   "tfl": 5,
+   "sacks": 4,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Simmons, lb",
+   "T": 14,
+   "A": 9,
+   "tackles": 23,
+   "tfl": 3,
+   "sacks": 1,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Terry, dt",
+   "T": 12,
+   "A": 7,
+   "tackles": 19,
+   "tfl": 2,
+   "sacks": 2,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Mays, lb",
+   "T": 10,
+   "A": 6,
+   "tackles": 16,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Camp, db",
+   "T": 7,
+   "A": 6,
+   "tackles": 13,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Holliday, dt",
+   "T": 5,
+   "A": 7,
+   "tackles": 12,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "R Thomas, db",
+   "T": 4,
+   "A": 7,
+   "tackles": 11,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Love, db",
+   "T": 5,
+   "A": 3,
+   "tackles": 8,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 0
+  },
+  {
+   "rawName": "Addis, db",
+   "T": 3,
+   "A": 5,
+   "tackles": 8,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Bradley, de",
+   "T": 3,
+   "A": 4,
+   "tackles": 7,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Leonard, de",
+   "T": 5,
+   "A": 0,
+   "tackles": 5,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Purvis, dt",
+   "T": 5,
+   "A": 0,
+   "tackles": 5,
+   "tfl": 3,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Eddie, db",
+   "T": 4,
+   "A": 1,
+   "tackles": 5,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Parry, lb",
+   "T": 1,
+   "A": 2,
+   "tackles": 3,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Caparelli, ks",
+   "T": 2,
+   "A": 0,
+   "tackles": 2,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Marsh, lb",
+   "T": 2,
+   "A": 0,
+   "tackles": 2,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Griffin, db",
+   "T": 0,
+   "A": 1,
+   "tackles": 1,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Hobgood-Chittick, dt",
+   "T": 0,
+   "A": 0,
+   "tackles": 0,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  }
+ ],
+ "teamTotals": {},
+ "checks": {},
+ "warnings": [
+  "caused; FR — fumbles: no printed tackle total — dropped",
+  "deflected behind: no printed tackle total — dropped",
+  "PBU —: no printed tackle total — dropped",
+  "PRES: no printed tackle total — dropped",
+  "downfield; —: no printed tackle total — dropped",
+  "hurried throw; TFL —: no printed tackle total — dropped"
+ ]
+}

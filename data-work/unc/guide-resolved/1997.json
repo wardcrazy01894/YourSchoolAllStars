@@ -1,0 +1,488 @@
+{
+ "season": 1997,
+ "source": "https://archive.org/details/carolinafootball1998unse",
+ "sourceNote": "1998 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1997 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1998unse.",
+ "players": [
+  {
+   "name": "Kivuusama Mays",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 123,
+    "tfl": 16.5,
+    "sacks": 3,
+    "defInt": 1,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Brian Simmons",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 119,
+    "tfl": 13,
+    "sacks": 3,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 97,
+    "tfl": 1.5,
+    "sacks": 0,
+    "defInt": 2,
+    "pbu": 9
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Greg Williams",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 83,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 2,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 87,
+    "tfl": 18,
+    "sacks": 9,
+    "defInt": 0,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 79,
+    "tfl": 5.5,
+    "sacks": 2.5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 65,
+    "tfl": 7.5,
+    "sacks": 3.5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 64,
+    "tfl": 13,
+    "sacks": 5,
+    "defInt": 0,
+    "pbu": 5
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Russell Davis",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 60,
+    "tfl": 9,
+    "sacks": 3,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Mike Pringley",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 45,
+    "tfl": 8.5,
+    "sacks": 3.5,
+    "defInt": 0,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 40,
+    "tfl": 9,
+    "sacks": 5,
+    "defInt": null,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Nate Hobgood-Chittick",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 36,
+    "tfl": 8.5,
+    "sacks": 2.5,
+    "defInt": null,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Dre' Bly",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 26,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Robert Williams",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 25,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 13
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 24,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Merceda Perry",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 18,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 15,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 15,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Quinton Savage",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 12,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 10,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 10,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Antwon Black",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 9,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Stephon McQueen",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 7,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Brian Schmitz",
+   "position": "Punter/Kicker",
+   "rosterPosition": "Punter/Kicker",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Shawn Lyons",
+   "position": "Running Back",
+   "rosterPosition": "Running Back",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ricky Smith",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ross McAllister",
+   "position": "Offensive Tackle",
+   "rosterPosition": "Offensive Tackle",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Toney Coles",
+   "position": "Deep Snapper",
+   "rosterPosition": "Deep Snapper",
+   "stats": {
+    "tackles": 3,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Bryan Jones",
+   "position": "Offensive Tackle",
+   "rosterPosition": "Offensive Tackle",
+   "stats": {
+    "tackles": 3,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Darien Johnson",
+   "position": "Wide Receiver",
+   "rosterPosition": "Wide Receiver",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Damon Dawson",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Allen Mogridge",
+   "position": "Tight End",
+   "rosterPosition": "Tight End",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Alge Crumpler",
+   "position": "Tight End",
+   "rosterPosition": "Tight End",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Mark Dunn",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 12,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Oscar Davenport",
+   "position": "Quarterback",
+   "rosterPosition": "Quarterback",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Domonique Williams",
+   "position": "Athlete",
+   "rosterPosition": "Athlete",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ricco McCain",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  }
+ ]
+}

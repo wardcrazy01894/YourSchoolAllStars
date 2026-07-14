@@ -4,15 +4,21 @@
 // Output: data-work/unc/seasons/<year>.json — [{ name, position, stats, source }]
 //
 // SOURCE MAP (why each year comes from where — see PROGRESS.md):
-//   1994–1999  SR   offense complete; defense is INT-ONLY (SR publishes no
-//                   tackle table before 2005, and no other source publishes
-//                   UNC's per-player defense before 2000 — see PROGRESS.md).
-//                   These seasons are INCLUDED (Alex's call) so every stat and
-//                   honor we DO have is in the dataset; the missing pre-2000
-//                   defense is tracked by a FAILING guard test (Hall's
-//                   condition on the 1994-97/1995-98/1996-99 windows), which is
-//                   the precise, testable definition of what still has to be
-//                   sourced before this can merge.
+//   1994–1999  SR (offense + interceptions)
+//              + OFFICIAL MEDIA GUIDE (the full defensive box: tackles, TFL,
+//                sacks, PBU). No database publishes UNC's per-player defense
+//                before 2000 — SR's tackle table starts in 2005, and the NCAA did
+//                not centrally compile individual defensive statistics until
+//                ~2000, so the numbers only ever existed in the school's own
+//                printed media guide. Those guides are digitized (Internet
+//                Archive, scanned by UNC Libraries) and each year's guide prints
+//                the PREVIOUS season's final defensive statistics. See
+//                fetch-guides.mjs → parse-guides.mjs → resolve-guide-names.mjs,
+//                and validate-guides.mjs, which proves the whole chain by running
+//                it over 2000 — a season we independently hold from the official
+//                cume — and matching all 54 stat values.
+//              Interceptions still come from SR: it is complete for these years,
+//              whereas the guides' INT column has OCR holes.
 //   2000–2004  official archived cumes — the ONLY source of per-player defense
 //                   before SR's tackle table starts (2005)
 //   2005–2015  SR   (full defense from 2005, and more complete than the cumes,
@@ -227,38 +233,76 @@ for (const year of [...CUME_YEARS].sort()) {
   }
 }
 
-// ── official record-book supplement (1994–1999 defensive line) ───────────────
-// UNC publishes no per-player defense before 2000, but its official RECORD BOOK
-// names individual player-SEASONS on the sack / TFL leaderboards. Those are the
-// only 1994-99 defensive-line seasons any source carries, and without them the
-// early windows have no DE or DT at all. Merged in with their citation.
+// ── media-guide defense (1994–1999) ──────────────────────────────────────────
+// The full defensive box score for the seasons no database covers. This REPLACES
+// the old record-book supplement, which could only scrape a handful of leaderboard
+// lines (a sack total here, a TFL total there) for the six stars who appear in the
+// all-time top tens — everyone else had no defense at all. The guides carry the
+// whole team, every player, with tackles / TFL / sacks / PBU.
+//
+// The supplement's numbers were not wrong, and that is worth stating: every one of
+// its ten hand-transcribed lines is reproduced exactly by the guides (Greg Ellis's
+// 12.5 sacks in 1996, Ebenezer Ekuban's 23 TFL in 1998, Brandon Spoon's 138
+// tackles). It was simply far too thin, so it is retired.
+//
+// Interceptions are NOT taken from here — SR is complete for these years and the
+// guides' INT column has OCR holes (the 1997 table lost the whole column for one
+// block of players, which would have cost Dre' Bly his interceptions). Everything
+// else comes from the guide.
 {
-  const sup = JSON.parse(
-    readFileSync(join(HERE, 'record-book-supplement.json')),
-  )
+  const GUIDE_YEARS = [1994, 1995, 1996, 1997, 1998, 1999]
+  const DEF_KEYS = ['tackles', 'tfl', 'sacks', 'pbu']
+  let merged = 0
   let added = 0
-  for (const s of sup.seasons) {
-    const f = join(OUT_DIR, `${s.year}.json`)
-    if (!existsSync(f)) continue
-    const d = JSON.parse(readFileSync(f))
-    const key = norm(s.name)
-    const existing = d.players.find((p) => norm(p.name) === key)
-    if (existing) {
-      existing.stats = { ...existing.stats, ...s.stats }
-      existing.position = existing.position ?? s.position
-      existing.source = s.source ?? sup._source
-    } else {
-      d.players.push({
-        name: s.name,
-        position: s.position,
-        stats: s.stats,
-        source: s.source ?? sup._source,
-      })
+  for (const year of GUIDE_YEARS) {
+    const gf = join(HERE, 'guide-resolved', `${year}.json`)
+    const sf = join(OUT_DIR, `${year}.json`)
+    if (!existsSync(gf) || !existsSync(sf)) {
+      report.push(`${year}: NO GUIDE DEFENSE`)
+      continue
     }
-    writeFileSync(f, JSON.stringify(d, null, 1))
-    added++
+    const g = JSON.parse(readFileSync(gf))
+    const d = JSON.parse(readFileSync(sf))
+    for (const p of g.players) {
+      const stats = {}
+      for (const k of DEF_KEYS)
+        if (typeof p.stats[k] === 'number' && p.stats[k] !== 0)
+          stats[k] = p.stats[k]
+      // A guide row with no interception and no defensive production at all is a
+      // player who dressed and did nothing measurable — nothing to record.
+      const existing = d.players.find((x) => norm(x.name) === norm(p.name))
+      if (existing) {
+        // SR's interception (already on the row) wins; the guide supplies the rest.
+        existing.stats = { ...existing.stats, ...stats }
+        // A defender's position from the DEFENSIVE table beats an offense-table
+        // guess — this is the Pitt lesson, and it is why Chazz Surratt's kind of
+        // mislabelling does not happen here. It also beats a COARSE one: SR only
+        // says "DL", while the guide's table says end or tackle, and leaving SR's
+        // vaguer label in place sent players to the research worklist who were
+        // already unambiguously identified by the source we just read.
+        const coarse = (x) => !x || /^(DL|DB|LB|OL)$/i.test(x)
+        if (p.position && coarse(existing.position))
+          existing.position = p.position
+        existing.source = `${existing.source} + ${p.source}`
+        merged++
+      } else {
+        if (!Object.keys(stats).length && !p.stats.defInt) continue
+        if (typeof p.stats.defInt === 'number' && p.stats.defInt !== 0)
+          stats.defInt = p.stats.defInt
+        d.players.push({
+          name: p.name,
+          position: p.position,
+          stats,
+          source: p.source,
+        })
+        added++
+      }
+    }
+    writeFileSync(sf, JSON.stringify(d, null, 1))
   }
-  report.push(`record book: merged ${added} supplemental 1994-99 DL seasons`)
+  report.push(
+    `media guides: ${merged} defenders merged onto existing rows, ${added} new defenders added (1994-99)`,
+  )
 }
 
 for (const r of report) console.log(r)

@@ -1,0 +1,254 @@
+{
+ "season": 2000,
+ "source": "https://archive.org/details/carolinafootball2001unse",
+ "sourceNote": "2001 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 2000 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball2001unse.",
+ "players": [
+  {
+   "name": "Brandon Spoon",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 131,
+    "tfl": 13,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 82,
+    "tfl": 16,
+    "sacks": 7,
+    "defInt": 0,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "DeFonte Coleman",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 78,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 76,
+    "tfl": 6,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Dexter Reid",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 69,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 6
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Julius Peppers",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 64,
+    "tfl": 24,
+    "sacks": 15,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Errol Hood",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 54,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 2,
+    "pbu": 12
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Ryan Sims",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 52,
+    "tfl": 9,
+    "sacks": 6,
+    "defInt": 0,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Anthony Perkins",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 46,
+    "tfl": 4,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "David Bomar",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 45,
+    "tfl": 4,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Michael Waddell",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 42,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 12
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Billy-Dee Greenwood",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 40,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Joey Evans",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 38,
+    "tfl": 11,
+    "sacks": 8,
+    "defInt": 0,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Ross McAllister",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 35,
+    "tfl": 9,
+    "sacks": 5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Will Chapman",
+   "position": "DE/DT",
+   "rosterPosition": "DE/DT",
+   "stats": {
+    "tackles": 31,
+    "tfl": 8,
+    "sacks": 2.5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Kevin Knight",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 25,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "David Thornton",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 16,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Robert Harris",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 16,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  },
+  {
+   "name": "Eric Davis",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 14,
+    "tfl": 3,
+    "sacks": 1.5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2001unse"
+  }
+ ]
+}

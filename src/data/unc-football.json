@@ -5,6 +5,101 @@
   "_note": "Real per-season data, 1997-2025. SOURCE MAP: 1997-1999 from Sports-Reference (offense complete; per-player DEFENSE does not exist before 2000 for UNC - SR has no tackle table before 2005 - so those seasons carry INT-only defensive lines, the same documented floor Michigan has pre-1997); 2000-2007 + 2009 from the Wayback-archived OFFICIAL Automated-ScoreBook season cumes on the old tarheelblue site (full offense AND defense; every parsed column validated against the printed Total row); 2008 + 2010-2015 from SR (the 2010/2011 official cumes survive only as mid-season captures and are deliberately unused; SR has full defense from 2005); 2016-2025 from the goheels.com Sidearm payload. The Sidearm payload mislinks defensive lines onto offensive players (it credited WR Dyami Brown with 2 sacks), so a defensive key from those years survives only if SR corroborates it - 451 uncorroborated keys were stripped. Names and POSITIONS for the pre-Sidearm era come from the goheels historical rosters (jersey + spelled-out position), joined by jersey (defense) or name (offense). Positions that no source pins down were settled by per-player cited research (data-work/unc/positions-override.json) or the player was dropped, never guessed. THE 1997 FLOOR IS FORCED: the era wheel needs every 4-year window to fill a 6-slot defensive roster, and 1994-97/1995-98/1996-99 contain no year with defensive stats at all. QB rushYds is the NCAA net. redshirtYears marks tenure years with no ratable season row.",
   "players": [
     {
+      "id": "andre-purvis",
+      "name": "Andre Purvis",
+      "position": "DT",
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 5,
+            "tfl": 3
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 10,
+            "tfl": 2,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 24,
+            "tfl": 4.5,
+            "sacks": 2.5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        }
+      ]
+    },
+    {
+      "id": "brian-simmons",
+      "name": "Brian Simmons",
+      "position": "LB",
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 23,
+            "tfl": 3,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "defInt": 2,
+            "tackles": 113,
+            "tfl": 11,
+            "sacks": 5,
+            "pbu": 8
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html + https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "defInt": 4,
+            "tackles": 85,
+            "tfl": 9,
+            "sacks": 2,
+            "pbu": 6
+          },
+          "honors": ["First-Team All-ACC (1996)"],
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 119,
+            "tfl": 13,
+            "sacks": 3,
+            "pbu": 2
+          },
+          "honors": [
+            "Consensus All-American (1997)",
+            "Second-Team All-ACC (1997)"
+          ],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        }
+      ]
+    },
+    {
       "id": "chris-watson",
       "name": "Chris Watson",
       "position": "RB",
@@ -103,6 +198,54 @@
       ]
     },
     {
+      "id": "eddie-mason",
+      "name": "Eddie Mason",
+      "position": "LB",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 76,
+            "tfl": 4,
+            "pbu": 8
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        }
+      ]
+    },
+    {
+      "id": "eric-thomas",
+      "name": "Eric Thomas",
+      "position": "S",
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 48,
+            "tfl": 1,
+            "pbu": 8
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 25,
+            "tfl": 1,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        }
+      ]
+    },
+    {
       "id": "freddie-jones",
       "name": "Freddie Jones",
       "position": "TE",
@@ -150,18 +293,42 @@
         {
           "year": 1994,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 8,
+            "tfl": 4,
+            "pbu": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse + https://archive.org/details/carolinafootball1995unse"
         },
         {
           "year": 1995,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 50,
+            "pbu": 8
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html"
+          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html + https://archive.org/details/carolinafootball1996unse"
+        }
+      ]
+    },
+    {
+      "id": "greg-black",
+      "name": "Greg Black",
+      "position": "DT",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 37,
+            "tfl": 4,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
         }
       ]
     },
@@ -184,6 +351,101 @@
       ]
     },
     {
+      "id": "greg-ellis",
+      "name": "Greg Ellis",
+      "position": "DE",
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 24,
+            "tfl": 5,
+            "sacks": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 71,
+            "tfl": 9,
+            "sacks": 7
+          },
+          "honors": ["First-Team All-ACC (1995)"],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 62,
+            "tfl": 18,
+            "sacks": 12.5,
+            "pbu": 1
+          },
+          "honors": ["First-Team All-ACC (1996)"],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 87,
+            "tfl": 18,
+            "sacks": 9,
+            "pbu": 3
+          },
+          "honors": [
+            "Consensus All-American (1997)",
+            "First-Team All-ACC (1997)"
+          ],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        }
+      ]
+    },
+    {
+      "id": "james-hamilton",
+      "name": "James Hamilton",
+      "position": "LB",
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "defInt": 1,
+            "tackles": 59,
+            "tfl": 3,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 73,
+            "tfl": 3,
+            "sacks": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 55,
+            "tfl": 5.5,
+            "sacks": 3.5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        }
+      ]
+    },
+    {
       "id": "jason-stanicek",
       "name": "Jason Stanicek",
       "position": "QB",
@@ -201,6 +463,26 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+        }
+      ]
+    },
+    {
+      "id": "jimmy-hitchcock",
+      "name": "Jimmy Hitchcock",
+      "position": "CB",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 27,
+            "tfl": 4,
+            "sacks": 1,
+            "pbu": 6
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
         }
       ]
     },
@@ -252,6 +534,77 @@
           },
           "honors": ["Second-Team All-ACC (1997)"],
           "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+        }
+      ]
+    },
+    {
+      "id": "kerry-mock",
+      "name": "Kerry Mock",
+      "position": "LB",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 75,
+            "tfl": 4.5,
+            "sacks": 1.5,
+            "pbu": 7
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        }
+      ]
+    },
+    {
+      "id": "kivuusama-mays",
+      "name": "Kivuusama Mays",
+      "position": "LB",
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 16,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 138,
+            "tfl": 6,
+            "sacks": 1,
+            "pbu": 2
+          },
+          "honors": ["First-Team All-ACC (1995)"],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 112,
+            "tfl": 7,
+            "sacks": 2,
+            "pbu": 2
+          },
+          "honors": ["Second-Team All-ACC (1996)"],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "defInt": 1,
+            "tackles": 123,
+            "tfl": 16.5,
+            "sacks": 3
+          },
+          "honors": ["First-Team All-ACC (1997)"],
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         }
       ]
     },
@@ -316,6 +669,39 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+        }
+      ]
+    },
+    {
+      "id": "marcus-jones",
+      "name": "Marcus Jones",
+      "position": "S",
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 62,
+            "tfl": 12.5,
+            "sacks": 7.5
+          },
+          "honors": ["First-Team All-ACC (1994)"],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 94,
+            "tfl": 19,
+            "sacks": 7,
+            "pbu": 1
+          },
+          "honors": [
+            "ACC Defensive Player of the Year (1995)",
+            "First-Team All-ACC (1995)"
+          ],
+          "source": "https://archive.org/details/carolinafootball1996unse"
         }
       ]
     },
@@ -450,10 +836,13 @@
         {
           "year": 1994,
           "stats": {
-            "defInt": 2
+            "defInt": 2,
+            "tackles": 126,
+            "tfl": 2,
+            "pbu": 7
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
         }
       ]
     },
@@ -552,29 +941,67 @@
         {
           "year": 1994,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 31,
+            "tfl": 2,
+            "pbu": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
         },
         {
           "year": 1995,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 66,
+            "pbu": 4
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html"
+          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html + https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 71,
+            "tfl": 1,
+            "pbu": 6
+          },
+          "honors": ["Second-Team All-ACC (1996)"],
+          "source": "https://archive.org/details/carolinafootball1997unse"
         },
         {
           "year": 1997,
           "stats": {
-            "defInt": 2
+            "defInt": 2,
+            "tackles": 97,
+            "tfl": 1.5,
+            "pbu": 9
           },
           "honors": ["Second-Team All-ACC (1997)"],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         }
-      ],
-      "redshirtYears": [1996]
+      ]
+    },
+    {
+      "id": "oscar-sturgis",
+      "name": "Oscar Sturgis",
+      "position": "DE",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "defInt": 1,
+            "tackles": 39,
+            "tfl": 9,
+            "sacks": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+        }
+      ]
     },
     {
       "id": "reggie-love",
@@ -594,50 +1021,87 @@
         {
           "year": 1995,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 15
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html"
+          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html + https://archive.org/details/carolinafootball1996unse"
         },
         {
           "year": 1997,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 15,
+            "pbu": 3
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         }
       ],
       "redshirtYears": [1996]
     },
     {
-      "id": "sean-boyd",
-      "name": "Sean Boyd",
-      "position": "CB",
+      "id": "rick-terry",
+      "name": "Rick Terry",
+      "position": "DT",
       "firstYear": 1994,
-      "lastYear": 1995,
+      "lastYear": 1996,
       "seasons": [
         {
           "year": 1994,
           "stats": {
-            "defInt": 2
+            "tackles": 19,
+            "tfl": 2,
+            "sacks": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+          "source": "https://archive.org/details/carolinafootball1995unse"
         },
         {
           "year": 1995,
           "stats": {
-            "defInt": 1
+            "tackles": 44,
+            "tfl": 12,
+            "sacks": 8,
+            "pbu": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html"
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 47,
+            "tfl": 15.5,
+            "sacks": 3
+          },
+          "honors": ["Second-Team All-ACC (1996)"],
+          "source": "https://archive.org/details/carolinafootball1997unse"
         }
       ]
     },
     {
-      "id": "terry-billups",
-      "name": "Terry Billups",
+      "id": "riddick-parker",
+      "name": "Riddick Parker",
+      "position": "DT",
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 41,
+            "tfl": 4,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        }
+      ]
+    },
+    {
+      "id": "ronald-thomas",
+      "name": "Ronald Thomas",
       "position": "CB",
       "firstYear": 1994,
       "lastYear": 1996,
@@ -645,18 +1109,19 @@
         {
           "year": 1994,
           "stats": {
-            "defInt": 1
+            "tackles": 11,
+            "pbu": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+          "source": "https://archive.org/details/carolinafootball1995unse"
         },
         {
           "year": 1995,
           "stats": {
-            "defInt": 1
+            "tackles": 14
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html"
+          "source": "https://archive.org/details/carolinafootball1996unse"
         },
         {
           "year": 1996,
@@ -665,6 +1130,130 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+        }
+      ]
+    },
+    {
+      "id": "sean-boyd",
+      "name": "Sean Boyd",
+      "position": "S",
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "defInt": 2,
+            "tackles": 57,
+            "pbu": 10
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "defInt": 1,
+            "tackles": 89,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html + https://archive.org/details/carolinafootball1996unse"
+        }
+      ]
+    },
+    {
+      "id": "terry-billups",
+      "name": "Terry Billups",
+      "position": "CB",
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "defInt": 1,
+            "tackles": 26,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "defInt": 1,
+            "tackles": 31,
+            "tfl": 1,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html + https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "defInt": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 10
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        }
+      ]
+    },
+    {
+      "id": "vonnie-holliday",
+      "name": "Vonnie Holliday",
+      "position": "DT",
+      "firstYear": 1994,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1994,
+          "stats": {
+            "tackles": 12
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1995unse"
+        },
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 39,
+            "tfl": 4,
+            "sacks": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 47,
+            "tfl": 11,
+            "sacks": 5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 64,
+            "tfl": 13,
+            "sacks": 5,
+            "pbu": 5
+          },
+          "honors": ["First-Team All-ACC (1997)"],
+          "source": "https://archive.org/details/carolinafootball1998unse"
         }
       ]
     },
@@ -685,31 +1274,6 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
-        }
-      ]
-    },
-    {
-      "id": "brian-simmons",
-      "name": "Brian Simmons",
-      "position": "LB",
-      "firstYear": 1995,
-      "lastYear": 1996,
-      "seasons": [
-        {
-          "year": 1995,
-          "stats": {
-            "defInt": 2
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20241220032355/https://www.sports-reference.com/cfb/schools/north-carolina/1995.html"
-        },
-        {
-          "year": 1996,
-          "stats": {
-            "defInt": 4
-          },
-          "honors": ["First-Team All-ACC (1996)"],
-          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
         }
       ]
     },
@@ -741,15 +1305,145 @@
           "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
         },
         {
+          "year": 1997,
+          "stats": {
+            "tackles": 40,
+            "tfl": 9,
+            "sacks": 5,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
           "year": 1998,
           "stats": {
-            "tfl": 23
+            "tackles": 96,
+            "tfl": 23,
+            "sacks": 7,
+            "pbu": 4
           },
           "honors": ["First-Team All-ACC (1998)"],
-          "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
+          "source": "https://archive.org/details/carolinafootball1999unse"
         }
-      ],
-      "redshirtYears": [1997]
+      ]
+    },
+    {
+      "id": "jomo-legins",
+      "name": "Jomo Legins",
+      "position": "S",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 14
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "defInt": 1,
+            "tackles": 29,
+            "tfl": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "defInt": 1,
+            "tackles": 24
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "defInt": 1,
+            "tackles": 81,
+            "tfl": 2,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
+        }
+      ]
+    },
+    {
+      "id": "keith-newman",
+      "name": "Keith Newman",
+      "position": "LB",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 21,
+            "tfl": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 43,
+            "tfl": 4,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 79,
+            "tfl": 5.5,
+            "sacks": 2.5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "defInt": 1,
+            "tackles": 132,
+            "tfl": 12,
+            "sacks": 4,
+            "pbu": 2
+          },
+          "honors": ["Second-Team All-ACC (1998)"],
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
+        }
+      ]
+    },
+    {
+      "id": "kevin-addis",
+      "name": "Kevin Addis",
+      "position": "LB",
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 27,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        }
+      ]
     },
     {
       "id": "l-c-stevens",
@@ -820,22 +1514,93 @@
       ]
     },
     {
-      "id": "marcus-jones",
-      "name": "Marcus Jones",
+      "id": "marcus-dow",
+      "name": "Marcus Dow",
       "position": "DT",
       "firstYear": 1995,
-      "lastYear": 1995,
+      "lastYear": 1998,
       "seasons": [
         {
           "year": 1995,
           "stats": {
-            "tfl": 19
+            "tackles": 7
           },
-          "honors": [
-            "ACC Defensive Player of the Year (1995)",
-            "First-Team All-ACC (1995)"
-          ],
-          "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 12,
+            "tfl": 2,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 67,
+            "tfl": 6,
+            "sacks": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        }
+      ],
+      "redshirtYears": [1997]
+    },
+    {
+      "id": "mike-pringley",
+      "name": "Mike Pringley",
+      "position": "DE",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 41,
+            "tfl": 5,
+            "sacks": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 30,
+            "tfl": 8,
+            "sacks": 3,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 45,
+            "tfl": 8.5,
+            "sacks": 3.5,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 70,
+            "tfl": 7,
+            "sacks": 4,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
         }
       ]
     },
@@ -890,6 +1655,46 @@
       ]
     },
     {
+      "id": "nate-hobgood-chittick",
+      "name": "Nate Hobgood-Chittick",
+      "position": "DT",
+      "firstYear": 1995,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 7,
+            "tfl": 3,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 13,
+            "tfl": 2,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 36,
+            "tfl": 8.5,
+            "sacks": 2.5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        }
+      ]
+    },
+    {
       "id": "oscar-davenport",
       "name": "Oscar Davenport",
       "position": "QB",
@@ -927,10 +1732,11 @@
             "passTD": 7,
             "passInt": 3,
             "rushYds": 12,
-            "rushTD": 2
+            "rushTD": 2,
+            "tackles": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         },
         {
           "year": 1998,
@@ -945,6 +1751,182 @@
           "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
         }
       ]
+    },
+    {
+      "id": "robert-williams",
+      "name": "Robert Williams",
+      "position": "CB",
+      "firstYear": 1995,
+      "lastYear": 1997,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 5,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "defInt": 1,
+            "tackles": 28,
+            "pbu": 23
+          },
+          "honors": ["Second-Team All-ACC (1996)"],
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "defInt": 2,
+            "tackles": 25,
+            "pbu": 13
+          },
+          "honors": ["First-Team All-ACC (1997)"],
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+        }
+      ]
+    },
+    {
+      "id": "russell-davis",
+      "name": "Russell Davis",
+      "position": "DE",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 46,
+            "tfl": 6,
+            "sacks": 3,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 27,
+            "tfl": 4.5,
+            "sacks": 2.5,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 60,
+            "tfl": 9,
+            "sacks": 3
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 36,
+            "tfl": 3.5,
+            "sacks": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        }
+      ]
+    },
+    {
+      "id": "steve-fisher",
+      "name": "Steve Fisher",
+      "position": "CB",
+      "firstYear": 1995,
+      "lastYear": 1998,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 7
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "defInt": 1,
+            "tackles": 10
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "defInt": 5,
+            "tackles": 42,
+            "pbu": 17
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
+        }
+      ],
+      "redshirtYears": [1996]
+    },
+    {
+      "id": "teto-simpson",
+      "name": "Teto Simpson",
+      "position": "DE",
+      "firstYear": 1995,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1995,
+          "stats": {
+            "tackles": 5,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1996unse"
+        },
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 19,
+            "tfl": 4,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 12,
+            "tfl": 3,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 17,
+            "tfl": 1,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        }
+      ],
+      "redshirtYears": [1997]
     },
     {
       "id": "alge-crumpler",
@@ -968,10 +1950,11 @@
           "stats": {
             "rec": 24,
             "recYds": 278,
-            "recTD": 4
+            "recTD": 4,
+            "tackles": 2
           },
           "honors": ["Second-Team All-ACC (1997)"],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         },
         {
           "year": 1999,
@@ -994,6 +1977,65 @@
         }
       ],
       "redshirtYears": [1998]
+    },
+    {
+      "id": "brandon-spoon",
+      "name": "Brandon Spoon",
+      "position": "LB",
+      "firstYear": 1996,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1996,
+          "stats": {
+            "tackles": 26
+          },
+          "honors": ["Second-Team All-ACC (1996)"],
+          "source": "https://archive.org/details/carolinafootball1997unse"
+        },
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 65,
+            "tfl": 7.5,
+            "sacks": 3.5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 138,
+            "tfl": 8,
+            "sacks": 5,
+            "pbu": 1
+          },
+          "honors": ["Second-Team All-ACC (1998)"],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 12,
+            "tfl": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 131,
+            "tfl": 13,
+            "sacks": 1,
+            "pbu": 1,
+            "ff": 3
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
     },
     {
       "id": "chris-keldorf",
@@ -1040,10 +2082,11 @@
           "stats": {
             "rushYds": 58,
             "rec": 2,
-            "recYds": 39
+            "recYds": 39,
+            "tackles": 13
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
         },
         {
           "year": 1997,
@@ -1092,65 +2135,42 @@
         {
           "year": 1996,
           "stats": {
-            "defInt": 11
+            "defInt": 11,
+            "tackles": 32,
+            "tfl": 2
           },
           "honors": [
             "ACC Rookie of the Year (1996)",
             "First-Team All-ACC (1996)"
           ],
-          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
         },
         {
           "year": 1997,
           "stats": {
-            "defInt": 5
+            "defInt": 5,
+            "tackles": 26,
+            "pbu": 4
           },
           "honors": [
             "Consensus All-American (1997)",
             "First-Team All-ACC (1997)"
           ],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         },
         {
           "year": 1998,
           "stats": {
-            "defInt": 4
+            "defInt": 4,
+            "tackles": 44,
+            "tfl": 1,
+            "pbu": 10
           },
           "honors": [
             "Consensus All-American (1998)",
             "First-Team All-ACC (1998)"
           ],
-          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
-        }
-      ]
-    },
-    {
-      "id": "greg-ellis",
-      "name": "Greg Ellis",
-      "position": "DE",
-      "firstYear": 1996,
-      "lastYear": 1997,
-      "seasons": [
-        {
-          "year": 1996,
-          "stats": {
-            "sacks": 12.5,
-            "tfl": 12.5
-          },
-          "honors": ["First-Team All-ACC (1996)"],
-          "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
-        },
-        {
-          "year": 1997,
-          "stats": {
-            "sacks": 9,
-            "tfl": 9
-          },
-          "honors": [
-            "Consensus All-American (1997)",
-            "First-Team All-ACC (1997)"
-          ],
-          "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
         }
       ]
     },
@@ -1164,18 +2184,23 @@
         {
           "year": 1996,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 66,
+            "pbu": 4
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
         },
         {
           "year": 1997,
           "stats": {
-            "defInt": 2
+            "defInt": 2,
+            "tackles": 83,
+            "tfl": 1,
+            "pbu": 8
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         }
       ]
     },
@@ -1229,32 +2254,26 @@
       ]
     },
     {
-      "id": "jomo-legins",
-      "name": "Jomo Legins",
-      "position": "S",
-      "firstYear": 1996,
+      "id": "allen-mogridge",
+      "name": "Allen Mogridge",
+      "position": "TE",
+      "firstYear": 1997,
       "lastYear": 1998,
       "seasons": [
         {
-          "year": 1996,
-          "stats": {
-            "defInt": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
-        },
-        {
           "year": 1997,
           "stats": {
-            "defInt": 1
+            "tackles": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "https://archive.org/details/carolinafootball1998unse"
         },
         {
           "year": 1998,
           "stats": {
-            "defInt": 1
+            "rec": 4,
+            "recYds": 32,
+            "recTD": 1
           },
           "honors": [],
           "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
@@ -1262,54 +2281,50 @@
       ]
     },
     {
-      "id": "robert-williams",
-      "name": "Robert Williams",
-      "position": "LB",
-      "firstYear": 1996,
-      "lastYear": 1997,
+      "id": "antwon-black",
+      "name": "Antwon Black",
+      "position": "S",
+      "firstYear": 1997,
+      "lastYear": 2000,
       "seasons": [
-        {
-          "year": 1996,
-          "stats": {
-            "defInt": 1
-          },
-          "honors": ["Second-Team All-ACC (1996)"],
-          "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
-        },
         {
           "year": 1997,
           "stats": {
-            "defInt": 2
-          },
-          "honors": ["First-Team All-ACC (1997)"],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
-        }
-      ]
-    },
-    {
-      "id": "russell-davis",
-      "name": "Russell Davis",
-      "position": "DT",
-      "firstYear": 1996,
-      "lastYear": 1997,
-      "seasons": [
-        {
-          "year": 1996,
-          "stats": {
-            "tackles": 27,
-            "sacks": 2.5
+            "tackles": 9
           },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)"
+          "source": "https://archive.org/details/carolinafootball1998unse"
         },
         {
-          "year": 1997,
+          "year": 1998,
           "stats": {
-            "tackles": 60,
-            "sacks": 3
+            "tackles": 63,
+            "tfl": 1
           },
           "honors": [],
-          "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)"
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "passYds": 139,
+            "passInt": 2,
+            "rushYds": 82,
+            "defInt": 2,
+            "tackles": 15,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "rushYds": 23,
+            "passYds": 124
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
         }
       ]
     },
@@ -1324,10 +2339,11 @@
           "year": 1997,
           "stats": {
             "rushYds": 50,
-            "rushTD": 1
+            "rushTD": 1,
+            "tackles": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
         },
         {
           "year": 1999,
@@ -1365,44 +2381,288 @@
           "year": 1998,
           "stats": {
             "rec": 2,
-            "recYds": 42
+            "recYds": 42,
+            "tackles": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
         },
         {
           "year": 1999,
           "stats": {
             "rec": 12,
-            "recYds": 184
+            "recYds": 184,
+            "tackles": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
         }
       ]
     },
     {
-      "id": "steve-fisher",
-      "name": "Steve Fisher",
-      "position": "CB",
+      "id": "merceda-perry",
+      "name": "Merceda Perry",
+      "position": "LB",
       "firstYear": 1997,
-      "lastYear": 1998,
+      "lastYear": 2001,
       "seasons": [
         {
           "year": 1997,
           "stats": {
-            "defInt": 1
+            "tackles": 18
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+          "source": "https://archive.org/details/carolinafootball1998unse"
         },
         {
           "year": 1998,
           "stats": {
-            "defInt": 5
+            "tackles": 41,
+            "tfl": 2,
+            "pbu": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 39,
+            "tfl": 3,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+        }
+      ],
+      "redshirtYears": [1999]
+    },
+    {
+      "id": "quinton-savage",
+      "name": "Quinton Savage",
+      "position": "S",
+      "firstYear": 1997,
+      "lastYear": 1999,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 12
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 28,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 71,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        }
+      ]
+    },
+    {
+      "id": "ross-mcallister",
+      "name": "Ross McAllister",
+      "position": "DE",
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 9,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 39,
+            "tfl": 5,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 35,
+            "tfl": 9,
+            "sacks": 5
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
+    },
+    {
+      "id": "sedrick-hodge",
+      "name": "Sedrick Hodge",
+      "position": "LB",
+      "firstYear": 1997,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1997,
+          "stats": {
+            "tackles": 15,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1998unse"
+        },
+        {
+          "year": 1998,
+          "stats": {
+            "defInt": 1,
+            "tackles": 89,
+            "tfl": 11,
+            "sacks": 3.5,
+            "pbu": 6
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "defInt": 1,
+            "tackles": 79,
+            "tfl": 7,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 82,
+            "tfl": 16,
+            "sacks": 7,
+            "pbu": 4,
+            "ff": 3
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
+    },
+    {
+      "id": "anthony-anderson",
+      "name": "Anthony Anderson",
+      "position": "CB",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 10,
+            "pbu": 5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 15,
+            "tfl": 1,
+            "pbu": 5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
+    },
+    {
+      "id": "anthony-perkins",
+      "name": "Anthony Perkins",
+      "position": "DT",
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 5,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 19
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 46,
+            "tfl": 4,
+            "sacks": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 17,
+            "tfl": 1,
+            "sacks": 1,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
         }
       ]
     },
@@ -1417,10 +2677,11 @@
           "year": 1998,
           "stats": {
             "rushYds": 55,
-            "rec": 1
+            "rec": 1,
+            "tackles": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
         },
         {
           "year": 1999,
@@ -1444,6 +2705,55 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
+    },
+    {
+      "id": "billy-dee-greenwood",
+      "name": "Billy-Dee Greenwood",
+      "position": "S",
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 78,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "defInt": 1,
+            "tackles": 118,
+            "tfl": 1,
+            "pbu": 7
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 40,
+            "tfl": 2,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 67,
+            "tfl": 1,
+            "pbu": 7
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
         }
       ]
     },
@@ -1488,37 +2798,6 @@
       "redshirtYears": [1999]
     },
     {
-      "id": "brandon-spoon",
-      "name": "Brandon Spoon",
-      "position": "LB",
-      "firstYear": 1998,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 1998,
-          "stats": {
-            "tackles": 138,
-            "sacks": 5
-          },
-          "honors": ["Second-Team All-ACC (1998)"],
-          "source": "https://goheels.com/sports/football/roster/brandon-spoon/2980"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 131,
-            "tfl": 13,
-            "sacks": 1,
-            "pbu": 1,
-            "ff": 3
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        }
-      ],
-      "redshirtYears": [1999]
-    },
-    {
       "id": "dauntae-finger",
       "name": "Dauntae' Finger",
       "position": "TE",
@@ -1557,21 +2836,129 @@
       ]
     },
     {
-      "id": "keith-newman",
-      "name": "Keith Newman",
-      "position": "LB",
+      "id": "david-bomar",
+      "name": "David Bomar",
+      "position": "S",
       "firstYear": 1998,
-      "lastYear": 1998,
+      "lastYear": 2000,
       "seasons": [
         {
           "year": 1998,
           "stats": {
-            "defInt": 1,
-            "tackles": 132,
-            "sacks": 4
+            "tackles": 10
           },
-          "honors": ["Second-Team All-ACC (1998)"],
-          "source": "https://en.wikipedia.org/wiki/Keith_Newman"
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "defInt": 1,
+            "tackles": 67,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 45,
+            "tfl": 4
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        }
+      ]
+    },
+    {
+      "id": "errol-hood",
+      "name": "Errol Hood",
+      "position": "CB",
+      "firstYear": 1998,
+      "lastYear": 2001,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 6,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "defInt": 5,
+            "tackles": 58,
+            "tfl": 2,
+            "sacks": 1,
+            "pbu": 11
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 54,
+            "tfl": 2,
+            "defInt": 2,
+            "pbu": 12,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 74,
+            "tfl": 6,
+            "pbu": 6
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+        }
+      ]
+    },
+    {
+      "id": "joey-evans",
+      "name": "Joey Evans",
+      "position": "DE",
+      "firstYear": 1998,
+      "lastYear": 2000,
+      "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 12,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 24,
+            "tfl": 5,
+            "sacks": 3
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 38,
+            "tfl": 11,
+            "sacks": 8,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
         }
       ]
     },
@@ -1636,10 +3023,22 @@
           "year": 1998,
           "stats": {
             "rec": 1,
-            "recYds": 4
+            "recYds": 4,
+            "tackles": 4,
+            "pbu": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html + https://archive.org/details/carolinafootball1999unse"
+        },
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 42,
+            "tfl": 3,
+            "sacks": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
         },
         {
           "year": 2000,
@@ -1664,8 +3063,7 @@
           "honors": [],
           "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
         }
-      ],
-      "redshirtYears": [1999]
+      ]
     },
     {
       "id": "ronald-curry",
@@ -1693,10 +3091,13 @@
             "passTD": 3,
             "passInt": 10,
             "rushYds": 226,
-            "rushTD": 2
+            "rushTD": 2,
+            "tackles": 3,
+            "tfl": 4,
+            "sacks": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
         },
         {
           "year": 2000,
@@ -1769,18 +3170,21 @@
           "stats": {
             "tackles": 31,
             "tfl": 4,
-            "sacks": 2
+            "sacks": 2,
+            "pbu": 2
           },
           "honors": [],
-          "source": "https://www.footballdb.com/players/ryan-sims-simsry01"
+          "source": "https://archive.org/details/carolinafootball1999unse"
         },
         {
           "year": 1999,
           "stats": {
-            "tackles": 33
+            "tackles": 33,
+            "tfl": 6,
+            "sacks": 1
           },
           "honors": [],
-          "source": "https://www.footballdb.com/players/ryan-sims-simsry01"
+          "source": "https://archive.org/details/carolinafootball2000unse"
         },
         {
           "year": 2000,
@@ -1807,105 +3211,86 @@
       ]
     },
     {
-      "id": "sedrick-hodge",
-      "name": "Sedrick Hodge",
+      "id": "shawn-woodard",
+      "name": "Shawn Woodard",
       "position": "LB",
       "firstYear": 1998,
-      "lastYear": 2000,
+      "lastYear": 1999,
       "seasons": [
         {
           "year": 1998,
           "stats": {
-            "defInt": 1
+            "tackles": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250817065844/https://www.sports-reference.com/cfb/schools/north-carolina/1998.html"
+          "source": "https://archive.org/details/carolinafootball1999unse"
         },
         {
           "year": 1999,
           "stats": {
-            "defInt": 1
+            "tackles": 31,
+            "tfl": 1
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 82,
-            "tfl": 16,
-            "sacks": 7,
-            "pbu": 4,
-            "ff": 3
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+          "source": "https://archive.org/details/carolinafootball2000unse"
         }
       ]
     },
     {
-      "id": "antwon-black",
-      "name": "Antwon Black",
-      "position": "S",
-      "firstYear": 1999,
-      "lastYear": 2000,
+      "id": "sherrod-peace",
+      "name": "Sherrod Peace",
+      "position": "DT",
+      "firstYear": 1998,
+      "lastYear": 1999,
       "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 57,
+            "tfl": 7.5,
+            "sacks": 3.5
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
         {
           "year": 1999,
           "stats": {
-            "passYds": 139,
-            "passInt": 2,
-            "rushYds": 82,
-            "defInt": 2
+            "tackles": 42,
+            "tfl": 4,
+            "sacks": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "rushYds": 23,
-            "passYds": 124
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+          "source": "https://archive.org/details/carolinafootball2000unse"
         }
       ]
     },
     {
-      "id": "billy-dee-greenwood",
-      "name": "Billy-Dee Greenwood",
-      "position": "S",
-      "firstYear": 1999,
-      "lastYear": 2001,
+      "id": "tim-burgess",
+      "name": "Tim Burgess",
+      "position": "LB",
+      "firstYear": 1998,
+      "lastYear": 1999,
       "seasons": [
+        {
+          "year": 1998,
+          "stats": {
+            "tackles": 3
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball1999unse"
+        },
         {
           "year": 1999,
           "stats": {
-            "defInt": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 40,
-            "tfl": 2,
+            "defInt": 1,
+            "tackles": 60,
+            "tfl": 3,
+            "sacks": 1,
             "pbu": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 67,
-            "tfl": 1,
-            "pbu": 7
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
         }
       ]
     },
@@ -1930,32 +3315,6 @@
       ]
     },
     {
-      "id": "david-bomar",
-      "name": "David Bomar",
-      "position": "S",
-      "firstYear": 1999,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 1999,
-          "stats": {
-            "defInt": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
-        },
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 45,
-            "tfl": 4
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        }
-      ]
-    },
-    {
       "id": "defonte-coleman",
       "name": "DeFonte Coleman",
       "position": "S",
@@ -1966,10 +3325,11 @@
           "year": 1999,
           "stats": {
             "rec": 1,
-            "recYds": 11
+            "recYds": 11,
+            "tackles": 5
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
         },
         {
           "year": 2000,
@@ -2004,28 +3364,26 @@
       ]
     },
     {
-      "id": "errol-hood",
-      "name": "Errol Hood",
-      "position": "CB",
+      "id": "eric-davis",
+      "name": "Eric Davis",
+      "position": "DE",
       "firstYear": 1999,
-      "lastYear": 2001,
+      "lastYear": 2002,
       "seasons": [
         {
           "year": 1999,
           "stats": {
-            "defInt": 5
+            "tackles": 3
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+          "source": "https://archive.org/details/carolinafootball2000unse"
         },
         {
           "year": 2000,
           "stats": {
-            "tackles": 54,
-            "tfl": 2,
-            "defInt": 2,
-            "pbu": 12,
-            "ff": 1
+            "tackles": 14,
+            "tfl": 3,
+            "sacks": 1.5
           },
           "honors": [],
           "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
@@ -2033,12 +3391,19 @@
         {
           "year": 2001,
           "stats": {
-            "tackles": 74,
-            "tfl": 6,
-            "pbu": 6
+            "tackles": 11,
+            "tfl": 1
           },
           "honors": [],
           "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
         }
       ]
     },
@@ -2052,10 +3417,11 @@
         {
           "year": 1999,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 6
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
         }
       ]
     },
@@ -2069,10 +3435,14 @@
         {
           "year": 1999,
           "stats": {
-            "defInt": 1
+            "defInt": 1,
+            "tackles": 50,
+            "tfl": 10,
+            "sacks": 6,
+            "pbu": 2
           },
           "honors": [],
-          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+          "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
         },
         {
           "year": 2000,
@@ -2104,6 +3474,106 @@
             "Lombardi Award (2001)"
           ],
           "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+        }
+      ]
+    },
+    {
+      "id": "kevin-knight",
+      "name": "Kevin Knight",
+      "position": "CB",
+      "firstYear": 1999,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 9,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 25,
+            "tfl": 3,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 49,
+            "tfl": 2,
+            "sacks": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "tackles": 62,
+            "tfl": 3,
+            "sacks": 3,
+            "defInt": 1,
+            "pbu": 7
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
+        }
+      ]
+    },
+    {
+      "id": "malcolm-stewart",
+      "name": "Malcolm Stewart",
+      "position": "DE",
+      "firstYear": 1999,
+      "lastYear": 2002,
+      "seasons": [
+        {
+          "year": 1999,
+          "stats": {
+            "tackles": 21,
+            "tfl": 4
+          },
+          "honors": [],
+          "source": "https://archive.org/details/carolinafootball2000unse"
+        },
+        {
+          "year": 2000,
+          "stats": {
+            "tackles": 3,
+            "tfl": 1,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
+        },
+        {
+          "year": 2001,
+          "stats": {
+            "tackles": 4
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
+        },
+        {
+          "year": 2002,
+          "stats": {
+            "tackles": 85,
+            "tfl": 5,
+            "sacks": 3,
+            "defInt": 1,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
         }
       ]
     },
@@ -2196,38 +3666,6 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
-        }
-      ]
-    },
-    {
-      "id": "anthony-perkins",
-      "name": "Anthony Perkins",
-      "position": "DT",
-      "firstYear": 2000,
-      "lastYear": 2001,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 46,
-            "tfl": 4,
-            "sacks": 2,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 17,
-            "tfl": 1,
-            "sacks": 1,
-            "pbu": 1,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
         }
       ]
     },
@@ -2536,42 +3974,6 @@
       ]
     },
     {
-      "id": "eric-davis",
-      "name": "Eric Davis",
-      "position": "DT",
-      "firstYear": 2000,
-      "lastYear": 2002,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 14,
-            "tfl": 3,
-            "sacks": 1.5
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 11,
-            "tfl": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
-        },
-        {
-          "year": 2002,
-          "stats": {
-            "tackles": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
-        }
-      ]
-    },
-    {
       "id": "isaac-mooring",
       "name": "Isaac Mooring",
       "position": "DT",
@@ -2633,136 +4035,6 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        }
-      ]
-    },
-    {
-      "id": "joey-evans",
-      "name": "Joey Evans",
-      "position": "DE",
-      "firstYear": 2000,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 38,
-            "tfl": 11,
-            "sacks": 8,
-            "pbu": 4
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        }
-      ]
-    },
-    {
-      "id": "kevin-knight",
-      "name": "Kevin Knight",
-      "position": "CB",
-      "firstYear": 2000,
-      "lastYear": 2002,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 25,
-            "tfl": 3,
-            "sacks": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 49,
-            "tfl": 2,
-            "sacks": 1,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
-        },
-        {
-          "year": 2002,
-          "stats": {
-            "tackles": 62,
-            "tfl": 3,
-            "sacks": 3,
-            "defInt": 1,
-            "pbu": 7
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
-        }
-      ]
-    },
-    {
-      "id": "malcolm-stewart",
-      "name": "Malcolm Stewart",
-      "position": "LB",
-      "firstYear": 2000,
-      "lastYear": 2002,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 3,
-            "tfl": 1,
-            "sacks": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 4
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
-        },
-        {
-          "year": 2002,
-          "stats": {
-            "tackles": 85,
-            "tfl": 5,
-            "sacks": 3,
-            "defInt": 1,
-            "pbu": 3,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html"
-        }
-      ]
-    },
-    {
-      "id": "merceda-perry",
-      "name": "Merceda Perry",
-      "position": "LB",
-      "firstYear": 2000,
-      "lastYear": 2001,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 5,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
-        },
-        {
-          "year": 2001,
-          "stats": {
-            "tackles": 39,
-            "tfl": 3,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
         }
       ]
     },
@@ -2884,25 +4156,6 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html"
-        }
-      ]
-    },
-    {
-      "id": "ross-mcallister",
-      "name": "Ross McAllister",
-      "position": "DE",
-      "firstYear": 2000,
-      "lastYear": 2000,
-      "seasons": [
-        {
-          "year": 2000,
-          "stats": {
-            "tackles": 35,
-            "tfl": 9,
-            "sacks": 5
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html"
         }
       ]
     },

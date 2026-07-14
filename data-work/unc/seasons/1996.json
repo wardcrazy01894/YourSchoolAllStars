@@ -91,9 +91,10 @@
    "stats": {
     "rushYds": 58,
     "rec": 2,
-    "recYds": 39
+    "recYds": 39,
+    "tackles": 13
    },
-   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Na Brown",
@@ -195,43 +196,56 @@
   },
   {
    "name": "Brian Simmons",
-   "position": "LB",
+   "position": "OLB",
    "stats": {
-    "defInt": 4
+    "defInt": 4,
+    "tackles": 85,
+    "tfl": 9,
+    "sacks": 2,
+    "pbu": 6
    },
-   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Dre Bly",
-   "position": "DB",
+   "position": "CB",
    "stats": {
-    "defInt": 11
+    "defInt": 11,
+    "tackles": 32,
+    "tfl": 2
    },
-   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Greg Williams",
-   "position": "DB",
+   "position": "SS",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 66,
+    "pbu": 4
    },
-   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Jomo Legins",
-   "position": "DB",
+   "position": "SS",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 29,
+    "tfl": 1,
+    "pbu": 2
    },
-   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Robert Williams",
-   "position": "DB",
+   "position": "CB",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 28,
+    "pbu": 23
    },
-   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
+   "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html + https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Ronald Thomas",
@@ -250,22 +264,146 @@
    "source": "http://web.archive.org/web/20241222181820/https://www.sports-reference.com/cfb/schools/north-carolina/1996.html"
   },
   {
+   "name": "Kivuusama Mays",
+   "position": "MLB",
+   "stats": {
+    "tackles": 112,
+    "tfl": 7,
+    "sacks": 2,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "FS",
+   "stats": {
+    "tackles": 71,
+    "tfl": 1,
+    "pbu": 6
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
    "name": "Greg Ellis",
    "position": "DE",
    "stats": {
+    "tackles": 62,
+    "tfl": 18,
     "sacks": 12.5,
-    "tfl": 12.5
+    "pbu": 1
    },
-   "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2025/8/27/2025_Carolina_Football_Media_Guide.pdf"
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "James Hamilton",
+   "position": "OLB",
+   "stats": {
+    "tackles": 55,
+    "tfl": 5.5,
+    "sacks": 3.5
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "DT",
+   "stats": {
+    "tackles": 47,
+    "tfl": 11,
+    "sacks": 5
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Rick Terry",
+   "position": "DT",
+   "stats": {
+    "tackles": 47,
+    "tfl": 15.5,
+    "sacks": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "OLB",
+   "stats": {
+    "tackles": 43,
+    "tfl": 4,
+    "sacks": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Mike Pringley",
+   "position": "DE",
+   "stats": {
+    "tackles": 30,
+    "tfl": 8,
+    "sacks": 3,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
   },
   {
    "name": "Russell Davis",
-   "position": "DT",
+   "position": "DE",
    "stats": {
     "tackles": 27,
+    "tfl": 4.5,
+    "sacks": 2.5,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": "LB",
+   "stats": {
+    "tackles": 26
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Andre Purvis",
+   "position": "DT",
+   "stats": {
+    "tackles": 24,
+    "tfl": 4.5,
     "sacks": 2.5
    },
-   "source": "https://en.wikipedia.org/wiki/Russell_Davis_(defensive_tackle)"
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Teto Simpson",
+   "position": "DE",
+   "stats": {
+    "tackles": 19,
+    "tfl": 4,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Nate Hobgood-Chittick",
+   "position": "DT",
+   "stats": {
+    "tackles": 13,
+    "tfl": 2,
+    "sacks": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
+  },
+  {
+   "name": "Marcus Dow",
+   "position": "DT",
+   "stats": {
+    "tackles": 12,
+    "tfl": 2,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1997unse"
   }
  ]
 }

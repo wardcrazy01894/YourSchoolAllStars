@@ -382,5 +382,11 @@
   "source": "https://en.wikipedia.org/wiki/Terry_Billups",
   "confidence": "high",
   "note": "Wikipedia: started/backed up at cornerback 1994-97; later NFL CB"
+ },
+ "Jimmy Hitchcock": {
+  "position": "CB",
+  "source": "https://archive.org/details/carolinafootball1995unse",
+  "confidence": "high",
+  "note": "1995 Carolina Football media guide names him repeatedly as a cornerback — \"cornerback Jimmy Hitchcock, a third-round pick of the New England Patriots\" and \"injuries to cornerbacks Jimmy Hitchcock and Tim Smith\". The 1994 defensive table lists him \"Hitchcock, db\"; CB is the fine position."
  }
 }

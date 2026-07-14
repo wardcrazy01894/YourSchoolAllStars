@@ -1,0 +1,462 @@
+{
+ "season": 1999,
+ "source": "https://archive.org/details/carolinafootball2000unse",
+ "sourceNote": "2000 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1999 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball2000unse.",
+ "players": [
+  {
+   "name": "Billy-Dee Greenwood",
+   "position": "S",
+   "rosterPosition": "S",
+   "stats": {
+    "tackles": 118,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 7
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Ronald Curry",
+   "position": "Quarterback",
+   "rosterPosition": "Quarterback",
+   "stats": {
+    "tackles": 83,
+    "tfl": 4,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "LB",
+   "rosterPosition": "LB",
+   "stats": {
+    "tackles": 79,
+    "tfl": 7,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Quinton Savage",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 71,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "David Bomar",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 67,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Tim Burgess",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 60,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Errol Hood",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 58,
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 5,
+    "pbu": 11
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Julius Peppers",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 50,
+    "tfl": 10,
+    "sacks": 6,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "LB",
+   "rosterPosition": "LB",
+   "stats": {
+    "tackles": 42,
+    "tfl": 3,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Sherrod Peace",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 42,
+    "tfl": 4,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Ross McAllister",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 39,
+    "tfl": 5,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": null
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Ryan Sims",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 33,
+    "tfl": 6,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": null
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Shawn Woodard",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 31,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": null
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Jason Horton",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 24,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": null
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Joey Evans",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 24,
+    "tfl": 5,
+    "sacks": 3,
+    "defInt": 0,
+    "pbu": null
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Malcolm Stewart",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 21,
+    "tfl": 4,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Anthony Perkins",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 19,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Teto Simpson",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 17,
+    "tfl": 1,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Anthony Anderson",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 15,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 5
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Antwon Black",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 15,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 2,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Stephon McQueen",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 13,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 12,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Kevin Knight",
+   "position": "DB",
+   "rosterPosition": "DB",
+   "stats": {
+    "tackles": 9,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "rosterPosition": "Wide Receiver",
+   "stats": {
+    "tackles": 7,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Jason Horton",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 6,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Willie Quick",
+   "position": null,
+   "rosterPosition": null,
+   "stats": {
+    "tackles": 5,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Jason Beamon",
+   "position": "Deep Snapper",
+   "rosterPosition": "Deep Snapper",
+   "stats": {
+    "tackles": 5,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "DeFonte Coleman",
+   "position": "Wide Receiver",
+   "rosterPosition": "Wide Receiver",
+   "stats": {
+    "tackles": 5,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Ronnie Robinson",
+   "position": "FB",
+   "rosterPosition": "FB",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Eric Davis",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 3,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Ronald Curry",
+   "position": "Quarterback",
+   "rosterPosition": "Quarterback",
+   "stats": {
+    "tackles": 3,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Nathan Sutton",
+   "position": "S",
+   "rosterPosition": "S",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Doug Brown",
+   "position": "Tight End",
+   "rosterPosition": "Tight End",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "rosterPosition": "Wide Receiver",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Marcus Jones",
+   "position": "S",
+   "rosterPosition": "S",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  }
+ ]
+}

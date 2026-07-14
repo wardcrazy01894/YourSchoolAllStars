@@ -1,14 +1,6 @@
 {
  "deltas": [
   {
-   "name": "Quincy Monk",
-   "year": 2001,
-   "stat": "ff",
-   "ours": 3,
-   "sr": 0,
-   "big": false
-  },
-  {
    "name": "Errol Hood",
    "year": 2000,
    "stat": "ff",
@@ -17,6 +9,14 @@
    "big": false
   },
   {
+   "name": "Quincy Monk",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 3,
+   "sr": 0,
+   "big": false
+  },
+  {
    "name": "Julius Peppers",
    "year": 2000,
    "stat": "ff",
@@ -27,6 +27,14 @@
   {
    "name": "Julius Peppers",
    "year": 2001,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Malcolm Stewart",
+   "year": 2002,
    "stat": "ff",
    "ours": 1,
    "sr": 0,
@@ -59,14 +67,6 @@
   {
    "name": "Dexter Reid",
    "year": 2001,
-   "stat": "ff",
-   "ours": 1,
-   "sr": 0,
-   "big": false
-  },
-  {
-   "name": "Malcolm Stewart",
-   "year": 2002,
    "stat": "ff",
    "ours": 1,
    "sr": 0,
@@ -1912,6 +1912,18 @@
    "srOffVotes": {}
   },
   {
+   "name": "Sean Boyd",
+   "span": "1994-1995",
+   "composite": 24.7,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "Dominique Green",
    "span": "2013-2014",
    "composite": 24.7,
@@ -1996,6 +2008,18 @@
    }
   },
   {
+   "name": "Oscar Sturgis",
+   "span": "1994-1994",
+   "composite": 20.7,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "Barrington Edwards",
    "span": "2004-2006",
    "composite": 20.3,
@@ -2076,6 +2100,18 @@
    },
    "srDefVotes": {
     "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Fuzzy Lee",
+   "span": "1994-1995",
+   "composite": 18.5,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
    },
    "srOffVotes": {}
   },
@@ -2192,6 +2228,18 @@
     "DB": 2
    },
    "srOffVotes": {}
+  },
+  {
+   "name": "Ronald Curry",
+   "span": "1998-2001",
+   "composite": 14.1,
+   "wmtVotes": {
+    "QB": 4
+   },
+   "srDefVotes": {},
+   "srOffVotes": {
+    "QB": 6
+   }
   },
   {
    "name": "Raymond Vohasek",
@@ -2328,6 +2376,18 @@
    "srOffVotes": {}
   },
   {
+   "name": "Deon Dyer",
+   "span": "1996-1999",
+   "composite": 9.2,
+   "wmtVotes": {
+    "RB": 4
+   },
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 3
+   }
+  },
+  {
    "name": "Jared McAdoo",
    "span": "2010-2010",
    "composite": 9.1,
@@ -2361,6 +2421,16 @@
    "srDefVotes": {
     "DB": 2
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Eric Thomas",
+   "span": "1994-1995",
+   "composite": 8.2,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -2418,18 +2488,6 @@
    },
    "srDefVotes": {
     "DL": 2
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Sean Boyd",
-   "span": "1994-1995",
-   "composite": 6.4,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {
-    "DB": 2
    },
    "srOffVotes": {}
   },
@@ -2519,6 +2577,16 @@
    "srOffVotes": {}
   },
   {
+   "name": "Jimmy Hitchcock",
+   "span": "1994-1994",
+   "composite": 4.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
    "name": "Malcolm Ziglar",
    "span": "2024-2025",
    "composite": 3.9,
@@ -2543,35 +2611,11 @@
    "srOffVotes": {}
   },
   {
-   "name": "Fuzzy Lee",
-   "span": "1994-1995",
-   "composite": 3.2,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {
-    "DB": 2
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Terry Billups",
+   "name": "Ronald Thomas",
    "span": "1994-1996",
    "composite": 3.2,
    "wmtVotes": {
     "DB": 3
-   },
-   "srDefVotes": {
-    "DB": 3
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Ronald Thomas",
-   "span": "1996-1996",
-   "composite": 3.2,
-   "wmtVotes": {
-    "DB": 1
    },
    "srDefVotes": {
     "DB": 1
@@ -2612,6 +2656,14 @@
    "srDefVotes": {
     "DL": 1
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Willie Quick",
+   "span": "1999-1999",
+   "composite": 2.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -2661,6 +2713,16 @@
    "srDefVotes": {
     "DL": 1
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Wendell Camp",
+   "span": "1994-1995",
+   "composite": 2,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -2756,15 +2818,11 @@
    "srOffVotes": {}
   },
   {
-   "name": "Oscar Sturgis",
-   "span": "1994-1994",
+   "name": "Jason Beamon",
+   "span": "1999-1999",
    "composite": 1,
-   "wmtVotes": {
-    "DL": 1
-   },
-   "srDefVotes": {
-    "DL": 1
-   },
+   "wmtVotes": {},
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
@@ -2812,6 +2870,16 @@
    "span": "1994-1994",
    "composite": 0.8,
    "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Clay Eddie",
+   "span": "1994-1994",
+   "composite": 0.8,
+   "wmtVotes": {
+    "DB": 1
+   },
    "srDefVotes": {},
    "srOffVotes": {}
   },
@@ -2958,6 +3026,14 @@
    "srOffVotes": {}
   },
   {
+   "name": "ScottC aparell",
+   "span": "1994-1994",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
    "name": "Patrick Marsh",
    "span": "2006-2006",
    "composite": 0.4,
@@ -3091,6 +3167,16 @@
    "srDefVotes": {
     "DB": 1
    },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jamez Griffin",
+   "span": "1994-1994",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
    "srOffVotes": {}
   },
   {

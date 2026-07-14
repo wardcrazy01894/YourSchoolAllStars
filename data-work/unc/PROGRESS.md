@@ -138,3 +138,41 @@ from 1997 on is complete; 1994-96 is not sourceable without failing CI.
   documented fallback is SR offense + INT-only defense for those years (the
   Michigan pre-1997 precedent) — the era wheel is data-driven, so a later floor
   is also acceptable; do NOT fabricate.
+
+## 2026-07-14 — 1994–99 defense SOLVED (media guides)
+
+The blocker is gone. UNC's per-player defense for 1994–99 exists in the school's
+own **media guides**, digitized by UNC Libraries on the Internet Archive as
+`carolinafootball<year>unse` (collection `ncunc`). Guide *N* prints season *N−1*'s
+final defensive statistics. NOTE the decoy: the `north-carolina-football-<year>-media-guide`
+items are cover images only — that run is what made this look impossible.
+
+Pipeline (all committed, restartable):
+
+    fetch-guides.mjs        # _djvu.xml for guides 1994-2001 (gitignored, 145 MB)
+    parse-guides.mjs        # geometric table parse -> guide/<season>.json
+    ocr-guides.mjs          # macOS Vision re-OCR of each table page (competing read)
+    parse-guide-rosters.mjs # each guide's own roster -> guide-rosters/<year>.json
+    resolve-guide-names.mjs # surnames -> real players -> guide-resolved/<season>.json
+    validate-guides.mjs     # PROOF: 2000 guide vs the independent official cume
+    build-seasons.mjs       # merges guide defense into 1994-99
+
+Why it can be trusted:
+  * every row checksums (T + A = Hit); a row with no printed total is DROPPED
+  * tables reconcile to their own printed team totals where one is printed
+    (1998: 100% on all five stats; 1999: 100% tackles)
+  * the INT column agrees with Sports-Reference — 0 disagreements, all 7 seasons
+  * TFL/sacks print as count-yards pairs, so a bare integer there proves a column
+    shift (this caught the 1994 table being read one column off)
+  * VALIDATION CONTROL: running the whole chain over 2000 — a season we already
+    hold from the official TAS cume — reproduces all 67 stat values exactly
+
+Deliberately NOT taken: forced fumbles (the 1997/98 tables have both a CF and an
+FF column with different team totals; nothing says which is which).
+
+`record-book-supplement.json` is RETIRED — the guides supersede it, and reproduce
+all ten of its hand-transcribed values exactly.
+
+Result: 1994–99 now carry a full defensive box (20–28 tacklers/season, 822–1169
+tackles). Dataset: **421 players, 1994–2025, 139 honors**. All 458 tests green,
+including the Hall's-condition window guard that previously FAILED.

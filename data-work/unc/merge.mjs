@@ -38,9 +38,13 @@ function posOf(raw) {
   if (/tight end|^te$/.test(s)) return 'TE'
   if (/defensive end|^de$|edge/.test(s)) return 'DE'
   if (/defensive tackle|nose (tackle|guard)|^dt$|^nt$|^ng$/.test(s)) return 'DT'
-  if (/linebacker|^lb$|^olb$|^ilb$|^mlb$/.test(s)) return 'LB'
+  // The 1990s media guides use the era's split-linebacker codes — WLB (weak side),
+  // SLB (strong side) — and ROV (rover) for the hybrid safety. Without them Mike
+  // Morton, the 1994 team's leading tackler at 126, came back position-less and was
+  // dropped from the dataset entirely.
+  if (/linebacker|^lb$|^olb$|^ilb$|^mlb$|^wlb$|^slb$/.test(s)) return 'LB'
   if (/cornerback|^cb$/.test(s)) return 'CB'
-  if (/safety|^s$|^fs$|^ss$|rover/.test(s)) return 'S'
+  if (/safety|^s$|^fs$|^ss$|rover|^rov$/.test(s)) return 'S'
   if (/defensive back|^db$/.test(s)) return 'DB'
   if (/defensive lineman|defensive line|^dl$/.test(s)) return 'DL'
   if (/offensive|guard|tackle|center|^ol$|^og$|^ot$|^c$|^t$|^g$/.test(s))

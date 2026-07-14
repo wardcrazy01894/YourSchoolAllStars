@@ -10,9 +10,12 @@
     "passTD": 3,
     "passInt": 10,
     "rushYds": 226,
-    "rushTD": 2
+    "rushTD": 2,
+    "tackles": 3,
+    "tfl": 4,
+    "sacks": 1
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Domonique Williams",
@@ -45,9 +48,11 @@
     "passYds": 139,
     "passInt": 2,
     "rushYds": 82,
-    "defInt": 2
+    "defInt": 2,
+    "tackles": 15,
+    "pbu": 1
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Jason Peace",
@@ -83,9 +88,10 @@
    "position": "RB",
    "stats": {
     "rushYds": 12,
-    "rushTD": 2
+    "rushTD": 2,
+    "tackles": 4
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Kory Bailey",
@@ -103,9 +109,10 @@
    "position": "Wide Receiver",
    "stats": {
     "rec": 12,
-    "recYds": 184
+    "recYds": 184,
+    "tackles": 2
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Alge Crumpler",
@@ -143,9 +150,10 @@
    "position": "Wide Receiver",
    "stats": {
     "rec": 1,
-    "recYds": 11
+    "recYds": 11,
+    "tackles": 5
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Chesley Borders",
@@ -201,67 +209,261 @@
   },
   {
    "name": "Billy-Dee Greenwood",
-   "position": "DB",
+   "position": "S",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 118,
+    "tfl": 1,
+    "pbu": 7
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "David Bomar",
    "position": "Safety",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 67,
+    "tfl": 1
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Errol Hood",
-   "position": "DB",
+   "position": "CB",
    "stats": {
-    "defInt": 5
+    "defInt": 5,
+    "tackles": 58,
+    "tfl": 2,
+    "sacks": 1,
+    "pbu": 11
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Jason Horton",
    "position": "Cornerback",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 6
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Julius Peppers",
    "position": "DL",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 50,
+    "tfl": 10,
+    "sacks": 6,
+    "pbu": 2
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Sedrick Hodge",
    "position": "LB",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 79,
+    "tfl": 7,
+    "pbu": 3
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Tim Burgess",
    "position": "Linebacker",
    "stats": {
-    "defInt": 1
+    "defInt": 1,
+    "tackles": 60,
+    "tfl": 3,
+    "sacks": 1,
+    "pbu": 2
    },
-   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html"
+   "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html + https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Quinton Savage",
+   "position": "Safety",
+   "stats": {
+    "tackles": 71,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "LB",
+   "stats": {
+    "tackles": 42,
+    "tfl": 3,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Sherrod Peace",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 42,
+    "tfl": 4,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Ross McAllister",
+   "position": null,
+   "stats": {
+    "tackles": 39,
+    "tfl": 5,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
   },
   {
    "name": "Ryan Sims",
-   "position": "DT",
+   "position": null,
    "stats": {
-    "tackles": 33
+    "tackles": 33,
+    "tfl": 6,
+    "sacks": 1
    },
-   "source": "https://www.footballdb.com/players/ryan-sims-simsry01"
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Shawn Woodard",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 31,
+    "tfl": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Joey Evans",
+   "position": "DE",
+   "stats": {
+    "tackles": 24,
+    "tfl": 5,
+    "sacks": 3
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Malcolm Stewart",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 21,
+    "tfl": 4
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Anthony Perkins",
+   "position": null,
+   "stats": {
+    "tackles": 19
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Teto Simpson",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 17,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Anthony Anderson",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 15,
+    "tfl": 1,
+    "pbu": 5
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Stephon McQueen",
+   "position": null,
+   "stats": {
+    "tackles": 13,
+    "tfl": 1
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": null,
+   "stats": {
+    "tackles": 12,
+    "tfl": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Kevin Knight",
+   "position": "DB",
+   "stats": {
+    "tackles": 9,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Willie Quick",
+   "position": null,
+   "stats": {
+    "tackles": 5,
+    "tfl": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Jason Beamon",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Eric Davis",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Nathan Sutton",
+   "position": "S",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Doug Brown",
+   "position": "Tight End",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
+  },
+  {
+   "name": "Marcus Jones",
+   "position": "S",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball2000unse"
   }
  ]
 }

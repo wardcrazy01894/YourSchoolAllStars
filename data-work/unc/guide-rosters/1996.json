@@ -1,0 +1,522 @@
+{
+ "year": 1996,
+ "source": "https://archive.org/details/carolinafootball1996unse",
+ "sourceNote": "1996 Carolina Football media guide roster (UNC Athletics), scanned by UNC Libraries.",
+ "players": [
+  {
+   "name": "Chris Allnutt",
+   "position": "DL",
+   "jersey": "95"
+  },
+  {
+   "name": "Darrin Ashford",
+   "position": "WR",
+   "jersey": "17"
+  },
+  {
+   "name": "Varian Ballard",
+   "position": "DE",
+   "jersey": "89"
+  },
+  {
+   "name": "Octavus Barnes",
+   "position": "WR",
+   "jersey": "4"
+  },
+  {
+   "name": "Mike Baxter",
+   "position": "OT",
+   "jersey": "51"
+  },
+  {
+   "name": "Aaron Berry",
+   "position": "OLB",
+   "jersey": "89"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "CB",
+   "jersey": "25"
+  },
+  {
+   "name": "Antwon Black",
+   "position": "QB",
+   "jersey": "14"
+  },
+  {
+   "name": "Dre' Bly",
+   "position": "CB",
+   "jersey": "31"
+  },
+  {
+   "name": "Na Brown",
+   "position": "WR",
+   "jersey": "18"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "FS",
+   "jersey": "2"
+  },
+  {
+   "name": "Tim Burgess",
+   "position": "LB",
+   "jersey": "36"
+  },
+  {
+   "name": "Ryan Carfley",
+   "position": "C",
+   "jersey": "57"
+  },
+  {
+   "name": "Jamie Carrick",
+   "position": "MLB",
+   "jersey": "49"
+  },
+  {
+   "name": "Kevin Carty",
+   "position": "QB",
+   "jersey": "8"
+  },
+  {
+   "name": "II Toney Coles",
+   "position": "TE",
+   "jersey": null
+  },
+  {
+   "name": "Benny Council",
+   "position": "WR",
+   "jersey": "25"
+  },
+  {
+   "name": "Shawn Crouthamel",
+   "position": "OT",
+   "jersey": "72"
+  },
+  {
+   "name": "Alge Crumpler",
+   "position": "TE",
+   "jersey": "97"
+  },
+  {
+   "name": "Oscar Davenport",
+   "position": "QB",
+   "jersey": "10"
+  },
+  {
+   "name": "Alifea Davis",
+   "position": "RB",
+   "jersey": "34"
+  },
+  {
+   "name": "Russell Davis",
+   "position": "DE",
+   "jersey": "96"
+  },
+  {
+   "name": "Damon Dawson",
+   "position": "DE",
+   "jersey": "88"
+  },
+  {
+   "name": "Bruce DeWitt",
+   "position": "FS",
+   "jersey": "27"
+  },
+  {
+   "name": "Marcus Dow",
+   "position": "DT",
+   "jersey": "78"
+  },
+  {
+   "name": "Mark Dunn",
+   "position": "OLB",
+   "jersey": "7"
+  },
+  {
+   "name": "Rodney Dunn",
+   "position": "TB",
+   "jersey": "9"
+  },
+  {
+   "name": "Deon Dyer",
+   "position": "RB",
+   "jersey": "47"
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "position": "TE",
+   "jersey": "86"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "DE",
+   "jersey": "87"
+  },
+  {
+   "name": "Kareem Ellis",
+   "position": "OT",
+   "jersey": "65"
+  },
+  {
+   "name": "Joe Ellison",
+   "position": "OG",
+   "jersey": "56"
+  },
+  {
+   "name": "John Everett",
+   "position": "TE",
+   "jersey": "82"
+  },
+  {
+   "name": "Seth Everett",
+   "position": "C",
+   "jersey": "52"
+  },
+  {
+   "name": "Daniel Fabricant",
+   "position": "WR",
+   "jersey": "21"
+  },
+  {
+   "name": "Dauntae' Finger",
+   "position": "TE",
+   "jersey": "83"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "CB",
+   "jersey": "34"
+  },
+  {
+   "name": "Mike Geter",
+   "position": "TB",
+   "jersey": "20"
+  },
+  {
+   "name": "Jerness Gethers",
+   "position": "OG",
+   "jersey": "74"
+  },
+  {
+   "name": "Mike Gimbol",
+   "position": "OG",
+   "jersey": "76"
+  },
+  {
+   "name": "Jon Hall",
+   "position": "OG",
+   "jersey": "67"
+  },
+  {
+   "name": "James Hamilton",
+   "position": "OLB",
+   "jersey": "54"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "WR",
+   "jersey": "30"
+  },
+  {
+   "name": "William Hill",
+   "position": "CB",
+   "jersey": "15"
+  },
+  {
+   "name": "Mike Hobgood",
+   "position": "OG",
+   "jersey": "61"
+  },
+  {
+   "name": "Nate Hobgood-Chittick",
+   "position": "DT",
+   "jersey": "84"
+  },
+  {
+   "name": "Ryan Hoffman",
+   "position": "OT",
+   "jersey": "79"
+  },
+  {
+   "name": "Cam Holland",
+   "position": "OL",
+   "jersey": "63"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "DT",
+   "jersey": "90"
+  },
+  {
+   "name": "Brian Honeycutt",
+   "position": "OG",
+   "jersey": "62"
+  },
+  {
+   "name": "Darien Johnson",
+   "position": "FS",
+   "jersey": "16"
+  },
+  {
+   "name": "Leon Johnson",
+   "position": "TB",
+   "jersey": "12"
+  },
+  {
+   "name": "Bryan Jones",
+   "position": "DT",
+   "jersey": "55"
+  },
+  {
+   "name": "Freddie Jones",
+   "position": "TE",
+   "jersey": "92"
+  },
+  {
+   "name": "Chris Keldorf",
+   "position": "QB",
+   "jersey": "15"
+  },
+  {
+   "name": "Chris Key",
+   "position": "CB",
+   "jersey": "43"
+  },
+  {
+   "name": "Bruce Kinney",
+   "position": "WR",
+   "jersey": "13"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "SS",
+   "jersey": "21"
+  },
+  {
+   "name": "Jonathan Linton",
+   "position": "RB",
+   "jersey": "27"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "CB",
+   "jersey": "24"
+  },
+  {
+   "name": "Shawn Lyons",
+   "position": "TB",
+   "jersey": "39"
+  },
+  {
+   "name": "Kivuusama Mays",
+   "position": "MLB",
+   "jersey": "53"
+  },
+  {
+   "name": "Ricco McCain",
+   "position": "DE",
+   "jersey": "13"
+  },
+  {
+   "name": "Josh McGee",
+   "position": "PK",
+   "jersey": "37"
+  },
+  {
+   "name": "Maurice McGregor",
+   "position": "TB",
+   "jersey": "35"
+  },
+  {
+   "name": "Stephon McQueen",
+   "position": "DE",
+   "jersey": "93"
+  },
+  {
+   "name": "Chris Mintz",
+   "position": "DT",
+   "jersey": "85"
+  },
+  {
+   "name": "Allen Mogridge",
+   "position": "FB",
+   "jersey": "32"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "OLB",
+   "jersey": "9"
+  },
+  {
+   "name": "Robert Nixon",
+   "position": "OT",
+   "jersey": "68"
+  },
+  {
+   "name": "Lucious Oliver",
+   "position": "WR",
+   "jersey": "82"
+  },
+  {
+   "name": "Chuckie Parquet",
+   "position": "WR",
+   "jersey": "1"
+  },
+  {
+   "name": "Jason Peace",
+   "position": "QB",
+   "jersey": "19"
+  },
+  {
+   "name": "Shane Pierson",
+   "position": "OLB",
+   "jersey": "58"
+  },
+  {
+   "name": "Josh Pitzer",
+   "position": "PK",
+   "jersey": "14"
+  },
+  {
+   "name": "Mike Pringley",
+   "position": "DE",
+   "jersey": "91"
+  },
+  {
+   "name": "Andre Purvis",
+   "position": "DT",
+   "jersey": "70"
+  },
+  {
+   "name": "Jeff Saturday",
+   "position": "C",
+   "jersey": "64"
+  },
+  {
+   "name": "Quinton Savage",
+   "position": "DB",
+   "jersey": "26"
+  },
+  {
+   "name": "Kip Schaefer",
+   "position": "WR",
+   "jersey": "80"
+  },
+  {
+   "name": "David Secrest",
+   "position": "P",
+   "jersey": "40"
+  },
+  {
+   "name": "Brian Simmons",
+   "position": "OLB",
+   "jersey": "41"
+  },
+  {
+   "name": "Mike Simmons",
+   "position": "RB",
+   "jersey": "45"
+  },
+  {
+   "name": "Teto Simpson",
+   "position": "DE",
+   "jersey": "98"
+  },
+  {
+   "name": "Ricky Smith",
+   "position": "LB",
+   "jersey": "43"
+  },
+  {
+   "name": "Ben Spencer",
+   "position": "OG",
+   "jersey": "60"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": "LB",
+   "jersey": "44"
+  },
+  {
+   "name": "L.C. Stevens",
+   "position": "WR",
+   "jersey": "5"
+  },
+  {
+   "name": "John Surigao",
+   "position": "OT",
+   "jersey": "77"
+  },
+  {
+   "name": "Rick Terry",
+   "position": "DT",
+   "jersey": "94"
+  },
+  {
+   "name": "Byron Thomas",
+   "position": "OT",
+   "jersey": "75"
+  },
+  {
+   "name": "Ronald Thomas",
+   "position": "FS",
+   "jersey": "42"
+  },
+  {
+   "name": "Kimathi Thompson",
+   "position": "WR",
+   "jersey": "81"
+  },
+  {
+   "name": "James Wagstaff",
+   "position": "OL",
+   "jersey": "73"
+  },
+  {
+   "name": "Joey Walden",
+   "position": "DL",
+   "jersey": "71"
+  },
+  {
+   "name": "Joey Walters",
+   "position": "DE",
+   "jersey": "80"
+  },
+  {
+   "name": "Chris Watson",
+   "position": "FB",
+   "jersey": "6"
+  },
+  {
+   "name": "Chris Welch",
+   "position": "PK",
+   "jersey": "19"
+  },
+  {
+   "name": "Will West",
+   "position": "FB",
+   "jersey": "45"
+  },
+  {
+   "name": "Greg Williams",
+   "position": "SS",
+   "jersey": "3"
+  },
+  {
+   "name": "Robert Williams",
+   "position": "CB",
+   "jersey": "29"
+  },
+  {
+   "name": "Shawn Woodard",
+   "position": "OLB",
+   "jersey": "48"
+  },
+  {
+   "name": "LC. Stevens",
+   "position": "WR",
+   "jersey": "5"
+  }
+ ]
+}
