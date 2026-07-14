@@ -1,0 +1,1223 @@
+{
+ "season": 2002,
+ "source": "http://web.archive.org/web/20241202232439/https://www.sports-reference.com/cfb/schools/virginia-tech/2002.html",
+ "rows": [
+  {
+   "table": "passing_standard",
+   "name": "Bryan Randall",
+   "pos": "QB",
+   "stats": {
+    "games": 14,
+    "pass_cmp": 158,
+    "pass_att": 248,
+    "pass_cmp_pct": 63.7,
+    "pass_yds": 2134,
+    "pass_td": 12,
+    "pass_td_pct": 4.8,
+    "pass_int": 11,
+    "pass_int_pct": 4.4,
+    "pass_yds_per_att": 8.6,
+    "pass_adj_yds_per_att": 7.58,
+    "pass_yds_per_cmp": 13.5,
+    "pass_yds_per_g": 152.4,
+    "pass_rating": 143.1
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Grant Noel",
+   "pos": "QB",
+   "stats": {
+    "games": 5,
+    "pass_cmp": 7,
+    "pass_att": 18,
+    "pass_cmp_pct": 38.9,
+    "pass_yds": 86,
+    "pass_td": 2,
+    "pass_td_pct": 11.1,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 4.8,
+    "pass_adj_yds_per_att": 7,
+    "pass_yds_per_cmp": 12.3,
+    "pass_yds_per_g": 17.2,
+    "pass_rating": 115.7
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Will Hunt",
+   "pos": "QB",
+   "stats": {
+    "games": 4,
+    "pass_cmp": 3,
+    "pass_att": 5,
+    "pass_cmp_pct": 60,
+    "pass_yds": 9,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 1.8,
+    "pass_adj_yds_per_att": 1.8,
+    "pass_yds_per_cmp": 3,
+    "pass_yds_per_g": 2.3,
+    "pass_rating": 75.1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Ernest Wilford",
+   "pos": "WR",
+   "stats": {
+    "games": 14,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 51,
+    "rec_yds": 925,
+    "rec_yds_per_rec": 18.1,
+    "rec_td": 7,
+    "rec_yds_per_g": 66.1,
+    "scrim_att": 51,
+    "yds_from_scrimmage": 925,
+    "scrim_yds_per_att": 18.1,
+    "scrim_td": 7
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Shawn Witten",
+   "pos": "WR",
+   "stats": {
+    "games": 14,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 25,
+    "rec_yds": 306,
+    "rec_yds_per_rec": 12.2,
+    "rec_td": 1,
+    "rec_yds_per_g": 21.9,
+    "scrim_att": 25,
+    "yds_from_scrimmage": 306,
+    "scrim_yds_per_att": 12.2,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Jeff King",
+   "pos": "TE",
+   "stats": {
+    "games": 14,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 1,
+    "rec_yds": 19,
+    "rec_yds_per_rec": 19,
+    "rec_td": 1,
+    "rec_yds_per_g": 1.4,
+    "scrim_att": 1,
+    "yds_from_scrimmage": 19,
+    "scrim_yds_per_att": 19,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Bryan Randall",
+   "pos": "QB",
+   "stats": {
+    "games": 14,
+    "rush_att": 171,
+    "rush_yds": 507,
+    "rush_yds_per_att": 3,
+    "rush_td": 3,
+    "rush_yds_per_g": 36.2,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 171,
+    "yds_from_scrimmage": 507,
+    "scrim_yds_per_att": 3,
+    "scrim_td": 3
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Keith Willis",
+   "pos": "TE",
+   "stats": {
+    "games": 14,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 8,
+    "rec_yds": 188,
+    "rec_yds_per_rec": 23.5,
+    "rec_td": 1,
+    "rec_yds_per_g": 13.4,
+    "scrim_att": 8,
+    "yds_from_scrimmage": 188,
+    "scrim_yds_per_att": 23.5,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Lee Suggs",
+   "pos": "RB",
+   "stats": {
+    "games": 14,
+    "rush_att": 257,
+    "rush_yds": 1325,
+    "rush_yds_per_att": 5.2,
+    "rush_td": 22,
+    "rush_yds_per_g": 94.6,
+    "rec": 11,
+    "rec_yds": 126,
+    "rec_yds_per_rec": 11.5,
+    "rec_td": 2,
+    "rec_yds_per_g": 9,
+    "scrim_att": 268,
+    "yds_from_scrimmage": 1451,
+    "scrim_yds_per_att": 5.4,
+    "scrim_td": 24
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Terrell Parham",
+   "pos": "WR",
+   "stats": {
+    "games": 13,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 18,
+    "rec_yds": 156,
+    "rec_yds_per_rec": 8.7,
+    "rec_td": 0,
+    "rec_yds_per_g": 12,
+    "scrim_att": 18,
+    "yds_from_scrimmage": 156,
+    "scrim_yds_per_att": 8.7,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Doug Easlick",
+   "pos": "RB",
+   "stats": {
+    "games": 13,
+    "rush_att": 19,
+    "rush_yds": 92,
+    "rush_yds_per_att": 4.8,
+    "rush_td": 0,
+    "rush_yds_per_g": 7.1,
+    "rec": 16,
+    "rec_yds": 118,
+    "rec_yds_per_rec": 7.4,
+    "rec_td": 1,
+    "rec_yds_per_g": 9.1,
+    "scrim_att": 35,
+    "yds_from_scrimmage": 210,
+    "scrim_yds_per_att": 6,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Richard Johnson",
+   "pos": "WR",
+   "stats": {
+    "games": 13,
+    "rush_att": 3,
+    "rush_yds": 22,
+    "rush_yds_per_att": 7.3,
+    "rush_td": 0,
+    "rush_yds_per_g": 1.7,
+    "rec": 14,
+    "rec_yds": 147,
+    "rec_yds_per_rec": 10.5,
+    "rec_td": 0,
+    "rec_yds_per_g": 11.3,
+    "scrim_att": 17,
+    "yds_from_scrimmage": 169,
+    "scrim_yds_per_att": 9.9,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Justin Hamilton",
+   "pos": "WR",
+   "stats": {
+    "games": 13,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 5,
+    "rec_yds": 56,
+    "rec_yds_per_rec": 11.2,
+    "rec_td": 0,
+    "rec_yds_per_g": 4.3,
+    "scrim_att": 5,
+    "yds_from_scrimmage": 56,
+    "scrim_yds_per_att": 11.2,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Kevin Jones",
+   "pos": "RB",
+   "stats": {
+    "games": 13,
+    "rush_att": 160,
+    "rush_yds": 871,
+    "rush_yds_per_att": 5.4,
+    "rush_td": 9,
+    "rush_yds_per_g": 67,
+    "rec": 4,
+    "rec_yds": 21,
+    "rec_yds_per_rec": 5.3,
+    "rec_td": 0,
+    "rec_yds_per_g": 1.6,
+    "scrim_att": 164,
+    "yds_from_scrimmage": 892,
+    "scrim_yds_per_att": 5.4,
+    "scrim_td": 9
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Cedric Humes",
+   "pos": "RB",
+   "stats": {
+    "games": 12,
+    "rush_att": 16,
+    "rush_yds": 68,
+    "rush_yds_per_att": 4.3,
+    "rush_td": 0,
+    "rush_yds_per_g": 5.7,
+    "rec": 7,
+    "rec_yds": 76,
+    "rec_yds_per_rec": 10.9,
+    "rec_td": 0,
+    "rec_yds_per_g": 6.3,
+    "scrim_att": 23,
+    "yds_from_scrimmage": 144,
+    "scrim_yds_per_att": 6.3,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Jared Mazzetta",
+   "pos": "TE",
+   "stats": {
+    "games": 11,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 1,
+    "rec_yds": 19,
+    "rec_yds_per_rec": 19,
+    "rec_td": 0,
+    "rec_yds_per_g": 1.7,
+    "scrim_att": 1,
+    "yds_from_scrimmage": 19,
+    "scrim_yds_per_att": 19,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Josh Spence",
+   "pos": "RB",
+   "stats": {
+    "games": 9,
+    "rush_att": 4,
+    "rush_yds": 26,
+    "rush_yds_per_att": 6.5,
+    "rush_td": 0,
+    "rush_yds_per_g": 2.9,
+    "rec": 1,
+    "rec_yds": 18,
+    "rec_yds_per_rec": 18,
+    "rec_td": 0,
+    "rec_yds_per_g": 2,
+    "scrim_att": 5,
+    "yds_from_scrimmage": 44,
+    "scrim_yds_per_att": 8.8,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Chris Shreve",
+   "pos": "WR",
+   "stats": {
+    "games": 9,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 2,
+    "rec_yds": 26,
+    "rec_yds_per_rec": 13,
+    "rec_td": 0,
+    "rec_yds_per_g": 2.9,
+    "scrim_att": 2,
+    "yds_from_scrimmage": 26,
+    "scrim_yds_per_att": 13,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Mike Imoh",
+   "pos": "RB",
+   "stats": {
+    "games": 5,
+    "rush_att": 10,
+    "rush_yds": 38,
+    "rush_yds_per_att": 3.8,
+    "rush_td": 0,
+    "rush_yds_per_g": 7.6,
+    "rec": 4,
+    "rec_yds": 28,
+    "rec_yds_per_rec": 7,
+    "rec_td": 1,
+    "rec_yds_per_g": 5.6,
+    "scrim_att": 14,
+    "yds_from_scrimmage": 66,
+    "scrim_yds_per_att": 4.7,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Grant Noel",
+   "pos": "QB",
+   "stats": {
+    "games": 5,
+    "rush_att": 1,
+    "rush_yds": -2,
+    "rush_yds_per_att": -2,
+    "rush_td": 0,
+    "rush_yds_per_g": -0.4,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 1,
+    "yds_from_scrimmage": -2,
+    "scrim_yds_per_att": -2,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Will Hunt",
+   "pos": "QB",
+   "stats": {
+    "games": 4,
+    "rush_att": 1,
+    "rush_yds": 11,
+    "rush_yds_per_att": 11,
+    "rush_td": 0,
+    "rush_yds_per_g": 2.8,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 1,
+    "yds_from_scrimmage": 11,
+    "scrim_yds_per_att": 11,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "John Candelas",
+   "pos": "RB",
+   "stats": {
+    "games": 2,
+    "rush_att": 7,
+    "rush_yds": 26,
+    "rush_yds_per_att": 3.7,
+    "rush_td": 1,
+    "rush_yds_per_g": 13,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 7,
+    "yds_from_scrimmage": 26,
+    "scrim_yds_per_att": 3.7,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Alex Markogiannakis",
+   "pos": "LB",
+   "stats": {
+    "games": 10,
+    "def_int": 0,
+    "def_int_yds": 0,
+    "def_int_td": 0,
+    "fumbles_rec": 1,
+    "fumbles_rec_yds": 25,
+    "fumbles_rec_td": 1
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Blake Warren",
+   "pos": "LB",
+   "stats": {
+    "games": 14,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Deangelo Hall",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "def_int": 4,
+    "def_int_yds": 124,
+    "def_int_yds_per_int": 31,
+    "def_int_td": 1,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Garnell Wilds",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "def_int": 5,
+    "def_int_yds": 8,
+    "def_int_yds_per_int": 1.6,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Jimmy Williams",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "def_int": 1,
+    "def_int_yds": 9,
+    "def_int_yds_per_int": 9,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Mikal Baaqee",
+   "pos": "LB",
+   "stats": {
+    "games": 14,
+    "def_int": 1,
+    "def_int_yds": 25,
+    "def_int_yds_per_int": 25,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Ronyell Whitaker",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "def_int": 1,
+    "def_int_yds": 56,
+    "def_int_yds_per_int": 56,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Vegas Robinson",
+   "pos": "LB",
+   "stats": {
+    "games": 14,
+    "def_int": 3,
+    "def_int_yds": 16,
+    "def_int_yds_per_int": 5.3,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Vincent Fuller",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "def_int": 4,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Willie Pile",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "def_int": 4,
+    "def_int_yds": 171,
+    "def_int_yds_per_int": 42.8,
+    "def_int_td": 1,
+    "fumbles_rec": 0,
+    "fumbles_rec_yds": 0,
+    "fumbles_rec_td": 0
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Deangelo Hall",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "kick_ret": 0,
+    "kick_ret_yds": 0,
+    "kick_ret_td": 0,
+    "punt_ret": 22,
+    "punt_ret_yds": 352,
+    "punt_ret_yds_per_ret": 16,
+    "punt_ret_td": 2,
+    "all_purpose_yds": 476
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Ernest Wilford",
+   "pos": "WR",
+   "stats": {
+    "games": 14,
+    "kick_ret": 0,
+    "kick_ret_yds": 0,
+    "kick_ret_td": 0,
+    "punt_ret": 1,
+    "punt_ret_yds": 32,
+    "punt_ret_yds_per_ret": 32,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 957
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Jason Lallis",
+   "pos": "DL",
+   "stats": {
+    "games": 14,
+    "kick_ret": 0,
+    "kick_ret_yds": 0,
+    "kick_ret_td": 0,
+    "punt_ret": 1,
+    "punt_ret_yds": 1,
+    "punt_ret_yds_per_ret": 1,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 60
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Lee Suggs",
+   "pos": "RB",
+   "stats": {
+    "games": 14,
+    "kick_ret": 5,
+    "kick_ret_yds": 132,
+    "kick_ret_yds_per_ret": 26.4,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 1583
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Nathaniel Adibi",
+   "pos": "DL",
+   "stats": {
+    "games": 14,
+    "kick_ret": 0,
+    "kick_ret_yds": 0,
+    "kick_ret_td": 0,
+    "punt_ret": 1,
+    "punt_ret_yds": 30,
+    "punt_ret_yds_per_ret": 30,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 30
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Vincent Fuller",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "kick_ret": 1,
+    "kick_ret_yds": 0,
+    "kick_ret_yds_per_ret": 0,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 0
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Doug Easlick",
+   "pos": "RB",
+   "stats": {
+    "games": 13,
+    "kick_ret": 1,
+    "kick_ret_yds": 10,
+    "kick_ret_yds_per_ret": 10,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 220
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Justin Hamilton",
+   "pos": "WR",
+   "stats": {
+    "games": 13,
+    "kick_ret": 2,
+    "kick_ret_yds": 34,
+    "kick_ret_yds_per_ret": 17,
+    "kick_ret_td": 0,
+    "punt_ret": 2,
+    "punt_ret_yds": 46,
+    "punt_ret_yds_per_ret": 23,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 136
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Richard Johnson",
+   "pos": "WR",
+   "stats": {
+    "games": 13,
+    "kick_ret": 23,
+    "kick_ret_yds": 485,
+    "kick_ret_yds_per_ret": 21.1,
+    "kick_ret_td": 0,
+    "punt_ret": 14,
+    "punt_ret_yds": 100,
+    "punt_ret_yds_per_ret": 7.1,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 754
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Cedric Humes",
+   "pos": "RB",
+   "stats": {
+    "games": 12,
+    "kick_ret": 1,
+    "kick_ret_yds": 16,
+    "kick_ret_yds_per_ret": 16,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 160
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Lee Suggs",
+   "pos": "RB",
+   "stats": {
+    "games": 14,
+    "rush_td": 22,
+    "rec_td": 2,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 24,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 144,
+    "points_per_game": 10.3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Carter Warley",
+   "pos": "K",
+   "stats": {
+    "games": 10,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 0,
+    "xpm": 36,
+    "xpa": 37,
+    "fgm": 9,
+    "fga": 15,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 63,
+    "points_per_game": 6.3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Kevin Jones",
+   "pos": "RB",
+   "stats": {
+    "games": 13,
+    "rush_td": 9,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 9,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 54,
+    "points_per_game": 4.2
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Ernest Wilford",
+   "pos": "WR",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 7,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 7,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 42,
+    "points_per_game": 3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Nic Schmitt",
+   "pos": "K",
+   "stats": {
+    "games": 4,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 0,
+    "xpm": 14,
+    "xpa": 14,
+    "fgm": 2,
+    "fga": 6,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 20,
+    "points_per_game": 5
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Bryan Randall",
+   "pos": "QB",
+   "stats": {
+    "games": 14,
+    "rush_td": 3,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 3,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 18,
+    "points_per_game": 1.3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Deangelo Hall",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 2,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 1,
+    "all_td": 3,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 18,
+    "points_per_game": 1.3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Willie Pile",
+   "pos": "DB",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 1,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Alex Markogiannakis",
+   "pos": "LB",
+   "stats": {
+    "games": 10,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 1,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.6
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Shawn Witten",
+   "pos": "WR",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Mike Imoh",
+   "pos": "RB",
+   "stats": {
+    "games": 5,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 1.2
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Keith Willis",
+   "pos": "TE",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "John Candelas",
+   "pos": "RB",
+   "stats": {
+    "games": 2,
+    "rush_td": 1,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Jeff King",
+   "pos": "TE",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Jason Lallis",
+   "pos": "DL",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 1,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Doug Easlick",
+   "pos": "RB",
+   "stats": {
+    "games": 13,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.5
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Darryl Tapp",
+   "pos": "DL",
+   "stats": {
+    "games": 14,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 1,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Jon Mollerup",
+   "pos": "K",
+   "stats": {
+    "games": 1,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 0,
+    "xpm": 1,
+    "xpa": 2,
+    "fgm": 1,
+    "fga": 2,
+    "two_pt_md": 0,
+    "safety_md": 0,
+    "total_points": 4,
+    "points_per_game": 4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Richard Johnson",
+   "pos": "WR",
+   "stats": {
+    "games": 13,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "fumbles_rec_td": 0,
+    "def_int_td": 0,
+    "all_td": 0,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 1,
+    "safety_md": 0,
+    "total_points": 2,
+    "points_per_game": 0.2
+   }
+  }
+ ]
+}
