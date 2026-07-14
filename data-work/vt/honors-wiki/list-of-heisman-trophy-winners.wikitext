@@ -1,0 +1,1529 @@
+<!-- source: https://en.wikipedia.org/wiki/List_of_Heisman_Trophy_winners -->
+{{Short description|none}}
+{{Use American English|date=December 2025}}
+{{Use mdy dates|date=January 2021}}
+{{infobox sports award
+| name           = Heisman Trophy
+| current_awards = 
+| image          = 2026-0116 Fernando Mendoza Heisman.jpeg
+| imagesize      =
+| caption        = 
+| description    = The outstanding college football player whose performance best exhibits the pursuit of excellence with integrity.  Winners epitomize great ability combined with diligence, perseverance, and hard work.
+| presenter      = {{Ubl
+  | [[Downtown Athletic Club]] (1937–2001)
+  | [[Yale Club]] (2002–2003)
+  | The Heisman Trust (2004–present)
+  }}
+| location       =
+| year           = HB [[Jay Berwanger]] (1935)
+| holder         = QB [[Fernando Mendoza]] (2025)
+| website        = 
+}}
+
+The [[Heisman Trophy]], one of the highest individual awards in American [[college football]], has been awarded annually since its creation in 1935. The trophy is given to the most outstanding college football player in the [[National Collegiate Athletic Association]] (NCAA) [[NCAA Division I Football Bowl Subdivision|Division I Football Bowl Subdivision]] (FBS), and is awarded by the Heisman Trust, successors of the awards from the [[Downtown Athletic Club]] at an annual ceremony.
+
+==History==
+The DAC Trophy was established in 1935 by the Downtown Athletic Club in New York City to recognize the best college football player "east of the [[Mississippi River]]".<ref name="Lighten"/> In that inaugural year, the award went to [[Jay Berwanger]] from the [[Chicago Maroons football|University of Chicago]]. Berwanger was later [[NFL draft|drafted]] by the [[Philadelphia Eagles]] of the [[National Football League]] but declined to sign with them. He never played professional football for any team, instead choosing to pursue a career in business.<ref>[http://www-news.uchicago.edu/releases/02/020627.berwanger.shtml Jay Berwanger, first winner of the Heisman Trophy, 1914–2002] {{Webarchive|url=https://web.archive.org/web/20080511211650/http://www-news.uchicago.edu/releases/02/020627.berwanger.shtml |date=May 11, 2008 }} Julia Morse, University of Chicago News Office. Chicago, Illinois. June 27, 2002. Accessed March 7, 2008.</ref> In 1936, the club's athletic director, football pioneer [[John Heisman]], died and the trophy was renamed in his honor. [[Larry Kelley]], the second winner of the award, was the first to win it as the "Heisman Trophy".<ref>{{cite web|url=http://www.heisman.com/history/heisman_trophy.php |title=The Heisman Trophy |publisher=heisman.com |access-date=January 2, 2012 |url-status=dead |archive-url=https://web.archive.org/web/20120103181703/http://www.heisman.com/history/heisman_trophy.php |archive-date=January 3, 2012 }}</ref> In addition to the name change, the award also became a nationwide achievement. With the new name, players west of the Mississippi became eligible; the first player from the western United States was selected in 1938, [[TCU Horned Frogs football|TCU]] quarterback [[Davey O'Brien]].<ref name="Lighten">[http://www.encyclopedia.com/doc/1G1-15962158.html Lighten up. (Heisman Trophy)] Mark Purdy, ''The Sporting News'', encyclopedia.com. December 5, 1994. Accessed March 8, 2008. (Site defunct prior to 9/10) {{webarchive |url=https://web.archive.org/web/20080205161035/http://www.encyclopedia.com/doc/1G1-15962158.html |date=February 5, 2008 }}</ref>
+
+On June 10, 2010, following several years of investigation, the NCAA announced that [[USC Trojans football|USC]] running back [[Reggie Bush]], the 2005 Heisman trophy winner, received gifts from agents while still in college. The university received major sanctions,<ref name="ESPNSanctions">[https://www.espn.com/los-angeles/ncf/news/story?id=5272615 USC punished with two-year football postseason ban] . [[ESPN]], June 11, 2010.</ref><ref>{{cite web|url=http://assets.espn.go.com/preview/100610/espn_uscpenalties.pdf |title=NCAA infraction report |access-date=September 20, 2010 |url-status=dead |archive-url=https://web.archive.org/web/20101205163308/http://assets.espn.go.com/preview/100610/espn_uscpenalties.pdf |archive-date=December 5, 2010 }}</ref> and there were reports that the Heisman Trophy Trust would strip his award.<ref>{{cite web |url=https://www.nfl.com/news/heisman-trust-leader-denies-decision-to-revoke-bush-s-trophy-09000d5d81a536d9 |title=news: Heisman Trust leader denies decision to revoke Bush's trophy |publisher=NFL |date=September 7, 2010 |access-date=September 20, 2010 |archive-date=August 9, 2020 |archive-url=https://web.archive.org/web/20200809181058/https://www.nfl.com/news/heisman-trust-leader-denies-decision-to-revoke-bush-s-trophy-09000d5d81a536d9 |url-status=live }}</ref> In September of that year, Bush voluntarily forfeited his title as the 2005 winner. The Heisman Trust decided to leave the award vacated with no new winner to be announced for the season.<ref>{{cite news|title=Reggie Bush's Heisman to stay vacated |date=September 16, 2010 |publisher=ESPN |url=https://www.espn.com/los-angeles/ncf/news/story?id=5576729 |archive-url=https://web.archive.org/web/20160110131236/http://sports.espn.go.com/los-angeles/ncf/news/story?id=5576729 |archive-date=January 10, 2016 |url-status=live }}</ref> Eventually, on April 24, 2024, the Heisman Trust announced the reinstatement of Bush's trophy due to 2021 rule changes regarding player compensation.<ref>{{cite news |title=Reggie Bush to have Heisman Trophy returned |date=April 24, 2024 |publisher=ESPN |url=https://www.espn.com/college-football/story/_/id/40014492/reggie-bush-heisman-trophy-returned |access-date=April 24, 2024 |archive-date=April 24, 2024 |archive-url=https://web.archive.org/web/20240424131545/https://www.espn.com/college-football/story/_/id/40014492/reggie-bush-heisman-trophy-returned |url-status=live }}</ref>
+
+A school has had a Heisman winner in back-to-back years six times ([[Yale Bulldogs football|Yale]] 1936–37, [[Army Black Knights football|Army]] 1945–46, [[Ohio State Buckeyes football|Ohio State]] 1974–75, [[USC Trojans football|USC]] 2004–05, [[Oklahoma Sooners football|Oklahoma]] 2017–18 and [[Alabama Crimson Tide football|Alabama]] 2020–21). Only one player, Ohio State's [[Archie Griffin]], has won the award twice.<ref>[http://www.heisman.com/winners/a-griffin74.php Archie Griffin] {{webarchive|url=https://web.archive.org/web/20120104142529/http://www.heisman.com/winners/a-griffin74.php |date=January 4, 2012 }} Heisman.com. Accessed December 23, 2012.</ref> Oklahoma is the only school to have two players win the award in back-to-back years playing the same position (quarterbacks [[Baker Mayfield]] followed by [[Kyler Murray]]).
+
+Between 1936 and 2001, the award was given at an annual gala ceremony at the Downtown Athletic Club in New York City. The Downtown Athletic Club's facilities were damaged during the [[September 11, 2001 attacks]]. Due to financial difficulties stemming from the damage, the DAC declared bankruptcy in 2002, turning over its building to creditors. Following the club's bankruptcy and the loss of the original Downtown Athletic Club building,<ref>[https://www.espn.com/espn/print?id=1583486&type=story New York landmark's closing leaves Heisman homeless]  Wayne Drehs, ESPN.com. July 22, 2004. Accessed March 8, 2008.</ref> the [[Yale Club of New York City]] assumed presenting honors in 2002 and 2003.<ref>[http://www.nydailynews.com/archives/sports/9-11-forces-heisman-move-yale-club-article-1.491867 9-11 Forces Heisman to Move to Yale Club] {{Webarchive|url=https://web.archive.org/web/20230627215012/https://www.nydailynews.com/archives/sports/9-11-forces-heisman-move-yale-club-article-1.491867 |date=June 27, 2023 }} Christopher Hunt, ''New York Daily News''. June 26, 2002. Accessed December 14, 2018.</ref><ref>[https://www.washingtonpost.com/archive/sports/2003/11/07/heisman-trophy-dinner-becomes-feast-for-the-public/5e3d9ff5-c80d-4129-87aa-f3ce4e998f10/ Heisman Trophy Dinner Becomes Feast for the Public] {{Webarchive|url=https://web.archive.org/web/20181215065945/https://www.washingtonpost.com/archive/sports/2003/11/07/heisman-trophy-dinner-becomes-feast-for-the-public/5e3d9ff5-c80d-4129-87aa-f3ce4e998f10/ |date=December 15, 2018 }} ''The Washington Post''. November 7, 2003. Accessed December 14, 2018.</ref> The ceremony was moved to the [[New York Marriott Marquis]] in [[Times Square]] for the 2002, 2003, and 2004 presentations. Between 2005 and 2019, the event was held at [[PlayStation Theater]] in Times Square.<ref>{{cite web|url= http://www.nyc-architecture.com/LM/LM063.htm|title= Downtown Athletic Club|access-date= March 7, 2008|publisher= nyc-architecture.com|archive-date= February 19, 2008|archive-url= https://web.archive.org/web/20080219021052/http://www.nyc-architecture.com/LM/LM063.htm|url-status= usurped}}</ref> The move to the PlayStation Theater allowed the Downtown Athletic Club (and ultimately, the award's successor, The Heisman Trust) to resume full control of the event (the most prominent example of which was the return of the official portraits of past winners), despite the loss of the original presentation hall.<ref>[https://www.espn.com/college-football/columns/story?columnist=maisel_ivan&id=2255303 Bush runs away with Heisman Trophy]  Ivan Maisel, ESPN.com. December 10, 2005. Accessed March 8, 2008.</ref> Shortly after the 2019 ceremony was held, the PlayStation Theater was permanently closed; as a result, the Heisman Trust began searching for a new location to conduct the trophy presentation. The 2020 ceremony would ultimately be held at the studios of ESPN in [[Bristol, Connecticut]] due to the [[COVID-19 pandemic]], with the ceremony being held on January 5, 2021.<ref>{{Cite web|date=November 14, 2020|title=Heisman Trophy to be awarded virtually Jan. 5|url=https://www.espn.com/college-football/story/_/id/30316085/heisman-trophy-awarded-virtual-ceremony-jan-5|access-date=November 16, 2020|website=ESPN.com|language=en|archive-date=November 15, 2020|archive-url=https://web.archive.org/web/20201115162906/https://www.espn.com/college-football/story/_/id/30316085/heisman-trophy-awarded-virtual-ceremony-jan-5|url-status=live}}</ref>
+
+In terms of balloting, the fifty states of the U.S. are split into six regions (Far West, Mid-Atlantic, Midwest, Northeast, South, Southwest), and six regional representatives are selected to appoint voters in their states.<ref>[http://nbcsports.msnbc.com/id/6700005/ Expanded Heisman Trophy Voting Results] {{Webarchive|url=https://web.archive.org/web/20080218100222/http://nbcsports.msnbc.com/id/6700005/ |date=February 18, 2008 }} MSNBC.com. Accessed March 8, 2008.</ref> Each region has 145 media votes, for a total of 870 votes. In addition, all previous Heisman winners may vote, and one final vote is counted through public balloting. The Heisman ballots contain a 3–2–1 point system, in which each ballot ranks the voter's top three players and awards them three points for a first-place vote, two points for a second-place vote, and one point for a third-place vote. The points are tabulated, and the player with the highest total of points across all ballots wins the Heisman Trophy.<ref>{{cite web |url=http://www.heisman.com/history/balloting.php |title=Heisman Trophy Balloting |access-date=January 2, 2012 |publisher=heisman.com |url-status=dead |archive-url=https://web.archive.org/web/20120723051736/http://www.heisman.com/history/balloting.php |archive-date=July 23, 2012 }}</ref>
+
+== List ==
+{|class="wikitable"
+|-
+|  style="background:#ffe6bd; text-align:center;"| *
+| colspan="5" | [[List of first overall NFL draft picks|First overall pick]] in the [[NFL draft]]
+|-
+|  style="background:#dfd; text-align:center;"| †
+| colspan="5" | [[List of Pro Football Hall of Fame inductees|Inducted]] into the [[Pro Football Hall of Fame]] 
+|-
+|  style="background:#d0e7ff; text-align:center;"| ‡
+| colspan="5" | First overall pick and Pro Football Hall of Fame member
+|}
+
+{| class="wikitable plainrowheaders sortable"
+|+ Heisman winners
+|-
+! scope="col" | Year
+! scope="col" class="unsortable" | Image
+! scope="col" | Name
+! scope="col" | School
+! scope="col" | Position
+! scope="col" | Points
+! scope="col" | % of points possible<ref name="stiffarm">{{cite web|last=Chisholm|first=Kari|title=A plea to sportswriters for statistical accuracy|authorlink=Kari Chisholm|url=http://www.stiffarmtrophy.com/2011/12/08/plea-sportswriters-statistical-accuracy/|work=Stiff Arm Trophy|access-date=December 19, 2011|archive-date=January 7, 2012|archive-url=https://web.archive.org/web/20120107054130/http://www.stiffarmtrophy.com/2011/12/08/plea-sportswriters-statistical-accuracy/|url-status=live}}</ref>
+! scope="col" | Class
+! Draft position<ref>{{Cite web |last=Huston |first=Chris |date=January 22, 2024 |orig-date=May 22, 2019 |title=Heisman Winners in the NFL Draft (Updated) |url=https://www.heisman.com/articles/heisman-winners-in-the-nfl-draft/ |url-status=live |archive-url=https://web.archive.org/web/20211212171129/https://www.heisman.com/articles/heisman-winners-in-the-nfl-draft/ |archive-date=December 12, 2021 |access-date=December 13, 2025 |website=Heisman |language=en-US}}</ref><ref group=n>Unless otherwise noted, these positions are for the NFL draft following their Heisman victory.</ref>
+!Team drafted by
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1935 college football season|1935]] 
+|
+| style="text-align:center;"| {{sortname|Jay|Berwanger}}* 
+| style="text-align:center;"| [[1935 Chicago Maroons football team|Chicago]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]]/[[Linebacker|LB]]
+| style="text-align:center;"| 84
+| style="text-align:center;"| 43.1%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1936 NFL draft|1st]]
+| [[1936 Philadelphia Eagles season|Philadelphia Eagles]]<ref group="n">Did not play professionally due to a salary dispute</ref>
+|-
+| style="text-align:center;"| [[1936 college football season|1936]] 
+| [[File:Larry Kelley, 1936 Heisman Trophy Winner.png|125px]]
+| style="text-align:center;"| {{sortname|Larry|Kelley}}
+| style="text-align:center;"| [[1936 Yale Bulldogs football team|Yale]] 
+| style="text-align:center;"| [[End (gridiron football)|End]] 
+| style="text-align:center;"| 219 
+| style="text-align:center;"| 36.4%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1937 NFL draft|87th]]
+| [[1937 Detroit Lions season|Detroit Lions]]<ref group="n" name="rejected">Rejected offers to play professional football</ref>
+|-
+| style="text-align:center;"| [[1937 college football season|1937]] 
+|
+| style="text-align:center;"| {{sortname|Clint|Frank}} 
+| style="text-align:center;"| [[1937 Yale Bulldogs football team|Yale]] (2)
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 524 
+| style="text-align:center;"| 32.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1938 NFL draft|106th]]
+| [[1938 Detroit Lions season|Detroit Lions]]<ref group="n" name="never played">Never played professional football</ref>
+|-
+| style="text-align:center;"| [[1938 college football season|1938]] 
+| [[File:Davey O'Brien.jpg|125px|alt=Davey O'Brien]]
+| style="text-align:center;"| {{sortname|Davey|O'Brien}} 
+| style="text-align:center;"| [[1938 TCU Horned Frogs football team|TCU]] 
+| style="text-align:center;"| [[Quarterback|QB]]/[[Defensive back|DB]] 
+| style="text-align:center;"| 519 
+| style="text-align:center;"| 29.6%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1939 NFL draft|4th]]
+| [[1939 Philadelphia Eagles season|Philadelphia Eagles]]
+|-
+| style="text-align:center;"| [[1939 college football season|1939]] 
+| [[File:Nile Kinnick.jpg|125px|alt=A picture of Nile Kinnick posing.]]
+| style="text-align:center;"| {{sortname|Nile|Kinnick}} 
+| style="text-align:center;"| [[1939 Iowa Hawkeyes football team|Iowa]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]]/[[Quarterback|QB]]
+| style="text-align:center;"| 651 
+| style="text-align:center;"| 31.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1940 NFL draft|14th]]
+| [[1940 Brooklyn Dodgers (NFL) season|Brooklyn Dodgers]]<ref group="n" name="rejected"/>
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1940 college football season|1940]] 
+| [[File:Tom Harmon 1938.jpg|125px|alt=Tom Harmon]]
+| style="text-align:center;"| {{sortname|Tom|Harmon}}* 
+| style="text-align:center;"| [[1940 Michigan Wolverines football team|Michigan]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 1,303 
+| style="text-align:center;"| 54.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1941 NFL draft|1st]]
+| [[1941 Chicago Bears season|Chicago Bears]]
+|-
+| style="text-align:center;"| [[1941 college football season|1941]] 
+| [[File:Bruce Smith 1943 (cropped).jpg|125px]]
+| style="text-align:center;"| {{sortname|Bruce|Smith|Bruce Smith (halfback)}} 
+| style="text-align:center;"| [[1941 Minnesota Golden Gophers football team|Minnesota]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 554 
+| style="text-align:center;"| 50.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1942 NFL draft|119th]]
+| [[1942 Green Bay Packers season|Green Bay Packers]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1942 college football season|1942]] 
+| [[File:Sinkwich bulldogs.jpg|125px|alt=Frank Sinkwich]]
+| style="text-align:center;"| {{sortname|Frank|Sinkwich}}* 
+| style="text-align:center;"| [[1942 Georgia Bulldogs football team|Georgia]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]]
+| style="text-align:center;"| 1,059 
+| style="text-align:center;"| 56.2%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1943 NFL draft|1st]]
+| [[1943 Detroit Lions season|Detroit Lions]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1943 college football season|1943]] 
+| [[File:Angelo Bertelli 1946.jpg|125px]]
+| style="text-align:center;"| {{sortname|Angelo|Bertelli}}* 
+| style="text-align:center;"| [[1943 Notre Dame Fighting Irish football team|Notre Dame]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 648 
+| style="text-align:center;"| 64.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1944 NFL draft|1st]]
+| [[1944 Boston Yanks season|Boston Yanks]]
+|-
+| style="text-align:center;"| [[1944 college football season|1944]] 
+| [[File:Les horvarth bowman card 1948.jpg|125px]]
+| style="text-align:center;"| {{sortname|Les|Horvath}} 
+| style="text-align:center;"| [[1944 Ohio State Buckeyes football team|Ohio State]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]]/[[Quarterback|QB]]
+| style="text-align:center;"| 412 
+| style="text-align:center;"| 18.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1943 NFL draft|45th (1943)]]
+| [[Cleveland Rams]]
+|-
+| style="text-align:center;"| [[1945 college football season|1945]] 
+| [[File:Doc Blanchard 1947 Howitzer Photo.jpg|125px|alt=Doc Blanchard]]
+| style="text-align:center;"| {{sortname|Doc|Blanchard}} 
+| style="text-align:center;"| [[1945 Army Cadets football team|Army]] 
+| style="text-align:center;"| [[Fullback (American football)|FB]]/[[Linebacker|LB]]
+| style="text-align:center;"| 860 
+| style="text-align:center;"| 33.8%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1946 NFL draft|3rd]]
+| [[1946 Pittsburgh Steelers season|Pittsburgh Steelers]]<ref group="n" name="military">Instead opted for a military career</ref>
+|-
+| style="text-align:center;"| [[1946 college football season|1946]] 
+| [[File:Glenn Davis 1947 Howitzer Photo.jpg|125px|alt=A picture of Glenn Davis posing.]]
+| style="text-align:center;"| {{sortname|Glenn|Davis|Glenn Davis (halfback)}} 
+| style="text-align:center;"| [[1946 Army Cadets football team|Army]] (2)
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 792 
+| style="text-align:center;"| 79.2%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1947 NFL draft|2nd]]
+| [[1947 Detroit Lions season|Detroit Lions]]
+|-
+| style="text-align:center;"| [[1947 college football season|1947]] 
+|[[File:John Lujack 1948 Bowman.jpg|125px|alt=A picture of John Lujack]]
+| style="text-align:center;"| {{sortname|Johnny|Lujack}} 
+| style="text-align:center;"| [[1947 Notre Dame Fighting Irish football team|Notre Dame]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]/[[Defensive back|DB]]
+| style="text-align:center;"| 742 
+| style="text-align:center;"| 74.2%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1946 NFL draft|4th (1946)]]
+| [[1946 Chicago Bears season|Chicago Bears]]
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1948 college football season|1948]] 
+| [[File:Doak_Walker_practicing_%288679147364%29_%282%29_%28cropped%29.jpg|125px|alt=A picture of Doak Walker.]]
+| style="text-align:center;"| {{sortname|Doak|Walker}}†
+| style="text-align:center;"| [[1948 SMU Mustangs football team|SMU]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 778 
+| style="text-align:center;"| 28.6%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1949 NFL draft|3rd]]
+| [[1949 New York Bulldogs season|New York Bulldogs]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1949 college football season|1949]] 
+| [[File:Hart-Leon-1953.jpg|125px|alt=A picture of Leon Hart.]]
+| style="text-align:center;"| {{sortname|Leon|Hart}}* 
+| style="text-align:center;"| [[1949 Notre Dame Fighting Irish football team|Notre Dame]] (3)
+| style="text-align:center;"| [[End (gridiron football)|End]] 
+| style="text-align:center;"| 995 
+| style="text-align:center;"| 36.5%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1950 NFL draft|1st]]
+| [[1950 Detroit Lions season|Detroit Lions]]
+|-
+| style="text-align:center;"| [[1950 college football season|1950]] 
+| [[File:Vic Janowicz 1953.jpg|125px|alt=A picture of Vic Janowicz.]]
+| style="text-align:center;"| {{sortname|Vic|Janowicz}} 
+| style="text-align:center;"| [[1950 Ohio State Buckeyes football team|Ohio State]] (2)
+| style="text-align:center;"| [[Halfback (American football)|HB]]/[[Punter (gridiron football)|P]] 
+| style="text-align:center;"| 633 
+| style="text-align:center;"| 22.0%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1952 NFL draft|79th (1952)]]
+| [[1952 Washington Redskins season|Washington Redskins]]
+|-
+| style="text-align:center;"| [[1951 college football season|1951]] 
+| [[File:Dick Kazmaier 1951.jpg|125px|alt=A picture of Dick Kazmaier.]]
+| style="text-align:center;"| {{sortname|Dick|Kazmaier}} 
+| style="text-align:center;"| [[1951 Princeton Tigers football team|Princeton]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 1,777 
+| style="text-align:center;"| 60.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1952 NFL draft|176th]]
+| [[1952 Chicago Bears season|Chicago Bears]]<ref group="n" name="never played"/>
+|-
+| style="text-align:center;"| [[1952 college football season|1952]] 
+| {{center|—}}
+| style="text-align:center;"| {{sortname|Billy|Vessels}} 
+| style="text-align:center;"| [[1952 Oklahoma Sooners football team|Oklahoma]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 525 
+| style="text-align:center;"| 14.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1953 NFL draft|2nd]]
+| [[1953 Baltimore Colts season|Baltimore Colts]]<ref group="n">Instead signed with the [[Edmonton Eskimos]] of the [[Western Interprovincial Football Union]] (WIFU)</ref>
+|-
+| style="text-align:center;"| [[1953 college football season|1953]] 
+| [[File:Johnny Lattner 1953 (2) (a).jpg|125 px|alt=A picture of Johnny Lattner playing football.]]
+| style="text-align:center;"| {{sortname|Johnny|Lattner}} 
+| style="text-align:center;"| [[1953 Notre Dame Fighting Irish football team|Notre Dame]] (4)
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 1,850 
+| style="text-align:center;"| 49.1%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1954 NFL draft|7th]]
+| [[1954 Pittsburgh Steelers season|Pittsburgh Steelers]]
+|-
+| style="text-align:center;"| [[1954 college football season|1954]] 
+| [[File:Alan Ameche.jpg|125px|alt=Alan Ameche]]
+| style="text-align:center;"| {{sortname|Alan|Ameche}} 
+| style="text-align:center;"| [[1954 Wisconsin Badgers football team|Wisconsin]] 
+| style="text-align:center;"| [[Fullback (American football)|FB]] 
+| style="text-align:center;"| 1,068 
+| style="text-align:center;"| 27.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1955 NFL draft|3rd]]
+| [[1955 Baltimore Colts season|Baltimore Colts]]
+|-
+| style="text-align:center;"| [[1955 college football season|1955]] 
+| [[File:Howard Cassady (1953 Makio).jpg|125px|alt=A picture of Howard Cassady posing.]]
+| style="text-align:center;"| {{sortname|Howard|Cassady}} 
+| style="text-align:center;"| [[1955 Ohio State Buckeyes football team|Ohio State]] (3)
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 2,219
+| style="text-align:center;"| 55.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1956 NFL draft|3rd]]
+| [[1956 Detroit Lions season|Detroit Lions]]
+|- style="background:#d0e7ff;"
+| style="text-align:center;"| [[1956 college football season|1956]] 
+| [[File:1961_Topps_40_Paul_Hornung.jpg|125px|alt=Top 1961 playing card of Paul Hornung.]]
+| style="text-align:center;"| {{sortname|Paul|Hornung}}‡ 
+| style="text-align:center;"| [[1956 Notre Dame Fighting Irish football team|Notre Dame]] (5)
+| style="text-align:center;"| [[Quarterback|QB]] 
+| style="text-align:center;"| 1,066 
+| style="text-align:center;"| 27.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1957 NFL draft|1st]]
+| [[1957 Green Bay Packers season|Green Bay Packers]]
+|-
+| style="text-align:center;"| [[1957 college football season|1957]] 
+| [[File:John David Crow in 2012.jpg|125px|alt=A picture of John David Crow posing.]]
+| style="text-align:center;"| {{sortname|John David|Crow}} 
+| style="text-align:center;"| [[1957 Texas A&M Aggies football team|Texas A&M]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 1,183 
+| style="text-align:center;"| 31.1%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1958 NFL draft|2nd]]
+| [[1958 Chicago Cardinals season|Chicago Cardinals]]
+|-
+| style="text-align:center;"| [[1958 college football season|1958]] 
+| [[File:Pete Dawkins, 1959, West Point Cadet.jpg|125px|alt=A picture of Pete Dawkins posing.]]
+| style="text-align:center;"| {{sortname|Pete|Dawkins}} 
+| style="text-align:center;"| [[1958 Army Cadets football team|Army]] (3)
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 1,394 
+| style="text-align:center;"| 39.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| Undrafted<ref group=n name="military/>
+|
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1959 college football season|1959]] 
+| [[File:Billy Cannon at LSU.jpg|125px]]
+| style="text-align:center;"| {{sortname|Billy|Cannon}}* 
+| style="text-align:center;"| [[1959 LSU Tigers football team|LSU]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]]
+| style="text-align:center;"| 1,929 
+| style="text-align:center;"| 53.7%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1960 NFL draft|1st]]
+| [[1960 Los Angeles Rams season|Los Angeles Rams]]<ref group="n">Instead signed with the [[1960 Houston Oilers season|Houston Oilers]] of the [[American Football League]] (AFL), who selected him second overall in the [[1960 AFL draft]]</ref>
+|-
+| style="text-align:center;"| [[1960 college football season|1960]] 
+| [[File:Joe Bellino.jpg|125px|alt=Joe Bellino]]
+| style="text-align:center;"| {{sortname|Joe|Bellino}} 
+| style="text-align:center;"| [[1960 Navy Midshipmen football team|Navy]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 1,793 
+| style="text-align:center;"| 52.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1961 NFL draft|227th]]
+| [[1961 Washington Redskins season|Washington Redskins]]<ref group="n">Instead signed with the [[1961 Boston Patriots season|Boston Patriots]] of the [[American Football League]] (AFL), who selected him 146th overall in the [[1961 AFL draft]]</ref>
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1961 college football season|1961]] 
+| [[File:Ernie davis topps card.jpg|125px|alt=Davis on Topps trading card]]
+| style="text-align:center;"| {{sortname|Ernie|Davis}}* 
+| style="text-align:center;"| [[1961 Syracuse Orangemen football team|Syracuse]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]]/[[Linebacker|LB]]/[[Fullback (gridiron football)|FB]] 
+| style="text-align:center;"| 824 
+| style="text-align:center;"| 25.2%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1962 NFL draft|1st]]
+| [[1962 Washington Redskins season|Washington Redskins]]<ref group="n">Never played for the Redskins, as he was traded to the [[Cleveland Browns]]. Unfortunately, Davis never got to play with the Browns as he was diagnosed with leukemia that same year, and died shortly afterwards without ever playing in a professional game.</ref>
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1962 NCAA University Division football season|1962]]
+| [[File:1963 NCAA Basketball Championship program - Terry Baker (cropped).jpg|125px]]
+| style="text-align:center;"| {{sortname|Terry|Baker}}* 
+| style="text-align:center;"| [[1962 Oregon State Beavers football team|Oregon State]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 707 
+| style="text-align:center;"| 21.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1963 NFL draft|1st]]
+| [[1963 Los Angeles Rams season|Los Angeles Rams]]
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1963 NCAA University Division football season|1963]] 
+| [[File:Staubach cowboys qb.jpg|125px]]
+| style="text-align:center;"| {{sortname|Roger|Staubach}}†
+| style="text-align:center;"| [[1963 Navy Midshipmen football team|Navy]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,860 
+| style="text-align:center;"| 55.2%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1964 NFL draft|129th]]<ref group="n">Did not join the Cowboys until 1969 due to his four-year military commitment</ref>
+| [[1964 Dallas Cowboys season|Dallas Cowboys]]
+|-
+| style="text-align:center;"| [[1964 NCAA University Division football season|1964]] 
+| {{center|—}}
+| style="text-align:center;"| {{sortname|John|Huarte}} 
+| style="text-align:center;"| [[1964 Notre Dame Fighting Irish football team|Notre Dame]] (6)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,026 
+| style="text-align:center;"| 31.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1965 NFL draft|76th]]
+| [[1965 Philadelphia Eagles season|Philadelphia Eagles]]<ref group="n">Instead signed with the [[1965 New York Jets season|New York Jets]] of the [[American Football League]] (AFL), who selected him 12th overall in the [[1965 AFL draft]]</ref>
+|-
+| style="text-align:center;"| [[1965 NCAA University Division football season|1965]] 
+| [[File:Mike Garrett, 1965.jpg|125px|alt=A picture of Mike Garrett posing.]]
+| style="text-align:center;"| {{sortname|Mike|Garrett}} 
+| style="text-align:center;"| [[1965 USC Trojans football team|USC]] 
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 926 
+| style="text-align:center;"| 26.6%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1966 NFL draft|18th]]
+| [[1966 Los Angeles Rams season|Los Angeles Rams]]
+|-
+| style="text-align:center;"| [[1966 NCAA University Division football season|1966]] 
+| [[File:Steve_Spurrier_(1965_Seminole).png|125px|alt=Steve Spurrier]]
+| style="text-align:center;"| {{sortname|Steve|Spurrier}} 
+| style="text-align:center;"| [[1966 Florida Gators football team|Florida]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,679 
+| style="text-align:center;"| 48.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1967 NFL draft|3rd]]
+| [[1967 San Francisco 49ers season|San Francisco 49ers]]
+|-
+| style="text-align:center;"| [[1967 NCAA University Division football season|1967]] 
+| {{center|—}}
+| style="text-align:center;"| {{sortname|Gary|Beban}} 
+| style="text-align:center;"| [[1967 UCLA Bruins football team|UCLA]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,968 
+| style="text-align:center;"| 63.5%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1968 NFL draft|30th]]
+| [[1968 Los Angeles Rams season|Los Angeles Rams]]
+|- style="background:#d0e7ff;"
+| style="text-align:center;"| [[1968 NCAA University Division football season|1968]] 
+| [[File:O.J. Simpson 1990 · DN-ST-91-03444 crop.JPEG|125px|alt=A picture of O.J. Simpson posing.]]
+| style="text-align:center;"| {{sortname|O. J.|Simpson}}‡ 
+| style="text-align:center;"| [[1968 USC Trojans football team|USC]] (2)
+| style="text-align:center;"| [[Halfback (American football)|HB]] 
+| style="text-align:center;"| 2,853 
+| style="text-align:center;"| 80.6%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1969 NFL draft|1st]]
+| [[1969 Buffalo Bills season|Buffalo Bills]]
+|-
+| style="text-align:center;"| [[1969 NCAA University Division football season|1969]] 
+| [[File:Steve Owens (American football).jpg|125px|alt=A picture of Steve Owens.]]
+| style="text-align:center;"| {{sortname|Steve|Owens|Steve Owens (American football)}} 
+| style="text-align:center;"| [[1969 Oklahoma Sooners football team|Oklahoma]] (2)
+| style="text-align:center;"| [[Fullback (American football)|FB]] 
+| style="text-align:center;"| 1,488 
+| style="text-align:center;"| 40.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1970 NFL draft|19th]]
+| [[1970 Detroit Lions season|Detroit Lions]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1970 NCAA University Division football season|1970]]
+| [[File:Jim Plunkett (cropped).jpg|125px|alt=A picture of Jim Plunkett on a phone.]] 
+| style="text-align:center;"| {{sortname|Jim|Plunkett}}* 
+| style="text-align:center;"| [[1970 Stanford Indians football team|Stanford]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,229 
+| style="text-align:center;"| 58.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1971 NFL draft|1st]]
+| [[1971 New England Patriots season|New England Patriots]]
+|-
+| style="text-align:center;"| [[1971 NCAA University Division football season|1971]] 
+| {{center|—}}
+| style="text-align:center;"| {{sortname|Pat|Sullivan|Pat Sullivan (American football)}} 
+| style="text-align:center;"| [[1971 Auburn Tigers football team|Auburn]]
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,597 
+| style="text-align:center;"| 42.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1972 NFL draft|40th]]
+| [[1972 Atlanta Falcons season|Atlanta Falcons]]
+|-
+| style="text-align:center;"| [[1972 NCAA University Division football season|1972]] 
+| [[File:Johnny Rodgers, circa 1971.png|125px|alt=Johnny Rodgers as a Nebraska Cornhuskers]] 
+| style="text-align:center;"| {{sortname|Johnny|Rodgers}}
+| style="text-align:center;"| [[1972 Nebraska Cornhuskers football team|Nebraska]] 
+| style="text-align:center;"| [[Wide receiver|WR]]/[[Running back|RB]]
+| style="text-align:center;"| 1,310 
+| style="text-align:center;"| 38.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1973 NFL draft|25th]]
+| [[1973 San Diego Chargers season|San Diego Chargers]]<ref group="n">Instead signed with the [[Montreal Alouettes]] of the [[Canadian Football League]] (CFL). He joined the Chargers in 1977.</ref>
+|-
+| style="text-align:center;"| [[1973 NCAA Division I football season|1973]] 
+| [[File:1986 Jeno's Pizza - 18 - John Cappelletti (Jeff Siemon crop).jpg|125px|alt=John Cappelletti as a Los Angeles Ram]] 
+| style="text-align:center;"| {{sortname|John|Cappelletti}} 
+| style="text-align:center;"| [[1973 Penn State Nittany Lions football team|Penn State]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,057 
+| style="text-align:center;"| 32.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1974 NFL draft|11th]]
+| [[1974 Los Angeles Rams season|Los Angeles Rams]]
+|-
+| style="text-align:center;"| [[1974 NCAA Division I football season|1974]]
+| rowspan="2"| [[File:Archie Griffin.jpg|125px|alt=A picture of Archie Griffin on a phone.]]
+| rowspan="2" style="text-align:center;"| {{sortname|Archie|Griffin}} 
+| rowspan="2" style="text-align:center;"| {{br list | [[Ohio State Buckeyes football|Ohio State]] | (4, 5)}}
+| rowspan="2" style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,920 
+| style="text-align:center;"| 59.5%
+| style="text-align:center;"| {{sort|3|Junior}}
+| rowspan="2" | [[1976 NFL draft|24th]]
+| rowspan="2" | [[1976 Cincinnati Bengals season|Cincinnati Bengals]]
+|-
+| style="text-align:center;"| [[1975 NCAA Division I football season|1975]] 
+| style="text-align:center;"| 1,800 
+| style="text-align:center;"| 57.6%
+| style="text-align:center;"| {{sort|4|Senior}}
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1976 NCAA Division I football season|1976]] 
+| [[File:Tony Dorsett.jpg|125px|alt=A picture of Tony Dorsett on a phone.]]
+| style="text-align:center;"| {{sortname|Tony|Dorsett}}†
+| style="text-align:center;"| [[1976 Pittsburgh Panthers football team|Pittsburgh]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 2,357 
+| style="text-align:center;"| 75.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1977 NFL draft|2nd]]
+| [[1977 Dallas Cowboys season|Dallas Cowboys]]
+|- style="background:#d0e7ff;"
+| style="text-align:center;"| [[1977 NCAA Division I football season|1977]] 
+| [[File:Houston Oilers at Pittsburgh Steelers 1981-10-26 (ticket) (crop).jpg|125px|alt=A picture of Earl Campbell rushing the ball.]]
+| style="text-align:center;"| {{sortname|Earl|Campbell}}‡
+| style="text-align:center;"| [[1977 Texas Longhorns football team|Texas]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,547 
+| style="text-align:center;"| 49.1%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1978 NFL draft|1st]]
+| [[1978 Houston Oilers season|Houston Oilers]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1978 NCAA Division I-A football season|1978]] 
+| [[File:BillySimsWithFan (cropped).JPG|125px]]
+| style="text-align:center;"| {{sortname|Billy|Sims}}* 
+| style="text-align:center;"| [[1978 Oklahoma Sooners football team|Oklahoma]] (3)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 827 
+| style="text-align:center;"| 26.3%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1980 NFL draft|1st (1980)]]
+| [[1980 Detroit Lions season|Detroit Lions]]
+|-
+| style="text-align:center;"| [[1979 NCAA Division I-A football season|1979]]
+| {{center|—}} 
+| style="text-align:center;"| {{sortname|Charles|White|Charles White (American football)}} 
+| style="text-align:center;"| [[1979 USC Trojans football team|USC]] (3)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,695 
+| style="text-align:center;"| 53.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1980 NFL draft|27th]]
+| [[1980 Cleveland Browns season|Cleveland Browns]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1980 NCAA Division I-A football season|1980]]
+| [[File:George Rogers statue (Columbia, SC).jpg|125px|alt=A picture of the George Rogers statue in Columbia, SC]] 
+| style="text-align:center;"| {{sortname|George|Rogers|George Rogers (American football)}}* 
+| style="text-align:center;"| [[1980 South Carolina Gamecocks football team|South Carolina]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,128 
+| style="text-align:center;"| 35.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1981 NFL draft|1st]]
+| [[1981 New Orleans Saints season|New Orleans Saints]]
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1981 NCAA Division I-A football season|1981]] 
+| [[File:Marcus Allen.jpg|125px|alt=A picture of Marcus Allen golfing.]]
+| style="text-align:center;"| {{sortname|Marcus|Allen}}†
+| style="text-align:center;"| [[1981 USC Trojans football team|USC]] (4)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,797 
+| style="text-align:center;"| 57.1%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1982 NFL draft|10th]]
+| [[1982 Los Angeles Raiders season|Los Angeles Raiders]]
+|-
+| style="text-align:center;"| [[1982 NCAA Division I-A football season|1982]] 
+| [[File:Herschel Walker 130515-D-DB155-044 (8749868178).jpg|125px|alt=A picture of Herschel Walker posing.]] 
+| style="text-align:center;"| {{sortname|Herschel|Walker}} 
+| style="text-align:center;"| [[1982 Georgia Bulldogs football team|Georgia]] (2)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,926 
+| style="text-align:center;"| 61.1%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1985 NFL draft|114th (1985)]]
+| [[1985 Dallas Cowboys season|Dallas Cowboys]]<ref group="n">Signed with the [[1983 New Jersey Generals season|New Jersey Generals]] of the [[United States Football League]] (USFL) in 1983. He joined the Cowboys after the USFL folded in 1986.</ref>
+|-
+| style="text-align:center;"| [[1983 NCAA Division I-A football season|1983]] 
+| [[File:Mike_Rozier.jpg|125px|alt=A picture of Mike Rozier in 1987.]]
+| style="text-align:center;"| {{sortname|Mike|Rozier}} 
+| style="text-align:center;"| [[1983 Nebraska Cornhuskers football team|Nebraska]] (2)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,801 
+| style="text-align:center;"| 57.2%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1984 USFL draft|1st (USFL)]]<ref group="n">Selected by the [[1984 Houston Oilers season|Houston Oilers]] second overall in the [[1984 NFL supplemental draft of USFL and CFL players|1984 supplemental draft]], joining them in 1985</ref>
+| [[1984 Pittsburgh Maulers season|Pittsburgh Maulers]]
+|-
+| style="text-align:center;"| [[1984 NCAA Division I-A football season|1984]] 
+| [[File:Doug Flutie, Generals football press conference.jpg|125px|alt=A picture of Doug Flutie posing.]] 
+| style="text-align:center;"| {{sortname|Doug|Flutie}} 
+| style="text-align:center;"| [[1984 Boston College Eagles football team|Boston College]]
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,240 
+| style="text-align:center;"| 71.1%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1985 NFL draft|285th]]
+| [[1985 Los Angeles Rams season|Los Angeles Rams]]<ref group="n">Instead signed with the [[New Jersey Generals]] of the [[United States Football League]] (USFL). After the USFL folded in 1986, the Rams traded his rights to the [[1986 Chicago Bears season|Chicago Bears]]</ref>
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1985 NCAA Division I-A football season|1985]] 
+| [[File:Bo Jackson, 2011 NCAA Honors Celebration, San Antonio, TX.jpg|125px|alt=Bo Jackson]]
+| style="text-align:center;"| {{sortname|Bo|Jackson}}* 
+| style="text-align:center;"| [[1985 Auburn Tigers football team|Auburn]] (2)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,509 
+| style="text-align:center;"| 47.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1986 NFL draft|1st]]<ref group="n">Refused to play for the Buccaneers and was re-drafted by the [[1987 Los Angeles Raiders season|Los Angeles Raiders]] 183rd overall in the [[1987 NFL draft]]</ref>
+| [[1986 Tampa Bay Buccaneers season|Tampa Bay Buccaneers]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[1986 NCAA Division I-A football season|1986]] 
+| [[File:Vinny Testaverde throwing the ball during a game in Miami (cropped).jpg|125px|alt=Vinny Testaverde]]
+| style="text-align:center;"| {{sortname|Vinny|Testaverde}}* 
+| style="text-align:center;"| [[1986 Miami Hurricanes football team|Miami (FL)]] 
+| style="text-align:center;"| [[Quarterback|QB]] 
+| style="text-align:center;"| 2,213 
+| style="text-align:center;"| 70.3%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1987 NFL draft|1st]]
+| [[1987 Tampa Bay Buccaneers season|Tampa Bay Buccaneers]]
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1987 NCAA Division I-A football season|1987]] 
+| [[File:Tim Brown.jpg|125px|alt=A picture of Tim Brown wearing a jersey.]]
+| style="text-align:center;"| {{sortname|Tim|Brown|Tim Brown (American football)}}†
+| style="text-align:center;"| [[1987 Notre Dame Fighting Irish football team|Notre Dame]] (7)
+| style="text-align:center;"| [[Wide receiver|WR]]
+| style="text-align:center;"| 1,442 
+| style="text-align:center;"| 45.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1988 NFL draft|6th]]
+| [[1988 Los Angeles Raiders season|Los Angeles Raiders]]
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1988 NCAA Division I-A football season|1988]] 
+| [[File:Barry Sanders.JPG|125px|alt=A picture of Barry Sanders posing.]]
+| style="text-align:center;"| {{sortname|Barry|Sanders}}†
+| style="text-align:center;"| [[1988 Oklahoma State Cowboys football team|Oklahoma State]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,878 
+| style="text-align:center;"| 68.3%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1989 NFL draft|3rd]]
+| [[1989 Detroit Lions season|Detroit Lions]]
+|-
+| style="text-align:center;"| [[1989 NCAA Division I-A football season|1989]] 
+| [[File:Andre Ware at Houston.jpg|125px|alt=A picture of Andre Ware wearing pads.]]
+| style="text-align:center;"| {{sortname|Andre|Ware}} 
+| style="text-align:center;"| [[1989 Houston Cougars football team|Houston]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,073 
+| style="text-align:center;"| 39.0%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1990 NFL draft|7th]]
+| [[1990 Detroit Lions season|Detroit Lions]]
+|-
+| style="text-align:center;"| [[1990 NCAA Division I-A football season|1990]] 
+| [[File:Ty Detmer 6-2009.jpg|125px|alt=A picture of Ty Detmer wearing a button down.]]
+| style="text-align:center;"| {{sortname|Ty|Detmer}} 
+| style="text-align:center;"| [[1990 BYU Cougars football team|BYU]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,482 
+| style="text-align:center;"| 53.9%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1992 NFL draft|230th (1992)]]
+| [[1992 Green Bay Packers season|Green Bay Packers]]
+|-
+| style="text-align:center;"| [[1991 NCAA Division I-A football season|1991]] 
+| [[File:Desmond Howard with Heisman Trophy statuette 1991.jpg|125px|alt=A picture of Desmond Howard with Heisman Trophy statuette.]]
+| style="text-align:center;"| {{sortname|Desmond|Howard}} 
+| style="text-align:center;"| [[1991 Michigan Wolverines football team|Michigan]] (2)
+| style="text-align:center;"| [[Wide receiver|WR]]/[[Punt returner|PR]] 
+| style="text-align:center;"| 2,077 
+| style="text-align:center;"| 75.5%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1992 NFL draft|4th]]
+| [[1992 Washington Redskins season|Washington Redskins]]
+|-
+| style="text-align:center;"| [[1992 NCAA Division I-A football season|1992]] 
+| [[File:Gino.torretta.jpg|125px|alt=A picture of Gino Torreta posing.]]
+| style="text-align:center;"| {{sortname|Gino|Torretta}} 
+| style="text-align:center;"| [[1992 Miami Hurricanes football team|Miami (FL)]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,400 
+| style="text-align:center;"| 50.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1993 NFL draft|192nd]]
+| [[1993 Minnesota Vikings season|Minnesota Vikings]]
+|-
+| style="text-align:center;"| [[1993 NCAA Division I-A football season|1993]] 
+| [[File:Charlie Ward 1991.jpg|125px|alt=A picture of Charlie Ward wearing a football uniform.]]
+| style="text-align:center;"| {{sortname|Charlie|Ward}} 
+| style="text-align:center;"| [[1993 Florida State Seminoles football team|Florida State]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,310 
+| style="text-align:center;"| 83.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+|Undrafted<ref group="n">Instead opted for a basketball career, and was drafted 26th in the [[1994 NBA draft]] by the [[1994–95 New York Knicks season|New York Knicks]]</ref>
+|
+|-
+| style="text-align:center;"| [[1994 NCAA Division I-A football season|1994]] 
+|
+| style="text-align:center;"| {{sortname|Rashaan|Salaam}} 
+| style="text-align:center;"| [[1994 Colorado Buffaloes football team|Colorado]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,743 
+| style="text-align:center;"| 63.2%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1995 NFL draft|21st]]
+|[[1995 Chicago Bears season|Chicago Bears]]
+|- 
+| style="text-align:center;"| [[1995 NCAA Division I-A football season|1995]] 
+| [[File:Eddie George (cropped).jpg|125px|alt=A picture of Eddie George wearing sunglasses.]]
+| style="text-align:center;"| {{sortname|Eddie|George}} 
+| style="text-align:center;"| [[1995 Ohio State Buckeyes football team|Ohio State]] (6)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,460 
+| style="text-align:center;"| 52.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1996 NFL draft|14th]]
+|[[1996 Houston Oilers season|Houston Oilers]]
+|-
+| style="text-align:center;"| [[1996 NCAA Division I-A football season|1996]] 
+| [[File:DWuerffel Headshot.png|125px|alt=Danny Wuerffel]]
+| style="text-align:center;"| {{sortname|Danny|Wuerffel}} 
+| style="text-align:center;"| [[1996 Florida Gators football team|Florida]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,363 
+| style="text-align:center;"| 49.4%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1997 NFL draft|136th]]
+|[[1997 New Orleans Saints season|New Orleans Saints]]
+|- style="background:#dfd;"
+| style="text-align:center;"| [[1997 NCAA Division I-A football season|1997]] 
+| [[File:Charles Woodson 2014 2.JPG|125px|alt=Charles Woodson]]
+| style="text-align:center;"| {{sortname|Charles|Woodson}}†
+| style="text-align:center;"| [[1997 Michigan Wolverines football team|Michigan]] (3)
+| style="text-align:center;"| [[Corner back|CB]]
+| style="text-align:center;"| 1,815 
+| style="text-align:center;"| 65.7%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[1998 NFL draft|4th]]
+|[[1998 Oakland Raiders season|Oakland Raiders]]
+|-
+| style="text-align:center;"| [[1998 NCAA Division I-A football season|1998]] 
+| [[File:Ricky Williams3.jpg|125px|alt=A picture of Ricky Williams while playing for the Dolphins.]]
+| style="text-align:center;"| {{sortname|Ricky|Williams}} 
+| style="text-align:center;"| [[1998 Texas Longhorns football team|Texas]] (2)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 2,355 
+| style="text-align:center;"| 85.2%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[1999 NFL draft|5th]]
+|[[1999 New Orleans Saints season|New Orleans Saints]]
+|-
+| style="text-align:center;"| [[1999 NCAA Division I-A football season|1999]] 
+| [[File:Ron Dayne 2010 (adjusted).jpg|125px|alt=Ron Dayne in 2010.]]
+| style="text-align:center;"| {{sortname|Ron|Dayne}} 
+| style="text-align:center;"| [[1999 Wisconsin Badgers football team|Wisconsin]] (2)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 2,042 
+| style="text-align:center;"| 73.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2000 NFL draft|11th]]
+|[[2000 New York Giants season|New York Giants]]
+|-
+| style="text-align:center;"| [[2000 NCAA Division I-A football season|2000]] 
+| [[File:Chris Weinke 2001.jpg|125px|alt=A picture of Chris Weinke at a podium.]]
+| style="text-align:center;"| {{sortname|Chris|Weinke}} 
+| style="text-align:center;"| [[2000 Florida State Seminoles football team|Florida State]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,628 
+| style="text-align:center;"| 58.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2001 NFL draft|106th]]
+|[[2001 Carolina Panthers season|Carolina Panthers]]
+|-
+| style="text-align:center;"| [[2001 NCAA Division I-A football season|2001]] 
+| {{center|—}}
+| style="text-align:center;"| {{sortname|Eric|Crouch}} 
+| style="text-align:center;"| [[2001 Nebraska Cornhuskers football team|Nebraska]] (3)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 770 
+| style="text-align:center;"| 27.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2002 NFL draft|95th]]
+|[[2002 St. Louis Rams season|St. Louis Rams]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2002 NCAA Division I-A football season|2002]] 
+| [[File:Carson Palmer 2012-09-30.jpg|125px|alt=A picture of Carson Palmer playing for the Raiders.]]
+| style="text-align:center;"| {{sortname|Carson|Palmer}}* 
+| style="text-align:center;"| [[2002 USC Trojans football team|USC]] (5)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,328 
+| style="text-align:center;"| 48.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2003 NFL draft|1st]]
+|[[2003 Cincinnati Bengals season|Cincinnati Bengals]]
+|-
+| style="text-align:center;"| [[2003 NCAA Division I-A football season|2003]] 
+| [[File:Jason White, football player (2007).jpg|125px|alt=A picture of Jason White while with the Sooners.]]
+| style="text-align:center;"| {{sortname|Jason|White|Jason White (American football)}} 
+| style="text-align:center;"| [[2003 Oklahoma Sooners football team|Oklahoma]] (4)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,481 
+| style="text-align:center;"| 53.5%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2005 NFL draft|Undrafted (2005)]]
+|
+|-
+| style="text-align:center;"| [[2004 NCAA Division I-A football season|2004]] 
+| [[File:LeinartHeisman2005.jpg|125px|alt=A picture of Matt Leinart holding his Heisman trophy.]]
+| style="text-align:center;"| {{sortname|Matt|Leinart}} 
+| style="text-align:center;"| [[2004 USC Trojans football team|USC]] (6)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,325 
+| style="text-align:center;"| 47.9%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2006 NFL draft|10th (2006)]]
+|[[2006 Arizona Cardinals season|Arizona Cardinals]]
+|-
+| style="text-align:center;"| [[2005 NCAA Division I FBS football season|2005]]
+| [[File:ReggieBush2005.jpg|125px|alt=Reggie Bush]]
+| style="text-align:center;"| [[Reggie Bush]]
+| style="text-align:center;"| [[2005 USC Trojans football team|USC]] (7)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 2,541 
+| style="text-align:center;"| 91.8%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2006 NFL draft|2nd]]
+|[[2006 New Orleans Saints season|New Orleans Saints]]
+|-
+| style="text-align:center;"| [[2006 NCAA Division I FBS football season|2006]]
+| [[File:Troy Smith, 2009.jpg|125px|alt=Troy Smith]] 
+| style="text-align:center;"| {{sortname|Troy|Smith}} 
+| style="text-align:center;"| [[2006 Ohio State Buckeyes football team|Ohio State]] (7)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,540 
+| style="text-align:center;"| 91.6%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2007 NFL draft|174th]]
+|[[2007 Baltimore Ravens season|Baltimore Ravens]]
+|-
+| style="text-align:center;"| [[2007 NCAA Division I FBS football season|2007]] 
+| [[File:Tim Tebow Denver Sports Authority Field 2012-01-01.jpg|125px|alt=A picture of Tim Tebow throwing a pass.]] 
+| style="text-align:center;"| {{sortname|Tim|Tebow}} 
+| style="text-align:center;"| [[2007 Florida Gators football team|Florida]] (3)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,957 
+| style="text-align:center;"| 70.5%
+| style="text-align:center;"| {{sort|2|Sophomore}}
+| [[2010 NFL draft|25th (2010)]]
+|[[2010 Denver Broncos season|Denver Broncos]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2008 NCAA Division I FBS football season|2008]] 
+| [[File:Rams quarterback Sam Bradford at the coaching clinic.jpg|125px|alt=Sam Bradford]] 
+| style="text-align:center;"| {{sortname|Sam|Bradford}}* 
+| style="text-align:center;"| [[2008 Oklahoma Sooners football team|Oklahoma]] (5)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,726 
+| style="text-align:center;"|  62.1%
+| style="text-align:center;"| {{sort|2|Sophomore}}
+| [[2010 NFL draft|1st (2010)]]
+|[[2010 St. Louis Rams season|St. Louis Rams]]
+|-
+| style="text-align:center;"| [[2009 NCAA Division I FBS football season|2009]] 
+| [[File:Mark Ingram, Jr. at the White House 2010-03-08 3.jpg|125px|alt=A picture of Mark Ingram at the White House.]] 
+| style="text-align:center;"| {{sortname|Mark|Ingram II}} 
+| style="text-align:center;"| [[2009 Alabama Crimson Tide football team|Alabama]] 
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,304 
+| style="text-align:center;"| 47.0%
+| style="text-align:center;"| {{sort|2|Sophomore}}
+| [[2011 NFL draft|28th (2011)]]
+|[[2011 New Orleans Saints season|New Orleans Saints]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2010 NCAA Division I FBS football season|2010]] 
+| [[File:Cam newton 2016.jpg|125px|alt=Cam Newton]]
+| style="text-align:center;"| {{sortname|Cam|Newton}}* 
+| style="text-align:center;"| [[2010 Auburn Tigers football team|Auburn]] (3)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,263 
+| style="text-align:center;"| 81.6%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2011 NFL draft|1st]]
+|[[2011 Carolina Panthers season|Carolina Panthers]]
+|-
+| style="text-align:center;"| [[2011 NCAA Division I FBS football season|2011]] 
+| [[File:Robert Griffin III - Baylor quarterback.jpg|125px|alt=A picture of Robert Griffin smiling.]]
+| style="text-align:center;"| {{sortname|Robert|Griffin III}} 
+| style="text-align:center;"| [[2011 Baylor Bears football team|Baylor]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 1,687 
+| style="text-align:center;"| 60.7%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2012 NFL draft|2nd]]
+|[[2012 Washington Redskins season|Washington Redskins]]
+|-
+| style="text-align:center;"| [[2012 NCAA Division I FBS football season|2012]] 
+| [[File:Johnny_Manziel_2015.jpg|125px|alt=A picture of Johnny Manziel in 2015.]]
+| style="text-align:center;"| {{sortname|Johnny|Manziel}} 
+| style="text-align:center;"| [[2012 Texas A&M Aggies football team|Texas A&M]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,029 
+| style="text-align:center;"| 72.9%
+| style="text-align:center;"| {{sort|1|Freshman}}
+| [[2014 NFL draft|22nd (2014)]]
+|[[2014 Cleveland Browns season|Cleveland Browns]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2013 NCAA Division I FBS football season|2013]] 
+| [[File:Jameis Winston 2013 headcrop.jpg|125px|alt=A picture of Jameis Winston while shaking someone's hand.]]
+| style="text-align:center;"| {{sortname|Jameis|Winston}}* 
+| style="text-align:center;"| [[2013 Florida State Seminoles football team|Florida State]] (3)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,205 
+| style="text-align:center;"| 79.1%
+| style="text-align:center;"| {{sort|1|Freshman}} 
+| [[2015 NFL draft|1st (2015)]]
+|[[2015 Tampa Bay Buccaneers season|Tampa Bay Buccaneers]]
+|-
+| style="text-align:center;"| [[2014 NCAA Division I FBS football season|2014]] 
+| [[File:Marcus Mariota 2018.jpg|125px|alt=Marcus Mariota]]
+| style="text-align:center;"| {{sortname|Marcus|Mariota}} 
+| style="text-align:center;"| [[2014 Oregon Ducks football team|Oregon]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,534
+| style="text-align:center;"| 90.9%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2015 NFL draft|2nd]]
+|[[2015 Tennessee Titans season|Tennessee Titans]]
+|-
+| style="text-align:center;"| [[2015 NCAA Division I FBS football season|2015]] 
+| [[File:Derrick Henry 2018 08-09.jpg|125px|alt=Henry in the NFL.]]
+| style="text-align:center;"| {{sortname|Derrick|Henry}} 
+| style="text-align:center;"| [[2015 Alabama Crimson Tide football team|Alabama]] (2)
+| style="text-align:center;"| [[Running back|RB]]
+| style="text-align:center;"| 1,832
+| style="text-align:center;"| 65.7%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2016 NFL draft|45th]]
+|[[2016 Tennessee Titans season|Tennessee Titans]]
+|-
+| style="text-align:center;"| [[2016 NCAA Division I FBS football season|2016]]
+| [[File:Lamar Jackson 2020.jpg|125px|alt=Lamar Jackson]]
+| style="text-align:center;"| {{sortname|Lamar|Jackson}} 
+| style="text-align:center;"| [[2016 Louisville Cardinals football team|Louisville]] 
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,144
+| style="text-align:center;"| 79.5%
+| style="text-align:center;"| {{sort|2|Sophomore}}
+| [[2018 NFL draft|32nd (2018)]]
+|[[2018 Baltimore Ravens season|Baltimore Ravens]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2017 NCAA Division I FBS football season|2017]]
+| [[File:2017-0717-Big12MD-BakerMayfield.jpg|125px|alt=Mayfield at 2017 Big 12 Media Days]]
+| style="text-align:center;"| {{sortname|Baker|Mayfield}}*
+| style="text-align:center;"| [[2017 Oklahoma Sooners football team|Oklahoma]] (6)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,398
+| style="text-align:center;"| 86.0%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2018 NFL draft|1st]]
+|[[2018 Cleveland Browns season|Cleveland Browns]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2018 NCAA Division I FBS football season|2018]] 
+| [[File:Kyler Murray in huddle (50369475187) (cropped).jpg|125px|alt=Murray with Texas Tech]]
+| style="text-align:center;"| {{sortname|Kyler|Murray}}*
+| style="text-align:center;"| [[2018 Oklahoma Sooners football team|Oklahoma]] (7)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"|2,167
+| style="text-align:center;"| 77.8%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2019 NFL draft|1st]]
+|[[2019 Arizona Cardinals season|Arizona Cardinals]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2019 NCAA Division I FBS football season|2019]]
+| [[File:Joe Burrow (SELU vs LSU, September 8, 2018).jpg|125px|]]
+| style="text-align:center;"| {{sortname|Joe|Burrow}}*
+| style="text-align:center;"| [[2019 LSU Tigers football team|LSU]] (2)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"|2,608
+| style="text-align:center;"| 93.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2020 NFL draft|1st]]
+|[[2020 Cincinnati Bengals season|Cincinnati Bengals]]
+|- 
+| style="text-align:center;"| [[2020 NCAA Division I FBS football season|2020]]
+| [[File:WFT at Eagles - 51771281044 (cropped).jpg|125px|alt=DeVonta Smith]]
+| style="text-align:center;"| {{sortname|DeVonta|Smith}}
+| style="text-align:center;"| [[2020 Alabama Crimson Tide football team|Alabama]] (3)
+| style="text-align:center;"| [[Wide receiver|WR]]
+| style="text-align:center;"| 1,856
+| style="text-align:center;"| 66.8%
+| style="text-align:center;"| {{sort|4|Senior}}
+| [[2021 NFL draft|10th]]
+|[[2021 Philadelphia Eagles season|Philadelphia Eagles]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2021 NCAA Division I FBS football season|2021]]
+|[[File:Bryce Young at W.P.T. Hill Field - 2024 - 02 (cropped).jpg|165x165px|alt=Bryce Young posing]]
+| style="text-align:center;"| {{sortname|Bryce|Young}}*
+| style="text-align:center;"| [[2021 Alabama Crimson Tide football team|Alabama]] (4)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,311
+| style="text-align:center;"| 83.0%
+| style="text-align:center;"| {{sort|2|Sophomore}}
+| [[2023 NFL draft|1st (2023)]]
+|[[2023 Carolina Panthers season|Carolina Panthers]]
+|- |- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2022 NCAA Division I FBS football season|2022]]
+| 
+| style="text-align:center;"| {{sortname|Caleb|Williams}}*
+| style="text-align:center;"| [[2022 USC Trojans football team|USC]] (8)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,031
+| style="text-align:center;"| 72.9%
+| style="text-align:center;"| {{sort|2|Sophomore}}
+|[[2024 NFL draft|1st (2024)]]
+|[[2024 Chicago Bears season|Chicago Bears]]
+|-
+| style="text-align:center;"| [[2023 NCAA Division I FBS football season|2023]]
+| [[File:Jayden Daniels LSU v Arkansas (cropped).jpg|125px|alt=Jayden Daniels]]
+| style="text-align:center;"| {{sortname|Jayden|Daniels}}
+| style="text-align:center;"| [[2023 LSU Tigers football team|LSU]] (3)
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,029
+| style="text-align:center;"| 72.9%
+| style="text-align:center;"| {{sort|4|Senior}}
+|[[2024 NFL draft|2nd]]
+|[[2024 Washington Commanders season|Washington Commanders]]
+|-
+| style="text-align:center;"| [[2024 NCAA Division I FBS football season|2024]]
+| [[File:Travis Hunter 2024 (cropped).jpg|125px|alt=Travis Hunter]]
+| style="text-align:center;"| {{sortname|Travis|Hunter}}
+| style="text-align:center;"| [[2024 Colorado Buffaloes football team|Colorado]] (2)
+| style="text-align:center;"| [[Cornerback|CB]]/[[Wide receiver|WR]]
+| style="text-align:center;"| 2,231
+| style="text-align:center;"| 80.1%
+| style="text-align:center;"| {{sort|3|Junior}}
+|[[2025 NFL draft|2nd]]
+|[[2025 Jacksonville Jaguars season|Jacksonville Jaguars]]
+|- style="background:#ffe6bd;"
+| style="text-align:center;"| [[2025 NCAA Division I FBS football season|2025]]
+| [[File:2026-0117 Fernando Mendoza.jpeg|frameless|163x163px]]
+| style="text-align:center;"| {{sortname|Fernando|Mendoza}}*
+| style="text-align:center;"|  [[2025 Indiana Hoosiers football team|Indiana]]
+| style="text-align:center;"| [[Quarterback|QB]]
+| style="text-align:center;"| 2,362 
+| style="text-align:center;"|  84.7%
+| style="text-align:center;"| {{sort|3|Junior}}
+| [[2026 NFL draft|1st]]
+| [[2026 Las Vegas Raiders season|Las Vegas Raiders]]
+|}
+'''<big>Notes</big>'''{{Reflist|group=n}}
+
+== By school ==
+This is a list of the colleges and universities who have had a player win a Heisman trophy. [[USC Trojans football|USC]] has the most trophies with eight. Ohio State has the distinction of the only two-time winner, [[Archie Griffin]]. In total, players from 41 schools have won a Heisman Trophy, while 20 schools have more than one trophy.
+
+{| class="wikitable sortable" style="text-align:center;" width="auto"
+|-
+! School
+! Trophies
+|-
+| [[USC Trojan football|USC]]
+| 8
+|-
+| [[Notre Dame Fighting Irish football|Notre Dame]]
+| rowspan="3" | 7
+|-
+| [[Ohio State Buckeyes football|Ohio State]]
+|-
+| [[Oklahoma Sooners football|Oklahoma]]
+|-
+| [[Alabama Crimson Tide football|Alabama]]
+| rowspan="1" | 4
+|-
+| | [[Army Black Knights football|Army]]
+| rowspan="7" | 3
+|-
+| [[Auburn Tigers football|Auburn]]
+|-
+| [[Florida Gators football|Florida]]
+|-
+| [[Florida State Seminoles football|Florida State]]
+|-
+| [[LSU Tigers football|LSU]]
+|-
+| [[Michigan Wolverines football|Michigan]]
+|-
+| [[Nebraska Cornhuskers football|Nebraska]]
+|-
+| [[Colorado Buffaloes football|Colorado]]
+| rowspan="8" |2
+|-
+| [[Georgia Bulldogs football|Georgia]]
+|-
+| [[Miami Hurricanes football|Miami (FL)]]
+|-
+| [[Navy Midshipmen football|Navy]]
+|-
+| [[Texas Longhorns football|Texas]]
+|-
+| [[Texas A&M Aggies football|Texas A&M]]
+|-
+| [[Wisconsin Badgers football|Wisconsin]]
+|-
+| [[Yale Bulldogs football|Yale]]
+|-
+| [[Baylor Bears football|Baylor]]
+| rowspan="21" | 1
+|-
+| [[BYU Cougars football|BYU]]
+|-
+| [[Boston College Eagles football|Boston College]]
+|-
+| [[Chicago Maroons football|Chicago]]
+|-
+| [[Houston Cougars football|Houston]]
+|-
+| [[Indiana Hoosiers football|Indiana]]
+|-
+| [[Iowa Hawkeyes football|Iowa]]
+|-
+| [[Louisville Cardinals football|Louisville]]
+|-
+| [[Minnesota Golden Gophers football|Minnesota]]
+|-
+| [[Oklahoma State Cowboys|Oklahoma State]]
+|-
+| [[Oregon Ducks football|Oregon]]
+|-
+| [[Oregon State Beavers football|Oregon State]]
+|-
+| [[Penn State Nittany Lions football|Penn State]]
+|-
+| [[Pittsburgh Panthers football|Pittsburgh]]
+|-
+| [[Princeton Tigers football|Princeton]]
+|-
+| [[South Carolina Gamecocks football|South Carolina]]
+|-
+| [[SMU Mustangs football|SMU]]
+|-
+| [[Stanford Cardinal football|Stanford]]
+|-
+| [[Syracuse Orange football|Syracuse]]
+|-
+| [[TCU Horned Frogs football|TCU]]
+|-
+| [[UCLA Bruins football|UCLA]]
+|-
+|}
+
+== By position ==
+This is how many Heisman Trophies have been won by players in each position.
+{| class="wikitable sortable"
+|+
+!Position
+!1961 and prior
+!1962 and later
+!Total
+|-
+|CB
+|0
+|1
+|1
+|-
+|CB/WR
+|0
+|1
+|1
+|-
+|End
+|2
+|0
+|2
+|-
+|FB
+|2
+|1
+|3
+|-
+|HB
+|15
+|2
+|17
+|-
+|HB/LB/FB
+|1
+|0
+|1
+|-
+|HB/P
+|1
+|0
+|1
+|-
+|HB/QB
+|2
+|0
+|2
+|-
+|QB
+|4
+|35
+|39
+|-
+|RB
+|0
+|20
+|20
+|-
+|WR
+|0
+|3
+|3
+|-
+|WR/PR
+|0
+|1
+|1
+|}
+
+== Retroactive selections ==
+
+In 2009, the [[National Football Foundation]] (NFF) retroactively selected [[Heisman Trophy]] winners for the years between 1889 and 1934. The selections were made by [[sportswriter]] and NFF historian [[Dan Jenkins]] and published by the NFF.<ref>{{Cite web |url=http://www.footballfoundation.org/Portals/7/nff/file_file/2009_footballetter_issue_3.pdf |title=The Definitive Retroactive Heisman Memorial Trophy|author=Dan Jenkins|year=2009|work=National Football Foundation's Footballeter |access-date=2016-09-11 |archive-url=https://web.archive.org/web/20130126011919/http://www.footballfoundation.org/Portals/7/nff/file_file/2009_footballetter_issue_3.pdf |archive-date=2013-01-26 |url-status=dead }}</ref>
+{| class="wikitable plainrowheaders sortable"
+|+ 
+|-
+! Year
+! Image
+! Name
+! School
+! Position
+|- 
+| [[1889 college football season|1889]] 
+| [[File:Amos Alonzo Stagg 1899 UC yearbook.png|100x100px]]
+| {{sortname|Amos Alonzo|Stagg}}
+| [[1889 Yale Bulldogs football team|Yale]] 
+| [[End (American football)|E]] 
+|- 
+| [[1890 college football season|1890]] 
+| [[File:Pudge heffelfinger.jpg|100x100px]]
+| {{sortname|Pudge|Heffelfinger}}
+| [[1890 Yale Bulldogs football team|Yale]] 
+| [[Guard (American football)|G]]
+|- 
+| [[1891 college football season|1891]]
+| [[File:Bum McClung.jpg|100x100px]]
+| {{sortname|Lee|McClung}}
+| [[1891 Yale Bulldogs football team|Yale]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1892 college football season|1892]] 
+| [[File:Marshall Newell.jpg|100x100px]]
+| {{sortname|Marshall|Newell}}
+| [[1892 Harvard Crimson football team|Harvard]] 
+| [[Tackle (American football)|T]]
+|- 
+| [[1893 college football season|1893]] 
+| [[File:Frank Hinkey.jpg|100x100px]]
+| {{sortname|Frank|Hinkey}}
+| [[1893 Yale Bulldogs football team|Yale]] 
+| [[End (American football)|E]]
+|- 
+| [[1894 college football season|1894]] 
+| [[File:Frank S. Butterworth LCCN2014687365.jpg|100x100px]]
+| {{sortname|Frank|Butterworth}}
+| [[1894 Yale Bulldogs football team|Yale]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1895 college football season|1895]] 
+| [[File:George H. Brooke.jpg|100x100px]]
+| {{sortname|George H.|Brooke}}
+| [[1895 Penn Quakers football team|Penn]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1896 college football season|1896]]
+| [[File:Addison W Kelly.jpg|100x100px]]
+| {{sortname|Addison|Kelly}}
+| [[1896 Princeton Tigers football team|Princeton]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1897 college football season|1897]] 
+| [[File:John Outland.jpg|100x100px]]
+| {{sortname|John|Outland}}
+| [[1897 Penn Quakers football team|Penn]] 
+| [[Tackle (American football)|T]]
+|- 
+| [[1898 college football season|1898]] 
+| [[File:Clarence Herschberger.jpg|100x100px]]
+| {{sortname|Clarence|Herschberger}}
+| [[1898 Chicago Maroons football team|Chicago]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1899 college football season|1899]]
+| [[File:Truxton Hare.jpg|100x100px]]
+| {{sortname|Truxtun|Hare}}
+| [[1899 Penn Quakers football team|Penn]] 
+| [[Guard (American football)|G]]/[[Fullback (American football)|FB]]
+|- 
+| [[1900 college football season|1900]]
+| [[File:Charles Dudley Daly close shot (American Football book).jpg|100x100px]]
+| {{sortname|Charles Dudley|Daly}}
+| [[1900 Harvard Crimson football team|Harvard]] 
+| [[Quarterback|QB]]
+|- 
+| [[1901 college football season|1901]] 
+| [[File:Harold Weekes.jpg|100x100px]]
+| {{sortname|Harold|Weekes}}
+| [[1901 Columbia Lions football team|Columbia]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1902 college football season|1902]] 
+| [[File:Paul Bunker.jpg|100x100px]]
+| {{sortname|Paul|Bunker}}
+| [[1902 Army Cadets football team|Army]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1903 college football season|1903]] 
+| [[File:John DeWitt.jpg|100x100px]]
+| {{sortname|John|DeWitt|John DeWitt (athlete)}}
+| [[1903 Princeton Tigers football team|Princeton]] 
+| [[Guard (American football)|G]]
+|- 
+| [[1904 college football season|1904]] 
+| [[File:Willie Heston (bentley image).jpg|100x100px]]
+| {{sortname|Willie|Heston}}
+| [[1904 Michigan Wolverines football team|Michigan]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1905 college football season|1905]] 
+| [[File:Tom Shevlin.jpg|100x100px]]
+| {{sortname|Tom|Shevlin}}
+| [[1905 Yale Bulldogs football team|Yale]] 
+| [[End (American football)|E]]
+|- 
+| [[1906 college football season|1906]] 
+| [[File:Walter Eckersall.jpg|100x100px]]
+| {{sortname|Walter|Eckersall}}
+| [[1906 Chicago Maroons football team|Chicago]] 
+| [[Quarterback|QB]]
+|- 
+| [[1907 college football season|1907]]
+| [[File:Germany Schulz.JPG|100x100px]]
+| {{sortname|Germany|Schulz}}
+| [[1907 Michigan Wolverines football team|Michigan]] 
+| [[Center (American football)|C]]
+|- 
+| [[1908 college football season|1908]]
+| [[File:Gefenton.jpg|100x100px]]
+| {{sortname|Doc|Fenton}}
+| [[1908 LSU Tigers football team|LSU]] 
+| [[Quarterback|QB]]
+|- 
+| [[1909 college football season|1909]]
+| [[File:Ted Coy.jpg|100x100px]]
+| {{sortname|Ted|Coy}}
+| [[1909 Yale Bulldogs football team|Yale]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1910 college football season|1910]]
+|
+| {{sortname|John|McGovern|John McGovern (American football)}}
+| [[1910 Minnesota Golden Gophers football team|Minnesota]] 
+| [[Quarterback|QB]]
+|- 
+| [[1911 college football season|1911]]
+| [[File:Face detail, from- Jim Thorpe Canton Bulldogs 1915-20 (cropped).png|100x100px]]
+| {{sortname|Jim|Thorpe}}
+| [[1911 Carlisle Indians football team|Carlisle]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1912 college football season|1912]]
+| [[File:HobeyBakerPrinceton1.jpg|100x100px]]
+| {{sortname|Hobey|Baker}}
+| [[1912 Princeton Tigers football team|Princeton]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1913 college football season|1913]]
+| [[File:Charles E. Brickley full shot (American Football book).jpg|100x100px]]
+| {{sortname|Charles|Brickley}}
+| [[1913 Harvard Crimson football team|Harvard]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1914 college football season|1914]]
+| [[File:Eddie Mahan (cropped).jpg|100x100px]]
+| {{sortname|Eddie|Mahan}}
+| [[1914 Harvard Crimson football team|Harvard]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1915 college football season|1915]]
+| [[File:Bart Macomber.jpg|100x100px]]
+| {{sortname|Bart|Macomber}}
+| [[1915 Illinois Fighting Illini football team|Illinois]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1916 college football season|1916]]
+| [[File:CatchyOliphant.jpg|100x100px]]
+| {{sortname|Elmer|Oliphant}}
+| [[1916 Army Cadets football team|Army]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1917 college football season|1917]]
+| [[File:Chic Harley.jpg|100x100px]]
+| {{sortname|Chic|Harley}}
+| [[1917 Ohio State Buckeyes football team|Ohio State]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1918 college football season|1918]]
+| [[File:Pete Henry.jpg|100x100px]]
+| {{sortname|Pete|Henry}}
+| [[1918 Washington & Jefferson Presidents football team|Washington & Jefferson]] 
+| [[Tackle (American football)|T]]
+|- 
+| [[1919 college football season|1919]]
+|
+| {{sortname|Chic|Harley}}
+| [[1919 Ohio State Buckeyes football team|Ohio State]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1920 college football season|1920]]
+| [[File:George gipp portrait.jpg|100x100px]]
+| {{sortname|George|Gipp}}
+| [[1920 Notre Dame Fighting Irish football team|Notre Dame]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1921 college football season|1921]]
+| [[File:Bo McMillin (c. 1920).jpg|100x100px]]
+| {{sortname|Bo|McMillin}}
+| [[1921 Centre Praying Colonels football team|Centre]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1922 college football season|1922]]
+| [[File:Harold Muller.jpg|100x100px]]
+| {{sortname|Brick|Muller}}
+| [[1922 California Golden Bears football team|California]] 
+| [[End (American football)|E]]
+|- 
+| [[1923 college football season|1923]]
+| [[File:George Pfann.jpg|100x100px]]
+| {{sortname|George|Pfann}}
+| [[1923 Cornell Big Red football team|Cornell]] 
+| [[Quarterback|QB]]
+|- 
+| [[1924 college football season|1924]]
+| [[File:Red Grange, 1926.jpg|100x100px]]
+| {{sortname|Red|Grange}}
+| [[1924 Illinois Fighting Illini football team|Illinois]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1925 college football season|1925]]
+| [[File:Ernie Nevers, 1930s.jpg|100x100px]]
+| {{sortname|Ernie|Nevers}}
+| [[1925 Stanford football team|Stanford]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1926 college football season|1926]]
+| [[File:Ben Friedman (1926).jpg|100x100px]]
+| {{sortname|Benny|Friedman}}
+| [[1926 Michigan Wolverines football team|Michigan]] 
+| [[Quarterback|QB]]
+|- 
+| [[1927 college football season|1927]]
+|
+| {{sortname|Morley|Drury}}
+| [[1927 USC Trojans football team|USC]] 
+| [[Quarterback|QB]]
+|- 
+| [[1928 college football season|1928]]
+| [[File:Chris Cagle.jpg|100x100px]]
+| [[Chris Cagle (American football)|Chris Cagle]]
+| [[1928 Army Cadets football team|Army]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1929 college football season|1929]]
+| [[File:Bronko Nagurski.jpg|100x100px]]
+| {{sortname|Bronko|Nagurski}}
+| [[1929 Minnesota Golden Gophers football team|Minnesota]] 
+| [[Fullback (American football)|FB]]
+|- 
+| [[1930 college football season|1930]]
+| [[File:Frank Carideo.jpg|100x100px]]
+| {{sortname|Frank|Carideo}}
+| [[1930 Notre Dame Fighting Irish football team|Notre Dame]] 
+| [[Quarterback|QB]]
+|- 
+| [[1931 college football season|1931]]
+| [[File:Gaius Shaver.jpg|100x100px]]
+| {{sortname|Gaius|Shaver}}
+| [[1931 USC Trojans football team|USC]] 
+| [[Quarterback|QB]]
+|- 
+| [[1932 college football season|1932]]
+| [[File:Harry Newman.jpg|100x100px]]
+| [[Harry Newman (American football)|Harry Newman]]
+| [[1932 Michigan Wolverines football team|Michigan]] 
+| [[Quarterback|QB]]
+|- 
+| [[1933 college football season|1933]]
+| [[File:Beattie Feathers 1932.png|100x100px]]
+| {{sortname|Beattie|Feathers}}
+| [[1933 Tennessee Volunteers football team|Tennessee]] 
+| [[Halfback (American football)|HB]]
+|- 
+| [[1934 college football season|1934]]
+| [[File:Hutson-Don-1940.jpg|100x100px]]
+| {{sortname|Don|Hutson}}
+| [[1934 Alabama Crimson Tide football team|Alabama]] 
+| [[End (American football)|E]]
+|}
+
+== References ==
+{{Reflist}}
+
+==External links==
+{{Commons category|Heisman Trophy winners}}
+* {{Official website|http://www.heisman.com/|Heisman Trophy official website}}
+
+{{Heisman Winners}}
+{{College football award navbox}}
+{{featured list}}
+
+{{DEFAULTSORT:Heisman Trophy winners}}
+[[Category:Heisman Trophy winners|*]]

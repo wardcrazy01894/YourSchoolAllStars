@@ -1,0 +1,896 @@
+{
+ "Antwaun Powell-Ryland": {
+  "position": "DE",
+  "source": "https://www.gobblercountry.com/2025/4/27/24419115/2025-nfl-draft-philadelphia-eagles-virginia-tech-hokies-antwaun-powell-ryland",
+  "confidence": "high",
+  "note": "Edge/DE, transitioned from OLB; 16-sack 2024 season confirms edge rusher role"
+ },
+ "Corey Moore": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/Corey_Moore",
+  "confidence": "high",
+  "note": "Nagurski/Lombardi winner 1999 as defensive end"
+ },
+ "Cornell Brown": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/Cornell_Brown",
+  "confidence": "high",
+  "note": "Two-time All-American DE, #2 all-time VT sacks leader"
+ },
+ "J.C. Price": {
+  "position": "DT",
+  "source": "https://en.wikipedia.org/wiki/J._C._Price",
+  "confidence": "high",
+  "note": "Wikipedia explicitly lists position as defensive tackle"
+ },
+ "Cols Colas": {
+  "position": "DE",
+  "source": "https://www.thekeyplay.com/content/2017/may/31/final-chapter-who-wore-it-best-virginia-tech-football-all-numbers-team-90-99",
+  "confidence": "medium",
+  "note": "Described as DE wearing #99, tied for team sack lead 2002"
+ },
+ "Darryl Tapp": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/Darryl_Tapp",
+  "confidence": "high",
+  "note": "Boundary DE, drafted by Seahawks as DE"
+ },
+ "Nathaniel Adibi": {
+  "position": "DE",
+  "source": "https://virginiatech.sportswar.com/player/Nathaniel-Adibi-2427/",
+  "confidence": "medium",
+  "note": "Recruited/played strong-side DE at VT; some NFL coverage later labeled him OLB post-college"
+ },
+ "Steven Friday": {
+  "position": "DE",
+  "source": "https://n.rivals.com/content/athletes/stephen-friday-46070",
+  "confidence": "high",
+  "note": "Weakside DE; briefly used at whip LB early in career before settling at end"
+ },
+ "Brandon Flowers": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Brandon_Flowers_(American_football)",
+  "confidence": "high",
+  "note": "Boundary cornerback 2006-2007, led ACC in passes defended"
+ },
+ "Jayron Hosley": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Jayron_Hosley",
+  "confidence": "high",
+  "note": "Nation-leading interceptions as CB in 2010"
+ },
+ "Orion Martin": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/Orion_Martin",
+  "confidence": "high",
+  "note": "Walk-on DE, All-ACC honors as defensive end"
+ },
+ "Jimmy Williams": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Jimmy_Williams_(cornerback,_born_1984)",
+  "confidence": "medium",
+  "note": "Started at free safety 2002-2003 (sample season 2003 is a safety year), moved to CB in 2004-2005 where he earned unanimous All-American/Thorpe finalist honors and was drafted as CB"
+ },
+ "Willie Pile": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Willie_Pile",
+  "confidence": "high",
+  "note": "Three-year starter at free safety"
+ },
+ "Hank Coleman": {
+  "position": "DE",
+  "source": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt9411/941117/11170093.htm",
+  "confidence": "medium",
+  "note": "Contemporary Roanoke Times coverage identifies him as a standout defensive end on the 1994-95 Lunch Pail defense"
+ },
+ "John Engelberger": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/John_Engelberger",
+  "confidence": "high",
+  "note": "Drafted 2nd round by 49ers as DE"
+ },
+ "George DelRicco": {
+  "position": "LB",
+  "source": "https://www.gobblercountry.com/2019/7/21/20702678/virginia-tech-football-41-days-til-kickoff-with-a-look-back-at-george-delricco",
+  "confidence": "high",
+  "note": "Three-year starting linebacker, led team in tackles 1994-95"
+ },
+ "Chris Ellis": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/Chris_Ellis_(American_football)",
+  "confidence": "high",
+  "note": "Weak-side DE, first-team All-ACC, drafted by Bills as DE"
+ },
+ "Victor Harris": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Macho_Harris",
+  "confidence": "high",
+  "note": "\"Macho\" Harris, boundary CB, 15 career interceptions; also used on offense/kick returns"
+ },
+ "William Yarborough": {
+  "position": "S",
+  "source": "https://www.thekeyplay.com/content/2017/february/6/who-wore-it-best-virginia-tech-football-all-numbers-team-part-3-20-29",
+  "confidence": "medium",
+  "note": "Called CB in 1994 coverage but free safety in 1995 (sample season) coverage leading pass defense; mixed DB usage"
+ },
+ "Michael Crawford": {
+  "position": "S",
+  "source": "https://www.thekeyplay.com/content/2017/february/6/who-wore-it-best-virginia-tech-football-all-numbers-team-part-3-20-29",
+  "confidence": "medium",
+  "note": "Played rover (mapped to S); high 2003 tackle total (131) consistent with rover/run-support safety"
+ },
+ "Cory Bird": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Cory_Bird",
+  "confidence": "high",
+  "note": "Two-year starter at rover (mapped to S), NFL safety with Colts"
+ },
+ "Rashad Carmichael": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Roc_Carmichael",
+  "confidence": "high",
+  "note": "Drafted 4th round by Texans as CB"
+ },
+ "Ronyell Whitaker": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Ronyell_Whitaker",
+  "confidence": "high",
+  "note": "Third-team All-American cornerback 2001"
+ },
+ "Kevin McCadam": {
+  "position": "S",
+  "source": "https://roanoke.com/sports/college/va_tech/a-look-back-at-the-talent-on-the-field-in-the-2001-virginia-tech-miami/article_d73487a2-f8b8-11e4-a970-e32f1d06c270.html",
+  "confidence": "medium",
+  "note": "Played rover (mapped to S); blitz-heavy stat line (8 TFL, 2 sacks) consistent with rover role"
+ },
+ "TyJuan Garbutt": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/TyJuan_Garbutt",
+  "confidence": "high",
+  "note": "Starting defensive end multiple seasons"
+ },
+ "DeAngelo Hall": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/DeAngelo_Hall",
+  "confidence": "high",
+  "note": "First-team All-American CB 2002, Jim Thorpe Award semifinalist (top CB)"
+ },
+ "David Pugh": {
+  "position": "DT",
+  "source": "https://en.wikipedia.org/wiki/David_Pugh_(American_football)",
+  "confidence": "high",
+  "note": "Stat line (57 tackles, 12 TFL, 5 sacks) fits interior DT"
+ },
+ "Eric Green": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Eric_Green_(cornerback)",
+  "confidence": "high",
+  "note": "Started every game at cornerback as senior"
+ },
+ "Keion Carpenter": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Keion_Carpenter",
+  "confidence": "high",
+  "note": "Safety at VT and in NFL"
+ },
+ "Stephan Virgil": {
+  "position": "CB",
+  "source": "https://hokiesports.com/sports/football/roster/player/stephan-virgil-1",
+  "confidence": "high",
+  "note": "Leading candidate at field corner"
+ },
+ "Steve Tate": {
+  "position": "LB",
+  "source": "https://en.wikipedia.org/wiki/1997_Virginia_Tech_Hokies_football_team",
+  "confidence": "high",
+  "note": "Led team with 104 tackles, Second Team All-Big East linebacker"
+ },
+ "Davon Morgan": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Davon_Morgan",
+  "confidence": "high",
+  "note": "Played rover/safety"
+ },
+ "Loren Johnson": {
+  "position": "CB",
+  "source": "https://www.statmuse.com/cfb/player/loren-johnson-131269",
+  "confidence": "high",
+  "note": "Returning defensive starter at cornerback"
+ },
+ "Jonathan Lewis": {
+  "position": "DT",
+  "source": "https://www.espn.com/college-football/player/_/id/135228/jonathan-lewis",
+  "confidence": "high",
+  "note": "Three-year starter at defensive tackle"
+ },
+ "Ike Charlton": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Ike_Charlton",
+  "confidence": "high",
+  "note": "Cornerback for Hokies, two-time All-Big East"
+ },
+ "Chuck Clark": {
+  "position": "S",
+  "source": "https://www.monumentalsportsnetwork.com/washington/ravens/how-chuck-clarks-virginia-tech-career-molded-him-ravens-unheralded-standout",
+  "confidence": "high",
+  "note": "Three-year starter at safety (also played slot/perimeter)"
+ },
+ "Barry Booker": {
+  "position": "DT",
+  "source": "https://hokiesports.com/sports/football/roster/player/barry-booker-1",
+  "confidence": "medium",
+  "note": "Recruited as DE but played DT at VT per bio"
+ },
+ "Terrell Edmunds": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Terrell_Edmunds",
+  "confidence": "high",
+  "note": "FS/SS, first-round safety"
+ },
+ "Mook Reynolds": {
+  "position": "S",
+  "source": "https://techlunchpail.com/blog/hokies-football-mook-reynolds-forces-his-way-into-a-starting-role",
+  "confidence": "medium",
+  "note": "Recruited CB, played hybrid Whip/nickel in 2016 then moved to FS 2017; roster listed him as LB that year \u2014 classified S per Whip mapping rule given edge-heavy stat line"
+ },
+ "Chamarri Conner": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Chamarri_Conner",
+  "confidence": "medium",
+  "note": "Hybrid 'Whip' LB/DB in 2019-20, moved to safety under Pry; classified S per mapping rule"
+ },
+ "Eddie Whitley": {
+  "position": "CB",
+  "source": "https://www.pro-football-reference.com/players/W/WhitEd01.htm",
+  "confidence": "high",
+  "note": "PFR lists CB; some recruiting sites tagged him Safety"
+ },
+ "Jim Davis": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/Jim_Davis_(gridiron_football)",
+  "confidence": "high",
+  "note": "Defensive end, Big East Co-DPOW vs LSU 2002"
+ },
+ "Garnell Wilds": {
+  "position": "CB",
+  "source": "https://www.washingtonpost.com/archive/sports/2005/07/31/redskins-roster/c1df18a1-a5b0-4e99-a357-bba18a41c75b/",
+  "confidence": "medium",
+  "note": "Listed CB on 2005 Redskins roster; low tackle count (27) at VT fits corner"
+ },
+ "Justus Reed": {
+  "position": "DE",
+  "source": "https://hokiesports.com/news/2020/4/22/football-justus-reed-joins-techs-talented-defensive-end-corps.aspx",
+  "confidence": "high",
+  "note": "Defensive end throughout"
+ },
+ "Torrian Gray": {
+  "position": "S",
+  "source": "https://www.commanders.com/news/prior-to-roaming-the-sidelines-at-virginia-tech-torrian-gray-was-a-stan-18547339",
+  "confidence": "high",
+  "note": "Started at rover 1994-95, free safety 1996"
+ },
+ "Jermaine Waller": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Jermaine_Waller_(American_football)",
+  "confidence": "high",
+  "note": "Three-year starting cornerback"
+ },
+ "Caleb Farley": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Caleb_Farley",
+  "confidence": "high",
+  "note": "Converted to CB in 2018, first-team All-ACC CB 2019"
+ },
+ "Greg Stroman": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/Greg_Stroman",
+  "confidence": "high",
+  "note": "Top ACC cornerback"
+ },
+ "Kemari Copeland": {
+  "position": "DT",
+  "source": "https://techlunchpail.com/blog/virginia-tech-dt-kemari-copeland-lived-up-to-the-preseason-hype-in-2025",
+  "confidence": "high",
+  "note": "Third Team All-ACC defensive tackle in 2025"
+ },
+ "D.J. Parker": {
+  "position": "S",
+  "source": "https://roanoke.com/archive/d-j-parker-is-a-best-kept-secret-for-tech/article_0100f615-a8c6-59c1-8fc9-9db1914bf7cc.html",
+  "confidence": "high",
+  "note": "Moved from backup CB to free safety in 2005, Tech's senior FS in 2007"
+ },
+ "Nat Williams": {
+  "position": "DT",
+  "source": "https://www.archive.vtmag.vt.edu/sum97/sports.html",
+  "confidence": "medium",
+  "note": "\"Opposite Hairston at tackle\" - redshirt sophomore DT candidate; 1998 stat line consistent with productive interior lineman"
+ },
+ "Pheldarius Payne": {
+  "position": "DT",
+  "source": "https://techlunchpail.com/blog/pheldarius-payne-adapting-to-new-role-at-defensive-tackle",
+  "confidence": "medium",
+  "note": "Recruited/arrived as DE, moved to DT for his only full VT season (2023, sample year)"
+ },
+ "Michael Stuewe": {
+  "position": "WR",
+  "source": "https://sonsofsaturday.com/vt/articles/where-are-they-now-catching-up-with-michael-stuewe-former-virginia-tech-wide-receiver-whose-son-is-now-a-hokie-signee",
+  "confidence": "high",
+  "note": "Split end/WR, third-leading receiver in 1996; matches sample reception stats"
+ },
+ "Noland Burchette": {
+  "position": "DE",
+  "source": "https://bleacherreport.com/articles/169553-a-look-back-at-virginia-techs-2002-recruiting-class",
+  "confidence": "high",
+  "note": "Weak-side defensive end starter"
+ },
+ "Kerwin Hairston": {
+  "position": "DT",
+  "source": "https://hokiesports.com/football-player-letterwinners",
+  "confidence": "medium",
+  "note": "Described as defensive tackle/defensive lineman, First Team All-Big East 1997; 69 tackles is high for DT but multiple sources agree"
+ },
+ "Carl Bradley": {
+  "position": "DT",
+  "source": "https://www.on3.com/college/virginia-tech-hokies/football/1999/roster/",
+  "confidence": "high",
+  "note": "Starter at defensive tackle on 1999 national title-game team"
+ },
+ "Chris Cyrus": {
+  "position": "DE",
+  "source": "https://www.bhsbees.com/vfootball00_15.htm",
+  "confidence": "high",
+  "note": "Article names him among ends alongside Corey Moore/John Engelberger, part-time starter at end"
+ },
+ "Kevin Lewis": {
+  "position": "DT",
+  "source": "https://247sports.com/Player/Kevin-Lewis-73456/",
+  "confidence": "medium",
+  "note": "Recruited/listed as defensive tackle; started alongside DT brother Jonathan Lewis in 2003"
+ },
+ "Vincent Fuller": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Vincent_Fuller_(American_football)",
+  "confidence": "high",
+  "note": "Safety at VT and in NFL"
+ },
+ "Jim Baron": {
+  "position": "DT",
+  "source": "http://inside.hokiesports.com/issues/2.4/20091105aah.php",
+  "confidence": "high",
+  "note": "Started at defensive tackle senior year (1995)"
+ },
+ "Anthony Midget": {
+  "position": "CB",
+  "source": "https://virginiatech.sportswar.com/article/2018/08/31/now-anthony-midget/",
+  "confidence": "high",
+  "note": "Three-year starter at cornerback, All-Big East/All-American CB"
+ },
+ "Kam Chancellor": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Kam_Chancellor",
+  "confidence": "high",
+  "note": "Moved from CB to rover to free safety; ended at FS/S (rover mapped to S per hybrid rule)"
+ },
+ "Cole Nelson": {
+  "position": "DE",
+  "source": "https://hokiesports.com/news/2024/09/12/virginia-tech-football-defensive-spotlight-cole-nelson",
+  "confidence": "high",
+  "note": "Multiple starts at defensive end 2022-2024"
+ },
+ "Antonio Banks": {
+  "position": "CB",
+  "source": "https://www.pro-football-reference.com/players/B/BankAn20.htm",
+  "confidence": "high",
+  "note": "Cornerback, led team/Big East in interceptions as senior"
+ },
+ "Pierson Prioleau": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Pierson_Prioleau",
+  "confidence": "high",
+  "note": "Reserve CB as freshman, then rover/safety rest of career and in NFL; mapped rover to S"
+ },
+ "Nick Sorensen": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Nick_Sorensen",
+  "confidence": "medium",
+  "note": "Started at QB through much of 1998 (explains sample season's passing stats) before converting to free safety/LB in 1999-2000; constrained to CB/S so S chosen"
+ },
+ "Chad Beasley": {
+  "position": "DT",
+  "source": "https://www.gobblercountry.com/2019/5/29/18644984/virginia-tech-football-94-days-til-kickoff-with-a-look-back-at-chad-beasley",
+  "confidence": "high",
+  "note": "Interior DT alongside David Pugh on famed 1999 line"
+ },
+ "Carlton Powell": {
+  "position": "DT",
+  "source": "https://en.wikipedia.org/wiki/Carlton_Powell",
+  "confidence": "high",
+  "note": "Defensive tackle at VT and in NFL"
+ },
+ "Larry Green": {
+  "position": "CB",
+  "source": "https://virginiatech.sportswar.com/player/Larry-Green-1794/",
+  "confidence": "high",
+  "note": "4-year letterman/2-year starter at cornerback"
+ },
+ "Phillip Summers": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/1999_Virginia_Tech_Hokies_football_team",
+  "confidence": "medium",
+  "note": "Listed as safety in VT secondary on 1999 roster"
+ },
+ "Waverly Jackson": {
+  "position": "DT",
+  "source": "https://en.wikipedia.org/wiki/Waverly_Jackson",
+  "confidence": "high",
+  "note": "4-year letterman/3-year starter at defensive tackle"
+ },
+ "Norell Pollard": {
+  "position": "DT",
+  "source": "https://roanoke.com/sports/college/va_tech/virginia-techs-norell-pollard-completes-his-transformation-into-standout-fbs-defensive-tackle/article_c938f486-10e8-11ec-a5e5-5f3eb758573e.html",
+  "confidence": "high",
+  "note": "Standout FBS defensive tackle"
+ },
+ "James Griffin": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/James_Griffin_(defensive_back)",
+  "confidence": "medium",
+  "note": "Started at rover position; hybrid DB role mapped to S per rules"
+ },
+ "DaShawn Crawford": {
+  "position": "DT",
+  "source": "https://247sports.com/player/dashawn-crawford-82089/",
+  "confidence": "high",
+  "note": "Junior college transfer defensive tackle, multiple sources confirm DT"
+ },
+ "Tim Sandidge": {
+  "position": "DT",
+  "source": "https://www.nfl.com/players/tim-sandidge/",
+  "confidence": "high",
+  "note": "Practiced at nose tackle, listed as defensive tackle"
+ },
+ "Wilfried Pene": {
+  "position": "DT",
+  "source": "https://techlunchpail.com/blog/wilfried-pene-improving-in-first-full-offseason-at-defensive-tackle",
+  "confidence": "high",
+  "note": "Moved from TE to defensive line, settled at defensive tackle"
+ },
+ "Cordarrow Thompson": {
+  "position": "DT",
+  "source": "https://n.rivals.com/content/athletes/cordarrow-thompson-137638",
+  "confidence": "high",
+  "note": "Recruited and played as defensive tackle, started at tackle 2008-2009"
+ },
+ "Antoine Hopkins": {
+  "position": "DT",
+  "source": "https://www.espn.com/college-football/player/_/id/381552/antoine-hopkins",
+  "confidence": "high",
+  "note": "ESPN lists him as Defensive Tackle for VT 2009-2012"
+ },
+ "Vinny Mihota": {
+  "position": "DE",
+  "source": "https://www.gobblercountry.com/2016/7/25/12270834/virginia-tech-hokies-2016-roster-preview-defensive-line",
+  "confidence": "medium",
+  "note": "Recruited SDE, shuffled DE/DT several years but 'found a home on the edge by 2016' (sample season)"
+ },
+ "Danny Wheel": {
+  "position": "DE",
+  "source": "https://en.wikipedia.org/wiki/1997_Virginia_Tech_Hokies_football_team",
+  "confidence": "medium",
+  "note": "1997 roster lists #90 Danny Wheel as DL; other coverage calls him 'end'"
+ },
+ "Jason Lallis": {
+  "position": "DT",
+  "source": "https://www.msn.com/en-us/sports/ncaafb/virginia-tech-football-91-days-til-kickoff-with-a-look-back-at-jason-lallis/ar-AACfBlp",
+  "confidence": "medium",
+  "note": "Started career at DE, but was already starting at tackle by 2002 (sample season)"
+ },
+ "Khalil Ladler": {
+  "position": "S",
+  "source": "https://247sports.com/Player/Khalil-Ladler-28486/",
+  "confidence": "medium",
+  "note": "Listed as Safety; also played whip (hybrid LB/S) and some CB per VT coverage"
+ },
+ "Ben Bell": {
+  "position": "DE",
+  "source": "https://www.si.com/college/virginiatech/football/virginia-tech-dl-ben-bell-receives-rookie-mini-camp-invitation-01kq2cta6ap9",
+  "confidence": "high",
+  "note": null
+ },
+ "Lamar Cobb": {
+  "position": "DE",
+  "source": "https://virginiatech.sportswar.com/player/Lamar-Cobb-1676/",
+  "confidence": "high",
+  "note": "Started for two seasons at defensive end"
+ },
+ "Donovan Riley": {
+  "position": "CB",
+  "source": "https://fightinggobbler.com/2014/05/25/best-nickel-cornerback-college-football-donovan-riley/",
+  "confidence": "medium",
+  "note": "Primarily CB/nickel through 2014 (sample season); moved to rover/S role in 2015"
+ },
+ "Roland Minor": {
+  "position": "CB",
+  "source": "https://hokiesports.com/sports/football/roster/player/roland-minor-1",
+  "confidence": "high",
+  "note": null
+ },
+ "Marcus Gildersleeve": {
+  "position": "WR",
+  "source": "https://www.statmuse.com/cfb/player/marcus-gildersleeve-131270",
+  "confidence": "high",
+  "note": "Receiving stats (17 rec/286 yds/3 TD in 1997) confirm WR usage"
+ },
+ "Dorian Porch": {
+  "position": "S",
+  "source": "https://hokiesports.com/sports/football/roster/dorian-porch/3500",
+  "confidence": "medium",
+  "note": "Split time at VT 'rover' (hybrid strong safety) with Davon Morgan"
+ },
+ "Brion Murray": {
+  "position": "CB",
+  "source": "https://247sports.com/player/brion-murray-46077142/",
+  "confidence": "high",
+  "note": null
+ },
+ "Cris Hill": {
+  "position": "CB",
+  "source": "https://roanoke.com/archive/its-finally-cris-hills-time-at-virginia-tech/article_b867fd02-6397-5c49-8bf4-8988efdc2d49.html",
+  "confidence": "high",
+  "note": null
+ },
+ "John Graves": {
+  "position": "DT",
+  "source": "https://hokiesports.com/sports/football/roster/john-graves/2315",
+  "confidence": "medium",
+  "note": "Primarily DT 2006-2009; moved to DE for senior year 2010 (sample season)"
+ },
+ "C.J. McCray": {
+  "position": "DE",
+  "source": "https://roanoke.com/sports/college/va_tech/virginia-tech-football-moving-linebacker-c-j-mccray-to-defensive-end/article_740f9288-0f2d-11ec-8f05-4fab43628595.html",
+  "confidence": "high",
+  "note": null
+ },
+ "Elhadj Fall": {
+  "position": "DT",
+  "source": "https://www.cbssports.com/college-football/players/28922967/elhadj-fall/",
+  "confidence": "high",
+  "note": null
+ },
+ "Lawrence Lewis": {
+  "position": "DE",
+  "source": "https://www.upi.com/Archives/1993/12/31/Lawrence-Lewis-returned-a-fumble-20-yards-for-a/7046757314000/",
+  "confidence": "high",
+  "note": "UPI identifies him as 'Virginia Tech defensive end Lawrence Lewis'"
+ },
+ "Michael Cole": {
+  "position": "S",
+  "source": "https://www.espn.com/college-football/player/_/id/515554/michael-cole",
+  "confidence": "high",
+  "note": null
+ },
+ "Demetrius Taylor": {
+  "position": "DT",
+  "source": "https://hokiesports.com/sports/football/roster/player/demetrius-taylor-4",
+  "confidence": "medium",
+  "note": "Shuffled DE/DT/NT but was starting DT/nose tackle as senior in 2009 (sample season)"
+ },
+ "Kelvin Gilliam Jr.": {
+  "position": "DT",
+  "source": "https://draftscout.com/dsprofile.php?PlayerId=1053047&DraftYear=2026",
+  "confidence": "high",
+  "note": null
+ },
+ "Dan Wilkinson": {
+  "position": "DT",
+  "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/vatech.sidearmsports.com/documents/2018/4/25/fb2001spring.pdf",
+  "confidence": "medium",
+  "note": "Listed as redshirt senior defensive tackle on VT 2001 spring roster (not to be confused with NFL's Dan 'Big Daddy' Wilkinson)"
+ },
+ "Derrius Monroe": {
+  "position": "DE",
+  "source": "http://draftscout.com/dsprofile.php?PlayerId=5849&DraftYear=2002",
+  "confidence": "high",
+  "note": null
+ },
+ "Keyshawn Burgos": {
+  "position": "DE",
+  "source": "https://www.on3.com/teams/purdue-boilermakers/news/purdue-lands-virginia-tech-edge-transfer/",
+  "confidence": "high",
+  "note": null
+ },
+ "Armani Chatman": {
+  "position": "CB",
+  "source": "https://247sports.com/Player/Armani-Chatman-86256/",
+  "confidence": "high",
+  "note": null
+ },
+ "Billy Hardee": {
+  "position": "CB",
+  "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/vatech.sidearmsports.com/documents/2018/4/25/fb2001spring.pdf",
+  "confidence": "high",
+  "note": "Billy Hardee III (son of 1970s Hokie DB of same name); listed as r-Jr. cornerback on VT 2001 spring roster"
+ },
+ "Larry Austin": {
+  "position": "CB",
+  "source": "https://www.gobblercountry.com/2019/8/7/20761723/virginia-tech-football-24-days-til-kickoff-with-a-look-back-at-larry-austin",
+  "confidence": "high",
+  "note": null
+ },
+ "Bryce Watts": {
+  "position": "CB",
+  "source": "https://247sports.com/Player/Bryce-Watts-86038/college-201292/",
+  "confidence": "high",
+  "note": "recruited/played cornerback; 2018 stat line (24 tkl, 1 INT, 6 PBU) fits CB"
+ },
+ "Mike Daniels": {
+  "position": "S",
+  "source": "https://hokiesports.com/sports/football/roster/player/mike-daniels-1",
+  "confidence": "high",
+  "note": "played free safety and VT 'whip' hybrid, not CB, per hokiesports bio"
+ },
+ "Jeff Holland": {
+  "position": "DT",
+  "source": "https://virginiatech.sportswar.com/player/Jeff-Holland-1761/",
+  "confidence": "high",
+  "note": "3-year letterman on the defensive line, started games in 1993-1994"
+ },
+ "Jason Berish": {
+  "position": "DE",
+  "source": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1996/rt9611/961107/11070046.htm",
+  "confidence": "high",
+  "note": "identified as redshirt sophomore defensive end in 1996 (sample season)"
+ },
+ "Anthony Lambo": {
+  "position": "DT",
+  "source": "https://gridironheroics.com/where-are-they-now-catching-up-with-anthony-lambo-virginia-tech-tackle-1996-2000/",
+  "confidence": "high",
+  "note": "played DT as redshirt freshman in 1997 (dataset's only year for him); moved to OT afterward"
+ },
+ "Josh Fuga": {
+  "position": "DT",
+  "source": "https://www.espn.com/nfl/player/_/id/4427234/josh-fuga",
+  "confidence": "high",
+  "note": "consistently listed defensive tackle at VT and in NFL"
+ },
+ "Jovonn Quillen": {
+  "position": "CB",
+  "source": "https://247sports.com/player/jovonn-quillen-79225/",
+  "confidence": "high",
+  "note": "recruited as safety but converted to and played cornerback at VT"
+ },
+ "Korey Irby": {
+  "position": "LB",
+  "source": "https://www.mbgc.org/irby",
+  "confidence": "medium",
+  "note": "backup/starting linebacker most seasons (sacked Rutgers QB as LB in 1995, our sample year); played FS in 1996"
+ },
+ "Mario Kendricks": {
+  "position": "DT",
+  "source": "https://nfldraftdiamonds.com/2020/11/mario-kendricks/",
+  "confidence": "high",
+  "note": "explicitly called defensive tackle"
+ },
+ "Jason Abbey": {
+  "position": "DE",
+  "source": "https://www.gobblercountry.com/2022/4/23/23038370/virginia-tech-football-recruiting-de-jason-abbey-commits-to-the-hokies-2023-recruiting",
+  "confidence": "high",
+  "note": "recruited and played defensive end throughout"
+ },
+ "Tee Butler": {
+  "position": "LB",
+  "source": "https://bleacherreport.com/articles/268345-party-like-its-1999-a-look-back-at-virginia-techs-greatest-team",
+  "confidence": "medium",
+  "note": "described as linebacker; scored on fumble recovery vs Syracuse 1999"
+ },
+ "Brad Baylor": {
+  "position": "DT",
+  "source": "https://virginiatech.sportswar.com/player/Brad-Baylor-1792/",
+  "confidence": "high",
+  "note": "played defensive tackle before later moving to offensive tackle"
+ },
+ "Kody Huisman": {
+  "position": "DT",
+  "source": "https://virginiatech.sportswar.com/article/2025/04/23/ndsu-defensive-tackle-kody-huisman-commits-to-virginia-tech/",
+  "confidence": "high",
+  "note": "transfer described as defensive tackle"
+ },
+ "Channing Reed": {
+  "position": "DE",
+  "source": "https://247sports.com/college/virginia-tech/Season/2000-Football/Commits/",
+  "confidence": "medium",
+  "note": "recruited as strongside defensive end (SDE); limited in-season sourcing found"
+ },
+ "Browning Wynn": {
+  "position": "TE",
+  "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/vatech.sidearmsports.com/documents/2018/4/25/fb2001spring.pdf",
+  "confidence": "high",
+  "note": "listed as tight end (6-3, 231), part of TE duo; not WR despite constraint list allowing it"
+ },
+ "T.J. Jackson": {
+  "position": "S",
+  "source": "https://virginiatech.sportswar.com/player/TJ--Jackson-1683/",
+  "confidence": "medium",
+  "note": "recruited top-16 DB nationally; described as starting VT 'whip' (hybrid LB/S) who struggled in coverage"
+ },
+ "Tommy Edwards": {
+  "position": "RB",
+  "source": "https://roanoke.com/sports/college/va_tech/doug-doughty-football-cte-connection-no-surprise-to-former-virginia-tech-player-touchdown-tommy/article_adcbe1aa-2058-5b08-818a-4acab9c6635b.html",
+  "confidence": "high",
+  "note": "'Touchdown Tommy', VT's #2 rusher in 1994 behind Dwayne Thomas"
+ },
+ "Cary Wade": {
+  "position": "S",
+  "source": "https://247sports.com/player/cary-wade-51401/",
+  "confidence": "medium",
+  "note": "started career at CB, moved to Rover (S-hybrid) by mid-career; 2006 sample season was as Rover"
+ },
+ "Tyler Matheny": {
+  "position": "S",
+  "source": "https://247sports.com/college/virginia-tech/Article/Tyler-Matheny-Virginia-Tech-football-one-interception-seven-tackles-vs-Duke-Blue-Devils--152416817/",
+  "confidence": "high",
+  "note": "explicitly listed/described as safety; started 2020 games at safety"
+ },
+ "Rafael Williams": {
+  "position": "DE",
+  "source": "https://virginiatech.sportswar.com/player/Rafael-Williams-1751/",
+  "confidence": "high",
+  "note": "saw action at defensive end in 1994, recorded 2 sacks vs Pitt"
+ },
+ "Kory Robertson": {
+  "position": "DT",
+  "source": "https://247sports.com/player/kory-robertson-49453/",
+  "confidence": "high",
+  "note": "explicitly listed defensive tackle"
+ },
+ "Rob Porcher": {
+  "position": "DE",
+  "source": "https://247sports.com/player/robert-porcher-iv-44289/",
+  "confidence": "medium",
+  "note": "recruited/played weak-side DE in 2018 (sample season); coaches moved him inside to DT in 2019"
+ },
+ "Stacy Henley": {
+  "position": "CB",
+  "source": "https://virginiatech.sportswar.com/player/Stacy-Henley-1724/",
+  "confidence": "medium",
+  "note": "started one season at CB, one at rover (rover was 1993); 1994 sample season aligns with his CB year"
+ },
+ "Eli Adams": {
+  "position": "DE",
+  "source": "https://roanoke.com/sports/virginia_tech/south-carolina-de-eli-adams-the-second-hokies-commitment-of/article_2e25cd30-4e13-11e7-ab36-0f15d650fcf7.html",
+  "confidence": "high",
+  "note": "recruited DE, made starts at DE in 2021"
+ },
+ "Emmett Laws": {
+  "position": "DT",
+  "source": "https://hokiesports.com/sports/football/roster/player/emmett-laws",
+  "confidence": "high",
+  "note": "Consistently listed DT/DL by 247Sports, ESPN, Rivals; lined up DT/DE in HS but recruited/plays DT at VT"
+ },
+ "Isaiah Hamlette": {
+  "position": "DT",
+  "source": "https://www.insidenova.com/sports/stafford/bp-grad-seeks-national-title-at-jmu/article_5a0dbcc5-d745-53f7-9f8b-fb915b745249.html",
+  "confidence": "high",
+  "note": "6-4/290 interior DL, described building 2011 defensive tackle rotation"
+ },
+ "Wayne Ward": {
+  "position": "RB",
+  "source": "https://www.sports-reference.com/cfb/players/wayne-ward-1.html",
+  "confidence": "medium",
+  "note": "SR/StatMuse list him RB (59 car/248yds, 6 rec); sample line's 26 tackles is odd for RB, possibly special-teams coverage stats mixed in - flagging discrepancy"
+ },
+ "Isaac Montgomery": {
+  "position": "DT",
+  "source": "https://hokiesports.com/sports/football/roster/season/2003/player/isaac-montgomery",
+  "confidence": "high",
+  "note": "Official bio explicitly states Position: Defensive Tackle"
+ },
+ "Tyree Rodgers": {
+  "position": "S",
+  "source": "https://roanoke.com/sports/college/va_tech/virginia-tech-safety-tyree-rodgers-won-t-play-the-rest-of-the-season/article_1bc101ae-0cbb-11eb-be36-ebb7380cbd9a.html",
+  "confidence": "high",
+  "note": "Recruited as CB, converted to (free) safety at VT; described as backup FS in 2018"
+ },
+ "Deon Provitt": {
+  "position": "LB",
+  "source": "https://archive.techsideline.com/football/2001/roster2001.htm",
+  "confidence": "medium",
+  "note": "2001 roster lists him redshirt sophomore LB (#3, 6-1/207); was listed FL as a freshman before conversion"
+ },
+ "Zion Debose": {
+  "position": "DE",
+  "source": "https://247sports.com/player/zion-debose-83083/",
+  "confidence": "high",
+  "note": "Consistently listed defensive end across 247Sports, CBS Sports, KU Sports coverage"
+ },
+ "Ny'Quee Hawkins": {
+  "position": "S",
+  "source": "https://247sports.com/player/nyquee-hawkins-84531/college-235720/",
+  "confidence": "medium",
+  "note": "247Sports college profile lists Safety; recruited/HS as CB/S hybrid, played DB at VT"
+ },
+ "DJ Harvey": {
+  "position": "CB",
+  "source": "https://en.wikipedia.org/wiki/DJ_Harvey_(American_football)",
+  "confidence": "high",
+  "note": "Consistently listed cornerback (247Sports, USC, Wikipedia)"
+ },
+ "Sean Ruffing": {
+  "position": "LB",
+  "source": "https://en.wikipedia.org/wiki/1997_Virginia_Tech_Hokies_football_team",
+  "confidence": "medium",
+  "note": "Single search snippet describes him as linebacker with 7 tackles vs Miami (OH) in 1997; not independently corroborated"
+ },
+ "Dwight Tucker": {
+  "position": "DT",
+  "source": "https://247sports.com/player/dwight-tucker-19078/college-30833/",
+  "confidence": "high",
+  "note": "247Sports title tag and ESPN both list Defensive Tackle"
+ },
+ "James Jennette": {
+  "position": "DE",
+  "source": "https://n.rivals.com/content/athletes/james-jennette-302043",
+  "confidence": "high",
+  "note": "JUCO edge/weakside DE per Rivals, 247Sports, transfer coverage"
+ },
+ "Kwamaine Battle": {
+  "position": "DT",
+  "source": "https://www.espn.com/college-football/player/_/id/236812/kwamaine-battle",
+  "confidence": "high",
+  "note": "247Sports and ESPN both list Defensive Tackle"
+ },
+ "Donaldven Manning": {
+  "position": "CB",
+  "source": "https://bleacherreport.com/articles/1027167-is-donaldven-manning-the-next-great-hokie-corner",
+  "confidence": "high",
+  "note": "Rivals and Bleacher Report both identify him as a cornerback"
+ },
+ "Tyron Edmond": {
+  "position": "LB",
+  "source": "https://www.washingtonpost.com/archive/sports/1997/03/25/va-tech-football-player-found-guilty/b3b7fe50-60a2-4262-8c52-1e37e12d4459/",
+  "confidence": "high",
+  "note": "News coverage identifies him as a (sophomore) linebacker"
+ },
+ "Vernon Dozier": {
+  "position": "LB",
+  "source": "https://www.washingtonpost.com/archive/sports/1994/09/17/hokies-walk-on-up-and-running/ebb9e4ee-ee25-43f4-8e3b-ad84188d80ec/",
+  "confidence": "high",
+  "note": "Washington Post feature and ESPN both identify him as a linebacker"
+ },
+ "Jimmy E. Williams": {
+  "position": "DT",
+  "source": "https://www.espn.com/college-football/player/_/id/135243/jimmy-e.-williams",
+  "confidence": "high",
+  "note": "ESPN page explicitly titled 'Jimmy E. Williams - Virginia Tech Hokies Defensive Lineman'; distinct from the DB Jimmy Williams (no middle initial) drafted by Atlanta"
+ },
+ "Wiley Brown": {
+  "position": "S",
+  "source": "https://hokiesports.com/sports/football/roster/player/wiley-brown-1",
+  "confidence": "medium",
+  "note": "2010 bio describes him working at rover then moving to free safety in spring; note 247Sports/ESPN tag his career position as LB, so some ambiguity remains"
+ },
+ "Malachi Madison": {
+  "position": "DT",
+  "source": "https://techlunchpail.com/blog/virginia-tech-dt-malachi-madison-will-enter-the-transfer-portal",
+  "confidence": "high",
+  "note": "Multiple sources (247Sports, TechLunchPail, hokiesports) identify him as interior DL/DT"
+ },
+ "Nadir Thompson": {
+  "position": "CB",
+  "source": "https://247sports.com/player/nadir-thompson-84587/",
+  "confidence": "medium",
+  "note": "247Sports and transfer portal headline list him as cornerback; also saw reps at safety per roanoke.com"
+ },
+ "Aycen Stevens": {
+  "position": "DE",
+  "source": "https://techlunchpail.com/blog/virginia-techs-aycen-stevens-moves-from-linebacker-to-defensive-line",
+  "confidence": "high",
+  "note": "Moved from LB to DE prior to 2024 season; consistently listed DE thereafter (ESPN, dnronline)"
+ },
+ "Jason Murphy": {
+  "position": "DT",
+  "source": "https://hokiesports.com/sports/football/roster/jason-murphy/613",
+  "confidence": "high",
+  "note": "Bio confirms 'Played in 10 games at defensive tackle' in 2002 with 2 solo+13 assist tackles, matching sample line exactly; moved to OL afterward"
+ }
+}

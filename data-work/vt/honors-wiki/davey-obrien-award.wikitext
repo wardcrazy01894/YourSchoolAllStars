@@ -1,0 +1,141 @@
+<!-- source: https://en.wikipedia.org/wiki/Davey_O%E2%80%99Brien_Award -->
+{{Short description|Award}}
+{{Infobox sports award
+| name           = Davey O'Brien Award
+| current_awards =  
+| image          = 
+| imagesize      = 
+| caption        = 
+| description    = The [[college football|collegiate]] [[American football]] player judged to be the best of all [[National Collegiate Athletic Association|NCAA]] [[quarterback]]s (current) <br> The best NCAA football player playing in the southwestern United States (original)
+| presenter      = Davey O'Brien Foundation
+| country        = [[United States]]
+| location       = The Fort Worth Club, Fort Worth Texas
+| year           = 1977; became a quarterback-only award in 1981
+| holder         = [[Fernando Mendoza]], [[Indiana Hoosiers football|Indiana]]
+| website        = {{URL|https://www.daveyobrienaward.org}}
+}}
+The '''Davey O'Brien Award''', officially the '''Davey O'Brien National Quarterback Award''', named after [[Davey O'Brien]], is presented annually to the [[college football|collegiate]] [[American football]] player judged by the Davey O'Brien Foundation to be the best of all [[National Collegiate Athletic Association]] [[quarterback]]s.  The Davey O'Brien Hall of Fame is housed at The Fort Worth Club in Fort Worth, Texas. The annual awards dinner and trophy presentation is held there as well, usually in February.
+
+In 1977, directly after the death of O'Brien, the award was established as the '''Davey O'Brien Memorial Trophy''', and was given to the most outstanding player in the Southwest. [[Texas Longhorns football|Texas]] running back [[Earl Campbell]]  won the trophy in 1977,<ref>{{cite news|title=O'Brien Memorial taken by Campbell|url=https://news.google.com/newspapers?nid=2199&dat=19780116&id=sbgxAAAAIBAJ&sjid=NeYFAAAAIBAJ&pg=1486,2488976&hl=en|access-date=June 28, 2016|work=Lawrence Journal-World|agency=Associated Press|date=January 19, 1978|page=13}}</ref> [[Oklahoma Sooners football|Oklahoma]] running back [[Billy Sims]] won it in 1978, and [[Baylor Bears football|Baylor]] linebacker [[Mike Singletary]] won it twice in 1979 and 1980. 
+
+In 1981, the award was renamed the Davey O'Brien Award and given to the nation's top quarterback. Since then, only four players have won the award more than once: [[Ty Detmer]] of [[Brigham Young University|BYU]], [[Danny Wuerffel]] of Florida, [[Jason White (American football)|Jason White]] of Oklahoma, and [[Deshaun Watson]] of Clemson.
+
+==Winners==
+{| class="wikitable" style="text-align: center;"
+|+ Davey O'Brien Memorial Trophy winners
+! Year !! Player !! Position !! School
+|-
+| 1977 || [[Earl Campbell]] || [[Running back]] || [[1977 Texas Longhorns football team|Texas]]
+|-
+| 1978 || [[Billy Sims]] || Running back || [[1978 Oklahoma Sooners football team|Oklahoma]]
+|-
+| 1979 || [[Mike Singletary]] || [[Linebacker]] || [[1979 Baylor Bears football team|Baylor]]
+|-
+| 1980 || Mike Singletary (2) || Linebacker || [[1980 Baylor Bears football team|Baylor]] (2)
+|}
+{| class="wikitable sortable" style="text-align: center;"
+|+ Davey O'Brien National Quarterback Award winners<ref>{{cite web|title=Davey O'Brien Award Winners|url=https://www.daveyobrienaward.com/national-quarterback-award|website=daveyobrienaward.com|publisher=Davey O'Brien National Quarterback Award|access-date=May 21, 2026}}</ref>
+! Year !! Player !! School !! class=unsortable | {{abbr|Ref|Reference}}
+|-
+| 1981 || {{sortname|Jim|McMahon}} || [[1981 BYU Cougars football team|BYU]] || 
+|-
+| 1982 || {{sortname|Todd|Blackledge}} || [[1982 Penn State Nittany Lions football team|Penn State]] || 
+|-
+| 1983 || {{sortname|Steve|Young}} || [[1983 BYU Cougars football team|BYU]] || 
+|-
+| 1984 || {{sortname|Doug|Flutie}} || [[1984 Boston College Eagles football team|Boston College]] || 
+|-
+| 1985 || {{sortname|Chuck|Long}} || [[1985 Iowa Hawkeyes football team|Iowa]] || 
+|-
+| 1986 || {{sortname|Vinny|Testaverde}} || [[1986 Miami Hurricanes football team|Miami (FL)]] || 
+|-
+| 1987 || {{sortname|Don|McPherson}} || [[1987 Syracuse Orangemen football team|Syracuse]] || 
+|-
+| 1988 || {{sortname|Troy|Aikman}} || [[1988 UCLA Bruins football team|UCLA]] || 
+|-
+| 1989 || {{sortname|Andre|Ware}} || [[1989 Houston Cougars football team|Houston]] || 
+|-
+| 1990 || {{sortname|Ty|Detmer}} || [[1990 BYU Cougars football team|BYU]] (3) || 
+|-
+| 1991 || {{sortname|Ty|Detmer|nolink=y}} (2) || [[1991 BYU Cougars football team|BYU]] (4) || 
+|-
+| 1992 || {{sortname|Gino|Torretta}} || [[1992 Miami Hurricanes football team|Miami (FL)]] (2) || 
+|-
+| 1993 || {{sortname|Charlie|Ward}} || [[1993 Florida State Seminoles football team|Florida State]] || 
+|-
+| 1994 || {{sortname|Kerry|Collins}} || [[1994 Penn State Nittany Lions football team|Penn State]] (2) || 
+|-
+| 1995 || {{sortname|Danny|Wuerffel}} || [[1995 Florida Gators football team|Florida]] || 
+|-
+| 1996 || {{sortname|Danny|Wuerffel|nolink=y}} (2) || [[1996 Florida Gators football team|Florida]] (2) || 
+|-
+| 1997 || {{sortname|Peyton|Manning}} || [[1997 Tennessee Volunteers football team|Tennessee]] || <ref>{{cite news|title=Manning, Woodson earn football honors|url=https://news.google.com/newspapers?nid=1356&dat=19971212&id=Z_JPAAAAIBAJ&sjid=dwgEAAAAIBAJ&pg=1907,6700069|access-date=December 5, 2016|work=Ocala Star-Banner|agency=Associated Press|date=December 12, 1997|page=3C}}</ref>
+|-
+| 1998 || {{sortname|Michael|Bishop|dab=quarterback}} || [[1998 Kansas State Wildcats football team|Kansas State]] || 
+|-
+| 1999 || {{sortname|Joe|Hamilton|dab=American football}} || [[1999 Georgia Tech Yellow Jackets football team|Georgia Tech]] || 
+|-
+| 2000 || {{sortname|Chris|Weinke}} || [[2000 Florida State Seminoles football team|Florida State]] (2) || 
+|-
+| 2001 || {{sortname|Eric|Crouch}} || [[2001 Nebraska Cornhuskers football team|Nebraska]] || <ref>{{cite news|title=Crouch takes O'Brien and Camp Awards|url=https://news.google.com/newspapers?nid=1933&dat=20011206&id=oScgAAAAIBAJ&sjid=WmsFAAAAIBAJ&pg=959,5725509|access-date=October 17, 2016|work=McCook Daily Gazette|agency=Associated Press|date=December 7, 2001|page=12}}</ref>
+|-
+| 2002 || {{sortname|Brad|Banks}} || [[2002 Iowa Hawkeyes football team|Iowa]] (2) || 
+|-
+| 2003 || {{sortname|Jason|White|dab=American football}} || [[2003 Oklahoma Sooners football team|Oklahoma]] || 
+|-
+| 2004 || {{sortname|Jason|White|nolink=y}} (2) || [[2004 Oklahoma Sooners football team|Oklahoma]] (2) || 
+|-
+| 2005 || {{sortname|Vince|Young}} || [[2005 Texas Longhorns football team|Texas]] || 
+|-
+| 2006 || {{sortname|Troy|Smith}} || [[2006 Ohio State Buckeyes football team|Ohio State]] || 
+|-
+| 2007 || {{sortname|Tim|Tebow}} || [[2007 Florida Gators football team|Florida]] (3) || 
+|-
+| 2008 || {{sortname|Sam|Bradford}} || [[2008 Oklahoma Sooners football team|Oklahoma]] (3) || 
+|-
+| 2009 || {{sortname|Colt|McCoy}} || [[2009 Texas Longhorns football team|Texas]] (2) || 
+|-
+| 2010 || {{sortname|Cam|Newton}} || [[2010 Auburn Tigers football team|Auburn]] || 
+|-
+| 2011 || {{sortname|Robert|Griffin III}} || [[2011 Baylor Bears football team|Baylor]] || 
+|-
+| 2012 || {{sortname|Johnny|Manziel}} || [[2012 Texas A&M Aggies football team|Texas A&M]] || 
+|-
+| 2013 || {{sortname|Jameis|Winston}} || [[2013 Florida State Seminoles football team|Florida State]] (3) || 
+|-
+| 2014 || {{sortname|Marcus|Mariota}} || [[2014 Oregon Ducks football team|Oregon]] || 
+|-
+| 2015 || {{sortname|Deshaun|Watson}} || [[2015 Clemson Tigers football team|Clemson]] || 
+|-
+| 2016 || {{sortname|Deshaun|Watson|nolink=y}} (2) || [[2016 Clemson Tigers football team|Clemson]] (2) || 
+|-
+| 2017 || {{sortname|Baker|Mayfield}} || [[2017 Oklahoma Sooners football team|Oklahoma]] (4) || <ref>{{cite web|title=Oklahoma's Baker Mayfield wins Maxwell, Davey O'Brien awards|url=https://www.nfl.com/news/oklahoma-s-baker-mayfield-wins-maxwell-davey-o-brien-awards-0ap3000000889437|website=NFL.com|publisher=National Football League|date=December 7, 2017|access-date=May 21, 2026}}</ref>
+|-
+| 2018 || {{sortname|Kyler|Murray}} || [[2018 Oklahoma Sooners football team|Oklahoma]] (5) || <ref>{{cite web|title=Murray Captures Davey O'Brien Award|url=https://big12sports.com/news/2018/12/6/211783150.aspx|website=big12sports.com|publisher=Big 12 Conference|date=December 6, 2018|access-date=May 21, 2026}}</ref>
+|-
+| 2019 || {{sortname|Joe|Burrow}} || [[2019 LSU Tigers football team|LSU]] || <ref>{{cite web|title=LSU's Burrow Claims Davey O'Brien National Quarterback Award|url=https://daveyobrienaward.org/2019/12/lsus-burrow-claims-davey-obrien-national-quarterback-award/|website=daveyobrienaward.org|access-date=December 12, 2019|date=December 12, 2019}}</ref> 
+|-
+| 2020 || {{sortname|Mac|Jones}} || [[2020 Alabama Crimson Tide football team|Alabama]] || <ref>{{cite web|last=Martin|first=Tyler|title=Alabama QB Mac Jones Wins 2020 Davey O'Brien Award|url=https://www.si.com/college/alabama/bamacentral/alabama-qb-mac-jones-wins-2020-davey-obrien-award|website=si.com|publisher=Sports Illustrated|date=January 7, 2021|access-date=May 21, 2026}}</ref>
+|-
+| 2021 || {{sortname|Bryce|Young}} || [[2021 Alabama Crimson Tide football team|Alabama]] (2) || <ref>{{cite web|title=Bryce Young Collects Two Honors at 2021 Home Depot College Football Awards, Alabama Earns Four Walter Camp All-America Honors|url=https://rolltide.com/news/2021/12/9/bryce-young-collects-two-honors-at-2021-home-depot-college-football-awards-alabama-earns-four-walter-camp-all-america-honors|website=rolltide.com|publisher=The University of Alabama|date=December 9, 2021|access-date=May 21, 2026}}</ref>
+|-
+| 2022 || {{sortname|Max|Duggan}} || [[2022 TCU Horned Frogs football team|TCU]] || <ref>{{cite web|title=Past Meets Present: Max Duggan Wins the Davey O'Brien Award|url=https://www.tcu.edu/news/2022/past-meets-present-max-duggan-wins-the-davey-obrien-award.php|website=tcu.edu|publisher=Texas Christian University|date=December 9, 2022|access-date=May 21, 2026}}</ref>
+|-
+| 2023 || {{sortname|Jayden|Daniels}} || [[2023 LSU Tigers football team|LSU]] (2) || <ref>{{cite web|last=Bonnette|first=Michael|title=Daniels Wins Davey O'Brien Award as Nation's Top QB|url=https://lsusports.net/news/2023/12/08/daniels-wins-davey-obrien-award-as-nations-top-qb/|website=lsusports.net|publisher=Louisiana State University and Agricultural and Mechanical College|date=December 8, 2023|access-date=May 21, 2026}}</ref>
+|-
+| 2024 || {{sortname|Cam|Ward|dab=American football}} || [[2024 Miami Hurricanes football team|Miami (FL)]] (3) || <ref>{{cite web|title=Ward Wins Davey O'Brien National Quarterback Award|url=https://miamihurricanes.com/news/2024/12/12/football-ward-wins-davey-obrien-national-quarterback-award/|website=miamihurricanes.com|publisher=University of Miami|date=December 12, 2024|access-date=May 21, 2026}}</ref>
+|-
+| 2025 || {{sortname|Fernando|Mendoza}} || [[2025 Indiana Hoosiers football team|Indiana]] || <ref>{{cite web|title=O'Brien Award Honors Mendoza in Fort Worth|url=https://iuhoosiers.com/news/2026/2/16/football-o-brien-award-honors-mendoza-in-fort-worth|website=iuhoosiers.com|publisher=Indiana University Bloomington|date=February 16, 2026|access-date=May 21, 2026}}</ref>
+|}
+
+==References==
+<references />
+
+==External links==
+*[https://www.daveyobrienaward.org Official website]
+
+{{Davey O'Brien Award}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1981]]

@@ -1,0 +1,126 @@
+<!-- source: https://en.wikipedia.org/wiki/Chuck_Bednarik_Award -->
+{{Short description|College football award}}
+{{Use American English|date=December 2025}}
+{{Use mdy dates|date=December 2025}}
+{{infobox sports award
+| name           = Chuck Bednarik Award
+| current_awards = 
+| image          = Chuck Bednarik Award.png
+| imagesize      = 
+| caption        = Chuck Bednarik Award
+| description    = College defensive player of the year
+| presenter      = [[Maxwell Football Club]]
+| country        = [[United States]]
+| location       = 
+| year           = 1995
+| holder         = [[2025 Texas Tech Red Raiders football team|Texas Tech]] linebacker [[Jacob Rodriguez]]
+| website        = {{url|https://maxwellfootballclub.sportsengine-prelive.com/bednarik-award}}
+}}
+The '''Chuck Bednarik Award''' is presented annually to the [[defence (sport)|defensive]] player of the year in [[college football]] as judged by the [[Maxwell Football Club]] to be the best in the [[National Collegiate Athletic Association|United States]]. The award is named for [[Chuck Bednarik]], a former college and professional [[American football]] player. Voters for the Maxwell College Awards are NCAA head college football coaches, members of the Maxwell Football Club, and sportswriters and sportscasters from across the country. The Maxwell Club is located in [[Philadelphia, Pennsylvania]] and the presentations are held in [[Atlantic City, New Jersey]]. Club members are given voting privileges for the award.
+
+==Winners==
+{|class="wikitable"
+|-
+|  style="background:#ffe6bd; text-align:center;" |
+| colspan="5" | Made at least one [[Pro Bowl]] during career
+|-
+|  style="background:#FFCC00; text-align:center;" |
+| colspan="5" | [[List of Pro Football Hall of Fame inductees|Inducted]] into the [[Pro Football Hall of Fame]] 
+|}
+{| class="wikitable" style="text-align: center;"
+! Year !! Player !! Position !! School !! Draft
+! Ref.
+|-
+| 1995 || rowspan="2" | [[Pat Fitzgerald]] (2) || rowspan="2" | [[Linebacker|LB]]|| [[1995 Northwestern Wildcats football team|Northwestern]] || rowspan="2" | [[1997 NFL draft#Notable undrafted players|Undrafted (1997)]] || rowspan="2" |
+|-
+| 1996 || [[1996 Northwestern Wildcats football team|Northwestern]] (2)
+|- style="background:#FFCC00"
+| 1997 || [[Charles Woodson]] || [[Cornerback|CB]]|| [[1997 Michigan Wolverines football team|Michigan]] || [[1998 NFL draft|4th]]
+|<ref>{{cite news|title=Manning, Woodson earn football honors|url=https://news.google.com/newspapers?nid=1356&dat=19971212&id=Z_JPAAAAIBAJ&sjid=dwgEAAAAIBAJ&pg=1907,6700069|access-date=December 5, 2016|work=Ocala Star-Banner|agency=Associated Press|date=December 12, 1997|page=3C}}</ref>
+|-
+| 1998 || [[Dat Nguyen]] || [[Defensive end|DE]]|| [[1998 Texas A&M Aggies football team|Texas A&M]] || [[1999 NFL draft|85th]] ||
+|-style="background:#ffe6bd;"
+| 1999 || [[LaVar Arrington]] || [[Linebacker|LB]]|| [[1999 Penn State Nittany Lions football team|Penn State]] || [[2000 NFL draft|2nd]] ||
+|-style="background:#ffe6bd;"
+| 2000 || [[Dan Morgan]] || [[Linebacker|LB]]|| [[2000 Miami Hurricanes football team|Miami (FL)]] || [[2001 NFL draft|11th]] ||
+|-style="background:#ffcc00;"
+| 2001 || [[Julius Peppers]] || [[Defensive end|DE]]|| [[2001 North Carolina Tar Heels football team|North Carolina]] || [[2002 NFL draft|2nd]] ||
+|-style="background:#ffe6bd;"
+| 2002 || [[E. J. Henderson]] || [[Linebacker|LB]]|| [[2002 Maryland Terrapins football team|Maryland]] || [[2003 NFL draft|40th]] ||
+|-
+| 2003 || [[Teddy Lehman]] || [[Linebacker|LB]]|| [[2003 Oklahoma Sooners football team|Oklahoma]] || [[2004 NFL draft|37th]] ||
+|-
+| 2004 || [[David Pollack]] || [[Defensive end|DE]] || [[2004 Georgia Bulldogs football team|Georgia]] || [[2005 NFL draft|17th]] ||
+|-style="background:#ffe6bd;"
+| 2005 || rowspan="2" | [[Paul Posluszny]] (2) || rowspan="2" | [[Linebacker|LB]]|| [[2005 Penn State Nittany Lions football team|Penn State]] (2) || rowspan="2" | [[2007 NFL draft|34th]]
+|rowspan="2" | <ref>{{cite news|title=Posluszny wins the Bednarik Award|url=https://news.google.com/newspapers?id=04UyAAAAIBAJ&sjid=aLUFAAAAIBAJ&pg=3340%2C2278222|access-date=October 17, 2016|work=Beaver County Times|date=December 9, 2005|page=B1}}</ref>
+|-style="background:#ffe6bd;"
+| 2006 || [[2006 Penn State Nittany Lions football team|Penn State]] (3)
+|-
+| 2007 || [[Dan Connor (American football)|Dan Connor]] || [[Linebacker|LB]]|| [[2007 Penn State Nittany Lions football team|Penn State]] (4) || [[2008 NFL draft|74th]] ||
+|-
+| 2008 || [[Rey Maualuga]] || [[Linebacker|LB]]|| [[2008 USC Trojans football team|USC]] || [[2009 NFL draft|38th]] ||
+|-style="background:#ffe6bd;"
+| 2009 || [[Ndamukong Suh]] || [[Defensive tackle|DT]] || [[2009 Nebraska Cornhuskers football team|Nebraska]] || [[2010 NFL draft|2nd]] ||
+|-style="background:#ffe6bd;"
+| 2010 || [[Patrick Peterson]] || [[Cornerback|CB]] || [[2010 LSU Tigers football team|LSU]] || [[2011 NFL draft|5th]]
+|<ref>{{cite news|title=LSU's Patrick Peterson wins Chuck Bednarik, Jim Thorpe awards|url=http://www.nola.com/lsu/index.ssf/2010/12/patrick_peterson_wins_jim_thor.html|access-date=January 8, 2017|work=The Times-Picayune|date=December 9, 2010}}</ref>
+|-style="background:#ffe6bd;"
+| 2011 || [[Tyrann Mathieu]] || [[Cornerback|CB]]|| [[2011 LSU Tigers football team|LSU]] (2) || [[2013 NFL draft|69th (2013)]]
+|<ref>{{cite news|title=LSU has big night as college football awards are handed out|url=http://usatoday30.usatoday.com/sports/college/football/story/2011-12-09/lsu-leads-college-football-awards/51754928/1|access-date=January 8, 2017|work=USA Today|agency=Associated Press|date=December 9, 2011}}</ref>
+|-
+| 2012 || [[Manti Teʻo]] || [[Linebacker|LB]]|| [[2012 Notre Dame Fighting Irish football team|Notre Dame]] || [[2013 NFL draft|38th]]
+|<ref>{{cite news|last1=Scheuring|first1=Ian|title=Manti Te'o wins Maxwell, Bednarik, Walter Camp player-of-the-year awards|url=https://www.hawaiinewsnow.com/story/20283664/manti-teo-wins-maxwell-bednarik-walter-camp-player-of-the-year-awards|access-date=January 8, 2017|work=Hawaii News Now}}</ref>
+|-style="background:#ffe6bd;"
+| 2013 || [[Aaron Donald]] || [[Defensive tackle|DT]]|| [[2013 Pittsburgh Panthers football team|Pittsburgh]] || [[2014 NFL draft|13th]]
+|<ref>{{cite news|title=Pittsburgh DT Aaron Donald Wins Bednarik Award|url=http://collegefootball.ap.org/article/pittsburgh-dt-aaron-donald-wins-bednarik-award|access-date=January 8, 2017|agency=Associated Press|date=December 12, 2013}}</ref>
+|-
+| 2014 || [[Scooby Wright]] || [[Linebacker|LB]]|| [[2014 Arizona Wildcats football team|Arizona]] || [[2016 NFL draft|250th (2016)]]
+|<ref>{{cite news|title=Arizona LB Scooby Wright wins Chuck Bednarik Award|url=https://www.usatoday.com/story/sports/ncaaf/2014/12/11/arizona-lb-scooby-wright-wins-chuck-bednarik-award/20279215/|access-date=December 10, 2016|work=USA Today|agency=Associated Press|date=December 11, 2014}}</ref>
+|-
+| 2015 || [[Tyler Matakevich]] || [[Linebacker|LB]]|| [[2015 Temple Owls football team|Temple]] || [[2016 NFL draft|246th]]
+|<ref>{{cite news|title=Temple's Tyler Matakevich wins Bednarik Award for defense|url=https://www.usatoday.com/story/sports/ncaaf/2015/12/10/temples-tyler-matakevich-wins-bednarik-award-for-defense/77125998/|access-date=December 10, 2016|work=USA Today|agency=Associated Press|date=December 10, 2015}}</ref>
+|-style="background:#ffe6bd;"
+| 2016 || [[Jonathan Allen]] || [[Defensive tackle|DT]] || [[2016 Alabama Crimson Tide football team|Alabama]] || [[2017 NFL draft|17th]]
+|<ref>{{cite news|title=Alabama defensive lineman Allen wins Bednarik Award|url=https://sports.yahoo.com/news/alabama-defensive-lineman-allen-wins-bednarik-award-021649146--ncaaf.html|access-date=December 10, 2016|agency=Associated Press|publisher=Yahoo Sports|date=December 8, 2016|archive-date=December 20, 2016|archive-url=https://web.archive.org/web/20161220230224/http://sports.yahoo.com/news/alabama-defensive-lineman-allen-wins-bednarik-award-021649146--ncaaf.html|url-status=dead}}</ref>
+|-style="background:#ffe6bd;"
+| 2017 || [[Minkah Fitzpatrick]] || [[Safety (gridiron football position)|S]] || [[2017 Alabama Crimson Tide football team|Alabama]] (2) || [[2018 NFL draft|11th]]
+|<ref>{{cite news|title=Minkah Fitzpatrick also takes home Chuck Bednarik Award|url=https://247sports.com/college/alabama/article/alabama-crimson-tide-football-minkah-fitzpatrick-also-takes-home-2017-chuck-bednarik-award-111926416/|access-date=December 7, 2017|publisher=Bamaonline.com|date=December 7, 2017}}</ref>
+|-style="background:#ffe6bd;"
+| 2018 || [[Josh Hines-Allen|Josh Allen]] || [[Linebacker|LB]]|| [[2018 Kentucky Wildcats football team|Kentucky]] || [[2019 NFL draft|7th]]
+|<ref>{{Cite web|url=https://bleacherreport.com/articles/2809447-clemsons-christian-wilkins-wins-2018-bednarik-award-as-top-defensive-player|title=Kentucky's Josh Allen Wins 2018 Bednarik Award as Top Defensive Player|last=Conway|first=Tyler|website=Bleacher Report|language=en|access-date=2018-12-07}}</ref>
+|-style="background:#ffe6bd;"
+| 2019 || [[Chase Young]] || [[Defensive end|DE]]|| [[2019 Ohio State Buckeyes football team|Ohio State]] || [[2020 NFL draft|2nd]]
+|<ref>{{cite web |title=Chase Young Wins 2019 Chuck Bednarik Award |url=https://ohiostatebuckeyes.com/chase-young-wins-2019-bednarik-award/ |website=OhioStateBuckeyes.com |date=12 December 2019 |access-date=January 3, 2020}}</ref>
+|-
+| 2020 || [[Zaven Collins]] || [[Linebacker|LB]]|| [[2020 Tulsa Golden Hurricane football team|Tulsa]] || [[2021 NFL draft|16th]] || <ref>{{cite web|title=Tulsa's Zaven Collins Wins Bednarik Award|url=https://tulsahurricane.com/news/2021/1/7/football-tulsas-zaven-collins-wins-bednarik-award|website=tulsahurricane.com|publisher=University of Tulsa|date=January 7, 2021|access-date=May 26, 2026}}</ref><ref>{{Cite web|url=https://www.espn.com/college-football/story/_/id/30670450/alabama-crimson-tide-players-take-home-several-major-college-football-awards|title = Bama players take home several major awards|date = 8 January 2021}}</ref>
+|-
+| 2021 || [[Jordan Davis (defensive tackle)|Jordan Davis]] || [[Defensive tackle|DT]] || [[2021 Georgia Bulldogs football team|Georgia]] (2) || [[2022 NFL draft|13th]] || <ref>{{cite web|last=Morgan|first=James|title=Jordan Davis joins elite company to win Outland, Bednarik awards|url=https://ugawire.usatoday.com/story/sports/college/bulldogs/football/2021/12/10/jordan-davis-georgia-bulldogs-uga-football-outland-bednarik/79115112007/|website=ugawire.usatoday.com|publisher=USA Today|date=December 10, 2021|access-date=May 26, 2026}}</ref>
+|-style="background:#ffe6bd;"
+| 2022 || [[Will Anderson Jr.]] || [[Linebacker|LB]]|| [[2022 Alabama Crimson Tide football team|Alabama]] (3)|| [[2023 NFL draft|3rd]] || <ref>{{cite web|title=Will Anderson Jr. Wins Bednarik Award, Named First Team All-American|url=https://rolltide.com/news/2022/12/8/football-will-anderson-jr-wins-bednarik-award-named-first-team-all-american|website=rolltide.com|publisher=The University of Alabama|date=December 8, 2022|access-date=May 26, 2026}}</ref><ref>{{Cite web|url=https://247sports.com/college/alabama/Article/Alabama-Football-LB-Will-Anderson-wins-2022-Chuck-Bednarik-Award-199990948/|title = Alabama linebacker Will Anderson wins 2022 Bednarik Award|date = 8 December 2022}}</ref>
+|-
+| 2023 || [[Payton Wilson]] || [[Linebacker|LB]] || [[2023 NC State Wolfpack football team|NC State]] || [[2024 NFL draft|98th]] || <ref>{{cite web|title=Payton Wilson Wins Bednarik Award, Named First Team All-American|url=https://gopack.com/news/2023/12/8/football-payton-wilson-wins-bednarik-award-named-first-team-all-american|website=gopack.com|publisher=North Carolina State University|date=December 8, 2023|access-date=May 26, 2026}}</ref>
+|-
+| 2024 || [[Travis Hunter]] || [[Cornerback|CB]] || [[2024 Colorado Buffaloes football team|Colorado]] || [[2025 NFL draft|2nd]] || <ref>{{cite web|last=Snyder|first=Curtis|title=Travis Hunter Wins Chuck Bednarik Award As Nation's Top Defensive Player|url=https://cubuffs.com/news/2024/12/12/football-travis-hunter-wins-chuck-bednarik-award-as-nations-top-defensive-player|website=cubuffs.com|publisher=University of Colorado Boulder|date=December 12, 2024|access-date=May 26, 2026}}</ref><ref>{{Cite web |last=Escarpio |first=Max |date=2024-12-12 |title=Colorado's Travis Hunter Wins Major College Football Award on Thursday |url=https://athlonsports.com/college/colorado-buffaloes/colorados-travis-hunter-wins-major-college-football-award-on-thursday |access-date=2024-12-13 |website=Athlon Sports |language=en}}</ref>
+|-
+| 2025 || [[Jacob Rodriguez]] || [[Linebacker|LB]] || [[2025 Texas Tech Red Raiders football team|Texas Tech]] || [[2026 NFL draft|43rd]] || <ref>{{cite web|title=Rodriguez collects Bednarik Award for fifth national honor|url=https://texastech.com/news/2025/12/12/football-rodriguez-collects-bednarik-award-for-fifth-national-honor|website=texastech.com|publisher=Texas Tech University|date=December 12, 2025|access-date=May 26, 2026}}</ref>
+|}
+
+==See also==
+* [[Bronko Nagurski Trophy]], a similar award given by the Football Writers Association of America
+
+==References==
+;General
+* {{cite web|title=Chuck Bednarik Award Winners|url=https://www.sports-reference.com/cfb/awards/bednarik.html|publisher=Sports Reference|access-date=January 8, 2017}}
+
+;Footnotes
+{{Reflist|2}}
+
+==External links==
+*[https://web.archive.org/web/20081203101607/http://www.maxwellfootballclub.org/content/awards/bednarik/bednarik_m.htm Official website]
+
+{{Chuck Bednarik Award}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1995]]

@@ -1,0 +1,619 @@
+<!-- source: https://en.wikipedia.org/wiki/Big_East_Conference_football_individual_awards -->
+[[File:Big East Conference logo.svg|right|225px]]
+The [[Big East Conference (1979–2013)|Big East Conference]] gave five football awards at the conclusion of every season. The awards were first given in 1991 following the conference's first football season, and last given in 2012 before the conference was restructured as the [[American Athletic Conference]]. The five awards included Offensive Player of the Year, Defensive Player of the Year, Special Teams Player of the Year, Rookie of the Year, and Coach of the Year. Recipients were selected by the votes of the conference's eight head coaches.<ref name=list>{{cite news|url=http://www.bigeast.org/ViewArticle.dbml?SPSID=92485&SPID=11215&DB_OEM_ID=19400&ATCLID=3631151 |title=Big East Announces 2008 Postseason Football Honors |date=December 10, 2008 |author=Big East Conference |access-date=March 13, 2009 |archive-url=https://web.archive.org/web/20090204202404/http://www.bigeast.org/ViewArticle.dbml?SPSID=92485&SPID=11215&DB_OEM_ID=19400&ATCLID=3631151 |archive-date=4 February 2009 |url-status=dead }}</ref><ref name="2012 list">{{cite web |url=http://www.bigeast.org/portals/5/fls/19400/pdfs/football/2012/2012_Football_Guide_Web.pdf |title=Big East Awards |work=2012 Big East Football Media Guide |publisher=Big East Conference |page=129 |format=PDF |access-date=January 26, 2013 }}{{Dead link|date=July 2020 |bot=InternetArchiveBot |fix-attempted=yes }}</ref><ref name="2012 press release">{{cite press release |url=http://www.bigeast.org/tabid/435/article/239991/BIG-EAST-Announces-2012-Postseason-Football-Honors.aspx |title=BIG EAST Announces 2012 Postseason Football Honors |publisher=Big East Conference |date=December 6, 2012 |access-date=January 26, 2013 |archive-url=https://web.archive.org/web/20130320143624/http://www.bigeast.org/tabid/435/article/239991/BIG-EAST-Announces-2012-Postseason-Football-Honors.aspx |archive-date=March 20, 2013 |url-status=dead }}</ref>
+
+Award recipients included [[Heisman Trophy]] winners, [[National Football League|NFL]] first-round draft picks, and NFL [[NFL Pro Bowl|All-Star]] selections. The [[Miami Hurricanes football|Miami Hurricanes]] were the most successful team through the school's tenure with the conference from 1991 to 2004, winning six awards for offensive players, seven for defense, four for special teams, three for Rookie of the Year, and six for Coach of the Year. Every conference member received at least two awards.
+
+[[Donovan McNabb]] of [[Syracuse Orange football|Syracuse]] is the only player to win more than two awards; he was named Rookie of the Year in 1995 and Offensive Player of the Year in 1996, 1997, and 1998. [[Frank Beamer]] of [[Virginia Tech Hokies|Virginia Tech]], [[Dennis Erickson]] of Miami, and [[Brian Kelly (American football coach)|Brian Kelly]] of [[Cincinnati Bearcats football|Cincinnati]] were each Coach of the Year three times.
+
+==Offensive Player of the Year==
+[[File:Donovan McNabb.jpg|thumb|upright|Donovan McNabb is the only player to be awarded three times.]]
+[[File:Santana Moss 2.jpg|thumb|upright|Santana Moss (pictured) and Antonio Bryant in 2000 were the first wide receivers to win.]]
+The Offensive Player of the Year was awarded to the player voted most-outstanding at an offensive position. The first two awards were given to [[quarterback]] [[Gino Torretta]] of the [[Miami Hurricanes football|University of Miami]]. In 1992, Torretta was a unanimous selection, the first of only two players to receive that distinction as of 2012. The other unanimous selection was [[running back]] [[Jordan Todman]] of [[UConn Huskies football|Connecticut]] in 2010. There have been three ties: in 1996, 2001, and 2002, and a three-way tie in 2001. Besides Torretta, quarterbacks [[Ken Dorsey]] of Miami and [[Pat White (American football)|Pat White]] of [[West Virginia Mountaineers football|West Virginia]] have both been awarded twice; Dorsey's awards in 2001 and 2002 were both ties. [[Donovan McNabb]] was selected three times and became the second overall pick in the [[1999 NFL draft]].<ref>{{cite web |url=http://www.suathletics.com/sports/2005/5/31/dmcnabb.aspx |title=Donovan McNabb, Football, 1995-98 |publisher=Syracuse University |access-date=March 18, 2009}}</ref> Miami has received the most awards, six before leaving the conference in 2004. Only [[South Florida Bulls football|South Florida]] (who joined in 2005) and [[Temple Owls football|Temple]] (which joined in 1991, was expelled after the 2004 season, and returned in 2012) have no offensive winners.
+
+Of the 27 winners, there were 15 quarterbacks, eight running backs, three [[wide receivers]], and one [[tight end]]. Nine seniors, seven juniors, nine sophomores, and two freshmen were honored.<ref name="2012 list"/><ref name="2012 press release"/>
+
+===Winners===
+[[File:Larry Fitzgerald catches TD at 2009 Pro Bowl.jpg|thumb|upright|Larry Fitzgerald was the second receiver from Pittsburgh, and third receiver overall to win.]]
+{| class="wikitable"
+|style="background-color:#FFE6BD; width:3em;" |*
+|Unanimous selection<ref name=list/>
+|-
+|style="background-color:#CFECEC; width:3em;" |<sup>†</sup>
+|Co-Player of the Year<ref name=list/>
+|-
+|Player (X)
+|Denotes the number of times the player has been selected
+|}
+{|class=wikitable
+!colspan=8|Positions key
+|-
+| '''QB''' || [[Quarterback]]
+| '''RB''' || [[Running back]]
+| '''TE''' || [[Tight end]]
+| '''WR''' || [[Wide receiver]]
+|-
+!colspan=8|Class key
+|-
+|'''Fr''' || Freshman
+|'''So''' || Sophomore
+|'''Jr''' || Junior
+|'''Sr''' || Senior
+|}
+{| class="wikitable sortable"
+|-
+!Season
+!Player
+!School
+!Position
+!Class
+|- align=center
+|[[1991 NCAA Division I-A football season|1991]]||{{sort|Torretta|[[Gino Torretta]]}}||[[Miami Hurricanes football|Miami]]||QB|| {{sort|3|Jr}}
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1992 NCAA Division I-A football season|1992]]*||{{sort|Torretta|[[Gino Torretta]]}} (2)|| [[Miami Hurricanes football|Miami]] ||QB|| {{sort|4|Sr}}
+|- align=center
+|[[1993 NCAA Division I-A football season|1993]]||{{sort|Foley|[[Glenn Foley]]}}||[[Boston College Eagles football|Boston College]]||QB|| {{sort|4|Sr}}
+|- align=center
+|[[1994 NCAA Division I-A football season|1994]]||{{sort|West|[[Billy West (American football)|Billy West]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||RB|| {{sort|2|So}}
+|- align=center
+|[[1995 NCAA Division I-A football season|1995]]||{{sort|Battaglia|[[Marco Battaglia]]}}||[[Rutgers Scarlet Knights football|Rutgers]]||TE|| {{sort|4|Sr}}
+|-style="background-color:#CFECEC; width:3em;"  align=center
+|[[1996 NCAA Division I-A football season|1996]]<sup>†</sup>||{{sort|Druckenmiller|[[Jim Druckenmiller]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||QB|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|1996<sup>†</sup>||{{sort|McNabb|[[Donovan McNabb]]}}||[[Syracuse Orange football|Syracuse]]||QB|| {{sort|2|So}}
+|- align=center
+|[[1997 NCAA Division I-A football season|1997]]||{{sort|McNabb|[[Donovan McNabb]]}} (2)||[[Syracuse Orange football|Syracuse]]||QB|| {{sort|3|Jr}}
+|- align=center
+|[[1998 NCAA Division I-A football season|1998]]||{{sort|McNabb|[[Donovan McNabb]]}} (3)||[[Syracuse Orange football|Syracuse]]||QB|| {{sort|4|Sr}}
+|- align=center
+|[[1999 NCAA Division I-A football season|1999]]||{{sort|Vick|[[Michael Vick]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||QB|| {{sort|1|Fr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2000 NCAA Division I-A football season|2000]]<sup>†</sup>||{{sort|Bryant|[[Antonio Bryant]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||WR|| {{sort|2|So}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2000<sup>†</sup>||{{sort|Moss|[[Santana Moss]]}}||[[Miami Hurricanes football|Miami]]||WR|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2000<sup>†</sup>||{{sort|Suggs|[[Lee Suggs]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||RB|| {{sort|2|So}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2001 NCAA Division I-A football season|2001]]<sup>†</sup>||{{sort|Green|[[William Green (American football)|William Green]]}}||[[Boston College Eagles football|Boston College]]||RB|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2001<sup>†</sup>||{{sort|Dorsey|[[Ken Dorsey]]}}||[[Miami Hurricanes football|Miami]]||QB|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2002 NCAA Division I-A football season|2002]]<sup>†</sup>||{{sort|Dorsey|[[Ken Dorsey]]}} (2)||[[Miami Hurricanes football|Miami]]||QB|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2002<sup>†</sup>||{{sort|McGahee|[[Willis McGahee]]}}||[[Miami Hurricanes football|Miami]]||RB|| {{sort|2|So}}
+|- align=center
+|[[2003 NCAA Division I-A football season|2003]]||{{sort|Fitzgerald|[[Larry Fitzgerald]]}}||[[Pittsburgh Panthers football|Pittsburgh]] ||WR|| {{sort|2|So}}
+|- align=center
+|[[2004 NCAA Division I-A football season|2004]]||{{sort|Marshall|[[Rasheed Marshall]]}}||[[West Virginia Mountaineers football|West Virginia]]||QB|| {{sort|4|Sr}}
+|- align=center
+|[[2005 NCAA Division I-A football season|2005]]||{{sort|Brohm|[[Brian Brohm]]}}||[[Louisville Cardinals football|Louisville]]||QB|| {{sort|2|So}}
+|- align=center
+|[[2006 NCAA Division I FBS football season|2006]]||{{sort|White|[[Pat White (American football)|Pat White]]}}||[[West Virginia Mountaineers football|West Virginia]]||QB|| {{sort|2|So}}
+|- align=center
+|[[2007 NCAA Division I FBS football season|2007]]||{{sort|White|[[Pat White (American football)|Pat White]]}} (2)|| [[West Virginia Mountaineers football|West Virginia]] ||QB|| {{sort|3|Jr}}
+|- align=center
+|[[2008 NCAA Division I FBS football season|2008]]||{{sort|Brown|[[Donald Brown (running back)|Donald Brown]]}}||[[UConn Huskies football|Connecticut]]||RB|| {{sort|3|Jr}}
+|- align=center
+|[[2009 NCAA Division I FBS football season|2009]]||{{sort|Lewis|[[Dion Lewis]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||RB|| {{sort|1|Fr}}
+|- style="background-color:#FFE6BD; width:3em;" align=center
+|[[2010 NCAA Division I FBS football season|2010]] || {{sortname|Jordan|Todman}} || [[UConn Huskies football|Connecticut]]||RB|| {{sort|3|Jr}}
+|- align=center
+| [[2011 NCAA Division I FBS football season|2011]] || {{sortname|Isaiah|Pead}} || [[Cincinnati Bearcats football|Cincinnati]] || RB || {{sort|4|Sr}}
+|- align=center
+| [[2012 NCAA Division I FBS football season|2012]] || {{sortname|Teddy|Bridgewater}} || [[Louisville Cardinals football|Louisville]] || QB || {{sort|2|So}}
+|}
+
+===Winners by school===
+{|class=wikitable
+|-
+!School (First season) !! Winners !! Years
+|-
+|[[Miami Hurricanes football|Miami]] (1991){{ref label|Note1|a|a}} || 6 || 1991, 1992, 2000<sup>†</sup>, 2001<sup>†</sup>, 2002<sup>†</sup>, 2002<sup>†</sup>
+|-
+|[[Pittsburgh Panthers football|Pittsburgh]] (1991){{ref label|Note2|b|b}} || 4 || 1994, 2000<sup>†</sup>, 2003, 2009
+|-
+|[[Syracuse Orange football|Syracuse]] (1991){{ref label|Note2|b|b}} || 3 || 1996<sup>†</sup>, 1997, 1998
+|-
+|[[Virginia Tech Hokies football|Virginia Tech]] (1991){{ref label|Note3|c|c}} || 3 || 1996<sup>†</sup>, 1999, 2000<sup>†</sup>
+|-
+|[[West Virginia Mountaineers football|West Virginia]] (1991){{ref label|Note4|d|d}} || 3 || 2004, 2006, 2007
+|-
+|[[Boston College Eagles football|Boston College]] (1991){{ref label|Note5|e|e}} || 2 || 1993, 2001<sup>†</sup>
+|-
+|[[UConn Huskies football|Connecticut]] (2004)||2||2008, 2010
+|-
+| [[Louisville Cardinals football|Louisville]] (2005){{ref label|Note6|f|f}} || 2 || 2005, 2012
+|-
+|[[Cincinnati Bearcats football|Cincinnati]] (2005) || 1 || 2011
+|-
+|[[Rutgers Scarlet Knights football|Rutgers]] (1991){{ref label|Note7|g|g}} ||1||1995
+|-
+|[[South Florida Bulls football|South Florida]] (2005)||0||
+|-
+|[[Temple Owls football|Temple]] (1991){{ref label|Note8|h|h}} || 0 ||
+|}
+
+==Defensive Player of the Year==
+The Defensive Player of the Year award was given 26 times, with ties in 1991, 2001, 2009, and 2011. Of the 26 winners, 16 were defensive linemen. Seven linebackers and three safeties were honored. Of the recipients, 17 were seniors, eight juniors, and [[George Selvie]] the only sophomore.<ref name="2012 list"/><ref name="2012 press release"/>
+
+The first award in 1991 was a tie between [[Darrin Smith]], a Miami linebacker, and [[George Rooks]], a defensive lineman from Syracuse. Miami then won three consecutive awards between 1992 and 1994. Only two players have won the award twice—[[Corey Moore]] in 1998 and 1999,<ref name=list/> and [[Khaseem Greene]], who shared the award in 2011<ref name="2012 list"/> and won it outright in 2012.<ref name="2012 press release"/>
+
+Like Offensive Player of the Year, Miami won the most defensive awards as well, with seven. Pittsburgh follows with the second most awards with five, including the 2009 Co-Defensive Players of the Year, which is the only occasion where two teammates have been co-selected in the same season. During [[Temple Owls football|Temple's]] first tenure in Big East football from 1991 to 2004, its only conference award was when [[Dan Klecko]] won Defensive Player of the Year honors in 2002.<ref>{{cite web |url=http://www.philadelphiaeagles.com/team/DanKlecko.html |title=Player Bio:Dan Klecko |publisher=Philadelphia Eagles |access-date=March 19, 2009 |archive-url=https://web.archive.org/web/20090326012000/http://www.philadelphiaeagles.com/team/DanKlecko.html |archive-date=26 March 2009 |url-status=dead }}</ref> Of the original 1991 members, Pittsburgh took the longest to win the defensive award, first winning with [[H.B. Blades]] in 2006. Pittsburgh won again with another linebacker, [[Scott McKillop]], in 2008.<ref name=list/> The only member that has failed to win this award is [[UConn Huskies football|Connecticut]], which did not join Big East football until 2004.<ref name="2012 list"/>
+
+===Winners===
+[[File:Warren Sapp2.jpg|thumb|upright|Warren Sapp of Miami won the award in 1994.]]
+[[File:Sean Taylor.jpg|thumb|upright|Sean Taylor became the second safety to win in 2003.]]
+{| class="wikitable"
+|style="background-color:#FFE6BD; width:3em;" |*
+|Unanimous selection<ref name=list/>
+|-
+|style="background-color:#CFECEC; width:3em;" |<sup>†</sup>
+|Co-Player of the Year<ref name=list/>
+|-
+|Player (X)
+|Denotes the number of times the player has been selected
+|}
+{|class=wikitable
+!colspan=8|Positions key
+|-
+| '''DE''' || [[Defensive end]]
+| '''DT''' || [[Defensive tackle]]
+| '''LB''' || [[Linebacker]]
+| '''S''' || [[Safety (American football position)|Safety]]
+|-
+!colspan=8|Class key
+|-
+|'''Fr''' || Freshman
+|'''So''' || Sophomore
+|'''Jr''' || Junior
+|'''Sr''' || Senior
+|}
+{| class="wikitable sortable"
+|-
+!Season
+!Player
+!School
+!Position
+!Class
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[1991 NCAA Division I-A football season|1991]]<sup>†</sup>||{{sort|Smith|[[Darrin Smith]]}}|| [[Miami Hurricanes football|Miami]] ||LB|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|1991<sup>†</sup>||{{sort|Rooks|[[George Rooks]]}}||[[Syracuse Orange football|Syracuse]]||DT|| {{sort|4|Sr}}
+|- align=center
+|[[1992 NCAA Division I-A football season|1992]]||{{sort|Barrow|[[Micheal Barrow]]}}||[[Miami Hurricanes football|Miami]]||LB|| {{sort|4|Sr}}
+|- align=center
+|[[1993 NCAA Division I-A football season|1993]]||{{sort|Patrick|[[Kevin Patrick]]}}||[[Miami Hurricanes football|Miami]]||DE|| {{sort|4|Sr}}
+|- align=center
+|[[1994 NCAA Division I-A football season|1994]]||{{sort|Sapp|[[Warren Sapp]]}}||[[Miami Hurricanes football|Miami]]||DL|| {{sort|3|Jr}}
+|- align=center
+|[[1995 NCAA Division I-A football season|1995]]||{{sort|Brown|[[Cornell Brown]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||DE|| {{sort|3|Jr}}
+|- align=center
+|[[1996 NCAA Division I-A football season|1996]]||{{sort|Curtis|[[Canute Curtis]]}}||[[West Virginia Mountaineers football|West Virginia]]||DE/DT|| {{sort|4|Sr}}
+|- align=center
+|[[1997 NCAA Division I-A football season|1997]]||{{sort|Darius|[[Donovin Darius]]}}||[[Syracuse Orange football|Syracuse]]||S|| {{sort|4|Sr}}
+|- align=center
+|[[1998 NCAA Division I-A football season|1998]]||{{sort|Moore|[[Corey Moore]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||DE|| {{sort|3|Jr}}
+|- style="background-color:#FFE6BD; width:3em;" align=center
+|[[1999 NCAA Division I-A football season|1999]]*||{{sort|Moore|[[Corey Moore]]}} (2)||[[Virginia Tech Hokies football|Virginia Tech]]||DE|| {{sort|4|Sr}}
+|- style="background-color:#FFE6BD; width:3em;" align=center
+|[[2000 NCAA Division I-A football season|2000]]*||{{sort|Morgan|[[Dan Morgan]]}}||[[Miami Hurricanes football|Miami]]||LB|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2001 NCAA Division I-A football season|2001]]<sup>†</sup>||{{sort|Reed|[[Ed Reed]]}}||[[Miami Hurricanes football|Miami]]||S|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2001<sup>†</sup>||{{sort|Freeney|[[Dwight Freeney]]}}||[[Syracuse Orange football|Syracuse]]||DE|| {{sort|4|Sr}}
+|- align=center
+|[[2002 NCAA Division I-A football season|2002]]||{{sort|Klecko|[[Dan Klecko]]}}||[[Temple Owls football|Temple]]||DL|| {{sort|4|Sr}}
+|- align=center
+|[[2003 NCAA Division I-A football season|2003]]||{{sort|Taylor|[[Sean Taylor]]}}||[[Miami Hurricanes football|Miami]]||S|| {{sort|3|Jr}}
+|- align=center
+|[[2004 NCAA Division I-A football season|2004]]||{{sort|Kiwanuka|[[Mathias Kiwanuka]]}}||[[Boston College Eagles football|Boston College]]||DE|| {{sort|3|Jr}}
+|- align=center
+|[[2005 NCAA Division I-A football season|2005]]||{{sort|Dumervil|[[Elvis Dumervil]]}}||[[Louisville Cardinals football|Louisville]]||DE|| {{sort|4|Sr}}
+|- align=center
+|[[2006 NCAA Division I FBS football season|2006]]||{{sort|Blades|[[H.B. Blades]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||LB|| {{sort|4|Sr}}
+|- align=center
+|[[2007 NCAA Division I FBS football season|2007]]||{{sort|Selvie|[[George Selvie]]}}||[[South Florida Bulls football|South Florida]]||DE|| {{sort|2|So}}
+|- align=center
+|[[2008 NCAA Division I FBS football season|2008]]||{{sort|McKillop|[[Scott McKillop]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||LB|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2009 NCAA Division I FBS football season|2009]]<sup>†</sup>||{{sort|Romeus|[[Greg Romeus]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||DE|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2009<sup>†</sup>||{{sort|Williams|[[Mick Williams]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||DT|| {{sort|4|Sr}}
+|- align=center
+|[[2010 NCAA Division I FBS football season|2010]]||{{sort|Sheard|[[Jabaal Sheard]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||DE|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2011 NCAA Division I FBS football season|2011]]<sup>†</sup> || {{sortname|Khaseem|Greene}} || [[Rutgers Scarlet Knights football|Rutgers]] || LB || {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2011<sup>†</sup>|| {{sortname|Derek|Wolfe}} || [[Cincinnati Bearcats football|Cincinnati]] || DT || {{sort|4|Sr}}
+|- align=center
+|[[2012 NCAA Division I FBS football season|2012]] || {{sortname|Khaseem|Greene}} (2) || [[Rutgers Scarlet Knights football|Rutgers]] || LB || {{sort|4|Sr}}
+|}
+
+===Winners by school===
+{|class=wikitable
+|-
+!School (First season) !! Winners !! Years   
+|-
+|[[Miami Hurricanes football|Miami]] (1991){{ref label|Note1|a|a}}||7||1991<sup>†</sup>, 1992, 1993, 1994, 2000, 2001<sup>†</sup>, 2003
+|-
+|[[Pittsburgh Panthers football|Pittsburgh]] (1991){{ref label|Note2|b|b}}| ||5||2006, 2008, 2009<sup>†</sup>, 2009<sup>†</sup>, 2010
+|-
+|[[Syracuse Orange football|Syracuse]] (1991){{ref label|Note2|b|b}}||3||1991<sup>†</sup>, 1997, 2001<sup>†</sup>
+|-
+|[[Virginia Tech Hokies football|Virginia Tech]] (1991){{ref label|Note3|c|c}}||3||1995, 1998, 1999
+|-
+|[[Rutgers Scarlet Knights football|Rutgers]] (1991){{ref label|Note7|g|g}} || 2 || 2011<sup>†</sup>, 2012 
+|-
+|[[Boston College Eagles football|Boston College]] (1991){{ref label|Note5|e|e}}||1||2004
+|-
+|[[Cincinnati Bearcats football|Cincinnati]] (2005) || 1 || 2011<sup>†</sup>
+|-
+|[[Louisville Cardinals football|Louisville]] (2005){{ref label|Note6|f|f}} ||1||2005 
+|-
+|[[South Florida Bulls football|South Florida]] (2005)||1||2007
+|-
+|[[Temple Owls football|Temple]] (1991){{ref label|Note8|h|h}} || 1 || 2002
+|-
+|[[West Virginia Mountaineers football|West Virginia]] (1991){{ref label|Note4|d|d}} || 1 || 1996
+|-
+|[[UConn Huskies football|Connecticut]] (2004)||0|| 
+|}
+
+==Special Teams Player of the Year==
+The Special Teams Player of the Year award was given to the player voted best on [[American football positions#Special teams|special teams]]. The recipient was either be a placekicker, punter, returner, or a position known as a [[gunner (American football)|gunner]]. The first winner was [[Kevin Williams (wide receiver, born 1971)|Kevin Williams]], a returner from Miami. [[Andy Lee (American football)|Andy Lee]], a Pittsburgh punter, and Cincinnati kick returner [[Mardy Gilyard]] were the only players to receive the award more than once.<ref name=pitt>{{cite web |url=http://pittsburghpanthers.cstv.com/sports/m-footbl/spec-rel/120903aaa.html |title=Fitzgerald and Lee Earn Big East Player of the Year Honors |publisher=University of Pittsburgh |date=December 9, 2003 |access-date=March 20, 2009}}</ref>
+
+There were 24 recipients, with ties in 2002 and 2003. Of the award recipients, 12 were seniors, nine juniors, and three sophomores. Three placekickers won the award, most recently Virginia Tech's [[Shayne Graham]] in 1999. [[Todd Sauerbrun]] was the first punter to win after he was a unanimous selection in 1994.
+
+Notably, Temple players received both the Special Teams Player of the Year and Rookie of the Year (see below) awards in 2012, the first year of the Owls' last Big East tenure.<ref name="2012 press release"/> During Temple's previous tenure in Big East football from 1991 to 2004, the Owls received only one conference award.<ref name="2012 list"/>
+
+===Winners===
+[[File:Marvin Harrison in 2007 Training Camp 2.jpg|thumb|upright|Marvin Harrison won as a returner in 1995.]]
+[[File:Andy Lee on field pregame at Eagles at 49ers 10-12-08.JPG|thumb|upright|Andy Lee was the first multiple winner, winning in 2002 and 2003.]]
+{| class="wikitable"
+|style="background-color:#FFE6BD; width:3em;" |*
+|Unanimous selection<ref name=list/>
+|-
+|style="background-color:#CFECEC; width:3em;" |<sup>†</sup>
+|Co-Player of the Year<ref name=list/>
+|-
+|Player (X)
+|Denotes the number of times the player has been selected
+|}
+{|class=wikitable
+!colspan=10|Positions key
+|-
+| '''K''' || [[Placekicker]]
+| '''KR''' || [[Kickoff returner|Kick returner]]
+| '''P''' || [[Punter (American football)|Punter]]
+| '''PR''' || [[Punt returner (American football)|Punt returner]]
+| '''RS''' || Return specialist
+|-
+!colspan=10|Class key
+|-
+|'''Fr''' || Freshman
+|'''So''' || Sophomore
+|'''Jr''' || Junior
+|'''Sr''' || Senior
+|}
+{| class="wikitable sortable"
+|-
+!Season
+!Player
+!School
+!Position
+!Class
+|- align=center
+|[[1991 NCAA Division I-A football season|1991]]||{{sort|Williams|[[Kevin Williams (wide receiver, born 1971)|Kevin Williams]]}}|| [[Miami Hurricanes football|Miami]] ||RS|| {{sort|2|So}}
+|- align=center
+|[[1992 NCAA Division I-A football season|1992]]||{{sort|Biskup|[[John Biskup]]}}|| [[Syracuse Orange football|Syracuse]] ||PK|| {{sort|4|Sr}}
+|- align=center
+|[[1993 NCAA Division I-A football season|1993]]||{{sort|Foley|[[Pat O'Neill (American football)|Pat O'Neill]]}}||[[Syracuse Orange football|Syracuse]] ||P/PK|| {{sort|4|Sr}}
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1994 NCAA Division I-A football season|1994]]*||{{sort|Sauerbrun|[[Todd Sauerbrun]]}}||[[West Virginia Mountaineers football|West Virginia]]||P|| {{sort|4|Sr}}
+|- align=center
+|[[1995 NCAA Division I-A football season|1995]]||{{sort|Harrison|[[Marvin Harrison]]}}||[[Syracuse Orange football|Syracuse]]||RS|| {{sort|4|Sr}}
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1996 NCAA Division I-A football season|1996]]*||{{sort|Mack|[[Tremain Mack]]}}||[[Miami Hurricanes football|Miami]]||RS|| {{sort|4|Sr}}
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1997 NCAA Division I-A football season|1997]]*||{{sort|Spotwood|[[Quinton Spotwood]]}}||[[Syracuse Orange football|Syracuse]]||KR|| {{sort|2|So}}
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1998 NCAA Division I-A football season|1998]]*||{{sort|Johnson|[[Kevin Johnson (wide receiver)|Kevin Johnson]]}}||[[Syracuse Orange football|Syracuse]] ||KR|| {{sort|4|Sr}}
+|- align=center
+|[[1999 NCAA Division I-A football season|1999]]||{{sort|Graham|[[Shayne Graham]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||PK|| {{sort|4|Sr}}
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[2000 NCAA Division I-A football season|2000]]*||{{sort|Moss|[[Santana Moss]]}}||[[Miami Hurricanes football|Miami]]||PR|| {{sort|4|Sr}}
+|- align=center
+|[[2001 NCAA Division I-A football season|2001]]||{{sort|Buchanon|[[Phillip Buchanon]]}}||[[Miami Hurricanes football|Miami]]||PR/KR|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2002 NCAA Division I-A football season|2002]]<sup>†</sup>||{{sort|Lee|[[Andy Lee (American football)|Andy Lee]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||P|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2002<sup>†</sup>||{{sort|Jones|[[Nate Jones (cornerback)|Nate Jones]]}}||[[Rutgers Scarlet Knights football|Rutgers]]||KR|| {{sort|3|Jr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2003 NCAA Division I-A football season|2003]]<sup>†</sup>||{{sort|Lee|Andy Lee}} (2)||[[Pittsburgh Panthers football|Pittsburgh]]||P|| {{sort|4|Sr}}
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2003<sup>†</sup>||{{sort|Hall|[[DeAngelo Hall]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||PR|| {{sort|3|Jr}}
+|- align=center
+|[[2004 NCAA Division I-A football season|2004]]||{{sort|Jones|[[Adam Jones (American football)|Adam Jones]]}}||[[West Virginia Mountaineers football|West Virginia]]||RS|| {{sort|3|Jr}}
+|- align=center
+|[[2005 NCAA Division I-A football season|2005]]||{{sort|Foster|[[Will Major|Willie Foster]]}}||[[Rutgers Scarlet Knights football|Rutgers]]||RS|| {{sort|3|Jr}}
+|- align=center
+|[[2006 NCAA Division I FBS football season|2006]]||{{sort|Randolph|[[Ean Randolph]]}}||[[South Florida Bulls football|South Florida]]||RS|| {{sort|4|Sr}}
+|- align=center
+|[[2007 NCAA Division I FBS football season|2007]]||{{sort|Huber|[[Kevin Huber]]}}|| [[Cincinnati Bearcats football|Cincinnati]] ||P|| {{sort|3|Jr}}
+|- align=center
+|[[2008 NCAA Division I FBS football season|2008]]|| {{sortname|Mardy|Gilyard}} || [[Cincinnati Bearcats football|Cincinnati]]||KR|| {{sort|3|Jr}}
+|- align=center
+|[[2009 NCAA Division I FBS football season|2009]]|| {{sortname|Mardy|Gilyard}} (2) || [[Cincinnati Bearcats football|Cincinnati]]||KR|| {{sort|4|Sr}}
+|- align=center
+|[[2010 NCAA Division I FBS football season|2010]]|| {{sortname|Lindsey|Lamar}} || [[South Florida Bulls football|South Florida]]||KR|| {{sort|2|So}}
+|- align=center
+| [[2011 NCAA Division I FBS football season|2011]] || {{sortname|Tavon|Austin}} || [[West Virginia Mountaineers football|West Virginia]] || RS || {{sort|3|Jr}}
+|- align=center
+| [[2012 NCAA Division I FBS football season|2012]] || {{sortname|Matt|Brown|dab=kick returner}} || [[Temple Owls football|Temple]] || RS || {{sort|4|Sr}}
+|}
+
+===Winners by school===
+{|class=wikitable
+|-
+!School (First season) !! Winners !! Years   
+|-
+|[[Syracuse Orange football|Syracuse]] (1991){{ref label|Note2|b|b}} || 5 || 1992, 1993, 1995, 1997, 1998
+|-
+|[[Miami Hurricanes football|Miami]] (1991){{ref label|Note1|a|a}}||4||1991, 1996, 2000, 2001
+|-
+|[[Cincinnati Bearcats football|Cincinnati]] (2005)||3||2007, 2008, 2009
+|-
+|[[West Virginia Mountaineers football|West Virginia]] (1991){{ref label|Note4|d|d}} || 3 || 1994, 2004, 2011
+|-
+|[[Pittsburgh Panthers football|Pittsburgh]] (1991){{ref label|Note2|b|b}} || 2 || 2002<sup>†</sup>, 2003<sup>†</sup>
+|-
+|[[Rutgers Scarlet Knights football|Rutgers]] (1991){{ref label|Note7|g|g}} ||2||2002<sup>†</sup>, 2005
+|-
+|[[Virginia Tech Hokies football|Virginia Tech]] (1991){{ref label|Note3|c|c}}||2||1999, 2003<sup>†</sup>
+|-
+|[[South Florida Bulls football|South Florida]] (2005)||2||2006, 2010
+|-
+|[[Temple Owls football|Temple]] (1991){{ref label|Note8|h|h}} || 1 || 2012
+|-
+|[[Louisville Cardinals football|Louisville]] (2005){{ref label|Note6|f|f}} ||0|| 
+|-
+|[[UConn Huskies football|Connecticut]] (2004)||0|| 
+|}
+
+==Rookie of the Year==
+The Rookie of the Year award was given to the conference's best freshman. [[Tom Tumulty]] from Pittsburgh was the first winner. [[Donovan McNabb]], [[Michael Vick]], [[Dion Lewis]], [[Larry Fitzgerald]], and [[Teddy Bridgewater]]<ref name="2012 press release"/> also won Offensive Player of the Year honors, with Vick and Lewis winning both awards in the same season.<ref name="2012 list"/>
+
+===Winners===
+[[File:Kevin Jones.jpg|thumb|upright|Virginia Tech's Kevin Jones was the 2001 winner.]]
+[[File:Steve Slaton vs Miss. State.jpg|thumb|upright|Steve Slaton (center) won in 2005.]]
+[[File:Mattgrothe.jpg|thumb|upright|Quarterback Matt Grothe was the 2006 winner.]]
+{| class="wikitable"
+|style="background-color:#FFE6BD; width:3em;" |*
+|Unanimous selection<ref name=list/>
+|-
+|Player<sup>#</sup> 
+|Eventual Player of the Year (Offense, Defense, or Special Teams)<ref name=list/>
+|}
+{|class=wikitable
+!colspan=6|Positions key
+|-
+| '''DE''' || [[Defensive end]]
+| '''LB''' || [[Linebacker]]
+| '''OT''' || [[Offensive tackle]]
+| '''QB''' || [[Quarterback]]
+|-
+| '''S'''  || [[Safety (American football position)|Safety]]
+| '''RB''' || [[Running back]]
+| '''WR''' || [[Wide receiver]]
+| ||
+|}
+{| class="wikitable sortable"
+|-
+!Season
+!Player
+!School
+!Position
+|- align=center
+|[[1991 NCAA Division I-A football season|1991]]||{{sortname|Tom|Tumulty}}||[[Pittsburgh Panthers football|Pittsburgh]]||LB
+|- align=center
+|[[1992 NCAA Division I-A football season|1992]]||{{sortname|Bruce|Presley}}||[[Rutgers Scarlet Knights football|Rutgers]]||RB
+|- align=center
+|[[1993 NCAA Division I-A football season|1993]]||{{sortname|Terrell|Willis}} ||Rutgers||RB
+|- align=center
+|[[1994 NCAA Division I-A football season|1994]]|| {{sortname|Kenard|Lang}}||[[Miami Hurricanes football|Miami]]||DE
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1995 NCAA Division I-A football season|1995]]*||{{sortname|Donovan|McNabb}}<sup>#</sup>||[[Syracuse Orange football|Syracuse]]||QB
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1996 NCAA Division I-A football season|1996]]*||{{sortname|Amos|Zereoue}} ||[[West Virginia Mountaineers football|West Virginia]]||RB
+|- align=center
+|[[1997 NCAA Division I-A football season|1997]]||{{sortname|Reggie|Wayne}} ||Miami||WR
+|- align=center
+|[[1998 NCAA Division I-A football season|1998]]||{{sortname|Joaquin|Gonzalez|dab=American football}} || Miami||OT
+|- align=center
+|[[1999 NCAA Division I-A football season|1999]]||{{sortname|Michael|Vick}}<sup>#</sup>{{ref label|Note9|i|i}} || [[Virginia Tech Hokies football|Virginia Tech]]||QB
+|- align=center
+|[[2000 NCAA Division I-A football season|2000]]||{{sortname|Grant|Wiley}} || West Virginia||LB
+|- align=center
+|[[2001 NCAA Division I-A football season|2001]]|| {{sortname|Kevin|Jones|dab=American football}} || Virginia Tech||RB
+|- align=center
+|[[2002 NCAA Division I-A football season|2002]]|| {{sortname|Larry|Fitzgerald}}<sup>#</sup>||Pittsburgh||WR
+|- align=center
+|[[2003 NCAA Division I-A football season|2003]]|| {{sortname|Chris|Henry|dab=wide receiver}} || West Virginia||WR
+|- align=center
+|[[2004 NCAA Division I-A football season|2004]]||{{sortname|Brian|Toal}} || [[Boston College Eagles football|Boston College]]||LB
+|- align=center
+|[[2005 NCAA Division I-A football season|2005]]|| {{sortname|Steve|Slaton}} || West Virginia||RB
+|- align=center
+|[[2006 NCAA Division I FBS football season|2006]]|| {{sortname|Matt|Grothe}} || [[South Florida Bulls football|South Florida]]||QB
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[2007 NCAA Division I FBS football season|2007]]*||{{sortname|LeSean|McCoy}} ||Pittsburgh||RB
+|- align=center
+|[[2008 NCAA Division I FBS football season|2008]]||{{sortname|Victor|Anderson|dab=American football}} || [[Louisville Cardinals football|Louisville]]||RB
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[2009 NCAA Division I FBS football season|2009]]*||{{sortname|Dion|Lewis}}<sup>#</sup>{{ref label|Note9|i|i}} || Pittsburgh||RB
+|-align=center
+|[[2010 NCAA Division I FBS football season|2010]] ||{{sortname|Hakeem|Smith}} || Louisville||S
+|-align=center
+|[[2011 NCAA Division I FBS football season|2011]] ||{{sortname|Teddy|Bridgewater}}<sup>#</sup>|| Louisville||QB
+|-align=center
+|[[2012 NCAA Division I FBS football season|2012]]||{{sortname|Tyler|Matakevich}} ||Temple Owls football|Temple||LB
+|}
+
+===Winners by school===
+{|class=wikitable
+|-
+!School (First season) !! Winners !! Years   
+|-
+|[[West Virginia Mountaineers football|West Virginia]] (1991){{ref label|Note4|d|d}} || 4 || 1996, 2000, 2003, 2005
+|-
+|[[Pittsburgh Panthers football|Pittsburgh]] (1991){{ref label|Note2|b|b}} || 4 || 1991, 2002, 2007, 2009
+|-
+|[[Louisville Cardinals football|Louisville]] (2005){{ref label|Note6|f|f}} ||3||2008, 2010, 2011
+|-
+|[[Miami Hurricanes football|Miami]] (1991){{ref label|Note1|a|a}}||3||1994, 1997, 1998  
+|-
+|[[Rutgers Scarlet Knights football|Rutgers]] (1991){{ref label|Note7|g|g}} ||2||1992, 1993 
+|-
+|[[Virginia Tech Hokies football|Virginia Tech]] (1991){{ref label|Note3|c|c}}||2||1999, 2001 
+|-
+|[[Boston College Eagles football|Boston College]] (1991){{ref label|Note5|e|e}}||1||2004 
+|-
+|[[Syracuse Orange football|Syracuse]] (1991){{ref label|Note2|b|b}}||1||1995
+|-
+|[[South Florida Bulls football|South Florida]] (2005)||1||2006 
+|-
+|[[Temple Owls football|Temple]] (1991){{ref label|Note8|h|h}} || 1 || 2012
+|-
+|[[Cincinnati Bearcats football|Cincinnati]] (2005)||0||
+|-
+|[[UConn Huskies football|Connecticut]] (2004)||0|| 
+|}
+
+==Coach of the Year==
+[[Dennis Erickson]] won the first two awards with Miami in 1991 and 1992 after 12–0 and 11–0 seasons, respectively.<ref name=list/><ref name=erickson/> Erickson, [[Brian Kelly (American football coach)|Brian Kelly]] (then of Cincinnati), and [[Frank Beamer]] of Virginia Tech each won the award three times. [[Larry Coker]], [[Rich Rodriguez]], [[Charlie Strong]],<ref name="2012 press release"/> and [[Walt Harris (coach)|Walt Harris]] have each won twice.<ref name="2012 list"/> Miami and Rutgers had the most individual winners of the award, with three. [[Terry Shea]] of Rutgers is the only winner after a losing season,<ref name=shea/> while Walt Harris was 6–6 in 1997.<ref name=harris/>
+
+The award was shared twice; both times, Strong was one of the recipients. He shared the award with [[Randy Edsall]] in 2010 and [[Kyle Flood]] in 2012.<ref name="2012 list"/><ref name="2012 press release"/> Five coaches have won the award in their first year at a school—Harris in 1997,<ref name=harris/> Coker in 2001,<ref name=coker/> Kelly in 2007,<ref name=kelly/> Strong in 2010,<ref name=strong/> and Flood in 2012.<ref name="2012 press release"/><ref name=Flood/>
+
+===Winners===
+[[File:Frank Beamer.jpg|thumb|upright|Frank Beamer won three times with Virginia Tech.]]
+[[File:Butch Davis.jpg|thumb|upright|Butch Davis won with Miami in 2000.]]
+[[File:Rich Rodriguez.jpg|thumb|upright|West Virginia coach Rich Rodriguez was the 2003 winner.]]
+{| class="wikitable"
+|style="background-color:#FFE6BD; width:3em;" |*
+|Unanimous selection<ref name=list/>
+|-
+|style="background-color:#CFECEC; width:3em;" |<sup>†</sup>
+|Co-Coach of the Year<ref name=list/>
+|-
+|Coach (X)
+|Denotes the number of times the coach has been selected
+|}
+{| class="wikitable sortable"
+|-
+!Season
+!Coach
+!School
+!Year with school
+!Record
+!class="unsortable"|Reference
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1991 NCAA Division I-A football season|1991]]*||{{sort|Erickson|[[Dennis Erickson]]}}||[[Miami Hurricanes football|Miami]]||3rd||12–0||<ref name=erickson>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=711 |title=Dennis Erickson Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=July 3, 2009 |archive-url=https://web.archive.org/web/20090703012354/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=711 |url-status=dead }}</ref>
+|- align=center
+|[[1992 NCAA Division I-A football season|1992]]||{{sort|Erickson|Dennis Erickson}} (2)||Miami||4th||11–1||<ref name=erickson/>
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1993 NCAA Division I-A football season|1993]]*||{{sort|Nehlen|[[Don Nehlen]]}}||[[West Virginia Mountaineers football|West Virginia]]||14th||11–1||<ref>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=1731 |title=Don Nehlen Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=April 22, 2008 |archive-url=https://web.archive.org/web/20080422193637/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=1731 |url-status=dead }}</ref>
+|- align=center
+|[[1994 NCAA Division I-A football season|1994]]||{{sort|Erickson|Dennis Erickson}} (3)||Miami||6th||10–2||<ref name=erickson/>
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[1995 NCAA Division I-A football season|1995]]*||{{sort|Beamer|[[Frank Beamer]]}}||[[Virginia Tech Hokies football|Virginia Tech]]||9th||10–2||<ref name=beamer>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=130 |title=Frank Beamer Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=May 7, 2008 |archive-url=https://web.archive.org/web/20080507054115/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=130 |url-status=dead }}</ref> 
+|- align=center
+|[[1996 NCAA Division I-A football season|1996]]||{{sort|Beamer|Frank Beamer}} (2)||Virginia Tech||10th||10–2||<ref name=beamer/>
+|- align=center
+|[[1997 NCAA Division I-A football season|1997]]||{{sort|Harris|[[Walt Harris (coach)|Walt Harris]]}}||[[Pittsburgh Panthers football|Pittsburgh]]||1st||6–6||<ref name=harris>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=988 |title=Walt Harris Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=November 14, 2009 |archive-url=https://web.archive.org/web/20091114204727/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=988 |url-status=dead }}</ref> 
+|- align=center
+|[[1998 NCAA Division I-A football season|1998]]||{{sort|Shea|[[Terry Shea]]}}||[[Rutgers Scarlet Knights football|Rutgers]]||3rd||5–6||<ref name=shea>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=2117 |title=Terry Shea Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=February 15, 2010 |archive-url=https://web.archive.org/web/20100215002630/http://cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=2117 |url-status=dead }}</ref>
+|- align=center
+|[[1999 NCAA Division I-A football season|1999]]||{{sort|Beamer|Frank Beamer}} (3)||Virginia Tech||13th||11–1||<ref name=beamer/>
+|- align=center
+|[[2000 NCAA Division I-A football season|2000]]||{{sort|Davis|[[Butch Davis]]}}||Miami||6th||11–1||<ref>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=540 |title=Butch Davis Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=February 14, 2010 |archive-url=https://web.archive.org/web/20100214161036/http://cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=540 |url-status=dead }}</ref>
+|- align=center
+|[[2001 NCAA Division I-A football season|2001]]||{{sort|Coker|[[Larry Coker]]}}||Miami||1st||12–0||<ref name=coker>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=411 |title=Larry Coker Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=January 27, 2016 |archive-url=https://web.archive.org/web/20160127112642/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=411 |url-status=dead }}</ref>
+|- align=center
+|[[2002 NCAA Division I-A football season|2002]]||{{sort|Coker|Larry Coker}} (2)||Miami||2nd||12–1||<ref name=coker/>
+|-style="background-color:#FFE6BD; width:3em;" align=center
+|[[2003 NCAA Division I-A football season|2003]]*||{{sort|Rodriguez|[[Rich Rodriguez]]}}||West Virginia||3rd||8–5||<ref name=rod>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=2011 |title=Rich Rodriguez Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=April 22, 2008 |archive-url=https://web.archive.org/web/20080422193706/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=2011 |url-status=dead }}</ref>
+|- align=center
+|[[2004 NCAA Division I-A football season|2004]]||{{sort|Harris|Walt Harris}} (2)||Pittsburgh||8th||8–4||<ref name=harris/>
+|- align=center
+|[[2005 NCAA Division I-A football season|2005]]||{{sort|Rodriguez|Rich Rodriguez}} (2)||West Virginia||5th||11–1||<ref name=rod/>
+|- align=center
+|[[2006 NCAA Division I FBS football season|2006]]||{{sort|Schiano|[[Greg Schiano]]}}||Rutgers||6th||11–2||<ref>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=2085 |title=Greg Schiano Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=February 14, 2010 |archive-url=https://web.archive.org/web/20100214225001/http://cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=2085 |url-status=dead }}</ref>
+|- align=center
+|[[2007 NCAA Division I FBS football season|2007]]|| {{sortname|Brian|Kelly|dab=American football coach}} || [[Cincinnati Bearcats football|Cincinnati]] || 1st || 10–3 ||<ref name=kelly>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=3253 |title=Brian Kelly Records by Year |publisher=College Football Data Warehouse |access-date=March 13, 2009 |archive-date=October 28, 2010 |archive-url=https://web.archive.org/web/20101028162426/http://cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=3253 |url-status=dead }}</ref>
+|- align=center
+|[[2008 NCAA Division I FBS football season|2008]]|| {{sortname|Brian|Kelly|dab=American football coach}} (2)||Cincinnati||2nd||11–3||<ref name=kelly/>
+|- align=center
+|[[2009 NCAA Division I FBS football season|2009]]|| {{sortname|Brian|Kelly|dab=American football coach}}  (3)||Cincinnati||3rd||12–0||<ref name=kelly/>
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2010 NCAA Division I FBS football season|2010]] || {{sortname|Randy|Edsall}} ||[[UConn Huskies football|Connecticut]]||12th||8–4||<ref name=edsall>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=674 |title=Randy Edsall Records by Year |publisher=College Football Data Warehouse |access-date=December 30, 2010 |archive-date=May 25, 2011 |archive-url=https://web.archive.org/web/20110525111837/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=674 |url-status=dead }}</ref>
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2010||{{sortname|Charlie|Strong}} ||[[Louisville Cardinals football|Louisville]]|| 1st ||7–6||<ref name=strong>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=3754 |title=Charlie Strong Records by Year |publisher=College Football Data Warehouse |access-date=December 30, 2010 |archive-date=October 29, 2010 |archive-url=https://web.archive.org/web/20101029170840/http://cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=3754 |url-status=dead }}</ref>
+|- align=center
+|[[2011 NCAA Division I FBS football season|2011]] || {{sortname|Butch|Jones}} || Cincinnati || 2nd || 10–3 || <ref name="2012 list"/><ref name=Jones>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=4410 |title=Butch Jones Records by Year |publisher=College Football Data Warehouse |access-date=January 26, 2013 |archive-date=November 12, 2013 |archive-url=https://web.archive.org/web/20131112211742/http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=4410 |url-status=dead }}</ref>
+|- style="background-color:#CFECEC; width:3em;" align=center
+|[[2012 NCAA Division I FBS football season|2012]] || {{sortname|Kyle|Flood}} || Rutgers || 1st || 9–4 || <ref name="2012 press release"/><ref name=Flood>{{cite web |url=http://www.cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=6905 |title=Kyle Flood Records by Year |publisher=College Football Data Warehouse |access-date=December 30, 2010 |archive-date=May 15, 2015 |archive-url=https://web.archive.org/web/20150515075741/http://cfbdatawarehouse.com/data/coaching/alltime_coach_year_by_year.php?coachid=6905 |url-status=dead }}</ref>
+|- style="background-color:#CFECEC; width:3em;" align=center
+|2012 || {{sortname|Charlie|Strong}} || [[Louisville Cardinals football|Louisville]] || 3rd || 11–2 ||<ref name="2012 press release"/><ref name=strong/>
+|}
+
+===Winners by school===
+{|class=wikitable
+|-
+!School (First season) !! Winners !! Years   
+|-
+|[[Miami Hurricanes football|Miami]] (1991){{ref label|Note1|a|a}}||6||1991, 1992, 1994, 2000, 2001, 2002 
+|-
+|[[Cincinnati Bearcats football|Cincinnati]] (2005)|| 4 || 2007, 2008, 2009, 2011
+|-
+|[[Rutgers Scarlet Knights football|Rutgers]] (1991){{ref label|Note7|g|g}} || 3 || 1998, 2006, 2012
+|-
+|[[Virginia Tech Hokies football|Virginia Tech]] (1991){{ref label|Note3|c|c}}||3||1995, 1996, 1999 
+|-
+|[[West Virginia Mountaineers football|West Virginia]] (1991){{ref label|Note4|d|d}} || 3 || 1993, 2003, 2005  
+|-
+|[[Louisville Cardinals football|Louisville]] (2005){{ref label|Note6|f|f}} || 2 || 2010, 2012
+|-
+|[[Pittsburgh Panthers football|Pittsburgh]] (1991){{ref label|Note2|b|b}}||2||1997, 2004
+|-
+|[[UConn Huskies football|Connecticut]] (2004)||1||2010
+|-
+|[[South Florida Bulls football|South Florida]] (2005)||0||
+|-
+|[[Syracuse Orange football|Syracuse]] (1991){{ref label|Note2|b|b}} || 0 || 
+|-
+|[[Temple Owls football|Temple]] (1991){{ref label|Note8|h|h}} || 0 || 
+|}
+
+==Footnotes==
+*{{note label|Note1|a|a}} Miami left the Big East for the [[Atlantic Coast Conference]] (ACC) after 2004.<ref name=acc>{{cite web |url=http://www.theacc.com/this-is/acc-this-is.html |title=About the ACC |publisher=TheACC.com |access-date=March 12, 2009 |url-status=dead |archive-url=https://web.archive.org/web/20120119062513/http://www.theacc.com/this-is/acc-this-is.html |archive-date=January 19, 2012 }}</ref>
+*{{note label|Note2|b|b}} The 2012 season was the last for Pittsburgh and Syracuse in the Big East. Both schools will join the ACC in July 2013.<ref name="Syracuse, Pitt">{{cite press release|url=http://www.theacc.com/genrel/091811aaa.html |title=ACC Extends Formal Invitations for Membership to Pittsburgh and Syracuse |access-date=September 18, 2011 |publisher=Atlantic Coast Conference |date=January 28, 2013 |url-status=dead |archive-url=https://web.archive.org/web/20111011140140/http://www.theacc.com/genrel/091811aaa.html |archive-date=October 11, 2011 }}</ref>
+*{{note label|Note3|c|c}} Virginia Tech left for the ACC after 2004.<ref name=acc/>
+*{{note label|Note4|d|d}} West Virginia left for the [[Big 12 Conference]] after 2011.<ref name=WVU>{{cite news|url=https://www.espn.com/college-sports/story/_/id/7574104/west-virginia-mountaineers-join-big-12-july-big-east-lawsuit-settlement |title=WVU settles suit, to join Big 12 in July |first=Andrea |last=Adelson |work=[[ESPN.com]] |date=February 14, 2012 |access-date=January 28, 2013}}</ref>
+*{{note label|Note5|e|e}} Boston College left for the ACC after 2005.<ref name=acc/>
+*{{note label|Note6|f|f}} Louisville has announced it will leave for the ACC after 2013.
+*{{note label|Note7|g|g}} Rutgers has announced it will leave for the Big Ten after 2013.
+*{{note label|Note8|h|h}} Temple, then a football-only member, was expelled from the Big East after the 2004 season due to poor attendance and non-competitiveness. They spent the following two seasons as an independent before becoming a football-only member of the [[Mid-American Conference]] in 2007. The Owls returned to Big East football in 2012, and became an all-sports member of the renamed Big East in 2013.
+*{{note label|Note9|i|i}} Michael Vick and Dion Lewis were selected as both Rookie of the Year and Offensive Player of the Year in the same season, 1999 and 2009, respectively.
+
+==See also==
+* [[American Athletic Conference football individual awards]]
+
+==References==
+{{Reflist|2}}
+
+{{Big East Conference football navbox}}
+{{College football award navbox}}
+
+{{DEFAULTSORT:Big East Conference Football Awards}}
+[[Category:College football conference awards and honors]]
+[[Category:Big East Conference football]]

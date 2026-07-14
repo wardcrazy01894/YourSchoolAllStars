@@ -1,8 +1,20 @@
 [
  {
+  "name": "Antonio Banks",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.pro-football-reference.com/players/B/BankAn20.htm"
+ },
+ {
   "name": "Antonio Freeman",
   "position": "WR",
   "basis": "sr-off"
+ },
+ {
+  "name": "Brad Baylor",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Brad-Baylor-1792/"
  },
  {
   "name": "Brandon Semones",
@@ -30,14 +42,50 @@
   "basis": "sr-off"
  },
  {
+  "name": "Cornell Brown",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Cornell_Brown"
+ },
+ {
   "name": "Dwayne Thomas",
   "position": "RB",
   "basis": "sr-off"
  },
  {
+  "name": "George DelRicco",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://www.gobblercountry.com/2019/7/21/20702678/virginia-tech-football-41-days-til-kickoff-with-a-look-back-at-george-delricco"
+ },
+ {
+  "name": "Hank Coleman",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt9411/941117/11170093.htm"
+ },
+ {
+  "name": "J.C. Price",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/J._C._Price"
+ },
+ {
+  "name": "Jeff Holland",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Jeff-Holland-1761/"
+ },
+ {
   "name": "Jermaine Holmes",
   "position": "WR",
   "basis": "sr-off"
+ },
+ {
+  "name": "Jim Baron",
+  "position": "DT",
+  "basis": "override",
+  "source": "http://inside.hokiesports.com/issues/2.4/20091105aah.php"
  },
  {
   "name": "Jim Druckenmiller",
@@ -60,6 +108,24 @@
   "basis": "sr-off"
  },
  {
+  "name": "Korey Irby",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://www.mbgc.org/irby"
+ },
+ {
+  "name": "Larry Green",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Larry-Green-1794/"
+ },
+ {
+  "name": "Lawrence Lewis",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.upi.com/Archives/1993/12/31/Lawrence-Lewis-returned-a-fumble-20-yards-for-a/7046757314000/"
+ },
+ {
   "name": "Marcus Parker",
   "position": "RB",
   "basis": "sr-off"
@@ -68,6 +134,12 @@
   "name": "Maurice DeShazo",
   "position": "QB",
   "basis": "sr-off"
+ },
+ {
+  "name": "Rafael Williams",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Rafael-Williams-1751/"
  },
  {
   "name": "Ranall White",
@@ -80,9 +152,45 @@
   "basis": "sr-off"
  },
  {
+  "name": "Stacy Henley",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Stacy-Henley-1724/"
+ },
+ {
+  "name": "Tommy Edwards",
+  "position": "RB",
+  "basis": "override",
+  "source": "https://roanoke.com/sports/college/va_tech/doug-doughty-football-cte-connection-no-surprise-to-former-virginia-tech-player-touchdown-tommy/article_adcbe1aa-2058-5b08-818a-4acab9c6635b.html"
+ },
+ {
   "name": "Tony Morrison",
   "position": "LB",
   "basis": "sr-def"
+ },
+ {
+  "name": "Torrian Gray",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.commanders.com/news/prior-to-roaming-the-sidelines-at-virginia-tech-torrian-gray-was-a-stan-18547339"
+ },
+ {
+  "name": "Vernon Dozier",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://www.washingtonpost.com/archive/sports/1994/09/17/hokies-walk-on-up-and-running/ebb9e4ee-ee25-43f4-8e3b-ad84188d80ec/"
+ },
+ {
+  "name": "Waverly Jackson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Waverly_Jackson"
+ },
+ {
+  "name": "William Yarborough",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.thekeyplay.com/content/2017/february/6/who-wore-it-best-virginia-tech-football-all-numbers-team-part-3-20-29"
  },
  {
   "name": "Al Clark",
@@ -100,9 +208,21 @@
   "basis": "sr-off"
  },
  {
+  "name": "Danny Wheel",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/1997_Virginia_Tech_Hokies_football_team"
+ },
+ {
   "name": "James Crawford",
   "position": "WR",
   "basis": "sr-off"
+ },
+ {
+  "name": "Jason Berish",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1996/rt9611/961107/11070046.htm"
  },
  {
   "name": "John M. Thomas",
@@ -110,14 +230,74 @@
   "basis": "sr-off"
  },
  {
+  "name": "Keion Carpenter",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Keion_Carpenter"
+ },
+ {
+  "name": "Kerwin Hairston",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/football-player-letterwinners"
+ },
+ {
+  "name": "Loren Johnson",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.statmuse.com/cfb/player/loren-johnson-131269"
+ },
+ {
+  "name": "Michael Stuewe",
+  "position": "WR",
+  "basis": "override",
+  "source": "https://sonsofsaturday.com/vt/articles/where-are-they-now-catching-up-with-michael-stuewe-former-virginia-tech-wide-receiver-whose-son-is-now-a-hokie-signee"
+ },
+ {
   "name": "Myron Newsome",
   "position": "LB",
   "basis": "sr-def"
  },
  {
+  "name": "Pierson Prioleau",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Pierson_Prioleau"
+ },
+ {
+  "name": "Steve Tate",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/1997_Virginia_Tech_Hokies_football_team"
+ },
+ {
+  "name": "Tyron Edmond",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://www.washingtonpost.com/archive/sports/1997/03/25/va-tech-football-player-found-guilty/b3b7fe50-60a2-4262-8c52-1e37e12d4459/"
+ },
+ {
   "name": "Aaron Layne",
   "position": "RB",
   "basis": "sr-off"
+ },
+ {
+  "name": "Anthony Midget",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/article/2018/08/31/now-anthony-midget/"
+ },
+ {
+  "name": "Carl Bradley",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.on3.com/college/virginia-tech-hokies/football/1999/roster/"
+ },
+ {
+  "name": "Chris Cyrus",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.bhsbees.com/vfootball00_15.htm"
  },
  {
   "name": "Cullen Hawkins",
@@ -130,9 +310,27 @@
   "basis": "sr-def"
  },
  {
+  "name": "John Engelberger",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/John_Engelberger"
+ },
+ {
+  "name": "Marcus Gildersleeve",
+  "position": "WR",
+  "basis": "override",
+  "source": "https://www.statmuse.com/cfb/player/marcus-gildersleeve-131270"
+ },
+ {
   "name": "Michael Hawkes",
   "position": "LB",
   "basis": "sr-def"
+ },
+ {
+  "name": "Nat Williams",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.archive.vtmag.vt.edu/sum97/sports.html"
  },
  {
   "name": "Shelly Ellison",
@@ -150,14 +348,38 @@
   "basis": "sr-off"
  },
  {
+  "name": "Anthony Lambo",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://gridironheroics.com/where-are-they-now-catching-up-with-anthony-lambo-virginia-tech-tackle-1996-2000/"
+ },
+ {
   "name": "Brian Remley",
   "position": "WR",
   "basis": "sr-off"
  },
  {
+  "name": "Corey Moore",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Corey_Moore"
+ },
+ {
+  "name": "Cory Bird",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Cory_Bird"
+ },
+ {
   "name": "Dave Meyer",
   "position": "QB",
   "basis": "sr-off"
+ },
+ {
+  "name": "Ike Charlton",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Ike_Charlton"
  },
  {
   "name": "Ken Handy",
@@ -173,6 +395,24 @@
   "name": "Lorenzo Ferguson",
   "position": "LB",
   "basis": "sr-def"
+ },
+ {
+  "name": "Nick Sorensen",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Nick_Sorensen"
+ },
+ {
+  "name": "Phillip Summers",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/1999_Virginia_Tech_Hokies_football_team"
+ },
+ {
+  "name": "Sean Ruffing",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/1997_Virginia_Tech_Hokies_football_team"
  },
  {
   "name": "Sean Sullivan",
@@ -200,9 +440,33 @@
   "basis": "sr-def"
  },
  {
+  "name": "Browning Wynn",
+  "position": "TE",
+  "basis": "override",
+  "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/vatech.sidearmsports.com/documents/2018/4/25/fb2001spring.pdf"
+ },
+ {
+  "name": "Chad Beasley",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.gobblercountry.com/2019/5/29/18644984/virginia-tech-football-94-days-til-kickoff-with-a-look-back-at-chad-beasley"
+ },
+ {
+  "name": "David Pugh",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/David_Pugh_(American_football)"
+ },
+ {
   "name": "Derek Carter",
   "position": "TE",
   "basis": "sr-off"
+ },
+ {
+  "name": "Derrius Monroe",
+  "position": "DE",
+  "basis": "override",
+  "source": "http://draftscout.com/dsprofile.php?PlayerId=5849&DraftYear=2002"
  },
  {
   "name": "Emmett Johnson",
@@ -220,6 +484,12 @@
   "basis": "sr-off"
  },
  {
+  "name": "Larry Austin",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.gobblercountry.com/2019/8/7/20761723/virginia-tech-football-24-days-til-kickoff-with-a-look-back-at-larry-austin"
+ },
+ {
   "name": "Reggie Samuel",
   "position": "WR",
   "basis": "sr-off"
@@ -230,9 +500,27 @@
   "basis": "sr-off"
  },
  {
+  "name": "Tee Butler",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://bleacherreport.com/articles/268345-party-like-its-1999-a-look-back-at-virginia-techs-greatest-team"
+ },
+ {
+  "name": "Wayne Ward",
+  "position": "RB",
+  "basis": "override",
+  "source": "https://www.sports-reference.com/cfb/players/wayne-ward-1.html"
+ },
+ {
   "name": "Alex Markogiannakis",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Dan Wilkinson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/vatech.sidearmsports.com/documents/2018/4/25/fb2001spring.pdf"
  },
  {
   "name": "Grant Noel",
@@ -245,6 +533,12 @@
   "basis": "sr-off"
  },
  {
+  "name": "Lamar Cobb",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Lamar-Cobb-1676/"
+ },
+ {
   "name": "Lee Suggs",
   "position": "RB",
   "basis": "wmt-fine"
@@ -253,6 +547,12 @@
   "name": "Michael Vick",
   "position": "QB",
   "basis": "sr-off"
+ },
+ {
+  "name": "Ronyell Whitaker",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Ronyell_Whitaker"
  },
  {
   "name": "Shawn Witten",
@@ -270,9 +570,39 @@
   "basis": "sr-off"
  },
  {
+  "name": "Willie Pile",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Willie_Pile"
+ },
+ {
+  "name": "Billy Hardee",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/vatech.sidearmsports.com/documents/2018/4/25/fb2001spring.pdf"
+ },
+ {
+  "name": "Channing Reed",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://247sports.com/college/virginia-tech/Season/2000-Football/Commits/"
+ },
+ {
   "name": "Chris Buie",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Cols Colas",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.thekeyplay.com/content/2017/may/31/final-chapter-who-wore-it-best-virginia-tech-football-all-numbers-team-90-99"
+ },
+ {
+  "name": "Deon Provitt",
+  "position": "LB",
+  "basis": "override",
+  "source": "https://archive.techsideline.com/football/2001/roster2001.htm"
  },
  {
   "name": "Doug Easlick",
@@ -280,14 +610,62 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Eric Green",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Eric_Green_(cornerback)"
+ },
+ {
   "name": "Ernest Wilford",
   "position": "WR",
   "basis": "wmt-fine"
  },
  {
+  "name": "Garnell Wilds",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.washingtonpost.com/archive/sports/2005/07/31/redskins-roster/c1df18a1-a5b0-4e99-a357-bba18a41c75b/"
+ },
+ {
+  "name": "Jim Davis",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Jim_Davis_(gridiron_football)"
+ },
+ {
   "name": "Keith Willis",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Kevin Lewis",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://247sports.com/Player/Kevin-Lewis-73456/"
+ },
+ {
+  "name": "Kevin McCadam",
+  "position": "S",
+  "basis": "override",
+  "source": "https://roanoke.com/sports/college/va_tech/a-look-back-at-the-talent-on-the-field-in-the-2001-virginia-tech-miami/article_d73487a2-f8b8-11e4-a970-e32f1d06c270.html"
+ },
+ {
+  "name": "Michael Crawford",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.thekeyplay.com/content/2017/february/6/who-wore-it-best-virginia-tech-football-all-numbers-team-part-3-20-29"
+ },
+ {
+  "name": "Nathaniel Adibi",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/Nathaniel-Adibi-2427/"
+ },
+ {
+  "name": "T.J. Jackson",
+  "position": "S",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/player/TJ--Jackson-1683/"
  },
  {
   "name": "Vegas Robinson",
@@ -315,9 +693,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "DeAngelo Hall",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/DeAngelo_Hall"
+ },
+ {
   "name": "Jared Mazzetta",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Jason Lallis",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.msn.com/en-us/sports/ncaafb/virginia-tech-football-91-days-til-kickoff-with-a-look-back-at-jason-lallis/ar-AACfBlp"
  },
  {
   "name": "Josh Spence",
@@ -335,9 +725,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Mike Daniels",
+  "position": "S",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/mike-daniels-1"
+ },
+ {
   "name": "Richard Johnson",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Vincent Fuller",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Vincent_Fuller_(American_football)"
  },
  {
   "name": "Blake Warren",
@@ -345,9 +747,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Cary Wade",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/player/cary-wade-51401/"
+ },
+ {
   "name": "Cedric Humes",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Darryl Tapp",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Darryl_Tapp"
  },
  {
   "name": "James Anderson",
@@ -355,14 +769,38 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jason Murphy",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/jason-murphy/613"
+ },
+ {
   "name": "Jeff King",
   "position": "TE",
   "basis": "wmt-fine"
  },
  {
+  "name": "Jimmy E. Williams",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/135243/jimmy-e.-williams"
+ },
+ {
+  "name": "Jimmy Williams",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Jimmy_Williams_(cornerback,_born_1984)"
+ },
+ {
   "name": "John Candelas",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Jonathan Lewis",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/135228/jonathan-lewis"
  },
  {
   "name": "Jordan Trott",
@@ -378,6 +816,12 @@
   "name": "Mike Imoh",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Tim Sandidge",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.nfl.com/players/tim-sandidge/"
  },
  {
   "name": "Will Hunt",
@@ -405,14 +849,44 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Isaac Montgomery",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/season/2003/player/isaac-montgomery"
+ },
+ {
+  "name": "James Griffin",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/James_Griffin_(defensive_back)"
+ },
+ {
   "name": "Marcus Vick",
   "position": "QB",
   "basis": "wmt-fine"
  },
  {
+  "name": "Noland Burchette",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://bleacherreport.com/articles/169553-a-look-back-at-virginia-techs-2002-recruiting-class"
+ },
+ {
   "name": "Steve Canter",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Barry Booker",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/barry-booker-1"
+ },
+ {
+  "name": "Brandon Flowers",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Brandon_Flowers_(American_football)"
  },
  {
   "name": "Brenden Hill",
@@ -425,9 +899,27 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Carlton Powell",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Carlton_Powell"
+ },
+ {
+  "name": "Chris Ellis",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Chris_Ellis_(American_football)"
+ },
+ {
   "name": "Corey Gordon",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "D.J. Parker",
+  "position": "S",
+  "basis": "override",
+  "source": "https://roanoke.com/archive/d-j-parker-is-a-best-kept-secret-for-tech/article_0100f615-a8c6-59c1-8fc9-9db1914bf7cc.html"
  },
  {
   "name": "Duane Brown",
@@ -465,9 +957,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Kory Robertson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://247sports.com/player/kory-robertson-49453/"
+ },
+ {
   "name": "Robert Parker",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Roland Minor",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/roland-minor-1"
  },
  {
   "name": "Sean Glennon",
@@ -515,9 +1019,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Orion Martin",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Orion_Martin"
+ },
+ {
   "name": "Purnell Sturdivant",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Victor Harris",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Macho_Harris"
  },
  {
   "name": "Cam Martin",
@@ -533,6 +1049,24 @@
   "name": "Cody Grimm",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Cordarrow Thompson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://n.rivals.com/content/athletes/cordarrow-thompson-137638"
+ },
+ {
+  "name": "Demetrius Taylor",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/demetrius-taylor-4"
+ },
+ {
+  "name": "Dorian Porch",
+  "position": "S",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/dorian-porch/3500"
  },
  {
   "name": "Dustin Pickle",
@@ -575,6 +1109,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Kam Chancellor",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Kam_Chancellor"
+ },
+ {
   "name": "Kenny Jefferson",
   "position": "RB",
   "basis": "wmt-fine"
@@ -600,6 +1140,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Stephan Virgil",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/stephan-virgil-1"
+ },
+ {
   "name": "Andre Smith",
   "position": "TE",
   "basis": "wmt-fine"
@@ -620,9 +1166,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Davon Morgan",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Davon_Morgan"
+ },
+ {
   "name": "Devin Perez",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "John Graves",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/john-graves/2315"
  },
  {
   "name": "Matt Finnegan",
@@ -633,6 +1191,18 @@
   "name": "Matt Reidy",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Rashad Carmichael",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Roc_Carmichael"
+ },
+ {
+  "name": "Steven Friday",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://n.rivals.com/content/athletes/stephen-friday-46070"
  },
  {
   "name": "Tyrod Taylor",
@@ -648,6 +1218,12 @@
   "name": "Barquell Rivers",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Cris Hill",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://roanoke.com/archive/its-finally-cris-hills-time-at-virginia-tech/article_b867fd02-6397-5c49-8bf4-8988efdc2d49.html"
  },
  {
   "name": "Danny Coale",
@@ -668,6 +1244,12 @@
   "name": "Dyrell Roberts",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Eddie Whitley",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.pro-football-reference.com/players/W/WhitEd01.htm"
  },
  {
   "name": "Jake Johnson",
@@ -700,6 +1282,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Antoine Hopkins",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/381552/antoine-hopkins"
+ },
+ {
   "name": "Bruce Taylor",
   "position": "LB",
   "basis": "wmt-fine"
@@ -710,14 +1298,32 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Dwight Tucker",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://247sports.com/player/dwight-tucker-19078/college-30833/"
+ },
+ {
   "name": "J. Gouveia-Winslow",
   "position": "LB",
   "basis": "sr-def"
  },
  {
+  "name": "Jayron Hosley",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Jayron_Hosley"
+ },
+ {
   "name": "Ju-Ju Clayton",
   "position": "QB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Kwamaine Battle",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/236812/kwamaine-battle"
  },
  {
   "name": "Lyndell Gibson",
@@ -825,6 +1431,12 @@
   "basis": "sr-def"
  },
  {
+  "name": "Wiley Brown",
+  "position": "S",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/wiley-brown-1"
+ },
+ {
   "name": "Chase Williams",
   "position": "LB",
   "basis": "wmt-fine"
@@ -863,6 +1475,12 @@
   "name": "George George",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Isaiah Hamlette",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.insidenova.com/sports/stafford/bp-grad-seeks-national-title-at-jmu/article_5a0dbcc5-d745-53f7-9f8b-fb915b745249.html"
  },
  {
   "name": "Joey Phillips",
@@ -925,6 +1543,18 @@
   "basis": "sr-def"
  },
  {
+  "name": "Donaldven Manning",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://bleacherreport.com/articles/1027167-is-donaldven-manning-the-next-great-hokie-corner"
+ },
+ {
+  "name": "Donovan Riley",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://fightinggobbler.com/2014/05/25/best-nickel-cornerback-college-football-donovan-riley/"
+ },
+ {
   "name": "Griffin Hite",
   "position": "RB",
   "basis": "wmt-fine"
@@ -953,6 +1583,12 @@
   "name": "Matt Roth",
   "position": "DE",
   "basis": "sr-def"
+ },
+ {
+  "name": "Michael Cole",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/515554/michael-cole"
  },
  {
   "name": "Michael Holmes",
@@ -998,6 +1634,12 @@
   "name": "Chris Mangus",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Chuck Clark",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.monumentalsportsnetwork.com/washington/ravens/how-chuck-clarks-virginia-tech-career-molded-him-ravens-unheralded-standout"
  },
  {
   "name": "Dahman McKinnon",
@@ -1110,6 +1752,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Greg Stroman",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Greg_Stroman"
+ },
+ {
   "name": "Isaiah Ford",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1185,6 +1833,12 @@
   "basis": "sr-def"
  },
  {
+  "name": "Mook Reynolds",
+  "position": "S",
+  "basis": "override",
+  "source": "https://techlunchpail.com/blog/hokies-football-mook-reynolds-forces-his-way-into-a-starting-role"
+ },
+ {
   "name": "Raymon Minor",
   "position": "LB",
   "basis": "wmt-fine"
@@ -1200,6 +1854,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Terrell Edmunds",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Terrell_Edmunds"
+ },
+ {
   "name": "Travon McMillian",
   "position": "RB",
   "basis": "wmt-fine"
@@ -1208,6 +1868,12 @@
   "name": "Tremaine Edmunds",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Vinny Mihota",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.gobblercountry.com/2016/7/25/12270834/virginia-tech-hokies-2016-roster-preview-defensive-line"
  },
  {
   "name": "Alden Carpenter",
@@ -1280,6 +1946,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jovonn Quillen",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/player/jovonn-quillen-79225/"
+ },
+ {
   "name": "Reggie Floyd",
   "position": "S",
   "basis": "sr-def"
@@ -1313,6 +1985,12 @@
   "name": "AJ Bush",
   "position": "QB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Bryce Watts",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/Player/Bryce-Watts-86038/college-201292/"
  },
  {
   "name": "Coleman Fox",
@@ -1380,6 +2058,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Khalil Ladler",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/Player/Khalil-Ladler-28486/"
+ },
+ {
   "name": "Phil Patterson",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1400,6 +2084,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Caleb Farley",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Caleb_Farley"
+ },
+ {
+  "name": "Chamarri Conner",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Chamarri_Conner"
+ },
+ {
   "name": "Damon Hazelton",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1413,6 +2109,12 @@
   "name": "Jaylen Griffin",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Jermaine Waller",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Jermaine_Waller_(American_football)"
  },
  {
   "name": "Keshon Artis",
@@ -1440,6 +2142,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Rob Porcher",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://247sports.com/player/robert-porcher-iv-44289/"
+ },
+ {
   "name": "Ryan Willis",
   "position": "QB",
   "basis": "wmt-fine"
@@ -1455,9 +2163,39 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "TyJuan Garbutt",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/TyJuan_Garbutt"
+ },
+ {
+  "name": "Tyree Rodgers",
+  "position": "S",
+  "basis": "override",
+  "source": "https://roanoke.com/sports/college/va_tech/virginia-tech-safety-tyree-rodgers-won-t-play-the-rest-of-the-season/article_1bc101ae-0cbb-11eb-be36-ebb7380cbd9a.html"
+ },
+ {
+  "name": "Zion Debose",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://247sports.com/player/zion-debose-83083/"
+ },
+ {
   "name": "Alan Tisdale",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Armani Chatman",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/Player/Armani-Chatman-86256/"
+ },
+ {
+  "name": "Brion Murray",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/player/brion-murray-46077142/"
  },
  {
   "name": "Caleb Steward",
@@ -1470,9 +2208,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "DaShawn Crawford",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://247sports.com/player/dashawn-crawford-82089/"
+ },
+ {
   "name": "Dean Ferguson",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Eli Adams",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://roanoke.com/sports/virginia_tech/south-carolina-de-eli-adams-the-second-hokies-commitment-of/article_2e25cd30-4e13-11e7-ab36-0f15d650fcf7.html"
  },
  {
   "name": "James Mitchell",
@@ -1488,6 +2238,24 @@
   "name": "Keshawn King",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Mario Kendricks",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://nfldraftdiamonds.com/2020/11/mario-kendricks/"
+ },
+ {
+  "name": "Nadir Thompson",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/player/nadir-thompson-84587/"
+ },
+ {
+  "name": "Norell Pollard",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://roanoke.com/sports/college/va_tech/virginia-techs-norell-pollard-completes-his-transformation-into-standout-fbs-defensive-tackle/article_c938f486-10e8-11ec-a5e5-5f3eb758573e.html"
  },
  {
   "name": "Tahj Gary",
@@ -1535,9 +2303,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Josh Fuga",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.espn.com/nfl/player/_/id/4427234/josh-fuga"
+ },
+ {
   "name": "J.R. Walker",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Justus Reed",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://hokiesports.com/news/2020/4/22/football-justus-reed-joins-techs-talented-defensive-end-corps.aspx"
  },
  {
   "name": "Keondre Ko",
@@ -1575,9 +2355,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Ny'Quee Hawkins",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/player/nyquee-hawkins-84531/college-235720/"
+ },
+ {
   "name": "Raheem Blackshear",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Tyler Matheny",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/college/virginia-tech/Article/Tyler-Matheny-Virginia-Tech-football-one-interception-seven-tackles-vs-Duke-Blue-Devils--152416817/"
  },
  {
   "name": "Ben Locklear",
@@ -1585,9 +2377,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "C.J. McCray",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://roanoke.com/sports/college/va_tech/virginia-tech-football-moving-linebacker-c-j-mccray-to-defensive-end/article_740f9288-0f2d-11ec-8f05-4fab43628595.html"
+ },
+ {
   "name": "Cody Duncan",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Cole Nelson",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://hokiesports.com/news/2024/09/12/virginia-tech-football-defensive-spotlight-cole-nelson"
  },
  {
   "name": "Connor Blumrick",
@@ -1598,6 +2402,12 @@
   "name": "Da'Wain Lofton",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "DJ Harvey",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/DJ_Harvey_(American_football)"
  },
  {
   "name": "Jaden Payoute",
@@ -1650,6 +2460,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Wilfried Pene",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://techlunchpail.com/blog/wilfried-pene-improving-in-first-full-offseason-at-defensive-tackle"
+ },
+ {
   "name": "Bryce Duke",
   "position": "RB",
   "basis": "wmt-fine"
@@ -1700,6 +2516,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Keyshawn Burgos",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.on3.com/teams/purdue-boilermakers/news/purdue-lands-virginia-tech-edge-transfer/"
+ },
+ {
+  "name": "Malachi Madison",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://techlunchpail.com/blog/virginia-tech-dt-malachi-madison-will-enter-the-transfer-portal"
+ },
+ {
   "name": "Mansoor Delane",
   "position": "CB",
   "basis": "wmt-fine"
@@ -1733,6 +2561,12 @@
   "name": "Ali Jennings",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Antwaun Powell-Ryland",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.gobblercountry.com/2025/4/27/24419115/2025-nfl-draft-philadelphia-eagles-virginia-tech-hokies-antwaun-powell-ryland"
  },
  {
   "name": "Ayden Greene",
@@ -1795,6 +2629,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "James Jennette",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://n.rivals.com/content/athletes/james-jennette-302043"
+ },
+ {
+  "name": "Jason Abbey",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.gobblercountry.com/2022/4/23/23038370/virginia-tech-football-recruiting-de-jason-abbey-commits-to-the-hokies-2023-recruiting"
+ },
+ {
   "name": "Jaylin Lane",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1825,6 +2671,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Pheldarius Payne",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://techlunchpail.com/blog/pheldarius-payne-adapting-to-new-role-at-defensive-tackle"
+ },
+ {
   "name": "Tralon Mitchell",
   "position": "RB",
   "basis": "wmt-fine"
@@ -1850,6 +2702,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Aycen Stevens",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://techlunchpail.com/blog/virginia-techs-aycen-stevens-moves-from-linebacker-to-defensive-line"
+ },
+ {
   "name": "Brody Jones",
   "position": "S",
   "basis": "wmt-fine"
@@ -1863,6 +2721,12 @@
   "name": "Collin Schlee",
   "position": "QB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Emmett Laws",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/emmett-laws"
  },
  {
   "name": "Gabe Williams",
@@ -1883,6 +2747,18 @@
   "name": "Kaleb Spencer",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Kelvin Gilliam Jr.",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://draftscout.com/dsprofile.php?PlayerId=1053047&DraftYear=2026"
+ },
+ {
+  "name": "Kemari Copeland",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://techlunchpail.com/blog/virginia-tech-dt-kemari-copeland-lived-up-to-the-preseason-hype-in-2025"
  },
  {
   "name": "Keylen Adams",
@@ -1935,6 +2811,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Ben Bell",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.si.com/college/virginiatech/football/virginia-tech-dl-ben-bell-receives-rookie-mini-camp-invitation-01kq2cta6ap9"
+ },
+ {
   "name": "Braydon Bennett",
   "position": "RB",
   "basis": "wmt-fine"
@@ -1968,6 +2850,12 @@
   "name": "Donavon Greene",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Elhadj Fall",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.cbssports.com/college-football/players/28922967/elhadj-fall/"
  },
  {
   "name": "Immanuel Hickman",
@@ -2028,6 +2916,12 @@
   "name": "Knahlij Harrell",
   "position": "CB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Kody Huisman",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://virginiatech.sportswar.com/article/2025/04/23/ndsu-defensive-tackle-kody-huisman-commits-to-virginia-tech/"
  },
  {
   "name": "Marcellous Hawkins",

@@ -11,6 +11,7 @@ import pittRaw from './pitt-basketball.json'
 import fbRaw from './michigan-football.json'
 import pittFbRaw from './pitt-football.json'
 import flaFbRaw from './florida-football.json'
+import vtFbRaw from './vt-football.json'
 import type { BballPlayer, FbPlayer } from '../types'
 
 export interface Dataset {
@@ -90,4 +91,11 @@ export const floridaFootball: FootballDataset = {
   sport: 'football',
   provisional: flaFbRaw._provisional === true,
   players: flaFbRaw.players as FbPlayer[],
+}
+
+export const virginiaTechFootball: FootballDataset = {
+  school: vtFbRaw.school,
+  sport: 'football',
+  provisional: vtFbRaw._provisional === true,
+  players: vtFbRaw.players as FbPlayer[],
 }

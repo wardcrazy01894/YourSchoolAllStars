@@ -36,7 +36,13 @@ const pages = [
 ]
 for (let y = 1994; y <= 2003; y++)
   pages.push(`${y} All-Big East Conference football team`)
-for (let y = 2004; y <= 2025; y++) pages.push(`${y} All-ACC football team`)
+// 2020–2023 use the long-form article title; the rest the short form.
+for (let y = 2004; y <= 2025; y++)
+  pages.push(
+    y >= 2020 && y <= 2023
+      ? `${y} All-Atlantic Coast Conference football team`
+      : `${y} All-ACC football team`,
+  )
 
 const slug = (t) => t.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-')
 

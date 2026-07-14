@@ -485,3 +485,40 @@ curation recipe; full provenance lives in the dataset `_note`. Source map:
   national-award winner tables, SEC individual awards). The Davey O'Brien
   Award (Wuerffel ×2, Tebow) was new to the honor systems and is now scored
   (`fbHonorTier`) and badged (`honors.ts`) with tests.
+
+### Virginia Tech (1994–2025) — fourth live football school
+
+`src/data/vt-football.json` (398 players). VT's platform is **wmt.games (WMT
+Digital), not Sidearm** — the mgoblue fetcher doesn't apply; the pipeline
+lives in `data-work/vt/` (scripts + parsed checkpoints + `PROGRESS.md`, all
+committed so the work is session-restartable). Source map:
+
+- **1994–2012**: Wayback captures of the old hokiesports.com per-year season
+  cumes (`/football/stats/<year>/?season`, 2018 snapshots) — **full official
+  offense AND defense every year, including pre-1997 tackles/TFL/sacks** that
+  no citable source had for Michigan or Pitt. Every parsed column is
+  validated against the page's printed Total row; each row cites its
+  snapshot URL.
+- **2013–2025**: the WMT API behind hokiesports.com
+  (`api.wmt.games/api/statistics/teams/<id>/players`, official NCAA-fed
+  season totals; team ids are keyed by ACADEMIC year = season + 1). Rows cite
+  the hokiesports stats page. `pbu` maps from sPassesBrokenUp (pure
+  breakups, NOT sPassesDefended = PBU + INT).
+- **Cross-validation vs SR** (all 32 season pages archived in
+  `data-work/vt/sr-html/`; 1997's individual tables were never archived so a
+  fresh Save-Page-Now capture was minted): holes/phantoms all resolved to SR
+  name variants or correctly-excluded K/P/OL players; one impossible WMT row
+  repaired from SR (Burmeister 2021 rec line). Remaining deltas are
+  bowl/coverage scope — each row matches its own cited page.
+- **Positions**: WMT rosters/stats fine codes (2002+), SR fine codes, then a
+  **per-player cited research pass** for 155 players (citations in
+  `data-work/vt/positions-override.json`; VT's Rover/Whip hybrids map to S
+  unless sourced as edge). Six above-floor players whose DE/DT or CB/S split
+  no citable source pins down were **dropped rather than guessed** (largest:
+  Ryan Smith 1997–98, confirmed DL but never split).
+- **Honors**: not yet attached (`honors: []` everywhere) — same staging as
+  Michigan (stats PR first, honors follow-up). Wikipedia per-year All-Big
+  East/All-ACC coverage is too spotty for VT (only ~half the years exist);
+  the follow-up should lean on the archived official media-guide PDFs
+  (`hokiesports.com/football/<year>MG/…`) + `allamericans.html` +
+  `awards.html` Wayback pages (see `data-work/vt/PROGRESS.md`).

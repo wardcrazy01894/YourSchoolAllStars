@@ -1,0 +1,5921 @@
+<!-- source: https://en.wikipedia.org/wiki/2022_All-Atlantic_Coast_Conference_football_team -->
+{{Use mdy dates|date=October 2022}}
+{{Infobox sports season
+| title             = 2022 ACC Football season
+| color             = #013CA6
+| color text        = #FFFFFF
+| league            = [[NCAA Division I Football Bowl Subdivision]] 
+| sport             = [[College football|Football]]
+| logo              = Atlantic Coast Conference logo.svg
+| logo_size         = 200
+| caption           = 
+| duration          = August 27, 2022 to December 30, 2022
+| no_of_teams       = 14
+| draft             = 2023 NFL draft
+| draft_link        = 2023 NFL draft
+| top_pick          = DT [[Calijah Kancey]], Pittsburgh
+| picked_by         = [[Tampa Bay Buccaneers]], 19th overall
+| season            = Regular season
+| season_champs     =
+| MVP               =
+| MVP_link          = Atlantic Coast Conference football individual awards
+| conf1             = Atlantic
+| conf1_link        = 
+| conf1_champ       = [[2022 Clemson Tigers football team|Clemson]]
+| conf1_runner-up   = [[2022 Florida State Seminoles football team|Florida State]]
+| conf2             = Coastal
+| conf2_link        = 
+| conf2_champ       = [[2022 North Carolina Tar Heels football team|North Carolina]]
+| conf2_runner-up   = [[2022 Pittsburgh Panthers football team|Pittsburgh]]/[[2022 Duke Blue Devils football team|Duke]]
+| finals            = ACC Championship Game
+| finals_link       = 2022 ACC Championship Game
+| finals_champ      = [[2022 Clemson Tigers football team|Clemson]]
+| finals_runner-up  = [[2022 North Carolina Tar Heels football team|North Carolina]]
+| finals_MVP        = [[Cade Klubnik]] (Clemson)
+| finals_MVP_link   = 
+| prevseason_link   = 2021 Atlantic Coast Conference football season
+| prevseason_year   = 2021
+| nextseason_link   = 2023 Atlantic Coast Conference football season
+| nextseason_year   = 2023
+}}
+{{2022 Atlantic Coast Conference football standings}}
+
+The '''2022 Atlantic Coast Conference football season''', part of the [[2022 NCAA Division I FBS football season]], was the 70th season of [[college football]] played for the [[Atlantic Coast Conference]] (ACC). The ACC consisted of 14 members in two divisions. The entire schedule was released on January 31, 2022.<ref>{{cite web|url=http://www.theacc.com/news/2022-acc-football-schedule-set-to-be-revealed-exclusively-on-acc-network-january-31|title=2022 ACC Football Schedule Set To Be Revealed Exclusively On ACC Network January 31, 2022|website=TheACC.com|date=January 25, 2022|accessdate=January 25, 2022}}{{Dead link|date=July 2023 |bot=InternetArchiveBot |fix-attempted=yes }}</ref> This was the last season that the conference used divisions in its football scheduling.
+
+==Preseason==
+
+===Recruiting classes===
+{| class="wikitable sortable" style="text-align:center"
+|+ National rankings
+! Team
+! ESPN<ref>{{Cite web|url=http://insider.espn.com/college-sports/football/recruiting/classrankings/_/class2022%26date%3Dnull|title=2022 Football Class Rankings|access-date=July 20, 2022|archive-date=July 19, 2022|archive-url=https://web.archive.org/web/20220719032723/https://insider.espn.com/college-sports/football/recruiting/classrankings/_/class2022%26date%3Dnull|url-status=dead}}</ref>
+! Rivals<ref>{{Cite web|url= https://n.rivals.com/team_rankings/2022/all-teams/Football |title=2022 Class Rankings|access-date=July 20, 2022}}</ref>
+!  24/7<ref>{{Cite web|url= https://247sports.com/Season/2022-Football/CompositeTeamRankings/ |title=2022 Football Recruiting Team Rankings|access-date=July 20, 2022}}</ref>
+! On3 Recruits<ref>{{Cite web|url= https://www.on3.com/db/rankings/consensus-team/football/2022/ |title=2022 Football Recruiting Team Rankings|access-date=July 20, 2022}}</ref>
+! Total signees
+|-
+| |'''Boston College'''
+| style="text-align:center; background:white" | 38
+| style="text-align:center; background:white" | 38
+| style="text-align:center; background:white" | 40
+| style="text-align:center; background:white" | 49
+| style="text-align:center; background:white" | 22
+|-
+| |'''Clemson'''
+| style="text-align:center; background:white" | 4
+| style="text-align:center; background:white" | 10
+| style="text-align:center; background:white" | 10
+| style="text-align:center; background:white" | 14
+| style="text-align:center; background:white" | 20
+|-
+| |'''Duke'''
+| style="text-align:center; background:white" | N/A
+| style="text-align:center; background:white" | 51
+| style="text-align:center; background:white" | 52
+| style="text-align:center; background:white" | 55
+| style="text-align:center; background:white" | 18
+|-
+| |'''Florida State'''
+| style="text-align:center; background:white" | 19
+| style="text-align:center; background:white" | 17
+| style="text-align:center; background:white" | 20
+| style="text-align:center; background:white" | 19
+| style="text-align:center; background:white" | 18
+|-
+| |'''Georgia Tech'''
+| style="text-align:center; background:white" | 34
+| style="text-align:center; background:white" | 52
+| style="text-align:center; background:white" | 54
+| style="text-align:center; background:white" | 53
+| style="text-align:center; background:white" | 15
+|-
+| |'''Louisville'''
+| style="text-align:center; background:white" | 30
+| style="text-align:center; background:white" | 48
+| style="text-align:center; background:white" | 51
+| style="text-align:center; background:white" | 51
+| style="text-align:center; background:white" | 16
+|-
+| |'''Miami'''
+| style="text-align:center; background:white" | 9
+| style="text-align:center; background:white" | 31
+| style="text-align:center; background:white" | 16
+| style="text-align:center; background:white" | 11
+| style="text-align:center; background:white" | 15
+|-
+| |'''North Carolina'''
+| style="text-align:center; background:white" | 7
+| style="text-align:center; background:white" | 11
+| style="text-align:center; background:white" | 11
+| style="text-align:center; background:white" | 10
+| style="text-align:center; background:white" | 17
+|-
+| |'''NC State'''
+| style="text-align:center; background:white" | 31
+| style="text-align:center; background:white" | 68
+| style="text-align:center; background:white" | 64
+| style="text-align:center; background:white" | 59
+| style="text-align:center; background:white" | 12
+|-
+| |'''Pittsburgh'''
+| style="text-align:center; background:white" | 33
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 76
+| style="text-align:center; background:white" | 64
+| style="text-align:center; background:white" | 13
+|-
+| |'''Syracuse'''
+| style="text-align:center; background:white" | N/A
+| style="text-align:center; background:white" | 69
+| style="text-align:center; background:white" | 68
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 16
+|-
+| |'''Virginia'''
+| style="text-align:center; background:white" | 32
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 66
+| style="text-align:center; background:white" | 68
+| style="text-align:center; background:white" | 16
+|-
+| |'''Virginia Tech'''
+| style="text-align:center; background:white" | N/A
+| style="text-align:center; background:white" | 41
+| style="text-align:center; background:white" | 36
+| style="text-align:center; background:white" | 38
+| style="text-align:center; background:white" | 24
+|-
+| |'''Wake Forest'''
+| style="text-align:center; background:white" | N/A
+| style="text-align:center; background:white" | 76
+| style="text-align:center; background:white" | 71
+| style="text-align:center; background:white" | 62
+| style="text-align:center; background:white" | 13
+|}
+
+<small>Note: ESPN only ranks the top 40 teams.</small>
+
+===ACC Kickoff===
+The 2022 ACC Kickoff will be held on July 20 and 21 at the [[Westin]] hotel in [[Charlotte, North Carolina]]. Each team will have there head coach and three players available to talk to the media. Coverage of the event will be televised by the [[ACC Network]]. The preseason poll was released on July 26, 2022.  The poll projected Clemson to win the conference title for the seventh time in the last eight years.<ref>{{cite web|url=https://theacc.com/news/2022/7/26/clemson-favored-in-2022-acc-football-preseason-poll.aspx|title=Clemson Favored in 2022 ACC Football Preseason Poll|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=July 26, 2022|access-date=July 26, 2022}}</ref>
+
+{| class="wikitable" style="display: inline-table; text-align:center;"
+|+Atlantic
+|-
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Predicted finish|Team|Votes (1st place)}}
+|- align="center"
+| 1
+| Clemson
+| 1,080 (111)
+|- 
+| 2
+| NC State
+| 959 (44)
+|- 
+| 3
+| Wake Forest
+| 783 (6)
+|- 
+| 4
+| Louisville
+| 591
+|- 
+| 5
+| Florida State
+| 509 (2)
+|- 
+| 6
+| Boston College
+| 469 (1)
+|- 
+| 7
+| Syracuse
+| 201
+
+|}
+{| class="wikitable" style="display: inline-table; text-align:center;"
+|+Coastal
+|- 
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Predicted finish|Team|Votes (1st place)}}
+|- 
+| 1
+| Miami (FL)
+| 1,036 (98)
+|- 
+| 2
+| Pittsburgh
+| 911 (38)
+|- 
+| 3
+| North Carolina
+| 823 (18)
+|- 
+| 4
+| Virginia
+| 667 (6)
+|- 
+| 5
+| Virginia Tech
+| 592 (3)
+|- 
+| 6
+| Georgia Tech
+| 343 (1)
+|- 
+| 7
+| Duke
+| 220
+|}
+{| class="wikitable" style="text-align:center;"
+|- 
+| Colspan="3" |'''Media poll (ACC Championship)'''
+|- 
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Rank|Team|Votes}}
+|- 
+| 1 || Clemson || 103
+|- 
+| 2 || NC State || 38
+|- 
+| 3 || Miami (FL) || 8
+|- 
+| 4 || Wake Forest || 4
+|-
+| rowspan=2 | 5 || Pittsburgh || rowspan=2 | 3
+|-
+| Virginia
+|-
+| rowspan=2 | 7 || Florida State || rowspan=2 | 2
+|-
+| North Carolina
+|-
+| 9 || Boston College || 1
+|}
+
+===Preseason ACC Player of the year===
+Source:<ref name="preseason">{{cite web|url=https://theacc.com/news/2022/7/27/athlete-awards-clemson-leads-with-six-on-all-acc-preseason-team-nc-states-leary-projected-as-poty.aspx|title=Clemson Leads With Six on All-ACC Preseason Team; NC State's Leary Projected as POTY|website=theacc.com|publisher=The Atlantic Coast Conference|date=July 27, 2022|access-date=July 27, 2022}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+! Ranking !! Player !! Position !! Team !! Votes
+|-
+| 1
+| [[Devin Leary]]
+| rowspan=3 | QB
+| [[2022 NC State Wolfpack football team|NC State]]
+| 40
+|-
+| 2
+| [[Sam Hartman]]
+| [[2022 Wake Forest Demon Deacons football team|Wake Forest]]
+| 30
+|-
+| 3
+| [[Tyler Van Dyke]]
+| [[2022 Miami Hurricanes football team|Miami]]
+| 21
+|-
+| rowspan=2 | 4
+| [[Bryan Bresee]]
+| DT
+| [[2022 Clemson Tigers football team|Clemson]]
+| rowspan=2 | 14
+|-
+| [[Brennan Armstrong]]
+| QB
+| [[2022 Virginia Cavaliers football team|Virginia]]
+|-
+| rowspan=2 | 6
+| [[Malik Cunningham]]
+| QB
+| [[2022 Louisville Cardinals football team|Louisville]]
+| rowspan=2 | 12
+|-
+| [[Josh Downs]]
+| WR
+| [[2022 North Carolina Tar Heels football team|North Carolina]]
+|-
+| 8
+| [[Sean Tucker (American football)|Sean Tucker]]
+| RB
+| [[2022 Syracuse Orange football team|Syracuse]]
+| 11
+|-
+| 9
+| [[Myles Murphy (American football)|Myles Murphy]]
+| DT
+| rowspan=2 | [[2022 Clemson Tigers football team|Clemson]]
+| 5
+|-
+| 10
+| [[Trenton Simpson]]
+| LB
+| 3
+|-
+| 11
+| [[Jammie Robinson]]
+| S
+| [[2022 Florida State Seminoles football team|Florida State]]
+| 2
+|}
+
+===Preseason all-conference teams===
+
+Source:<ref name="preseason"/>
+
+{{col-begin}}
+{{col-1-of-3}}
+
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Quarterback]]
+| [[Devin Leary]]
+|NC State
+| 56
+|-
+! rowspan="2" | [[Running back]]
+| [[Sean Tucker (American football)|Sean Tucker]]
+|Syracuse
+| 125
+|-
+| [[Will Shipley]]
+|Clemson
+| 112
+|-
+! rowspan="3" | [[Wide receiver]]
+| [[Josh Downs]]
+|North Carolina
+| 128
+|-
+| [[A. T. Perry]]
+|Wake Forest
+| 111
+|-
+| [[Zay Flowers]]
+|Boston College
+| 104
+|-
+! rowspan="1" | [[Tight end]]
+| [[Will Mallory]]
+|Miami
+| 69
+|-
+! rowspan="1" | All-Purpose
+| [[Keytaon Thompson]]
+|Virginia
+| 70
+|-
+! rowspan="2" | [[Offensive tackle|Tackle]]
+| [[Jordan McFadden]]
+|Clemson
+| 127
+|-
+| [[Zion Nelson]]
+|Miami
+| 82
+|-
+! rowspan="2" | [[Guard (American football)|Guard]]
+| Caleb Chandler
+|Louisville
+| 104
+|-
+| [[Christian Mahogany]]
+|Boston College
+| 67
+|-
+! rowspan="1" | [[Center (American football)|Center]]
+| Grant Gibson
+|NC State
+| 90
+|}
+
+{{col-2-of-3}}
+
+==== Defense ====
+
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="2" | [[Defensive end]]
+| [[Myles Murphy (American football)|Myles Murphy]]
+|Clemson
+| 120
+|-
+| [[Habakkuk Baldonado]]
+|Pittsburgh
+| 54
+|-
+! rowspan="2" | [[Defensive tackle]]
+| [[Bryan Bresee]]
+|Clemson
+| 116
+|-
+| [[Calijah Kancey]]
+|Pittsburgh
+| 62
+|-
+! rowspan="3" | [[Linebacker]]
+| [[Drake Thomas]]
+|NC State
+| 92
+|-
+| [[Trenton Simpson]]
+|Clemson
+| 82
+|-
+| [[Payton Wilson]]
+|NC State
+| 60
+|-
+! rowspan="2" | [[Cornerback]]
+| [[Kei'Trel Clark]]
+|Louisville
+| 70
+|-
+| [[Josh DeBerry]]
+|Boston College
+| 65
+|-
+! rowspan="2" | [[Safety (American football position)|Safety]]
+| [[Jammie Robinson]]
+|Florida State
+| 93
+|-
+| [[Tanner Ingle]]
+|NC State
+| 63
+|}
+
+{{col-3-of-3}}
+
+==== Specialist ====
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Placekicker]]
+| [[B. T. Potter]]
+|Clemson
+| 99
+|-
+! rowspan="1" | [[Punter (American football)|Punter]]
+| [[Lou Hedley]]
+|Miami
+| 101
+|-
+! rowspan="1" | [[Kickoff returner|Specialist]]
+| [[Josh Downs]]
+|North Carolina
+| 57
+|}
+
+{{col-end}}
+
+===Preseason awards===
+
+====All−American Teams====
+
+{| class="wikitable" style="white-space:nowrap; font-size:90%; text-align:center;"
+|
+|'''AP 1st Team'''<ref>{{cite web|url=https://apnews.com/article/college-football-sports-alabama-ohio-abe26035464fdc929b789e62bf0a1209|title=AP preseason All-America team highlighted by Alabama stars|website=apnews.com|publisher=[[Associated Press]]|first=Ralph|last=Russo|date=August 22, 2022|access-date=August 22, 2022}}</ref>
+|'''AP 2nd Team'''
+|'''AS 1st Team'''<ref>{{cite news|last=Lassan Steven|url= https://athlonsports.com/college-football/college-football-2022-all-america-team|work=Athlon Sports|title= 2022 Preseason All-America Team |date=July 11, 2022|accessdate=July 11, 2022}}</ref> 
+|'''AS 2nd Team'''
+|'''WCFF 1st Team'''<ref>{{cite news|last=Carbone Al|url=https://waltercamp.org/walter-camp-2022-preseason-all-america-teams-presented-by-777-partners/|work=Walter Camp|title=Walter Camp 2022 Preseason All-America Teams, presented by 777 Partners|date=June 27, 2022|accessdate=June 28, 2022}}</ref>
+|'''WCFF 2nd Team''' 
+|'''ESPN'''<ref>{{cite web|url=https://www.espn.com/college-football/story/_/id/34446790/the-2022-college-football-preseason-all-america-team|title=The 2022 college football preseason All-America team|website=espn.com|publisher=ESPN|first=Chris|last=Low|date=August 24, 2022|access-date=August 24, 2022}}</ref>
+|'''CBS 1st Team'''<ref>{{Cite web|title=2022 CBS Sports Preseason All-America team: Alabama, Georgia, Ohio State lead with most honorees|url=https://www.cbssports.com/college-football/news/2022-cbs-sports-preseason-all-america-team-alabama-georgia-ohio-state-lead-with-most-honorees/|url-status=live|website=CBSSports|archive-url=https://web.archive.org/web/20210818215655/https://www.cbssports.com/college-football/news/2022-cbs-sports-preseason-all-america-team-alabama-georgia-ohio-state-lead-with-most-honorees/|date=August 17, 2022|accessdate=August 17, 2022|archive-date=August 18, 2021}}</ref>
+|'''CBS 2nd Team'''
+|'''CFN 1st Team'''<ref>{{cite news|last=|url=https://collegefootballnews.com/2022/08/preseason-all-america-offense-cfn-2022-preview/amp|work=CollegeFootballNews.com|title= Preseason All-America Offense: CFN 2022 Preview|date=August 2, 2022|accessdate=August 2, 2022}}</ref><br>
+<ref>{{cite news|last=|url=https://collegefootballnews.com/2022/08/preseason-all-america-defense-cfn-2022-preview/amp|work=CollegeFootballNews.com|title=Preseason All-America Defense: CFN 2022 Preview|date=August 2, 2022|accessdate=August 2, 2022}}</ref>
+|'''CFN 2nd Team'''
+|'''PFF 1st Team'''<ref>{{cite web|url=https://www.pff.com/news/college-football-2022-pff-preseason-all-america-team-bryce-young-bijan-robinson-and-will-anderson-earn-first-team-spots|title=2022 PFF College Preseason All-America Team: Bryce Young, Bijan Robinson and Will Anderson earn first-team spots|website=pff.com|publisher=[[Pro Football Focus]]|first=Anthony|last=Treash|date=August 1, 2022|access-date=August 1, 2022}}</ref>
+|'''PFF 2nd Team'''   
+|'''SN 1st Team'''<ref>{{cite news|last=Potter Charlie|url= https://247sports.com/college/alabama/Article/Six-Alabama-Football-players-named-Sporting-News-preseason-All-Americans-Bryce-Young-Jahmyr-Gibbs-Will-Anderson-Jordan-Battle-190138678/ |work=Athlon Sports|title= Six Alabama players named Sporting News preseason All-Americans |date=July 15, 2022|accessdate=July 15, 2022}}</ref> 
+|'''SN 2nd Team'''
+|- 
+! [[Christian Mahogany]], OG, Boston College
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+| 
+|-
+! [[Bryan Bresee]], DL, Clemson
+| {{Y}}
+| 
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|-
+! [[Tyler Davis (defensive lineman)|Tyler Davis]], DT, Clemson
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+|
+|{{Y}}
+|
+| 
+|
+|
+|- 
+![[Jordan McFadden]], OL, Clemson
+|
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|-  
+! [[Andrew Mukuba]], DB, Clemson
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|-
+! [[Myles Murphy (American football)|Myles Murphy]], DL, Clemson
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|-
+! [[Trenton Simpson]], LB, Clemson
+|
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|
+| {{Y}} 
+|-
+! [[Jammie Robinson]], S, Florida State
+|
+| {{Y}}
+|
+| 
+|
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+| 
+|- 
+! Caleb Chandler, OL, Louisville
+| {{Y}}
+|
+|
+| {{Y}}
+| {{Y}}
+|
+|
+|
+|
+|
+|
+| 
+| {{Y}}
+| {{Y}}
+|
+|-
+! [[Zion Nelson]], OT, Miami 
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+|
+|{{Y}}
+|
+|
+|
+| 
+|-
+! James Williams, S, Miami 
+|
+|
+|
+| 
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|
+|
+|
+| 
+|- 
+! [[Payton Wilson]], LB, NC State
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+|{{Y}}
+|
+|
+|
+|
+| 
+|-
+! [[Josh Downs]], WR, North Carolina
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+| 
+| {{Y}}
+|-
+! [[Calijah Kancey]], DL, Pittsburgh
+|
+| {{Y}}
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|- 
+! [[Sean Tucker (American football)|Sean Tucker]], RB, Syracuse
+|
+| {{Y}}
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|-
+! [[A. T. Perry]], WR, Wake Forest
+|
+| {{Y}}
+|
+| 
+|
+|
+|
+|
+| 
+|
+|
+|
+|
+|
+| 
+|}
+
+===Preseason award watchlists===
+
+{{col-begin}}
+{{col-1-of-3}}
+
+{| class="wikitable" style="text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Award|Head Coach/Player|School|Position|Year|Ref}}
+|-
+| rowspan=8 | [[Lott Trophy]]
+| [[Bryan Bresee]]
+| rowspan=2| Clemson
+| DT
+| rowspan=2|Jr.
+| rowspan=8 | <ref>{{cite web|url=https://lottimpacttrophy.org/lott-trophy/lott-impact-trophy-announces-2022-watch-list/|title=LOTT IMPACT® TROPHY ANNOUNCES 2022 WATCH LIST|website=lottimpacttrophy.org|publisher=Lott IMPACT Trophy|date=May 19, 2022|access-date=May 20, 2022}}</ref>
+|-
+| [[Trenton Simpson]]
+| rowspan=2 | LB
+|-
+| [[Shaka Heyward]]
+| Duke
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Akheem Mesidor]]
+| Miami (FL)
+| DL
+| rowspan=2|Jr.
+|-
+| [[Tony Grimes]]
+| North Carolina
+| CB
+|-
+| [[Calijah Kancey]]
+| Pittsburgh
+| DL
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Nick Jackson (American football)|Nick Jackson]]
+| Virginia
+| LB
+| Sr.
+|-
+| Nick Andersen
+| Wake Forest
+| S 
+| Jr.
+|- 
+| rowspan=4 | [[Bobby Dodd Coach of the Year Award|Dodd Trophy]]
+| [[Dabo Swinney]]
+| Clemson
+| rowspan=4 | HC
+| rowspan=4 | —
+| rowspan=4 | <ref>{{cite web|url=https://chick-fil-apeachbowl.com/news/2022/7/12/dodd-trophy-award-presented-by-peach-bowl-inc-dodd-trophy-releases-2022-preseason-watch-list.aspx|title=Dodd Trophy Releases 2022 Preseason Watch List|website=chick-fil-apeachbowl.com|publisher=Chick-Fil-A Peach Bowl|date=July 12, 2022|access-date=July 13, 2022}}</ref>
+|-
+| [[Dave Doeren]]
+| NC State
+|-
+| [[Pat Narduzzi]]
+| Pittsburgh
+|-
+| [[Dave Clawson]]
+| Wake Forest
+|-
+| rowspan=12 | [[Maxwell Award]]
+| [[Phil Jurkovec]]
+| Boston College
+| QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+| rowspan=12 | <ref>{{cite web|url=https://247sports.com/Article/College-football-Maxwell-Award-unveils-2022-watchlist-190234072/|title=College football Maxwell Award unveils 2022 watchlist|work=[[247Sports]]|first=Austin|last=Nivison|date=July 18, 2022|access-date=July 19, 2022}}</ref>
+|-
+| [[Will Shipley]]
+| Clemson
+| RB
+| So.
+|-
+| [[Jordan Travis]]
+| Florida State
+| rowspan=4 | QB
+| Sr.
+|-
+| [[Malik Cunningham]]
+| Louisville
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Tyler Van Dyke]]
+| Miami (FL)
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Devin Leary]]
+| NC State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Josh Downs]]
+| North Carolina
+| WR
+| Jr.
+|-
+| [[Sean Tucker (American football)|Sean Tucker]]
+| Syracuse
+| RB
+| So.
+|-
+| [[Brennan Armstrong]]
+| rowspan=2 | Virginia
+| QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Dontayvion Wicks]]
+| WR
+| Jr.
+|-
+| [[Sam Hartman]]
+| rowspan=2 | Wake Forest
+| QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[A. T. Perry]]
+| WR
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|- 
+| rowspan=5 | [[Davey O'Brien Award]]
+| [[Malik Cunningham]]
+| Louisville
+| rowspan=5 | QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+| rowspan=5 | <ref>{{cite tweet|user=daveyobrien|date=July 19, 2022|number=1549393762677407749|title=Congratulations to these 35 #DaveyQBs on our @daveyobrien Preseason Watch List| The list will be updated throughout the season with the additions of our weekly "Great 8" QB nominees, and the official Midseason Watch List of contenders for the award will be unveiled Oct. 18.|author=Davey O'Brien National Quarterback Award}}</ref>
+|-
+| [[Tyler Van Dyke]]
+| Miami (FL)
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Devin Leary]]
+| NC State
+| rowspan=3|[[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Brennan Armstrong]]
+| Virginia
+|-
+| [[Sam Hartman]]
+| Wake Forest
+|-
+| rowspan=8 | [[Doak Walker Award]]
+| Pat Garwo
+| Boston College
+| rowspan=8 | RB
+| Jr.
+| rowspan=8 | <ref>{{cite web|url=https://www.tigernet.com/clemson-football/news/clemson-running-back-will-shipley-named-to-doak-walker-award-watch-list-40407|title=Clemson running back Will Shipley named to Doak Walker Award watch list|website=tigernet.com|publisher=Southern Methodist University|date=July 20, 2022|access-date=July 20, 2022}}</ref>
+|-
+| [[Will Shipley]]
+| Clemson
+| rowspan=2|So.
+|-
+| [[Treshaun Ward]]
+| Florida State
+|-
+| [[Hassan Hall]]
+| rowspan=2 | Georgia Tech
+| Sr.
+|-
+| Dontae Smith
+| Jr.
+|-
+| [[British Brooks]]
+| North Carolina
+| Sr.
+|-
+| [[Sean Tucker (American football)|Sean Tucker]]
+| Syracuse
+| rowspan=2|So.
+|-
+| [[Justice Ellison]]
+| Wake Forest
+|-
+| rowspan=4 | [[Fred Biletnikoff Award|Biletnikoff Award]]
+| [[Josh Downs]]
+| North Carolina
+| rowspan=4 | WR
+| Jr.
+| rowspan=4 | <ref>{{cite web|url= https://biletnikoffaward.com/2022-watch-list/|title= 2022 Biletnikoff Award Watch List|date=July 21, 2022|access-date=July 21, 2022}}</ref> 
+|-
+| [[A. T. Perry]]
+| Wake Forest
+|[[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Keytaon Thompson]]
+| rowspan=2| Virginia
+| Sr.
+|-
+| [[Dontayvion Wicks]]
+| Jr.
+|- 
+| rowspan=7 | [[John Mackey Award]]
+| George Takacs
+| Boston College
+| rowspan=7 | TE
+|[[File:Redshirt.svg|10px|Redshirt]] Graduate 
+| rowspan=7 | <ref>{{cite web|title=2022 John Mackey Award Preseason Watch List Released|url= https://www.johnmackeyaward.com/uploads/3/4/7/9/34791900/2022.jma.watchlist.pdf |date=July 22, 2022|access-date=July 22, 2021}}</ref>
+|-
+| [[Davis Allen (American football)|Davis Allen]]
+| Clemson
+| Sr.
+|-
+| Camren McDonald
+| Florida State
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| Marshon Ford
+| Louisville
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Will Mallory]]
+| Miami (FL)
+| [[File:Redshirt.svg|10px|Redshirt]] Graduate 
+|-
+| [[Gavin Bartholomew]]
+| Pittsburgh
+| So.
+|-
+| [[Blake Whiteheart]]
+| Wake Forest
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| rowspan=5 | [[Rimington Trophy]]
+| [[Will Putnam]]
+| Clemson
+| rowspan=5 | OL
+| Sr.
+| rowspan=5 | <ref>{{cite web|title=Rimington Trophy Press Release|url= https://www.rimingtontrophy.com/watchlist/|date=July 22, 2022|access-date=July 22, 2022}}</ref>
+|-
+| Jakai Clark
+| Miami (FL)
+| Jr.
+|-
+| Grant Gibson
+| NC State
+| rowspan=2|[[File:Redshirt.svg|10px|Redshirt]] Graduate
+|-
+| Johnny Jordan
+| Virginia Tech
+|-
+| [[Michael Jurgens]]
+| Wake Forest
+| Jr.
+|-
+| rowspan=6 | [[Butkus Award]]
+| [[Trenton Simpson]]
+| Clemson
+| rowspan=6 | LB
+| Jr.
+| rowspan=6 | <ref>{{cite web|url=http://ncfaa.org/butkus/220725butkuswatchlist.pdf|title=Butkus Award 38th Season Watch List Announced|website=thebutkusaward.com|publisher=The Butkus Award|date=July 25, 2022|access-date=July 25, 2022}}</ref>
+|-
+| [[Tatum Bethune]]
+| Florida State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| Isaiah Moore
+| rowspan=2 | NC State
+| [[File:Redshirt.svg|10px|Redshirt]] Graduate 
+|-
+| [[Drake Thomas]]
+| rowspan=2|Jr.
+|-
+| [[Mikel Jones]]
+| Syracuse
+|-
+| [[Nick Jackson (American football)|Nick Jackson]]
+| Virginia
+| Sr.
+|}
+
+{{col-2-of-3}}
+
+{| class="wikitable" style="text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Award|Head Coach/Player|School|Position|Year|Ref}} 
+|-
+| rowspan=4 |[[Jim Thorpe Award]]
+| [[Andrew Mukuba]]
+| Clemson
+| rowspan=4 | DB
+| So.
+| rowspan=4 | <ref>{{cite press release|url=https://mailchi.mp/oksportshof/paycom-jim-thorpe-2022preseason-5881254|title=Paycom Jim Thorpe Award 2022 Preseason Watch list|publisher=Oklahoma Sports Hall of Fame|location=Oklahoma City|date=July 25, 2022|access-date=July 25, 2022}}</ref>
+|-
+| [[Jammie Robinson]]
+| Florida State
+| rowspan=6|Jr.
+|-
+| [[Kei'Trel Clark]]
+| Louisville
+|-
+| [[Brandon Hill (American football)|Brandon Hill]]
+| Pittsburgh
+|- 
+| rowspan= 10 | [[Bronko Nagurski Trophy]] 
+| [[Bryan Bresee]]
+| rowspan=3 | Clemson
+| DT 
+| rowspan= 10 | <ref>{{cite web|url=https://www.sportswriters.net/fwaa/news/2022/07/26/2022-bronko-nagurski-trophy-watch-list-unveiled|title=2022 Bronko Nagurski Trophy Watch List unveiled|website=sportswriters.net|publisher=FWWA|date=July 26, 2022|access-date=July 26, 2022}}</ref>
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| DE
+|-
+| [[Trenton Simpson]]
+| LB
+|-
+| [[Jammie Robinson]]
+| Florida State
+| S
+|-
+| [[Leonard Taylor III|Leonard Taylor]]
+| Miami (FL) 
+| DT
+| So.
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| North Carolina
+| DT
+| Jr.
+|-
+| [[Tanner Ingle]]
+| rowspan=2 | NC State
+| S
+| Sr.
+|-
+| [[Drake Thomas]]
+| LB
+| Jr.
+|-
+| [[Calijah Kancey]]
+| Pittsburgh
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Mikel Jones]]
+| Syracuse
+| LB
+| Jr.
+|-
+| rowspan=11 | [[Outland Trophy]]
+| [[Christian Mahogany]]
+| Boston College
+| G
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+| rowspan=11 | <ref>{{cite web|url=https://www.sportswriters.net/fwaa/news/2022/07/26/2022-outland-trophy-watch-list-unveiled|title=2022 Outland Trophy Watch List unveiled|website=sportswriters.net|publisher=FWWA|date=July 26, 2022|access-date=July 26, 2022}}</ref>
+|-
+| [[Bryan Bresee]]
+| rowspan=3 | Clemson
+| rowspan=2 | DT
+| Jr.
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| Sr.
+|-
+| [[Jordan McFadden]]
+| OT
+| rowspan=2|[[File:Redshirt.svg|10px|Redshirt]] Sr. 
+|-
+| Caleb Chandler
+| Louisville
+| G 
+|-
+| [[Leonard Taylor III|Leonard Taylor]]
+| rowspan=2 | Miami (FL) 
+| DT
+| So.
+|-
+| [[Zion Nelson]]
+| OT
+| [[File:Redshirt.svg|10px|Redshirt]] Jr. 
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| North Carolina
+| DT
+| Jr.
+|-
+| [[Cory Durden]]
+| NC State
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Graduate 
+|-
+| [[Calijah Kancey]]
+| rowspan=2 | Pittsburgh
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Carter Warren]]
+| OT
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| rowspan=4 | [[Lou Groza Award]]
+| Connor Lytton
+| Boston College
+| rowspan=4 | PK
+| So.
+| rowspan=4 | <ref>{{cite tweet|user=LouGrozaAward|date=July 27, 2022|number=1552292962071109632|title=The Lou Groza Collegiate Place-Kicker Award has announced the 2022 Preseason Watch List| Read the full release here: https://lougrozaaward.com/Current_Watch|author=Lou Groza Award}}</ref>
+|-
+| [[B. T. Potter]]
+| Clemson
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Andrés Borregales]]
+| Miami (FL) 
+| So.
+|-
+| [[Andre Szmyt]]
+| Syracuse
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| rowspan=5 | [[Ray Guy Award]]
+| Porter Wilson
+| Duke
+| rowspan=5 | P
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+| rowspan=5 | <ref>{{cite tweet|user=RayGuyAward|date=July 27, 2022|number=1552293827381264385|title=Congratulations to our 2022 RGA Pre-Season Watch List punters| __ Nomination forms will be released to schools tomorrow. #rayguyaward #ourguys #ncfaa #RayGuyAward #augustasports #OurGuy2022|author=Ray Guy Award}}</ref>
+|-
+| [[Alex Mastromanno]]
+| Florida State
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Lou Hedley]]
+| Miami (FL) 
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Ben Kiernan]]
+| North Carolina
+| Sr.
+|-
+| Ivan Mora
+| Wake Forest
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| rowspan=4 | [[Paul Hornung Award]]
+| [[Will Shipley]]
+| Clemson
+| RB
+| So.
+| rowspan=4 | <ref>{{cite web|url=https://clemsonsportstalk.com/s/8152/will-shipley-named-to-hornung-award-watch-list|title=Will Shipley Named to Hornung Award Watch List|website=clemsonsportstalk.com|publisher=Paul Hornung Award|date=July 28, 2022|access-date=July 28, 2022}}</ref>
+|-
+| Jaylen Stinson
+| Duke
+| DB
+| rowspan=2|Jr.
+|-
+| [[Israel Abanikanda]]
+| Pittsburgh 
+| RB
+|-
+| Taylor Morin
+| Wake Forest
+| WR
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| rowspan=11 | [[Wuerffel Trophy]]
+| Taji Johnson
+| Boston College
+| WR
+| Jr.
+| rowspan=11 | <ref>{{cite web|title= Wuerffel Trophy Unveils Watch List For 2022 |url= https://wuerffeltrophy.org/wuerffel-trophy-unveils-watch-list-for-2022/ |date=July 28, 2022|access-date=July 28, 2022}}</ref>
+|-
+| [[Will Shipley]]
+| Clemson
+| RB
+| So.
+|-
+| [[DeWayne Carter]]
+| Duke
+| DL
+| Jr.
+|-
+| Dillan Gibbons
+| Florida State
+| OL
+| Sr.
+|-
+| Myles Sims
+| Georgia Tech
+| DB
+| rowspan=3|Jr.
+|-
+| Clay James
+| Miami (FL)
+| LS
+|-
+| Christopher Toudle
+| NC State
+| TE
+|-
+| Deslin Alexandre
+| Pittsburgh
+| DL
+| rowspan=2| Sr.
+|-
+| Aaron Bolinksy
+| Syracuse
+| LS
+|-
+| Chayce Chalmers
+| Virginia
+| DB
+| Jr.
+|-
+| Isaiah Chaney
+| Wake Forest
+| DL
+| So.
+|-
+| rowspan=8 | [[Walter Camp Award]]
+| [[Phil Jurkovec]]
+| Boston College
+| rowspan=3 | QB
+| rowspan=2|[[File:Redshirt.svg|10px|Redshirt]] Sr.
+| rowspan=8 | <ref>{{cite web|url=https://waltercamp.org/walter-camp-2022-player-of-year-preseason-watch-list/|title=Walter Camp 2022 Player of Year Preseason Watch List|website=waltercamp.org|publisher=Walter Camp Football Foundation|first=Al|last=Carbone|date=July 29, 2022|access-date=July 29, 2022}}</ref>
+|-
+| [[Malik Cunningham]]
+| Louisville
+|-
+| [[Tyler Van Dyke]]
+| Miami (FL)
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Josh Downs]]
+| North Carolina
+| WR
+| Jr.
+|-
+| [[Devin Leary]]
+| NC State
+| QB
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Calijah Kancey]]
+| Pittsburgh
+| DL
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Sean Tucker (American football)|Sean Tucker]]
+| Syracuse
+| RB
+| So.
+|-
+| [[Sam Hartman]]
+| Wake Forest
+| QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|}
+
+{{col-3-of-3}}
+
+{| class="wikitable" style="text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Award|Head Coach/Player|School|Position|Year|Ref}} 
+|-
+| rowspan=15 | [[Bednarik Award]]
+| [[Josh DeBerry]]
+| Boston College
+| DB
+| Sr.
+| rowspan=15 | <ref>{{cite web|url=https://clemsontigers.com/wp-content/uploads/2022/07/2022-Bednarik-PRESEASON-WATCH-LIST-July.pdf|title=2022 Bednarik Award Watch List|date=August 1, 2022|access-date=August 1, 2022|publisher=[[Maxwell Football Club]]}}</ref>
+|-
+| [[Bryan Bresee]]
+| rowspan=3 | Clemson
+| DT
+| So.
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| DE
+| rowspan=2 | Jr.
+|-
+| [[Trenton Simpson]]
+| LB
+|-
+| [[Shaka Heyward]]
+| Duke
+| LB
+| Sr.
+|-
+| [[Jammie Robinson]]
+| Florida State
+| DB
+| Jr.
+|-
+| [[Yasir Abdullah]]
+| Louisville
+| LB
+| Sr.
+|-
+| [[James Williams (linebacker, born 2003)|James Williams]]
+| Miami (FL)
+| S
+| So.
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| North Carolina
+| DT
+| rowspan=3|Jr.
+|-
+| [[Drake Thomas]]
+| rowspan=2 | NC State
+| rowspan=2 | LB
+|-
+| [[Payton Wilson]]
+|-
+| [[Habakkuk Baldonado]]
+| rowspan=2 | Pittsburgh
+| DE
+| Sr.
+|-
+| [[Calijah Kancey]]
+| DT
+|[[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Mikel Jones]]
+| Syracuse
+| LB
+| Jr.
+|-
+| [[Nick Jackson (American football)|Nick Jackson]]
+| Virginia
+| LB
+| Sr.
+|-
+| rowspan=8|[[Lombardi Award|Rotary Lombardi Award]]
+| [[Bryan Bresee]]
+| rowspan=4|Clemson
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+| rowspan=8|<ref>{{cite web|url= https://www.rotarylombardiaward.org/_files/ugd/ae9e43_6277ce2af583489995a75d3db03181f6.pdf |title=Rotary Lombardi Award®, in conjunction with the Rotary Club of Houston, is pleased to announce the 77 players who will compete for this year's coveted award.|date=August 1, 2022|access-date=August 1, 2022|publisher=Rotary Lombardi Award}}</ref>
+|-
+| [[Jordan McFadden]]
+| OT
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| DE
+| rowspan=2|Jr.
+|-
+| [[Trenton Simpson]]
+| LB
+|-
+| Caleb Chandler
+| Louisville
+| OG
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Calijah Kancey]]
+| rowspan=2| Pittsburgh
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[SirVocea Dennis]]
+| LB
+| Sr.
+|-
+| [[Cory Durden]]
+| NC State
+| DT
+|[[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| rowspan=3|[[Patrick Mannelly Award]] 
+| [[Evan Deckers]]
+| Duke
+| rowspan=3|LS
+| [[File:Redshirt.svg|10px|Redshirt]] Graduate 
+| rowspan=3|<ref>{{cite web |title=THE PATRICK MANNELLY AWARD 2022 WATCHLIST |url=https://patrickmannellyaward.com/2022-nominees/ |access-date=August 6, 2022 |ref=August 2, 2022}}</ref>
+|-
+| Drew Little
+| North Carolina
+| Sr.
+|-
+| [[Joe Shimko]]
+| NC State
+| Jr.
+|-
+| [[Earl Campbell Tyler Rose Award]]
+| Jaden Williams
+| Boston College
+| WR
+| So.
+| <ref>{{cite web|title=2022 Earl Campbell Tyler Rose Award Watch List|url=https://gridironheroics.com/2022-earl-campbell-tyler-rose-award-watch-list/|date=August 10, 2022|access-date=August 10, 2022}}</ref>
+|-
+| rowspan=6 | Polynesian College Football Player Of The Year Award
+| [[DJ Uiagalelei]]
+| Clemson
+| QB
+| Jr.
+| rowspan=6|<ref>{{cite web |title=2022 Watch List for the Polynesian College Football Player of the Year Award|url=https://www.polynesianfootballhof.org/releases/2022-polynesian-college-football-player-of-the-year-award-watch-list|access-date=August 18, 2022}}</ref>
+|- 
+| [[Lawrance Toafili]]
+| Florida State
+| RB
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| Jermayne Lole
+| Louisville
+| rowspan=4 | DL
+| Sr.
+|- 
+| Logan Sagapolu
+| Miami
+| [[File:Redshirt.svg|10px|Redshirt]] Fr.
+|-
+| Aaron Faumui 
+| Virginia
+| Sr.
+|-
+| Josh Fuga
+| Virginia Tech
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|- 
+| rowspan=5 | [[Manning Award]]
+| [[Malik Cunningham]]
+| Louisville
+| rowspan=5 | QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+| rowspan=5 | <ref>{{cite web|url=https://crescentcitysports.com/allstate-sugar-bowl-announces-2022-manning-award-watch-list/|title=Allstate Sugar Bowl announces 2022 Manning Award Watch List|website=crescentcitysports.com|publisher=Crescent City Sports|first=John|last=Sudsbury|date=August 22, 2022|access-date=August 22, 2022}}</ref>
+|-
+| [[Tyler Van Dyke]]
+| Miami (FL)
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Devin Leary]]
+| NC State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Brennan Armstrong]]
+| Virginia
+| rowspan=2 | [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Sam Hartman]]
+| Wake Forest
+|- 
+| rowspan=12 | [[Johnny Unitas Golden Arm Award]]
+| [[Phil Jurkovec]]
+| Boston College
+| rowspan=12 | QB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr. 
+| rowspan=12 | <ref>{{cite web|title=The Johnny Unitas Golden Arm Award Unveils 2022 Watch List|url=https://goldenarmfoundation.com/2022/08/the-johnny-unitas-golden-arm-award-unveils-2022-watch-list/|date=August 24, 2022|access-date=August 24, 2022}}</ref>
+|-
+| [[DJ Uiagalelei]]
+| Clemson
+| Jr.
+|-
+| [[Jordan Travis]]
+| Florida State
+| Sr.
+|-
+| [[Jeff Sims]]
+| Georgia Tech
+| So.
+|-
+| [[Malik Cunningham]]
+| Louisville
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Tyler Van Dyke]]
+| Miami (FL)
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Devin Leary]]
+| NC State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Kedon Slovis]]
+| Pittsburgh
+| Sr.
+|-
+| [[Garrett Shrader]]
+| Syracuse
+| Jr.
+|-
+| [[Brennan Armstrong]]
+| Virginia 
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Grant Wells]]
+| Virginia Tech
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Sam Hartman]]
+| Wake Forest
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|}
+
+{{col-end}}
+
+==Coaches==
+
+===Coaching changes===
+The ACC entered the 2022 season with four new head football coaches:
+
+* On November 16, 2021, Virginia Tech head coach [[Justin Fuente]] agreed to part ways with the program<ref>{{cite web |last1=Adelson |first1=Andrea |title=Justin Fuente out as Virginia Tech Hokies football coach |date=November 16, 2021|url=https://www.espn.com/college-football/story/_/id/32643652/justin-fuente-virginia-tech-hokies-football-coach |website=espn.com |publisher=ESPN |access-date=February 1, 2022}}</ref> and was replaced by [[Brent Pry]] on November 30, 2021.<ref>{{cite web |last1=Schlabach |first1=Mark |last2=Rittenberg|first2=Adam|date=November 30, 2021|title=Virginia Tech names Penn State DC Brent Pry as new head football coach |url=https://www.espn.com/college-football/story/_/id/32753004/sources-virginia-tech-hokies-zeroing-penn-state-nittany-lions-dc-brent-pry-coach |website=espn.com |publisher=ESPN |access-date=February 1, 2022}}</ref>
+* On November 28, 2021, Duke head coach [[David Cutcliffe]] agreed to part ways with the program<ref>{{cite web |last1=Adelson |first1=Andrea |title=Duke, football coach David Cutcliffe mutually agree to part after 14 seasons |date=November 28, 2021|url=https://www.espn.com/college-football/story/_/id/32738302/duke-football-coach-david-cutcliffe-mutually-agree-part-14-seasons |website=espn.com |publisher=ESPN |access-date=February 1, 2022}}</ref> and was replaced by [[Mike Elko]] on December 10, 2021.<ref>{{cite web |last1=Rittenberg |first1=Adam |date=December 10, 2021|title=Duke hires Texas A&M defensive coordinator Mike Elko as head football coach |url=https://www.espn.com/college-football/story/_/id/32839321/sources-duke-hiring-texas-defensive-coordinator-mike-elko-head-football-coach |website=espn.com |publisher=ESPN |access-date=February 1, 2022}}</ref>
+* On December 2, 2021, Virginia head coach [[Bronco Mendenhall]] stepped down as head coach<ref>{{cite web |last1=Adelson |first1=Andrea |title=Bronco Mendenhall to step down as Virginia Cavaliers football coach |url=https://www.espn.com/college-football/story/_/id/32772659/bronco-mendenhall-steps-virginia-cavaliers-football-coach |website=espn.com |publisher=ESPN |access-date=February 1, 2022|date=December 2, 2021}}</ref> and was replaced by [[Tony Elliott (American football coach)|Tony Elliott]] on December 10, 2021.<ref>{{cite web |last1=Low |first1=Chris |date=December 10, 2021|title=Virginia Cavaliers hire Clemson Tigers OC Tony Elliott as head football coach |url=https://www.espn.com/college-football/story/_/id/32838240/virginia-cavaliers-hire-clemson-tigers-oc-tony-elliott-head-football-coach |website=espn.com |publisher=ESPN |access-date=February 1, 2022}}</ref>
+* On December 6, 2021, Miami head coach [[Manny Diaz (American football)|Manny Diaz]] was fired<ref>{{cite web |last1=Hale |first1=Davis |title=Miami Hurricanes fire football coach Manny Diaz |date=December 6, 2021 |url=https://www.espn.com/college-football/story/_/id/32804516/miami-hurricanes-fire-football-coach-manny-diaz |website=espn.com |publisher=ESPN |access-date=February 1, 2022}}</ref> and was replaced by [[Mario Cristobal]] on December 7, 2021.<ref>{{cite web |title=Mario Cristobal introduced as new Miami Hurricanes football coach: 'It's time to go to work' |url=https://www.espn.com/college-football/story/_/id/32816568/mario-cristobal-introduced-new-miami-hurricanes-football-coach-go-work |website=espn.com |publisher=ESPN |access-date=February 1, 2022|date=December 7, 2021}}</ref>
+
+===Head coaching records===
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! width="110" | Team
+! Head coach
+! Years at school
+! Overall record
+! Record at school
+! ACC record
+|-
+!| Boston College
+| [[Jeff Hafley]]
+| 3
+| 12–11
+| 12–11
+|  7–11
+|-
+!| Clemson
+| [[Dabo Swinney]]
+| 14
+| 132–35
+| 132–35
+| 74–17
+|-
+!| Duke
+| [[Mike Elko]]
+| 1
+| 0–0
+| 0–0
+| 0–0
+|-
+!| Florida State
+| [[Mike Norvell]]
+| 3
+| 46–28
+| 8–13
+| 6–10
+|-
+!| Georgia Tech
+| [[Geoff Collins (American football)|Geoff Collins]]
+| 4
+| 24–35
+| 9–25
+| 7–18
+|-
+!| Louisville
+| [[Scott Satterfield]]
+| 4
+| 69–43
+| 18–19
+| 12–13
+|-
+!| Miami
+| [[Mario Cristobal]]
+| 1
+| 62–60
+| 0–0
+| 0–0
+|-
+!| North Carolina
+| [[Mack Brown]]
+| 14
+| 265–139–1
+| 90–63–1
+| 55–47–1
+|-
+!| {{nowrap|NC State}}
+| [[Dave Doeren]]
+| 10
+| 87–53
+| 64–49
+| 34–40
+|-
+!| Pittsburgh
+| [[Pat Narduzzi]]
+| 8
+| 52–37
+| 52–37
+| 36–22
+|-
+!| Syracuse
+| [[Dino Babers]]
+| 7
+| 66–59
+| 29–43
+| 15–35
+|-
+!| Virginia
+| [[Tony Elliott (American football coach)|Tony Elliot]]
+| 1
+| 0–0
+| 0–0
+| 0–0
+|-
+!| Virginia Tech
+| [[Brent Pry]]
+| 1
+| 0–0
+| 0–0
+| 0–0
+|-
+!| Wake Forest
+| [[Dave Clawson]]
+| 9
+| 141–127
+| 51–48
+| 26–37
+|}
+
+''Notes''
+*Records shown after the 2021 season
+*Years at school includes the 2022 season
+
+==Rankings==
+{{see also|2022 NCAA Division I FBS football rankings}}
+
+{| align=right style="font-size:90%; border:1px solid #aaaaaa; white-space:nowrap; background:#eeeeee;" 
+|+ '''Legend'''
+|-
+| style="background:#d8ffeb; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| rowspan=5 | &nbsp;
+| Improvement in ranking
+|-
+| style="background:#ffe6e6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Drop in ranking
+|-
+| style="background:#ffffe6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Not ranked previous week
+|-
+| align=center style="width:20px; border:1px solid #aaaaaa; background:white;" | RV
+| Received votes but were not ranked in Top 25 of poll
+|-
+<!-- | т
+| Tied with team above or below also with this symbol
+|- 
+-->
+|}
+
+{| class="wikitable" style="white-space:nowrap;font-size:90%;"  
+|- 
+! colspan=2 style="background:white; border-top-style:hidden; border-left-style:hidden;" |&nbsp; !! Pre !! Wk<br>1 !! Wk<br>2 !! Wk<br>3 !! Wk<br>4 !! Wk<br>5 !! Wk<br>6 !! Wk<br>7 !! Wk<br>8 !! Wk<br>9 !! Wk<br>10 !! Wk<br>11 !! Wk<br>12 !! Wk<br>13 !! Wk<br>14 !!Final
+|- "text-align:center;"
+! rowspan=3 |'''Boston College'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Clemson'''
+! AP  
+| style="background:#FFF;" | 4
+| style="background:#FFE6E6;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#D8FFEB;" | 4
+| style="background:#FFE6E6;" | 5 
+| style="background:#FFF;" | 5 (1)
+| style="background:#FFF;" | 5
+| style="background:#FFE6E6;" | 12
+| style="background:#D8FFEB;" | 9
+| style="background:#D8FFEB;" | 7 
+| style="background:#FFE6E6;" | 10
+| style="background:#FFF;" | 10
+| style="background:#FFE6E6;" | 13
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFE6E6;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFF;" | 5
+| style="background:#FFE6E6;" | 12
+| style="background:#D8FFEB;" | 9
+| style="background:#D8FFEB;" | 8 
+| style="background:#FFE6E6;" | 11 
+| style="background:#FFF;" | 11
+| style="background:#FFE6E6;" | 12
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 4
+| style="background:#FFE6E6;" | 10
+| style="background:#D8FFEB;" | 9
+| style="background:#D8FFEB;" | 8  
+| style="background:#FFE6E6;" | 9  
+| style="background:#D8FFEB;" | 7
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Duke'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFFFE6;" | RV
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#FFF;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Florida State'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 23
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 25
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 16 
+| style="background:#D8FFEB;" | 14
+| style="background:#D8FFEB;" | 13
+| style="background:#D8FFEB;" | 11
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 22
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFFFE6;" | RV
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 16 
+| style="background:#D8FFEB;" | 14
+| style="background:#D8FFEB;" | 13
+| style="background:#D8FFEB;" | 10
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFFFE6;" | 23
+| style="background:#D8FFEB;" | 19
+| style="background:#D8FFEB;" | 16  
+| style="background:#D8FFEB;" | 13  
+| style="background:#FFF;" | 13
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Georgia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV 
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Louisville'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" |  
+| style="background:#FFFFE6;" | RV
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | 25 
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Miami'''
+! AP  
+| style="background:#FFF;" | 16
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 13
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 17
+| style="background:#D8FFEB;" | 16
+| style="background:#D8FFEB;" | 13
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''North Carolina'''
+! AP   
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" |
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 13
+| style="background:#FFE6E6;" | 18
+| style="background:#FFE6E6;" | 24
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#D8FFEB;" | 25
+| style="background:#D8FFEB;" | 22 
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 14
+| style="background:#D8FFEB;" | 11
+| style="background:#FFE6E6;" | 17 
+| style="background:#FFE6E6;" | 22 
+| style="background:#FFE6E6;" | 25 
+| style="background:#FFE6E6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 17
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 13
+| style="background:#FFE6E6;" | 17  
+| style="background:#FFE6E6;" | 23  
+| style="background:#FFE6E6;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''NC State'''
+! AP  
+| style="background:#FFF;" | 13
+| style="background:#FFE6E6;" | 18
+| style="background:#D8FFEB;" | 16
+| style="background:#D8FFEB;" | 12
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 14
+| style="background:#FFE6E6;" | 15
+| style="background:#FFE6E6;" | 23 
+| style="background:#FFE6E6;" | 24
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#D8FFEB;" | 25
+| style="background:#FFFFE6;" | RV
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 13
+| style="background:#FFF;" | 13
+| style="background:#D8FFEB;" | 12
+| style="background:#D8FFEB;" | 11
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 14
+| style="background:#D8FFEB;" | 13
+| style="background:#FFE6E6;" | 23 
+| style="background:#FFF;" | 23
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 22
+| style="background:#D8FFEB;" | 14
+| style="background:#FFE6E6;" | 24
+| style="background:#FFE6E6;" |  
+| style="background:#FFFFE6;" | 25  
+| style="background:#D8FFEB;" | 23
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Pittsburgh'''
+! AP  
+| style="background:#FFF;" | 17
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 23
+| style="background:#FFE6E6;" | 24
+| style="background:#FFF;" | 24
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 22
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 16
+| style="background:#D8FFEB;" | 14
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | RV
+| style="background:#D8FFEB;" | 24
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 22
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Syracuse'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 14 
+| style="background:#FFE6E6;" | 16
+| style="background:#FFE6E6;" | 22 
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 25
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 14 
+| style="background:#FFE6E6;" | 16
+| style="background:#FFE6E6;" | 22
+| style="background:#FFE6E6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 20
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Wake Forest'''
+! AP  
+| style="background:#FFF;" | 22
+| style="background:#FFE6E6;" | 23
+| style="background:#D8FFEB;" | 19
+| style="background:#FFE6E6;" | 21
+| style="background:#FFE6E6;" | 22
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 14
+| style="background:#D8FFEB;" | 13 
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 20
+| style="background:#FFE6E6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 19
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 14
+| style="background:#D8FFEB;" | 13 
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 19
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFFFE6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 21
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|}
+
+==Schedule==
+The regular season began on Saturday August 27, 2022, and will end on Saturday November 26, 2022. The [[2022 ACC Championship Game|ACC Championship Game]] will be played on Saturday December 3, 2022, at [[Bank of America Stadium]] in [[Charlotte, North Carolina]].
+
+===Regular season===
+
+====Week zero====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = August 27
+| time          = 5:00&nbsp;p.m.
+| visiting_team = [[2022 Duquesne Dukes football team|Duquesne]]
+| visiting_rank = 
+| home_team     = '''[[2022 Florida State Seminoles football team|Florida State]]'''
+| site_stadium  = [[Doak Campbell Stadium]]
+| site_cityst   = [[Tallahassee, Florida|Tallahassee, FL]]
+| tv            = [[ACC Network|ACCN]]
+| score         = 47–7
+| attend        = 51,207
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = August 27
+| time          = 8:15&nbsp;p.m.
+| visiting_team = [[2022 Florida A&M Rattlers football team|Florida A&M]]
+| home_rank     = 
+| home_team     = '''[[2022 North Carolina Tar Heels football team|North Carolina]]'''
+| site_stadium  = [[Kenan Stadium]]
+| site_cityst   = [[Chapel Hill, North Carolina|Chapel Hill, NC]]
+| tv            = ACCN
+| score         = 56–24
+| attend        = 46,130
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week one====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 1|Thursday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = [[2022 West Virginia Mountaineers football team|West Virginia]]
+| home_team     = '''[[2022 Pittsburgh Panthers football team|Pittsburgh]]'''
+| home_rank     = 17
+| site_stadium  = [[Acrisure Stadium]]
+| site_cityst   = [[Pittsburgh, Pennsylvania|Pittsburgh, PA]]
+| gamename      = [[Backyard Brawl]], ''[[College GameDay (football TV program)|College GameDay]]''
+| tv            = [[ESPN College Football Thursday Primetime|ESPN]]
+| score         = 38–31
+| attend        = 70,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 1|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2022 VMI Keydets football team|VMI]]
+| home_team     = '''[[2022 Wake Forest Demon Deacons football team|Wake Forest]]'''
+| home_rank     = 22
+| site_stadium  = [[Truist Field at Wake Forest]]
+| site_cityst   = [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| tv            = ACCN
+| score         = 44–10
+| attend        = 26,013
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = {{tooltip|September 2|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''[[2022 Virginia Tech Hokies football team|Virginia Tech]]'''
+| home_team     = [[2022 Old Dominion Monarchs football team|Old Dominion]]
+| site_stadium  = [[S.B. Ballard Stadium]]
+| site_cityst   = [[Norfolk, Virginia|Norfolk, VA]]
+| tv            = [[ESPNU College Football|ESPNU]]
+| score         = 17–20
+| attend        = 21,944
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 2|Friday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2022 Temple Owls football team|Temple]]
+| home_team     = '''[[2022 Duke Blue Devils football team|Duke]]'''
+| site_stadium  = [[Wallace Wade Stadium]]
+| site_cityst   = [[Durham, North Carolina|Durham, NC]]
+| tv            = ACCN
+| score         = 30–0
+| attend        = 20,722
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 3
+| time          = Noon
+| visiting_team = [[2022 Rutgers Scarlet Knights football team|Rutgers]]
+| home_team     = '''[[2022 Boston College Eagles football team|Boston College]]'''
+| site_stadium  = [[Alumni Stadium]]
+| site_cityst   = [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]]
+| tv            = ACCN
+| score         = 21–22
+| attend        = 35,048
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 3
+| time          = Noon
+| visiting_team = '''North Carolina'''
+| home_team     = [[2022 Appalachian State Mountaineers football team|Appalachian State]]
+| site_stadium  = [[Kidd Brewer Stadium]]
+| site_cityst   = [[Boone, North Carolina|Boone, NC]]
+| tv            = ESPNU
+| score         = 63–61
+| attend        = 40,168
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 3
+| time          = Noon
+| visiting_team = '''[[2022 NC State Wolfpack football team|NC State]]'''
+| visiting_rank = 13
+| home_team     = [[2022 East Carolina Pirates football team|East Carolina]]
+| site_stadium  = [[Dowdy–Ficklen Stadium]]
+| site_cityst   = [[Greenville, North Carolina|Greenville, NC]]
+| gamename      = [[East Carolina–NC State rivalry#Football|rivalry]]
+| tv            = [[ESPN College Football|ESPN]]
+| score         = 21–20
+| attend        = 51,711
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 3
+| time          = 12:30&nbsp;p.m.
+| visiting_team = [[2022 Richmond Spiders football team|Richmond]]
+| visiting_rank = 24 <small>([[2022 NCAA Division I FCS football season|FCS]])</small>
+| home_team     = '''[[2022 Virginia Cavaliers football team|Virginia]]'''
+| site_stadium  = [[Scott Stadium]]
+| site_cityst   = [[Charlottesville, Virginia|Charlottesville, VA]]
+| tv            = [[ACC on Regional Sports Networks|ACCRSN]]
+| score         = 34–17
+| attend        = 41,122
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 3
+| time          = 3:30&nbsp;p.m.
+| visiting_team = [[2022 Bethune–Cookman Wildcats football team|Bethune–Cookman]]
+| home_team     = '''[[2022 Miami Hurricanes football team|Miami]]'''
+| home_rank     = 16
+| site_stadium  = [[Hard Rock Stadium]]
+| site_cityst   = [[Miami Gardens, Florida|Miami Gardens, FL]]
+| tv            = ACCN
+| score         = 70–13
+| attend        = 56,795
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 3
+| time          = 8:00&nbsp;p.m.
+| visiting_team = '''[[2022 Louisville Cardinals football team|Louisville]]'''
+| home_team     = '''[[2022 Syracuse Orange football team|Syracuse]]'''
+| site_stadium  = [[JMA Wireless Dome]]
+| site_cityst   = [[Syracuse, New York|Syracuse, NY]]
+| tv            = ACCN
+| score         = '''CUSE''' 31–7
+| attend        = 37,110
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 4|Sunday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| home_team     = [[2022 LSU Tigers football team|LSU]]
+| site_stadium  = [[Caesars Superdome]]
+| site_cityst   = [[New Orleans|New Orleans, LA]]
+| gamename      = Louisiana Kickoff
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = 24–23
+| attend        = 68,388
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 5|Monday}}
+| time          = 8:00&nbsp;p.m.
+| visiting_team = '''[[2022 Clemson Tigers football team|Clemson]]'''
+| visiting_rank = 4
+| home_team     = '''[[2022 Georgia Tech Yellow Jackets football team|Georgia Tech]]'''
+| site_stadium  = [[Mercedes-Benz Stadium]]
+| site_cityst   = [[Atlanta, Georgia|Atlanta, GA]]
+| gamename      = [[Chick-fil-A Kickoff Game|Chick-fil-A Kickoff]]/[[Clemson–Georgia Tech football rivalry|rivalry]]
+| tv            = ESPN
+| score         = '''CLEM''' 41–10
+| attend        = 45,000
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week two====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 9|Friday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Louisville'''
+| home_team     = [[2022 UCF Knights football team|UCF]]
+| site_stadium  = [[FBC Mortgage Stadium]]
+| site_cityst   = [[Orlando, Florida|Orlando, FL]]
+| tv            = ESPN2
+| score         = 20–14
+| attend        = 44,412
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = Noon
+| visiting_team = '''Duke'''
+| home_team     = [[2022 Northwestern Wildcats football team|Northwestern]]
+| site_stadium  = [[Ryan Field (1926)|Ryan Field]]
+| site_cityst   = [[Evanston, Illinois|Evanston, IL]]
+| tv            = [[Fox Sports 1|FS1]]
+| score         = 31–23
+| attend        = 24,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = Noon
+| visiting_team = [[2022 Southern Miss Golden Eagles football team|Southern Miss]]
+| home_rank     = 15
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = 30–7
+| overtime      = 
+| attend        = 46,422
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = Noon
+| visiting_team = '''North Carolina'''
+| home_team     = [[2022 Georgia State Panthers football team|Georgia State]]
+| site_stadium  = [[Center Parc Stadium]]
+| site_cityst   = Atlanta, GA
+| tv            = ESPNU
+| score         = 35–28
+| attend        = 17,687
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = Noon
+| visiting_rank = 23
+| visiting_team = '''Wake Forest'''
+| home_team     = [[2022 Vanderbilt Commodores football team|Vanderbilt]]
+| site_stadium  = [[Vanderbilt Stadium]]
+| site_cityst   = [[Nashville, Tennessee|Nashville, TN]]
+| tv            = [[SEC Network|SECN]]
+| score         = 45–25
+| attend        = 24,431
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = 12:30&nbsp;p.m.
+| visiting_team = [[2022 Charleston Southern Buccaneers football team|Charleston Southern]]
+| home_team     = '''NC State'''
+| home_rank     = 18
+| site_stadium  = [[Carter–Finley Stadium]]
+| site_cityst   = [[Raleigh, North Carolina|Raleigh, NC]]
+| tv            = ACCRSN
+| score         = 55–3
+| attend        = 54,169
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = 3:30&nbsp;p.m.
+| visiting_team = [[2022 Furman Paladins football team|Furman]]
+| home_team     = '''Clemson'''
+| home_rank     = 5
+| site_stadium  = [[Memorial Stadium (Clemson)|Memorial Stadium]]
+| site_cityst   = [[Clemson, South Carolina|Clemson, SC]]
+| tv            = ACCN
+| score         = 35–12
+| attend        = 78,302
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 10
+| time          = 3:30&nbsp;p.m.
+| visiting_rank = 24
+| visiting_team = [[2022 Tennessee Volunteers football team|Tennessee]]
+| home_team     = '''Pittsburgh'''
+| home_rank     = 17
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = 27–34
+| overtime      = OT
+| attend        = 59,785
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 10
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_team     = [[2022 Illinois Fighting Illini football team|Illinois]]
+| site_stadium  = [[Memorial Stadium (University of Illinois)|Memorial Stadium]]
+| site_cityst   = [[Champaign, Illinois|Champaign, IL]]
+| tv            = ESPNU
+| score         = 3–24
+| attend        = 33,669
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = 7:00&nbsp;p.m.
+| visiting_team = [[2022 Western Carolina Catamounts football team|Western Carolina]]
+| home_team     = '''Georgia Tech'''
+| site_stadium  = [[Bobby Dodd Stadium]]
+| site_cityst   = Atlanta, GA
+| tv            = ACCNX/[[ESPN+]]
+| score         = 35–17
+| attend        = 36,486
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 10
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = [[2022 UConn Huskies football team|UConn]]
+| site_stadium  = [[Pratt & Whitney Stadium at Rentschler Field|Rentschler Field]]
+| site_cityst   = [[East Hartford, Connecticut|East Hartford, CT]]
+| tv            = [[CBS Sports Network|CBSSN]]
+| score         = 48–14
+| attend        = 25,114
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 10
+| time          = 8:00&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = [[Lane Stadium]]
+| site_cityst   = [[Blacksburg, Virginia|Blacksburg, VA]]
+| gamename      = [[Boston College–Virginia Tech football rivalry|rilvalry]]
+| tv            = ACCN
+| score         = '''VT''' 27–10
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| September 10 || Florida State
+|}
+
+====Week three====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 16|Friday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''Louisville'''
+| site_stadium  = [[Cardinal Stadium]]
+| site_cityst   = [[Louisville, Kentucky|Louisville, KY]]
+| tv            = ESPN
+| score         = '''FSU''' 35–31
+| attend        = 46,459
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 11:00&nbsp;a.m.
+| visiting_team = [[2022 Wofford Terriers football team|Wofford]]
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = 27–7
+| attend        = 62,043
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = Noon
+| visiting_team = [[2022 Purdue Boilermakers football team|Purdue]]
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ESPN2
+| score         = 32–29
+| attend        = 35,943
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 2:00&nbsp;p.m.
+| visiting_team = Old Dominion
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = 16–14
+| attend        = 40,556
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 17
+| time          = 3:30&nbsp;p.m.
+| visiting_rank = 20
+| visiting_team = [[2022 Ole Miss Rebels football team|Ole Miss]]
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ABC
+| score         = 0–42
+| attend        = 40,293
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 5:00&nbsp;p.m.
+| visiting_team = [[2022 Liberty Flames football team|Liberty]]
+| home_team     = '''Wake Forest'''
+| home_rank     = 19
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = 37–36
+| attend        = 32,891
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 6:00&nbsp;p.m.
+| visiting_team = [[2022 North Carolina A&T Aggies football team|North Carolina A&T]]
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCNX/ESPN+
+| score         = 49–20
+| attend        = 32,802
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 7:00&nbsp;p.m.
+| visiting_team = [[2022 Texas Tech Red Raiders football team|Texas Tech]]
+| home_team     = '''NC State'''
+| home_rank     = 16
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = [[ESPN2 College Football Saturday Primetime|ESPN2]]
+| score         = 27–14
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 7:30&nbsp;p.m.
+| visiting_rank = 23
+| visiting_team = '''Pittsburgh'''
+| home_team     = [[2022 Western Michigan Broncos football team|Western Michigan]]
+| site_stadium  = [[Waldo Stadium]]
+| site_cityst   = [[Kalamazoo, Michigan|Kalamazoo, MI]]
+| tv            = ESPNU
+| score         = 34–13
+| attend        = 22,875
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2022 Maine Black Bears football team|Maine]]
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCRSN
+| score         = 38–17
+| attend        = 34,325
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 17
+| time          = 8:00&nbsp;p.m.
+| visiting_team = [[2022 Louisiana Tech Bulldogs football team|Louisiana Tech]]
+| home_team     = '''Clemson'''
+| home_rank     = 5
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = 48–20
+| attend        = 80,542
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 17
+| time          = 9:00&nbsp;p.m.
+| visiting_rank = 13
+| visiting_team = '''Miami'''
+| home_team     = [[2022 Texas A&M Aggies football team|Texas A&M]]
+| home_rank     = 24
+| site_stadium  = [[Kyle Field]]
+| site_cityst   = [[College Station, Texas|College Station, TX]]
+| tv            = [[ESPN College Football Saturday Primetime|ESPN]]
+| score         = 9–17
+| attend        = 107,245
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| September 17 || North Carolina
+|}
+
+====Week four====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = {{tooltip|September 22|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = West Virginia
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      = [[Virginia Tech–West Virginia football rivalry|rivalry]]
+| tv            = ESPN
+| score         = 10–33
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 23|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ESPN
+| score         = '''CUSE''' 22–20
+| attend        = 34,590
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 24
+| time          = Noon
+| visiting_team = '''Clemson'''
+| visiting_rank = 5
+| home_team     = '''Wake Forest'''
+| home_rank     = 21
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ABC
+| overtime      = 2OT
+| score         = '''CLEM''' 51–45
+| attend        = 32,903
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 24
+| time          = Noon
+| visiting_team = '''Duke'''
+| home_team     = [[2022 Kansas Jayhawks football team|Kansas]]
+| site_stadium  = [[David Booth Kansas Memorial Stadium]]
+| site_cityst   = [[Lawrence, Kansas|Lawrence, KS]]
+| tv            = FS1
+| score         = 27–35
+| attend        = 47,233
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 24
+| time          = Noon
+| visiting_team = [[2022 South Florida Bulls football team|South Florida]]
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCRSN
+| score         = 3–41
+| attend        = 41,217
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 24
+| time          = Noon
+| visiting_team = [[2022 Rhode Island Rams football team|Rhode Island]]
+| visiting_rank = 20 <small>([[2022 NCAA Division I FCS football season|FCS]])</small>
+| home_team     = '''Pittsburgh'''
+| home_rank     = 24
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = 24–45
+| attend        = 54,667
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 24
+| time          = 3:30 p.m.
+| visiting_team = [[2022 Middle Tennessee Blue Raiders football team|Middle Tennessee]]
+| home_team     = '''Miami'''
+| home_rank     = 25
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = 31–45
+| attend        = 46,713
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 24
+| time          = 3:30 p.m.
+| visiting_team = [[2022 Notre Dame Fighting Irish football team|Notre Dame]]
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ABC
+| score         = 32–45
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 24
+| time          = 4:00 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = UCF
+| site_stadium  = FBC Mortgage Stadium
+| site_cityst   = Orlando, FL
+| tv            = ESPNU
+| score         = 10–27
+| attend        = 44,220
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 24
+| time          = 7:30 p.m.
+| visiting_team = UConn
+| home_team     = '''NC State'''
+| home_rank     = 12
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCRSN
+| score         = 41–10
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 24
+| time          = 8:00 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = '''FSU''' 44–14
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week five====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 1
+| time          = Noon
+| visiting_team = '''Louisville'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCN
+| score         = '''BC''' 34–33
+| attend        = 38,517
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 1
+| time          = 3:30 p.m.
+| visiting_rank = 22
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Florida State'''
+| home_rank     = 23
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ABC
+| score         = '''WAKE''' 31–21
+| attend        = 69,749
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 1
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCN
+| score         = '''UNC''' 41–10
+| attend        = 45,029
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 1
+| time          = 5:00 p.m.
+| visiting_team = [[2022 Wagner Seahawks football team|Wagner]]
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCNX/ESPN+
+| score         = 59–0
+| attend        = 33,373
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 1
+| time          = 7:30 p.m.
+| visiting_rank = 10
+| visiting_team = '''NC State'''
+| home_team     = '''Clemson'''
+| home_rank     = 5
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Textile Bowl]], ''College GameDay''
+| tv            = [[Saturday Night Football|ABC]]
+| score         = '''CLEM''' 30–20
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 1
+| time          = 7:30 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCRSN
+| score         = '''DUKE''' 38–17
+| attend        = 15,152
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 1
+| time          = 8:00 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Pittsburgh'''
+| home_rank     = 24
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''GT''' 26–21
+| attend        = 46,972
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| October 1 || Miami
+|}
+
+====Week six====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 8
+| time          = Noon
+| visiting_team = '''Louisville'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = '''LOU''' 34–17
+| attend        = 38,009
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 8
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''PITT''' 45–29
+| attend        = 54,677
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 8
+| time          = 4:00 p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCRSN
+| score         = '''GT''' 23–20
+| overtime      = OT
+| attend        = 32,041
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 8
+| time          = 4:00 p.m.
+| visiting_team = '''North Carolina'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ESPN2
+| score         = '''UNC''' 27–24
+| attend        = 53,751
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 8
+| time          = 7:30 p.m.
+| visiting_team = [[2022 Army Black Knights football team|Army]]
+| home_team     = '''Wake Forest'''
+| home_rank     = 15
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCRSN
+| score         = 45–10
+| attend        = 32,524
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 8
+| time          = 7:30 p.m.
+| visiting_rank = 5
+| visiting_team = '''Clemson'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = [[O'Rourke–McFadden Trophy]]
+| tv            = ABC
+| score         = '''CLEM''' 31–3
+| attend        = 42,138
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 8
+| time          = 8:00 p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''NC State'''
+| home_rank     = 14
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''NCSU''' 19–17
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| October 8 || No. 22 Syracuse
+|}
+
+====Week seven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 15
+| time          = 12:30 p.m.
+| visiting_team = '''Miami'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      = [[Miami–Virginia Tech football rivalry|rivalry]]
+| tv            = ACCRSN
+| score         = '''MIA''' 20–14
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 15
+| time          = 3:30 p.m.
+| visiting_rank = 15
+| visiting_team = '''NC State'''
+| home_team     = '''Syracuse'''
+| home_rank     = 18
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = '''CUSE''' 24–9
+| attend        = 49,705
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 15
+| time          = 7:30 p.m.
+| visiting_rank = 4
+| visiting_team = '''Clemson'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = [[Clemson–Florida State football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''CLEM''' 34–28
+| attend        = 71,098
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 15
+| time          = 8:00 p.m.
+| visiting_team = '''North Carolina'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      = [[Victory Bell (Duke–North Carolina)|Victory Bell]]
+| tv            = ACCN
+| score         = '''UNC'''  38–35
+| attend        = 40,004
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="7"|Bye Week
+|-
+| October 15 || Boston College || Georgia Tech || Louisville || Pittsburgh || Virginia || No. 14 Wake Forest
+|}
+
+====Week eight====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|October 20|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ESPN
+| score         = '''UVA''' 16–9
+| attend        = 29,362
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 22
+| time          = Noon
+| visiting_team = '''Syracuse'''
+| visiting_rank = 14
+| home_team     = '''Clemson'''
+| home_rank     = 5
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ABC
+| score         = '''CLEM''' 27–21
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 22
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCRSN
+| score         = '''DUKE''' 45–21
+| attend        = 57,421
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 22
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Wake Forest'''
+| home_rank     = 13
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = '''WAKE''' 43–15
+| attend        = 28,530
+| source        =
+}}
+
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 22
+| time          = 8:00&nbsp;p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''LOU''' 24–10
+| attend        = 41,840
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="5"|Bye Week
+|-
+| October 22 || Florida State || No. 22 North Carolina || No. 23 NC State || Virginia Tech
+|}
+
+====Week nine====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|October 27|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''NC State'''
+| home_rank     = 24
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ESPN
+| score         = '''NCSU''' 22–21
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 29
+| time          = Noon
+| visiting_team = '''Boston College'''
+| home_team     = UConn
+| site_stadium  = Rentschler Field
+| site_cityst   = East Hartford, CT
+| tv            = CBSSN
+| score         = 3–13
+| attend        = 25,527
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 29
+| time          = Noon
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = '''FSU''' 41–16
+| attend        = 61,007
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 29
+| time          = Noon
+| visiting_team = Notre Dame
+| home_team     = '''Syracuse'''
+| home_rank     = 16
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ABC
+| score         = 24–42
+| attend        = 49,861
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 29
+| time          = 12:30 p.m.
+| visiting_team = '''Miami'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCRSN
+| score         = '''MIA''' 14–12
+| overtime      = 4OT
+| attend        = 43,714
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 29
+| time          = 3:30 p.m.
+| visiting_rank = 10
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''LOU''' 48–21
+| attend        = 39,503
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 29
+| time          = 8:00 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''North Carolina'''
+| home_rank     = 21
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCN
+| score         = '''UNC''' 42–24
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| October 29 || No. 5 Clemson || Duke
+|}
+
+====Week ten====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 4|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ESPN2
+| score         =  '''DUKE''' 38–31
+| attend        = 34,092
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 5
+| time          = Noon
+| visiting_team = '''North Carolina'''
+| visiting_rank = 17
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = [[South's Oldest Rivalry]]
+| tv            = ACCN
+| score         = '''UNC''' 31–28
+| attend        = 44,156
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 5
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      = [[Georgia Tech–Virginia Tech football rivalry|rivalry]]
+| tv            = ACCRSN
+| score         = '''GT''' 28–27
+| attend        = 62,843
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 5
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Syracuse'''
+| visiting_rank = 20
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| gamename      = [[Pittsburgh–Syracuse football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''PITT''' 19–9
+| attend        = 50,888
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 5
+| time          = 7:30{{nbsp}}p.m.
+| visiting_team = '''Clemson'''
+| visiting_rank = 4
+| home_team     = Notre Dame
+| site_stadium  = [[Notre Dame Stadium]]
+| site_cityst   = [[South Bend, Indiana|South Bend, IN]]
+| tv            = [[Notre Dame Football on NBC|NBC]]
+| score         = 14–35
+| attend        = 77,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 5
+| time          = 7:30{{nbsp}}p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      = [[Florida State–Miami football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''FSU''' 45–3
+| attend        = 66,200
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 5
+| time          = 7:30{{nbsp}}p.m.
+| visiting_team = [[2022 James Madison Dukes football team|James Madison]]
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ESPNU
+| score         = 34–10
+| attend        = 42,157
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 5
+| time          = 8:00{{nbsp}}p.m.
+| visiting_team = '''Wake Forest'''
+| visiting_rank = 22
+| home_team     = '''NC State'''
+| home_rank     = 21
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[NC State–Wake Forest rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''NCSU''' 30–21
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2022 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week eleven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = Noon
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCRSN
+| score         = '''DUKE''' 24–7
+| attend        = 20,857
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = Noon
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = '''PITT''' 37–7
+| attend        = 36,529
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = 3:30 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''NC State'''
+| home_rank     = 16
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''BC''' 21–20
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = 3:30 p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Clemson'''
+| home_rank     = 10
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ESPN
+| score         = '''CLEM''' 31–16
+| attend        = 80,176
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = 3:30 p.m.
+| visiting_team = '''Miami'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCRSN
+| score         = '''MIA''' 35–14
+| attend        = 33,857
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = 7:30 p.m.
+| visiting_rank = 15
+| visiting_team = '''North Carolina'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| gamename      = [[North Carolina–Wake Forest rivalry|rivalry]]
+| tv            = ESPN2
+| score         = '''UNC''' 36–34
+| attend        = 31,346
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 12
+| time          = 8:00 p.m.
+| visiting_rank = 23
+| visiting_team = '''Florida State'''
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = '''FSU''' 38–3
+| attend        = 45,213
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2022 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week twelve====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 19
+| time          = Noon
+| visiting_team = '''Duke'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''PITT''' 28–26
+| attend        = 45,362
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 19
+| time          = Noon
+| visiting_team = [[2022 Louisiana Ragin' Cajuns football team|Louisiana]]
+| home_rank     = 19
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCRSN
+| score         = 49–17
+| attend        = 58,597
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 19
+| time          = Noon
+| visiting_team = '''Virginia Tech'''
+| home_team     = Liberty
+| site_stadium  = [[Williams Stadium]]
+| site_cityst   = [[Lynchburg, Virginia|Lynchburg, VA]]
+| tv            = ESPN+
+| score         = 23–22
+| attend        = 23,055
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 19
+| time          = 2:30 p.m.
+| visiting_team = '''Boston College'''
+| home_rank     = 18
+| home_team     = Notre Dame
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = South Bend, IN
+| gamename      = [[Holy War (Boston College–Notre Dame)|Holy War]]
+| tv            = NBC
+| score         = 0–44
+| attend        = 73,503
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 19
+| time          = 3:30 p.m.
+| visiting_team = '''Miami'''
+| home_rank     = 9
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ESPN
+| score         = '''CLEM''' 40–10
+| attend        = 81,340
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 19
+| time          = 3:30{{nbsp}}p.m.
+| visiting_rank = 24
+| visiting_team = '''NC State'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCRSN
+| score         = '''LOU''' 25–10
+| attend        = 38,974
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 19
+| time          = 5:30{{nbsp}}p.m.
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 13
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ESPN2
+| score         = '''GT''' 21–17
+| attend        = 44,940
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 19
+| time          = 8:00{{nbsp}}p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = '''WAKE''' 45–35
+| attend        = 26,164
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = <s>November 19</s>
+| time          = <s>3:30{{nbsp}}p.m.</s>
+| visiting_team = <s>[[2022 Coastal Carolina Chanticleers football team|Coastal Carolina]]</s>
+| home_team     = <s>'''Virginia'''</s>
+| site_stadium  = <s>Scott Stadium</s>
+| site_cityst   = <s>Charlottesville, VA</s>
+| tv            = <s>ACCRSN</s>
+| score         = '''Canceled''' {{efn|name=cancel|group=schedule|This game has been cancelled after the [[2022 University of Virginia shooting]].<ref name="Wang">{{Cite news |date=2022-11-16|last=Wang|first=Gene|title=U-Va. football game vs. Coastal Carolina canceled after three players killed|url=https://www.washingtonpost.com/sports/2022/11/16/uva-football-coastal-carolina-game/|access-date=2022-11-17|newspaper=The Washington Post|language=en-US}}</ref>}}
+| attend        = &nbsp;
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2022 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+{{notelist|group=schedule}}
+
+====Week thirteen====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 25|Friday}}
+| time          = 3:30 p.m.
+| visiting_team = '''NC State'''
+| home_rank     = 17
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[North Carolina–NC State football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''NCSU''' 30–27
+| overtime      = 2OT
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|November 25|Friday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2022 Florida Gators football team|Florida]]
+| home_team     = '''Florida State'''
+| home_rank     = 16
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = [[Florida–Florida State football rivalry|rivalry]]
+| tv            = ABC
+| score         = 45–38
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 26
+| time          = Noon
+| visiting_team = [[2022 South Carolina Gamecocks football team|South Carolina]]
+| home_team     = '''Clemson'''
+| home_rank     = 8
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–South Carolina rivalry|rivalry]]
+| tv            = ABC
+| score         = 30–31
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 26
+| time          = Noon
+| visiting_team = '''Georgia Tech'''
+| home_team     = [[2022 Georgia Bulldogs football team|Georgia]]
+| home_rank     = 1
+| site_stadium  = [[Sanford Stadium]]
+| site_cityst   = [[Athens, Georgia|Athens, GA]]
+| gamename      = [[Clean, Old-Fashioned Hate]]
+| tv            = ESPN
+| score         = 14–37
+| attend        = 92,746
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 26
+| time          = 3:00 p.m.
+| visiting_team = '''Louisville'''
+| visiting_rank = 25
+| home_team     = [[2022 Kentucky Wildcats football team|Kentucky]]
+| site_stadium  = [[Kroger Field]]
+| site_cityst   = [[Lexington, Kentucky|Lexington, KY]]
+| gamename      = [[Governor's Cup (Kentucky)|Governor's Cup]]
+| tv            = SECN
+| score         = 13–26
+| attend        = 58,727
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 26
+| time          = 3:30 p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = '''DUKE''' 34–31
+| attend        = 17,492
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 26
+| time          = 7:30 p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = rivalry
+| tv            = ACCRSN
+| score         = '''CUSE''' 32–23
+| attend        = 30,113
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 26
+| time          = 8:00 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = '''PITT''' 42–16
+| attend        = 46,428
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = <s>November 26</s>
+| time          = 
+| visiting_team = <s>'''Virginia'''</s>
+| home_team     = <s>'''Virginia Tech'''</s>
+| site_stadium  = <s>Lane Stadium</s>
+| site_cityst   = <s>Blacksburg, VA</s>
+| gamename      = <s>[[Virginia–Virginia Tech football rivalry|Commonwealth Cup]]</s>
+| tv            = 
+| score         = '''Canceled''' {{efn|name=cancel2|group=schedule|This game has been cancelled after the [[2022 University of Virginia shooting]].<ref name="Wang">{{Cite news |date=2022-11-16|last=Wang|first=Gene|title=U-Va. football game vs. Coastal Carolina canceled after three players killed|url=https://www.washingtonpost.com/sports/2022/11/16/uva-football-coastal-carolina-game/|access-date=2022-11-17|newspaper=The Washington Post|language=en-US}}</ref>}}
+| attend        = &nbsp;
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2022 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+{{notelist|group=schedule}}
+
+====Championship Game====
+{{further|2022 ACC Championship Game}}
+
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l             =
+| date            = December 3
+| time            = 8:00&nbsp;p.m.
+| visiting_team   = '''Clemson'''
+| visiting_rank   = 9
+| home_team       = '''North Carolina'''
+| home_rank       = 23
+| site_stadium    = [[Bank of America Stadium]]
+| site_cityst     = [[Charlotte, North Carolina]]
+| tv              = [[ESPN College Football on ABC|ABC]]
+| score           = '''CLEM''' 39–10
+| attend          = 64,155
+| source          =
+}}
+{{CFB Conference Schedule End|poll=[[2022 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+==ACC vs other conferences==
+
+===ACC vs Power Five matchups===
+The following games include [[Atlantic Coast Conference|ACC]] teams competing against [[Power Five conferences]] teams from the [[Big Ten Conference|Big Ten]], [[Big 12 Conference|Big 12]], [[2022 BYU Cougars football team|BYU]]/[[2022 Notre Dame Fighting Irish football team|Notre Dame]], [[Pac-12 Conference|Pac-12]] and [[Southeastern Conference|SEC]]). All rankings are from the AP Poll at the time of the game.
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| September 1 || Big 12 || [[2022 West Virginia Mountaineers football team|West Virginia]] || No. 17 '''Pittsburgh''' || [[Acrisure Stadium]] • [[Pittsburgh, Pennsylvania|Pittsburgh, PA]] ([[Backyard Brawl]])
+| '''W''' 38–31
+|- style="background:#FFDDDD;"
+| September 3 || Big Ten || [[2022 Rutgers Scarlet Knights football team|Rutgers]] || '''Boston College''' || [[Alumni Stadium]] • [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]]
+| '''L''' 21–22
+|- style="background:#DDFFDD;"
+| September 4 || SEC || '''Florida State''' || [[2022 LSU Tigers football team|LSU]] || [[Caesars Superdome]] • [[New Orleans|New Orleans, LA]] (Louisiana Kickoff)
+| '''W''' 24–23
+|- style="background:#DDFFDD;"
+| September 10 || Big Ten || '''Duke''' || [[2022 Northwestern Wildcats football team|Northwestern]] || [[Ryan Field (1926)|Ryan Field]] • [[Evanston, Illinois|Evanston, IL]]
+| '''W''' 31–23
+|- style="background:#FFDDDD;"
+| September 10 || SEC || No. 24 [[2022 Tennessee Volunteers football team|Tennessee]] || No. 17 '''Pittsburgh''' || Acrisure Stadium • Pittsburgh, PA
+| '''L''' 27–34<sup>OT</sup>
+|- style="background:#FFDDDD;"
+| September 10 || Big Ten || '''Virginia''' || [[2022 Illinois Fighting Illini football team|Illinois]] || [[Memorial Stadium (University of Illinois)|Memorial Stadium]] • [[Champaign, Illinois|Champaign, IL]]
+| '''L''' 3–24
+|- style="background:#DDFFDD;"
+| September 10 || SEC || No. 23 '''Wake Forest''' || [[2022 Vanderbilt Commodores football team|Vanderbilt]] || [[Vanderbilt Stadium]] • [[Nashville, Tennessee|Nashville, TN]]
+| '''W''' 45–25
+|- style="background:#FFDDDD;"
+| September 17 || SEC || No. 20 [[2022 Ole Miss Rebels football team|Ole Miss]] || '''Georgia Tech''' || [[Bobby Dodd Stadium]] • [[Atlanta, Georgia|Atlanta, GA]]
+| '''L''' 0–42
+|- style="background:#FFDDDD;"
+| September 17 || SEC || No. 13 '''Miami''' || No. 24 [[2022 Texas A&M Aggies football team|Texas A&M]] || [[Kyle Field]] • [[College Station, Texas|College Station, TX]]
+| '''L''' 9–17
+|- style="background:#DDFFDD;"
+| September 17 || Big 12 || [[2022 Texas Tech Red Raiders football team|Texas Tech]] || No. 16 '''NC State''' || [[Carter–Finley Stadium]] • [[Raleigh, North Carolina|Raleigh, NC]]
+| '''W''' 27–14
+|- style="background:#DDFFDD;"
+| September 17 || Big Ten || [[2022 Purdue Boilermakers football team|Purdue]] || '''Syracuse''' || [[JMA Wireless Dome]] • [[Syracuse, New York|Syracuse, NY]]
+| '''W''' 32–29
+|- style="background:#FFDDDD;"
+| September 22 || Big 12 || West Virginia || '''Virginia Tech''' || [[Lane Stadium]] • [[Blacksburg, Virginia|Blacksburg, VA]] ([[Virginia Tech–West Virginia football rivalry|rivalry]])
+| '''L''' 10–33
+|- style="background:#FFDDDD;"
+| September 24 || Independent || [[2022 Notre Dame Fighting Irish football team|Notre Dame]] || '''North Carolina''' || [[Kenan Stadium]] • [[Chapel Hill, North Carolina|Chapel Hill, NC]]
+| '''L''' 32–45
+|- style="background:#FFDDDD;"
+| September 24 || Big 12 || '''Duke''' || [[2022 Kansas Jayhawks football team|Kansas]] || [[David Booth Kansas Memorial Stadium]] • [[Lawrence, Kansas|Lawrence, KS]]
+| '''L''' 27–35
+|- style="background:#FFDDDD;"
+| October 29 || Independent || Notre Dame || No. 16 '''Syracuse''' || JMA Wireless Dome • Syracuse, NY
+| '''L''' 24–41
+|- style="background:#FFDDDD;"
+| November 5 || Independent || No. 5 '''Clemson''' || Notre Dame || [[Notre Dame Stadium]] • [[South Bend, IN]]
+| '''L''' 14–35
+|- style="background:#FFDDDD;"
+| November 19 || Independent || '''Boston College''' || No. 18 Notre Dame || Notre Dame Stadium • South Bend, IN ([[Holy War (Boston College–Notre Dame)|Holy War]])
+| '''L''' 0–44
+|- style="background:#DDFFDD;"
+| November 25 || SEC || No. 16 '''Florida State''' || [[2022 Florida Gators football team|Florida]] || [[Doak Campbell Stadium]] • [[Tallahassee, Florida|Tallahassee, FL]] ([[Florida–Florida State football rivalry|rivalry]])
+| '''W''' 45–38
+|- style="background:#FFDDDD;"
+| November 26 || SEC || [[2022 South Carolina Gamecocks football team|South Carolina]] || No. 8 '''Clemson'''|| [[Memorial Stadium (Clemson)|Memorial Stadium]] • [[Clemson, South Carolina|Clemson, SC]] ([[Clemson–South Carolina rivalry|rivalry]])
+| '''L''' 30–31
+|- style="background:#FFDDDD;"
+| November 26 || SEC || '''Georgia Tech''' || No. 1 [[2022 Georgia Bulldogs football team|Georgia]] || [[Sanford Stadium]] • [[Athens, Georgia|Athens, GA]] ([[Clean, Old-Fashioned Hate]])
+| '''L''' 14–37
+|- style="background:#FFDDDD;"
+| November 26 || SEC || '''Louisville''' || [[2022 Kentucky Wildcats football team|Kentucky]] || [[Kroger Field]] • [[Lexington, Kentucky|Lexington, KY]] ([[Governor's Cup (Kentucky)|Governor's Cup]])
+| '''L''' 13–26
+|}
+
+===ACC vs Group of Five matchups===
+The following games include ACC teams competing against teams from the [[American Athletic Conference|American]], [[Conference USA|C-USA]], [[Mid-American Conference|MAC]], [[Mountain West Conference|Mountain West]] or [[Sun Belt Conference|Sun Belt]].
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+| style="background:#CCCCCC;" Cancellation
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| September 2 || American || [[2022 Temple Owls football team|Temple]] || '''Duke''' || [[Wallace Wade Stadium]] • [[Durham, North Carolina|Durham, NC]]
+| '''W''' 30–0
+|- style="background:#FFDDDD;"
+| September 2 || Sun Belt || '''Virginia Tech''' || [[2022 Old Dominion Monarchs football team|Old Dominion]] || [[S.B. Ballard Stadium]] • [[Norfolk, Virginia|Norfolk, VA]]
+| '''L''' 17–20
+|- style="background:#DDFFDD;"
+| September 3 || Sun Belt || '''North Carolina''' || [[2022 Appalachian State Mountaineers football team|Appalachian State]] || [[Kidd Brewer Stadium]] • [[Boone, North Carolina|Boone, NC]]
+| '''W''' 63–61
+|- style="background:#DDFFDD;"
+| September 3 || American || No. 13 '''NC State''' || [[2022 East Carolina Pirates football team|East Carolina]] || [[Dowdy–Ficklen Stadium]] • [[Greenville, North Carolina|Greenville, NC]] ([[East Carolina–NC State rivalry#Football|rivalry]])
+| '''W''' 21–20
+|- style="background:#DDFFDD;"
+| September 10 || American || '''Louisville''' || [[2022 UCF Knights football team|UCF]] || [[FBC Mortgage Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| '''W''' 20–14
+|- style="background:#DDFFDD;"
+| September 10 || Sun Belt || [[2022 Southern Miss Golden Eagles football team|Southern Miss]] || No. 15 '''Miami''' || [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]]
+| '''W''' 30–7
+|- style="background:#DDFFDD;"
+| September 10 || Sun Belt || '''North Carolina''' || [[2022 Georgia State Panthers football team|Georgia State]] || [[Center Parc Stadium]] • [[Atlanta, Georgia|Atlanta, GA]]
+| '''W''' 35–28
+|- style="background:#DDFFDD;"
+| September 17 || C-USA || [[2022 Louisiana Tech Bulldogs football team|Louisiana Tech]] || No. 5 '''Clemson''' || [[Memorial Stadium (Clemson)|Memorial Stadium]] • [[Clemson, South Carolina|Clemson, SC]]
+| '''W''' 48–20
+|- style="background:#DDFFDD;"
+| September 17 || MAC || No. 23 '''Pittsburgh''' || [[2022 Western Michigan Broncos football team|Western Michigan]] || [[Waldo Stadium]] • [[Kalamazoo, Michigan|Kalamazoo, MI]]
+| '''W''' 34–13
+|- style="background:#DDFFDD;"
+| September 17 || Sun Belt || Old Dominion || '''Virginia''' || [[Scott Stadium]] • [[Charlottesville, Virginia|Charlottesville, VA]]
+| '''W''' 16–14
+|- style="background:#FFDDDD;"
+| September 24 || American || '''Georgia Tech''' || UCF || FBC Mortgage Stadium • Orlando, FL
+| '''L''' 10–27
+|- style="background:#DDFFDD;"
+| September 24 || American || [[2022 South Florida Bulls football team|South Florida]] || '''Louisville''' || [[Cardinal Stadium]] • [[Louisville, Kentucky|Louisville, KY]]
+| '''W''' 41–3
+|- style="background:#FFDDDD;"
+| September 24 || C-USA || [[2022 Middle Tennessee Blue Raiders football team|Middle Tennessee]] || No. 25 '''Miami''' || Hard Rock Stadium • Miami Gardens, FL
+| '''L''' 31–45
+|- style="background:#DDFFDD;"
+| November 5 || Sun Belt || [[2022 James Madison Dukes football team|James Madison]] || '''Louisville''' || Cardinal Stadium • Louisville, KY
+| '''W''' 34–10
+|- style="background:#DDFFDD;"
+| November 19 || Sun Belt || [[2022 Louisiana Ragin' Cajuns football team|Louisiana]] || No. 20 '''Florida State''' || [[Doak Campbell Stadium]] • [[Tallahassee, Florida|Tallahassee, FL]]
+| '''W''' 49–17
+|- style="background:#CCCCCC;"
+| November 19 || Sun Belt || [[2022 Coastal Carolina Chanticleers football team|Coastal Carolina]] || '''Virginia''' || Scott Stadium • Charlottesville, VA
+| ''Cancelled''
+|-
+|}
+
+===ACC vs FBS independents matchups===
+The following games include ACC teams competing against [[NCAA Division I FBS independent schools|FBS Independents]], which includes [[2022 Army Black Knights football team|Army]], [[2022 Liberty Flames football team|Liberty]], [[2022 New Mexico State Aggies football team|New Mexico State]], [[2022 UConn Huskies football team|UConn]] or [[2022 UMass Minutemen football team|UMass]].
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|- 
+! Date  !! Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| September 10 || '''Syracuse''' ||  [[2022 UConn Huskies football team|UConn]] || [[Pratt & Whitney Stadium at Rentschler Field|Rentschler Field]] • [[East Hartford, Connecticut|East Hartford, CT]]
+| '''W''' 48–14
+|- style="background:#DDFFDD;"
+| September 17 || [[2022 Liberty Flames football team|Liberty]] || No. 19 '''Wake Forest''' || [[Truist Field at Wake Forest]] • [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| '''W''' 37–36
+|- style="background:#DDFFDD;"
+| September 24 || UConn || No. 12 '''NC State''' || [[Carter–Finley Stadium]] • [[Raleigh, North Carolina|Raleigh, NC]]
+| '''W''' 41–10
+|- style="background:#DDFFDD;"
+| October 8 || [[2022 Army Black Knights football team|Army]] || No. 15 '''Wake Forest''' || Truist Field at Wake Forest • Winston-Salem, NC
+| '''W''' 45–10
+|- style="background:#FFDDDD;"
+| October 29 || '''Boston College''' || UConn || Rentschler Field • East Hartford, CT
+| '''L''' 3–13
+|- style="background:#DDFFDD;"
+| November 19 || '''Virginia Tech''' || [[2022 Liberty Flames football team|Liberty]] || [[Williams Stadium]] • [[Lynchburg, Virginia|Lynchburg, VA]]
+| '''W''' 23–22
+|-  
+|}
+
+===ACC vs FCS matchups===
+The [[Football Championship Subdivision]] comprises 13 conferences and two independent programs.
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !!  Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| August 27 || [[2022 Duquesne Dukes football team|Duquesne]] ||  '''Florida State''' || Doak Campbell Stadium • Tallahassee, FL
+| '''W''' 47–7
+|- style="background:#DDFFDD;"
+| August 27 || [[2022 Florida A&M Rattlers football team|Florida A&M]] || '''North Carolina''' || Kenan Stadium • Chapel Hill, NC
+| '''W''' 56–24
+|- style="background:#DDFFDD;"
+| September 1 || [[2022 VMI Keydets football team|VMI]] || No. 22 '''Wake Forest''' || Truist Field at Wake Forest • Winston-Salem, NC
+| '''W''' 44–10
+|- style="background:#DDFFDD;"
+| September 3 || [[2022 Bethune–Cookman Wildcats football team|Bethune–Cookman]] || No. 16 '''Miami''' || Hard Rock Stadium • Miami Gardens, FL
+| '''W''' 70–13
+|- style="background:#DDFFDD;"
+| September 3 || [[2022 Richmond Spiders football team|Richmond]] || '''Virginia''' || Scott Stadium • Charlottesville, VA
+| '''W''' 34–17
+|- style="background:#DDFFDD;"
+| September 10 || [[2022 Furman Paladins football team|Furman]] || No. 5 '''Clemson''' || Memorial Stadium • Clemson, SC
+| '''W''' 35–12
+|- style="background:#DDFFDD;"
+| September 10 || [[2022 Western Carolina Catamounts football team|Western Carolina]] || '''Georgia Tech''' || Bobby Dodd Stadium • Atlanta, GA
+| '''W''' 35–17
+|- style="background:#DDFFDD;"
+| September 10 || [[2022 Charleston Southern Buccaneers football team|Charleston Southern]] || No. 18 '''NC State''' || Carter–Finley Stadium • Raleigh, NC
+| '''W''' 55–3
+|- style="background:#DDFFDD;"
+| September 17 || [[2022 Maine Black Bears football team|Maine]] || '''Boston College''' || Alumni Stadium • Chestnut Hill, MA
+| '''W''' 38–17
+|- style="background:#DDFFDD;"
+| September 17 || [[2022 North Carolina A&T Aggies football team|North Carolina A&T]] || '''Duke''' || Wallace Wade Stadium • Durham, NC
+| '''W''' 49–20
+|- style="background:#DDFFDD;"
+| September 17 || [[2022 Wofford Terriers football team|Wofford]] || '''Virginia Tech''' || Lane Stadium • Blacksburg, VA
+| '''W''' 27–7
+|- style="background:#DDFFDD;"
+| September 24 || [[2022 Rhode Island Rams football team|Rhode Island]] || No. 24 '''Pittsburgh''' || Acrisure Stadium • Pittsburgh, PA
+| '''W''' 45–24
+|- style="background:#DDFFDD;"
+| October 1 || [[2022 Wagner Seahawks football team|Wagner]] || '''Syracuse''' || JMA Wireless Dome • Syracuse, NY
+| '''W''' 59–0
+|- 
+|}
+
+===Records against other conferences===
+{{col-begin}}
+{{col-2}}
+
+'''Regular season'''
+
+{| class="wikitable"
+|-
+!Power 5 Conferences
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|2–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|2–2
+|-
+|[[2022 BYU Cougars football team|BYU]]/[[2022 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|0–4
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–0
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|3–6
+|-
+!Power 5 Total
+!7–14
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|4–1
+|-
+|[[Conference USA|C–USA]]
+|align=center|1–1
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding BYU & Notre Dame)</small>]]
+|align=center|5–1
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|1–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–0
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|6–1
+|-
+!Other FBS Total
+!17–4
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!FCS Opponents
+!Record
+|-
+|[[2022 NCAA Division I FCS football season|Football Championship Subdivision]]
+|align=center|13–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Total Non-Conference Record
+!37–18
+|}
+
+{{col-2}}
+
+'''Post Season'''
+
+{| class="wikitable"
+|-
+!Power Conferences 5
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|0–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|1–0
+|-
+|[[2022 BYU Cougars football team|BYU]]/[[2022 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|0–0
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|1–1
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|1–1
+|-
+!Power 5 Total
+!3–4
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|2–0
+|-
+|[[Conference USA|C–USA]]
+|align=center|0–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding BYU & Notre Dame)</small>]]
+|align=center|0–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|0–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–0
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|0–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Total
+!2–0
+|-
+!Total Bowl Record
+!5–4
+|}
+
+{{col-end}}
+
+==Postseason==
+The bowl games began on December 17, 2022, and will end with the Orange Bowl on December 30, 2022.
+
+===Bowl games===
+{{see also|2022–23 NCAA football bowl games}}
+
+{| class="wikitable" style="font-size:90%"
+|-
+!colspan="2"|Legend
+|-
+| style="background:#DDFFDD;"|&nbsp;||ACC win
+|-
+| style="background:#FFDDDD;"|&nbsp;||ACC loss
+|-
+| style="background:#CCCCCC;"|&nbsp;||Cancellation
+|}
+
+For the 2020–2025 bowl cycle, The ACC will have annually ten appearances in the following bowls: [[Orange Bowl Game|Orange Bowl]] and [[Peach Bowl]] (unless they are selected for playoffs filled by a SEC and at-large team if champion is in the playoffs), [[Military Bowl]], [[Duke's Mayo Bowl]], [[Gator Bowl]], [[Cheez-It Bowl (2020–2022)|Cheez-It Bowl]], [[Fenway Bowl]], [[ReliaQuest Bowl]], [[Holiday Bowl]] and [[Sun Bowl]]. The ACC teams will go to a [[New Year's Six|New Year's Six bowl]] if a team finishes higher than the champions of [[Power Five conferences]] in the final College Football Playoff rankings. The ACC champion are also eligible for the [[College Football Playoff]] if they're among the top four teams in the final CFP ranking.
+
+{| class="wikitable"
+|-'''Bowl games'''
+!Bowl game
+!Date
+!Site
+!Television
+!Time ([[Eastern Time Zone|EST]])
+!ACC team
+!Opponent
+!Score
+!Attendance 
+|- style="background:#DDFFDD;"
+| [[2022 Fenway Bowl|Fenway Bowl]]
+| December 17
+| [[Fenway Park]] • [[Boston, Massachusetts|Boston, MA]]
+| [[ESPN College Football|ESPN]]
+| 11:00&nbsp;a.m.
+| '''Louisville'''
+| [[2022 Cincinnati Bearcats football team|Cincinnati]]
+| '''W''' 24–7
+| 15,000
+|- style="background:#DDFFDD;"
+| [[2022 Gasparilla Bowl|Gasparilla Bowl]]
+| December 23
+| [[Raymond James Stadium]] • [[Tampa, Florida|Tampa, FL]]
+| ESPN
+| 6:30&nbsp;p.m.
+| '''Wake Forest'''
+| [[2022 Missouri Tigers football team|Missouri]]
+| '''W''' 27–17
+| 34,370
+|- style="background:#DDFFDD;"
+| [[2022 Military Bowl|Military Bowl]]
+| December 28
+| [[Navy–Marine Corps Memorial Stadium]] • [[Annapolis, Maryland|Annapolis, MD]]
+| ESPN
+| 2:00&nbsp;p.m.
+| '''Duke'''
+| [[2022 UCF Knights football team|UCF]]
+| '''W''' 30–13
+| 17,974
+|- style="background:#FFDDDD;"
+| [[2022 Holiday Bowl|Holiday Bowl]]
+| December 28
+| [[Petco Park]] • [[San Diego, California|San Diego, CA]]
+| [[Fox College Football|Fox]]
+| 8:00&nbsp;p.m.
+| '''North Carolina'''
+| No. 15 [[2022 Oregon Ducks football team|Oregon]]
+| '''L''' 27–28
+| 36,242
+|- style="background:#FFDDDD;"
+| [[2022 Pinstripe Bowl|Pinstripe Bowl]]
+| December 29
+| [[Yankee Stadium]] • [[Bronx, New York|Bronx, NY]]
+| ESPN
+| 2:00&nbsp;p.m.
+| '''Syracuse'''
+| [[2022 Minnesota Golden Gophers football team|Minnesota]]
+| '''L''' 20–28
+| 31,131
+|- style="background:#DDFFDD;"
+| [[2022 Cheez-It Bowl|Cheez-It Bowl]]
+| December 29
+| [[Camping World Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| ESPN
+| 5:30&nbsp;p.m.
+| No. 13 '''Florida State'''
+| [[2022 Oklahoma Sooners football team|Oklahoma]]
+| '''W''' 35–32
+| 61,520
+|- style="background:#FFDDDD;"
+| [[2022 Duke's Mayo Bowl|Duke's Mayo Bowl]]
+| December 30
+| [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]]
+| ESPN
+| 12:00&nbsp;p.m.
+| No. 23 '''NC State'''
+| [[2022 Maryland Terrapins football team|Maryland]]
+| '''L''' 12–16
+| 37,228
+|- style="background:#DDFFDD;"
+| [[2022 Sun Bowl|Sun Bowl]]
+| December 30
+| [[Sun Bowl (stadium)|Sun Bowl]] • [[El Paso, Texas|El Paso, TX]]
+| [[CBS College Football|CBS]]
+| 2:00&nbsp;p.m.
+| '''Pittsburgh'''
+| No. 18 [[2022 UCLA Bruins football team|UCLA]]
+| '''W''' 37–35
+| 41,104
+|- 
+|colspan="9" style="text-align:center;"|'''New Year's Six Bowls''' 
+|- style="background:#FFDDDD;"
+| [[2022 Orange Bowl|Orange Bowl]]
+| December 30
+| [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]]
+| ESPN
+| 8:00&nbsp;p.m.
+| No. 7 '''Clemson'''
+| No. 6 [[2022 Tennessee Volunteers football team|Tennessee]]
+| '''L''' 14–31
+| 63,912
+|-
+|}
+
+<small>Rankings are from CFP rankings. All times Eastern Time Zone. ACC teams shown in bold.</small>
+
+==Awards and honors==
+
+===Player of the week honors===
+{| class="wikitable" border="1" style="text-align: center;"
+|-
+! rowspan="2"| Week
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Quarterback
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Running Back
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Receiver
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Offensive Line
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Defensive Line
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Linebacker
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Defensive Back
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="3"| Specialist
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="3"| Rookie
+|-
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+|-
+| Week 1<ref>{{cite web|url=https://theacc.com/news/2022/9/6/acc-announces-week-1-football-honorees.aspx|title=Week 1 Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 6, 2022|access-date=September 6, 2022}}</ref>
+| [[Drake Maye]]
+| [[2022 North Carolina Tar Heels football team|North Carolina]]
+| [[Sean Tucker (American football)|Sean Tucker]]
+| [[2022 Syracuse Orange football team|Syracuse]]
+| [[Ontaria Wilson]]
+| [[2022 Florida State Seminoles football team|Florida State]]
+| [[Jalen Rivers]]
+| [[2022 Miami Hurricanes football team|Miami]]
+| [[Jared Verse]]
+| Florida State
+| Marlow Wax
+| Syracuse
+| [[M.J. Devonshire]]
+| [[2022 Pittsburgh Panthers football team|Pittsburgh]]
+| Shyheim Brown
+| Florida State
+| DB
+| Drake Maye
+| North Carolina
+| QB
+|-
+| Week 2<ref>{{cite web|url=https://theacc.com/news/2022/9/12/athlete-awards-acc-announces-week-2-football-honorees.aspx|title=ACC Announces Week 2 Football Honorees|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 12, 2022|access-date=September 12, 2022}}</ref>
+| [[Sam Hartman]]
+| [[2022 Wake Forest Demon Deacons football team|Wake Forest]]
+| [[Israel Abanikanda]]
+| Pittsburgh
+| [[A. T. Perry]]
+| Wake Forest
+| Matthew Bergeron
+| Syracuse
+| [[TyJuan Garbutt]]
+| [[2022 Virginia Tech Hokies football team|Virginia Tech]]
+| [[Cedric Gray]]
+| North Carolina
+| Jaylen Stinson
+| [[2022 Duke Blue Devils football team|Duke]]
+| [[Andres Borregales]]
+| Miami
+| PK
+| [[Omarion Hampton]]
+| North Carolina
+| RB
+|-
+| Week 3<ref>{{cite web|url=https://theacc.com/news/2022/9/19/athlete-awards-acc-announces-week-3-football-honorees.aspx|title=ACC Announces Week 3 Football Honorees|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 19, 2022|access-date=September 19, 2022}}</ref>
+| [[Garrett Shrader]]
+| Syracuse
+| [[Will Shipley]]
+| [[2022 Clemson Tigers football team|Clemson]]
+| Johnny Wilson
+| Florida State
+| Will Putnam
+| Clemson
+| Caleb Okechukwu
+| Syracuse
+| [[Mikel Jones]]
+| Syracuse
+| [[Aydan White]]
+| [[2022 NC State Wolfpack football team|NC State]]
+| Brendan Farrell
+| [[2022 Virginia Cavaliers football team|Virginia]]
+| PK
+| Nate Yarnell
+| Pittsburgh
+| QB
+|-
+| rowspan=2 | Week 4<ref>{{cite web|url=https://theacc.com/news/2022/9/26/athlete-awards-acc-announces-football-honors-for-week-4.aspx|title=ACC Announces Football Honors for Week 4|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 26, 2022|access-date=September 26, 2022}}</ref>
+| rowspan=2 | [[DJ Uiagalelei]]
+| rowspan=2 | Clemson
+| rowspan=2 | Israel Abanikanda (2)
+| rowspan=2 | Pittsburgh
+| rowspan=2 | [[Jahmal Banks]]
+| rowspan=2 | Wake Forest
+| [[Jordan McFadden]]
+| Clemson
+| rowspan=2 | Chico Bennett
+| rowspan=2 | Virginia
+| rowspan=2 | Mikel Jones (2)
+| rowspan=2 | Syracuse
+| rowspan=2 | [[Garrett Williams]]
+| rowspan=2 | Syracuse
+| rowspan=2 | Andrew Szymt
+| rowspan=2 | Syracuse
+| rowspan=2 | PK
+| rowspan=2 | Drake Maye (2)
+| rowspan=2 | North Carolina
+| rowspan=2 | QB
+|-
+| Grant Gibson
+| NC State
+|-
+| rowspan=2 | Week 5<ref>{{cite web|url=https://theacc.com/news/2022/10/3/athlete-awards-acc-announces-week-5-football-honorees.aspx|title=ACC Announces Week 5 Football Honorees|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 3, 2022|access-date=October 3, 2022}}</ref>
+| rowspan=2 | Drake Maye (2)
+| rowspan=2 | North Carolina
+| rowspan=2 | [[Hassan Hall]]
+| rowspan=2 | [[2022 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+| rowspan=2 | [[Zay Flowers]]
+| rowspan=2 | Boston College
+| [[Jacob Monk]]
+| Duke
+| rowspan=2 | Chibueze Onwuka
+| rowspan=2 | Boston College
+| rowspan=2 | [[Charlie Thomas (American football)|Charlie Thomas]]
+| rowspan=2 | Georgia Tech
+| rowspan=2 | [[Jammie Robinson]]
+| rowspan=2 | Florida State
+| rowspan=2 | Gavin Stewart
+| rowspan=2 | Georgia Tech
+| rowspan=2 | PK
+| rowspan=2 | Drake Maye (3)
+| rowspan=2 | North Carolina
+| rowspan=2 | QB
+|-
+| Michael Jurgens
+| Wake Forest
+|-
+| Week 6<ref>{{cite web|url=https://theacc.com/news/2022/10/10/athlete-awards-acc-announces-week-6-football-honorees.aspx|title=ACC Announces Week 6 Football Honorees|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 10, 2022|access-date=October 10, 2022}}</ref>
+| [[Tyler Van Dyke]]
+| Miami
+| Israel Abanikanda (3)
+| Pittsburgh
+| Kaleb Smith
+| Virginia Tech
+| Marcus Minor
+| Pittsburgh
+| [[Xavier Thomas]]
+| Clemson
+| Drake Thomas
+| NC State
+| DeAndre Boykins
+| North Carolina
+| [[Christopher Dunn (American football)|Christopher Dunn]]
+| NC State
+| PK
+| Drake Maye (4)
+| North Carolina
+| QB
+|-
+| Week 7<ref>{{cite web|url=https://theacc.com/news/2022/10/17/athlete-awards-acc-announces-week-7-football-honors.aspx|title=ACC Announces Week 7 Football Honors|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 17, 2022|access-date=October 17, 2022}}</ref>
+| Drake Maye (3)
+| North Carolina
+| Will Shipley (2)
+| Clemson
+| Oronde Gadsen II
+| Syracuse
+| Matthew Bergeron (2)
+| Syracuse
+| Akheen Mesidor
+| Miami
+| [[Jeremiah Trotter Jr.]]
+| Clemson
+| DeAndre Boykins (2)
+| North Carolina
+| Lou Hedley
+| Miami
+| P
+| Drake Maye (5)
+| North Carolina
+| QB
+|-
+| Week 8<ref>{{cite web|url=https://theacc.com/news/2022/10/24/athlete-awards-acc-announces-week-8-football-honorees.aspx|title=Week 8 ACC Football Honorees|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 24, 2022|access-date=October 24, 2022}}</ref>
+| Sam Hartman (2)
+| Wake Forest
+| Will Shipley (3)
+| Clemson
+| Colbie Young
+| Miami
+| Jordan McFadden (2)
+| Clemson
+| Chico Bennett (2)
+| Virginia
+| Yasir Abdullah
+| [[2022 Louisville Cardinals football team|Louisville]]
+| Brandon Johnson
+| Duke
+| Todd Pelino
+| Duke
+| PK
+| [[Chandler Rivers]]
+| Duke
+| DB
+|-
+| Week 9<ref>{{cite web|url=https://theacc.com/news/2022/10/31/athlete-awards-week-9-acc-football-honorees.aspx|title=Week 9 ACC Football Honorees|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 31, 2022|access-date=October 31, 2022}}</ref>
+| Drake Maye (4)
+| North Carolina
+| [[Trey Benson]]
+| Florida State
+| [[Antoine Green]]
+| North Carolina
+| D'Mitri Emmanuel
+| Florida State
+| Leonard Taylor III
+| Miami
+| Nick Jackson
+| Virginia
+| Quincey Riley
+| Louisville
+| Andres Borregales (2)
+| Miami
+| PK
+| [[MJ Morris]]
+| NC State
+| QB
+|-
+| rowspan=2 | Week 10<ref>{{cite web|url=https://theacc.com/news/2022/11/7/athlete-awards-acc-announces-week-10-football-honorees.aspx|title=Week 10 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 7, 2022|access-date=November 7, 2022}}</ref>
+| rowspan=2 | Drake Maye (5)
+| rowspan=2 | North Carolina
+| rowspan=2 | Trey Benson (2)
+| rowspan=2 | Florida State
+| rowspan=2 | [[Josh Downs]]
+| rowspan=2 | North Carolina
+| rowspan=2 | Dillan Gibbons
+| rowspan=2 | Florida State
+| rowspan=2 | Deslin Alexandre
+| rowspan=2 | Pittsburgh
+| Charlie Thomas (2)
+| Georgia Tech
+| rowspan=2 | Clayton Powell-Lee
+| rowspan=2 | Georgia Tech
+| rowspan=2 | Tucker Holloway
+| rowspan=2 | Virginia Tech
+| rowspan=2 | PR
+| MJ Morris (2)
+| NC State
+| QB
+|-
+| Isaiah Moore
+| NC State
+| [[Zach Pyron]]
+| Georgia Tech
+| QB
+|-
+| rowspan=2 | Week 11<ref>{{cite web|url=https://theacc.com/documents/2022/8/23/2022_ACC_Football_Weekly_Release.pdf|title=2022 ACC Football Weekly Release|website=theacc.com|publisher=[[Atlantic Coast Conference]]|access-date=November 16, 2022}}</ref>
+| rowspan=2 | Drake Maye (6)
+| rowspan=2 | North Carolina
+| rowspan=2 | Trey Benson (3)
+| rowspan=2 | Florida State
+| rowspan=2 | Josh Downs (2)
+| rowspan=2 | North Carolina
+| rowspan=2 | Maurice Smith
+| rowspan=2 | Florida State
+| rowspan=2 | [[Calijah Kancey]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | [[Barrett Carter]]
+| rowspan=2 | Clemson
+| rowspan=2 | [[Kamren Kinchens]]
+| rowspan=2 | Miami
+| Lou Hedley (2)
+| Miami
+| P
+| rowspan=2 | [[Emmett Morehead]]
+| rowspan=2 | Boston College
+| rowspan=2 | QB
+|-
+| Daniel Sparks
+| Virginia
+| P
+|-
+| rowspan=2 | Week 12<ref>{{cite web|url=https://theacc.com/news/2022/11/21/athlete-awards-week-12-acc-football-players-of-the-week.aspx|title=Week 12 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 21, 2022|access-date=November 21, 2022}}</ref>
+| rowspan=2 | Sam Hartman (3)
+| rowspan=2 | Wake Forest
+| rowspan=2 | Israel Abanikanda (4)
+| rowspan=2 | Pittsburgh
+| [[Jordan Moore (American football)|Jordan Moore]]
+| Duke
+| rowspan=2 | Will Putnam (2)
+| rowspan=2 | Clemson
+| rowspan=2 | Keion White
+| rowspan=2 | Georgia Tech
+| rowspan=2 | SirVocea Dennis
+| rowspan=2 | Pittsburgh
+| rowspan=2 | Brandon Hill
+| rowspan=2 | Pittsburgh
+| James Turner
+| Louisville
+| PK
+| rowspan=2 | LeQuint Allen
+| rowspan=2 | Syracuse
+| rowspan=2 | RB
+|-
+| A. T. Perry (2)
+| Wake Forest
+| [[Ben Sauls]]
+| Pittsburgh
+| PK
+|-
+| rowspan=2 | Week 13<ref>{{cite web|url=https://theacc.com/news/2022/11/28/athlete-awards-week-13-acc-football-players-of-the-week.aspx|title=Week 13 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 28, 2022|access-date=November 28, 2022}}</ref>
+| rowspan=2 | [[Riley Leonard]]
+| rowspan=2 | Duke
+| rowspan=2 | Trey Benson (4)
+| rowspan=2 | Florida State
+| rowspan=2 | [[Jared Wayne]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | Maurice Smith (2)
+| rowspan=2 | Florida State
+| rowspan=2 | [[Dayon Hayes]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | Jeremiah Trotter Jr. (2)
+| rowspan=2 | Clemson
+| Darius Joiner
+| Duke
+| rowspan=2 | [[Christopher Dunn (American football)|Christopher Dunn]] (2)
+| rowspan=2 | NC State
+| rowspan=2 | PK
+| rowspan=2 | Javon McIntyre
+| rowspan=2 | Pittsburgh
+| rowspan=2 | S
+|-
+| [[Erick Hallett]]
+| Pittsburgh
+|}
+
+===All Conference Teams===
+Source:<ref>{{cite web|url=https://theacc.com/news/2022/11/29/athlete-awards-clemson-leads-with-12-selection-to-all-acc-football-teams.aspx|title=Clemson Leads With 12 Selection to All-ACC Football Teams|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 30, 2022|access-date=November 30, 2022}}</ref>
+
+{{col-begin}}
+{{col-1-of-3}}
+
+'''First Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Drake Maye]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Israel Abanikanda]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| [[Will Shipley]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Zay Flowers]]
+! | Boston College
+
+|- style="text-align:center;"
+| [[Josh Downs]]
+! | North Carolina
+
+|- style="text-align:center;"
+| [[A. T. Perry]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Oronde Gadsden II]]
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Will Shipley]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Jordan McFadden]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Graham Barton]]
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="3" | [[Guard (American football)|G]]
+| Dillan Gibbons
+! | Florida State
+
+|- style="text-align:center;"
+| [[Chandler Zavala]] (tie)
+! | NC State
+
+|- style="text-align:center;"
+| Marcus Minor (tie)
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| Grant Gibson
+! | NC State
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Jared Verse]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Myles Murphy (American football)|Myles Murphy]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Calijah Kancey]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Cedric Gray]]
+! | North Carolina
+
+|- style="text-align:center;"
+| [[Yasir Abdullah]]
+! | Louisville
+
+|- style="text-align:center;"
+| [[SirVocea Dennis]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Aydan White]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Anthony Johnson (cornerback)|Anthony Johnson]]
+! | Virginia
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Kamren Kinchens]]
+! | Miami
+
+|- style="text-align:center;"
+| [[Jammie Robinson]]
+! | Florida State
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[Christopher Dunn (American football)|Christopher Dunn]]
+! | NC State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Lou Hedley]]
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Will Shipley]]
+! | Clemson
+|-
+|}
+
+{{col-2-of-3}}
+'''Second Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Jordan Travis]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Sean Tucker (American football)|Sean Tucker]]
+! | Syracuse
+
+|- style="text-align:center;"
+| [[Trey Benson]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Jared Wayne]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| Tyler Hudson
+! | Louisville
+
+|- style="text-align:center;"
+| [[Johnny Wilson (wide receiver)|Johnny Wilson]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Will Mallory]]
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Josh Downs]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Matthew Bergeron]]
+! | Syracuse
+
+|- style="text-align:center;"
+| Robert Scott
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| Sean Maginn
+! | Wake Forest
+
+|- style="text-align:center;"
+| Caleb Chandler
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Bryan Hudson (American football)|Bryan Hudson]]
+! | Louisville
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[KJ Henry]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Donovan Ezeiruaku]]
+! | Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[DeWayne Carter]]
+! | Duke
+
+|- style="text-align:center;"
+| [[Bryan Bresee]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Drake Thomas]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Nick Jackson (American football)|Nick Jackson]]
+! | Virginia
+
+|- style="text-align:center;"
+| [[Ayinde Eley]]
+! | Georgia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Fentrell Cypress]]
+! | Virginia
+
+|- style="text-align:center;"
+| [[Storm Duck]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Tanner Ingle]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Erick Hallett]]
+! | Pittsburgh
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[B. T. Potter]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| Daniel Sparks
+! | Virginia
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[M.J. Devonshire]]
+! | Pittsburgh
+|-
+|}
+
+{{col-3-of-3}}
+
+'''Third Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Sam Hartman]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Henry Parrish Jr.]]
+! | Miami
+
+|- style="text-align:center;"
+| [[Justice Ellison]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Jalon Calhoun]]
+! | Duke
+
+|- style="text-align:center;"
+| [[Antoine Green]]
+! | North Carolina
+
+|- style="text-align:center;"
+| [[Keytaon Thompson]]
+! | Virginia
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Davis Allen (American football)|Davis Allen]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Sean Tucker (American football)|Sean Tucker]]
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Matt Goncalves]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| [[Asim Richards]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| D'Mitri Emmanuel
+! | Florida State
+
+|- style="text-align:center;"
+| Sean Maginn
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Will Putnam]]
+! | Clemson
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[YaYa Diaby]]
+! | Louisville
+
+|- style="text-align:center;"
+| [[Keion White]]
+! | Georgia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Kobie Turner]]
+! | Wake Forest
+
+|- style="text-align:center;"
+| [[Cory Durden]]
+! | NC State
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Charlie Thomas (American football)|Charlie Thomas]]
+! | Georgia Tech
+
+|- style="text-align:center;"
+| [[Trenton Simpson]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Mikel Jones]]
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Kei'Trel Clark]]
+! | Louisville
+
+|- style="text-align:center;"
+| [[Tyrique Stevenson]]
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| Darius Joiner
+! | Duke
+
+|- style="text-align:center;"
+| LaMiles Brooks
+! | Georgia Tech
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[James Turner (American football)|James Turner]]
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| Ben Kiernan
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Jalon Calhoun]]
+! | Duke
+|-
+|}
+
+{{col-end}}
+
+===[[Atlantic Coast Conference football individual awards|ACC individual awards]]===
+{{col-begin}}
+{{col-1-of-3}}
+'''ACC Player of the Year'''
+: [[Drake Maye]], North Carolina <ref name="POY 2022">{{cite web|url=https://theacc.com/news/2022/11/30/uncs-maye-selected-as-acc-player-of-the-year.aspx|title=UNC's Maye Selected as ACC Player of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 30, 2022|access-date=November 30, 2022}}</ref>
+
+'''ACC Rookie of the Year'''
+:Drake Maye, North Carolina<ref name="ROY 2022">{{cite web|url=https://theacc.com/news/2022/11/30/athlete-awards-tar-heels-maye-adds-acc-rookie-of-the-year-to-honors-list.aspx|title=Tar Heels' Maye Adds ACC Rookie of the Year to Honors List|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 30, 2022|access-date=November 30, 2022}}</ref>
+
+'''ACC Coach of the Year'''
+:[[Mike Elko]], Duke<ref>{{cite press release|url=https://theacc.com/news/2022/11/30/athlete-awards-acc-coach-of-the-year-dukes-mike-elko.aspx|title=ACC Football Coach of the Year: Duke's Mike Elko|publisher=Atlantic Coast Conference|date=December 1, 2022|access-date=December 1, 2022}}</ref>
+{{col-2-of-3}}
+'''ACC Offensive Player of the Year'''
+: Drake Maye, North Carolina <ref name="POY 2022"/>
+
+'''ACC Offensive Rookie of the Year'''
+: Drake Maye, North Carolina<ref name="ROY 2022"/>
+
+'''[[Jacobs Blocking Trophy]]'''
+: [[Jordan McFadden]], Clemson<ref>{{cite web|url=https://theacc.com/news/2022/11/28/athlete-awards-clemsons-mcfadden-earns-acc-jacobs-blocking-trophy.aspx|title=Clemson's McFadden Earns ACC Jacobs Blocking Trophy|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 28, 2022|access-date=November 29, 2022}}</ref>
+
+{{col-3-of-3}}
+'''ACC Defensive Player of the Year'''
+: [[Calijah Kancey]], Pittsburgh<ref name="POY 2022"/>
+
+'''ACC Defensive Rookie of the Year'''
+: Patrick Payton, Florida State<ref name="ROY 2022"/>
+{{col-end}}
+
+===All-Americans===
+{{main|2022 College Football All-America Team}}
+
+====Consensus All-Americans====
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least half of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+{| class="wikitable" style="white-space:nowrap; font-size:90%; text-align:center;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2022 Consensus All-Americans''' 
+|-
+! Unanimous
+! Consensus
+|-
+| [[Calijah Kancey]] – Pittsburgh
+| [[Christopher Dunn (American football)|Christopher Dunn]] – NC State
+|}
+
+====Associated Press====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2022 AP All-Americans'''<ref>{{cite web|url=https://apnews.com/article/college-football-ap-all-america-team-1c0078baac0857cf80a461485108405d|title=USC's Williams, Alabama's Anderson lead AP All-America team|website=apnews.com|publisher=[[Associated Press]]|first=Ralph|last=Russo|date=December 12, 2022|access-date=December 12, 2022}}</ref>
+|-
+! First Team
+! Second Team
+! Third Team
+|-
+| [[Christopher Dunn (American football)|Christopher Dunn]] – NC State<br>[[Calijah Kancey]] – Pittsburgh<br>[[Kamren Kinchens]] – Miami
+| [[Josh Downs]] – North Carolina<br>[[Jeremiah Trotter Jr.]] – Clemson
+| [[Israel Abanikanda]] – Pittsburgh<br>[[Zay Flowers]] – Boston College
+|}
+
+====AFCA====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2022 AFCA All-Americans'''<ref>{{cite web|url=https://www.afca.com/tennessees-jalin-hyatt-and-mississippi-states-emmanuel-forbes-headline-the-2022-afca-fbs-coaches-all-america-teams/|title=TENNESSEE'S JALIN HYATT AND MISSISSIPPI STATE'S EMMANUEL FORBES HEADLINE THE 2022 AFCA FBS COACHES' ALL-AMERICA TEAMS|website=afca.com|publisher=[[American Football Coaches Association]]|access-date=December 15, 2022}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Calijah Kancey]] – Pittsburgh<br>[[Christopher Dunn (American football)|Christopher Dunn]] – NC State
+| Joe Shimko – NC State
+|}
+
+====FWAA====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2022 FWAA All-Americans'''<ref>{{cite web|url=https://www.sportswriters.net/fwaa/news/2022/12/09/fwaa-goodyear-cotton-bowl-unveil-2022-all-america-team|title=FWAA, Goodyear Cotton Bowl unveil 2022 All-America Team|website=sportswriters.net|publisher=Football Writers Association of America|date=December 9, 2022|access-date=December 9, 2022}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Calijah Kancey]] – Pittsburgh<br>[[Christopher Dunn (American football)|Christopher Dunn]] – NC State
+| [[Israel Abanikanda]] – Pittsburgh<br>[[Josh Downs]] – North Carolina<br>[[Tyler Davis (defensive lineman)|Tyler Davis]] – Clemson<br>[[Erick Hallett]] – Pittsburgh
+|}
+
+====The Sporting News====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2022 Sporting News All-Americans'''<ref>{{cite web|url=https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2022-sporting-news/teyolxklz8bxabi1cxkdsrzj|title=Sporting News 2022 College Football All-America Team|website=sportingnews.com|publisher=[[Sporting News]]|first=Bill|last=Bender|date=December 13, 2022|access-date=December 13, 2022}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Calijah Kancey]] – Pittsburgh<br>[[Kamren Kinchens]] – Miami
+| Cedric Gray – North Carolina<br>[[Christopher Dunn (American football)|Christopher Dunn]] – NC State
+|}
+
+====WCFF====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2022 Walter Camp All-Americans'''<ref>{{cite web|url=https://waltercamp.org/introducing-the-2022-walter-camp-all-america-1st-and-2nd-teams-the-nations-oldest-college-football-all-america-team-133rd-edition/|title=Introducing the 2022 Walter Camp All-America 1st and 2nd Teams – the nation's oldest college football All-America team (133rd edition) |website=waltercamp.org|publisher=Walter Camp Football Foundation|date=December 9, 2022|access-date=December 9, 2022|first=Al|last=Carbone}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Christopher Dunn (American football)|Christopher Dunn]] – NC State<br>[[Calijah Kancey]] – Pittsburgh
+| ''None''
+|}
+
+===National Awards===
+* [[Wuerffel Trophy]]: Dillan Gibbons, Florida State<ref>{{cite web|url=https://seminoles.com/dillan-gibbons-wins-wuerffel-trophy/|title=Dillan Gibbons Wins Wuerffel Trophy|website=seminoles.com|publisher=Florida State Seminoles Athletics|date=December 8, 2022|access-date=December 9, 2022}}</ref>
+* [[Disney's Wide World of Sports Spirit Award|Disney Spirit Award]]: [[Tylee Craft]], North Carolina<ref>{{cite web|url=https://goheels.com/news/2022/12/8/football-watch-tylee-craft-receive-the-disney-spirit-award-tonight-on-espn.aspx|title=Tylee Craft Honored With Disney Spirit Award On ESPN CFB Awards Show|website=goheels.com|publisher=University of North Carolina Athletics|date=December 8, 2022|access-date=December 9, 2022}}</ref>
+* [[Lou Groza Award]]: [[Christopher Dunn (American football)|Christopher Dunn]], NC State<ref>{{Cite web |date=2022-12-09 |title=QB Williams wins Walter Camp, Maxwell awards |url=https://www.espn.com/college-football/story/_/id/35214217/usc-quarterback-caleb-williams-wins-walter-camp-maxwell-awards |access-date=2022-12-09 |website=ESPN.com |publisher=[[ESPN]]|language=en|author=Uggetti, Paolo}}</ref>
+
+==Home game attendance==
+
+{| class="wikitable sortable" style="text-align:center;"
+|-'''Attendance'''
+!Team
+!Stadium
+!Capacity
+!Game 1
+!Game 2
+!Game 3
+!Game 4
+!Game 5 
+!Game 6
+!Game 7
+!Total 
+!Average
+!% of Capacity
+|-
+! |Boston College
+|[[Alumni Stadium]]
+| 44,500<ref>{{cite web|url=http://bceagles.com/sports/2015/8/14/GamedayA-Z-Football.aspx|website=bceagles.com|title=Alumni Stadium: A to Z|accessdate=May 18, 2021}}</ref>
+| 35,048
+| 34,325
+| 38,517
+| 42,138†
+| 34,092
+| 30,113
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (35048+34325+38517+42138+34092+30113)}}}}
+| {{formatnum:{{#expr: ((35048+34325+38517+42138+34092+30113)/6) round 0}}}}
+| {{Percentage | ((35048+34325+38517+42138+34092+30113)/6) | 44500 | 2 }}
+|-
+! |Clemson
+|[[Memorial Stadium (Clemson)|Memorial Stadium]]
+| 81,500<ref>{{cite web|url=http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|website=ClemsonTigers.com|title=Memorial Stadium-Death Valley-Denny Stadium|accessdate=September 23, 2016|archive-url=https://web.archive.org/web/20160924022856/http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|archive-date=September 24, 2016|url-status=dead}}</ref>
+| 78,302
+| 80,542
+| 81,500
+| 81,500
+| 80,176
+| 81,340
+| 81,500
+| {{formatnum:{{#expr: (78302+80542+81500+81500+80176+81340+81500)}}}}
+| {{formatnum:{{#expr: ((78302+80542+81500+81500+80176+81340+81500)/7) round 0}}}}
+| {{Percentage | ((78302+80542+81500+81500+80176+81340+81500)/7) | 81500 | 2 }}
+|-
+! |Duke
+|[[Wallace Wade Stadium]]
+| 40,004<ref>{{cite web|url=http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|website=goduke.com|title=Brooks Field at Wallace Wade Stadium|accessdate=May 18, 2021|archive-date=October 12, 2016|archive-url=https://web.archive.org/web/20161012031200/http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|url-status=dead}}</ref>
+| 20,722
+| 32,802
+| 15,152
+| 40,004†
+| 20,857
+| 17,492
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (20722+32802+15152+40004+20857+17492)}}}}
+| {{formatnum:{{#expr: ((20722+32802+15152+40004+20857+17492)/6) round 0}}}}
+| {{Percentage | ((20722+32802+15152+40004+20857+17492)/6) | 40004 | 2 }}
+|-
+! |Florida State
+|[[Doak Campbell Stadium]]
+| 79,560<ref>{{cite web|url=https://seminoles.com/sports/football/facilities/bobby-bowden-field-at-doak-s-campbell-stadium/|website=Seminoles.com|title=Bobby Bowden Field at Doak S. Campbell Stadium|date=June 23, 2017|accessdate=May 18, 2021|archive-date=April 1, 2019|archive-url=https://web.archive.org/web/20190401113232/https://seminoles.com/sports/football/facilities/bobby-bowden-field-at-doak-s-campbell-stadium/|url-status=dead}}</ref>
+| 51,207
+| 79,560†
+| 69,749
+| 71,098
+| 61,007
+| 58,597
+| 79,560†
+| {{formatnum:{{#expr: (51207+79560+69749+71098+61007+58597+79560)}}}}
+| {{formatnum:{{#expr: ((51207+79560+69749+71098+61007+58597+79560)/7) round 0}}}}
+| {{Percentage | ((51207+79560+69749+71098+61007+58597+79560)/7) | 79560 | 2 }}
+|-
+! |Georgia Tech
+|[[Bobby Dodd Stadium]]
+| 55,000<ref>{{cite web|url=http://www.ramblinwreck.com/genrel/071001aaa.html|website=RamblinWreck.com|title=Bobby Dodd Stadium at Historic Grant Field|date=June 15, 2018 |accessdate=May 18, 2021}}</ref>
+| 36,486
+| 40,293†
+| 32,041
+| 29,362
+| 33,857
+| style="background:#666666;" | 
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (36486+40293+32041+29362+33857)}}}}
+| {{formatnum:{{#expr: ((36486+40293+32041+29362+33857)/5) round 0}}}}
+| {{Percentage | ((36486+40293+32041+29362+33857)/5) | 55000 | 2 }}
+|-
+! |Louisville
+| [[Cardinal Stadium]]
+| 60,800<ref>{{cite web|url=https://gocards.com/documents/2019/8/1//2019_UofL_Football_Media_Guide.pdf?id=23840 |title=Cardinal Stadium |work=2019 Louisville Football Media Guide |page=12 |publisher=Louisville Cardinals |accessdate=August 30, 2019}}</ref>
+| 46,459†
+| 41,217
+| 41,840
+| 39,503
+| 42,157
+| 38,974
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (46459+41217+41840+39503+42157+38974)}}}}
+| {{formatnum:{{#expr: ((46459+41217+41840+39503+42157+38974)/6) round 0}}}}
+| {{Percentage | ((46459+41217+41840+39503+42157+38974)/6) | 60800 | 2 }}
+|-
+! |Miami
+|[[Hard Rock Stadium]]
+| 65,326<ref>{{cite web|url=http://hardrockstadium.com/faqs/|website=HardRockStadium.com|title=Hard Rock Stadium FAQs|accessdate=September 23, 2016|archive-url=https://web.archive.org/web/20160922231817/http://hardrockstadium.com/faqs/|archive-date=September 22, 2016|url-status=dead}}</ref>
+| 56,795
+| 46,422
+| 46,713
+| 53,751
+| 57,421
+| '''66,200'''†
+| 46,428
+| {{formatnum:{{#expr: (56795+46422+46713+53751+57421+66200+46428)}}}}
+| {{formatnum:{{#expr: ((56795+46422+46713+53751+57421+66200+46428)/7) round 0}}}}
+| {{Percentage | ((56795+46422+46713+53751+57421+66200+46428)/7) | 65326 | 2 }}
+|-
+!| North Carolina
+|[[Kenan Memorial Stadium]]
+| 50,500<ref>{{cite web|url=http://www.goheels.com/ViewArticle.dbml?ATCLID=205912861|website=goheels.com|title=Kenan Stadium|accessdate=September 23, 2016}}</ref>
+| 46,130
+| 50,500
+| 45,029
+| 50,500
+| 44,940
+| 50,500
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (46130+50500+45029+50500+44940+50500)}}}}
+| {{formatnum:{{#expr: ((46130+50500+45029+50500+44940+50500)/6) round 0}}}}
+| {{Percentage | ((46130+50500+45029+50500+44940+50500)/6) | 50500 | 2 }}
+|-
+!| NC State
+|[[Carter–Finley Stadium]]
+| 56,919<ref>{{cite web|url=http://gopack.com/facilities/?id=3|website=gopack.com|title=Facilities|accessdate=September 23, 2016}}</ref>
+| 54,169
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| {{formatnum:{{#expr: (54169+56919+56919+56919+56919+56919+56919)}}}}
+| {{formatnum:{{#expr: ((54169+56919+56919+56919+56919+56919+56919)/7) round 0}}}}
+| {{Percentage | ((54169+56919+56919+56919+56919+56919+56919)/7) | 56919 | 2 }}
+|-
+!| Pittsburgh
+|[[Acrisure Stadium]]
+| 68,400<ref>{{cite web|url=http://heinzfield.com/stadium/heinz-field-facts/|website=HeinzField.com|title=Heinz Field Facts|accessdate=September 23, 2016|archive-date=October 3, 2014|archive-url=https://web.archive.org/web/20141003160106/http://heinzfield.com/stadium/heinz-field-facts/|url-status=dead}}</ref>
+| '''70,622'''†
+| 59,785
+| 54,667
+| 46,972
+| 54,677
+| 50,888
+| 45,362
+| {{formatnum:{{#expr: (70622+59785+54667+46972+54677+50888+45362)}}}}
+| {{formatnum:{{#expr: ((70622+59785+54667+46972+54677+50888+45362)/7) round 0}}}}
+| {{Percentage | ((70622+59785+54667+46972+54677+50888+45362)/7) | 68400 | 2 }}
+|-
+!| Syracuse
+|[[JMA Wireless Dome]]
+| 49,057<ref>{{cite web |title=JMA Wireless Dome |url=https://cuse.com/facilities/jma-wireless-dome/526 |website=cuse.com |publisher=Syracuse University |access-date=September 3, 2022}}</ref>
+| 37,110
+| 35,943
+| 34,590
+| 33,373
+| '''49,705'''
+| '''49,861'''†
+| 45,213
+| {{formatnum:{{#expr: (37110+35943+34590+33373+49705+49861+45213)}}}}
+| {{formatnum:{{#expr: ((37110+35943+34590+33373+49705+49861+45213)/7) round 0}}}}
+| {{Percentage | ((37110+35943+34590+33373+49705+49861+45213)/7) | 49057 | 2 }}
+|-
+!| Virginia
+|[[Scott Stadium]]
+| 61,500<ref>{{cite web|url=https://virginiasports.com/carl-smith-center-home-of-david-a-harrison-iii-field-at-scott-stadium-2/|website=virginiasports.com|title=Carl Smith Center, home of David A. Harrison III Field at Scott Stadium|accessdate=September 23, 2016}}</ref>
+| 41,122
+| 40,556
+| 38,009
+| 43,714
+| 44,156†
+| 36,529
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (41122+40556+38009+43714+44156+36529)}}}}
+| {{formatnum:{{#expr: ((41122+40556+38009+43714+44156+36529)/6) round 0}}}}
+| {{Percentage | ((41122+40556+38009+43714+44156+36529)/6) | 61500 | 2 }}
+|-
+!| Virginia Tech
+|[[Lane Stadium]]
+| 65,632<ref>{{cite web|url=https://www.vt.edu/about/buildings/lane-stadium-worsham-field.html|website=vt.edu|title=Lane Stadium/Worsham Field|accessdate=September 23, 2016}}</ref>
+| 65,632
+| 62,043
+| 65,632
+| 65,632
+| 62,843
+| style="background:#666666;" | 
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (65632+62043+65632+65632+62843)}}}}
+| {{formatnum:{{#expr: ((65632+62043+65632+65632+62843)/5) round 0}}}}
+| {{Percentage | ((65632+62043+65632+65632+62843)/5) | 65632 | 2 }}
+|-
+!| Wake Forest
+|[[BB&T Field]]
+| 31,500<ref>{{cite web|url=http://www.wakeforestsports.com/facilities/wake-bbt-field.html|archive-url=https://web.archive.org/web/20150518114125/http://www.wakeforestsports.com/facilities/wake-bbt-field.html|url-status=dead|archive-date=May 18, 2015|website=wakeforestsports.com|title=Wake Forest Facilities|accessdate=September 23, 2016}}</ref>
+| 26,013
+| '''32,891'''
+| '''32,903'''†
+| '''32,524'''
+| 28,530
+| 31,346
+| 26,164
+| {{formatnum:{{#expr: (26013+32891+32903+32524+28530+31346+26164)}}}}
+| {{formatnum:{{#expr: ((26013+32891+32903+32524+28530+31346+26164)/7) round 0}}}}
+| {{Percentage | ((26013+32891+32903+32524+28530+31346+26164)/7) | 31500 | 2 }}
+|}
+
+'''Bold''' – Exceeded capacity<br>
+†Season High
+
+==NFL draft==
+The following list includes all ACC players who were drafted in the [[2023 NFL draft]].
+
+{|class="wikitable sortable" border="1" style="text-align: center;"
+|-
+! Player
+! Position
+! School
+! Draft<br/>Round
+! Round<br/>Pick
+! Overall<br/>Pick
+! Team
+|-
+| [[Calijah Kancey]]
+| [[Defensive tackle|DT]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 1
+| 19
+| 19
+| [[Tampa Bay Buccaneers]]
+|-
+| [[Zay Flowers]]
+| [[Wide receiver|WR]]
+| [[Boston College Eagles football|Boston College]]
+| 1
+| 22
+| 22
+| [[Baltimore Ravens]]
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| [[Defensive end|DE]]
+| [[Clemson Tigers football|Clemson]]
+| 1
+| 28
+| 28
+| [[Cincinnati Bengals]]
+|-
+| [[Bryan Bresee]]
+| [[Defensive tackle|DT]]
+| [[Clemson Tigers football|Clemson]]
+| 1
+| 29
+| 29
+| [[New Orleans Saints]]
+|-
+| [[Matthew Bergeron]]
+| [[Offensive tackle|OT]]
+| [[Syracuse Orange football|Syracuse]]
+| 2
+| 7
+| 38
+| [[Atlanta Falcons]]
+|-
+| [[Keion White]]
+| [[Defensive end|DE]]
+| [[Georgia Tech Yellow Jackets football|Georgia Tech]]
+| 2
+| 15
+| 46
+| [[New England Patriots]]
+|-
+| [[Tyrique Stevenson]]
+| [[Cornerback|CB]]
+| [[Miami Hurricanes football|Miami]]
+| 2
+| 25
+| 56
+| [[Chicago Bears]]
+|-
+| [[Garrett Williams]]
+| [[Cornerback|CB]]
+| [[Syracuse Orange football|Syracuse]]
+| 3
+| 9
+| 72
+| [[Arizona Cardinals]]
+|-
+| [[Josh Downs]]
+| [[Wide receiver|WR]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 3
+| 16
+| 79
+| [[Indianapolis Colts]]
+|-
+| [[YaYa Diaby]]
+| [[Defensive end|DE]]
+| [[Louisville Cardinals football|Louisville]]
+| 3
+| 19
+| 82
+| [[Tampa Bay Buccaneers]]
+|-
+| [[Trenton Simpson]]
+| [[Linebacker|LB]]
+| [[Clemson Tigers football|Clemson]]
+| 3
+| 23
+| 86
+| [[Baltimore Ravens]]
+|-
+| [[Kobie Turner]]
+| [[Defensive end|DE]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 3
+| 26
+| 89
+| [[Los Angeles Rams]]
+|-
+| [[Chandler Zavala]]
+| [[Guard (gridiron football)|OG]]
+| [[NC State Wolfpack football|NC State]]
+| 4
+| 12
+| 114
+| [[Carolina Panthers]]
+|-
+| [[Chamarri Conner]]
+| [[Safety (gridiron football position)|S]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 4
+| 17
+| 119
+| [[Kansas City Chiefs]]
+|-
+| [[Carter Warren]]
+| [[Offensive tackle|OT]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 4
+| 18
+| 120
+| [[New York Jets]]
+|-
+| [[Yasir Abdullah]]
+| [[Linebacker|LB]]
+| [[Louisville Cardinals football|Louisville]]
+| 5
+| 1
+| 136
+| [[Jacksonville Jaguars]]
+|-
+| [[KJ Henry]]
+| [[Defensive end|DE]]
+| [[Clemson Tigers football|Clemson]]
+| 5
+| 2
+| 137
+| [[Washington Commanders]]
+|-
+| [[Israel Abanikanda]]
+| [[Running back|RB]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 5
+| 8
+| 143
+| [[New York Jets]]
+|-
+| [[Jammie Robinson]]
+| [[Safety (gridiron football position)|S]]
+| [[Florida State Seminoles football|Florida State]]
+| 5
+| 10
+| 145
+| [[Carolina Panthers]]
+|-
+| [[SirVocea Dennis]]
+| [[Linebacker|LB]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 5
+| 18
+| 153
+| [[Tampa Bay Buccaneers]]
+|-
+| [[Jordan McFadden]]
+| [[Guard (gridiron football)|OG]]
+| [[Clemson Tigers football|Clemson]]
+| 5
+| 21
+| 156
+| [[Los Angeles Chargers]]
+|-
+| [[Dontayvion Wicks]]
+| [[Wide receiver|WR]]
+| [[Virginia Cavaliers football|Virginia]]
+| 5
+| 24
+| 159
+| [[Green Bay Packers]]
+|-
+| [[Will Mallory]]
+| [[Tight end|TE]]
+| [[Miami Hurricanes football|Miami]]
+| 5
+| 27
+| 162
+| [[Indianapolis Colts]]
+|-
+| [[Asim Richards]]
+| [[Offensive tackle|OT]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 5
+| 34
+| 169
+| [[Dallas Cowboys]]
+|-
+| [[Davis Allen (American football)|Davis Allen]]
+| [[Tight end|TE]]
+| [[Clemson Tigers football|Clemson]]
+| 5
+| 40
+| 175
+| [[Los Angeles Rams]]
+|-
+| [[Kei'Trel Clark]]
+| [[Cornerback|CB]]
+| [[Louisville Cardinals football|Louisville]]
+| 6
+| 3
+| 180
+| [[Arizona Cardinals]]
+|-
+| [[A. T. Perry]]
+| [[Wide receiver|WR]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 6
+| 18
+| 195
+| [[New Orleans Saints]]
+|-
+| [[Erick Hallett]]
+| [[Safety (gridiron football position)|S]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 6
+| 31
+| 208
+| [[Jacksonville Jaguars]]
+|-
+| [[Antoine Green]]
+| [[Wide receiver|WR]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 7
+| 2
+| 219
+| [[Detroit Lions]]
+|-
+| [[Raymond Vohasek]]
+| [[Defensive tackle|DT]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 7
+| 10
+| 227
+| [[Jacksonville Jaguars]]
+|-
+| [[D. J. Ivey]]
+| [[Cornerback|CB]]
+| [[Miami Hurricanes football|Miami]]
+| 7
+| 29
+| 246
+| [[Cincinnati Bengals]]
+|-
+| [[Brandon Hill (American football)|Brandon Hill]]
+| [[Safety (gridiron football position)|S]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 7
+| 31
+| 248
+| [[Houston Texans]]
+|-
+|}
+
+==References==
+{{Reflist}}
+
+{{Atlantic Coast Conference football navbox}}
+{{2022 NCAA Division I FBS football season navbox}}
+
+[[Category:2022 Atlantic Coast Conference football season|*]]

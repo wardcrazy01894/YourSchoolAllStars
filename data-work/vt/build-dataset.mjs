@@ -21,7 +21,7 @@
 // Output: data-work/vt/vt-football.draft.json — becomes
 // src/data/vt-football.json once honors are attached (attach-honors step).
 
-import { readFileSync, writeFileSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -94,7 +94,12 @@ for (const per of merged) {
   const seasons = []
   for (const s of per.seasons) {
     const stats = {}
-    for (const [k, v] of Object.entries(s.stats)) if (v !== 0) stats[k] = v
+    // Zero-strip; drop NEGATIVE values except a QB's net rushYds (the only
+    // negative the guard allows — a CB's -7-yard end-around or a QB's -9
+    // receiving yards are real lines, but omission beats fabricating a 0).
+    for (const [k, v] of Object.entries(s.stats))
+      if (v !== 0 && (v > 0 || (position === 'QB' && k === 'rushYds')))
+        stats[k] = v
     const rep = REPAIRS.find((r) => r.name === per.name && r.year === s.year)
     let source = s.source
     if (rep) {
@@ -135,7 +140,8 @@ for (const per of merged) {
     seasons,
   }
   if (redshirtYears.length) p.redshirtYears = redshirtYears
-  if (call.basis === 'override') p._positionSource = call.source
+  // Position citations live in positions-override.json (committed with the
+  // pipeline), not in the shipped dataset.
   players.push(p)
 }
 
@@ -172,7 +178,7 @@ writeFileSync(
       sport: 'football',
       _provisional: false,
       _note:
-        'Real per-season data, 1994-2025. 1994-2012 from the Wayback-archived official hokiesports.com per-year season cumes (full offense AND defense every year; each row cites its snapshot); 2013-2025 from the WMT Digital API behind hokiesports.com (official NCAA-fed season totals; rows cite the hokiesports stats page). Cross-validated player-by-player against Sports-Reference season pages; repaired rows cite SR. Positions from WMT rosters/stats (2002+), SR fine codes, or per-player cited research (see _positionSource); OL/K/P/LS are out of scope. QB rushYds is the NCAA net (sacks count against rushing). redshirtYears marks tenure years with no ratable season row.',
+        'Real per-season data, 1994-2025. 1994-2012 from the Wayback-archived official hokiesports.com per-year season cumes (full offense AND defense every year, incl. pre-1997 tackles/TFL/sacks; each row cites its snapshot; every parsed column validated against the printed Total row); 2013-2025 from the WMT Digital API behind hokiesports.com (official NCAA-fed season totals; rows cite the hokiesports stats page). Cross-validated player-by-player against Sports-Reference season pages; repaired rows cite SR. Positions from WMT rosters/stats (2002+), SR fine position codes, or per-player cited research (citations in data-work/vt/positions-override.json); a handful of above-floor players whose exact position no citable source pins down were dropped rather than guessed. OL/K/P/LS are out of scope. QB rushYds is the NCAA net (sacks count against rushing). redshirtYears marks tenure years with no ratable season row. honors[] is empty pending the honors derivation pass (same staging as Michigan: stats PR first, honors follow-up).',
       players,
     },
     null,

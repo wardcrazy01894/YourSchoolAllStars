@@ -89,7 +89,7 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
       fetched + parsed into `data-work/vt/gap/<season>.json` (48–62 rows/yr,
       checksums green; see the SOLVED section above). Rosters for positions
       2002–2012 in `rosters/`; 1994–2001 positions resolved at merge.
-- [~] **Stage 3 — merge + curate** (IN PROGRESS): `merge.mjs` run →
+- [x] **Stage 3 — merge + curate** (DONE): `merge.mjs` run →
       `merged.json`: 674 persons (58 OL/K/P/LS-only excluded, 0 adjacency
       twin-splits, **355 position-unresolved** — coarse DL/DB codes plus all
       1994–2001-only players; the WMT roster join covers 2002+). Remaining
@@ -104,16 +104,33 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
       3. QB rushing lines on every QB season; id de-collision
          (`-<firstYear>` suffix); interior gaps → redshirtYears; per-window
          Hall's-condition coverage check.
-- [ ] **Stage 4 — honors**: programmatic wikitext derivation + SR award pages;
-      attach per-season; re-verify counts after any rebuild.
-- [ ] **Stage 5 — ship**: build `src/data/vt-football.json`, wire
-      `src/data/index.ts` (virginiaTechFootball) + `src/schools.ts`
-      (`football: virginiaTechFootball`), guard tests green
-      (`football-dataset.test.ts` + `dataset.test.ts`), update
-      docs/DATA-SOURCING.md §VT, browser-verify (VT single-school + auto-join
-      of Full Football), PR with adversarial review.
+- [ ] **Stage 4 — honors** (FOLLOW-UP PR, not blocking): shipped with
+      `honors: []` per the Michigan precedent (stats PR #50 → honors PR #52).
+      Wikipedia per-year All-Big East/All-ACC articles are too spotty for VT
+      (saved ones are in `honors-wiki/`; 1995 + 2016-2025 only). The follow-up
+      should use the Wayback-archived OFFICIAL sources instead:
+      `hokiesports.com/football/allamericans.html`, `awards.html`, and the
+      per-year media-guide PDFs (`/football/<year>MG/records.pdf` etc.,
+      2002MG-2008MG confirmed archived) + SR award pages per the honors
+      memory. Then `attach-honors` + re-verify counts.
+- [x] **Stage 5 — ship (stats)**: `build-dataset.mjs` → 398 players →
+      `src/data/vt-football.json`; wired into `src/data/index.ts` +
+      `src/schools.ts`; all guard tests green (447 total); browser-verified
+      (VT single-school Classic to results; Full Football wheel lands on
+      "🦃 Virginia Tech · 2000-2003" with the real Vick/Jones/Suggs pool).
+      Dropped-not-guessed positions: Ryan Smith 1997-98 (comp 20.1, confirmed
+      DL 6'2 235 #47 via statmuse/official roster data but DE/DT split
+      unverifiable), Ron Cook, Benny Wolfe, Mark Costen, Steven Hunt,
+      Philip Hicks (all comp < 7).
 
-## Next actions (crossval-report.json is the worklist — all inputs now local)
+## Next actions
+
+**The stats dataset is SHIPPED (PR on branch data/vt-football).** The only
+remaining work is Stage 4 (honors follow-up PR) — see the stage list above
+for sources. Everything below this line is the historical worklist from the
+curation pass, kept for provenance.
+
+## Historical: crossval worklist (resolved)
 
 SR pages are downloaded (`sr-html/`, incl. a fresh Save-Page-Now capture for
 1997 whose old snapshots lacked individual tables) and parsed (`sr/`).
