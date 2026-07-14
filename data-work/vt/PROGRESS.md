@@ -40,22 +40,28 @@ pages are a thin shell over the WMT API:
 - 2017 + 2021 show stats on 100% of roster rows (others ~75–85%) — rows
   without a season block are non-participants, verify during parse.
 
-## Gap-year (1994–2012) source candidates — NOT yet probed
+## Gap-year (1994–2012) source — SOLVED: archived hokiesports.com per-year cumes
 
-In priority order (docs/DATA-SOURCING.md source policy):
+The old hokiesports.com rendered EVERY historical season in one template at
+`/football/stats/<year>/?season` with **full offense AND defense tables**
+(Solo/Ast/Total tackles, TFL-Yds, Sacks No-Yds, Int-Yds, BU, PD, QBH, Rcv,
+FF) — official numbers all the way back past 1994. Wayback has 2018-05-22
+captures (final cumes) for every gap year. This beats what Michigan (no
+pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
 
-1. **Wayback captures of old hokiesports.com** — VT ran a custom site with a
-   deep stats archive long before WMT. Probe CDX for
-   `hokiesports.com/football/stats*`, `/football/archives*`, and
-   OCSN/CollegeSports-era `*teamcume.html` patterns (see Pitt lessons in
-   memory `football-data-mgoblue-pipeline`). Check capture dates — mid-season
-   cumes are garbage.
-2. **Digitized VT media guides** (Internet Archive; VT's own archives at
-   spec.lib.vt.edu?) — guides carry the PRIOR season's full stats.
-3. **Sports-Reference** season pages via Wayback (`web.archive.org/web/2024/
-   https://www.sports-reference.com/cfb/schools/virginia-tech/<year>.html`) —
-   offense complete for all years; full defense tables only 2005+ (pre-2005
-   INT-only). Cite SR per row where used.
+- `fetch-gap.mjs` → `gap-html/<year>.html` + `.meta.json` (snapshot URL).
+- `parse-gap.mjs` → `gap/<season>.json`; asserts header layouts and validates
+  every mapped column against the printed Total row (TEAM pseudo-rows count
+  toward totals, aren't emitted). All 19 years parse with ZERO checksum
+  problems. Spot-checks vs history: Vick 1999 1840/12/5 + 585/8 ✓, Corey
+  Moore 1999 17 sacks ✓, Kevin Jones 2003 1647/21 ✓, Suggs 2000 27 rushTD ✓.
+- The cume tables have NO position column. Positions: WMT rosters 2002–2012
+  (`rosters/<season>.json`); 1994–2001 need SR rosters / honors pages /
+  media-guide cross-refs at merge time (no archived hokiesports roster pages).
+- Interception/return/scoring tables are ignored by design — defInt comes
+  from the defensive table (one authority).
+- SR (via Wayback `web.archive.org/web/2024/<SR url>`) is the CROSS-VALIDATION
+  source (stage 3), not primary — the official archive covers everything.
 
 ## Honors sources (stage 4, not started)
 
@@ -79,8 +85,10 @@ In priority order (docs/DATA-SOURCING.md source policy):
       WMT xml-aggregation glitch class; SR cross-validation must resolve).
       pbu = sPassesBrokenUp (pure breakups, matches shipped datasets);
       QB rushYds is NCAA net.
-- [ ] **Stage 2 — gap years (1994–2012)**: probe sources (above), parse into
-      `data-work/vt/gap/<season>.json` with per-row `source` URLs.
+- [x] **Stage 2 — gap years (1994–2012)**: archived hokiesports cumes,
+      fetched + parsed into `data-work/vt/gap/<season>.json` (48–62 rows/yr,
+      checksums green; see the SOLVED section above). Rosters for positions
+      2002–2012 in `rosters/`; 1994–2001 positions resolved at merge.
 - [ ] **Stage 3 — merge + curate**: merge persons across years (beware
       name-twin classes from Pitt lessons: tenure span ≤5yr guard, no
       cross-decade merges), position resolution (defense-table pos beats
@@ -98,13 +106,17 @@ In priority order (docs/DATA-SOURCING.md source policy):
 
 ## Next actions
 
-1. Probe Wayback CDX for old hokiesports.com stats archive (gap years
-   1994–2012): `hokiesports.com/football/stats*`, `/football/archives*`,
-   OCSN-era `*teamcume.html`. Verify capture dates are POST-season.
-2. Parse whatever the archive covers into `data-work/vt/gap/<season>.json`
-   (same row shape as wmt/, `source` = the Wayback URL).
-3. Fill remaining holes from SR season pages via Wayback
-   (offense all years; defense 2005+ full, pre-2005 INT-only).
+1. **Stage 3 merge**: write `data-work/vt/merge.mjs` — merge gap/ + wmt/ rows
+   into persons across 1994–2025. The overlap year is none (gap ends 2012,
+   wmt starts 2013) but PEOPLE span the boundary (e.g. Logan Thomas
+   2011–2013) — merge by normalized name with the tenure-span (≤5yr) and
+   name-twin guards from the Pitt lessons. Positions: WMT position_code
+   (2013+ stats rows and 2002–2012 rosters, joined by personId where
+   possible, else name); 1994–2001 from SR rosters/honors research with
+   citations, low-confidence marginal players dropped.
+2. SR cross-validation sweep (esp. the WMT era; known suspect: Burmeister
+   2021 rec line) + composite-floor trim + id de-collision + redshirtYears.
+3. Honors (stage 4), then ship (stage 5).
 
 ## Decisions log
 

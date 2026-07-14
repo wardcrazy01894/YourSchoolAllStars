@@ -1,0 +1,569 @@
+{
+ "season": 2004,
+ "source": "http://web.archive.org/web/20180522122352/http://www.hokiesports.com/football/stats/2004/?season",
+ "players": [
+  {
+   "name": "Aaron Rouse",
+   "games": 13,
+   "stats": {
+    "tackles": 37,
+    "tfl": 2.5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Barry Booker",
+   "games": 1,
+   "stats": {
+    "tackles": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Blake Warren",
+   "games": 13,
+   "stats": {
+    "tackles": 28,
+    "tfl": 0.5,
+    "defInt": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Bob Ruff",
+   "games": 13,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Brandon Flowers",
+   "games": 1,
+   "stats": {
+    "tackles": 1,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Brandon Manning",
+   "games": 13,
+   "stats": {
+    "tackles": 30,
+    "tfl": 1,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Brenden Hill",
+   "games": 9,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Brett Warren",
+   "games": 12,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Bryan Randall",
+   "games": 13,
+   "stats": {
+    "rushYds": 511,
+    "rushTD": 3,
+    "passYds": 2264,
+    "passTD": 21,
+    "passInt": 9,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Carlton Powell",
+   "games": 13,
+   "stats": {
+    "tackles": 17,
+    "tfl": 6,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Cary Wade",
+   "games": 13,
+   "stats": {
+    "tackles": 6
+   }
+  },
+  {
+   "name": "Cedric Humes",
+   "games": 13,
+   "stats": {
+    "rushYds": 605,
+    "rushTD": 5,
+    "rec": 8,
+    "recYds": 46,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Chad Cooper",
+   "games": 13,
+   "stats": {
+    "tackles": 17,
+    "tfl": 1,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Chris Burnett",
+   "games": 2,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Chris Ceasar",
+   "games": 4,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Chris Clifton",
+   "games": 6,
+   "stats": {
+    "rec": 1,
+    "recYds": 10
+   }
+  },
+  {
+   "name": "Chris Ellis",
+   "games": 13,
+   "stats": {
+    "tackles": 33,
+    "tfl": 7.5,
+    "sacks": 3,
+    "pbu": 3,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Corey Gordon",
+   "games": 10,
+   "stats": {
+    "tackles": 4,
+    "tfl": 0.5
+   }
+  },
+  {
+   "name": "D.J. Parker",
+   "games": 12,
+   "stats": {
+    "tackles": 10,
+    "ff": 1
+   }
+  },
+  {
+   "name": "D.J. Walton",
+   "games": 2,
+   "stats": {
+    "tackles": 8
+   }
+  },
+  {
+   "name": "Darryl Tapp",
+   "games": 13,
+   "stats": {
+    "tackles": 60,
+    "tfl": 16.5,
+    "sacks": 8.5,
+    "defInt": 1,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "David Clowney",
+   "games": 12,
+   "stats": {
+    "rushYds": -20,
+    "rec": 20,
+    "recYds": 263,
+    "recTD": 2
+   }
+  },
+  {
+   "name": "Duane Brown",
+   "games": 13,
+   "stats": {
+    "rec": 3,
+    "recYds": 64,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Eddie Royal",
+   "games": 12,
+   "stats": {
+    "rushYds": 11,
+    "rushTD": 1,
+    "rec": 28,
+    "recYds": 470,
+    "recTD": 3
+   }
+  },
+  {
+   "name": "Eric Green",
+   "games": 13,
+   "stats": {
+    "tackles": 36,
+    "tfl": 1.5,
+    "defInt": 1,
+    "pbu": 5
+   }
+  },
+  {
+   "name": "James Anderson",
+   "games": 13,
+   "stats": {
+    "tackles": 48,
+    "tfl": 6.5,
+    "sacks": 2.5,
+    "defInt": 1,
+    "pbu": 1,
+    "ff": 2
+   }
+  },
+  {
+   "name": "James Griffin",
+   "games": 13,
+   "stats": {
+    "tackles": 56,
+    "tfl": 3.5,
+    "sacks": 0.5,
+    "defInt": 1,
+    "pbu": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Jared Develli",
+   "games": 13,
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Jared Mazzetta",
+   "games": 13,
+   "stats": {
+    "rec": 14,
+    "recYds": 182,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Jason Lallis",
+   "games": 13,
+   "stats": {
+    "tackles": 13,
+    "tfl": 2,
+    "sacks": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Jeff King",
+   "games": 13,
+   "stats": {
+    "rec": 25,
+    "recYds": 304,
+    "recTD": 4,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jesse Allen",
+   "games": 10,
+   "stats": {
+    "rushYds": 4,
+    "rec": 3,
+    "recYds": 24,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Jim Davis",
+   "games": 13,
+   "stats": {
+    "tackles": 28,
+    "tfl": 12,
+    "sacks": 5,
+    "pbu": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Jimmy Martin",
+   "games": 13,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jimmy Williams",
+   "games": 13,
+   "stats": {
+    "tackles": 60,
+    "tfl": 5.5,
+    "defInt": 5,
+    "pbu": 14
+   }
+  },
+  {
+   "name": "John Candelas",
+   "games": 5,
+   "stats": {
+    "rushYds": 166,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "John Kinzer",
+   "games": 13,
+   "stats": {
+    "rec": 7,
+    "recYds": 26,
+    "recTD": 2
+   }
+  },
+  {
+   "name": "Jonathan Lewis",
+   "games": 13,
+   "stats": {
+    "tackles": 40,
+    "tfl": 11,
+    "sacks": 5,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Jordan Trott",
+   "games": 1,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Josh Hyman",
+   "games": 13,
+   "stats": {
+    "rushYds": 16,
+    "rec": 27,
+    "recYds": 491,
+    "recTD": 5
+   }
+  },
+  {
+   "name": "Josh Morgan",
+   "games": 12,
+   "stats": {
+    "rec": 15,
+    "recYds": 346,
+    "recTD": 3,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jud Dunlevy",
+   "games": 3,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Justin Hamilton",
+   "games": 13,
+   "stats": {
+    "rushYds": 336,
+    "rushTD": 3,
+    "rec": 6,
+    "recYds": 31,
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Justin Harper",
+   "games": 11,
+   "stats": {
+    "rec": 5,
+    "recYds": 84,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Kevin Lewis",
+   "games": 12,
+   "stats": {
+    "tackles": 18,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Kory Robertson",
+   "games": 5,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Mikal Baaqee",
+   "games": 13,
+   "stats": {
+    "tackles": 71,
+    "tfl": 3.5,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Mike Daniels",
+   "games": 13,
+   "stats": {
+    "tackles": 27,
+    "tfl": 1.5,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Mike Imoh",
+   "games": 10,
+   "stats": {
+    "rushYds": 720,
+    "rushTD": 6,
+    "rec": 8,
+    "recYds": 4
+   }
+  },
+  {
+   "name": "Noland Burchette",
+   "games": 12,
+   "stats": {
+    "tackles": 27,
+    "tfl": 6,
+    "sacks": 3,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Richard Johnson",
+   "games": 13,
+   "stats": {
+    "rushYds": 5,
+    "passYds": 34,
+    "passTD": 1,
+    "rec": 8,
+    "recYds": 99,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Robert Parker",
+   "games": 12,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Roland Minor",
+   "games": 13,
+   "stats": {
+    "tackles": 15,
+    "defInt": 2,
+    "pbu": 5
+   }
+  },
+  {
+   "name": "Ryan Hash",
+   "games": 7,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Sean Glennon",
+   "games": 4,
+   "stats": {
+    "passYds": 137,
+    "passTD": 2,
+    "rec": 1,
+    "recYds": -9
+   }
+  },
+  {
+   "name": "Stevie Ray Lloyd",
+   "games": 12,
+   "stats": {
+    "tackles": 11
+   }
+  },
+  {
+   "name": "Tim Sandidge",
+   "games": 9,
+   "stats": {
+    "tackles": 7,
+    "tfl": 1.5,
+    "sacks": 0.5
+   }
+  },
+  {
+   "name": "Travis Conway",
+   "games": 12,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Vince Hall",
+   "games": 13,
+   "stats": {
+    "tackles": 64,
+    "tfl": 4.5,
+    "sacks": 1,
+    "pbu": 3,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Vincent Fuller",
+   "games": 13,
+   "stats": {
+    "tackles": 51,
+    "tfl": 1,
+    "defInt": 3,
+    "pbu": 4,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Vinnie Burns",
+   "games": 12,
+   "stats": {
+    "rushYds": -11,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Xavier Adibi",
+   "games": 7,
+   "stats": {
+    "tackles": 25,
+    "tfl": 4.5,
+    "sacks": 2,
+    "defInt": 1,
+    "ff": 1
+   }
+  }
+ ]
+}
