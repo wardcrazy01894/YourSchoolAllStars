@@ -3492,11 +3492,11 @@
    "key": "cedrick holt",
    "position": "CB",
    "positionVotes": {
-    "DB": 1,
+    "DB": 2,
     "CB": 2
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3524,6 +3524,16 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 5,
+      "defInt": 2,
+      "tackles": 58
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3532,10 +3542,11 @@
    "key": "chase page",
    "position": "DT",
    "positionVotes": {
-    "DT": 2
+    "DT": 2,
+    "DL": 1
    },
    "firstYear": 2002,
-   "lastYear": 2003,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3557,6 +3568,17 @@
      },
      "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 7,
+      "sacks": 4,
+      "pbu": 2,
+      "tackles": 27
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3602,10 +3624,10 @@
    "key": "derrele mitchell",
    "position": null,
    "positionVotes": {
-    "WR": 3
+    "WR": 4
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3639,6 +3661,16 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "rec": 12,
+      "recYds": 261,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3677,10 +3709,10 @@
    "key": "doug justice",
    "position": "LB",
    "positionVotes": {
-    "LB": 3
+    "LB": 4
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3713,6 +3745,16 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 1,
+      "ff": 1,
+      "tackles": 15
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3721,10 +3763,10 @@
    "key": "jarwarski pollock",
    "position": "WR",
    "positionVotes": {
-    "WR": 3
+    "WR": 4
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3759,6 +3801,17 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "rec": 30,
+      "recYds": 341,
+      "recTD": 2,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3767,10 +3820,10 @@
    "key": "jeff longhany",
    "position": "LB",
    "positionVotes": {
-    "LB": 3
+    "LB": 4
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3802,6 +3855,15 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "pbu": 1,
+      "tackles": 5
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3914,10 +3976,11 @@
    "position": "S",
    "positionVotes": {
     "RB": 1,
-    "S": 2
+    "S": 2,
+    "DB": 1
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3949,6 +4012,18 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 3,
+      "sacks": 1,
+      "ff": 2,
+      "pbu": 2,
+      "tackles": 39
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -3957,10 +4032,10 @@
    "key": "matt baker",
    "position": "QB",
    "positionVotes": {
-    "QB": 3
+    "QB": 4
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -3993,6 +4068,21 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "passYds": 2345,
+      "passTD": 9,
+      "passInt": 11,
+      "rushYds": -34,
+      "rushTD": 2,
+      "rec": 1,
+      "recYds": -3,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4103,10 +4193,11 @@
    "key": "tommy davis",
    "position": "DE",
    "positionVotes": {
-    "DE": 3
+    "DE": 3,
+    "DL": 1
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -4138,20 +4229,30 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 11,
+      "sacks": 8.5,
+      "tackles": 41
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
    "name": "Tommy Richardson",
    "key": "tommy richardson",
-   "position": "S",
+   "position": "LB",
    "positionVotes": {
     "DB": 1,
     "S": 1,
-    "LB": 1
+    "LB": 2
    },
    "firstYear": 2002,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2002,
@@ -4180,6 +4281,17 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 6,
+      "sacks": 1,
+      "defInt": 1,
+      "tackles": 91
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4256,7 +4368,7 @@
     "DE": 3
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4281,13 +4393,24 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 15,
       "tfl": 3,
       "sacks": 2,
-      "ff": 1
+      "tackles": 14
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 2,
+      "sacks": 2,
+      "ff": 1,
+      "pbu": 1,
+      "tackles": 28
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4337,7 +4460,7 @@
     "S": 3
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4361,8 +4484,16 @@
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tackles": 65
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4437,7 +4568,7 @@
     "CB": 3
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4461,11 +4592,22 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 19,
-      "pbu": 3
+      "pbu": 3,
+      "tackles": 19
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 2,
+      "sacks": 1,
+      "pbu": 8,
+      "tackles": 52
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4497,7 +4639,7 @@
     "WR": 3
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4530,8 +4672,19 @@
       "recTD": 1,
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "rec": 37,
+      "recYds": 466,
+      "recTD": 2,
+      "tackles": 4
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4585,7 +4738,7 @@
     "TE": 3
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4614,8 +4767,18 @@
       "recYds": 212,
       "recTD": 1
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "rec": 5,
+      "recYds": 51,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4624,10 +4787,10 @@
    "key": "justin phillips",
    "position": "TE",
    "positionVotes": {
-    "TE": 2
+    "TE": 3
    },
    "firstYear": 2003,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2003,
@@ -4647,6 +4810,17 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "rushYds": 2,
+      "rec": 6,
+      "recYds": 86,
+      "tackles": 5
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4659,7 +4833,7 @@
     "CB": 1
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4683,15 +4857,24 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 61,
-      "tfl": 4.5,
+      "tfl": 5,
       "sacks": 3.5,
       "defInt": 2,
-      "pbu": 2,
-      "ff": 1
+      "ff": 1,
+      "tackles": 61
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 2,
+      "defInt": 5,
+      "tackles": 70
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4700,10 +4883,10 @@
    "key": "larry edwards",
    "position": "LB",
    "positionVotes": {
-    "LB": 1
+    "LB": 2
    },
    "firstYear": 2003,
-   "lastYear": 2003,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4716,6 +4899,29 @@
      },
      "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 4,
+      "sacks": 1.5,
+      "defInt": 1,
+      "tackles": 20
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "rushYds": 2,
+      "tfl": 5.5,
+      "sacks": 3,
+      "ff": 1,
+      "tackles": 58
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4747,7 +4953,7 @@
     "LB": 1
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4773,13 +4979,25 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 7,
       "tfl": 2,
       "sacks": 1,
-      "ff": 1
+      "ff": 1,
+      "tackles": 7
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 1,
+      "sacks": 1,
+      "ff": 2,
+      "pbu": 1,
+      "tackles": 23
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4811,7 +5029,7 @@
     "RB": 3
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4849,8 +5067,20 @@
       "rec": 15,
       "recYds": 99
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "rushYds": 790,
+      "rushTD": 7,
+      "rec": 15,
+      "recYds": 148,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4862,7 +5092,7 @@
     "LB": 2
    },
    "firstYear": 2003,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2003,
@@ -4877,11 +5107,21 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 22,
-      "tfl": 0.5
+      "tfl": 1,
+      "tackles": 22
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 4.5,
+      "sacks": 1.5,
+      "tackles": 58
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4890,10 +5130,10 @@
    "key": "wallace wright",
    "position": null,
    "positionVotes": {
-    "WR": 2
+    "WR": 3
    },
    "firstYear": 2003,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2003,
@@ -4919,6 +5159,17 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "rec": 12,
+      "recYds": 176,
+      "recTD": 1,
+      "tackles": 9
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4930,7 +5181,7 @@
     "RB": 2
    },
    "firstYear": 2004,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2004,
@@ -4952,10 +5203,25 @@
       "rushTD": 2,
       "rec": 10,
       "recYds": 99,
+      "tfl": 5,
+      "ff": 1,
+      "pbu": 1,
+      "tackles": 72
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "rushYds": 330,
+      "rushTD": 2,
+      "rec": 12,
+      "recYds": 103,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -4980,20 +5246,20 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 14,
-      "pbu": 2
+      "pbu": 2,
+      "tackles": 14
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
-      "tackles": 18,
-      "pbu": 3
+      "pbu": 3,
+      "tackles": 18
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5044,10 +5310,10 @@
    "key": "durrell mapp",
    "position": "LB",
    "positionVotes": {
-    "LB": 3
+    "LB": 1
    },
    "firstYear": 2004,
-   "lastYear": 2006,
+   "lastYear": 2004,
    "seasons": [
     {
      "year": 2004,
@@ -5055,27 +5321,6 @@
       "tackles": 6
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2005,
-     "stats": {
-      "tackles": 46,
-      "tfl": 1.5,
-      "sacks": 1,
-      "ff": 2
-     },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2006,
-     "stats": {
-      "tackles": 87,
-      "tfl": 4,
-      "pbu": 1
-     },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
      "from": "official-cume"
     }
    ]
@@ -5112,7 +5357,7 @@
     "DE": 2
    },
    "firstYear": 2004,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2004,
@@ -5128,24 +5373,36 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 12,
-      "tfl": 1.5,
+      "tfl": 2,
       "sacks": 1,
-      "ff": 1
+      "ff": 1,
+      "tackles": 12
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
-      "tackles": 29,
       "tfl": 5,
       "sacks": 3,
-      "ff": 1
+      "ff": 1,
+      "tackles": 29
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tfl": 16,
+      "sacks": 10.5,
+      "ff": 3,
+      "pbu": 2,
+      "tackles": 49
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5198,7 +5455,7 @@
     "DT": 2
    },
    "firstYear": 2004,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2004,
@@ -5211,24 +5468,34 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 17,
       "tfl": 5,
       "sacks": 1,
-      "pbu": 1
+      "pbu": 1,
+      "tackles": 17
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
-      "tackles": 16,
       "tfl": 2.5,
       "sacks": 2.5,
-      "pbu": 2
+      "pbu": 2,
+      "tackles": 16
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tfl": 9.5,
+      "sacks": 3.5,
+      "tackles": 59
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5257,11 +5524,11 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 13,
-      "pbu": 2
+      "pbu": 2,
+      "tackles": 13
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5288,25 +5555,24 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 21,
-      "tfl": 5,
-      "sacks": 3,
+      "tfl": 6,
+      "sacks": 3.5,
       "defInt": 1,
-      "pbu": 1
+      "tackles": 22
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
-      "tackles": 26,
-      "tfl": 3.5,
-      "sacks": 1.5,
-      "ff": 1
+      "tfl": 4,
+      "sacks": 2,
+      "ff": 1,
+      "tackles": 26
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5384,7 +5650,7 @@
     "LB": 2
    },
    "firstYear": 2004,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2004,
@@ -5397,18 +5663,27 @@
     {
      "year": 2005,
      "stats": {
+      "rushYds": 5,
       "tackles": 3
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tackles": 6
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5460,10 +5735,10 @@
    "key": "quinton person",
    "position": "CB",
    "positionVotes": {
-    "CB": 2
+    "CB": 3
    },
    "firstYear": 2004,
-   "lastYear": 2005,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2004,
@@ -5476,13 +5751,29 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 36,
-      "tfl": 0.5,
+      "tfl": 1,
       "defInt": 1,
-      "pbu": 4
+      "tackles": 36
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "defInt": 1,
+      "tackles": 22
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tackles": 8
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5491,10 +5782,10 @@
    "key": "rikki cook",
    "position": "RB",
    "positionVotes": {
-    "RB": 1
+    "RB": 2
    },
    "firstYear": 2004,
-   "lastYear": 2004,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2004,
@@ -5504,6 +5795,17 @@
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
      "from": "official-cume"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "rushYds": 2,
+      "rec": 2,
+      "recYds": 8,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5538,7 +5840,7 @@
     "DL": 1
    },
    "firstYear": 2004,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2004,
@@ -5551,13 +5853,23 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 22,
       "tfl": 3,
       "sacks": 1,
-      "pbu": 1
+      "pbu": 1,
+      "tackles": 22
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 3.5,
+      "sacks": 3,
+      "tackles": 26
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5604,26 +5916,24 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 53,
-      "tfl": 2.5,
+      "tfl": 3,
       "defInt": 3,
-      "pbu": 5
+      "tackles": 53
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "tackles": 59,
       "tfl": 2.5,
       "sacks": 1,
       "defInt": 2,
-      "pbu": 5,
-      "ff": 3
+      "ff": 3,
+      "tackles": 59
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -5660,11 +5970,11 @@
    ]
   },
   {
-   "name": "Bobby Rome II",
-   "key": "bobby rome",
-   "position": "RB",
+   "name": "Chase Rice",
+   "key": "chase rice",
+   "position": "LB",
    "positionVotes": {
-    "RB": 3
+    "LB": 4
    },
    "firstYear": 2005,
    "lastYear": 2008,
@@ -5672,27 +5982,82 @@
     {
      "year": 2005,
      "stats": {
-      "tackles": 1
+      "tackles": 4
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
+      "tfl": 2,
+      "sacks": 1,
+      "defInt": 1,
+      "tackles": 31
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "pbu": 1,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
      "stats": {
-      "passYds": 44,
-      "rec": 8,
-      "recYds": 65
+      "tackles": 20
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Durell Mapp",
+   "key": "durell mapp",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 1
+   },
+   "firstYear": 2005,
+   "lastYear": 2007,
+   "seasons": [
+    {
+     "year": 2005,
+     "stats": {
+      "tfl": 2,
+      "sacks": 1,
+      "ff": 2,
+      "tackles": 46
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tfl": 4,
+      "pbu": 1,
+      "tackles": 87
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tfl": 7,
+      "sacks": 3,
+      "defInt": 1,
+      "ff": 1,
+      "tackles": 132
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
      "from": "sports-reference"
     }
    ]
@@ -5705,35 +6070,46 @@
     "DE": 2
    },
    "firstYear": 2005,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2005,
      "stats": {
-      "tackles": 8
+      "pbu": 1,
+      "tackles": 1
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tfl": 1,
+      "tackles": 6
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
-   "name": "James Cooter Arnold",
-   "key": "james cooter arnold",
+   "name": "James Arnold",
+   "key": "james arnold",
    "position": null,
    "positionVotes": {
-    "WR": 3
+    "RB": 1,
+    "WR": 1
    },
    "firstYear": 2005,
-   "lastYear": 2007,
+   "lastYear": 2008,
    "seasons": [
     {
      "year": 2005,
@@ -5743,92 +6119,70 @@
       "recYds": 29,
       "tackles": 3
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
-      "tackles": 48,
       "tfl": 1,
-      "pbu": 2,
-      "ff": 2
+      "ff": 2,
+      "tackles": 48
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
       "tackles": 3
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2008,
+     "stats": {
+      "passYds": 66,
+      "passTD": 1,
+      "rushYds": 19,
+      "rec": 7,
+      "recYds": 87,
+      "recTD": 1,
+      "tackles": 4
+     },
+     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
-   "name": "Jay Spence",
-   "key": "jay spence",
-   "position": null,
+   "name": "Joey Bozich",
+   "key": "joey bozich",
+   "position": "QB",
    "positionVotes": {
     "QB": 1
    },
    "firstYear": 2005,
-   "lastYear": 2005,
+   "lastYear": 2006,
    "seasons": [
     {
      "year": 2005,
      "stats": {
-      "tackles": 59,
-      "tfl": 6,
-      "sacks": 1,
-      "defInt": 2,
-      "pbu": 10
-     },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
-    }
-   ]
-  },
-  {
-   "name": "Joseph Bozich",
-   "key": "joseph bozich",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 1
-   },
-   "firstYear": 2005,
-   "lastYear": 2005,
-   "seasons": [
-    {
-     "year": 2005,
-     "stats": {
-      "rushYds": 2,
       "passYds": 12,
-      "passInt": 1
+      "passInt": 1,
+      "rushYds": 2
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
-    }
-   ]
-  },
-  {
-   "name": "Justin Henderson",
-   "key": "justin henderson",
-   "position": null,
-   "positionVotes": {},
-   "firstYear": 2005,
-   "lastYear": 2005,
-   "seasons": [
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    },
     {
-     "year": 2005,
+     "year": 2006,
      "stats": {
-      "tackles": 2,
-      "tfl": 0.5
+      "tackles": 1
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5845,10 +6199,11 @@
     {
      "year": 2005,
      "stats": {
-      "rushYds": 86
+      "rushYds": 86,
+      "tackles": 1
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
@@ -5857,8 +6212,8 @@
       "rushTD": 1,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5877,28 +6232,27 @@
      "stats": {
       "tackles": 7
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
-      "tackles": 23,
-      "tfl": 1
+      "tfl": 1,
+      "tackles": 23
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "tackles": 53,
       "tfl": 6.5,
       "defInt": 1,
-      "pbu": 1
+      "tackles": 53
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -5910,6 +6264,30 @@
       "tackles": 103
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Mike Mason",
+   "key": "mike mason",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 1
+   },
+   "firstYear": 2005,
+   "lastYear": 2005,
+   "seasons": [
+    {
+     "year": 2005,
+     "stats": {
+      "rushYds": -7,
+      "rec": 22,
+      "recYds": 372,
+      "recTD": 1,
+      "tackles": 6
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
      "from": "sports-reference"
     }
    ]
@@ -5932,18 +6310,18 @@
       "rec": 1,
       "recYds": 7
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2006,
      "stats": {
       "rec": 1,
       "recYds": 8,
-      "tackles": 2
+      "tackles": 3
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -5962,8 +6340,8 @@
      "stats": {
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
@@ -5972,8 +6350,8 @@
       "recYds": 27,
       "recTD": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -5989,74 +6367,85 @@
    ]
   },
   {
-   "name": "Trey Brenner",
-   "key": "trey brenner",
-   "position": "LB",
+   "name": "Tom O'Leary",
+   "key": "tom oleary",
+   "position": null,
    "positionVotes": {
-    "LB": 2
+    "DB": 1
    },
    "firstYear": 2005,
-   "lastYear": 2006,
+   "lastYear": 2005,
    "seasons": [
     {
      "year": 2005,
      "stats": {
-      "tackles": 5
-     },
-     "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2006,
-     "stats": {
-      "tackles": 23,
       "tfl": 1,
-      "sacks": 1,
-      "pbu": 1,
-      "ff": 2
+      "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
-   "name": "Anthony Elzy",
-   "key": "anthony elzy",
+   "name": "Trey Brenner",
+   "key": "trey brenner",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 1
+   },
+   "firstYear": 2005,
+   "lastYear": 2005,
+   "seasons": [
+    {
+     "year": 2005,
+     "stats": {
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Bobby Rome II",
+   "key": "bobby rome",
    "position": "RB",
    "positionVotes": {
-    "RB": 5
+    "RB": 4
    },
    "firstYear": 2006,
-   "lastYear": 2010,
+   "lastYear": 2009,
    "seasons": [
     {
      "year": 2006,
      "stats": {
-      "tackles": 2
+      "rushYds": 11,
+      "rec": 8,
+      "recYds": 83
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "rushYds": 321,
-      "rushTD": 5,
-      "rec": 10,
-      "recYds": 73,
-      "tackles": 3
+      "passYds": 50,
+      "passTD": 1,
+      "rushYds": 3,
+      "rec": 16,
+      "recYds": 183,
+      "recTD": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
      "stats": {
-      "rushYds": 5,
-      "rec": 7,
-      "recYds": 86,
-      "tackles": 2
+      "passYds": 44,
+      "rec": 8,
+      "recYds": 65
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
@@ -6064,25 +6453,11 @@
     {
      "year": 2009,
      "stats": {
-      "rushYds": 40,
-      "rec": 7,
-      "recYds": 49,
-      "tackles": 1
+      "passYds": 31,
+      "rec": 3,
+      "recYds": 28
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2010,
-     "stats": {
-      "rushYds": 296,
-      "rushTD": 2,
-      "rec": 25,
-      "recYds": 338,
-      "recTD": 2,
-      "tackles": 3
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
      "from": "sports-reference"
     }
    ]
@@ -6105,8 +6480,8 @@
       "recYds": 72,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
@@ -6118,8 +6493,8 @@
       "recTD": 5,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6153,11 +6528,11 @@
       "rec": 38,
       "recYds": 486,
       "recTD": 2,
-      "tackles": 5,
-      "ff": 1
+      "ff": 1,
+      "tackles": 5
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
@@ -6166,11 +6541,11 @@
       "rec": 29,
       "recYds": 417,
       "recTD": 2,
-      "tackles": 5,
-      "ff": 1
+      "ff": 1,
+      "tackles": 5
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6201,41 +6576,60 @@
      "stats": {
       "tackles": 4
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
-   "name": "Camaron Thomas",
-   "key": "camaron thomas",
-   "position": "DT",
+   "name": "Cam Thomas",
+   "key": "cam thomas",
+   "position": null,
    "positionVotes": {
-    "DT": 2
+    "DL": 2
    },
    "firstYear": 2006,
-   "lastYear": 2007,
+   "lastYear": 2009,
    "seasons": [
     {
      "year": 2006,
      "stats": {
-      "tackles": 18,
-      "tfl": 1.5,
-      "sacks": 1.5
+      "tfl": 1,
+      "sacks": 1.5,
+      "tackles": 18
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "tackles": 8,
       "tfl": 1.5,
       "sacks": 1,
-      "ff": 1
+      "ff": 1,
+      "tackles": 8
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2008,
+     "stats": {
+      "tfl": 4,
+      "sacks": 1,
+      "tackles": 34
+     },
+     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "tfl": 3,
+      "tackles": 23
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6252,23 +6646,23 @@
     {
      "year": 2006,
      "stats": {
-      "rushYds": 25,
-      "rushTD": 1,
       "passYds": 840,
       "passTD": 4,
-      "passInt": 8
+      "passInt": 8,
+      "rushYds": 25,
+      "rushTD": 1
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "rushYds": 3,
-      "passYds": 9
+      "passYds": 9,
+      "rushYds": 3
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6279,46 +6673,6 @@
       "rushYds": -96,
       "rushTD": 1,
       "tackles": 2
-     },
-     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Chase Rice",
-   "key": "chase rice",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 3
-   },
-   "firstYear": 2006,
-   "lastYear": 2008,
-   "seasons": [
-    {
-     "year": 2006,
-     "stats": {
-      "tackles": 31,
-      "tfl": 2,
-      "sacks": 1,
-      "defInt": 1
-     },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2007,
-     "stats": {
-      "tackles": 1,
-      "pbu": 1
-     },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2008,
-     "stats": {
-      "tackles": 20
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
@@ -6340,8 +6694,8 @@
      "stats": {
       "tackles": 7
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6350,32 +6704,33 @@
    "key": "ej wilson",
    "position": "DE",
    "positionVotes": {
-    "DE": 3
+    "DE": 3,
+    "DL": 1
    },
    "firstYear": 2006,
-   "lastYear": 2008,
+   "lastYear": 2009,
    "seasons": [
     {
      "year": 2006,
      "stats": {
-      "tackles": 19,
       "tfl": 3,
-      "sacks": 2
+      "sacks": 2,
+      "tackles": 19
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "tackles": 44,
       "tfl": 9.5,
       "sacks": 5,
+      "ff": 1,
       "pbu": 2,
-      "ff": 1
+      "tackles": 44
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6386,6 +6741,18 @@
       "tackles": 38
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "tfl": 12,
+      "sacks": 4,
+      "ff": 5,
+      "pbu": 1,
+      "tackles": 49
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
      "from": "sports-reference"
     }
    ]
@@ -6409,8 +6776,8 @@
       "recTD": 4,
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
@@ -6420,8 +6787,8 @@
       "recYds": 958,
       "recTD": 5
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6446,40 +6813,62 @@
     "CB": 1
    },
    "firstYear": 2006,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2006,
      "stats": {
-      "tackles": 18,
+      "ff": 1,
       "pbu": 5,
-      "ff": 1
+      "tackles": 18
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "pbu": 1,
+      "tackles": 9
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
    "name": "Joe Dailey",
    "key": "joe dailey",
-   "position": null,
-   "positionVotes": {},
+   "position": "WR",
+   "positionVotes": {
+    "WR": 1
+   },
    "firstYear": 2006,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2006,
      "stats": {
-      "rushYds": 61,
-      "rushTD": 1,
       "passYds": 1316,
       "passTD": 7,
       "passInt": 10,
+      "rushYds": 61,
+      "rushTD": 1,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "passInt": 1,
+      "rushYds": 5,
+      "rec": 2,
+      "recYds": 38
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6488,18 +6877,19 @@
    "key": "jordan hemby",
    "position": "CB",
    "positionVotes": {
-    "CB": 2
+    "CB": 2,
+    "DB": 1
    },
    "firstYear": 2006,
-   "lastYear": 2008,
+   "lastYear": 2009,
    "seasons": [
     {
      "year": 2006,
      "stats": {
       "tackles": 6
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6511,6 +6901,42 @@
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "tackles": 12
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Kendric Williams",
+   "key": "kendric williams",
+   "position": null,
+   "positionVotes": {
+    "DB": 1
+   },
+   "firstYear": 2006,
+   "lastYear": 2007,
+   "seasons": [
+    {
+     "year": 2006,
+     "stats": {
+      "tackles": 3
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tackles": 16
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6519,26 +6945,26 @@
    "key": "kennedy tinsley",
    "position": "LB",
    "positionVotes": {
-    "LB": 3
+    "LB": 4
    },
    "firstYear": 2006,
-   "lastYear": 2008,
+   "lastYear": 2009,
    "seasons": [
     {
      "year": 2006,
      "stats": {
       "tackles": 5
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
       "tackles": 7
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6547,13 +6973,23 @@
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "tfl": 1,
+      "pbu": 1,
+      "tackles": 39
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
   {
    "name": "Kenton Thornton",
    "key": "kenton thornton",
-   "position": null,
+   "position": "WR",
    "positionVotes": {
     "WR": 3
    },
@@ -6564,12 +7000,10 @@
      "year": 2006,
      "stats": {
       "rec": 5,
-      "recYds": 47,
-      "tackles": 22,
-      "defInt": 1
+      "recYds": 47
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
@@ -6578,8 +7012,8 @@
       "recYds": 40,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6593,14 +7027,32 @@
    ]
   },
   {
-   "name": "Richard Rich",
-   "key": "richard rich",
-   "position": "CB",
+   "name": "Patrick Marsh",
+   "key": "patrick marsh",
+   "position": null,
+   "positionVotes": {},
+   "firstYear": 2006,
+   "lastYear": 2006,
+   "seasons": [
+    {
+     "year": 2006,
+     "stats": {
+      "tackles": 2
+     },
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Richie Rich",
+   "key": "richie rich",
+   "position": null,
    "positionVotes": {
-    "CB": 2
+    "DB": 1
    },
    "firstYear": 2006,
-   "lastYear": 2007,
+   "lastYear": 2008,
    "seasons": [
     {
      "year": 2006,
@@ -6610,8 +7062,8 @@
       "recYds": 24,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
@@ -6621,8 +7073,17 @@
       "recYds": 30,
       "tackles": 13
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2008,
+     "stats": {
+      "pbu": 1,
+      "tackles": 9
+     },
+     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6640,8 +7101,8 @@
       "rec": 1,
       "recYds": 7
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6661,16 +7122,16 @@
      "stats": {
       "tackles": 4
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
       "tackles": 5
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6698,18 +7159,27 @@
    "key": "tavares brown",
    "position": "DT",
    "positionVotes": {
-    "DT": 1
+    "DT": 2
    },
    "firstYear": 2006,
-   "lastYear": 2006,
+   "lastYear": 2007,
    "seasons": [
     {
      "year": 2006,
      "stats": {
       "tackles": 4
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tfl": 1,
+      "tackles": 9
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6728,17 +7198,17 @@
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241007103442/https://www.sports-reference.com/cfb/schools/north-carolina/2006.html",
+     "from": "sports-reference"
     },
     {
      "year": 2007,
      "stats": {
-      "tackles": 23,
-      "tfl": 1
+      "tfl": 1,
+      "tackles": 23
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6747,22 +7217,23 @@
    "key": "aleric mullins",
    "position": "DT",
    "positionVotes": {
-    "DT": 2
+    "DT": 2,
+    "DL": 1
    },
    "firstYear": 2007,
-   "lastYear": 2008,
+   "lastYear": 2009,
    "seasons": [
     {
      "year": 2007,
      "stats": {
-      "tackles": 19,
       "tfl": 3.5,
       "sacks": 2,
+      "ff": 1,
       "pbu": 1,
-      "ff": 1
+      "tackles": 19
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6773,6 +7244,76 @@
       "tackles": 12
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "tfl": 5,
+      "ff": 1,
+      "pbu": 1,
+      "tackles": 15
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Anthony Elzy",
+   "key": "anthony elzy",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 4
+   },
+   "firstYear": 2007,
+   "lastYear": 2010,
+   "seasons": [
+    {
+     "year": 2007,
+     "stats": {
+      "rushYds": 321,
+      "rushTD": 5,
+      "rec": 10,
+      "recYds": 73,
+      "tackles": 3
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2008,
+     "stats": {
+      "rushYds": 5,
+      "rec": 7,
+      "recYds": 86,
+      "tackles": 2
+     },
+     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "rushYds": 40,
+      "rec": 7,
+      "recYds": 49,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "rushYds": 296,
+      "rushTD": 2,
+      "rec": 25,
+      "recYds": 338,
+      "recTD": 2,
+      "tackles": 3
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
      "from": "sports-reference"
     }
    ]
@@ -6792,8 +7333,8 @@
      "stats": {
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -6810,12 +7351,11 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 25,
       "tfl": 2,
-      "pbu": 3
+      "tackles": 25
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6831,14 +7371,13 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 65,
-      "tfl": 7.5,
+      "tfl": 8,
       "sacks": 2,
       "defInt": 1,
-      "pbu": 2
+      "tackles": 65
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -6867,14 +7406,13 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 59,
       "tfl": 5,
       "sacks": 1,
       "defInt": 2,
-      "pbu": 4
+      "tackles": 59
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -6888,14 +7426,13 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 66,
       "tfl": 3,
       "defInt": 3,
-      "pbu": 9,
-      "ff": 2
+      "ff": 2,
+      "tackles": 66
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2011,
@@ -6910,65 +7447,33 @@
    ]
   },
   {
-   "name": "Da'Norris Searcy",
-   "key": "danorris searcy",
-   "position": "S",
+   "name": "Da'Norris Searcey",
+   "key": "danorris searcey",
+   "position": null,
    "positionVotes": {
-    "S": 3
+    "DB": 1
    },
    "firstYear": 2007,
-   "lastYear": 2010,
+   "lastYear": 2008,
    "seasons": [
     {
      "year": 2007,
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
-     "year": 2009,
-     "stats": {
-      "tackles": 35,
-      "tfl": 1,
-      "defInt": 1,
-      "pbu": 3
-     },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2010,
+     "year": 2008,
      "stats": {
       "tfl": 2,
-      "defInt": 4,
-      "tackles": 37
+      "sacks": 2,
+      "pbu": 3,
+      "tackles": 25
      },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Darius Massenburg",
-   "key": "darius massenburg",
-   "position": "DE",
-   "positionVotes": {
-    "DE": 1
-   },
-   "firstYear": 2007,
-   "lastYear": 2007,
-   "seasons": [
-    {
-     "year": 2007,
-     "stats": {
-      "tackles": 11,
-      "tfl": 1,
-      "pbu": 1
-     },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
     }
    ]
   },
@@ -6985,18 +7490,48 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 4,
       "tfl": 1,
       "sacks": 1,
-      "ff": 1
+      "ff": 1,
+      "tackles": 4
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
      "stats": {
       "tackles": 4
+     },
+     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Darrius Massenburg",
+   "key": "darrius massenburg",
+   "position": null,
+   "positionVotes": {
+    "DL": 1
+   },
+   "firstYear": 2007,
+   "lastYear": 2008,
+   "seasons": [
+    {
+     "year": 2007,
+     "stats": {
+      "tfl": 1,
+      "pbu": 1,
+      "tackles": 11
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2008,
+     "stats": {
+      "tackles": 7
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
@@ -7016,14 +7551,13 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 57,
       "tfl": 2,
       "defInt": 3,
-      "pbu": 2,
-      "ff": 1
+      "ff": 1,
+      "tackles": 57
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7039,13 +7573,12 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 47,
-      "tfl": 1.5,
+      "tfl": 2,
       "defInt": 6,
-      "pbu": 8
+      "tackles": 47
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7076,8 +7609,8 @@
       "rec": 1,
       "recYds": 7
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2009,
@@ -7087,8 +7620,8 @@
       "recTD": 1,
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7115,11 +7648,11 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 3,
-      "tfl": 1
+      "tfl": 1,
+      "tackles": 3
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7161,8 +7694,8 @@
       "recYds": 99,
       "recTD": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7186,28 +7719,8 @@
       "recTD": 5,
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
-    }
-   ]
-  },
-  {
-   "name": "Hayden Hunter",
-   "key": "hayden hunter",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 1
-   },
-   "firstYear": 2007,
-   "lastYear": 2007,
-   "seasons": [
-    {
-     "year": 2007,
-     "stats": {
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -7230,8 +7743,8 @@
       "rec": 15,
       "recYds": 159
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7253,8 +7766,8 @@
       "recTD": 1,
       "tackles": 16
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7285,8 +7798,8 @@
      "stats": {
       "tackles": 6
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7299,11 +7812,11 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 11,
-      "pbu": 2
+      "pbu": 2,
+      "tackles": 11
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2011,
@@ -7329,14 +7842,13 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 50,
       "tfl": 4.5,
       "sacks": 1,
       "defInt": 1,
-      "pbu": 4
+      "tackles": 50
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7351,14 +7863,13 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 52,
-      "tfl": 5.5,
+      "tfl": 6,
       "sacks": 1,
       "defInt": 5,
-      "pbu": 3
+      "tackles": 52
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7385,12 +7896,12 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 26,
       "tfl": 6,
-      "sacks": 4
+      "sacks": 4,
+      "tackles": 26
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7406,14 +7917,14 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 42,
       "tfl": 6,
       "sacks": 4,
+      "ff": 1,
       "pbu": 3,
-      "ff": 1
+      "tackles": 42
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -7432,8 +7943,8 @@
      "stats": {
       "tackles": 4
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7480,13 +7991,13 @@
     {
      "year": 2007,
      "stats": {
-      "tackles": 47,
       "tfl": 1.5,
       "sacks": 1,
-      "defInt": 1
+      "defInt": 1,
+      "tackles": 47
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7503,14 +8014,14 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 79,
       "tfl": 12,
       "sacks": 1,
+      "ff": 1,
       "pbu": 3,
-      "ff": 1
+      "tackles": 79
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7521,6 +8032,25 @@
       "tackles": 61
      },
      "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Ryan Baucom",
+   "key": "ryan baucom",
+   "position": null,
+   "positionVotes": {},
+   "firstYear": 2007,
+   "lastYear": 2007,
+   "seasons": [
+    {
+     "year": 2007,
+     "stats": {
+      "rushYds": -12,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
      "from": "sports-reference"
     }
    ]
@@ -7541,8 +8071,8 @@
       "rushYds": 145,
       "rushTD": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7556,15 +8086,15 @@
     {
      "year": 2009,
      "stats": {
+      "passYds": 42,
       "rushYds": 713,
       "rushTD": 9,
-      "passYds": 42,
       "rec": 11,
       "recYds": 82,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2011,
@@ -7594,8 +8124,8 @@
      "stats": {
       "tackles": 5
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7613,14 +8143,14 @@
     {
      "year": 2009,
      "stats": {
+      "passYds": 34,
       "rushYds": 567,
       "rushTD": 1,
-      "passYds": 34,
       "rec": 21,
       "recYds": 125
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7650,8 +8180,8 @@
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7676,15 +8206,15 @@
     {
      "year": 2007,
      "stats": {
-      "rushYds": -123,
-      "rushTD": 2,
       "passYds": 2655,
       "passTD": 14,
       "passInt": 18,
+      "rushYds": -123,
+      "rushTD": 2,
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7701,14 +8231,14 @@
     {
      "year": 2009,
      "stats": {
-      "rushYds": -66,
-      "rushTD": 1,
       "passYds": 2136,
       "passTD": 14,
-      "passInt": 15
+      "passInt": 15,
+      "rushYds": -66,
+      "rushTD": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7739,8 +8269,8 @@
      "stats": {
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7755,14 +8285,14 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 24,
       "tfl": 4,
       "sacks": 2,
+      "ff": 1,
       "pbu": 3,
-      "ff": 1
+      "tackles": 24
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7807,8 +8337,8 @@
       "recYds": 204,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20090420045441id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2007-2008/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20240927162955/https://www.sports-reference.com/cfb/schools/north-carolina/2007.html",
+     "from": "sports-reference"
     },
     {
      "year": 2008,
@@ -7827,8 +8357,8 @@
       "recYds": 334,
       "recTD": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7863,28 +8393,6 @@
    ]
   },
   {
-   "name": "Cam Thomas",
-   "key": "cam thomas",
-   "position": null,
-   "positionVotes": {
-    "DL": 1
-   },
-   "firstYear": 2008,
-   "lastYear": 2008,
-   "seasons": [
-    {
-     "year": 2008,
-     "stats": {
-      "tfl": 4,
-      "sacks": 1,
-      "tackles": 34
-     },
-     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
    "name": "Christian Wilson",
    "key": "christian wilson",
    "position": "TE",
@@ -7909,8 +8417,8 @@
       "rec": 5,
       "recYds": 30
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -7961,49 +8469,6 @@
    ]
   },
   {
-   "name": "Da'Norris Searcey",
-   "key": "danorris searcey",
-   "position": null,
-   "positionVotes": {
-    "DB": 1
-   },
-   "firstYear": 2008,
-   "lastYear": 2008,
-   "seasons": [
-    {
-     "year": 2008,
-     "stats": {
-      "tfl": 2,
-      "sacks": 2,
-      "pbu": 3,
-      "tackles": 25
-     },
-     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Darrius Massenburg",
-   "key": "darrius massenburg",
-   "position": null,
-   "positionVotes": {
-    "DL": 1
-   },
-   "firstYear": 2008,
-   "lastYear": 2008,
-   "seasons": [
-    {
-     "year": 2008,
-     "stats": {
-      "tackles": 7
-     },
-     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
    "name": "Ebele Okakpu",
    "key": "ebele okakpu",
    "position": "LB",
@@ -8026,8 +8491,8 @@
      "stats": {
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8046,32 +8511,6 @@
       "tackles": 14
      },
      "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "James Arnold",
-   "key": "james arnold",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 1
-   },
-   "firstYear": 2008,
-   "lastYear": 2008,
-   "seasons": [
-    {
-     "year": 2008,
-     "stats": {
-      "passYds": 66,
-      "passTD": 1,
-      "rushYds": 19,
-      "rec": 7,
-      "recYds": 87,
-      "recTD": 1,
-      "tackles": 4
-     },
-     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
     }
    ]
@@ -8099,8 +8538,8 @@
      "stats": {
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8133,13 +8572,12 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 31,
-      "tfl": 0.5,
+      "tfl": 1,
       "defInt": 1,
-      "pbu": 4
+      "tackles": 31
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -8166,12 +8604,12 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 20,
       "tfl": 7,
-      "sacks": 1
+      "sacks": 1,
+      "tackles": 20
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -8221,12 +8659,12 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 22,
-      "tfl": 6.5,
-      "sacks": 5
+      "tfl": 7,
+      "sacks": 5,
+      "tackles": 22
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8250,27 +8688,6 @@
       "tackles": 55
      },
      "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Richie Rich",
-   "key": "richie rich",
-   "position": null,
-   "positionVotes": {
-    "DB": 1
-   },
-   "firstYear": 2008,
-   "lastYear": 2008,
-   "seasons": [
-    {
-     "year": 2008,
-     "stats": {
-      "pbu": 1,
-      "tackles": 9
-     },
-     "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
      "from": "sports-reference"
     }
    ]
@@ -8300,14 +8717,14 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 52,
       "tfl": 19,
       "sacks": 11,
+      "ff": 6,
       "pbu": 3,
-      "ff": 6
+      "tackles": 52
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -8370,12 +8787,12 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 47,
       "tfl": 4,
-      "defInt": 1
+      "defInt": 1,
+      "tackles": 47
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8415,11 +8832,11 @@
     {
      "year": 2009,
      "stats": {
-      "rushYds": 33,
-      "passYds": 24
+      "passYds": 24,
+      "rushYds": 33
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2011,
@@ -8472,12 +8889,12 @@
     {
      "year": 2009,
      "stats": {
-      "rushYds": -11,
       "passYds": 7,
-      "passInt": 2
+      "passInt": 2,
+      "rushYds": -11
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2011,
@@ -8507,8 +8924,8 @@
      "stats": {
       "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2011,
@@ -8516,6 +8933,126 @@
       "tackles": 8
      },
      "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Da'Norris Searcy",
+   "key": "danorris searcy",
+   "position": "S",
+   "positionVotes": {
+    "S": 2
+   },
+   "firstYear": 2009,
+   "lastYear": 2010,
+   "seasons": [
+    {
+     "year": 2009,
+     "stats": {
+      "tfl": 1,
+      "defInt": 1,
+      "tackles": 35
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "tfl": 2,
+      "defInt": 4,
+      "tackles": 37
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Devon Ramsey",
+   "key": "devon ramsey",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 3
+   },
+   "firstYear": 2009,
+   "lastYear": 2011,
+   "seasons": [
+    {
+     "year": 2009,
+     "stats": {
+      "rec": 6,
+      "recYds": 57,
+      "tackles": 2
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "rec": 2,
+      "recYds": 15,
+      "recTD": 1
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2011,
+     "stats": {
+      "rec": 1,
+      "recYds": 18
+     },
+     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Dion Guy",
+   "key": "dion guy",
+   "position": "LB",
+   "positionVotes": {
+    "LB": 4
+   },
+   "firstYear": 2009,
+   "lastYear": 2012,
+   "seasons": [
+    {
+     "year": 2009,
+     "stats": {
+      "tackles": 5
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "tackles": 6
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2011,
+     "stats": {
+      "tackles": 10
+     },
+     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2012,
+     "stats": {
+      "tfl": 4,
+      "sacks": 1,
+      "defInt": 1,
+      "tackles": 53
+     },
+     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
      "from": "sports-reference"
     }
    ]
@@ -8534,12 +9071,12 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 5,
       "tfl": 2,
-      "sacks": 2
+      "sacks": 2,
+      "tackles": 5
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8582,8 +9119,8 @@
       "rec": 5,
       "recYds": 21
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8611,6 +9148,64 @@
    ]
   },
   {
+   "name": "Erik Highsmith",
+   "key": "erik highsmith",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 4
+   },
+   "firstYear": 2009,
+   "lastYear": 2012,
+   "seasons": [
+    {
+     "year": 2009,
+     "stats": {
+      "rec": 37,
+      "recYds": 425,
+      "recTD": 2
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "rec": 25,
+      "recYds": 348,
+      "recTD": 3,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2011,
+     "stats": {
+      "rushYds": 37,
+      "rec": 51,
+      "recYds": 726,
+      "recTD": 5
+     },
+     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2012,
+     "stats": {
+      "passYds": 18,
+      "rushYds": 51,
+      "rushTD": 1,
+      "rec": 54,
+      "recYds": 587,
+      "recTD": 5,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
    "name": "Gene Robinson",
    "key": "gene robinson",
    "position": "S",
@@ -8623,11 +9218,11 @@
     {
      "year": 2009,
      "stats": {
-      "tackles": 2,
-      "defInt": 1
+      "defInt": 1,
+      "tackles": 2
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8677,8 +9272,8 @@
      "stats": {
       "tackles": 3
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8709,8 +9304,8 @@
       "rushYds": 6,
       "tackles": 4
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8719,6 +9314,87 @@
       "tackles": 4
      },
      "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Jamal Womble",
+   "key": "jamal womble",
+   "position": "RB",
+   "positionVotes": {
+    "RB": 1
+   },
+   "firstYear": 2009,
+   "lastYear": 2009,
+   "seasons": [
+    {
+     "year": 2009,
+     "stats": {
+      "rushYds": 41,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    }
+   ]
+  },
+  {
+   "name": "Jheranie Boyd",
+   "key": "jheranie boyd",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 4
+   },
+   "firstYear": 2009,
+   "lastYear": 2012,
+   "seasons": [
+    {
+     "year": 2009,
+     "stats": {
+      "rushYds": 130,
+      "rushTD": 1,
+      "rec": 12,
+      "recYds": 214,
+      "recTD": 4,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "rushYds": 62,
+      "rec": 14,
+      "recYds": 310,
+      "recTD": 3
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2011,
+     "stats": {
+      "rushYds": 56,
+      "rec": 14,
+      "recYds": 292,
+      "recTD": 5,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2012,
+     "stats": {
+      "rushYds": -10,
+      "rec": 4,
+      "recYds": 44,
+      "recTD": 1,
+      "tackles": 1
+     },
+     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
      "from": "sports-reference"
     }
    ]
@@ -8739,8 +9415,8 @@
      "stats": {
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8763,34 +9439,6 @@
    ]
   },
   {
-   "name": "Josh Hunter",
-   "key": "josh hunter",
-   "position": null,
-   "positionVotes": {
-    "DB": 2
-   },
-   "firstYear": 2009,
-   "lastYear": 2010,
-   "seasons": [
-    {
-     "year": 2009,
-     "stats": {
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2010,
-     "stats": {
-      "tackles": 2
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
    "name": "Joshua Adams",
    "key": "joshua adams",
    "position": "WR",
@@ -8807,8 +9455,8 @@
       "recYds": 49,
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8824,22 +9472,58 @@
    ]
   },
   {
-   "name": "Joshua McKie",
-   "key": "joshua mckie",
-   "position": "WR",
+   "name": "Kevin Reddick",
+   "key": "kevin reddick",
+   "position": "LB",
    "positionVotes": {
-    "WR": 1
+    "LB": 4
    },
    "firstYear": 2009,
-   "lastYear": 2009,
+   "lastYear": 2012,
    "seasons": [
     {
      "year": 2009,
      "stats": {
-      "tackles": 2
+      "tfl": 6,
+      "pbu": 1,
+      "tackles": 45
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "tfl": 6,
+      "sacks": 1,
+      "defInt": 2,
+      "tackles": 74
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2011,
+     "stats": {
+      "tfl": 6,
+      "sacks": 1,
+      "pbu": 4,
+      "tackles": 71
+     },
+     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2012,
+     "stats": {
+      "tfl": 19,
+      "sacks": 6.5,
+      "ff": 2,
+      "pbu": 6,
+      "tackles": 85
+     },
+     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -8859,8 +9543,8 @@
      "stats": {
       "tackles": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8886,8 +9570,8 @@
      "stats": {
       "tackles": 3
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8923,8 +9607,8 @@
       "rec": 1,
       "recYds": 12
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8953,8 +9637,8 @@
      "stats": {
       "tackles": 9
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
     },
     {
      "year": 2010,
@@ -8967,22 +9651,43 @@
    ]
   },
   {
-   "name": "Steven Hatley",
-   "key": "steven hatley",
-   "position": null,
+   "name": "Todd Harrelson",
+   "key": "todd harrelson",
+   "position": "WR",
    "positionVotes": {
-    "RB": 1
+    "WR": 2,
+    "DB": 1
    },
    "firstYear": 2009,
-   "lastYear": 2009,
+   "lastYear": 2011,
    "seasons": [
     {
      "year": 2009,
      "stats": {
-      "tackles": 12
+      "rec": 1,
+      "recYds": 1
      },
-     "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html",
-     "from": "official-cume"
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "rushYds": 12,
+      "rec": 2,
+      "recYds": 41,
+      "tackles": 3
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2011,
+     "stats": {
+      "tackles": 3
+     },
+     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
+     "from": "sports-reference"
     }
    ]
   },
@@ -9159,76 +9864,6 @@
    ]
   },
   {
-   "name": "Devon Ramsey",
-   "key": "devon ramsey",
-   "position": "RB",
-   "positionVotes": {
-    "RB": 2
-   },
-   "firstYear": 2010,
-   "lastYear": 2011,
-   "seasons": [
-    {
-     "year": 2010,
-     "stats": {
-      "rec": 2,
-      "recYds": 15,
-      "recTD": 1
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2011,
-     "stats": {
-      "rec": 1,
-      "recYds": 18
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Dion Guy",
-   "key": "dion guy",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 3
-   },
-   "firstYear": 2010,
-   "lastYear": 2012,
-   "seasons": [
-    {
-     "year": 2010,
-     "stats": {
-      "tackles": 6
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2011,
-     "stats": {
-      "tackles": 10
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2012,
-     "stats": {
-      "tfl": 4,
-      "sacks": 1,
-      "defInt": 1,
-      "tackles": 53
-     },
-     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
    "name": "DJ Bunn",
    "key": "dj bunn",
    "position": "S",
@@ -9252,54 +9887,6 @@
       "tackles": 4
      },
      "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Erik Highsmith",
-   "key": "erik highsmith",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 3
-   },
-   "firstYear": 2010,
-   "lastYear": 2012,
-   "seasons": [
-    {
-     "year": 2010,
-     "stats": {
-      "rec": 25,
-      "recYds": 348,
-      "recTD": 3,
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2011,
-     "stats": {
-      "rushYds": 37,
-      "rec": 51,
-      "recYds": 726,
-      "recTD": 5
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2012,
-     "stats": {
-      "passYds": 18,
-      "rushYds": 51,
-      "rushTD": 1,
-      "rec": 54,
-      "recYds": 587,
-      "recTD": 5,
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
      "from": "sports-reference"
     }
    ]
@@ -9383,48 +9970,21 @@
    ]
   },
   {
-   "name": "Jheranie Boyd",
-   "key": "jheranie boyd",
-   "position": "WR",
+   "name": "Josh Hunter",
+   "key": "josh hunter",
+   "position": null,
    "positionVotes": {
-    "WR": 3
+    "DB": 1
    },
    "firstYear": 2010,
-   "lastYear": 2012,
+   "lastYear": 2010,
    "seasons": [
     {
      "year": 2010,
      "stats": {
-      "rushYds": 62,
-      "rec": 14,
-      "recYds": 310,
-      "recTD": 3
+      "tackles": 2
      },
      "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2011,
-     "stats": {
-      "rushYds": 56,
-      "rec": 14,
-      "recYds": 292,
-      "recTD": 5,
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2012,
-     "stats": {
-      "rushYds": -10,
-      "rec": 4,
-      "recYds": 44,
-      "recTD": 1,
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
      "from": "sports-reference"
     }
    ]
@@ -9510,52 +10070,6 @@
      "year": 2012,
      "stats": {
       "rushYds": 19
-     },
-     "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Kevin Reddick",
-   "key": "kevin reddick",
-   "position": "LB",
-   "positionVotes": {
-    "LB": 3
-   },
-   "firstYear": 2010,
-   "lastYear": 2012,
-   "seasons": [
-    {
-     "year": 2010,
-     "stats": {
-      "tfl": 6,
-      "sacks": 1,
-      "defInt": 2,
-      "tackles": 74
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2011,
-     "stats": {
-      "tfl": 6,
-      "sacks": 1,
-      "pbu": 4,
-      "tackles": 71
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2012,
-     "stats": {
-      "tfl": 19,
-      "sacks": 6.5,
-      "ff": 2,
-      "pbu": 6,
-      "tackles": 85
      },
      "source": "http://web.archive.org/web/20250315132241/https://www.sports-reference.com/cfb/schools/north-carolina/2012.html",
      "from": "sports-reference"
@@ -9761,38 +10275,6 @@
       "tackles": 26
      },
      "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Todd Harrelson",
-   "key": "todd harrelson",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 1,
-    "DB": 1
-   },
-   "firstYear": 2010,
-   "lastYear": 2011,
-   "seasons": [
-    {
-     "year": 2010,
-     "stats": {
-      "rushYds": 12,
-      "rec": 2,
-      "recYds": 41,
-      "tackles": 3
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2011,
-     "stats": {
-      "tackles": 3
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
      "from": "sports-reference"
     }
    ]
@@ -10523,24 +11005,6 @@
       "tackles": 2
      },
      "source": "http://web.archive.org/web/20250114162319/https://www.sports-reference.com/cfb/schools/north-carolina/2013.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Trase Jones",
-   "key": "trase jones",
-   "position": null,
-   "positionVotes": {},
-   "firstYear": 2011,
-   "lastYear": 2011,
-   "seasons": [
-    {
-     "year": 2011,
-     "stats": {
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
      "from": "sports-reference"
     }
    ]

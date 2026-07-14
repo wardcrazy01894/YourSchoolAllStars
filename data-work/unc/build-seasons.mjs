@@ -6,12 +6,12 @@
 // SOURCE MAP (why each year comes from where — see PROGRESS.md):
 //   1997–1999  SR   offense complete; defense is INT-ONLY (SR has no tackle
 //                   table before 2005) — the documented Michigan-style floor.
-//   2000–2007  official archived cumes (full offense AND defense)
-//   2008       SR   (the 2008 capture is an HTML-table redesign; SR has full
-//                   defense from 2005, so it's the cleaner source for that year)
-//   2009       official archived cume
-//   2010–2015  SR   (2010/2011 cumes exist only as MID-SEASON captures — the
-//                   Pitt trap — and 2012–2015 have none; SR is complete here)
+//   2000–2004  official archived cumes — the ONLY source of per-player defense
+//                   before SR's tackle table starts (2005)
+//   2005–2015  SR   (full defense from 2005, and more complete than the cumes,
+//                   whose rows depend on a roster join that some years' rosters
+//                   can't satisfy; 2010/2011 cumes are mid-season captures — the
+//                   Pitt trap — and 2012–2015 have none)
 //   2016–2025  Sidearm (goheels), via scripts/fetch-football-mgoblue.mjs
 //
 // Positions come from the goheels roster for the year (spelled-out, e.g.
@@ -26,12 +26,17 @@ import { fileURLToPath } from 'node:url'
 const HERE = dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = join(HERE, 'seasons')
 
+// The official cumes are needed ONLY for 2000-2004: SR has full defense from
+// 2005 on, and SR is the more COMPLETE source there. The cume rows can only be
+// identified by joining them to that year's goheels roster, and some of those
+// rosters are incomplete — the 2005 roster is missing QB Matt Baker, so the
+// cume-sourced 2005 lost its starting quarterback (and with him every passing
+// TD that season). Prefer SR wherever it carries the same stats.
 const SR_YEARS = new Set([
-  1997, 1998, 1999, 2008, 2010, 2011, 2012, 2013, 2014, 2015,
+  1997, 1998, 1999, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014,
+  2015,
 ])
-const CUME_YEARS = new Set([
-  2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009,
-])
+const CUME_YEARS = new Set([2000, 2001, 2002, 2003, 2004])
 
 // SR data-stat → FbStats
 const SR_MAP = {

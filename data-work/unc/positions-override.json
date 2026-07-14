@@ -340,5 +340,11 @@
   "source": "https://247sports.com/college/north-carolina/Article/UNC-Football-Kyler-McMichael-Fast-Physical-Corner-Dre-Bly-150344431/",
   "confidence": "high",
   "note": "Consistently referred to as UNC cornerback"
+ },
+ "James Arnold": {
+  "position": "RB",
+  "confidence": "medium",
+  "source": "https://www.tarheeltimes.com/recruitprofile90.aspx",
+  "note": "Cooter Arnold; multi-position (tailback/DB/WR), rush-heavy line, shared TB role"
  }
 }

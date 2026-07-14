@@ -1,7 +1,32 @@
 {
  "year": 2005,
- "from": "official-cume",
+ "from": "sports-reference",
  "players": [
+  {
+   "name": "Matt Baker",
+   "position": "QB",
+   "stats": {
+    "passYds": 2345,
+    "passTD": 9,
+    "passInt": 11,
+    "rushYds": -34,
+    "rushTD": 2,
+    "rec": 1,
+    "recYds": -3,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Joey Bozich",
+   "position": "QB",
+   "stats": {
+    "passYds": 12,
+    "passInt": 1,
+    "rushYds": 2
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
   {
    "name": "Barrington Edwards",
    "position": "Running Back",
@@ -10,139 +35,33 @@
     "rushTD": 2,
     "rec": 10,
     "recYds": 99,
-    "tackles": 1
+    "tfl": 5,
+    "ff": 1,
+    "pbu": 1,
+    "tackles": 72
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Bobby Rome II",
-   "position": "Fullback",
+   "name": "Derrele Mitchell",
+   "position": "WR",
    "stats": {
-    "tackles": 1
+    "rec": 12,
+    "recYds": 261,
+    "recTD": 2
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Brian Chacos",
-   "position": "Offensive Tackle",
-   "stats": {
-    "rushYds": 5
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Brian Rackley",
-   "position": "Defensive End",
-   "stats": {
-    "tackles": 15,
-    "tfl": 3,
-    "sacks": 2,
-    "ff": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Bryan Bethea",
-   "position": "Cornerback",
-   "stats": {
-    "tackles": 14,
-    "pbu": 2
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Charlston Gray",
-   "position": "Offensive Line",
-   "stats": {
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Connor Barth",
-   "position": "Placekicker/Punt",
-   "stats": {
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "D.J. Walker",
-   "position": "Free Safety",
-   "stats": {
-    "tackles": 9
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "David Wooldridge",
-   "position": "Placekicker/Punt",
-   "stats": {
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Durrell Mapp",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 46,
-    "tfl": 1.5,
-    "sacks": 1,
-    "ff": 2
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Garrett White",
-   "position": "Defensive End",
-   "stats": {
-    "tackles": 8
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Hilee Taylor",
-   "position": "Defensive End",
-   "stats": {
-    "tackles": 12,
-    "tfl": 1.5,
-    "sacks": 1,
-    "ff": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Jacoby Watkins",
-   "position": "Cornerback",
-   "stats": {
-    "tackles": 19,
-    "pbu": 3
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "James Cooter Arnold",
-   "position": "Wide Receiver",
+   "name": "James Arnold",
+   "position": "RB",
    "stats": {
     "rushYds": 187,
     "rec": 4,
     "recYds": 29,
     "tackles": 3
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Jay Spence",
-   "position": "Quarterback",
-   "stats": {
-    "tackles": 59,
-    "tfl": 6,
-    "sacks": 1,
-    "defInt": 2,
-    "pbu": 10
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Jesse Holley",
@@ -153,7 +72,7 @@
     "recTD": 1,
     "tackles": 2
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Jon Hamlett",
@@ -163,106 +82,61 @@
     "recYds": 212,
     "recTD": 1
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Joseph Bozich",
-   "position": "Linebacker",
+   "name": "Justin Phillips",
+   "position": "TE",
    "stats": {
     "rushYds": 2,
-    "passYds": 12,
-    "passInt": 1
+    "rec": 6,
+    "recYds": 86,
+    "tackles": 5
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Justin Henderson",
-   "position": "Athlete",
+   "name": "Mike Mason",
+   "position": "WR",
    "stats": {
-    "tackles": 2,
-    "tfl": 0.5
+    "rushYds": -7,
+    "rec": 22,
+    "recYds": 372,
+    "recTD": 1,
+    "tackles": 6
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Justin Warren",
-   "position": "Running Back",
+   "name": "Rikki Cook",
+   "position": "RB",
    "stats": {
-    "rushYds": 86
+    "rushYds": 2,
+    "rec": 2,
+    "recYds": 8,
+    "recTD": 1
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Kareen Taylor",
-   "position": "Defensive Back",
+   "name": "Jarwarski Pollock",
+   "position": "WR",
    "stats": {
-    "tackles": 61,
-    "tfl": 4.5,
-    "sacks": 3.5,
-    "defInt": 2,
-    "pbu": 2,
-    "ff": 1
+    "rec": 30,
+    "recYds": 341,
+    "recTD": 2,
+    "tackles": 1
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Kentwan Balmer",
-   "position": "Defensive Tackle",
-   "stats": {
-    "tackles": 17,
-    "tfl": 5,
-    "sacks": 1,
-    "pbu": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Khalif Mitchell",
-   "position": "Defensive End",
-   "stats": {
-    "tackles": 13,
-    "pbu": 2
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Kyndraus Guy",
-   "position": "Defensive Tackle",
-   "stats": {
-    "tackles": 21,
-    "tfl": 5,
-    "sacks": 3,
-    "defInt": 1,
-    "pbu": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Mark Paschal",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 7
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Martel Thatch",
    "position": "Linebacker",
    "stats": {
+    "rushYds": 5,
     "tackles": 3
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Melik Brown",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 7,
-    "tfl": 2,
-    "sacks": 1,
-    "ff": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Nick Starcevic",
@@ -273,26 +147,18 @@
     "rec": 1,
     "recYds": 7
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Quinton Person",
-   "position": "Cornerback",
+   "name": "Wallace Wright",
+   "position": "WR",
    "stats": {
-    "tackles": 36,
-    "tfl": 0.5,
-    "defInt": 1,
-    "pbu": 4
+    "rec": 12,
+    "recYds": 176,
+    "recTD": 1,
+    "tackles": 9
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
-  },
-  {
-   "name": "Richard Quinn",
-   "position": "Tight End",
-   "stats": {
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Ronnie McGill",
@@ -303,46 +169,342 @@
     "rec": 15,
     "recYds": 99
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Shelton Bynum",
-   "position": "Defensive Line",
+   "name": "Justin Warren",
+   "position": "Running Back",
    "stats": {
-    "tackles": 22,
-    "tfl": 3,
+    "rushYds": 86,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Tommy Richardson",
+   "position": "LB",
+   "stats": {
+    "tfl": 6,
     "sacks": 1,
-    "pbu": 1
+    "defInt": 1,
+    "tackles": 91
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
-   "name": "Trey Brenner",
-   "position": "Linebacker",
+   "name": "Kareen Taylor",
+   "position": "Defensive Back",
    "stats": {
-    "tackles": 5
+    "tfl": 5,
+    "sacks": 3.5,
+    "defInt": 2,
+    "ff": 1,
+    "tackles": 61
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Cedrick Holt",
+   "position": "DB",
+   "stats": {
+    "tfl": 5,
+    "defInt": 2,
+    "tackles": 58
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Trimane Goddard",
    "position": "Strong Safety",
    "stats": {
-    "tackles": 53,
-    "tfl": 2.5,
+    "tfl": 3,
     "defInt": 3,
-    "pbu": 5
+    "tackles": 53
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Durell Mapp",
+   "position": "LB",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 2,
+    "tackles": 46
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Tommy Davis",
+   "position": "DL",
+   "stats": {
+    "tfl": 11,
+    "sacks": 8.5,
+    "tackles": 41
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Mahlon Carey",
+   "position": "DB",
+   "stats": {
+    "tfl": 3,
+    "sacks": 1,
+    "ff": 2,
+    "pbu": 2,
+    "tackles": 39
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Quinton Person",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 1,
+    "defInt": 1,
+    "tackles": 36
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Chase Page",
+   "position": "DL",
+   "stats": {
+    "tfl": 7,
+    "sacks": 4,
+    "pbu": 2,
+    "tackles": 27
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   },
   {
    "name": "Victor Worsley",
    "position": "Linebacker",
    "stats": {
-    "tackles": 22,
-    "tfl": 0.5
+    "tfl": 1,
+    "tackles": 22
    },
-   "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html"
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Shelton Bynum",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 3,
+    "sacks": 1,
+    "pbu": 1,
+    "tackles": 22
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Kyndraus Guy",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 6,
+    "sacks": 3.5,
+    "defInt": 1,
+    "tackles": 22
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Larry Edwards",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 4,
+    "sacks": 1.5,
+    "defInt": 1,
+    "tackles": 20
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Jacoby Watkins",
+   "position": "Cornerback",
+   "stats": {
+    "pbu": 3,
+    "tackles": 19
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Kentwan Balmer",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 5,
+    "sacks": 1,
+    "pbu": 1,
+    "tackles": 17
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Doug Justice",
+   "position": "LB",
+   "stats": {
+    "tfl": 1,
+    "ff": 1,
+    "tackles": 15
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Brian Rackley",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 3,
+    "sacks": 2,
+    "tackles": 14
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Bryan Bethea",
+   "position": "Cornerback",
+   "stats": {
+    "pbu": 2,
+    "tackles": 14
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Khalif Mitchell",
+   "position": "Defensive End",
+   "stats": {
+    "pbu": 2,
+    "tackles": 13
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Hilee Taylor",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 1,
+    "tackles": 12
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "D.J. Walker",
+   "position": "Free Safety",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Warren Green",
+   "position": "OL",
+   "stats": {
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Melik Brown",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 1,
+    "tackles": 7
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Mark Paschal",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 7
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Jeff Longhany",
+   "position": "LB",
+   "stats": {
+    "pbu": 1,
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Chase Rice",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "David Wooldridge",
+   "position": "Placekicker/Punt",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Tom O'Leary",
+   "position": "DB",
+   "stats": {
+    "tfl": 1,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Charlston Gray",
+   "position": "Offensive Line",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Richard Quinn",
+   "position": "Tight End",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Steven Bell",
+   "position": "OL",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Connor Barth",
+   "position": "Placekicker/Punt",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Trey Brenner",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
+  },
+  {
+   "name": "Garrett White",
+   "position": "Defensive End",
+   "stats": {
+    "pbu": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20250309121006/https://www.sports-reference.com/cfb/schools/north-carolina/2005.html"
   }
  ]
 }

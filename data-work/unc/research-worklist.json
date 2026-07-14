@@ -1,19 +1,21 @@
 {
  "worklist": [
   {
-   "name": "Jay Spence",
-   "span": "2005-2005",
-   "composite": 29.5,
-   "wmtVotes": {
-    "QB": 1
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Xavier Lewis",
    "span": "2025-2025",
    "composite": 3.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Darrius Massenburg",
+   "span": "2007-2008",
+   "composite": 3.1,
    "wmtVotes": {
     "DL": 1
    },
@@ -45,44 +47,44 @@
    "composite": 0.8
   },
   {
-   "name": "Justin Henderson",
-   "composite": 0.9
+   "name": "Tom O'Leary",
+   "composite": 1
   },
   {
-   "name": "Rock Wells",
-   "composite": 0.5
+   "name": "Kendric Williams",
+   "composite": 2.5
   },
   {
-   "name": "Darrius Massenburg",
-   "composite": 1.4
+   "name": "Patrick Marsh",
+   "composite": 0.4
   },
   {
    "name": "Richie Rich",
    "composite": 2.3
   },
   {
-   "name": "Trevor Stuart",
+   "name": "Rock Wells",
+   "composite": 0.5
+  },
+  {
+   "name": "Ryan Baucom",
    "composite": 0.2
   },
   {
-   "name": "Josh Hunter",
-   "composite": 0.3
+   "name": "Trevor Stuart",
+   "composite": 0.2
   },
   {
    "name": "Mark House",
    "composite": 0.6
   },
   {
-   "name": "Steven Hatley",
-   "composite": 2.4
+   "name": "Josh Hunter",
+   "composite": 0.3
   },
   {
    "name": "Adam Curry",
    "composite": 0.4
-  },
-  {
-   "name": "Trase Jones",
-   "composite": 0.2
   },
   {
    "name": "Ryan Mangum",

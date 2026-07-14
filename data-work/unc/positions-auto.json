@@ -591,7 +591,7 @@
  },
  {
   "name": "Tommy Richardson",
-  "position": "S",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -822,8 +822,13 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Bobby Rome II",
-  "position": "RB",
+  "name": "Chase Rice",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Durell Mapp",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -832,14 +837,14 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "James Cooter Arnold",
+  "name": "James Arnold",
   "position": "RB",
   "basis": "override",
   "source": "https://www.tarheeltimes.com/recruitprofile90.aspx"
  },
  {
-  "name": "Joseph Bozich",
-  "position": "LB",
+  "name": "Joey Bozich",
+  "position": "QB",
   "basis": "wmt-fine"
  },
  {
@@ -850,6 +855,11 @@
  {
   "name": "Mark Paschal",
   "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Mike Mason",
+  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -868,7 +878,7 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Anthony Elzy",
+  "name": "Bobby Rome II",
   "position": "RB",
   "basis": "wmt-fine"
  },
@@ -888,18 +898,14 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Camaron Thomas",
+  "name": "Cam Thomas",
   "position": "DT",
-  "basis": "wmt-fine"
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Cam_Thomas_(defensive_tackle)"
  },
  {
   "name": "Cameron Sexton",
   "position": "QB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Chase Rice",
-  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -924,9 +930,8 @@
  },
  {
   "name": "Joe Dailey",
-  "position": "QB",
-  "basis": "override",
-  "source": "https://en.wikipedia.org/wiki/Joe_Dailey"
+  "position": "WR",
+  "basis": "wmt-fine"
  },
  {
   "name": "Jordan Hemby",
@@ -941,11 +946,6 @@
  {
   "name": "Kenton Thornton",
   "position": "WR",
-  "basis": "sr-off"
- },
- {
-  "name": "Richard Rich",
-  "position": "CB",
   "basis": "wmt-fine"
  },
  {
@@ -969,6 +969,11 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Anthony Elzy",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "B.J. Phillips",
   "position": "TE",
   "basis": "wmt-fine"
@@ -984,14 +989,10 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Da'Norris Searcy",
+  "name": "Da'Norris Searcey",
   "position": "S",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Darius Massenburg",
-  "position": "DE",
-  "basis": "wmt-fine"
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Da'Norris_Searcy"
  },
  {
   "name": "Darius Powell",
@@ -1016,11 +1017,6 @@
  {
   "name": "Greg Little",
   "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Hayden Hunter",
-  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -1089,12 +1085,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Cam Thomas",
-  "position": "DT",
-  "basis": "override",
-  "source": "https://en.wikipedia.org/wiki/Cam_Thomas_(defensive_tackle)"
- },
- {
   "name": "Christian Wilson",
   "position": "TE",
   "basis": "wmt-fine"
@@ -1105,19 +1095,8 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Da'Norris Searcey",
-  "position": "S",
-  "basis": "override",
-  "source": "https://en.wikipedia.org/wiki/Da'Norris_Searcy"
- },
- {
   "name": "Ebele Okakpu",
   "position": "LB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "James Arnold",
-  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -1179,12 +1158,32 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Da'Norris Searcy",
+  "position": "S",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Devon Ramsey",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Dion Guy",
+  "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Donte Paige-Moss",
   "position": "DE",
   "basis": "wmt-fine"
  },
  {
   "name": "Dwight Jones",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Erik Highsmith",
   "position": "WR",
   "basis": "wmt-fine"
  },
@@ -1204,6 +1203,16 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jamal Womble",
+  "position": "RB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Jheranie Boyd",
+  "position": "WR",
+  "basis": "wmt-fine"
+ },
+ {
   "name": "Jordan Nix",
   "position": "DT",
   "basis": "wmt-fine"
@@ -1214,8 +1223,8 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Joshua McKie",
-  "position": "WR",
+  "name": "Kevin Reddick",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -1232,6 +1241,11 @@
  {
   "name": "Shane Mularkey",
   "position": "LB",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Todd Harrelson",
+  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -1255,23 +1269,8 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Devon Ramsey",
-  "position": "RB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Dion Guy",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
   "name": "DJ Bunn",
   "position": "S",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Erik Highsmith",
-  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -1286,22 +1285,12 @@
   "source": "https://www.espn.com/college-football/player/_/id/480629/jared-mcadoo"
  },
  {
-  "name": "Jheranie Boyd",
-  "position": "WR",
-  "basis": "wmt-fine"
- },
- {
   "name": "Kareem Martin",
   "position": "DE",
   "basis": "wmt-fine"
  },
  {
   "name": "Kenny Owens",
-  "position": "LB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Kevin Reddick",
   "position": "LB",
   "basis": "wmt-fine"
  },
@@ -1329,11 +1318,6 @@
  {
   "name": "Tim Jackson",
   "position": "DE",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Todd Harrelson",
-  "position": "WR",
   "basis": "wmt-fine"
  },
  {

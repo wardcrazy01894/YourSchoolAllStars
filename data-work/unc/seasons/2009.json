@@ -1,15 +1,82 @@
 {
  "year": 2009,
- "from": "official-cume",
+ "from": "sports-reference",
  "players": [
+  {
+   "name": "T.J. Yates",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 2136,
+    "passTD": 14,
+    "passInt": 15,
+    "rushYds": -66,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Ryan Houston",
+   "position": "Tailback",
+   "stats": {
+    "passYds": 42,
+    "rushYds": 713,
+    "rushTD": 9,
+    "rec": 11,
+    "recYds": 82,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Shaun Draughn",
+   "position": "Tailback",
+   "stats": {
+    "passYds": 34,
+    "rushYds": 567,
+    "rushTD": 1,
+    "rec": 21,
+    "recYds": 125
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Bobby Rome II",
+   "position": "Fullback",
+   "stats": {
+    "passYds": 31,
+    "rec": 3,
+    "recYds": 28
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
   {
    "name": "A.J. Blue",
    "position": "Athlete",
    "stats": {
-    "rushYds": 33,
-    "passYds": 24
+    "passYds": 24,
+    "rushYds": 33
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Braden Hanson",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 7,
+    "passInt": 2,
+    "rushYds": -11
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Erik Highsmith",
+   "position": "WR",
+   "stats": {
+    "rec": 37,
+    "recYds": 425,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
    "name": "Anthony Elzy",
@@ -20,165 +87,7 @@
     "recYds": 49,
     "tackles": 1
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Braden Hanson",
-   "position": "Quarterback",
-   "stats": {
-    "rushYds": -11,
-    "passYds": 7,
-    "passInt": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Brian Gupton",
-   "position": "Cornerback",
-   "stats": {
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Bruce Carter",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 65,
-    "tfl": 7.5,
-    "sacks": 2,
-    "defInt": 1,
-    "pbu": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Charles Brown",
-   "position": "Cornerback",
-   "stats": {
-    "tackles": 66,
-    "tfl": 3,
-    "defInt": 3,
-    "pbu": 9,
-    "ff": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Christian Wilson",
-   "position": "Half Back",
-   "stats": {
-    "rec": 5,
-    "recYds": 30
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Da'Norris Searcy",
-   "position": "Strong Safety",
-   "stats": {
-    "tackles": 35,
-    "tfl": 1,
-    "defInt": 1,
-    "pbu": 3
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Deunta Williams",
-   "position": "Free Safety",
-   "stats": {
-    "tackles": 47,
-    "tfl": 1.5,
-    "defInt": 6,
-    "pbu": 8
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Donte Paige-Moss",
-   "position": "Defensive Line",
-   "stats": {
-    "tackles": 5,
-    "tfl": 2,
-    "sacks": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Dwight Jones",
-   "position": "Wide Receiver",
-   "stats": {
-    "rec": 5,
-    "recYds": 21
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Ebele Okakpu",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Ed Barham",
-   "position": "Tight End",
-   "stats": {
-    "rec": 6,
-    "recYds": 57,
-    "recTD": 1,
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Gene Robinson",
-   "position": "Safety",
-   "stats": {
-    "tackles": 2,
-    "defInt": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Grant Schallock",
-   "position": "Punter",
-   "stats": {
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Greg Little",
-   "position": "Wide Receiver",
-   "stats": {
-    "rushYds": 166,
-    "rushTD": 1,
-    "rec": 62,
-    "recYds": 724,
-    "recTD": 5,
-    "tackles": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Herman Davidson",
-   "position": "Defensive Back",
-   "stats": {
-    "tackles": 3
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Hunter Furr",
-   "position": "Running Back",
-   "stats": {
-    "rushYds": 6,
-    "tackles": 4
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
    "name": "Johnny White",
@@ -191,237 +100,63 @@
     "recTD": 1,
     "tackles": 16
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
-   "name": "Jonathan Smith",
-   "position": "Free Safety",
+   "name": "Devon Ramsey",
+   "position": "RB",
    "stats": {
-    "tackles": 11,
-    "pbu": 2
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Jordan Nix",
-   "position": "Defensive Line",
-   "stats": {
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Josh Hunter",
-   "position": "Defensive Back",
-   "stats": {
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Joshua Adams",
-   "position": "Wide Receiver",
-   "stats": {
-    "rec": 3,
-    "recYds": 49,
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Joshua McKie",
-   "position": "Wide Receiver",
-   "stats": {
+    "rec": 6,
+    "recYds": 57,
     "tackles": 2
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
-   "name": "Kendric Burney",
-   "position": "Cornerback",
+   "name": "Ed Barham",
+   "position": "Tight End",
    "stats": {
-    "tackles": 52,
-    "tfl": 5.5,
-    "sacks": 1,
-    "defInt": 5,
-    "pbu": 3
+    "rec": 6,
+    "recYds": 57,
+    "recTD": 1,
+    "tackles": 2
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
-   "name": "LeCount Fantroy",
-   "position": "Cornerback",
+   "name": "Greg Little",
+   "position": "Wide Receiver",
    "stats": {
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Linwan Euwell",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Mark House",
-   "position": "Deep Snapper",
-   "stats": {
-    "tackles": 3
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Marvin Austin",
-   "position": "Defensive Tackle",
-   "stats": {
-    "tackles": 42,
-    "tfl": 6,
-    "sacks": 4,
-    "pbu": 3,
-    "ff": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Melvin Williams",
-   "position": "Defensive Back",
-   "stats": {
-    "tackles": 31,
-    "tfl": 0.5,
-    "defInt": 1,
-    "pbu": 4
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Michael McAdoo",
-   "position": "Defensive Line",
-   "stats": {
-    "tackles": 20,
-    "tfl": 7,
-    "sacks": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Mywan Jackson",
-   "position": "Defensive Back",
-   "stats": {
-    "rec": 1,
-    "recYds": 12
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Quan Sturdivant",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 79,
-    "tfl": 12,
-    "sacks": 1,
-    "pbu": 3,
-    "ff": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Quinton Coples",
-   "position": "Defensive End",
-   "stats": {
-    "tackles": 22,
-    "tfl": 6.5,
-    "sacks": 5
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Robert Quinn",
-   "position": "Defensive Line",
-   "stats": {
-    "tackles": 52,
-    "tfl": 19,
-    "sacks": 11,
-    "pbu": 3,
-    "ff": 6
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Ryan Houston",
-   "position": "Tailback",
-   "stats": {
-    "rushYds": 713,
-    "rushTD": 9,
-    "passYds": 42,
-    "rec": 11,
-    "recYds": 82,
-    "tackles": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Shane Mularkey",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 9
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Shaun Draughn",
-   "position": "Tailback",
-   "stats": {
-    "rushYds": 567,
+    "rushYds": 166,
     "rushTD": 1,
-    "passYds": 34,
-    "rec": 21,
-    "recYds": 125
+    "rec": 62,
+    "recYds": 724,
+    "recTD": 5,
+    "tackles": 2
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
-   "name": "Steven Hatley",
+   "name": "Hunter Furr",
    "position": "Running Back",
    "stats": {
-    "tackles": 12
+    "rushYds": 6,
+    "tackles": 4
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
-   "name": "T.J. Yates",
-   "position": "Quarterback",
+   "name": "Jheranie Boyd",
+   "position": "WR",
    "stats": {
-    "rushYds": -66,
+    "rushYds": 130,
     "rushTD": 1,
-    "passYds": 2136,
-    "passTD": 14,
-    "passInt": 15
+    "rec": 12,
+    "recYds": 214,
+    "recTD": 4,
+    "tackles": 1
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Tydreke Powell",
-   "position": "Defensive Tackle",
-   "stats": {
-    "tackles": 24,
-    "tfl": 4,
-    "sacks": 2,
-    "pbu": 3,
-    "ff": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
-  },
-  {
-   "name": "Zach Brown",
-   "position": "Linebacker",
-   "stats": {
-    "tackles": 47,
-    "tfl": 4,
-    "defInt": 1
-   },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   },
   {
    "name": "Zack Pianalto",
@@ -431,7 +166,387 @@
     "recYds": 334,
     "recTD": 1
    },
-   "source": "http://web.archive.org/web/20100110041617id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2009-2010/teamcume.html"
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Dwight Jones",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 5,
+    "recYds": 21
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Christian Wilson",
+   "position": "Half Back",
+   "stats": {
+    "rec": 5,
+    "recYds": 30
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Todd Harrelson",
+   "position": "WR",
+   "stats": {
+    "rec": 1,
+    "recYds": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Joshua Adams",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 3,
+    "recYds": 49,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Mywan Jackson",
+   "position": "Defensive Back",
+   "stats": {
+    "rec": 1,
+    "recYds": 12
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Jamal Womble",
+   "position": "RB",
+   "stats": {
+    "rushYds": 41,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Quan Sturdivant",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 12,
+    "sacks": 1,
+    "ff": 1,
+    "pbu": 3,
+    "tackles": 79
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Charles Brown",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 3,
+    "defInt": 3,
+    "ff": 2,
+    "tackles": 66
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Bruce Carter",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 8,
+    "sacks": 2,
+    "defInt": 1,
+    "tackles": 65
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Kendric Burney",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 6,
+    "sacks": 1,
+    "defInt": 5,
+    "tackles": 52
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Robert Quinn",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 19,
+    "sacks": 11,
+    "ff": 6,
+    "pbu": 3,
+    "tackles": 52
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "E.J. Wilson",
+   "position": "DL",
+   "stats": {
+    "tfl": 12,
+    "sacks": 4,
+    "ff": 5,
+    "pbu": 1,
+    "tackles": 49
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Zach Brown",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 4,
+    "defInt": 1,
+    "tackles": 47
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Deunta Williams",
+   "position": "Free Safety",
+   "stats": {
+    "tfl": 2,
+    "defInt": 6,
+    "tackles": 47
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Kevin Reddick",
+   "position": "LB",
+   "stats": {
+    "tfl": 6,
+    "pbu": 1,
+    "tackles": 45
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Marvin Austin",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 6,
+    "sacks": 4,
+    "ff": 1,
+    "pbu": 3,
+    "tackles": 42
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Kennedy Tinsley",
+   "position": "LB",
+   "stats": {
+    "tfl": 1,
+    "pbu": 1,
+    "tackles": 39
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Da'Norris Searcy",
+   "position": "Strong Safety",
+   "stats": {
+    "tfl": 1,
+    "defInt": 1,
+    "tackles": 35
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Melvin Williams",
+   "position": "Defensive Back",
+   "stats": {
+    "tfl": 1,
+    "defInt": 1,
+    "tackles": 31
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Tydreke Powell",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 4,
+    "sacks": 2,
+    "ff": 1,
+    "pbu": 3,
+    "tackles": 24
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Cam Thomas",
+   "position": "DL",
+   "stats": {
+    "tfl": 3,
+    "tackles": 23
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Quinton Coples",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 7,
+    "sacks": 5,
+    "tackles": 22
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Michael McAdoo",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 7,
+    "sacks": 1,
+    "tackles": 20
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Aleric Mullins",
+   "position": "DL",
+   "stats": {
+    "tfl": 5,
+    "ff": 1,
+    "pbu": 1,
+    "tackles": 15
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Jordan Hemby",
+   "position": "DB",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Jonathan Smith",
+   "position": "Free Safety",
+   "stats": {
+    "pbu": 2,
+    "tackles": 11
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Shane Mularkey",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Dion Guy",
+   "position": "LB",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Donte Paige-Moss",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 2,
+    "sacks": 2,
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Herman Davidson",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Mark House",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Ebele Okakpu",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Casey Barth",
+   "position": "K",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Gene Robinson",
+   "position": "Safety",
+   "stats": {
+    "defInt": 1,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Grant Schallock",
+   "position": "Punter",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Brian Gupton",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Trase Jones",
+   "position": "Placekicker/Punt",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Linwan Euwell",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "LeCount Fantroy",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+  },
+  {
+   "name": "Jordan Nix",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
   }
  ]
 }

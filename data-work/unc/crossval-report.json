@@ -121,22 +121,6 @@
    "big": false
   },
   {
-   "name": "Brian Rackley",
-   "year": 2005,
-   "stat": "tackles",
-   "ours": 15,
-   "sr": 14,
-   "big": false
-  },
-  {
-   "name": "Brian Rackley",
-   "year": 2005,
-   "stat": "ff",
-   "ours": 1,
-   "sr": 0,
-   "big": false
-  },
-  {
    "name": "Ronnie McGill",
    "year": 2003,
    "stat": "ff",
@@ -161,138 +145,10 @@
    "big": false
   },
   {
-   "name": "Barrington Edwards",
-   "year": 2005,
-   "stat": "tackles",
-   "ours": 1,
-   "sr": 72,
-   "big": true
-  },
-  {
-   "name": "Barrington Edwards",
-   "year": 2005,
-   "stat": "ff",
-   "ours": 0,
-   "sr": 1,
-   "big": true
-  },
-  {
    "name": "Hilee Taylor",
    "year": 2004,
    "stat": "ff",
    "ours": 3,
-   "sr": 0,
-   "big": false
-  },
-  {
-   "name": "Kyndraus Guy",
-   "year": 2005,
-   "stat": "tackles",
-   "ours": 21,
-   "sr": 22,
-   "big": false
-  },
-  {
-   "name": "Kyndraus Guy",
-   "year": 2005,
-   "stat": "sacks",
-   "ours": 3,
-   "sr": 3.5,
-   "big": false
-  },
-  {
-   "name": "Kyndraus Guy",
-   "year": 2006,
-   "stat": "sacks",
-   "ours": 1.5,
-   "sr": 2,
-   "big": false
-  },
-  {
-   "name": "Martel Thatch",
-   "year": 2005,
-   "stat": "rushYds",
-   "ours": 0,
-   "sr": 5,
-   "big": true
-  },
-  {
-   "name": "Bobby Rome II",
-   "year": 2006,
-   "stat": "rushYds",
-   "ours": 0,
-   "sr": 11,
-   "big": true
-  },
-  {
-   "name": "Bobby Rome II",
-   "year": 2006,
-   "stat": "rec",
-   "ours": 0,
-   "sr": 8,
-   "big": true
-  },
-  {
-   "name": "Bobby Rome II",
-   "year": 2006,
-   "stat": "recYds",
-   "ours": 0,
-   "sr": 83,
-   "big": true
-  },
-  {
-   "name": "Bobby Rome II",
-   "year": 2006,
-   "stat": "tackles",
-   "ours": 1,
-   "sr": 0,
-   "big": false
-  },
-  {
-   "name": "Garrett White",
-   "year": 2005,
-   "stat": "tackles",
-   "ours": 8,
-   "sr": 1,
-   "big": true
-  },
-  {
-   "name": "Justin Warren",
-   "year": 2005,
-   "stat": "tackles",
-   "ours": 0,
-   "sr": 1,
-   "big": true
-  },
-  {
-   "name": "Nick Starcevic",
-   "year": 2006,
-   "stat": "tackles",
-   "ours": 2,
-   "sr": 3,
-   "big": false
-  },
-  {
-   "name": "Trey Brenner",
-   "year": 2005,
-   "stat": "tackles",
-   "ours": 5,
-   "sr": 1,
-   "big": true
-  },
-  {
-   "name": "Kenton Thornton",
-   "year": 2006,
-   "stat": "tackles",
-   "ours": 22,
-   "sr": 0,
-   "big": false
-  },
-  {
-   "name": "Kenton Thornton",
-   "year": 2006,
-   "stat": "defInt",
-   "ours": 1,
    "sr": 0,
    "big": false
   },
@@ -1099,183 +955,18 @@
    }
   },
   {
-   "name": "Durrell Mapp",
+   "name": "Tom O'Leary",
    "year": 2005,
    "stats": {
-    "tackles": 46,
-    "tfl": 1.5,
-    "sacks": 1,
-    "ff": 2
-   }
-  },
-  {
-   "name": "Durrell Mapp",
-   "year": 2006,
-   "stats": {
-    "tackles": 87,
-    "tfl": 4,
-    "pbu": 1
-   }
-  },
-  {
-   "name": "Bobby Rome II",
-   "year": 2005,
-   "stats": {
-    "tackles": 1
-   }
-  },
-  {
-   "name": "James Cooter Arnold",
-   "year": 2005,
-   "stats": {
-    "rushYds": 187,
-    "rec": 4,
-    "recYds": 29,
-    "tackles": 3
-   }
-  },
-  {
-   "name": "James Cooter Arnold",
-   "year": 2006,
-   "stats": {
-    "tackles": 48,
     "tfl": 1,
-    "pbu": 2,
-    "ff": 2
-   }
-  },
-  {
-   "name": "James Cooter Arnold",
-   "year": 2007,
-   "stats": {
-    "tackles": 3
-   }
-  },
-  {
-   "name": "Jay Spence",
-   "year": 2005,
-   "stats": {
-    "tackles": 59,
-    "tfl": 6,
-    "sacks": 1,
-    "defInt": 2,
-    "pbu": 10
-   }
-  },
-  {
-   "name": "Joseph Bozich",
-   "year": 2005,
-   "stats": {
-    "rushYds": 2,
-    "passYds": 12,
-    "passInt": 1
-   }
-  },
-  {
-   "name": "Justin Henderson",
-   "year": 2005,
-   "stats": {
-    "tackles": 2,
-    "tfl": 0.5
-   }
-  },
-  {
-   "name": "Trey Brenner",
-   "year": 2006,
-   "stats": {
-    "tackles": 23,
-    "tfl": 1,
-    "sacks": 1,
-    "pbu": 1,
-    "ff": 2
-   }
-  },
-  {
-   "name": "Anthony Elzy",
-   "year": 2006,
-   "stats": {
     "tackles": 2
    }
   },
   {
-   "name": "Camaron Thomas",
-   "year": 2006,
-   "stats": {
-    "tackles": 18,
-    "tfl": 1.5,
-    "sacks": 1.5
-   }
-  },
-  {
-   "name": "Camaron Thomas",
-   "year": 2007,
-   "stats": {
-    "tackles": 8,
-    "tfl": 1.5,
-    "sacks": 1,
-    "ff": 1
-   }
-  },
-  {
-   "name": "Richard Rich",
-   "year": 2006,
-   "stats": {
-    "rushYds": -1,
-    "rec": 2,
-    "recYds": 24,
-    "tackles": 1
-   }
-  },
-  {
-   "name": "Richard Rich",
-   "year": 2007,
-   "stats": {
-    "rushYds": 32,
-    "rec": 4,
-    "recYds": 30,
-    "tackles": 13
-   }
-  },
-  {
-   "name": "Da'Norris Searcy",
+   "name": "Da'Norris Searcey",
    "year": 2007,
    "stats": {
     "tackles": 9
-   }
-  },
-  {
-   "name": "Da'Norris Searcy",
-   "year": 2009,
-   "stats": {
-    "tackles": 35,
-    "tfl": 1,
-    "defInt": 1,
-    "pbu": 3
-   }
-  },
-  {
-   "name": "Da'Norris Searcy",
-   "year": 2010,
-   "stats": {
-    "tfl": 2,
-    "defInt": 4,
-    "tackles": 37
-   }
-  },
-  {
-   "name": "Darius Massenburg",
-   "year": 2007,
-   "stats": {
-    "tackles": 11,
-    "tfl": 1,
-    "pbu": 1
-   }
-  },
-  {
-   "name": "Hayden Hunter",
-   "year": 2007,
-   "stats": {
-    "tackles": 1
    }
   },
   {
@@ -1289,24 +980,21 @@
    }
   },
   {
-   "name": "Josh Hunter",
+   "name": "Da'Norris Searcy",
    "year": 2009,
    "stats": {
-    "tackles": 1
+    "tfl": 1,
+    "defInt": 1,
+    "tackles": 35
    }
   },
   {
-   "name": "Joshua McKie",
-   "year": 2009,
+   "name": "Da'Norris Searcy",
+   "year": 2010,
    "stats": {
-    "tackles": 2
-   }
-  },
-  {
-   "name": "Steven Hatley",
-   "year": 2009,
-   "stats": {
-    "tackles": 12
+    "tfl": 2,
+    "defInt": 4,
+    "tackles": 37
    }
   },
   {
@@ -2132,90 +1820,6 @@
    }
   },
   {
-   "srName": "matt baker",
-   "year": 2005,
-   "stats": {
-    "passYds": 2345,
-    "passTD": 9,
-    "passInt": 11,
-    "rushYds": -34,
-    "rushTD": 2,
-    "rec": 1,
-    "recYds": -3,
-    "recTD": 0,
-    "tackles": 1,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "derrele mitchell",
-   "year": 2005,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 12,
-    "recYds": 261,
-    "recTD": 2
-   }
-  },
-  {
-   "srName": "jarwarski pollock",
-   "year": 2005,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 30,
-    "recYds": 341,
-    "recTD": 2,
-    "tackles": 1,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "mahlon carey",
-   "year": 2005,
-   "stats": {
-    "tackles": 39,
-    "tfl": 3,
-    "sacks": 1,
-    "defInt": 0,
-    "ff": 2
-   }
-  },
-  {
-   "srName": "wallace wright",
-   "year": 2005,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 12,
-    "recYds": 176,
-    "recTD": 1,
-    "tackles": 9,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "ronnie mcgill",
-   "year": 2006,
-   "stats": {
-    "rushYds": 790,
-    "rushTD": 7,
-    "rec": 15,
-    "recYds": 148,
-    "recTD": 1
-   }
-  },
-  {
    "srName": "mike mason",
    "year": 2003,
    "stats": {
@@ -2235,339 +1839,6 @@
     "rec": 19,
     "recYds": 272,
     "recTD": 1
-   }
-  },
-  {
-   "srName": "mike mason",
-   "year": 2005,
-   "stats": {
-    "rushYds": -7,
-    "rushTD": 0,
-    "rec": 22,
-    "recYds": 372,
-    "recTD": 1,
-    "tackles": 6,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "jesse holley",
-   "year": 2006,
-   "stats": {
-    "rec": 37,
-    "recYds": 466,
-    "recTD": 2,
-    "tackles": 4,
-    "tfl": 0,
-    "sacks": 0
-   }
-  },
-  {
-   "srName": "jon hamlett",
-   "year": 2006,
-   "stats": {
-    "rec": 5,
-    "recYds": 51,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "justin phillips",
-   "year": 2005,
-   "stats": {
-    "rushYds": 2,
-    "rushTD": 0,
-    "rec": 6,
-    "recYds": 86,
-    "recTD": 0,
-    "tackles": 5,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "tommy davis",
-   "year": 2005,
-   "stats": {
-    "tackles": 41,
-    "tfl": 11,
-    "sacks": 8.5,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "larry edwards",
-   "year": 2006,
-   "stats": {
-    "rushYds": 2,
-    "rushTD": 0,
-    "tackles": 58,
-    "tfl": 5.5,
-    "sacks": 3,
-    "ff": 1
-   }
-  },
-  {
-   "srName": "jacoby watkins",
-   "year": 2006,
-   "stats": {
-    "tackles": 52,
-    "tfl": 2,
-    "sacks": 1
-   }
-  },
-  {
-   "srName": "kareen taylor",
-   "year": 2006,
-   "stats": {
-    "tackles": 70,
-    "tfl": 2,
-    "sacks": 0,
-    "defInt": 5
-   }
-  },
-  {
-   "srName": "hilee taylor",
-   "year": 2007,
-   "stats": {
-    "tackles": 49,
-    "tfl": 16,
-    "sacks": 10.5,
-    "ff": 3
-   }
-  },
-  {
-   "srName": "dj walker",
-   "year": 2006,
-   "stats": {
-    "tackles": 65,
-    "tfl": 0,
-    "sacks": 0
-   }
-  },
-  {
-   "srName": "barrington edwards",
-   "year": 2006,
-   "stats": {
-    "rushYds": 330,
-    "rushTD": 2,
-    "rec": 12,
-    "recYds": 103,
-    "recTD": 0,
-    "tackles": 1,
-    "tfl": 0,
-    "sacks": 0
-   }
-  },
-  {
-   "srName": "james arnold",
-   "year": 2005,
-   "stats": {
-    "rushYds": 187,
-    "rushTD": 0,
-    "rec": 4,
-    "recYds": 29,
-    "recTD": 0,
-    "tackles": 3,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "james arnold",
-   "year": 2006,
-   "stats": {
-    "tackles": 48,
-    "tfl": 1,
-    "sacks": 0,
-    "ff": 2
-   }
-  },
-  {
-   "srName": "tommy richardson",
-   "year": 2005,
-   "stats": {
-    "tackles": 91,
-    "tfl": 6,
-    "sacks": 1,
-    "defInt": 1,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "cedrick holt",
-   "year": 2005,
-   "stats": {
-    "tackles": 58,
-    "tfl": 5,
-    "sacks": 0,
-    "defInt": 2,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "durell mapp",
-   "year": 2005,
-   "stats": {
-    "tackles": 46,
-    "tfl": 2,
-    "sacks": 1,
-    "defInt": 0,
-    "ff": 2
-   }
-  },
-  {
-   "srName": "durell mapp",
-   "year": 2006,
-   "stats": {
-    "tackles": 87,
-    "tfl": 4,
-    "sacks": 0
-   }
-  },
-  {
-   "srName": "durell mapp",
-   "year": 2007,
-   "stats": {
-    "tackles": 132,
-    "tfl": 7,
-    "sacks": 3,
-    "defInt": 1,
-    "ff": 1
-   }
-  },
-  {
-   "srName": "chase page",
-   "year": 2005,
-   "stats": {
-    "tackles": 27,
-    "tfl": 7,
-    "sacks": 4,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "victor worsley",
-   "year": 2006,
-   "stats": {
-    "tackles": 58,
-    "tfl": 4.5,
-    "sacks": 1.5
-   }
-  },
-  {
-   "srName": "shelton bynum",
-   "year": 2006,
-   "stats": {
-    "tackles": 26,
-    "tfl": 3.5,
-    "sacks": 3
-   }
-  },
-  {
-   "srName": "kentwan balmer",
-   "year": 2007,
-   "stats": {
-    "tackles": 59,
-    "tfl": 9.5,
-    "sacks": 3.5
-   }
-  },
-  {
-   "srName": "brian rackley",
-   "year": 2006,
-   "stats": {
-    "tackles": 28,
-    "tfl": 2,
-    "sacks": 2,
-    "ff": 1
-   }
-  },
-  {
-   "srName": "joe dailey",
-   "year": 2007,
-   "stats": {
-    "passYds": 0,
-    "passTD": 0,
-    "passInt": 1,
-    "rushYds": 5,
-    "rushTD": 0,
-    "rec": 2,
-    "recYds": 38,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "bobby rome",
-   "year": 2007,
-   "stats": {
-    "passYds": 50,
-    "passTD": 1,
-    "passInt": 0,
-    "rushYds": 3,
-    "rushTD": 0,
-    "rec": 16,
-    "recYds": 183,
-    "recTD": 1
-   }
-  },
-  {
-   "srName": "bobby rome",
-   "year": 2009,
-   "stats": {
-    "passYds": 31,
-    "passTD": 0,
-    "passInt": 0,
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 28,
-    "recTD": 0
-   }
-  },
-  {
-   "srName": "richie rich",
-   "year": 2007,
-   "stats": {
-    "rushYds": 32,
-    "rushTD": 0,
-    "rec": 4,
-    "recYds": 30,
-    "recTD": 0,
-    "tackles": 13,
-    "tfl": 0,
-    "sacks": 0
-   }
-  },
-  {
-   "srName": "ej wilson",
-   "year": 2009,
-   "stats": {
-    "tackles": 49,
-    "tfl": 12,
-    "sacks": 4,
-    "defInt": 0,
-    "ff": 5
-   }
-  },
-  {
-   "srName": "kennedy tinsley",
-   "year": 2009,
-   "stats": {
-    "tackles": 39,
-    "tfl": 1,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
    }
   },
   {
@@ -2599,79 +1870,6 @@
     "tfl": 2,
     "sacks": 0,
     "defInt": 4,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "erik highsmith",
-   "year": 2009,
-   "stats": {
-    "passYds": 0,
-    "passTD": 0,
-    "passInt": 0,
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 37,
-    "recYds": 425,
-    "recTD": 2
-   }
-  },
-  {
-   "srName": "devon ramsey",
-   "year": 2009,
-   "stats": {
-    "rushYds": 0,
-    "rushTD": 0,
-    "rec": 6,
-    "recYds": 57,
-    "recTD": 0,
-    "tackles": 2,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "jheranie boyd",
-   "year": 2009,
-   "stats": {
-    "rushYds": 130,
-    "rushTD": 1,
-    "rec": 12,
-    "recYds": 214,
-    "recTD": 4,
-    "tackles": 1,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "jamal womble",
-   "year": 2009,
-   "stats": {
-    "rushYds": 41,
-    "rushTD": 0,
-    "rec": 0,
-    "recYds": 0,
-    "recTD": 0,
-    "tackles": 1,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "kevin reddick",
-   "year": 2009,
-   "stats": {
-    "tackles": 45,
-    "tfl": 6,
-    "sacks": 0,
-    "defInt": 0,
     "ff": 0
    }
   },
@@ -3165,16 +2363,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Jay Spence",
-   "span": "2005-2005",
-   "composite": 29.5,
-   "wmtVotes": {
-    "QB": 1
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Storm Duck",
    "span": "2019-2022",
    "composite": 27.5,
@@ -3282,15 +2470,27 @@
   },
   {
    "name": "Derrele Mitchell",
-   "span": "2002-2004",
+   "span": "2002-2005",
    "composite": 20.8,
    "wmtVotes": {
-    "WR": 3
+    "WR": 4
    },
    "srDefVotes": {},
    "srOffVotes": {
-    "WR": 2
+    "WR": 3
    }
+  },
+  {
+   "name": "Barrington Edwards",
+   "span": "2004-2006",
+   "composite": 20.3,
+   "wmtVotes": {
+    "RB": 2
+   },
+   "srDefVotes": {
+    "RB": 1
+   },
+   "srOffVotes": {}
   },
   {
    "name": "Don Chapman",
@@ -3421,18 +2621,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Barrington Edwards",
-   "span": "2004-2005",
-   "composite": 15.2,
-   "wmtVotes": {
-    "RB": 2
-   },
-   "srDefVotes": {
-    "RB": 1
-   },
-   "srOffVotes": {}
-  },
-  {
    "name": "Isaiah Johnson",
    "span": "2025-2025",
    "composite": 15.1,
@@ -3515,24 +2703,28 @@
    "srOffVotes": {}
   },
   {
-   "name": "James Cooter Arnold",
-   "span": "2005-2007",
+   "name": "James Arnold",
+   "span": "2005-2008",
    "composite": 13.2,
    "wmtVotes": {
-    "WR": 3
+    "RB": 1,
+    "WR": 1
    },
-   "srDefVotes": {},
+   "srDefVotes": {
+    "RB": 1,
+    "WR": 1
+   },
    "srOffVotes": {}
   },
   {
    "name": "Cam Thomas",
-   "span": "2008-2008",
+   "span": "2006-2009",
    "composite": 12.8,
    "wmtVotes": {
-    "DL": 1
+    "DL": 2
    },
    "srDefVotes": {
-    "DL": 1
+    "DL": 2
    },
    "srOffVotes": {}
   },
@@ -3567,18 +2759,6 @@
    },
    "srDefVotes": {
     "DB": 1
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Melvin Williams",
-   "span": "2008-2009",
-   "composite": 12.1,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {
-    "DB": 2
    },
    "srOffVotes": {}
   },
@@ -3622,12 +2802,14 @@
   },
   {
    "name": "Wallace Wright",
-   "span": "2003-2004",
-   "composite": 9.4,
+   "span": "2003-2005",
+   "composite": 10.1,
    "wmtVotes": {
-    "WR": 2
+    "WR": 3
    },
-   "srDefVotes": {},
+   "srDefVotes": {
+    "WR": 1
+   },
    "srOffVotes": {}
   },
   {
@@ -3655,8 +2837,20 @@
    "srOffVotes": {}
   },
   {
+   "name": "Melvin Williams",
+   "span": "2008-2009",
+   "composite": 8.5,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "Da'Norris Searcey",
-   "span": "2008-2008",
+   "span": "2007-2008",
    "composite": 8.1,
    "wmtVotes": {
     "DB": 1
@@ -3711,18 +2905,6 @@
     "DL": 2
    },
    "srOffVotes": {}
-  },
-  {
-   "name": "Kenton Thornton",
-   "span": "2006-2008",
-   "composite": 6.4,
-   "wmtVotes": {
-    "WR": 3
-   },
-   "srDefVotes": {},
-   "srOffVotes": {
-    "WR": 1
-   }
   },
   {
    "name": "Peter Mangum",
@@ -3798,14 +2980,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Joe Dailey",
-   "span": "2006-2006",
-   "composite": 4.7,
-   "wmtVotes": {},
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Coleman Bryson",
    "span": "2025-2025",
    "composite": 4.5,
@@ -3866,6 +3040,18 @@
    "srOffVotes": {}
   },
   {
+   "name": "Darrius Massenburg",
+   "span": "2007-2008",
+   "composite": 3.1,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "D.J. Jones",
    "span": "2020-2023",
    "composite": 2.7,
@@ -3881,18 +3067,18 @@
    }
   },
   {
-   "name": "Steven Hatley",
-   "span": "2009-2009",
-   "composite": 2.4,
+   "name": "Kendric Williams",
+   "span": "2006-2007",
+   "composite": 2.5,
    "wmtVotes": {
-    "RB": 1
+    "DB": 1
    },
    "srDefVotes": {},
    "srOffVotes": {}
   },
   {
    "name": "Richie Rich",
-   "span": "2008-2008",
+   "span": "2006-2008",
    "composite": 2.3,
    "wmtVotes": {
     "DB": 1
@@ -3935,18 +3121,6 @@
    },
    "srDefVotes": {
     "DB": 3
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Darrius Massenburg",
-   "span": "2008-2008",
-   "composite": 1.4,
-   "wmtVotes": {
-    "DL": 1
-   },
-   "srDefVotes": {
-    "DL": 1
    },
    "srOffVotes": {}
   },
@@ -4027,9 +3201,9 @@
    "srOffVotes": {}
   },
   {
-   "name": "Ronald Brewer",
-   "span": "2002-2002",
-   "composite": 0.9,
+   "name": "Tom O'Leary",
+   "span": "2005-2005",
+   "composite": 1,
    "wmtVotes": {
     "DB": 1
    },
@@ -4037,10 +3211,12 @@
    "srOffVotes": {}
   },
   {
-   "name": "Justin Henderson",
-   "span": "2005-2005",
+   "name": "Ronald Brewer",
+   "span": "2002-2002",
    "composite": 0.9,
-   "wmtVotes": {},
+   "wmtVotes": {
+    "DB": 1
+   },
    "srDefVotes": {},
    "srOffVotes": {}
   },
@@ -4199,6 +3375,14 @@
    "srOffVotes": {}
   },
   {
+   "name": "Patrick Marsh",
+   "span": "2006-2006",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
    "name": "Adam Curry",
    "span": "2011-2011",
    "composite": 0.4,
@@ -4268,10 +3452,10 @@
   },
   {
    "name": "Josh Hunter",
-   "span": "2009-2010",
+   "span": "2010-2010",
    "composite": 0.3,
    "wmtVotes": {
-    "DB": 2
+    "DB": 1
    },
    "srDefVotes": {
     "DB": 1
@@ -4345,22 +3529,20 @@
    "srOffVotes": {}
   },
   {
+   "name": "Ryan Baucom",
+   "span": "2007-2007",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
    "name": "Trevor Stuart",
    "span": "2008-2008",
    "composite": 0.2,
    "wmtVotes": {},
    "srDefVotes": {
     "TE": 1
-   },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Trase Jones",
-   "span": "2011-2011",
-   "composite": 0.2,
-   "wmtVotes": {},
-   "srDefVotes": {
-    "DB": 1
    },
    "srOffVotes": {}
   },
