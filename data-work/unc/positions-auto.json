@@ -695,6 +695,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Wallace Wright",
+  "position": "WR",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Wallace_Wright"
+ },
+ {
+  "name": "Barrington Edwards",
+  "position": "RB",
+  "basis": "override",
+  "source": "https://goheels.com/news/2006/8/27/205478045.aspx?path=football"
+ },
+ {
   "name": "Bryan Bethea",
   "position": "CB",
   "basis": "wmt-fine"
@@ -820,6 +832,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "James Cooter Arnold",
+  "position": "RB",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/recruitprofile90.aspx"
+ },
+ {
   "name": "Joseph Bozich",
   "position": "LB",
   "basis": "wmt-fine"
@@ -903,6 +921,12 @@
   "name": "Jermaine Strong",
   "position": "CB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Joe Dailey",
+  "position": "QB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Joe_Dailey"
  },
  {
   "name": "Jordan Hemby",
@@ -1065,6 +1089,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Cam Thomas",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Cam_Thomas_(defensive_tackle)"
+ },
+ {
   "name": "Christian Wilson",
   "position": "TE",
   "basis": "wmt-fine"
@@ -1073,6 +1103,12 @@
   "name": "Cooter Arnold",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Da'Norris Searcey",
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Da'Norris_Searcy"
  },
  {
   "name": "Ebele Okakpu",
@@ -1090,6 +1126,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Melvin Williams",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/recruitprofile34.aspx"
+ },
+ {
+  "name": "Michael McAdoo",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Mike_McAdoo"
+ },
+ {
   "name": "Mike Paulus",
   "position": "QB",
   "basis": "wmt-fine"
@@ -1098,6 +1146,12 @@
   "name": "Quinton Coples",
   "position": "DE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Robert Quinn",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Robert_Quinn_(American_football)"
  },
  {
   "name": "Vince Jacobs",
@@ -1170,6 +1224,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Mywan Jackson",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/480620/mywan-jackson"
+ },
+ {
   "name": "Shane Mularkey",
   "position": "LB",
   "basis": "wmt-fine"
@@ -1220,6 +1280,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jared McAdoo",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/480629/jared-mcadoo"
+ },
+ {
   "name": "Jheranie Boyd",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1248,6 +1314,12 @@
   "name": "Nelson Hurst",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Peter Mangum",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/bio1726.aspx"
  },
  {
   "name": "Terry Shankle",
@@ -1300,6 +1372,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jack Tabb",
+  "position": "TE",
+  "basis": "override",
+  "source": "https://goheels.com/sports/football/roster/jack-tabb/11703"
+ },
+ {
   "name": "Norkeithus Otis",
   "position": "LB",
   "basis": "wmt-fine"
@@ -1323,6 +1401,12 @@
   "name": "Shawn Underwood",
   "position": "DT",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Sylvester Williams",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Sylvester_Williams_(American_football)"
  },
  {
   "name": "Tim Scott",
@@ -1378,6 +1462,12 @@
   "name": "Kameron Jackson",
   "position": "CB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Kendrick Singleton",
+  "position": "WR",
+  "basis": "override",
+  "source": "https://goheels.com/sports/football/roster/kendrick-singleton/12275"
  },
  {
   "name": "Malik Simmons",
@@ -1470,6 +1560,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Dominique Green",
+  "position": "S",
+  "basis": "override",
+  "source": "https://goheels.com/news/2013/10/18/209286711"
+ },
+ {
   "name": "Eric Albright",
   "position": "TE",
   "basis": "wmt-fine"
@@ -1508,6 +1604,12 @@
   "name": "Khris Francis",
   "position": "RB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Mack Hollins",
+  "position": "WR",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Mack_Hollins"
  },
  {
   "name": "Mikey Bart",
@@ -1593,6 +1695,12 @@
   "name": "Nazair Jones",
   "position": "DT",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Tyler Powell",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/recruitprofile1005.aspx"
  },
  {
   "name": "Tyrell Tomlin",
@@ -1682,6 +1790,11 @@
  {
   "name": "Allen Cater",
   "position": "DE",
+  "basis": "wmt-fine"
+ },
+ {
+  "name": "Anthony Ratliff-Williams",
+  "position": "WR",
   "basis": "wmt-fine"
  },
  {
@@ -1855,11 +1968,6 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Anthony Ratliff-Williams",
-  "position": "WR",
-  "basis": "wmt-fine"
- },
- {
   "name": "Austin Chrismon",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1970,6 +2078,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Xach Gill",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/recruitprofile1806.aspx"
+ },
+ {
   "name": "Antoine Green",
   "position": "WR",
   "basis": "wmt-fine"
@@ -1995,6 +2109,18 @@
   "basis": "sr-def"
  },
  {
+  "name": "Giovanni Biggers",
+  "position": "S",
+  "basis": "override",
+  "source": "https://nfldraftdiamonds.com/2023/06/giovanni-biggers/"
+ },
+ {
+  "name": "Jason Strowbridge",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Jason_Strowbridge"
+ },
+ {
   "name": "Josh Henderson",
   "position": "RB",
   "basis": "wmt-fine"
@@ -2005,9 +2131,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Kevin Hester Jr.",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.on3.com/rivals/kevin-hester-74158/"
+ },
+ {
   "name": "Noah Turner",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Obi Egbuna",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.on3.com/rivals/obi-egbuna-94133/"
  },
  {
   "name": "R Johnson",
@@ -2020,6 +2158,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Storm Duck",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Storm_Duck"
+ },
+ {
+  "name": "Tomari Fox",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://goheels.com/sports/football/roster/tomari-fox/24257"
+ },
+ {
   "name": "Vincent Amendola",
   "position": "QB",
   "basis": "wmt-fine"
@@ -2028,6 +2178,12 @@
   "name": "Alex Nobles",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Cam'Ron Kelly",
+  "position": "S",
+  "basis": "override",
+  "source": "https://keepingitheel.com/2019/08/28/unc-football-4-star-freshman-camron-kelly-ruled-eligible-play/"
  },
  {
   "name": "Cedric Gray",
@@ -2070,6 +2226,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Tony Grimes",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/story/_/id/29389755/cornerback-tony-grimes-espn-no-6-prospect-commits-north-carolina"
+ },
+ {
   "name": "Bryson Nesbit",
   "position": "TE",
   "basis": "wmt-fine"
@@ -2080,14 +2242,32 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "DeAndre Boykins",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/college/north-carolina/longformarticle/expert-analysis-scouting-uncs-corners-210951513/"
+ },
+ {
   "name": "Desmond Evans",
   "position": "LB",
   "basis": "wmt-fine"
  },
  {
+  "name": "Don Chapman",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.on3.com/db/don-chapman-37817/"
+ },
+ {
   "name": "Drake Maye",
   "position": "QB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Jahvaree Ritzie",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Jahvaree_Ritzie"
  },
  {
   "name": "J.J. Jones",
@@ -2110,6 +2290,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Myles Murphy",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.tarheelblog.com/2024/4/19/24131875/unc-football-north-carolina-tar-heels-myles-murphy-nfl-draft-profile"
+ },
+ {
   "name": "Power Echols",
   "position": "LB",
   "basis": "wmt-fine"
@@ -2118,6 +2304,12 @@
   "name": "Raneiria 'Rara' Dillworth",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Raymond Vohasek",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Raymond_Vohasek"
  },
  {
   "name": "Stephen Gosnell",
@@ -2145,6 +2337,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jacolbe Cowan",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://opendorse.com/profile/jacolbe-cowan"
+ },
+ {
   "name": "Jalen Brooks",
   "position": "LB",
   "basis": "wmt-fine"
@@ -2153,6 +2351,18 @@
   "name": "Kobe Paysour",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Lejond Cavazos",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.elevenwarriors.com/ohio-state-football/2022/04/130581/former-ohio-state-cornerback-lejond-cavazos-transferring-to-north-carolina"
+ },
+ {
+  "name": "Marcus Allen",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.espn.com/college-football/player/_/id/5081412/marcus-allen"
  },
  {
   "name": "Noah Taylor",
@@ -2175,6 +2385,24 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Travis Shaw",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://hookemheadlines.com/big-unc-transfer-dt-travis-shaw-commits-to-texas"
+ },
+ {
+  "name": "Will Hardy",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.si.com/college/unc/will-hardy-acc-tar-heels-bill-belichick"
+ },
+ {
+  "name": "Alijah Huzzie",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Alijah_Huzzie"
+ },
+ {
   "name": "Amare Campbell",
   "position": "LB",
   "basis": "wmt-fine"
@@ -2183,6 +2411,24 @@
   "name": "Amari Gainer",
   "position": "LB",
   "basis": "sr-def"
+ },
+ {
+  "name": "Antavious Lane",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.on3.com/db/antavious-lane-5795/"
+ },
+ {
+  "name": "Armani Chatman",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/player/armani-chatman-86256/"
+ },
+ {
+  "name": "Beau Atkinson",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Beau_Atkinson"
  },
  {
   "name": "Brooks Miller",
@@ -2235,6 +2481,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Kaleb Cost",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.on3.com/rivals/70683/"
+ },
+ {
   "name": "Kellan Hood",
   "position": "RB",
   "basis": "wmt-fine"
@@ -2243,6 +2495,12 @@
   "name": "Nate McCollum",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Tayon Holloway",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/player/tayon-holloway-46086344/college-284183/"
  },
  {
   "name": "Tychaun Chapman",
@@ -2285,9 +2543,21 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Jaiden Patterson",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.tarheeltimes.com/article147667.aspx"
+ },
+ {
   "name": "Jake Johnson",
   "position": "TE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Jakeen Harris",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/player/jakeen-harris-46048076/"
  },
  {
   "name": "Javarius Green",
@@ -2298,6 +2568,18 @@
   "name": "Jordan Shipp",
   "position": "WR",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Leroy Jackson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://247sports.com/college/north-carolina/article/freshly-offered-dt-leroy-jackson-working-on-unc-official-visit-216886195/"
+ },
+ {
+  "name": "Malcolm Ziglar",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/player/malcolm-ziglar-46134656/college-309587/"
  },
  {
   "name": "Mali Hamrick",
@@ -2350,6 +2632,18 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "CJ Mims",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://goheels.com/sports/football/roster/cj-mims/26905"
+ },
+ {
+  "name": "Coleman Bryson",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.on3.com/rivals/coleman-bryson-24935/"
+ },
+ {
   "name": "Connor Cox",
   "position": "TE",
   "basis": "wmt-fine"
@@ -2358,6 +2652,12 @@
   "name": "Daniel Anderson",
   "position": "LB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "D'Antre Robinson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://www.si.com/college/unc/tar-heels-football-cj-mims-isaiah-johnson-dantre-robinson"
  },
  {
   "name": "Demon June",
@@ -2370,9 +2670,27 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Gavin Gibson",
+  "position": "S",
+  "basis": "override",
+  "source": "https://www.si.com/college/unc/tar-heels-gavin-gibson-football-khristian-dunbar-hawkins"
+ },
+ {
   "name": "Gio Lopez",
   "position": "QB",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Isaiah Johnson",
+  "position": "DT",
+  "basis": "override",
+  "source": "https://goheels.com/sports/football/roster/isaiah-johnson/28129"
+ },
+ {
+  "name": "Jalon Thompson",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://www.si.com/college/unc/tar-heels-three-2026-football-defensive-backs-could-surprise"
  },
  {
   "name": "Jaylen McGill",

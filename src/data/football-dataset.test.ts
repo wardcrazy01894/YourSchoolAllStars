@@ -9,6 +9,7 @@ import {
   pittsburghFootball,
   floridaFootball,
   virginiaTechFootball,
+  northCarolinaFootball,
 } from './index'
 import { fbWindows, playerInWindow } from '../lib/football'
 import { fbStatComposite, fbHonorTier } from '../lib/football-rating'
@@ -42,6 +43,7 @@ describe.each([
   ['pitt', pittsburghFootball],
   ['florida', floridaFootball],
   ['vt', virginiaTechFootball],
+  ['unc', northCarolinaFootball],
 ])('%s football dataset', (_school, dataset) => {
   const { players, provisional } = dataset
   // The live era wheel the game actually spins for THIS dataset (rolling

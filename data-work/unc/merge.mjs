@@ -51,7 +51,14 @@ function posOf(raw) {
   return null
 }
 
-const normName = (s) =>
+// Cross-source name variants (the Sidearm payload and the SR/roster spellings
+// disagree), verified same human/era. Without these the person is SPLIT in two
+// and his honors can't attach to the seasons he won them in.
+const RENAME = {
+  'a ratliff': 'anthony ratliff-williams',
+}
+
+const normName0 = (s) =>
   s
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
@@ -60,6 +67,7 @@ const normName = (s) =>
     .replace(/\s+(jr|sr|ii|iii|iv|v)$/i, '')
     .replace(/\s+/g, ' ')
     .trim()
+const normName = (s) => RENAME[normName0(s)] ?? normName0(s)
 
 // ── load ─────────────────────────────────────────────────────────────────────
 const rows = []
@@ -77,6 +85,19 @@ for (let y = FIRST; y <= LAST; y++) {
       from: d.from,
     })
 }
+
+// A source can list the same person twice in one season (two table rows for
+// one player), which would ship duplicate season years — the guard rejects
+// that. Collapse to ONE row per (person, year), merging the stat keys.
+const byPersonYear = new Map()
+for (const r of rows) {
+  const k = `${r.key}:${r.year}`
+  const prev = byPersonYear.get(k)
+  if (!prev) byPersonYear.set(k, r)
+  else prev.stats = { ...prev.stats, ...r.stats }
+}
+rows.length = 0
+rows.push(...byPersonYear.values())
 
 // ── persons (year-adjacency) ─────────────────────────────────────────────────
 rows.sort((a, b) => a.key.localeCompare(b.key) || a.year - b.year)

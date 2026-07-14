@@ -618,7 +618,7 @@
    "key": "ronnie robinson",
    "position": "RB",
    "positionVotes": {
-    "RB": 5
+    "RB": 4
    },
    "firstYear": 1997,
    "lastYear": 2000,
@@ -657,14 +657,7 @@
      "stats": {
       "rushYds": 34,
       "rec": 1,
-      "recYds": 2
-     },
-     "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2000,
-     "stats": {
+      "recYds": 2,
       "tackles": 1
      },
      "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
@@ -884,7 +877,7 @@
    "key": "dauntae finger",
    "position": "TE",
    "positionVotes": {
-    "TE": 4
+    "TE": 3
    },
    "firstYear": 1998,
    "lastYear": 2000,
@@ -912,14 +905,7 @@
      "year": 2000,
      "stats": {
       "rec": 2,
-      "recYds": 27
-     },
-     "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2000,
-     "stats": {
+      "recYds": 27,
       "tackles": 1
      },
      "source": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
@@ -1955,7 +1941,7 @@
    "key": "derrick johnson",
    "position": "CB",
    "positionVotes": {
-    "CB": 5
+    "CB": 4
    },
    "firstYear": 2000,
    "lastYear": 2003,
@@ -1982,19 +1968,11 @@
     {
      "year": 2002,
      "stats": {
-      "tackles": 39,
+      "tackles": 1,
       "tfl": 1,
       "sacks": 1,
       "pbu": 6,
       "ff": 1
-     },
-     "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2002,
-     "stats": {
-      "tackles": 1
      },
      "source": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html",
      "from": "official-cume"
@@ -3096,7 +3074,7 @@
    "key": "darian durant",
    "position": "QB",
    "positionVotes": {
-    "QB": 5
+    "QB": 4
    },
    "firstYear": 2001,
    "lastYear": 2004,
@@ -3145,14 +3123,7 @@
       "rushTD": 1,
       "passYds": 2238,
       "passTD": 17,
-      "passInt": 9
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "passInt": 9,
       "tackles": 1
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -3267,7 +3238,7 @@
    "key": "jacque lewis",
    "position": "RB",
    "positionVotes": {
-    "RB": 5
+    "RB": 4
    },
    "firstYear": 2001,
    "lastYear": 2004,
@@ -3316,14 +3287,7 @@
       "rushYds": 557,
       "rushTD": 3,
       "rec": 5,
-      "recYds": 24
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recYds": 24,
       "tackles": 2
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -3416,7 +3380,7 @@
    "key": "madison hedgecock",
    "position": "DE",
    "positionVotes": {
-    "RB": 4,
+    "RB": 3,
     "DE": 1
    },
    "firstYear": 2001,
@@ -3462,14 +3426,7 @@
       "rushYds": 118,
       "rushTD": 2,
       "rec": 4,
-      "recYds": 35
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recYds": 35,
       "tackles": 2
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -3608,7 +3565,7 @@
    "key": "cj stephens",
    "position": "QB",
    "positionVotes": {
-    "QB": 3
+    "QB": 2
    },
    "firstYear": 2002,
    "lastYear": 2003,
@@ -3631,14 +3588,7 @@
      "stats": {
       "rushYds": -26,
       "passYds": 186,
-      "passTD": 1
-     },
-     "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2003,
-     "stats": {
+      "passTD": 1,
       "tackles": 7,
       "tfl": 1
      },
@@ -3652,7 +3602,7 @@
    "key": "derrele mitchell",
    "position": null,
    "positionVotes": {
-    "WR": 4
+    "WR": 3
    },
    "firstYear": 2002,
    "lastYear": 2004,
@@ -3673,14 +3623,6 @@
       "rec": 17,
       "recYds": 146,
       "recTD": 2,
-      "tackles": 1
-     },
-     "source": "http://web.archive.org/web/20100412135519id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2003-2004/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2003,
-     "stats": {
       "tackles": 65,
       "pbu": 8,
       "ff": 1
@@ -3735,7 +3677,7 @@
    "key": "doug justice",
    "position": "LB",
    "positionVotes": {
-    "LB": 4
+    "LB": 3
    },
    "firstYear": 2002,
    "lastYear": 2004,
@@ -3764,14 +3706,7 @@
     {
      "year": 2004,
      "stats": {
-      "rushYds": 3
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "rushYds": 3,
       "tackles": 48,
       "tfl": 6,
       "sacks": 1
@@ -4253,7 +4188,7 @@
    "key": "adarius bowman",
    "position": "WR",
    "positionVotes": {
-    "WR": 3
+    "WR": 2
    },
    "firstYear": 2003,
    "lastYear": 2004,
@@ -4274,14 +4209,7 @@
       "rushYds": -4,
       "rec": 18,
       "recYds": 329,
-      "recTD": 3
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recTD": 3,
       "tackles": 5
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -4368,7 +4296,7 @@
    "key": "chad scott",
    "position": "RB",
    "positionVotes": {
-    "RB": 3
+    "RB": 2
    },
    "firstYear": 2003,
    "lastYear": 2004,
@@ -4393,14 +4321,7 @@
       "rushTD": 8,
       "rec": 13,
       "recYds": 107,
-      "recTD": 1
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recTD": 1,
       "tackles": 3
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -4573,7 +4494,7 @@
    "key": "jesse holley",
    "position": "WR",
    "positionVotes": {
-    "WR": 4
+    "WR": 3
    },
    "firstYear": 2003,
    "lastYear": 2005,
@@ -4595,14 +4516,7 @@
       "rushYds": 4,
       "rec": 30,
       "recYds": 456,
-      "recTD": 2
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recTD": 2,
       "tackles": 6
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -4894,7 +4808,7 @@
    "key": "ronnie mcgill",
    "position": "RB",
    "positionVotes": {
-    "RB": 4
+    "RB": 3
    },
    "firstYear": 2003,
    "lastYear": 2005,
@@ -4921,14 +4835,7 @@
       "rushTD": 5,
       "rec": 2,
       "recYds": 19,
-      "recTD": 1
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recTD": 1,
       "tackles": 2
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -4983,7 +4890,7 @@
    "key": "wallace wright",
    "position": null,
    "positionVotes": {
-    "WR": 3
+    "WR": 2
    },
    "firstYear": 2003,
    "lastYear": 2004,
@@ -5006,14 +4913,7 @@
       "rushYds": 2,
       "rec": 10,
       "recYds": 119,
-      "recTD": 2
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "recTD": 2,
       "tackles": 9,
       "ff": 1
      },
@@ -5743,7 +5643,7 @@
    "key": "vince wilson",
    "position": "RB",
    "positionVotes": {
-    "RB": 2
+    "RB": 1
    },
    "firstYear": 2004,
    "lastYear": 2004,
@@ -5751,14 +5651,7 @@
     {
      "year": 2004,
      "stats": {
-      "rushYds": -3
-     },
-     "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2004,
-     "stats": {
+      "rushYds": -3,
       "tackles": 3
      },
      "source": "http://web.archive.org/web/20081206170414id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2004-2005/teamcume.html",
@@ -6662,7 +6555,7 @@
    "key": "kenton thornton",
    "position": null,
    "positionVotes": {
-    "WR": 4
+    "WR": 3
    },
    "firstYear": 2006,
    "lastYear": 2008,
@@ -6671,14 +6564,7 @@
      "year": 2006,
      "stats": {
       "rec": 5,
-      "recYds": 47
-     },
-     "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
-     "from": "official-cume"
-    },
-    {
-     "year": 2006,
-     "stats": {
+      "recYds": 47,
       "tackles": 22,
       "defInt": 1
      },
@@ -13655,42 +13541,6 @@
    ]
   },
   {
-   "name": "A Ratliff",
-   "key": "a ratliff",
-   "position": null,
-   "positionVotes": {},
-   "firstYear": 2016,
-   "lastYear": 2017,
-   "seasons": [
-    {
-     "year": 2016,
-     "stats": {
-      "rushYds": -10,
-      "rushTD": 0,
-      "rec": 3,
-      "recYds": 21
-     },
-     "source": "https://goheels.com/sports/football/stats/2016",
-     "from": "sidearm"
-    },
-    {
-     "year": 2017,
-     "stats": {
-      "passYds": 86,
-      "passTD": 2,
-      "passInt": 0,
-      "rushYds": 1,
-      "rushTD": 0,
-      "rec": 35,
-      "recYds": 630,
-      "recTD": 6
-     },
-     "source": "https://goheels.com/sports/football/stats/2017",
-     "from": "sidearm"
-    }
-   ]
-  },
-  {
    "name": "Allen Cater",
    "key": "allen cater",
    "position": "DE",
@@ -13730,6 +13580,57 @@
       "pbu": 2
      },
      "source": "https://goheels.com/sports/football/stats/2019",
+     "from": "sidearm"
+    }
+   ]
+  },
+  {
+   "name": "Anthony Ratliff-Williams",
+   "key": "anthony ratliff-williams",
+   "position": "WR",
+   "positionVotes": {
+    "WR": 1
+   },
+   "firstYear": 2016,
+   "lastYear": 2018,
+   "seasons": [
+    {
+     "year": 2016,
+     "stats": {
+      "rushYds": -10,
+      "rushTD": 0,
+      "rec": 3,
+      "recYds": 21
+     },
+     "source": "https://goheels.com/sports/football/stats/2016",
+     "from": "sidearm"
+    },
+    {
+     "year": 2017,
+     "stats": {
+      "passYds": 86,
+      "passTD": 2,
+      "passInt": 0,
+      "rushYds": 1,
+      "rushTD": 0,
+      "rec": 35,
+      "recYds": 630,
+      "recTD": 6
+     },
+     "source": "https://goheels.com/sports/football/stats/2017",
+     "from": "sidearm"
+    },
+    {
+     "year": 2018,
+     "stats": {
+      "passInt": 0,
+      "rushYds": 83,
+      "rushTD": 1,
+      "rec": 42,
+      "recYds": 689,
+      "recTD": 2
+     },
+     "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
    ]
@@ -15072,31 +14973,6 @@
      "year": 2021,
      "stats": {},
      "source": "https://goheels.com/sports/football/stats/2021",
-     "from": "sidearm"
-    }
-   ]
-  },
-  {
-   "name": "Anthony Ratliff-Williams",
-   "key": "anthony ratliff-williams",
-   "position": "WR",
-   "positionVotes": {
-    "WR": 1
-   },
-   "firstYear": 2018,
-   "lastYear": 2018,
-   "seasons": [
-    {
-     "year": 2018,
-     "stats": {
-      "passInt": 0,
-      "rushYds": 83,
-      "rushTD": 1,
-      "rec": 42,
-      "recYds": 689,
-      "recTD": 2
-     },
-     "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
    ]

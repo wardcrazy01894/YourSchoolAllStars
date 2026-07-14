@@ -1,30 +1,6 @@
 {
  "deltas": [
   {
-   "name": "Ronnie Robinson",
-   "year": 2000,
-   "stat": "rushYds",
-   "ours": 0,
-   "sr": 34,
-   "big": true
-  },
-  {
-   "name": "Ronnie Robinson",
-   "year": 2000,
-   "stat": "rec",
-   "ours": 0,
-   "sr": 1,
-   "big": true
-  },
-  {
-   "name": "Ronnie Robinson",
-   "year": 2000,
-   "stat": "recYds",
-   "ours": 0,
-   "sr": 2,
-   "big": true
-  },
-  {
    "name": "Quincy Monk",
    "year": 2001,
    "stat": "ff",
@@ -105,84 +81,12 @@
    "big": false
   },
   {
-   "name": "Darian Durant",
-   "year": 2004,
-   "stat": "passYds",
-   "ours": 0,
-   "sr": 2238,
-   "big": true
-  },
-  {
-   "name": "Darian Durant",
-   "year": 2004,
-   "stat": "passTD",
-   "ours": 0,
-   "sr": 17,
-   "big": true
-  },
-  {
-   "name": "Darian Durant",
-   "year": 2004,
-   "stat": "passInt",
-   "ours": 0,
-   "sr": 9,
-   "big": true
-  },
-  {
    "name": "Madison Hedgecock",
    "year": 2001,
    "stat": "ff",
    "ours": 1,
    "sr": 0,
    "big": false
-  },
-  {
-   "name": "C.J. Stephens",
-   "year": 2003,
-   "stat": "passYds",
-   "ours": 0,
-   "sr": 186,
-   "big": true
-  },
-  {
-   "name": "C.J. Stephens",
-   "year": 2003,
-   "stat": "passTD",
-   "ours": 0,
-   "sr": 1,
-   "big": true
-  },
-  {
-   "name": "C.J. Stephens",
-   "year": 2003,
-   "stat": "rushYds",
-   "ours": 0,
-   "sr": -26,
-   "big": true
-  },
-  {
-   "name": "Derrele Mitchell",
-   "year": 2003,
-   "stat": "rec",
-   "ours": 0,
-   "sr": 17,
-   "big": true
-  },
-  {
-   "name": "Derrele Mitchell",
-   "year": 2003,
-   "stat": "recYds",
-   "ours": 0,
-   "sr": 146,
-   "big": true
-  },
-  {
-   "name": "Derrele Mitchell",
-   "year": 2003,
-   "stat": "recTD",
-   "ours": 0,
-   "sr": 2,
-   "big": true
   },
   {
    "name": "Derrele Mitchell",
@@ -399,6 +303,14 @@
    "ours": 2,
    "sr": 0,
    "big": false
+  },
+  {
+   "name": "Anthony Ratliff-Williams",
+   "year": 2016,
+   "stat": "tackles",
+   "ours": 0,
+   "sr": 4,
+   "big": true
   },
   {
    "name": "Corey Bell Jr.",
@@ -1028,14 +940,6 @@
    }
   },
   {
-   "name": "Dauntae' Finger",
-   "year": 2000,
-   "stats": {
-    "rec": 2,
-    "recYds": 27
-   }
-  },
-  {
    "name": "Andre' Williams",
    "year": 2000,
    "stats": {
@@ -1138,39 +1042,12 @@
    }
   },
   {
-   "name": "Jacque Lewis",
-   "year": 2004,
-   "stats": {
-    "rushYds": 557,
-    "rushTD": 3,
-    "rec": 5,
-    "recYds": 24
-   }
-  },
-  {
-   "name": "Madison Hedgecock",
-   "year": 2004,
-   "stats": {
-    "rushYds": 118,
-    "rushTD": 2,
-    "rec": 4,
-    "recYds": 35
-   }
-  },
-  {
    "name": "Derrele Mitchell",
    "year": 2002,
    "stats": {
     "rushYds": 9,
     "rec": 15,
     "recYds": 232
-   }
-  },
-  {
-   "name": "Doug Justice",
-   "year": 2004,
-   "stats": {
-    "rushYds": 3
    }
   },
   {
@@ -1203,37 +1080,6 @@
    }
   },
   {
-   "name": "Adarius Bowman",
-   "year": 2004,
-   "stats": {
-    "rushYds": -4,
-    "rec": 18,
-    "recYds": 329,
-    "recTD": 3
-   }
-  },
-  {
-   "name": "Chad Scott",
-   "year": 2004,
-   "stats": {
-    "rushYds": 796,
-    "rushTD": 8,
-    "rec": 13,
-    "recYds": 107,
-    "recTD": 1
-   }
-  },
-  {
-   "name": "Jesse Holley",
-   "year": 2004,
-   "stats": {
-    "rushYds": 4,
-    "rec": 30,
-    "recYds": 456,
-    "recTD": 2
-   }
-  },
-  {
    "name": "Jon Hamlett",
    "year": 2004,
    "stats": {
@@ -1249,27 +1095,6 @@
     "rec": 5,
     "recYds": 79,
     "recTD": 1
-   }
-  },
-  {
-   "name": "Ronnie McGill",
-   "year": 2004,
-   "stats": {
-    "rushYds": 419,
-    "rushTD": 5,
-    "rec": 2,
-    "recYds": 19,
-    "recTD": 1
-   }
-  },
-  {
-   "name": "Wallace Wright",
-   "year": 2004,
-   "stats": {
-    "rushYds": 2,
-    "rec": 10,
-    "recYds": 119,
-    "recTD": 2
    }
   },
   {
@@ -1379,13 +1204,6 @@
     "defInt": 2,
     "pbu": 5,
     "ff": 3
-   }
-  },
-  {
-   "name": "Vince Wilson",
-   "year": 2004,
-   "stats": {
-    "rushYds": -3
    }
   },
   {
@@ -1704,13 +1522,7 @@
    "year": 2006,
    "stats": {
     "rec": 5,
-    "recYds": 47
-   }
-  },
-  {
-   "name": "Kenton Thornton",
-   "year": 2006,
-   "stats": {
+    "recYds": 47,
     "tackles": 22,
     "defInt": 1
    }
@@ -2166,17 +1978,17 @@
    }
   },
   {
-   "name": "A Ratliff",
-   "year": 2016,
-   "stats": {
-    "rushYds": -10,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 21
-   }
+   "name": "Allen Cater",
+   "year": 2017,
+   "stats": {}
   },
   {
-   "name": "A Ratliff",
+   "name": "Allen Cater",
+   "year": 2018,
+   "stats": {}
+  },
+  {
+   "name": "Anthony Ratliff-Williams",
    "year": 2017,
    "stats": {
     "passYds": 86,
@@ -2190,14 +2002,16 @@
    }
   },
   {
-   "name": "Allen Cater",
-   "year": 2017,
-   "stats": {}
-  },
-  {
-   "name": "Allen Cater",
+   "name": "Anthony Ratliff-Williams",
    "year": 2018,
-   "stats": {}
+   "stats": {
+    "passInt": 0,
+    "rushYds": 83,
+    "rushTD": 1,
+    "rec": 42,
+    "recYds": 689,
+    "recTD": 2
+   }
   },
   {
    "name": "Carl Tucker",
@@ -2667,18 +2481,6 @@
    "name": "Tyrone Hopper",
    "year": 2021,
    "stats": {}
-  },
-  {
-   "name": "Anthony Ratliff-Williams",
-   "year": 2018,
-   "stats": {
-    "passInt": 0,
-    "rushYds": 83,
-    "rushTD": 1,
-    "rec": 42,
-    "recYds": 689,
-    "recTD": 2
-   }
   },
   {
    "name": "Austin Chrismon",
@@ -4221,22 +4023,6 @@
    }
   },
   {
-   "srName": "anthony ratliff-williams",
-   "year": 2016,
-   "stats": {
-    "rushYds": -10,
-    "rushTD": 0,
-    "rec": 3,
-    "recYds": 21,
-    "recTD": 0,
-    "tackles": 4,
-    "tfl": 0,
-    "sacks": 0,
-    "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
    "srName": "patrice rene",
    "year": 2020,
    "stats": {
@@ -4479,14 +4265,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "A Ratliff",
-   "span": "2016-2017",
-   "composite": 37.2,
-   "wmtVotes": {},
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Beau Atkinson",
    "span": "2023-2024",
    "composite": 35.2,
@@ -4633,7 +4411,7 @@
    "span": "2002-2004",
    "composite": 20.8,
    "wmtVotes": {
-    "WR": 4
+    "WR": 3
    },
    "srDefVotes": {},
    "srOffVotes": {
@@ -4963,7 +4741,7 @@
    "span": "2003-2004",
    "composite": 9.4,
    "wmtVotes": {
-    "WR": 3
+    "WR": 2
    },
    "srDefVotes": {},
    "srOffVotes": {}
@@ -5045,7 +4823,7 @@
    "span": "2006-2008",
    "composite": 6.4,
    "wmtVotes": {
-    "WR": 4
+    "WR": 3
    },
    "srDefVotes": {},
    "srOffVotes": {
