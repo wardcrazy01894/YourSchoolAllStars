@@ -515,7 +515,14 @@ committed so the work is session-restartable). Source map:
   `data-work/vt/positions-override.json`; VT's Rover/Whip hybrids map to S
   unless sourced as edge). Six above-floor players whose DE/DT or CB/S split
   no citable source pins down were **dropped rather than guessed** (largest:
-  Ryan Smith 1997–98, confirmed DL but never split).
+  Ryan Smith 1997–98, confirmed DL but never split). The one-position-per-
+  career schema flattens documented mid-career switches (Chancellor, Gray,
+  Sorensen, D.J. Parker et al. are labelled by their settled/known role);
+  the sharpest case is **Jimmy Williams (2002–05)**: labelled CB (his
+  unanimous-All-American 2005 position) though his two highest-tackle
+  seasons (2002–03) were at free safety — so his CB rating leans on
+  safety-year tackle totals. Flagged from the adversarial review; revisit if
+  per-season positions ever land in the schema.
 - **Honors**: not yet attached (`honors: []` everywhere) — same staging as
   Michigan (stats PR first, honors follow-up). Wikipedia per-year All-Big
   East/All-ACC coverage is too spotty for VT (only ~half the years exist);

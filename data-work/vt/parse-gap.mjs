@@ -140,10 +140,31 @@ function parseYear(year) {
       checksum('rec no', sumRows, 2, (r) => num(r[2]), totalRow)
       checksum('rec yds', sumRows, 3, (r) => num(r[3]), totalRow)
     } else if (first === 'Defensive Leaders') {
-      // name|GP-GS|Solo|Ast|Total|TFL-Yds|No-Yds|Int-Yds|BU|PD|QBH|Rcv-Yds|FF|Kick|Safety
+      // Assert the FULL column list — every index read below is positional,
+      // so a template drift in ANY year (e.g. a dropped QBH column shifting
+      // FF) must fail loudly, not silently ship wrong tfl/pbu/ff.
       const h = t.headers.at(-1)
-      const expect = ['Defensive Leaders', 'GP-GS', 'Solo', 'Ast', 'Total']
-      if (!expect.every((x, i) => h[i] === x)) {
+      const expect = [
+        'Defensive Leaders',
+        'GP-GS',
+        'Solo',
+        'Ast',
+        'Total',
+        'TFL-Yds',
+        'No-Yds',
+        'Int-Yds',
+        'BU',
+        'PD',
+        'QBH',
+        'Rcv-Yds',
+        'FF',
+        'Kick',
+        'Safety',
+      ]
+      if (
+        h.length !== expect.length ||
+        !expect.every((x, i) => h[i] === x)
+      ) {
         problems.push(`${year} defense: unexpected header ${h.join('|')}`)
         continue
       }
@@ -162,8 +183,11 @@ function parseYear(year) {
         set('ff', num(r[12]))
       }
       checksum('tackles', sumRows, 4, (r) => num(r[4]), totalRow)
+      checksum('tfl', sumRows, 5, (r) => pairFirst(r[5]), totalRow)
       checksum('sacks', sumRows, 6, (r) => pairFirst(r[6]), totalRow)
       checksum('int', sumRows, 7, (r) => pairFirst(r[7]), totalRow)
+      checksum('pbu', sumRows, 8, (r) => num(r[8]), totalRow)
+      checksum('ff', sumRows, 12, (r) => num(r[12]), totalRow)
     }
     // Interceptions/returns/scoring tables are intentionally ignored: INTs
     // come from the defensive table (same numbers, one authority).
