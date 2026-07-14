@@ -6,8 +6,10 @@ A daily, no-backend, share-friendly draft game in the family of
 [20-0.com](https://www.20-0.com/) (whose **40-0** = college basketball and
 **16-0** = college football), but scoped to **one school at a time**. Six
 basketball schools are live (Michigan — the default — plus North Carolina,
-Florida, Virginia Tech, Pittsburgh, and VCU); **football (2005+)** is playable on
-a MOCK/provisional Michigan dataset behind a per-school sport picker. All run on
+Florida, Virginia Tech, Pittsburgh, and VCU), and **football (1994+)** is live on
+four of them (Michigan, Pittsburgh, Florida, Virginia Tech) behind a per-school
+sport picker — all real, sourced datasets. Two cross-school modes (**Full
+Basketball**, **Full Football**) spin a team AND an era each round. All run on
 the same engine contracts.
 
 Because the school is fixed, the "spin" is a **4-year year-window** rather than a
@@ -73,7 +75,7 @@ src/
   data/
     michigan-basketball.json   curated player dataset (95 players / 259 rows, sourced)
     {unc,florida,vt,pitt,vcu}-basketball.json   the other five live schools
-    michigan-football.json     MOCK/provisional football seed (curated data pending)
+    {michigan,pitt,florida,vt}-football.json   the four live football datasets
     index.ts                   typed loader (one Dataset per school)
     dataset.test.ts            integrity guard (shape, coverage, completeness, tenure)
   schools.ts          school registry + per-school theme tokens + applyTheme()
@@ -161,8 +163,10 @@ Football is **playable** end-to-end: `src/types.ts`
 (FbPosition/FbStats/FbPlayer/FB_SLOTS), `src/lib/football.ts` (FB_WINDOWS, slot
 eligibility incl. FLEX), `football-game.ts` (draft state machine),
 `football-rating.ts` + `football-result.ts` (rating → record out of 16), the
-football UI in `App.tsx`, and a MOCK/provisional `michigan-football.json` seed —
-all tested. **Still to build: a curated (non-mock) football dataset.**
+football UI in `App.tsx`, and four real sourced datasets
+(`{michigan,pitt,florida,vt}-football.json`, all `_provisional: false`) — all
+tested. Cross-school **Full Football** (`full-football.ts`) pools every school
+with a real dataset.
 
 ## Milestones
 
@@ -181,12 +185,16 @@ all tested. **Still to build: a curated (non-mock) football dataset.**
 - **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
 - **M5 — Ship (DONE):** repo public, branch protection on, Pages deploy live
   (`.github/workflows/deploy.yml`).
-- **M6 — Football (2005+) (PLAYABLE ON MOCK):** 12-slot roster, engine + rating +
-  UI all built and playable on a MOCK Michigan seed; a curated (CFBD/Wikipedia)
-  dataset is the remaining work.
+- **M6 — Football (1994+) (DONE):** 12-slot roster, engine + rating + UI, and
+  four real sourced datasets (Michigan, Pitt, Florida, Virginia Tech) with
+  per-season honors. Era wheel is data-driven from each school's own coverage.
 - **M7 — More schools (6 LIVE):** Michigan, North Carolina, Florida, Virginia
-  Tech, Pittsburgh, and VCU all ship real basketball datasets. End state: those
-  schools × both sports (curated football data still to come), added over time.
+  Tech, Pittsburgh, and VCU all ship real basketball datasets; four of them also
+  ship real football datasets. End state: those schools × both sports (UNC
+  football is the remaining gap), added over time.
+- **M8 — Full (cross-school) modes (DONE):** Full Basketball and Full Football
+  spin a team + an era each round, drafting from every live school; the
+  non-power-5 rating haircut is per-player.
 
 ## Open questions
 

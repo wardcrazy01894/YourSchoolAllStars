@@ -892,5 +892,29 @@
   "source": "https://hokiesports.com/sports/football/roster/jason-murphy/613",
   "confidence": "high",
   "note": "Bio confirms 'Played in 10 games at defensive tackle' in 2002 with 2 solo+13 assist tackles, matching sample line exactly; moved to OL afterward"
+ },
+ "Divine Deablo": {
+  "position": "S",
+  "source": "https://en.wikipedia.org/wiki/Divine_Deablo",
+  "confidence": "high",
+  "note": "Converted from WR to safety after 2016; started at safety 2018-2020, first-team All-ACC 2020 (55 tkl, 4 INT) as a safety, drafted as S."
+ },
+ "Justin Hamilton": {
+  "position": "S",
+  "source": "https://hokiesports.com/sports/football/roster/player/justin-hamilton-2",
+  "confidence": "high",
+  "note": "2005 VT roster lists him explicitly as Free Safety; moved to FS in spring 2005 after RB/WR."
+ },
+ "Zack McCray": {
+  "position": "DE",
+  "source": "https://hokiesports.com/sports/football/roster/zack-mccray/4430",
+  "confidence": "high",
+  "note": "2010/2011 VT roster lists DE (6-4/246); best defensive production 2011 as DE before moving to TE."
+ },
+ "Ryan Smith": {
+  "position": "DE",
+  "source": "https://www.archive.vtmag.vt.edu/sum97/sports.html",
+  "confidence": "medium",
+  "note": "VT Magazine (Summer 1997) lists him among VT's defensive end candidates (transfer, alongside Corey Moore); DL 6-2/235 #47 on 1998 roster data."
  }
 }

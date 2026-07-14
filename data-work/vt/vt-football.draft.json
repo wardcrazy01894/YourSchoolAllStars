@@ -2,7 +2,7 @@
  "school": "Virginia Tech",
  "sport": "football",
  "_provisional": false,
- "_note": "Real per-season data, 1994-2025. 1994-2012 from the Wayback-archived official hokiesports.com per-year season cumes (full offense AND defense every year, incl. pre-1997 tackles/TFL/sacks; each row cites its snapshot; every parsed column validated against the printed Total row); 2013-2025 from the WMT Digital API behind hokiesports.com (official NCAA-fed season totals; rows cite the hokiesports stats page). Cross-validated player-by-player against Sports-Reference season pages; repaired rows cite SR. Positions from WMT rosters/stats (2002+), SR fine position codes, or per-player cited research (citations in data-work/vt/positions-override.json); a handful of above-floor players whose exact position no citable source pins down were dropped rather than guessed. OL/K/P/LS are out of scope. QB rushYds is the NCAA net (sacks count against rushing). redshirtYears marks tenure years with no ratable season row. honors[] is empty pending the honors derivation pass (same staging as Michigan: stats PR first, honors follow-up).",
+ "_note": "Real per-season data, 1994-2025. 1994-2012 from the Wayback-archived official hokiesports.com per-year season cumes (full offense AND defense every year, incl. pre-1997 tackles/TFL/sacks; each row cites its snapshot; every parsed column validated against the printed Total row); 2013-2025 from the WMT Digital API behind hokiesports.com (official NCAA-fed season totals; rows cite the hokiesports stats page). Cross-validated player-by-player against Sports-Reference season pages; repaired rows cite SR. Positions from WMT rosters/stats (2002+), SR fine position codes, or per-player cited research (citations in data-work/vt/positions-override.json); a handful of above-floor players whose exact position no citable source pins down were dropped rather than guessed. OL/K/P/LS are out of scope. QB rushYds is the NCAA net (sacks count against rushing). redshirtYears marks tenure years with no ratable season row. honors[] is per-season and derived programmatically (data-work/vt/parse-honors-*.mjs): all-conference + conference individual awards + first-team All-Americans (with the official list's own Consensus/Unanimous markers) from the Wayback-archived OFFICIAL hokiesports awards.html / allamericans.html for 1994-2015, Wikipedia per-year All-ACC for 2016-2025 and the national hardware (Corey Moore's Lombardi + Nagurski); all-conference keeps the HIGHEST team level across selectors, and only FIRST-team All-America selections are recorded (the same convention as the other schools). verify-honors.mjs re-derives the shipped strings from the source ledgers: zero phantoms, zero omissions.",
  "players": [
   {
    "id": "antonio-banks",
@@ -2514,6 +2514,36 @@
      },
      "honors": [],
      "source": "http://web.archive.org/web/20180522122435/http://www.hokiesports.com/football/stats/2000/?season"
+    }
+   ]
+  },
+  {
+   "id": "ryan-smith",
+   "name": "Ryan Smith",
+   "position": "DE",
+   "firstYear": 1997,
+   "lastYear": 1998,
+   "seasons": [
+    {
+     "year": 1997,
+     "stats": {
+      "tackles": 21,
+      "sacks": 2,
+      "pbu": 1
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122504/http://www.hokiesports.com/football/stats/1997/?season"
+    },
+    {
+     "year": 1998,
+     "stats": {
+      "tackles": 41,
+      "tfl": 3,
+      "sacks": 4,
+      "pbu": 2
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122454/http://www.hokiesports.com/football/stats/1998/?season"
     }
    ]
   },
@@ -5526,7 +5556,7 @@
   {
    "id": "justin-hamilton",
    "name": "Justin Hamilton",
-   "position": "WR",
+   "position": "S",
    "firstYear": 2002,
    "lastYear": 2005,
    "seasons": [
@@ -6031,6 +6061,43 @@
      },
      "honors": [],
      "source": "http://web.archive.org/web/20180522122318/http://www.hokiesports.com/football/stats/2007/?season"
+    }
+   ]
+  },
+  {
+   "id": "brenden-hill",
+   "name": "Brenden Hill",
+   "position": "LB",
+   "firstYear": 2004,
+   "lastYear": 2006,
+   "seasons": [
+    {
+     "year": 2004,
+     "stats": {
+      "tackles": 2
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122352/http://www.hokiesports.com/football/stats/2004/?season"
+    },
+    {
+     "year": 2005,
+     "stats": {
+      "tackles": 16
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122340/http://www.hokiesports.com/football/stats/2005/?season"
+    },
+    {
+     "year": 2006,
+     "stats": {
+      "tackles": 52,
+      "tfl": 6.5,
+      "sacks": 2.5,
+      "defInt": 3,
+      "pbu": 6
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122330/http://www.hokiesports.com/football/stats/2006/?season"
     }
    ]
   },
@@ -7445,6 +7512,56 @@
      "honors": [],
      "source": "http://web.archive.org/web/20180522122306/http://www.hokiesports.com/football/stats/2008/?season"
     }
+   ]
+  },
+  {
+   "id": "kenny-younger",
+   "name": "Kenny Younger",
+   "position": "DE",
+   "firstYear": 2006,
+   "lastYear": 2010,
+   "seasons": [
+    {
+     "year": 2006,
+     "stats": {
+      "tackles": 9,
+      "tfl": 3,
+      "sacks": 3,
+      "pbu": 1,
+      "ff": 1
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122330/http://www.hokiesports.com/football/stats/2006/?season"
+    },
+    {
+     "year": 2007,
+     "stats": {
+      "tackles": 1
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122318/http://www.hokiesports.com/football/stats/2007/?season"
+    },
+    {
+     "year": 2008,
+     "stats": {
+      "tackles": 1
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122306/http://www.hokiesports.com/football/stats/2008/?season"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "rec": 4,
+      "recYds": 21,
+      "tackles": 1
+     },
+     "honors": [],
+     "source": "http://web.archive.org/web/20180522122245/http://www.hokiesports.com/football/stats/2010/?season"
+    }
+   ],
+   "redshirtYears": [
+    2009
    ]
   },
   {
@@ -11288,6 +11405,52 @@
    ]
   },
   {
+   "id": "deon-newsome",
+   "name": "Deon Newsome",
+   "position": "S",
+   "firstYear": 2014,
+   "lastYear": 2017,
+   "seasons": [
+    {
+     "year": 2014,
+     "stats": {
+      "rushYds": 93,
+      "rec": 7,
+      "recYds": 19,
+      "tackles": 4
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2014"
+    },
+    {
+     "year": 2015,
+     "stats": {
+      "tackles": 1
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2015"
+    },
+    {
+     "year": 2016,
+     "stats": {
+      "tackles": 4
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2016"
+    },
+    {
+     "year": 2017,
+     "stats": {
+      "tackles": 16,
+      "tfl": 1,
+      "pbu": 1
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2017"
+    }
+   ]
+  },
+  {
    "id": "greg-stroman",
    "name": "Greg Stroman",
    "position": "CB",
@@ -12036,6 +12199,72 @@
      },
      "honors": [],
      "source": "https://hokiesports.com/sports/football/stats/season/2019"
+    }
+   ]
+  },
+  {
+   "id": "divine-deablo",
+   "name": "Divine Deablo",
+   "position": "S",
+   "firstYear": 2016,
+   "lastYear": 2020,
+   "seasons": [
+    {
+     "year": 2016,
+     "stats": {
+      "rec": 1,
+      "recYds": 8,
+      "tackles": 4,
+      "ff": 1
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2016"
+    },
+    {
+     "year": 2017,
+     "stats": {
+      "tackles": 8,
+      "tfl": 1.5,
+      "sacks": 0.5,
+      "defInt": 1,
+      "pbu": 3
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2017"
+    },
+    {
+     "year": 2018,
+     "stats": {
+      "tackles": 55,
+      "tfl": 4.5,
+      "pbu": 2
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2018"
+    },
+    {
+     "year": 2019,
+     "stats": {
+      "tackles": 84,
+      "tfl": 4.5,
+      "defInt": 1,
+      "pbu": 2,
+      "ff": 1
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2019"
+    },
+    {
+     "year": 2020,
+     "stats": {
+      "tackles": 55,
+      "tfl": 2,
+      "defInt": 4,
+      "pbu": 4,
+      "ff": 1
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2020"
     }
    ]
   },
@@ -14950,6 +15179,56 @@
      "year": 2024,
      "stats": {
       "tackles": 5
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2024"
+    }
+   ]
+  },
+  {
+   "id": "jaylen-jones",
+   "name": "Jaylen Jones",
+   "position": "S",
+   "firstYear": 2021,
+   "lastYear": 2024,
+   "seasons": [
+    {
+     "year": 2021,
+     "stats": {
+      "rec": 1,
+      "recYds": 15
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2021"
+    },
+    {
+     "year": 2022,
+     "stats": {
+      "rec": 3,
+      "recYds": 37,
+      "tackles": 2,
+      "ff": 1
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2022"
+    },
+    {
+     "year": 2023,
+     "stats": {
+      "tackles": 35,
+      "tfl": 1,
+      "pbu": 3
+     },
+     "honors": [],
+     "source": "https://hokiesports.com/sports/football/stats/season/2023"
+    },
+    {
+     "year": 2024,
+     "stats": {
+      "tackles": 40,
+      "tfl": 0.5,
+      "defInt": 3,
+      "pbu": 8
      },
      "honors": [],
      "source": "https://hokiesports.com/sports/football/stats/season/2024"

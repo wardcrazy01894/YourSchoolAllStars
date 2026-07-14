@@ -409,6 +409,12 @@
   "source": "https://en.wikipedia.org/wiki/1999_Virginia_Tech_Hokies_football_team"
  },
  {
+  "name": "Ryan Smith",
+  "position": "DE",
+  "basis": "override",
+  "source": "https://www.archive.vtmag.vt.edu/sum97/sports.html"
+ },
+ {
   "name": "Sean Ruffing",
   "position": "LB",
   "basis": "override",
@@ -809,8 +815,9 @@
  },
  {
   "name": "Justin Hamilton",
-  "position": "WR",
-  "basis": "wmt-fine"
+  "position": "S",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/player/justin-hamilton-2"
  },
  {
   "name": "Mike Imoh",
@@ -890,7 +897,7 @@
  },
  {
   "name": "Brenden Hill",
-  "position": "WR",
+  "position": "LB",
   "basis": "wmt-fine"
  },
  {
@@ -949,7 +956,7 @@
  {
   "name": "Josh Morgan",
   "position": "WR",
-  "basis": "sr-def"
+  "basis": "sr-off"
  },
  {
   "name": "Justin Harper",
@@ -1126,7 +1133,7 @@
  },
  {
   "name": "Kenny Younger",
-  "position": "RB",
+  "position": "DE",
   "basis": "wmt-fine"
  },
  {
@@ -1514,8 +1521,9 @@
  },
  {
   "name": "Zack McCray",
-  "position": "TE",
-  "basis": "wmt-fine"
+  "position": "DE",
+  "basis": "override",
+  "source": "https://hokiesports.com/sports/football/roster/zack-mccray/4430"
  },
  {
   "name": "Christian Reeves",
@@ -1743,8 +1751,8 @@
  },
  {
   "name": "Deon Newsome",
-  "position": "WR",
-  "basis": "wmt-fine"
+  "position": "S",
+  "basis": "sr-def"
  },
  {
   "name": "Greg Gadell",
@@ -1907,8 +1915,9 @@
  },
  {
   "name": "Divine Deablo",
-  "position": "WR",
-  "basis": "wmt-fine"
+  "position": "S",
+  "basis": "override",
+  "source": "https://en.wikipedia.org/wiki/Divine_Deablo"
  },
  {
   "name": "D.J. Reid",
@@ -1995,7 +2004,7 @@
  {
   "name": "Coleman Fox",
   "position": "RB",
-  "basis": "sr-def"
+  "basis": "sr-off"
  },
  {
   "name": "Dalton Keene",
@@ -2341,7 +2350,7 @@
  },
  {
   "name": "Luke Bussel",
-  "position": "WR",
+  "position": "S",
   "basis": "wmt-fine"
  },
  {
@@ -2421,7 +2430,7 @@
  },
  {
   "name": "Jaylen Jones",
-  "position": "WR",
+  "position": "S",
   "basis": "wmt-fine"
  },
  {

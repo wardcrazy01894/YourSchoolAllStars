@@ -20,6 +20,9 @@ describe('honorEmoji — national awards', () => {
     expect(honorEmoji('Biletnikoff Award (2003)')).toBe('🏆')
     expect(honorEmoji('Johnny Unitas Golden Arm Award (2021)')).toBe('🏆')
     expect(honorEmoji("Davey O'Brien Award (1996)")).toBe('🏆')
+    // Emittable by the honors pipelines even where no school has won it yet —
+    // an unlisted trophy would fall through to the ★ fallback badge.
+    expect(honorEmoji('Ted Hendricks Award (2024)')).toBe('🏆')
   })
 
   it('maps the Big Ten MVP (Silver Football) to the conference POY crown', () => {

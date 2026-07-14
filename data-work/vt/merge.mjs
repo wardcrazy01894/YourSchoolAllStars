@@ -106,6 +106,17 @@ for (const s of seasons) {
 }
 
 // ── position resolution per person ───────────────────────────────────────────
+const OFF_FINE = new Set(['QB', 'RB', 'WR', 'TE'])
+const DEF_FINE = new Set(['DE', 'DT', 'LB', 'CB', 'S'])
+// "Real defender" test — a WR with one special-teams tackle is NOT a
+// defender, but a safety with 55 tackles is. Thresholds keep the guard from
+// pushing every gunner into the research worklist.
+const isDefensiveSeason = (st) =>
+  (st.tackles ?? 0) >= 10 ||
+  (st.sacks ?? 0) >= 1 ||
+  (st.tfl ?? 0) >= 2 ||
+  (st.defInt ?? 0) >= 1 ||
+  (st.pbu ?? 0) >= 2
 const report = { excluded: [], twins: [], unresolved: 0, renamesUsed: 0 }
 const out = []
 for (const per of persons) {
@@ -120,8 +131,25 @@ for (const per of persons) {
   const fine = Object.entries(votes).filter(([c]) => FINE.has(c))
   const coarse = Object.entries(votes).filter(([c]) => COARSE.has(c))
   const excl = Object.entries(votes).filter(([c]) => EXCLUDE.has(c))
+  // A DEFENDER's position must never be settled by an offensive code (the
+  // Pitt lesson). Converts (Divine Deablo: listed WR as a freshman, then four
+  // years at DB) otherwise take their old offensive label, get rated on a
+  // one-catch line, and fall below the floor — silently dropping a
+  // first-team All-ACC safety. Real defensive production + a coarse DL/DB
+  // vote ⇒ the offensive votes are ignored; a lone offensive fine code no
+  // longer wins, and the player goes to the cited-research worklist.
+  const defProduction = per.rows.some((r) => isDefensiveSeason(r.stats))
+  const defFine = fine.filter(([c]) => DEF_FINE.has(c))
+  const offFine = fine.filter(([c]) => OFF_FINE.has(c))
+  const coarseDefensive = coarse.length > 0
   let position = null
-  if (fine.length) position = fine.sort((a, b) => b[1] - a[1])[0][0]
+  if (defFine.length) {
+    position = defFine.sort((a, b) => b[1] - a[1])[0][0]
+  } else if (defProduction && coarseDefensive) {
+    position = null // resolve from cited research, not the offensive label
+  } else if (offFine.length) {
+    position = offFine.sort((a, b) => b[1] - a[1])[0][0]
+  }
   const onlyExcluded =
     !fine.length && !coarse.length && excl.length > 0
   if (onlyExcluded) {
