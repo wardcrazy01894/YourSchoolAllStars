@@ -1,0 +1,6240 @@
+<!-- source: https://en.wikipedia.org/wiki/2023_All-Atlantic_Coast_Conference_football_team -->
+{{Use mdy dates|date=August 2023}}
+{{Infobox sports season
+| title             = 2023 ACC Football season
+| color             = #013ac6
+| color text        = #ffffff
+| league            = [[NCAA Division I Football Bowl Subdivision]] 
+| sport             = [[College football|Football]]
+| logo              = Atlantic Coast Conference logo.svg
+| logo_size         = 200px
+| caption           = 
+| duration          = 
+| no_of_teams       = 14
+| draft             = 2024 NFL draft
+| draft_link        = 2024 NFL draft
+| top_pick          = [[Drake Maye]], North Carolina
+| picked_by         = [[New England Patriots]], 3rd overall
+| season            = Regular season
+| MVP               =
+| MVP_link          = Atlantic Coast Conference football individual awards
+| conf1             = Atlantic
+| season_champs     = [[2023 Florida State Seminoles football team|Florida State]]
+| second_place      = [[2023 Louisville Cardinals football team|Louisville]]
+| finals            = ACC Championship Game
+| finals_link       = 2023 ACC Championship Game
+| finals_venue = [[Bank of America Stadium]], [[Charlotte, North Carolina]]
+| finals_champ      = Florida State 
+| finals_runner-up  = Louisville 
+| finals_MVP        = Lawrance Toafili, RB, Florida State
+| finals_MVP_link   =
+| prevseason_link   = 2022 Atlantic Coast Conference football season
+| prevseason_year   = 2022
+| nextseason_link   = 2024 Atlantic Coast Conference football season
+| nextseason_year   = 2024
+}}
+{{2023 Atlantic Coast Conference football standings}}The '''2023 Atlantic Coast Conference football season''', part of the [[2023 NCAA Division I FBS football season]], was the 71st season of [[college football]] play for the [[Atlantic Coast Conference]] (ACC). The ACC consisted of 14 members, with [[2023 California Golden Bears football team|California]], [[2023 Stanford Cardinal football team|Stanford]], and [[2023 SMU Mustangs football team|SMU]] having been announced to join the ACC on July 1, 2024.<ref>{{Cite web |date=2023-09-01 |title=Cal and Stanford believe move to ACC was needed for survival |url=https://apnews.com/article/cal-stanford-acc-conference-realignment-2259a1439f112679950c48667c2ef5f8 |access-date=2024-12-31 |website=AP News |language=en}}</ref> The 2023 season was the first season without divisions since 2005 (other than the [[2020 Atlantic Coast Conference football season|pandemic-disrupted 2020 season]]). The entire schedule was released on January 30, 2023.<ref>{{cite web|url=https://theacc.com/news/2023/1/30/acc-announces-2023-football-schedule.aspx|title=ACC Announces 2023 Football Schedule|website=TheACC.com|date=January 30, 2023|accessdate=January 30, 2023}}</ref>
+
+== Preseason ==
+
+===Recruiting classes===
+{| class="wikitable sortable" style="text-align:center"
+|+ National rankings
+! Team
+! Rivals<ref>{{Cite web|url= https://n.rivals.com/team_rankings/2023/all-teams/Football |title=2023 Class Rankings|access-date=May 9, 2023}}</ref>
+!  24/7<ref>{{Cite web|url= https://247sports.com/Season/2023-Football/CompositeTeamRankings/ |title=2023 Football Recruiting Team Rankings|access-date=May 9, 2023}}</ref>
+! On3 Recruits<ref>{{Cite web|url= https://www.on3.com/db/rankings/consensus-team/football/2023/ |title=2023 Football Recruiting Team Rankings|access-date=May 9, 2022}}</ref>
+! Total signees
+|-
+| |'''Boston College'''
+| style="text-align:center; background:white" | 62
+| style="text-align:center; background:white" | 60
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 18
+|-
+| |'''Clemson'''
+| style="text-align:center; background:white" | 10
+| style="text-align:center; background:white" | 11
+| style="text-align:center; background:white" | 11
+| style="text-align:center; background:white" | 26
+|-
+| |'''Duke'''
+| style="text-align:center; background:white" | 53
+| style="text-align:center; background:white" | 55
+| style="text-align:center; background:white" | 62
+| style="text-align:center; background:white" | 26
+|-
+| |'''Florida State'''
+| style="text-align:center; background:white" | 26
+| style="text-align:center; background:white" | 19
+| style="text-align:center; background:white" | 20
+| style="text-align:center; background:white" | 18
+|-
+| |'''Georgia Tech'''
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 64
+| style="text-align:center; background:white" | 19
+|-
+| |'''Louisville'''
+| style="text-align:center; background:white" | 43
+| style="text-align:center; background:white" | 35
+| style="text-align:center; background:white" | 27
+| style="text-align:center; background:white" | 15
+|-
+| |'''Miami'''
+| style="text-align:center; background:white" | 7
+| style="text-align:center; background:white" | 7
+| style="text-align:center; background:white" | 6
+| style="text-align:center; background:white" | 24
+|-
+| |'''North Carolina'''
+| style="text-align:center; background:white" | 29
+| style="text-align:center; background:white" | 29
+| style="text-align:center; background:white" | 30
+| style="text-align:center; background:white" | 20
+|-
+| |'''NC State'''
+| style="text-align:center; background:white" | 37
+| style="text-align:center; background:white" | 40
+| style="text-align:center; background:white" | 35
+| style="text-align:center; background:white" | 18
+|-
+| |'''Pittsburgh'''
+| style="text-align:center; background:white" | 53
+| style="text-align:center; background:white" | 51
+| style="text-align:center; background:white" | 53
+| style="text-align:center; background:white" | 19
+|-
+| |'''Syracuse'''
+| style="text-align:center; background:white" | 97
+| style="text-align:center; background:white" | 84
+| style="text-align:center; background:white" | 76
+| style="text-align:center; background:white" | 16
+|-
+| |'''Virginia'''
+| style="text-align:center; background:white" | 59
+| style="text-align:center; background:white" | 64
+| style="text-align:center; background:white" | 67
+| style="text-align:center; background:white" | 21
+|-
+| |'''Virginia Tech'''
+| style="text-align:center; background:white" | 39
+| style="text-align:center; background:white" | 37
+| style="text-align:center; background:white" | 41
+| style="text-align:center; background:white" | 27
+|-
+| |'''Wake Forest'''
+| style="text-align:center; background:white" | 46
+| style="text-align:center; background:white" | 53
+| style="text-align:center; background:white" | 56
+| style="text-align:center; background:white" | 20
+|}
+
+===ACC Kickoff===
+The 2023 ACC Kickoff was held on July 25 through 27 at the [[Westin]] hotel in [[Charlotte, North Carolina]]. This year was the first year where the event expanded to three full interview days.  Each team had their head coach and three players available to talk to the media. Coverage of the event was televised by the [[ACC Network]]. The preseason poll and preseason All-ACC Teams were released after the event, with the preseason poll being released on August 1, 2023.<ref>{{cite web|url=https://theacc.com/news/2023/1/27/acc-football-kickoff-expands-to-three-days.aspx|title=ACC Football Kickoff Expands to Three Days|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=January 27, 2023|access-date=May 9, 2023}}</ref><ref>{{cite web|url=https://theacc.com/news/2023/8/1/clemson-favored-in-2023-acc-football-preseason-poll.aspx|title=Clemson Favored in 2023 ACC Football Preseason Poll|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=August 1, 2023|access-date=August 1, 2023}}</ref>
+
+{| class="wikitable" style="display: inline-table; text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Predicted finish|Team|Votes (1st place)}}
+|- align="center"
+| 1
+| |'''Clemson'''
+| 2,370 (103)
+|- 
+| 2
+| |'''Florida State'''
+| 2,304 (67)
+|- 
+| 3
+| |'''North Carolina'''
+| 1,981 (5)
+|- 
+| 4
+| |'''NC State'''
+| 1,662 (1)
+|- 
+| 5
+| |'''Miami'''
+| 1,553
+|- 
+| rowspan=2 | 6
+| |'''Duke'''
+| rowspan=2 | 1,511
+|- 
+| |'''Pittsburgh'''
+|- 
+| 8
+| |'''Louisville'''
+| 1,344
+|- 
+| 9
+| |'''Wake Forest'''
+| 1,181
+|- 
+| 10
+| |'''Syracuse'''
+| 826
+|- 
+| 11
+| |'''Virginia Tech'''
+| 678
+|- 
+| 12
+| |'''Georgia Tech'''
+| 633
+|- 
+| 13
+| |'''Boston College'''
+| 561
+|- 
+| 14
+| |'''Virginia'''
+| 365
+|}
+
+===Preseason ACC Player of the year===
+Source:<ref name="preallacc">{{cite web|url=https://theacc.com/news/2023/8/2/football-clemson-leads-with-seven-on-all-acc-preseason-team-uncs-maye-projected-as-poty.aspx|title=Clemson Leads With Seven on All-ACC Preseason Team; UNC's Maye Projected as POTY|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=August 2, 2023|access-date=August 2, 2023}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+! Ranking !! Player !! Position !! Team !! Votes
+|-
+| 1
+| [[Drake Maye]]
+| rowspan=2 | QB
+| [[2023 North Carolina Tar Heels football team|North Carolina]]
+| 88
+|-
+| 2
+| [[Jordan Travis]]
+| [[2023 Florida State Seminoles football team|Florida State]]
+| 66
+|-
+| 3
+| [[Will Shipley]]
+| RB
+| rowspan=2 | [[2023 Clemson Tigers football team|Clemson]]
+| 17
+|-
+| 4
+| [[Jeremiah Trotter Jr.]]
+| LB
+| 3
+|-
+| rowspan=2 | 5
+| [[Riley Leonard]]
+| QB
+| [[2023 Duke Blue Devils football team|Duke]]
+| rowspan=2 | 1
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| DT
+| Clemson
+|}
+
+===Preseason all-conference teams===
+
+Source:<ref name="preallacc"/>
+
+{{col-begin}}
+{{col-1-of-3}}
+
+====Offense====
+
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Quarterback]]
+| [[Drake Maye]]
+| North Carolina
+| 107
+|-
+! rowspan="2" | [[Running back]]
+| [[Will Shipley]]
+| Clemson
+| 196
+|-
+| [[Trey Benson]]
+| Florida State
+| 125
+|-
+! rowspan="3" | [[Wide receiver]]
+| [[Johnny Wilson (wide receiver)|Johnny Wilson]]
+| Florida State
+| 117
+|-
+| [[Devontez Walker]]
+| North Carolina
+| 51
+|-
+| [[Jalon Calhoun]]
+| Duke
+| 49
+|-
+! rowspan="1" | [[Tight end]]
+| [[Oronde Gadsden II]]
+| Syracuse
+| 89
+|-
+! rowspan="1" | All-Purpose
+| Will Shipley
+| Clemson
+| 105
+|-
+! rowspan="2" | [[Offensive tackle|Tackle]]
+| [[Graham Barton]]
+| Duke
+| 110
+|-
+| [[Matt Goncalves]]
+| Pittsburgh
+| 58
+|-
+! rowspan="2" | [[Guard (American football)|Guard]]
+| [[Christian Mahogany]]
+| Boston College
+| 101
+|-
+| [[Javion Cohen]]
+| Miami
+| 69
+|-
+! rowspan="1" | [[Center (American football)|Center]]
+| [[Bryan Hudson (American football)|Bryan Hudson]]
+| Louisville
+| 56
+|}
+
+{{col-2-of-3}}
+
+==== Defense ====
+
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="2" | [[Defensive end]]
+| [[Jared Verse]]
+| Florida State
+| 136
+|-
+| [[Donovan Ezeiruaku]]
+| Boston College
+| 58
+|-
+! rowspan="2" | [[Defensive tackle]]
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| Clemson
+| 124
+|-
+| [[DeWayne Carter]]
+| Duke
+| 97
+|-
+! rowspan="3" | [[Linebacker]]
+| [[Jeremiah Trotter Jr.]]
+| Clemson
+| 132
+|-
+| [[Cedric Gray]]
+| North Carolina
+| 109
+|-
+| [[Barrett Carter]]
+| Clemson
+| 87
+|-
+! rowspan="2" | [[Cornerback]]
+| [[Fentrell Cypress|Fentrell Cypress II]]
+| Florida State
+| 88
+|-
+| [[Aydan White]]
+| NC State
+| 85
+|-
+! rowspan="2" | [[Safety (American football position)|Safety]]
+| [[Kamren Kinchens]]
+| Miami
+| 117
+|-
+| [[Andrew Mukuba]]
+| Clemson
+| 46
+|}
+
+{{col-3-of-3}}
+
+==== Specialist ====
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Placekicker]]
+| Andres Borregales
+| Miami
+| 70
+|-
+! rowspan="1" | [[Punter (American football)|Punter]]
+| Daniel Sparks
+| Virginia
+| 54
+|-
+! rowspan="1" | [[Kickoff returner|Specialist]]
+| Will Shipley
+| Clemson
+| 68
+|}
+
+{{col-end}}
+
+===Preseason awards===
+
+====All−American Teams====
+
+{| class="wikitable" style="white-space:nowrap; font-size:90%; text-align:center;"
+|
+|'''AP 1st Team'''<ref>{{Cite web |title=USC's Caleb Williams, Ohio State's Harrison Jr. and Michigan's Corum top AP preseason All-Americans |url=https://apnews.com/article/ap-preseason-all-american-caleb-georgia-ohio-state-harrison-bed643187c3ee44714a8cffc2aae5f99}}</ref>
+|'''AP 2nd Team'''
+|'''AS 1st Team'''<ref>{{cite web|url=https://athlonsports.com/college-football/college-football-2023-all-america-team|title=2023 College Football Preseason All-America Team|website=athlonsports.com|publisher=[[Parade Media]]|date=May 18, 2023|access-date=July 24, 2023|first=Steven|last=Lassan}}</ref>
+|'''AS 2nd Team'''
+|'''WCFF 1st Team'''<ref>{{cite news|last=Carbone Al|url=https://waltercamp.org/2023-walter-camp-preseason-fbs-all-america-teams-presented-by-777-partners/|work=Walter Camp|title=Walter Camp 2023 Preseason All-America Teams, presented by 777 Partners|date=March 31, 2023|access-date=July 24, 2023}}</ref>
+|'''WCFF 2nd Team''' 
+|'''ESPN'''<ref>{{cite web|url=https://www.espn.com/college-football/story/_/id/38127279/espn-2023-college-football-preseason-all-america-team|title=Caleb Williams leads the preseason All-America college football team|website=espn.com|publisher=[[ESPN]]|first=Chris|last=Low|date=August 14, 2023|access-date=August 14, 2023}}</ref>
+|'''CBS 1st Team'''<ref>{{cite web|url=https://www.cbssports.com/college-football/news/2023-cbs-sports-preseason-all-america-team-georgia-ohio-state-alabama-michigan-lead-with-most-honorees/|title=2023 CBS Sports Preseason All-America team: Georgia, Ohio State, Alabama, Michigan lead with most honorees|website=cbssports.com|publisher=[[CBS Sports]]|first=Adam|last=Silverstein|date=August 16, 2023|access-date=August 17, 2023}}</ref>
+|'''CBS 2nd Team'''
+|'''CFN 1st Team'''<ref>{{cite web|url=https://collegefootballnews.com/news/college-football-news-preseason-all-america-team-2023-offense|title=College Football News Preseason All-America Team 2023 Offense|website=collegefootballnews.com|publisher=[[College Football News]]|date=July 21, 2023|access-date=July 24, 2023}}</ref><ref>{{cite web|url=https://collegefootballnews.com/news/college-football-news-preseason-all-america-team-2023-defense-kickers|title=College Football News Preseason All-America Team 2023 Defense, Kickers|website=collegefootballnews.com|publisher=[[College Football News]]|date=July 22, 2023|access-date=July 24, 2023}}</ref>
+|'''CFN 2nd Team'''
+|'''PFF 1st Team'''<ref>{{Cite web |title=2023 PFF College Preseason All-America Team: USC QB Caleb Williams, Ohio State WR Marvin Harrison Jr. and more |url=https://www.pff.com/news/college-football-2023-preseason-all-america-team-caleb-williams-marvin-harrison-jr|author=Chadwick, Max|date=August 21, 2023|website=pff.com}}</ref>
+|'''PFF 2nd Team'''   
+|'''PFF 3rd Team'''
+|'''SN 1st Team'''<ref>{{cite web|url=https://www.sportingnews.com/us/ncaa-football/news/sporting-news-2023-college-football-preseason-all-american-team/jnqxftq9akmie7coxyl3cxeo|title=Sporting News 2023 college football Preseason All-American team: Caleb Williams, Marvin Harrison Jr. lead shining stars|first=Bill|last=Bender|website=sportingnews.com|publisher=[[Sporting News]]|date=August 22, 2023|access-date=August 22, 2023}}</ref>
+|'''SN 2nd Team'''
+|- 
+! [[Graham Barton]], OT, Duke
+| 
+|
+| 
+| {{Y}}
+| {{Y}}
+|
+|
+| 
+| {{Y}}
+| 
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|-
+! [[Trey Benson]], RB, Florida State
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|- 
+! [[Barrett Carter]], LB, Clemson
+|
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|
+|
+|
+|-
+! [[DeWayne Carter]], DT, Duke
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|- 
+! [[Fentrell Cypress]], CB, Florida State
+|
+|
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|- 
+! [[Tyler Davis (defensive lineman)|Tyler Davis]], DT, Clemson
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+|
+|-
+! [[Oronde Gadsden II|Oronde Gadsden]], TE, Syracuse
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|-
+! [[Cedric Gray]], LB, North Carolina
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|- 
+! [[Kamren Kinchens]], S, Miami (FL)
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|- 
+! [[Christian Mahogany]], OG, Boston College
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|
+|
+|- 
+! [[Drake Maye]], QB, North Carolina
+|
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|-
+! [[R.J. Mickens]], S, Clemson
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|- 
+! [[Will Shipley]], RB, Clemson
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|- 
+! [[Leonard Taylor III]], DT, Miami (FL)
+|
+|
+|
+|
+|
+| {{Y}}
+|
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|
+|
+|-
+! [[Jordan Travis]], QB, Florida State
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+| 
+|
+|- 
+! [[Jeremiah Trotter Jr.]], LB, Clemson
+|
+| {{Y}}
+| {{Y}}
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|
+| {{Y}}
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|- 
+! [[Jared Verse]], DE, Florida State
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+| {{Y}}
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+| {{Y}}
+|
+|- 
+! [[James Williams (linebacker, born 2003)|James Williams]], S, Miami (FL)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|
+|
+|
+|-
+! [[Johnny Wilson (wide receiver)|Johnny Wilson]], WR, Florida State
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+| {{Y}}
+|
+| {{Y}}
+|}
+
+===Preseason award watchlists===
+
+{{col-begin}}
+{{col-1-of-3}}
+
+{| class="wikitable" style="text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Award|Head Coach/Player|School|Position|Year|Ref}}
+|-
+| rowspan=6 | [[Lott Trophy]]
+| [[Barrett Carter]]
+| Clemson
+| LB
+| Jr.
+| rowspan=6 | <ref>{{cite web|url=https://lottimpacttrophy.org/impact-news/the-42-candidates-for-the-2023-lott-impact-trophy-announced/|title=2023 Watch List Candidates|website=lottimpacttrophy.org|publisher=Lott IMPACT Trophy|date=May 4, 2023|access-date=May 6, 2023}}</ref>
+|-
+| [[DeWayne Carter]]
+| Duke
+| DL
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Jared Verse]]
+| Florida State
+| DE
+| Sr.
+|-
+| [[Kamren Kinchens]]
+| Miami
+| S
+| Jr.
+|-
+| [[Cedric Gray]]
+| North Carolina
+| LB
+| rowspan=2 | Sr.
+|-
+| [[Chico Bennett Jr.|Chico Bennett]]
+| Virginia
+| DE
+|- 
+| rowspan=5|[[Bobby Dodd Coach of the Year Award|Dodd Trophy]]
+| [[Mack Brown]]
+| North Carolina
+| rowspan=5| —
+| rowspan=5| —
+| rowspan=5| <ref>{{cite web |title=Dodd Trophy Releases 2023 Preseason Watch List|url=https://chick-fil-apeachbowl.com/news/2023/7/13/the-dodd-trophy-presented-by-pnc-dodd-trophy-releases-2023-preseason-watch-list.aspx|website=chick-fil-apeachbowl.com|publisher=Chick-Fil-A Peach Bowl|date=July 13, 2023|access-date=July 31, 2023}}</ref>
+|-
+| [[Dave Clawson]]
+| Wake Forest
+|-
+| [[Dave Doeren]]
+| NC State
+|-
+| [[Mike Norvell]]
+| Florida State
+|-
+| [[Dabo Swinney]]
+| Clemson
+|-
+| rowspan=10|[[Maxwell Award]]
+| [[Will Shipley]]
+| Clemson
+| RB
+| rowspan=2|Jr.
+| rowspan=10|<ref>{{cite web |title=2023 Maxwell Award Watch List|url=https://i0.wp.com/maxwellfootballclub.org/wp-content/uploads/2023/07/20-day-s.png?w=1080&ssl=1|website=maxwellfootballclub.org|publisher=Maxwell Football Club|date=July 31, 2023|access-date=July 31, 2023}}</ref>
+|- 
+| [[Riley Leonard]]
+| Duke
+| rowspan=2|QB
+|-
+| [[Jordan Travis]]
+| rowspan=2|Florida State
+| Sr.
+|- 
+| [[Trey Benson]]
+| RB
+| Jr.
+|- 
+| [[Jack Plummer]]
+| Louisville
+| rowspan=4|QB
+| Sr.
+|- 
+| [[Drake Maye]]
+| North Carolina
+| So.
+|- 
+| [[Phil Jurkovec]]
+| Pittsburgh
+| rowspan=2|Sr.
+|- 
+| [[Garrett Shrader]]
+| rowspan=2|Syracuse
+|- 
+| [[Oronde Gadsden II]]
+| TE
+| rowspan=2|Jr.
+|- 
+| Donavon Greene
+| Wake Forest
+| QB
+|- 
+| rowspan=5 | [[Davey O'Brien Award]]
+| [[Cade Klubnik]]
+| Clemson
+| rowspan=5 | QB
+| So.
+| rowspan=5 | <ref>{{cite web|url=https://www.daveyobrienaward.com/latest-news/jganfyi8ctk4p977klvdcl5cmuu1m4|title=Davey O’Brien Award Announces 2023 Preseason Watch List|website=daveyobrienaward.com|publisher=Davey O'Brien National Quarterback Award|date=August 8, 2023|access-date=August 8, 2023}}</ref>
+|-
+| [[Riley Leonard]]
+| Duke
+| Jr.
+|-
+| [[Jordan Travis]]
+| Florida State
+| Sr.
+|-
+| [[Drake Maye]]
+| North Carolina
+| So.
+|-
+| [[Garrett Shrader]]
+| Syracuse
+| Sr.
+|-
+| rowspan=9| [[Doak Walker Award]]
+| Pat Garwo
+| Boston College
+| rowspan=9| RB
+| Gs.
+| rowspan=9| <ref>{{cite web|url=https://www.on3.com/news/doak-walker-award-preseason-running-back-watchlist-2023-college-football-blake-corum/|title=Doak Walker Award names 75 running backs to 2023 preseason watch list|website=on3|publisher=On3|date=August 9, 2023|access-date=August 9, 2023}}</ref>
+|-
+| [[Will Shipley]]
+| Clemson
+| rowspan=2 | Jr.
+|-
+| [[Trey Benson]]
+| Florida State
+|-
+| Dontae Smith
+| Georgia Tech
+| Sr.
+|-
+| [[Jawhar Jordan]]
+| Louisville
+| rowspan=2 | Jr.
+|-
+| Rodney Hammond Jr.
+| Pittsburgh
+|-
+| [[LeQuint Allen]]
+| Syracuse
+| So.
+|-
+| [[Bhayshul Tuten]]
+| Virginia Tech
+| rowpsan=2 | Jr.
+|-
+| [[Justice Ellison]]
+| Wake Forest
+|-
+| rowspan=10 | [[Fred Biletnikoff Award|Biletnikoff Award]]
+| Ryan O'Keefe
+| Boston College
+| rowspan=7 | WR
+| Sr.
+| rowspan=10 | <ref>{{cite web|url= https://biletnikoffaward.com/2023-watch-list/ |title= 2023 Biletnikoff Award Watch List|website=biletnikoffaward.com|publisher=Biletnikoff Award|date=August 7, 2023|access-date=August 7, 2023}}</ref>
+|-
+| [[Jalon Calhoun]]
+| Duke
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Keon Coleman]]
+| rowspan=2 | Florida State
+| rowspan=4 | Jr.
+|-
+| [[Johnny Wilson (wide receiver)|Johnny Wilson]]
+|-
+| [[Jamari Thrash]]
+| Louisville
+|-
+| [[Devontez Walker]]
+| North Carolina
+|-
+| Bradley Rozner
+| NC State
+| Gs.
+|-
+| [[Oronde Gadsden II]]
+| Syracuse
+| TE
+| Jr.
+|-
+| Ali Jennings III
+| rowspan=2 | Virginia Tech
+| rowspan=2 | WR
+| rowspan=2 | Sr.
+|-
+| [[Jaylin Lane]]
+|- 
+| rowspan=8 | [[John Mackey Award]]
+| George Takacs
+| Boston College
+| rowspan=8 | TE
+| Gs.
+| rowspan=8 | <ref>{{cite web|title=2023 John Mackey Award Preseason Watch List Released|url= https://johnmackeyaward.com/uploads/3/4/7/9/34791900/2023_watchlist.pdf|website=johnmackeyaward.com|publisher=Friends of John Mackey Inc.|date=August 4, 2023|access-date=August 4, 2023}}</ref>
+|-
+| [[Jake Briningstool]]
+| Clemson
+| So.
+|-
+| [[Jaheim Bell]]
+| Florida State
+| rowspan=3 |Jr.
+|-
+| [[John Copenhaver (American football)|John Copenhaver]]
+| rowspan=2 | North Carolina
+|-
+| [[Bryson Nesbit]]
+|-
+| Trent Pennix
+| NC State
+| Gs.
+|-
+| [[Gavin Bartholomew]]
+| Pittsburgh
+| Jr.
+|-
+| Nick Gallo
+| Virginia Tech
+| Sr.
+|-
+| rowspan=7 | [[Rimington Trophy]]
+| [[Will Putnam]]
+| Clemson
+| rowspan=7 | C
+| rowspan=2 | Gs.
+| rowspan=7 | <ref>{{cite web|title=Rimington Trophy Press Release|url= https://www.rimingtontrophy.com/watchlist/|date=August 4, 2023|access-date=August 4, 2023}}</ref>
+|-
+| [[Jacob Monk]]
+| Duke
+|-
+| Maurice Smith
+| Florida State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Bryan Hudson (American football)|Bryan Hudson]]
+| Louisville
+| rowspan=2 | [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Matt Lee (American football)|Matthew Lee]]
+| Miami
+|-
+| [[Dylan McMahon]]
+| NC State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| Jake Kradel
+| Pittsburgh
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| rowspan=6 |[[Butkus Award]]
+| [[Barrett Carter]]
+| rowspan=2 | Clemson
+| rowspan=6 | LB
+| So.
+| rowspan=6 |<ref>{{cite web|url=https://www.thebutkusaward.com/college/|title=2023 Watchlist|website=thebutkusaward.com|publisher=The Butkus Award|date=August 10, 2023|access-date=August 10, 2023}}</ref>
+|-
+| [[Jeremiah Trotter Jr.]]
+| Jr.
+|-
+| [[Tatum Bethune]]
+| Florida State
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Cedric Gray]]
+| North Carolina
+| Sr.
+|-
+| [[Payton Wilson]]
+| NC State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Marlowe Wax]]
+| Syracuse
+| So.
+|}
+
+{{col-2-of-3}}
+
+{| class="wikitable" style="text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Award|Head Coach/Player|School|Position|Year|Ref}} 
+|-
+| rowspan=4 | [[Jim Thorpe Award]]
+| [[Andrew Mukuba]]
+| Clemson
+| S
+| rowspan=4 | Jr.
+| rowspan=4 | <ref>{{cite web|url=https://www.paycom.com/about/sponsorships/jim-thorpe-award/|title=2023 Paycom Jim Thorpe Award Watchlist|website=paycom.com|publisher=Paycom|date=August 10, 2023|access-date=August 10, 2023}}</ref>
+|-
+| [[Fentrell Cypress]]
+| Florida State
+| CB
+|-
+| [[Kamren Kinchens]]
+| Miami
+| S
+|-
+| [[Aydan White]]
+| NC State
+| CB
+|- 
+| rowspan=10|[[Bronko Nagurski Trophy]] 
+| [[Barrett Carter]]
+| Clemson
+| LB
+| Jr.
+|rowspan=10|<ref>{{cite web |title=2023 Bronko Nagurski Trophy Watch List unveiled|url=https://www.sportswriters.net/fwaa/news/2023/08/01/2023-bronko-nagurski-trophy-watch-list-unveiled|date=July 31, 2023|access-date=July 31, 2023}}</ref>
+|-
+| [[DeWayne Carter]]
+| Duke
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Fentrell Cypress|Fentrell Cypress II]]
+| Florida State
+| CB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| Clemson
+| DT
+| Sr.
+|-
+| [[Donovan Ezeiruaku]]
+| Boston College
+| DE
+| Jr.
+|-
+| [[Cedric Gray]]
+| North Carolina
+| LB
+| Sr.
+|-
+| [[Kamren Kinchens|Kam Kinchens]]
+| Miami
+| S
+| rowspan=3|Jr.
+|-
+| [[Jeremiah Trotter Jr.]]
+| Clemson
+| LB
+|-
+| [[Jared Verse]]
+| Florida State
+| DE
+|-
+| [[Aydan White]]
+| N.C. State
+| CB
+| So.
+|-
+| rowspan=7|[[Outland Trophy]]
+| [[Jeremiah Byers]]
+| Florida State
+| OT
+|rowspan=2|[[File:Redshirt.svg|10px|Redshirt]] Jr.
+|rowspan=7|<ref>{{cite web |title=2023 OUTLAND TROPHY PRESEASON WATCH LIST|url=https://www.sportswriters.net/fwaa/news/2023/08/01/2023-outland-trophy-watch-list-unveiled|date=July 31, 2023|access-date=July 31, 2023}}</ref>
+|-
+| [[Javion Cohen]]
+| Miami
+| G
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| Clemson
+| DT
+| Sr.
+|-
+| [[Matt Goncalves]]
+| Pitt
+| OT
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Bryan Hudson (American football)|Bryan Hudson]]
+| Louisville
+| C
+| Sr.
+|-
+| [[Christian Mahogany]]
+| Boston College
+| G
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Ruke Orhorhoro]]
+| Clemson
+| DT
+| GS
+|-
+| rowspan=4|[[Lou Groza Award]]
+| [[Andrés Borregales]]
+| Miami
+| rowspan=4|PK
+| Jr.
+| rowspan=4|<ref>{{cite web |title=Announces 2023 Preseason Watch List|url=https://www.lougrozaaward.com/Current_Watch_List.html|date=July 31, 2023|access-date=July 31, 2023|website=lougrozaaward.com}}</ref>
+|-
+| Ryan Coe
+| North Carolina
+| rowspan=2|Sr.
+|-
+| [[Brayden Narveson]]
+| N.C. State
+|-
+| [[Ben Sauls]]
+| Pitt
+| Jr.
+|-
+| rowspan=7|[[Ray Guy Award]]
+| [[Alex Mastromanno]]
+| Florida State
+| rowspan=7|P
+| Jr.
+| rowspan=7|<ref>{{cite web |title=2023 Watchlist|url=https://www.rayguyaward.com/watchlist|website=|date=July 31, 2023|access-date=July 31, 2023}}</ref>
+|-
+| [[Ben Kiernan]]
+| North Carolina
+| GS
+|-
+| Daniel Sparks
+| Virginia
+| Sr.
+|-
+| Ivan Mora
+| Wake Forest
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| Max Von Marburg
+| Syracuse
+| So.
+|-
+| Peter Moore
+| Virginia Tech
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| Porter Wilson
+| Duke
+| GS
+|-
+| rowspan=7 | [[Paul Hornung Award]]
+| Ryan O'Keefe
+| Boston College
+| WR
+| Sr.
+| rowspan=7 | <ref>{{cite web|url=https://www.louisvillesports.org/ph-news/53-players-named-to-the-14th-annual-paul-hornung-award-watch-list/|title=53 Players Named to the 14th Annual Paul Hornung Award Watch List|website=louisvillesports.org|publisher=SportsETA|date=August 3, 2023|access-date=August 3, 2023}}</ref>
+|-
+| [[Will Shipley]]
+| Clemson
+| RB
+| Jr.
+|-
+| Jaylen Stinson
+| Duke
+| S
+| Sr.
+|-
+| [[Jawhar Jordan]]
+| Louisville
+| RB
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[M.J. Devonshire]]
+| Pittsburgh
+| CB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Trebor Pena]]
+| Syracuse
+| rowspan=2 | WR
+| So.
+|-
+| [[Jaylin Lane]]
+| Virginia Tech
+| Sr.
+|-
+| rowspan=15 | [[Wuerffel Trophy]]
+| [[Will Shipley]]
+| Clemson
+| RB
+| Jr.
+| rowspan=15 | <ref>{{cite web|title= Wuerffel Trophy 2023 Watch List Announced |url= https://wuerffeltrophy.org/wuerffel-trophy-2023-watch-list-announced/|website=wuerffeltrophy.org|publisher=Wuerffel Trophy|first=James|last=Gadsby|date=August 3, 2023|access-date=August 3, 2023}}</ref>
+|-
+| Ja'Mion Franklin
+| Duke
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Jared Verse]]
+| Florida State
+| DE
+| Sr.
+|-
+| LaMiles Brooks
+| Georgia Tech
+| DB
+| rowspan=3 | Jr.
+|-
+| [[Ashton Gillotte]]
+| Louisville
+| DE
+|-
+| [[Kamren Kinchens]]
+| Miami
+| S
+|-
+| Joseph Shimko
+| NC State
+| LS
+| Sr.
+|-
+| Elijah Green
+| rowspan=2 | North Carolina
+| RB
+| Jr.
+|-
+| [[Kaimon Rucker]]
+| LB
+| Sr.
+|-
+| David Green
+| rowspan=2 | Pittsburgh
+| DT
+| Sr.
+|-
+| [[Gavin Bartholomew]]
+| TE
+| Jr.
+|-
+| [[Garrett Shrader]]
+| Syracuse
+| QB
+| Sr.
+|-
+| [[Chico Bennett Jr.]]
+| Virginia
+| DE
+| Gs.
+|-
+| Matt Johnson
+| Virginia Tech
+| rowspan=2 | LB
+| Sr.
+|-
+| Jaylen Hudson
+| Wake Forest
+| Jr.
+|-
+| rowspan=4 | [[Walter Camp Award]]
+| [[Jeremiah Trotter Jr.]]
+| Clemson
+| LB
+| Jr.
+| rowspan=4 | <ref>{{cite web|url=https://waltercamp.org/forty-five-players-named-to-walter-camp-2023-player-of-year-preseason-watch-list/|title=Forty Five Players Named to Walter Camp 2023 Player of Year Preseason Watch List |website=waltercamp.org|publisher=Walter Camp Award|first=Al|last=Carbone|date=August 11, 2023|access-date=August 11, 2023}}</ref>
+|-
+| [[Jordan Travis]]
+| rowspan=2 | Florida State
+| QB
+| rowspan=2 | Sr.
+|-
+| [[Jared Verse]]
+| DE
+|-
+| [[Drake Maye]]
+| North Carolina
+| QB
+| So.
+|}
+
+{{col-3-of-3}}
+
+{| class="wikitable" style="text-align:center;"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Award|Head Coach/Player|School|Position|Year|Ref}} 
+|-
+| rowspan=15 | [[Bednarik Award]]
+| [[Donovan Ezeiruaku]]
+| Boston College
+| DE
+| Jr.
+| rowspan=15 | <ref>{{cite web|url=https://ncfaa.org/awards/bednarik-award|title=2023 Preseason Watch List|website=ncfaa.org|publisher=Maxwell Football Club|date=August 14, 2023|access-date=August 14, 2023}}</ref>
+|-
+| [[Barrett Carter]]
+| rowspan=3 | Clemson
+| LB
+| Jr.
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| DT
+| Sr.
+|-
+| [[Jeremiah Trotter Jr.]]
+| LB
+| Jr.
+|-
+| [[DeWayne Carter]]
+| Duke
+| DT
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Jared Verse]]
+| Florida State
+| DE
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| LaMiles Brooks
+| Georgia Tech
+| DB
+| Jr.
+|-
+| [[Kamren Kinchens]]
+| rowspan=2 | Miami
+| S
+| Jr.
+|-
+| [[Leonard Taylor III]]
+| DL
+| So.
+|-
+| [[Cedric Gray]]
+| North Carolina
+| LB
+| Sr.
+|-
+| [[Aydan White]]
+| rowspan=2 | NC State
+| CB
+| Jr.
+|-
+| [[Payton Wilson]]
+| LB
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[M.J. Devonshire]]
+| Pittsburgh
+| DB
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Marlowe Wax]]
+| Syracuse
+| LB
+| So.
+|-
+| [[Chico Bennett Jr.]]
+| Virginia
+| DE
+| Gs.
+|-
+| rowspan=11 | [[Lombardi Award|Rotary Lombardi Award]]
+| [[Christian Mahogany]]
+| Boston College
+| OG
+| Gs.
+| rowspan=11 | <ref>{{cite web|url=https://ktrh.iheart.com/content/2023-08-15-the-lombardi-award-announces-2023-watchlist/|title=The Lombardi Award Announces 2023 Watchlist|website=ktrh.iheart.com|publisher=KTRH News Radio|first=Chris|last=Gordy|date=August 15, 2023|access-date=August 15, 2023}}</ref>
+|-
+| [[Barrett Carter]]
+| rowspan=3 | Clemson
+| LB
+| Jr.
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| DT
+| Gs.
+|-
+| [[Jeremiah Trotter Jr.]]
+| LB
+| Jr.
+|-
+| [[Graham Barton]]
+| rowspan=2 | Duke
+| OT
+| Sr.
+|-
+| [[DeWayne Carter]]
+| DT
+| rowspan=2 | [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| D'Mitri Emmanuel
+| rowspan=2 | Florida State
+| OG
+|-
+| [[Jared Verse]]
+| DE
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+|-
+| [[Cedric Gray]]
+| North Carolina
+| rowspan=2 | LB
+| Sr.
+|-
+| [[Marlowe Wax]]
+| Syracuse
+| Jr.
+|-
+| [[Michael Jurgens]]
+| Wake Forest
+| OG
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| rowspan=3 | [[Patrick Mannelly Award]] 
+| James Rosenberry
+| Florida State
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+| rowspan=3 | LS
+| rowspan=3 | <ref>{{cite web|title=2023 Award Watch List|url= https://patrickmannellyaward.com/2022-nominees/|website=patrickmannellyaward.com|publisher=Patrick Mannelly Award|date=August 1, 2023|access-date=August 7, 2023}}</ref>
+|-
+| Drew Little
+| North Carolina
+| rowspan=2 | Gs.
+|-
+| [[Joe Shimko]]
+| NC State
+|-
+| rowspan=3 | [[Earl Campbell Tyler Rose Award]]
+| Ryan O'Keefe
+| Boston College
+| WR
+| Gs.
+| rowspan=3 | <ref>{{cite web|url=https://clemsontigers.com/klubnik-placed-on-earl-campbell-tyler-rose-award-watch-list/|title=Klubnik Placed on Earl Campbell Tyler Rose Award Watch List|website=clemsontigers.com|publisher=Clemson University Athletics|date=August 17, 2023|access-date=August 17, 2023}}</ref>
+|-
+| [[Cade Klubnik]]
+| Clemson
+| QB
+| So.
+|-
+| Bradley Rozner
+| NC State
+| WR
+| Gs.
+|-
+| rowspan=6 | Polynesian College Football Player Of The Year Award
+| [[Lawrance Toafili]]
+| Florida State
+| RB
+| [[File:Redshirt.svg|10px|Redshirt]] Jr.
+| rowspan=6 | <ref>{{cite web|url=https://www.polynesianfootballhof.org/releases/2023-polynesian-college-football-player-of-the-year-award-watch-list|title=2023 Polynesian College Football player of the Year Award Watch List|website=polynesianfootballhof.org|publisher=Polynesian Football Hall of Fame|date=August 17, 2023|access-date=August 21, 2023}}</ref>
+|-
+| Jermayne Lole
+| Louisville
+| DL
+| Gs.
+|-
+| [[Francis Mauigoa]]
+| rowspan=2 | Miami (FL)
+| OL
+| Fr.
+|-
+| [[Francisco Mauigoa]]
+| LB
+| Jr.
+|-
+| Josh Ilaoa
+| Syracuse
+| OL
+| Jr.
+|-
+| Aaron Faumui
+| Virginia
+| DL
+| Gs.
+|- 
+| rowspan=4 | [[Manning Award]]
+| [[Riley Leonard]]
+| Duke
+| rowspan=4 | QB
+| Jr.
+| rowspan=4 | <ref>{{cite web|url=https://allstatesugarbowl.org/news/2023/8/15/manning-award-watch-list.aspx|title=Allstate Sugar Bowl Announces Manning Award Watch List|website=allstatesugarbowl.com|publisher=Allstate Sugar Bowl|date=August 15, 2023|access-date=August 16, 2023}}</ref>
+|-
+| [[Jordan Travis]]
+| Florida State
+| Sr.
+|-
+| [[Drake Maye]]
+| North Carolina
+| So.
+|-
+| [[Garrett Shrader]]
+| Syracuse
+| Jr.
+|- 
+| rowspan=9 | [[Johnny Unitas Golden Arm Award]]
+| [[Riley Leonard]]
+| Duke
+| rowspan=9 | QB
+| Jr.
+| rowspan=9 | <ref>{{cite web|url=https://goldenarmfoundation.com/2023/08/the-johnny-unitas-golden-arm-award-unveils-2023-watch-list/|title=The Johnny Unitas Golden Arm Award Unveils 2023 Watch List|website=goldenarmfoundation.com|publisher=Golden Arm Foundation|date=August 23, 2023|access-date=August 25, 2023}}</ref>
+|-
+| [[Jordan Travis]]
+| Florida State
+| Sr.
+|-
+| [[Tyler Van Dyke]]
+| Miami
+| [[File:Redshirt.svg|10px|Redshirt]] So.
+|-
+| [[Drake Maye]]
+| North Carolina
+| So.
+|-
+| [[Brennan Armstrong]]
+| NC State
+| Gs.
+|-
+| [[Phil Jurkovec]]
+| Pittsburgh
+| rowspan=2 | Sr.
+|-
+| [[Garrett Shrader]]
+| Syracuse
+|-
+| [[Grant Wells]]
+| Virginia Tech
+| [[File:Redshirt.svg|10px|Redshirt]] Sr.
+|-
+| [[Mitch Griffis]]
+| Wake Forest
+| [[File:Redshirt.svg|10px|Redshirt]] Fr.
+|}
+
+{{col-end}}
+
+==Coaches==
+
+===Coaching changes===
+The ACC entered the 2023 season with two new head football coaches:
+
+* On September 25, 2022, Georgia Tech fired head coach [[Geoff Collins (American football)|Geoff Collins]]<ref>{{cite web |last1=McDaniel |first1=Mike |title=Georgia Tech Fires Coach Geoff Collins, per Reports |date=November 16, 2021|url=https://www.si.com/college/2022/09/25/georgia-tech-fires-coach-geoff-collins-per-report |website=si.com |publisher=Sports Illustrated |access-date=30 January 2023}}</ref> and was replaced by interim head coach [[Brent Key]]. On November 29, 2022, Key was hired as the next head coach.<ref>{{cite web |date=November 29, 2022|title=Virginia Tech names Penn State DC Brent Pry as new head football coach |url=https://ramblinwreck.com/brent-key-named-georgia-tech-footballs-21st-head-coach/ |website=wramblinreck.com |publisher=GT |access-date=20 January 2023}}</ref>
+* On December 5, 2022, [[Cincinnati Bearcats football|Cincinnati]] hired Louisville head coach [[Scott Satterfield]]<ref>{{cite web |last1=Jenkins |first1=Keith |title='I'm honored': Cincinnati Bearcats introduce Scott Satterfield as next head football coach |date=December 5, 2022|url=https://www.cincinnati.com/story/sports/college/university-of-cincinnati/2022/12/05/scott-satterfield-next-football-coach-university-of-cincinnati-bearcats-uc/69700977007/ |website=cincinnati.com |publisher=Cincinnati Enquirer |access-date=30 January 2023}}</ref> and was replaced by former [[Purdue Boilermakers football|Purdue]] head coach [[Jeff Brohm]] on December 7, 2022.<ref>{{cite web |last1=Low |first1=Chris |date=December 7, 2022|title=Sources: Jeff Brohm leaves Purdue, accepts Louisville job |url=https://www.espn.com/college-football/story/_/id/35204000/sources-jeff-brohm-leaves-purdue-job-coach-louisville |website=espn.com |publisher=ESPN |access-date=30 January 2023}}</ref>
+
+===Head coaching records===
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! width="110" | Team
+! Head coach
+! Years at school
+! Overall record
+! Record at school
+! ACC record
+|-
+!| Boston College
+| [[Jeff Hafley]]
+| 4
+| 15–20
+| 15–20
+| 9–17
+|-
+!| Clemson
+| [[Dabo Swinney]]
+| 15
+| 161–39
+| 161–39
+| 99–19
+|-
+!| Duke
+| [[Mike Elko]]
+| 2
+| 9–4
+| 9–4
+| 5–3
+|-
+!| Florida State
+| [[Mike Norvell]]
+| 4
+| 56–31
+| 18–16
+| 11–13
+|-
+!| Georgia Tech
+| [[Brent Key]]
+| 2
+| 4–4
+| 4–4
+| 4–3
+|-
+!| Louisville
+| [[Jeff Brohm]]
+| 1
+| 66–44
+| 0–0
+| 0–0
+|-
+!| Miami
+| [[Mario Cristobal]]
+| 2
+| 67–67
+| 5–7
+| 3–5
+|-
+!| North Carolina
+| [[Mack Brown]]
+| 15
+| 274–144–1
+| 99–68–1
+| 61–49–1
+|-
+!| NC State
+| [[Dave Doeren]]
+| 11
+| 95–58
+| 72–54
+| 38–44
+|-
+!| Pittsburgh
+| [[Pat Narduzzi]]
+| 9
+| 62–41
+| 62–41
+| 41–25
+|-
+!| Syracuse
+| [[Dino Babers]]
+| 8
+| 73–65
+| 36–49
+| 18–39
+|-
+!| Virginia
+| [[Tony Elliott (American football coach)|Tony Elliot]]
+| 2
+| 3–7
+| 3–7
+| 1–6
+|-
+!| Virginia Tech
+| [[Brent Pry]]
+| 2
+| 3–8
+| 3–8
+| 1–6
+|-
+!| Wake Forest
+| [[Dave Clawson]]
+| 10
+| 149–132
+| 59–53
+| 29–42
+|}
+
+==Rankings==
+{{see also|2023 NCAA Division I FBS football rankings}}
+
+{| align=left style="font-size:90%; border:1px solid #aaaaaa; white-space:nowrap; background:#eeeeee;" 
+|+ '''Legend'''
+|-
+| style="background:#d8ffeb; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| rowspan=5 | &nbsp;
+| Improvement in ranking
+|-
+| style="background:#ffe6e6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Drop in ranking
+|-
+| style="background:#ffffe6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Not ranked previous week
+|-
+| align=center style="width:20px; border:1px solid #aaaaaa; background:white;" | RV
+| Received votes but were not ranked in Top 25 of poll
+|-
+| т
+| Tied with team above or below also with this symbol
+|- 
+|}
+
+{{clear}}
+
+{| class="wikitable" style="white-space:nowrap;font-size:90%;"  
+|- 
+! colspan=2 style="background:white; border-top-style:hidden; border-left-style:hidden;" |&nbsp; !! Pre !! Wk<br>1 !! Wk<br>2 !! Wk<br>3 !! Wk<br>4 !! Wk<br>5 !! Wk<br>6 !! Wk<br>7 !! Wk<br>8 !! Wk<br>9 !! Wk<br>10 !! Wk<br>11 !! Wk<br>12 !! Wk<br>13 !! Wk<br>14 !!Final
+|- "text-align:center;"
+! rowspan=3 |'''Boston College'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Clemson'''
+! AP  
+| style="background:#FFF;" | 9
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" |  
+| style="background:#ffffe6;" | RV 
+| style="background:#FFE6E6;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 20
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 9
+| style="background:#FFE6E6;" | 21
+| style="background:#FFE6E6;" | 22
+| style="background:#FFE6E6;" | 23
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#D8FFEB;" | 20
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | 24
+| style="background:#D8FFEB;" | 23
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Duke'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#ffffe6;" | 21
+| style="background:#FFF;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | 19
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 16
+| style="background:#ffe6e6;" | 20
+| style="background:#ffe6e6;" |  
+| style="background:#ffffe6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |  
+| style="background:#ffffe6;" | RV
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#ffffe6;" | 24
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | 21
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#ffffe6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Florida State'''
+! AP  
+| style="background:#FFF;" | 8
+| style="background:#D8FFEB;" | 4 ''(3)''
+| style="background:#D8FFEB;" | 3 ''(3)''
+| style="background:#FFE6E6;" | 4 ''(1)''
+| style="background:#FFE6E6;" | 5 ''(3)''
+| style="background:#FFF;" | 5 ''(4)''
+| style="background:#D8FFEB;" | 4 ''(1)''
+| style="background:#FFF;" | 4 ''(1)''
+| style="background:#FFF;" | 4 ''(3)''
+| style="background:#FFF;" | 4 ''(3)''
+| style="background:#FFF;" | 4 ''(2)''
+| style="background:#FFF;" | 4
+| style="background:#FFE6E6;" | 5
+| style="background:#D8FFEB;" | 4
+| style="background:#FFF;" | 4 
+| style="background:#FFE6E6;" | 6т
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 8
+| style="background:#D8FFEB;" | 5
+| style="background:#D8FFEB;" | 3
+| style="background:#FFF;" | 3
+| style="background:#FFE6E6;" | 4
+| style="background:#FFE6E6;" | 5
+| style="background:#D8FFEB;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4 
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#D8FFEB;" | 3
+| style="background:#FFE6E6;" | 6
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFE6E6;" | 5 
+| style="background:#D8FFEB;" | 4 
+| style="background:#FFE6E6;" | 5
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Georgia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Louisville'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#D8FFEB;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffffe6;" | 25
+| style="background:#D8FFEB;" | 14
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 15 
+| style="background:#D8FFEB;" | 11
+| style="background:#D8FFEB;" | 9
+| style="background:#FFF;" | 9 
+| style="background:#FFE6E6;" | 15
+| style="background:#FFE6E6;" | 16
+| style="background:#FFE6E6;" | 19
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffffe6;" | 25
+| style="background:#D8FFEB;" | 15
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 15 
+| style="background:#D8FFEB;" | 11
+| style="background:#D8FFEB;" | 9
+| style="background:#FFF;" | 9
+| style="background:#FFE6E6;" | 14
+| style="background:#FFE6E6;" | 15
+| style="background:#FFE6E6;" | 18
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 13
+| style="background:#D8FFEB;" | 11
+| style="background:#D8FFEB;" | 10
+| style="background:#FFF;" | 10 
+| style="background:#FFE6E6;" | 14 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Miami'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffffe6;" | 22
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffffe6;" | 23
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''North Carolina'''
+! AP   
+| style="background:#FFF;" | 21
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | 20
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 14
+| style="background:#D8FFEB;" | 12
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 17
+| style="background:#FFE6E6;" | RV
+| style="background:#D8FFEB;" | 24
+| style="background:#D8FFEB;" | 22
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 20
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 18
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 13
+| style="background:#D8FFEB;" | 12
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 17
+| style="background:#FFE6E6;" | 25 
+| style="background:#D8FFEB;" | 23
+| style="background:#D8FFEB;" | 20
+| style="background:#FFE6E6;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" |  
+| style="background:#ffffe6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#D8FFEB;" | 24
+| style="background:#D8FFEB;" | 20
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''NC State'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFFFE6;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#D8FFEB;" | 21т
+| style="background:#D8FFEB;" | 19
+| style="background:#FFE6E6;" | 21
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 24
+| style="background:#D8FFEB;" | 20  
+| style="background:#D8FFEB;" | 18 
+| style="background:#FFE6E6;" | 21
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | 22 
+| style="background:#D8FFEB;" | 19
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Pittsburgh'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Syracuse'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#D8FFEB;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#D8FFEB;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Wake Forest'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|}
+
+==Schedule==
+The regular season began on August 31, 2023, and ended on November 25, 2023. The [[2023 ACC Championship Game|ACC Championship Game]] will be played on Saturday December 2, 2023, at [[Bank of America Stadium]] in [[Charlotte, North Carolina]].
+
+===Regular season===
+
+====Week one====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|August 31|Thursday}}
+| time          = 7:00 p.m.
+| visiting_team = [[2023 Elon Phoenix football team|Elon]]
+| home_team     = '''[[2023 Wake Forest Demon Deacons football team|Wake Forest]]'''
+| site_stadium  = [[Allegacy Federal Credit Union Stadium]]
+| site_cityst   = [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| tv            = [[ACC Network|ACCN]]
+| score         = 37–17
+| attend        = 30,028
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|August 31|Thursday}}
+| time          = 7:30 p.m.
+| visiting_team = '''[[2023 NC State Wolfpack football team|NC State]]'''
+| home_team     = [[2023 UConn Huskies football team|UConn]]
+| site_stadium  = [[Pratt & Whitney Stadium at Rentschler Field]]
+| site_cityst   = [[East Hartford, Connecticut|East Hartford, CT]]
+| tv            = [[CBS Sports Network|CBSSN]]
+| score         = 24–14
+| attend        = 36,536
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 1|Friday}}
+| time          = 7:00 p.m.
+| visiting_team = [[2023 Miami RedHawks football team|Miami (OH)]]
+| home_team     = '''[[2023 Miami Hurricanes football team|Miami]]'''
+| site_stadium  = [[Hard Rock Stadium]]
+| site_cityst   = [[Miami Gardens, Florida|Miami Gardens, FL]]
+| tv            = ACCN
+| score         = 38–3
+| attend        = 49,024
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 1|Friday}}
+| time          = 7:30 p.m.
+| visiting_team = '''[[2023 Louisville Cardinals football team|Louisville]]'''
+| home_team     = '''[[2023 Georgia Tech Yellow Jackets football team|Georgia Tech]]'''
+| site_stadium  = [[Mercedes-Benz Stadium]]
+| site_cityst   = [[Atlanta|Atlanta, GA]]
+| gamename      = [[Chick-fil-A Kickoff Game|Chick-fil-A Kickoff]]
+| tv            = [[ESPN College Football|ESPN]]
+| score         = '''LOU''' 39–34
+| attend        = 36,101
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 2
+| time          = Noon
+| visiting_team = [[2023 Northern Illinois Huskies football team|Northern Illinois]]
+| home_team     = '''[[2023 Boston College Eagles football team|Boston College]]'''
+| site_stadium  = [[Alumni Stadium]]
+| site_cityst   = [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]]
+| tv            = ACCN
+| score         = 24–27
+| overtime      = OT
+| attend        = 30,122
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 2
+| time          = Noon
+| visiting_team = '''[[2023 Virginia Cavaliers football team|Virginia]]'''
+| home_team     = [[2023 Tennessee Volunteers football team|Tennessee]]
+| home_rank     = 12
+| site_stadium  = [[Nissan Stadium (Nashville)|Nissan Stadium]]
+| site_cityst   = [[Nashville, Tennessee|Nashville, TN]]
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = 13–49
+| attend        = 69,507
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 3:30 p.m.
+| visiting_team = [[2023 Wofford Terriers football team|Wofford]]
+| home_team     = '''[[2023 Pittsburgh Panthers football team|Pittsburgh]]'''
+| site_stadium  = [[Acrisure Stadium]]
+| site_cityst   = [[Pittsburgh|Pittsburgh, PA]]
+| tv            = ACCN
+| score         = 45–7
+| attend        = 45,096
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 4:00 p.m.
+| visiting_team = [[2023 Colgate Raiders football team|Colgate]]
+| home_team     = '''[[2023 Syracuse Orange football team|Syracuse]]'''
+| site_stadium  = [[JMA Wireless Dome]]
+| site_cityst   = [[Syracuse, New York|Syracuse, NY]]
+| gamename      = [[Colgate–Syracuse football rivalry|rivalry]]
+| tv            = [[ACC Network|ACCNX]]/[[ESPN+]]
+| score         = 65–0
+| attend        = 32,465
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 7:30 p.m.
+| visiting_team = '''[[2023 North Carolina Tar Heels football team|North Carolina]]'''
+| visiting_rank = 21
+| home_team     = [[2023 South Carolina Gamecocks football team|South Carolina]]
+| site_stadium  = [[Bank of America Stadium]]
+| site_cityst   = [[Charlotte, North Carolina|Charlotte, NC]]
+| gamename      = [[Duke's Mayo Classic]], [[North Carolina–South Carolina football rivalry|rivalry]], ''[[College GameDay (football TV program)|College GameDay]]''
+| tv            = [[ESPN Saturday Night Football on ABC|ABC]]
+| score         = 31–17
+| attend        = 68,723
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 8:00 p.m.
+| visiting_team = [[2023 Old Dominion Monarchs football team|Old Dominion]]
+| home_team     = '''[[2023 Virginia Tech Hokies football team|Virginia Tech]]'''
+| site_stadium  = [[Lane Stadium]]
+| site_cityst   = [[Blacksburg, Virginia|Blacksburg, VA]]
+| tv            = ACCN
+| score         = 36–17
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 3|Sunday}}
+| time          = 7:30 p.m.
+| visiting_team = [[2023 LSU Tigers football team|LSU]]
+| visiting_rank = 5
+| home_team     = '''[[2023 Florida State Seminoles football team|Florida State]]'''
+| home_rank     = 8
+| site_stadium  = [[Camping World Stadium]]
+| site_cityst   = [[Orlando, Florida|Orlando, FL]]
+| gamename      = [[Camping World Kickoff]]
+| tv            = ABC
+| score         = 45–24
+| attend        = 65,429
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 4|Monday}}
+| time          = 8:00 p.m.
+| visiting_team = '''[[2023 Clemson Tigers football team|Clemson]]'''
+| visiting_rank = 9
+| home_team     = '''[[2023 Duke Blue Devils football team|Duke]]'''
+| site_stadium  = [[Wallace Wade Stadium]]
+| site_cityst   = [[Durham, North Carolina|Durham, NC]]
+| tv            = ESPN
+| score         = '''DUKE''' 28–7
+| attend        = 31,638
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week two====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 7|Thursday}}
+| time          = 7:00 p.m.
+| visiting_team = [[2023 Murray State Racers football team|Murray State]]
+| home_team     = '''Louisville'''
+| site_stadium  = [[L&N Federal Credit Union Stadium]]
+| site_cityst   = [[Louisville, Kentucky|Louisville, KY]]
+| tv            = ACCN
+| score         = 56–0
+| attend        = 45,273
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 11:00 a.m.
+| visiting_team = [[2023 Vanderbilt Commodores football team|Vanderbilt]]
+| home_team     = '''Wake Forest'''
+| site_stadium  = Allegacy Federal Credit Union Stadium
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = 36–20
+| attend        = 28,363
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = Noon
+| visiting_team = [[2023 Holy Cross Crusaders football team|Holy Cross]]
+| visiting_rank = 5 <small>([[2023 NCAA Division I FCS football season|FCS]])</small>
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = [[Boston College–Holy Cross football rivalry|rivalry]]
+| tv            = [[ACC Network|ACCNX]]/[[ESPN+]]
+| score         = 31–28
+| attend        = 40,122
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = Noon
+| visiting_rank = 10
+| visiting_team = [[2023 Notre Dame Fighting Irish football team|Notre Dame]]
+| home_team     = '''NC State'''
+| site_stadium  = [[Carter–Finley Stadium]]
+| site_cityst   = [[Raleigh, North Carolina|Raleigh, NC]]
+| tv            = ABC
+| score         = 24–45
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = Noon
+| visiting_team = [[2023 James Madison Dukes football team|James Madison]]
+| home_team     = '''Virginia'''
+| site_stadium  = [[Scott Stadium]]
+| site_cityst   = [[Charlottesville, Virginia|Charlottesville, VA]]
+| tv            = [[ESPNU College Football|ESPNU]]
+| score         = 35–36
+| attend        = 56,508
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = Noon
+| visiting_team = [[2023 Purdue Boilermakers football team|Purdue]]
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = [[ESPN College Football|ESPN2]]
+| score         = 17–24
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 1:00 p.m.
+| visiting_team = [[2023 South Carolina State Bulldogs football team|South Carolina State]]
+| home_team     = '''Georgia Tech'''
+| site_stadium  = [[Bobby Dodd Stadium]]
+| site_cityst   = Atlanta, GA
+| tv            = ACCNX/ESPN+
+| score         = 48–13
+| attend        = 31,452
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 2:15 p.m.
+| visiting_team = [[2023 Charleston Southern Buccaneers football team|Charleston Southern]]
+| home_team     = '''Clemson'''
+| home_rank     = 25
+| site_stadium  = [[Memorial Stadium (Clemson)|Memorial Stadium]]
+| site_cityst   = [[Clemson, South Carolina|Clemson, SC]]
+| tv            = ACCN
+| score         = 66–17
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 3:30 p.m.
+| visiting_rank = 23
+| visiting_team = [[2023 Texas A&M Aggies football team|Texas A&M]]
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ABC
+| score         = 48–33
+| attend        = 48,792
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 3:30 p.m.
+| visiting_team = [[2023 Western Michigan Broncos football team|Western Michigan]]
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCNX/ESPN+
+| score         = 48–7
+| attend        = 32,637
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 5:15 p.m.
+| visiting_team = [[2023 Appalachian State Mountaineers football team|Appalachian State]]
+| home_team     = '''North Carolina'''
+| home_rank     = 17
+| site_stadium  = [[Kenan Stadium]]
+| site_cityst   = [[Chapel Hill, North Carolina|Chapel Hill, NC]]
+| tv            = ACCN
+| score         = 40–34
+| overtime      = 2OT
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 6:00 p.m.
+| visiting_team = [[2023 Lafayette Leopards football team|Lafayette]]
+| home_team     = '''Duke'''
+| home_rank     = 21
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCNX/ESPN+
+| score         = 42–7
+| attend        = 17,481
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = 6:30 p.m.
+| visiting_team = [[2023 Cincinnati Bearcats football team|Cincinnati]]
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| gamename      = River City Rivalry
+| tv            = [[The CW|CW]]
+| score         = 21–27
+| attend        = 49,398
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 8:30 p.m.
+| visiting_team = [[2023 Southern Miss Golden Eagles football team|Southern Miss]]
+| home_team     = '''Florida State'''
+| home_rank     = 4
+| site_stadium  = [[Doak Campbell Stadium]]
+| site_cityst   = [[Tallahassee, Florida|Tallahassee, FL]]
+| tv            = ACCN
+| score         = 66–13
+| attend        = 74,467
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week three====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 14|Thursday}}
+| time          = 7:30 p.m.
+| visiting_team = [[2023 Bethune–Cookman Wildcats football team|Bethune–Cookman]]
+| home_rank     = 22
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = 48–7
+| attend        = 40,077
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = {{tooltip|September 15|Friday}}
+| time          = 7:00 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = [[2023 Maryland Terrapins football team|Maryland]]
+| site_stadium  = [[SECU Stadium]]
+| site_cityst   = [[College Park, Maryland|College Park, MD]]
+| gamename      = [[Maryland-Virginia football rivalry|rivalry]]
+| tv            = [[Fox College Football|FS1]]
+| score         = 14–42
+| attend        = 37,041
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 16
+| time          = Noon
+| visiting_team = '''Florida State'''
+| visiting_rank = 3
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ABC
+| score         = '''FSU''' 31–29
+| attend        = 41,383
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = Noon
+| visiting_team = '''Louisville'''
+| home_team     = [[2023 Indiana Hoosiers football team|Indiana]]
+| site_stadium  = [[Lucas Oil Stadium]]
+| site_cityst   = [[Indianapolis, Indiana|Indianapolis, IN]]
+| tv            = [[Big Ten Network|BTN]]
+| score         = 21–14
+| attend        = 37,250
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = Noon
+| visiting_team = '''Wake Forest'''
+| home_team     = [[2023 Old Dominion Monarchs football team|Old Dominion]]
+| site_stadium  = [[S.B. Ballard Stadium]]
+| site_cityst   = [[Norfolk, Virginia|Norfolk, VA]]
+| tv            = ESPN2
+| score         = 27–24
+| attend        = 18,276
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 2:00 p.m.
+| visiting_team = [[2023 VMI Keydets football team|VMI]]
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = CW
+| score         = 45–7
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 3:30 p.m.
+| visiting_team = [[2023 Northwestern Wildcats football team|Northwestern]]
+| home_team     = '''Duke'''
+| home_rank     = 21
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = 38–14
+| attend        = 18,141
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 3:30 p.m.
+| visiting_team = [[2023 Minnesota Golden Gophers football team|Minnesota]]
+| home_team     = '''North Carolina'''
+| home_rank     = 20
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ESPN
+| score         = 31–13
+| attend        = 45,151
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 16
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = [[2023 Rutgers Scarlet Knights football team|Rutgers]]
+| site_stadium  = [[SHI Stadium]]
+| site_cityst   = [[Piscataway, New Jersey|Piscataway, NJ]]
+| tv            = BTN
+| score         = 16–35
+| attend        = 52,657
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 16
+| time          = 7:30 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = [[2023 Ole Miss Rebels football team|Ole Miss]]
+| home_rank     = 17
+| site_stadium  = [[Vaught–Hemingway Stadium]]
+| site_cityst   = [[Oxford, Mississippi|Oxford, MS]]
+| tv            = [[SEC Network|SECN]]
+| score         = 23–48
+| attend        = 64,150
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 16
+| time          = 7:30 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = [[2023 West Virginia Mountaineers football team|West Virginia]]
+| site_stadium  = [[Milan Puskar Stadium]]
+| site_cityst   = [[Morgantown, West Virginia|Morgantown, WV]]
+| gamename      = [[Backyard Brawl]]
+| tv            = [[ESPN Saturday Night Football on ABC|ABC]]
+| score         = 6–17
+| attend        = 61,106
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 7:30 p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = [[2023 Purdue Boilermakers football team|Purdue]]
+| site_stadium  = [[Ross–Ade Stadium]]
+| site_cityst   = [[West Lafayette, Indiana|West Lafayette, IN]]
+| tv            = [[College Football on NBC Sports|NBC]]
+| score         = 35–20
+| attend        = 61,441
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 8:00 p.m.
+| visiting_team = [[2023 Florida Atlantic Owls football team|Florida Atlantic]]
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = 48–14
+| attend        = 81,295
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week four====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 22|Friday}}
+| time          = 7:30 p.m.
+| visiting_team = '''NC State'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ESPN
+| score         = '''NCSU''' 24–21
+| attend        = 42,979
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = Noon
+| visiting_rank = 4
+| visiting_team = '''Florida State'''
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–Florida State football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''FSU''' 31–24
+| overtime      = OT
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = Noon
+| visiting_team = [[2023 Army Black Knights football team|Army]]
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = 29–16
+| attend        = 37,594
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 23
+| time          = Noon
+| visiting_team = '''Virginia Tech'''
+| home_team     = [[2023 Marshall Thundering Herd football team|Marshall]]
+| site_stadium  = [[Joan C. Edwards Stadium]]
+| site_cityst   = [[Huntington, West Virginia|Huntington, WV]]
+| tv            = ESPN2
+| score         = 17–24
+| attend        = 31,475
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Louisville'''
+| site_stadium  = L&N Federal Credit Union Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''LOU''' 56–28
+| attend        = 48,294
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_rank = 20
+| visiting_team = '''Miami'''
+| home_team     = [[2023 Temple Owls football team|Temple]]
+| site_stadium  = [[Lincoln Financial Field]]
+| site_cityst   = [[Philadelphia|Philadelphia, PA]]
+| tv            = ESPN2
+| score         = 41–7
+| attend        = 17,234
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_rank = 18
+| visiting_team = '''Duke'''
+| home_team     = UConn
+| site_stadium  = Pratt & Whitney Stadium at Rentschler Field
+| site_cityst   = East Hartford, CT
+| tv            = CBSSN
+| score         = 41–7
+| attend        = 29,033
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 6:30 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Allegacy Federal Credit Union Stadium
+| site_cityst   = Winston-Salem, NC
+| tv            = CW
+| score         = '''GT''' 30–16
+| attend        = 32,528
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 8:00 p.m.
+| visiting_rank = 17
+| visiting_team = '''North Carolina'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''UNC''' 41–24
+| attend        = 48,544
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week five====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 29|Friday}}
+| time          = 7:00 p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ESPN
+| score         = '''LOU''' 13–10
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = Noon
+| visiting_team = '''Clemson'''
+| home_team     = '''Syracuse'''
+| site_stadium = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = ABC
+| score         = '''CLEM''' 31–14
+| attend        = 40,973
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = 2:00 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = CW
+| score         = '''BC''' 27–24
+| attend        = 41,868
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 30
+| time          = 3:30 p.m.
+| visiting_team = [[2023 Bowling Green Falcons football team|Bowling Green]]
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = 27–38
+| attend        = 30,097
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 30
+| time          = 7:30 p.m.
+| visiting_rank = 11
+| visiting_team = Notre Dame
+| home_rank     = 17
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      = ''College GameDay''
+| tv            = ABC
+| score         = 14–21
+| attend        = 40,768
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = 8:30 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''VT''' 38–21
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4"|Bye Week
+|-
+| September 30 || No. 5 '''Florida State''' || No. 18 '''Miami''' || No. 15 '''North Carolina''' || '''Wake Forest'''
+|}
+
+====Week six====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 7
+| time          = Noon
+| visiting_team = '''Boston College'''
+| home_team     = Army
+| site_stadium  = [[Michie Stadium]]
+| site_cityst   = [[West Point, New York|West Point, NY]]
+| tv            = CBSSN
+| score         = 27–24
+| attend        = 34,017
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 7
+| time          = Noon
+| visiting_team = [[2023 William & Mary Tribe football team|William & Mary]]
+| visiting_rank = 10 <small>([[2023 NCAA Division I FCS football season|FCS]])</small>
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = 27–13
+| attend        = 38,289
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 7
+| time          = 2:00 p.m.
+| visiting_team = Marshall
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = CW
+| score         = 48–41
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 3:30 p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = '''CLEM''' 17–12
+| attend        = 80,810
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 5
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ABC
+| score         = '''FSU''' 39–17
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 3:30 p.m.
+| visiting_team = '''Syracuse'''
+| home_rank     = 14
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ESPN
+| score         = '''UNC''' 40–7
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 7
+| time          = 7:30 p.m.
+| visiting_rank = 10
+| visiting_team = Notre Dame
+| home_rank     = 25
+| home_team     = '''Louisville'''
+| site_stadium  = L&N Federal Credit Union Stadium
+| site_cityst   = Louisville, KY
+| tv            = ABC
+| score         = 33–20
+| attend        = 59,081
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 8:00 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 17
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = '''GT''' 23–20
+| attend        = 58,045
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="2"|Bye Week
+|-
+| October 7 || No. 19 '''Duke''' || '''Pittsburgh'''
+|}
+
+====Week seven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = Noon
+| visiting_team = '''Syracuse'''
+| home_rank     = 4
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ABC
+| score         = '''FSU''' 41–3
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 3:30 p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''VT''' 30–13
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 6:30 p.m.
+| visiting_rank = 14
+| visiting_team = '''Louisville'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = CW
+| score         = '''PITT''' 38–21
+| attend        = 46,296
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 7:30 p.m.
+| visiting_rank = 25
+| visiting_team = '''Miami'''
+| home_rank     = 12
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ABC
+| score         = '''UNC''' 41–31
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 8:00 p.m.
+| visiting_team = '''NC State'''
+| home_rank     = 17
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      = [[Tobacco Road (rivalry)|Tobacco Road]]
+| tv            = ACCN
+| score         = '''DUKE''' 24–3
+| attend        = 31,833
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4"|Bye Week
+|-
+| October 14 || '''Boston College''' || '''Clemson''' || '''Georgia Tech''' || '''Virginia'''
+|}
+
+====Week eight====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = Noon
+| visiting_team = '''Boston College'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = '''BC''' 38–23
+| attend        = 35,656
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 3:30 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Allegacy Federal Credit Union Stadium
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = '''WAKE''' 21–17
+| attend        = 31,855
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 6:30 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''North Carolina'''
+| home_rank     = 10
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[South's Oldest Rivalry]]
+| tv            = CW
+| score         = '''UVA''' 31–27
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 7:30 p.m.
+| visiting_rank = 16
+| visiting_team = '''Duke'''
+| home_team     = '''Florida State'''
+| home_rank     = 4
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ABC
+| score         = '''FSU''' 38–20
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 8:00 p.m.
+| visiting_team = '''Clemson'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = '''MIA''' 28–20
+| overtime      = 2OT
+| attend        = 48,562
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4"|Bye Week
+|-
+| October 21 || No. 21 '''Louisville''' || '''NC State''' || '''Syracuse''' || '''Virginia Tech'''
+|}
+
+====Week nine====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|October 26|Thursday}}
+| time          = 7:30 p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ESPN
+| score         = '''VT''' 38–10
+| attend        = 60,236
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = Noon
+| visiting_rank = 4
+| visiting_team = '''Florida State'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Allegacy Federal Credit Union Stadium
+| site_cityst   = Winston-Salem, NC
+| tv            = ABC
+| score         = '''FSU''' 41–16
+| attend        = 31,288
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 28
+| time          = Noon
+| visiting_team = UConn
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCN
+| score         = 21–14
+| attend        = 36,902
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 2:00 p.m.
+| visiting_team = '''Clemson'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[Textile Bowl]]
+| tv            = CW
+| score         = '''NCSU''' 24–17
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 28
+| time          = 3:30 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_rank     = 14
+| home_team     = Notre Dame
+| site_stadium  = [[Notre Dame Stadium]]
+| site_cityst   = [[South Bend, Indiana|South Bend, IN]]
+| gamename      = [[Notre Dame–Pittsburgh football rivalry|rivalry]]
+| tv            = [[Notre Dame Football on NBC|NBC]]
+| score         = 7–58
+| attend        = 77,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 3:30 p.m.
+| visiting_rank = 20
+| visiting_team = '''Duke'''
+| home_rank     = 18
+| home_team     = '''Louisville'''
+| site_stadium  = L&N Federal Credit Union Stadium
+| site_cityst   = Louisville, KY
+| tv            = ESPN
+| score         = '''LOU''' 23–0
+| attend        = 52,319
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = '''MIA''' 29–26
+| overtime      = OT
+| attend        = 58,503
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 8:00 p.m.
+| visiting_rank = 17
+| visiting_team = '''North Carolina'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = '''GT''' 46–42
+| attend        = 35,945
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week ten====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 2|Thursday}}
+| time          = 7:30 p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      = [[Tobacco Road (rivalry)|Tobacco Road]]
+| tv            = ESPN
+| score         = '''DUKE''' 24–21
+| attend        = 18,277
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 3|Friday}}
+| time          = 7:30 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| gamename      = rivalry
+| tv            = ESPN2
+| score         = '''BC''' 17–10
+| attend        = 42,523
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 4
+| time          = Noon
+| visiting_team = [[2023 Campbell Fighting Camels football team|Campbell]]
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCN
+| score         = 59–7
+| attend        = 47,667
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 4
+| time          = Noon
+| visiting_rank = 15
+| visiting_team = Notre Dame
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ABC
+| score         = 31–23
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 2:00 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = CW
+| score         = '''GT''' 45–17
+| attend        = 42,606
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 13
+| home_team     = '''Louisville'''
+| site_stadium  = L&N Federal Credit Union Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''LOU''' 34–3
+| attend        = 49,945
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 3:30 p.m.
+| visiting_rank = 4
+| visiting_team = '''Florida State'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ESPN
+| score         = '''FSU''' 24–7
+| attend        = 57,557
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 8:00 p.m.
+| visiting_team = '''Miami'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''NCSU''' 20–6
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2023 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week eleven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 9|Thursday}}
+| time          = 7:30 p.m.
+| visiting_team = '''Virginia'''
+| home_rank     = 11
+| home_team     = '''Louisville'''
+| site_stadium  = L&N Federal Credit Union Stadium
+| site_cityst   = Louisville, KY
+| tv            = ESPN
+| score         = '''LOU''' 31–24
+| attend        = 44,628
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = Noon
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–Georgia Tech football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''CLEM''' 42–21
+| attend        = 81,426
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = Noon
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = [[Boston College–Virginia Tech football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''VT''' 48–22
+| attend        = 33,665
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 2:00 p.m.
+| visiting_team = '''NC State'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Allegacy Federal Credit Union Stadium
+| site_cityst   = Winston-Salem, NC
+| gamename      = [[NC State–Wake Forest rivalry|rivalry]]
+| tv            = CW
+| score         = '''NCSU''' 26–6
+| attend        = 29,591
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 3:30 p.m.
+| visiting_team = '''Miami'''
+| home_rank     = 4
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = [[Florida State–Miami football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''FSU''' 27–20
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 3:30 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Syracuse'''
+| site_stadium  = [[Yankee Stadium]]
+| site_cityst   = [[The Bronx|Bronx, NY]]
+| gamename      = [[Pittsburgh–Syracuse football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''SYR''' 28–13
+| attend        = 17,101
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 8:00 p.m.
+| visiting_team = '''Duke'''
+| home_rank     = 24
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[Victory Bell (Duke–North Carolina)|Victory Bell]]
+| tv            = ACCN
+| score         = '''UNC''' 47–45
+| overtime      = 2OT
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2023 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week twelve====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 16|Thursday}}
+| time          = 7:00 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Acrisure Stadium
+| site_cityst   = Pittsburgh, PA
+| tv            = ESPN
+| score         = '''PITT''' 24–16
+| attend        = 41,842
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = Noon
+| visiting_rank = 10
+| visiting_team = '''Louisville'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ABC
+| score         = '''LOU''' 38–31
+| attend        = 44,996
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 3:00 p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = CW
+| score         = '''UVA''' 30–27
+| attend        = 36,400
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 3:30 p.m.
+| visiting_team = '''NC State'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''NCSU''' 35–28
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 18
+| time          = 3:30 p.m.
+| visiting_team = '''Wake Forest'''
+| home_rank     = 19
+| home_team     = Notre Dame
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = South Bend, IN
+| tv            = NBC
+| score         = 7–45
+| attend        = 77,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 3:30 p.m.
+| visiting_rank = 20
+| visiting_team = '''North Carolina'''
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ESPN
+| score         = '''CLEM''' 31–20
+| attend        = 81,305
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 18
+| time          = 6:30 p.m.
+| visiting_team = [[2023 North Alabama Lions football team|North Alabama]]
+| home_rank     = 4
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = CW
+| score         = 58–13
+| attend        = 79,560
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 8:00 p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = '''GT''' 31–22
+| attend        = 33,332
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2023 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week thirteen====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 24|Friday}}
+| time          = Noon
+| visiting_team = '''Miami'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ABC
+| score         = '''MIA''' 45–20
+| attend        = 30,569
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 25
+| time          = Noon
+| visiting_team = [[2023 Kentucky Wildcats football team|Kentucky]]
+| home_rank     = 10
+| home_team     = '''Louisville'''
+| site_stadium  = L&N Federal Credit Union Stadium
+| site_cityst   = Louisville, KY
+| gamename      = [[Governor's Cup (Kentucky)|Governor's Cup]]
+| tv            = ABC
+| score         = 31–38
+| attend        = 59,225
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = Noon
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = '''DUKE''' 30–19
+| attend        = 17,639
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = 2:00 p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Syracuse'''
+| site_stadium  = JMA Wireless Dome
+| site_cityst   = Syracuse, NY
+| tv            = CW
+| score         = '''SYR''' 35–31
+| attend        = 35,018
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = [[Virginia–Virginia Tech football rivalry|Commonwealth Cup]]
+| tv            = ACCN
+| score         = '''VT''' 55–17
+| attend        = 42,976
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 25
+| time          = 7:00 p.m.
+| visiting_rank = 5
+| visiting_team = '''Florida State'''
+| home_team     = [[2023 Florida Gators football team|Florida]]
+| site_stadium  = [[Ben Hill Griffin Stadium]]
+| site_cityst   = [[Gainesville, Florida|Gainesville, FL]]
+| gamename      = [[Florida–Florida State football rivalry|rivalry]]
+| tv            = ESPN
+| score         = 24–15
+| attend        = 90,341
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 25
+| time          = 7:30 p.m.
+| visiting_rank = 1
+| visiting_team = [[2023 Georgia Bulldogs football team|Georgia]]
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Clean, Old-Fashioned Hate]]
+| tv            = ABC
+| score         = 23–31
+| attend        = 51,447
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 25
+| time          = 7:30 p.m.
+| visiting_rank = 24
+| visiting_team = '''Clemson'''
+| home_team     = South Carolina
+| site_stadium  = [[Williams–Brice Stadium]]
+| site_cityst   = [[Columbia, South Carolina|Columbia, SC]]
+| gamename      = [[Clemson–South Carolina rivalry|rivalry]]
+| tv            = SECN
+| score         = 16–7
+| attend        = 80,172
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = 8:00 p.m.
+| visiting_team = '''North Carolina'''
+| home_rank     = 22
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[North Carolina–NC State football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''NCSU''' 39–20
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2023 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+===Championship Game===
+{{further|2023 ACC Championship Game}}
+
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l             =
+| date            = December 2
+| time            = 8:00 p.m.
+| visiting_team   = '''Louisville'''
+| visiting_rank   = 14
+| home_team       = '''Florida State'''
+| home_rank       = 4
+| site_stadium    = [[Bank of America Stadium]]
+| site_cityst     = [[Charlotte, North Carolina]]
+| tv              = ABC
+| score           = '''FSU''' 16–6
+| attend          = 62,314
+| source          =
+}}
+{{CFB Conference Schedule End|poll=[[2023 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+==Head-to-head matchups==
+{| class="wikitable" style="font-size:95%; text-align:center;"
+|-
+!colspan=15|2023 ACC head-to-head matchups
+|-
+!style="width:100px;"|Team
+!width:30px;"|Boston College
+!width:30px;"|Clemson
+!width:30px;"|Duke
+!width:30px;"|Florida State
+!width:30px;"|Georgia Tech
+!width:30px;"|Louisville
+!width:30px;"|Miami
+!width:30px;"|NC State
+!width:30px;"|North Carolina
+!width:30px;"|Pittsburgh
+!width:30px;"|Syracuse
+!width:30px;"|Virginia
+!width:30px;"|Virginia Tech
+!width:30px;"|Wake Forest
+|-
+| vs. [[2023 Boston College Eagles football team|Boston College]]
+|| '''—'''|| × || × ||bgcolor=#cfc|31–29 ||bgcolor=#fcc|23–38 ||bgcolor=#cfc|56–28 ||bgcolor=#cfc|45–20 || × || × ||bgcolor=#cfc|24–16 ||bgcolor=#fcc|10–17 ||bgcolor=#fcc|24–27 ||bgcolor=#cfc|48–22 || × 
+|-
+| vs. [[2023 Clemson Tigers football team|Clemson]]
+|| × || '''—''' ||bgcolor=#cfc|28–7 ||bgcolor=#cfc|31–24 ||bgcolor=#fcc|21–42 || × ||bgcolor=#cfc|28–20 ||bgcolor=#cfc|24–17 ||bgcolor=#fcc|20–31 || × ||bgcolor=#fcc|14–31 || × || × ||bgcolor=#fcc|12–17
+|-
+| vs. [[2023 Duke Blue Devils football team|Duke]]
+|| × ||bgcolor=#fcc|7–28 || '''—''' ||bgcolor=#cfc|38–20 || × ||bgcolor=#cfc|23–0 || × ||bgcolor=#fcc|3–24 ||bgcolor=#cfc|47–45 ||bgcolor=#fcc|19–30 || × ||bgcolor=#cfc|30–27 || × ||bgcolor=#fcc|21–24
+|-
+| vs. [[2023 Florida State Seminoles football team|Florida State]]
+|bgcolor=#fcc|29–31 ||bgcolor=#fcc|24–31 ||bgcolor=#fcc|20–38 || '''—'''|| × || × ||bgcolor=#fcc|20–27 || × || × ||bgcolor=#fcc|7–24 ||bgcolor=#fcc|3–41 || × ||bgcolor=#fcc|17–39 ||bgcolor=#fcc|16–41  
+|-
+| vs. [[2023 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+|bgcolor=#cfc|38–23 ||bgcolor=#cfc|42–21 || × || × || '''—''' ||bgcolor=#cfc|39–34 ||bgcolor=#fcc|20–23 || × ||bgcolor=#fcc|42–46 || × ||bgcolor=#fcc|22–31 ||bgcolor=#fcc|17–45 || × ||bgcolor=#fcc|16–30 
+|-
+| vs. [[2023 Louisville Cardinals football team|Louisville]]
+|bgcolor=#fcc|28–56 || × ||bgcolor=#fcc|0–23 || × ||bgcolor=#fcc|34–39 || '''—''' ||bgcolor=#fcc|31–38 ||bgcolor=#fcc|10–13 || × ||bgcolor=#cfc|38–21 || × ||bgcolor=#fcc|24–31 ||bgcolor=#fcc|3–34 || ×
+|-
+| vs. [[2023 Miami Hurricanes football team|Miami]]
+|bgcolor=#fcc|20–45 ||bgcolor=#fcc|20–28 || × ||bgcolor=#cfc|27–20 ||bgcolor=#cfc|23–20 ||bgcolor=#cfc|38–31 || '''—'''||bgcolor=#cfc|20–6 ||bgcolor=#cfc|41–31 || × || × ||bgcolor=#fcc|26–29 || × || ×
+|-
+| vs. [[2023 NC State Wolfpack football team|NC State]]
+|| × ||bgcolor=#fcc|17–24 ||bgcolor=#cfc|24–3 || × || × ||bgcolor=#cfc|13–10 ||bgcolor=#fcc|6–20 || '''—'''||bgcolor=#fcc|20–39 || × || × ||bgcolor=#fcc|21–24 ||bgcolor=#fcc|28–35 ||bgcolor=#fcc|6–26
+|-
+| vs. [[2023 North Carolina Tar Heels football team|North Carolina]]
+|| × ||bgcolor=#cfc|31–20 ||bgcolor=#fcc|45–47 || × ||bgcolor=#cfc|46–42 || × ||bgcolor=#fcc|31–41 ||bgcolor=#cfc|39–20 || '''—'''||bgcolor=#fcc|24–41 ||bgcolor=#fcc|7–40 ||bgcolor=#cfc|31–27 || × || ×
+|-
+| vs. [[2023 Pittsburgh Panthers football team|Pittsburgh]]
+|bgcolor=#fcc|16–24 || × ||bgcolor=#cfc|30–19 ||bgcolor=#cfc|24–7 || × ||bgcolor=#fcc|21–38 || × || × ||bgcolor=#cfc|41–24 || '''—'''||bgcolor=#cfc|28–13 || × ||bgcolor=#cfc|38–21 ||bgcolor=#cfc|21–17
+|-
+| vs. [[2023 Syracuse Orange football team|Syracuse]]
+|bgcolor=#cfc|17–10 ||bgcolor=#cfc|31–14 || × ||bgcolor=#cfc|41–3 ||bgcolor=#cfc|31–22 || × || × || × ||bgcolor=#cfc|40–7 ||bgcolor=#fcc|13–28 || '''—'''|| × ||bgcolor=#cfc|38–10 ||bgcolor=#fcc|31–35
+|-
+| vs. [[2023 Virginia Cavaliers football team|Virginia]]
+|bgcolor=#cfc|27–24 || × ||bgcolor=#fcc|27–30 || × ||bgcolor=#cfc|45–17 ||bgcolor=#cfc|31–24 ||bgcolor=#cfc|29–26 ||bgcolor=#cfc|24–21 ||bgcolor=#fcc|27–31 || × || × || '''—'''||bgcolor=#cfc|55–17 || ×
+|-
+| vs. [[2023 Virginia Tech Hokies football team|Virginia Tech]]
+|bgcolor=#fcc|22–48 || × || × ||bgcolor=#cfc|39–17 || × ||bgcolor=#cfc|34–3 || × ||bgcolor=#cfc|35–28 || × ||bgcolor=#fcc|21–38 ||bgcolor=#fcc|10–38 ||bgcolor=#fcc|17–55 || '''—''' ||bgcolor=#fcc|13–30
+|-
+| vs. [[2023 Wake Forest Demon Deacons football team|Wake Forest]]
+|| × ||bgcolor=#cfc|17–12 ||bgcolor=#cfc|24–21 ||bgcolor=#cfc|41–16 ||bgcolor=#cfc|30–16 || × || × ||bgcolor=#cfc|26–6 || × ||bgcolor=#fcc|17–21 ||bgcolor=#cfc|35–31 || × ||bgcolor=#cfc|30–13 || '''—'''
+|-style="text-align:center;"
+!Total
+! 3–5 !! 4–4 !! 4–4 !! 8–0 !! 5–3 !! 7–1 !! 3–5 !! 6–2 !! 4–4 !! 2–6 !! 2–6 !! 2–6 !! 5–3 !! 1–7
+|}
+× – Matchup not played in 2023<br>
+''Updated after the season.''
+
+==ACC vs other conferences==
+
+===ACC vs Power Five matchups===
+The following games include [[Atlantic Coast Conference|ACC]] teams competing against [[Power Five conferences|"Power Five" conference]] teams from the [[Big Ten Conference|Big Ten]], [[Big 12 Conference|Big 12]], [[Pac-12 Conference|Pac-12]], and [[Southeastern Conference|SEC]], as well as [[2023 Notre Dame Fighting Irish football team|Notre Dame]]. All rankings are from the AP Poll at the time of the game.
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#FFDDDD;"
+| September 2 || SEC || '''Virginia''' || No. 12 [[2023 Tennessee Volunteers football team|Tennessee]]  || [[Nissan Stadium (Nashville)|Nissan Stadium]] • [[Nashville, Tennessee|Nashville, TN]] || '''L''' 13–49
+|- style="background:#DDFFDD;"
+| September 2 || SEC || No. 21 '''North Carolina''' || [[2023 South Carolina Gamecocks football team|South Carolina]]  || [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]] ([[Duke's Mayo Classic]]/[[North Carolina–South Carolina football rivalry|rivalry]])
+| '''W''' 31–17
+|- style="background:#DDFFDD;"
+| September 3 || SEC || No. 5 [[2023 LSU Tigers football team|LSU]] || No. 8 '''Florida State'''  || [[Camping World Stadium]] • [[Orlando, Florida|Orlando, FL]] ([[Camping World Kickoff]])
+| '''W''' 45–24
+|- style="background:#DDFFDD;"
+| September 9 || SEC || No. 23 [[2023 Texas A&M Aggies football team|Texas A&M]] || '''Miami'''  || [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]]
+| '''W''' 48–33
+|- style="background:#FFDDDD;"
+| September 9 || Independent || No. 10 [[2023 Notre Dame Fighting Irish football team|Notre Dame]] || '''NC State'''  || [[Carter–Finley Stadium]] • [[Raleigh, North Carolina|Raleigh, NC]]
+| '''L''' 24–45
+|- style="background:#FFDDDD;"
+| September 9 || Big 12 || [[2023 Cincinnati Bearcats football team|Cincinnati]] || '''Pittsburgh''' || [[Acrisure Stadium]] • [[Pittsburgh, Pennsylvania|Pittsburgh, PA]] (River City Rivalry)
+| '''L''' 21–27
+|- style="background:#FFDDDD;"
+| September 9 || Big Ten || [[2023 Purdue Boilermakers football team|Purdue]] || '''Virginia Tech''' || [[Lane Stadium]] • [[Blacksburg, Virginia|Blacksburg, VA]]
+| '''L''' 17–24
+|- style="background:#DDFFDD;"
+| September 9 || SEC || [[2023 Vanderbilt Commodores football team|Vanderbilt]] || '''Wake Forest''' || [[Allegacy Federal Credit Union Stadium]] • [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| '''W''' 36–20
+|- style="background:#FFDDDD;"
+| September 15 || Big Ten || '''Virginia''' || [[2023 Maryland Terrapins football team|Maryland]] || [[SECU Stadium]] • [[College Park, Maryland|College Park, MD]] ([[Maryland-Virginia football rivalry|rivalry]])
+| '''L''' 14–42
+|- style="background:#DDFFDD;"
+| September 16 || Big Ten || [[2023 Northwestern Wildcats football team|Northwestern]] || No. 21 '''Duke''' || [[Wallace Wade Stadium]] • [[Durham, North Carolina|Durham, NC]]
+| '''W''' 38–14
+|- style="background:#FFDDDD;"
+| September 16 || SEC || '''Georgia Tech''' || No. 17 [[2023 Ole Miss Rebels football team|Ole Miss]] || [[Vaught–Hemingway Stadium]] • [[Oxford, Mississippi|Oxford, MS]]
+| '''L''' 23–48
+|- style="background:#DDFFDD;"
+| September 16 || Big Ten || '''Louisville''' || [[2023 Indiana Hoosiers football team|Indiana]] || [[Lucas Oil Stadium]] • [[Indianapolis, Indiana|Indianapolis, IN]]
+| '''W''' 21–14
+|- style="background:#DDFFDD;"
+| September 16 || Big Ten || [[2023 Minnesota Golden Gophers football team|Minnesota]] || No. 20 '''North Carolina''' || [[Kenan Stadium]] • [[Chapel Hill, North Carolina|Chapel Hill, NC]]
+| '''W''' 31–13
+|- style="background:#FFDDDD;"
+| September 16 || Big 12 || '''Pittsburgh''' || [[2023 West Virginia Mountaineers football team|West Virginia]] || [[Milan Puskar Stadium]] • [[Morgantown, West Virginia|Morgantown, WV]] ([[Backyard Brawl]])
+| '''L''' 6–17
+|- style="background:#DDFFDD;"
+| September 16 || Big Ten || '''Syracuse''' || [[2023 Purdue Boilermakers football team|Purdue]] || [[Ross–Ade Stadium]] • [[West Lafayette, Indiana|West Lafayette, IN]]
+| '''W''' 35–20
+|- style="background:#FFDDDD;"
+| September 16 || Big Ten || '''Virginia Tech''' || [[2023 Rutgers Scarlet Knights football team|Rutgers]] || [[SHI Stadium]] • [[Piscataway, New Jersey|Piscataway, NJ]]
+| '''L''' 16–35
+|- style="background:#FFDDDD;"
+| September 30 || Independent || No. 11 Notre Dame || No. 17 '''Duke''' || Wallace Wade Stadium • Durham, NC
+| '''L''' 14–21
+|- style="background:#DDFFDD;"
+| October 7 || Independent || No. 10 Notre Dame || No. 25 '''Louisville''' || [[Cardinal Stadium]] • [[Louisville, Kentucky|Louisville, KY]]
+| '''W''' 33–20
+|- style="background:#FFDDDD;"
+| October 28 || Independent || '''Pittsburgh''' || No. 14 Notre Dame || [[Notre Dame Stadium]] • [[South Bend, IN]]  ([[Notre Dame–Pittsburgh football rivalry|rivalry]])
+| '''L''' 7–58
+|- style="background:#DDFFDD;"
+| November 4 || Independent || No. 15 Notre Dame || '''Clemson''' || [[Memorial Stadium (Clemson)|Memorial Stadium]] • [[Clemson, South Carolina|Clemson, SC]]
+| '''W''' 31–23
+|- style="background:#FFDDDD;"
+| November 18 || Independent || '''Wake Forest''' || No. 19 Notre Dame || Notre Dame Stadium • South Bend, IN
+| '''L''' 7–45
+|- style="background:#DDFFDD;"
+| November 25 || SEC || No. 24 '''Clemson''' || South Carolina || [[Williams–Brice Stadium]] • [[Columbia, South Carolina|Columbia, SC]] ([[Clemson–South Carolina rivalry|rivalry]])
+| '''W''' 16–7
+|- style="background:#DDFFDD;"
+| November 25 || SEC || No. 5 '''Florida State''' || [[2023 Florida Gators football team|Florida]] || [[Ben Hill Griffin Stadium]] • [[Gainesville, Florida|Gainesville, FL]] ([[Florida–Florida State football rivalry|rivalry]])
+| '''W''' 24–15
+|- style="background:#FFDDDD;"
+| November 25 || SEC || No. 1 [[2023 Georgia Bulldogs football team|Georgia]] || '''Georgia Tech''' || [[Bobby Dodd Stadium]] • [[Atlanta, Georgia|Atlanta, GA]] ([[Clean, Old-Fashioned Hate]])
+| '''L''' 23–31
+|- style="background:#FFDDDD;"
+| November 25 || SEC || [[2023 Kentucky Wildcats football team|Kentucky]] || No. 10 '''Louisville''' || [[Cardinal Stadium]] • [[Louisville, Kentucky|Louisville, KY]] ([[Governor's Cup (Kentucky)|Governor's Cup]])
+| '''L''' 31–38
+|}
+
+===ACC vs Group of Five matchups===
+The following games include ACC teams competing against teams from the [[American Athletic Conference|American]], [[Conference USA|C-USA]], [[Mid-American Conference|MAC]], [[Mountain West Conference|Mountain West]], or [[Sun Belt Conference|Sun Belt]].
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+| style="background:#CCCCCC;" Cancellation
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| September 1 || MAC || [[2023 Miami RedHawks football team|Miami (OH)]] || '''Miami''' || Hard Rock Stadium • Miami Gardens, FL || '''W''' 38–3
+|- style="background:#FFDDDD;"
+| September 2 || MAC || [[2023 Northern Illinois Huskies football team|Northern Illinois]] || '''Boston College''' || [[Alumni Stadium]] • [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]] 
+| '''L''' 24–27<sup>OT</sup>
+|- style="background:#DDFFDD;"
+| September 2 || Sun Belt || [[2023 Old Dominion Monarchs football team|Old Dominion]] || '''Virginia Tech''' || Lane Stadium • Blacksburg, VA
+| '''W''' 36–17
+|- style="background:#DDFFDD;"
+| September 9 || Sun Belt || [[2023 Southern Miss Golden Eagles football team|Southern Miss]] || No. 4 '''Florida State''' || [[Doak Campbell Stadium]] • [[Tallahassee, Florida|Tallahassee, FL]]
+| '''W''' 66–13
+|- style="background:#DDFFDD;"
+| September 9 || Sun Belt || [[2023 Appalachian State Mountaineers football team|Appalachian State]] || No. 17 '''North Carolina''' || Kenan Stadium • Chapel Hill, NC
+| '''W''' 40–34<sup>2OT</sup>
+|- style="background:#DDFFDD;"
+| September 9 || MAC || [[2023 Western Michigan Broncos football team|Western Michigan]] || '''Syracuse''' || [[JMA Wireless Dome]] • [[Syracuse, New York|Syracuse, NY]]
+| '''W''' 48–8
+|- style="background:#FFDDDD;"
+| September 9 || Sun Belt || [[2023 James Madison Dukes football team|James Madison]] || '''Virginia''' || [[Scott Stadium]] • [[Charlottesville, Virginia|Charlottesville, VA]]
+| '''L''' 35–36
+|- style="background:#DDFFDD;"
+| September 16 || American || [[2023 Florida Atlantic Owls football team|Florida Atlantic]] || '''Clemson''' || Memorial Stadium • Clemson, SC
+| '''W''' 48–14
+|- style="background:#DDFFDD;"
+| September 16 || Sun Belt || '''Wake Forest''' || Old Dominion || [[S.B. Ballard Stadium]] • [[Norfolk, Virginia|Norfolk, VA]]
+| '''W''' 27–24
+|- style="background:#DDFFDD;"
+| September 23 || American || No. 20 '''Miami''' || [[2023 Temple Owls football team|Temple]] || [[Lincoln Financial Field]] • [[Philadelphia, Pennsylvania|Philadelphia, PA]]
+| '''W''' 41–7
+|- style="background:#FFDDDD;"
+| September 23 || Sun Belt || '''Virginia Tech''' || [[2023 Marshall Thundering Herd football team|Marshall]] || [[Joan C. Edwards Stadium]] • [[Huntington, West Virginia|Huntington, WV]]
+| '''L''' 17–24
+|- style="background:#FFDDDD;"
+| September 30 || MAC || [[2023 Bowling Green Falcons football team|Bowling Green]] || '''Georgia Tech''' || [[Bobby Dodd Stadium]] • [[Atlanta, Georgia|Atlanta, GA]]
+| '''L''' 27–38
+|- style="background:#DDFFDD;"
+| October 7 || Sun Belt || Marshall || '''NC State''' || Carter–Finley Stadium • Raleigh, NC
+| '''W''' 48–41
+|}
+
+===ACC vs FBS independents matchups===
+The following games include ACC teams competing against [[NCAA Division I FBS independent schools|FBS independents]] [[2023 Army Black Knights football team|Army]], [[2023 UConn Huskies football team|UConn]], or [[2023 UMass Minutemen football team|UMass]] (but excluding independent Notre Dame, which appears in the Power Five section above).
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|- 
+! Date  !! Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| August 31 || '''NC State''' ||  [[2023 UConn Huskies football team|UConn]] || [[Pratt & Whitney Stadium at Rentschler Field|Rentschler Field]] • [[East Hartford, Connecticut|East Hartford, CT]]
+| '''W''' 24–14
+|- style="background:#DDFFDD;"
+| September 23 || No. 18 '''Duke''' || UConn || Rentschler Field • East Hartford, CT
+| '''W''' 41–7
+|- style="background:#DDFFDD;"
+| September 23 || [[2023 Army Black Knights football team|Army]] || '''Syracuse''' || JMA Wireless Dome • Syracuse, NY
+| '''W''' 29–16
+|- style="background:#DDFFDD;"
+| October 7 || '''Boston College''' || Army || [[Michie Stadium]] • [[West Point, New York|West Point, NY]]
+| '''W''' 27–24
+|- style="background:#DDFFDD;"
+| October 28 || UConn || '''Boston College''' || Alumni Stadium • Chestnut Hill, MA
+| '''W''' 21–14
+|-  
+|}
+
+===ACC vs FCS matchups===
+The [[Football Championship Subdivision]] comprises 13 conferences and two independent programs.
+
+<!--
+| style="background:#DDFFDD;" ACC win
+| style="background:#FFDDDD;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !!  Visitor !! Home !! Site !! Score
+|- style="background:#DDFFDD;"
+| August 31 || [[2023 Elon Phoenix football team|Elon]] || '''Wake Forest''' || Allegacy Federal Credit Union Stadium • Winston-Salem, NC
+| '''W''' 31–17
+|- style="background:#DDFFDD;"
+| September 2 || [[2023 Wofford Terriers football team|Wofford]] || '''Pittsburgh''' || Acrisure Stadium • Pittsburgh, PA
+| '''W''' 45–7
+|- style="background:#DDFFDD;"
+| September 2 || [[2023 Colgate Raiders football team|Colgate]] || '''Syracuse''' || JMA Wireless Dome • Syracuse, NY
+| '''W''' 65–0
+|- style="background:#DDFFDD;"
+| September 7 || [[2023 Murray State Racers football team|Murray State]] || '''Louisville''' || Cardinal Stadium • Louisville, KY
+| '''W''' 56–0
+|- style="background:#DDFFDD;"
+| September 9 || [[2023 Holy Cross Crusaders football team|Holy Cross]] || '''Boston College''' || Alumni Stadium • Chestnut Hill, MA
+| '''W''' 31–28
+|- style="background:#DDFFDD;"
+| September 9 || [[2023 Charleston Southern Buccaneers football team|Charleston Southern]] || No. 25 '''Clemson''' || Memorial Stadium • Clemson, SC
+| '''W''' 66–17
+|- style="background:#DDFFDD;"
+| September 9 || [[2023 Lafayette Leopards football team|Lafayette]] || No. 21 '''Duke''' || Wallace Wade Stadium • Durham, NC
+| '''W''' 42–7
+|- style="background:#DDFFDD;"
+| September 9 || [[2023 South Carolina State Bulldogs football team|South Carolina State]] || '''Georgia Tech''' || Bobby Dodd Stadium • Atlanta, GA
+| '''W''' 48–13
+|- style="background:#DDFFDD;"
+| September 14 || [[2023 Bethune–Cookman Wildcats football team|Bethune–Cookman]] || No. 22 '''Miami''' || Hard Rock Stadium • Miami Gardens, FL
+| '''W''' 48–7
+|- style="background:#DDFFDD;"
+| September 16 || [[2023 VMI Keydets football team|VMI]] || '''NC State''' || Carter–Finley Stadium • Raleigh, NC
+| '''W''' 45–7
+|- style="background:#DDFFDD;"
+| October 7 || [[2023 William & Mary Tribe football team|William & Mary]] || '''Virginia''' || Scott Stadium • Charlottesville, VA
+| '''W''' 27–13
+|- style="background:#DDFFDD;"
+| November 4 || [[2023 Campbell Fighting Camels football team|Campbell]] || '''North Carolina''' || Kenan Stadium • Chapel Hill, NC
+| '''W''' 59–7
+|- style="background:#DDFFDD;"
+| November 18 || [[2023 North Alabama Lions football team|North Alabama]] || No. 4 '''Florida State''' || Doak Campbell Stadium • Tallahassee, FL
+| '''W''' 58–13
+|- 
+|}
+
+===Records against other conferences===
+{{col-begin}}
+{{col-2}}
+
+'''Regular season'''
+
+{| class="wikitable"
+|-
+!Power 5 conferences
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|4–3
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|0–2
+|-
+|[[2023 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|2–4
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–0
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|6–4
+|-
+!Power 5 total
+!12–13
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|2–0
+|-
+|[[Conference USA|C–USA]]
+|align=center|0–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding Notre Dame)</small>]]
+|align=center|5–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|2–2
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–0
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|5–2
+|-
+!Other FBS total
+!14–4
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!FCS opponents
+!Record
+|-
+|[[2023 NCAA Division I FCS football season|Football Championship Subdivision]]
+|align=center|13–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Total non-conference record
+!38–18
+|}
+
+{{col-2}}
+
+'''Post Season'''
+
+{| class="wikitable"
+|-
+!Power 5 conferences
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|0–1
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|1–2
+|-
+|[[2023 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|0–0
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–1
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|1–1
+|-
+!Power 5 total
+!2–5
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|2–1
+|-
+|[[Conference USA|C–USA]]
+|align=center|0–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding Notre Dame)</small>]]
+|align=center|0–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|0–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–0
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|1–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS total
+!3–1
+|-
+!Total bowl record
+!5–6
+|}
+
+{{col-end}}
+
+==Postseason==
+The bowl games will begin on December 16, 2023, and will end with the College Football Playoff National Championship on January 8, 2024.
+
+===Bowl games===
+{{see also|2023–24 NCAA football bowl games}}
+
+{| class="wikitable" style="font-size:90%"
+|-
+!colspan="2"|Legend
+|-
+| style="background:#DDFFDD;"|&nbsp;||ACC win
+|-
+| style="background:#FFDDDD;"|&nbsp;||ACC loss
+|-
+| style="background:#CCCCCC;"|&nbsp;||Cancellation
+|}
+
+For the 2020–2025 bowl cycle, The ACC will have annually ten appearances in the following bowls: [[Orange Bowl Game|Orange Bowl]] and [[Peach Bowl]] (unless they are selected for playoffs filled by a SEC and at-large team if champion is in the playoffs), [[Military Bowl]], [[Duke's Mayo Bowl]], [[Gator Bowl]], [[Pop-Tarts Bowl]], [[Fenway Bowl]], [[ReliaQuest Bowl]], [[Holiday Bowl]] and [[Sun Bowl]]. The ACC teams will go to a [[New Year's Six|New Year's Six bowl]] if a team finishes higher than the champions of [[Power Five conferences]] in the final College Football Playoff rankings. The ACC champion are also eligible for the [[College Football Playoff]] if they're among the top four teams in the final CFP ranking.
+
+{| class="wikitable"
+|-'''Bowl games'''
+!Bowl game
+!Date
+!Site
+!Television
+!Time ([[Eastern Time Zone|EST]])
+!ACC team
+!Opponent
+!Score
+!Attendance 
+|-style="background:#FFDDDD;"
+| [[2023 Boca Raton Bowl|Boca Raton Bowl]]
+| December 21
+| [[FAU Stadium]] • [[Boca Raton, Florida|Boca Raton, FL]]
+| [[ESPN College Football|ESPN]]
+| 8:00&nbsp;p.m.
+| '''Syracuse'''
+| [[2023 South Florida Bulls football team|South Florida]]
+| '''L''' 0–45
+| 20,711
+|- style="background:#DDFFDD;"
+| [[2023 Gasparilla Bowl|Gasparilla Bowl]]
+| December 22
+| [[Raymond James Stadium]] • [[Tampa, Florida|Tampa, FL]]
+| ESPN
+| 6:30&nbsp;p.m.
+| '''Georgia Tech'''
+| [[2023 UCF Knights football team|UCF]]
+| '''W''' 30–17
+| 30,281
+|- style="background:#DDFFDD;"
+| [[2023 Birmingham Bowl|Birmingham Bowl]]
+| December 23
+| [[Protective Stadium]] • [[Birmingham, Alabama|Birmingham, AL]]
+| [[ABC College Football|ABC]]
+| Noon
+| '''Duke'''
+| [[2023 Troy Trojans football team|Troy]]
+| '''W''' 17–10
+| 20,023
+|- style="background:#DDFFDD;"
+| [[2023 Military Bowl|Military Bowl]]
+| December 27
+| [[Navy–Marine Corps Memorial Stadium]] • [[Annapolis, Maryland|Annapolis, MD]]
+| ESPN
+| 2:00&nbsp;p.m.
+| '''Virginia Tech'''
+| [[2023 Tulane Green Wave football team|Tulane]]
+| '''W''' 41–20
+| 35,849
+|-style="background:#ffdddd;"
+| [[2023 Duke's Mayo Bowl|Duke's Mayo Bowl]]
+| December 27
+| [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]]
+| ESPN
+| 5:30&nbsp;p.m.
+| '''North Carolina'''
+| [[2023 West Virginia Mountaineers football team|West Virginia]]
+| '''L''' 10–30
+| 42,925
+|-style="background:#ffdddd;"
+| [[2023 Holiday Bowl|Holiday Bowl]]
+| December 27
+| [[Petco Park]] • [[San Diego, California|San Diego, CA]]
+| [[Fox College Football|Fox]]
+| 8:00&nbsp;p.m.
+| No. 15 '''Louisville'''
+| [[2023 USC Trojans football team|USC]]
+| '''L''' 28–42
+| 35,317
+|- style="background:#ddffdd;"
+| [[2023 Fenway Bowl|Fenway Bowl]]
+| December 28
+| [[Fenway Park]] • [[Boston, Massachusetts|Boston, MA]]
+| ESPN
+| 11:00&nbsp;a.m.
+| '''Boston College'''
+| No. 24 [[2023 SMU Mustangs football team|SMU]]
+| '''W''' 23–14
+| 16,238
+|- style="background:#ffdddd;"
+| [[2023 Pinstripe Bowl|Pinstripe Bowl]]
+| December 28
+| [[Yankee Stadium]] • [[Bronx, New York|Bronx, NY]]
+| ESPN
+| 2:15&nbsp;p.m.
+| '''Miami'''
+| [[2023 Rutgers Scarlet Knights football team|Rutgers]]
+| '''L''' 24–31
+| 35,314
+|- style="background:#ffdddd;"
+| [[2023 Pop-Tarts Bowl|Pop-Tarts Bowl]]
+| December 28
+| [[Camping World Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| ESPN
+| 5:45&nbsp;p.m.
+| No. 18 '''NC State'''
+| No. 25 [[2023 Kansas State Wildcats football team|Kansas State]]
+| '''L''' 19–28
+| 31,111
+|- style="background:#DDFFDD;"
+| [[2023 Gator Bowl|Gator Bowl]]
+| December 29
+| [[EverBank Stadium]] • [[Jacksonville, Florida|Jacksonville, FL]]
+| ESPN
+| Noon
+| No. 22 '''Clemson'''
+| [[2023 Kentucky Wildcats football team|Kentucky]]
+| '''W''' 38–35
+| 40,132
+|- 
+|colspan="9" style="text-align:center;"|'''New Year's Six Bowls''' 
+|- style="background:#ffdddd;"
+| [[2023 Orange Bowl|Orange Bowl]]
+| December 30
+| [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]]
+| ESPN
+| 4:00&nbsp;p.m.
+| No. 5 '''Florida State'''
+| No. 6 [[2023 Georgia Bulldogs football team|Georgia]]
+| '''L''' 3–63
+| 63,324
+|-
+|}
+
+<small>Rankings are from CFP rankings. All times Eastern Time Zone. ACC teams shown in bold.</small>
+
+==Awards and honors==
+
+===Player of the week honors===
+{| class="wikitable" border="1" style="text-align: center;"
+|-
+! rowspan="2"| Week
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Quarterback
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Running Back
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Receiver
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Offensive Line
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Defensive Line
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Linebacker
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="2"| Defensive Back
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="3"| Specialist
+! rowSpan="21" style="background-color:lightgrey;"|
+! colspan="3"| Rookie
+|-
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+|-
+| Week 1<ref>{{cite web|url=https://theacc.com/news/2023/9/5/week-1-acc-football-players-of-the-week.aspx|title=Week 1 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 5, 2023|access-date=September 5, 2023}}</ref>
+| [[Jordan Travis]]
+| [[2023 Florida State Seminoles football team|Florida State]]
+| [[British Brooks]]
+| [[2023 North Carolina Tar Heels football team|North Carolina]]
+| [[Keon Coleman]]
+| Florida State
+| Bless Harris
+| Florida State
+| [[Kaimon Rucker]]
+| North Carolina
+| [[Payton Wilson]]
+| [[2023 NC State Wolfpack football team|NC State]]
+| Jeremiah Lewis
+| [[2023 Duke Blue Devils football team|Duke]]
+| Brock Travelstead
+| [[2023 Louisville Cardinals football team|Louisville]]
+| K
+| Ike Daniels
+| [[2023 Syracuse Orange football team|Syracuse]]
+| RB
+|-
+| rowspan=2 | Week 2<ref>{{cite web|url=https://theacc.com/news/2023/9/11/week-2-acc-football-players-of-the-week.aspx|title=Week 2 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 11, 2023|access-date=September 11, 2023}}</ref>
+| rowspan=2 | [[Tyler Van Dyke]]
+| rowspan=2 | [[2023 Miami Hurricanes football team|Miami]]
+| [[Demond Claiborne]]
+| [[2023 Wake Forest Demon Deacons football team|Wake Forest]]
+| rowspan=2 | [[Jacolby George]]
+| rowspan=2 | Miami
+| [[Anez Cooper]]
+| Miami
+| rowspan=2 | [[Kyle Kennard]]
+| rowspan=2 | [[2023 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+| rowspan=2 | Keli Lawson
+| rowspan=2 | [[2023 Virginia Tech Hokies football team|Virginia Tech]]
+| rowspan=2 | [[Jaden Davis]]
+| rowspan=2 | Miami
+| Matthew Dennis
+| Wake Forest
+| K
+| rowspan=2 | [[Anthony Colandrea]]
+| rowspan=2 | [[2023 Virginia Cavaliers football team|Virginia]]
+| rowspan=2 | QB
+|-
+| [[Omarion Hampton]]
+| North Carolina
+| D'Mitri Emmanuel
+| Florida State
+| Peter Moore
+| Virginia Tech
+| P
+|-
+| Week 3<ref>{{cite web|url=https://theacc.com/news/2023/9/18/athlete-awards-week-3-acc-football-players-of-the-week.aspx|title=Week 3 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 18, 2023|access-date=September 19, 2023}}</ref>
+| [[Garrett Shrader]]
+| Syracuse
+| [[LeQuint Allen]]
+| Syracuse
+| [[Nate McCollum]]
+| North Carolina
+| Christopher Bleich
+| Syracuse
+| Jasheen Davis
+| Wake Forest
+| Jacob Roberts
+| Wake Forest
+| Cam'Ron Kelly
+| Louisville
+| Julian Gray
+| NC State
+| WR/KR
+| [[Tyler Brown (American football)|Tyler Brown]]
+| [[2023 Clemson Tigers football team|Clemson]]
+| WR
+|-
+| rowspan=2 | Week 4<ref>{{cite web|url=https://theacc.com/news/2023/9/25/week-4-acc-football-players-of-the-week.aspx|title=Week 4 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 25, 2023|access-date=September 25, 2023}}</ref>
+| rowspan=2 | [[Jack Plummer]]
+| rowspan=2 | Louisville
+| rowspan=2 | [[Jawhar Jordan]]
+| rowspan=2 | Louisville
+| rowspan=2 | [[Malik Washington]]
+| rowspan=2 | Virginia
+| rowspan=2 | [[Bryan Hudson (American football)|Bryan Hudson]]
+| rowspan=2 | Louisville
+| rowspan=2 | Kaimon Rucker <small>(2)</small>
+| rowspan=2 | North Carolina
+| rowspan=2 | [[Kalen DeLoach]]
+| rowspan=2 | Florida State
+| Jaylon King
+| Georgia Tech
+| rowspan=2 | [[Alijah Huzzie]]
+| rowspan=2 | North Carolina
+| rowspan=2 | PR
+| rowspan=2 | [[Kevin Concepcion]]
+| rowspan=2 | NC State
+| rowspan=2 | WR
+|-
+| [[Renardo Green]]
+| Florida State
+|-
+| Week 5<ref>{{cite web|url=https://theacc.com/news/2023/10/2/athlete-awards-week-5-acc-football-players-of-the-week.aspx|title=Week 5 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 2, 2023|access-date=October 2, 2023}}</ref>
+| [[Kyron Drones]]
+| Virginia Tech
+| [[Bhayshul Tuten]]
+| Virginia Tech
+| [[Tyler Brown (American football)|Tyler Brown]]
+| Clemson
+| [[Christian Mahogany]]
+| [[2023 Boston College Eagles football team|Boston College]]
+| [[T. J. Parker (American football)|T. J. Parker]]
+| Clemson
+| Payton Wilson <small>(2)</small>
+| NC State
+| Cam'Ron Kelly <small>(2)</small>
+| Louisville
+| Brock Travelstead <small>(2)</small>
+| Louisville
+| K/P
+| Tyler Brown <small>(2)</small>
+| Clemson
+| WR
+|-
+| Week 6<ref>{{cite web|url=https://theacc.com/news/2023/10/9/athlete-awards-week-6-acc-football-players-of-the-week.aspx|title=Week 6 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 9, 2023|access-date=October 9, 2023}}</ref>
+| [[Drake Maye]]
+| North Carolina
+| [[Trey Benson]]
+| Florida State
+| Nate McCollum <small>(2)</small>
+| North Carolina
+| [[Darius Washington (Canadian football)|Darius Washington]]
+| Florida State
+| [[Mason Reiger]]
+| Louisville
+| Payton Wilson <small>(3)</small>
+| NC State
+| [[Devin Neal]]
+| Louisville
+| [[Bhayshul Tuten]]
+| Virginia Tech
+| RB/KR
+| Kevin Concepcion <small>(2)</small>
+| NC State
+| WR
+|-
+| rowspan=2 | Week 7<ref>{{cite web|url=https://theacc.com/news/2023/10/16/athlete-awards-week-7-acc-football-players-of-the-week.aspx|title=Week 7 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 16, 2023|access-date=October 16, 2023}}</ref>
+| rowspan=2 | Drake Maye <small>(2)</small>
+| rowspan=2 | North Carolina
+| rowspan=2 | Omarion Hampton <small>(2)</small>
+| rowspan=2 | North Carolina
+| rowspan=2 | [[Devontez Walker]]
+| rowspan=2 | North Carolina
+| rowspan=2 | [[Jacob Monk]]
+| rowspan=2 | Duke
+| rowspan=2 | [[Antwaun Powell-Ryland]]
+| rowspan=2 | Virginia Tech
+| [[Cedric Gray]]
+| North Carolina
+| rowspan=2 | [[M.J. Devonshire]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | [[Keon Coleman]]
+| rowspan=2 | Florida State
+| rowspan=2 | WR/PR
+| rowspan=2 | Sam Okunlola
+| rowspan=2 | Pittsburgh
+| rowspan=2 | DE
+|-
+| Tre Freeman
+| Duke
+|-
+| rowspan=2 | Week 8<ref>{{cite web|url=https://theacc.com/news/2023/10/23/week-8-acc-football-players-of-the-week.aspx|title=Week 8 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 23, 2023|access-date=October 23, 2023}}</ref>
+| Jordan Travis <small>(2)</small>
+| Florida State
+| rowspan=2 | Kye Robichaux
+| rowspan=2 | Boston College
+| rowspan=2 | Malik Washington <small>(2)</small>
+| rowspan=2 | Virginia
+| rowspan=2 | Christian Mahogany <small>(2)</small>
+| rowspan=2 | Boston College
+| rowspan=2 | [[Rueben Bain Jr.]]
+| rowspan=2 | Miami
+| rowspan=2 | James Jackson
+| rowspan=2 | Virginia
+| rowspan=2 | [[Elijah Jones (American football)|Elijah Jones]]
+| rowspan=2 | Boston College
+| rowspan=2 | Deuce Spann
+| rowspan=2 | Florida State
+| rowspan=2 | WR/KR
+| rowspan=2 | [[Rueben Bain Jr.]]
+| rowspan=2 | Miami
+| rowspan=2 | DL
+|-
+| [[Thomas Castellanos]]
+| Boston College
+|-
+| Week 9<ref>{{cite web|url=https://theacc.com/news/2023/10/30/week-9-acc-football-players-of-the-week.aspx|title=Week 9 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 30, 2023|access-date=October 30, 2023}}</ref>
+| [[Haynes King (American football)|Haynes King]]
+| Georgia Tech
+| Jawhar Jordan <small>(2)</small>
+| Louisville
+| Malik Washington <small>(3)</small>
+| Virginia
+| Weston Franklin
+| Georgia Tech
+| Ruben Bain Jr. <small>(2)</small>
+| Miami
+| Patyon Wilson <small>(4)</small>
+| NC State
+| [[Kamren Kinchens]]
+| Miami
+| [[Andres Borregales]]
+| Miami
+| K
+| Kevin Concepcion <small>(3)</small>
+| NC State
+| WR
+|-
+| Week 10<ref>{{cite web|url=https://theacc.com/news/2023/11/6/week-10-acc-football-players-of-the-week.aspx|title=Week 10 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 6, 2023|access-date=November 6, 2023}}</ref>
+| Jordan Travis <small>(3)</small>
+| Florida State
+| [[Phil Mafah]]
+| Clemson
+| Ja'Khi Douglas
+| Florida State
+| [[Will Putnam]]
+| Clemson
+| Ryan Smith
+| Duke
+| [[Jeremiah Trotter Jr.]]
+| Clemson
+| Elijah Jones <small>(2)</small>
+| Boston College
+| Aidan Swanson
+| Clemson
+| P
+| [[Mark Fletcher Jr.]]
+| Miami
+| RB
+|-
+| rowspan=2 | Week 11<ref>{{cite web|url=https://theacc.com/news/2023/11/13/week-11-acc-football-players-of-the-week.aspx|title=Week 11 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 13, 2023|access-date=November 13, 2023}}</ref>
+| rowspan=2 | Kyron Drones <small>(2)</small>
+| rowspan=2 | Virginia Tech
+| Omarion Hampton <small>(3)</small>
+| North Carolina
+| rowspan=2 | Jacolby George <small>(2)</small>
+| rowspan=2 | Miami
+| rowspan=2 | Christopher Bleich <small>(2)</small>
+| rowspan=2 | Syracuse
+| rowspan=2 | [[Ashton Gillotte]]
+| rowspan=2 | Louisville
+| rowspan=2 | Kalen DeLoach <small>(2)</small>
+| rowspan=2 | Florida State
+| rowspan=2 | [[Dorian Strong]]
+| rowspan=2 | Virginia Tech
+| rowspan=2 | Noah Burnette
+| rowspan=2 | North Carolina
+| rowspan=2 | K
+| rowspan=2 | Shelton Lewis
+| rowspan=2 | Clemson
+| rowspan=2 | CB
+|-
+| [[Dan Villari]]
+| Syracuse
+|-
+| rowspan=2 | Week 12<ref>{{cite web|url=https://theacc.com/news/2023/11/20/week-12-acc-football-players-of-the-week.aspx|title=Week 12 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 20, 2023|access-date=November 20, 2023}}</ref>
+| [[Brennan Armstrong]]
+| NC State
+| rowspan=2 | Omarion Hampton <small>(4)</small>
+| rowspan=2 | North Carolina
+| rowspan=2 | [[Xavier Restrepo]]
+| rowspan=2 | Miami
+| rowspan=2 | Will Putnam <small>(2)</small>
+| rowspan=2 | Clemson
+| rowspan=2 | [[Dayon Hayes]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | [[Kyle Efford]]
+| rowspan=2 | Georgia Tech
+| rowspan=2 | [[Nate Wiggins]]
+| rowspan=2 | Clemson
+| rowspan=2 | Will Bettridge
+| rowspan=2 | Virginia
+| rowspan=2 | K
+| rowspan=2 | Anthony Colandrea <small>(2)</small>
+| rowspan=2 | Virginia
+| rowspan=2 | QB
+|-
+| Jack Plummer <small>(2)</small>
+| Louisville
+|-
+| Week 13<ref>{{cite web|url=https://theacc.com/news/2023/11/27/week-13-acc-football-players-of-the-week.aspx|title=Week 13 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 27, 2023|access-date=November 27, 2023}}</ref>
+| Brennan Armstrong <small>(2)</small>
+| NC State
+| Trey Benson <small>(2)</small>
+| Florida State
+| [[Kevin Concepcion]]
+| NC State
+| [[Matt Lee (American football)|Matt Lee]]
+| Miami
+| [[Jared Verse]]
+| Florida State
+| Payton Wilson <small>(5)</small>
+| NC State
+| [[Khalil Barnes]]
+| Clemson
+| Jonathan Weitz
+| Clemson
+| PK
+| Kevin Concepcion <small>(4)</small>
+| NC State
+| WR
+|}
+
+===All-conference teams===
+Source:<ref>{{cite web|url=https://theacc.com/news/2023/11/28/atlantic-coast-conference-announces-2023-all-acc-football-teams.aspx|title=Atlantic Coast Conference Announces 2023 All-ACC Football Teams|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 28, 2023|access-date=November 28, 2023}}</ref>
+
+{{col-begin}}
+{{col-1-of-3}}
+
+'''First team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First team offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Jordan Travis]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Omarion Hampton]]
+! | North Carolina
+
+|- style="text-align:center;"
+| [[Jawhar Jordan]]
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Malik Washington]]
+! | Virginia
+
+|- style="text-align:center;"
+| [[Keon Coleman]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Xavier Restrepo]]
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Bryson Nesbit]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Keon Coleman]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Graham Barton]]
+! | Duke
+
+|- style="text-align:center;"
+| [[Darius Washington (Canadian football)|Darius Washington]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Christian Mahogany]]
+! | Boston College
+
+|- style="text-align:center;"
+| D'Mitri Emmanuel
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Bryan Hudson (American football)|Bryan Hudson]]
+! | Louisville
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''First team defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Ashton Gillotte]]
+! | Louisville
+
+|- style="text-align:center;"
+| [[Jared Verse]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[DeWayne Carter]]
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="4" | [[Linebacker|LB]]
+| [[Payton Wilson]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Jeremiah Trotter Jr.]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Kalen DeLoach]] (tie)
+! | Florida State
+
+|- style="text-align:center;"
+| [[Cedric Gray]] (tie)
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Nate Wiggins]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Elijah Jones (American football)|Elijah Jones]]
+! | Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Kamren Kinchens]]
+! | Miami
+
+|- style="text-align:center;"
+| [[Jonas Sanker]]
+! | Virginia
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First team special teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[Andres Borregales|Andy Borregales]]
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| Porter Wilson
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Keon Coleman]]
+! | Florida State
+|-
+|}
+
+{{col-2-of-3}}
+'''Second team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second team offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Drake Maye]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Trey Benson]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[LeQuint Allen]]
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Kevin Concepcion]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Jamari Thrash]]
+! | Louisville
+
+|- style="text-align:center;"
+| [[Jordan Moore (American football)|Jordan Moore]]
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Jaheim Bell]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Bhayshul Tuten]]
+! | Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Jalen Rivers]]
+! | Miami
+
+|- style="text-align:center;"
+| [[Ozzy Trapilo]]
+! | Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Jacob Monk]]
+! | Duke
+
+|- style="text-align:center;"
+| [[Michael Jurgens]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Matt Lee (American football)|Matt Lee]]
+! | Miami
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second team defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Antwaun Powell-Ryland]]
+! | Virginia Tech
+
+|- style="text-align:center;"
+| [[Kaimon Rucker]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Braden Fiske]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Joshua Farmer]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="4" | [[Linebacker|LB]]
+| [[Francisco Mauigoa]]
+! | Miami
+
+|- style="text-align:center;"
+| [[Marlowe Wax]]
+! | Syracuse
+
+|- style="text-align:center;"
+| Tre Freeman (tie)
+! | Duke
+
+|- style="text-align:center;"
+| [[Barrett Carter]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Renardo Green]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[M.J. Devonshire]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Malik Mustapha]]
+! | Wake Forest
+
+|- style="text-align:center;"
+| Jaylon King
+! | Georgia Tech
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second team special teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| Noah Burnette
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Alex Mastromanno]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Brashard Smith]]
+! | Miami
+|-
+|}
+
+{{col-3-of-3}}
+
+'''Third team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third team offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Jack Plummer]]
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Jamal Haynes]]
+! | Georgia Tech
+
+|- style="text-align:center;"
+| [[Jordan Waters]]
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Devontez Walker]]
+! | North Carolina
+
+|- style="text-align:center;"
+| [[Jacolby George]]
+! | Miami
+
+|- style="text-align:center;"
+| [[Johnny Wilson (wide receiver)|Johnny Wilson]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Jake Briningstool]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Jawhar Jordan]]
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Blake Miller (offensive tackle)|Blake Miller]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Anthony Belton]]
+! | NC State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| Michael Gonzalez
+! | Louisville
+
+|- style="text-align:center;"
+| [[Willie Lampkin]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Will Putnam]]
+! | Clemson
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third team defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Rueben Bain Jr.]]
+! | Miami
+
+|- style="text-align:center;"
+| Jasheen Davis
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Aeneas Peebles]]
+! | Duke
+
+|- style="text-align:center;"
+| [[Ruke Orhorhoro]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| Vinny DePalma
+! | Boston College
+
+|- style="text-align:center;"
+| [[Tatum Bethune]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Power Echols]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Aydan White]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Dorian Strong]]
+! | Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| Shyheim Brown
+! | Florida State
+
+|- style="text-align:center;"
+| Devin Neal
+! | Louisville
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third team special teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[Ryan Fitzgerald (American football)|Ryan Fitzgerald]]
+! | Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| Jack Stonehouse
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| Tucker Holloway
+! | Virginia Tech
+|-
+|}
+
+{{col-end}}
+
+===[[Atlantic Coast Conference football individual awards|ACC individual awards]]===
+
+{{col-begin}}
+
+{{col-1-of-3}}
+'''ACC Player of the Year'''
+: [[Jordan Travis]], QB, Florida State<ref name="POY">{{cite web|url=https://theacc.com/news/2023/11/29/football-fsus-travis-nc-states-wilson-earn-acc-top-honors.aspx|title=FSU’s Travis & NC State’s Wilson Earn ACC Top Honors|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 29, 2023|access-date=December 10, 2023}}</ref>
+
+'''ACC Rookie of the Year'''
+: Kevin Concepcion, WR, NC State<ref name="RPOY">{{cite web|url=https://theacc.com/news/2023/11/29/nc-states-concepcion-miamis-bain-jr-named-acc-football-rookies-of-the-year.aspx|title=NC State’s Concepcion, Miami’s Bain, Jr. Named ACC Football Rookies of the Year|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 29, 2023|access-date=December 10, 2023}}</ref>
+
+'''ACC Coach of the Year'''
+: [[Mike Norvell]] – [[2023 Florida State Seminoles football team|Florida State]]<ref>{{cite web|url=https://theacc.com/news/2023/11/30/football-mike-norvell-earns-acc-coach-of-the-year-honors.aspx|title=Mike Norvell Earns ACC Coach of the Year Honors|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 30, 2023|access-date=November 30, 2023}}</ref>
+
+{{col-2-of-3}}
+
+'''ACC Offensive Player of the Year'''
+: Jordan Travis, QB, Florida State<ref name="POY"/>
+
+'''ACC Offensive Rookie of the Year'''
+: Kevin Concepcion, WR, NC State<ref name="RPOY"/>
+
+'''[[Jacobs Blocking Trophy]]'''
+: [[Bryan Hudson (American football)|Bryan Hudson]] – [[2023 Louisville Cardinals football team|Louisville]]<ref>{{cite web|url=https://theacc.com/news/2023/11/27/football-louisvilles-bryan-hudson-earns-2023-acc-jacobs-blocking-trophy.aspx|title=Louisville’s Bryan Hudson Earns 2023 ACC Jacobs Blocking Trophy|website=theacc.com|publisher=[[Atlantic Coast Conference]]|date=November 27, 2023|access-date=November 27, 2023}}</ref>
+
+{{col-3-of-3}}
+'''ACC Defensive Player of the Year'''
+: [[Payton Wilson]], LB, NC State<ref name="POY"/>
+
+'''ACC Defensive Rookie of the Year'''
+:  [[Rueben Bain Jr.]], DL, Miami<ref name="RPOY"/>
+{{col-end}}
+
+===All-Americans===
+{{main|2023 College Football All-America Team}}
+
+====Consensus All-Americans====
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least half of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+{| class="wikitable" style="white-space:nowrap; font-size:90%; text-align:center;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2023 Consensus All-Americans'''
+|-
+! Unanimous
+! Consensus
+|-
+| [[Payton Wilson]] – NC State
+| ''None''
+|}
+
+====Associated Press====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2023 AP All-Americans'''<ref>{{cite web|url=https://apnews.com/article/ap-allamerica-team-45e5dac6434336de5712779fbc0e7e6f|title=The AP All-America team is loaded with 5th- and 6th-year players, including LSU’s Heisman-winning QB|work=[[AP News]]|first=Ralph|last=Russo|date=December 11, 2023|access-date=December 12, 2023}}</ref>
+|-
+! First Team
+! Second Team
+! Third Team
+|-
+| [[Payton Wilson]] – NC State
+| [[Jeremiah Trotter Jr.]] – Clemson<br>[[Jared Verse]] – Florida State<br>[[Omarion Hampton]] – North Carolina<br>[[Malik Washington]] – Virginia
+| [[Bralen Trice]] – Florida State
+|}
+
+====AFCA====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2023 AFCA All-Americans'''<ref>{{cite web|url=https://www.afca.com/lsus-jayden-daniels-and-notre-dames-xavier-watts-headline-the-2023-afca-fbs-coaches-all-america-teams/|title=LSU’S JAYDEN DANIELS AND NOTRE DAME’S XAVIER WATTS HEADLINE THE 2023 AFCA FBS COACHES’ ALL-AMERICA TEAMS|website=afca.com|publisher=[[American Football Coaches Association]]|date=December 14, 2023|access-date=December 14, 2023}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| Jared Verse – Florida State<br>Payton Wilson – NC State<br>James Rosenberry – Florida State
+| Malik Washington – Virginia<br>[[Graham Barton]] – Duke<br>Omarion Hampton – North Carolina<br>Jeremiah Trotter Jr. – Clemson<br>Joe Shimko – NC State
+|}
+
+====FWAA====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2023 FWAA All-Americans'''<ref>{{cite web|url=https://www.sportswriters.net/fwaa/news/2023/12/11/seven-repeat-honorees-highlight-2023-fwaa-all-america-team-presented-by-the-goodyear-cotton-bowl-classic/|title=Seven repeat honorees highlight 2023 FWAA All-America Team presented by the Goodyear Cotton Bowl Classic|website=sportswriters.net|publisher=FWAA|first=Steve|last=Richardson|date=December 11, 2023|access-date=December 12, 2023}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| Payton Wilson – NC State
+| Malik Washington – Virginia
+|}
+
+====The Sporting News====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2023 Sporting News All-Americans'''<ref>{{Cite web |title=The Sporting News 2023 College Football All-America Team |url=https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2023-sporting-news/1d9927b44bf0d5390a6d4f34}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| Payton Wilson – NC State
+| Omarion Hampton – North Carolina<br>Jeremiah Trotter Jr. – Clemson<br>Alex Mastromanno – Florida State<br>Bhayshul Tuten – Virginia Tech
+|}
+
+====WCFF====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2023 Walter Camp All-Americans'''<ref>{{cite web|url=https://waltercamp.org/the-134th-walter-camp-all-america-teams-1st-and-2nd-teams/|title=The 134th Walter Camp All-America Teams – 1st and 2nd Teams|website=waltercamp.org|publisher=Walter Camp Football Foundation|first=Mike|last=Madera|date=December 8, 2023|access-date=December 12, 2023}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| Omarion Hampton – North Carolina<br>Payton Wilson – NC State
+| [[Ashton Gillotte]] – Louisville<br>Malik Washington – Virginia
+|}
+
+==Home game attendance==
+
+{| class="wikitable sortable" style="text-align:center;"
+|-'''Attendance'''
+!Team
+!Stadium
+!Capacity
+!Game 1
+!Game 2
+!Game 3
+!Game 4
+!Game 5 
+!Game 6
+!Game 7
+!Total 
+!Average
+!% of capacity
+|-
+! |Boston College
+|[[Alumni Stadium]]
+| 44,500<ref>{{cite web|url=http://bceagles.com/sports/2015/8/14/GamedayA-Z-Football.aspx|website=bceagles.com|title=Alumni Stadium: A to Z|accessdate=May 18, 2021}}</ref>
+| 30,122
+| 40,122
+| 41,383
+| 41,868†
+| 36,902
+| 33,665
+| 30,569
+| {{formatnum:{{#expr: (30122+40122+41383+41868+36902+33685+30569)}}}}
+| {{formatnum:{{#expr: ((30122+40122+41383+41868+36902+33685+30569)/7) round 0}}}}
+| {{Percentage | ((30122+40122+41383+41868+36902+33685+30569)/7) | 44500 | 2 }}
+|-
+! |Clemson
+|[[Memorial Stadium (Clemson)|Memorial Stadium]]
+| 81,500<ref>{{cite web|url=http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|website=ClemsonTigers.com|title=Memorial Stadium-Death Valley-Denny Stadium|accessdate=September 23, 2016|archive-url=https://web.archive.org/web/20160924022856/http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|archive-date=September 24, 2016|url-status=dead}}</ref>
+| 81,500
+| 81,295
+| 81,500
+| 80,810
+| 81,500
+| 81,426
+| 81,305
+| {{formatnum:{{#expr: (81500+81295+81500+80810+81500+81426+81305)}}}}
+| {{formatnum:{{#expr: ((81500+81295+81500+80810+81500+81426+81305)/7) round 0}}}}
+| {{Percentage | ((81500+81295+81500+80810+81500+81426+81305)/7) | 81500 | 2 }}
+|-
+! |Duke
+|[[Wallace Wade Stadium]]
+| 40,004<ref>{{cite web|url=http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|website=goduke.com|title=Brooks Field at Wallace Wade Stadium|accessdate=May 18, 2021|archive-date=October 12, 2016|archive-url=https://web.archive.org/web/20161012031200/http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|url-status=dead}}</ref>
+| 31,638
+| 17,481
+| 18,141
+| '''40,768'''†
+| 31,833
+| 18,277
+| 17,639
+| {{formatnum:{{#expr: (31638+17481+18141+40768+31833+18277+17639)}}}}
+| {{formatnum:{{#expr: ((31638+17481+18141+40768+31833+18277+17639)/7) round 0}}}}
+| {{Percentage | ((31638+17481+18141+40768+31833+18277+17639)/7) | 40004 | 2 }}
+|-
+! |Florida State
+|[[Doak Campbell Stadium]]
+| 79,560<ref>{{cite web|url=https://seminoles.com/sports/football/facilities/bobby-bowden-field-at-doak-s-campbell-stadium/|website=Seminoles.com|title=Bobby Bowden Field at Doak S. Campbell Stadium|accessdate=May 18, 2021}}</ref>
+| 74,467
+| 79,560
+| 79,560
+| 79,560
+| 79,560
+| 79,560
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (74467+79560+79560+79560+79560+79560)}}}}
+| {{formatnum:{{#expr: ((74467+79560+79560+79560+79560+79560)/6) round 0}}}}
+| {{Percentage | ((74467+79560+79560+79560+79560+79560)/6) | 79560 | 2 }}
+|-
+! |Georgia Tech
+|[[Bobby Dodd Stadium]]
+| 55,000<ref>{{cite web|url=http://www.ramblinwreck.com/genrel/071001aaa.html|website=RamblinWreck.com|title=Bobby Dodd Stadium at Historic Grant Field|accessdate=May 18, 2021}}</ref>
+| 31,452
+| 30,097
+| 35,656
+| 35,945
+| 33,332
+| 51,447
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (31452+30097+35656+35945+33332+51447)}}}}
+| {{formatnum:{{#expr: ((31452+30097+35656+35945+33332+51447)/6) round 0}}}}
+| {{Percentage | ((31452+30097+35656+35945+33332+51,447)/6) | 55000 | 2 }}
+|-
+! |Louisville
+| [[L&N Federal Credit Union Stadium]]
+| 60,800<ref>{{cite web|url=https://gocards.com/documents/2019/8/1//2019_UofL_Football_Media_Guide.pdf?id=23840 |title=Cardinal Stadium |work=2019 Louisville Football Media Guide |page=12 |publisher=Louisville Cardinals |accessdate=August 30, 2019}}</ref>
+| 45,273
+| 48,294
+| 59,081
+| 52,319
+| 49,945
+| 44,628
+| 59,225†
+| {{formatnum:{{#expr: (45273+48294+59081+52319+49945+44628+59225)}}}}
+| {{formatnum:{{#expr: ((45273+48294+59081+52319+49945+44628+59225)/7) round 0}}}}
+| {{Percentage | ((45273+48294+59081+52319+49945+44628+59225)/7) | 60800 | 2 }} 
+|-
+! |Miami
+|[[Hard Rock Stadium]]
+| 65,326<ref>{{cite web|url=http://hardrockstadium.com/faqs/|website=HardRockStadium.com|title=Hard Rock Stadium FAQs|accessdate=September 23, 2016|archive-url=https://web.archive.org/web/20160922231817/http://hardrockstadium.com/faqs/|archive-date=September 22, 2016|url-status=dead}}</ref>
+| 49,024
+| 48,792
+| 40,077
+| 58,045
+| 48,562
+| 58,503†
+| 44,996
+| {{formatnum:{{#expr: (49024+48792+40077+58045+48562+58503+44996)}}}}
+| {{formatnum:{{#expr: ((49024+48792+40077+58045+48562+58503+44996)/7) round 0}}}}
+| {{Percentage | ((49024+48792+40077+58045+48562+58503+44996)/7) | 65326 | 2 }}
+|-
+!| North Carolina
+|[[Kenan Memorial Stadium]]
+| 50,500<ref>{{cite web|url=http://www.goheels.com/ViewArticle.dbml?ATCLID=205912861|website=goheels.com|title=Kenan Stadium|accessdate=September 23, 2016}}</ref>
+| 50,500
+| 45,151
+| 50,500
+| 50,500
+| 50,500
+| 47,667
+| 50,500
+| {{formatnum:{{#expr: (50500+45151+50500+50500+50500+47667+50500)}}}}
+| {{formatnum:{{#expr: ((50500+45151+50500+50500+50500+47667+50500)/7) round 0}}}}
+| {{Percentage | ((50500+45151+50500+50500+50500+47667+50500)/7) | 50500 | 2 }}
+|-
+!| NC State
+|[[Carter–Finley Stadium]]
+| 56,919<ref>{{cite web|url=http://gopack.com/facilities/?id=3|website=gopack.com|title=Facilities|accessdate=September 23, 2016}}</ref>
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| 56,919
+| {{formatnum:{{#expr: (56919+56919+56919+56919+56919+56919+56919)}}}}
+| {{formatnum:{{#expr: ((56919+56919+56919+56919+56919+56919+56919)/7) round 0}}}}
+| {{Percentage | ((56919+56919+56919+56919+56919+56919+56919)/7) | 56919 | 2 }}
+|-
+!| Pittsburgh
+|[[Acrisure Stadium]]
+| 68,400<ref>{{cite web|url=http://heinzfield.com/stadium/heinz-field-facts/|website=HeinzField.com|title=Heinz Field Facts|accessdate=September 23, 2016|archive-date=October 3, 2014|archive-url=https://web.archive.org/web/20141003160106/http://heinzfield.com/stadium/heinz-field-facts/|url-status=dead}}</ref>
+| 45,096
+| 49,398
+| 48,544
+| 46,296
+| 57,557
+| 41,842
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (45096+49398+48544+46296+57557+41842)}}}}
+| {{formatnum:{{#expr: ((45096+49398+48544+46296+57557+41842)/6) round 0}}}}
+| {{Percentage | ((45096+49398+48544+46296+57557+41842)/6) | 68400 | 2 }}
+|-
+!| Syracuse
+|[[JMA Wireless Dome]]
+| 49,057<ref>{{cite web |title=JMA Wireless Dome |url=https://cuse.com/facilities/jma-wireless-dome/526 |website=cuse.com |publisher=Syracuse University |access-date=September 3, 2022}}</ref>
+| 32,465
+| 32,637
+| 37,594
+| 40,973
+| 42,523
+| 35,018
+| style="background:#666666;" |
+| {{formatnum:{{#expr: (32465+32637+37594+40973+42523+35018)}}}}
+| {{formatnum:{{#expr: ((32465+32637+37594+40973+42523+35018)/6) round 0}}}}
+| {{Percentage | ((32465+32637+37594+40973+42523+35018)/6) | 49057 | 2 }} 
+|-
+!| Virginia
+|[[Scott Stadium]]
+| 61,500<ref>{{cite web|url=https://virginiasports.com/carl-smith-center-home-of-david-a-harrison-iii-field-at-scott-stadium-2/|website=virginiasports.com|title=Carl Smith Center, home of David A. Harrison III Field at Scott Stadium|accessdate=September 23, 2016}}</ref>
+| 56,508
+| 42,979
+| 38,289
+| 42,606
+| 36,400
+| 42,976
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (56508+42979+38289+42606+36400+42976)}}}}
+| {{formatnum:{{#expr: ((56508+42979+38289+42606+36400+42976)/6) round 0}}}}
+| {{Percentage | ((56508+42979+38289+42606+36400+42976)/6) | 61500 | 2 }}
+|-
+!| Virginia Tech
+|[[Lane Stadium]]
+| 65,632<ref>{{cite web|url=https://www.vt.edu/about/buildings/lane-stadium-worsham-field.html|website=vt.edu|title=Lane Stadium/Worsham Field|accessdate=September 23, 2016}}</ref>
+| 65,632
+| 65,632
+| 65,632
+| 65,632
+| 60,236
+| 65,632
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (65632+65632+65632+65632+60236+65632)}}}}
+| {{formatnum:{{#expr: ((65632+65632+65632+65632+60236+65632)/6) round 0}}}}
+| {{Percentage | ((65632+65632+65632+65632+60236+65632)/6) | 65632 | 2 }} 
+|-
+!| Wake Forest
+|[[Allegacy Federal Credit Union Stadium]]
+| 31,500<ref>{{cite web|url=https://godeacs.com/facilities/allegacy-federal-credit-union-stadium/55|website=godeacs.com|title=Wake Forest Facilities|accessdate=September 23, 2023}}</ref>
+| 30,028
+| 28,363
+| '''32,528'''†
+| '''31,855'''
+| 31,288
+| 29,591
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (30028+28363+32528+31855+31288+29591)}}}}
+| {{formatnum:{{#expr: ((30028+28363+32528+31855+31288+29591)/6) round 0}}}}
+| {{Percentage | ((30028+28363+32528+31855+31288+29591)/6) | 31500 | 2 }}
+|}
+
+'''Bold''' – Exceeded capacity<br>
+† Season High
+
+==NFL draft==
+{{See also|2024 NFL draft}}
+
+The [[NFL draft]] was held at [[Campus Martius Park]] in [[Detroit]]. The following list includes all ACC players in the draft.
+
+===List of selections===
+{| class="wikitable sortable" border="1" style="text-align: center;"
+|-
+! Player
+! Position
+! School
+! Draft<br>Round
+! Round<br>Pick
+! Overall<br>Pick
+! Team
+|-
+| [[Drake Maye]]
+| [[Quarterback|QB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 1
+| 3
+| 3
+| [[New England Patriots]]
+|-
+| [[Jared Verse]]
+| [[Defensive end|DE]]
+| [[Florida State Seminoles football|Florida State]]
+| 1
+| 19
+| 19
+| [[Los Angeles Rams]]
+|-
+| [[Graham Barton]]
+| [[Center (gridiron football)|C]]
+| [[Duke Blue Devils football|Duke]]
+| 1
+| 26
+| 26
+| [[Tampa Bay Buccaneers]]
+|-
+| [[Nate Wiggins]]
+| [[Cornerback|CB]]
+| [[Clemson Tigers football|Clemson]]
+| 1
+| 30
+| 30
+| [[Baltimore Ravens]]
+|-
+| [[Keon Coleman]]
+| [[Wide receiver|WR]]
+| [[Florida State Seminoles football|Florida State]]
+| 2
+| 1
+| 33
+| [[Buffalo Bills]]
+|-
+| [[Ruke Orhorhoro]]
+| [[Defensive tackle|DT]]
+| [[Clemson Tigers football|Clemson]]
+| 2
+| 3
+| 35
+| [[Atlanta Falcons]]
+|-
+| [[Braden Fiske]]
+| [[Defensive tackle|DT]]
+| [[Florida State Seminoles football|Florida State]]
+| 2
+| 7
+| 39
+| [[Los Angeles Rams]]
+|-
+| [[Renardo Green]]
+| [[Cornerback|CB]]
+| [[Florida State Seminoles football|Florida State]]
+| 2
+| 32
+| 64
+| [[San Francisco 49ers]]
+|-
+| [[Trey Benson]]
+| [[Running back|RB]]
+| [[Florida State Seminoles football|Florida State]]
+| 3
+| 2
+| 66
+| [[Arizona Cardinals]]
+|-
+| [[Matt Goncalves]]
+| [[Offensive tackle|OT]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 3
+| 15
+| 79
+| [[Indianapolis Colts]]
+|-
+| [[Elijah Jones (American football)|Elijah Jones]]
+| [[Cornerback|CB]]
+| [[Boston College Eagles football|Boston College]]
+| 3
+| 26
+| 90
+| [[Arizona Cardinals]]
+|-
+| [[DeWayne Carter]]
+| [[Defensive tackle|DT]]
+| [[Duke Blue Devils football|Duke]]
+| 3
+| 31
+| 95
+| [[Buffalo Bills]]
+|-
+| [[Jarrian Jones]]
+| [[Cornerback|CB]]
+| [[Florida State Seminoles football|Florida State]]
+| 3
+| 32
+| 96
+| [[Jacksonville Jaguars]]
+|-
+| [[Payton Wilson]]
+| [[Linebacker|LB]]
+| [[NC State Wolfpack football|NC State]]
+| 3
+| 34
+| 98
+| [[Pittsburgh Steelers]]
+|-
+| [[Kamren Kinchens]]
+| [[Safety (gridiron football position)|S]]
+| [[Miami Hurricanes football|Miami]]
+| 3
+| 35
+| 99
+| [[Los Angeles Rams]]
+|-
+| [[Cedric Gray]]
+| [[Linebacker|LB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 4
+| 6
+| 106
+| [[Tennessee Titans]]
+|-
+| [[Devontez Walker]]
+| [[Wide receiver|WR]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 4
+| 13
+| 113
+| [[Baltimore Ravens]]
+|-
+| [[Malik Mustapha]]
+| [[Safety (gridiron football position)|S]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 4
+| 24
+| 124
+| [[San Francisco 49ers]]
+|-
+| [[Will Shipley]]
+| [[Running back|RB]]
+| [[Clemson Tigers football|Clemson]]
+| 4
+| 27
+| 127
+| [[Philadelphia Eagles]]
+|-
+| [[Isaac Guerendo]]
+| [[Running back|RB]]
+| [[Louisville Cardinals football|Louisville]]
+| 4
+| 29
+| 129
+| [[San Francisco 49ers]]
+|-
+| [[Xavier Thomas]]
+| [[Defensive end|DE]]
+| [[Clemson Tigers football|Clemson]]
+| 5
+| 3
+| 138
+| [[Arizona Cardinals]]
+|-
+| [[Jarvis Brownlee Jr.]]
+| [[Cornerback|CB]]
+| [[Louisville Cardinals football|Louisville]]
+| 5
+| 11
+| 146
+| [[Tennessee Titans]]
+|-
+| [[Jeremiah Trotter Jr.]]
+| [[Linebacker|LB]]
+| [[Clemson Tigers football|Clemson]]
+| 5
+| 20
+| 155
+| [[Philadelphia Eagles]]
+|-
+| [[Jamari Thrash]]
+| [[Wide receiver|WR]]
+| [[Louisville Cardinals football|Louisville]]
+| 5
+| 21
+| 156
+| [[Cleveland Browns]]
+|-
+| [[Jacob Monk]]
+| [[Center (gridiron football)|C]]
+| [[Duke Blue Devils football|Duke]]
+| 5
+| 28
+| 163
+| [[Green Bay Packers]]
+|-
+| [[Bub Means]]
+| [[Wide receiver|WR]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 5
+| 35
+| 170
+| [[New Orleans Saints]]
+|-
+| [[Jordan Travis]]
+| [[Quarterback|QB]]
+| [[Florida State Seminoles football|Florida State]]
+| 5
+| 36
+| 171
+| [[New York Jets]]
+|-
+| [[Caelen Carson]]
+| [[Cornerback|CB]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 5
+| 39
+| 174
+| [[Dallas Cowboys]]
+|-
+| [[Malik Washington]]
+| [[Wide receiver|WR]]
+| [[Virginia Cavaliers football|Virginia]]
+| 6
+| 1
+| 184
+| [[Miami Dolphins]]
+|-
+| [[Johnny Wilson (wide receiver)|Johnny Wilson]]
+| [[Wide receiver|WR]]
+| [[Florida State Seminoles football|Florida State]]
+| 6
+| 2
+| 185
+| [[Philadelphia Eagles]]
+|-
+| [[Dylan McMahon]]
+| [[Guard (gridiron football)|OG]]
+| [[NC State Wolfpack football|NC State]]
+| 6
+| 7
+| 190
+| [[Philadelphia Eagles]]
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| [[Defensive tackle|DT]]
+| [[Clemson Tigers football|Clemson]]
+| 6
+| 13
+| 196
+| [[Los Angeles Rams]]
+|-
+| [[Jawhar Jordan]]
+| [[Running back|RB]]
+| [[Louisville Cardinals football|Louisville]]
+| 6
+| 21
+| 205
+| [[Houston Texans]]
+|-
+| [[Christian Mahogany]]
+| [[Guard (gridiron football)|OG]]
+| [[Boston College Eagles football|Boston College]]
+| 6
+| 26
+| 210
+| [[Detroit Lions]]
+|-
+| [[Jaden Davis]]
+| [[Cornerback|CB]]
+| [[Miami Hurricanes football|Miami]]
+| 7
+| 1
+| 226
+| [[Arizona Cardinals]]
+|-
+| [[MJ Devonshire]]
+| [[Cornerback|CB]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 7
+| 4
+| 229
+| [[Las Vegas Raiders]]
+|-
+| [[Michael Jurgens]]
+| [[Center (gridiron football)|C]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 7
+| 5
+| 230
+| [[Minnesota Vikings]]
+|-
+| [[Jaheim Bell]]
+| [[Tight end|TE]]
+| [[Florida State Seminoles football|Florida State]]
+| 7
+| 6
+| 231
+| [[New England Patriots]]
+|-
+| [[Matt Lee (American football)|Matt Lee]]
+| [[Center (gridiron football)|C]]
+| [[Miami Hurricanes football|Miami]]
+| 7
+| 12
+| 237
+| [[Cincinnati Bengals]]
+|-
+| [[James Williams (safety)|James Williams]]
+| [[Safety (gridiron football position)|S]]
+| [[Miami Hurricanes football|Miami]]
+| 7
+| 17
+| 242
+| [[Tennessee Titans]]
+|-
+| [[Tatum Bethune]]
+| [[Linebacker|LB]]
+| [[Florida State Seminoles football|Florida State]]
+| 7
+| 26
+| 251
+| [[San Francisco 49ers]]
+|}
+
+===Total picks by school===
+{| class="wikitable sortable" style="text-align: center;"
+|-
+!Team
+!Round 1
+!Round 2
+!Round 3
+!Round 4
+!Round 5
+!Round 6
+!Round 7
+!Total
+|-
+! | Boston College
+| –
+| –
+| 1
+| –
+| –
+| 1
+| –
+| 2
+|-
+! | Clemson
+| 1
+| 1
+| –
+| 1
+| 2
+| 1
+| –
+| 6
+|-
+! | Duke
+| 1
+| –
+| 1
+| –
+| 1
+| –
+| –
+| 3
+|-
+! | Florida State
+| 1
+| 3
+| 2
+| –
+| 1
+| 1
+| 2
+| 10
+|-
+! | Georgia Tech
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| 0
+|-
+! | Louisville
+| –
+| –
+| –
+| 1
+| 2
+| 1
+| –
+| 4
+|-
+! | Miami
+| –
+| –
+| 1
+| –
+| –
+| –
+| 3
+| 4
+|-
+! | NC State
+| –
+| –
+| 1
+| –
+| –
+| 1
+| –
+| 2
+|-
+! | North Carolina
+| 1
+| –
+| –
+| 2
+| –
+| –
+| –
+| 3
+|-
+! | Pittsburgh
+| –
+| –
+| 1
+| –
+| 1
+| –
+| 1
+| 3
+|-
+! | Syracuse
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| 0
+|-
+! | Virginia
+| –
+| –
+| –
+| –
+| –
+| 1
+| –
+| 1
+|-
+! | Virginia Tech
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| 0
+|-
+! | Wake Forest
+| –
+| –
+| –
+| 1
+| 1
+| –
+| 1
+| 3
+|-
+! Total
+! 4
+! 4
+! 7
+! 5
+! 8
+! 6
+! 7
+! 41
+|}
+
+==References==
+{{Reflist}}
+
+{{Atlantic Coast Conference football navbox}}
+{{2023 NCAA Division I FBS football season navbox}}
+
+[[Category:2023 Atlantic Coast Conference football season|*]]

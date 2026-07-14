@@ -1,0 +1,349 @@
+[
+{
+"name": "Antwaun Powell-Ryland",
+"years": "2023-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 43,
+"tfl": 19,
+"sacks": 16,
+"ff": 3
+}
+},
+{
+"name": "Corey Moore",
+"years": "1997-1999",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 60,
+"tfl": 11,
+"sacks": 17,
+"pbu": 3,
+"ff": 3
+}
+},
+{
+"name": "Cornell Brown",
+"years": "1994-1996",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 103,
+"tfl": 11,
+"sacks": 14,
+"pbu": 1
+}
+},
+{
+"name": "J.C. Price",
+"years": "1994-1995",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 1995,
+"tackles": 104,
+"tfl": 15,
+"sacks": 8,
+"defInt": 1,
+"pbu": 1
+}
+},
+{
+"name": "Cols Colas",
+"years": "2000-2003",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2002,
+"tackles": 51,
+"tfl": 19,
+"sacks": 9,
+"pbu": 1,
+"ff": 3
+}
+},
+{
+"name": "Darryl Tapp",
+"years": "2002-2005",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2004,
+"tackles": 60,
+"tfl": 16.5,
+"sacks": 8.5,
+"defInt": 1,
+"pbu": 1,
+"ff": 1
+}
+},
+{
+"name": "Nathaniel Adibi",
+"years": "2000-2003",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2002,
+"tackles": 55,
+"tfl": 15,
+"sacks": 9,
+"pbu": 2,
+"ff": 3
+}
+},
+{
+"name": "Steven Friday",
+"years": "2007-2010",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2010,
+"tackles": 66,
+"tfl": 15,
+"sacks": 8.5,
+"pbu": 1,
+"ff": 2
+}
+},
+{
+"name": "Brandon Flowers",
+"years": "2004-2007",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2007,
+"tackles": 86,
+"tfl": 8,
+"defInt": 5,
+"pbu": 9
+}
+},
+{
+"name": "Jayron Hosley",
+"years": "2009-2011",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2011,
+"tackles": 59,
+"tfl": 1,
+"defInt": 3,
+"pbu": 12,
+"ff": 2
+}
+},
+{
+"name": "Orion Martin",
+"years": "2005-2008",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2008,
+"tackles": 56,
+"tfl": 13,
+"sacks": 7.5,
+"defInt": 1,
+"pbu": 4,
+"ff": 2
+}
+},
+{
+"name": "Jimmy Williams",
+"years": "2002-2005",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2003,
+"tackles": 114,
+"tfl": 4,
+"defInt": 2,
+"pbu": 5
+}
+},
+{
+"name": "Willie Pile",
+"years": "1999-2002",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2002,
+"tackles": 106,
+"defInt": 4,
+"pbu": 5,
+"ff": 2
+}
+},
+{
+"name": "Hank Coleman",
+"years": "1994-1995",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 72,
+"tfl": 9,
+"sacks": 7,
+"pbu": 2,
+"ff": 1
+}
+},
+{
+"name": "John Engelberger",
+"years": "1996-1999",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 1998,
+"rec": 1,
+"recYds": 13,
+"tackles": 66,
+"tfl": 9,
+"sacks": 7.5,
+"pbu": 1,
+"ff": 1
+}
+},
+{
+"name": "George DelRicco",
+"years": "1994-1995",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 137,
+"tfl": 5,
+"sacks": 2,
+"pbu": 3
+}
+},
+{
+"name": "Chris Ellis",
+"years": "2004-2007",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2007,
+"tackles": 53,
+"tfl": 9,
+"sacks": 8.5,
+"defInt": 1,
+"pbu": 5,
+"ff": 1
+}
+},
+{
+"name": "Victor Harris",
+"years": "2005-2008",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2008,
+"rushYds": 48,
+"rec": 8,
+"recYds": 63,
+"tackles": 46,
+"tfl": 3.5,
+"defInt": 6,
+"pbu": 8,
+"ff": 2
+}
+},
+{
+"name": "William Yarborough",
+"years": "1994-1995",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1995,
+"tackles": 52,
+"tfl": 3,
+"sacks": 1,
+"defInt": 5,
+"pbu": 11,
+"ff": 1
+}
+},
+{
+"name": "Michael Crawford",
+"years": "2000-2003",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2003,
+"tackles": 131,
+"tfl": 12,
+"sacks": 1,
+"defInt": 1,
+"pbu": 4,
+"ff": 1
+}
+},
+{
+"name": "Cory Bird",
+"years": "1997-2000",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2000,
+"tackles": 70,
+"tfl": 12,
+"sacks": 3,
+"defInt": 2,
+"pbu": 7
+}
+},
+{
+"name": "Rashad Carmichael",
+"years": "2007-2010",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2009,
+"tackles": 55,
+"tfl": 4,
+"sacks": 1,
+"defInt": 6,
+"pbu": 6
+}
+},
+{
+"name": "Ronyell Whitaker",
+"years": "1999-2002",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2000,
+"tackles": 61,
+"tfl": 2,
+"defInt": 5,
+"pbu": 9
+}
+},
+{
+"name": "Kevin McCadam",
+"years": "2000-2001",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2001,
+"tackles": 83,
+"tfl": 8,
+"sacks": 2,
+"defInt": 3,
+"pbu": 6,
+"ff": 1
+}
+},
+{
+"name": "TyJuan Garbutt",
+"years": "2018-2022",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2022,
+"tackles": 29,
+"tfl": 12,
+"sacks": 6.5,
+"pbu": 1,
+"ff": 2
+}
+},
+{
+"name": "DeAngelo Hall",
+"years": "2001-2003",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2003,
+"rushYds": 21,
+"rushTD": 1,
+"rec": 7,
+"recYds": 86,
+"recTD": 1,
+"tackles": 93,
+"tfl": 3,
+"defInt": 1,
+"pbu": 5,
+"ff": 1
+}
+}
+]

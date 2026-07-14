@@ -1,0 +1,498 @@
+{
+ "season": 2011,
+ "source": "http://web.archive.org/web/20180522122233/http://www.hokiesports.com/football/stats/2011/?season",
+ "players": [
+  {
+   "name": "Alonzo Tweedy",
+   "games": 11,
+   "stats": {
+    "tackles": 23,
+    "tfl": 4,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Antoine Hopkins",
+   "games": 6,
+   "stats": {
+    "tackles": 8,
+    "tfl": 0.5,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Antone Exum",
+   "games": 14,
+   "stats": {
+    "tackles": 89,
+    "tfl": 5,
+    "sacks": 1.5,
+    "defInt": 1,
+    "pbu": 10,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Barquell Rivers",
+   "games": 12,
+   "stats": {
+    "tackles": 16,
+    "tfl": 0.5,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Blake DeChristopher",
+   "games": 14,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Boye Aromire",
+   "games": 10,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Bruce Taylor",
+   "games": 8,
+   "stats": {
+    "tackles": 53,
+    "tfl": 7,
+    "sacks": 5
+   }
+  },
+  {
+   "name": "Chase Williams",
+   "games": 14,
+   "stats": {
+    "tackles": 10
+   }
+  },
+  {
+   "name": "Chris Drager",
+   "games": 14,
+   "stats": {
+    "rec": 15,
+    "recYds": 201,
+    "recTD": 2,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Corey Fuller",
+   "games": 6,
+   "stats": {
+    "rec": 2,
+    "recYds": 19
+   }
+  },
+  {
+   "name": "Corey Marshall",
+   "games": 14,
+   "stats": {
+    "tackles": 13,
+    "tfl": 3,
+    "sacks": 3
+   }
+  },
+  {
+   "name": "Cris Hill",
+   "games": 14,
+   "stats": {
+    "tackles": 34,
+    "tfl": 1,
+    "defInt": 1,
+    "pbu": 7
+   }
+  },
+  {
+   "name": "D.J. Coles",
+   "games": 14,
+   "stats": {
+    "rec": 36,
+    "recYds": 480,
+    "recTD": 3
+   }
+  },
+  {
+   "name": "Daniel Dyer",
+   "games": 11,
+   "stats": {
+    "rushYds": 30,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Danny Coale",
+   "games": 14,
+   "stats": {
+    "rushYds": 26,
+    "rec": 60,
+    "recYds": 904,
+    "recTD": 3,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "David Wilson",
+   "games": 14,
+   "stats": {
+    "rushYds": 1709,
+    "rushTD": 9,
+    "rec": 22,
+    "recYds": 129,
+    "recTD": 1,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Derek Di Nardo",
+   "games": 14,
+   "stats": {
+    "tackles": 2,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Derrick Hopkins",
+   "games": 14,
+   "stats": {
+    "tackles": 51,
+    "tfl": 5,
+    "sacks": 3,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Detrick Bonner",
+   "games": 13,
+   "stats": {
+    "tackles": 27,
+    "tfl": 3.5,
+    "defInt": 1,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Duan Perez-Means",
+   "games": 14,
+   "stats": {
+    "tackles": 8,
+    "tfl": 0.5
+   }
+  },
+  {
+   "name": "Dwight Tucker",
+   "games": 1,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Dyrell Roberts",
+   "games": 3,
+   "stats": {
+    "rec": 3,
+    "recYds": 45
+   }
+  },
+  {
+   "name": "Eddie Whitley",
+   "games": 14,
+   "stats": {
+    "tackles": 83,
+    "tfl": 1,
+    "defInt": 2,
+    "pbu": 4,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Eric Martin",
+   "games": 10,
+   "stats": {
+    "rec": 3,
+    "recYds": 22,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "George George",
+   "games": 14,
+   "stats": {
+    "rec": 1,
+    "recYds": 37,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Greg Nosal",
+   "games": 14,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Isaiah Hamlette",
+   "games": 13,
+   "stats": {
+    "tackles": 7,
+    "tfl": 2,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "J. Gouveia-Winslow",
+   "games": 6,
+   "stats": {
+    "tackles": 9,
+    "tfl": 1,
+    "sacks": 0.5,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "J.R. Collins",
+   "games": 14,
+   "stats": {
+    "tackles": 57,
+    "tfl": 9.5,
+    "sacks": 6,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Jack Tyler",
+   "games": 14,
+   "stats": {
+    "tackles": 42,
+    "tfl": 2.5,
+    "sacks": 1.5
+   }
+  },
+  {
+   "name": "James Gayle",
+   "games": 13,
+   "stats": {
+    "tackles": 38,
+    "tfl": 12.5,
+    "sacks": 7
+   }
+  },
+  {
+   "name": "James Hopper",
+   "games": 14,
+   "stats": {
+    "tackles": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Jarrett Boykin",
+   "games": 13,
+   "stats": {
+    "rec": 61,
+    "recYds": 761,
+    "recTD": 5,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jayron Hosley",
+   "games": 13,
+   "stats": {
+    "tackles": 59,
+    "tfl": 1,
+    "defInt": 3,
+    "pbu": 12,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Joey Phillips",
+   "games": 14,
+   "stats": {
+    "rushYds": 2,
+    "rec": 1,
+    "recYds": 2
+   }
+  },
+  {
+   "name": "Josh Oglesby",
+   "games": 14,
+   "stats": {
+    "rushYds": 371,
+    "rushTD": 6,
+    "rec": 6,
+    "recYds": 31
+   }
+  },
+  {
+   "name": "Justin Myer",
+   "games": 14,
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Kyle Fuller",
+   "games": 14,
+   "stats": {
+    "tackles": 65,
+    "tfl": 14.5,
+    "sacks": 4.5,
+    "defInt": 2,
+    "pbu": 7,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Kyshoen Jarrett",
+   "games": 14,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Logan Thomas",
+   "games": 14,
+   "stats": {
+    "rushYds": 469,
+    "rushTD": 11,
+    "passYds": 3013,
+    "passTD": 19,
+    "passInt": 10,
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Luther Maddy",
+   "games": 13,
+   "stats": {
+    "tackles": 19,
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Marcus Davis",
+   "games": 14,
+   "stats": {
+    "rushYds": -5,
+    "rec": 30,
+    "recYds": 510,
+    "recTD": 5
+   }
+  },
+  {
+   "name": "Mark Leal",
+   "games": 3,
+   "stats": {
+    "rushYds": 5,
+    "passYds": 153,
+    "passTD": 2
+   }
+  },
+  {
+   "name": "Martin Scales",
+   "games": 14,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Michael Via",
+   "games": 12,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Nick Dew",
+   "games": 14,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Randall Dunn",
+   "games": 14,
+   "stats": {
+    "rec": 2,
+    "recYds": 10,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Tariq Edwards",
+   "games": 14,
+   "stats": {
+    "tackles": 71,
+    "tfl": 11.5,
+    "sacks": 3.5,
+    "defInt": 2,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Telvion Clark",
+   "games": 4,
+   "stats": {
+    "tackles": 6,
+    "tfl": 0.5
+   }
+  },
+  {
+   "name": "Theron Norman",
+   "games": 3,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Tony Gregory",
+   "games": 13,
+   "stats": {
+    "rushYds": 27
+   }
+  },
+  {
+   "name": "Tyrel Wilson",
+   "games": 14,
+   "stats": {
+    "tackles": 29,
+    "tfl": 3,
+    "sacks": 2.5
+   }
+  },
+  {
+   "name": "Wiley Brown",
+   "games": 14,
+   "stats": {
+    "tackles": 13
+   }
+  },
+  {
+   "name": "Willie Byrn",
+   "games": 4,
+   "stats": {
+    "rec": 1,
+    "recYds": 15
+   }
+  },
+  {
+   "name": "Zack McCray",
+   "games": 14,
+   "stats": {
+    "tackles": 14,
+    "tfl": 1
+   }
+  }
+ ]
+}

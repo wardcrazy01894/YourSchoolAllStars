@@ -1,0 +1,444 @@
+{
+ "season": 1997,
+ "source": "http://web.archive.org/web/20180522122504/http://www.hokiesports.com/football/stats/1997/?season",
+ "players": [
+  {
+   "name": "Al Clark",
+   "games": 10,
+   "stats": {
+    "rushYds": 347,
+    "rushTD": 3,
+    "passYds": 1477,
+    "passTD": 10,
+    "passInt": 3
+   }
+  },
+  {
+   "name": "Andre Kendrick",
+   "games": 11,
+   "stats": {
+    "rushYds": 67,
+    "rushTD": 1,
+    "tackles": 2,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Angelo Harrison",
+   "games": 10,
+   "stats": {
+    "rec": 18,
+    "recYds": 234,
+    "recTD": 3
+   }
+  },
+  {
+   "name": "Anthony Lambo",
+   "games": 10,
+   "stats": {
+    "tackles": 17,
+    "sacks": 3,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Anthony Midget",
+   "games": 10,
+   "stats": {
+    "tackles": 48,
+    "tfl": 1,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Brian Remley",
+   "games": 8,
+   "stats": {
+    "rec": 2,
+    "recYds": 36
+   }
+  },
+  {
+   "name": "Carl Bradley",
+   "games": 11,
+   "stats": {
+    "tackles": 41,
+    "tfl": 3,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Chris Cyrus",
+   "games": 10,
+   "stats": {
+    "tackles": 28,
+    "sacks": 1.5
+   }
+  },
+  {
+   "name": "Chris Steadley",
+   "games": 10,
+   "stats": {
+    "rushYds": 3,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Corey Moore",
+   "games": 11,
+   "stats": {
+    "tackles": 39,
+    "tfl": 7,
+    "sacks": 4.5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Cory Bird",
+   "games": 10,
+   "stats": {
+    "tackles": 42,
+    "tfl": 5,
+    "sacks": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Cullen Hawkins",
+   "games": 11,
+   "stats": {
+    "rushYds": 90,
+    "rushTD": 1,
+    "rec": 4,
+    "recYds": 25,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Danny Wheel",
+   "games": 11,
+   "stats": {
+    "tackles": 61,
+    "tfl": 3,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "Dave Meyer",
+   "games": 2,
+   "stats": {
+    "rushYds": 1
+   }
+  },
+  {
+   "name": "Ike Charlton",
+   "games": 11,
+   "stats": {
+    "rushYds": 16,
+    "rec": 2,
+    "recYds": 15,
+    "tackles": 36,
+    "defInt": 2,
+    "pbu": 5
+   }
+  },
+  {
+   "name": "Jamel Smith",
+   "games": 11,
+   "stats": {
+    "tackles": 92,
+    "tfl": 9,
+    "sacks": 1,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Jamie Forrest",
+   "games": 8,
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Jason Buckland",
+   "games": 3,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Jimmy Kibble",
+   "games": 11,
+   "stats": {
+    "rushYds": 29,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "John Engelberger",
+   "games": 10,
+   "stats": {
+    "tackles": 70,
+    "tfl": 9,
+    "sacks": 6,
+    "defInt": 1,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Keion Carpenter",
+   "games": 11,
+   "stats": {
+    "tackles": 59,
+    "tfl": 4,
+    "defInt": 4,
+    "pbu": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Ken Handy",
+   "games": 8,
+   "stats": {
+    "rec": 8,
+    "recYds": 103,
+    "recTD": 2
+   }
+  },
+  {
+   "name": "Ken Oxendine",
+   "games": 11,
+   "stats": {
+    "rushYds": 912,
+    "rushTD": 8,
+    "rec": 13,
+    "recYds": 96
+   }
+  },
+  {
+   "name": "Kerwin Hairston",
+   "games": 11,
+   "stats": {
+    "tackles": 69,
+    "tfl": 3,
+    "sacks": 3.5,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Korey Irby",
+   "games": 4,
+   "stats": {
+    "tackles": 13
+   }
+  },
+  {
+   "name": "Lamont Pegues",
+   "games": 11,
+   "stats": {
+    "rushYds": 391,
+    "rushTD": 5,
+    "rec": 2,
+    "recYds": 59,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Larry Green",
+   "games": 11,
+   "stats": {
+    "tackles": 16,
+    "defInt": 1,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Loren Johnson",
+   "games": 11,
+   "stats": {
+    "tackles": 26,
+    "tfl": 2,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Lorenzo Ferguson",
+   "games": 11,
+   "stats": {
+    "tackles": 12,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Manny Clemente",
+   "games": 7,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Marcus Gildersleeve",
+   "games": 11,
+   "stats": {
+    "rec": 17,
+    "recYds": 286,
+    "recTD": 3
+   }
+  },
+  {
+   "name": "Marcus Parker",
+   "games": 10,
+   "stats": {
+    "rushYds": 366,
+    "rushTD": 4,
+    "rec": 20,
+    "recYds": 212
+   }
+  },
+  {
+   "name": "Michael Hawkes",
+   "games": 11,
+   "stats": {
+    "tackles": 20,
+    "tfl": 2,
+    "sacks": 1,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Michael Stuewe",
+   "games": 10,
+   "stats": {
+    "rec": 15,
+    "recYds": 182,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Nat Williams",
+   "games": 11,
+   "stats": {
+    "tackles": 52,
+    "tfl": 5,
+    "sacks": 3.5,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Nick Sorensen",
+   "games": 5,
+   "stats": {
+    "rushYds": 91,
+    "passYds": 140,
+    "passTD": 2,
+    "passInt": 3
+   }
+  },
+  {
+   "name": "Phillip Summers",
+   "games": 11,
+   "stats": {
+    "tackles": 29,
+    "tfl": 2,
+    "pbu": 1,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Pierson Prioleau",
+   "games": 11,
+   "stats": {
+    "tackles": 81,
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 4,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Robert Adams",
+   "games": 7,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Ryan Smith",
+   "games": 10,
+   "stats": {
+    "tackles": 21,
+    "sacks": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Sean Ruffing",
+   "games": 8,
+   "stats": {
+    "tackles": 11,
+    "tfl": 2
+   }
+  },
+  {
+   "name": "Sean Sullivan",
+   "games": 11,
+   "stats": {
+    "rec": 7,
+    "recYds": 72,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Shane Beamer",
+   "games": 11,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Shawn Scales",
+   "games": 5,
+   "stats": {
+    "rushYds": 20,
+    "rec": 13,
+    "recYds": 297,
+    "recTD": 2
+   }
+  },
+  {
+   "name": "Shelly Ellison",
+   "games": 11,
+   "stats": {
+    "rushYds": 69
+   }
+  },
+  {
+   "name": "Steve Tate",
+   "games": 11,
+   "stats": {
+    "tackles": 104,
+    "tfl": 4,
+    "sacks": 3,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Steven Hunt",
+   "games": 10,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Tyron Edmond",
+   "games": 9,
+   "stats": {
+    "tackles": 12
+   }
+  }
+ ]
+}

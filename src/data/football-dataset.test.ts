@@ -4,7 +4,12 @@
 // in under the provisional flag all fail CI.
 
 import { describe, it, expect } from 'vitest'
-import { michiganFootball, pittsburghFootball, floridaFootball } from './index'
+import {
+  michiganFootball,
+  pittsburghFootball,
+  floridaFootball,
+  virginiaTechFootball,
+} from './index'
 import { fbWindows, playerInWindow } from '../lib/football'
 import { fbStatComposite, fbHonorTier } from '../lib/football-rating'
 import { honorEmoji } from '../lib/honors'
@@ -36,6 +41,7 @@ describe.each([
   ['michigan', michiganFootball],
   ['pitt', pittsburghFootball],
   ['florida', floridaFootball],
+  ['vt', virginiaTechFootball],
 ])('%s football dataset', (_school, dataset) => {
   const { players, provisional } = dataset
   // The live era wheel the game actually spins for THIS dataset (rolling

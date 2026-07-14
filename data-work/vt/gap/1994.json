@@ -1,0 +1,470 @@
+{
+ "season": 1994,
+ "source": "http://web.archive.org/web/20180522122532/http://www.hokiesports.com/football/stats/1994/?season",
+ "players": [
+  {
+   "name": "A. Layne",
+   "games": 2,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Andy Miller",
+   "games": 11,
+   "stats": {
+    "tackles": 13
+   }
+  },
+  {
+   "name": "Antonio Banks",
+   "games": 11,
+   "stats": {
+    "tackles": 77,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Antonio Freeman",
+   "games": 11,
+   "stats": {
+    "rec": 38,
+    "recYds": 586,
+    "recTD": 5
+   }
+  },
+  {
+   "name": "Atle Larsen",
+   "games": 11,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Baron Spinner",
+   "games": 10,
+   "stats": {
+    "tackles": 10
+   }
+  },
+  {
+   "name": "Billy Conaty",
+   "games": 11,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brad Baylor",
+   "games": 6,
+   "stats": {
+    "tackles": 8
+   }
+  },
+  {
+   "name": "Brandon Semones",
+   "games": 11,
+   "stats": {
+    "tackles": 99,
+    "tfl": 8,
+    "sacks": 5,
+    "defInt": 3,
+    "pbu": 6,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Brian Edmonds",
+   "games": 11,
+   "stats": {
+    "rushYds": 290,
+    "rushTD": 3,
+    "rec": 5,
+    "recYds": 47,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Bryan Jennings",
+   "games": 6,
+   "stats": {
+    "rec": 4,
+    "recYds": 37,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Bryan Still",
+   "games": 11,
+   "stats": {
+    "rushYds": 29,
+    "rec": 23,
+    "recYds": 500,
+    "recTD": 4
+   }
+  },
+  {
+   "name": "Chris Peduzzi",
+   "games": 11,
+   "stats": {
+    "tackles": 6
+   }
+  },
+  {
+   "name": "Cornelius White",
+   "games": 10,
+   "stats": {
+    "rushYds": 10,
+    "rec": 11,
+    "recYds": 142,
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Cornell Brown",
+   "games": 11,
+   "stats": {
+    "tackles": 84,
+    "tfl": 9,
+    "sacks": 11,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Danny Osborne",
+   "games": 11,
+   "stats": {
+    "tackles": 5,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Dwayne Thomas",
+   "games": 8,
+   "stats": {
+    "rushYds": 655,
+    "rushTD": 5,
+    "rec": 22,
+    "recYds": 136
+   }
+  },
+  {
+   "name": "George DelRicco",
+   "games": 11,
+   "stats": {
+    "tackles": 130,
+    "tfl": 5,
+    "sacks": 4,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Hank Coleman",
+   "games": 11,
+   "stats": {
+    "tackles": 59,
+    "tfl": 4,
+    "sacks": 3,
+    "pbu": 6,
+    "ff": 1
+   }
+  },
+  {
+   "name": "J.C. Price",
+   "games": 11,
+   "stats": {
+    "tackles": 67,
+    "tfl": 4,
+    "sacks": 3
+   }
+  },
+  {
+   "name": "Jeff Holland",
+   "games": 11,
+   "stats": {
+    "tackles": 34,
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Jermaine Holmes",
+   "games": 11,
+   "stats": {
+    "rec": 35,
+    "recYds": 434
+   }
+  },
+  {
+   "name": "Jim Baron",
+   "games": 10,
+   "stats": {
+    "tackles": 41,
+    "tfl": 5,
+    "sacks": 5
+   }
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "games": 5,
+   "stats": {
+    "rushYds": 16,
+    "passYds": 75,
+    "passTD": 1,
+    "passInt": 1
+   }
+  },
+  {
+   "name": "Keith Gray",
+   "games": 1,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Keith Moyer",
+   "games": 11,
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "Ken Brown",
+   "games": 10,
+   "stats": {
+    "tackles": 93,
+    "tfl": 6,
+    "sacks": 2,
+    "defInt": 2,
+    "pbu": 5,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Ken Landrum",
+   "games": 5,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Ken Oxendine",
+   "games": 10,
+   "stats": {
+    "rushYds": 258,
+    "rushTD": 2,
+    "rec": 8,
+    "recYds": 30,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Kevin Martin",
+   "games": 11,
+   "stats": {
+    "rec": 15,
+    "recYds": 171,
+    "recTD": 2
+   }
+  },
+  {
+   "name": "Korey Irby",
+   "games": 11,
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "Larry Green",
+   "games": 11,
+   "stats": {
+    "tackles": 36,
+    "tfl": 2,
+    "defInt": 1,
+    "pbu": 5
+   }
+  },
+  {
+   "name": "Lawrence Lewis",
+   "games": 11,
+   "stats": {
+    "tackles": 25,
+    "tfl": 1,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Marcus Parker",
+   "games": 9,
+   "stats": {
+    "rushYds": 83,
+    "rec": 2,
+    "recYds": 30,
+    "recTD": 1,
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Matt Morrell",
+   "games": 11,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Maurice DeShazo",
+   "games": 11,
+   "stats": {
+    "rushYds": -34,
+    "rushTD": 4,
+    "passYds": 2110,
+    "passTD": 13,
+    "passInt": 13
+   }
+  },
+  {
+   "name": "Michael Williams",
+   "games": 10,
+   "stats": {
+    "rec": 1,
+    "recYds": 8,
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Rafael Williams",
+   "games": 6,
+   "stats": {
+    "tackles": 9,
+    "tfl": 1,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "Ranall White",
+   "games": 8,
+   "stats": {
+    "rushYds": 76
+   }
+  },
+  {
+   "name": "Rhasheyd Williams",
+   "games": 10,
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Robbie Colley",
+   "games": 11,
+   "stats": {
+    "rushYds": -18
+   }
+  },
+  {
+   "name": "Shaine Miles",
+   "games": 11,
+   "stats": {
+    "rushYds": 1,
+    "tackles": 13
+   }
+  },
+  {
+   "name": "Shawn Scales",
+   "games": 9,
+   "stats": {
+    "rec": 3,
+    "recYds": 13,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Stacy Henley",
+   "games": 11,
+   "stats": {
+    "tackles": 23,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Tim Wade",
+   "games": 11,
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Tom Harsanyi",
+   "games": 1,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Tommy Edwards",
+   "games": 11,
+   "stats": {
+    "rushYds": 378,
+    "rushTD": 3,
+    "rec": 7,
+    "recYds": 51,
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Tony Morrison",
+   "games": 10,
+   "stats": {
+    "tackles": 27,
+    "sacks": 1,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Torrian Gray",
+   "games": 11,
+   "stats": {
+    "tackles": 61,
+    "tfl": 2,
+    "sacks": 2,
+    "defInt": 4,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Vernon Dozier",
+   "games": 9,
+   "stats": {
+    "tackles": 18
+   }
+  },
+  {
+   "name": "Waverly Jackson",
+   "games": 11,
+   "stats": {
+    "tackles": 70,
+    "tfl": 3,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "William Ferrell",
+   "games": 10,
+   "stats": {
+    "tackles": 10
+   }
+  },
+  {
+   "name": "William Yarborough",
+   "games": 11,
+   "stats": {
+    "tackles": 31,
+    "defInt": 4,
+    "pbu": 8
+   }
+  }
+ ]
+}

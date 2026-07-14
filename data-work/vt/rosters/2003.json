@@ -1,0 +1,687 @@
+{
+ "season": 2003,
+ "teamId": 136049,
+ "api": "https://api.wmt.games/api/statistics/teams/136049/players?per_page=200",
+ "fetched": "2026-07-14T04:15:43.414Z",
+ "players": [
+  {
+   "personId": 338188,
+   "name": "Aaron Rouse",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "36"
+  },
+  {
+   "personId": 188387,
+   "name": "Andrew Fleck",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "63"
+  },
+  {
+   "personId": 188403,
+   "name": "Blake Warren",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "40"
+  },
+  {
+   "personId": 188398,
+   "name": "Bob Ruff",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "54"
+  },
+  {
+   "personId": 338177,
+   "name": "Brandon Frye",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "65"
+  },
+  {
+   "personId": 338180,
+   "name": "Brandon Gore",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "77"
+  },
+  {
+   "personId": 215785,
+   "name": "Brandon Manning",
+   "position": "LB",
+   "class": "Jr.",
+   "jersey": "48"
+  },
+  {
+   "personId": 366891,
+   "name": "Brandon Pace",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 381413,
+   "name": "Brandon Pace",
+   "position": null,
+   "class": "---",
+   "jersey": "46"
+  },
+  {
+   "personId": 338698,
+   "name": "Brenden Hill",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "82"
+  },
+  {
+   "personId": 338184,
+   "name": "Brian McPherson",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "29"
+  },
+  {
+   "personId": 312631,
+   "name": "Bryan Randall",
+   "position": "QB",
+   "class": "Jr.",
+   "jersey": "3"
+  },
+  {
+   "personId": 203904,
+   "name": "Carter Warley",
+   "position": "K",
+   "class": "Sr.",
+   "jersey": "49"
+  },
+  {
+   "personId": 232725,
+   "name": "Cary Wade",
+   "position": "DB",
+   "class": "So.",
+   "jersey": "30"
+  },
+  {
+   "personId": 312634,
+   "name": "Cedric Humes",
+   "position": "RB",
+   "class": "So.",
+   "jersey": "32"
+  },
+  {
+   "personId": 215779,
+   "name": "Chad Cooper",
+   "position": "LB",
+   "class": "Jr.",
+   "jersey": "33"
+  },
+  {
+   "personId": 382134,
+   "name": "Chad Grimm",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 382133,
+   "name": "Chris Ceasar",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 370140,
+   "name": "Chris Ceaser",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 188386,
+   "name": "Chris Clifton",
+   "position": "WR",
+   "class": "So.",
+   "jersey": "16"
+  },
+  {
+   "personId": 338669,
+   "name": "Chris Ellis",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "98"
+  },
+  {
+   "personId": 188397,
+   "name": "Chris Pannell",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "58"
+  },
+  {
+   "personId": 188400,
+   "name": "Chris Shreve",
+   "position": "WR",
+   "class": "Sr.",
+   "jersey": "81"
+  },
+  {
+   "personId": 215812,
+   "name": "Cols Colas",
+   "position": "DL",
+   "class": "Sr.",
+   "jersey": "99"
+  },
+  {
+   "personId": 338179,
+   "name": "Corey Gordon",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "28"
+  },
+  {
+   "personId": 188394,
+   "name": "Danny McGrath",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "69"
+  },
+  {
+   "personId": 188408,
+   "name": "Darryl Tapp",
+   "position": "DL",
+   "class": "So.",
+   "jersey": "55"
+  },
+  {
+   "personId": 338668,
+   "name": "David Clowney",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "87"
+  },
+  {
+   "personId": 312632,
+   "name": "DeAngelo Hall",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "4"
+  },
+  {
+   "personId": 203901,
+   "name": "Doug Easlick",
+   "position": "RB",
+   "class": "Sr.",
+   "jersey": "43"
+  },
+  {
+   "personId": 203880,
+   "name": "Eric Green",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "1"
+  },
+  {
+   "personId": 203884,
+   "name": "Ernest Wilford",
+   "position": "WR",
+   "class": "Sr.",
+   "jersey": "19"
+  },
+  {
+   "personId": 188410,
+   "name": "Fred Lee",
+   "position": "WR",
+   "class": "So.",
+   "jersey": "14B"
+  },
+  {
+   "personId": 203882,
+   "name": "Garnell Wilds",
+   "position": "DB",
+   "class": "Sr.",
+   "jersey": "17"
+  },
+  {
+   "personId": 338185,
+   "name": "Isaac Montgomery",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "97"
+  },
+  {
+   "personId": 215792,
+   "name": "Jacob Gibson",
+   "position": "OL",
+   "class": "Sr.",
+   "jersey": "60"
+  },
+  {
+   "personId": 215795,
+   "name": "Jake Grove",
+   "position": "OL",
+   "class": "Sr.",
+   "jersey": "64"
+  },
+  {
+   "personId": 188383,
+   "name": "James Anderson",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "42"
+  },
+  {
+   "personId": 338181,
+   "name": "James Griffin",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "22"
+  },
+  {
+   "personId": 215802,
+   "name": "James Miller",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "76"
+  },
+  {
+   "personId": 215807,
+   "name": "Jared Mazzetta",
+   "position": "TE",
+   "class": "Jr.",
+   "jersey": "85"
+  },
+  {
+   "personId": 215808,
+   "name": "Jason Lallis",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "91"
+  },
+  {
+   "personId": 188396,
+   "name": "Jason Murphy",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "72"
+  },
+  {
+   "personId": 188393,
+   "name": "Jeff King",
+   "position": "TE",
+   "class": "So.",
+   "jersey": "90"
+  },
+  {
+   "personId": 370142,
+   "name": "Jeff Scudder",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 215810,
+   "name": "Jim Davis",
+   "position": "DL",
+   "class": "Sr.",
+   "jersey": "95"
+  },
+  {
+   "personId": 232728,
+   "name": "Jimmy Martin",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "52"
+  },
+  {
+   "personId": 188405,
+   "name": "Jimmy Williams",
+   "position": "DB",
+   "class": "So.",
+   "jersey": "2"
+  },
+  {
+   "personId": 232727,
+   "name": "John Candelas",
+   "position": "RB",
+   "class": "So.",
+   "jersey": "44"
+  },
+  {
+   "personId": 215786,
+   "name": "Jon Dunn",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "79"
+  },
+  {
+   "personId": 188409,
+   "name": "Jonathan Lewis",
+   "position": "DL",
+   "class": "So.",
+   "jersey": "56"
+  },
+  {
+   "personId": 188401,
+   "name": "Jordan Trott",
+   "position": "LB",
+   "class": "So.",
+   "jersey": "41"
+  },
+  {
+   "personId": 188389,
+   "name": "Justin Hamilton",
+   "position": "WR",
+   "class": "So.",
+   "jersey": "27"
+  },
+  {
+   "personId": 203910,
+   "name": "Keith Willis",
+   "position": "TE",
+   "class": "Sr.",
+   "jersey": "86"
+  },
+  {
+   "personId": 215799,
+   "name": "Kevin Jones",
+   "position": "RB",
+   "class": "Jr.",
+   "jersey": "25"
+  },
+  {
+   "personId": 215800,
+   "name": "Kevin Lewis",
+   "position": "DL",
+   "class": "Jr.",
+   "jersey": "70"
+  },
+  {
+   "personId": 370141,
+   "name": "Lance Goff",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 188404,
+   "name": "Marcus Vick",
+   "position": "QB",
+   "class": "Fr.",
+   "jersey": "5"
+  },
+  {
+   "personId": 435296,
+   "name": "Maurice Sharp",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 382137,
+   "name": "Maurice Sharpe",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 215773,
+   "name": "Michael Crawford",
+   "position": "DB",
+   "class": "Sr.",
+   "jersey": "21"
+  },
+  {
+   "personId": 338667,
+   "name": "Michael Hinton",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "18"
+  },
+  {
+   "personId": 338183,
+   "name": "Michael Malone",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "88"
+  },
+  {
+   "personId": 215784,
+   "name": "Mikal Baaqee",
+   "position": "LB",
+   "class": "Jr.",
+   "jersey": "45"
+  },
+  {
+   "personId": 215778,
+   "name": "Mike Daniels",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "31"
+  },
+  {
+   "personId": 188407,
+   "name": "Mike Imoh",
+   "position": "RB",
+   "class": "So.",
+   "jersey": "20"
+  },
+  {
+   "personId": 338186,
+   "name": "Mike Parham",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "50"
+  },
+  {
+   "personId": 382136,
+   "name": "Mike Perlozzo",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 203909,
+   "name": "Nathaniel Adibi",
+   "position": "DL",
+   "class": "Sr.",
+   "jersey": "83"
+  },
+  {
+   "personId": 188406,
+   "name": "Nic Schmitt",
+   "position": "K",
+   "class": "So.",
+   "jersey": "23"
+  },
+  {
+   "personId": 338182,
+   "name": "Nick Leeson",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "53"
+  },
+  {
+   "personId": 338175,
+   "name": "Noland Burchette",
+   "position": "DL",
+   "class": "Fr.",
+   "jersey": "96"
+  },
+  {
+   "personId": 367225,
+   "name": "null Goff",
+   "position": null,
+   "class": "---",
+   "jersey": "13"
+  },
+  {
+   "personId": 381412,
+   "name": "null Grimm",
+   "position": null,
+   "class": "---",
+   "jersey": "14A"
+  },
+  {
+   "personId": 434682,
+   "name": "null Grimm",
+   "position": null,
+   "class": "---",
+   "jersey": "14"
+  },
+  {
+   "personId": 188385,
+   "name": "Reggie Butler",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "61"
+  },
+  {
+   "personId": 215769,
+   "name": "Richard Johnson",
+   "position": "WR",
+   "class": "Jr.",
+   "jersey": "12"
+  },
+  {
+   "personId": 338187,
+   "name": "Robert Parker",
+   "position": "WR",
+   "class": "Fr.",
+   "jersey": "80"
+  },
+  {
+   "personId": 203913,
+   "name": "Robert Peaslee",
+   "position": "P",
+   "class": "Sr.",
+   "jersey": "89"
+  },
+  {
+   "personId": 215798,
+   "name": "Robert Ramsey",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "68"
+  },
+  {
+   "personId": 338664,
+   "name": "Roland Minor",
+   "position": "DB",
+   "class": "Fr.",
+   "jersey": "7"
+  },
+  {
+   "personId": 366890,
+   "name": "Ryan Hash",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 232726,
+   "name": "Steve Canter",
+   "position": "RB",
+   "class": "Jr.",
+   "jersey": "37"
+  },
+  {
+   "personId": 382135,
+   "name": "T Mcclelland",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 435295,
+   "name": "Tho Mcclelland",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 188399,
+   "name": "Tim Sandidge",
+   "position": "DL",
+   "class": "So.",
+   "jersey": "71"
+  },
+  {
+   "personId": 443007,
+   "name": "Tom Mcclelland",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 443009,
+   "name": "Tom Mcclelland",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 443010,
+   "name": "Tom Mcclelland",
+   "position": null,
+   "class": "Fr.",
+   "jersey": null
+  },
+  {
+   "personId": 215794,
+   "name": "Travis Conway",
+   "position": "OL",
+   "class": "Jr.",
+   "jersey": "62"
+  },
+  {
+   "personId": 338176,
+   "name": "Tripp Carroll",
+   "position": "OL",
+   "class": "Fr.",
+   "jersey": "57"
+  },
+  {
+   "personId": 203906,
+   "name": "Vegas Robinson",
+   "position": "LB",
+   "class": "Sr.",
+   "jersey": "6"
+  },
+  {
+   "personId": 338665,
+   "name": "Vince Hall",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "9"
+  },
+  {
+   "personId": 215804,
+   "name": "Vincent Fuller",
+   "position": "DB",
+   "class": "Jr.",
+   "jersey": "8"
+  },
+  {
+   "personId": 203897,
+   "name": "Vinnie Burns",
+   "position": "P",
+   "class": "Jr.",
+   "jersey": "38"
+  },
+  {
+   "personId": 188395,
+   "name": "Will Montgomery",
+   "position": "OL",
+   "class": "So.",
+   "jersey": "66"
+  },
+  {
+   "personId": 338666,
+   "name": "Xavier Adibi",
+   "position": "LB",
+   "class": "Fr.",
+   "jersey": "11"
+  }
+ ]
+}

@@ -1,0 +1,5600 @@
+<!-- source: https://en.wikipedia.org/wiki/2021_All-Atlantic_Coast_Conference_football_team -->
+{{Use mdy dates|date=August 2023}}
+{{Infobox sports season
+| title             = 2021 ACC Football season
+| color             = #013ac6
+| color text        = #ffffff
+| league            = [[NCAA Division I Football Bowl Subdivision]] 
+| sport             = [[College football|Football]]
+| logo              = Atlantic Coast Conference logo.svg
+| logo_size         = 200px
+| caption           = 
+| duration          = September 2, 2021 to December 31, 2021
+| no_of_teams       = 14
+| draft             = 2022 NFL Draft
+| draft_link        = 2022 NFL Draft
+| top_pick          = [[Ikem Ekwonu]] – ([[NC State Wolfpack football|NC State]])
+| picked_by         = [[Carolina Panthers]], 6th overall
+| season            = Regular season
+| season_champs     =
+| MVP               =
+| MVP_link          = Atlantic Coast Conference football individual awards
+| conf1             = Atlantic
+| conf1_link        = 
+| conf1_champ       = [[2021 Wake Forest Demon Deacons football team|Wake Forest]]
+| conf1_runner-up   = [[2021 NC State Wolfpack football team|NC State]]
+| conf2             = Coastal
+| conf2_link        = 
+| conf2_champ       = [[2021 Pittsburgh Panthers football team|Pittsburgh]]
+| conf2_runner-up   = [[2021 Miami Hurricanes football team|Miami (FL)]]
+| finals            = ACC Championship Game
+| finals_link       = 2021 ACC Championship Game
+| finals_champ      = [[2021 Pittsburgh Panthers football team|Pittsburgh]]
+| finals_runner-up  = [[2021 Wake Forest Demon Deacons football team|Wake Forest]]
+| finals_MVP        = Erick Hallett (Pittsburgh)
+| finals_MVP_link   =
+| prevseason_link   = 2020 Atlantic Coast Conference football season
+| prevseason_year   = 2020
+| nextseason_link   = 2022 Atlantic Coast Conference football season
+| nextseason_year   = 2022
+}}
+{{2021 Atlantic Coast Conference football standings}}
+
+The '''2021 Atlantic Coast Conference football season''', part of the [[2021 NCAA Division I FBS football season]], was the 69th season of [[college football]] play for the [[Atlantic Coast Conference]] (ACC). It began on September 2, 2021, and ended on December 31, 2021.<ref>{{cite web|url=https://theacc.com/news/2021/1/28/acc-announces-2021-football-schedule.aspx|title=2021 ACC Football Schedule Announced|website=ACC Sports.com|date=January 28, 2021|accessdate=May 18, 2021}}</ref> The ACC consists of 14 members in two divisions.
+
+==Preseason==
+
+===ACC Kickoff===
+The 2021 ACC Kickoff was held on July 21 and 22nd at the [[Westin Hotels & Resorts|Westin]] hotel in [[Charlotte, North Carolina]].  Each team had their head coach and three players available to talk to the media at the event.  Coverage of the event was televised on [[ACC Network]].<ref>{{cite web|url=https://theacc.com/news/2021/7/12/2021-acc-football-kickoff-attendees-announced.aspx|title=2021 ACC Football Kickoff Attendees Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=July 12, 2021|access-date=July 12, 2021}}</ref>  On July 26, 2021, the ACC Preseason Media Poll was released, which projected Clemson to win its 7th consecutive ACC title.<ref>{{cite web|url=https://theacc.com/news/2021/7/26/preseason-forecast-clemson-to-continue-acc-football-title-run.aspx|title=Preseason Forecast: Clemson Favored to Continue ACC Football Title Run|website=theacc.com|publisher=The Atlantic Coast Conference|date=July 26, 2021|access-date=July 26, 2021}}</ref>
+
+{| class="wikitable" style="display: inline-table;"
+|+Atlantic
+|- align="center"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Predicted finish|Team|Votes (1st place)}}
+|- align="center"
+| 1
+| Clemson
+| 1,028 (146)
+|- align="center"
+| 2
+| NC State
+| 804 (1)
+|- align="center"
+| 3
+| Boston College
+| 638
+|- align="center"
+| 4
+| Florida State
+| 510
+|- align="center"
+| 5
+| Wake Forest
+| 472
+|- align="center"
+| 6
+| Louisville 
+| 462
+|- align="center"
+| 7
+| Syracuse
+| 202
+|}
+{| class="wikitable" style="display: inline-table;"
+|+Coastal
+|- align="center"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Predicted finish|Team|Votes (1st place)}}
+|- align="center"
+| 1
+| North Carolina
+| 979 (109)
+|- align="center"
+| 2
+| Miami
+| 881 (28)
+|- align="center"
+| 3
+| Virginia Tech
+| 582 (3)
+|- align="center"
+| 4
+| Pittsburgh
+| 576 (1)  
+|- align="center"
+| 5
+| Virginia
+| 540 (2)
+|- align="center"
+| 6
+| Georgia Tech
+| 340 (4) 
+|- align="center"
+| 7
+| Duke
+| 218
+|}
+{| class="wikitable"
+|- align="center"
+|align="center" Colspan="3" |'''Media poll (ACC Championship)'''
+|- align="center"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Rank|Team|Votes}}
+|- align="center"
+| 1 || '''Clemson''' || 125
+|- align="center"
+| 2 || North Carolina || 16
+|- align="center"
+| 3 || Miami || 3
+|- align="center"
+| rowspan=3 | 4 || Virginia || rowspan=3 | 1
+|- align="center"
+| Georgia Tech
+|- align="center"
+| NC State
+|}
+
+====Preseason ACC Player of the Year====
+Source:<ref name="preseason">{{cite web|url=https://theacc.com/news/2021/7/27/football-clemson-leads-with-eight-on-preseason-all-acc-team.aspx|title=Howell Named Preseason POTY, Clemson Leads with Eight on All-ACC Team|website=theacc.com|publisher=The Atlantic Coast Conference|date=July 27, 2021|access-date=July 27, 2021}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+! Ranking !! Player !! Position !! Team !! Votes
+|-
+| 1
+| [[Sam Howell]]
+| QB
+| [[2021 North Carolina Tar Heels football team|North Carolina]]
+| 114
+|-
+| 2
+| [[D'Eriq King]]
+| QB
+| [[2021 Miami Hurricanes football team|Miami]]
+| 11
+|-
+| 3
+| [[Bryan Bresee]]
+| DE
+| rowspan=2 | [[2021 Clemson Tigers football team|Clemson]]
+| 8
+|-
+| 4
+| [[DJ Uiagalelei]]
+| QB
+| 6
+|-
+| 5
+| [[Phil Jurkovec]]
+| QB
+| rowspan=2 | [[2021 Boston College Eagles football team|Boston College]]
+| 3
+|-
+| rowspan=2 | 6
+| [[Zay Flowers]]
+| WR
+| rowspan=2 | 2
+|-
+| [[Jahmyr Gibbs]]
+| AP
+| [[2021 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+|}
+
+====Preseason All-Conference Teams====
+Source:<ref name="preseason"/>
+
+=====Offense=====
+
+{{col-begin}}
+{{col-1-of-3}}
+
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Quarterback]]
+| [[Sam Howell]]
+! | North Carolina
+| 118
+|-
+! rowspan="2" | [[Running back]]
+| [[Zonovan Knight]]
+! | NC State
+| 96
+|-
+| [[Mataeo Durant]]
+! | Duke
+| 49
+|-
+! rowspan="3" | [[Wide receiver]]
+| [[Justyn Ross]]
+! | Clemson
+| 110
+|-
+| [[Zay Flowers]]
+! | Boston College
+| 101
+|-
+| [[Jaquarii Roberson]]
+! | Wake Forest
+| 80
+|-
+! rowspan="1" | [[Tight end]]
+| [[James Mitchell (American football)|James Mitchell]]
+! | Virginia Tech
+| 77
+|-
+! rowspan="1" | All-Purpose
+| [[Jahmyr Gibbs]]
+! | Georgia Tech
+| 56
+|-
+! rowspan="2" | [[Offensive tackle|Tackle]]
+| [[Ikem Ekwonu]]
+! | NC State
+| 83
+|-
+| [[Jordan McFadden]]
+! | Clemson
+| 53
+|-
+! rowspan="2" | [[Guard (American football)|Guard]]
+| [[Zion Johnson]]
+! | Boston College
+| 82
+|-
+| [[Joshua Ezeudu]]
+! | North Carolina
+| 56
+|-
+! rowspan="1" | [[Center (American football)|Center]]
+| [[Alec Lindstrom]]
+! | Boston College
+| 77
+|}
+
+{{col-2-of-3}}
+
+=====Defense=====
+
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="2" | [[Defensive end]]
+| [[Myles Murphy (American football)|Myles Murphy]]
+! | Clemson
+| 108
+|-
+| [[Amaré Barno]]
+! | Virginia Tech
+| 63
+|-
+! rowspan="2" | [[Defensive tackle]]
+| [[Bryan Bresee]]
+! | Clemson
+| 120
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+! | Clemson
+| 53
+|-
+! rowspan="3" | [[Linebacker]]
+| Payton Wilson
+! | NC State
+| 99
+|-
+| [[James Skalski]]
+! | Clemson
+| 95
+|-
+| Nick Jackson
+!| Virginia
+| 37
+|-
+! rowspan="2" | [[Cornerback]]
+| [[Andrew Booth Jr.]]
+! | Clemson
+| 86
+|-
+| Tony Grimes
+!| North Carolina
+| 55
+|-
+! rowspan="2" | [[Safety (American football position)|Safety]]
+| [[Bubba Bolden]]
+! | Miami
+| 100
+|-
+| [[Nolan Turner]]
+! | Clemson
+| 85
+|}
+
+{{col-3-of-3}}
+
+=====Specialist=====
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Placekicker]]
+| Nick Sciba
+! | Wake Forest
+| 69
+|-
+! rowspan="1" | [[Punter (American football)|Punter]]
+| Lou Hedley
+! | Miami
+| 84
+|-
+! rowspan="1" | [[Kickoff returner|Specialist]]
+| [[Jahmyr Gibbs]]
+! | Georgia Tech
+| 60
+|}
+
+{{col-end}}
+
+===Preseason award watchlists===
+
+{{col-begin}}
+{{col-1-of-3}}
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="width:110px;"| Award
+! Head coach/player
+! School
+! Position
+! Reference
+|-
+| rowspan=7 | [[Lott Trophy]]
+| [[Andrew Booth Jr.]]
+| rowspan=2 | Clemson
+| CB
+| rowspan=7 | <ref>{{cite web|url=https://lottimpacttrophy.org/2021-lott-impact-trophy-watch-list-candidates/|title=2021 LOTT IMPACT TROPHY WATCH LIST CANDIDATES |website=lottimpacttrophy.org|date=21 May 2021 |publisher=Lott IMPACT Trophy|access-date=July 6, 2021}}</ref>
+|-
+| [[Nolan Turner]]
+| S
+|-
+| [[Shaka Heyward]]
+| Duke
+| LB
+|-
+| Deslin Alexander
+| Pittsburgh
+| DE
+|-
+| [[Chamarri Conner]]
+| Virginia Tech
+| DB
+|-
+| [[Nick Jackson (American football)|Nick Jackson]]
+| Virginia
+| LB
+|-
+| Nick Anderson
+| Wake Forest
+| LB
+|-
+| rowspan=2 | [[Bobby Dodd Coach of the Year Award|Dodd Trophy]]
+| [[Mack Brown]]
+| North Carolina
+| rowspan=2 | Head coach
+| rowspan=2 | <ref>{{cite web|title=2021 Dodd Trophy Preseason Watch List Announced |url= https://chick-fil-apeachbowl.com/news/2021/7/13/2021-dodd-trophy-preseason-watch-list-announced.aspx|date=July 13, 2021|access-date=July 13, 2021}}</ref>
+|-
+| [[Dabo Swinney]]
+| Clemson
+|-
+| rowspan=12 | [[Maxwell Award]]
+| [[Phil Jurkovec]]
+| rowspan=2 | Boston College
+| QB
+| rowspan=12 | <ref name="Maxwell">{{cite web|url=https://clemsontigers.com/maxwell-club-names-four-tigers-to-maxwell-bednarik-watch-lists/|title=Maxwell Football Club Names Four Tigers to Maxwell, Bednarik Watch Lists|website=clemsontigers.com|publisher=Clemson University Athletics|date=July 19, 2021|access-date=July 19, 2021}}</ref>
+|-
+| [[Zay Flowers]]
+| WR
+|-
+| [[DJ Uiagalelei]]
+| rowspan=2 | Clemson
+| QB
+|-
+| [[Justyn Ross]]
+| WR
+|-
+| [[Mataeo Durant]]
+| Duke
+| RB
+|-
+| [[McKenzie Milton]]
+| Florida State
+| QB
+|-
+| [[Malik Cunningham]]
+| Louisville
+| QB
+|-
+| [[D'Eriq King]]
+| Miami
+| QB
+|-
+| [[Zonovan Knight]]
+| NC State
+| RB
+|-
+| [[Kenny Pickett]]
+| Pittsburgh
+| QB
+|-
+| [[Brennan Armstrong]]
+| Virginia
+| QB
+|-
+| [[Jaquarii Roberson]]
+| Wake Forest
+| WR
+|-
+| rowspan=7 | [[Bednarik Award]]
+| [[Bryan Bresee]]
+| rowspan=2 | Clemson
+| DT
+| rowspan=7 | <ref name="Maxwell"/>
+|-
+| [[Nolan Turner]]
+| S
+|-
+| [[Amari Gainer]]
+| Florida State
+| LB
+|-
+| [[Bubba Bolden]]
+| Miami
+| S
+|-
+| [[Payton Wilson]]
+| NC State
+| LB
+|-
+| Jeremiah Gemmel
+| North Carolina
+| LB
+|-
+| [[Calijah Kancey]]
+| Pittsburgh
+| DT
+|-
+| rowspan=6 | [[Davey O'Brien Award]]
+| [[Malik Cunningham]]
+| Louisville
+| rowspan=6 | QB
+| rowspan=6 | <ref>{{cite web|url=https://daveyobrienaward.org/2021/07/davey-obrien-award-announces-30-player-preseason-watch-list/|title=Davey O'Brien Award Announces 30-Player Preseason Watch List|website=daveyobrienaward.org|publisher=Davey O'Brien Foundation|date=July 20, 2021|access-date=July 20, 2021|archive-date=July 20, 2021|archive-url=https://web.archive.org/web/20210720141241/https://daveyobrienaward.org/2021/07/davey-obrien-award-announces-30-player-preseason-watch-list/|url-status=dead}}</ref>
+|-
+| [[Sam Howell]]
+| North Carolina
+|-
+| [[Phil Jurkovec]]
+| Boston College
+|-
+| [[D'Eriq King]]
+| Miami
+|-
+| [[McKenzie Milton]]
+| Florida State
+|-
+| [[DJ Uiagalelei]]
+| Clemson
+|-
+| rowspan=11 | [[Doak Walker Award]]
+| Christian Beal-Smith
+| Wake Forest
+| rowspan=11 | RB
+| rowspan=11 | <ref>{{cite web|url=https://clemsontigers.com/dixon-named-to-doak-walker-award-watch-list/|title=Dixon Named to Doak Walker Award Watch List|website=clemsontigers.com|publisher=Clemson University Athletics|date=July 21, 2021|access-date=July 21, 2021}}</ref>
+|-
+| [[Ty Chandler (American football)|Ty Chandler]]
+| North Carolina
+|-
+| [[Jashaun Corbin]]
+| rowspan=2 | Florida State
+|-
+| [[Lawrance Toafili]]
+|-
+| Lyn-J Dixon
+| Clemson
+|-
+| [[Mataeo Durant]]
+| Duke
+|-
+| [[Jahmyr Gibbs]]
+| rowspan=2 | Georgia Tech
+|-
+| [[Jordan Mason]]
+|-
+| [[Zonovan Knight]]
+| NC State
+|-
+| Jalen Mitchell
+| Louisville
+|-
+| [[Sean Tucker (American football)|Sean Tucker]]
+| Syracuse
+|-
+| rowspan=8 | [[Fred Biletnikoff Award]]
+| [[Jordan Addison]]
+| Pittsburgh
+| rowspan=8 | WR
+| rowspan=8 | <ref>{{cite web|title=2021 Biletnikoff Award Preseason Watch List Released|url= https://biletnikoffaward.com/2021-biletnikoff-award-watch-list/|date=July 22, 2021|access-date=November 29, 2021}}</ref>
+|-
+| Emeka Emezie
+| NC State
+|-
+| [[Zay Flowers]]
+| Boston College
+|-
+| [[Mike Harley Jr.|Mike Harley]]
+| Miami
+|-
+| Taj Harris
+| Syracuse
+|-
+| Billy Kemp IV
+| Virginia
+|-
+| [[Jaquarii Roberson]]
+| Wake Forest
+|-
+| [[Justyn Ross]]
+| Clemson
+|}
+
+{{col-2-of-3}}
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="width:110px;"| Award
+! Head coach/player
+! School
+! Position
+! Reference
+|-
+| rowspan=8 | [[John Mackey Award]]
+| [[James Mitchell (American football)|James Mitchell]]
+| Virginia Tech
+| rowspan=8 | TE
+| rowspan=8 | <ref>{{cite web|title=2021 John Mackey Award Preseason Watch List|url= https://www.johnmackeyaward.com/uploads/3/4/7/9/34791900/2021.jma.watchlist.pdf|website=johnmackeyaward.com|publisher=Friends of John Mackey, Inc.|date=July 23, 2021|access-date=December 3, 2021}}</ref>
+|-
+| [[Will Mallory]]
+| Miami (FL)
+|-
+| Garrett Walston
+| North Carolina
+|-
+| Braden Galloway
+| Clemson
+|-
+| Brandon Chapman
+| Wake Forest
+|-
+| Camren McDonald
+| Florida State
+|-
+| [[Lucas Krull]]
+| Pittsburgh
+|-
+| [[Jelani Woods]]
+| Virginia
+|-
+| rowspan=5 | [[Rimington Trophy]]
+| [[Alec Lindstrom]]
+| Boston College
+| rowspan=5 | OL
+| rowspan=5 | <ref>{{cite web|title=Rimington Trophy Press Release|url= https://www.rimingtontrophy.com/watchlist/|website=rimingtontrophy.com|publisher=Rimington Trophy|date=July 23, 2021|access-date=July 23, 2021}}</ref>
+|-
+| Jack Wohlabaugh
+| Duke
+|-
+| Cole Bentley
+| Louisville
+|-
+| Grant Gibson
+| NC State
+|-
+| [[Olu Oluwatimi|Olusegun Oluwatimi]]
+| Virginia
+|-
+| rowspan=7 | [[Butkus Award]]
+| [[James Skalski]]
+| rowspan=2 | Clemson
+| rowspan=7 | LB
+| rowspan=7 | <ref>{{cite web|title=BUTKUS AWARD 37th SEASON WATCH LISTS ANNOUNCED: Search begins today for Nation's Top Linebacker; Celebration Event Planned Feb. 5, 2022 at Agua Caliente Resort Casino Spa Rancho Mirage|url=https://www.accesswire.com/657011/BUTKUS-AWARD-37th-SEASON-WATCH-LISTS-ANNOUNCED-Search-begins-today-for-Nations-Top-Linebacker-Celebration-Event-Planned-Feb-5-2022-at-Agua-Caliente-Resort-Casino-Spa-Rancho-Mirage|date=July 26, 2021|access-date=December 3, 2021}}</ref>
+|-
+| [[Baylon Spector]]
+|-
+| [[Amari Gainer]]
+| Florida State
+|-
+| Jeremiah Gemmel
+| North Carolina
+|-
+| [[Payton Wilson]]
+| NC State
+|-
+| [[Mikel Jones]]
+| Syracuse
+|-
+| [[Nick Jackson (American football)|Nick Jackson]]
+| Virginia
+|-
+| rowspan=14 | [[Outland Trophy]]
+| [[Bryan Bresee]]
+| rowspan=3 | Clemson
+| DE
+| rowspan=14 | <ref>{{cite web|title=2021 Outland Trophy Award Watchlist Unveiled|url= http://www.sportswriters.net/fwaa/news/2021/outland210727.html|website=sportswriters.net|publisher=Football Writers Association of America|date= July 27, 2021|access-date=December 3, 2021}}</ref>
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+| DT
+|-
+| [[Jordan McFadden]]
+| OT
+|-
+| [[Ikem Ekwonu]]
+| rowspan=2 | NC State
+| rowspan=3 | G
+|-
+| Grant Gibson
+|-
+| [[Joshua Ezeudu]]
+| North Carolina
+|-
+| [[Brock Hoffman]]
+| Virginia Tech
+| C
+|-
+| [[Zion Johnson]]
+| rowspan=3 | Boston College
+| G
+|-
+| [[Tyler Vrabel]]
+| OT
+|-
+| [[Alec Lindstrom]]
+| C
+|-
+| [[Zion Nelson]]
+| rowspan=2 | Miami (FL)
+| rowspan=3 | OT
+|-
+| [[Jarrid Williams]]
+|-
+| [[Zach Tom]]
+| Wake Forest
+|-
+| [[Raymond Vohasek]]
+| North Carolina
+| DT
+|-
+| rowspan=8 | [[Bronko Nagurski Trophy]]
+| [[Bubba Bolden]]
+| Miami (FL)
+| S
+| rowspan=8 | <ref>{{cite web|title= 2021 Bronko Nagurski Trophy Watchlist Unveiled|url= http://www.sportswriters.net/fwaa/news/2021/nagurski210727.html|website=sportswriters.net|publisher=Football Writers Association of America|date=July 27, 2021|access-date=July 27, 2021}}</ref> 
+|-
+| [[Bryan Bresee]]
+| rowspan=4 | Clemson
+| DT
+|-
+| [[Myles Murphy (American football)|Myles Murphy]]
+| DE
+|-
+| [[James Skalski]]
+| LB
+|-
+| [[Nolan Turner]]
+| S
+|-
+| [[Calijah Kancey]]
+| Pittsburgh
+| DT
+|-
+| [[Raymond Vohasek]]
+| North Carolina
+| LB
+|-
+| [[Payton Wilson]]
+| NC State
+| LB
+|-
+| rowspan=6 | [[Lou Groza Award]]
+| [[Christopher Dunn (American football)|Christoper Dunn]]
+| NC State
+| rowspan=6 | PK
+| rowspan=6 | <ref name="specialist">{{cite web|url=https://theacc.com/news/2021/7/28/football-13-acc-specialists-named-to-guy-and-groza-watch-lists.aspx|title=13 ACC Specialists Named to Guy and Groza Watch Lists|website=theacc.com|publisher=Atlantic Coast Conference|date= July 28, 2021|access-date=December 7, 2021}}</ref>
+|-
+| Charlie Ham
+| Duke
+|-
+| [[B. T. Potter]]
+| Clemson
+|-
+| [[Nick Sciba]]
+| Wake Forest
+|-
+| [[Andre Szmyt]]
+| Syracuse
+|-
+| [[James Turner (American football)|James Turner]]
+| Louisville
+|}
+
+{{col-3-of-3}}
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="width:110px;"| Award
+! Head coach/player
+! School
+! Position
+! Reference
+|-
+| rowspan=4 | [[Paul Hornung Award]]
+| [[Jahmyr Gibbs]]
+| Georgia Tech
+| RB
+| rowspan=4 |<ref>{{cite web|title=2021 Paul Hornung Award watch list released|url=https://www.saturdaydownsouth.com/sec-football/paul-hornung-award-watch-list-released-2021/|website=saturdaydownsouth.com|first=Michael|last=Bratton|date=29 July 2021 |access-date=December 7, 2021}}</ref>
+|-
+| Donavon Greene
+| Wake Forest
+| WR
+|-
+| [[Zonovan Knight]]
+| NC State
+| RB
+|-
+| Jaylan Knighton
+| Miami (FL)
+| RB
+|-
+| rowspan=10 | [[Wuerffel Trophy]]
+| Darien Rencher
+| Clemson
+| RB
+| rowspan=10 |<ref>{{cite web|title=COLLEGE FOOTBALL'S WUERFFEL TROPHY UNVEILS WATCH LIST FOR 2021|url=https://wuerffeltrophy.org/college-footballs-wuerffel-trophy-unveils-watch-list-for-2021/|website=wuerffeltrophy.org|publisher=Wuerfeel Trophy|first=Tom|last=Brassell|date=July 29, 2021|access-date=July 29, 2021}}</ref> 
+|-
+| [[Jake Bobo]]
+| Duke
+| WR
+|-
+| Camren McDonald
+| Florida State
+| TE
+|-
+| [[Juanyeh Thomas]]
+| Georgia Tech
+| DB
+|-
+| Isaiah Moore
+| NC State
+| LB
+|-
+| [[Kingsley Jonathan]]
+| Syracuse
+| DL
+|-
+| [[Cal Adomitis]]
+| rowspan=2 | Pittsburgh
+| LS
+|-
+| Deslin Alexandre
+| DL
+|-
+| [[Brock Hoffman]]
+| Virginia Tech
+| OL
+|-
+| Tyriq Hardimon
+| Wake Forest
+| DB
+|-
+| rowspan=4 | [[Walter Camp Award]]
+| [[Bryan Bresee]]
+| rowspan=2 | Clemson
+| DT
+| rowspan=4 | <ref>{{cite web|title=Walter Camp Foundation Announces 2021 Player of the Year Preseason Watch List|url= https://waltercamp.org/walter-camp-2021-player-of-year-preseason-watch-list/|website=watlercamp.org|publisher=Walter Camp Foundation|date=July 30, 2021|access-date=July 30, 2021}}</ref>
+|-
+| [[Justyn Ross]]
+| WR
+|-
+| [[Sam Howell]]
+| North Carolina
+| rowspan=2 | QB
+|-
+| [[D'Eriq King]]
+| Miami (FL)
+|-
+| rowspan=5 | [[Manning Award]]
+| [[Malik Cunningham]]
+| Louisville
+| rowspan=5 | QB
+| rowspan=5 | <ref>{{cite web|title= Allstate Sugar Bowl announces Manning Award Watch List|url= https://crescentcitysports.com/2021-allstate-sugar-bowl-announces-manning-award-watch-list/|website=crescentcitysports.com|publisher=Crescent City Sports Enterprises|date=August 5, 2021|access-date=August 5, 2021}}</ref>
+|-
+| [[Sam Howell]]
+| North Carolina
+|-
+| [[Phil Jurkovec]]
+| Boston College
+|-
+| [[D'Eriq King]]
+| Miami (FL)
+|-
+| [[Kenny Pickett]]
+| Pittsburgh
+|- 
+| rowspan=2 | [[Earl Campbell Tyler Rose Award]]
+| [[D'Eriq King]]
+| Miami (FL)
+| QB
+| rowspan=2 | <ref>{{cite web|title=Earl Campbell Tyler Rose Award announces 2021 Preseason Watch List |url= https://www.earlcampbellaward.com/wp-content/uploads/2021/08/2021-Nominations-The-Earl-Campbell-Tyler-Rose-Award.pdf|date=August 5, 2021|access-date=August 5, 2021}}</ref>
+|-
+| Beau Corrales
+| North Carolina
+| WR
+|-
+| rowspan=7 | [[Ray Guy Award]]
+| Ben Kiernan
+| North Carolina
+| rowspan=7 | P
+| rowspan=7 | <ref name="specialist"/>
+|-
+| Ivan Mora
+| Wake Forest
+|-
+| Kirk Christodoulou
+| Pittsburgh
+|-
+| [[Lou Hedley]]
+| Miami (FL)
+|-
+| Porter Wilson
+| Duke
+|-
+| [[Trenton Gill]]
+| NC State
+|-
+| Will Spiers
+| Clemson
+|- 
+| rowspan=2 | Polynesian College Football Player Of The Year Award
+| [[Lawrance Toafili]]
+| Florida State
+| RB
+| rowspan=2 | <ref>{{cite web|title=2021 Polynesian College Football Player Of The Year Award Watch List|url= https://www.polynesianfootballhof.org/releases/2021-polynesian-college-football-player-of-the-year-award-watch-list|website=polynesianfootballhof.org|publisher=Polynesian Football Hall of Fame|date=August 19, 2021|access-date=August 19, 2021}}</ref>
+|-
+| [[DJ Uiagalelei]]
+| Clemson
+| QB
+|-  
+| rowspan=11 | [[Johnny Unitas Golden Arm Award]]  
+| [[Brennan Armstrong]]
+| Virginia
+| rowspan=11 | QB
+| rowspan=11 | <ref>{{cite web|title= The 2021 Johnny Unitas Golden Arm Award Announces 2021 Preseason Watch List|url= https://goldenarmfoundation.com/2021/08/the-2021-johnny-unitas-golden-arm-award-announces-2021-preseason-watch-list/|date=August 19, 2021|access-date=August 19, 2021}}</ref>
+|-
+| [[Braxton Burmeister]]
+| Virginia Tech
+|-
+| [[Malik Cunningham]]
+| Louisville
+|-
+| [[Tommy DeVito (American football)|Tommy DeVito]]
+| Syracuse
+|-
+| [[Sam Hartman]]
+| Wake Forest
+|-
+| [[Sam Howell]]
+| North Carolina
+|-
+| [[Phil Jurkovec]]
+| Boston College
+|-
+| [[D'Eriq King]]
+| Miami (FL)
+|-
+| [[Devin Leary]]
+| NC State
+|-
+| [[McKenzie Milton]]
+| Florida State
+|-
+| [[Kenny Pickett]]
+| Pittsburgh
+|}
+
+{{col-end}}
+
+===Recruiting classes===
+{| class="wikitable sortable" style="text-align:center"
+|+ Rankings
+! Team
+! ESPN<ref>{{cite web|url=http://insider.espn.com/college-sports/football/recruiting/classrankings?class=2021|title=2021 Football Class Rankings|website=espn.com|publisher=ESPN|accessdate=May 18, 2021}}</ref>
+! Rivals<ref>{{cite web|url=https://n.rivals.com/team_rankings/2021/all-teams/football|title=2021 Team Rankings|website=rivals.com|accessdate=May 18, 2021}}</ref>
+! 24/7<ref>{{cite web|url=https://247sports.com/Season/2021-Football/CompositeTeamRankings|title=2021 Football Recruiting Composite Team Rankings|website=247sports.com|accessdate=May 18, 2021}}</ref>
+!Signees
+|-
+| | '''Boston College'''
+| 38
+| 32
+| 37
+| 29
+|- 
+| | '''Clemson'''
+| 4
+| 7
+| 5
+| 19
+|- 
+| | '''Duke'''
+| 
+| 60
+| 57
+| 18
+|- 
+| | '''Florida State'''
+| 19
+| 30
+| 23
+| 24
+|- 
+| | '''Georgia Tech'''
+| 34
+| 48
+| 47
+| 23
+|- 
+| | '''Louisville'''
+| 30
+| 29
+| 39
+| 24
+|- 
+| | '''Miami'''
+| 9
+| 10
+| 11
+| 21
+|- 
+| | '''North Carolina'''
+| 7
+| 16
+| 14
+| 19
+|- 
+| | '''NC State'''
+| 31
+| 45
+| 35
+| 20
+|- 
+| | '''Pittsburgh'''
+| 33
+| 21
+| 27
+| 23
+|- 
+| | '''Syracuse'''
+| 
+| 51
+| 56
+| 22
+|- 
+| | '''Virginia'''
+| 32
+| 31
+| 32
+| 24
+|- 
+| | '''Virginia Tech'''
+| 
+| 43
+| 45
+| 27
+|- 
+| | '''Wake Forest'''
+| 
+| 66
+| 65
+| 19
+|}
+
+==Coaches==
+
+=== Coaching changes ===
+There are no coaching changes for the 2021 season.
+
+=== Head coaching records ===
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! width="110" | Team
+! Head coach
+! Years at school
+! Overall record
+! Record at school
+! ACC record
+|-
+!| Boston College
+| [[Jeff Hafley]]
+| 2
+| 12–11
+| 12–11
+|  7–11
+|-
+!| Clemson
+| [[Dabo Swinney]]
+| 13
+| 150–36
+| 150–36
+| 91–19
+|-
+!| Duke
+| [[David Cutcliffe]]
+| 14 
+| 121–126
+| 77–98
+| 35–80
+|-
+!| Florida State
+| [[Mike Norvell]]
+| 2
+| 46–28
+| 8–13
+| 6–10
+|-
+!| Georgia Tech
+| [[Geoff Collins (American football)|Geoff Collins]]
+| 3
+| 24–35
+| 9–25
+| 7–18
+|-
+!| Louisville
+| [[Scott Satterfield]]
+| 3
+| 69–43
+| 18–19
+| 12–13
+|-
+!| Miami
+| [[Manny Diaz (American football)|Manny Diaz]]
+| 3
+| 21–15
+| 21–15
+| 16–9
+|-
+!| North Carolina
+| [[Mack Brown]]
+| 13
+| 265–139–1
+| 90–63–1
+| 55–47–1
+|-
+!| {{nowrap|North Carolina State}}
+| [[Dave Doeren]]
+| 9
+| 87–53
+| 64–49
+| 34–40
+|-
+!| Pittsburgh
+| [[Pat Narduzzi]]
+| 7
+| 52–37
+| 52–37
+| 36–22
+|-
+!| Syracuse
+| [[Dino Babers]]
+| 6
+| 66–59
+| 29–43
+| 15–35
+|-
+!| Virginia
+| [[Bronco Mendenhall]]
+| 6
+| 135–81
+| 36–38
+| 22–27
+|-
+!| Virginia Tech
+| [[Justin Fuente]]
+| 6
+| 69–54
+| 43–31
+| 28–21
+|-
+!| Wake Forest
+| [[Dave Clawson]]
+| 8
+| 141–127
+| 51–48
+| 26–39
+|}
+
+''Notes''
+*Records shown after the 2021 season
+*Years at school includes the 2021 season
+
+==Rankings==
+{{See also|2021 NCAA Division I FBS football rankings}}
+
+{| align=right style="font-size:90%; border:1px solid #aaaaaa; white-space:nowrap; background:#eeeeee;" 
+|+ '''Legend'''
+|-
+| style="background:#D8FFEB; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| rowspan=5 | &nbsp;
+| Improvement in ranking
+|-
+| style="background:#FFE6E6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Drop in ranking
+|-
+| style="background:#FFFFE6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Not ranked previous week
+|-
+| align=center style="width:20px; border:1px solid #aaaaaa; background:white;" | RV
+| Received votes but were not ranked in Top 25 of poll
+|-
+<!-- | т
+| Tied with team above or below also with this symbol
+|- 
+-->
+|}
+
+{| class="wikitable" style="white-space:nowrap;font-size:90%;"  
+|- 
+! colspan=2 style="background:white; border-top-style:hidden; border-left-style:hidden;" |&nbsp; !! Pre !! Wk<br>1 !! Wk<br>2 !! Wk<br>3 !! Wk<br>4 !! Wk<br>5 !! Wk<br>6 !! Wk<br>7 !! Wk<br>8 !! Wk<br>9 !! Wk<br>10 !! Wk<br>11 !! Wk<br>12 !! Wk<br>13 !! Wk<br>14 !!Final
+|- "text-align:center;"
+! rowspan=3 |'''Boston College'''
+! AP  
+| style="background:#FFF;" | {{nbsp}}RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Clemson'''
+! AP  
+| style="background:#FFF;" | 3 (''6'')
+| style="background:#FFE6E6;" | 6
+| style="background:#FFF;" | 6
+| style="background:#FFE6E6;" | 9
+| style="background:#FFE6E6;" | 25
+| style="background:#FFE6E6;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 19
+| style="background:#D8FFEB;" | 14
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 2
+| style="background:#FFE6E6;" | 6
+| style="background:#FFF;" | 6
+| style="background:#FFE6E6;" | 7
+| style="background:#FFE6E6;" | 19
+| style="background:#FFE6E6;" | 21
+| style="background:#FFE6E6;" | 25
+| style="background:#D8FFEB;" | 24
+| style="background:#FFE6E6;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 24
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 16
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | 23
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 19
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Duke'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Florida State'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Georgia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Louisville'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Miami'''
+! AP  
+| style="background:#FFF;" | 14
+| style="background:#FFE6E6;" | 22
+| style="background:#FFE6E6;" | 24
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 16
+| style="background:#FFE6E6;" | 24
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''North Carolina'''
+! AP   
+| style="background:#FFF;" | 10
+| style="background:#FFE6E6;" | 24
+| style="background:#D8FFEB;" | 21
+| style="background:#FFF;" | 21
+| style="background:#FFE6E6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 9
+| style="background:#FFE6E6;" | 22
+| style="background:#D8FFEB;" | 19
+| style="background:#FFE6E6;" | 20
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''NC State'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#D8FFEB;" | 23
+| style="background:#FFF;" | 23
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 18
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 21
+| style="background:#FFE6E6;" | 25
+| style="background:#D8FFEB;" | 24
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#FFE6E6;" | 20
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#D8FFEB;" | RV
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#FFE6E6;" | 25
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 19
+| style="background:#FFE6E6;" | 24
+| style="background:#FFF;" | 24
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 18
+| style="background:#FFE6E6;" | 19
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 19
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 20
+| style="background:#FFF;" | 20
+| style="background:#D8FFEB;" | 18
+| style="background:#FFF;" | 18
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Pittsburgh'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 23
+| style="background:#D8FFEB;" | 17
+| style="background:#FFE6E6;" | RV
+| style="background:#D8FFEB;" | 25
+| style="background:#D8FFEB;" | 20
+| style="background:#FFF;" | 20
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 13
+| style="background:#FFF;" | 13
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 23
+| style="background:#D8FFEB;" | 19
+| style="background:#FFE6E6;" | 25
+| style="background:#D8FFEB;" | 22
+| style="background:#D8FFEB;" | 19
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 12
+| style="background:#FFE6E6;" | 13 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 25
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#D8FFEB;" | 17
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 12
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Syracuse'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#FFE6E6;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | 19
+| style="background:#D8FFEB;" | 15
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#D8FFEB;" | 21
+| style="background:#D8FFEB;" | 15
+| style="background:#FFE6E6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFE6E6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Wake Forest'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#D8FFEB;" | 24
+| style="background:#D8FFEB;" | 19
+| style="background:#D8FFEB;" | 16
+| style="background:#FFF;" | 16
+| style="background:#D8FFEB;" | 13
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 13
+| style="background:#FFF;" | 13
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#FFE6E6;" | 20
+| style="background:#D8FFEB;" | 15
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFFFE6;" | RV
+| style="background:#D8FFEB;" | 25
+| style="background:#D8FFEB;" | 20
+| style="background:#D8FFEB;" | 16
+| style="background:#D8FFEB;" | 15
+| style="background:#D8FFEB;" | 13
+| style="background:#D8FFEB;" | 9
+| style="background:#FFE6E6;" | 13
+| style="background:#D8FFEB;" | 12
+| style="background:#FFE6E6;" | 21
+| style="background:#D8FFEB;" | 18
+| style="background:#FFE6E6;" | 19
+| style="background:#D8FFEB;" | 14
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 9
+| style="background:#FFE6E6;" | 12
+| style="background:#D8FFEB;" | 10
+| style="background:#FFE6E6;" | 18
+| style="background:#D8FFEB;" | 16
+| style="background:#FFE6E6;" | 17
+| style="background:#999;" | 
+|}
+
+==Schedule==
+The regular season will begin on September 2 and will end on November 27.  The ACC Championship game is scheduled for December 4, 2021.
+
+===Regular season===
+
+====Week one====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 2|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 South Florida Bulls football team|South Florida]]
+| home_team     = '''[[2021 NC State Wolfpack football team|NC State]]'''
+| site_stadium  = [[Carter–Finley Stadium]]
+| site_cityst   = [[Raleigh, North Carolina|Raleigh, NC]]
+| tv            = [[ACC Network|ACCN]]
+| score         = 45–0
+| attend        = 52,633
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 3|Friday}}
+| time          = 6:00&nbsp;p.m.
+| visiting_team = '''[[2021 North Carolina Tar Heels football team|North Carolina]]'''
+| visiting_rank = 10
+| home_team     = '''[[2021 Virginia Tech Hokies football team|Virginia Tech]]'''
+| site_stadium  = [[Lane Stadium]]
+| site_cityst   = [[Blacksburg, Virginia|Blacksburg, VA]]
+| tv            = ESPN
+| score         = '''VT''' 17–10
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = {{tooltip|September 3|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''[[2021 Duke Blue Devils football team|Duke]]'''
+| home_team     = [[2021 Charlotte 49ers football team|Charlotte]]
+| site_stadium  = [[Jerry Richardson Stadium]]
+| site_cityst   = [[Charlotte, North Carolina|Charlotte, NC]]
+| tv            = [[CBS Sports Network|CBSSN]]
+| score         = 28–31
+| attend        = 14,125
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 3|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = [[2021 Old Dominion Monarchs football team|Old Dominion]]
+| home_team     = '''[[2021 Wake Forest Demon Deacons football team|Wake Forest]]'''
+| site_stadium  = [[Truist Field at Wake Forest]]
+| site_cityst   = [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| tv            = ACCN
+| score         = 42–10
+| attend        = 25,673
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 4
+| time          = Noon
+| visiting_team = [[2021 Colgate Raiders football team|Colgate]]
+| home_team     = '''[[2021 Boston College Eagles football team|Boston College]]'''
+| site_stadium  = [[Alumni Stadium]]
+| site_cityst   = [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]]
+| tv            = ACCN
+| score         = 51–0
+| attend        = 28,991
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 4
+| time          = 3:30 p.m.
+| visiting_team = [[2021 Alabama Crimson Tide football team|Alabama]]
+| visiting_rank = 1
+| home_rank     = 14
+| home_team     = '''[[2021 Miami Hurricanes football team|Miami]]'''
+| site_stadium  = [[Mercedes-Benz Stadium]]
+| site_cityst   = [[Atlanta, Georgia|Atlanta, GA]]
+| gamename      = [[Chick-fil-A Kickoff Game]]
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = 13–44
+| attend        = 71,829
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 4
+| time          = 4:00&nbsp;p.m.
+| visiting_team = [[2021 UMass Minutemen football team|UMass]]
+| home_team     = '''[[2021 Pittsburgh Panthers football team|Pittsburgh]]'''
+| site_stadium  = [[Heinz Field]]
+| site_cityst   = [[Pittsburgh, Pennsylvania|Pittsburgh, PA]]
+| tv            = ACCN
+| score         = 51–7
+| attend        = 41,486
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 4
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''[[2021 Syracuse Orange football team|Syracuse]]'''
+| home_team     = [[2021 Ohio Bobcats football team|Ohio]]
+| site_stadium  = [[Peden Stadium]]
+| site_cityst   = [[Athens, Ohio|Athens, OH]]
+| tv            = CBSSN
+| score         = 29–9
+| attend        = 23,904
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 4
+| time          = 7:30 p.m.
+| visiting_team = [[2021 Georgia Bulldogs football team|Georgia]]
+| visiting_rank = 5
+| home_rank     = 3
+| home_team     = '''[[2021 Clemson Tigers football team|Clemson]]'''
+| site_stadium  = [[Bank of America Stadium]]
+| site_cityst   = [[Charlotte, North Carolina|Charlotte, NC]]
+| gamename      = [[Duke's Mayo Classic]], [[Clemson–Georgia football rivalry|rivalry]], ''[[College GameDay (football TV program)|College GameDay]]''
+| tv            = [[Saturday Night Football|ABC]]
+| score         = 3–10
+| attend        = 74,187
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 4
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 Northern Illinois Huskies football team|Northern Illinois]]
+| home_team     = '''[[2021 Georgia Tech Yellow Jackets football team|Georgia Tech]]'''
+| site_stadium  = [[Bobby Dodd Stadium]]
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = 21–22
+| attend        = 33,651
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 4
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 William & Mary Tribe football team|William & Mary]]
+| home_team     = '''[[2021 Virginia Cavaliers football team|Virginia]]'''
+| site_stadium  = [[Scott Stadium]]
+| site_cityst   = [[Charlottesville, Virginia|Charlottesville, VA]]
+| tv            = [[ACC on Regional Sports Networks|ACCRSN]]
+| score         = 43–0
+| attend        = 42,982
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = {{tooltip|September 5|Sunday}}
+| time          = 7:30 p.m.
+| visiting_team = [[2021 Notre Dame Fighting Irish football team|Notre Dame]]
+| visiting_rank = 9
+| home_team     = '''[[2021 Florida State Seminoles football team|Florida State]]'''
+| site_stadium  = [[Doak Campbell Stadium]]
+| site_cityst   = [[Tallahassee, Florida|Tallahassee, FL]]
+| tv            = ABC
+| score         = 38–41
+| overtime      = OT
+| attend        = 68,316
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = {{tooltip|September 6|Monday}}
+| time          = 8:00 p.m.
+| visiting_team = '''[[2021 Louisville Cardinals football team|Louisville]]'''
+| home_team     = [[2021 Ole Miss Rebels football team|Ole Miss]]
+| site_stadium  = Mercedes-Benz Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Chick-fil-A Kickoff Game]]
+| tv            = [[ESPN College Football|ESPN]]
+| score         = 24–43
+| overtime      = 
+| attend        = 30,709
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week two====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 10|Friday}}
+| time          = 8:00&nbsp;p.m.
+| visiting_team = [[2021 North Carolina A&T Aggies football team|North Carolina A&T]]
+| home_team     = '''Duke'''
+| site_stadium  = [[Wallace Wade Stadium]]
+| site_cityst   = [[Durham, North Carolina|Durham, NC]]
+| tv            = ACCN
+| score         = 45–17
+| attend        = 18,091
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 11:00&nbsp;a.m.
+| visiting_team = [[2021 Illinois Fighting Illini football team|Illinois]]
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = 42–14
+| attend        = 36,036
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = Noon
+| visiting_rank = 22 <small>([[2021 NCAA Division I FCS football season|FCS]])</small>
+| visiting_team = [[2021 Kennesaw State Owls football team|Kennesaw State]]
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCRSN
+| score         = 45–17
+| attend        = 35,195
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = Noon
+| visiting_team = [[2021 Norfolk State Spartans football team|Norfolk State]]
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Stadium at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCNX
+| score         = 41–16
+| attend        = 21,896
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = Noon
+| visiting_team = '''Pittsburgh'''
+| home_team     = [[2021 Tennessee Volunteers football team|Tennessee]]
+| site_stadium  = [[Volunteer Stadium]]
+| site_cityst   = [[Knoxville, Tennessee|Knoxville, TN]]
+| tv            = ESPN
+| score         = 41–34
+| attend        = 82,203
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 2:00&nbsp;p.m.
+| visiting_team = [[2021 Middle Tennessee Blue Raiders football team|Middle Tennessee]]
+| home_team     = '''Virginia Tech'''
+| home_rank     = 19
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCNX
+| score         = 35–14
+| attend        = 53,680
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 11
+| time          = 2:00&nbsp;p.m.
+| visiting_team = [[2021 Rutgers Scarlet Knights football team|Rutgers]]
+| home_team     = '''Syracuse'''
+| site_stadium  = [[Carrier Dome]]
+| site_cityst   = [[Syracuse, New York|Syracuse, NY]]
+| tv            = ACCN
+| score         = 7–17
+| attend        = 31,941
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_team     = UMass
+| site_stadium  = [[Warren McGuirk Alumni Stadium]]
+| site_cityst   = [[Hadley, Massachusetts|Hadley, MA]]
+| gamename      = [[Boston College–UMass football rivalry|rivalry]]
+| tv            = [[FloSports]]
+| score         = 45–28
+| attend        = 12,118
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 5:00&nbsp;p.m.
+| visiting_team = [[2021 South Carolina State Bulldogs football team|South Carolina State]]
+| home_rank     = 6
+| home_team     = '''Clemson'''
+| site_stadium  = [[Memorial Stadium (Clemson)|Memorial Stadium]]
+| site_cityst   = [[Clemson, South Carolina|Clemson, SC]]
+| tv            = ACCN
+| score         = 49–3
+| attend        = 78,609
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 7:00&nbsp;p.m.
+| visiting_team = [[2021 Appalachian State Mountaineers football team|Appalachian State]]
+| home_rank     = 22
+| home_team     = '''Miami'''
+| site_stadium  = [[Hard Rock Stadium]]
+| site_cityst   = [[Miami Gardens, Florida|Miami Gardens, FL]]
+| tv            = [[ESPNU]]
+| score         = 25–23
+| attend        = 45,877
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 7:00&nbsp;p.m.
+| visiting_team = [[2021 Eastern Kentucky Colonels football team|Eastern Kentucky]]
+| home_team     = '''Louisville'''
+| site_stadium  = [[Cardinal Stadium]]
+| site_cityst   = [[Louisville, Kentucky|Louisville, KY]]
+| tv            = ACCNX
+| score         = 30–3
+| attend        = 39,673
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 11
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''NC State'''
+| home_team     = [[2021 Mississippi State Bulldogs football team|Mississippi State]]
+| site_stadium  = [[Davis Wade Stadium]]
+| site_cityst   = [[Starkville, Mississippi|Starkville, MS]]
+| tv            = ESPN2
+| score         = 10–24
+| attend        = 45,834
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 11
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 Georgia State Panthers football team|Georgia State]]
+| home_rank     = 24
+| home_team     = '''North Carolina'''
+| site_stadium  = [[Kenan Stadium]]
+| site_cityst   = [[Chapel Hill, North Carolina|Chapel Hill, NC]]
+| tv            = ACCRSN
+| score         = 59–17
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 11
+| time          = 8:00&nbsp;p.m.
+| visiting_rank = 16 <small>([[2021 NCAA Division I FCS football season|FCS]])</small>
+| visiting_team = [[2021 Jacksonville State Gamecocks football team|Jacksonville State]]
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = 17–20
+| attend        = 60,198
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week three====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 17|Friday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 UCF Knights football team|UCF]]
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ESPN
+| score         = 42–35
+| overtime      = 
+| attend        = 39,022
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 18
+| time          = Noon
+| visiting_team = [[2021 Albany Great Danes football team|Albany]]
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = 62–24
+| overtime      = 
+| attend        = 30,156
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 18
+| time          = Noon
+| visiting_team = '''Boston College'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = [[2021 Temple Owls football team|Temple]]
+| site_stadium  = [[Lincoln Financial Field]]
+| site_cityst   = [[Philadelphia, Pennsylvania|Philadelphia, PA]]
+| tv            = ESPNU
+| score         = 28–3
+| overtime      = 
+| attend        = 25,290
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 18
+| time          = Noon
+| visiting_team = [[2021 Michigan State Spartans football team|Michigan State]]
+| visiting_rank = 
+| home_rank     = 24
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ABC
+| score         = 17–38
+| overtime      = 
+| attend        = 46,427
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 18
+| time          = Noon
+| visiting_team = '''Virginia Tech'''
+| visiting_rank = 15
+| home_rank     = 
+| home_team     = [[2021 West Virginia Mountaineers football team|West Virginia]]
+| site_stadium  = [[Milan Puskar Stadium]]
+| site_cityst   = [[Morgantown, West Virginia|Morgantown, WV]]
+| gamename      = [[Virginia Tech–West Virginia football rivalry|rivalry]]
+| tv            = [[Fox College Football|FS1]]
+| score         = 21–27
+| overtime      = 
+| attend        = 60,022
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 18
+| time          = Noon
+| visiting_team = [[2021 Western Michigan Broncos football team|Western Michigan]]
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCRSN
+| score         = 41–44
+| overtime      = 
+| attend        = 40,581
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 18
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ESPN
+| score         = '''WAKE''' 35–14
+| overtime      = 
+| attend        = 29,564
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 18
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Georgia Tech'''
+| visiting_rank = 
+| home_rank     = 6
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–Georgia Tech football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''CLEM''' 14–8
+| overtime      = 
+| attend        = 81,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 18
+| time          = 4:00&nbsp;p.m.
+| visiting_team = [[2021 Northwestern Wildcats football team|Northwestern]]
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = 30–23
+| overtime      = 
+| attend        = 12,323
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 18
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 Furman Paladins football team|Furman]]
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCRSN
+| score         = 45–7
+| overtime      = 
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 18
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| visiting_rank = 
+| home_rank     = 21
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[South's Oldest Rivalry]]
+| tv            = ACCN
+| score         = '''UNC''' 59–39
+| overtime      = 
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week four====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 24|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ESPN2
+| score         = '''WAKE''' 37–17
+| attend        = 38,699
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 24|Friday}}
+| time          = 8:00&nbsp;p.m.
+| visiting_team = [[2021 Liberty Flames football team|Liberty]]
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = 24–21
+| attend        = 29,942
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 25
+| time          = Noon
+| visiting_team = [[2021 Missouri Tigers football team|Missouri]]
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ESPN2
+| score         = 41–34
+| overtime      = OT
+| attend        = 44,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 25
+| time          = Noon
+| visiting_rank = 24 <small>([[2021 NCAA Division I FCS football season|FCS]])</small>
+| visiting_team = [[2021 Richmond Spiders football team|Richmond]]
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = 21–10
+| attend        = 53,174
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 25
+| time          = Noon
+| visiting_rank = 21 <small>([[2021 NCAA Division I FCS football season|FCS]])</small>
+| visiting_team = [[2021 New Hampshire Wildcats football team|New Hampshire]]
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCNX/[[ESPN+]]
+| score         = 77–7
+| attend        = 41,048
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 25
+| time          = 12:30&nbsp;p.m.
+| visiting_team = [[2021 Central Connecticut Blue Devils football team|Central Connecticut]]
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCRSN
+| score         = 69–0
+| attend        = 44,019
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 25
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| visiting_rank = 9
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[Textile Bowl]]
+| tv            = ESPN
+| score         = '''NCSU''' 27–21
+| overtime      = 2OT
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 25
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ESPN2
+| score         = '''LOU''' 31–23
+| attend        = 50,964
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 25
+| time          = 4:00&nbsp;p.m.
+| visiting_team = [[2021 Kansas Jayhawks football team|Kansas]]
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = 52–33
+| attend        = 19,128
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 25
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''North Carolina'''
+| visiting_rank = 20
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Mercedes-Benz Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = '''GT''' 45–22
+| attend        = 37,450
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week five====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|September 30|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = [[ESPN College Football Thursday Primetime|ESPN]]
+| score         = '''UVA''' 30–28
+| overtime      = 
+| attend        = 37,269
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 2
+| time          = Noon
+| visiting_team = '''Duke'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[Victory Bell (Duke–North Carolina)|Victory Bell]]
+| tv            = ESPN2
+| score         = '''UNC''' 38–7
+| overtime      = 
+| attend        = 45,812
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 2
+| time          = Noon
+| visiting_team = '''Pittsburgh'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCN
+| score         = '''PITT''' 52–21
+| overtime      = 
+| attend        = 36,383
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 2
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Louisville'''
+| visiting_rank = 
+| home_rank     = 24
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCRSN
+| score         = '''WAKE''' 37–34
+| overtime      = 
+| attend        = 29,077
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 2
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Syracuse'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = '''FSU''' 33–30
+| overtime      = 
+| attend        = 56,609
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 2
+| time          = 6:00&nbsp;p.m.
+| visiting_team = [[2021 Louisiana Tech Bulldogs football team|Louisiana Tech]]
+| visiting_rank = 
+| home_rank     = 23
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCNX/ESPN+
+| score         = 34–27
+| overtime      = 
+| attend        = 51,064
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 2
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| visiting_rank = 
+| home_rank     = 25
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[O'Rourke–McFadden Trophy]]
+| tv            = ACCN
+| score         = '''CLEM''' 19–13
+| overtime      = 
+| attend        = 79,159
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| October 2 || Virginia Tech
+|}
+
+====Week six====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 9
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCRSN
+| score         = '''GT''' 31–27
+| attend        = 11,849
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 9
+| time          = 3:00&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''UVA''' 34–33
+| attend        = 40,320
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 9
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Wake Forest'''
+| visiting_rank = 19
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ESPN2
+| score         = '''WAKE''' 40–37
+| overtime      = OT
+| attend        = 38,554
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 9
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ESPN
+| score         = '''FSU''' 35–25
+| attend        = 44,805
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 9
+| time          = 7:30&nbsp;p.m.
+| visiting_team = Notre Dame
+| visiting_rank = 14
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = 29–32
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="6"|Bye Week
+|-
+| October 9 || Boston College || Clemson || Miami || No. 23 NC State || Pittsburgh
+|}
+
+====Week seven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|October 15|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ESPN
+| score         = '''CLEM''' 17–14
+| attend        = 36,670
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 16
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Duke'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCRSN
+| score         = '''UVA''' 48–0
+| overtime      = 
+| attend        = 38,489
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 16
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Miami'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCN
+| score         = '''UNC''' 45–42
+| overtime      = 
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 16
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Pittsburgh'''
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ESPN2
+| score         = '''PITT''' 28–7
+| overtime      = 
+| attend        = 58,314
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 16
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''NC State'''
+| visiting_rank = 22
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCN
+| score         = '''NCSU''' 33–7
+| overtime      = 
+| attend        = 40,349
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="5"|Bye Week
+|-
+| October 16 || Florida State || Georgia Tech || Louisville || No. 16 Wake Forest
+|}
+
+====Week eight====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 23
+| time          = Noon
+| visiting_team = '''Wake Forest'''
+| visiting_rank = 16
+| home_team     = [[2021 Army Black Knights football team|Army]]
+| site_stadium  = [[Michie Stadium]]
+| site_cityst   = [[West Point, New York|West Point, NY]]
+| tv            = CBSSN
+| score         = 70–56
+| attend        = 38,019
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 23
+| time          = Noon
+| visiting_team = UMass
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = 59–3
+| attend        = 51,915
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 23
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCRSN
+| score         = '''SYR''' 41–36
+| attend        = 57,941
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 23
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| home_rank     = 23
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ESPN
+| score         = '''PITT''' 27–17
+| attend        = 60,594
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 23
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''LOU''' 28–14
+| attend        = 38,202
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 23
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = '''UVA''' 48–40
+| attend        = 45,837
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 23
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''NC State'''
+| visiting_rank = 18
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ESPN2
+| score         = '''MIA''' 31–30
+| attend        = 43,293
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| October 23 || Duke || North Carolina
+|}
+
+====Week nine====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 30
+| time          = Noon
+| visiting_team = '''Miami'''
+| home_rank     = 17
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''MIA''' 38–34
+| overtime      = 
+| attend        = 46,977
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 30
+| time          = Noon
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Georgia Tech–Virginia Tech football rivalry|rivalry]]
+| tv            = ACCRSN
+| score         = '''VT''' 26–17
+| overtime      = 
+| attend        = 35,543
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 30
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–Florida State football rivalry|rivalry]]
+| tv            = ESPN
+| score         = '''CLEM''' 30–20
+| overtime      = 
+| attend        = 79,097
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 30
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = rivalry
+| tv            = ACCRSN
+| score         = '''SYR''' 21–6
+| overtime      = 
+| attend        = 32,022
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 30
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''Duke'''
+| home_rank     = 13
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = '''WAKE''' 45–7
+| overtime      = 
+| attend        = 31,613
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 30
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''NCSU''' 28–13
+| overtime      = 
+| attend        = 53,123
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 30
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''North Carolina'''
+| home_rank     = 11
+| home_team     = Notre Dame
+| site_stadium  = [[Notre Dame Stadium]]
+| site_cityst   = [[South Bend, Indiana|South Bend, IN]]
+| tv            = [[Notre Dame Football on NBC|NBC]]
+| score         = 34–44
+| overtime      = 
+| attend        = 71,018
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 30
+| time          = 10:15&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_rank     = 25
+| home_team     = [[2021 BYU Cougars football team|BYU]]
+| site_stadium  = [[LaVell Edwards Stadium]]
+| site_cityst   = [[Provo, Utah|Provo, UT]]
+| tv            = ESPN2
+| score         = 49–66
+| overtime      = 
+| attend        = 57,685
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week ten====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 5|Friday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = [[Boston College–Virginia Tech football rivalry|rivalry]]
+| tv            = ESPN2
+| score         = '''BC''' 17–3
+| attend        = 35,637
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 6
+| time          = Noon
+| visiting_team = '''Pittsburgh'''
+| visiting_rank = 25
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = '''PITT''' 54–29
+| attend        = 20,693
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 6
+| time          = Noon
+| visiting_team = '''Wake Forest'''
+| visiting_rank = 9
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[North Carolina–Wake Forest rivalry|rivalry]]
+| tv            = ABC
+| score         = '''UNC''' 58–55
+| attend        = 50,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 6
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCRSN
+| score         = '''MIA''' 33–30
+| attend        = 48,161
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 6
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''NC State'''
+| visiting_rank = 19
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = '''NCSU''' 28–14
+| attend        = 50,835
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 6
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''CLEM''' 30–24
+| attend        = 51,729
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2021 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+{{note|note 1|note 1}}The game between North Carolina and Wake Forest is being played as a non-conference game and will therefore not count in the conference standings.<ref>{{cite web|url=https://www.usatoday.com/story/sports/ncaaf/2015/01/26/acc-wake-forest-north-carolina-non-conference-game/22347863/|title=ACC teams Wake Forest and North Carolina schedule non-conference matchups|first=Dan|last=Wolken|newspaper=USA Today|date=January 26, 2015}}</ref>
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="3"|Bye Week
+|-
+| November 6 || Syracuse || Virginia
+|}
+
+====Week eleven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 11|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''North Carolina'''
+| home_rank     = 21
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ESPN
+| score         = '''PITT''' 30–23
+| overtime      = OT
+| attend        = 41,687
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 13
+| time          = Noon
+| visiting_team = [[2021 UConn Huskies football team|UConn]]
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = 44–7
+| attend        = 77,522
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 13
+| time          = Noon
+| visiting_team = '''Syracuse'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCRSN
+| score         = '''LOU''' 41–3
+| attend        = 43,797
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 13
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ACCRSN
+| score         = '''BC''' 41–30
+| attend        = 31,511
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 13
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''VT''' 48–17
+| attend        = 56,730
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 13
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Miami'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = [[Florida State–Miami football rivalry|rivalry]]
+| tv            = ESPN
+| score         = '''FSU''' 31–28
+| attend        = 71,917
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 13
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''NC State'''
+| visiting_rank = 16
+| home_rank     = 12
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| gamename      = [[NC State–Wake Forest rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''WAKE''' 45–42
+| attend        = 34,503
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 13
+| time          = 7:30&nbsp;p.m.
+| visiting_team = Notre Dame
+| visiting_rank = 9
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ABC
+| score         = 3–28
+| attend        = 48,584
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2021 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week twelve====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 18|Thursday}}
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ESPN
+| score         = '''LOU''' 62–22
+| attend        = 8,493
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 20
+| time          = Noon
+| visiting_team = [[2021 Wofford Terriers football team|Wofford]]
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCRSN
+| score         = 34–14
+| overtime      = 
+| attend        = 43,011
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 20
+| time          = Noon
+| visiting_team = '''Florida State'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCN
+| score         = '''FSU''' 26–23
+| overtime      = 
+| attend        = 33,363
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 20
+| time          = Noon
+| visiting_team = '''Wake Forest'''
+| visiting_rank = 10
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ESPN
+| score         = '''CLEM''' 48–27
+| overtime      = 
+| attend        = 81,048
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 20
+| time          = 2:30&nbsp;p.m.
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 8
+| home_team     = Notre Dame
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = South Bend, IN
+| tv            = NBC
+| score         = 0–55
+| overtime      = 
+| attend        = 70,011
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 20
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_rank     = 18
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ESPN2
+| score         = '''PITT''' 48–38
+| overtime      = 
+| attend        = 45,183
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 20
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''Syracuse'''
+| home_rank     = 20
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''NCSU''' 41–17
+| overtime      = 
+| attend        = 54,083
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 20
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      = [[Miami–Virginia Tech football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''MIA''' 38–26
+| attend        = 40,839
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2021 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week thirteen====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 26|Friday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''North Carolina'''
+| home_rank     = 20
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[North Carolina–NC State football rivalry|rivalry]]
+| tv            = ESPN
+| score         = '''NCSU''' 34–30
+| attend        = 56,919
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 27
+| time          = Noon
+| visiting_team = Georgia
+| visiting_rank = 1
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Clean, Old-Fashioned Hate]]
+| tv            = ABC
+| score         = 0–45
+| attend        = 52,806
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 27
+| time          = Noon
+| visiting_team = '''Wake Forest'''
+| visiting_rank = 18
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ESPN2
+| score         = '''WAKE''' 41–10
+| attend        = 25,854
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 27
+| time          = Noon
+| visiting_team = '''Florida State'''
+| home_team     = [[2021 Florida Gators football team|Florida]]
+| site_stadium  = [[Ben Hill Griffin Stadium]]
+| site_cityst   = [[Gainesville, Florida|Gainesville, FL]]
+| gamename      = [[Florida–Florida State football rivalry|rivalry]]
+| tv            = ESPN
+| score         = 21–24
+| attend        = 88,491
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 27
+| time          = 12:30&nbsp;p.m.
+| visiting_team = '''Miami'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCRSN
+| score         = '''MIA''' 47–10
+| attend        = 17,391
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 27
+| time          = 3:45&nbsp;p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = [[Virginia–Virginia Tech football rivalry|Commonwealth Cup]]
+| tv            = ACCN
+| score         = '''VT''' 29–24
+| attend        = 46,445
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 27
+| time          = 7:30&nbsp;p.m.
+| visiting_team = [[2021 Kentucky Wildcats football team|Kentucky]]
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| gamename      = [[Governor's Cup (Kentucky)|Governor's Cup]]
+| tv            = ESPN2
+| score         = 21–52
+| attend        = 55,018
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 27
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Pittsburgh'''
+| visiting_rank = 17
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = [[Pittsburgh–Syracuse football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''PITT''' 31–14
+| attend        = 27,939
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 27
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| visiting_rank = 23
+| home_team     = [[2021 South Carolina Gamecocks football team|South Carolina]]
+| site_stadium  = [[Williams–Brice Stadium]]
+| site_cityst   = [[Columbia, South Carolina|Columbia, SC]]
+| gamename      = [[Clemson–South Carolina rivalry|rivalry]]
+| tv            = [[SEC Network|SECN]]
+| score         = 30–0
+| attend        = 79,897
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2021 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+===Championship game===
+{{further|2021 ACC Championship Game}}
+
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 4
+| time          = 8:00&nbsp;p.m.
+| visiting_team = '''Pittsburgh'''
+| visiting_rank = 15
+| home_team     = '''Wake Forest'''
+| home_rank     = 16
+| site_stadium  = Bank of America Stadium
+| site_cityst   = Charlotte, NC
+| tv            = ABC
+| score         = '''PITT''' 45–21
+| attend        = 57,856
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2021 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+==ACC vs other conferences==
+
+===ACC vs Power Five matchups=== 
+The following games include [[Atlantic Coast Conference|ACC]] teams competing against [[Power Five conferences]] teams from the [[Big Ten Conference|Big Ten]], [[Big 12 Conference|Big 12]], [[2021 BYU Cougars football team|BYU]]/[[2021 Notre Dame Fighting Irish football team|Notre Dame]], [[Pac-12 Conference|Pac-12]] and [[Southeastern Conference|SEC]]). All rankings are from the AP Poll at the time of the game.
+
+<!--
+| style="background:#bfb;" ACC win
+| style="background:#fbb;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#fbb;
+| September 4 || SEC || No. 14 '''Miami''' || No. 1 [[2021 Alabama Crimson Tide football team|Alabama]] || [[Mercedes-Benz Stadium]] •  [[Atlanta, Georgia|Atlanta, GA]] ([[Chick-fil-A Kickoff Game]])
+| '''L''' 13–44
+|- style="background:#fbb;
+| September 4 || SEC || No. 3 '''Clemson''' || No. 5 [[2021 Georgia Bulldogs football team|Georgia]] || [[Bank of America Stadium]] •  [[Charlotte, North Carolina|Charlotte, NC]] ([[Duke's Mayo Classic]]/[[Clemson–Georgia football rivalry|rivalry]])
+| '''L''' 3–10
+|- style="background:#fbb;
+| September 5 || Independent ||  No. 9 [[2021 Notre Dame Fighting Irish football team|Notre Dame]] || '''Florida State'''
+|| [[Doak Campbell Stadium]] • [[Tallahassee, Florida|Tallahassee, FL]]
+| '''L''' 38–41 (OT)
+|- style="background:#fbb;
+| September 6 || SEC ||  [[2021 Ole Miss Rebels football team|Ole Miss]] || '''Louisville'''
+|| Mercedes-Benz Stadium • Atlanta, GA (Chick-fil-A Kickoff Game)
+| '''L''' 24–43
+|- style="background:#fbb;
+| September 11 || SEC || '''NC State''' || [[2021 Mississippi State Bulldogs football team|Mississippi State]] || [[Davis Wade Stadium]]  • [[Starkville, Mississippi|Starkville, MS]]
+| '''L''' 10–24
+|- style="background:#bfb;
+| September 11 || SEC || '''Pittsburgh''' || [[2021 Tennessee Volunteers football team|Tennessee]] || [[Neyland Stadium]] • [[Knoxville, TN]]
+| '''W''' 41–34 
+|- style="background:#fbb;
+| September 11 || Big Ten || [[2021 Rutgers Scarlet Knights football team|Rutgers]] || '''Syracuse''' || [[Carrier Dome]] • [[Syracuse, NY]]
+| '''L''' 7–17
+|- style="background:#bfb;
+| September 11 || Big Ten ||  [[2021 Illinois Fighting Illini football team|Illinois]] || '''Virginia''' || [[Scott Stadium]] •  [[Charlottesville, Virginia|Charlottesville, VA]]
+| '''W''' 42–14
+|- style="background:#bfb;
+| September 18 || Big Ten || [[2021 Northwestern Wildcats football team|Northwestern]] || '''Duke''' || [[Wallace Wade Stadium]] • [[Durham, NC]]
+| '''W''' 30–23
+|- style="background:#fbb;
+| September 18 || Big Ten || [[2021 Michigan State Spartans football team|Michigan State]] || No. 24 '''Miami''' || [[Hard Rock Stadium]] • [[Miami Gardens, FL]]
+| '''L''' 17–38
+|- style="background:#fbb;
+| September 18 || Big 12  || No. 15 '''Virginia Tech''' || [[2021 West Virginia Mountaineers football team|West Virginia]] || [[Milan Puskar Stadium]] • [[Morgantown, West Virginia|Morgantown, WV]] ([[Virginia Tech–West Virginia football rivalry|rivalry]])
+| '''L''' 21–27
+|- style="background:#bfb;
+| September 25 || SEC || [[2021 Missouri Tigers football team|Missouri]] || '''Boston College''' || [[Alumni Stadium]] • [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]] 
+| '''W''' 41–34
+|- style="background:#bfb;
+| September 25 || Big 12 || [[2021 Kansas Jayhawks football team|Kansas]] || '''Duke''' || Wallace Wade Stadium • Durham, NC
+| '''W''' 52–33
+|- style="background:#fbb;
+| October 9 || Independent || No. 14 Notre Dame || '''Virginia Tech''' || [[Lane Stadium]] • [[Blacksburg, VA]]
+| '''L''' 29–32
+|- style="background:#fbb;"
+| October 30 || Independent || '''Virginia''' || No. 25 [[2021 BYU Cougars football team|BYU]] || [[LaVell Edwards Stadium]] • [[Provo, Utah|Provo, UT]]
+| '''L''' 49–66 
+|-style="background:#fbb;
+| October 30 || Independent || '''North Carolina''' || No. 11 Notre Dame || [[Notre Dame Stadium]] • [[South Bend, IN]]
+| '''L''' 34–44
+|-style="background:#fbb;
+| November 13 || Independent || No. 7 Notre Dame || '''Virginia''' || [[Scott Stadium]] • [[Charlottesville, VA]]
+| '''L''' 3–28 
+|-style="background:#fbb;
+| November 20 || Independent || '''Georgia Tech''' || No. 6 Notre Dame || Notre Dame Stadium • South Bend, IN
+| '''L''' 0–55 
+|- style="background:#fbb;
+| November 27 || SEC || '''Florida State''' || [[2021 Florida Gators football team|Florida]] || [[Ben Hill Griffin Stadium]] • [[Gainesville, Florida|Gainesville, FL]] ([[Florida–Florida State football rivalry|rivalry]])
+| '''L''' 21–24
+|- style="background:#fbb;
+| November 27 || SEC || Georgia || '''Georgia Tech''' || [[Bobby Dodd Stadium]] • [[Atlanta|Atlanta, GA]] ([[Clean, Old-Fashioned Hate|rivalry]])
+| '''L''' 0–45
+|-style="background:#fbb;
+| November 27 || SEC || [[2021 Kentucky Wildcats football team|Kentucky]] || '''Louisville''' || [[Cardinal Stadium]] • [[Louisville, Kentucky|Louisville, KY]] ([[Governor's Cup (Kentucky)|Governor's Cup]])
+| '''L''' 21–52
+|-style="background:#bfb;
+| November 27 || SEC || '''Clemson''' || [[2021 South Carolina Gamecocks football team|South Carolina]] || [[Williams–Brice Stadium]] • [[Columbia, South Carolina|Columbia, SC]] ([[Clemson–South Carolina rivalry|rivalry]])
+| '''W''' 30–0
+|}
+
+===ACC vs Group of Five matchups===
+The following games include ACC teams competing against teams from the [[American Athletic Conference|American]], [[Conference USA|C-USA]], [[Mid-American Conference|MAC]], [[Mountain West Conference|Mountain West]] or [[Sun Belt Conference|Sun Belt]].
+
+<!--
+| style="background:#bfb;" ACC win
+| style="background:#fbb;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#bfb"
+| September 2 || American || [[2021 South Florida Bulls football team|South Florida]] || '''NC State''' || [[Carter–Finley Stadium]] • [[Raleigh, North Carolina|Raleigh, NC]]
+| '''W''' 45–0
+|- style="background:#fbb;
+| September 3 || C-USA || '''Duke''' ||  [[2021 Charlotte 49ers football team|Charlotte]] || [[Jerry Richardson Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]]
+| '''L''' 28–31
+|- style="background:#bfb"
+| September 3 || C-USA || [[2021 Old Dominion Monarchs football team|Old Dominion]] || '''Wake Forest''' || [[Truist Field at Wake Forest]] •  [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| '''W''' 42–10
+|- style="background:#fbb;
+| September 4 || MAC || [[2021 Northern Illinois Huskies football team|Northern Illinois]] || '''Georgia Tech''' || [[Bobby Dodd Stadium]] • Atlanta, GA 
+| '''L''' 21–22
+|- style="background:#bfb"
+| September 4 || MAC || '''Syracuse''' || [[2021 Ohio Bobcats football team|Ohio]] || [[Peden Stadium]] • [[Athens, Ohio|Athens, OH]]
+| '''W''' 22–9
+|- style="background:#bfb"
+| September 11 || Sun Belt || [[2021 Appalachian State Mountaineers football team|Appalachian State]] || No. 22 '''Miami''' || Hard Rock Stadium • Miami Gardens, FL
+| '''W''' 25–23
+|- style="background:#bfb"
+| September 11 || Sun Belt || [[2021 Georgia State Panthers football team|Georgia State]] || No. 24 '''North Carolina''' || [[Kenan Stadium]] • [[Chapel Hill, NC]]
+| '''W''' 59–17
+|- style="background:#bfb"
+| September 11 || C-USA || [[2021 Middle Tennessee Blue Raiders football team|Middle Tennessee]] || No. 19 '''Virginia Tech''' || Lane Stadium • Blacksburg, VA
+| '''W''' 35–17
+|- style="background:#bfb"
+| September 17 || American || [[2021 UCF Knights football team|UCF]] || '''Louisville''' || Cardinal Stadium • Louisville, KY
+| '''W''' 42–35
+|- style="background:#bfb"
+| September 18 || American || '''Boston College''' || [[2021 Temple Owls football team|Temple]] ||  [[Lincoln Financial Field]] •  [[Philadelphia, Pennsylvania|Philadelphia, PA]]
+| '''W''' 28–3
+|- style="background:#fbb;
+| September 18 || MAC || [[2021 Western Michigan Broncos football team|Western Michigan]] || '''Pittsburgh''' || [[Heinz Field]] • [[Pittsburgh, PA]]
+| '''L''' 41–44
+|- style="background:#bfb"
+| October 2 || C-USA || [[2021 Louisiana Tech Bulldogs football team|Louisiana Tech]] || No. 23 '''NC State''' || Carter–Finley Stadium • Raleigh, NC
+| '''W''' 34–27
+|-
+|}
+
+===ACC vs FBS independents matchups===
+The following games include ACC teams competing against [[NCAA Division I FBS independent schools|FBS Independents]], which includes [[2021 Army Black Knights football team|Army]], [[2021 Liberty Flames football team|Liberty]], [[2021 New Mexico State Aggies football team|New Mexico State]], [[2021 UConn Huskies football team|UConn]] or [[2021 UMass Minutemen football team|UMass]].
+
+<!--
+| style="background:#bfb;" ACC win
+| style="background:#fbb;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date  !! Visitor !! Home !! Site !! Score
+|- style="background:#bfb;
+| September 4 || [[2021 UMass Minutemen football team|UMass]] ||  '''Pittsburgh''' || Heinz Field • Pittsburgh, PA
+| '''W''' 51–7
+|- style="background:#bfb;
+| September 11 || '''Boston College''' || UMass || [[Warren McGuirk Alumni Stadium]] • [[Hadley, Massachusetts|Hadley, MA]] ([[Boston College–UMass football rivalry|rivalry]])
+| '''W''' 45–28
+|- style="background:#bfb;
+| September 24 || [[2021 Liberty Flames football team|Liberty]] || '''Syracuse''' || Carrier Dome • Syracuse, NY
+| '''W''' 24–21
+|- style="background:#bfb;
+| October 23 || '''Wake Forest''' || [[2021 Army Black Knights football team|Army]] || [[Michie Stadium]] • [[West Point, NY]]
+| '''W''' 70–56
+|- style="background:#bfb;
+| October 23 || UMass || '''Florida State''' || Doak Campbell Stadium • Tallahassee, FL
+| '''W''' 59–3
+|- style="background:#bfb;
+| November 13 || [[2021 UConn Huskies football team|UConn]] || '''Clemson''' || [[Memorial Stadium (Clemson)|Memorial Stadium]] • [[Clemson, SC]]
+| '''W''' 44–7
+|-  
+|}
+
+===ACC vs FCS matchups===
+The [[Football Championship Subdivision]] comprises 13 conferences and two independent programs.
+
+<!--
+| style="background:#bfb;" ACC win
+| style="background:#fbb;" ACC loss
+-->
+{| class="wikitable" style="text-align:center"
+|-
+! Date !!  Visitor !! Home !! Site !! Score
+|- style="background:#bfb"
+| September 4 || [[2021 Colgate Raiders football team|Colgate]] ||  '''Boston College''' || Alumni Stadium • Chestnut Hill, MA
+| '''W''' 52–10
+|- style="background:#bfb"
+| September 4 || [[2021 William & Mary Tribe football team|William & Mary]] || '''Virginia''' || Scott Stadium • Charlottesville, VA
+| '''W''' 43–0
+|- style="background:#bfb"
+| September 10 || [[2021 North Carolina A&T Aggies football team|North Carolina A&T]] || '''Duke''' || Wallace Wade Stadium • Durham, NC
+| '''W''' 45–17
+|- style="background:#bfb"
+| September 11 || [[2021 South Carolina State Bulldogs football team|South Carolina State]] || No. 6 '''Clemson''' || Memorial Stadium • Clemson, SC
+| '''W''' 49–3
+|- style="background:#fbb"
+| September 11 || [[2021 Jacksonville State Gamecocks football team|Jacksonville State]] || '''Florida State''' || Doak Campbell Stadium • Tallahassee, FL
+| '''L''' 17–20
+|- style="background:#bfb"
+| September 11 || [[2021 Kennesaw State Owls football team|Kennesaw State]] || '''Georgia Tech''' || Bobby Dodd Stadium • Atlanta, GA
+| '''W''' 45–17
+|- style="background:#bfb"
+| September 11 || [[2021 Eastern Kentucky Colonels football team|Eastern Kentucky]] || '''Louisville''' || Cardinal Stadium • Louisville, KY
+| '''W''' 30–3
+|- style="background:#bfb"
+| September 11 || [[2021 Norfolk State Spartans football team|Norfolk State]] || '''Wake Forest''' || Truist Stadium at Wake Forest • Winston-Salem, NC
+| '''W''' 41–16
+|- style="background:#bfb"
+| September 18 || [[2021 Furman Paladins football team|Furman]] || '''NC State''' || Carter–Finley Stadium • Raleigh, NC
+| '''W''' 45–7
+|- style="background:#bfb"
+| September 18 || [[2021 Albany Great Danes football team|Albany]] || '''Syracuse''' || Carrier Dome • Syracuse, NY
+| '''W''' 62–24
+|- style="background:#bfb"
+| September 25 || [[2021 Central Connecticut Blue Devils football team|Central Connecticut]] || '''Miami''' || Hard Rock Stadium • Miami Gardens, FL
+| '''W''' 69–0
+|- style="background:#bfb"
+| September 25 || [[2021 New Hampshire Wildcats football team|New Hampshire]] || '''Pittsburgh''' || Heinz Field • Pittsburgh, PA
+| '''W''' 77–7
+|- style="background:#bfb"
+| September 25 || [[2021 Richmond Spiders football team|Richmond]] || '''Virginia Tech''' || Lane Stadium • Blacksburg, VA
+| '''W''' 21–10
+|- style="background:#bfb"
+| November 20 || [[2021 Wofford Terriers football team|Wofford]] || '''North Carolina''' || Kenan Stadium • Chapel Hill, NC
+| '''W''' 34–14
+|- 
+|}
+
+===Records against other conferences===
+{{col-begin}}
+{{col-2}}
+
+'''Regular season'''
+
+{| class="wikitable"
+|-
+!Power 5 Conferences
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|2–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|1–1
+|-
+|[[2021 BYU Cougars football team|BYU]]/[[2021 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|0–6
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|2–6
+|-
+!Power 5 Total
+!5–15
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|3–0
+|-
+|[[Conference USA|C–USA]]
+|align=center|3–1
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding BYU & Notre Dame)</small>]]
+|align=center|6–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|1–2
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|2–0
+|-
+!Other FBS Total
+!15–3
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!FCS Opponents
+!Record
+|-
+|[[2021 NCAA Division I FCS football season|Football Championship Subdivision]]
+|align=center|13–1
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Total Non-Conference Record
+!33–19
+|}
+
+{{col-2}}
+
+'''Post Season'''
+
+{| class="wikitable"
+|-
+!Power Conferences 5
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|1–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|1–0
+|-
+|[[2021 BYU Cougars football team|BYU]]/[[2021 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|0–0
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–0
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|0–1
+|-
+!Power 5 Total
+!2–3
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|0–0
+|-
+|[[Conference USA|C–USA]]
+|align=center|0–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding BYU & Notre Dame)</small>]]
+|align=center|0–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|0–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–1
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|0–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Total
+!0–1
+|-
+!Total Bowl Record
+!2–4
+|}
+
+{{col-end}}
+
+==Postseason==
+
+===Bowl games===
+
+{{see also|2021–22 NCAA football bowl games}}
+
+{| class="wikitable" style="font-size:90%"
+|-
+!colspan="2"|Legend
+|-
+| style="background:#bfb;"|&nbsp;||ACC win
+|-
+| style="background:#fbb;"|&nbsp;||ACC loss
+|-
+| style="background:#ccc;"|&nbsp;||Cancellation
+|}  
+ 
+For the 2020–2025 bowl cycle, The ACC will have annually ten appearances in the following bowls: [[Orange Bowl Game|Orange Bowl]] and [[Peach Bowl]] (unless they are selected for playoffs filled by a SEC and at-large team if champion is in the playoffs), [[Military Bowl]], [[Duke's Mayo Bowl]], [[Gator Bowl]], [[Cheez-It Bowl (2020–2022)|Cheez-It Bowl]], [[Fenway Bowl]], [[Outback Bowl]], [[Holiday Bowl]] and [[Sun Bowl]]. The ACC teams will go to a [[New Year's Six|New Year's Six bowl]] if a team finishes higher than the champions of [[Power Five conferences]] in the final College Football Playoff rankings. The ACC champion are also eligible for the [[College Football Playoff]] if they're among the top four teams in the final CFP ranking.
+
+{| class="wikitable"
+|-'''Bowl games'''
+!Bowl game
+!Date
+!Site
+!Television
+!Time ([[Eastern Time Zone|EST]])
+!ACC team
+!Opponent
+!Score
+!Attendance 
+|- style="background:#ccc;"
+| [[2021 Military Bowl|Military Bowl]]
+| December 27
+| [[Navy–Marine Corps Memorial Stadium]] • [[Annapolis, Maryland|Annapolis, MD]]
+| [[ESPN College Football|ESPN]]
+| 2:30&nbsp;p.m.
+| '''Boston College'''{{ref|3}}
+| [[2021 East Carolina Pirates football team|East Carolina]]
+| colspan=2 style="text-align:center;" | ''Cancelled''<ref name="bc">{{cite web|url=https://www.espn.com/college-football/story/_/id/32940528/military-fenway-bowls-canceled-covid-19-issues|title=Military, Fenway bowls canceled because of COVID-19 issues|website=espn.com|publisher=[[ESPN]]|first=Andrea|last=Adelson|date=December 26, 2021|access-date=December 27, 2021}}</ref>
+|- style="background:#fbb;"
+| [[2021 First Responder Bowl|First Responder Bowl]]
+| December 28
+| [[Gerald J. Ford Stadium]] • [[Dallas, Texas|Dallas, TX]]
+| ESPN
+| 3:15&nbsp;p.m.
+| '''Louisville'''
+| [[2021 Air Force Falcons football team|Air Force]]
+| '''L''' 28–31
+| 15,251
+|- style="background:#ccc;"
+| [[2021 Holiday Bowl|Holiday Bowl]]
+| December 28
+| [[Petco Park]] • [[San Diego, California|San Diego, CA]]
+| [[Fox College Football|Fox]]
+| 8:00&nbsp;p.m.
+| No. 18 '''NC State'''
+| [[2021 UCLA Bruins football team|UCLA]]
+| colspan=2 style="text-align:center;" | ''Cancelled''<ref>{{cite news |url=https://sports.yahoo.com/holiday-bowl-canceled-uclas-covid-212107098.html |title=Holiday Bowl canceled: UCLA's COVID-19 issues upends Tuesday's game vs. NC State |first=David |last=Thompson |agency=USA Today Network |website=[[Yahoo! Sports]] |date=December 28, 2021 |accessdate=December 28, 2021}}</ref>
+|-style="background:#ccc;"
+| [[2021 Fenway Bowl|Fenway Bowl]]
+| December 29
+| [[Fenway Park]] • [[Boston, Massachusetts|Boston, MA]]
+| ESPN
+| 11:00&nbsp;a.m.
+| '''Virginia'''{{ref|4}}
+| [[2021 SMU Mustangs football team|SMU]]
+| colspan=2 style="text-align:center;" | ''Cancelled''<ref name="uva">{{cite web|url=https://www.bostonglobe.com/2021/12/26/sports/fenway-bowl-canceled/|title=Fenway Bowl canceled for second straight year because of Virginia's COVID-19 outbreak|website=bostonglobe.com|publisher=Boston Globe|first=Michael|last=Silverman|date=December 26, 2021|access-date=December 27, 2021}}</ref>
+|-style="background:#fbb;"
+| [[2021 Pinstripe Bowl|Pinstripe Bowl]]
+| December 29
+| [[Yankee Stadium]] • [[Bronx, New York|Bronx, NY]]
+| ESPN
+| 2:15&nbsp;p.m.
+| '''Virginia Tech'''
+| [[2021 Maryland Terrapins football team|Maryland]]
+| '''L''' 10–54
+| 29,653
+|- style="background:#bfb;"
+| [[2021 Cheez-It Bowl|Cheez-It Bowl]]
+| December 29
+| [[Camping World Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| ESPN
+| 5:45&nbsp;p.m.
+| No. 19 '''Clemson'''
+| [[2021 Iowa State Cyclones football team|Iowa State]]
+| '''W''' 20–13
+| 39,051
+|-style="background:#fbb;"
+| [[2021 Duke's Mayo Bowl|Duke's Mayo Bowl]]
+| December 30
+| [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]]
+| ESPN
+| 11:30&nbsp;a.m.
+| '''North Carolina'''
+| [[2021 South Carolina Gamecocks football team|South Carolina]]
+| '''L''' 21–38
+| 45,520
+|- style="background:#bfb;"
+| [[2021 Gator Bowl (December)|Gator Bowl]]
+| December 31
+| [[TIAA Bank Field]] • [[Jacksonville, Florida|Jacksonville, FL]]
+| ESPN
+| 11:00&nbsp;a.m.
+| No. 17 '''Wake Forest'''
+| [[2021 Rutgers Scarlet Knights football team|Rutgers]]{{ref|1}}
+| '''W''' 38–10
+| 28,508
+|- style="background:#ccc;"
+| [[2021 Sun Bowl|Sun Bowl]]
+| December 31
+| [[Sun Bowl (stadium)|Sun Bowl]] • [[El Paso, Texas|El Paso, TX]]
+| [[CBS College Football|CBS]]
+| 12:30&nbsp;p.m.
+| '''Miami'''{{ref|2}}
+| [[2021 Washington State Cougars football team|Washington State]]
+| 
+| 
+|-
+|colspan="9" style="text-align:center;"|'''New Year's Six Bowls''' 
+|-style="background:#fbb;"
+| [[2021 Peach Bowl (December)|Peach Bowl]]
+| December 30
+| [[Mercedes Benz Stadium]] • [[Atlanta, Georgia|Atlanta, GA]]
+| ESPN
+| 7:00&nbsp;p.m.
+| No. 12 '''Pittsburgh'''
+| No. 10 [[2021 Michigan State Spartans football team|Michigan State]]
+| '''L''' 21–31
+| 41,230
+|-
+|}
+
+<small>Rankings are from AP Poll. Rankings are from CFP rankings. All times Eastern Time Zone. ACC teams shown in bold.</small><br>
+{{note|note 1|note 1}}The Gator Bowl opponent for Wake Forest was originally scheduled to be Texas A&M. Due to COVID-19 issues with Texas A&M, they were replaced with Rutgers.<ref>{{cite web|url=https://www.msn.com/en-us/sports/ncaafb/rutgers-will-replace-texas-a-m-play-wake-forest-in-gator-bowl/ar-AAS5Z0B?li=BB15ms5q|title=Rutgers will replace Texas A&M, play Wake Forest in Gator Bowl|first=Sam|last=Cooper|publisher=MSN Sports|access-date=December 24, 2021}}</ref><br>
+{{note|note 2|note 2}}The Sun Bowl originally scheduled Miami to face Washington, but Miami had to withdraw due to COVID-19 issues.<ref>{{cite web|url=https://www.espn.com/college-football/story/_/id/32943308/miami-sun-bowl-washington-state-due-covid-19-issues-football-program|title=Miami out of Sun Bowl against Washington State due to COVID-19 issues in football program|website=espn.com|publisher=[[ESPN]]|first=Andrea|last=Adelson|date=December 26, 2021|access-date=December 27, 2021}}</ref><br>
+{{note|note 3|note 3}}The Military Bowl originally scheduled Boston College to face East Carolina, but Boston College had to withdraw due to COVID-19 issues.<ref name="bc" /><br>
+{{note|note 4|note 4}}The Fenway Bowl originally scheduled Virginia to face SMU, but Virginia had to withdraw due to COVID-19 issues.<ref name="uva" />
+
+==Awards and honors==
+
+===Player of the week honors===
+
+{| class="wikitable" border="1" style="text-align: center;"
+|-
+! rowspan="2"| Week
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Quarterback
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Running Back
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Receiver
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Offensive Line
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Defensive Line
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Linebacker
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Defensive Back
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Specialist
+! rowSpan="24" style="background-color:lightgrey;"|
+! colspan="3"| Rookie
+! rowSpan="24" style="background-color:lightgrey;"| 
+|-
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+|-
+| rowspan=2 | Week 1<ref>{{cite web|url=https://theacc.com/news/2021/9/7/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 7, 2021|access-date=September 7, 2021}}</ref>
+| [[Phil Jurkovec]]
+| [[2021 Boston College Eagles football team|Boston College]]
+| QB
+| rowspan=2 | [[Mataeo Durant]]
+| rowspan=2 | [[2021 Duke Blue Devils football team|Duke]]
+| rowspan=2 | RB
+| rowspan=2 | [[Zay Flowers]]
+| rowspan=2 | [[2021 Boston College Eagles football team|Boston College]]
+| rowspan=2 | WR
+| rowspan=2 | [[Ikem Ekwonu]]
+| rowspan=2 | [[2021 NC State Wolfpack football team|NC State]]
+| rowspan=2 | LT
+| rowspan=2 | [[Jermaine Johnson II]]
+| rowspan=2 | [[2021 Florida State Seminoles football team|Florida State]]
+| rowspan=2 | DE
+| rowspan=2 | [[James Skalski]]
+| rowspan=2 | [[2021 Clemson Tigers football team|Clemson]]
+| rowspan=2 | LB
+| rowspan=2 | Chamarri Conner
+| rowspan=2 | [[2021 Virginia Tech Hokies football team|Virginia Tech]]
+| rowspan=2 | CB
+| rowspan=2 | [[Ja'Sir Taylor]]
+| rowspan=2 | Wake Forest
+| rowspan=2 | DB
+| [[Duce Chestnut]]
+| [[2021 Syracuse Orange football team|Syracuse]]
+| CB
+|-
+| [[Brennan Armstrong]]
+| [[2021 Virginia Cavaliers football team|Virginia]]
+| QB
+| Jasheen Davis
+| Wake Forest
+| DE
+|-
+| rowspan=2 | Week 2<ref>{{cite web|url=https://theacc.com/news/2021/9/13/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=Week 2 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 13, 2021|access-date=September 13, 2021}}</ref>
+| rowspan=2 | Brennan Armstrong (2)
+| rowspan=2 | Virginia
+| rowspan=2 | QB
+| rowspan=2 | Pat Garwo III
+| rowspan=2 | [[2021 Boston College Eagles football team|Boston College]]
+| rowspan=2 | RB
+| rowspan=2 | [[Jelani Woods]]
+| rowspan=2 | Virginia
+| rowspan=2 | TE
+| rowspan=2 | Olusegun Oluwatimi
+| rowspan=2 | Virginia
+| rowspan=2 | C
+| rowspan=2 | Jordan Domineck
+| rowspan=2 | [[2021 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+| rowspan=2 | DE
+| rowspan=2 | [[Mikel Jones]]
+| rowspan=2 | Syracuse
+| rowspan=2 | LB
+| [[Kei'Trel Clark]]
+| [[2021 Louisville Cardinals football team|Louisville]]
+| CB
+| rowspan=2 | Travis Levy
+| rowspan=2 | Boston College
+| rowspan=2 | KR
+| rowspan=2 | [[Will Shipley]]
+| rowspan=2 | Clemson
+| rowspan=2 | RB
+|-
+| Brandon Hill
+| [[2021 Pittsburgh Panthers football team|Pittsburgh]]
+| S
+|-
+| rowspan=2 | Week 3<ref>{{cite web|url=https://theacc.com/news/2021/9/20/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=Week 3 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 20, 2021|access-date=September 21, 2021}}</ref>
+| rowspan=2 | [[Sam Howell]]
+| rowspan=2 | [[2021 North Carolina Tar Heels football team|North Carolina]]
+| rowspan=2 | QB
+| rowspan=2 | [[Ty Chandler (American football)|Ty Chandler]]
+| rowspan=2 | North Carolina
+| rowspan=2 | RB
+| rowspan=2 | [[Josh Downs]]
+| rowspan=2 | North Carolina
+| rowspan=2 | WR
+| [[Marcus McKethan]]
+| North Carolina
+| RG
+| rowspan=2 | DeWayne Carter
+| rowspan=2 | Duke
+| rowspan=2 | DT
+| rowspan=2 | LaVonta Bentley
+| rowspan=2 | Clemson
+| rowspan=2 | LB
+| rowspan=2 | Lummie Young IV
+| rowspan=2 | Duke
+| rowspan=2 | S
+| rowspan=2 | Grant Carlson
+| rowspan=2 | Boston College
+| rowspan=2 | P
+| rowspan=2 | Will Shipley (2)
+| rowspan=2 | Clemson
+| rowspan=2 | RB
+|-
+| [[Chandler Zavala]]
+| NC State
+| LG
+|-
+|  rowspan=2 | Week 4<ref>{{cite web|url=https://theacc.com/news/2021/9/27/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 27, 2021|access-date=September 27, 2021}}</ref>
+|  rowspan=2 | [[Devin Leary]]
+|  rowspan=2 | NC State
+|  rowspan=2 | QB
+|  rowspan=2 | Pat Garwo III (2)
+|  rowspan=2 | Boston College
+|  rowspan=2 | RB
+|  rowspan=2 | Emeka Emezie
+|  rowspan=2 | NC State
+|  rowspan=2 | WR
+|  rowspan=2 | Ikem Ekwonu (2)
+|  rowspan=2 | NC State
+|  rowspan=2 | OT
+|  rowspan=2 | Cody Roscoe
+|  rowspan=2 | Syracuse
+|  rowspan=2 | DL
+| [[Baylon Spector]]
+| Clemson
+| LB
+|  rowspan=2 | Brandon Sebastian
+|  rowspan=2 | Boston College
+|  rowspan=2 | CB
+|  Tayvion Robinson
+|  Virginia Tech
+|  KR
+|  rowspan=2 | Rodney Hammond
+|  rowspan=2 | Pittsburgh
+|  rowspan=2 | RB
+|-
+| Charlie Thomas
+| Georgia Tech
+| LB
+| Nick Sciba
+| Wake Forest
+| PK
+|-
+| Week 5<ref>{{cite web|url=https://theacc.com/news/2021/10/4/athlete-awards-week-5-football-players-of-the-week-announced.aspx|title=Week 5 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 4, 2021|access-date=October 4, 2021}}</ref>
+| [[Kenny Pickett]]
+| Pittsburgh
+| QB
+| Kobe Pace
+| Clemson
+| RB
+| Josh Downs (2)
+| North Carolina
+| WR
+| Gabe Houy
+| Pittsburgh
+| OT
+| Mandy Alonso
+| Virginia
+| DE
+| John Petrishen
+| Pittsburgh
+| LB
+| Traveon Redd
+| Wake Forest
+| S
+| [[Trenton Gill]]
+| NC State
+| P
+| [[Justice Ellison]]
+| Wake Forest
+| RB
+|-
+| Week 6<ref>{{cite web|url=https://theacc.com/news/2021/10/11/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=Week 6 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 11, 2021|access-date=October 11, 2021}}</ref>
+| Brennan Armstrong (3)
+| Virginia
+| QB
+| [[Sean Tucker (American football)|Sean Tucker]]
+| Syracuse
+| RB
+| [[A. T. Perry]]
+| Wake Forest
+| WR
+| Dillan Gibbons
+| Florida State
+| LG
+| Jermaine Johnson II (2)
+| Florida State
+| DE
+| Ayinde Eley
+| Georgia Tech
+| LB
+| Juanyeh Thomas
+| Georgia Tech
+| S
+| Nick Sciba (2)
+| Wake Forest
+| PK
+| Malik McClain
+| Florida State
+| WR
+|-
+| rowspan=2 | Week 7<ref>{{cite web|url=https://theacc.com/news/2021/10/18/athlete-awards-week-7-acc-football-players-of-the-week.aspx|title=Week 7 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 18, 2021|access-date=October 18, 2021}}</ref>
+| rowspan=2 | Brennan Armstrong (4)
+| rowspan=2 | Virginia
+| rowspan=2 | QB
+| rowspan=2 | Sean Tucker (2)
+| rowspan=2 | Syracuse
+| rowspan=2 | RB
+| Josh Downs (3)
+| North Carolina
+| WR
+| rowspan=2 | Bobby Haskins
+| rowspan=2 | Virginia
+| rowspan=2 | LT
+| rowspan=2 | Mandy Alonso (2)
+| rowspan=2 | Virginia
+| rowspan=2 | DE
+| rowspan=2 | Cedric Gray
+| rowspan=2 | North Carolina
+| rowspan=2 | LB
+| rowspan=2 | Erick Hallett II
+| rowspan=2 | Pittsburgh
+| rowspan=2 | FS
+| rowspan=2 | [[Devan Boykin]]
+| rowspan=2 | NC State
+| rowspan=2 | S
+| rowspan=2 | Jaylan Knighton
+| rowspan=2 | [[2021 Miami Hurricanes football team|Miami]]
+| rowspan=2 | RB
+|-
+| Dontayvion Wicks
+| Virginia
+| WR
+|-
+| rowspan=2 | Week 8<ref>{{cite web|url=https://theacc.com/news/2021/10/25/athlete-awards-week-8-acc-football-players-of-the-week.aspx|title=Week 8 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 25, 2021|access-date=October 25, 2021}}</ref>
+| rowspan=2 | [[Sam Hartman]]
+| rowspan=2 | Wake Forest
+| rowspan=2 | QB
+| rowspan=2 | Jaylan Knighton
+| rowspan=2 | Miami
+| rowspan=2 | RB
+| rowspan=2 | Dontayvion Wicks (2)
+| rowspan=2 | Virginia
+| rowspan=2 | WR
+| Caleb Chandler
+| Louisville
+| OG
+| rowspan=2 | Rondell Bothroyd
+| rowspan=2 | Wake Forest
+| rowspan=2 | DE
+| SirVocea Dennis
+| Pittsburgh
+| LB
+| rowspan=2 | Traveon Redd (2)
+| rowspan=2 | Wake Forest
+| rowspan=2 | SS
+| rowspan=2 | Jude Kelley
+| rowspan=2 | Georgia Tech
+| rowspan=2 | PK
+| rowspan=2 | [[Tyler Van Dyke]]
+| rowspan=2 | Miami
+| rowspan=2 | QB
+|-
+| Carter Warren
+| Pittsburgh
+| OG
+| James Skalski (2)
+| Clemson
+| LB
+|-
+| rowspan=2 | Week 9<ref>{{cite web|url=https://theacc.com/news/2021/11/1/athlete-awards-week-9-acc-football-players-of-the-week-announced.aspx|title=Week 9 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 1, 2021|access-date=November 1, 2021}}</ref>
+| rowspan=2 | Sam Hartman (2)
+| rowspan=2 | Wake Forest
+| rowspan=2 | QB
+| rowspan=2 | Sean Tucker (3)
+| rowspan=2 | Syracuse
+| rowspan=2 | RB
+| rowspan=2 | [[Tré Turner]]
+| rowspan=2 | Virginia Tech
+| rowspan=2 | WR
+| rowspan=2 | [[Zach Tom]]
+| rowspan=2 | Wake Forest
+| rowspan=2 | LT
+| Myles Murphy
+| Clemson
+| DE
+| rowspan=2 | [[Drake Thomas]]
+| rowspan=2 | NC State
+| rowspan=2 | LB
+| rowspan=2 | [[James Williams (linebacker, born 2003)|James Williams]]
+| rowspan=2 | Miami
+| rowspan=2 | S
+| rowspan=2 | [[Courtney Jackson]]
+| rowspan=2 | Syracuse
+| rowspan=2 | KR
+| rowspan=2 | Tyler Van Dyke (2)
+| rowspan=2 | Miami
+| rowspan=2 | QB
+|-
+| Jermaine Johnson II (3)
+| Florida State
+| DE
+|-
+| Week 10<ref>{{cite web|url=https://theacc.com/news/2021/11/8/week-10-acc-football-players-of-the-week.aspx|title=Week 10 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 8, 2021|access-date=November 8, 2021}}</ref>
+| Kenny Pickett (2)
+| Pittsburgh
+| QB
+| Ty Chandler (2)
+| North Carolina
+| RB
+| [[Charleston Rambo]]
+| Miami
+| WR
+| Marcus McKethan (2)
+| North Carolina
+| OG
+| [[Keir Thomas]]
+| Florida State
+| DE
+| John Petrishen (2)
+| Pittsburgh
+| OLB
+| Juanyeh Thomas (2)
+| Georgia Tech
+| S
+| Jaylen Stinson
+| Duke
+| KR
+| Tyler Van Dyke (3)
+| Miami
+| QB
+|-
+| rowspan=2 | Week 11<ref>{{cite web|url=https://theacc.com/news/2021/11/15/athlete-awards-week-11-acc-football-players-of-the-week.aspx|title=Week 11 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 15, 2021|access-date=November 15, 2021}}</ref>
+| rowspan=2 | Phil Jurkovec (2)
+| rowspan=2 | Boston College
+| rowspan=2 | QB
+| rowspan=2 | [[Raheem Blackshear]]
+| rowspan=2 | Virginia Tech
+| rowspan=2 | RB
+| rowspan=2 | Emeka Emezie (2)
+| rowspan=2 | NC State
+| rowspan=2 | WR
+| rowspan=2 | Michael Jurgens
+| rowspan=2 | Wake Forest
+| rowspan=2 | C
+| rowspan=2 | Jermaine Johnson II (4)
+| rowspan=2 | Florida State
+| rowspan=2 | DE
+| rowspan=2 | SirVocea Dennis (2)
+| rowspan=2 | Pittsburgh
+| rowspan=2 | LB
+| rowspan=2 | Omarion Cooper
+| rowspan=2 | Florida State
+| rowspan=2 | CB
+| rowspan=2 | [[Zonovan Knight]]
+| rowspan=2 | NC State
+| rowspan=2 | KR
+| Ahmari Huggins-Bruce
+| Louisville
+| WR
+|-
+| Omarion Cooper
+| Florida State
+| CB
+|-
+| rowspan=2 | Week 12<ref>{{cite web|url=https://theacc.com/news/2021/11/22/week-12-acc-football-players-of-the-week.aspx|title=Week 12 ACC Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 22, 2021|access-date=November 22, 2021}}</ref>
+| rowspan=2 | [[Malik Cunningham]]
+| rowspan=2 | Louisville
+| rowspan=2 | QB
+| rowspan=2 | Kobe Pace
+| rowspan=2 | Clemson
+| rowspan=2 | RB
+| rowspan=2 | [[Jordan Addison]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | WR
+| rowspan=2 | [[Jordan McFadden]]
+| rowspan=2 | Clemson
+| rowspan=2 | OT
+| rowspan=2 | Kier Thomas (2)
+| rowspan=2 | Florida State
+| rowspan=2 | DE
+| rowspan=2 | Drake Thomas (2)
+| rowspan=2 | NC State
+| rowspan=2 | LB
+| rowspan=2 | Akeem Dent
+| rowspan=2 | Florida State
+| rowspan=2 | S
+| rowspan=2 | Israel Abanikanda
+| rowspan=2 | Pittsburgh
+| rowspan=2 | KR
+| Will Shipley (3)
+| Clemson
+| RB
+|-
+| Tyler Van Dyke (4)
+| Miami
+| QB
+|-
+| Week 13<ref>{{cite web|url=https://theacc.com/news/2021/11/29/athlete-awards-acc-announces-final-2021-football-players-of-the-week.aspx|title=Final 2021 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 29, 2021|access-date=November 29, 2021}}</ref>
+| Devin Leary (2)
+| NC State
+| QB
+| Raheem Blackshear
+| Virginia Tech
+| RB
+| Emeka Emezie (3)
+| NC State
+| WR
+| Jordan McFadden (2)
+| Clemson
+| OT
+| Daniel Joseph
+| NC State
+| DE
+| [[Mikel Jones]] (2)
+| Syracuse
+| LB
+| Jammie Robinson
+| Florida State
+| S
+| Jordan Houston
+| NC State
+| RB
+| Tyler Van Dyke (5)
+| Miami
+| QB
+|-
+|}
+
+===All Conference Teams===
+
+Source:<ref>{{cite web|url=https://theacc.com/news/2021/11/30/athlete-awards-pitt-leads-with-12-on-all-acc-football-teams.aspx|title=Pitt Leads with 12 on All-ACC Football Teams|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 30, 2021|access-date=November 30, 2021}}</ref>
+
+{{col-begin}}
+{{col-1-of-3}}
+
+'''First Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Kenny Pickett]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Sean Tucker (American football)|Sean Tucker]]
+! | Syracuse
+
+|- style="text-align:center;"
+| [[Mataeo Durant]]
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="4" | [[Wide receiver|WR]]
+| [[Jordan Addison]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| [[Josh Downs]]
+! | North Carolina
+
+|- style="text-align:center;"
+| [[Dontayvion Wicks]] (tie)
+! | Virginia
+
+|- style="text-align:center;"
+| [[A. T. Perry]] (tie)
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Jelani Woods]]
+! | Virginia
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Ikem Ekwonu]]
+! | NC State
+
+|- style="text-align:center;"
+| [[Zach Tom]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Zion Johnson]]
+! | Boston College
+
+|- style="text-align:center;"
+| Caleb Chandler
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Alec Lindstrom]]
+! | Boston College
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Jahmyr Gibbs]]
+! | Georgia Tech
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Jermaine Johnson II]]
+! | Florida State
+
+|- style="text-align:center;"
+| Cody Roscoe
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="3" | [[Defensive tackle|DT]]
+| [[Calijah Kancey]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| [[Cory Durden]] (tie) 
+! | NC State
+
+|- style="text-align:center;"
+| [[Tyler Davis (defensive lineman)|Tyler Davis]] (tie)
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| Drake Thomas
+! | NC State
+
+|- style="text-align:center;"
+| [[Mikel Jones]]
+! | Syracuse
+
+|- style="text-align:center;"
+| [[James Skalski]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Mario Goodrich]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Andrew Booth Jr.]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Jammie Robinson]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Tanner Ingle]]
+! | NC State
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[Nick Sciba]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Trenton Gill]]
+! | NC State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Zonovan Knight]]
+! | NC State
+|-
+|}
+
+{{col-2-of-3}}
+'''Second Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Sam Hartman]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Ty Chandler (American football)|Ty Chandler]]
+! | North Carolina
+
+|- style="text-align:center;"
+| Pat Garwo
+! | Boston College
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Charleston Rambo]]
+! | Miami
+
+|- style="text-align:center;"
+| Emeka Emezie
+! | NC State
+
+|- style="text-align:center;"
+| [[Jaquarii Roberson]]
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Lucas Krull]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Jordan McFadden]]
+! | Clemson
+
+|- style="text-align:center;"
+| Carter Warren
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Christian Mahogany]]
+! | Boston College
+
+|- style="text-align:center;"
+| DJ Scaife
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Olusegun Oluwatimi]]
+! | Virginia
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Keytaon Thompson]]
+! | Virginia
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Myles Murphy (American football)|Myles Murphy]]
+! | Clemson
+
+|- style="text-align:center;"
+| [[Habakkuk Baldonado]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Miles Fox]]
+! | Wake Forest
+
+|- style="text-align:center;"
+| [[Myles Murphy (American football)|Myles Murphy]]
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="4" | [[Linebacker|LB]]
+| [[Yasir Abdullah]]
+! | Louisville
+
+|- style="text-align:center;"
+| Nick Jackson
+! | Virginia
+
+|- style="text-align:center;"
+| Quez Jackson (tie)
+! | Georgia Tech
+
+|- style="text-align:center;"
+| [[SirVocea Dennis]] (tie)
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="3" | [[Cornerback|CB]]
+| Jermaine Waller
+! | Virginia Tech
+
+|- style="text-align:center;"
+| Josh Deberry (tie)
+! | Boston College
+
+|- style="text-align:center;"
+| [[Kei'Trel Clark]] (tie)
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| Traveon Redd
+! | Wake Forest
+
+|- style="text-align:center;"
+| [[Brandon Hill (American football)|Brandon Hill]]
+! | Pittsburgh
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[B. T. Potter]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Lou Hedley]]
+! | Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Jahmyr Gibbs]]
+! | Georgia Tech
+|-
+|}
+
+{{col-3-of-3}}
+
+'''Third Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Brennan Armstrong]]
+! | Virginia
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Jashaun Corbin]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Jahmyr Gibbs]]
+! | Georgia Tech
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Zay Flowers]]
+! | Boston College
+
+|- style="text-align:center;"
+| Billy Kemp
+! | Virginia
+
+|- style="text-align:center;"
+| [[Jake Bobo]]
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| Marshon Ford
+! | Louisville
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| Ben Petrula
+! | Boston College
+
+|- style="text-align:center;"
+| Gabe Houy
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| Marcus Minor
+! | Pittsburgh
+
+|- style="text-align:center;"
+| Sean Maginn
+! | Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| Grant Gibson
+! | NC State
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Jordan Addison]]
+! | Pittsburgh
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Keir Thomas]]
+! | Florida State
+
+|- style="text-align:center;"
+| [[Xavier Thomas]]
+! | Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Bryan Bresee]]
+! | Clemson
+
+|- style="text-align:center;"
+| DeWayne Carter
+! | Duke
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| Shaka Heyward
+! | Duke
+
+|- style="text-align:center;"
+| [[Tomon Fox]]
+! | North Carolina
+
+|- style="text-align:center;"
+| Jeremiah Gemmel
+! | North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| Brandon Sebasitan
+! | Boston College
+
+|- style="text-align:center;"
+| [[Duce Chestnut]]
+! | Syracuse
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| Cam'Ron Kelly
+! | North Carolina
+
+|- style="text-align:center;"
+| [[Andrew Mukuba]]
+! | Clemson
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| Sam Scarton
+! | Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| Peter Moore
+! | Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| Tayvion Robinson
+! | Virginia Tech
+|-
+|}
+
+{{col-end}}
+
+===[[Atlantic Coast Conference football individual awards|ACC individual awards]]===
+{{col-begin}}
+{{col-1-of-3}}
+'''ACC Player of the Year'''
+: [[Kenny Pickett]], Pittsburgh<ref name="POY">{{cite web|url=https://theacc.com/news/2021/12/1/athlete-awards-pitts-pickett-voted-acc-player-of-the-year.aspx|title=Pitt's Pickett Voted ACC Player of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 1, 2021|access-date=December 1, 2021}}</ref>
+'''ACC Rookie of the Year'''
+: [[Tyler Van Dyke]], Miami<ref name="ROY">{{cite web|url=https://theacc.com/news/2021/12/1/athlete-awards-miamis-van-dyke-selected-as-acc-football-rookie-of-the-year.aspx|title=Miami's Van Dyke Selected as ACC Football Rookie of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 1, 2021|access-date=December 1, 2021}}</ref>
+'''ACC Coach of the Year'''
+:[[Dave Clawson]], Wake Forest<ref>{{cite web|url=https://theacc.com/news/2021/12/1/football-wakes-forests-clawson-voted-acc-coach-of-the-year.aspx|title=Wake's Forest's Clawson Voted ACC Coach of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 2, 2021|access-date=December 2, 2021}}</ref>
+{{col-2-of-3}}
+'''ACC Offensive Player of the Year'''
+: [[Kenny Pickett]], Pittsburgh<ref name="POY"/>
+'''ACC Offensive Rookie of the Year'''
+: [[Tyler Van Dyke]], Miami<ref name="ROY"/>
+'''[[Jacobs Blocking Trophy]]'''
+: [[Ikem Ekwonu]], NC State<ref>{{cite web|url=https://theacc.com/news/2021/11/28/athlete-awards-nc-states-ekwonu-honored-with-jacobs-blocking-trophy.aspx|title=NC State's Ekwonu Honored With Jacobs Blocking Trophy|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 29, 2021|access-date=November 30, 2021}}</ref>
+
+{{col-3-of-3}}
+'''ACC Defensive Player of the Year'''
+: [[Jermaine Johnson II]], Florida State<ref name="POY"/>
+'''ACC Defensive Rookie of the Year'''
+: [[Andrew Mukuba]], Clemson<ref name="ROY"/>
+{{col-end}}
+
+===All-Americans===
+{{main|2021 College Football All-America Team}}
+
+==== Consensus All-Americans ====
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least half of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+{| class="wikitable" style="white-space:nowrap; font-size:90%; text-align:center;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2021 Consensus All-Americans''' 
+|-
+! Unanimous
+! Consensus
+|-
+| [[Ikem Ekwonu]] – NC State
+| [[Jordan Addison]] – Pittsburgh
+|}
+
+==== Associated Press ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2021 AP All-Americans'''<ref>{{cite web|url=https://apnews.com/article/college-football-sports-ohio-alabama-crimson-tide-football-alabama-cfc6067ea8e0e269617f20fee772c9c9|title=AP All-America team: Young and Tide lead with 3 1st teamers|website=apnews.com|publisher=[[Associated Press]]|first=Ralph|last=Russo|date=December 13, 2021|access-date=December 14, 2021}}</ref>
+|-
+! First Team
+! Second Team
+! Third Team
+|-
+| [[Ikem Ekwonu]] – NC State<br>[[Zion Johnson]] – Boston College<br>[[Jordan Addison]] – Pittsburgh
+| [[Kenny Pickett]] – Pittsburgh<br>[[Sean Tucker (American football)|Sean Tucker]] – Syracuse<br>[[Alec Lindstrom]] – Boston College<br>[[Jahmyr Gibbs]] – Georgia Tech<br>[[Jermaine Johnson II]] – Florida State
+| [[Calijah Kancey]] – Pittsburgh
+|}
+
+==== AFCA ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2021 AFCA All-Americans'''<ref>{{cite web|url=https://www.afca.com/iowa-states-breece-hall-and-alabamas-will-anderson-jr-headline-the-2021-afca-fbs-coaches-all-america-teams/|title=Iowa State's Breece Hall and Alabama's Will Anderson Jr. Headline the 2021 AFCA FBS Coaches' All-America Teams|website=afca.com|publisher=[[American Football Coaches Association]]|date=December 15, 2021|access-date=December 15, 2021}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Ikem Ekwonu]] – NC State<br>[[Kenny Pickett]] – Pittsburgh<br>[[Cal Adomitis]] – Pittsburgh
+| [[Jordan Addison]] – Pittsburgh<br>[[Zion Johnson]] – Boston College<br>[[Sean Tucker (American football)|Sean Tucker]] – Syracuse<br>[[Jermaine Johnson II]] – Florida State
+|}
+
+====FWAA====
+
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2021 FWAA All-Americans'''<ref>{{cite web|url=http://www.sportswriters.net/fwaa/news/2021/allamerica211210.html|title=2021 FWAA ALL-AMERICA TEAM UNVEILED|website=sportswriters.net|publisher=Football Writers Association of America|date=December 10, 2021|access-date=December 14, 2021}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Sean Tucker (American football)|Sean Tucker]] – Syracuse<br>[[Jordan Addison]] – Pittsburgh<br>[[Ikem Ekwonu]] – NC State
+| [[Kenny Pickett]] – Pittsburgh<br>[[Zach Tom]] – Wake Forest<br>[[Olusegun Oluwatimi]] – Virginia<br>[[Jermaine Johnson II]] – Florida State
+|}
+
+==== The Sporting News ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2021 Sporting News All-Americans'''<ref>{{cite web|url=https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2021-sporting-news/wus7c8l8t5241pciwn30qo7h9/|title=Sporting News 2021 College Football All-America Team|website=sportingnews.com|publisher=[[Sporting News]]|first=Bill|last=Bender|date=December 14, 2021|access-date=December 14, 2021}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Jordan Addison]] – Pittsburgh<br>[[Ikem Ekwonu]] – NC State
+|[[Kenny Pickett]] – Pittsburgh<br>[[Alec Lindstrom]] – Boston College
+|}
+
+==== WCFF ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2021 Walter Camp All-Americans'''<ref>{{cite web|url=https://waltercamp.org/2021-walter-camp-all-america-teams-presented-by-777-partners/|title=2021 Walter Camp All-America Teams, presented by 777 Partners|website=waltercamp.org|publisher=Walter Camp Football Foundation|date=December 9, 2021|access-date=December 14, 2021|first=Al|last=Carbone}}</ref>
+|-
+! First Team
+! Second Team
+|-
+| [[Jordan Addison]] – Pittsburgh<br>[[Ikem Ekwonu]] – NC State<br>[[Zion Johnson]] – Boston College<br>[[Kenny Pickett]] – Pittsburgh<br>[[Jermaine Johnson II]] – Florida State
+| [[Sean Tucker (American football)|Sean Tucker]] – Syracuse
+|}
+
+=== National Awards ===
+* [[Johnny Unitas Golden Arm Award]]: [[Kenny Pickett]], Pittsburgh<ref>{{Cite web|url=https://goldenarmfoundation.com/2021/12/pittsburgh-quarterback-wins-the-2021-johnny-unitas-golden-arm-award/|title = Pittsburgh quarterback wins the 2021 Johnny Unitas Golden Arm Award|website=goldenarmfoundation.com|publisher=Golden Arm Foundation|date=December 7, 2021|access-date=December 8, 2021}}</ref>
+
+==Home game attendance==
+
+{| class="wikitable sortable" style="text-align:center;"
+|-'''Attendance'''
+!Team
+!Stadium
+!Capacity
+!Game 1
+!Game 2
+!Game 3
+!Game 4
+!Game 5 
+!Game 6
+!Game 7
+!Total 
+!Average
+!% of Capacity
+|-
+! |Boston College
+|[[Alumni Stadium]]
+| 44,500<ref>{{cite web|url=http://bceagles.com/sports/2015/8/14/GamedayA-Z-Football.aspx|website=bceagles.com|title=Alumni Stadium: A to Z|accessdate=May 18, 2021}}</ref>
+| 28,991
+| 44,500†
+| 40,349
+| 35,637
+| 33,363
+| 25,854
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (28991+44500+40349+35637+33363+25854)}}}}
+| {{formatnum:{{#expr: ((28991+44500+40349+35637+33363+25854)/6) round 0}}}}
+| {{Percentage | ((28991+44500+40349+35637+33363+25854)/6) | 44500 | 2 }}
+|-
+! |Clemson
+|[[Memorial Stadium (Clemson)|Memorial Stadium]]
+| 81,500<ref>{{cite web|url=http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|website=ClemsonTigers.com|title=Memorial Stadium-Death Valley-Denny Stadium|accessdate=September 23, 2016|archive-url=https://web.archive.org/web/20160924022856/http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|archive-date=September 24, 2016|url-status=dead|df=mdy-all}}</ref>
+| 78,609
+| 81,500†
+| 79,159
+| 79,097
+| 77,522
+| 81,048
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (78609+81500+79159+79097+77522+81048)}}}}
+| {{formatnum:{{#expr: ((78609+81500+79159+79097+77522+81048)/6) round 0}}}}
+| {{Percentage | ((78609+81500+79159+79097+77522+81048)/6) | 81500 | 2 }}
+|-
+! |Duke
+|[[Wallace Wade Stadium]]
+| 40,004<ref>{{cite web|url=http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|website=goduke.com|title=Brooks Field at Wallace Wade Stadium|accessdate=May 18, 2021|archive-date=October 12, 2016|archive-url=https://web.archive.org/web/20161012031200/http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|url-status=dead}}</ref>
+| 18,091
+| 12,323
+| 19,128
+| 11,849
+| 20,693†
+| 8,493
+| 17,391
+| {{formatnum:{{#expr: (18091+12323+19128+11849+20693+8493+17391)}}}}
+| {{formatnum:{{#expr: ((18091+12323+19128+11849+20693+8493+17391)/7) round 0}}}}
+| {{Percentage | ((18091+12323+19128+11849+20693+8493+17391)/7) | 40004 | 2 }}
+|-
+! |Florida State
+|[[Doak Campbell Stadium]]
+| 79,560<ref>{{cite web|url=https://seminoles.com/sports/football/facilities/bobby-bowden-field-at-doak-s-campbell-stadium/|website=Seminoles.com|title=Bobby Bowden Field at Doak S. Campbell Stadium|date=23 June 2017|accessdate=May 18, 2021|archive-date=1 April 2019|archive-url=https://web.archive.org/web/20190401113232/https://seminoles.com/sports/football/facilities/bobby-bowden-field-at-doak-s-campbell-stadium/|url-status=dead}}</ref>
+| 68,316
+| 60,198
+| 50,964
+| 56,609
+| 51,915
+| 50,835
+| 71,917†
+| {{formatnum:{{#expr: (68316+60198+50964+56609+51915+50835+71917)}}}}
+| {{formatnum:{{#expr: ((68316+60198+50964+56609+51915+50835+71917)/7) round 0}}}}
+| {{Percentage | ((68316+60198+50964+56609+51915+50835+71917)/7) | 79560 | 2 }}
+|-
+! |Georgia Tech
+|[[Bobby Dodd Stadium]]
+| 55,000<ref>{{cite web|url=http://www.ramblinwreck.com/genrel/071001aaa.html|website=RamblinWreck.com|title=Bobby Dodd Stadium at Historic Grant Field|date=15 June 2018 |accessdate=May 18, 2021}}</ref>
+| 33,651
+| 35,195
+| 37,450
+| 36,383
+| 35,543
+| 31,511
+| 52,806†
+| {{formatnum:{{#expr: (33651+35195+37450+36383+35543+31511+52806)}}}}
+| {{formatnum:{{#expr: ((33651+35195+37450+36383+35543+31511+52806)/7) round 0}}}}
+| {{Percentage | ((33651+35195+37450+36383+35543+31511+52806)/7) | 55000 | 2 }}
+|-
+! |Louisville
+| [[Cardinal Stadium]]
+| 60,800<ref>{{cite web|url=https://gocards.com/documents/2019/8/1//2019_UofL_Football_Media_Guide.pdf?id=23840 |title=Cardinal Stadium |work=2019 Louisville Football Media Guide |page=12 |publisher=Louisville Cardinals |accessdate=August 30, 2019}}</ref>
+| 39,673
+| 39,022
+| 40,320
+| 38,202
+| 51,729
+| 43,797
+| 55,018†
+| {{formatnum:{{#expr: (39673+39022+40320+38202+51729+43797+55018)}}}}
+| {{formatnum:{{#expr: ((39673+39022+40320+38202+51729+43797+55018)/7) round 0}}}}
+| {{Percentage | ((39673+39022+40320+38202+51729+43797+55018)/7) | 60800 | 2 }} 
+|-
+! |Miami
+|[[Hard Rock Stadium]]
+| 65,326<ref>{{cite web|url=http://hardrockstadium.com/faqs/|website=HardRockStadium.com|title=Hard Rock Stadium FAQs|accessdate=September 23, 2016|archive-url=https://web.archive.org/web/20160922231817/http://hardrockstadium.com/faqs/|archive-date=September 22, 2016|url-status=dead|df=mdy-all}}</ref>
+| 45,877
+| 46,427
+| 44,019
+| 37,269
+| 43,293
+| 48,161†
+| 40,839
+| {{formatnum:{{#expr: (45877+46427+44019+37269+43293+48161+40839)}}}}
+| {{formatnum:{{#expr: ((45877+46427+44019+37269+43293+48161+40839)/7) round 0}}}}
+| {{Percentage | ((45877+46427+44019+37269+43293+48161+40839)/7) | 65326 | 2 }}
+|-
+!| North Carolina
+|[[Kenan Memorial Stadium]]
+| 50,500<ref>{{cite web|url=http://www.goheels.com/ViewArticle.dbml?ATCLID=205912861|website=goheels.com|title=Kenan Stadium|accessdate=September 23, 2016}}</ref>
+| 50,500†
+| 50,500†
+| 45,812
+| 44,805
+| 50,500†
+| 50,500†
+| 43,011
+| {{formatnum:{{#expr: (50500+50500+45812+44805+50500+50500+43011)}}}}
+| {{formatnum:{{#expr: ((50500+50500+45812+44805+50500+50500+43011)/7) round 0}}}}
+| {{Percentage | ((50500+50500+45812+44805+50500+50500+43011)/7) | 50500 | 2 }}
+|-
+!| NC State
+|[[Carter–Finley Stadium]]
+| 56,919<ref>{{cite web|url=http://gopack.com/facilities/?id=3|website=gopack.com|title=Facilities|accessdate=September 23, 2016}}</ref>
+| 52,633
+| 56,919†
+| 56,919†
+| 51,064
+| 53,123
+| 54,083
+| 56,919†
+| {{formatnum:{{#expr: (52633+56919+56919+51064+53123+54083+56919)}}}}
+| {{formatnum:{{#expr: ((52633+56919+56919+51064+53123+54083+56919)/7) round 0}}}}
+| {{Percentage | ((52633+56919+56919+51064+53123+54083+56919)/7) | 56,919 | 2 }}
+|-
+!| Pittsburgh
+|[[Heinz Field]]
+| 68,400<ref>{{cite web|url=http://heinzfield.com/stadium/heinz-field-facts/|website=HeinzField.com|title=Heinz Field Facts|accessdate=September 23, 2016|archive-date=October 3, 2014|archive-url=https://web.archive.org/web/20141003160106/http://heinzfield.com/stadium/heinz-field-facts/|url-status=dead}}</ref>
+| 41,486
+| 40,581
+| 41,048
+| 60,594†
+| 46,977
+| 41,687
+| 45,183
+| {{formatnum:{{#expr: (41486+40581+41048+60594+46977+41687+45183)}}}}
+| {{formatnum:{{#expr: ((41486+40581+41048+60594+46977+41687+45183)/7) round 0}}}}
+| {{Percentage | ((41486+40581+41048+60594+46977+41687+45183)/7) | 68400 | 2 }}
+|-
+!| Syracuse
+|[[Carrier Dome]]
+| 49,262<ref>{{cite web|url=http://www.cuse.com/facilities/carrier-dome.aspx|archive-url=https://web.archive.org/web/20140209200641/http://cuse.com/facilities/carrier-dome.aspx|url-status=dead|archive-date=February 9, 2014|website=cuse.com|title=Carrier Dome|accessdate=September 23, 2016}}</ref>
+| 31,941
+| 30,156
+| 29,942
+| 38,554†
+| 36,670
+| 32,022
+| 27,939
+| {{formatnum:{{#expr: (31941+30156+29942+38554+36670+32022+27939)}}}}
+| {{formatnum:{{#expr: ((31941+30156+29942+38554+36670+32022+27939)/7) round 0}}}}
+| {{Percentage | ((31941+30156+29942+38554+36670+32022+27939)/7) | 49262 | 2 }}
+|-
+!| Virginia
+|[[Scott Stadium]]
+| 61,500<ref>{{cite web|url=http://www.virginiasports.com/facilities/scott-stadium.html|website=virginiasports.com|title=Carl Smith Center, home of David A. Harrison III Field at Scott Stadium|accessdate=September 23, 2016}}</ref>
+| 42,982
+| 36,036
+| 38,699
+| 38,489
+| 45,837
+| 48,584†
+| 46,445
+| {{formatnum:{{#expr: (42982+36036+38699+38489+45837+48584+46445)}}}}
+| {{formatnum:{{#expr: ((42982+36036+38699+38489+45837+48584+46445)/7) round 0}}}}
+| {{Percentage | ((42982+36036+38699+38489+45837+48584+46445)/7) | 61500 | 2 }}
+|-
+!| Virginia Tech
+|[[Lane Stadium]]
+| 65,632<ref>{{cite web|url=https://www.vt.edu/about/buildings/lane-stadium-worsham-field.html|website=vt.edu|title=Lane Stadium/Worsham Field|accessdate=September 23, 2016}}</ref>
+| 65,632†
+| 53,680
+| 53,174
+| 65,632†
+| 58,314
+| 57,941
+| 56,730
+| {{formatnum:{{#expr: (65632+53680+53174+65632+58314+57941+56730)}}}}
+| {{formatnum:{{#expr: ((65632+53680+53174+65632+58314+57941+56730)/7) round 0}}}}
+| {{Percentage | ((65632+53680+53174+65632+58314+57941+56730)/7) | 65632| 2 }}
+|-
+!| Wake Forest
+|[[BB&T Field]]
+| 31,500<ref>{{cite web|url=http://www.wakeforestsports.com/facilities/wake-bbt-field.html|archive-url=https://web.archive.org/web/20150518114125/http://www.wakeforestsports.com/facilities/wake-bbt-field.html|url-status=dead|archive-date=May 18, 2015|website=wakeforestsports.com|title=Wake Forest Facilities|accessdate=September 23, 2016}}</ref>
+| 25,673
+| 21,896
+| 29,564
+| 29,077
+| '''31,613'''
+| '''34,503'''†
+| style="background:#666666;" | 
+| {{formatnum:{{#expr: (25673+21896+29564+29077+31613+34503)}}}}
+| {{formatnum:{{#expr: ((25673+21896+29564+29077+31613+34503)/6) round 0}}}}
+| {{Percentage | ((25673+21896+29564+29077+31613+34503)/6) | 31500 | 2 }}
+|}
+
+'''Bold''' – Exceeded capacity<br>
+†Season High
+
+== NFL draft ==
+{{main|2022 NFL draft}}
+
+=== Total Picks by School ===
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+!Team
+!Round 1
+!Round 2
+!Round 3
+!Round 4
+!Round 5
+!Round 6
+!Round 7
+!Total
+|-
+! | Boston College
+| 1
+| –
+| –
+| –
+| – 
+| – 
+| – 
+| 1
+|-
+! | Clemson
+| –
+| 1
+| –
+| – 
+| – 
+| – 
+| 1 
+| 2
+|-
+! | Duke
+| –
+| –
+| –
+| – 
+| – 
+| – 
+| –
+| 0
+|-
+! | Florida State
+| 1
+| –
+| –
+| –
+| –
+| –
+| –
+| 1
+|-
+! | Georgia Tech
+| –
+| –
+| –
+| –
+| –
+| –
+| 1
+| 1
+|-
+! | Louisville
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| 0
+|-
+! | Miami
+| –
+| –
+| –
+| –
+| –
+| –
+| 1
+| 1
+|-
+! | North Carolina
+| –
+| –
+| 1
+| –
+| 3
+| –
+| –
+| 4
+|-
+! | NC State
+| 1
+| –
+| –
+| –
+| –
+| –
+| 1
+| 2
+|-
+! | Pittsburgh
+| 1
+| –
+| –
+| 1
+| –
+| –
+| –
+| 2
+|-
+! | Syracuse
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| 0
+|-
+! | Virginia
+| –
+| –
+| 1
+| –
+| –
+| –
+| –
+| 1
+|-
+! | Virginia Tech
+| –
+| –
+| –
+| –
+| 1
+| 3
+| –
+| 4
+|-
+! | Wake Forest
+| –
+| –
+| –
+| 1
+| –
+| 1
+| –
+| 2
+|-
+| Total
+| 4
+| 1
+| 2
+| 2
+| 4
+| 4
+| 4
+| 21
+|}
+
+=== List of Selections ===
+
+{|class="wikitable sortable" border="1" style="text-align: center;"
+|-
+! Player
+! Position
+! School
+! Draft<br/>Round
+! Round<br/>Pick
+! Overall<br/>Pick
+! Team
+|-
+| [[Ikem Ekwonu]]
+| [[Tackle (gridiron football position)|OT]]
+| [[NC State Wolfpack football|NC State]]
+| 1
+| 6
+| 6
+| [[Carolina Panthers]]
+|-
+| [[Zion Johnson]]
+| [[Guard (gridiron football)|OG]]
+| [[Boston College Eagles football|Boston College]]
+| 1
+| 17
+| 17
+| [[Los Angeles Chargers]]
+|-
+| [[Kenny Pickett]]
+| [[Quarterback|QB]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 1
+| 20
+| 20
+| [[Pittsburgh Steelers]]
+|-
+| [[Jermaine Johnson II]]
+| [[Defensive end|DE]]
+| [[Florida State Seminoles football|Florida State]]
+| 1
+| 26
+| 26
+| [[New York Jets]]
+|-
+| [[Andrew Booth Jr.]]
+| [[Cornerback|CB]]
+| [[Clemson Tigers football|Clemson]]
+| 2
+| 10
+| 42
+| [[Minnesota Vikings]]
+|-
+| [[Joshua Ezeudu]]
+| [[Guard (gridiron football)|OG]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 3
+| 3
+| 67
+| [[New York Giants]]
+|-
+| [[Jelani Woods]]
+| [[Tight end|TE]]
+| [[Virginia Cavaliers football|Virginia]]
+| 3
+| 9
+| 73
+| [[Indianapolis Colts]]
+|-
+| [[Damarri Mathis]]
+| [[Cornerback|CB]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 4
+| 10
+| 115
+| [[Denver Broncos]]
+|-
+| [[Zach Tom]]
+| [[Guard (gridiron football)|OG]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 4
+| 35
+| 140
+| [[Green Bay Packers]]
+|-
+| [[Sam Howell]]
+| [[Quarterback|QB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 5
+| 1
+| 144
+| [[Washington Commanders]]
+|-
+| [[Ty Chandler (American football)|Ty Chandler]]
+| [[Running back|RB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 5
+| 26
+| 169
+| [[Minnesota Vikings]]
+|-
+| [[Marcus McKethan]]
+| [[Guard (gridiron football)|OG]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 5
+| 30
+| 173
+| [[New York Giants]]
+|-
+| [[James Mitchell (American football)|James Mitchell]]
+| [[Tight end|TE]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 5
+| 34
+| 177
+| [[Detroit Lions]]
+|-
+| [[Amaré Barno]]
+| [[Linebacker|LB]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 6
+| 10
+| 189
+| [[Carolina Panthers]]
+|-
+| [[Luke Tenuta]]
+| [[Tackle (gridiron football position)|OT]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 6
+| 30
+| 209
+| [[Buffalo Bills]]
+|-
+| [[Ja'Sir Taylor]]
+| [[Cornerback|CB]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 6
+| 35
+| 214
+| [[Los Angeles Chargers]]
+|-
+| [[Lecitus Smith]]
+| [[Guard (gridiron football)|OG]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 6
+| 36
+| 215
+| [[Arizona Cardinals]]
+|-
+| [[Tariq Carpenter]]
+| [[Linebacker|LB]]
+| [[Georgia Tech Yellow Jackets football|Georgia Tech]]
+| 7
+| 7
+| 228
+| [[Green Bay Packers]]
+|-
+| [[Baylon Spector]]
+| [[Linebacker|LB]]
+| [[Clemson Tigers football|Clemson]]
+| 7
+| 10
+| 231
+| [[Buffalo Bills]]
+|-
+| [[Jonathan Ford (American football)|Jonathan Ford]]
+| [[Defensive tackle|DT]]
+| [[Miami Hurricanes football|Miami (FL)]]
+| 7
+| 13
+| 234
+| [[Green Bay Packers]]
+|-
+| [[Trenton Gill]]
+| [[Punter (football)|P]]
+| [[NC State Wolfpack football|NC State]]
+| 7
+| 34
+| 255
+| [[Chicago Bears]]
+|}
+
+==References==
+{{Reflist}}
+
+{{Atlantic Coast Conference football navbox}}
+{{2021 NCAA Division I FBS football season navbox}}
+
+[[Category:2021 Atlantic Coast Conference football season|*]]

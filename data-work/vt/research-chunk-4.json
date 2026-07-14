@@ -1,0 +1,293 @@
+[
+{
+"name": "Bryce Watts",
+"years": "2017-2018",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2018,
+"tackles": 24,
+"defInt": 1,
+"pbu": 6
+}
+},
+{
+"name": "Mike Daniels",
+"years": "2001-2004",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2002,
+"tackles": 51,
+"tfl": 2,
+"pbu": 2,
+"ff": 1
+}
+},
+{
+"name": "Jeff Holland",
+"years": "1994-1995",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1994,
+"tackles": 34,
+"tfl": 2,
+"sacks": 1,
+"ff": 1
+}
+},
+{
+"name": "Jason Berish",
+"years": "1995-1998",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1996,
+"tackles": 19,
+"tfl": 1,
+"sacks": 3,
+"pbu": 1
+}
+},
+{
+"name": "Anthony Lambo",
+"years": "1997-1997",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1997,
+"tackles": 17,
+"sacks": 3,
+"ff": 1
+}
+},
+{
+"name": "Josh Fuga",
+"years": "2020-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2021,
+"tackles": 21,
+"tfl": 1,
+"sacks": 0.5
+}
+},
+{
+"name": "Jovonn Quillen",
+"years": "2016-2019",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2018,
+"tackles": 42,
+"tfl": 1.5,
+"sacks": 1,
+"pbu": 4
+}
+},
+{
+"name": "Korey Irby",
+"years": "1994-1997",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 16,
+"tfl": 2,
+"sacks": 2,
+"ff": 1
+}
+},
+{
+"name": "Mario Kendricks",
+"years": "2019-2023",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2022,
+"tackles": 19,
+"tfl": 5,
+"sacks": 1,
+"pbu": 3
+}
+},
+{
+"name": "Jason Abbey",
+"years": "2023-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 17,
+"tfl": 2.5,
+"sacks": 2
+}
+},
+{
+"name": "Tee Butler",
+"years": "1998-2000",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 31,
+"tfl": 4
+}
+},
+{
+"name": "Brad Baylor",
+"years": "1994-1996",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1996,
+"tackles": 31,
+"tfl": 1,
+"sacks": 1
+}
+},
+{
+"name": "Kody Huisman",
+"years": "2025-2025",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2025,
+"tackles": 38,
+"tfl": 1.5,
+"pbu": 1
+}
+},
+{
+"name": "Channing Reed",
+"years": "2000-2001",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2000,
+"tackles": 21,
+"tfl": 1,
+"sacks": 1,
+"ff": 1
+}
+},
+{
+"name": "Browning Wynn",
+"years": "1998-2001",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2000,
+"rec": 8,
+"recYds": 167,
+"recTD": 1,
+"tackles": 1
+}
+},
+{
+"name": "T.J. Jackson",
+"years": "2000-2001",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 2001,
+"tackles": 38,
+"tfl": 1,
+"pbu": 1
+}
+},
+{
+"name": "Tommy Edwards",
+"years": "1994-1994",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1994,
+"rushYds": 378,
+"rushTD": 3,
+"rec": 7,
+"recYds": 51,
+"tackles": 5
+}
+},
+{
+"name": "Cary Wade",
+"years": "2002-2006",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2006,
+"tackles": 37,
+"tfl": 1.5,
+"ff": 1
+}
+},
+{
+"name": "Tyler Matheny",
+"years": "2020-2020",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2020,
+"tackles": 22,
+"tfl": 2,
+"defInt": 1
+}
+},
+{
+"name": "Rafael Williams",
+"years": "1994-1995",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1994,
+"tackles": 9,
+"tfl": 1,
+"sacks": 2
+}
+},
+{
+"name": "Kory Robertson",
+"years": "2004-2007",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2006,
+"tackles": 16,
+"tfl": 2,
+"sacks": 1
+}
+},
+{
+"name": "Rob Porcher",
+"years": "2018-2019",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2018,
+"tackles": 13,
+"tfl": 2,
+"sacks": 1
+}
+},
+{
+"name": "Ron Cook",
+"years": "1998-2000",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 9,
+"sacks": 2
+}
+},
+{
+"name": "Stacy Henley",
+"years": "1994-1994",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1994,
+"tackles": 23,
+"pbu": 3
+}
+},
+{
+"name": "Eli Adams",
+"years": "2019-2021",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2019,
+"tackles": 18,
+"tfl": 2.5
+}
+},
+{
+"name": "Benny Wolfe",
+"years": "1998-2000",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 24,
+"tfl": 1
+}
+}
+]

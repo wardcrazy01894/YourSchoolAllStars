@@ -1,0 +1,476 @@
+{
+ "worklist": [
+  {
+   "name": "Ryan Smith",
+   "span": "1997-1998",
+   "composite": 20.1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ron Cook",
+   "span": "1998-2000",
+   "composite": 6.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Benny Wolfe",
+   "span": "1998-2000",
+   "composite": 5.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mark Costen",
+   "span": "2001-2002",
+   "composite": 5.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Steven Hunt",
+   "span": "1996-1999",
+   "composite": 3.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Philip Hicks",
+   "span": "1999-1999",
+   "composite": 3.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  }
+ ],
+ "dropBelowFloor": [
+  {
+   "name": "A. Layne",
+   "composite": 0.2
+  },
+  {
+   "name": "Andy Miller",
+   "composite": 2.6
+  },
+  {
+   "name": "Atle Larsen",
+   "composite": 0.6
+  },
+  {
+   "name": "Baron Spinner",
+   "composite": 2
+  },
+  {
+   "name": "Billy Conaty",
+   "composite": 0.2
+  },
+  {
+   "name": "Chris Peduzzi",
+   "composite": 1.2
+  },
+  {
+   "name": "Danny Osborne",
+   "composite": 1.7
+  },
+  {
+   "name": "Keith Gray",
+   "composite": 0.2
+  },
+  {
+   "name": "Keith Moyer",
+   "composite": 1.8
+  },
+  {
+   "name": "Ken Landrum",
+   "composite": 0.4
+  },
+  {
+   "name": "Matt Morrell",
+   "composite": 1.4
+  },
+  {
+   "name": "Michael Williams",
+   "composite": 1
+  },
+  {
+   "name": "Rhasheyd Williams",
+   "composite": 1.4
+  },
+  {
+   "name": "Robbie Colley",
+   "composite": 0
+  },
+  {
+   "name": "Shaine Miles",
+   "composite": 2.6
+  },
+  {
+   "name": "Tim Wade",
+   "composite": 1
+  },
+  {
+   "name": "Tom Harsanyi",
+   "composite": 0.4
+  },
+  {
+   "name": "William Ferrell",
+   "composite": 2
+  },
+  {
+   "name": "Bill Houseright",
+   "composite": 1.2
+  },
+  {
+   "name": "Chad Vaughn",
+   "composite": 0.2
+  },
+  {
+   "name": "Cody Whipple",
+   "composite": 2.2
+  },
+  {
+   "name": "John I.Thomas",
+   "composite": 0
+  },
+  {
+   "name": "Jomo Nelson",
+   "composite": 2
+  },
+  {
+   "name": "Okesa Smith",
+   "composite": 0.4
+  },
+  {
+   "name": "Quinton Waller",
+   "composite": 0.4
+  },
+  {
+   "name": "Jimmy Kibble",
+   "composite": 1.4
+  },
+  {
+   "name": "John Thomas",
+   "composite": 0
+  },
+  {
+   "name": "Shane Beamer",
+   "composite": 0.8
+  },
+  {
+   "name": "Tony Joe",
+   "composite": 0.2
+  },
+  {
+   "name": "Walter Ford",
+   "composite": 0.7
+  },
+  {
+   "name": "Chris Steadley",
+   "composite": 0.6
+  },
+  {
+   "name": "Jamie Forrest",
+   "composite": 1
+  },
+  {
+   "name": "Jason Buckland",
+   "composite": 0.4
+  },
+  {
+   "name": "Manny Clemente",
+   "composite": 0.8
+  },
+  {
+   "name": "Robert Adams",
+   "composite": 0.2
+  },
+  {
+   "name": "Derek Piniella",
+   "composite": 1.8
+  },
+  {
+   "name": "Rashad Jenkins",
+   "composite": 0.7
+  },
+  {
+   "name": "Chris Krebs",
+   "composite": 1.6
+  },
+  {
+   "name": "Jim Ferugio",
+   "composite": 0.8
+  },
+  {
+   "name": "Mike Donahue",
+   "composite": 2.2
+  },
+  {
+   "name": "Thenus Franklin",
+   "composite": 1.9
+  },
+  {
+   "name": "Derald Bryant",
+   "composite": 0.2
+  },
+  {
+   "name": "Ronald Moody",
+   "composite": 1.8
+  },
+  {
+   "name": "Dirk Taylor",
+   "composite": 0.4
+  },
+  {
+   "name": "Sam Fatherly",
+   "composite": 0.2
+  },
+  {
+   "name": "Bob Ruff",
+   "composite": 0.8
+  },
+  {
+   "name": "Chris Pannell",
+   "composite": 0.8
+  },
+  {
+   "name": "D.J. Walton",
+   "composite": 1.6
+  },
+  {
+   "name": "Lance Goff",
+   "composite": 0.2
+  },
+  {
+   "name": "Brian McPherson",
+   "composite": 0.6
+  },
+  {
+   "name": "Chris Ceasar",
+   "composite": 0.3
+  },
+  {
+   "name": "Greg Kezmarsky",
+   "composite": 0.2
+  },
+  {
+   "name": "Jeff Scudder",
+   "composite": 1.6
+  },
+  {
+   "name": "Maurice Sharpe",
+   "composite": 0.6
+  },
+  {
+   "name": "Thomas McClelland",
+   "composite": 1.4
+  },
+  {
+   "name": "Chris Burnett",
+   "composite": 0.2
+  },
+  {
+   "name": "Ryan Hash",
+   "composite": 1.1
+  },
+  {
+   "name": "Cory Price",
+   "composite": 0.3
+  },
+  {
+   "name": "Omar Hashish",
+   "composite": 2
+  },
+  {
+   "name": "Theodore Miller",
+   "composite": 0.2
+  },
+  {
+   "name": "Corey Price",
+   "composite": 0.8
+  },
+  {
+   "name": "Jake Patten",
+   "composite": 0.6
+  },
+  {
+   "name": "Watson Stelly",
+   "composite": 0.2
+  },
+  {
+   "name": "Daryl Robertson",
+   "composite": 1.1
+  },
+  {
+   "name": "Jacob Gardner",
+   "composite": 0.2
+  },
+  {
+   "name": "Mario Edwards",
+   "composite": 0.2
+  },
+  {
+   "name": "Jacob Sykes",
+   "composite": 1.6
+  },
+  {
+   "name": "Justin Young",
+   "composite": 0.2
+  },
+  {
+   "name": "Lorenzo Williams",
+   "composite": 0.9
+  },
+  {
+   "name": "James Hopper",
+   "composite": 2.5
+  },
+  {
+   "name": "Josh Eadie",
+   "composite": 1.8
+  },
+  {
+   "name": "Ron Cooper",
+   "composite": 0.2
+  },
+  {
+   "name": "Scott Demler",
+   "composite": 1
+  },
+  {
+   "name": "Boye Aromire",
+   "composite": 0.6
+  },
+  {
+   "name": "Duan Perez-Means",
+   "composite": 2.1
+  },
+  {
+   "name": "Nick Dew",
+   "composite": 1.1
+  },
+  {
+   "name": "Theron Norman",
+   "composite": 0.3
+  },
+  {
+   "name": "Kris Harley",
+   "composite": 1.7
+  },
+  {
+   "name": "Jacque Alleyne",
+   "composite": 0.5
+  },
+  {
+   "name": "Jimmie Taylor",
+   "composite": 0.9
+  },
+  {
+   "name": "Jonathan Galante",
+   "composite": 0.2
+  },
+  {
+   "name": "C Mummau",
+   "composite": 0.1
+  },
+  {
+   "name": "Devon Hunter",
+   "composite": 2.5
+  },
+  {
+   "name": "Xavier Burke",
+   "composite": 1.9
+  },
+  {
+   "name": "Ishmiel Seisay",
+   "composite": 0.3
+  },
+  {
+   "name": "Nathan Proctor",
+   "composite": 0.6
+  },
+  {
+   "name": "Jaden Cunningham",
+   "composite": 0.2
+  },
+  {
+   "name": "Jaevon Becton",
+   "composite": 2.9
+  },
+  {
+   "name": "Jeremy Webb",
+   "composite": 0.2
+  },
+  {
+   "name": "Chase Blaker",
+   "composite": 0.2
+  },
+  {
+   "name": "Lakeem Rudolph",
+   "composite": 0.2
+  },
+  {
+   "name": "Nigel Simmons",
+   "composite": 0.4
+  },
+  {
+   "name": "Robert Wooten",
+   "composite": 0.6
+  },
+  {
+   "name": "Elijah Howard",
+   "composite": 0.3
+  },
+  {
+   "name": "Mattheus Carroll",
+   "composite": 0.4
+  },
+  {
+   "name": "Cam Johnson",
+   "composite": 0.5
+  },
+  {
+   "name": "Jalen Hoyle",
+   "composite": 1.6
+  },
+  {
+   "name": "Kyree Moyston",
+   "composite": 0.7
+  },
+  {
+   "name": "Nyke Johnson",
+   "composite": 0.8
+  },
+  {
+   "name": "Elijah Klock",
+   "composite": 1.8
+  },
+  {
+   "name": "Gunner Givens",
+   "composite": 0.2
+  },
+  {
+   "name": "Ish Findlayter",
+   "composite": 2.5
+  },
+  {
+   "name": "Deric Dandy",
+   "composite": 0.2
+  },
+  {
+   "name": "Gerard Johnson",
+   "composite": 0.2
+  },
+  {
+   "name": "Zeke Chinwike",
+   "composite": 0.2
+  }
+ ]
+}

@@ -1,0 +1,5190 @@
+{
+ "deltas": [
+  {
+   "name": "Brandon Semones",
+   "year": 1994,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Brian Edmonds",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 290,
+   "sr": 319,
+   "big": false
+  },
+  {
+   "name": "Bryan Still",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 29,
+   "sr": 37,
+   "big": false
+  },
+  {
+   "name": "Cornelius White",
+   "year": 1995,
+   "stat": "passYds",
+   "ours": 10,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Dwayne Thomas",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 655,
+   "sr": 757,
+   "big": true
+  },
+  {
+   "name": "Dwayne Thomas",
+   "year": 1994,
+   "stat": "rushTD",
+   "ours": 5,
+   "sr": 6,
+   "big": false
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 16,
+   "sr": 9,
+   "big": true
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "year": 1995,
+   "stat": "rushYds",
+   "ours": 58,
+   "sr": 57,
+   "big": false
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "year": 1995,
+   "stat": "rec",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "year": 1995,
+   "stat": "recYds",
+   "ours": 10,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "year": 1996,
+   "stat": "rushYds",
+   "ours": 212,
+   "sr": 205,
+   "big": false
+  },
+  {
+   "name": "Ken Brown",
+   "year": 1994,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Ken Oxendine",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 258,
+   "sr": 265,
+   "big": false
+  },
+  {
+   "name": "Marcus Parker",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 83,
+   "sr": 86,
+   "big": false
+  },
+  {
+   "name": "Marcus Parker",
+   "year": 1996,
+   "stat": "rushYds",
+   "ours": 468,
+   "sr": 467,
+   "big": false
+  },
+  {
+   "name": "Maurice DeShazo",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": -34,
+   "sr": 10,
+   "big": true
+  },
+  {
+   "name": "Maurice DeShazo",
+   "year": 1994,
+   "stat": "rushTD",
+   "ours": 4,
+   "sr": 5,
+   "big": false
+  },
+  {
+   "name": "Ranall White",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 76,
+   "sr": 77,
+   "big": false
+  },
+  {
+   "name": "Shawn Scales",
+   "year": 1996,
+   "stat": "rushYds",
+   "ours": 30,
+   "sr": 23,
+   "big": false
+  },
+  {
+   "name": "Tommy Edwards",
+   "year": 1994,
+   "stat": "rushYds",
+   "ours": 378,
+   "sr": 379,
+   "big": false
+  },
+  {
+   "name": "William Yarborough",
+   "year": 1995,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Al Clark",
+   "year": 1995,
+   "stat": "rushYds",
+   "ours": 149,
+   "sr": 148,
+   "big": false
+  },
+  {
+   "name": "Angelo Harrison",
+   "year": 1995,
+   "stat": "rec",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Angelo Harrison",
+   "year": 1995,
+   "stat": "recYds",
+   "ours": 9,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Keion Carpenter",
+   "year": 1997,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Keion Carpenter",
+   "year": 1998,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Pierson Prioleau",
+   "year": 1997,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Anthony Midget",
+   "year": 1999,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "John Engelberger",
+   "year": 1997,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "John Engelberger",
+   "year": 1998,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Marcus Gildersleeve",
+   "year": 1998,
+   "stat": "rec",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Marcus Gildersleeve",
+   "year": 1998,
+   "stat": "recYds",
+   "ours": 11,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Shyrone Stith",
+   "year": 1996,
+   "stat": "rushYds",
+   "ours": 476,
+   "sr": 474,
+   "big": false
+  },
+  {
+   "name": "Ike Charlton",
+   "year": 1998,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Ike Charlton",
+   "year": 1999,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Nick Sorensen",
+   "year": 1999,
+   "stat": "rushYds",
+   "ours": 0,
+   "sr": 7,
+   "big": true
+  },
+  {
+   "name": "Phillip Summers",
+   "year": 1997,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Phillip Summers",
+   "year": 1999,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Ben Taylor",
+   "year": 2000,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Ben Taylor",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Brian Welch",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Larry Austin",
+   "year": 1999,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Ronyell Whitaker",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Willie Pile",
+   "year": 2000,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Willie Pile",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Channing Reed",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Eric Green",
+   "year": 2000,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Eric Green",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Jim Davis",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Kevin McCadam",
+   "year": 2001,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Michael Crawford",
+   "year": 2003,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Nathaniel Adibi",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 3,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Nathaniel Adibi",
+   "year": 2003,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Vegas Robinson",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Vegas Robinson",
+   "year": 2003,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "DeAngelo Hall",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "DeAngelo Hall",
+   "year": 2003,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Jason Lallis",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Mikal Baaqee",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Vincent Fuller",
+   "year": 2002,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Vincent Fuller",
+   "year": 2003,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Vincent Fuller",
+   "year": 2004,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Darryl Tapp",
+   "year": 2004,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "James Anderson",
+   "year": 2004,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Jonathan Lewis",
+   "year": 2003,
+   "stat": "ff",
+   "ours": 2,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "James Griffin",
+   "year": 2004,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Xavier Adibi",
+   "year": 2004,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Jarrett Boykin",
+   "year": 2009,
+   "stat": "rushTD",
+   "ours": 0,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Antoine Hopkins",
+   "year": 2010,
+   "stat": "tackles",
+   "ours": 45,
+   "sr": 41,
+   "big": false
+  },
+  {
+   "name": "Antoine Hopkins",
+   "year": 2010,
+   "stat": "sacks",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Derrick Hopkins",
+   "year": 2010,
+   "stat": "tackles",
+   "ours": 9,
+   "sr": 13,
+   "big": false
+  },
+  {
+   "name": "Derrick Hopkins",
+   "year": 2010,
+   "stat": "sacks",
+   "ours": 1.5,
+   "sr": 2.5,
+   "big": false
+  },
+  {
+   "name": "Derrick Hopkins",
+   "year": 2011,
+   "stat": "ff",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "J.R. Collins",
+   "year": 2013,
+   "stat": "tackles",
+   "ours": 50,
+   "sr": 51,
+   "big": false
+  },
+  {
+   "name": "Logan Thomas",
+   "year": 2013,
+   "stat": "passTD",
+   "ours": 16,
+   "sr": 15,
+   "big": false
+  },
+  {
+   "name": "Luther Maddy",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 56,
+   "sr": 57,
+   "big": false
+  },
+  {
+   "name": "Dadi Nicolas",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 38,
+   "sr": 45,
+   "big": false
+  },
+  {
+   "name": "Demitri Knowles",
+   "year": 2013,
+   "stat": "recTD",
+   "ours": 3,
+   "sr": 2,
+   "big": false
+  },
+  {
+   "name": "Deon Clarke",
+   "year": 2013,
+   "stat": "tackles",
+   "ours": 11,
+   "sr": 9,
+   "big": false
+  },
+  {
+   "name": "Deon Clarke",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 69,
+   "sr": 77,
+   "big": false
+  },
+  {
+   "name": "Desmond Frye",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 26,
+   "sr": 28,
+   "big": false
+  },
+  {
+   "name": "Donovan Riley",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 23,
+   "sr": 25,
+   "big": false
+  },
+  {
+   "name": "Ronny Vandyke",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 24,
+   "sr": 26,
+   "big": false
+  },
+  {
+   "name": "Brandon Facyson",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 29,
+   "sr": 31,
+   "big": false
+  },
+  {
+   "name": "Brenden Motley",
+   "year": 2016,
+   "stat": "tackles",
+   "ours": 0,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Chuck Clark",
+   "year": 2013,
+   "stat": "tackles",
+   "ours": 22,
+   "sr": 24,
+   "big": false
+  },
+  {
+   "name": "Chuck Clark",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 101,
+   "sr": 107,
+   "big": false
+  },
+  {
+   "name": "Ken Ekanem",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 37,
+   "sr": 39,
+   "big": false
+  },
+  {
+   "name": "Trey Edmunds",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 0,
+   "sr": 2,
+   "big": true
+  },
+  {
+   "name": "Woody Baron",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 26,
+   "sr": 28,
+   "big": false
+  },
+  {
+   "name": "Andrew Motuapuaka",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 66,
+   "sr": 73,
+   "big": false
+  },
+  {
+   "name": "Anthony Shegog",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 26,
+   "sr": 29,
+   "big": false
+  },
+  {
+   "name": "Greg Stroman",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 23,
+   "sr": 24,
+   "big": false
+  },
+  {
+   "name": "Terrell Edmunds",
+   "year": 2015,
+   "stat": "tackles",
+   "ours": 33,
+   "sr": 34,
+   "big": false
+  },
+  {
+   "name": "Tayvion Robinson",
+   "year": 2021,
+   "stat": "recTD",
+   "ours": 4,
+   "sr": 5,
+   "big": false
+  },
+  {
+   "name": "Braxton Burmeister",
+   "year": 2021,
+   "stat": "recTD",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Josh Fuga",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 14,
+   "sr": 13,
+   "big": false
+  },
+  {
+   "name": "Cole Nelson",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 36,
+   "sr": 32,
+   "big": false
+  },
+  {
+   "name": "Jorden McDonald",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Malachi Thomas",
+   "year": 2024,
+   "stat": "rushYds",
+   "ours": 165,
+   "sr": 160,
+   "big": false
+  },
+  {
+   "name": "Wilfried Pene",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 33,
+   "sr": 28,
+   "big": false
+  },
+  {
+   "name": "Wilfried Pene",
+   "year": 2024,
+   "stat": "sacks",
+   "ours": 3.5,
+   "sr": 2.5,
+   "big": false
+  },
+  {
+   "name": "Jaden Keller",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 83,
+   "sr": 76,
+   "big": false
+  },
+  {
+   "name": "Keyshawn Burgos",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 33,
+   "sr": 28,
+   "big": false
+  },
+  {
+   "name": "Stephen Gosnell",
+   "year": 2024,
+   "stat": "rec",
+   "ours": 28,
+   "sr": 27,
+   "big": false
+  },
+  {
+   "name": "Stephen Gosnell",
+   "year": 2024,
+   "stat": "recYds",
+   "ours": 506,
+   "sr": 497,
+   "big": false
+  },
+  {
+   "name": "Will Johnson",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 4,
+   "sr": 2,
+   "big": true
+  },
+  {
+   "name": "Ali Jennings",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Ayden Greene",
+   "year": 2024,
+   "stat": "rushYds",
+   "ours": 66,
+   "sr": 63,
+   "big": false
+  },
+  {
+   "name": "Ayden Greene",
+   "year": 2024,
+   "stat": "rec",
+   "ours": 19,
+   "sr": 13,
+   "big": false
+  },
+  {
+   "name": "Ayden Greene",
+   "year": 2024,
+   "stat": "recYds",
+   "ours": 268,
+   "sr": 153,
+   "big": true
+  },
+  {
+   "name": "Benji Gosnell",
+   "year": 2024,
+   "stat": "rec",
+   "ours": 32,
+   "sr": 31,
+   "big": false
+  },
+  {
+   "name": "Benji Gosnell",
+   "year": 2024,
+   "stat": "recYds",
+   "ours": 341,
+   "sr": 330,
+   "big": false
+  },
+  {
+   "name": "Braylon Johnson",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 4,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Caleb Woodson",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 72,
+   "sr": 67,
+   "big": false
+  },
+  {
+   "name": "Dante Lovett",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 20,
+   "sr": 14,
+   "big": false
+  },
+  {
+   "name": "Dante Lovett",
+   "year": 2024,
+   "stat": "defInt",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Devin Alves",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 5,
+   "sr": 3,
+   "big": true
+  },
+  {
+   "name": "George Ballance",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "James Jennette",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 4,
+   "sr": 3,
+   "big": false
+  },
+  {
+   "name": "Jason Abbey",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 7,
+   "sr": 5,
+   "big": false
+  },
+  {
+   "name": "Jeremiah Coney",
+   "year": 2024,
+   "stat": "rushYds",
+   "ours": 179,
+   "sr": 169,
+   "big": false
+  },
+  {
+   "name": "Josh Hand",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "William Watson III",
+   "year": 2024,
+   "stat": "passYds",
+   "ours": 481,
+   "sr": 400,
+   "big": true
+  },
+  {
+   "name": "William Watson III",
+   "year": 2024,
+   "stat": "passInt",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "William Watson III",
+   "year": 2024,
+   "stat": "rushYds",
+   "ours": 19,
+   "sr": 50,
+   "big": true
+  },
+  {
+   "name": "Collin Schlee",
+   "year": 2024,
+   "stat": "passYds",
+   "ours": 414,
+   "sr": 346,
+   "big": true
+  },
+  {
+   "name": "Collin Schlee",
+   "year": 2024,
+   "stat": "rushYds",
+   "ours": 143,
+   "sr": 136,
+   "big": false
+  },
+  {
+   "name": "Collin Schlee",
+   "year": 2024,
+   "stat": "rushTD",
+   "ours": 2,
+   "sr": 1,
+   "big": true
+  },
+  {
+   "name": "Kaleb Spencer",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 32,
+   "sr": 24,
+   "big": false
+  },
+  {
+   "name": "Kelvin Gilliam Jr.",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 35,
+   "sr": 31,
+   "big": false
+  },
+  {
+   "name": "Quentin Reddish",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 20,
+   "sr": 18,
+   "big": false
+  },
+  {
+   "name": "Thomas Williams",
+   "year": 2024,
+   "stat": "tackles",
+   "ours": 14,
+   "sr": 8,
+   "big": true
+  },
+  {
+   "name": "Tyler Mason",
+   "year": 2024,
+   "stat": "rushYds",
+   "ours": 39,
+   "sr": 6,
+   "big": true
+  },
+  {
+   "name": "Tyler Mason",
+   "year": 2024,
+   "stat": "rec",
+   "ours": 1,
+   "sr": 0,
+   "big": false
+  },
+  {
+   "name": "Michael Short",
+   "year": 2025,
+   "stat": "tackles",
+   "ours": 22,
+   "sr": 21,
+   "big": false
+  }
+ ],
+ "phantoms": [
+  {
+   "name": "Larry Green",
+   "year": 1996,
+   "stats": {
+    "rushYds": -7
+   }
+  },
+  {
+   "name": "Cody Whipple",
+   "year": 1995,
+   "stats": {
+    "passYds": 9
+   }
+  },
+  {
+   "name": "John I.Thomas",
+   "year": 1995,
+   "stats": {
+    "rushYds": -16
+   }
+  },
+  {
+   "name": "Chris Steadley",
+   "year": 1998,
+   "stats": {
+    "rushYds": 4
+   }
+  },
+  {
+   "name": "Rashad Jenkins",
+   "year": 1998,
+   "stats": {
+    "rec": 1,
+    "recYds": 12
+   }
+  },
+  {
+   "name": "Wayne Briggs",
+   "year": 1999,
+   "stats": {
+    "rushYds": 2
+   }
+  },
+  {
+   "name": "Cody Grimm",
+   "year": 2006,
+   "stats": {
+    "tackles": 10
+   }
+  },
+  {
+   "name": "Corey Price",
+   "year": 2006,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Jason Worilds",
+   "year": 2006,
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Kenny Younger",
+   "year": 2006,
+   "stats": {
+    "tackles": 9,
+    "tfl": 3,
+    "sacks": 3,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Jacob Gardner",
+   "year": 2007,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Ron Cooper",
+   "year": 2010,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Scott Demler",
+   "year": 2010,
+   "stats": {
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Brenden Motley",
+   "year": 2013,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Trey Gresh",
+   "year": 2013,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Woody Baron",
+   "year": 2013,
+   "stats": {
+    "tackles": 8
+   }
+  },
+  {
+   "name": "Jameion Moss",
+   "year": 2014,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Jameion Moss",
+   "year": 2015,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jameion Moss",
+   "year": 2016,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jacque Alleyne",
+   "year": 2015,
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Jack Click",
+   "year": 2017,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Jonathan Galante",
+   "year": 2016,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "C Mummau",
+   "year": 2017,
+   "stats": {
+    "passYds": 22
+   }
+  },
+  {
+   "name": "Hendon Hooker",
+   "year": 2017,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Rob Porcher",
+   "year": 2018,
+   "stats": {
+    "tackles": 13,
+    "tfl": 2,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Rob Porcher",
+   "year": 2019,
+   "stats": {
+    "tackles": 3,
+    "tfl": 1,
+    "sacks": 1
+   }
+  },
+  {
+   "name": "Zion Debose",
+   "year": 2019,
+   "stats": {
+    "rushYds": 4
+   }
+  },
+  {
+   "name": "Luke Bussel",
+   "year": 2020,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Ben Locklear",
+   "year": 2021,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Ben Locklear",
+   "year": 2024,
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   }
+  },
+  {
+   "name": "Will Kakavitsas",
+   "year": 2022,
+   "stats": {
+    "rec": 1,
+    "recYds": 8
+   }
+  },
+  {
+   "name": "Ish Findlayter",
+   "year": 2023,
+   "stats": {
+    "tackles": 2,
+    "tfl": 1,
+    "sacks": 0.5
+   }
+  },
+  {
+   "name": "Krystian Williams",
+   "year": 2023,
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Cam Fleming",
+   "year": 2024,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Emmett Laws",
+   "year": 2024,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Joshua Clarke",
+   "year": 2024,
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Keylen Adams",
+   "year": 2024,
+   "stats": {
+    "rushYds": 47,
+    "rec": 1,
+    "recYds": 14
+   }
+  },
+  {
+   "name": "Miles Ellis",
+   "year": 2024,
+   "stats": {
+    "rec": 1,
+    "recYds": 2
+   }
+  },
+  {
+   "name": "Noah Jenkins",
+   "year": 2024,
+   "stats": {
+    "tackles": 2
+   }
+  }
+ ],
+ "holes": [
+  {
+   "srName": "vinnie burns",
+   "year": 2001,
+   "stats": {
+    "passYds": 33,
+    "passTD": 0,
+    "passInt": 0,
+    "rushYds": -12,
+    "rushTD": 0,
+    "rec": 0,
+    "recYds": 0,
+    "recTD": 0
+   }
+  },
+  {
+   "srName": "mitchell ludwig",
+   "year": 2016,
+   "stats": {
+    "passYds": 20,
+    "passTD": 0,
+    "passInt": 0,
+    "rushYds": -11,
+    "rushTD": 0,
+    "rec": 0,
+    "recYds": 0,
+    "recTD": 0,
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "ff": 0
+   }
+  }
+ ],
+ "positions": [
+  {
+   "name": "Antwaun Powell-Ryland",
+   "span": "2023-2024",
+   "composite": 66.7,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Corey Moore",
+   "span": "1997-1999",
+   "composite": 65,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cornell Brown",
+   "span": "1994-1996",
+   "composite": 62.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "J.C. Price",
+   "span": "1994-1995",
+   "composite": 52.9,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ben Taylor",
+   "span": "1998-2001",
+   "composite": 52.4,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cols Colas",
+   "span": "2000-2003",
+   "composite": 52.3,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Dadi Nicolas",
+   "span": "2012-2015",
+   "composite": 52,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 1,
+    "DE": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Andre Davis",
+   "span": "1998-2001",
+   "composite": 50.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 2
+   }
+  },
+  {
+   "name": "Darryl Tapp",
+   "span": "2002-2005",
+   "composite": 49.8,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nathaniel Adibi",
+   "span": "2000-2003",
+   "composite": 49.4,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Steven Friday",
+   "span": "2007-2010",
+   "composite": 49.1,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ken Ekanem",
+   "span": "2013-2016",
+   "composite": 47,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DE": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brandon Flowers",
+   "span": "2004-2007",
+   "composite": 43.5,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jayron Hosley",
+   "span": "2009-2011",
+   "composite": 43.2,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Antone Exum",
+   "span": "2010-2013",
+   "composite": 43.1,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 3,
+    "CB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Orion Martin",
+   "span": "2005-2008",
+   "composite": 43,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jimmy Williams",
+   "span": "2002-2005",
+   "composite": 42.9,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kendall Fuller",
+   "span": "2013-2015",
+   "composite": 42,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "CB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brandon Semones",
+   "span": "1994-1996",
+   "composite": 41.3,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ricky Hall",
+   "span": "1998-1999",
+   "composite": 41.3,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 2
+   }
+  },
+  {
+   "name": "Woody Baron",
+   "span": "2013-2016",
+   "composite": 40.8,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DT": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Willie Pile",
+   "span": "1999-2002",
+   "composite": 40.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Hank Coleman",
+   "span": "1994-1995",
+   "composite": 40,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "John Engelberger",
+   "span": "1996-1999",
+   "composite": 40,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "George DelRicco",
+   "span": "1994-1995",
+   "composite": 39.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Ellis",
+   "span": "2004-2007",
+   "composite": 39.7,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Victor Harris",
+   "span": "2005-2008",
+   "composite": 39.5,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "William Yarborough",
+   "span": "1994-1995",
+   "composite": 38.3,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Luther Maddy",
+   "span": "2011-2015",
+   "composite": 38.3,
+   "wmtVotes": {
+    "DL": 5
+   },
+   "srDefVotes": {
+    "DL": 2,
+    "DT": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Josh Morgan",
+   "span": "2004-2007",
+   "composite": 37.1,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "WR": 2
+   },
+   "srOffVotes": {
+    "WR": 1
+   }
+  },
+  {
+   "name": "Michael Crawford",
+   "span": "2000-2003",
+   "composite": 36.8,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cory Bird",
+   "span": "1997-2000",
+   "composite": 36.3,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Rashad Carmichael",
+   "span": "2007-2010",
+   "composite": 36.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Antonio Freeman",
+   "span": "1994-1994",
+   "composite": 35.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 1
+   }
+  },
+  {
+   "name": "Ronyell Whitaker",
+   "span": "1999-2002",
+   "composite": 35.4,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kevin McCadam",
+   "span": "2000-2001",
+   "composite": 35.2,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kyle Fuller",
+   "span": "2010-2013",
+   "composite": 35.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 3,
+    "CB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "James Gayle",
+   "span": "2010-2013",
+   "composite": 35.1,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3,
+    "DE": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jamel Smith",
+   "span": "1996-1999",
+   "composite": 35,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "TyJuan Garbutt",
+   "span": "2018-2022",
+   "composite": 34.4,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "DeAngelo Hall",
+   "span": "2001-2003",
+   "composite": 34.3,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "David Pugh",
+   "span": "1998-2001",
+   "composite": 33.9,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "J.R. Collins",
+   "span": "2010-2013",
+   "composite": 33.9,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3,
+    "DE": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Eric Green",
+   "span": "2000-2004",
+   "composite": 33.1,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Michael Hawkes",
+   "span": "1996-1999",
+   "composite": 33,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Keion Carpenter",
+   "span": "1995-1998",
+   "composite": 32.9,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Stephan Virgil",
+   "span": "2006-2009",
+   "composite": 32.8,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Steve Tate",
+   "span": "1995-1997",
+   "composite": 32.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Davon Morgan",
+   "span": "2007-2010",
+   "composite": 32.7,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ken Brown",
+   "span": "1994-1994",
+   "composite": 32.4,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Loren Johnson",
+   "span": "1995-1998",
+   "composite": 32.3,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jonathan Lewis",
+   "span": "2002-2005",
+   "composite": 32.1,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Bryan Still",
+   "span": "1994-1995",
+   "composite": 31.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 2
+   }
+  },
+  {
+   "name": "Trevon Hill",
+   "span": "2016-2018",
+   "composite": 31.9,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DE": 2,
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ike Charlton",
+   "span": "1997-1999",
+   "composite": 31.7,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kyshoen Jarrett",
+   "span": "2011-2014",
+   "composite": 31.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 2,
+    "CB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chuck Clark",
+   "span": "2013-2016",
+   "composite": 31.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "S": 1,
+    "CB": 2,
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Emmett Johnson",
+   "span": "1998-2001",
+   "composite": 31.1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 4
+   }
+  },
+  {
+   "name": "Brandon Facyson",
+   "span": "2013-2017",
+   "composite": 30.9,
+   "wmtVotes": {
+    "DB": 5
+   },
+   "srDefVotes": {
+    "CB": 5
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jermaine Holmes",
+   "span": "1994-1995",
+   "composite": 30.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 2
+   }
+  },
+  {
+   "name": "Barry Booker",
+   "span": "2004-2007",
+   "composite": 30.7,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Terrell Edmunds",
+   "span": "2015-2017",
+   "composite": 30.6,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "LB": 2,
+    "S": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Derrick Hopkins",
+   "span": "2010-2013",
+   "composite": 30.5,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3,
+    "DT": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mook Reynolds",
+   "span": "2015-2017",
+   "composite": 30.3,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "CB": 1,
+    "S": 1,
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chamarri Conner",
+   "span": "2018-2022",
+   "composite": 30.1,
+   "wmtVotes": {
+    "DB": 5
+   },
+   "srDefVotes": {
+    "DB": 5
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Eddie Whitley",
+   "span": "2008-2011",
+   "composite": 30,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ricky Walker",
+   "span": "2014-2018",
+   "composite": 30,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DT": 3,
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jim Davis",
+   "span": "2000-2004",
+   "composite": 29.6,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Shawn Scales",
+   "span": "1994-1997",
+   "composite": 29.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 2
+   }
+  },
+  {
+   "name": "Garnell Wilds",
+   "span": "2000-2003",
+   "composite": 29.4,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Justus Reed",
+   "span": "2020-2020",
+   "composite": 28.8,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Myron Newsome",
+   "span": "1995-1996",
+   "composite": 28.6,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Torrian Gray",
+   "span": "1994-1996",
+   "composite": 28.2,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jermaine Waller",
+   "span": "2018-2021",
+   "composite": 28.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tim Settle",
+   "span": "2016-2017",
+   "composite": 27.9,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DT": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cornelius White",
+   "span": "1994-1996",
+   "composite": 27.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 1
+   }
+  },
+  {
+   "name": "Caleb Farley",
+   "span": "2018-2019",
+   "composite": 27.7,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Reggie Floyd",
+   "span": "2016-2019",
+   "composite": 27.4,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 3,
+    "S": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Adonis Alexander",
+   "span": "2015-2017",
+   "composite": 27.2,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "CB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Greg Stroman",
+   "span": "2014-2017",
+   "composite": 26.7,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "CB": 2,
+    "WR": 1,
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jarrod Hewitt",
+   "span": "2017-2020",
+   "composite": 26.6,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DT": 1,
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kemari Copeland",
+   "span": "2024-2025",
+   "composite": 26.6,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "D.J. Parker",
+   "span": "2004-2007",
+   "composite": 26.3,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nat Williams",
+   "span": "1996-1999",
+   "composite": 26.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nigel Williams",
+   "span": "2013-2016",
+   "composite": 25.9,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DT": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Pheldarius Payne",
+   "span": "2023-2023",
+   "composite": 25.9,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Michael Stuewe",
+   "span": "1995-1997",
+   "composite": 25.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Noland Burchette",
+   "span": "2003-2006",
+   "composite": 25.1,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kerwin Hairston",
+   "span": "1995-1997",
+   "composite": 25,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Carl Bradley",
+   "span": "1996-1999",
+   "composite": 25,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Cyrus",
+   "span": "1996-1999",
+   "composite": 24.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kevin Lewis",
+   "span": "2000-2004",
+   "composite": 24.6,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Shyrone Stith",
+   "span": "1996-1999",
+   "composite": 24.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "Lorenzo Ferguson",
+   "span": "1997-1998",
+   "composite": 24.5,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 1,
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Vincent Fuller",
+   "span": "2001-2004",
+   "composite": 24.4,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brian Welch",
+   "span": "1998-2001",
+   "composite": 24.3,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jim Baron",
+   "span": "1994-1995",
+   "composite": 24.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Detrick Bonner",
+   "span": "2011-2014",
+   "composite": 24.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 2,
+    "S": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Anthony Midget",
+   "span": "1996-1999",
+   "composite": 24,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kam Chancellor",
+   "span": "2006-2009",
+   "composite": 23.9,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cole Nelson",
+   "span": "2021-2024",
+   "composite": 23.9,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Antonio Banks",
+   "span": "1994-1996",
+   "composite": 23.7,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tyrel Wilson",
+   "span": "2010-2013",
+   "composite": 23.5,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3,
+    "DE": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Pierson Prioleau",
+   "span": "1995-1998",
+   "composite": 22.9,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nick Sorensen",
+   "span": "1997-2000",
+   "composite": 22.7,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {
+    "QB": 2
+   }
+  },
+  {
+   "name": "Corey Marshall",
+   "span": "2011-2015",
+   "composite": 22.7,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 2,
+    "DT": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chad Beasley",
+   "span": "1998-2001",
+   "composite": 22.6,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Carlton Powell",
+   "span": "2004-2007",
+   "composite": 22.3,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tony Morrison",
+   "span": "1994-1996",
+   "composite": 22.1,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Emmanuel Belmar",
+   "span": "2017-2020",
+   "composite": 22,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DE": 1,
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ken Oxendine",
+   "span": "1994-1997",
+   "composite": 21.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 3
+   }
+  },
+  {
+   "name": "Larry Green",
+   "span": "1994-1997",
+   "composite": 21.5,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Phillip Summers",
+   "span": "1997-2000",
+   "composite": 21.5,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Waverly Jackson",
+   "span": "1994-1996",
+   "composite": 21.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Norell Pollard",
+   "span": "2019-2023",
+   "composite": 20.9,
+   "wmtVotes": {
+    "DL": 5
+   },
+   "srDefVotes": {
+    "DL": 5
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jake Houseright",
+   "span": "1998-2001",
+   "composite": 20.8,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "James Griffin",
+   "span": "2003-2004",
+   "composite": 20.5,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "DaShawn Crawford",
+   "span": "2019-2020",
+   "composite": 20.3,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ryan Smith",
+   "span": "1997-1998",
+   "composite": 20.1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tim Sandidge",
+   "span": "2002-2005",
+   "composite": 19.8,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Wilfried Pene",
+   "span": "2021-2024",
+   "composite": 19.7,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cordarrow Thompson",
+   "span": "2006-2009",
+   "composite": 19.6,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Antoine Hopkins",
+   "span": "2009-2012",
+   "composite": 19.6,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Vinny Mihota",
+   "span": "2015-2018",
+   "composite": 19.6,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DT": 1,
+    "DL": 2,
+    "DE": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Danny Wheel",
+   "span": "1995-1997",
+   "composite": 19.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Devin Taylor",
+   "span": "2020-2020",
+   "composite": 19.5,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "CB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jarrett Ferguson",
+   "span": "1998-2001",
+   "composite": 19.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "Jason Lallis",
+   "span": "2001-2004",
+   "composite": 19.2,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Houshun Gaines",
+   "span": "2016-2018",
+   "composite": 19.1,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DE": 2,
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Khalil Ladler",
+   "span": "2017-2019",
+   "composite": 19,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ben Bell",
+   "span": "2025-2025",
+   "composite": 18.8,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Michael Vick",
+   "span": "1999-2000",
+   "composite": 18.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "QB": 4
+   }
+  },
+  {
+   "name": "Lamar Cobb",
+   "span": "1999-2002",
+   "composite": 18.4,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Donovan Riley",
+   "span": "2012-2015",
+   "composite": 18.4,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 1,
+    "CB": 2,
+    "S": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Roland Minor",
+   "span": "2004-2006",
+   "composite": 17.8,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Marcus Gildersleeve",
+   "span": "1996-1998",
+   "composite": 17.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 1,
+    "WR": 1
+   }
+  },
+  {
+   "name": "Dorian Porch",
+   "span": "2006-2009",
+   "composite": 17.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "J. Gouveia-Winslow",
+   "span": "2009-2012",
+   "composite": 17.1,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jim Druckenmiller",
+   "span": "1994-1996",
+   "composite": 16.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "QB": 6
+   }
+  },
+  {
+   "name": "Dwayne Thomas",
+   "span": "1994-1995",
+   "composite": 16.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "Angelo Harrison",
+   "span": "1995-1998",
+   "composite": 16.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 3
+   }
+  },
+  {
+   "name": "Keith Burnell",
+   "span": "1999-2001",
+   "composite": 16.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 3
+   }
+  },
+  {
+   "name": "Brion Murray",
+   "span": "2019-2022",
+   "composite": 16.4,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cris Hill",
+   "span": "2008-2011",
+   "composite": 15.9,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Lamont Pegues",
+   "span": "1997-1998",
+   "composite": 15.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "John Graves",
+   "span": "2007-2010",
+   "composite": 15.4,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "C.J. McCray",
+   "span": "2021-2024",
+   "composite": 15.4,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Elhadj Fall",
+   "span": "2025-2025",
+   "composite": 15.3,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Lawrence Lewis",
+   "span": "1994-1995",
+   "composite": 15.1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Michael Cole",
+   "span": "2012-2012",
+   "composite": 14.4,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Demetrius Taylor",
+   "span": "2006-2009",
+   "composite": 14.2,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kelvin Gilliam Jr.",
+   "span": "2024-2025",
+   "composite": 14.1,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Dan Wilkinson",
+   "span": "1999-2001",
+   "composite": 14,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Derrius Monroe",
+   "span": "1998-2001",
+   "composite": 13.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brian Edmonds",
+   "span": "1994-1996",
+   "composite": 13.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 3
+   }
+  },
+  {
+   "name": "Al Clark",
+   "span": "1995-1998",
+   "composite": 13.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "QB": 8
+   }
+  },
+  {
+   "name": "Keyshawn Burgos",
+   "span": "2022-2025",
+   "composite": 13.7,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Bryan Jennings",
+   "span": "1994-1996",
+   "composite": 13.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "TE": 3
+   }
+  },
+  {
+   "name": "Armani Chatman",
+   "span": "2019-2022",
+   "composite": 13.6,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Andre Kendrick",
+   "span": "1997-2000",
+   "composite": 13.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 5
+   }
+  },
+  {
+   "name": "Billy Hardee",
+   "span": "2000-2002",
+   "composite": 13.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Larry Austin",
+   "span": "1998-2001",
+   "composite": 13,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Bryce Watts",
+   "span": "2017-2018",
+   "composite": 12.7,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kevin Martin",
+   "span": "1994-1994",
+   "composite": 12.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "TE": 1
+   }
+  },
+  {
+   "name": "Mike Daniels",
+   "span": "2001-2004",
+   "composite": 12.4,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jeff Holland",
+   "span": "1994-1995",
+   "composite": 12.3,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Marcus Parker",
+   "span": "1994-1997",
+   "composite": 12.3,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "Derek Di Nardo",
+   "span": "2011-2014",
+   "composite": 12.3,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 2,
+    "LB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jason Berish",
+   "span": "1995-1998",
+   "composite": 11.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Anthony Lambo",
+   "span": "1997-1997",
+   "composite": 11.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Josh Fuga",
+   "span": "2020-2024",
+   "composite": 11.3,
+   "wmtVotes": {
+    "DL": 5
+   },
+   "srDefVotes": {
+    "DL": 5
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jovonn Quillen",
+   "span": "2016-2019",
+   "composite": 11.2,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Korey Irby",
+   "span": "1994-1997",
+   "composite": 11,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mario Kendricks",
+   "span": "2019-2023",
+   "composite": 10.8,
+   "wmtVotes": {
+    "DL": 5
+   },
+   "srDefVotes": {
+    "DL": 5
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jason Abbey",
+   "span": "2023-2025",
+   "composite": 10.3,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Maurice DeShazo",
+   "span": "1994-1994",
+   "composite": 10,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "QB": 2
+   }
+  },
+  {
+   "name": "Tee Butler",
+   "span": "1998-2000",
+   "composite": 9.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Desmond Frye",
+   "span": "2012-2015",
+   "composite": 9.5,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 1,
+    "S": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brad Baylor",
+   "span": "1994-1996",
+   "composite": 9.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kody Huisman",
+   "span": "2025-2025",
+   "composite": 9,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Channing Reed",
+   "span": "2000-2001",
+   "composite": 8.7,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Browning Wynn",
+   "span": "1998-2001",
+   "composite": 8.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "T.J. Jackson",
+   "span": "2000-2001",
+   "composite": 8.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tommy Edwards",
+   "span": "1994-1994",
+   "composite": 8.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ken Handy",
+   "span": "1997-1998",
+   "composite": 8.3,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 2
+   }
+  },
+  {
+   "name": "Cary Wade",
+   "span": "2002-2006",
+   "composite": 8,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tyler Matheny",
+   "span": "2020-2020",
+   "composite": 7.9,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Rafael Williams",
+   "span": "1994-1995",
+   "composite": 7.3,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kory Robertson",
+   "span": "2004-2007",
+   "composite": 7.3,
+   "wmtVotes": {
+    "DL": 4
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Rob Porcher",
+   "span": "2018-2019",
+   "composite": 6.7,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cullen Hawkins",
+   "span": "1996-2000",
+   "composite": 6.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "KR": 1,
+    "RB": 3
+   }
+  },
+  {
+   "name": "Ron Cook",
+   "span": "1998-2000",
+   "composite": 6.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Stacy Henley",
+   "span": "1994-1994",
+   "composite": 6.3,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ronny Vandyke",
+   "span": "2012-2015",
+   "composite": 6.1,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 1,
+    "LB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Derek Carter",
+   "span": "1998-1999",
+   "composite": 5.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "TE": 1
+   }
+  },
+  {
+   "name": "Matt Roth",
+   "span": "2012-2013",
+   "composite": 5.9,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 1,
+    "DE": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Eli Adams",
+   "span": "2019-2021",
+   "composite": 5.9,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Sean Sullivan",
+   "span": "1997-1997",
+   "composite": 5.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "TE": 1
+   }
+  },
+  {
+   "name": "Benny Wolfe",
+   "span": "1998-2000",
+   "composite": 5.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Emmett Laws",
+   "span": "2024-2025",
+   "composite": 5.6,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Isaiah Hamlette",
+   "span": "2011-2011",
+   "composite": 5.5,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Bob Slowikowski",
+   "span": "1998-2001",
+   "composite": 5.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "TE": 1
+   }
+  },
+  {
+   "name": "Wayne Ward",
+   "span": "1998-2001",
+   "composite": 5.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mark Costen",
+   "span": "2001-2002",
+   "composite": 5.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Isaac Montgomery",
+   "span": "2003-2003",
+   "composite": 5.1,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tyree Rodgers",
+   "span": "2018-2019",
+   "composite": 4.9,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Coleman Fox",
+   "span": "2017-2018",
+   "composite": 4.5,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "RB": 1
+   },
+   "srOffVotes": {
+    "RB": 1
+   }
+  },
+  {
+   "name": "Deon Provitt",
+   "span": "2000-2001",
+   "composite": 4.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Zion Debose",
+   "span": "2018-2020",
+   "composite": 4.4,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Dewayne Alford",
+   "span": "2013-2014",
+   "composite": 4.3,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DE": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ny'Quee Hawkins",
+   "span": "2020-2022",
+   "composite": 4.2,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "DJ Harvey",
+   "span": "2021-2022",
+   "composite": 4.1,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Sean Ruffing",
+   "span": "1997-1997",
+   "composite": 4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Dwight Tucker",
+   "span": "2009-2011",
+   "composite": 4,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "James Jennette",
+   "span": "2023-2025",
+   "composite": 4,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DL": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Steven Hunt",
+   "span": "1996-1999",
+   "composite": 3.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Reggie Samuel",
+   "span": "1998-1998",
+   "composite": 3.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 1
+   }
+  },
+  {
+   "name": "Kwamaine Battle",
+   "span": "2009-2010",
+   "composite": 3.9,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Donaldven Manning",
+   "span": "2012-2012",
+   "composite": 3.8,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tyron Edmond",
+   "span": "1995-1998",
+   "composite": 3.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Philip Hicks",
+   "span": "1999-1999",
+   "composite": 3.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Vernon Dozier",
+   "span": "1994-1994",
+   "composite": 3.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jimmy E. Williams",
+   "span": "2002-2002",
+   "composite": 3.6,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Wiley Brown",
+   "span": "2010-2011",
+   "composite": 3.4,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Malachi Madison",
+   "span": "2022-2024",
+   "composite": 3.4,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nadir Thompson",
+   "span": "2019-2021",
+   "composite": 3.3,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Aycen Stevens",
+   "span": "2024-2025",
+   "composite": 3.3,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "James Crawford",
+   "span": "1995-1996",
+   "composite": 3.1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 1
+   }
+  },
+  {
+   "name": "Seth Dooley",
+   "span": "2014-2016",
+   "composite": 3.1,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DE": 3
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jason Murphy",
+   "span": "2002-2002",
+   "composite": 3,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "C.J. Reavis",
+   "span": "2014-2014",
+   "composite": 3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "S": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jaevon Becton",
+   "span": "2019-2019",
+   "composite": 2.9,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Der'Woun Greene",
+   "span": "2013-2016",
+   "composite": 2.7,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "S": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Andy Miller",
+   "span": "1994-1994",
+   "composite": 2.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Shaine Miles",
+   "span": "1994-1996",
+   "composite": 2.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Dave Meyer",
+   "span": "1997-2000",
+   "composite": 2.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "QB": 6
+   }
+  },
+  {
+   "name": "James Hopper",
+   "span": "2010-2011",
+   "composite": 2.5,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Devon Hunter",
+   "span": "2017-2021",
+   "composite": 2.5,
+   "wmtVotes": {
+    "DB": 4
+   },
+   "srDefVotes": {
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ish Findlayter",
+   "span": "2023-2023",
+   "composite": 2.5,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Steve Sobczak",
+   "span": "2015-2016",
+   "composite": 2.4,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DT": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cody Whipple",
+   "span": "1995-1996",
+   "composite": 2.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mike Donahue",
+   "span": "1999-2000",
+   "composite": 2.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Wayne Briggs",
+   "span": "1999-2001",
+   "composite": 2.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "Duan Perez-Means",
+   "span": "2011-2011",
+   "composite": 2.1,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Baron Spinner",
+   "span": "1994-1994",
+   "composite": 2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "William Ferrell",
+   "span": "1994-1994",
+   "composite": 2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jomo Nelson",
+   "span": "1995-1996",
+   "composite": 2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Omar Hashish",
+   "span": "2005-2006",
+   "composite": 2,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Thenus Franklin",
+   "span": "1999-1999",
+   "composite": 1.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Xavier Burke",
+   "span": "2017-2018",
+   "composite": 1.9,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Keith Moyer",
+   "span": "1994-1994",
+   "composite": 1.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Derek Piniella",
+   "span": "1998-1999",
+   "composite": 1.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ronald Moody",
+   "span": "2000-2001",
+   "composite": 1.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 3,
+    "TE": 1
+   }
+  },
+  {
+   "name": "Josh Eadie",
+   "span": "2010-2010",
+   "composite": 1.8,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Elijah Klock",
+   "span": "2023-2023",
+   "composite": 1.8,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Danny Osborne",
+   "span": "1994-1994",
+   "composite": 1.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kris Harley",
+   "span": "2012-2012",
+   "composite": 1.7,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brian Remley",
+   "span": "1997-1997",
+   "composite": 1.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "WR": 1
+   }
+  },
+  {
+   "name": "Chris Krebs",
+   "span": "1999-2001",
+   "composite": 1.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "D.J. Walton",
+   "span": "2002-2004",
+   "composite": 1.6,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jeff Scudder",
+   "span": "2003-2003",
+   "composite": 1.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jacob Sykes",
+   "span": "2008-2010",
+   "composite": 1.6,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tre Hubbard",
+   "span": "2016-2016",
+   "composite": 1.6,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jalen Hoyle",
+   "span": "2022-2022",
+   "composite": 1.6,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Danny Edwards",
+   "span": "1995-1995",
+   "composite": 1.5,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 1
+   }
+  },
+  {
+   "name": "Matt Morrell",
+   "span": "1994-1994",
+   "composite": 1.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Rhasheyd Williams",
+   "span": "1994-1994",
+   "composite": 1.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jimmy Kibble",
+   "span": "1996-1999",
+   "composite": 1.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Thomas McClelland",
+   "span": "2003-2003",
+   "composite": 1.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tavante Beckett",
+   "span": "2016-2016",
+   "composite": 1.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Peduzzi",
+   "span": "1994-1994",
+   "composite": 1.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Bill Houseright",
+   "span": "1995-1995",
+   "composite": 1.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ryan Hash",
+   "span": "2004-2006",
+   "composite": 1.1,
+   "wmtVotes": {
+    "DB": 3
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Daryl Robertson",
+   "span": "2007-2007",
+   "composite": 1.1,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nick Dew",
+   "span": "2011-2011",
+   "composite": 1.1,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Michael Williams",
+   "span": "1994-1995",
+   "composite": 1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ranall White",
+   "span": "1994-1994",
+   "composite": 1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 1
+   }
+  },
+  {
+   "name": "Tim Wade",
+   "span": "1994-1996",
+   "composite": 1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jamie Forrest",
+   "span": "1997-1997",
+   "composite": 1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Scott Demler",
+   "span": "2010-2010",
+   "composite": 1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Curtis Williams",
+   "span": "2016-2016",
+   "composite": 1,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "CB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Shelly Ellison",
+   "span": "1996-1997",
+   "composite": 0.9,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 2
+   }
+  },
+  {
+   "name": "Lorenzo Williams",
+   "span": "2008-2008",
+   "composite": 0.9,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jimmie Taylor",
+   "span": "2016-2018",
+   "composite": 0.9,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {
+    "DE": 1,
+    "DT": 1,
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Shane Beamer",
+   "span": "1996-1999",
+   "composite": 0.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Manny Clemente",
+   "span": "1997-1997",
+   "composite": 0.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jim Ferugio",
+   "span": "1999-1999",
+   "composite": 0.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Bob Ruff",
+   "span": "2002-2004",
+   "composite": 0.8,
+   "wmtVotes": {
+    "DL": 3
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Pannell",
+   "span": "2002-2002",
+   "composite": 0.8,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Corey Price",
+   "span": "2006-2006",
+   "composite": 0.8,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nyke Johnson",
+   "span": "2022-2022",
+   "composite": 0.8,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Walter Ford",
+   "span": "1996-1996",
+   "composite": 0.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "KR": 1
+   }
+  },
+  {
+   "name": "Rashad Jenkins",
+   "span": "1998-1998",
+   "composite": 0.7,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Kyree Moyston",
+   "span": "2022-2022",
+   "composite": 0.7,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Atle Larsen",
+   "span": "1994-1995",
+   "composite": 0.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Steadley",
+   "span": "1997-1998",
+   "composite": 0.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Brian McPherson",
+   "span": "2003-2003",
+   "composite": 0.6,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chad Grimm",
+   "span": "2003-2005",
+   "composite": 0.6,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Maurice Sharpe",
+   "span": "2003-2003",
+   "composite": 0.6,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jake Patten",
+   "span": "2006-2006",
+   "composite": 0.6,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Boye Aromire",
+   "span": "2011-2011",
+   "composite": 0.6,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nathan Proctor",
+   "span": "2018-2018",
+   "composite": 0.6,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Robert Wooten",
+   "span": "2020-2020",
+   "composite": 0.6,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jacque Alleyne",
+   "span": "2015-2015",
+   "composite": 0.5,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cam Johnson",
+   "span": "2022-2022",
+   "composite": 0.5,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ken Landrum",
+   "span": "1994-1994",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Tom Harsanyi",
+   "span": "1994-1994",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Okesa Smith",
+   "span": "1995-1995",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Quinton Waller",
+   "span": "1995-1995",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jason Buckland",
+   "span": "1997-1998",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Dirk Taylor",
+   "span": "2001-2001",
+   "composite": 0.4,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Melvin Keihn",
+   "span": "2014-2014",
+   "composite": 0.4,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Nigel Simmons",
+   "span": "2020-2021",
+   "composite": 0.4,
+   "wmtVotes": {
+    "DL": 2
+   },
+   "srDefVotes": {
+    "DL": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mattheus Carroll",
+   "span": "2021-2021",
+   "composite": 0.4,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Ceasar",
+   "span": "2003-2004",
+   "composite": 0.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Cory Price",
+   "span": "2005-2005",
+   "composite": 0.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Theron Norman",
+   "span": "2011-2011",
+   "composite": 0.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ishmiel Seisay",
+   "span": "2018-2018",
+   "composite": 0.3,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Elijah Howard",
+   "span": "2021-2022",
+   "composite": 0.3,
+   "wmtVotes": {
+    "DB": 2
+   },
+   "srDefVotes": {
+    "DB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "A. Layne",
+   "span": "1994-1994",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Billy Conaty",
+   "span": "1994-1994",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Keith Gray",
+   "span": "1994-1994",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chad Vaughn",
+   "span": "1995-1995",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "John M. Thomas",
+   "span": "1995-1995",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 1
+   }
+  },
+  {
+   "name": "Aaron Layne",
+   "span": "1996-1996",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "RB": 1
+   }
+  },
+  {
+   "name": "Tony Joe",
+   "span": "1996-1996",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Robert Adams",
+   "span": "1997-1997",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Derald Bryant",
+   "span": "2000-2000",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Sam Fatherly",
+   "span": "2001-2001",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Lance Goff",
+   "span": "2002-2003",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Greg Kezmarsky",
+   "span": "2003-2005",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chris Burnett",
+   "span": "2004-2004",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Theodore Miller",
+   "span": "2005-2005",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Watson Stelly",
+   "span": "2006-2006",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jacob Gardner",
+   "span": "2007-2007",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Mario Edwards",
+   "span": "2007-2007",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Justin Young",
+   "span": "2008-2008",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Ron Cooper",
+   "span": "2010-2010",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Erikk Banks",
+   "span": "2015-2015",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "CB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Greg Jones",
+   "span": "2015-2015",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "S": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Alden Carpenter",
+   "span": "2016-2016",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "LB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jahque Alleyne",
+   "span": "2016-2016",
+   "composite": 0.2,
+   "wmtVotes": {},
+   "srDefVotes": {
+    "S": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jonathan Galante",
+   "span": "2016-2016",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jaden Cunningham",
+   "span": "2019-2019",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Jeremy Webb",
+   "span": "2019-2019",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Chase Blaker",
+   "span": "2020-2020",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Lakeem Rudolph",
+   "span": "2020-2020",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Gunner Givens",
+   "span": "2023-2023",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Deric Dandy",
+   "span": "2025-2025",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Gerard Johnson",
+   "span": "2025-2025",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Zeke Chinwike",
+   "span": "2025-2025",
+   "composite": 0.2,
+   "wmtVotes": {
+    "DL": 1
+   },
+   "srDefVotes": {
+    "DL": 1
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "C Mummau",
+   "span": "2017-2017",
+   "composite": 0.1,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Robbie Colley",
+   "span": "1994-1994",
+   "composite": 0,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "P": 1
+   }
+  },
+  {
+   "name": "John I.Thomas",
+   "span": "1995-1995",
+   "composite": 0,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "John Thomas",
+   "span": "1996-1996",
+   "composite": 0,
+   "wmtVotes": {},
+   "srDefVotes": {},
+   "srOffVotes": {
+    "P": 1
+   }
+  }
+ ]
+}

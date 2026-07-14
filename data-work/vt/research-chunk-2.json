@@ -1,0 +1,323 @@
+[
+{
+"name": "Michael Stuewe",
+"years": "1995-1997",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1996,
+"rec": 25,
+"recYds": 385,
+"recTD": 5,
+"tackles": 4
+}
+},
+{
+"name": "Noland Burchette",
+"years": "2003-2006",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2006,
+"tackles": 44,
+"tfl": 7.5,
+"sacks": 3.5,
+"ff": 1
+}
+},
+{
+"name": "Kerwin Hairston",
+"years": "1995-1997",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1997,
+"tackles": 69,
+"tfl": 3,
+"sacks": 3.5,
+"pbu": 1
+}
+},
+{
+"name": "Carl Bradley",
+"years": "1996-1999",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1998,
+"tackles": 71,
+"tfl": 3,
+"sacks": 3.5
+}
+},
+{
+"name": "Chris Cyrus",
+"years": "1996-1999",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1999,
+"tackles": 57,
+"tfl": 4,
+"sacks": 3,
+"ff": 2
+}
+},
+{
+"name": "Kevin Lewis",
+"years": "2000-2004",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2002,
+"tackles": 49,
+"tfl": 5,
+"sacks": 1,
+"pbu": 1,
+"ff": 1
+}
+},
+{
+"name": "Vincent Fuller",
+"years": "2001-2004",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2003,
+"tackles": 56,
+"defInt": 1,
+"pbu": 7,
+"ff": 2
+}
+},
+{
+"name": "Jim Baron",
+"years": "1994-1995",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 52,
+"tfl": 3,
+"sacks": 2
+}
+},
+{
+"name": "Anthony Midget",
+"years": "1996-1999",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1997,
+"tackles": 48,
+"tfl": 1,
+"pbu": 4
+}
+},
+{
+"name": "Kam Chancellor",
+"years": "2006-2009",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2007,
+"tackles": 79,
+"tfl": 1,
+"sacks": 0.5,
+"defInt": 1,
+"pbu": 7,
+"ff": 1
+}
+},
+{
+"name": "Cole Nelson",
+"years": "2021-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2023,
+"rushYds": 18,
+"tackles": 27,
+"tfl": 7.5,
+"sacks": 4.5,
+"ff": 1
+}
+},
+{
+"name": "Antonio Banks",
+"years": "1994-1996",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1994,
+"tackles": 77,
+"pbu": 1,
+"ff": 1
+}
+},
+{
+"name": "Pierson Prioleau",
+"years": "1995-1998",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1997,
+"tackles": 81,
+"tfl": 2,
+"sacks": 1,
+"defInt": 1,
+"pbu": 4,
+"ff": 1
+}
+},
+{
+"name": "Nick Sorensen",
+"years": "1997-2000",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1998,
+"rushYds": 90,
+"passYds": 306,
+"passTD": 2,
+"passInt": 6,
+"tackles": 5
+}
+},
+{
+"name": "Chad Beasley",
+"years": "1998-2001",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2000,
+"tackles": 58,
+"tfl": 8,
+"sacks": 1,
+"defInt": 1,
+"pbu": 5
+}
+},
+{
+"name": "Carlton Powell",
+"years": "2004-2007",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2007,
+"tackles": 39,
+"tfl": 7,
+"sacks": 3.5
+}
+},
+{
+"name": "Larry Green",
+"years": "1994-1997",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 1994,
+"tackles": 36,
+"tfl": 2,
+"defInt": 1,
+"pbu": 5
+}
+},
+{
+"name": "Phillip Summers",
+"years": "1997-2000",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2000,
+"tackles": 66,
+"tfl": 4,
+"sacks": 2,
+"defInt": 1,
+"pbu": 3
+}
+},
+{
+"name": "Waverly Jackson",
+"years": "1994-1996",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1995,
+"tackles": 71,
+"tfl": 3,
+"sacks": 1,
+"pbu": 3
+}
+},
+{
+"name": "Norell Pollard",
+"years": "2019-2023",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2020,
+"tackles": 30,
+"tfl": 4.5,
+"sacks": 2.5,
+"ff": 1
+}
+},
+{
+"name": "James Griffin",
+"years": "2003-2004",
+"constraint": "CB or S",
+"sampleSeason": {
+"year": 2004,
+"tackles": 56,
+"tfl": 3.5,
+"sacks": 0.5,
+"defInt": 1,
+"pbu": 5,
+"ff": 1
+}
+},
+{
+"name": "DaShawn Crawford",
+"years": "2019-2020",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2019,
+"tackles": 27,
+"tfl": 6,
+"sacks": 3.5,
+"defInt": 1,
+"pbu": 1,
+"ff": 1
+}
+},
+{
+"name": "Ryan Smith",
+"years": "1997-1998",
+"constraint": "unknown (any of QB/RB/WR/TE/DE/DT/LB/CB/S)",
+"sampleSeason": {
+"year": 1998,
+"tackles": 41,
+"tfl": 3,
+"sacks": 4,
+"pbu": 2
+}
+},
+{
+"name": "Tim Sandidge",
+"years": "2002-2005",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2003,
+"tackles": 47,
+"tfl": 3,
+"sacks": 1,
+"pbu": 2
+}
+},
+{
+"name": "Wilfried Pene",
+"years": "2021-2024",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2024,
+"tackles": 33,
+"tfl": 5.5,
+"sacks": 3.5,
+"pbu": 1
+}
+},
+{
+"name": "Cordarrow Thompson",
+"years": "2006-2009",
+"constraint": "DE or DT",
+"sampleSeason": {
+"year": 2008,
+"tackles": 27,
+"tfl": 6.5,
+"sacks": 3,
+"pbu": 1,
+"ff": 1
+}
+}
+]

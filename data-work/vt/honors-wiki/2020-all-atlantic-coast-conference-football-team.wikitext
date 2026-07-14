@@ -1,0 +1,4656 @@
+<!-- source: https://en.wikipedia.org/wiki/2020_All-Atlantic_Coast_Conference_football_team -->
+{{Use mdy dates|date=August 2023}}
+{{Infobox sports season
+| title             = 2020 ACC Football season
+| color             = #013ac6
+| color text        = #ffffff
+| league            = [[NCAA Division I Football Bowl Subdivision]] 
+| sport             = [[College football|Football]]
+| logo              = Atlantic Coast Conference logo.svg
+| logo_size         = 200px
+| caption           = 
+| duration          = September 3, 2020, to January 2, 2021
+| no_of_teams       = 15
+| TV                 = [[ESPN|ESPN Family]], ([[ESPN College Football on ABC|ABC]], [[ESPN College Football|ESPN]], [[ESPN2]], [[ACC Network]]), [[Fox Sports Networks]]
+| draft             = 2021 NFL Draft
+| draft_link        = 2021 NFL Draft
+| top_pick          = [[Trevor Lawrence]] – ([[Clemson Tigers football|Clemson]])
+| picked_by         = [[Jacksonville Jaguars]], [[List of first overall National Football League draft picks|1st overall]]
+| season            = Regular season
+| MVP               =
+| MVP_link          = awards
+| season_champs     = [[2020 Notre Dame Fighting Irish football team|Notre Dame]]
+| second_place      = [[2020 Clemson Tigers football team|Clemson]]
+| finals            = ACC Championship Game
+| finals_link       = 2020 ACC Championship Game
+| finals_champ      = Clemson
+| finals_runner-up  = Notre Dame
+| finals_MVP        = [[Trevor Lawrence]], Clemson
+| finals_MVP_link   =
+| prevseason_link   = 2019 Atlantic Coast Conference football season
+| prevseason_year   = 2019
+| nextseason_link   = 2021 Atlantic Coast Conference football season
+| nextseason_year   = 2021
+}}
+{{2020 ACC football standings}}
+
+The '''2020 Atlantic Coast Conference football season''', part of the [[2020 NCAA Division I FBS football season]], was the 68th season of [[college football]] play for the [[Atlantic Coast Conference]] (ACC). It began on September 3, 2020, and ended in January 2021. For 2020, the ACC consisted of 15 members in one division.<ref name="postpone">{{cite web|url=https://theacc.com/news/2020/7/29/general-acc-announces-plans-for-football-and-fall-olympic-sports.aspx|title=ACC Announces Plans for Football and Fall Olympic Sports|website=theacc.com|publisher=The Atlantic Coast Conference|date=July 29, 2020|access-date=July 30, 2020}}</ref>
+
+The original 2020 schedule was released on January 22, 2020.<ref>{{cite web|url=http://theacc.com/news/2020/1/21/acc-announces-2020-football-schedule.aspx|title=2020 ACC Football Schedule Released|website=ACC Sports.com|date=January 22, 2020|access-date=January 22, 2020}}</ref>  On July 29, a revised concept of the schedule was released in the wake of the [[COVID-19 pandemic in the United States|COVID-19 pandemic]].  It was announced that teams would play a ten-game conference schedule, which would include [[Notre Dame Fighting Irish football|Notre Dame]].  An option was left for one out-of-conference game, provided that game was played in the home state of the ACC school.<ref name="postpone"/>
+
+==Preseason==
+
+===ACC Kickoff===
+
+Due to the [[COVID-19 pandemic in the United States|COVID-19 pandemic]], the ACC announced that its 2020 Football Kickoff would be held virtually instead of at the Westin in [[Charlotte, North Carolina]].  The Kickoff was scheduled for July 21–23, 2020.<ref>{{cite web|url=https://theacc.com/news/2020/6/17/2020-acc-football-kickoff-to-be-conducted-virtually.aspx|title=2020 ACC Football Kickoff to be Conducted Virtually|website=theacc.com|publisher=The Atlantic Coast Conference|date=June 18, 2020|access-date=June 24, 2020}}</ref>  On July 13, it was announced that the Kickoff was postponed until further notice.<ref>{{cite web|url=https://theacc.com/news/2020/7/13/football-acc-virtual-kickoff-postponed.aspx|title=Virtual ACC Football Kickoff Postponed|website=theacc.com|publisher=The Atlantic Coast Conference|date=July 13, 2020|access-date=July 17, 2020}}</ref>  On September 4, 2020, the ACC Preseason Media Poll was released.<ref name="pre">{{cite web|url=https://theacc.com/news/2020/9/4/clemson-leads-2020-acc-preseason-football-selections.aspx|title=Clemson Leads 2020 ACC Preseason Football Selections|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 4, 2020|access-date=September 14, 2020}}</ref>
+
+{| class="wikitable" style="display: inline-table;"
+|- align="center"
+{{CollegePrimaryHeader|team=Atlantic Coast Conference|Predicted finish|Team|Votes (1st place)}}
+|- align="center"
+| 1
+| Clemson
+| 2,008 (132)
+|- align="center"
+| 2
+| Notre Dame
+| 1,824 (2)
+|- align="center"
+| 3
+| North Carolina
+| 1,682
+|- align="center"
+| 4
+| Louisville
+| 1,434
+|- align="center"
+| 5
+| Virginia Tech
+| 1,318
+|- align="center"
+| 6
+| Miami
+| 1,280
+|- align="center"
+| 7
+| Florida State
+| 1,177
+|- align="center"
+| 8
+| Pittsburgh
+| 1,132
+|- align="center"
+| 9
+| Virginia
+| 994
+|- align="center"
+| 10
+| Wake Forest
+| 659
+|- align="center"
+| 11
+| NC State
+| 634
+|- align="center"
+| 12
+| Duke
+| 618
+|- align="center"
+| 13
+| Boston College
+| 532
+|- align="center"
+| 14
+| Syracuse
+| 449
+|- align="center"
+| 15
+| Georgia Tech
+| 339
+|}
+
+====Preseason ACC Player of the Year====
+
+Source:<ref name="pre"/>
+
+{| class="wikitable" style="text-align: center;"
+! Ranking !! Player !! Position !! Team !! Votes
+|-
+| 1
+| [[Trevor Lawrence]]
+| QB
+| rowspan=2 | [[2020 Clemson Tigers football team|Clemson]]
+| 100
+|-
+| 2
+| [[Travis Etienne]]
+| RB
+| 30
+|-
+| rowspan=4 | 3
+| [[Sam Howell]]
+| QB
+| rowspan=2 | [[2020 North Carolina Tar Heels football team|North Carolina]]
+| rowspan=4 | 1
+|-
+| [[Chazz Surratt]]
+| LB
+|-
+| [[Ian Book]]
+| QB
+| [[2020 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| [[Carlos Basham Jr.]]
+| DE
+| [[2020 Wake Forest Demon Deacons football team|Wake Forest]]
+|}
+
+====Preseason All-Conference Teams====
+
+=====Offense=====
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="3" | [[Wide receiver]]
+| [[Tamorrion Terry]]
+! | Florida State
+| 100
+|-
+| [[Tutu Atwell]]
+!| Louisville
+| 96
+|-
+| [[Dazz Newsome]]
+! | North Carolina
+| 75
+|-
+! rowspan="1" | [[Tight end]]
+| [[Brevin Jordan]]
+!| Miami
+| 77
+|-
+! rowspan="1" | Advanced Playmaker
+| [[Michael Carter (running back)|Michael Carter]]
+! | North Carolina
+| 82
+|-
+! rowspan="2" | [[Offensive tackle|Tackle]]
+| [[Jackson Carman]]
+! | Clemson
+| 64
+|-
+| Ben Petrula
+!| Boston College
+| 61
+|-
+! rowspan="2" | [[Guard (American football)|Guard]]
+| [[Zion Johnson]]
+!| Boston College
+| 78
+|-
+| [[Aaron Banks (American football)|Aaron Banks]]
+!| Notre Dame
+| 34
+|-
+! rowspan="1" | [[Center (American football)|Center]]
+| [[Jimmy Morrissey]]
+! | Pittsburgh
+| 80
+|-
+! rowspan="1" | [[Quarterback]]
+| [[Trevor Lawrence]]
+!| Clemson
+| 131
+|-
+! rowspan="2" | [[Running back]]
+| [[Travis Etienne]]
+!| Clemson
+| 133
+|-
+| [[Javian Hawkins]]
+!| Louisville
+| 80
+|}
+
+=====Defense=====
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="2" | [[Defensive end]]
+| [[Carlos Basham Jr.]]
+! | Wake Forest
+| 89
+|-
+| [[Patrick Jones II]]
+! | Pittsburgh
+| 37
+|-
+! rowspan="2" | [[Defensive tackle]]
+| [[Marvin Wilson (American football)|Marvin Wilson]]
+! | Florida State
+| 108
+|-
+| [[Tyler Davis (defensive lineman)|Tyler Davis]]
+! | Clemson
+| 75
+|-
+! rowspan="3" | [[Linebacker]]
+| [[Chazz Surratt]]
+! | North Carolina
+| 106
+|-
+| Rayshard Ashby
+!| Virginia Tech
+| 66
+|-
+| [[Jeremiah Owusu-Koramoah]]
+!| Notre Dame
+| 47
+|-
+! rowspan="2" | [[Cornerback]]
+| [[Asante Samuel Jr.]]
+! | Florida State
+| 90
+|-
+| [[Derion Kendrick]]
+!| Clemson
+| 85
+|-
+! rowspan="2" | [[Safety (American football position)|Safety]]
+| [[Paris Ford]]
+! | Pittsburgh
+| 62
+|-
+| [[Hamsah Nasirildeen]]
+! | Florida State
+| 56
+|}
+
+=====Specialist=====
+{| class="wikitable" style="text-align: center;"
+! Position !! Player !! School !! Votes
+|-
+! rowspan="1" | [[Placekicker]]
+| Nick Sciba
+! | Wake Forest
+| 69
+|-
+! rowspan="1" | [[Punter (American football)|Punter]]
+| [[Trenton Gill]]
+! | NC State
+| 43
+|-
+! rowspan="1" | [[Kickoff returner|Specialist]]
+| Damond Philyaw-Johnson
+! | Duke
+| 48
+|}
+
+Source:<ref name="pre"/>
+
+===Recruiting classes===
+{| class="wikitable sortable" style="text-align:center"
+|+ Rankings
+! Team
+! ESPN<ref>{{cite web|url=http://insider.espn.com/college-sports/football/recruiting/classrankings?class=2020|title=2020 Football Class Rankings|publisher=ESPN|date=February 14, 2019|access-date=February 27, 2019}}</ref>
+! Rivals<ref>{{cite web|url=https://n.rivals.com/team_rankings/2019/all-teams/football|title=2019 Team Rankings|website=rivals.com|access-date=January 15, 2020}}</ref>
+! 24/7<ref>{{cite web|url=https://247sports.com/Season/2020-Football/CompositeTeamRankings|title=2020 Football Recruiting Composite Team Rankings|website=247sports.com|access-date=January 15, 2020|date=January 15, 2020}}</ref>
+!Signees
+|-
+| | '''Boston College'''
+| 60
+| 63
+| 65
+| 13
+|- 
+| | '''Clemson'''
+| 1
+| 1
+| 1
+| 23
+|- 
+| | '''Duke'''
+| 42
+| 58
+| 53
+| 17
+|- 
+| | '''Florida State'''
+| 22
+| 22
+| 21
+| 18
+|- 
+| | '''Georgia Tech'''
+| 27
+| 23
+| 26
+| 24
+|- 
+| | '''Louisville'''
+| 33
+| 37
+| 39
+| 25
+|- 
+| | '''Miami'''
+| 19
+| 16
+| 17
+| 19
+|- 
+| | '''North Carolina'''
+| 17
+| 17
+| 19
+| 26
+|- 
+| | '''NC State'''
+| 31
+| 45
+| 42
+| 19
+|- 
+| | '''Pittsburgh'''
+| 44
+| 47
+| 41
+| 17
+|- 
+| | '''Syracuse'''
+| 58
+| 53
+| 58
+| 19
+|- 
+| | '''Virginia'''
+| 48
+| 55
+| 50
+| 14
+|- 
+| | '''Virginia Tech'''
+| 70
+| 80
+| 63
+| 15
+|- 
+| | '''Wake Forest'''
+| 54
+| 58
+| 57
+| 19
+|}
+
+==Coaches==
+
+=== Coaching changes ===
+The ACC entered the 2020 season with two new head football coaches:
+
+* On November 4, 2019, Florida State head coach [[Willie Taggart]] was fired<ref>{{cite web|url=https://www.usatoday.com/story/sports/ncaaf/2019/11/03/fsu-football-willie-taggart-fired-second-season/4150435002/|title=Florida State football fires head coach Willie Taggart during second season|work=USA Today|date=November 3, 2019|access-date=January 22, 2020}}</ref> and replaced by [[Mike Norvell]] on December 7, 2019.<ref>{{cite news|url=https://www.espn.com/college-football/story/_/id/28246814/mike-norvell-hired-florida-state-new-coach|title=Mike Norvell hired as Florida State's new coach|first=Adam|last=Rittenberg|access-date=December 26, 2018}}</ref>
+* On December 1, 2019, Boston College head coach [[Steve Addazio]] was fired after seven seasons and a  starting the season 2–8.<ref>{{cite web|url=https://www.si.com/college/bostoncollege/football/steve-addazio-fired-by-boston-college|title=Report: Head Coach Steve Addazio Fired After Seven Years At Boston College|website=Sports Illustrated|first=A.J.|last=Black|date=December 1, 2019|access-date=January 15, 2020}}</ref> [[Jeff Hafley]] was named head coach on December 14, 2019.<ref>{{cite web |title=Boston College Names Jeff Hafley Head Football Coach |url=https://bceagles.com/news/2019/12/14/boston-college-names-jeff-hafley-head-football-coach.aspx |language=en}}</ref>
+
+=== Head coaching records ===
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! width="110" | Team
+! Head coach
+! Years at school
+! Overall record
+! Record at school
+! ACC record
+|-
+!| Boston College
+| [[Jeff Hafley]]
+| 1
+| 0–0
+| 0–0
+| 0–0
+|-
+!| Clemson
+| [[Dabo Swinney]]
+| 13
+| 130–31
+| 130–31
+| 77–16
+|-
+!| Duke
+| [[David Cutcliffe]]
+| 13 
+| 116–108
+| 72–79
+| 34–62
+|-
+!| Florida State
+| [[Mike Norvell]]
+| 1
+| 38–15
+| 0–0
+| 0–0
+|-
+!| Georgia Tech
+| [[Geoff Collins (American football)|Geoff Collins]]
+| 2
+| 18–19
+| 3–9
+| 2–6
+|-
+!| Louisville
+| [[Scott Satterfield]]
+| 2
+| 59–29
+| 8–5
+| 5–3
+|-
+!| Miami
+| [[Manny Diaz (American football)|Manny Diaz]]
+| 2
+| 6–7
+| 6–7
+| 4–4
+|-
+!| North Carolina
+| [[Mack Brown]]
+| 12
+| 251–128–1
+| 76–52–1
+| 44–39–1
+|-
+!| {{nowrap|North Carolina State}}
+| [[Dave Doeren]]
+| 8
+| 70–46
+| 47–42
+| 21–35
+|-
+!| Pittsburgh
+| [[Pat Narduzzi]]
+| 6
+| 36–29
+| 36–29
+| 24–16
+|-
+!| Syracuse
+| [[Dino Babers]]
+| 5
+| 60–42
+| 23–26 
+| 12–20
+|-
+!| Virginia
+| [[Bronco Mendenhall]]
+| 5
+| 124–70
+| 25–27
+| 14–18
+|-
+!| Virginia Tech
+| [[Justin Fuente]]
+| 5
+| 59–43
+| 33–20
+| 20–12
+|-
+!| Wake Forest
+| [[Dave Clawson]]
+| 7
+| 126–119
+| 36–40
+| 16–32
+|}
+
+''Notes''
+*Records shown are prior to the 2020 season
+*Years at school includes the 2020 season
+
+==Rankings==
+{{See also|2020 NCAA Division I FBS football rankings}}
+
+{| align=right style="font-size:90%; border:1px solid #aaaaaa; white-space:nowrap; background:#eeeeee;" 
+|+ '''Legend'''
+|-
+| style="background:#d8ffeb; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| rowspan=5 | &nbsp;
+| Improvement in ranking
+|-
+| style="background:#ffe6e6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Drop in ranking
+|-
+| style="background:#ffffe6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Not ranked previous week
+|-
+| align=center style="width:20px; border:1px solid #aaaaaa; background:white;" | RV
+| Received votes but were not ranked in Top 25 of poll
+|-
+<!-- | т
+| Tied with team above or below also with this symbol
+|- 
+-->
+|}
+
+{| class="wikitable" style="white-space:nowrap;font-size:90%;"  
+|- 
+! colspan=2 style="background:white; border-top-style:hidden; border-left-style:hidden;" |&nbsp; !! Pre !! Wk<br/>2 !! Wk<br/>3 !! Wk<br/>4 !! Wk<br/>5 !! Wk<br/>6 !! Wk<br/>7 !! Wk<br/>8 !! Wk<br/>9 !! Wk<br/>10 !! Wk<br/>11 !! Wk<br/>12 !! Wk<br/>13 !! Wk<br/>14 !! Wk<br/>15 !! Wk<br/>16 !! Final
+|- style="text-align:center;"
+! rowspan=3 |'''Boston College'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#d8ffeb;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#d8ffeb;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#d8ffeb;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Clemson'''
+! AP  
+| style="background:#FFF;" | 1 ''(38)''
+| style="background:#FFF;" | 1 ''(60)''
+| style="background:#FFF;" | 1 ''(59)''
+| style="background:#FFF;" | 1 ''(55)''
+| style="background:#FFF;" | 1 ''(52)''
+| style="background:#FFF;" | 1 ''(59)''
+| style="background:#FFF;" | 1 ''(54)''
+| style="background:#FFF;" | 1 ''(52)''
+| style="background:#FFF;" | 1 ''(33)''
+| style="background:#ffe6e6;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#d8ffeb;" | 2
+| style="background:#ffe6e6;" | 3
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 1 ''(38)''
+| style="background:#FFF;" | 1 ''(37)''
+| style="background:#FFF;" | 1 ''(44)''
+| style="background:#FFF;" | 1 ''(42)''
+| style="background:#FFF;" | 1 ''(46)''
+| style="background:#FFF;" | 1 ''(55)''
+| style="background:#FFF;" | 1 ''(52)''
+| style="background:#FFF;" | 1 ''(52)''
+| style="background:#FFF;" | 1 ''(43)''
+| style="background:#ffe6e6;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#d8ffeb;" | 3
+| style="background:#FFF;" | 3 
+| style="background:#FFF;" | 3
+| style="background:#d8ffeb;" | 2
+| style="background:#ffe6e6;" | 3
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 3
+| style="background:#FFF;" | 3
+| style="background:#FFF;" | 3
+| style="background:#FFF;" | 3
+| style="background:#d8ffeb;" | 2
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Duke'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Florida State'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Georgia Tech'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Louisville'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 18
+| style="background:#ffe6e6;" | 24
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 16
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Miami'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 17
+| style="background:#d8ffeb;" | 12
+| style="background:#d8ffeb;" | 8
+| style="background:#d8ffeb;" | 7
+| style="background:#ffe6e6;" | 13
+| style="background:#d8ffeb;" | 11
+| style="background:#ffe6e6;" | 12
+| style="background:#d8ffeb;" | 11
+| style="background:#d8ffeb;" | 9
+| style="background:#ffe6e6;" | 12
+| style="background:#d8ffeb;" | 10
+| style="background:#d8ffeb;" | 9 
+| style="background:#FFF;" | 9
+| style="background:#ffe6e6;" | 19
+| style="background:#d8ffeb;" | 18
+| style="background:#ffe6e6;" | 22
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 18
+| style="background:#d8ffeb;" | 14
+| style="background:#d8ffeb;" | 8
+| style="background:#d8ffeb;" | 7
+| style="background:#ffe6e6;" | 12
+| style="background:#d8ffeb;" | 11
+| style="background:#ffe6e6;" | 12
+| style="background:#d8ffeb;" | 10
+| style="background:#d8ffeb;" | 9
+| style="background:#FFF;" | 9
+| style="background:#FFF;" | 9
+| style="background:#FFF;" | 9
+| style="background:#d8ffeb;" | 8
+| style="background:#ffe6e6;" | 19
+| style="background:#d8ffeb;" | 18
+| style="background:#ffe6e6;" | 22
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 10
+| style="background:#FFF;" | 10
+| style="background:#FFF;" | 10
+| style="background:#ffe6e6;" | 18 
+| style="background:#FFF;" | 18
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''North Carolina'''
+! AP   
+| style="background:#FFF;" | 18
+| style="background:#d8ffeb;" | 12
+| style="background:#d8ffeb;" | 11
+| style="background:#ffe6e6;" | 12
+| style="background:#d8ffeb;" | 8
+| style="background:#d8ffeb;" | 5
+| style="background:#ffe6e6;" | 14
+| style="background:#ffe6e6;" | 15
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 25
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 20
+| style="background:#d8ffeb;" | 16
+| style="background:#d8ffeb;" | 14
+| style="background:#ffe6e6;" | 18
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 19
+| style="background:#d8ffeb;" | 11
+| style="background:#ffe6e6;" | 12
+| style="background:#d8ffeb;" | 11
+| style="background:#d8ffeb;" | 9
+| style="background:#d8ffeb;" | 6
+| style="background:#ffe6e6;" | 13
+| style="background:#FFF;" | 13
+| style="background:#ffe6e6;" | 24
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 24
+| style="background:#d8ffeb;" | 23
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 20
+| style="background:#d8ffeb;" | 15
+| style="background:#d8ffeb;" | 14
+| style="background:#ffe6e6;" | 17 
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 19
+| style="background:#d8ffeb;" | 17
+| style="background:#FFF;" | 17
+| style="background:#d8ffeb;" | 15
+| style="background:#d8ffeb;" | 13
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''NC State'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 23
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 24
+| style="background:#FFF;" | 24
+| style="background:#ffe6e6;" | RV
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 22
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 24
+| style="background:#d8ffeb;" | 23
+| style="background:#d8ffeb;" | 22
+| style="background:#ffe6e6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | 23
+| style="background:#d8ffeb;" | 22
+| style="background:#ffe6e6;" | 23
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Notre Dame'''
+! AP  
+| style="background:#FFF;" | 10
+| style="background:#d8ffeb;" | 7
+| style="background:#FFF;" | 7
+| style="background:#d8ffeb;" | 5
+| style="background:#FFF;" | 5
+| style="background:#d8ffeb;" | 4
+| style="background:#d8ffeb;" | 3
+| style="background:#ffe6e6;" | 4
+| style="background:#FFF;" | 4
+| style="background:#d8ffeb;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#ffe6e6;" | 4
+| style="background:#ffe6e6;" | 5
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 10
+| style="background:#d8ffeb;" | 7
+| style="background:#FFF;" | 7
+| style="background:#d8ffeb;" | 5
+| style="background:#FFF;" | 5
+| style="background:#d8ffeb;" | 4
+| style="background:#d8ffeb;" | 3
+| style="background:#ffe6e6;" | 4
+| style="background:#FFF;" | 4
+| style="background:#d8ffeb;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2 
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2 (''2'')
+| style="background:#ffe6e6;" | 4
+| style="background:#ffe6e6;" | 5 
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#FFF;" | 2
+| style="background:#ffe6e6;" | 4
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Pittsburgh'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | 25
+| style="background:#d8ffeb;" | 21
+| style="background:#ffe6e6;" | 24
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 25
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Syracuse'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia Tech'''
+! AP  
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 20
+| style="background:#FFF;" | 20
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 19
+| style="background:#ffe6e6;" | 23
+| style="background:#d8ffeb;" | 19
+| style="background:#ffe6e6;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 24
+| style="background:#d8ffeb;" | 19
+| style="background:#ffe6e6;" | 24
+| style="background:#d8ffeb;" | 23
+| style="background:#d8ffeb;" | 18
+| style="background:#ffe6e6;" | 23
+| style="background:#d8ffeb;" | 20
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Wake Forest'''
+! AP  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+|- style="text-align:center;"
+!CFP
+| colspan=11 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |  
+| style="background:#FFF;" |  
+| style="background:#999;" | 
+|}
+
+==Schedule==
+{|class="wikitable"
+|-
+!Index to colors and formatting
+|- style="background:#cfc;"
+|ACC member won
+|- style="background:#fcc;"
+|ACC member lost
+|-
+|ACC teams in '''bold'''
+|}
+
+===Regular season===
+The regular season began on September 10 and ended on December 5. The ACC Championship game was played on December 19.<ref>{{cite web|url=https://theacc.com/documents/2020/8/6/2020_Composite_Football_Schedule_2.pdf?id=1170|title=2020 Composite Football Schedule|website=theacc.com|publisher=The Atlantic Coast Conference|date=August 6, 2020|access-date=August 6, 2020}}</ref>
+
+====Week one====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|September 10|Thursday}}
+| time          = 8:00 p.m.
+| visiting_team = [[2020 UAB Blazers football team|UAB]]
+| visiting_rank = 
+| home_rank     = 
+| home_team     = '''[[2020 Miami Hurricanes football team|Miami (FL)]]'''
+| site_stadium  = [[Hard Rock Stadium]]
+| site_cityst   = [[Miami Gardens, Florida|Miami Gardens, FL]]
+| tv            = [[ACC Network|ACCN]]
+| score         = 31–14
+| overtime      = 
+| attend        = 8,153
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 12
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''[[2020 Syracuse Orange football team|Syracuse]]'''
+| visiting_rank = 
+| home_rank     = 18
+| home_team     = '''[[2020 North Carolina Tar Heels football team|North Carolina]]'''
+| site_stadium  = [[Kenan Memorial Stadium]]
+| site_cityst   = [[Chapel Hill, North Carolina|Chapel Hill, NC]]
+| tv            = ACCN
+| score         = '''UNC''' 31–6
+| overtime      = 
+| attend        = 0 ([[Behind closed doors (sport)|Behind closed doors]])
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 12
+| time          = 2:30 p.m.
+| visiting_team = '''[[2020 Duke Blue Devils football team|Duke]]'''
+| home_rank     = 10
+| home_team     = '''[[2020 Notre Dame Fighting Irish football team|Notre Dame]]'''
+| site_stadium  = [[Notre Dame Stadium]]
+| site_cityst   = [[Notre Dame, Indiana|Notre Dame, IN]]
+| tv            = [[Notre Dame Football on NBC|NBC]]
+| score         = '''ND''' 27–13
+| overtime      = 
+| attend        = 10,097
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 12
+| time          = 3:30 p.m.
+| visiting_team = '''[[2020 Georgia Tech Yellow Jackets football team|Georgia Tech]]'''
+| home_team     = '''[[2020 Florida State Seminoles football team|Florida State]]'''
+| site_stadium  = [[Doak Campbell Stadium]]
+| site_cityst   = [[Tallahassee, Florida|Tallahassee, FL]]
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = '''GT''' 16–13
+| overtime      = 
+| attend        = 17,538
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 12
+| time          = 4:00 p.m.
+| visiting_team = [[2020 Austin Peay Governors football team|Austin Peay]]
+| home_team     = '''[[2020 Pittsburgh Panthers football team|Pittsburgh]]'''
+| site_stadium  = [[Heinz Field]]
+| site_cityst   = [[Pittsburgh, Pennsylvania|Pittsburgh, PA]]
+| tv            = ACCN
+| score         = 55–0
+| overtime      = 
+| attend        = 0 (Behind closed doors) 
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 12
+| time          = 7:30 p.m.
+| visiting_team = '''[[2020 Clemson Tigers football team|Clemson]]'''
+| visiting_rank = 1
+| home_team     = '''[[2020 Wake Forest Demon Deacons football team|Wake Forest]]'''
+| site_stadium  = [[Truist Field at Wake Forest]]
+| site_cityst   = [[Winston-Salem, North Carolina|Winston-Salem, NC]]
+| gamename      = ''[[College GameDay (football TV program)|College GameDay]]''
+| tv            = ABC
+| score         = '''CLEM''' 37–13
+| overtime      = 
+| attend        = 68
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 12
+| time          = 8:00 p.m.
+| visiting_team = [[2020 Western Kentucky Hilltoppers football team|Western Kentucky]]
+| home_team     = '''[[2020 Louisville Cardinals football team|Louisville]]'''
+| site_stadium  = [[Cardinal Stadium]]
+| site_cityst   = [[Louisville, Kentucky|Louisville, KY]]
+| tv            = ACCN
+| score         = 35–21
+| overtime      = 
+| attend        = 11,179
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4" |Bye Week
+|-
+|September 12 || Boston College || NC State || Virginia || Virginia Tech
+|}
+
+====Week two====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 19
+| time          = 12:00&nbsp;p.m.
+| visiting_rank =
+| visiting_team = '''Syracuse'''
+| home_rank     = 25
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      = [[Pittsburgh–Syracuse football rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''PITT''' 21–10
+| overtime      = 
+| attend        = 0 (Behind closed doors) 
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 19
+| time          = 12:00&nbsp;p.m.
+| visiting_rank =
+| visiting_team = '''[[2020 Boston College Eagles football team|Boston College]]'''
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = [[Wallace Wade Stadium]]
+| site_cityst   = [[Durham, North Carolina|Durham, NC]]
+| tv            = [[Regional Sports Network|RSN]]
+| score         = '''BC''' 26–6
+| overtime      = 
+| attend        = 0 (Behind closed doors) 
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 19
+| time          = 2:30 p.m.
+| visiting_rank =
+| visiting_team = [[2020 South Florida Bulls football team|South Florida]]
+| home_rank     = 7
+| home_team     = '''Notre Dame'''
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = South Bend, IN
+| tv            = [[USA Network|USA]]
+| score         = 52–0
+| overtime      = 
+| attend        = 10,085
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 19
+| time          = 3:30 p.m.
+| visiting_rank = 14
+| visiting_team = [[2020 UCF Knights football team|UCF]]
+| home_rank     = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = [[Bobby Dodd Stadium]]
+| site_cityst   = [[Atlanta|Atlanta, GA]]
+| tv            = ABC
+| score         = 21–49
+| overtime      = 
+| attend        = 11,000
+| source        =
+}}
+
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 19
+| time          = 4:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2020 The Citadel Bulldogs football team|The Citadel]]
+| home_rank     = 1
+| home_team     = '''Clemson'''
+| site_stadium  = [[Memorial Stadium (Clemson)|Memorial Stadium]]
+| site_cityst   = [[Clemson, South Carolina|Clemson, SC]]
+| tv            = ACCN
+| score         = 49–0
+| overtime      = 
+| attend        = 18,609
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 19
+| time          = 7:30 p.m.
+| visiting_rank = 17
+| visiting_team = '''Miami (FL)'''
+| home_rank     = 18
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ABC
+| gamename      = ''College GameDay''
+| score         = '''MIA''' 47–34
+| overtime      = 
+| attend        = 12,120
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 19
+| time          = 8:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 
+| home_team     = '''[[2020 NC State Wolfpack football team|NC State]]'''
+| site_stadium  = [[Carter–Finley Stadium]]
+| site_cityst   = [[Raleigh, North Carolina|Raleigh, NC]]
+| gamename      = [[NC State–Wake Forest rivalry|rivalry]]
+| tv            = ACCN
+| score         = '''NCSU''' 45–42
+| overtime      = 
+| attend        = 0 (Behind closed doors) 
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]|hc=yes}}
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4"|Bye Week
+|-
+| September 19 || Florida State || North Carolina || Virginia || No. 20 Virginia Tech
+|}
+
+====Week three====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 26
+| time          = 12:00&nbsp;p.m.
+| visiting_rank = 24
+| visiting_team = '''Louisville'''
+| home_rank     = 21
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heniz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''PITT''' 23–20
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 26
+| time          = 12:00&nbsp;p.m.
+| visiting_rank = 
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = [[Carrier Dome]]
+| site_cityst   = [[Syracuse, New York|Syracuse, NY]]
+| tv            = RSN
+| score         = '''CUSE''' 37–20
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 26 {{efn|name=COVID2|group=WK3|This game has been rescheduled from November 14, due to positive [[COVID-19]] tests on Virginia Tech football team.<ref>{{cite web|url=https://virginiasports.com/news/2020/09/12/uva-duke-football-game-moved-to-sept-26/|title=UVA-Duke Football Game Moved to Sept. 26|website=virginiasports.com|publisher=University of Virginia |date=August 26, 2020|access-date=September 12, 2020}}</ref>}}
+| time          = 4:00 p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = '''UVA''' 38–20
+| overtime      = 
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 26
+| time          = 6:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2020 Texas State Bobcats football team|Texas State]]
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = [[Alumni Stadium]]
+| site_cityst   = [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]]
+| tv            = RSN
+| score         = 24–21
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 26
+| time          = 7:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Florida State'''
+| home_rank     = 12
+| home_team     = '''Miami (FL)'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      = [[Florida State–Miami football rivalry|rivalry]], ''College GameDay''
+| tv            = ABC
+| score         = '''MIA''' 52–10
+| overtime      = 
+| attend        = 12,806
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 26 {{efn|name=COVID|group=WK3|This game has been rescheduled from September 12, due to positive [[COVID-19]] tests on the NC State team.<ref>{{cite web|url=https://theacc.com/news/2020/8/26/nc-state-at-virginia-tech-football-game-rescheduled.aspx|title=NC State at Virginia Tech Football Game Rescheduled|website=theacc.com|publisher=The Atlantic Coast Conference|date=August 26, 2020|access-date=August 26, 2020}}</ref>}}
+| time          = 8:00 p.m.
+| visiting_team = '''NC State'''
+| visiting_rank = 
+| home_rank     = 20
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''VT''' 45–24
+| overtime      = 
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]|hc=yes}}
+{{notelist|group=WK3}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="6" |Bye Week
+|-
+|September 26 || Clemson || North Carolina || No. 7 Notre Dame || Wake Forest
+|}
+
+====Week four====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = {{tooltip|October 2|Friday}}
+| time          = 7:00 p.m.
+| visiting_team = [[2020 Campbell Fighting Camels football team|Campbell]]
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Stadium at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| gamename      = 
+| tv            = ACCN
+| score         = 66–14
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 3
+| time          = 12:00&nbsp;p.m.
+| visiting_rank = 
+| visiting_team = '''NC State'''
+| home_rank     = 24
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''NCSU''' 30–29
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 3
+| time          = 3:30 p.m.
+| visiting_rank = 12
+| visiting_team = '''North Carolina'''
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ABC
+| score         = '''UNC''' 26–22
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 3
+| time          = 4:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = '''VT''' 38–31
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 3
+| time          = 4:00 p.m.
+| visiting_rank =
+| visiting_team = [[2020 Jacksonville State Gamecocks football team|Jacksonville State]]
+| home_rank     = 
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, Florida
+| tv            = RSN
+| score         = 41–24
+| overtime      = 
+| attend        = 13,589
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 3
+| time          = 8:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia'''
+| home_rank     = 1
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = '''CLEM''' 41–23
+| overtime      = 
+| attend        = 18,735
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="7"|Bye Week
+|-
+| October 3 || Georgia Tech || Louisville || No. 8 Miami (FL) || No. 5 Notre Dame || Syracuse
+|}
+
+====Week five====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|October 9|Friday}}
+| time          = 7:00 p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = 
+| tv            = ESPN
+| score         = '''GT''' 46–27
+| overtime      = 
+| attend        = 11,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 10
+| time          = 12:00&nbsp;p.m.
+| visiting_rank = 19
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 8
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = 
+| tv            = ABC
+| score         = '''UNC''' 56–45
+| overtime      = 
+| attend        = 3,535
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 10
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''NC State'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = 
+| tv            = ACCN
+| score         = '''NCSU''' 38–21
+| overtime      = 
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 10
+| time          = 12:30 p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = 
+| tv            = RSN
+| score         = '''DUKE''' 38–24
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 10
+| time          = 4:00 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = 
+| tv            = ACCN
+| score         = '''BC''' 31–30
+| overtime      = OT
+| attend        = 0 (Behind closed doors) 
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 10
+| time          = 7:30 p.m.
+| visiting_team = '''Florida State'''
+| home_rank     = 5
+| home_team     = '''Notre Dame'''
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = Notre Dame, IN
+| gamename      = 
+| tv            = NBC
+| score         = '''ND''' 42–26
+| overtime      = 
+| attend        = 10,409
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 10
+| time          = 7:30 p.m.
+| visiting_rank = 7
+| visiting_team = '''Miami (FL)'''
+| home_rank     = 1
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = ''College GameDay''
+| tv            = ABC
+| score         = '''CLEM''' 42–17
+| overtime      = 
+| attend        = 18,885
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="1"|Bye Week
+|-
+| October 10 || Wake Forest
+|}
+
+====Week six====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 17
+| time          = 12:00&nbsp;p.m.
+| visiting_team = [[2020 Liberty Flames football team|Liberty]]
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = RSN
+| score         = 21–38
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| visiting_rank = 1
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Clemson–Georgia Tech football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''CLEM''' 73-7
+| overtime      = 
+| attend        = 11,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Miami (FL)'''
+| home_rank     = 13
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = '''MIA''' 31–19
+| overtime      = 
+| attend        = 9,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 2:30 p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Notre Dame'''
+| home_rank     = 4
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = Notre Dame, IN
+| tv            = NBC
+| score         = '''ND''' 12–7
+| overtime      = 
+| attend        = 10,182
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 3:30 p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter-Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[Tobacco Road (rivalry)|Tobacco Road]]
+| tv            = RSN
+| score         = '''NCSU''' 31–20
+| overtime      = 
+| attend        = 4,032
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 4:00 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = ACCN
+| score         = '''WAKE''' 40–23
+| overtime      = 
+| attend        = 2,186
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 7:30 p.m.
+| visiting_team = '''North Carolina'''
+| visiting_rank = 5
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ABC
+| score         = '''FSU''' 31–28
+| overtime      = 
+| attend        = 18,016
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 17
+| time          = 8:00 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Virginia Tech'''
+| home_rank     = 23
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''VT''' 40–14
+| overtime      = 
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week seven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Clemson'''
+| home_rank     = 1
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = '''CLEM''' 47–21
+| overtime      = 
+| attend        = 18,629
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''NC State'''
+| visiting_rank = 23
+| home_team     = '''North Carolina'''
+| home_rank     = 14
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[North Carolina–NC State football rivalry|rivalry]]
+| tv            = [[ESPN College Football|ESPN]]
+| score         = '''UNC''' 48–21
+| attend        = 3,535
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = RSN
+| score         = '''LOU''' 48–16
+| overtime      = 
+| attend        = 11,465
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 3:30 p.m.
+| visiting_team = '''Notre Dame'''
+| visiting_rank = 3
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      = [[Notre Dame–Pittsburgh football rivalry|rivalry]]
+| tv            = ABC
+| score         = '''ND''' 45–3
+| overtime      = 
+| attend        = 5,451
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 3:30 p.m.
+| visiting_team = '''Virginia Tech'''
+| visiting_rank = 19
+| home_team     = '''Wake Forest'''
+| site_stadium  = Truist Field at Wake Forest
+| site_cityst   = Winston-Salem, NC
+| tv            = RSN
+| score         = '''WF''' 23–16
+| overtime      = 
+| attend        = 2,135
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 4:00 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCN
+| score         = '''BC''' 48–27
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 24
+| time          = 8:00 p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Miami (FL)'''
+| home_rank     = 11
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ACCN
+| score         = '''MIA''' 19–14
+| overtime      = 
+| attend        = 9,940
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="1"|Bye Week
+|-
+|October 24 || Duke
+|}
+
+====Week eight====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 31
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Boston College'''
+| home_rank     = 1
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[O'Rourke–McFadden Trophy]]
+| tv            = ABC
+| score         = '''CLEM''' 34–28
+| attend        = 18,690
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 31
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = '''WAKE''' 38–14
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 31
+| time          = 3:30 p.m.
+| visiting_rank = 4
+| visiting_team = '''Notre Dame'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = ABC
+| score         = '''ND''' 31–13
+| attend        = 11,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 31
+| time          = 4:00 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''VT''' 42–35
+| attend        = 11,901
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = October 31
+| time          = 7:00 p.m.
+| visiting_team = [[2020 Charlotte 49ers football team|Charlotte]]
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = RSN
+| score         = 53–19
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 31
+| time          = 8:00 p.m.
+| visiting_rank = 15
+| visiting_team = '''North Carolina'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = [[South's Oldest Rivalry]]
+| tv            = ACCN
+| score         = '''UVA''' 44–41
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4"|Bye Week
+|-
+|October 31 || Florida State || No. 12 Miami (FL) || NC State || Pittsburgh
+|}
+
+====Week nine====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 6|Friday}}
+| time          = 7:30 p.m.
+| visiting_rank = 11
+| visiting_team = '''Miami (FL)'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ESPN
+| score         = '''MIA''' 44–41
+| attend        = 4,032
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 7
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''North Carolina'''
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      = [[Victory Bell (Duke–North Carolina)|Victory Bell]]
+| tv            = [[ESPN College Football|ESPN2]]
+| score         = '''UNC''' 56–24
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 7
+| time          = 12:00&nbsp;p.m.
+| visiting_team = Liberty
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = 35–38
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 7
+| time          = 2:00 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = rivalry
+| tv            = RSN
+| score         = '''BC''' 16–13
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 7
+| time          = 4:00 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = '''PITT''' 41–17
+| attend        = 16,568
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 7
+| time          = 7:30 p.m.
+| visiting_rank = 1
+| visiting_team = '''Clemson'''
+| home_rank     = 4
+| home_team     = '''Notre Dame'''
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = South Bend, IN
+| tv            = NBC
+| gamename      = ''College GameDay''
+| score         = '''ND''' 47–40
+| overtime      = 2OT
+| attend        = 11,011
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="4"|Bye Week
+|-
+|November 7 || Georgia Tech || Louisville || Virginia || Wake Forest
+|}
+
+====Week ten====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 14
+| time          = 12:00&nbsp;p.m.
+| visiting_rank = 9
+| visiting_team = '''Miami (FL)'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ESPN2
+| score         = '''MIA''' 25–24
+| overtime      = 
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 14
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[Tobacco Road (rivalry)|Tobacco Road]]
+| tv            = ACCN
+| score         = '''UNC''' 59–53
+| overtime      = 
+| attend        = 3,535
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 14
+| time          = 3:30 p.m.
+| visiting_rank = 2
+| visiting_team = '''Notre Dame'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = [[Holy War (Boston College–Notre Dame)|Holy War]]
+| tv            = ABC
+| score         = '''ND''' 45–31
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 14
+| time          = 3:30&nbsp;p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = ACCN
+| score         = '''UVA''' 31–17
+| overtime      = 
+| attend        = 1,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 14
+| time          = 7:30&nbsp;p.m.
+| visiting_team = '''Florida State'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter-Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''NCSU''' 38–22
+| overtime      = 
+| attend        = 4,032
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="5"|Bye Week
+|-
+|November 14 || No. 4 Clemson || Duke || Georgia Tech || Syracuse || Pittsburgh
+|}
+
+====Week eleven====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 20|Friday}}
+| time          = 7:30 p.m.
+| visiting_team = '''Syracuse'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ESPN
+| score         = '''LOU''' 30–0
+| overtime      = 
+| attend        = 11,192
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 21
+| time          = 4:00 p.m.
+| visiting_team = [[2020 Abilene Christian Wildcats football team|Abilene Christian]]
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlotteville, VA
+| tv            = RSN
+| score         = 55–15
+| overtime      = 
+| attend        = 250
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 21
+| time          = 4:00 p.m.
+| visiting_team = '''Virginia Tech'''
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ACCN
+| score         = '''PITT''' 47–14
+| overtime      = 
+| attend        = 4,612
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 21
+| time          = 7:30 p.m.
+| visiting_team = Liberty
+| visiting_rank = 21
+| home_team     = '''NC State'''
+| site_stadium  = Carter-Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = RSN
+| score         = 15–14
+| overtime      = 
+| attend        = 4,032
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="10"|Bye Week
+|-
+|November 21 || Boston College || No. 4 Clemson || Duke || Georgia Tech || Florida State || No. 12 Miami (FL) || North Carolina || No. 2 Notre Dame || Wake Forest
+|}
+
+====Week twelve====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|November 27|Friday}}
+| time          = 3:30 p.m.
+| visiting_team = '''Notre Dame'''
+| visiting_rank = 2
+| home_team     = '''North Carolina'''
+| home_rank     = 19
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ABC
+| score         = '''ND''' 31–17
+| attend        = 3,535
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 28
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''NC State'''
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ACCN
+| score         = '''NCSU''' 36–29
+| attend        = 0 (Behind closed doors) 
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 28
+| time          = 3:30 p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Clemson'''
+| home_rank     = 3
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ABC
+| score         = '''CLEM''' 52–17
+| attend        = 18,819
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 28
+| time          = 4:00 p.m.
+| visiting_team = '''Louisville'''
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ACCN
+| score         = '''BC''' 34–27
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 28
+| time          = 7:00 p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = RSN
+| score         = '''GT''' 56–33
+| attend        = 11,000
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2020 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="8"|Bye Week
+|-
+|November 28 || Florida State || No. 10 Miami (FL) || Virginia || Virginia Tech || Wake Forest
+|}
+
+====Week thirteen====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = December 5
+| time          = 12:00&nbsp;p.m.
+| visiting_team = [[2020 Western Carolina Catamounts football team|Western Carolina]]
+| home_rank     = 17
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCN
+| score         = 49–9
+| overtime      = 
+| attend        = 3,535
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 5
+| time          = 2:30 p.m.
+| visiting_team = '''Syracuse'''
+| home_rank     = 2
+| home_team     = '''Notre Dame'''
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = Notre Dame, IN
+| tv            = NBC
+| score         = '''ND''' 45–21
+| overtime      = 
+| attend        = 6,831
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 5
+| time          = 3:30 p.m.
+| visiting_team = '''Boston College'''
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| tv            = RSN
+| score         = '''UVA''' 43–32
+| overtime      = 
+| attend        = 250
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 5
+| time          = 4:00 p.m.
+| visiting_team = '''Georgia Tech'''
+| home_team     = '''NC State'''
+| site_stadium  = Carter-Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = ACCN
+| score         = '''NCSU''' 23–13
+| overtime      = 
+| attend        = 4,032
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 5
+| time          = 7:30 p.m.
+| visiting_team = '''Clemson'''
+| visiting_rank = 3
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ABC
+| score         = '''CLEM''' 45–10
+| overtime      = 
+| attend        = 250
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 5
+| time          = 8:00 p.m.
+| visiting_team = '''Miami (FL)'''
+| visiting_rank = 10
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = ACCN
+| score         = '''MIA''' 48–0
+| overtime      = 
+| attend        = 0 (Behind closed doors)
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2020 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="5"|Bye Week
+|-
+|December 5 || Florida State || Louisville || Pittsburgh || Wake Forest
+|}
+
+====Week fourteen====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = {{tooltip|December 10|Thursday}}
+| time          = 7:00&nbsp;p.m.
+| visiting_team = '''Pittsburgh'''
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| tv            = RSN
+| score         = '''PITT''' 34–20
+| attend        = 11,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 12
+| time          = 12:00&nbsp;p.m.
+| visiting_team = '''Wake Forest'''
+| home_team     = '''Louisville'''
+| site_stadium  = Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ACCN
+| score         = '''LOU''' 45–21
+| attend        = 10,959
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 12
+| time          = 3:30&nbsp;p.m.
+| visiting_rank = 17
+| visiting_team = '''North Carolina'''
+| home_rank     = 10
+| home_team     = '''Miami (FL)'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ABC
+| score         = '''UNC''' 62–26
+| attend        = 12,092
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 12
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''Duke'''
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = ACCN
+| score         = '''FSU''' 56–35
+| attend        = 14,872
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 12
+| time          = 8:00&nbsp;p.m.
+| visiting_team = '''Virginia'''
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      = [[Virginia–Virginia Tech football rivalry|Commonwealth Cup]]
+| tv            = ACCN
+| score         = '''VT''' 33–15
+| attend        = 250
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2020 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! colspan="8"|Bye Week
+|-
+|December 12 || Boston College || No. 3 Clemson || No. 23 NC State || No. 2 Notre Dame || Syracuse
+|}
+
+===Championship game===
+{{further|2020 ACC Championship Game}}
+
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = December 19
+| time          = 4:00&nbsp;p.m.
+| visiting_team = '''Clemson'''
+| visiting_rank = 3
+| home_team     = '''Notre Dame'''
+| home_rank     = 2
+| site_stadium  = [[Bank of America Stadium]]
+| site_cityst   = [[Charlotte, North Carolina|Charlotte, NC]]
+| tv            = [[ABC Saturday Night Football|ABC]]
+| gamename      = ''College GameDay''
+| score         = '''CLEM''' 34–10
+| attend        = 5,240
+| source        =
+}}
+{{CFB Conference Schedule End|poll=[[2020 NCAA Division I FBS football rankings|College Football Playoff]]|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+==ACC vs other conferences==
+
+===ACC vs Power 5 matchups===
+The other Power 5 conferences ([[Big Ten Conference|Big 10]], [[Big 12 Conference|Big 12]], [[Pac-12 Conference|Pac-12]], and [[Southeastern Conference|SEC]]) announced a conference-only schedule model, and no ACC team played another Power 5 team during the regular season.<ref>{{cite web|url=https://bigten.org/documents/2020/8/5//2020_B1GFB_Schedule.pdf?id=6806|archive-url=https://web.archive.org/web/20200805132918/https://bigten.org/documents/2020/8/5//2020_B1GFB_Schedule.pdf?id=6806|url-status=dead|archive-date=August 5, 2020|title=Big Ten Announces Plans for 2020 Football Season, Medical Protocols for All Sports|publisher=The Big Ten Conference}}</ref><ref>{{cite web |title=Sources: Big 12-approved scheduling model includes 9 conference games, 1 nonconference game |url=https://www.espn.com/college-football/story/_/id/29591566/sources-big-12-approved-scheduling-model-includes-9-conference-games-1-nonconference-game |publisher=ESPN}}</ref><ref>{{cite web|url=https://pac-12.com/news/2020/7/31/pac-12-approves-2020-football-schedule-plans-fall-sports.aspx|title=Pac-12 approves 2020 football schedule & plans for fall sports|website=pac-12.com|publisher=Pac-12 Conference|date=July 31, 2020|access-date=August 7, 2020}}</ref><ref>{{cite web|url=https://www.secsports.com/article/29565989/sec-establishes-new-conference-only-football-start-date|title=SEC establishes new conference-only football start date|website=secsports.com|publisher=Southeastern Conference|date=July 31, 2020|access-date=August 7, 2020}}</ref>
+
+===ACC vs Group of Five matchups===
+
+The following games featured ACC teams competing against teams from the [[American Athletic Conference|American]], [[Conference USA|C-USA]], [[Mid-American Conference|MAC]], [[Mountain West Conference|Mountain West]], or [[Sun Belt Conference|Sun Belt]].
+
+{|class="wikitable"
+|-
+!Index to colors and formatting
+|- style="background:#cfc;"
+|ACC member won
+|- style="background:#fcc;"
+|ACC member lost
+|-
+|ACC teams in '''bold'''
+|}
+
+{| class="wikitable" style="text-align:center"
+|-
+! Date !! Conference !! Visitor !! Home !! Site !! Score
+|- style="background:#cfc;"
+| September 10 || C-USA || UAB || '''Miami (FL)'''
+|Hard Rock Stadium • Miami Gardens, FL
+| '''W''' 31–14
+|-
+|- style="background:#cfc;"
+| September 12 || C-USA || Western Kentucky || '''Louisville'''
+|Cardinal Stadium • Louisville, KY
+| '''W''' 35–21
+|-
+|- style="background:#fcc;"
+| September 19 || American || UCF || '''Georgia Tech'''
+|Bobby Dodd Stadium • Atlanta, GA
+| '''L''' 21–49
+|-
+|- style="background:#cfc;"
+| September 19 || American || South Florida || '''Notre Dame'''
+|Notre Dame Stadium • South Bend, IN
+| '''W''' 52–0
+|-
+|- style="background:#cfc;"
+| September 26 || Sun Belt || Texas State || '''Boston College'''
+|Alumni Stadium • Chestnut Hill, MA
+| '''W''' 24–21
+|-
+|- style="background:#cfc;"
+| October 31 || C-USA || Charlotte || '''Duke'''
+|Wallace Wade Stadium • Durham, NC
+| '''W''' 53–19
+|-
+|}
+
+===ACC vs FBS independents matchups===
+The following games featured ACC teams competing against [[NCAA Division I FBS independent schools|FBS Independents]], which included [[2020 Army Black Knights football team|Army]], [[2020 Liberty Flames football team|Liberty]], [[2020 New Mexico State Aggies football team|New Mexico State]], [[2020 UConn Huskies football team|UConn]], and [[2020 UMass Minutemen football team|UMass]].
+
+{|class="wikitable"
+|-
+!Index to colors and formatting
+|- style="background:#cfc;"
+|ACC member won
+|- style="background:#fcc;"
+|ACC member lost
+|-
+|ACC teams in '''bold'''
+|}
+
+{| class="wikitable" style="text-align:center"
+|-
+! Date !!  Visitor !! Home !! Site !! Score
+|- style="background:#fcc;"
+| October 17 || Liberty || '''Syracuse'''
+|Carrier Dome • Syracuse, NY 
+| '''L''' 21–38
+|- style="background:#fcc;"
+| November 7 || Liberty || '''Virginia Tech'''
+|Lane Stadium • Blacksburg, VA
+| '''L''' 35–38
+|- style="background:#cfc;"
+| November 21 || Liberty || '''NC State'''
+|Carter-Finley Stadium • Raleigh, NC
+| '''W''' 15–14
+|-
+|}
+
+===ACC vs FCS matchups===
+{|class="wikitable"
+|-
+!Index to colors and formatting
+|- style="background:#cfc;"
+|ACC member won
+|- style="background:#fcc;"
+|ACC member lost
+|-
+|ACC teams in '''bold'''
+|}
+
+{| class="wikitable" style="text-align:center"
+|-
+! Date !!  Visitor !! Home !! Site !! Score
+|- style="background:#cfc;"
+| September 12 || Austin Peay || '''Pittsburgh'''
+|Heinz Field • Pittsburgh, PA
+| '''W''' 55–0
+|- style="background:#cfc;"
+| September 19 || The Citadel || '''Clemson'''
+|Memorial Stadium • Clemson, SC
+| '''W''' 49–0
+|- style="background:#cfc;"
+| October 2 || Campbell || '''Wake Forest'''
+|Truist Field at Wake Forest • Winston-Salem, NC
+| '''W''' 66–14
+|- style="background:#cfc;"
+| October 3 || Jacksonville State || '''Florida State'''
+|Doak Campbell Stadium • Tallahassee, FL
+| '''W''' 41–24
+|- style="background:#cfc;"
+| November 21 || Abilene Christian || '''Virginia'''
+|Scott Stadium • Charlottesville, VA
+| '''W''' 55–15
+|- style="background:#cfc;"
+| December 5 || Western Carolina || '''North Carolina'''
+|Kenan Memorial Stadium • Chapel Hill, NC
+| '''W''' 49–9
+|-
+|}
+
+===Records against other conferences===
+{{col-begin}}
+{{col-2}}
+
+'''Regular season'''
+
+{| class="wikitable"
+|-
+!Power 5 Conferences
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|0–0
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|0–0
+|-
+|[[2020 BYU Cougars football team|BYU]]
+|align=center|0–0
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–0
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|0–0
+|-
+!Power 5 Total
+!0–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|1–1
+|-
+|[[Conference USA|C–USA]]
+|align=center|3–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding BYU)</small>]]
+|align=center|1–2
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|0–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–0
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|1–0
+|-
+!Other FBS Total
+!6–3
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!FCS Opponents
+!Record
+|-
+|[[2020 NCAA Division I FCS football season|Football Championship Subdivision]]
+|align=center|6–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Total Non-Conference Record
+!12–3
+|}
+
+{{col-2}}
+
+'''Post Season'''
+
+{| class="wikitable"
+|-
+!Power Conferences 5
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|0–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|0–1
+|-
+|[[2020 BYU Cougars football team|BYU]]
+|align=center|0–0
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–0
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|0–3
+|-
+!Power 5 Total
+!0–6
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|0–0
+|-
+|[[Conference USA|C–USA]]
+|align=center|0–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding BYU)</small>]]
+|align=center|0–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|0–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|0–0
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|0–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Total
+!0–0
+|-
+!Total Bowl Record
+!0–6
+|}
+
+{{col-end}}
+
+==Postseason==
+
+===Bowl games===
+{| class="wikitable" style="font-size:90%"
+|-
+!colspan="2"|Legend
+|-
+| style="background:#bfb;"|&nbsp;||ACC win
+|-
+| style="background:#fbb;"|&nbsp;||ACC loss
+|}
+
+{{see also|2020–21 NCAA football bowl games}}
+
+{| class="wikitable"
+|-'''Bowl games'''
+!Bowl game
+!Date
+!Site
+!Television
+!Time ([[Eastern Time Zone|EST]])
+!ACC team
+!Opponent
+!Score
+!Attendance
+|- style="background:#fbb;"
+| [[2020 Cheez-It Bowl]]
+| December 29
+| [[Camping World Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| [[ESPN College Football|ESPN]]
+| 5:30&nbsp;p.m.
+| No. 18 '''Miami'''
+| No. 21 [[2020 Oklahoma State Cowboys football team|Oklahoma State]]
+| '''L''' 34–37
+| 
+|- style="background:#fbb;"
+| [[2020 Duke's Mayo Bowl]]
+| December 30
+| [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]]
+| ESPN
+| 12:00&nbsp;p.m.
+| '''Wake Forest'''
+| [[2020 Wisconsin Badgers football team|Wisconsin]]
+| '''L''' 28–42
+| 1,500
+|- style="background:#fbb;"
+| [[2021 Gator Bowl (January)|2021 Gator Bowl]]
+| January 2
+| [[TIAA Bank Field]] • [[Jacksonville, Florida|Jacksonville, FL]]
+| ESPN
+| 12:00&nbsp;p.m.
+| No. 23 '''NC State'''
+| [[2020 Kentucky Wildcats football team|Kentucky]]
+| '''L''' 21–23
+| 10,422
+|-
+|colspan="9" style="text-align:center;"|'''[[New Year's Six#2019 season|New Year's Six]] bowl games'''
+|- style="background:#fbb;"
+| [[2021 Orange Bowl (January)|2021 Orange Bowl]]
+| January 2
+| [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]]
+| ESPN
+| 8:00&nbsp;p.m.
+| No. 13 '''North Carolina'''
+| No. 5  [[2020 Texas A&M Aggies football team|Texas A&M]]
+| '''L''' 27–41
+| 13,737
+|-
+|colspan="9" style="text-align:center;"|'''[[2020 College Football Playoff National Championship#2020 College Football Playoff|College Football Playoff]] bowl games'''
+|- style="background:#fbb;"
+| [[2021 Rose Bowl|Rose Bowl (CFP Semifinal)]]
+| January 1
+| [[AT&T Stadium]] • [[Arlington, Texas|Arlington, TX]]
+| ESPN
+| 4:00&nbsp;p.m.
+| No. 4 '''Notre Dame'''
+| No. 1 [[2020 Alabama Crimson Tide football team|Alabama]]
+| '''L''' 14–31
+| 18,373
+|- style="background:#fbb;"
+| [[2021 Sugar Bowl|Sugar Bowl (CFP Semifinal)]]
+| January 1
+| [[Mercedes-Benz Superdome]] • [[New Orleans, Louisiana|New Orleans, LA]]
+| ESPN
+| 8:00&nbsp;p.m.
+| No. 2 '''Clemson'''
+| No. 3 [[2020 Ohio State Buckeyes football team|Ohio State]]
+| '''L''' 28–49
+| 3,000
+|}
+
+<small>Rankings are from CFP rankings.  All times Eastern Time Zone.  ACC teams shown in bold.</small>
+
+==Awards and honors==
+
+===Player of the week honors===
+{| class="wikitable" border="1" style="text-align: center;"
+|-
+! rowspan="2"| Week
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Quarterback
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Running Back
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Offensive Line
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Receiver
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Defensive Line
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Linebacker
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Defensive Back
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Specialist
+! rowSpan="26" style="background-color:lightgrey;"|
+! colspan="3"| Rookie
+! rowSpan="26" style="background-color:lightgrey;"| 
+|-
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+|-
+| Week 1<ref>{{cite web|url=https://theacc.com/news/2020/9/14/acc-announces-football-players-of-the-week.aspx|title=ACC Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 14, 2020|access-date=September 14, 2020}}</ref>
+| [[Trevor Lawrence]]
+| [[2020 Clemson Tigers football team|Clemson]]
+| QB
+| [[Kyren Williams]]
+| [[2020 Notre Dame Fighting Irish football team|Notre Dame]]
+| RB
+| Corey Gaynor
+| [[2020 Miami Hurricanes football team|Miami]]
+| C
+| Braden Smith
+| [[2020 Louisville Cardinals football team|Louisville]]
+| WR
+| Curtis Ryans
+| [[2020 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+| DE
+| [[Chazz Surratt]]
+| [[2020 North Carolina Tar Heels football team|North Carolina]]
+| LB
+| [[Asante Samuel Jr.]]
+| [[2020 Florida State Seminoles football team|Florida State]]
+| DB
+| [[Marvin Wilson (American football)|Marvin Wilson]]
+| Florida State
+| DT
+| [[Jeff Sims]]
+| Georgia Tech
+| QB
+|-
+| rowspan=2 | Week 2<ref>{{cite web|url=https://theacc.com/news/2020/9/21/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 21, 2020|access-date=September 21, 2020}}</ref>
+| rowspan=2 | [[D'Eriq King]]
+| rowspan=2 | Miami
+| rowspan=2 | QB
+| rowspan=2 | Ricky Person Jr.
+| rowspan=2 | [[2020 NC State Wolfpack football team|NC State]]
+| rowspan=2 | RB
+| [[Ikem Ekwonu]]
+| NC State
+| OG
+| rowspan=2 | [[Zay Flowers]]
+| rowspan=2 | [[2020 Boston College Eagles football team|Boston College]]
+| rowspan=2 | WR
+| [[Victor Dimukeje]]
+| [[2020 Duke Blue Devils football team|Duke]]
+| DE
+| rowspan=2 | Cam Bright
+| rowspan=2 | [[2020 Pittsburgh Panthers football team|Pittsburgh]]
+| rowspan=2 | OLB
+| rowspan=2 | [[Bubba Bolden]]
+| rowspan=2 | Miami
+| rowspan=2 | S
+| rowspan=2 | [[José Borregales]]
+| rowspan=2 | Miami
+| rowspan=2 | PK
+| rowspan=2 | [[Jahmyr Gibbs]]
+| rowspan=2 | Georgia Tech
+| rowspan=2 | RB
+|-
+| [[Robert Hainsey]]
+| Notre Dame
+| OT
+| [[Rashad Weaver]]
+| Pittsburgh
+| DE
+|-
+| Week 3<ref>{{cite web|url=https://theacc.com/news/2020/9/28/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=Week 3 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=September 28, 2020|access-date=September 28, 2020}}</ref>
+| D'Eriq King (2)
+| Miami
+| QB
+| [[Sean Tucker (American football)|Sean Tucker]]
+| [[2020 Syracuse Orange football team|Syracuse]]
+| RB
+| Brock Hoffman
+| [[2020 Virginia Tech Hokies football team|Virginia Tech]]
+| C
+| Lavel Davis Jr.
+| [[2020 Virginia Cavaliers football team|Virginia]]
+| WR
+| [[Patrick Jones II]]
+| Pittsburgh
+| DE
+| Zane Zandier
+| Virginia
+| ILB
+| [[Trill Williams]]
+| Syracuse
+| DB
+| [[Alex Kessman]]
+| Pittsburgh
+| PK
+| Lavel Davis Jr.
+| Virginia
+| WR
+|-
+| rowspan=2 | Week 4<ref>{{cite web|url=https://theacc.com/news/2020/10/5/athlete-awards-week-4-football-players-of-the-week-announced.aspx|title=Week 4 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 5, 2020|access-date=October 5, 2020}}</ref>
+| rowspan=2 | [[Devin Leary]]
+| rowspan=2 | NC State
+| rowspan=2 | QB
+| rowspan=2 | [[Khalil Herbert]]
+| rowspan=2 | Virginia Tech
+| rowspan=2 | RB
+| [[Christian Darrisaw]]
+| Virginia Tech
+| LT
+| Emeka Emezie
+| NC State
+| WR
+| rowspan=2 | Emmanuel Belmar
+| rowspan=2 | Virginia Tech
+| rowspan=2 | DE
+| rowspan=2 | [[Baylon Spector]]
+| rowspan=2 | Clemson
+| rowspan=2 | LB
+| rowspan=2 | [[Andrew Booth Jr.]]
+| rowspan=2 | Clemson
+| rowspan=2 | DB
+| rowspan=2 | [[Lawrance Toafili]]
+| rowspan=2 | Florida State
+| rowspan=2 | RB
+| rowspan=2 | [[Khalil Herbert]]
+| rowspan=2 | Virginia Tech
+| rowspan=2 | RB
+|-
+| Cade Stewart
+| Clemson
+| C
+| [[D. J. Turner (wide receiver)|D. J. Turner]]
+| Pittsburgh
+| WR
+|-
+| rowspan=2 | Week 5<ref>{{cite web|url=https://theacc.com/news/2020/10/12/athlete-awards-week-5-football-players-of-the-week-announced.aspx|title=Week 5 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 12, 2020|access-date=October 12, 2020}}</ref>
+| Trevor Lawrence (2)
+| Clemson
+| QB
+| rowspan=2 | [[Michael Carter (running back)|Michael Carter]]
+| rowspan=2 | North Carolina
+| rowspan=2 | RB
+| rowspan=2 | Brian Anderson
+| rowspan=2 | North Carolina
+| rowspan=2 | C
+| rowspan=2 | Zay Flowers (2)
+| rowspan=2 | Boston College
+| rowspan=2 | WR
+| rowspan=2 | Patrick Jones II (2)
+| rowspan=2 | Pittsburgh
+| rowspan=2 | DE
+| rowspan=2 | SirVocea Dennis
+| rowspan=2 | Pittsburgh
+| rowspan=2 | OLB
+| rowspan=2 | Bubba Bolden (2)
+| rowspan=2 | Miami
+| rowspan=2 | S
+| rowspan=2 | Charlie Ham
+| rowspan=2 | Duke
+| rowspan=2 | PK
+| rowspan=2 | Jeff Sims (2)
+| rowspan=2 | Georgia Tech
+| rowspan=2 | QB
+|-
+| [[Phil Jurkovec]]
+| Boston College
+| QB
+|-
+| rowspan=2 | Week 6<ref>{{cite web|url=https://theacc.com/news/2020/10/19/athlete-awards-week-6-football-players-of-the-week-announced.aspx|title=Week 6 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 19, 2020|access-date=October 19, 2020}}</ref>
+| rowspan=2 | Trevor Lawrence (3)
+| rowspan=2 | Clemson
+| rowspan=2 | QB
+| rowspan=2 | [[Kenneth Walker III]]
+| rowspan=2 | [[2020 Wake Forest Demon Deacons football team|Wake Forest]]
+| rowspan=2 | RB
+| Ikem Ekwonu (2)
+| NC State
+| LT
+| rowspan=2 | [[Amari Rodgers]]
+| rowspan=2 | Clemson
+| rowspan=2 | WR
+| rowspan=2 | [[Quincy Roche]]
+| rowspan=2 | Miami
+| rowspan=2 | DE
+| rowspan=2 | Payton Wilson
+| rowspan=2 | NC State
+| rowspan=2 | LB
+| rowspan=2 | Chamarri Conner
+| rowspan=2 | Virginia Tech
+| rowspan=2 | NB
+| rowspan=2 | Lou Hedley
+| rowspan=2 | Miami
+| rowspan=2 | P
+| rowspan=2 | [[Kyren Williams]]
+| rowspan=2 | Notre Dame
+| rowspan=2 | RB
+|-
+| Doug Nester
+| Virginia Tech
+| RG
+|-
+| Week 7<ref>{{cite web|url=https://theacc.com/news/2020/10/26/athlete-awards-week-7-football-players-of-the-week-announced.aspx|title=Week 7 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=October 26, 2020|access-date=October 26, 2020}}</ref>
+| [[Ian Book]]
+| Notre Dame
+| QB
+| [[Javian Hawkins]]
+| Louisville
+| RB
+| [[Liam Eichenberg]]
+| Notre Dame
+| LT
+| Michael Harley
+| Miami
+| WR
+| [[Carlos Basham Jr.]]
+| Wake Forest
+| DE
+| Chazz Surratt (2)
+| North Carolina
+| LB
+| Nick Anderson
+| Wake Forest
+| S
+| Will Spiers
+| Clemson
+| P
+| Nick Anderson
+| Wake Forest 
+| S
+|-
+| rowspan=2 | Week 8<ref>{{cite web|url=https://theacc.com/news/2020/11/2/athlete-awards-week-8-acc-football-players-of-the-week-announced.aspx|title=Week 8 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 2, 2020|access-date=November 2, 2020}}</ref>
+| rowspan=2 | [[Sam Howell]]
+| rowspan=2 | North Carolina
+| rowspan=2 | QB
+| rowspan=2 | [[Travis Etienne]]
+| rowspan=2 | Clemson
+| rowspan=2 | RB
+| [[Jackson Carman]]
+| Clemson
+| LT
+| rowspan=2 | [[Dyami Brown]]
+| rowspan=2 | North Carolina
+| rowspan=2 | WR
+| rowspan=2 | [[Daelin Hayes]]
+| rowspan=2 | Notre Dame
+| rowspan=2 | DE
+| rowspan=2 | [[Charles Snowden]]
+| rowspan=2 | Virginia
+| rowspan=2 | OLB
+| rowspan=2 | Chamarri Conner (2)
+| rowspan=2 | Virginia Tech
+| rowspan=2 | CB
+| rowspan=2 | Isiah Fisher-Smith
+| rowspan=2 | Duke
+| rowspan=2 | S
+| rowspan=2 | [[DJ Uiagalelei]]
+| rowspan=2 | Clemson
+| rowspan=2 | QB
+|-
+| Brock Hoffman (2)
+| Virginia Tech
+| C
+|-
+| Week 9<ref>{{cite web|url=https://theacc.com/news/2020/11/9/athlete-awards-week-9-acc-football-players-of-the-week-announced.aspx|title=Week 9 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 9, 2020|access-date=November 9, 2020}}</ref>
+| D'Eriq King (3)
+| Miami
+| QB
+| Kyren Williams (2)
+| Notre Dame
+| RB
+| [[Aaron Banks (American football)|Aaron Banks]]
+| Notre Dame
+| OG
+| Michael Harley (2)
+| Miami
+| WR
+| [[Jaelan Phillips]]
+| Miami
+| DE
+| [[Jeremiah Owusu-Koramoah]]
+| Notre Dame
+| LB
+| Brandon Hill
+| Pittsburgh
+| SS
+| [[Zonovan Knight]]
+| NC State
+| RB
+| DJ Uiagalelei (2)
+| Clemson
+| QB
+|-
+| rowspan=2 | Week 10<ref>{{cite web|url=https://theacc.com/news/2020/11/16/week-10-acc-football-players-of-the-week-announced.aspx|title=Week 10 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 16, 2020|access-date=November 16, 2020}}</ref>
+| rowspan=2 | Sam Howell (2)
+| rowspan=2 | North Carolina
+| rowspan=2 | QB
+| Michael Carter (2)
+| North Carolina
+| RB
+| rowspan=2 | [[Tommy Kraemer]]
+| rowspan=2 | Notre Dame
+| rowspan=2 | OG
+| rowspan=2 | [[Dazz Newsome]]
+| rowspan=2 | North Carolina
+| rowspan=2 | WR
+| rowspan=2 | Jaelan Phillips (2)
+| rowspan=2 | Miami
+| rowspan=2 | DE
+| rowspan=2 | Noah Taylor
+| rowspan=2 | Virginia
+| rowspan=2 | OLB
+| rowspan=2 | Shaun Crawford
+| rowspan=2 | Notre Dame
+| rowspan=2 | S
+| rowspan=2 | Lou Hedley (2)
+| rowspan=2 | Miami
+| rowspan=2 | P
+| rowspan=2 | Lavel Davis Jr. (2)
+| rowspan=2 | Virginia
+| rowspan=2 | WR
+|-
+| Christian Beal-Smith
+| Wake Forest
+| RB
+|-
+| rowspan=2 | Week 11<ref>{{cite web|url=https://theacc.com/news/2020/11/23/athlete-awards-week-11-acc-football-players-of-the-week-announced.aspx|title=Week 11 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 23, 2020|access-date=November 23, 2020}}</ref>
+| rowspan=2 | [[Kenny Pickett]]
+| rowspan=2 | Pittsburgh
+| rowspan=2 | QB
+| rowspan=2 | [[Zonovan Knight]]
+| rowspan=2 | NC State
+| rowspan=2 | RB
+| rowspan=2 | Bryce Hargrove
+| rowspan=2 | Pittsburgh
+| rowspan=2 | LG
+| rowspan=2 | D. J. Turner (2)
+| rowspan=2 | Pittsburgh
+| rowspan=2 | WR
+| rowspan=2 | Daniel Joseph
+| rowspan=2 | NC State
+| rowspan=2 | DE
+| rowspan=2 | Isaiah Moore
+| rowspan=2 | MLB
+| rowspan=2 | NC State
+| [[Kei'Trel Clark]]
+| CB
+| Louisville
+| rowspan=2 | Alex Kessman (2)
+| rowspan=2 | Pittsburgh
+| rowspan=2 | PK
+| rowspan=2 | [[Aydan White]]
+| rowspan=2 | NC State
+| rowspan=2 | CB
+|-
+| Damar Hamlin
+| S
+| Pittsburgh
+|-
+| rowspan=2 | Week 12<ref>{{cite web|url=https://theacc.com/news/2020/11/30/week-12-acc-football-players-of-the-week-announced.aspx|title=Week 12 Football Players of the Week Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 30, 2020|access-date=November 30, 2020}}</ref>
+| rowspan=2 | Trevor Lawrence (4)
+| rowspan=2 | Clemson
+| rowspan=2 | QB
+| rowspan=2 | Kyren Williams (3)
+| rowspan=2 | Notre Dame
+| rowspan=2 | RB
+| Zach Quinney
+| Georgia Tech
+| LT
+| rowspan=2 | [[Cornell Powell]]
+| rowspan=2 | Clemson
+| rowspan=2 | WR
+| rowspan=2 | Jordan Domineck
+| rowspan=2 | Georgia Tech
+| rowspan=2 | DE
+| rowspan=2 | Payton Wilson (2)
+| rowspan=2 | NC State
+| rowspan=2 | LB
+| rowspan=2 | [[Mario Goodrich]]
+| rowspan=2 | Clemson
+| rowspan=2 | CB
+| rowspan=2 | [[Trebor Pena]]
+| rowspan=2 | Syracuse
+| rowspan=2 | KR
+| rowspan=2 | Jeff Sims (3)
+| rowspan=2 | Georgia Tech
+| rowspan=2 | QB
+|-
+| Liam Eichenberg (2)
+| Notre Dame
+| LT
+|-
+| rowspan=2 | Week 13<ref>{{cite web|url=https://theacc.com/news/2020/12/7/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 7, 2020|access-date=December 7, 2020}}</ref>
+| rowspan=2 | Dennis Grosel
+| rowspan=2 | Boston College
+| rowspan=2 | QB
+| Kyren Williams (4)
+| Notre Dame
+| RB
+| rowspan=2 | [[Ryan Swoboda]]
+| rowspan=2 | Virginia
+| rowspan=2 | RT
+| rowspan=2 | [[Javon McKinley]]
+| rowspan=2 | Notre Dame
+| rowspan=2 | WR
+| rowspan=2 | Quincy Roche (2)
+| rowspan=2 | Miami
+| rowspan=2 | DE
+| rowspan=2 | Payton Wilson (3)
+| rowspan=2 | NC State
+| rowspan=2 | LB
+| rowspan=2 | [[Clarence Lewis (American football)|Clarence Lewis]]
+| rowspan=2 | Notre Dame
+| rowspan=2 | CB
+| Christopher Dunn
+| NC State
+| PK
+| rowspan=2 | [[Myles Murphy (American football)|Myles Murphy]]
+| rowspan=2 | Clemson
+| rowspan=2 | DE
+|-
+| Sean Tucker
+| Syracuse
+| RB
+| Porter Wilson
+| Duke
+| P
+|-
+| rowspan=2 | Week 14<ref>{{cite web|url=https://theacc.com/news/2020/12/14/athlete-awards-acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 14, 2020|access-date=December 14, 2020}}</ref>
+|-
+| Sam Howell (3)
+| North Carolina
+| QB
+| Michael Carter (3)
+| North Carolina
+| RB
+| [[Joshua Ezeudu]]
+| North Carolina
+| LG
+| Dyami Brown (2)
+| North Carolina
+| WR
+| [[Miles Fox]]
+| Wake Forest
+| DT
+| Jeremiah Gemmel
+| North Carolina
+| LB
+| [[Hamsah Nasirildeen]]
+| Florida State
+| S
+| Alex Kessman (3)
+| Pittsburgh
+| PK
+| Jalen Mitchell
+| Louisville
+| RB
+|}
+
+===All Conference Teams===
+
+Source:<ref>{{cite web|url=https://theacc.com/news/2020/12/21/athlete-awards-tigers-irish-lead-all-acc-football-team.aspx|title=Tigers, Irish Lead All-ACC Football Team|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 22, 2020|access-date=December 22, 2020}}</ref>
+{{col-begin}}
+{{col-1-of-3}}
+
+'''First Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Trevor Lawrence]]
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Travis Etienne]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Michael Carter (running back)|Michael Carter]]
+!| North Carolina
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Amari Rodgers]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Dyami Brown]]
+!| North Carolina
+
+|- style="text-align:center;"
+| [[Zay Flowers]]
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Hunter Long]]
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Liam Eichenberg]]
+!| Notre Dame
+
+|- style="text-align:center;"
+| [[Christian Darrisaw]]
+!| Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Aaron Banks (American football)|Aaron Banks]]
+!| Notre Dame
+
+|- style="text-align:center;"
+| [[Tommy Kraemer]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Alec Lindstrom]]
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Travis Etienne]]
+!| Clemson
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Patrick Jones II]]
+!| Pittsburgh
+
+|- style="text-align:center;"
+| [[Rashad Weaver]]
+!| Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Bryan Bresee]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Alim McNeill]]
+!| NC State
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Chazz Surratt]]
+!| North Carolina
+
+|- style="text-align:center;"
+| [[Jeremiah Owusu-Koramoah]]
+!| Notre Dame
+
+|- style="text-align:center;"
+| [[Payton Wilson]]
+!| NC State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Asante Samuel Jr.]]
+!| Florida State
+
+|- style="text-align:center;"
+| [[Derion Kendrick]]
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Divine Deablo]]
+!| Virginia Tech
+
+|- style="text-align:center;"
+| [[Kyle Hamilton]]
+!| Notre Dame
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[José Borregales]]
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Pressley Harvin III]]
+!| Georgia Tech
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[D. J. Turner (wide receiver)|D. J. Turner]]
+!| Pittsburgh
+|-
+|}
+
+{{col-2-of-3}}
+'''Second Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Sam Howell]]
+!| North Carolina
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Javonte Williams]]
+!| North Carolina
+
+|- style="text-align:center;"
+| [[Kyren Williams]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Jaquarii Roberson]]
+!| Wake Forest
+
+|- style="text-align:center;"
+| [[Tutu Atwell]]
+!| Louisville
+
+|- style="text-align:center;"
+| [[Dez Fitzpatrick]]
+!| Louisville
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Brevin Jordan]]
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Jackson Carman]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Robert Hainsey]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| Ben Petrula
+!| Boston College
+
+|- style="text-align:center;"
+| Matt Bockhorst
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Jimmy Morrissey]]
+!| Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Khalil Herbert]]
+!| Virginia Tech
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Jaelan Phillips]]
+!| Miami
+
+|- style="text-align:center;"
+| [[Chris Rumph II]]
+!| Duke
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Marvin Wilson (American football)|Marvin Wilson]]
+!| Florida State
+
+|- style="text-align:center;"
+| [[Myron Tagovailoa-Amosa]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Isaiah McDuffie]]
+!| Boston College
+
+|- style="text-align:center;"
+| [[James Skalski]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Charles Snowden]]
+!| Virginia
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Andrew Booth Jr.]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Kei'Trel Clark]]
+!| Louisville
+
+|- style="text-align:center;"
+! rowspan="3" | [[Safety (American football position)|S]]
+| [[Nolan Turner]]
+!| Clemson
+
+|- style="text-align:center;"
+| [[Bubba Bolden]]
+!| Miami
+
+|- style="text-align:center;"
+| [[Damar Hamlin]]
+!| Pittsburgh
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[Alex Kessman]]
+!| Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Lou Hedley]]
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| Nykeim Johnson
+!| Syracuse
+|-
+|}
+
+{{col-3-of-3}}
+
+'''Third Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Ian Book]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Khalil Herbert]]
+!| Virginia Tech
+
+|- style="text-align:center;"
+| [[Zonovan Knight]]
+!| NC State
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Mike Harley Jr.]]
+!| Miami
+
+|- style="text-align:center;"
+| Taj Harris
+!| Syracuse
+
+|- style="text-align:center;"
+| [[Cornell Powell]]
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Michael Mayer (American football)|Michael Mayer]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Ikem Ekwonu]]
+!| NC State
+
+|- style="text-align:center;"
+| [[Zion Johnson]]
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Joshua Ezeudu]]
+!| North Carolina
+
+|- style="text-align:center;"
+| Joe Sculthorpe
+!| NC State
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| [[Jarrett Patterson]]
+!| Notre Dame
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Michael Carter (running back)|Michael Carter]]
+!| North Carolina
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Carlos Basham Jr.]]
+!| Wake Forest
+
+|- style="text-align:center;"
+| [[Quincy Roche]]
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Jarrod Hewitt]]
+!| Virginia Tech
+
+|- style="text-align:center;"
+| [[Miles Fox]]
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[SirVocea Dennis]]
+!| Pittsburgh
+
+|- style="text-align:center;"
+| Nick Jackson
+!| Virginia
+
+|- style="text-align:center;"
+| Max Richardson
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Nick McCloud]]
+!| Notre Dame
+
+|- style="text-align:center;"
+| [[Ifeatu Melifonwu]]
+!| Syracuse
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Michael Carter II]]
+!| Duke
+
+|- style="text-align:center;"
+| Nick Anderson
+!| Wake Forest
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| [[Nick Sciba]]
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Nolan Cooney]]
+!| Syracuse
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Thayer Thomas]]
+!| NC State
+|-
+|}
+
+{{col-end}}
+
+===[[Atlantic Coast Conference football individual awards|ACC Individual Awards]]===
+{{col-begin}}
+{{col-1-of-3}}
+'''ACC Player of the Year'''
+:[[Trevor Lawrence]], Clemson<ref name="POY">{{cite web|url=https://theacc.com/news/2020/12/22/athlete-awards-clemsons-lawrence-honored-as-acc-player-of-the-year.aspx|title=Clemson’s Lawrence Honored as ACC Player of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 22, 2020|access-date=December 23, 2020}}</ref>
+'''ACC Rookie of the Year'''
+:[[Kyren Williams]], Notre Dame<ref name="ROY">{{cite web|url=https://theacc.com/news/2020/12/22/athlete-awards-irishs-williams-tigers-bresee-voted-acc-rookies-of-the-year.aspx|title=Notre Dame's Williams, Clemson's Bresee Voted ACC Rookies of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 22, 2020|access-date=December 23, 2020}}</ref>
+'''ACC Coach of the Year'''
+:[[Brian Kelly (American football coach)|Brian Kelly]], Notre Dame<ref>{{cite web|url=https://theacc.com/news/2020/12/22/athlete-awards-notre-dames-kelly-named-acc-coach-of-the-year.aspx|title=Notre Dame's Kelly Named ACC Coach of the Year|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 22, 2020|access-date=December 23, 2020}}</ref>
+{{col-2-of-3}}
+'''ACC Offensive Player of the Year'''
+:[[Trevor Lawrence]], Clemson<ref name="POY"/>
+'''ACC Offensive Rookie of the Year'''
+:[[Kyren Williams]], Notre Dame<ref name="ROY"/>
+'''[[Jacobs Blocking Trophy]]'''
+:[[Liam Eichenberg]], Notre Dame<ref>{{cite web|url=https://theacc.com/news/2020/12/21/football-notre-dames-eichenberg-named-acc-jacobs-blocking-trophy-recipient.aspx|title=Notre Dame’s Eichenberg Named ACC Jacobs Blocking Trophy Recipient|website=theacc.com|publisher=The Atlantic Coast Conference|date=December 22, 2020|access-date=December 22, 2020}}</ref>
+{{col-3-of-3}}
+'''ACC Defensive Player of the Year'''
+:[[Jeremiah Owusu-Koramoah]], Notre Dame<ref name="POY"/>
+'''ACC Defensive Rookie of the Year'''
+:[[Bryan Bresee]], Clemson<ref name="ROY"/>
+{{col-end}}
+
+===All-Americans===
+{{main|2020 College Football All-America Team}}
+
+==== Consensus All-Americans ====
+{| class="wikitable" style="white-space:nowrap; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2020 Consensus All-Americans''' 
+|-
+! Unanimous
+! Consensus
+|-
+|
+[[Jeremiah Owusu-Koramoah]] – Notre Dame<br>[[Pressley Harvin III]] – Georgia Tech<br>[[José Borregales]] – Miami
+|
+[[Liam Eichenberg]] – Notre Dame<br>[[Patrick Jones II]] – Pittsburgh<br>[[Travis Etienne]] – Clemson
+|}
+
+==== Associated Press ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2020 AP All-Americans'''<ref>{{cite web|url=https://apnews.com/article/college-football-alabama-alex-leatherwood-alabama-crimson-tide-football-kyle-trask-f5a910ea0d453a29d3b2af2c219c80bb|title=Alabama’s Jones, Smith, Harris lead 6 Tide AP All-Americans|website=apnews.com|agency=Associated Press|first=Ralph|last=Russo|date=December 28, 2020|access-date=December 28, 2020}}</ref>
+|-
+! First Team
+! Second Team
+! Third Team
+|-
+|
+[[Aaron Banks (American football)|Aaron Banks]] – Notre Dame<br>[[Travis Etienne]] – Clemson<br>[[José Borregales]] – Miami<br>[[Rashad Weaver]] – Pittsburgh<br>[[Jeremiah Owusu-Koramoah]] – Notre Dame<br>[[Pressley Harvin III]] – Georgia Tech
+|
+[[Javonte Williams]] – North Carolina<br>[[Liam Eichenberg]] – Notre Dame<br>[[Christian Darrisaw]] – Virginia Tech<br>[[Hunter Long]] – Boston College<br>[[Jaelan Phillips]] – Miami<br>[[Patrick Jones II]] – Pittsburgh<br>[[Alim McNeill]] – NC State<br>Lou Hedley – Miami
+|
+[[Trevor Lawrence]] – Clemson<br>[[Michael Carter (running back)|Michael Carter]] – North Carolina<br>[[Tommy Kraemer]] – Notre Dame<br>[[Dyami Brown]] – North Carolina<br>[[Kyle Hamilton]] – Notre Dame
+|}
+
+==== AFCA ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2020 AFCA All-Americans'''<ref>{{cite web|url=https://www.afca.com/alabamas-devonta-smith-tulsas-zaven-collins-headline-2020-afca-fbs-coaches-all-american-teams/|title=Alabama’s DeVonta Smith & Tulsa’s Zaven Collins Headline 2020 AFCA FBS Coaches’ All-American Teams|website=afca.com|publisher=American Football Coaches Association|access-date=January 5, 2021}}</ref>
+|-
+! First Team
+! Second Team
+|-
+|
+[[Liam Eichenberg]] – Notre Dame<br>[[Aaron Banks (American football)|Aaron Banks]] – Notre Dame<br>[[Rashad Weaver]] – Pittsburgh<br>[[Jaelan Phillips]] – Miami<br>[[Jeremiah Owusu-Koramoah]] – Notre Dame<br>[[Pressley Harvin III]] – Georgia Tech<br>[[José Borregales]] – Miami
+|
+[[Trevor Lawrence]] – Clemson<br>[[Travis Etienne]] – Clemson<br>[[Patrick Jones II]] – Pittsburgh<br>[[Kyle Hamilton]] – Notre Dame<br>[[Nolan Turner]] – Clemson
+|}
+
+====FWAA====
+
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2020 FWAA All-Americans'''<ref>{{cite web|url=http://sportswriters.net/fwaa/news/2020/allamerica201230.html|title=2020 FWAA ALL-AMERICA TEAM UNVEILED|website=sportswriters.net|date=December 30, 2020|access-date=December 31, 2020}}</ref>
+|-
+! First Team
+! Second Team
+|-
+|
+[[Trevor Lawrence]] – Clemson<br>[[Liam Eichenberg]] – Notre Dame<br>[[Rashad Weaver]] – Pittsburgh<br>[[Jeremiah Owusu-Koramoah]] – Notre Dame<br>[[Kyle Hamilton]] – Notre Dame<br>[[José Borregales]] – Miami<br>[[Pressley Harvin III]] – Georgia Tech<br>[[Travis Etienne]] – Clemson
+|
+[[Hunter Long]] – Boston College<br>[[Christian Darrisaw]] – Virginia Tech<br>[[Jaelan Phillips]] – Miami
+|}
+
+==== The Sporting News ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2020 Sporting News All-Americans'''<ref>{{cite web|url=https://www.sportingnews.com/us/ncaa-football/news/college-football-all-americans-2020/ngcleadmgv2714o7aj7p7bqnr|title=Sporting News 2020 college football All-Americans|website=sportingnews.com|publisher=The Sporting News|first=Bill|last=Bender|date=December 29, 2020|access-date=January 5, 2021}}</ref>
+|-
+! First Team
+! Second Team
+|-
+|
+[[Liam Eichenberg]] – Notre Dame<br>[[Travis Etienne]] – Clemson<br>[[Patrick Jones II]] – Pittsburgh<br>[[Jeremiah Owusu-Koramoah]] – Notre Dame<br>[[Chazz Surratt]] – North Carolina<br>[[José Borregales]] – Miami<br>[[Pressley Harvin III]] – Georgia Tech
+|
+[[Kyren Williams]] – Notre Dame<br>[[Hunter Long]] – Boston College<br>[[Aaron Banks (American football)|Aaron Banks]] – Notre Dame<br>[[Javonte Williams]] – North Carolina<br>[[Rashad Weaver]] – Pittsburgh
+|}
+
+==== WCFF ====
+{| class="wikitable" style="white-space:nowrap; text-align:center; font-size:90%;"
+|-
+| colspan="7" style="text-align:center; background:#ddd;"| '''2020 Walter Camp All-Americans'''<ref>{{cite web|url=https://waltercamp.org/2020-walter-camp-all-america-teams/|title=2020 Walter Camp All-America Teams |website=waltercamp.org|publisher=The Walter Camp Foundation|first=Al|last=Carbone|date=January 7, 2021|access-date=January 11, 2021}}</ref>
+|-
+! First Team
+! Second Team
+|-
+|
+[[Liam Eichenberg]] – Notre Dame<br>[[José Borregales]] – Miami<br>[[Rashad Weaver]] – Pittsburgh<br>[[Patrick Jones II]] – Pittsburgh<br>[[Jeremiah Owusu-Koramoah]] – Notre Dame<br>[[Pressley Harvin III]] – Georgia Tech
+|
+[[Christian Darrisaw]] – Virginia Tech<br>[[Aaron Banks (American football)|Aaron Banks]] – Notre Dame<br>[[Trevor Lawrence]] – Clemson<br>[[Travis Etienne]] – Clemson<br>[[Jaelan Phillips]] – Miami<br>[[Kyle Hamilton]] – Notre Dame
+|}
+
+===National Award Winners===
+* Nolan Cooney – [[Brian Piccolo Award]]<ref>{{cite web|url=https://www.localsyr.com/orange-nation/nolan-cooney-receives-brian-piccolo-award/|title=Nolan Cooney receives Brian Piccolo Award|website=localsyr.com|publisher=Nexstar Inc.|date=December 22, 2020|access-date=December 23, 2020}}</ref>
+* [[Jeremiah Owusu-Koramoah]] – [[Butkus Award]]<ref>{{cite web |last1=Driskell |first1=Bryan |title=Jeremiah Owusu-Koramoah Wins The Butkus Award |url=https://www.si.com/college/notredame/football/notre-dame-football-jeremiah-owusu-koramoah-wins-butkus-award |website=Sports Illustrated |access-date=December 21, 2020 |language=en}}</ref>
+
+==Home game attendance==
+Due to the [[COVID-19 pandemic in the United States|COVID-19 pandemic]], attendance was limited at all stadiums for the season.  Depending on state regulations, some universities did not allow any fans.
+
+{| class="wikitable sortable" style="text-align:center;"
+|-'''Attendance'''
+!Team
+!Stadium
+!Capacity
+!Game 1
+!Game 2
+!Game 3
+!Game 4
+!Game 5 
+!Game 6
+!Total 
+!Average
+|-
+! |Boston College
+|[[Alumni Stadium]]
+| 44,500<ref>{{cite web|url=http://bceagles.com/sports/2015/8/14/GamedayA-Z-Football.aspx|website=bceagles.com|title=Alumni Stadium: A to Z|access-date=September 23, 2016}}</ref>
+| colspan=8 | No attendance due to COVID-19
+|-
+! |Clemson
+|[[Memorial Stadium (Clemson)|Memorial Stadium]]
+| 81,500<ref>{{cite web|url=http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|website=ClemsonTigers.com|title=Memorial Stadium-Death Valley-Denny Stadium|access-date=September 23, 2016|archive-url=https://web.archive.org/web/20160924022856/http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|archive-date=September 24, 2016|url-status=dead|df=mdy-all}}</ref>
+| 18,609
+| 18,735
+| 18,885†
+| 18,629
+| 18,690
+| 18,819
+| 112,367
+| 18,728
+|-
+! |Duke
+|[[Wallace Wade Stadium]]
+| 40,000<ref>{{cite web|url=http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|website=goduke.com|title=Brooks Field at Wallace Wade Stadium|access-date=September 23, 2016|archive-date=October 12, 2016|archive-url=https://web.archive.org/web/20161012031200/http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|url-status=dead}}</ref>
+| colspan=8 | No attendance due to COVID-19
+|-
+! |Florida State
+|[[Doak Campbell Stadium]]
+| 79,560<ref>{{cite web|url=http://www.seminoles.com/ViewArticle.dbml?ATCLID=209595993|website=Seminoles.com|title=Bobby Bowden Field at Doak S. Campbell Stadium|access-date=September 23, 2016|archive-date=September 24, 2016|archive-url=https://web.archive.org/web/20160924113030/http://www.seminoles.com/ViewArticle.dbml?ATCLID=209595993|url-status=dead}}</ref>
+| 17,538
+| 13,589
+| 18,016†
+| 16,568
+| 14,872
+| style="background:#666666;" | 
+| 80,583
+| 16,117
+|-
+! |Georgia Tech
+|[[Bobby Dodd Stadium]]
+| 55,000<ref>{{cite web|url=http://www.ramblinwreck.com/genrel/071001aaa.html|website=RamblinWreck.com|title=Bobby Dodd Stadium at Historic Grant Field|access-date=September 23, 2016}}</ref>
+| 11,000
+| 11,000
+| 11,000
+| 11,000
+| 11,000
+| 11,000
+| 66,000
+| 11,000
+|-
+! |Louisville
+| [[Cardinal Stadium]]
+| 60,800<ref>{{cite web|url=https://gocards.com/documents/2019/8/1//2019_UofL_Football_Media_Guide.pdf?id=23840 |title=Cardinal Stadium |work=2019 Louisville Football Media Guide |page=12 |publisher=Louisville Cardinals |access-date=August 30, 2019}}</ref>
+| 11,179
+| 12,120†
+| 11,465
+| 11,901
+| 11,192
+| 10,959
+| 68,816
+| 11,469
+|-
+! |Miami
+|[[Hard Rock Stadium]]
+| 65,326<ref>{{cite web|url=http://hardrockstadium.com/faqs/|website=HardRockStadium.com|title=Hard Rock Stadium FAQs|access-date=September 23, 2016|archive-url=https://web.archive.org/web/20160922231817/http://hardrockstadium.com/faqs/|archive-date=September 22, 2016|url-status=dead|df=mdy-all}}</ref>
+| 8,153
+| 12,806†
+| 9,000
+| 9,940
+| 12,092
+| style="background:#666666;" | 
+| 51,991
+| 10,398
+|-
+!| North Carolina
+|[[Kenan Memorial Stadium]]
+| 50,500<ref>{{cite web|url=http://www.goheels.com/ViewArticle.dbml?ATCLID=205912861|website=goheels.com|title=Kenan Stadium|access-date=September 23, 2016}}</ref>
+| 0
+| 3,535
+| 3,535
+| 3,535
+| 3,535
+| 3,535
+| 17,675
+| 3,535
+|-
+!| NC State
+|[[Carter–Finley Stadium]]
+| 57,583<ref>{{cite web|url=http://gopack.com/facilities/?id=3|website=gopack.com|title=Facilities|access-date=September 23, 2016}}</ref>
+| 350
+| 4,032
+| 4,032
+| 4,032
+| 4,032
+| 4,032
+| 20,510
+| 3,418
+|-
+!| Notre Dame
+|[[Notre Dame Stadium]]
+| 77,622<ref>{{cite web|title=The Fighting Irish |url=https://twitter.com/fightingirish/status/904026724723286016|via=Twitter|access-date=18 November 2017|date=2 September 2017|quote=@NDFootball opens the enhanced Notre Dame Stadium to a packed crowd of 77,622.|url-status=live|archive-url=https://web.archive.org/web/20180511214034/https://twitter.com/fightingirish/status/904026724723286016|archive-date=11 May 2018}}</ref>{{Primary source inline|date=August 2023}}
+| 10,097
+| 10,085
+| 10,409
+| 10,182
+| 11,011†
+| 6,831
+| 58,615
+| 9,769
+|-
+!| Pittsburgh
+|[[Heinz Field]]
+| 68,400<ref>{{cite web|url=http://heinzfield.com/stadium/heinz-field-facts/|website=HeinzField.com|title=Heinz Field Facts|access-date=September 23, 2016|archive-date=October 3, 2014|archive-url=https://web.archive.org/web/20141003160106/http://heinzfield.com/stadium/heinz-field-facts/|url-status=dead}}</ref>
+| 0
+| 0
+| 0
+| 0
+| 5,451†
+| 4,612
+| 10,063
+| 5,032
+|-
+!| Syracuse
+|[[Carrier Dome]]
+| 49,262<ref>{{cite web|url=http://www.cuse.com/facilities/carrier-dome.aspx|archive-url=https://web.archive.org/web/20140209200641/http://cuse.com/facilities/carrier-dome.aspx|url-status=dead|archive-date=February 9, 2014|website=cuse.com|title=Carrier Dome|access-date=September 23, 2016}}</ref>
+| colspan=8 | No attendance due to COVID-19
+|-
+!| Virginia
+|[[Scott Stadium]]
+| 61,500<ref>{{cite web|url=http://www.virginiasports.com/facilities/scott-stadium.html|website=virginiasports.com|title=Carl Smith Center, home of David A. Harrison III Field at Scott Stadium|access-date=September 23, 2016}}</ref>
+| 0
+| 1,000
+| 1,000
+| 1,000
+| 1,000
+| 250
+| 4,250
+| 708
+|-
+!| Virginia Tech
+|[[Lane Stadium]]
+| 65,632<ref>{{cite web|url=https://www.vt.edu/about/buildings/lane-stadium-worsham-field.html|website=vt.edu|title=Lane Stadium/Worsham Field|access-date=September 23, 2016}}</ref>
+| 1,000
+| 1,000
+| 1,000
+| 1,000
+| 250
+| 250
+| 4,500
+| 750
+|-
+!| Wake Forest
+|[[Truist Field at Wake Forest]]
+| 31,500<ref>{{cite web|url=http://www.wakeforestsports.com/facilities/wake-bbt-field.html|archive-url=https://web.archive.org/web/20150518114125/http://www.wakeforestsports.com/facilities/wake-bbt-field.html|url-status=dead|archive-date=May 18, 2015|website=wakeforestsports.com|title=Wake Forest Facilities|access-date=September 23, 2016}}</ref>
+| 68
+| 2,058
+| 2,186†
+| 2,135
+| style="background:#666666;" | 
+| style="background:#666666;" | 
+| 6,447
+| 1,612
+|}
+
+'''Bold''' – Exceeded capacity<br/>
+†Season High
+
+==NFL draft==
+{{main|2021 NFL draft}}
+
+The following list includes all ACC Players who were drafted in the [[2021 NFL draft]]
+
+{|class="wikitable sortable" border="1" style="text-align: center;"
+|-
+! Player
+! Position
+! School
+! Draft<br/>Round
+! Round<br/>Pick
+! Overall<br/>Pick
+! Team
+|-
+| [[Trevor Lawrence]]
+| [[Quarterback|QB]]
+| [[Clemson Tigers football|Clemson]]
+| 1
+| [[List of first overall National Football League draft picks|1]]
+| 1
+| [[Jacksonville Jaguars]]
+|-
+| [[Jaelan Phillips]]
+| [[Defensive end|DE]]
+| [[Miami Hurricanes football|Miami]]
+| 1
+| 18
+| 18
+| [[Miami Dolphins]]
+|-
+| [[Caleb Farley]]
+| [[Cornerback|CB]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 1
+| 22
+| 22
+| [[Tennessee Titans]]
+|-
+| [[Christian Darrisaw]]
+| [[Tackle (gridiron football position)|OT]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 1
+| 23
+| 23
+| [[Minnesota Vikings]]
+|-
+| [[Travis Etienne]]
+| [[Running back|RB]]
+| [[Clemson Tigers football|Clemson]]
+| 1
+| 25
+| 25
+| [[Jacksonville Jaguars]]
+|-
+| [[Gregory Rousseau]]
+| [[Defensive end|DE]]
+| [[Miami Hurricanes football|Miami]]
+| 1
+| 30
+| 30
+| [[Buffalo Bills]]
+|-
+| [[Javonte Williams]]
+| [[Running back|RB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 2
+| 3
+| 35
+| [[Denver Broncos]]
+|-
+| [[Jackson Carman]]
+| [[Offensive tackle|OT]]
+| [[Clemson Tigers football|Clemson]]
+| 2
+| 14
+| 46
+| [[Cincinnati Bengals]]
+|-
+| [[Asante Samuel Jr.]]
+| [[Cornerback|CB]]
+| [[Florida State Seminoles football|Florida State]]
+| 2
+| 15
+| 47
+| [[Los Angeles Chargers]]
+|-
+| [[Tutu Atwell]]
+| [[Wide receiver|WR]]
+| [[Louisville Cardinals football|Louisville]]
+| 2
+| 25
+| 57
+| [[Los Angeles Rams]]
+|-
+| [[Carlos Basham Jr.]]
+| [[Defensive end|DE]]
+| [[Wake Forest Demon Deacons football|Wake Forest]]
+| 2
+| 29
+| 61
+| [[Buffalo Bills]]
+|-
+| [[Andre Cisco]]
+| [[Safety (gridiron football position)|S]]
+| [[Syracuse Orange football|Syracuse]]
+| 3
+| 1
+| 65
+| [[Jacksonville Jaguars]]
+|-
+| [[Alim McNeill]]
+| [[Defensive tackle|DT]]
+| [[NC State Wolfpack football|NC State]]
+| 3
+| 8
+| 72
+| [[Detroit Lions]]
+|-
+| [[Chazz Surratt]]
+| [[Linebacker|LB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 3
+| 14
+| 78
+| [[Minnesota Vikings]]
+|-
+| [[Divine Deablo]]
+| [[Safety (gridiron football position)|S]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 3
+| 16
+| 80
+| [[Las Vegas Raiders]]
+|-
+| [[Hunter Long]]
+| [[Tight end|TE]]
+| [[Boston College Eagles football|Boston College]]
+| 3
+| 17
+| 81
+| [[Miami Dolphins]]
+|-
+| [[Dyami Brown]]
+| [[Wide receiver|WR]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 3
+| 18
+| 82
+| [[Washington Football Team]]
+|-
+| [[Amari Rodgers]]
+| [[Wide receiver|WR]]
+| [[Clemson Tigers football|Clemson]]
+| 3
+| 21
+| 85
+| [[Green Bay Packers]]
+|-
+| [[Patrick Jones II]]
+| [[Defensive end|DE]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 3
+| 26
+| 90
+| [[Minnesota Vikings]]
+|-
+| [[Ifeatu Melifonwu]]
+| [[Cornerback|CB]]
+| [[Syracuse Orange football|Syracuse]]
+| 3
+| 37
+| 101
+| [[Detroit Lions]]
+|-
+| [[Michael Carter (running back)|Michael Carter]]
+| [[Running back|RB]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 4
+| 2
+| 107
+| [[New York Jets]]
+|-
+| [[Dez Fitzpatrick]]
+| [[Wide receiver|WR]]
+| [[Louisville Cardinals football|Louisville]]
+| 4
+| 4
+| 109
+| [[Tennessee Titans]]
+|-
+| [[Chris Rumph II]]
+| [[Linebacker|OLB]]
+| [[Duke Blue Devils football|Duke]]
+| 4
+| 13
+| 118
+| [[Los Angeles Chargers]]
+|-
+| [[Janarius Robinson]]
+| [[Defensive end|DE]]
+| [[Florida State Seminoles football|Florida State]]
+| 4
+| 29
+| 134
+| [[Minnesota Vikings]]
+|-
+| [[Rashad Weaver]]
+| [[Defensive end|DE]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 4
+| 30
+| 135
+| [[Tennessee Titans]]
+|-
+| [[Joshua Kaindoh]]
+| [[Defensive end|DE]]
+| [[Florida State Seminoles football|Florida State]]
+| 4
+| 39
+| 144
+| [[Kansas City Chiefs]]
+|-
+| [[Brevin Jordan]]
+| [[Tight end|TE]]
+| [[Miami Hurricanes football|Miami]]
+| 5
+| 3
+| 147
+| [[Houston Texans]]
+|-
+| [[Michael Carter II]]
+| [[Safety (gridiron football position)|S]]
+| [[Duke Blue Devils football|Duke]]
+| 5
+| 10
+| 154
+| [[New York Jets]]
+|-
+| [[Noah Gray]]
+| [[Tight end|TE]]
+| [[Duke Blue Devils football|Duke]]
+| 5
+| 18
+| 162
+| [[Kansas City Chiefs]]
+|-
+| [[Jason Pinnock]]
+| [[Cornerback|CB]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 5
+| 31
+| 175
+| [[New York Jets]]
+|-
+| [[Cornell Powell]]
+| [[Wide receiver|WR]]
+| [[Clemson Tigers football|Clemson]]
+| 5
+| 37
+| 181
+| [[Kansas City Chiefs]]
+|-
+| [[Hamsah Nasirildeen]]
+| [[Safety (gridiron football position)|S]]
+| [[Florida State Seminoles football|Florida State]]
+| 6
+| 2
+| 186
+| [[New York Jets]]
+|-
+| [[Jaylen Twyman]]
+| [[Defensive tackle|DT]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 6
+| 15
+| 199
+| [[Minnesota Vikings]]
+|-
+| [[Jalen Camp]]
+| [[Wide receiver|WR]]
+| [[Georgia Tech Yellow Jackets football|Georgia Tech]]
+| 6
+| 25
+| 209
+| [[Jacksonville Jaguars]]
+|-
+| [[Victor Dimukeje]]
+| [[Defensive end|DE]]
+| [[Duke Blue Devils football|Duke]]
+| 6
+| 26
+| 210
+| [[Arizona Cardinals]]
+|-
+| [[Damar Hamlin]]
+| [[Safety (gridiron football position)|S]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 6
+| 28
+| 212
+| [[Buffalo Bills]]
+|-
+| [[Quincy Roche]]
+| [[Linebacker|OLB]]
+| [[Miami Hurricanes football|Miami]]
+| 6
+| 32
+| 216
+| [[Pittsburgh Steelers]]
+|-
+| [[Khalil Herbert]]
+| [[Running back|RB]]
+| [[Virginia Tech Hokies football|Virginia Tech]]
+| 6
+| 33
+| 217
+| [[Chicago Bears]]
+|-
+| [[Isaiah McDuffie]]
+| [[Linebacker|ILB]]
+| [[Boston College Eagles football|Boston College]]
+| 6
+| 36
+| 220
+| [[Green Bay Packers]]
+|-
+| [[Dazz Newsome]]
+| [[Wide receiver|WR]]
+| [[North Carolina Tar Heels football|North Carolina]]
+| 6
+| 37
+| 221
+| [[Chicago Bears]]
+|-
+| [[Jimmy Morrissey]]
+| [[Center (gridiron football)|C]]
+| [[Pittsburgh Panthers football|Pittsburgh]]
+| 7
+| 2
+| 230
+| [[Las Vegas Raiders]]
+|-
+| [[Pressley Harvin III]]
+| [[Punter (football)|P]]
+| [[Georgia Tech Yellow Jackets football|Georgia Tech]]
+| 7
+| 27
+| 254
+| [[Pittsburgh Steelers]]
+|-
+|}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+*{{cite news |url=https://www.bostonherald.com/2020/11/11/jury-still-out-on-notre-dames-1-and-done-acc-member-status/ |title=Jury still out on Notre Dame’s 1-and-done ACC member status |agency=[[Associated Press]] |website=[[Boston Herald]] |date=November 11, 2020 |access-date=November 12, 2020}}
+
+{{Atlantic Coast Conference football navbox}}
+{{2020 NCAA Division I FBS football season navbox}}
+
+[[Category:2020 Atlantic Coast Conference football season| ]]
