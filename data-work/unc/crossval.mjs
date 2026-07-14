@@ -78,11 +78,11 @@ for (let y = 1994; y <= 2025; y++) {
     if (!srBy.get(key).has(y))
       srBy.get(key).set(y, { stats: {}, offPos: [], defPos: [], src: d.source })
     const e = srBy.get(key).get(y)
-    if (r.table === 'passing_standard' || r.table === 'rushing_standard') {
+    if (/^(passing|rushing)/.test(r.table)) {
       for (const [sk, ok] of Object.entries(SR_OFF))
         if (r.stats[sk] !== undefined) e.stats[ok] = r.stats[sk]
       if (r.pos) e.offPos.push(r.pos)
-    } else if (r.table === 'defense_standard') {
+    } else if (r.table.startsWith('defense')) {
       const solo = r.stats.tackles_solo ?? 0
       const ast = r.stats.tackles_assists ?? 0
       if (solo + ast > 0) e.stats.tackles = solo + ast

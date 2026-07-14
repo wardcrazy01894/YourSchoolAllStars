@@ -63,6 +63,1118 @@
     "pass_yds_per_g": 0,
     "pass_rating": 0
    }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Ronnie McGill",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 192,
+    "rush_yds": 790,
+    "rush_yds_per_att": 4.1,
+    "rush_td": 7,
+    "rec": 15,
+    "rec_yds": 148,
+    "rec_yds_per_rec": 9.9,
+    "rec_td": 1,
+    "scrim_att": 207,
+    "scrim_yds": 938,
+    "scrim_yds_per_att": 4.5,
+    "scrim_td": 8
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Barrington Edwards",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "rush_att": 91,
+    "rush_yds": 330,
+    "rush_yds_per_att": 3.6,
+    "rush_td": 2,
+    "rec": 12,
+    "rec_yds": 103,
+    "rec_yds_per_rec": 8.6,
+    "rec_td": 0,
+    "scrim_att": 103,
+    "scrim_yds": 433,
+    "scrim_yds_per_att": 4.2,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Joe Dailey",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "rush_att": 50,
+    "rush_yds": 61,
+    "rush_yds_per_att": 1.2,
+    "rush_td": 1,
+    "scrim_att": 50,
+    "scrim_yds": 61,
+    "scrim_yds_per_att": 1.2,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Cameron Sexton",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "rush_att": 27,
+    "rush_yds": 25,
+    "rush_yds_per_att": 0.9,
+    "rush_td": 1,
+    "scrim_att": 27,
+    "scrim_yds": 25,
+    "scrim_yds_per_att": 0.9,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Justin Warren",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 7,
+    "rush_yds": 77,
+    "rush_yds_per_att": 11,
+    "rush_td": 1,
+    "scrim_att": 7,
+    "scrim_yds": 77,
+    "scrim_yds_per_att": 11,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Bobby Rome",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 5,
+    "rush_yds": 11,
+    "rush_yds_per_att": 2.2,
+    "rush_td": 0,
+    "rec": 8,
+    "rec_yds": 83,
+    "rec_yds_per_rec": 10.4,
+    "rec_td": 0,
+    "scrim_att": 13,
+    "scrim_yds": 94,
+    "scrim_yds_per_att": 7.2,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Brandon Tate",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 3,
+    "rush_yds": 20,
+    "rush_yds_per_att": 6.7,
+    "rush_td": 0,
+    "rec": 5,
+    "rec_yds": 72,
+    "rec_yds_per_rec": 14.4,
+    "rec_td": 0,
+    "scrim_att": 8,
+    "scrim_yds": 92,
+    "scrim_yds_per_att": 11.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Brooks Foster",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 2,
+    "rush_yds": 15,
+    "rush_yds_per_att": 7.5,
+    "rush_td": 0,
+    "rec": 38,
+    "rec_yds": 486,
+    "rec_yds_per_rec": 12.8,
+    "rec_td": 2,
+    "scrim_att": 40,
+    "scrim_yds": 501,
+    "scrim_yds_per_att": 12.5,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Connor Barth",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 1,
+    "rush_yds": 21,
+    "rush_yds_per_att": 21,
+    "rush_td": 0,
+    "scrim_att": 1,
+    "scrim_yds": 21,
+    "scrim_yds_per_att": 21,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Hakeem Nicks",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "rush_att": 1,
+    "rush_yds": 10,
+    "rush_yds_per_att": 10,
+    "rush_td": 0,
+    "rec": 39,
+    "rec_yds": 660,
+    "rec_yds_per_rec": 16.9,
+    "rec_td": 4,
+    "scrim_att": 40,
+    "scrim_yds": 670,
+    "scrim_yds_per_att": 16.8,
+    "scrim_td": 4
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Larry Edwards",
+   "pos": null,
+   "stats": {
+    "g": 9,
+    "rush_att": 1,
+    "rush_yds": 2,
+    "rush_yds_per_att": 2,
+    "rush_td": 0,
+    "scrim_att": 1,
+    "scrim_yds": 2,
+    "scrim_yds_per_att": 2,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Richie Rich",
+   "pos": null,
+   "stats": {
+    "g": 5,
+    "rush_att": 1,
+    "rush_yds": -1,
+    "rush_yds_per_att": -1,
+    "rush_td": 0,
+    "rec": 2,
+    "rec_yds": 24,
+    "rec_yds_per_rec": 12,
+    "rec_td": 0,
+    "scrim_att": 3,
+    "scrim_yds": 23,
+    "scrim_yds_per_att": 7.7,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Andre' Barbour",
+   "pos": null,
+   "stats": {
+    "g": 7,
+    "rec": 1,
+    "rec_yds": 1,
+    "rec_yds_per_rec": 1,
+    "rec_td": 1,
+    "scrim_att": 1,
+    "scrim_yds": 1,
+    "scrim_yds_per_att": 1,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Jesse Holley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rec": 37,
+    "rec_yds": 466,
+    "rec_yds_per_rec": 12.6,
+    "rec_td": 2,
+    "scrim_att": 37,
+    "scrim_yds": 466,
+    "scrim_yds_per_att": 12.6,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Jon Hamlett",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rec": 5,
+    "rec_yds": 51,
+    "rec_yds_per_rec": 10.2,
+    "rec_td": 1,
+    "scrim_att": 5,
+    "scrim_yds": 51,
+    "scrim_yds_per_att": 10.2,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Kenton Thornton",
+   "pos": null,
+   "stats": {
+    "g": 3,
+    "rec": 5,
+    "rec_yds": 47,
+    "rec_yds_per_rec": 9.4,
+    "rec_td": 0,
+    "scrim_att": 5,
+    "scrim_yds": 47,
+    "scrim_yds_per_att": 9.4,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Nick Starcevic",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rec": 1,
+    "rec_yds": 8,
+    "rec_yds_per_rec": 8,
+    "rec_td": 0,
+    "scrim_att": 1,
+    "scrim_yds": 8,
+    "scrim_yds_per_att": 8,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Rock Wells",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "rec": 1,
+    "rec_yds": 7,
+    "rec_yds_per_rec": 7,
+    "rec_td": 0,
+    "scrim_att": 1,
+    "scrim_yds": 7,
+    "scrim_yds_per_att": 7,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Durell Mapp",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 56,
+    "tackles_assists": 31,
+    "tackles_total": 87,
+    "tackles_loss": 4,
+    "sacks": 0,
+    "pass_defended": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Kareen Taylor",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 51,
+    "tackles_assists": 19,
+    "tackles_total": 70,
+    "tackles_loss": 2,
+    "sacks": 0,
+    "def_int": 5,
+    "def_int_yds": 96,
+    "def_int_yds_per_int": 19.2,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "D.J. Walker",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 49,
+    "tackles_assists": 16,
+    "tackles_total": 65,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Larry Edwards",
+   "pos": null,
+   "stats": {
+    "g": 9,
+    "tackles_solo": 40,
+    "tackles_assists": 18,
+    "tackles_total": 58,
+    "tackles_loss": 5.5,
+    "sacks": 3,
+    "fumbles_forced": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Victor Worsley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 36,
+    "tackles_assists": 22,
+    "tackles_total": 58,
+    "tackles_loss": 4.5,
+    "sacks": 1.5
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Jacoby Watkins",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 46,
+    "tackles_assists": 6,
+    "tackles_total": 52,
+    "tackles_loss": 2,
+    "sacks": 1,
+    "pass_defended": 8
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "James Arnold",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 35,
+    "tackles_assists": 13,
+    "tackles_total": 48,
+    "tackles_loss": 1,
+    "sacks": 0,
+    "fumbles_forced": 2
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Chase Rice",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 19,
+    "tackles_assists": 12,
+    "tackles_total": 31,
+    "tackles_loss": 2,
+    "sacks": 1,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Hilee Taylor",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 25,
+    "tackles_assists": 4,
+    "tackles_total": 29,
+    "tackles_loss": 5,
+    "sacks": 3,
+    "fumbles_forced": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Brian Rackley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 21,
+    "tackles_assists": 7,
+    "tackles_total": 28,
+    "tackles_loss": 2,
+    "sacks": 2,
+    "pass_defended": 1,
+    "fumbles_rec": 1,
+    "fumbles_rec_yds": 2,
+    "fumbles_rec_td": 1,
+    "fumbles_forced": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Kyndraus Guy",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 15,
+    "tackles_assists": 11,
+    "tackles_total": 26,
+    "tackles_loss": 4,
+    "sacks": 2,
+    "fumbles_forced": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Shelton Bynum",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 13,
+    "tackles_assists": 13,
+    "tackles_total": 26,
+    "tackles_loss": 3.5,
+    "sacks": 3
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Mark Paschal",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 19,
+    "tackles_assists": 4,
+    "tackles_total": 23,
+    "tackles_loss": 1,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Melik Brown",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 14,
+    "tackles_assists": 9,
+    "tackles_total": 23,
+    "tackles_loss": 1,
+    "sacks": 1,
+    "pass_defended": 1,
+    "fumbles_forced": 2
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Quinton Person",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 16,
+    "tackles_assists": 6,
+    "tackles_total": 22,
+    "tackles_loss": 0,
+    "sacks": 0,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "E.J. Wilson",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 11,
+    "tackles_assists": 8,
+    "tackles_total": 19,
+    "tackles_loss": 3,
+    "sacks": 2
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Jermaine Strong",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "tackles_solo": 13,
+    "tackles_assists": 5,
+    "tackles_total": 18,
+    "tackles_loss": 0,
+    "sacks": 0,
+    "pass_defended": 5,
+    "fumbles_forced": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Bryan Bethea",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 14,
+    "tackles_assists": 4,
+    "tackles_total": 18,
+    "tackles_loss": 0,
+    "sacks": 0,
+    "pass_defended": 3
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Cam Thomas",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 11,
+    "tackles_assists": 7,
+    "tackles_total": 18,
+    "tackles_loss": 1,
+    "sacks": 1.5
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Kentwan Balmer",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "tackles_solo": 13,
+    "tackles_assists": 3,
+    "tackles_total": 16,
+    "tackles_loss": 2.5,
+    "sacks": 2.5,
+    "pass_defended": 2
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Wesley Flagg",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 2,
+    "tackles_assists": 7,
+    "tackles_total": 9,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Martel Thatch",
+   "pos": null,
+   "stats": {
+    "g": 9,
+    "tackles_solo": 4,
+    "tackles_assists": 5,
+    "tackles_total": 9,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Garrett White",
+   "pos": null,
+   "stats": {
+    "g": 5,
+    "tackles_solo": 9,
+    "tackles_assists": 0,
+    "tackles_total": 9,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Dirk Engram",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 4,
+    "tackles_assists": 3,
+    "tackles_total": 7,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Jordan Hemby",
+   "pos": null,
+   "stats": {
+    "g": 3,
+    "tackles_solo": 3,
+    "tackles_assists": 3,
+    "tackles_total": 6,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Brooks Foster",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 5,
+    "tackles_assists": 0,
+    "tackles_total": 5,
+    "tackles_loss": 0,
+    "sacks": 0,
+    "fumbles_forced": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Kennedy Tinsley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 3,
+    "tackles_assists": 2,
+    "tackles_total": 5,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Ryan Taylor",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "tackles_solo": 3,
+    "tackles_assists": 1,
+    "tackles_total": 4,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Tavares Brown",
+   "pos": null,
+   "stats": {
+    "g": 4,
+    "tackles_solo": 2,
+    "tackles_assists": 2,
+    "tackles_total": 4,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Bryan Dixon",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "tackles_solo": 4,
+    "tackles_assists": 0,
+    "tackles_total": 4,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Jesse Holley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 4,
+    "tackles_assists": 0,
+    "tackles_total": 4,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Nick Starcevic",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 2,
+    "tackles_assists": 1,
+    "tackles_total": 3,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Kendric Williams",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 2,
+    "tackles_assists": 1,
+    "tackles_total": 3,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Patrick Marsh",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 1,
+    "tackles_assists": 1,
+    "tackles_total": 2,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Hakeem Nicks",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "tackles_solo": 2,
+    "tackles_assists": 0,
+    "tackles_total": 2,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Joey Bozich",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "tackles_solo": 0,
+    "tackles_assists": 1,
+    "tackles_total": 1,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Barrington Edwards",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "tackles_solo": 1,
+    "tackles_assists": 0,
+    "tackles_total": 1,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Joe Dailey",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "tackles_solo": 1,
+    "tackles_assists": 0,
+    "tackles_total": 1,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Richie Rich",
+   "pos": null,
+   "stats": {
+    "g": 5,
+    "tackles_solo": 0,
+    "tackles_assists": 1,
+    "tackles_total": 1,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Brandon Tate",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 1,
+    "tackles_assists": 0,
+    "tackles_total": 1,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Justin Warren",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "tackles_solo": 0,
+    "tackles_assists": 1,
+    "tackles_total": 1,
+    "tackles_loss": 0,
+    "sacks": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Brandon Tate",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 38,
+    "kick_ret_yds": 902,
+    "kick_ret_yds_per_ret": 23.7,
+    "kick_ret_td": 2,
+    "punt_ret": 20,
+    "punt_ret_yds": 194,
+    "punt_ret_yds_per_ret": 9.7,
+    "punt_ret_td": 1
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Hakeem Nicks",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "kick_ret": 5,
+    "kick_ret_yds": 101,
+    "kick_ret_yds_per_ret": 20.2,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Kendric Williams",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 4,
+    "kick_ret_yds": 85,
+    "kick_ret_yds_per_ret": 21.3,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "James Arnold",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 1,
+    "kick_ret_yds": 16,
+    "kick_ret_yds_per_ret": 16,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Nick Starcevic",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 1,
+    "kick_ret_yds": 2,
+    "kick_ret_yds_per_ret": 2,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Kareen Taylor",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 1,
+    "kick_ret_yds": 0,
+    "kick_ret_yds_per_ret": 0,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Ronnie McGill",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "punt_ret": 1,
+    "punt_ret_yds": 18,
+    "punt_ret_yds_per_ret": 18,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Connor Barth",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "xpm": 24,
+    "fgm": 10,
+    "points": 54
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Ronnie McGill",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rush": 7,
+    "td_rec": 1,
+    "td_total": 8,
+    "points": 48
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Hakeem Nicks",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "td_rec": 4,
+    "td_total": 4,
+    "points": 24
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Brandon Tate",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_punt_ret": 1,
+    "td_kick_ret": 2,
+    "td_total": 3,
+    "points": 18
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Barrington Edwards",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "td_rush": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Brooks Foster",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Jesse Holley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Andre' Barbour",
+   "pos": null,
+   "stats": {
+    "g": 7,
+    "td_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Brian Rackley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_fumbles_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Cameron Sexton",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "td_rush": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Joe Dailey",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "td_rush": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Jon Hamlett",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Justin Warren",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rush": 1,
+    "td_total": 1,
+    "points": 6
+   }
   }
  ]
 }

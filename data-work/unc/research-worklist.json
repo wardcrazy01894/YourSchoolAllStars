@@ -122,15 +122,11 @@
   },
   {
    "name": "Jordon Riley",
-   "composite": 0
+   "composite": 1.2
   },
   {
    "name": "Tommy Bancroft",
-   "composite": 0
-  },
-  {
-   "name": "Trey Morrison",
-   "composite": 0
+   "composite": 0.6
   },
   {
    "name": "C Bell",
@@ -162,19 +158,15 @@
   },
   {
    "name": "Cameron Roseman-Sinclair",
-   "composite": 0
+   "composite": 0.5
   },
   {
    "name": "Clyde Pinder",
-   "composite": 0
+   "composite": 0.2
   },
   {
    "name": "Dontavius Nash",
    "composite": 0.3
-  },
-  {
-   "name": "Ja'Qurious Conley",
-   "composite": 0
   },
   {
    "name": "Kedrick Bingley-Jones",
@@ -183,10 +175,6 @@
   {
    "name": "Keeshawn Silver",
    "composite": 0.6
-  },
-  {
-   "name": "Kyler McMichael",
-   "composite": 0
   },
   {
    "name": "Dontae Balfour",

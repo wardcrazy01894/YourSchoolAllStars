@@ -49,9 +49,15 @@ function parseYear(year) {
     const [, tableId, tbl] = tm
     if (!/passing|rushing|receiving|defense|scoring|returns?/.test(tableId))
       continue
-    const bodyM = tbl.match(/<tbody>([\s\S]*?)<\/tbody>/)
-    if (!bodyM) continue
-    for (const tr of bodyM[1].matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
+    // Modern SR captures wrap rows in <tbody>; the PRE-REDESIGN ones (which
+    // Wayback still serves for some years — 2017/2018 here, and whose table ids
+    // are `defense_and_fumbles` / `rushing_and_receiving`) have NO <tbody> at
+    // all. Requiring one silently yielded ZERO rows for those years, which then
+    // let the SR-corroboration step strip every real defensive stat from them.
+    const body =
+      tbl.match(/<tbody>([\s\S]*?)<\/tbody>/)?.[1] ??
+      tbl.replace(/<thead>[\s\S]*?<\/thead>/g, '')
+    for (const tr of body.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
       const cells = {}
       for (const c of tr[1].matchAll(
         /<t[dh][^>]*data-stat="([^"]+)"[^>]*>([\s\S]*?)<\/t[dh]>/g,

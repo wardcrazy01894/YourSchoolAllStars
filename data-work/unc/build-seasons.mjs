@@ -81,8 +81,9 @@ for (const year of [...SR_YEARS].sort()) {
   const roster = rosterFor(year)
   const byName = new Map()
   for (const r of d.rows) {
-    if (!['passing_standard', 'rushing_standard', 'defense_standard'].includes(r.table))
-      continue
+    // Table ids differ by SR vintage: modern (`*_standard`, `defense_standard`)
+    // vs pre-redesign (`passing`, `rushing_and_receiving`, `defense_and_fumbles`).
+    if (!/^(passing|rushing|defense)/.test(r.table)) continue
     const key = norm(r.name)
     if (!byName.has(key))
       byName.set(key, { name: r.name, srPos: r.pos, stats: {} })
@@ -92,7 +93,7 @@ for (const year of [...SR_YEARS].sort()) {
       const v = r.stats[sk]
       if (typeof v === 'number' && v !== 0) e.stats[ok] = v
     }
-    if (r.table === 'defense_standard') {
+    if (r.table.startsWith('defense')) {
       const solo = r.stats.tackles_solo ?? 0
       const ast = r.stats.tackles_assists ?? 0
       if (solo + ast > 0) e.stats.tackles = solo + ast
@@ -155,7 +156,7 @@ for (const year of [...CUME_YEARS].sort()) {
     if (!existsSync(f)) continue
     const srd = JSON.parse(readFileSync(f))
     for (const r of srd.rows) {
-      if (r.table !== 'defense_standard') continue
+      if (!r.table.startsWith('defense')) continue
       const has = new Set()
       const solo = (r.stats.tackles_solo ?? 0) + (r.stats.tackles_assists ?? 0)
       if (solo > 0) has.add('tackles')

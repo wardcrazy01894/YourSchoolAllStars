@@ -4995,7 +4995,7 @@
       ]
     },
     {
-      "id": "jonathan-smith",
+      "id": "jonathan-smith-2007",
       "name": "Jonathan Smith",
       "position": "LB",
       "firstYear": 2007,
@@ -8588,6 +8588,57 @@
       ]
     },
     {
+      "id": "allen-artis",
+      "name": "Allen Artis",
+      "position": "S",
+      "firstYear": 2014,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2014,
+          "stats": {
+            "tackles": 14
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241211155617/https://www.sports-reference.com/cfb/schools/north-carolina/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "tackles": 5
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 11
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 26,
+            "tfl": 2,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        }
+      ]
+    },
+    {
       "id": "austin-proehl",
       "name": "Austin Proehl",
       "position": "WR",
@@ -8683,7 +8734,7 @@
       "name": "Cayson Collins",
       "position": "LB",
       "firstYear": 2014,
-      "lastYear": 2016,
+      "lastYear": 2017,
       "seasons": [
         {
           "year": 2014,
@@ -8713,6 +8764,18 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 6,
+            "tfl": 4.5,
+            "sacks": 2,
+            "pbu": 1,
+            "ff": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
         }
       ]
     },
@@ -8721,7 +8784,7 @@
       "name": "Dajaun Drennon",
       "position": "DE",
       "firstYear": 2014,
-      "lastYear": 2016,
+      "lastYear": 2017,
       "seasons": [
         {
           "year": 2014,
@@ -8754,6 +8817,16 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 33,
+            "tfl": 4,
+            "sacks": 0.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
         }
       ]
     },
@@ -8802,7 +8875,7 @@
       "name": "Donnie Miles",
       "position": "S",
       "firstYear": 2014,
-      "lastYear": 2015,
+      "lastYear": 2017,
       "seasons": [
         {
           "year": 2014,
@@ -8825,8 +8898,20 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 37,
+            "tfl": 0.5,
+            "defInt": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
         }
-      ]
+      ],
+      "redshirtYears": [2016]
     },
     {
       "id": "elijah-hood",
@@ -8902,7 +8987,7 @@
       "name": "M.J. Stewart",
       "position": "CB",
       "firstYear": 2014,
-      "lastYear": 2016,
+      "lastYear": 2017,
       "seasons": [
         {
           "year": 2014,
@@ -8938,6 +9023,17 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 45,
+            "tfl": 5,
+            "sacks": 2,
+            "pbu": 12
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
         }
       ]
     },
@@ -9077,6 +9173,24 @@
           "source": "https://goheels.com/sports/football/stats/2016"
         },
         {
+          "year": 2017,
+          "stats": {
+            "tackles": 29,
+            "tfl": 5,
+            "sacks": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
           "year": 2019,
           "stats": {
             "tackles": 50,
@@ -9087,8 +9201,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2019"
         }
-      ],
-      "redshirtYears": [2017, 2018]
+      ]
     },
     {
       "id": "andre-smith",
@@ -9129,7 +9242,7 @@
       "name": "Ayden Bonilla",
       "position": "LB",
       "firstYear": 2015,
-      "lastYear": 2016,
+      "lastYear": 2017,
       "seasons": [
         {
           "year": 2015,
@@ -9148,6 +9261,15 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 29,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
         }
       ]
     },
@@ -9183,7 +9305,8 @@
           "stats": {
             "rec": 25,
             "recYds": 177,
-            "recTD": 4
+            "recTD": 4,
+            "tackles": 3
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2017"
@@ -9195,7 +9318,7 @@
       "name": "Cole Holcomb",
       "position": "LB",
       "firstYear": 2015,
-      "lastYear": 2016,
+      "lastYear": 2018,
       "seasons": [
         {
           "year": 2015,
@@ -9215,6 +9338,29 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 93,
+            "tfl": 2.5,
+            "sacks": 0.5,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 105,
+            "tfl": 8,
+            "sacks": 1,
+            "pbu": 4,
+            "ff": 4
+          },
+          "honors": ["Second-Team All-ACC (2018)"],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -9223,7 +9369,7 @@
       "name": "J.K. Britt",
       "position": "S",
       "firstYear": 2015,
-      "lastYear": 2016,
+      "lastYear": 2018,
       "seasons": [
         {
           "year": 2015,
@@ -9241,6 +9387,30 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 53,
+            "tfl": 1.5,
+            "defInt": 1,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 64,
+            "tfl": 0.5,
+            "defInt": 1,
+            "pbu": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -9249,7 +9419,7 @@
       "name": "Jalen Dalton",
       "position": "DT",
       "firstYear": 2015,
-      "lastYear": 2016,
+      "lastYear": 2018,
       "seasons": [
         {
           "year": 2015,
@@ -9270,6 +9440,29 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 28,
+            "tfl": 8,
+            "sacks": 3,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 23,
+            "tfl": 4.5,
+            "sacks": 3.5,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -9278,7 +9471,7 @@
       "name": "Jeremiah Clarke",
       "position": "DT",
       "firstYear": 2015,
-      "lastYear": 2016,
+      "lastYear": 2018,
       "seasons": [
         {
           "year": 2015,
@@ -9300,6 +9493,27 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 32,
+            "tfl": 4.5,
+            "sacks": 0.5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 31,
+            "tfl": 2.5,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -9308,7 +9522,7 @@
       "name": "Malik Carney",
       "position": "DE",
       "firstYear": 2015,
-      "lastYear": 2016,
+      "lastYear": 2018,
       "seasons": [
         {
           "year": 2015,
@@ -9328,6 +9542,30 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 57,
+            "tfl": 12,
+            "sacks": 5.5,
+            "pbu": 2,
+            "ff": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 60,
+            "tfl": 12.5,
+            "sacks": 6.5,
+            "pbu": 2,
+            "ff": 5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -9393,6 +9631,28 @@
           "source": "https://goheels.com/sports/football/stats/2016"
         },
         {
+          "year": 2017,
+          "stats": {
+            "tackles": 11,
+            "tfl": 1,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 12,
+            "tfl": 2,
+            "sacks": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
           "year": 2019,
           "stats": {
             "tackles": 20,
@@ -9403,8 +9663,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2019"
         }
-      ],
-      "redshirtYears": [2017, 2018]
+      ]
     },
     {
       "id": "anthony-ratliff-williams",
@@ -9442,7 +9701,8 @@
             "rushTD": 1,
             "rec": 42,
             "recYds": 689,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
           "honors": ["First-Team All-ACC (2018)"],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9480,7 +9740,8 @@
           "stats": {
             "rec": 16,
             "recYds": 265,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9514,6 +9775,25 @@
           "source": "https://goheels.com/sports/football/stats/2016"
         },
         {
+          "year": 2017,
+          "stats": {
+            "tackles": 5,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 4,
+            "defInt": 1,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
           "year": 2019,
           "stats": {
             "tackles": 7
@@ -9521,8 +9801,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2019"
         }
-      ],
-      "redshirtYears": [2017, 2018]
+      ]
     },
     {
       "id": "jake-bargas",
@@ -9554,7 +9833,8 @@
           "stats": {
             "rec": 8,
             "recYds": 80,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9594,7 +9874,8 @@
           "stats": {
             "rec": 26,
             "recYds": 307,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2017"
@@ -9636,7 +9917,8 @@
             "rushYds": 347,
             "rushTD": 3,
             "rec": 16,
-            "recYds": 90
+            "recYds": 90,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9689,6 +9971,29 @@
           "source": "https://goheels.com/sports/football/stats/2016"
         },
         {
+          "year": 2017,
+          "stats": {
+            "tackles": 71,
+            "tfl": 2.5,
+            "defInt": 2,
+            "pbu": 5,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 55,
+            "tfl": 2.5,
+            "defInt": 2,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
           "year": 2019,
           "stats": {
             "tackles": 83,
@@ -9699,8 +10004,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2019"
         }
-      ],
-      "redshirtYears": [2017, 2018]
+      ]
     },
     {
       "id": "nathan-elliott",
@@ -9740,6 +10044,7 @@
             "passTD": 11,
             "passInt": 9,
             "rushYds": 35,
+            "tackles": 1,
             "rushTD": 0
           },
           "honors": [],
@@ -9780,7 +10085,8 @@
           "stats": {
             "rec": 16,
             "recYds": 118,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 5
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9792,7 +10098,7 @@
       "name": "Tomon Fox",
       "position": "DE",
       "firstYear": 2016,
-      "lastYear": 2020,
+      "lastYear": 2021,
       "seasons": [
         {
           "year": 2016,
@@ -9804,6 +10110,28 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2016"
+        },
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 23,
+            "tfl": 4,
+            "sacks": 4,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 27,
+            "tfl": 8.5,
+            "sacks": 2.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         },
         {
           "year": 2019,
@@ -9827,9 +10155,18 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 33,
+            "tfl": 10,
+            "sacks": 8.5
+          },
+          "honors": ["Third-Team All-ACC (2021)"],
+          "source": "https://goheels.com/sports/football/stats/2021"
         }
-      ],
-      "redshirtYears": [2017, 2018]
+      ]
     },
     {
       "id": "beau-corrales",
@@ -9854,7 +10191,8 @@
             "passInt": 1,
             "rec": 18,
             "recYds": 220,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9895,7 +10233,8 @@
             "passTD": 8,
             "passInt": 3,
             "rushYds": 210,
-            "rushTD": 5
+            "rushTD": 5,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2017"
@@ -9954,7 +10293,8 @@
           "stats": {
             "rushYds": 52,
             "rec": 18,
-            "recYds": 227
+            "recYds": 227,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2017"
@@ -9967,7 +10307,8 @@
             "rushTD": 1,
             "rec": 44,
             "recYds": 506,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 4
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -9995,6 +10336,63 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2020"
+        }
+      ]
+    },
+    {
+      "id": "dominique-ross",
+      "name": "Dominique Ross",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 7,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 47,
+            "tfl": 3.5,
+            "sacks": 0.5,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        }
+      ]
+    },
+    {
+      "id": "k-j-sails",
+      "name": "K.J. Sails",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 30,
+            "tfl": 1,
+            "pbu": 13
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 8,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -10056,6 +10454,65 @@
       ]
     },
     {
+      "id": "myles-wolfolk",
+      "name": "Myles Wolfolk",
+      "position": "S",
+      "firstYear": 2017,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 32,
+            "tfl": 1,
+            "defInt": 2,
+            "pbu": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 23,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 25,
+            "tfl": 1,
+            "defInt": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        }
+      ]
+    },
+    {
+      "id": "patrice-rene",
+      "name": "Patrice Rene",
+      "position": "CB",
+      "firstYear": 2017,
+      "lastYear": 2017,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 22,
+            "tfl": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        }
+      ]
+    },
+    {
       "id": "roscoe-johnson",
       "name": "Roscoe Johnson",
       "position": "WR",
@@ -10066,7 +10523,8 @@
           "year": 2017,
           "stats": {
             "rec": 9,
-            "recYds": 90
+            "recYds": 90,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2017"
@@ -10083,6 +10541,64 @@
       ]
     },
     {
+      "id": "tyrone-hopper",
+      "name": "Tyrone Hopper",
+      "position": "LB",
+      "firstYear": 2017,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2017,
+          "stats": {
+            "tackles": 8,
+            "tfl": 1,
+            "sacks": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2017"
+        },
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 10,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 16,
+            "tfl": 1.5,
+            "sacks": 1.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 27,
+            "tfl": 2,
+            "sacks": 2,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
       "id": "british-brooks",
       "name": "British Brooks",
       "position": "RB",
@@ -10092,7 +10608,8 @@
         {
           "year": 2018,
           "stats": {
-            "rushYds": 57
+            "rushYds": 57,
+            "tackles": 3
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -10120,7 +10637,8 @@
           "year": 2021,
           "stats": {
             "rushYds": 295,
-            "rushTD": 4
+            "rushTD": 4,
+            "tackles": 6
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2021"
@@ -10138,6 +10656,88 @@
         }
       ],
       "redshirtYears": [2022]
+    },
+    {
+      "id": "chris-collins",
+      "name": "Chris Collins",
+      "position": "LB",
+      "firstYear": 2018,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 6,
+            "tfl": 2.5,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 13,
+            "tfl": 3,
+            "sacks": 3,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 29,
+            "tfl": 6,
+            "sacks": 2.5,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 20,
+            "tfl": 0.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        }
+      ],
+      "redshirtYears": [2019]
+    },
+    {
+      "id": "d-j-ford",
+      "name": "D.J. Ford",
+      "position": "S",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 15,
+            "pbu": 2,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 54,
+            "tfl": 2.5,
+            "sacks": 1,
+            "defInt": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        }
+      ]
     },
     {
       "id": "garrett-walston",
@@ -10181,7 +10781,80 @@
             "rushYds": 18,
             "rec": 18,
             "recYds": 184,
-            "recTD": 2
+            "recTD": 2,
+            "tackles": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
+      "id": "greg-ross",
+      "name": "Greg Ross",
+      "position": "CB",
+      "firstYear": 2018,
+      "lastYear": 2019,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 31,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 26,
+            "tfl": 2,
+            "pbu": 5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        }
+      ]
+    },
+    {
+      "id": "jahlil-taylor",
+      "name": "Jahlil Taylor",
+      "position": "DT",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 3,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 11,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 18,
+            "tfl": 2.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 3
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2021"
@@ -10201,7 +10874,8 @@
             "rushYds": 224,
             "rushTD": 5,
             "rec": 8,
-            "recYds": 58
+            "recYds": 58,
+            "tackles": 6
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2018"
@@ -10231,6 +10905,82 @@
           },
           "honors": ["Second-Team All-ACC (2020)"],
           "source": "https://goheels.com/sports/football/stats/2020"
+        }
+      ]
+    },
+    {
+      "id": "jeremiah-gemmel",
+      "name": "Jeremiah Gemmel",
+      "position": "LB",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 84,
+            "tfl": 7.5,
+            "sacks": 2.5,
+            "pbu": 2,
+            "ff": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 78,
+            "tfl": 6,
+            "sacks": 2.5,
+            "defInt": 1,
+            "pbu": 4,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 75,
+            "tfl": 6.5,
+            "sacks": 1.5,
+            "defInt": 1,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": ["Third-Team All-ACC (2021)"],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
+      "id": "jonathan-smith-2018",
+      "name": "Jonathan Smith",
+      "position": "LB",
+      "firstYear": 2018,
+      "lastYear": 2018,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 27,
+            "tfl": 3.5,
+            "sacks": 1.5,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
         }
       ]
     },
@@ -10272,6 +11022,76 @@
             "passTD": 1,
             "rec": 4,
             "recYds": 41
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2020"
+        }
+      ]
+    },
+    {
+      "id": "trey-morrison",
+      "name": "Trey Morrison",
+      "position": "CB",
+      "firstYear": 2018,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 46,
+            "tfl": 5.5,
+            "sacks": 2,
+            "pbu": 4
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 47,
+            "tfl": 1,
+            "pbu": 4,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        }
+      ],
+      "redshirtYears": [2019, 2020]
+    },
+    {
+      "id": "xach-gill",
+      "name": "Xach Gill",
+      "position": "DT",
+      "firstYear": 2018,
+      "lastYear": 2020,
+      "seasons": [
+        {
+          "year": 2018,
+          "stats": {
+            "tackles": 3,
+            "tfl": 1.5,
+            "sacks": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2018"
+        },
+        {
+          "year": 2019,
+          "stats": {
+            "tackles": 10,
+            "tfl": 1,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2019"
+        },
+        {
+          "year": 2020,
+          "stats": {
+            "tackles": 4
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2020"
@@ -10349,27 +11169,6 @@
       ]
     },
     {
-      "id": "d-j-ford",
-      "name": "D.J. Ford",
-      "position": "S",
-      "firstYear": 2019,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 54,
-            "tfl": 2.5,
-            "sacks": 1,
-            "defInt": 1,
-            "pbu": 2
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
-        }
-      ]
-    },
-    {
       "id": "dyami-brown",
       "name": "Dyami Brown",
       "position": "WR",
@@ -10436,7 +11235,7 @@
       "name": "Eugene Asante",
       "position": "LB",
       "firstYear": 2019,
-      "lastYear": 2020,
+      "lastYear": 2021,
       "seasons": [
         {
           "year": 2019,
@@ -10463,6 +11262,16 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 23,
+            "tfl": 0.5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
         }
       ]
     },
@@ -10491,6 +11300,17 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 48,
+            "tfl": 4.5,
+            "sacks": 1,
+            "pbu": 5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2022,
           "stats": {
             "tackles": 69,
@@ -10510,53 +11330,6 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2023"
-        }
-      ],
-      "redshirtYears": [2021]
-    },
-    {
-      "id": "greg-ross",
-      "name": "Greg Ross",
-      "position": "CB",
-      "firstYear": 2019,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 26,
-            "tfl": 2,
-            "pbu": 5
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
-        }
-      ]
-    },
-    {
-      "id": "jahlil-taylor",
-      "name": "Jahlil Taylor",
-      "position": "DT",
-      "firstYear": 2019,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 11,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
-        },
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 18,
-            "tfl": 2.5
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2020"
         }
       ]
     },
@@ -10578,40 +11351,6 @@
           },
           "honors": ["Third-Team All-ACC (2019)"],
           "source": "https://goheels.com/sports/football/stats/2019"
-        }
-      ]
-    },
-    {
-      "id": "jeremiah-gemmel",
-      "name": "Jeremiah Gemmel",
-      "position": "LB",
-      "firstYear": 2019,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 84,
-            "tfl": 7.5,
-            "sacks": 2.5,
-            "pbu": 2,
-            "ff": 3
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
-        },
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 78,
-            "tfl": 6,
-            "sacks": 2.5,
-            "defInt": 1,
-            "pbu": 4,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2020"
         }
       ]
     },
@@ -10646,7 +11385,8 @@
           "stats": {
             "rec": 24,
             "recYds": 220,
-            "recTD": 5
+            "recTD": 5,
+            "tackles": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2021"
@@ -10699,6 +11439,18 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 20,
+            "tfl": 2.5,
+            "sacks": 1.5,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2022,
           "stats": {
             "tackles": 49,
@@ -10724,26 +11476,6 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2024"
-        }
-      ],
-      "redshirtYears": [2021]
-    },
-    {
-      "id": "myles-wolfolk",
-      "name": "Myles Wolfolk",
-      "position": "S",
-      "firstYear": 2019,
-      "lastYear": 2019,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 25,
-            "tfl": 1,
-            "defInt": 3
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
         }
       ]
     },
@@ -10773,6 +11505,14 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 6
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2022,
           "stats": {
             "tackles": 9
@@ -10780,8 +11520,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2022"
         }
-      ],
-      "redshirtYears": [2021]
+      ]
     },
     {
       "id": "sam-howell",
@@ -10852,6 +11591,15 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 16,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2022,
           "stats": {
             "tackles": 46,
@@ -10863,8 +11611,7 @@
           "honors": ["Second-Team All-ACC (2022)"],
           "source": "https://goheels.com/sports/football/stats/2022"
         }
-      ],
-      "redshirtYears": [2021]
+      ]
     },
     {
       "id": "tomari-fox",
@@ -10894,6 +11641,16 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 25,
+            "tfl": 2.5,
+            "sacks": 1.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2023,
           "stats": {
             "tackles": 14,
@@ -10904,64 +11661,7 @@
           "source": "https://goheels.com/sports/football/stats/2023"
         }
       ],
-      "redshirtYears": [2021, 2022]
-    },
-    {
-      "id": "tyrone-hopper",
-      "name": "Tyrone Hopper",
-      "position": "LB",
-      "firstYear": 2019,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 16,
-            "tfl": 1.5,
-            "sacks": 1.5
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
-        },
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 27,
-            "tfl": 2,
-            "sacks": 2,
-            "pbu": 2
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2020"
-        }
-      ]
-    },
-    {
-      "id": "xach-gill",
-      "name": "Xach Gill",
-      "position": "DT",
-      "firstYear": 2019,
-      "lastYear": 2020,
-      "seasons": [
-        {
-          "year": 2019,
-          "stats": {
-            "tackles": 10,
-            "tfl": 1,
-            "sacks": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2019"
-        },
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 4
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2020"
-        }
-      ]
+      "redshirtYears": [2022]
     },
     {
       "id": "camron-kelly",
@@ -10982,6 +11682,17 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 69,
+            "tfl": 0.5,
+            "defInt": 4,
+            "pbu": 3
+          },
+          "honors": ["Third-Team All-ACC (2021)"],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2022,
           "stats": {
             "tackles": 49,
@@ -10992,8 +11703,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2022"
         }
-      ],
-      "redshirtYears": [2021]
+      ]
     },
     {
       "id": "cedric-gray",
@@ -11009,6 +11719,19 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2020"
+        },
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 100,
+            "tfl": 7,
+            "sacks": 2.5,
+            "defInt": 2,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
         },
         {
           "year": 2022,
@@ -11036,38 +11759,7 @@
           "honors": ["First-Team All-ACC (2023)"],
           "source": "https://goheels.com/sports/football/stats/2023"
         }
-      ],
-      "redshirtYears": [2021]
-    },
-    {
-      "id": "chris-collins",
-      "name": "Chris Collins",
-      "position": "LB",
-      "firstYear": 2020,
-      "lastYear": 2022,
-      "seasons": [
-        {
-          "year": 2020,
-          "stats": {
-            "tackles": 13,
-            "tfl": 3,
-            "sacks": 3,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2020"
-        },
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 20,
-            "tfl": 0.5
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        }
-      ],
-      "redshirtYears": [2021]
+      ]
     },
     {
       "id": "elijah-green",
@@ -11249,6 +11941,16 @@
           "source": "https://goheels.com/sports/football/stats/2020"
         },
         {
+          "year": 2021,
+          "stats": {
+            "tackles": 47,
+            "tfl": 2,
+            "pbu": 9
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
           "year": 2022,
           "stats": {
             "tackles": 36,
@@ -11258,8 +11960,7 @@
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2022"
         }
-      ],
-      "redshirtYears": [2021]
+      ]
     },
     {
       "id": "bryson-nesbit",
@@ -11376,6 +12077,135 @@
       ]
     },
     {
+      "id": "deandre-boykins",
+      "name": "DeAndre Boykins",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 4
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 67,
+            "tfl": 5.5,
+            "sacks": 2,
+            "defInt": 1,
+            "pbu": 7
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 6,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2024"
+        }
+      ],
+      "redshirtYears": [2023]
+    },
+    {
+      "id": "desmond-evans",
+      "name": "Desmond Evans",
+      "position": "LB",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 18,
+            "tfl": 2.5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 25,
+            "tfl": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 33,
+            "tfl": 5,
+            "sacks": 3,
+            "pbu": 5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2023"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 38,
+            "tfl": 10,
+            "sacks": 5,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2024"
+        }
+      ]
+    },
+    {
+      "id": "don-chapman",
+      "name": "Don Chapman",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 28,
+            "tfl": 0.5,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 32,
+            "pbu": 3,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 64,
+            "tfl": 4.5,
+            "sacks": 1,
+            "defInt": 2,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2023"
+        }
+      ]
+    },
+    {
       "id": "drake-maye",
       "name": "Drake Maye",
       "position": "QB",
@@ -11474,6 +12304,82 @@
       ]
     },
     {
+      "id": "jahvaree-ritzie",
+      "name": "Jahvaree Ritzie",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 25,
+            "tfl": 1.5,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 48,
+            "tfl": 2,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 25,
+            "tfl": 0.5,
+            "sacks": 0.5,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2023"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 40,
+            "tfl": 6.5,
+            "sacks": 6.5,
+            "defInt": 1,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": ["Second-Team All-ACC (2024)"],
+          "source": "https://goheels.com/sports/football/stats/2024"
+        }
+      ]
+    },
+    {
+      "id": "jaqurious-conley",
+      "name": "Ja'Qurious Conley",
+      "position": "S",
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "rec": 11,
+            "recYds": 243,
+            "recTD": 1,
+            "tackles": 46,
+            "tfl": 3,
+            "defInt": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
       "id": "john-copenhaver",
       "name": "John Copenhaver",
       "position": "TE",
@@ -11539,7 +12445,8 @@
           "stats": {
             "rec": 9,
             "recYds": 143,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 2
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2021"
@@ -11556,6 +12463,126 @@
       ]
     },
     {
+      "id": "kaimon-rucker",
+      "name": "Kaimon Rucker",
+      "position": "DE",
+      "firstYear": 2021,
+      "lastYear": 2024,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 31,
+            "tfl": 5.5,
+            "sacks": 4,
+            "ff": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 37,
+            "tfl": 7,
+            "sacks": 3.5,
+            "pbu": 1,
+            "ff": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 61,
+            "tfl": 15,
+            "sacks": 8.5,
+            "pbu": 1,
+            "ff": 1
+          },
+          "honors": ["Second-Team All-ACC (2023)"],
+          "source": "https://goheels.com/sports/football/stats/2023"
+        },
+        {
+          "year": 2024,
+          "stats": {
+            "tackles": 30,
+            "tfl": 8,
+            "sacks": 6,
+            "defInt": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2024"
+        }
+      ]
+    },
+    {
+      "id": "kyler-mcmichael",
+      "name": "Kyler McMichael",
+      "position": "CB",
+      "firstYear": 2021,
+      "lastYear": 2021,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "rec": 1,
+            "recYds": 75,
+            "recTD": 1,
+            "tackles": 18,
+            "tfl": 1,
+            "defInt": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        }
+      ]
+    },
+    {
+      "id": "myles-murphy",
+      "name": "Myles Murphy",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2023,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 38,
+            "tfl": 9,
+            "sacks": 4,
+            "pbu": 3
+          },
+          "honors": ["Second-Team All-ACC (2021)"],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 29,
+            "tfl": 1.5,
+            "sacks": 1,
+            "pbu": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        },
+        {
+          "year": 2023,
+          "stats": {
+            "tackles": 24,
+            "tfl": 4.5,
+            "sacks": 1
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2023"
+        }
+      ]
+    },
+    {
       "id": "power-echols",
       "name": "Power Echols",
       "position": "LB",
@@ -11565,7 +12592,10 @@
         {
           "year": 2021,
           "stats": {
-            "rushYds": 21
+            "rushYds": 21,
+            "tackles": 25,
+            "tfl": 1,
+            "defInt": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2021"
@@ -11610,6 +12640,36 @@
       ]
     },
     {
+      "id": "raymond-vohasek",
+      "name": "Raymond Vohasek",
+      "position": "DT",
+      "firstYear": 2021,
+      "lastYear": 2022,
+      "seasons": [
+        {
+          "year": 2021,
+          "stats": {
+            "tackles": 38,
+            "tfl": 4,
+            "sacks": 1,
+            "pbu": 3
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2021"
+        },
+        {
+          "year": 2022,
+          "stats": {
+            "tackles": 14,
+            "tfl": 1,
+            "pbu": 2
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2022"
+        }
+      ]
+    },
+    {
       "id": "ty-chandler",
       "name": "Ty Chandler",
       "position": "RB",
@@ -11623,7 +12683,8 @@
             "rushTD": 13,
             "rec": 15,
             "recYds": 216,
-            "recTD": 1
+            "recTD": 1,
+            "tackles": 1
           },
           "honors": ["Second-Team All-ACC (2021)"],
           "source": "https://goheels.com/sports/football/stats/2021"
@@ -11652,108 +12713,6 @@
           "stats": {
             "rec": 2,
             "recYds": 17
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
-      "id": "deandre-boykins",
-      "name": "DeAndre Boykins",
-      "position": "S",
-      "firstYear": 2022,
-      "lastYear": 2024,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 67,
-            "tfl": 5.5,
-            "sacks": 2,
-            "defInt": 1,
-            "pbu": 7
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2024,
-          "stats": {
-            "tackles": 6,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2024"
-        }
-      ],
-      "redshirtYears": [2023]
-    },
-    {
-      "id": "desmond-evans",
-      "name": "Desmond Evans",
-      "position": "LB",
-      "firstYear": 2022,
-      "lastYear": 2024,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 25,
-            "tfl": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "tackles": 33,
-            "tfl": 5,
-            "sacks": 3,
-            "pbu": 5
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2023"
-        },
-        {
-          "year": 2024,
-          "stats": {
-            "tackles": 38,
-            "tfl": 10,
-            "sacks": 5,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2024"
-        }
-      ]
-    },
-    {
-      "id": "don-chapman",
-      "name": "Don Chapman",
-      "position": "S",
-      "firstYear": 2022,
-      "lastYear": 2023,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 32,
-            "pbu": 3,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "tackles": 64,
-            "tfl": 4.5,
-            "sacks": 1,
-            "defInt": 2,
-            "pbu": 1
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2023"
@@ -11823,95 +12782,6 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
-      "id": "jahvaree-ritzie",
-      "name": "Jahvaree Ritzie",
-      "position": "DT",
-      "firstYear": 2022,
-      "lastYear": 2024,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 48,
-            "tfl": 2,
-            "sacks": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "tackles": 25,
-            "tfl": 0.5,
-            "sacks": 0.5,
-            "pbu": 1,
-            "ff": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2023"
-        },
-        {
-          "year": 2024,
-          "stats": {
-            "tackles": 40,
-            "tfl": 6.5,
-            "sacks": 6.5,
-            "defInt": 1,
-            "pbu": 1,
-            "ff": 1
-          },
-          "honors": ["Second-Team All-ACC (2024)"],
-          "source": "https://goheels.com/sports/football/stats/2024"
-        }
-      ]
-    },
-    {
-      "id": "kaimon-rucker",
-      "name": "Kaimon Rucker",
-      "position": "DE",
-      "firstYear": 2022,
-      "lastYear": 2024,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 37,
-            "tfl": 7,
-            "sacks": 3.5,
-            "pbu": 1,
-            "ff": 2
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "tackles": 61,
-            "tfl": 15,
-            "sacks": 8.5,
-            "pbu": 1,
-            "ff": 1
-          },
-          "honors": ["Second-Team All-ACC (2023)"],
-          "source": "https://goheels.com/sports/football/stats/2023"
-        },
-        {
-          "year": 2024,
-          "stats": {
-            "tackles": 30,
-            "tfl": 8,
-            "sacks": 6,
-            "defInt": 1,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2024"
         }
       ]
     },
@@ -12035,36 +12905,6 @@
       ]
     },
     {
-      "id": "myles-murphy",
-      "name": "Myles Murphy",
-      "position": "DT",
-      "firstYear": 2022,
-      "lastYear": 2023,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 29,
-            "tfl": 1.5,
-            "sacks": 1,
-            "pbu": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
-        },
-        {
-          "year": 2023,
-          "stats": {
-            "tackles": 24,
-            "tfl": 4.5,
-            "sacks": 1
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2023"
-        }
-      ]
-    },
-    {
       "id": "noah-taylor",
       "name": "Noah Taylor",
       "position": "LB",
@@ -12134,25 +12974,6 @@
             "First-Team All-ACC (2024)"
           ],
           "source": "https://goheels.com/sports/football/stats/2024"
-        }
-      ]
-    },
-    {
-      "id": "raymond-vohasek",
-      "name": "Raymond Vohasek",
-      "position": "DT",
-      "firstYear": 2022,
-      "lastYear": 2022,
-      "seasons": [
-        {
-          "year": 2022,
-          "stats": {
-            "tackles": 14,
-            "tfl": 1,
-            "pbu": 2
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2022"
         }
       ]
     },

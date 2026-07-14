@@ -12392,13 +12392,19 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 11
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 26,
+      "tfl": 2,
+      "sacks": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -12544,7 +12550,13 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 6,
+      "tfl": 4.5,
+      "sacks": 2,
+      "pbu": 1,
+      "ff": 2
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -12612,7 +12624,11 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 33,
+      "tfl": 4,
+      "sacks": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -12695,7 +12711,12 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 37,
+      "tfl": 0.5,
+      "defInt": 1,
+      "pbu": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -12873,7 +12894,12 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 45,
+      "tfl": 5,
+      "sacks": 2,
+      "pbu": 12
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -12999,13 +13025,19 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 29,
+      "tfl": 5,
+      "sacks": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -13089,7 +13121,10 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 29,
+      "tfl": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -13130,7 +13165,8 @@
      "stats": {
       "rec": 25,
       "recYds": 177,
-      "recTD": 4
+      "recTD": 4,
+      "tackles": 3
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -13188,13 +13224,24 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 93,
+      "tfl": 2.5,
+      "sacks": 0.5,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 105,
+      "tfl": 8,
+      "sacks": 1,
+      "pbu": 4,
+      "ff": 4
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -13249,7 +13296,10 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 10,
+      "tfl": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -13306,13 +13356,24 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 28,
+      "tfl": 8,
+      "sacks": 3,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 23,
+      "tfl": 4.5,
+      "sacks": 3.5,
+      "pbu": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -13351,13 +13412,22 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 32,
+      "tfl": 4.5,
+      "sacks": 0.5,
+      "pbu": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 31,
+      "tfl": 2.5,
+      "sacks": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -13392,13 +13462,25 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 53,
+      "tfl": 1.5,
+      "defInt": 1,
+      "pbu": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 64,
+      "tfl": 0.5,
+      "defInt": 1,
+      "pbu": 2,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -13455,13 +13537,25 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 57,
+      "tfl": 12,
+      "sacks": 5.5,
+      "pbu": 2,
+      "ff": 2
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 60,
+      "tfl": 12.5,
+      "sacks": 6.5,
+      "pbu": 2,
+      "ff": 5
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -13561,13 +13655,23 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 11,
+      "tfl": 1,
+      "pbu": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 12,
+      "tfl": 2,
+      "sacks": 2,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -13628,7 +13732,8 @@
       "rushTD": 1,
       "rec": 42,
       "recYds": 689,
-      "recTD": 2
+      "recTD": 2,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -13669,7 +13774,8 @@
      "stats": {
       "rec": 16,
       "recYds": 265,
-      "recTD": 2
+      "recTD": 2,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -13708,13 +13814,20 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 5,
+      "tfl": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 4,
+      "defInt": 1,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -13791,7 +13904,8 @@
      "stats": {
       "rec": 8,
       "recYds": 80,
-      "recTD": 1
+      "recTD": 1,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -13876,7 +13990,8 @@
      "stats": {
       "rec": 26,
       "recYds": 307,
-      "recTD": 1
+      "recTD": 1,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -13921,7 +14036,8 @@
       "rushYds": 347,
       "rushTD": 3,
       "rec": 16,
-      "recYds": 90
+      "recYds": 90,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -13979,7 +14095,8 @@
      "year": 2017,
      "stats": {
       "rec": 2,
-      "recYds": 19
+      "recYds": 19,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -14031,13 +14148,24 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 71,
+      "tfl": 2.5,
+      "defInt": 2,
+      "pbu": 5,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 55,
+      "tfl": 2.5,
+      "defInt": 2,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -14096,7 +14224,8 @@
       "passTD": 11,
       "passInt": 9,
       "rushYds": 35,
-      "rushTD": 0
+      "rushTD": 0,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -14145,7 +14274,8 @@
       "rushYds": -6,
       "rushTD": 0,
       "rec": 9,
-      "recYds": 90
+      "recYds": 90,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -14235,7 +14365,8 @@
       "rushTD": 0,
       "rec": 16,
       "recYds": 118,
-      "recTD": 2
+      "recTD": 2,
+      "tackles": 5
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -14266,13 +14397,23 @@
     },
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 23,
+      "tfl": 4,
+      "sacks": 4,
+      "pbu": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 27,
+      "tfl": 8.5,
+      "sacks": 2.5
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -14301,7 +14442,11 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 33,
+      "tfl": 10,
+      "sacks": 8.5
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -14345,7 +14490,8 @@
      "year": 2018,
      "stats": {
       "rushYds": 19,
-      "rushTD": 0
+      "rushTD": 0,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -14378,7 +14524,8 @@
       "passInt": 1,
       "rec": 18,
       "recYds": 220,
-      "recTD": 2
+      "recTD": 2,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -14428,7 +14575,8 @@
       "passTD": 1,
       "passInt": 8,
       "rushYds": 86,
-      "rushTD": 0
+      "rushTD": 0,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -14452,7 +14600,8 @@
       "passTD": 8,
       "passInt": 3,
       "rushYds": 210,
-      "rushTD": 5
+      "rushTD": 5,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -14510,7 +14659,9 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -14550,7 +14701,8 @@
       "rushYds": 52,
       "rushTD": 0,
       "rec": 18,
-      "recYds": 227
+      "recYds": 227,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -14564,7 +14716,8 @@
       "rushTD": 1,
       "rec": 44,
       "recYds": 506,
-      "recTD": 2
+      "recTD": 2,
+      "tackles": 4
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -14608,13 +14761,21 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 7,
+      "tfl": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 47,
+      "tfl": 3.5,
+      "sacks": 0.5,
+      "pbu": 4
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -14635,7 +14796,8 @@
      "stats": {
       "rushYds": 81,
       "rushTD": 0,
-      "rec": 1
+      "rec": 1,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
@@ -14644,7 +14806,8 @@
      "year": 2018,
      "stats": {
       "rushYds": 24,
-      "rushTD": 0
+      "rushTD": 0,
+      "tackles": 3
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -14663,7 +14826,9 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 6
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -14699,13 +14864,20 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 30,
+      "tfl": 1,
+      "pbu": 13
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 8,
+      "pbu": 2
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -14723,7 +14895,9 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 6
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
@@ -14869,13 +15043,22 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 32,
+      "tfl": 1,
+      "defInt": 2,
+      "pbu": 2,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 23,
+      "tfl": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -14903,7 +15086,11 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 22,
+      "tfl": 2,
+      "pbu": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -14919,7 +15106,9 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     }
@@ -14938,13 +15127,21 @@
    "seasons": [
     {
      "year": 2017,
-     "stats": {},
+     "stats": {
+      "tackles": 8,
+      "tfl": 1,
+      "sacks": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2017",
      "from": "sidearm"
     },
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 10,
+      "tfl": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -14971,7 +15168,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 2
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -15034,7 +15233,9 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -15054,7 +15255,8 @@
      "year": 2018,
      "stats": {
       "rushYds": 57,
-      "rushTD": 0
+      "rushTD": 0,
+      "tackles": 3
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -15083,7 +15285,8 @@
      "year": 2021,
      "stats": {
       "rushYds": 295,
-      "rushTD": 4
+      "rushTD": 4,
+      "tackles": 6
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -15165,7 +15368,11 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 6,
+      "tfl": 2.5,
+      "sacks": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15182,7 +15389,12 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 29,
+      "tfl": 6,
+      "sacks": 2.5,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -15210,7 +15422,11 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 15,
+      "pbu": 2,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15274,7 +15490,8 @@
       "rushTD": 0,
       "rec": 18,
       "recYds": 184,
-      "recTD": 2
+      "recTD": 2,
+      "tackles": 2
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -15294,7 +15511,10 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 31,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15409,7 +15629,10 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 3,
+      "tfl": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15433,7 +15656,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -15452,7 +15677,11 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 6,
+      "tfl": 1,
+      "sacks": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15482,7 +15711,8 @@
       "rushYds": 224,
       "rushTD": 5,
       "rec": 8,
-      "recYds": 58
+      "recYds": 58,
+      "tackles": 6
      },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
@@ -15527,7 +15757,9 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15558,7 +15790,14 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 75,
+      "tfl": 6.5,
+      "sacks": 1.5,
+      "defInt": 1,
+      "pbu": 3,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -15576,7 +15815,13 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 27,
+      "tfl": 3.5,
+      "sacks": 1.5,
+      "pbu": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -15594,7 +15839,9 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     }
@@ -15612,7 +15859,10 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 3,
+      "tfl": 0.5
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15690,7 +15940,10 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 4,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15717,13 +15970,23 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 46,
+      "tfl": 5.5,
+      "sacks": 2,
+      "pbu": 4
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 47,
+      "tfl": 1,
+      "pbu": 4,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -15741,7 +16004,12 @@
    "seasons": [
     {
      "year": 2018,
-     "stats": {},
+     "stats": {
+      "tackles": 3,
+      "tfl": 1.5,
+      "sacks": 1,
+      "pbu": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2018",
      "from": "sidearm"
     },
@@ -15883,7 +16151,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 2
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16013,7 +16283,11 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 23,
+      "tfl": 0.5,
+      "pbu": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -16048,7 +16322,12 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 48,
+      "tfl": 4.5,
+      "sacks": 1,
+      "pbu": 5
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16187,7 +16466,8 @@
      "stats": {
       "rec": 24,
       "recYds": 220,
-      "recTD": 5
+      "recTD": 5,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -16246,7 +16526,13 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 20,
+      "tfl": 2.5,
+      "sacks": 1.5,
+      "pbu": 1,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16329,7 +16615,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 6
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16436,7 +16724,10 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 16,
+      "pbu": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16486,7 +16777,11 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 25,
+      "tfl": 2.5,
+      "sacks": 1.5
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16543,7 +16838,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -16572,7 +16869,12 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 69,
+      "tfl": 0.5,
+      "defInt": 4,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16609,7 +16911,14 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 100,
+      "tfl": 7,
+      "sacks": 2.5,
+      "defInt": 2,
+      "pbu": 3,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -16661,7 +16970,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -17007,7 +17318,9 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 2
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -17037,7 +17350,11 @@
     },
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 47,
+      "tfl": 2,
+      "pbu": 9
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17211,7 +17528,9 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -17227,7 +17546,9 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     }
@@ -17245,7 +17566,9 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 4
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17285,7 +17608,10 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 18,
+      "tfl": 2.5
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17334,7 +17660,11 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 28,
+      "tfl": 0.5,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17374,7 +17704,9 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17448,7 +17780,11 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 25,
+      "tfl": 1.5,
+      "sacks": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17504,7 +17840,10 @@
      "stats": {
       "rec": 11,
       "recYds": 243,
-      "recTD": 1
+      "recTD": 1,
+      "tackles": 46,
+      "tfl": 3,
+      "defInt": 2
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -17637,7 +17976,8 @@
      "stats": {
       "rec": 9,
       "recYds": 143,
-      "recTD": 1
+      "recTD": 1,
+      "tackles": 2
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -17665,7 +18005,12 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 31,
+      "tfl": 5.5,
+      "sacks": 4,
+      "ff": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17719,7 +18064,9 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17754,7 +18101,9 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 1
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17783,7 +18132,11 @@
      "stats": {
       "rec": 1,
       "recYds": 75,
-      "recTD": 1
+      "recTD": 1,
+      "tackles": 18,
+      "tfl": 1,
+      "defInt": 1,
+      "pbu": 1
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -17802,7 +18155,12 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 38,
+      "tfl": 9,
+      "sacks": 4,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17843,7 +18201,10 @@
      "year": 2021,
      "stats": {
       "rushYds": 21,
-      "rushTD": 0
+      "rushTD": 0,
+      "tackles": 25,
+      "tfl": 1,
+      "defInt": 1
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
@@ -17923,7 +18284,12 @@
    "seasons": [
     {
      "year": 2021,
-     "stats": {},
+     "stats": {
+      "tackles": 38,
+      "tfl": 4,
+      "sacks": 1,
+      "pbu": 3
+     },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"
     },
@@ -17977,7 +18343,8 @@
       "rushTD": 13,
       "rec": 15,
       "recYds": 216,
-      "recTD": 1
+      "recTD": 1,
+      "tackles": 1
      },
      "source": "https://goheels.com/sports/football/stats/2021",
      "from": "sidearm"

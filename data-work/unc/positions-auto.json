@@ -2078,6 +2078,12 @@
   "basis": "wmt-fine"
  },
  {
+  "name": "Trey Morrison",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/college/oklahoma/Article/Oklahoma-Sooners-football-recruiting-transfer-portal-North-Carolina-Tar-Heels-defensive-back-Trey-Morrison-Brent-Venables-180687236/"
+ },
+ {
   "name": "Xach Gill",
   "position": "DT",
   "basis": "override",
@@ -2270,6 +2276,12 @@
   "source": "https://en.wikipedia.org/wiki/Jahvaree_Ritzie"
  },
  {
+  "name": "Ja'Qurious Conley",
+  "position": "S",
+  "basis": "override",
+  "source": "https://247sports.com/player/jaqurious-conley-46058398/"
+ },
+ {
   "name": "J.J. Jones",
   "position": "WR",
   "basis": "wmt-fine"
@@ -2288,6 +2300,12 @@
   "name": "Kaimon Rucker",
   "position": "DE",
   "basis": "wmt-fine"
+ },
+ {
+  "name": "Kyler McMichael",
+  "position": "CB",
+  "basis": "override",
+  "source": "https://247sports.com/college/north-carolina/Article/UNC-Football-Kyler-McMichael-Fast-Physical-Corner-Dre-Bly-150344431/"
  },
  {
   "name": "Myles Murphy",
