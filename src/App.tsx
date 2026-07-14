@@ -36,6 +36,12 @@ import {
   type FullPlayer,
   type EraSpin,
 } from './lib/full'
+import {
+  buildFullFbPool,
+  buildFbSchoolWheels,
+  power5OfFullFb,
+  type FullFbPlayer,
+} from './lib/full-football'
 import { buildRollingWindows, datasetMaxYear } from './lib/windows'
 import {
   DAILY_BBALL_ERAS,
@@ -130,12 +136,12 @@ const GAMES = 40
 /** Spin duration (ms). Kept in sync with the wheel's CSS deceleration. */
 const SPIN_MS = 2600
 
-// ── Full Basketball ───────────────────────────────────────────────────────────
+// ── Full games ────────────────────────────────────────────────────────────────
 // Sentinel "school" ids for the two cross-school home cards. They aren't real
 // `School`s (no single dataset), so routing special-cases them before the normal
-// school → sport → mode flow. Full Football is a placeholder card until its
-// engine ships.
+// school → sport → mode flow.
 const FULL_BBALL_ID = 'full-basketball'
+const FULL_FB_ID = 'full-football'
 
 /** Neutral multi-school theme for the Full games (no single school's colors). */
 const FULL_THEME: Theme = {
@@ -163,15 +169,41 @@ const FULL_BBALL_SCHOOL: School = {
   available: true,
 }
 
+/** Full Football's synthetic `School` — same sentinel pattern as Full Basketball.
+ *  Its combined pool is built from every school with a REAL football dataset in
+ *  `FullFbGame`; it owns the `full-football` daily lock + streak namespace. */
+const FULL_FB_SCHOOL: School = {
+  id: FULL_FB_ID,
+  name: 'Full Football',
+  short: 'Full',
+  mascot: 'All Schools',
+  emoji: '🏈',
+  theme: FULL_THEME,
+  hasFootball: true,
+  power5: true,
+  available: true,
+}
+
 /** schoolId → display metadata (name + emoji) for Full era labels and per-pick tags. */
 const SCHOOL_META = new Map(
   SCHOOLS.map((s) => [s.id, { name: s.name, emoji: s.emoji }]),
 )
 
+/** "Michigan Football" — but a Full sentinel already names its sport, so don't
+ *  double it ("Full Football Football" / "Full Basketball Basketball"). */
+function schoolSportLabel(school: School, sport: SportConfig): string {
+  return school.name.endsWith(sport.name)
+    ? school.name
+    : `${school.name} ${sport.name}`
+}
+
 /** The per-pick origin tag for a drafted player, if it carries school provenance
- *  (a `FullPlayer` in Full Basketball). Plain single-school picks return null. */
-function schoolTagOf(p: BballPlayer): { name: string; emoji: string } | null {
-  const id = (p as Partial<FullPlayer>).schoolId
+ *  (a `FullPlayer` / `FullFbPlayer` in the Full games). Plain single-school picks
+ *  return null. */
+function schoolTagOf(
+  p: BballPlayer | FbPlayer,
+): { name: string; emoji: string } | null {
+  const id = (p as Partial<FullPlayer | FullFbPlayer>).schoolId
   return id ? (SCHOOL_META.get(id) ?? null) : null
 }
 
@@ -221,9 +253,13 @@ function activeDateKey(): string {
   return getDateKey()
 }
 
-/** True for a routable school id — a live `School` OR the Full Basketball sentinel. */
+/** True for a routable school id — a live `School` OR a Full-game sentinel. */
 function isRoutableSchoolId(id: string | null | undefined): boolean {
-  return id === FULL_BBALL_ID || (!!id && !!getSchool(id)?.available)
+  return (
+    id === FULL_BBALL_ID ||
+    id === FULL_FB_ID ||
+    (!!id && !!getSchool(id)?.available)
+  )
 }
 
 function initialSchoolId(): string | null {
@@ -248,12 +284,15 @@ export default function App() {
   const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
   const [sportId, setSportId] = useState<string | null>(initialSportId)
   const [modeId, setModeId] = useState<GameMode | null>(initialModeId)
-  // The Full Basketball sentinel isn't a real `School`; substitute its synthetic
-  // descriptor so the theme effect + any school-typed consumer stay well-typed.
+  // The Full sentinels aren't real `School`s; substitute their synthetic
+  // descriptors so the theme effect + any school-typed consumer stay well-typed.
   const isFull = schoolId === FULL_BBALL_ID
+  const isFullFb = schoolId === FULL_FB_ID
   const school = isFull
     ? FULL_BBALL_SCHOOL
-    : getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
+    : isFullFb
+      ? FULL_FB_SCHOOL
+      : getSchool(schoolId ?? DEFAULT_SCHOOL_ID)!
 
   useEffect(() => {
     applyTheme(school.theme)
@@ -302,6 +341,31 @@ export default function App() {
       <FullGame
         key={`${FULL_BBALL_ID}:${modeId}`}
         sport={bball}
+        mode={getMode(modeId)}
+        onExitToModes={() => setModeId(null)}
+        onSwitchSchool={switchSchool}
+      />
+    )
+  }
+  // Full Football mirrors Full Basketball: implicitly football (no sport step),
+  // home card → mode menu (incl. Gridiron IQ) → FullFbGame. It owns the
+  // `full-football` daily lock + streak namespace.
+  if (isFullFb) {
+    const fb = getSport('football')
+    if (!modeId || !sportOffersMode('football', modeId))
+      return (
+        <ModeMenu
+          school={FULL_FB_SCHOOL}
+          sport={fb}
+          onPick={setModeId}
+          onBackToSports={switchSchool}
+          onSwitchSchool={switchSchool}
+        />
+      )
+    return (
+      <FullFbGame
+        key={`${FULL_FB_ID}:${modeId}`}
+        sport={fb}
         mode={getMode(modeId)}
         onExitToModes={() => setModeId(null)}
         onSwitchSchool={switchSchool}
@@ -394,43 +458,31 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
       </section>
       <div className="picker">
         {/* Cross-school games first: draft from EVERY school, team + era spun
-            together. Full Basketball is live; Full Football waits on its engine. */}
-        <div
-          className="school-card"
-          style={{
-            background: `linear-gradient(160deg, ${FULL_THEME.brand}, ${FULL_THEME.brand2})`,
-            boxShadow: `inset 0 0 0 2px ${FULL_THEME.accent}55`,
-          }}
-          onClick={() => onPick(FULL_BBALL_ID)}
-          role="button"
-        >
+            together. */}
+        {[
+          { id: FULL_BBALL_ID, emoji: '🏀', name: 'Full Basketball' },
+          { id: FULL_FB_ID, emoji: '🏈', name: 'Full Football' },
+        ].map((full) => (
           <div
-            className="crest"
-            style={{ background: FULL_THEME.accent, color: FULL_THEME.brand }}
+            key={full.id}
+            className="school-card"
+            style={{
+              background: `linear-gradient(160deg, ${FULL_THEME.brand}, ${FULL_THEME.brand2})`,
+              boxShadow: `inset 0 0 0 2px ${FULL_THEME.accent}55`,
+            }}
+            onClick={() => onPick(full.id)}
+            role="button"
           >
-            🏀
+            <div
+              className="crest"
+              style={{ background: FULL_THEME.accent, color: FULL_THEME.brand }}
+            >
+              {full.emoji}
+            </div>
+            <div className="sc-name">{full.name}</div>
+            <div className="sc-mascot">All schools · any era</div>
           </div>
-          <div className="sc-name">Full Basketball</div>
-          <div className="sc-mascot">All schools · any era</div>
-        </div>
-        <div
-          className="school-card soon"
-          style={{
-            background: `linear-gradient(160deg, ${FULL_THEME.brand}, ${FULL_THEME.brand2})`,
-            boxShadow: 'none',
-          }}
-          aria-disabled={true}
-        >
-          <span className="soon-chip">Coming soon</span>
-          <div
-            className="crest"
-            style={{ background: FULL_THEME.accent, color: FULL_THEME.brand }}
-          >
-            🏈
-          </div>
-          <div className="sc-name">Full Football</div>
-          <div className="sc-mascot">All schools · any era</div>
-        </div>
+        ))}
         {SCHOOLS.map((s) => (
           <div
             key={s.id}
@@ -622,9 +674,7 @@ function ModeMenu({
           <span className="ball">{sport.emoji}</span>
           <div>
             YourSchoolAllStars
-            <small>
-              {school.name} {sport.name}
-            </small>
+            <small>{schoolSportLabel(school, sport)}</small>
           </div>
         </div>
         <div className="topbar-actions">
@@ -637,9 +687,7 @@ function ModeMenu({
         </div>
       </header>
       <section className="hero" style={{ paddingBottom: 8 }}>
-        <h1>
-          {school.name} {sport.name}
-        </h1>
+        <h1>{schoolSportLabel(school, sport)}</h1>
         <p>Choose how you want to play.</p>
         <StreakChips streak={dailyStreak} />
       </section>
@@ -672,7 +720,10 @@ function ModeMenu({
       </div>
       <footer className="footer">
         An independent fan project. Not affiliated with or endorsed by{' '}
-        {school.name}. Player data curated from public sources.
+        {school.id === FULL_BBALL_ID || school.id === FULL_FB_ID
+          ? 'any school'
+          : school.name}
+        . Player data curated from public sources.
       </footer>
     </div>
   )
@@ -1990,7 +2041,7 @@ function FbGame({
           state={state}
           wheel={windows}
           hideStats={mode.hideStats}
-          power5={school.power5}
+          power5Of={() => school.power5}
           onAdvance={advance}
         />
       )}
@@ -2010,6 +2061,211 @@ function FbGame({
       <footer className="footer">
         An independent fan project. Not affiliated with or endorsed by{' '}
         {school.name}. Player data curated from public sources.
+      </footer>
+    </div>
+  )
+}
+
+// ── Full Football ────────────────────────────────────────────────────────────
+// Same draft flow as the single-school FbGame, but every era spins BOTH a team
+// and a window: the cross-school pool is scoped to the era's school each round,
+// the spinner runs a two-phase (team → year) reel, and each starter is rated
+// with its OWN school's power-5 flag (the non-power-5 haircut is per-player,
+// never team-wide). It owns the `full-football` daily lock + streak namespace.
+function FullFbGame({
+  sport,
+  mode,
+  onExitToModes,
+  onSwitchSchool,
+}: {
+  sport: SportConfig
+  mode: ModeConfig
+  onExitToModes: () => void
+  onSwitchSchool: () => void
+}) {
+  const school = FULL_FB_SCHOOL
+  // The cross-school pool and per-school era wheels derive from the live schools
+  // once; they don't change during a session. Provisional/empty-data schools drop
+  // out in the builders, so a dead era can never surface.
+  const pool = useMemo(() => buildFullFbPool(SCHOOLS), [])
+  const wheels = useMemo(() => buildFbSchoolWheels(SCHOOLS), [])
+
+  const dateKey = useMemo(activeDateKey, [])
+  // Daily/Daily-IQ share ONE deterministic seed for today (same team+era sequence
+  // for everyone); free-play modes get a fresh random seed per game.
+  const [gameSeed, setGameSeed] = useState<number>(() =>
+    mode.daily ? seedFor(dateKey, 'full:football') : randomSeed(),
+  )
+  const eras = useMemo<EraSpin[]>(
+    () => generateFullSpins(gameSeed, FB_DRAFT_ROUNDS, wheels),
+    [gameSeed, wheels],
+  )
+  // The draft engine consumes a plain window list; eras[cursor] re-supplies the
+  // school for that window, kept in lockstep with state.cursor.
+  const spins = useMemo(() => eras.map((e) => e.window), [eras])
+
+  const [savedToday] = useState(() =>
+    mode.daily ? loadDaily(school.id, sport.id, dateKey, mode.id) : null,
+  )
+  const [phase, setPhase] = useState<'landing' | 'playing' | 'done'>(
+    savedToday ? 'done' : 'landing',
+  )
+  const [state, setState] = useState<FbDraftState>(() =>
+    savedToday ? fbRosterFromSaved(savedToday, pool) : initFbDraft(spins),
+  )
+  const [streak, setStreak] = useState<Streak>(() =>
+    loadStreak(school.id, sport.id, mode.id),
+  )
+  const [result, setResult] = useState<SavedDaily | null>(savedToday)
+  const returning = savedToday !== null
+
+  // This era's team: scope the surfaced pool + year wheel to its school, and
+  // compute the team-reel landing index. Memoized on the school id so their
+  // references stay stable across a spin's re-renders (a fresh array mid-spin
+  // would restart the reel) and only change when the cursor advances.
+  const eraSpin = eras[state.cursor] as EraSpin | undefined
+  const eraSchoolId = eraSpin?.schoolId ?? null
+  const eraWheel = useMemo(
+    () =>
+      eraSchoolId
+        ? (wheels.find((w) => w.schoolId === eraSchoolId)?.windows ?? [])
+        : [],
+    [wheels, eraSchoolId],
+  )
+  const eraPool = useMemo(
+    () => (eraSchoolId ? pool.filter((p) => p.schoolId === eraSchoolId) : pool),
+    [pool, eraSchoolId],
+  )
+  const teamReel = useMemo(
+    () =>
+      wheels.map((w) => {
+        const m = SCHOOL_META.get(w.schoolId)
+        return { emoji: m?.emoji ?? '🏈', name: m?.name ?? w.schoolId }
+      }),
+    [wheels],
+  )
+  const teamTarget = useMemo(
+    () =>
+      eraSchoolId ? wheels.findIndex((w) => w.schoolId === eraSchoolId) : 0,
+    [wheels, eraSchoolId],
+  )
+  const eraTag = useMemo(() => {
+    if (!eraSchoolId) return undefined
+    const m = SCHOOL_META.get(eraSchoolId)
+    return { emoji: m?.emoji ?? '🏈', name: m?.name ?? eraSchoolId }
+  }, [eraSchoolId])
+
+  function start() {
+    if (spins.length === 0) return
+    setState(initFbDraft(spins))
+    setPhase('playing')
+  }
+
+  function advance(next: FbDraftState) {
+    setState(next)
+    if (isFbComplete(next)) finish(next)
+  }
+
+  function finish(s: FbDraftState) {
+    setPhase('done')
+    // Per-player power-5: rate each starter on its OWN school's flag, so a
+    // non-power-5 pick is dinged without touching its power-5 teammates.
+    const saved = fbSavedDailyFrom(s, dateKey, power5OfFullFb)
+    setResult(saved)
+    if (mode.daily) {
+      const updated = saveDailyResult(school.id, sport.id, saved, {
+        advanceStreak: dateKey === getDateKey(),
+        mode: mode.id,
+      })
+      setStreak(updated)
+    }
+    if (
+      saved.grade === 'PERFECT' ||
+      saved.grade === 'HISTORIC' ||
+      saved.grade === 'ELITE'
+    ) {
+      confetti({ particleCount: 140, spread: 75, origin: { y: 0.6 } })
+    }
+  }
+
+  function playAgain() {
+    if (mode.daily) return
+    const next = randomSeed()
+    setGameSeed(next)
+    setResult(null)
+    setState(
+      initFbDraft(
+        generateFullSpins(next, FB_DRAFT_ROUNDS, wheels).map((e) => e.window),
+      ),
+    )
+    setPhase('playing')
+  }
+
+  return (
+    <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <span className="ball">{school.emoji}</span>
+          <div>
+            YourSchoolAllStars
+            <small>
+              {school.name} · {mode.name}
+            </small>
+          </div>
+        </div>
+        <div className="topbar-actions">
+          <button className="btn ghost" onClick={onExitToModes}>
+            ← Modes
+          </button>
+          <button className="btn ghost" onClick={onSwitchSchool}>
+            ↺ Home
+          </button>
+        </div>
+      </header>
+
+      {phase === 'landing' && (
+        <FbLanding
+          school={school}
+          mode={mode}
+          dateKey={dateKey}
+          playable={spins.length > 0}
+          provisional={false}
+          streak={streak}
+          onStart={start}
+        />
+      )}
+      {phase === 'playing' && (
+        <FbPlaying
+          players={eraPool}
+          state={state}
+          wheel={eraWheel}
+          hideStats={mode.hideStats}
+          power5Of={power5OfFullFb}
+          onAdvance={advance}
+          teamReel={teamReel}
+          teamTarget={teamTarget}
+          eraTag={eraTag}
+          schoolTag={schoolTagOf}
+        />
+      )}
+      {phase === 'done' && (
+        <FbResults
+          school={school}
+          mode={mode}
+          state={state}
+          dateKey={dateKey}
+          streak={streak}
+          saved={result}
+          returning={returning}
+          onPlayAgain={playAgain}
+          power5Of={power5OfFullFb}
+          schoolTag={schoolTagOf}
+        />
+      )}
+
+      <footer className="footer">
+        An independent fan project. Not affiliated with or endorsed by any
+        school. Player data curated from public sources.
       </footer>
     </div>
   )
@@ -2082,8 +2338,9 @@ function FbRosterRail({
   targetable,
   onPlace,
   hideRating,
-  power5,
+  power5Of,
   windowBySlot,
+  schoolTag,
 }: {
   slots: FbDraftState['slots']
   /** Slot ids the selected player can be placed into (highlighted + tappable). */
@@ -2091,10 +2348,18 @@ function FbRosterRail({
   onPlace?: (slotId: string) => void
   /** Gridiron IQ: suppress the numeric rating while drafting (shown at Results). */
   hideRating?: boolean
-  /** Conference strength — false applies the non-power-5 rating haircut. */
-  power5: boolean
+  /**
+   * Per-player conference strength — false applies the non-power-5 rating
+   * haircut to THAT player. REQUIRED (no default): an omitted resolver would
+   * silently rate a non-power-5 player at full power-5 value. Single-school games
+   * pass `() => school.power5`; Full Football resolves each player's own school.
+   */
+  power5Of: (player: FbPlayer) => boolean
   /** Era each slot was drafted from — scopes the shown rating to that era. */
   windowBySlot: Record<string, YearWindow>
+  /** Full Football: the school each pick came from, shown as a small origin tag.
+   *  Omitted (single-school games) → no tag. */
+  schoolTag?: (player: FbPlayer) => { name: string; emoji: string } | null
 }) {
   const targets = new Set(targetable ?? [])
   const sides: { side: 'offense' | 'defense'; label: string }[] = [
@@ -2110,6 +2375,7 @@ function FbRosterRail({
             {FB_SLOTS.filter((slot) => slot.side === grp.side).map((slot) => {
               const p = slots[slot.id]
               const isTarget = targets.has(slot.id)
+              const tag = p ? (schoolTag?.(p) ?? null) : null
               return (
                 <div
                   key={slot.id}
@@ -2121,9 +2387,18 @@ function FbRosterRail({
                   {p ? (
                     <>
                       <div className="pname">{p.name}</div>
+                      {tag && (
+                        <div className="school-tag" title={tag.name}>
+                          {tag.emoji} {tag.name}
+                        </div>
+                      )}
                       {!hideRating && (
                         <div className="prate">
-                          {fbPlayerRating(p, windowBySlot[slot.id], power5)}
+                          {fbPlayerRating(
+                            p,
+                            windowBySlot[slot.id],
+                            power5Of(p),
+                          )}
                         </div>
                       )}
                     </>
@@ -2147,8 +2422,12 @@ export function FbPlaying({
   state,
   wheel,
   hideStats,
-  power5,
+  power5Of,
   onAdvance,
+  teamReel,
+  teamTarget,
+  eraTag,
+  schoolTag,
 }: {
   players: FbPlayer[]
   state: FbDraftState
@@ -2156,13 +2435,30 @@ export function FbPlaying({
   wheel: YearWindow[]
   /** Gridiron IQ: hide the box-score + rating + award stars while drafting. */
   hideStats: boolean
-  power5: boolean
+  /** Per-player conference strength — false applies the non-power-5 haircut to
+   * that player. Single-school games pass `() => school.power5`. */
+  power5Of: (player: FbPlayer) => boolean
   onAdvance: (s: FbDraftState) => void
+  /**
+   * Full Football: the ordered team wheel. When present the spin runs a
+   * SEQUENTIAL two-phase reel — the team lands first, then the year. Omitted
+   * (single-school games) → the single year reel, unchanged.
+   */
+  teamReel?: { emoji: string; name: string }[]
+  /** Index in `teamReel` of THIS era's school (where the team reel lands). */
+  teamTarget?: number
+  /** Full Football: this era's school, labelled on the era bar. */
+  eraTag?: { emoji: string; name: string }
+  /** Full Football: per-pick origin tag, forwarded to the roster rail. */
+  schoolTag?: (player: FbPlayer) => { name: string; emoji: string } | null
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [reveal, setReveal] = useState(false)
   const [spinning, setSpinning] = useState(false)
   const [rolling, setRolling] = useState(false)
+  // Full Football spins two reels in sequence: 'team' lands the school, then
+  // 'year' lands the era. 'idle' = single-school games (year reel only).
+  const [spinPhase, setSpinPhase] = useState<'idle' | 'team' | 'year'>('idle')
   const timeoutRef = useRef<number | undefined>(undefined)
   const rafRef = useRef<number | undefined>(undefined)
   const reduced = usePrefersReducedMotion()
@@ -2183,6 +2479,24 @@ export function FbPlaying({
     () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
     [wheel, targetYear],
   )
+  // Full Football: geometry for the TEAM reel (phase 1). Present only when the
+  // caller supplies a team wheel; single-school games leave it null and spin the
+  // year reel alone. Memoized so it stays stable across the spin's re-renders.
+  const teamPlan = useMemo(
+    () =>
+      teamReel && teamReel.length > 0
+        ? buildIndexReelPlan(teamReel.length, teamTarget ?? 0)
+        : null,
+    [teamReel, teamTarget],
+  )
+  const twoPhase = teamPlan !== null
+  // Each phase of a two-phase spin takes half the budget so the whole sequence
+  // still lands in SPIN_MS; a single-phase spin uses the full budget.
+  const phaseMs = twoPhase ? Math.round(SPIN_MS / 2) : SPIN_MS
+  // Which strip the wheel is currently scrolling — team emojis during 'team',
+  // era years otherwise. Its offset drives the translate.
+  const activeOffset =
+    spinPhase === 'team' ? (teamPlan?.offset ?? 0) : (plan?.offset ?? 0)
 
   // The current side's positions, in roster order. `era` is already side-filtered
   // by the engine, so grouping by these covers exactly the draftable pool.
@@ -2207,7 +2521,8 @@ export function FbPlaying({
         .sort((a, b) =>
           hideStats || !w
             ? a.name.localeCompare(b.name)
-            : fbPlayerRating(b, w, power5) - fbPlayerRating(a, w, power5),
+            : fbPlayerRating(b, w, power5Of(b)) -
+              fbPlayerRating(a, w, power5Of(a)),
         ),
     }))
     .filter((g) => g.players.length > 0)
@@ -2233,12 +2548,23 @@ export function FbPlaying({
     setReveal(false)
     setSpinning(false)
     setRolling(false)
+    setSpinPhase('idle')
     setSelectedId(null)
     return () => {
       window.clearTimeout(timeoutRef.current)
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
     }
   }, [state.cursor])
+
+  // Start one reel scroll: pin the column at the top with the transition OFF,
+  // then enable it on the next committed frame so the browser animates from the
+  // reset position instead of snapping to the target.
+  function rollOnce() {
+    setRolling(false)
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = requestAnimationFrame(() => setRolling(true))
+    })
+  }
 
   function spin() {
     if (!w || spinning || reveal || !plan) return
@@ -2250,14 +2576,26 @@ export function FbPlaying({
       return
     }
     setSpinning(true)
-    setRolling(false)
-    rafRef.current = requestAnimationFrame(() => {
-      rafRef.current = requestAnimationFrame(() => setRolling(true))
-    })
-    timeoutRef.current = window.setTimeout(() => {
-      setSpinning(false)
-      setReveal(true)
-    }, SPIN_MS)
+    if (twoPhase) {
+      // Phase 1: land the TEAM, then phase 2: land the YEAR, then reveal.
+      setSpinPhase('team')
+      rollOnce()
+      timeoutRef.current = window.setTimeout(() => {
+        setSpinPhase('year')
+        rollOnce()
+        timeoutRef.current = window.setTimeout(() => {
+          setSpinning(false)
+          setReveal(true)
+        }, phaseMs)
+      }, phaseMs)
+    } else {
+      setSpinPhase('idle')
+      rollOnce()
+      timeoutRef.current = window.setTimeout(() => {
+        setSpinning(false)
+        setReveal(true)
+      }, phaseMs)
+    }
   }
 
   return (
@@ -2267,8 +2605,9 @@ export function FbPlaying({
         targetable={targetSlotIds}
         onPlace={place}
         hideRating={hideStats}
-        power5={power5}
+        power5Of={power5Of}
         windowBySlot={fbWindowBySlot(state.picks)}
+        schoolTag={schoolTag}
       />
 
       {!reveal ? (
@@ -2279,18 +2618,27 @@ export function FbPlaying({
               className="wheel-col"
               style={{
                 transform: `translateY(calc(var(--reel-cell) * ${
-                  rolling && plan ? -plan.offset : 0
+                  rolling ? -activeOffset : 0
                 }))`,
                 transition: rolling
-                  ? `transform ${SPIN_MS - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
+                  ? `transform ${phaseMs - 80}ms cubic-bezier(0.1, 0.62, 0.22, 1)`
                   : 'none',
               }}
             >
-              {(plan?.cells ?? []).map((y, i) => (
-                <div className="wheel-cell" key={i}>
-                  {y}
-                </div>
-              ))}
+              {/* Phase 1 (Full Football) scrolls the TEAM strip; otherwise the
+                  era YEAR strip. The reveal of which team you landed on is the
+                  point of the first reel, so it shows emoji + name. */}
+              {spinPhase === 'team'
+                ? (teamPlan?.cells ?? []).map((idx, i) => (
+                    <div className="wheel-cell wheel-team" key={i}>
+                      {teamReel?.[idx]?.emoji} {teamReel?.[idx]?.name}
+                    </div>
+                  ))
+                : (plan?.cells ?? []).map((y, i) => (
+                    <div className="wheel-cell" key={i}>
+                      {y}
+                    </div>
+                  ))}
             </div>
           </div>
           <button
@@ -2299,7 +2647,9 @@ export function FbPlaying({
             onClick={spin}
           >
             {spinning
-              ? 'Spinning…'
+              ? spinPhase === 'team'
+                ? 'Picking team…'
+                : 'Spinning…'
               : `🎰 Spin era ${Math.min(state.cursor + 1, state.windows.length)} / ${state.windows.length}`}
           </button>
         </div>
@@ -2307,6 +2657,7 @@ export function FbPlaying({
         <>
           <div className="roundbar">
             <div className="era">
+              {eraTag ? `${eraTag.emoji} ${eraTag.name} · ` : ''}
               {w ? windowLabel(w) : ''}
               <small>
                 {side === 'offense' ? 'Offense' : 'Defense'} · Era{' '}
@@ -2428,6 +2779,8 @@ function FbResults({
   saved,
   returning,
   onPlayAgain,
+  power5Of,
+  schoolTag,
 }: {
   school: School
   mode: ModeConfig
@@ -2438,11 +2791,20 @@ function FbResults({
   saved: SavedDaily | null
   returning: boolean
   onPlayAgain: () => void
+  /**
+   * Per-player conference strength. Omitted (single-school games) → the school's
+   * own flag for every starter. Full Football passes a per-player resolver so
+   * the non-power-5 haircut hits only the starters from non-power-5 schools.
+   */
+  power5Of?: (player: FbPlayer) => boolean
+  /** Full Football: the school each starter came from, shown as an origin tag. */
+  schoolTag?: (player: FbPlayer) => { name: string; emoji: string } | null
 }) {
+  const power5 = power5Of ?? (() => school.power5)
   // Live re-rate drives the per-row RTG + team strength; the headline record +
   // share use the EARNED wins/grade from the save when present (a stats fix
   // between play and replay must never rewrite what you scored).
-  const live = fbEvaluate(state, school.power5)
+  const live = fbEvaluate(state, power5)
   const strength = Math.round(live.strength)
   const wins = saved?.wins ?? live.wins
   const grade = saved?.grade ?? live.grade
@@ -2490,8 +2852,9 @@ function FbResults({
 
       <FbRosterRail
         slots={state.slots}
-        power5={school.power5}
+        power5Of={power5}
         windowBySlot={live.windowBySlot}
+        schoolTag={schoolTag}
       />
 
       <div className="card" style={{ marginTop: 16 }}>
@@ -2530,11 +2893,7 @@ function FbResults({
                   <td className="yr">{fmtFbYear(season)}</td>
                   <td>
                     {p
-                      ? fbPlayerRating(
-                          p,
-                          live.windowBySlot[slot.id],
-                          school.power5,
-                        )
+                      ? fbPlayerRating(p, live.windowBySlot[slot.id], power5(p))
                       : '—'}
                   </td>
                 </tr>

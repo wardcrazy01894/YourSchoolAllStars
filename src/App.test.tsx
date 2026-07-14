@@ -205,7 +205,7 @@ describe('FbPlaying — award badges and key', () => {
         state={initFbDraft(WHEEL)}
         wheel={WHEEL}
         hideStats={hideStats}
-        power5={true}
+        power5Of={() => true}
         onAdvance={() => {}}
       />,
     )

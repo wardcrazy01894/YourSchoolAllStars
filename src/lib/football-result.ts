@@ -9,8 +9,10 @@ import type { FbPlayer, YearWindow } from '../types'
 import {
   ratedStarters,
   fbDraftResult,
+  fbPower5Resolver,
   type FbDraftState,
   type FbDraftPick,
+  type FbPower5Spec,
 } from './football-game'
 import {
   fbPlayerRating,
@@ -48,19 +50,25 @@ export interface FbRosterResult {
  * Rate a (possibly partial) roster and project its record out of 16. Each filled
  * slot is rated by its player's position; empty slots are absent from the team
  * score (and read null per-slot), which drags the projected record. `power5`
- * toggles the non-power-5 conference haircut on every rating.
+ * toggles the non-power-5 conference haircut — a boolean for a single-school
+ * roster (every player shares it), or a per-player resolver for a MIXED roster
+ * (Full Football); see {@link FbPower5Spec}.
  */
 export function fbEvaluate(
   state: FbDraftState,
-  power5: boolean,
+  power5: FbPower5Spec,
 ): FbRosterResult {
+  const p5 = fbPower5Resolver(power5)
   const rated = ratedStarters(state, power5)
   const res = fbDraftResult(state, power5)
   const pickBySlot = new Map(state.picks.map((pk) => [pk.slotId, pk]))
   const ratingBySlot = Object.fromEntries(
     FB_SLOTS.map((slot) => {
       const pk = pickBySlot.get(slot.id)
-      return [slot.id, pk ? fbPlayerRating(pk.player, pk.window, power5) : null]
+      return [
+        slot.id,
+        pk ? fbPlayerRating(pk.player, pk.window, p5(pk.player)) : null,
+      ]
     }),
   ) as Record<string, number | null>
   return {
@@ -79,7 +87,7 @@ export function fbEvaluate(
 export function fbSavedDailyFrom(
   state: FbDraftState,
   dateKey: string,
-  power5: boolean,
+  power5: FbPower5Spec,
 ): SavedDaily {
   const { wins, grade } = fbEvaluate(state, power5)
   const playerIds: Record<string, string> = {}
