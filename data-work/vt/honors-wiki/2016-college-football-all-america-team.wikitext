@@ -1,0 +1,195 @@
+<!-- source: https://en.wikipedia.org/wiki/2016_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2016}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2016 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2016 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2015 All-America college football team|2015]] &nbsp; [[2017 All-America college football team|2017]] → 
+}}
+
+The '''2016 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]] and [[Walter Camp]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite journal|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |title=Walter Camp and His Gridiron Game |access-date=October 17, 2011 |date=October 1961 |volume=12 |issue=6 |author=Martin, John Stuart |journal=[[American Heritage (magazine)|American Heritage]] |url-status=dead |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 }}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=October 17, 2011 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref>  In 1950, the National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=October 17, 2011 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, covering all NCAA championship sports.
+
+The 2016 All-America college football team is composed of the following [[All-America college football team|All-America]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[The Sporting News]]'' (''TSN''), ''[[Sports Illustrated]]'' (''SI''), ''[[USA Today]]'' (USAT), [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], [[Athlon Sports Communications|Athlon Sports]], and [[Fox Sports]] (FOX).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I-FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least two of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team to all five selectors are deemed unanimous All-Americans. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref> The AFCA began selecting a second team in 2016.<ref>{{cite web|title=Jackson and Allen Headline 2016 FBS All-America Teams
+|publisher=American Football Coaches Association|url=https://www.afca.com/article/article.php?id=2838|archive-url=https://web.archive.org/web/20161220172258/https://www.afca.com/article/article.php?id=2838|archive-date=December 20, 2016}}</ref>
+
+Twenty-seven players were recognized as consensus All-Americans for 2016, 14 of them being unanimous. [[List of unanimous college football All-Americans|Unanimous selections]] are followed by an asterisk (*).<ref>{{cite news|last1=Bender|first1=Bill|title=Heisman winner Lamar Jackson leads the way on 2016 Consensus All-America Team|url=http://www.sportingnews.com/ncaa-football/news/ncaa-all-american-team-football-2016-lamar-jackson-alabama-ohio-state-michigan/1j0b31vgzxhr2149a29s94a3e8|access-date=May 17, 2017|work=Sporting News|date=December 15, 2016}}</ref>
+
+{| class="wikitable sortable"
+|+2016 Consensus All-Americans<ref>{{cite web|title=Football Award Winners|publisher=NCAA|year=2023|page=17|url=http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|access-date=January 1, 2024|archive-url=https://web.archive.org/web/20231226151159/http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|archive-date=December 26, 2023|url-status=live}}</ref>
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Lamar|Jackson}}* || Quarterback || {{sort|2|Sophomore}} || [[2016 Louisville Cardinals football team|Louisville]]
+|-
+| {{sortname|Dalvin|Cook}}* || rowspan=2|Running back || {{sort|3|Junior}} || [[2016 Florida State Seminoles football team|Florida State]]
+|-
+| {{sortname|D'Onta|Foreman}} || {{sort|3|Junior}} || [[2016 Texas Longhorns football team|Texas]]
+|-
+| {{sortname|Corey|Davis|dab=wide receiver}} || rowspan=2|Wide receiver || {{sort|4|Senior}} || [[2016 Western Michigan Broncos football team|Western Michigan]]
+|-
+| {{sortname|Dede|Westbrook}}* || {{sort|4|Senior}} || [[2016 Oklahoma Sooners football team|Oklahoma]]
+|-
+| {{sortname|Jake|Butt}} || Tight end || {{sort|4|Senior}} || [[2016 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|Cody|O'Connell||Oconnell}}* || rowspan=4|Offensive line || {{sort|3|Junior}} || [[2016 Washington State Cougars football team|Washington State]]
+|-
+| {{sortname|Ryan|Ramczyk}} ||  {{sort|3|Junior}} || [[2016 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Cam|Robinson}}* || {{sort|3|Junior}} || [[2016 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Connor|Williams|dab=American football}} || {{sort|2|Sophomore}} || [[2016 Texas Longhorns football team|Texas]]
+|-
+| {{sortname|Pat|Elflein}}* || Center || {{sort|4|Senior}} || [[2016 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Jonathan|Allen}}* || rowspan=4|Defensive line || {{sort|4|Senior}} || [[2016 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Derek|Barnett}} ||  {{sort|3|Junior}} || [[2016 Tennessee Volunteers football team|Tennessee]]
+|-
+| {{sortname|Myles|Garrett}}* ||  {{sort|3|Junior}} || [[2016 Texas A&M Aggies football team|Texas A&M]]
+|-
+| {{sortname|DeMarcus|Walker}} ||  {{sort|4|Senior}} || [[2016 Florida State Seminoles football team|Florida State]]
+|-
+| {{sortname|Zach|Cunningham}}* || rowspan=3|Linebacker || {{sort|3|Junior}} || [[2016 Vanderbilt Commodores football team|Vanderbilt]]
+|-
+| {{sortname|Reuben|Foster}}* ||  {{sort|4|Senior}} || [[2016 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Jabrill|Peppers}}* || {{sort|3|Junior}} || [[2016 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|Adoree'|Jackson}}* || rowspan=6|Defensive back || {{sort|3|Junior}} || [[2016 USC Trojans football team|USC]]
+|-
+| {{sortname|Jourdan|Lewis}} || {{sort|4|Senior}} || [[2016 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|Malik|Hooker}}* || {{sort|2|Sophomore}} || [[2016 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Budda|Baker}} || {{sort|3|Junior}} || [[2016 Washington Huskies football team|Washington]]
+|-
+| {{sortname|Minkah|Fitzpatrick}} || {{sort|2|Sophomore}} || [[2016 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Tre'Davious|White}} || {{sort|4|Senior}} || [[2016 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Zane|Gonzalez}}* || Kicker || {{sort|4|Senior}} || [[2016 Arizona State Sun Devils football team|Arizona State]]
+|-
+| {{sortname|Mitch|Wishnowsky}}* || Punter || {{sort|2|Sophomore}} || [[2016 Utah Utes football team|Utah]]
+|-
+| {{sortname|Quadree|Henderson}} || All-purpose || {{sort|2|Sophomore}} || [[2016 Pittsburgh Panthers football team|Pittsburgh]]
+|}
+
+==Offense==
+===Quarterback===
+*'''[[Lamar Jackson]]''', [[2016 Louisville Cardinals football team|Louisville]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS, Athlon)</small>
+
+===Running back===
+*'''[[Dalvin Cook]]''', [[2016 Florida State Seminoles football team|Florida State]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', USAT, ESPN, FOX, CBS, Athlon)</small>
+*'''[[D'Onta Foreman]]''', [[2016 Texas Longhorns football team|Texas]] <small>('''AFCA''', '''FWAA''', '''AP''', '''TSN''', SI, USAT, ESPN, FOX, CBS, Athlon)</small>
+*[[Donnel Pumphrey]], [[2016 San Diego State Aztecs football team|San Diego State]] <small>('''WCFF''', SI)</small>
+
+===Wide receiver===
+*'''[[Corey Davis (wide receiver)|Corey Davis]]''', [[2016 Western Michigan Broncos football team|Western Michigan]] <small>('''AFCA''', '''FWAA''', '''AP''', SI, USAT, FOX, CBS, Athlon)</small>
+*[[Zay Jones]], [[2016 East Carolina Pirates football team|East Carolina]] <small>('''WCFF''', '''TSN''', ESPN)</small>
+*[[John Ross (American football)|John Ross]], [[2016 Washington Huskies football team|Washington]] <small>(ESPN)</small>
+*'''[[Dede Westbrook]]''', [[2016 Oklahoma Sooners football team|Oklahoma]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS, Athlon)</small>
+
+===Tight end===
+*'''[[Jake Butt]]''', [[2016 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''WCFF''')</small>
+*[[Evan Engram]], [[2016 Ole Miss Rebels football team|Ole Miss]] <small>('''AP''', '''TSN''', SI, USAT, CBS, Athlon)</small>
+*[[O. J. Howard]], [[2016 Alabama Crimson Tide football team|Alabama]] <small>(FOX)</small>
+*[[Michael Roberts (American football)|Michael Roberts]], [[2016 Toledo Rockets football team|Toledo]] <small>('''FWAA''')</small>
+
+===Offensive line===
+*[[Dan Feeney]], [[2016 Indiana Hoosiers football team|Indiana]] <small>('''AP''', FOX)</small>
+*[[Dorian Johnson]], [[2016 Pittsburgh Panthers football team|Pittsburgh]] <small>('''AFCA''', '''TSN''', SI, ESPN)</small>
+*[[Roderick Johnson]], [[2016 Florida State Seminoles football team|Florida State]] <small>('''WCFF''')</small>
+*'''[[Cody O'Connell]]''', [[2016 Washington State Cougars football team|Washington State]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS, Athlon)</small>
+*[[Ethan Pocic]], [[2016 LSU Tigers football team|LSU]] <small>('''FWAA''')</small>
+*[[Billy Price (American football)|Billy Price]], [[2016 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''')</small>
+*'''[[Ryan Ramczyk]]''', [[2016 Wisconsin Badgers football team|Wisconsin]] <small>('''AP''', '''TSN''', SI, USAT, ESPN, FOX, CBS, Athlon)</small>
+*'''[[Cam Robinson]]''', [[2016 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, ESPN, FOX, CBS, Athlon)</small>
+*[[Nico Siragusa]], [[2016 San Diego State Aztecs football team|San Diego State]] <small>(USAT)</small>
+*'''[[Connor Williams (American football)|Connor Williams]]''', [[2016 Texas Longhorns football team|Texas]] <small>('''FWAA''', '''WCFF''', USAT, CBS, Athlon)</small>
+
+===Center===
+*'''[[Pat Elflein]]''', [[2016 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS, Athlon)</small>
+
+==Defense==
+===Defensive line===
+*'''[[Jonathan Allen (American football)|Jonathan Allen]]''', [[2016 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+*'''[[Derek Barnett]]''', [[2016 Tennessee Volunteers football team|Tennessee]] <small>('''AP''', '''WCFF''', SI, USAT, ESPN, FOX, CBS)</small>
+*'''[[Myles Garrett]]''', [[2016 Texas A&M Aggies football team|Texas A&M]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', FOX)</small>
+*[[Carl Lawson (American football)|Carl Lawson]], [[2016 Auburn Tigers football team|Auburn]] <small>('''FWAA''')</small>
+*[[Ed Oliver (American football)|Ed Oliver]], [[2016 Houston Cougars football team|Houston]] <small>('''AP''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+*'''[[DeMarcus Walker]]''', [[2016 Florida State Seminoles football team|Florida State]] <small>('''AFCA''', '''WCFF''', '''TSN''', USAT)</small>
+*[[Carlos Watkins]], [[2016 Clemson Tigers football team|Clemson]], <small>(CBS)</small>
+*[[Christian Wilkins]], [[2016 Clemson Tigers football team|Clemson]] <small>('''AFCA''', '''FWAA''')</small>
+
+===Linebacker===
+*'''[[Zach Cunningham]]''', [[2016 Vanderbilt Commodores football team|Vanderbilt]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+*'''[[Reuben Foster]]''', [[2016 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+*'''[[Jabrill Peppers]]''', [[2016 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+*[[T. J. Watt]], [[2016 Wisconsin Badgers football team|Wisconsin]] <small>(SI, ESPN)</small>
+
+===Defensive back===
+*[[Jamal Adams]], [[2016 LSU Tigers football team|LSU]] <small>(USAT, CBS)</small>
+*'''[[Budda Baker]]''', [[2016 Washington Huskies football team|Washington]] <small>('''FWAA''', '''TSN''', SI, ESPN, FOX)</small>
+*'''[[Minkah Fitzpatrick]]''', [[2016 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''AP''', ESPN)</small>
+*'''[[Malik Hooker]]''', [[2016 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+*[[Marlon Humphrey]], [[2016 Alabama Crimson Tide football team|Alabama]] <small>('''FWAA''')</small>
+*'''[[Adoree' Jackson]]''', [[2016 USC Trojans football team|Southern California]] <small>('''AP''', '''WCFF''', '''TSN''', FOX, CBS)</small>
+*[[Desmond King (American football)|Desmond King]], [[2016 Iowa Hawkeyes football team|Iowa]] <small>(SI, USAT, FOX)</small>
+*'''[[Jourdan Lewis]]''', [[2016 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''AP''', '''WCFF''', '''TSN''', SI, ESPN, CBS)</small>
+*[[Tarvarus McFadden]], [[2016 Florida State Seminoles football team|Florida State]] <small>('''FWAA''')</small>
+*[[Cordrea Tankersley]], [[2016 Clemson Tigers football team|Clemson]] <small>(USAT)</small>
+*'''[[Tre'Davious White]]''', [[2016 LSU Tigers football team|LSU]] <small>('''AFCA''', '''WCFF''')</small>
+
+==Special teams==
+===Kicker===
+*'''[[Zane Gonzalez]]''', [[2016 Arizona State Sun Devils football team|Arizona State]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX, CBS)</small>
+
+===Punter===
+*[[Johnny Townsend (American football)|Johnny Townsend]], [[2016 Florida Gators football team|Florida]] <small>(CBS)</small>
+*'''[[Mitch Wishnowsky]]''', [[2016 Utah Utes football team|Utah]] <small>('''AFCA''', '''FWAA''', '''AP''', '''WCFF''', '''TSN''', SI, USAT, ESPN, FOX)</small>
+
+===All-purpose / return specialist===
+*'''[[Quadree Henderson]]''', [[2016 Pittsburgh Panthers football team|Pittsburgh]] <small>('''FWAA''', '''WCFF''', '''TSN''', SI, USAT, FOX, CBS)</small>
+*[[Adoree' Jackson]], [[2016 USC Trojans football team|Southern California]] <small>('''AFCA''', '''FWAA''', SI, ESPN, CBS)</small>
+*[[Christian McCaffrey]], [[2016 Stanford Cardinal football team|Stanford]] <small>(FOX)</small>
+*[[Jabrill Peppers]], [[2016 Michigan Wolverines football team|Michigan]] <small>(CBS)</small>
+*[[Curtis Samuel]], [[2016 Ohio State Buckeyes football team|Ohio State]] <small>('''AP''', '''TSN''')</small>
+
+==See also==
+* [[2016 All-ACC football team]]
+* [[2016 All-SEC football team]]
+* [[2016 All-Big Ten Conference football team]]
+* [[2016 All-Big 12 Conference football team]]
+* [[2016 All-Pac-12 Conference football team]]
+
+==Footnotes==
+{{reflist}}
+
+==References==
+*{{cite web|title=Jackson and Allen Headline 2016 FBS All-America Teams
+|publisher=American Football Coaches Association|url=https://www.afca.com/article/article.php?id=2838|archive-url=https://web.archive.org/web/20161220172258/https://www.afca.com/article/article.php?id=2838|archive-date=December 20, 2016}}
+*{{cite web|title=2016 FWAA ALL-AMERICA TEAM UNVEILED|date=December 12, 2016|publisher=Football Writers Association of America|url=http://www.sportswriters.net/fwaa/news/2016/allamerica161212.html|url-status=deviated|archive-url=https://web.archive.org/web/20161220120811/https://www.sportswriters.net/fwaa/news/2016/allamerica161212.html|archive-date=December 20, 2016}}
+*[http://collegefootball.ap.org/article/2016-ap-all-america-team Associated Press All-America Team] {{Webarchive|url=https://web.archive.org/web/20161212231257/http://collegefootball.ap.org/article/2016-ap-all-america-team |date=2016-12-12 }}
+*[http://waltercamp.org/wp-content/uploads/2016/12/FINAL-2016-Walter-Camp-All-America-Teams.pdf Walter Camp Football Foundation All-America Team]
+*[http://www.sportingnews.com/ncaa-football/list/all-americans-college-football-lamar-jackson-dalvin-cook-jonathan-allen-jabrill-peppers-curtis-samuel/jgof2u6vyj9315y48m3u9uoz0 Sporting News All-America Team]
+*[https://www.si.com/college-football/photo/2016/12/08/all-america-team-2016-college-football Sports Illustrated All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2016/12/08/usa-today-sports-all-america-college-football-team/95112928/ USA Today All-America Team]
+*[http://www.espn.com/college-football/story/_/id/18250831/louisville-cardinals-heisman-winner-lamar-jackson-leads-2016-espn-college-football-all-american-team ESPN All-America Team]
+*[http://www.foxsports.com/college-football/gallery/all-america-team-fox-sports-first-team-second-team-offense-defense-specialists-121316 FOX Sports All-America Team]
+*[http://www.cbssports.com/college-football/news/cbs-sports-2016-college-football-all-america-team-alabama-big-ten-lead-way/ CBS Sports All-America Team]
+*[http://athlonsports.com/college-football/college-footballs-2016-postseason-all-america-team Athlon Sports All-America Team]
+{{2016 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2016 NCAA Division I FBS football season navbox}}
+
+[[Category:2016 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

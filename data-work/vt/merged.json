@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-14T05:08:33.578Z",
+ "generated": "2026-07-14T06:05:32.793Z",
  "players": [
   {
    "name": "A. Layne",
@@ -7597,7 +7597,7 @@
   {
    "name": "Justin Hamilton",
    "key": "justin hamilton",
-   "position": "WR",
+   "position": null,
    "positionVotes": {
     "WR": 2,
     "RB": 1,
@@ -8398,7 +8398,7 @@
   {
    "name": "Brenden Hill",
    "key": "brenden hill",
-   "position": "WR",
+   "position": "LB",
    "positionVotes": {
     "WR": 1,
     "DB": 1,
@@ -10637,7 +10637,7 @@
   {
    "name": "Kenny Younger",
    "key": "kenny younger",
-   "position": "RB",
+   "position": "DE",
    "positionVotes": {
     "DE": 1,
     "RB": 3
@@ -14224,7 +14224,7 @@
   {
    "name": "Zack McCray",
    "key": "zack mccray",
-   "position": "TE",
+   "position": null,
    "positionVotes": {
     "DL": 2,
     "TE": 1
@@ -16063,7 +16063,7 @@
   {
    "name": "Deon Newsome",
    "key": "deon newsome",
-   "position": "WR",
+   "position": null,
    "positionVotes": {
     "WR": 2,
     "DB": 2
@@ -17272,7 +17272,7 @@
   {
    "name": "Divine Deablo",
    "key": "divine deablo",
-   "position": "WR",
+   "position": null,
    "positionVotes": {
     "WR": 1,
     "DB": 4
@@ -20902,7 +20902,7 @@
   {
    "name": "Luke Bussel",
    "key": "luke bussel",
-   "position": "WR",
+   "position": "S",
    "positionVotes": {
     "QB": 1,
     "WR": 2,
@@ -21522,7 +21522,7 @@
   {
    "name": "Jaylen Jones",
    "key": "jaylen jones",
-   "position": "WR",
+   "position": "S",
    "positionVotes": {
     "WR": 2,
     "S": 2

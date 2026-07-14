@@ -25,11 +25,28 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const merged = JSON.parse(readFileSync(join(HERE, 'merged.json'))).players
 const report = JSON.parse(readFileSync(join(HERE, 'crossval-report.json')))
 const FLOOR = 3
-const FINE = new Set(['QB', 'RB', 'WR', 'TE', 'DE', 'DT', 'LB', 'CB', 'S'])
 
 const override = existsSync(join(HERE, 'positions-override.json'))
   ? JSON.parse(readFileSync(join(HERE, 'positions-override.json')))
   : {}
+
+// Same guard as merge.mjs: an offensive code must never settle a DEFENDER's
+// position — SR's defense table tags a converted player (or a special-teams
+// tackler) with the offensive position they were listed at that year, so
+// "single fine code in the SR defense votes" can be WR for a four-year
+// safety. Offensive codes only win when the player has no defensive signal.
+const OFF_FINE = new Set(['QB', 'RB', 'WR', 'TE'])
+const DEF_FINE = new Set(['DE', 'DT', 'LB', 'CB', 'S'])
+// "Real defender" test — a WR with one special-teams tackle is NOT a
+// defender, but a safety with 55 tackles is. Thresholds keep the guard from
+// pushing every gunner into the research worklist.
+const isDefensiveSeason = (st) =>
+  (st.tackles ?? 0) >= 10 ||
+  (st.sacks ?? 0) >= 1 ||
+  (st.tfl ?? 0) >= 2 ||
+  (st.defInt ?? 0) >= 1 ||
+  (st.pbu ?? 0) >= 2
+const defProductionOf = (p) => p.seasons.some((s) => isDefensiveSeason(s.stats))
 
 const auto = []
 const worklist = []
@@ -65,11 +82,16 @@ for (const person of merged) {
     })
     continue
   }
-  const dfine = Object.entries(info.srDefVotes ?? {}).filter(([c]) => FINE.has(c))
-  const ofine = Object.entries(info.srOffVotes ?? {}).filter(([c]) => FINE.has(c))
+  const dfine = Object.entries(info.srDefVotes ?? {}).filter(([c]) =>
+    DEF_FINE.has(c),
+  )
+  const ofine = Object.entries(info.srOffVotes ?? {}).filter(([c]) =>
+    OFF_FINE.has(c),
+  )
   const hasDefSignal =
-    Object.keys(info.srDefVotes ?? {}).length > 0 ||
-    ['DL', 'DB'].some((c) => (person.positionVotes ?? {})[c])
+    defProductionOf(person) &&
+    (Object.keys(info.srDefVotes ?? {}).length > 0 ||
+      ['DL', 'DB'].some((c) => (person.positionVotes ?? {})[c]))
   if (dfine.length === 1) {
     auto.push({ name: person.name, position: dfine[0][0], basis: 'sr-def' })
   } else if (!hasDefSignal && ofine.length === 1) {

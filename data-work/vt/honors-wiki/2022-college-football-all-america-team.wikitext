@@ -1,0 +1,194 @@
+<!-- source: https://en.wikipedia.org/wiki/2022_College_Football_All-America_Team -->
+{{Short description|American football team}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2022 College Football All-America Team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[College Football All-America Team]]
+| heading2 = 
+| content2 = [[2022 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2021 College Football All-America Team|2021]] &nbsp; [[2023 College Football All-America Team|2023]] →
+}}
+
+The '''2022 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite magazine|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |title=Walter Camp and His Gridiron Game |access-date=October 17, 2011 |date=October 1961 |volume=12 |issue=6 |author=Martin, John Stuart |magazine=[[American Heritage (magazine)|American Heritage]] |url-status=dead |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 }}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=October 17, 2011 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> The National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled, in the 1950, the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=October 17, 2011 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] and [[NJCAA]] athletes, including all NCAA championship sports.
+
+The 2022 College Football All-America Team is composed of the following [[College Football All-America Team|College Football All-American]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[Sporting News]]'' (''TSN'', from its historic name of ''The Sporting News''), ''[[Sports Illustrated]]'' (''SI''), ''[[The Athletic]]'' (Athletic), ''[[USA Today]]'' (USAT), [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], [[Athlon Sports Communications|Athlon Sports]], [[Phil Steele]], and [[Fox Sports]] (FOX).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least half of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+The following players were recognized as consensus All-Americans for 2022. Fourteen of them were recognized unanimously. [[List of unanimous All-Americans in college football|Unanimous selections]] are followed by an asterisk (*).
+
+{| class="wikitable sortable"
+|+2022 Consensus All-Americans*<ref>{{cite web|title=Football Award Winners|publisher=NCAA|year=2023|page=18|url=http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|access-date=January 1, 2024|archive-url=https://web.archive.org/web/20231226151159/http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|archive-date=December 26, 2023|url-status=live}}</ref>
+! Name !! Position !! Year !! University
+|-
+|  [[Caleb Williams]]* || Quarterback || Soph.|| [[2022 USC Trojans football team|USC]] 
+|-
+| [[Blake Corum]]* || rowspan="2"| Running back || Jr. || [[2022 Michigan Wolverines football team|Michigan]]
+|-
+| [[Bijan Robinson]]* || Jr. || [[2022 Texas Longhorns football team|Texas]]
+|-
+| [[Marvin Harrison Jr.]]* || rowspan="2"| Wide receiver || Soph. || [[2022 Ohio State Buckeyes football team|Ohio State]]
+|-
+| [[Jalin Hyatt]]* || Jr. || [[2022 Tennessee Volunteers football team|Tennessee]]
+|-
+| [[Michael Mayer (American football)|Michael Mayer]] || Tight end || Jr. || [[2022 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| [[Steve Avila]] || rowspan="4"| Offensive line || Sr. || [[2022 TCU Horned Frogs football team|TCU]]
+|-
+| [[Paris Johnson Jr.]] || Jr. || [[2022 Ohio State Buckeyes football team|Ohio State]]
+|-
+| [[Peter Skoronski]]* || Jr. || [[2022 Northwestern Wildcats football team|Northwestern]]  
+|-
+| [[O'Cyrus Torrence]] || Sr. || [[2022 Florida Gators football team|Florida]] 
+|-
+| [[Olu Oluwatimi]] || Center || Sr. || [[2022 Michigan Wolverines football team|Michigan]]
+|-
+|  [[Jalen Carter]]*  || rowspan="4"| Defensive line || Jr. || [[2022 Georgia Bulldogs football team|Georgia]]
+|-
+| [[Isaiah Foskey]] || Sr. || [[2022 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+|  [[Calijah Kancey]]* || Jr. || [[2022 Pittsburgh Panthers football team|Pittsburgh]]
+|-
+| [[Tuli Tuipulotu]]* || Jr. || [[2022 USC Trojans football team|USC]]
+|-
+|  [[Will Anderson Jr.]]* || rowspan="3"| Linebacker || Jr. || [[Alabama Crimson Tide football|Alabama]]
+|-
+| [[Jack Campbell (American football)|Jack Campbell]]* || Sr. || [[2022 Iowa Hawkeyes football team|Iowa]]
+|-
+| [[Ivan Pace Jr.]]* || Sr. || [[2022 Cincinnati Bearcats football team|Cincinnati]]
+|-
+|  [[Emmanuel Forbes]] || rowspan="4"| Defensive back || Jr. ||  [[2022 Mississippi State Bulldogs football team|Mississippi State]] 
+|-
+|  [[Clark Phillips III]]* || Jr. ||  [[2022 Utah Utes football team|Utah]]
+|-
+|  [[Christopher Smith II]]* || Sr.  ||  [[2022 Georgia Bulldogs football team|Georgia]]
+|-
+| [[Devon Witherspoon]] || Jr.|| [[2022 Illinois Fighting Illini football team|Illinois]]
+|-
+| [[Christopher Dunn (American football)|Christopher Dunn]] || Kicker || Sr. || [[2022 NC State Wolfpack football team|NC State]]
+|-
+| [[Bryce Baringer]] || Punter ||  Sr. || [[2022 Michigan State Spartans football team|Michigan State]]
+|-
+| [[Deuce Vaughn]] || All-purpose / return specialist ||  Jr. || [[2022 Kansas State Wildcats football team|Kansas State]]
+|-
+|}
+
+==Offense==
+===Quarterback===
+* '''[[Caleb Williams]]''', [[2022 USC Trojans football team|USC]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+
+===Running back===
+*'''[[Blake Corum]]''', [[2022 Michigan Wolverines football team|Michigan]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*'''[[Bijan Robinson]]''', [[2022 Texas Longhorns football team|Texas]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+
+===Wide receiver===
+*'''[[Marvin Harrison Jr.]]''', [[2022 Ohio State Buckeyes football team|Ohio State]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*'''[[Jalin Hyatt]]''', [[2022 Tennessee Volunteers football team|Tennessee]] <small>('''AP''', '''AFCA''',  '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*[[Xavier Hutchinson]], [[2022 Iowa State Cyclones football team|Iowa State]] <small>('''AP''')</small>
+*[[Charlie Jones (American football, born 1998)|Charlie Jones]], [[2022 Purdue Boilermakers football team|Purdue]] <small>(FOX)</small>
+
+===Tight end===
+*[[Brock Bowers]], [[2022 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', '''FWAA''', ESPN, USAT)</small>
+*'''[[Michael Mayer (American football)|Michael Mayer]]''', [[2022 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AP''', '''TSN''', '''WCFF''', CBS, FOX, The Athletic)</small>
+
+===Offensive line===
+*[[Joe Alt]], [[2022 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AP''', ESPN, CBS)</small>
+*'''[[Steve Avila]]''', [[2022 TCU Horned Frogs football team|TCU]] <small>('''AFCA''', '''FWAA''', '''WCFF''', FOX)</small>
+*[[Cooper Beebe]], [[2022 Kansas State Wildcats football team|Kansas State]] <small>('''TSN''', ESPN, FOX, The Athletic)</small>
+*'''[[Paris Johnson Jr.]]''', [[2022 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''', '''FWAA''', '''WCFF''', The Athletic)</small>
+*[[Dawand Jones]], [[2022 Ohio State Buckeyes football team|Ohio State]] <small>(CBS)</small>
+*[[Alex Palczewski]], [[2022 Illinois Fighting Illini football team|Illinois]] <small>('''TSN''')</small>
+*[[John Michael Schmitz]], [[2022 Minnesota Golden Gophers football team|Minnesota]] <small>('''AP''', '''FWAA''', CBS, USAT)</small>
+*'''[[Peter Skoronski]]''', [[2022 Northwestern Wildcats football team|Northwestern]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*'''[[O'Cyrus Torrence]]''', [[2022 Florida Gators football team|Florida]] <small>('''AP''', '''AFCA''', '''TSN''', '''WCFF''', ESPN, CBS, The Athletic, USAT)</small>
+*[[Andrew Vorhees]], [[2022 USC Trojans football team|USC]] <small>('''AP''', FOX, USAT)</small>
+
+===Center===
+*'''[[Olu Oluwatimi]]''', [[2022 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, FOX, The Athletic, USAT)</small>
+
+==Defense==
+===Defensive line===
+*[[Felix Anudike-Uzomah]], [[2022 Kansas State Wildcats football team|Kansas State]] <small>(USAT)</small>
+*'''[[Jalen Carter]]''', [[2022 Georgia Bulldogs football team|Georgia]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*'''[[Isaiah Foskey]]''', [[2022 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AFCA''', '''WCFF''')</small>
+*'''[[Calijah Kancey]]''', [[2022 Pittsburgh Panthers football team|Pittsburgh]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, FOX, CBS)</small>
+*'''[[Tuli Tuipulotu]]''', [[2022 USC Trojans football team|USC]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*[[Jared Verse]], [[2022 Florida State Seminoles football team|Florida State]] <small>(The Athletic)</small>
+*[[Tyree Wilson]], [[2022 Texas Tech Red Raiders football team|Texas Tech]] <small>('''FWAA''', The Athletic, USAT)</small>
+
+===Linebacker===
+*'''[[Will Anderson Jr.]]''', [[2022 Alabama Crimson Tide football team|Alabama]] <small>('''AP''' [Defensive Lineman], '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*'''[[Jack Campbell (American football)|Jack Campbell]]''', [[2022 Iowa Hawkeyes football team|Iowa]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, The Athletic, USAT)</small>
+*[[Jamon Dumas-Johnson]], [[2022 Georgia Bulldogs football team|Georgia]] <small>('''TSN''', ESPN)</small>
+*'''[[Ivan Pace Jr.]]''', [[2022 Cincinnati Bearcats football team|Cincinnati]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+* [[Drew Sanders]], [[2022 Arkansas Razorbacks football team|Arkansas]] <small>('''AP''')</small>
+* [[Nick Herbig]], [[2022 Wisconsin Badgers football team|Wisconsin]]  <small>(FOX)</small>
+
+===Defensive back===
+*[[Brian Branch]], [[2022 Alabama Crimson Tide football team|Alabama]] <small>(ESPN, CBS)</small>
+*'''[[Emmanuel Forbes]]''', [[2022 Mississippi State Bulldogs football team|Mississippi State]] <small>('''AFCA''', '''FWAA''', '''WCFF''', ESPN, FOX, The Athletic)</small>
+* [[Tre Tomlinson]], [[2022 TCU Horned Frogs football team|TCU]] <small>('''AP''', '''TSN''', ESPN, USAT)</small>
+*[[Kamren Kinchens]], [[2022 Miami Hurricanes football team|Miami (FL)]] <small>('''AP''', '''TSN''', ESPN, CBS, The Athletic, USAT)</small>
+*[[Kaevon Merriweather]], [[2022 Iowa Hawkeyes football team|Iowa]] <small>(CBS)</small>
+*'''[[Clark Phillips III]]''', [[2022 Utah Utes football team|Utah]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', CBS, FOX, The Athletic, USAT)</small>
+*'''[[Christopher Smith II]]''', [[2022 Georgia Bulldogs football team|Georgia]] <small>('''AP''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', USAT)</small>
+*'''[[Devon Witherspoon]]''', [[2022 Illinois Fighting Illini football team|Illinois]] <small>('''AP''', '''AFCA''', '''FWAA''', '''WCFF''', CBS, FOX, The Athletic)</small>
+* [[Joey Porter Jr.]], [[2022 Penn State Nittany Lions football team|Penn State]]  <small>(FOX)</small>
+
+==Special teams==
+===Kicker===
+*'''[[Christopher Dunn (American football)|Christopher Dunn]]''', [[2022 NC State Wolfpack football team|NC State]] <small>('''AP''', '''AFCA''', '''FWAA''', '''WCFF''', ESPN, CBS, FOX, The Athletic, USAT)</small>
+*[[Joshua Karty]], [[2022 Stanford Cardinal football team|Stanford]] <small>('''TSN''')</small>
+
+===Punter===
+*'''[[Bryce Baringer]]''', [[2022 Michigan State Spartans football team|Michigan State]] <small>('''AP''', '''AFCA''', '''WCFF''', CBS, FOX)</small>
+*[[Adam Korsak]], [[2022 Rutgers Scarlet Knights football team|Rutgers]] <small>('''TSN''', USAT)</small>
+*[[Kai Kroeger]], [[2022 South Carolina Gamecocks football team|South Carolina]] <small>(ESPN, The Athletic)</small>
+*[[Tory Taylor]], [[2022 Iowa Hawkeyes football team|Iowa]] <small>('''FWAA''')</small>
+
+===Long snapper===
+*[[Michael Vinson]], [[2022 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AFCA''')</small>
+
+===All-purpose / return specialist===
+*[[Israel Abanikanda]], [[2022 Pittsburgh Panthers football team|Pittsburgh]] <small>(ESPN, CBS)</small>
+*[[Zach Charbonnet]], [[2022 UCLA Bruins football team|UCLA]] <small>('''FWAA''')</small>
+*[[Anthony Gould (American football)|Anthony Gould]], [[2022 Oregon State Beavers football team|Oregon State]] <small>('''TSN''', ESPN, CBS)</small>
+*[[Jaylin Lucas]], [[2022 Indiana Hoosiers football team|Indiana]] <small>('''WCFF''', CBS, FOX, USAT)</small>
+*[[Will Shipley]], [[2022 Clemson Tigers football team|Clemson]] <small>(USAT)</small>
+*'''[[Deuce Vaughn]]''', [[2022 Kansas State Wildcats football team|Kansas State]] <small>('''AP''', '''AFCA''', '''TSN''', FOX, The Athletic)</small>
+* [[Derius Davis]], [[2022 TCU Horned Frogs football team|TCU]] <small>(FOX)</small>
+
+==See also==
+* [[2022 All-ACC football team]]
+* [[2022 All-Big 12 Conference football team]]
+* [[2022 All-Big Ten Conference football team]]
+* [[2022 All-Pac-12 Conference football team]]
+* [[2022 All-SEC football team]]
+
+==Footnotes==
+{{Reflist}}
+
+==References==
+*[https://www.afca.com/tennessees-jalin-hyatt-and-mississippi-states-emmanuel-forbes-headline-the-2022-afca-fbs-coaches-all-america-teams/ American Football Coaches Association All-America Team]
+*[https://apnews.com/article/college-football-ap-all-america-team-1c0078baac0857cf80a461485108405d Associated Press All-America Team]
+*[https://www.cbssports.com/college-football/news/2022-cbs-sports-all-america-team-big-ten-dominates-list-with-ohio-state-holding-most-selections/ CBS Sports All-America Team]
+*[https://www.espn.com/college-football/story/_/id/35234975/espn-2022-college-football-all-america-team ESPN All-America Team]
+* [https://www.foxsports.com/stories/college-football/fox-sports-college-football-all-americans FOX All-America Team]
+*[https://www.sportswriters.net/fwaa/news/2022/12/09/fwaa-goodyear-cotton-bowl-unveil-2022-all-america-team Football Writers Association of America All-America Team]
+*[https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2022-sporting-news/teyolxklz8bxabi1cxkdsrzj Sporting News All-America Team]
+*[https://www.nytimes.com/athletic/3976240/2022/12/07/cfb-all-american-team/ The Athletic All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2022/12/13/all-america-college-football-teams-usc-has-three-first-team/10879646002/ USA Today All-America Team]
+*[https://waltercamp.org/introducing-the-2022-walter-camp-all-america-1st-and-2nd-teams-the-nations-oldest-college-football-all-america-team-133rd-edition/ Walter Camp Football Foundation All-America Team]
+
+{{2022 NCAA Division I FBS College Football Consensus All-Americans}}
+{{College Football All-America Teams}}
+{{2022 NCAA Division I FBS football season navbox}}
+
+[[Category:2022 NCAA Division I FBS football season|All-America Team]]
+[[Category:All-America college football teams]]

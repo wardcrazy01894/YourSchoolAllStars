@@ -2270,6 +2270,20 @@
    "srOffVotes": {}
   },
   {
+   "name": "Divine Deablo",
+   "span": "2016-2020",
+   "composite": 27.8,
+   "wmtVotes": {
+    "WR": 1,
+    "DB": 4
+   },
+   "srDefVotes": {
+    "WR": 1,
+    "DB": 4
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "Cornelius White",
    "span": "1994-1996",
    "composite": 27.7,
@@ -2713,6 +2727,20 @@
    "wmtVotes": {},
    "srDefVotes": {
     "LB": 2
+   },
+   "srOffVotes": {}
+  },
+  {
+   "name": "Justin Hamilton",
+   "span": "2002-2005",
+   "composite": 20.6,
+   "wmtVotes": {
+    "WR": 2,
+    "RB": 1,
+    "DB": 1
+   },
+   "srDefVotes": {
+    "DB": 1
    },
    "srOffVotes": {}
   },
@@ -3732,6 +3760,20 @@
    "srOffVotes": {}
   },
   {
+   "name": "Deon Newsome",
+   "span": "2014-2017",
+   "composite": 4.1,
+   "wmtVotes": {
+    "WR": 2,
+    "DB": 2
+   },
+   "srDefVotes": {
+    "WR": 2,
+    "S": 2
+   },
+   "srOffVotes": {}
+  },
+  {
    "name": "DJ Harvey",
    "span": "2021-2022",
    "composite": 4.1,
@@ -3831,6 +3873,20 @@
    "composite": 3.7,
    "wmtVotes": {},
    "srDefVotes": {},
+   "srOffVotes": {}
+  },
+  {
+   "name": "Zack McCray",
+   "span": "2011-2013",
+   "composite": 3.7,
+   "wmtVotes": {
+    "DL": 2,
+    "TE": 1
+   },
+   "srDefVotes": {
+    "DL": 2,
+    "TE": 1
+   },
    "srOffVotes": {}
   },
   {

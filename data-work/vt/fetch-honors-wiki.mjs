@@ -36,13 +36,20 @@ const pages = [
 ]
 for (let y = 1994; y <= 2003; y++)
   pages.push(`${y} All-Big East Conference football team`)
-// 2020–2023 use the long-form article title; the rest the short form.
+// 2017 and 2020–2023 use the long-form article title; the rest the short form.
 for (let y = 2004; y <= 2025; y++)
   pages.push(
-    y >= 2020 && y <= 2023
+    y === 2017 || (y >= 2020 && y <= 2023)
       ? `${y} All-Atlantic Coast Conference football team`
       : `${y} All-ACC football team`,
   )
+// Per-year national All-America pages: the consensus/unanimous status for
+// VT's first-teamers, and the 2016+ All-American selections the archived
+// official list (ends 2015) can't cover.
+for (const y of [1996, 1998, 1999, 2003, 2004, 2005]) // official-list 1st-team years
+  pages.push(`${y} College Football All-America Team`)
+for (let y = 2016; y <= 2025; y++)
+  pages.push(`${y} College Football All-America Team`)
 
 const slug = (t) => t.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-')
 

@@ -1,0 +1,198 @@
+<!-- source: https://en.wikipedia.org/wiki/2018_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2018}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2018 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2018 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2017 All-America college football team|2017]] &nbsp; [[2019 All-America college football team|2019]] → 
+}}
+
+The '''2018 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]] and [[Walter Camp]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite journal|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |title=Walter Camp and His Gridiron Game |access-date=October 17, 2011 |date=October 1961 |volume=12 |issue=6 |author=Martin, John Stuart |journal=[[American Heritage (magazine)|American Heritage]] |url-status=dead |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 }}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=October 17, 2011 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> The National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled, in the 1950, the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=October 17, 2011 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, including all NCAA championship sports.
+
+The 2018 All-America college football team is composed of the following [[All-America college football team|All-America]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[Sporting News]]'' (''TSN'', from its historic name of ''The Sporting News''), ''[[Sports Illustrated]]'' (''SI''), ''[[USA Today]]'' (USAT) [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], [[Athlon Sports Communications|Athlon Sports]], and [[Fox Sports]] (FOX).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least two of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+Twenty-seven players were recognized as consensus All-Americans for 2018, eight of them being unanimous. [[List of unanimous college football All-Americans|Unanimous selections]] are followed by an asterisk (*).<ref>{{cite news|title=Alabama's Tua Tagovailoa heads 2018 consensus All-America Team|url=http://www.sportingnews.com/ca/ncaa-football/news/alabamas-tua-tagovailoa-2018-consensus-all-american-team/u4gei2bnxvig1jmptsbwhsj97|access-date=December 13, 2018|date=December 13, 2018}}</ref>
+
+{| class="wikitable sortable"
+|+2018 Consensus All-Americans<ref>{{cite web|title=Football Award Winners|publisher=NCAA|year=2023|page=17|url=http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|access-date=January 1, 2024|archive-url=https://web.archive.org/web/20231226151159/http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|archive-date=December 26, 2023|url-status=live}}</ref>
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Tua|Tagovailoa}} || Quarterback || {{sort|2|Sophomore}} || [[2018 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Darrell|Henderson}} || rowspan="2" | Running Back || {{sort|3|Junior}} || [[2018 Memphis Tigers football team|Memphis]]
+|-
+| {{sortname|Jonathan|Taylor|dab=American football}}* || {{sort|2|Sophomore}} || [[2018 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Andy|Isabella}} || rowspan="2" | Wide Receiver || {{sort|4|Senior}} || [[2018 UMass Minutemen football team|UMass]]
+|-
+| {{sortname|Jerry|Jeudy}} || {{sort|2|Sophomore}} || [[2018 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Jace|Sternberger}} || Tight End || {{sort|3|Junior}} || [[2018 Texas A&M Aggies football team|Texas A&M]]
+|-
+| {{sortname|Jonah|Williams|dab=offensive lineman}}* 
+| rowspan="5" |Offensive Line|| {{sort|3|Junior}} || [[2018 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Garrett|Bradbury}} || rowspan="5" | {{sort|4|Senior}}|| [[2018 NC State Wolfpack football team|NC State]]
+|-
+| {{sortname|Ben|Powers|dab=American football}} || [[2018 Oklahoma Sooners football team|Oklahoma]]
+|-
+| {{sortname|Mitch|Hyatt}} || [[2018 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Beau|Benzschawel}} || [[2018 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Christian|Wilkins}}* || rowspan="4" | Defensive Line || [[2018 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Quinnen|Williams}}* || rowspan="2" | {{sort|2|Junior}}|| [[2018 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Ed|Oliver|dab=American football}} || [[2018 Houston Cougars football team|Houston]]
+|-
+| {{sortname|Clelin|Ferrell}} || rowspan="2" | {{sort|4|Senior}}|| [[2018 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Josh|Allen|Josh Hines-Allen}}* || rowspan="3" | Linebacker || [[2018 Kentucky Wildcats football team|Kentucky]]
+|-
+| {{sortname|Devin|Bush|Devin Bush Jr.}} || rowspan="2" | {{sort|3|Junior}}|| [[2018 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|Devin|White}} || [[2018 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Grant|Delpit}}* || rowspan="5" | Defensive Back || {{sort|2|Sophomore}} || [[2018 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Julian|Love}} || {{sort|3|Junior}} || [[2018 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| {{sortname|Deandre|Baker}} || {{sort|4|Senior}} || [[2018 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Greedy|Williams}} || {{sort|2|Sophomore}} || [[2018 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Deionte|Thompson}} || {{sort|3|Junior}} || [[2018 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Andre|Szmyt}}* || Kicker || {{sort|1|Freshman}} || [[2018 Syracuse Orange football team|Syracuse]]
+|-
+| {{sortname|Braden|Mann}}* || Punter || {{sort|3|Junior}} || [[2018 Texas A&M Aggies football team|Texas A&M]]
+|-
+| {{sortname|Rondale|Moore}} || rowspan="2" | All-Purpose || {{sort|1|Freshman}} || [[2018 Purdue Boilermakers football team|Purdue]]
+|-
+| {{sortname|Savon|Scarver}} || {{sort|2|Sophomore}} || [[2018 Utah State Aggies football team|Utah State]]
+|}
+
+==Offense==
+===Quarterback===
+*[[Kyler Murray]], [[2018 Oklahoma Sooners football team|Oklahoma]] <small>('''AP''', '''FWAA''', SI, USAT, CFN, ESPN, CBS)</small>
+*'''[[Tua Tagovailoa]]''', [[2018 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''TSN''', '''WCFF''', Athlon)</small>
+
+===Running back===
+*'''[[Darrell Henderson]]''', [[2018 Memphis Tigers football team|Memphis]] <small>('''AFCA''', '''AP''', '''FWAA''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*'''[[Jonathan Taylor (American football)|Jonathan Taylor]]''', [[2018 Wisconsin Badgers football team|Wisconsin]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, CFN, CBS, Athlon)</small>
+*[[Travis Etienne]], [[2018 Clemson Tigers football team|Clemson]] <small>('''TSN''', ESPN)</small>
+
+===Wide receiver===
+*[[Marquise Brown]], [[2018 Oklahoma Sooners football team|Oklahoma]] <small>('''AP''', SI, USAT, ESPN, CBS)</small>
+*'''[[Andy Isabella]]''', [[2018 UMass Minutemen football team|UMass]] <small>('''AFCA''', '''FWAA''', '''WCFF''', USAT, CFN, Athlon)</small>
+*'''[[Jerry Jeudy]]''', [[2018 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''AP''', '''TSN''', '''WCFF''', SI, ESPN, CBS, Athlon)</small>
+*[[Rondale Moore]], [[2018 Purdue Boilermakers football team|Purdue]] <small>(CFN)</small>
+*[[Tylan Wallace]], [[2018 Oklahoma State Cowboys football team|Oklahoma State]] <small>('''TSN''', ESPN, Athlon)</small>
+*[[Antoine Wesley]], [[2018 Texas Tech Red Raiders football team|Texas Tech]] <small>('''FWAA''')</small>
+
+===Tight end===
+*'''[[Jace Sternberger]]''', [[2018 Texas A&M Aggies football team|Texas A&M]] <small>('''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, CFN, CBS, Athlon)</small>
+*[[T. J. Hockenson]], [[2018 Iowa Hawkeyes football team|Iowa]] <small>('''AFCA''', USAT)</small>
+
+===Offensive line===
+*'''[[Beau Benzschawel]]''', [[2018 Wisconsin Badgers football team|Wisconsin]] <small>('''AFCA''', '''AP''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*'''[[Garrett Bradbury]]''', [[2018 NC State Wolfpack football team|North Carolina State]] <small>('''AFCA''', '''AP''', '''FWAA''', '''WCFF''', USAT, Athlon)</small>
+*[[Michael Deiter]], [[2018 Wisconsin Badgers football team|Wisconsin]] <small>('''FWAA''')</small>
+*[[Lamont Gaillard]], [[2018 Georgia Bulldogs football team|Georgia]] <small>(CFN)</small>
+*'''[[Mitch Hyatt]]''', [[2018 Clemson Tigers football team|Clemson]] <small>('''AFCA''', '''AP''', '''FWAA''', '''WCFF''', CFN, Athlon)</small>
+*[[Michael Jordan (offensive lineman)|Michael Jordan]], [[2018 Ohio State Buckeyes football team|Ohio State]] <small>(SI, CBS)</small>
+*[[Sam Mustipher]], [[2018 Notre Dame Fighting Irish football team|Notre Dame]] <small>(ESPN)</small>
+*[[Ross Pierschbacher]], [[2018 Alabama Crimson Tide football team|Alabama]] <small>('''TSN''')</small>
+*'''[[Ben Powers (American football)|Ben Powers]]''', [[2018 Oklahoma Sooners football team|Oklahoma]] <small>('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', USAT, CFN)</small>
+*Terrone Prescod, [[2018 NC State Wolfpack football team|North Carolina State]] <small>('''TSN''', ESPN)</small>
+*[[Dalton Risner]], [[2018 Kansas State Wildcats football team|Kansas State]] <small>('''TSN''', USAT, ESPN, CBS, Athlon)</small>
+*[[Dru Samia]], [[2018 Oklahoma Sooners football team|Oklahoma]] <small>(SI)</small>
+*Bunchy Stallings, [[2018 Kentucky Wildcats football team|Kentucky]] <small>('''AP''')</small>
+*[[Andrew Thomas (American football)|Andrew Thomas]], [[2018 Georgia Bulldogs football team|Georgia]] <small>(SI, CBS)</small>
+*'''[[Jonah Williams (offensive lineman)|Jonah Williams]]''', [[2018 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+
+==Defense==
+===Defensive line===
+*'''[[Clelin Ferrell]]''', [[2018 Clemson Tigers football team|Clemson]] <small>('''AFCA''', '''AP''', '''TSN''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*[[Dre'Mont Jones]], [[2018 Ohio State Buckeyes football team|Ohio State]] <small>(CFN)</small>
+*[[Dexter Lawrence]], [[2018 Clemson Tigers football team|Clemson]] <small>('''AFCA''')</small>
+*'''[[Ed Oliver (American football)|Ed Oliver]]''', [[2018 Houston Cougars football team|Houston]] <small>('''FWAA''', '''WCFF''', CBS)</small>
+*[[Sutton Smith]], [[2018 Northern Illinois Huskies football team|Northern Illinois]] <small>('''AP''', SI, USAT, CFN, ESPN, Athlon)</small>
+*[[Montez Sweat]], [[2018 Mississippi State Bulldogs football team|Mississippi State]] <small>('''FWAA''', '''TSN''')</small>
+*[[Jerry Tillery]], [[2018 Notre Dame Fighting Irish football team|Notre Dame]] <small>(SI, CBS)</small>
+*'''[[Christian Wilkins]]''', [[2018 Clemson Tigers football team|Clemson]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', USAT, ESPN, Athlon)</small>
+*'''[[Quinnen Williams]]''', [[2018 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+
+===Linebacker===
+*'''[[Josh Hines-Allen|Josh Allen]]''', [[2018 Kentucky Wildcats football team|Kentucky]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*'''[[Devin Bush Jr.|Devin Bush]]''', [[2018 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, CFN, CBS)</small>
+*'''[[Devin White]]''', [[2018 LSU Tigers football team|LSU]] <small>('''AFCA''', '''AP''', '''TSN''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*[[Ben Burr-Kirven]], [[2018 Washington Huskies football team|Washington]]  <small>('''AP''', '''FWAA''', ESPN, Athlon)</small>
+
+===Defensive back===
+*'''[[Deandre Baker]]''', [[2018 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', '''AP''', '''TSN''', '''WCFF''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*[[Hamp Cheevers]], [[2018 Boston College Eagles football team|Boston College]] <small>('''FWAA''')</small>
+*'''[[Grant Delpit]]''', [[2018 LSU Tigers football team|LSU]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, CFN, CBS, Athlon)</small>
+*'''[[Julian Love]]''', [[2018 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, ESPN)</small>
+*[[Byron Murphy]], [[2018 Washington Huskies football team|Washington]] <small>(Athlon)</small>
+*[[Taylor Rapp]], [[2018 Washington Huskies football team|Washington]]  <small>(USAT, ESPN)</small>
+*'''[[Deionte Thompson]]''', [[2018 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''AP''', '''TSN''', SI, USAT, CFN, ESPN, CBS, Athlon)</small>
+*'''[[Greedy Williams]]''', [[2018 LSU Tigers football team|LSU]] <small>('''AFCA''', '''FWAA''', '''WCFF''', CFN, CBS)</small>
+
+==Special teams==
+===Kicker===
+*'''[[Andre Szmyt]]''', [[2018 Syracuse Orange football team|Syracuse]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, ESPN, CBS)</small>
+*[[Cole Tracy]], [[2018 LSU Tigers football team|LSU]] <small>(CFN, Athlon)</small>
+
+===Punter===
+*'''[[Braden Mann]]''', [[2018 Texas A&M Aggies football team|Texas A&M]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', SI, USAT, ESPN, CFN, CBS, Athlon)</small>
+
+===All-purpose / return specialist===
+*[[Greg Dortch]], [[2018 Wake Forest Demon Deacons football team|Wake Forest]] <small>('''FWAA''', SI, CBS)</small>
+*[[Mecole Hardman]], [[2018 Georgia Bulldogs football team|Georgia]] <small>(ESPN, Athlon)</small>
+*[[Darrell Henderson]], [[2018 Memphis Tigers football team|Memphis]] <small>('''TSN''')</small>
+*'''[[Rondale Moore]]''', [[2018 Purdue Boilermakers football team|Purdue]] <small>('''AP''', '''FWAA''', SI, USAT, ESPN, CBS, Athlon)</small>
+*[[Deebo Samuel]], [[2018 South Carolina Gamecocks football team|South Carolina]] <small>('''AFCA''')</small>
+*'''[[Savon Scarver]]''', [[2018 Utah State Aggies football team|Utah State]] <small>('''FWAA''', '''WCFF''', CFN, CBS, Athlon)</small>
+*[[Isaiah Wright]], [[2018 Temple Owls football team|Temple]] <small>('''TSN''')</small>
+
+==See also==
+* [[2018 All-ACC football team]]
+* [[2018 All-SEC football team]]
+* [[2018 All-Big Ten Conference football team]]
+* [[2018 All-Big 12 Conference football team]]
+* [[2018 All-Pac-12 Conference football team]]
+
+==Footnotes==
+{{reflist}}
+
+==References==
+*[https://apnews.com/fae9919b680940b9894dd530493690bb AP All-America Team]
+*{{cite web|title=2018 FWAA ALL-AMERICA TEAM UNVEILED|date=December 10, 2018|publisher=Football Writers Association of America|url=http://www.sportswriters.net/fwaa/news/2018/allamerica181210.html|url-status=deviated|archive-url=https://web.archive.org/web/20181221021735/https://www.sportswriters.net/fwaa/news/2018/allamerica181210.html|archive-date=December 21, 2018}}
+*[https://waltercamp.org/walter-camp-football-foundation-announces-2018-all-america-first-and-second-teams/ Walter Camp Football Foundation All-America Team]
+*[http://www.sportingnews.com/us/ncaa-football/news/sporting-news-2018-college-football-all-americans/9hm9yry9j6891dqv8c2i0hfmw The Sporting News All-America Team]
+*[https://www.afca.com/alabamas-tua-tagovalioa-clemsons-christian-wilkins-headline-2018-fbs-coaches-all-america-teams/ AFCA All-America Team]
+*[https://www.si.com/college-football/2018/12/05/postseason-all-america-team-roster-kyler-murray Sports Illustrated All-America Team]
+*[https://collegefootballnews.com/2018/12/2018-collegefootballnews-com-all-america-team-offense College Football News All-America Team]
+*[http://www.espn.com/college-football/story/_/id/25469328/college-football-all-america-team-led-kyler-murray ESPN All-America Team]
+*[https://www.cbssports.com/college-football/news/2018-cbs-sports-all-america-team-sec-and-alabama-lead-the-way-with-most-selections/ CBS Sports All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2018/12/11/usa-today-sports-postseason-all-america-college-football-teams/2234468002/ USA Today All-America Team]
+*[https://athlonsports.com/college-football/college-footballs-2018-postseason-all-america-team Athlon Sports All-America Team]
+
+{{2018 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2018 NCAA Division I FBS football season navbox}}
+
+[[Category:2018 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

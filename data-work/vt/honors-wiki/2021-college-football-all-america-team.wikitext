@@ -1,0 +1,192 @@
+<!-- source: https://en.wikipedia.org/wiki/2021_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2021}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2021 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2021 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2020 All-America college football team|2020]] &nbsp; [[2022 All-America college football team|2022]] →
+}}
+
+The '''2021 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite journal|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |title=Walter Camp and His Gridiron Game |access-date=October 17, 2011 |date=October 1961 |volume=12 |issue=6 |author=Martin, John Stuart |journal=[[American Heritage (magazine)|American Heritage]] |url-status=dead |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 }}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=October 17, 2011 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> The National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled, in the 1950, the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=October 17, 2011 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, including all NCAA championship sports.
+
+The 2021 College Football All-America Team is composed of the following [[College Football All-America Team|College Football All-American]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[Sporting News]]'' (''TSN'', from its historic name of ''The Sporting News''), ''[[Sports Illustrated]]'' (''SI''), ''[[The Athletic]]'' (Athletic), ''[[USA Today]]'' (USAT), [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], [[Athlon Sports Communications|Athlon Sports]], [[Phil Steele]], and [[Fox Sports]] (FOX).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least half of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+Twenty-seven players were recognized as consensus All-Americans for 2021, ten of them unanimously. [[List of unanimous All-Americans in college football|Unanimous selections]] are followed by an asterisk (*).
+
+{| class="wikitable sortable"
+|+2021 Consensus All-Americans<ref>{{cite web|title=Football Award Winners|publisher=NCAA|year=2023|page=17|url=http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|access-date=January 1, 2024|archive-url=https://web.archive.org/web/20231226151159/http://fs.ncaa.org.s3.amazonaws.com/Docs/stats/football_records/Awards.pdf|archive-date=December 26, 2023|url-status=live}}</ref>
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Bryce|Young}} || Quarterback || {{sort|2|Sophomore}} || [[2021 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Breece|Hall}} || rowspan="2"| Running back || {{sort|3|Junior}} || [[2021 Iowa State Cyclones football team|Iowa State]]
+|-
+| {{sortname|Kenneth|Walker III}}* || {{sort|3|Junior}} || [[2021 Michigan State Spartans football team|Michigan State]]
+|-
+| {{sortname|Jordan|Addison}} || rowspan="2"| Wide receiver || {{sort|2|Sophomore}} || [[2021 Pittsburgh Panthers football team|Pittsburgh]]
+|-
+| {{sortname|David|Bell|dab=American football}} || {{sort|3|Junior}} || [[2021 Purdue Boilermakers football team|Purdue]]
+|-
+| {{sortname|Trey|McBride}}* || Tight end || {{sort|4|Senior}} || [[2021 Colorado State Rams football team|Colorado State]]
+|-
+| {{sortname|Ikem|Ekwonu}}* || rowspan="4"| Offensive line || {{sort|2|Sophomore}} || [[2021 NC State Wolfpack football team|NC State]]
+|-
+| {{sortname|Darian|Kinnard}} || {{sort|4|Senior}} || [[2021 Kentucky Wildcats football team|Kentucky]]
+|-
+| {{sortname|Kenyon|Green}} || {{sort|3|Junior}} || [[2021 Texas A&M Aggies football team|Texas A&M]]
+|-
+| {{sortname|Evan|Neal}} || {{sort|3|Junior}} || [[2021 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Tyler|Linderbaum}}* || Center || {{sort|3|Junior}} || [[2021 Iowa Hawkeyes football team|Iowa]]
+|-
+| {{sortname|Jordan|Davis|dab=American football player}}* || rowspan="4"| Defensive line || {{sort|4|Senior}} || [[2021 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Aidan|Hutchinson}}* || {{sort|4|Senior}} || [[2021 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|DeMarvin|Leal}} || {{sort|3|Junior}} || [[2021 Texas A&M Aggies football team|Texas A&M]]
+|-
+| {{sortname|Kayvon|Thibodeaux}}* || {{sort|3|Junior}} || [[2021 Oregon Ducks football team|Oregon]]
+|-
+| {{sortname|Will|Anderson Jr.}}* || rowspan="3"| Linebacker || {{sort|2|Sophomore}} || [[2021 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Nakobe|Dean}}* || {{sort|3|Junior}} || [[2021 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Devin|Lloyd}} || {{sort|4|Senior}} || [[2021 Utah Utes football team|Utah]]
+|-
+| {{sortname|Sauce|Gardner}} || rowspan="4"| Defensive back || {{sort|3|Junior}} || [[2021 Cincinnati Bearcats football team|Cincinnati]]
+|-
+| {{sortname|Kyle|Hamilton}} || {{sort|3|Junior}} || [[2021 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| {{sortname|Verone|McKinley III}} || {{sort|2|Sophomore}} || [[2021 Oregon Ducks football team|Oregon]]
+|-
+| {{sortname|Jalen|Pitre}} || {{sort|4|Senior}} || [[2021 Baylor Bears football team|Baylor]]
+|-
+| {{sortname|Jake|Moody}} || Kicker || {{sort|4|Senior}} || [[2021 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|Matt|Araiza}}* || Punter || {{sort|3|Junior}} || [[2021 San Diego State Aztecs football team|San Diego State]]
+|-
+| {{sortname|Marcus|Jones|dab=cornerback}} || rowspan="3"| All-purpose/Return specialist || {{sort|4|Senior}} || [[2021 Houston Cougars football team|Houston]]
+|-
+| {{sortname|Deuce|Vaughn}} || {{sort|2|Sophomore}} || [[2021 Kansas State Wildcats football team|Kansas State]]
+|-
+|}
+
+==Offense==
+===Quarterback===
+*'''[[Bryce Young]]''', [[2021 Alabama Crimson Tide football team|Alabama]] <small>('''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT)</small>
+*[[Kenny Pickett]], [[2021 Pittsburgh Panthers football team|Pittsburgh]] <small>('''AFCA''', '''WCFF''')</small>
+
+===Running back===
+*'''[[Breece Hall]]''', [[2021 Iowa State Cyclones football team|Iowa State]] <small>('''AFCA''', '''AP''', CBS, The Athletic, USAT, '''TSN''', '''WCFF''')</small>
+*[[Sean Tucker (American football)|Sean Tucker]], [[2021 Syracuse Orange football team|Syracuse]] <small>(ESPN, '''FWAA''')</small>
+*'''[[Kenneth Walker III]]''', [[2021 Michigan State Spartans football team|Michigan State]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+
+===Wide receiver===
+*'''[[Jordan Addison]]''', [[2021 Pittsburgh Panthers football team|Pittsburgh]] <small> ('''AP''', ESPN, '''FWAA''', '''TSN''', USAT, '''WCFF''')</small>
+*'''[[David Bell (American football)|David Bell]]''', [[2021 Purdue Boilermakers football team|Purdue]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', '''WCFF''')</small>
+*[[Chris Olave]], [[2021 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''')</small>
+*[[Jameson Williams]], [[2021 Alabama Crimson Tide football team|Alabama]] <small>('''AP''', CBS, The Athletic, '''TSN''', USAT)</small>
+*[[Garrett Wilson]], [[2021 Ohio State Buckeyes football team|Ohio State]] <small>('''FWAA''', The Athletic)</small>
+
+===Tight end===
+*[[Brock Bowers]], [[2021 Georgia Bulldogs football team|Georgia]] <small>(CBS, ESPN, The Athletic, USAT)</small>
+*'''[[Trey McBride]]''', [[2021 Colorado State Rams football team|Colorado State]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''')</small>
+
+===Offensive line===
+*[[Charles Cross (American football)|Charles Cross]], [[2021 Mississippi State Bulldogs football team|Mississippi State]] <small>(ESPN, '''TSN''')</small>
+*[[Connor Galvin]], [[2021 Baylor Bears football team|Baylor]] <small>(The Athletic)</small>
+*'''[[Kenyon Green]]''', [[2021 Texas A&M Aggies football team|Texas A&M]] <small>('''AP''', ESPN, The Athletic, '''TSN''', USAT)</small>
+*[[Zion Johnson]], [[2021 Boston College Eagles football team|Boston College]] <small>('''AP''', ESPN, USAT, '''WCFF''')</small>
+*'''[[Darian Kinnard]]''', [[2021 Kentucky Wildcats football team|Kentucky]] <small>('''AFCA''', '''AP''', CBS, '''FWAA''', '''WCFF''')</small>
+*[[Thayer Munford]], [[2021 Ohio State Buckeyes football team|Ohio State]] <small>('''AFCA''')</small>
+*'''[[Evan Neal]]''', [[2021 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*'''[[Ikem Ekwonu]]''', [[2021 NC State Wolfpack football team|NC State]] <small>('''AFCA''', '''AP''', CBS, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*[[Nicholas Petit-Frere]], [[2021 Ohio State Buckeyes football team|Ohio State]] <small>(CBS, '''FWAA''')</small>
+
+===Center===
+*'''[[Tyler Linderbaum]]''', [[2021 Iowa Hawkeyes football team|Iowa]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, USAT, '''TSN''', '''WCFF''')</small>
+
+==Defense==
+===Defensive line===
+*'''[[Jordan Davis (American football player)|Jordan Davis]]''', [[2021 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*'''[[Aidan Hutchinson]]''', [[2021 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*[[Jermaine Johnson II]], [[2021 Florida State Seminoles football team|Florida State]] <small>(CBS, ESPN, USAT, '''WCFF''')</small>
+*[[George Karlaftis]], [[2021 Purdue Boilermakers football team|Purdue]] <small>('''AFCA''')</small>
+*'''[[DeMarvin Leal]]''', [[2021 Texas A&M Aggies football team|Texas A&M]] <small>('''AP''', CBS, '''TSN''', USAT)</small>
+*[[Will McDonald IV]], [[2021 Iowa State Cyclones football team|Iowa State]] <small>('''FWAA''')</small>
+*'''[[Kayvon Thibodeaux]]''', [[2021 Oregon Ducks football team|Oregon]] <small>('''AFCA''', '''AP''', '''FWAA''', The Athletic, '''TSN''', '''WCFF''')</small>
+*[[Cameron Thomas (linebacker)|Cameron Thomas]], [[2021 San Diego State Aztecs football team|San Diego State]] <small>(ESPN, The Athletic)</small>
+
+===Linebacker===
+*'''[[Will Anderson Jr.]]''', [[2021 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*[[Leo Chenal]], [[2021 Wisconsin Badgers football team|Wisconsin]] <small>('''AFCA''')</small>
+*'''[[Nakobe Dean]]''', [[2021 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*'''[[Devin Lloyd]]''', [[2021 Utah Utes football team|Utah]] <small>('''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+*[[Malcolm Rodriguez]], [[2021 Oklahoma State Cowboys football team|Oklahoma State]] <small>(ESPN)</small>
+
+===Defensive back===
+*[[Jaquan Brisker]], [[2021 Penn State Nittany Lions football team|Penn State]] <small>(CBS)</small>
+*[[Coby Bryant]], [[2021 Cincinnati Bearcats football team|Cincinnati]] <small>('''AFCA''', '''WCFF''')</small>
+*[[Lewis Cine]], [[2021 Georgia Bulldogs football team|Georgia]] <small>('''TSN''')</small>
+*'''[[Sauce Gardner]]''', [[2021 Cincinnati Bearcats football team|Cincinnati]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT)</small>
+*'''[[Kyle Hamilton]]''', [[2021 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AFCA''', '''FWAA''', The Athletic, '''WCFF''')</small>
+*[[Marcus Jones (cornerback)|Marcus Jones]], [[2021 Houston Cougars football team|Houston]] <small>('''AP''')</small>
+*[[Steven Jones Jr.]], [[2021 Appalachian State Mountaineers football team|Appalachian State]] <small>('''FWAA''')</small>
+*[[Roger McCreary]], [[2021 Auburn Tigers football team|Auburn]] <small>('''AP''', ESPN, The Athletic, USAT)</small>
+*'''[[Verone McKinley III]]''', [[2021 Oregon Ducks football team|Oregon]] <small>('''AP''', CBS, ESPN, '''TSN''', USAT, '''WCFF''')</small>
+*[[Riley Moss]], [[2021 Iowa Hawkeyes football team|Iowa]] <small>(CBS, '''TSN''')</small>
+*'''[[Jalen Pitre]]''', [[2021 Baylor Bears football team|Baylor]] <small>('''AFCA''', '''AP''', ESPN, '''FWAA''', The Athletic, USAT, '''WCFF''')</small>
+
+==Special teams==
+===Kicker===
+*[[Harrison Mevis]], [[2021 Missouri Tigers football team|Missouri]] <small>(The Athletic, '''TSN''')</small>
+*'''[[Jake Moody]]''', [[2021 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''AP''', CBS, '''WCFF''')</small>
+*Nate Needham, [[2021 Bowling Green Falcons football team|Bowling Green]] <small>('''FWAA''')</small>
+*Noah Ruggles, [[2021 Ohio State Buckeyes football team|Ohio State]] <small>(ESPN)</small>
+*[[Caleb Shudak]], [[2021 Iowa Hawkeyes football team|Iowa]] <small>(USAT)</small>
+
+===Punter===
+*'''[[Matt Araiza]]''', [[2021 San Diego State Aztecs football team|San Diego State]] <small>('''AFCA''', '''AP''', CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT, '''WCFF''')</small>
+
+===Long snapper===
+*[[Cal Adomitis]], [[2021 Pittsburgh Panthers football team|Pittsburgh]] <small>('''AFCA''')</small>
+
+===All-purpose / return specialist===
+*[[Brian Battie]], [[2021 South Florida Bulls football team|South Florida]] <small>('''FWAA''', '''WCFF''')</small>
+*[[Britain Covey]], [[2021 Utah Utes football team|Utah]] <small>(CBS)</small>
+*'''[[Marcus Jones (cornerback)|Marcus Jones]]''', [[2021 Houston Cougars football team|Houston]] <small>(CBS, ESPN, '''FWAA''', The Athletic, '''TSN''', USAT)</small>
+*[[Zonovan Knight]], [[2021 NC State Wolfpack football team|NC State]] <small>(CBS)</small>
+*[[Jayden Reed]], [[2021 Michigan State Spartans football team|Michigan State]] <small>('''AFCA''')</small>
+*'''[[Deuce Vaughn]]''', [[2021 Kansas State Wildcats football team|Kansas State]] <small>('''AP''', '''TSN''')</small>
+*[[Jameson Williams]], [[2021 Alabama Crimson Tide football team|Alabama]] <small>(ESPN)</small>
+
+==Footnotes==
+{{Reflist}}
+
+==References==
+*[https://www.afca.com/iowa-states-breece-hall-and-alabamas-will-anderson-jr-headline-the-2021-afca-fbs-coaches-all-america-teams/ American Football Coaches Association All-America Team]
+*[https://apnews.com/article/college-football-sports-ohio-alabama-crimson-tide-football-alabama-cfc6067ea8e0e269617f20fee772c9c9 Associated Press All-America Team]
+*[https://www.cbssports.com/college-football/news/2021-cbs-sports-all-america-team-sec-big-ten-dominate-list-combining-for-half-of-all-selections/ CBS Sports All-America Team]
+*[https://www.espn.com/college-football/story/_/id/32814347/the-2021-college-football-postseason-all-america-team ESPN All-America Team]
+*[https://www.sportswriters.net/fwaa/news/2021/allamerica211210.html Football Writers Association of America All-America Team]
+*[https://www.nytimes.com/athletic/3003597/2021/12/08/college-football-all-america-teams-2021-aidan-hutchinson-will-anderson-kenneth-walker-bryce-young-lead-seasons-best/ The Athletic All-America Team]
+*[https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2021-sporting-news/wus7c8l8t5241pciwn30qo7h9/ The Sporting News 2021 College Football All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2021/12/10/bryce-young-kenny-pickett-all-america-team/6433515001/ USA Today All-America Team]
+*[https://waltercamp.org/2021-walter-camp-all-america-teams-presented-by-777-partners/ Walter Camp Football Foundation All-America Team]
+
+{{2021 NCAA Division I FBS College Football Consensus All-Americans}}
+{{College Football All-America Teams}}
+{{2021 NCAA Division I FBS football season navbox}}
+
+[[Category:2021 NCAA Division I FBS football season|All-America Team]]
+[[Category:All-America college football teams]]

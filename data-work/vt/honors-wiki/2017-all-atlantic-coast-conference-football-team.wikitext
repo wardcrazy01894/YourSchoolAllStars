@@ -1,0 +1,4755 @@
+<!-- source: https://en.wikipedia.org/wiki/2017_All-Atlantic_Coast_Conference_football_team -->
+{{Use mdy dates|date=August 2023}}
+{{Infobox sports season
+| title             = 2017 ACC Football season
+| color             = #013ca6
+| color text        = #ffffff
+| league            = [[NCAA Division I Football Bowl Subdivision]]
+| sport             = [[College football|Football]]
+| logo              = Atlantic Coast Conference logo.svg
+| logo_size         = 200px
+| caption           =
+| duration          = August 31, 2017 to January 1, 2018
+| no_of_teams       = 14
+| draft             = 2018 NFL Draft
+| draft_link        = 2018 NFL Draft
+| top_pick          = [[Bradley Chubb]] (NC State)
+| picked_by         = [[Denver Broncos]], 5th overall
+| season            = Regular Season
+| season_champs      =
+| MVP               = [[Lamar Jackson]]
+| MVP_link          = Atlantic Coast Conference football individual awards
+| top_scorer        = Mike Weaver & [[Lamar Jackson]] (102 points)
+| top_scorer_link   =
+| conf1             = Atlantic
+| conf1_link        = ACC Atlantic Division
+| conf1_champ       = Clemson Tigers
+| conf1_runner-up   = NC State Wolfpack
+| conf2             = Coastal
+| conf2_link        = ACC Coastal Division
+| conf2_champ       = Miami Hurricanes 
+| conf2_runner-up   = Virginia Tech Hokies
+| playoffs_MVP      =
+| playoffs_MVP_link =
+| finals            = ACC Championship Game
+| finals_link       = 2017 ACC Championship Game
+| finals_champ      = Clemson
+| finals_runner-up  = Miami
+| finals_MVP        = [[Kelly Bryant (American football)|Kelly Bryant]] - QB, Clemson
+| finals_MVP_link   = 
+| prevseason_link   = 2016 Atlantic Coast Conference football season
+| prevseason_year   = 2016
+| nextseason_link   = 2018 Atlantic Coast Conference football season
+| nextseason_year   = 2018
+}}
+{{2017 ACC football standings}}
+The '''2017 Atlantic Coast Conference football season''' was the 65th season of [[College Football]] play for the [[Atlantic Coast Conference]] (ACC). It was played from August 31, 2017, to January 1, 2018. The [[Atlantic Coast Conference]] consisted of 14 members in two divisions. It was part of the [[2017 NCAA Division I FBS football season]].  The entire 2017 schedule was released on January 24, 2017.<ref>{{cite web|url=http://www.cbssports.com/college-football/news/2017-acc-football-schedule-notes-big-games-that-will-decide-the-conference/|title=2017 ACC football schedule notes big games that will decide the conference|date=January 24, 2017|author=Chip Patterson|publisher=[[CBS Sports]]|access-date=January 26, 2017}}</ref>  The defending ACC Champions were the [[Clemson Tigers]].  The Atlantic Division regular season champions were Clemson, and the Coastal Division regular season champions were Miami. The [[2017 ACC Championship Game]] was played on December 2, 2017, in [[Charlotte, North Carolina]]. Clemson defeated Miami by a score of 38–3.
+
+==Preseason==
+
+===ACC Media days===
+====Preseason Poll====
+The 2017 ACC Preseason Poll was announced following the ACC Football Kickoff meetings in [[Charlotte, North Carolina]] on July 13–14. Florida State and Miami were selected to win the Atlantic Division and Coastal Division, respectively. Lamar Jackson of Louisville was voted the Preseason ACC Player of the Year.  It was voted on by 167 media members, all of which were in attendance for the ACC Football Kickoff.<ref>{{cite web|title=Florida State Leads 2017 ACC Football Preseason Poll|url=http://www.theacc.com/news/florida-state-leads-acc-football-preseason-poll-07-17-2017|publisher=TheACC.com|date=17 July 2017|access-date=17 July 2017|archive-url=https://web.archive.org/web/20170721205203/http://www.theacc.com/news/florida-state-leads-acc-football-preseason-poll-07-17-2017|archive-date=2017-07-21|url-status=dead}}</ref>
+
+'''ACC Championship Votes'''
+
+# [[2017 Florida State Seminoles football team|Florida State]] – 118
+# [[2017 Clemson Tigers football team|Clemson]] – 35
+# [[2017 Louisville Cardinals football team|Louisville]] – 7
+# [[2017 Virginia Tech Hokies football team|Virginia Tech]] – 3
+# [[2017 Miami Hurricanes football team|Miami]] – 3
+# [[2017 Duke Blue Devils football team|Duke]] – 1
+
+{{Col-begin}}{{Col-1-of-2}}'''Atlantic Division'''
+# [[2017 Florida State Seminoles football team|Florida State]] – 1,108 (121 First place votes) 
+# [[2017 Clemson Tigers football team|Clemson]] – 1,007 (37) 
+# [[2017 Louisville Cardinals football team|Louisville]] – 843 (9) 
+# [[2017 NC State Wolfpack football team|NC State]] – 658
+# [[2017 Wake Forest Demon Deacons football team|Wake Forest]] – 415
+# [[2017 Syracuse Orange football team|Syracuse]] – 362
+# [[2017 Boston College Eagles football team|Boston College]] – 283
+
+{{Col-2-of-2}}'''Coastal Division'''
+# [[2017 Miami Hurricanes football team|Miami]] – 1,065 (103)
+# [[2017 Virginia Tech Hokies football team|Virginia Tech]] – 932 (40)
+# [[2017 Georgia Tech Yellow Jackets football team|Georgia Tech]] – 708 (9)
+# [[2017 Pittsburgh Panthers football team|Pittsburgh]] – 673 (7)
+# [[2017 North Carolina Tar Heels football team|North Carolina]] – 606 (4)
+# [[2017 Duke Blue Devils football team|Duke]] – 473 (4)
+# [[2017 Virginia Cavaliers football team|Virginia]] – 219{{Col-end}}
+
+====Preseason ACC Player of the year====
+
+# [[Lamar Jackson]], LOU – 113
+# [[Deondre Francois]], FSU – 23
+# [[Christian Wilkins]], CLEM – 11
+# [[Harold Landry]], BC – 8
+# [[Jaylen Samuels]], NCST – 7
+# [[Eric Dungey]], CUSE–- 2
+# [[Shaquille Quarterman]] MIA, [[Ahmmon Richards]] MIA, Daniel Jones, DUKE  – 1
+
+====Preseason All Conference Teams====
+
+=====Offense=====
+{| class="wikitable"
+! Position !! Player !! Class !! School
+|-
+! rowspan="3" | [[Wide receiver]]
+| [[Deon Cain]]
+| Junior
+! | Clemson
+|-
+| [[Ahmmon Richards]]
+| Sophomore
+!| Miami
+|-
+| [[Cam Phillips]]
+| Senior
+!| Virginia Tech
+|-
+! rowspan="1" | [[Tight end]]
+| Cam Serigne
+| Senior [[File:Redshirt.svg|10px|Redshirt]]
+!| Wake Forest
+|-
+! rowspan="2" | [[Offensive tackle|Tackle]]
+| [[Mitch Hyatt]]
+| Junior
+! | Clemson
+|-
+| [[Brian O'Neill (American football)|Brian O'Neill]]
+| Junior [[File:Redshirt.svg|10px|Redshirt]]
+!| Pittsburgh
+|-
+! rowspan="2" | [[Guard (American football)|Guard]]
+| Tyrone Crowder
+| Senior [[File:Redshirt.svg|10px|Redshirt]]
+! | Clemson
+|-
+| [[Wyatt Teller]]
+| Senior [[File:Redshirt.svg|10px|Redshirt]]
+!| Virginia Tech
+|-
+! rowspan="1" | [[Center (American football)|Center]]
+| Alec Eberle
+| Junior [[File:Redshirt.svg|10px|Redshirt]]
+!| Florida State
+|-
+! rowspan="1" | [[Quarterback]]
+| [[Lamar Jackson]]
+| Junior
+!| Louisville
+|-
+! rowspan="2" | [[Running back]]
+| [[Mark Walton (American football)|Mark Walton]]
+| Junior
+!| Miami
+|-
+| Dedrick Mills
+| Sophomore
+!| Georgia Tech
+|}
+
+=====Defense=====
+{| class="wikitable"
+! Position !! Player !! Class !! School
+|-
+! rowspan="2" | [[Defensive end]]
+| [[Harold Landry]]
+| Senior
+!| Boston College
+|-
+| [[Bradley Chubb]]
+| Senior
+!| NC State
+|-
+! rowspan="2" | [[Defensive tackle]]
+| [[Dexter Lawrence]]
+| Sophomore
+! | Clemson
+|-
+| [[Christian Wilkins]]
+| Junior
+! | Clemson
+|-
+! rowspan="3" | [[Linebacker]]
+| [[Micah Kiser]]
+| Senior [[File:Redshirt.svg|10px|Redshirt]]
+!| Virginia
+|-
+| [[Shaquille Quarterman]]
+| Sophomore
+!| Miami
+|-
+| [[Tremaine Edmunds]]
+| Junior
+!| Virginia Tech
+|-
+! rowspan="2" | [[Cornerback]]
+| [[Tarvarus McFadden]]
+| Junior
+!| Florida State
+|-
+| [[Jaire Alexander]]
+| Junior
+!| Louisville
+|-
+! rowspan="2" | [[Safety (American football position)|Safety]]
+| [[Derwin James]]
+| Sophomore [[File:Redshirt.svg|10px|Redshirt]]
+!| Florida State
+|-
+| [[Quin Blanding]]
+| Senior
+!| Virginia
+|}
+
+=====Specialist=====
+{| class="wikitable"
+! Position !! Player !! Class !! School
+|-
+! rowspan="1" | [[Placekicker]]
+| [[Michael Badgley]]
+| Junior
+!| Miami
+|-
+! rowspan="1" | [[Punter (American football)|Punter]]
+| [[A. J. Cole III]]
+| Junior
+!| NC State
+|-
+! rowspan="1" | [[Kickoff returner|Specialist]]
+| [[Quadree Henderson]]
+| Junior
+!| Pittsburgh
+|}
+
+'''Source''':<ref>{{cite web|url=http://www.theacc.com/news/2017-all-acc-preseason-football-team-announced-07-19-2017|title=2017 All-ACC Preseason Football Team Announced|website=theacc.com|author=Timothy Easley|date=July 19, 2017|access-date=July 19, 2017|archive-url=https://web.archive.org/web/20170721214128/http://www.theacc.com/news/2017-all-acc-preseason-football-team-announced-07-19-2017|archive-date=2017-07-21|url-status=dead}}</ref>
+
+===Recruiting classes===
+{| class="wikitable sortable"
+|+ Rankings
+! Team
+! ESPN<ref>{{cite web|url=http://insider.espn.com/college-sports/football/recruiting/classrankings?class=2017 |title=Football Class Rankings - ESPN |publisher=[[ESPN]] |date=2017-02-01|access-date=2017-07-31}}</ref>
+! Rivals<ref>{{cite web|url=https://n.rivals.com/team_rankings/2017/all-teams/football |title=Yahoo Sports: Rivals.com 2017 Team Recruiting Rankings |publisher=n.rivals.com |access-date=2017-07-31}}</ref>
+! Scout<ref>{{cite web|url = http://www.scout.com/Season/2017-Football/ScoutTeamRankings|title = 2017 Football Recruiting Team Rankings|access-date =2017-07-31 |website = scout.com}}</ref>
+! 24/7<ref>{{cite web|url=https://247sports.com/Season/2017-Football/CompositeTeamRankings |title=2017 Football Recruiting Team Rankings |publisher=247sports.com |date= |access-date=2015-04-04}}</ref>
+!Signees
+|- style="text-align:center;" 
+| | '''Boston College'''
+| style="text-align:center; background:white" | 63
+| style="text-align:center; background:white" | 66
+| style="text-align:center; background:white" | 68
+| style="text-align:center; background:white" | 66
+| style="text-align:center; background:white" | 21
+|- style="text-align:center;" 
+| | '''Clemson'''
+| style="text-align:center; background:white" | 10
+| style="text-align:center; background:white" | 22
+| style="text-align:center; background:white" | 26
+| style="text-align:center; background:white" | 16
+| style="text-align:center; background:white" | 14
+|- style="text-align:center;" 
+| | '''Duke'''
+| style="text-align:center; background:white" | 34
+| style="text-align:center; background:white" | 46
+| style="text-align:center; background:white" | 55
+| style="text-align:center; background:white" | 48
+| style="text-align:center; background:white" | 22
+|- style="text-align:center;" 
+| | '''Florida State'''
+| style="text-align:center; background:white" | 4
+| style="text-align:center; background:white" | 5
+| style="text-align:center; background:white" | 8
+| style="text-align:center; background:white" | 6
+| style="text-align:center; background:white" | 23
+|- style="text-align:center;" 
+| | '''Georgia Tech'''
+| style="text-align:center; background:white" | 43
+| style="text-align:center; background:white" | 41
+| style="text-align:center; background:white" | 52
+| style="text-align:center; background:white" | 47
+| style="text-align:center; background:white" | 24
+|- style="text-align:center;" 
+| | '''Louisville'''
+| style="text-align:center; background:white" | 29
+| style="text-align:center; background:white" | 29
+| style="text-align:center; background:white" | 31
+| style="text-align:center; background:white" | 33
+| style="text-align:center; background:white" | 24
+|- style="text-align:center;" 
+| | '''Miami'''
+| style="text-align:center; background:white" | 12
+| style="text-align:center; background:white" | 11
+| style="text-align:center; background:white" | 13
+| style="text-align:center; background:white" | 13
+| style="text-align:center; background:white" | 24
+|- style="text-align:center;" 
+| | '''North Carolina'''
+| style="text-align:center; background:white" | 28
+| style="text-align:center; background:white" | 30
+| style="text-align:center; background:white" | 32
+| style="text-align:center; background:white" | 30
+| style="text-align:center; background:white" | 20
+|- style="text-align:center;" 
+| | '''NC State'''
+| style="text-align:center; background:white" | 51
+| style="text-align:center; background:white" | 53
+| style="text-align:center; background:white" | 61
+| style="text-align:center; background:white" | 52
+| style="text-align:center; background:white" | 20
+|- style="text-align:center;" 
+| | '''Pittsburgh'''
+| style="text-align:center; background:white" | 31
+| style="text-align:center; background:white" | 38
+| style="text-align:center; background:white" | 43
+| style="text-align:center; background:white" | 37
+| style="text-align:center; background:white" | 24
+|- style="text-align:center;" 
+| | '''Syracuse'''
+| style="text-align:center; background:white" | 49
+| style="text-align:center; background:white" | 57
+| style="text-align:center; background:white" | 54
+| style="text-align:center; background:white" | 54
+| style="text-align:center; background:white" | 24
+|- style="text-align:center;" 
+| | '''Virginia'''
+| style="text-align:center; background:white" | 48
+| style="text-align:center; background:white" | 57
+| style="text-align:center; background:white" | 57
+| style="text-align:center; background:white" | 54
+| style="text-align:center; background:white" | 25
+|- style="text-align:center;" 
+| | '''Virginia Tech'''
+| style="text-align:center; background:white" | 25
+| style="text-align:center; background:white" | 28
+| style="text-align:center; background:white" | 18
+| style="text-align:center; background:white" | 25
+| style="text-align:center; background:white" | 26
+|- style="text-align:center;" 
+| | '''Wake Forest'''
+| style="text-align:center; background:white" | 65
+| style="text-align:center; background:white" | 74
+| style="text-align:center; background:white" | 73
+| style="text-align:center; background:white" | 67
+| style="text-align:center; background:white" | 20
+|}
+
+==Coaches==
+
+''Note:'' Stats shown are before the beginning of the season
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! width="110" | Team
+! Head coach
+! Years at school
+! Overall record
+! Record at school
+! ACC record
+|-
+!| Boston College
+| [[Steve Addazio]]
+| 5
+| 34-29
+| 21-18
+| 10-22
+|-
+!| Clemson
+| [[Dabo Swinney]]
+| 10
+| 75-35
+| 75-35
+| 55-15
+|-
+!| Duke
+| [[David Cutcliffe]]
+| 10
+| 88-85
+| 44-56
+| 25-47
+|-
+!| Florida State
+| [[Jimbo Fisher]]
+| 7
+| 68-14
+| 68-14
+| 45-11
+|-
+!| Georgia Tech
+| [[Paul Johnson (American football coach, born 1957)|Paul Johnson]]
+| 10
+| 175-78
+| 67-39
+| 42-30
+|-
+!| Louisville
+| [[Bobby Petrino]]
+| 8
+| 113-43
+| 71-22
+| 19-7
+|-
+!| Miami
+| [[Mark Richt]]
+| 2
+| 154-55
+| 9-4
+| 5-3
+|-
+!| North Carolina
+| [[Larry Fedora]]
+| 6
+| 63-41
+| 29-22
+| 26-14
+|-
+!| NC State
+| [[Dave Doeren]]
+| 5
+| 41-24
+| 18-20
+| 9-23
+|-
+!| Pittsburgh
+| [[Pat Narduzzi]]
+| 3
+| 16-10
+| 16-10
+| 11-5
+|-
+!| Syracuse
+| [[Dino Babers]]
+| 2
+| 41-20
+| 4-8
+| 2-6
+|-
+!| Virginia
+| [[Bronco Mendenhall]]
+| 2
+| 101-53
+| 2-10
+| 1-7
+|-
+!| Virginia Tech
+| [[Justin Fuente]]
+| 2
+| 36-27
+| 10-4
+| 6-2
+|-
+!| Wake Forest
+| [[Dave Clawson]]
+| 4
+| 100-94
+| 10-15
+| 5-19
+|}
+
+==Rankings==
+{{See also|2017 NCAA Division I FBS football rankings}}
+
+{| align=right style="font-size:90%; border:1px solid #aaaaaa; white-space:nowrap; background:#eeeeee;" 
+|+ '''Legend'''
+|-
+| style="background:#d8ffeb; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| rowspan=5 | &nbsp;
+| Improvement in ranking
+|-
+| style="background:#ffe6e6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Drop in ranking
+|-
+| style="background:#ffffe6; width:20px; border:1px solid #aaaaaa;" | &nbsp;
+| Not ranked previous week
+|-
+| align=center style="width:20px; border:1px solid #aaaaaa; background:white;" | RV
+| Received votes but were not ranked in Top 25 of poll
+|-
+<!-- | т
+| Tied with team above or below also with this symbol
+|- 
+-->
+|}
+
+{| class="wikitable" style="white-space:nowrap;font-size:90%;"
+|- 
+! colspan=2 style="background:white; border-top-style:hidden; border-left-style:hidden;" |&nbsp; !! Pre !! Wk<br>1 !! Wk<br>2 !! Wk<br>3 !! Wk<br>4 !! Wk<br>5 !! Wk<br>6 !! Wk<br>7 !! Wk<br>8 !! Wk<br>9 !! Wk<br>10 !! Wk<br>11 !! Wk<br>12 !! Wk<br>13 !! Wk<br>14 !!Final
+|- "text-align:center;"
+! rowspan=3 |'''Boston College'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Clemson'''
+! AP
+| style="background:#FFF;" | 5
+| style="background:#d8ffeb;" | 3
+| style="background:#FFF;" | 3 (1)
+| style="background:#d8ffeb;" | 2 (15) 
+| style="background:#FFF;" | 2 (8)
+| style="background:#FFF;" | 2 (17)
+| style="background:#FFF;" | 2 (18)
+| style="background:#ffe6e6;" | 7
+| style="background:#FFF;" | 7
+| style="background:#d8ffeb;" | 6
+| style="background:#d8ffeb;" | 4
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#d8ffeb;" | 1 (27)
+| style="background:#FFF;" | 1 (43) 
+| style="background:#ffe6e6;" | 4
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 5 (7)
+| style="background:#d8ffeb;" | 3 (3)
+| style="background:#d8ffeb;" | 2 (2) 
+| style="background:#FFF;" | 2 (6)
+| style="background:#FFF;" | 2 (4)
+| style="background:#FFF;" | 2 (6)
+| style="background:#FFF;" | 2 (8)
+| style="background:#ffe6e6;" | 8
+| style="background:#d8ffeb;" | 7
+| style="background:#d8ffeb;" | 5 
+| style="background:#d8ffeb;" | 4
+| style="background:#d8ffeb;" | 3
+| style="background:#FFF;" | 3
+| style="background:#d8ffeb;" | 1 (25)
+| style="background:#FFF;" | 1 (49) 
+| style="background:#ffe6e6;" | 4
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 4
+| style="background:#FFF;" | 4
+| style="background:#d8ffeb;" | 2
+| style="background:#ffe6e6;" | 3
+| style="background:#d8ffeb;" | 1
+| style="background:#FFF;" | 1
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Duke'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Florida State'''
+! AP
+| style="background:#FFF;" | 3 (4)
+| style="background:#ffe6e6;" | 10
+| style="background:#ffe6e6;" | 11
+| style="background:#ffe6e6;" | 12
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 3 (4)
+| style="background:#ffe6e6;" | 9 
+| style="background:#ffe6e6;" | 10
+| style="background:#ffe6e6;" | 11
+| style="background:#ffe6e6;" | 25
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Georgia Tech'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" |
+| style="background:#fff;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" |
+|- style="text-align:center;"
+! rowspan=3 |'''Louisville'''
+! AP
+| style="background:#FFF;" | 16 
+| style="background:#ffe6e6;" | 17
+| style="background:#d8ffeb;" | 14
+| style="background:#ffe6e6;" | 19
+| style="background:#d8ffeb;" | 17
+| style="background:#FFF;" | 17
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#ffe6e6;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 17
+| style="background:#d8ffeb;" | 16
+| style="background:#d8ffeb;" | 14
+| style="background:#ffe6e6;" | 20
+| style="background:#d8ffeb;" | 18
+| style="background:#d8ffeb;" | 17
+| style="background:#ffe6e6;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV 
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Miami'''
+! AP
+| style="background:#FFF;" | 18
+| style="background:#d8ffeb;" | 16
+| style="background:#ffe6e6;" | 17
+| style="background:#d8ffeb;" | 14
+| style="background:#FFF;" | 14
+| style="background:#d8ffeb;" | 13
+| style="background:#d8ffeb;" | 11
+| style="background:#d8ffeb;" | 8
+| style="background:#fff;" | 8
+| style="background:#ffe6e6;" | 9 
+| style="background:#d8ffeb;" | 7
+| style="background:#d8ffeb;" | 2
+| style="background:#FFF;" | 2
+| style="background:#ffe6e6;" | 7 
+| style="background:#ffe6e6;" | 11 
+| style="background:#ffe6e6;" | 13
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 18
+| style="background:#d8ffeb;" | 17
+| style="background:#d8ffeb;" | 15
+| style="background:#d8ffeb;" | 14
+| style="background:#d8ffeb;" | 13
+| style="background:#d8ffeb;" | 12
+| style="background:#d8ffeb;" | 10 
+| style="background:#d8ffeb;" | 7
+| style="background:#ffe6e6;" | 8
+| style="background:#d8ffeb;" | 6 
+| style="background:#FFF;" | 6
+| style="background:#d8ffeb;" | 2
+| style="background:#FFF;" | 2
+| style="background:#ffe6e6;" | 7
+| style="background:#ffe6e6;" | 11 
+| style="background:#ffe6e6;" | 13
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 10
+| style="background:#d8ffeb;" | 7
+| style="background:#d8ffeb;" | 3
+| style="background:#d8ffeb;" | 2
+| style="background:#ffe6e6;" | 7
+| style="background:#ffe6e6;" | 10
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''North Carolina'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''NC State'''
+! AP
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#d8ffeb;" | 24
+| style="background:#d8ffeb;" | 20
+| style="background:#d8ffeb;" | 16
+| style="background:#d8ffeb;" | 14
+| style="background:#ffe6e6;" | 20 
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 25
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#FFF;" | RV 
+| style="background:#d8ffeb;" | 23
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#d8ffeb;" | 24
+| style="background:#d8ffeb;" | 20
+| style="background:#d8ffeb;" | 17
+| style="background:#d8ffeb;" | 15
+| style="background:#ffe6e6;" | 19 
+| style="background:#ffe6e6;" | 24
+| style="background:#d8ffeb;" | 22
+| style="background:#ffe6e6;" | RV
+| style="background:#FFF;" | RV 
+| style="background:#FFF;" | RV 
+| style="background:#d8ffeb;" | 23
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 20
+| style="background:#ffe6e6;" | 23
+| style="background:#d8ffeb;" | 19
+| style="background:#ffe6e6;" |
+| style="background:#ffffe6;" | 24
+| style="background:#FFF;" | 24
+| style="background:#999;" |
+|- style="text-align:center;"
+! rowspan=3 |'''Pittsburgh'''
+! AP
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Syracuse'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" |
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV 
+| style="background:#FFF;" | RV 
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV 
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Virginia Tech'''
+! AP
+| style="background:#FFF;" | 21
+| style="background:#d8ffeb;" | 18
+| style="background:#d8ffeb;" | 16
+| style="background:#d8ffeb;" | 13
+| style="background:#d8ffeb;" | 12
+| style="background:#ffe6e6;" | 16
+| style="background:#d8ffeb;" | 15
+| style="background:#d8ffeb;" | 14
+| style="background:#d8ffeb;" | 13
+| style="background:#FFF;" | 13 
+| style="background:#ffe6e6;" | 17
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 24
+| style="background:#d8ffeb;" | 22 
+| style="background:#FFF;" | 22 
+| style="background:#ffe6e6;" | 24
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 22
+| style="background:#d8ffeb;" | 18
+| style="background:#d8ffeb;" | 16
+| style="background:#d8ffeb;" | 13
+| style="background:#d8ffeb;" | 12
+| style="background:#ffe6e6;" | 19
+| style="background:#d8ffeb;" | 17
+| style="background:#d8ffeb;" | 14
+| style="background:#d8ffeb;" | 13
+| style="background:#FFF;" | 13 
+| style="background:#ffe6e6;" | 17
+| style="background:#ffe6e6;" | RV
+| style="background:#d8ffeb;" | 25
+| style="background:#d8ffeb;" | 21 
+| style="background:#ffe6e6;" | 22 
+| style="background:#ffe6e6;" | 25
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | 13
+| style="background:#ffe6e6;" | 17
+| style="background:#ffe6e6;" | 
+| style="background:#d8ffeb;" | 25
+| style="background:#d8ffeb;" | 22
+| style="background:#FFF;" | 22
+| style="background:#999;" | 
+|- style="text-align:center;"
+! rowspan=3 |'''Wake Forest'''
+! AP
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#ffe6e6;" |
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+|- style="text-align:center;"
+!C
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV
+| style="background:#FFF;" | RV
+| style="background:#ffe6e6;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#ffffe6;" | RV 
+| style="background:#ffe6e6;" |
+| style="background:#FFF;" |
+| style="background:#ffffe6;" | RV
+|- style="text-align:center;"
+!CFP
+| colspan=9 style="background:#999;" align=center| Not released
+| style="background:#FFF;" | &nbsp;
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#FFF;" |
+| style="background:#FFF;" | 
+| style="background:#FFF;" | 
+| style="background:#999;" | 
+|}
+
+==Schedule==
+{| class="wikitable"
+|-
+!Index to colors and formatting
+|- style="background:#cfc;"
+|ACC member won
+|- style="background:#fcc;"
+|ACC member lost
+|-
+|ACC teams in '''bold'''
+|}
+
+† denotes Homecoming game
+
+===Regular season===
+====Week 1====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = August 31
+| time          = 7:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Presbyterian Blue Hose football team|Presbyterian]]
+| home_rank     = 
+| home_team     = '''[[2017 Wake Forest Demon Deacons football team|Wake Forest]]'''
+| site_stadium  = [[BB&T Field]]
+| site_cityst   = [[Winston-Salem, NC]]
+| gamename      = 
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 51-7
+| overtime      = 
+| attend        = 22,643
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 1
+| time          = 7:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Central Connecticut Blue Devils football team|Central Connecticut]]
+| home_rank     = 
+| home_team     = '''[[2017 Syracuse Orange football team|Syracuse]]'''
+| site_stadium  = [[Carrier Dome]]
+| site_cityst   = [[Syracuse, NY]]
+| gamename      = 
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 50-7
+| overtime      = 
+| attend        = 30,273
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 1
+| time          = 9:30 p.m.
+| visiting_rank = 
+| visiting_team = '''[[2017 Boston College Eagles football team|Boston College]]'''
+| home_rank     = 
+| home_team     = [[2017 Northern Illinois Huskies football team|Northern Illinois]]
+| site_stadium  = [[Huskie Stadium]]
+| site_cityst   = [[DeKalb, Illinois|DeKalb, IL]]
+| tv            = [[CBS Sports Network|CBSSN]]
+| score         = 23-20
+| overtime      = 
+| attend        = 16,421
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Kent State Golden Flashes football team|Kent State]]
+| home_rank     = 5
+| home_team     = '''[[2017 Clemson Tigers football team|Clemson]]'''
+| site_stadium  = [[Memorial Stadium, Clemson|Memorial Stadium]]
+| site_cityst   = [[Clemson, South Carolina|Clemson, SC]]
+| tv            = [[ESPN College Football|ESPN]]
+| score         = 56-3
+| overtime      = 
+| attend        = 80,121
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 2
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 California Golden Bears football team|California]]
+| home_rank     = 
+| home_team     = '''[[2017 North Carolina Tar Heels football team|North Carolina]]'''
+| site_stadium  = [[Kenan Memorial Stadium]]
+| site_cityst   = [[Chapel Hill, NC]]
+| gamename      = 
+| tv            = [[ACC Network (Raycom Sports)|ACCN]]
+| score         = 30-35
+| overtime      = 
+| attend        = 49,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Bethune–Cookman Wildcats football team|Bethune–Cookman]]
+| home_rank     = 18
+| home_team     = '''[[2017 Miami Hurricanes football team|Miami]]'''
+| site_stadium  = [[Hard Rock Stadium]]
+| site_cityst   = [[Miami Gardens, Florida|Miami Gardens, FL]]
+| tv            = [[Fox Sports Networks|ACCRSN]]
+| score         = 41-13
+| overtime      = 
+| attend        = 50,454
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 1:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Youngstown State Penguins football team|Youngstown State]]
+| home_rank     = 
+| home_team     = '''[[2017 Pittsburgh Panthers football team|Pittsburgh]]'''
+| site_stadium  = [[Heinz Field]]
+| site_cityst   = [[Pittsburgh, Pennsylvania|Pittsburgh, PA]]
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 28-21
+| overtime      = OT
+| attend        = 40,012
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 2
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 South Carolina Gamecocks football team|South Carolina]]
+| home_rank     = 
+| home_team     = '''[[2017 NC State Wolfpack football team|NC State]]'''
+| site_stadium  = [[Bank of America Stadium]]
+| site_cityst   = [[Charlotte, North Carolina|Charlotte, NC]]
+| gamename      = [[Belk Kickoff Game]]/Rivalry
+| tv            = [[ESPN College Football|ESPN]]
+| score         = 28-35
+| overtime      = 
+| attend        = 50,367
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 William & Mary Tribe football team|William & Mary]]
+| home_rank     = 
+| home_team     = '''[[2017 Virginia Cavaliers football team|Virginia]]'''
+| site_stadium  = [[Scott Stadium]]
+| site_cityst   = [[Charlottesville, VA]]
+| gamename      = 
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 28-10
+| overtime      = 
+| attend        = 38,828
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 6:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 North Carolina Central Eagles football team|North Carolina Central]]
+| home_rank     = 
+| home_team     = '''[[2017 Duke Blue Devils football team|Duke]]'''
+| site_stadium  = [[Wallace Wade Stadium]]
+| site_cityst   = [[Durham, North Carolina|Durham, NC]]
+| gamename      = 
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 60-7
+| overtime      = 
+| attend        = 30,477
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 2
+| time          = 7:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Purdue Boilermakers football team|Purdue]]
+| home_rank     = 16
+| home_team     = '''[[2017 Louisville Cardinals football team|Louisville]]'''
+| site_stadium  = [[Lucas Oil Stadium]]
+| site_cityst   = [[Indianapolis|Indianapolis, IN]]
+| tv            = [[Fox College Football|FOX]]
+| score         = 35-28
+| overtime      = 
+| attend        = 37,394
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 2
+| time          = 8:00 p.m.
+| visiting_rank = 1
+| visiting_team = [[2017 Alabama Crimson Tide football team|Alabama]]
+| home_rank     = 3
+| home_team     = '''[[2017 Florida State Seminoles football team|Florida State]]'''
+| site_stadium = [[Mercedes-Benz Stadium]]
+| site_cityst  = [[Atlanta|Atlanta, GA]]
+| gamename     = [[Chick-fil-A Kickoff Game|Chick-fil-A Kickoff]]
+| tv           = [[Saturday Night Football|ABC]]
+| score         = 7-24
+| overtime      = 
+| attend        = 76,330
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 3
+| time          = 7:20 p.m.
+| visiting_rank = 22
+| visiting_team = [[2017 West Virginia Mountaineers football team|West Virginia]]
+| home_rank     = 21
+| home_team     = '''[[2017 Virginia Tech Hokies football team|Virginia Tech]]'''
+| site_stadium  = [[FedExField]]
+| site_cityst   = [[Landover, MD]]
+| gamename      = [[West Virginia–Virginia Tech football rivalry|Black Diamond Trophy]]
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = 31-24
+| overtime      = 
+| attend        = 67,489
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 4
+| time          = 8:00 p.m.
+| visiting_rank = 25
+| visiting_team = [[2017 Tennessee Volunteers football team|Tennessee]]
+| home_rank     = 
+| home_team     = '''[[2017 Georgia Tech Yellow Jackets football team|Georgia Tech]]'''
+| site_stadium = Mercedes-Benz Stadium
+| site_cityst  = Atlanta, GA
+| gamename     = Chick-fil-A Kickoff
+| tv           = [[ESPN College Football|ESPN]]
+| score         = 41-42
+| overtime      = 2OT
+| attend        = 75,107
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 2====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Northwestern Wildcats football team|Northwestern]]
+| home_rank = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = [[ESPNU College Football|ESPNU]]
+| score         = 17-41
+| overtime      = 
+| attend        = 20,241
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 9
+| time          = 12:00 p.m.
+| visiting_rank = 17
+| visiting_team = '''Louisville'''
+| home_rank = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ESPN
+| score         ='''LOU''' 47-35
+| overtime      = 
+| attend        = 47,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Jacksonville State Gamecocks football team|Jacksonville State]]
+| home_rank = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = [[Bobby Dodd Stadium]]
+| site_cityst   = [[Atlanta, Georgia|Atlanta, GA]]
+| tv            = [[Fox Sports Networks|ACCRSN]]
+| score         = 10-37
+| overtime      = 
+| attend        = 50,161
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 9
+| time          = 1:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = [[Alumni Stadium]]
+| site_cityst   = [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]]
+| tv            = [[ESPN3|ACCN Extra]]
+| score         ='''WAKE''' 34-10
+| overtime      = 
+| attend        = 38,082
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Delaware Fightin' Blue Hens football team|Delaware]]
+| home_rank     = 18
+| home_team     = '''Virginia Tech'''
+| site_stadium  = [[Lane Stadium]]
+| site_cityst   = [[Blacksburg, Virginia|Blacksburg, VA]]
+| gamename      = 
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 0-27
+| overtime      = 
+| attend        = 62,526
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Indiana Hoosiers football team|Indiana]]
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = 
+| tv            = ACCN Extra
+| score         = 34-17
+| overtime      = 
+| attend        = 38,993
+| source        =
+}}
+|-bgcolor="#F2F2F2"
+| September 9{{ref|Canceled|[a]}}
+| 2:30&nbsp;p.m.
+| #16 '''Miami'''
+| [[2017 Arkansas State Red Wolves football team|Arkansas State]]
+| [[Centennial Bank Stadium]] • [[Jonesboro, Arkansas|Jonesboro, AR]]
+| 
+| '''Canceled'''{{ref|Canceled|[a]}}
+| 
+|-≈
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Middle Tennessee Blue Raiders football team|Middle Tennessee]]
+| home_rank = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = 
+| tv            = ACCN Extra
+| score         = 23-30
+| overtime      = 
+| attend        = 29,731
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 9
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Pittsburgh'''
+| home_rank     = 4
+| home_team     = [[2017 Penn State Nittany Lions football team|Penn State]]
+| site_stadium  = [[Beaver Stadium]]
+| site_cityst   = [[University Park, PA]]
+| gamename      = [[Penn State–Pittsburgh football rivalry|Rivalry]]
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = 14-33
+| overtime      = 
+| attend        = 100,898
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 6:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Marshall Thundering Herd football team|Marshall]]
+| home_rank     = 
+| home_team     = '''NC State'''
+| site_stadium  = [[Carter–Finley Stadium]]
+| site_cityst   = [[Raleigh, North Carolina|Raleigh, NC]]
+| tv            = [[ESPN3|ACCN Extra]]
+| score         = 37-20
+| overtime      = 
+| attend        = 57,430
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 9
+| time          = 7:00 p.m.
+| visiting_rank = 13
+| visiting_team = [[2017 Auburn Tigers football team|Auburn]]
+| home_rank     = 3
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Auburn–Clemson football rivalry|Rivalry]]
+| tv            = [[ESPN College Football Saturday Primetime|ESPN]]
+| score         = 14-6
+| overtime      = 
+| attend        = 81,799
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = December 2{{ref|Cancelation|[b]}}
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Louisiana–Monroe Warhawks football team|Louisiana–Monroe]]
+| home_rank     = 
+| home_team     = '''Florida State'''
+| site_stadium  = [[Doak Campbell Stadium]]
+| site_cityst   = [[Tallahassee, Florida|Tallahassee, FL]]
+| tv            = [[ACC Network (Raycom Sports)|ACCN]]
+| score         = 42-10
+| overtime      = 
+| attend        = 58,780
+| source        =
+}}
+|-≈
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+:<sup>{{note|Canceled|[a]}}</sup>The game between Arkansas State and Miami was canceled due to the wake of [[Hurricane Irma]] due to travel concerns for the Hurricanes.<ref>{{cite news|url=https://www.usatoday.com/story/sports/ncaaf/2017/09/06/miami-arkansas-state-college-game-canceled-due-hurricane-irma/636832001|title=Miami-Arkansas State college game canceled due to Hurricane Irma|date=September 6, 2017|author=Scott Gleeson|newspaper=[[USA Today]]|access-date=September 6, 2017}}</ref>
+:<sup>{{note|Canceled|[b]}}</sup>The game between Florida State and Louisiana-Monroe, originally scheduled for 7:00 p.m., was moved up to 12:00 p.m. in advance of the arrival of [[Hurricane Irma]], and later cancelled due to inclement weather.
+
+====Week 3====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 16
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Notre Dame Fighting Irish football team|Notre Dame]]
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      = [[Holy War (Boston College vs. Notre Dame)|Holy War]]
+| tv            = [[ESPN College Football|ESPN]]
+| score         = 20-49
+| overtime      = 
+| attend        = 44,500
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Connecticut Huskies football team|Connecticut]]
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = 
+| tv            = [[ESPNU College Football|ESPNU]]
+| score         = 38-18
+| overtime      = 
+| attend        = 33,056
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 16
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = #9 [[2017 Oklahoma State Cowboys football team|Oklahoma State]]
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| tv            = ESPN
+| score         = 21-59
+| overtime      = 
+| attend        = 38,952
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Furman Paladins football team|Furman]]
+| home_rank     = 
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| tv            = [[ACC Network (Raycom Sports)|ACCN]]
+| score         = 49-16
+| overtime      = 
+| attend        = 56,166
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Baylor Bears football team|Baylor]]
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      = 
+| tv            = [[Fox Sports Networks|ACCRSN]]
+| score         = 34-20
+| overtime      = 
+| attend        = 26,714
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Utah State Aggies football team|Utah State]]
+| home_rank     = 
+| home_team     = '''Wake Forest'''
+| site_stadium  = BB&T Field
+| site_cityst   = Winston-Salem, NC
+| gamename      = 
+| tv            = ACCN Extra
+| score         = 46-10
+| overtime      = 
+| attend        = 27,971
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Central Michigan Chippewas football team|Central Michigan]]
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = 
+| tv            = ACCN Extra
+| score         = 41-17
+| overtime      = 
+| attend        = 33,004
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''North Carolina'''
+| home_rank     = 
+| home_team     = [[2017 Old Dominion Monarchs football team|Old Dominion]]
+| site_stadium  = [[Foreman Field]]
+| site_cityst   = [[Norfolk, VA]]
+| gamename      = 
+| tv            = [[Stadium (TV Network)|STADIUM]]
+| score         = 53-23
+| overtime      = 
+| attend        = 20,118
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 16
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = #16 '''Virginia Tech'''
+| home_rank     = 
+| home_team     = [[2017 East Carolina Pirates football team|East Carolina]]
+| site_stadium  = [[Dowdy–Ficklen Stadium]]
+| site_cityst   = [[Greenville, NC]]
+| gamename      = 
+| tv            = [[CBS Sports Network|CBSSN]]
+| score         = 64-17
+| overtime      = 
+| attend        = 43,776
+| source        =
+}}
+|-bgcolor="#F2F2F2"
+| September 16{{ref|Canceled|[c]}}
+| 
+| '''Georgia Tech'''
+| [[2017 UCF Knights football team|UCF]]
+| [[Spectrum Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| 
+| '''Canceled'''{{ref|Canceled|[c]}}
+| 
+|-≈
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 16
+| time          = 8:00 p.m.
+| visiting_rank = 
+| visiting_team = #3 '''Clemson'''
+| home_rank     = 
+| home_team     = #14 '''Louisville'''
+| site_stadium  = [[Papa John's Cardinal Stadium]]
+| site_cityst   = [[Louisville, Kentucky|Louisville, KY]]
+| gamename      = 
+| tv            = ABC
+| score         = '''CLEM''' 47-21
+| overtime      = 
+| attend        = 55,588
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+::<sup>{{note|Canceled|[c]}}</sup>The game between Georgia Tech and UCF was canceled due to the wake of [[Hurricane Irma]] due to UCF using their stadium for recovery efforts.<ref>{{cite news|url=http://www.wsbtv.com/sports/sources-georgia-techs-football-game-saturday-will-not-be-played/607489072|title=Georgia Tech, UCF football game canceled due to Irma|date=September 12, 2017|author=Zach Klein|website=wsbtw.com|access-date=September 12, 2017}}</ref>
+
+====Week 4====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 22
+| time          = 8:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia'''
+| home_rank     = 
+| home_team     = [[2017 Boise State Broncos football team|Boise State]]
+| site_stadium  = [[Albertsons Stadium]]
+| site_cityst   = [[Boise, ID]]
+| gamename      = 
+| tv            = ESPN2
+| score         = 42–23
+| overtime      = 
+| attend        = 33,947
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = Kent State
+| home_rank     = 19
+| home_team     = '''Louisville'''
+| site_stadium = Papa John's Cardinal Stadium
+| site_cityst  = Louisville, KY
+| gamename      =
+| tv            = RSN
+| score         = 42–3
+| overtime      = 
+| attend        = 47,812
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''NC State'''
+| home_rank     = 12
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = 
+| tv            = ABC/ESPN2
+| score         ='''NCST''' 27–21
+| overtime      = 
+| attend        = 73,541
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Pittsburgh'''
+| home_rank     = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = 
+| tv            = ACC Network
+| score         ='''GT''' 35–17
+| overtime      = 
+| attend        = 40,211
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = 2:00 p.m.
+| visiting_rank = 
+| visiting_team = Old Dominion
+| home_rank     = 13
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      = 
+| tv            = ACC Network Extra
+| score         = 38–0
+| overtime      = 
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Boston College'''
+| home_rank     = 2
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[O'Rourke–McFadden Trophy|Rivalry]]
+| tv            = ESPN2
+| score         ='''CLEM''' 34–7
+| overtime      = 
+| attend        = 80,525
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Duke'''
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[Victory Bell (Duke–North Carolina)|Victory Bell]]
+| tv            = ESPNU
+| score         ='''DUKE''' 21–17
+| overtime      = 
+| attend        = 59,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Toledo Rockets football team|Toledo]]
+| home_rank     = 14
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      = 
+| tv            = RSN
+| score         = 52–30
+| overtime      = 
+| attend        = 49,361
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 23
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 
+| home_team     = [[2017 Appalachian State Mountaineers football team|Appalachian State]]
+| site_stadium  = [[Kidd Brewer Stadium]]
+| site_cityst   = [[Boone, NC]]
+| gamename      = 
+| tv            = ESPN 3
+| score         = 20–19
+| overtime      = 
+| attend        = 35,126
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = September 23
+| time          = 7:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Syracuse'''
+| home_rank     = 25
+| home_team     = [[2017 LSU Tigers football team|LSU]]
+| site_stadium  = [[Tiger Stadium (LSU)|Tiger Stadium]]
+| site_cityst   = [[Baton Rouge, LA]]
+| gamename      = 
+| tv            = SECN
+| score         = 26–35
+| overtime      = 
+| attend        = 96,044
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 5====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 29
+| time          = 7:00 p.m.
+| visiting_rank = 14
+| visiting_team = '''Miami'''
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium = Wallace Wade Stadium
+| site_cityst  = Durham, NC
+| gamename      =
+| tv            = ESPN2
+| score         = '''MIA''' 31–6
+| overtime      = 
+| attend        = 36,314
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''North Carolina'''
+| home_rank     = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      =
+| tv            = ESPN2
+| score         = '''GT''' 33–7
+| overtime      = 
+| attend        = 42,805
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 30
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Rice Owls football team|Rice]]
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      =
+| tv            = RSN
+| score         = 42–10
+| overtime      = 
+| attend        = 33,051
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Syracuse'''
+| home_rank     = 
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      =
+| tv            = ACCN
+| score         = '''NCST''' 33–25
+| overtime      = 
+| attend        = 56,197
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 30
+| time          = 1:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Central Michigan Chippewas football team|Central Michigan]]
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium = Alumni Stadium
+| site_cityst  = Chestnut Hill, MA
+| gamename      =
+| tv            = ACCN Extra
+| score         = 28–8
+| overtime      = 
+| attend        = 27,036
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Florida State'''
+| home_rank     = 
+| home_team     = '''Wake Forest'''
+| site_stadium  = BB&T Field
+| site_cityst   = Winston-Salem, NC
+| gamename      =
+| tv            = [[ESPN College Football on ABC|ABC]]
+| score         = '''FSU''' 26–19
+| overtime      = 
+| attend        = 31,588
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = September 30
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Murray State Racers football team|Murray State]]
+| home_rank     = 17
+| home_team     = '''Louisville'''
+| site_stadium  = Papa John's Cardinal Stadium
+| site_cityst   = Louisville, KY
+| gamename      =
+| tv            = RSN
+| score         = 55–10
+| overtime      = 
+| attend        = 47,826
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = September 30
+| time          = 8:00 p.m.
+| visiting_rank = 2
+| visiting_team = '''Clemson'''
+| home_rank     = 12
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      =
+| tv            = ABC
+| score         = '''CLEM''' 31–17
+| overtime      = 
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 6====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 5
+| time          = 8:00 p.m.
+| visiting_rank = 17
+| visiting_team = '''Louisville'''
+| home_rank     = 24
+| home_team     = '''NC State'''
+| site_stadium = Carter-Finley Stadium
+| site_cityst  = Raleigh, NC
+| gamename     = 
+| tv           = [[ESPN College Football Thursday Primetime|ESPN]]
+| score         = '''NCST''' 39–25
+| overtime      = 
+| attend        = 56,107
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 2
+| home_team     = '''Clemson'''†
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      =
+| tv            = ESPN2
+| score         = '''CLEM''' 28–14
+| overtime      = 
+| attend        = 80,567
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Duke'''
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      =
+| tv            = ACCN
+| score         = '''UVA''' 28–21
+| overtime      = 
+| attend        = 38,638
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Pittsburgh'''
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = [[Pittsburgh–Syracuse football rivalry|Rivalry]]
+| tv            = RSN
+| score         = '''CUSE''' 27–24
+| overtime      = 
+| attend        = 33,290
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 7
+| time          = 3:30 p.m.
+| visiting_rank = 21
+| visiting_team = Notre Dame
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      =
+| tv            = ABC
+| score         = 10–33
+| overtime      = 
+| attend        = 57,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7{{ref|Postponement|[b]}}
+| time          = 3:30 p.m.
+| visiting_rank = 13
+| visiting_team = '''Miami'''
+| home_rank     = 
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = [[Florida State–Miami football rivalry|Rivalry]]
+| tv            = ESPN
+| score         = '''MIA''' 24–20
+| overtime      = 
+| attend        = 78,169
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 7
+| time          = 7:15 p.m.
+| visiting_rank = 16
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      =[[Boston College–Virginia Tech football rivalry|Rivalry]]
+| tv            = ESPN2
+| score         = '''VT''' 23–10
+| overtime      = 
+| attend        = 32,057
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+:<sup>{{note|Postponement|[b]}}</sup>The game between Florida State and Miami, originally scheduled to be played on September 16, was moved to October 7 due to the effects of Hurricane Irma.
+
+====Week 7====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 13
+| time          = 7:00 p.m.
+| visiting_rank = 2
+| visiting_team = '''Clemson'''
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| tv            = ESPN
+| score         = '''CUSE''' 27–24
+| overtime      = 
+| attend        = 42,475
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Florida State'''
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      =
+| tv            = ESPN2
+| score         = '''FSU''' 17–10
+| overtime      = 
+| attend        = 31,073
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 12:00 p.m.
+| visiting_rank = 20
+| visiting_team = '''NC State'''
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      =
+| tv            = RSN
+| score         = '''NCST''' 35–17
+| overtime      = 
+| attend        = 41,124
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Boston College'''
+| home_rank     = 
+| home_team     = '''Louisville'''†
+| site_stadium  = Papa John's Cardinal Stadium
+| site_cityst   = Louisville, KY
+| gamename      =
+| tv            = ACC Network
+| score         = '''BC''' 45–42
+| overtime      = 
+| attend        = 44,679
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 11
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami, FL
+| tv            = [[ESPN College Football Thursday Primetime|ESPN]]
+| score         = '''MIA''' 25–24
+| overtime      = 
+| attend        = 55,799
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 14
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia'''
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = [[South's Oldest Rivalry]]
+| tv            = RSN
+| score         = '''UVA''' 20–14
+| overtime      = 
+| attend        = 50,000
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 8====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Louisville'''
+| home_rank     = 
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      =
+| tv            = ESPN
+| score         = '''LOU''' 31–28
+| overtime      = 
+| attend        = 72,764
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Pittsburgh'''
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| gamename      =
+| tv            = ACCN
+| score         = '''PITT''' 24–17
+| overtime      = 
+| attend        = 22,621
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Boston College'''
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      =
+| tv            = RSN
+| score         = '''BC''' 41–10
+| overtime      = 
+| attend        = 39,216
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Syracuse'''
+| home_rank     = 8
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      =
+| tv            = ESPN
+| score         = '''MIA''' 27–19
+| overtime      = 
+| attend        = 56,158
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''North Carolina'''
+| home_rank     = 14
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      =
+| tv            = ESPN2
+| score         = '''VT''' 59–7
+| overtime      = 
+| attend        = 65,632
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 21
+| time          = 7:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 
+| home_team     = '''Georgia Tech'''†
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      =
+| tv            = ESPNU
+| score         = '''GT''' 38–24
+| overtime      = 
+| attend        = 45,224
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 9====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 27
+| time          = 8:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Florida State'''
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| tv            = ESPN
+| score         = '''BC''' 35–3
+| overtime      = 
+| attend        = 40,629
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 12:00 p.m.
+| visiting_rank = 8
+| visiting_team = '''Miami'''
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| gamename      = 
+| tv            = ESPN2
+| score         = '''MIA''' 24–19
+| overtime      = 
+| attend        = 45,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Louisville'''
+| home_rank     = 
+| home_team     = '''Wake Forest'''
+| site_stadium  = BB&T Field
+| site_cityst   = Winston-Salem, NC
+| gamename      = 
+| tv            = ACC Network
+| score         = '''WAKE''' 42–32
+| overtime      = 
+| attend        = 29,593
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia'''
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      = 
+| tv            = RSN
+| score         = '''PITT''' 31–14
+| overtime      = 
+| attend        = 30,889
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = October 28
+| time          = 3:30 p.m.
+| visiting_rank = 14
+| visiting_team = '''NC State'''
+| home_rank     = 9
+| home_team     = Notre Dame
+| site_stadium  = [[Notre Dame Stadium]]
+| site_cityst   = [[South Bend, Indiana|South Bend, IN]]
+| tv            = [[Notre Dame Football on NBC|NBC]]
+| score         = '''ND''' 35–14
+| overtime      = 
+| attend        = 77,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 7:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Duke'''
+| home_rank     = 13
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| gamename      = 
+| tv            = ACC Network
+| score         = '''VT''' 24–3
+| overtime      = 
+| attend        = 60,914
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = October 28
+| time          = 8:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 7
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–Georgia Tech football rivalry|Rivalry]]
+| tv            = ABC
+| score         = '''CLEM''' 24–10
+| overtime      = 
+| attend        = 80,346
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 10====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Syracuse'''
+| home_rank     = 
+| home_team     = '''Florida State'''
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| gamename      = 
+| tv            = ACC Network
+| score         = '''FSU''' 27–24
+| overtime      = 
+| attend        = 71,805
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = 
+| tv            = RSN
+| score         = '''UVA''' 40–36
+| overtime      = 
+| attend        = 38,448
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 3:30 p.m.
+| visiting_rank = 6
+| visiting_team = '''Clemson'''
+| home_rank     = 20
+| home_team     = '''NC State'''†
+| site_stadium  = Carter-Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[Textile Bowl]]
+| tv            = ABC
+| score         = '''CLEM''' 38–31
+| overtime      = 
+| attend        = 57,600
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 4
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 5
+| home_team     = Notre Dame
+| site_stadium  = Notre Dame Stadium
+| site_cityst   = Notre Dame, IN
+| gamename      =
+| tv            = [[Notre Dame Football on NBC|NBC]]
+| score         = 48–37
+| overtime      = 
+| attend        = 77,622
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 4
+| time          = 8:00 p.m.
+| visiting_rank = 13
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 9
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      = [[Miami–Virginia Tech football rivalry|Rivalry]]
+| tv            = ABC
+| score         = '''MIA''' 28–10
+| overtime      = 
+| attend        = 63,932
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 11====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 9
+| time          = 7:30 p.m.
+| visiting_rank = 
+| visiting_team = '''North Carolina'''
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      = 
+| tv            = [[ESPN College Football Thursday Primetime|ESPN]]
+| score         = '''UNC''' 34–31
+| overtime      = 
+| attend        = 34,056
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 11
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Duke'''
+| home_rank     = 
+| home_team     = [[2017 Army Black Knights football team|Army]]
+| site_stadium  = [[Michie Stadium]]
+| site_cityst   = [[West Point, New York|West Point, NY]]
+| gamename      = 
+| tv            = [[CBSSN]]
+| score         = 16–21
+| overtime      = 
+| attend        = 38,851
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''NC State'''
+| home_rank     = 
+| home_team     = '''Boston College'''
+| site_stadium  = Alumni Stadium
+| site_cityst   = Chestnut Hill, MA
+| gamename      =
+| tv            = ABC/ESPN2
+| score         = '''NCST''' 17–14
+| overtime      = 
+| attend        = 33,242
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 12:20 p.m.
+| visiting_rank = 17
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Georgia Tech–Virginia Tech football rivalry|Rivalry]]
+| tv            = ACCN
+| score         = '''GT''' 28–22
+| overtime      = 
+| attend        = 47,909
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Wake Forest'''
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = 
+| tv            = RSN
+| score         = '''WAKE''' 64–43
+| overtime      = 
+| attend        = 38,539
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Florida State'''
+| home_rank     = 4
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| gamename      = [[Clemson–Florida State football rivalry|Rivalry]]
+| tv            = ESPN
+| score         = '''CLEM''' 31–14
+| overtime      = 
+| attend        = 81,436
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 11
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia'''
+| home_rank     = 
+| home_team     = '''Louisville'''
+| site_stadium  = Papa John's Cardinal Stadium
+| site_cityst   = Louisville, KY
+| gamename      =
+| tv            = ESPNU
+| score         = '''LOU''' 38–21
+| overtime      = 
+| attend        = 46,787
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 11
+| time          = 8:00 p.m.
+| visiting_rank = 3
+| visiting_team = Notre Dame
+| home_rank     = 7
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| gamename      = [[Notre Dame Fighting Irish football rivalries#Miami (FL)|Rivalry]]
+| tv            = ABC
+| score         = 41–8
+| overtime      = 
+| attend        = 65,303
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 12====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 18
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Delaware State Hornets football team|Delaware State]]
+| home_rank     = 
+| home_team     = '''Florida State'''†
+| site_stadium  = Doak Campbell Stadium
+| site_cityst   = Tallahassee, FL
+| tv            = RSN
+| score         = 77–6
+| overtime      = 
+| attend        = 70,599
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Virginia'''
+| home_rank     = 
+| home_team     = '''Miami'''
+| site_stadium  = Hard Rock Stadium
+| site_cityst   = Miami Gardens, FL
+| tv            = ABC or ESPN
+| score         = '''MIA''' 44–28
+| overtime      = 
+| attend        = 63,415
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 18
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 The Citadel Bulldogs football team|The Citadel]]
+| home_rank     = 
+| home_team     = '''Clemson'''
+| site_stadium  = Memorial Stadium
+| site_cityst   = Clemson, SC
+| tv            = ACCN
+| score         = 61–3
+| overtime      = 
+| attend        = 80,618
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Pittsburgh'''
+| home_rank     = 
+| home_team     = '''Virginia Tech'''
+| site_stadium  = Lane Stadium
+| site_cityst   = Blacksburg, VA
+| tv            = ACCN
+| score         = '''VT''' 20–14
+| overtime      = 
+| attend        = 58,948
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 18
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = [[2017 Western Carolina Catamounts football team|Western Carolina]]
+| home_rank     = 
+| home_team     = '''North Carolina'''
+| site_stadium  = Kenan Memorial Stadium
+| site_cityst   = Chapel Hill, NC
+| tv            = ACCN Extra
+| score         = 65–10
+| overtime      = 
+| attend        = 43,000
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Georgia Tech'''
+| home_rank     = 
+| home_team     = '''Duke'''
+| site_stadium  = Wallace Wade Stadium
+| site_cityst   = Durham, NC
+| tv            = RSN
+| score         = '''DUKE''' 43–20
+| overtime      = 
+| attend        = 20,141
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 3:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Syracuse'''
+| home_rank     = 
+| home_team     = '''Louisville'''
+| site_stadium  = Papa John's Cardinal Stadium
+| site_cityst   = Louisville, KY
+| tv            = ESPNU
+| score         = '''LOU''' 56–10
+| overtime      = 
+| attend        = 34,265
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 18
+| time          = 7:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Boston College'''
+| home_rank     = 
+| home_team     = [[2017 Connecticut Huskies football team|Connecticut]]
+| site_stadium  = [[Fenway Park]]
+| site_cityst   = [[Boston|Boston, MA]]
+| tv            = CBSSN
+| score         = 39–16
+| overtime      = 
+| attend        = 20,133
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 18
+| time          = 7:30 p.m.
+| visiting_rank = 
+| visiting_team = '''NC State'''
+| home_rank     = 
+| home_team     = '''Wake Forest'''
+| site_stadium  = BB&T Field
+| site_cityst   = Winston-Salem, NC
+| tv            = ESPNU
+| score         = '''WAKE''' 30–24
+| overtime      = 
+| attend        = 31,803
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+====Week 13====
+{{CFB Conference Schedule Start}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 24
+| time          = 12:00 p.m.
+| visiting_rank = 2
+| visiting_team = '''Miami'''
+| home_rank     = 
+| home_team     = '''Pittsburgh'''
+| site_stadium  = Heinz Field
+| site_cityst   = Pittsburgh, PA
+| gamename      = 
+| score         = '''PITT''' 24–14
+| tv            = ABC
+| overtime      = 
+| attend        = 35,978
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 24
+| time          = 8:00 p.m.
+| visiting_rank = 24
+| visiting_team = '''Virginia Tech'''
+| home_rank     = 
+| home_team     = '''Virginia'''
+| site_stadium  = Scott Stadium
+| site_cityst   = Charlottesville, VA
+| gamename      = [[Virginia–Virginia Tech football rivalry|Commonwealth Cup]]
+| score         = '''VT''' 10–0
+| tv            = ESPN
+| overtime      = 
+| attend        = 48,609
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 25
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Florida State'''
+| home_rank     = 
+| home_team     = [[2017 Florida Gators football team|Florida]]
+| site_stadium  = [[Ben Hill Griffin Stadium]]
+| site_cityst   = [[Gainesville, Florida|Gainesville, FL]]
+| gamename      = [[Florida–Florida State football rivalry|Rivalry]]
+| score         = 38–22
+| tv            = ESPN
+| overtime      = 
+| attend        = 89,066
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 25
+| time          = 12:00 p.m.
+| visiting_rank = 
+| visiting_team = '''Louisville'''
+| home_rank     = 
+| home_team     = [[2017 Kentucky Wildcats football team|Kentucky]]
+| site_stadium  = [[Kroger Field]]
+| site_cityst   = [[Lexington, Kentucky|Lexington, KY]]
+| gamename      = [[Governor's Cup (Kentucky)|Rivalry]]
+| score         = 44–17
+| tv            = [[SEC Network]]
+| overtime      = 
+| attend        = 56,186
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = 12:20 p.m.
+| visiting_rank = 
+| visiting_team = '''Boston College'''
+| home_rank     = 
+| home_team     = '''Syracuse'''
+| site_stadium  = Carrier Dome
+| site_cityst   = Syracuse, NY
+| gamename      = Rivalry
+| score         = '''BC''' 42–14
+| tv            = ACCN
+| overtime      = 
+| attend        = 30,202
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = 12:30 p.m.
+| visiting_rank = 
+| visiting_team = '''Duke'''
+| home_rank     = 
+| home_team     = '''Wake Forest'''
+| site_stadium  = BB&T Field
+| site_cityst   = Winston-Salem, NC
+| gamename      = 
+| score         = '''DUKE''' 31–23
+| tv            = RSN
+| overtime      = 
+| attend        = 27,016
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = 
+| date          = November 25
+| time          = 3:30 p.m.
+| visiting_rank = 
+| visiting_team = '''North Carolina'''
+| home_rank     = 
+| home_team     = '''NC State'''
+| site_stadium  = Carter–Finley Stadium
+| site_cityst   = Raleigh, NC
+| gamename      = [[North Carolina–NC State football rivalry|Rivalry]]
+| tv            = ESPNU
+| score         = '''NCST''' 33–21
+| overtime      = 
+| attend        = 57,600
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = w
+| date          = November 25
+| time          = 7:30 p.m.
+| visiting_rank = 4
+| visiting_team = '''Clemson'''
+| home_rank     = 
+| home_team     = [[2017 South Carolina Gamecocks football team|South Carolina]]
+| site_stadium  = [[Williams-Brice Stadium]]
+| site_cityst   = [[Columbia, South Carolina|Columbia, SC]]
+| gamename      = [[Clemson–South Carolina rivalry|Palmetto Bowl]]
+| score         = 34–10
+| tv            = ESPN
+| overtime      = 
+| attend        = 82,908
+| source        =
+}}
+{{CFB Conference Schedule Entry
+| w/l           = l
+| date          = November 25
+| time          = 12:00 p.m.
+| visiting_rank = 7
+| visiting_team = [[2017 Georgia Bulldogs football team|Georgia]]
+| home_rank     = 
+| home_team     = '''Georgia Tech'''
+| site_stadium  = Bobby Dodd Stadium
+| site_cityst   = Atlanta, GA
+| gamename      = [[Clean, Old-Fashioned Hate|Rivalry]]
+| score         = 7–38
+| tv            = ABC
+| overtime      = 
+| attend        = 55,000
+| source        =
+}}
+{{CFB Conference Schedule End|timezone=[[Eastern Time Zone|Eastern Time]]}}
+
+===Championship game===
+{{further|2017 ACC Championship Game}}
+
+====Week 14 (2017 ACC Championship Game)====
+{| class="wikitable" style="font-size:95%;"
+|-
+! Date !! Time !! Visiting team !! Home team !! Site !! Broadcast !! Result !! Attendance !! class="unsortable"|Reference
+|-
+| style="text-align:center;"|December 2 || style="text-align:center;"|8:00&nbsp;p.m. || style="text-align:center;"|#7 '''Miami''' || style="text-align:center;"|#1 '''Clemson''' ||  style="text-align:center;"|Bank of America Stadium • Charlotte, NC || style="text-align:center;"|ABC || style="text-align:center;"|'''CLEM''' 38–3 || style="text-align:center;"|74,372 || style="text-align:center;"| <ref>{{cite web|url=http://www.clemsontigers.com/ViewContent.dbml?SPSID=657769&SPID=103701&DB_LANG=C&DB_OEM_ID=28500&CONTENT_ID=2139990|title=Miami vs Clemson (Dec 02,2017)|website=clemsontigers.com|publisher=Clemson University Athletic Department|access-date=December 4, 2017|archive-url=https://web.archive.org/web/20171205042131/http://www.clemsontigers.com/ViewContent.dbml?SPSID=657769&SPID=103701&DB_LANG=C&DB_OEM_ID=28500&CONTENT_ID=2139990|archive-date=December 5, 2017|url-status=dead|df=mdy-all}}</ref>
+|}
+
+==ACC vs other conferences==
+===ACC vs Power 5 matchups===
+This is a list of the [[power conference]] teams ([[Big Ten Conference|Big 10]], [[Big 12 Conference|Big 12]], [[Pac-12 Conference|Pac-12]], [[2017 Notre Dame Fighting Irish football team|Notre Dame]] and [[Southeastern Conference|SEC]]). Although the NCAA does not consider [[2017 BYU Cougars football team|BYU]] a "Power Five" school, the ACC considers games against BYU as satisfying its "Power Five" scheduling requirement. The ACC plays in the non-conference games. All rankings are from the current AP Poll at the time of the game.
+
+{| class="wikitable"
+|-
+! Date !! Visitor !! Home !! Site !! Significance !! Score
+|- style="background:#fcc;"
+| September 2 || '''NC State''' || [[2017 South Carolina Gamecocks football team|South Carolina]] || [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]] || [[Belk Kickoff Game]] || '''L''' 28–35
+|- style="background:#fcc;"
+| September 2  || [[2017 California Golden Bears football team|California]] || '''North Carolina''' || [[Kenan Memorial Stadium]] • [[Chapel Hill, North Carolina|Chapel Hill, NC]] ||  || '''L''' 30–35
+|- style="background:#fcc;"
+| September 2 || #1 [[2017 Alabama Crimson Tide football team|Alabama]] || #3 '''Florida State''' || [[Mercedes Benz Stadium]] • [[Atlanta, GA]] || [[Chick-fil-A Kickoff Game]] || '''L''' 7–24
+|- style="background:#cfc;"
+| September 2 || [[2017 Purdue Boilermakers football team|Purdue]] || #16 '''Louisville''' || [[Lucas Oil Stadium]] • [[Indianapolis, Indiana|Indianapolis, IN]] ||  || '''W''' 35–28
+|- style="background:#cfc;"
+| September 3 || #22 [[2017 West Virginia Mountaineers football team|West Virginia]] || #21 '''Virginia Tech''' || [[FedEx Field]] • [[Landover, Maryland|Landover, MD]] || [[Virginia Tech–West Virginia football rivalry]]  || '''W''' 31–24
+|- style="background:#fcc;"
+| September 4 || #25 [[2017 Tennessee Volunteers football team|Tennessee]] || '''Georgia Tech''' || Mercedes Benz Stadium • Atlanta, GA || Chick-fil-A Kickoff Game || '''L''' 41–42 (2OT)
+|- style="background:#fcc;"
+| September 9 || [[2017 Indiana Hoosiers football team|Indiana]] || '''Virginia''' || [[Scott Stadium]] • [[Charlottesville, Virginia|Charlottesville, VA]] ||  || '''L''' 17–34
+|- style="background:#fcc;"
+| September 9 || '''Pittsburgh''' || #4 [[2017 Penn State Nittany Lions football team|Penn State]] || [[Beaver Stadium]] • [[University Park, Pennsylvania|University Park, PA]] || [[Penn State–Pittsburgh football rivalry]] || '''L''' 14–33
+|- style="background:#cfc;"
+| September 9|| #13 [[Auburn Tigers football team|Auburn]] || '''#3 Clemson''' || [[Memorial Stadium (Clemson)|Memorial Stadium]] • [[Clemson, SC]] || [[Auburn–Clemson football rivalry]] || '''W''' 14–6
+|- style="background:#fcc;"
+| September 16 || [[2017 Notre Dame Fighting Irish football team|Notre Dame]] || '''Boston College''' || [[Alumni Stadium]] • [[Chestnut Hill, Massachusetts|Chestnut Hill, MA]] ||  || '''L''' 20–49
+|- style="background:#fcc;"
+| September 16 || #9 [[2017 Oklahoma State Cowboys football team|Oklahoma State]] || '''Pittsburgh''' || [[Heinz Field]] • [[Pittsburgh, Pennsylvania|Pittsburgh, PA]] ||  || '''L''' 21–59
+|- style="background:#cfc;"
+| September 16 || [[2017 Baylor Bears football team|Baylor]] || '''Duke''' || [[Wallace Wade Stadium]] • [[Durham, North Carolina|Durham, NC]] ||  || '''W''' 34–20
+|- style="background:#fcc;"
+| September 23 || '''Syracuse''' || [[2017 LSU Tigers football team|LSU]] || [[Tiger Stadium (LSU)|Tiger Stadium]] • [[Baton Rouge, LA]] ||  || '''L''' 26–35
+|- style="background:#fcc;"
+| October 7 || #21 Notre Dame || '''North Carolina''' || [[Kenan Memorial Stadium]] • [[Chapel Hill, North Carolina|Chapel Hill, NC]] ||  || '''L''' 10–30
+|- style="background:#fcc;"
+| October 28 || '''# 14 North Carolina State''' || #9 Notre Dame || [[Notre Dame Stadium]] • [[South Bend, Indiana|South Bend, IN]] ||  || '''L''' 14–35 
+|-  style="background:#fcc;"
+| November 4 || '''Wake Forest''' || #5 Notre Dame || Notre Dame Stadium • South Bend, IN ||  || '''L''' 37–48
+|- style="background:#cfc;"
+| November 11 || #3 Notre Dame || '''#7 Miami''' || [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]] || [[1988 Notre Dame vs. Miami football game|Catholics vs. Convicts rivalry]]  || '''W''' 41–8
+|- style="background:#fcc;"
+| November 25 || [[2017 Georgia Bulldogs football team|#7 Georgia]] || '''Georgia Tech''' || [[Bobby Dodd Stadium]] • Atlanta, GA || [[Clean, Old-Fashioned Hate]] || '''L''' 7–38 
+|- style="background:#cfc;"
+| November 25 || '''Louisville''' || [[2017 Kentucky Wildcats football team|Kentucky]] || [[Commonwealth Stadium (Kentucky)|Commonwealth Stadium]] • [[Lexington, KY]] || [[Governor's Cup (Kentucky)|Governor's Cup]] || '''W''' 44–17
+|- style="background:#cfc;"
+| November 25 || '''#4 Clemson''' || [[2017 South Carolina Gamecocks football team|South Carolina]] || [[Williams-Brice Stadium]] • [[Columbia, SC]] || [[Battle of the Palmetto State]] || '''W''' 34–10
+|- style="background:#cfc;"
+| November 25 || '''Florida State''' || [[2017 Florida Gators football team|Florida]] || [[Ben Hill Griffin Stadium]] • [[Gainesville, FL]] || [[Florida–Florida State football rivalry]] || '''W''' 38–22
+|}
+
+===Records against other conferences===
+2017 records against non-conference foes (as of January 2, 2018):
+
+{{col-begin}}
+{{col-2}}
+
+'''Regular Season'''
+
+{| class="wikitable"
+|-
+!Power 5 Conferences
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|1–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|2–1
+|-
+|[[2017 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|1–4
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|0–1
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|4–5
+|-
+!Power 5 Total
+!8–13
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|3–0
+|-
+|[[Conference USA|C-USA]]
+|align=center|3–1
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|6–0
+|-
+|[[Mountain West Conference|Mountain West]]
+|align=center|2–0
+|-
+|[[NCAA Division I FBS independent schools|Independents <small>(Excluding Notre Dame)</small>]]
+|align=center|0–1
+|-
+|[[Sun Belt Conference|Sun Belt]]
+|align=center|2–0
+|-
+!Other FBS Total
+!16–2
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!FCS Opponents
+!Record
+|-
+|[[2017 NCAA Division I FCS football season|Football Championship Subdivision]]
+|align=center|11–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Total Non-Conference Record
+!35–15
+|}
+
+{{col-2}}
+
+'''Post Season'''
+
+{| class="wikitable"
+|-
+!Power Conferences 5
+!Record
+|-
+|[[Big Ten Conference|Big Ten]]
+|align=center|0–2
+|-
+|[[Big 12 Conference|Big 12]]
+|align=center|0–1
+|-
+|[[2017 Notre Dame Fighting Irish football team|Notre Dame]]
+|align=center|0–0
+|-
+|[[Pac-12 Conference|Pac-12]]
+|align=center|1–0
+|-
+|[[Southeastern Conference|SEC]]
+|align=center|1–2
+|-
+!Power 5 Total
+!2–5
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Conferences
+!Record
+|-
+|[[American Athletic Conference|American]]
+|align=center|0–1
+|-
+|[[Conference USA|C–USA]]
+|align=center|1–0
+|-
+|[[Mid-American Conference|MAC]]
+|align=center|1–0
+|-
+! colspan="2" style="background:lightgrey;"|
+|-
+!Other FBS Total
+!2–1
+|-
+!Total Bowl Record
+!4–6
+|}
+
+{{col-end}}
+
+==Postseason==
+
+===Bowl games===
+{| class="wikitable" style="font-size:90%"
+|-
+!colspan="2"|Legend
+|-
+| style="background:#bfb;"|&nbsp;||ACC win
+|-
+| style="background:#fbb;"|&nbsp;||ACC loss
+|}
+
+{{see also|2017–18 NCAA football bowl games}}
+
+{| class="wikitable"
+|-'''Bowl games'''
+!Bowl game
+!Date
+!Site
+!Television
+!Time ([[Eastern Time Zone|EST]])
+!ACC team
+!Opponent
+!Score
+!Attendance
+|- style="background:#bfb;"
+|[[2017 Quick Lane Bowl]]
+|December 26
+|[[Ford Field]] • [[Detroit, Michigan|Detroit, MI]]
+|[[ESPN College Football|ESPN]]
+|5:15&nbsp;p.m.
+| '''Duke'''
+| [[2017 Northern Illinois Huskies football team|Northern Illinois]]
+| '''W''' 36–14
+| 20,211
+|- style="background:#bfb;"
+|[[2017 Independence Bowl]]
+|December 27
+|[[Independence Stadium (Shreveport)|Independence Stadium]] • [[Shreveport, Louisiana|Shreveport, LA]]
+|[[ESPN College Football|ESPN]]
+|1:30&nbsp;p.m.
+|'''Florida State'''
+|[[2017 Southern Miss Golden Eagles football team|Southern Miss]]
+| '''W''' 42–13
+|33,601
+|- style="background:#fbb;"
+|[[2017 Pinstripe Bowl]]
+|December 27
+|[[Yankee Stadium]] • [[New York City|New York, NY]]
+|[[ESPN College Football|ESPN]]
+|5:15&nbsp;p.m.
+|'''Boston College'''
+|[[2017 Iowa Hawkeyes football team|Iowa]]
+| '''L''' 20–27
+|37,667
+|- style="background:#fbb;"
+|[[2017 Military Bowl]]
+| December 28
+| [[Navy–Marine Corps Memorial Stadium]] • [[Annapolis, Maryland|Annapolis, MD]]
+| [[ESPN College Football|ESPN]]
+| 1:30&nbsp;p.m.
+| '''Virginia'''
+| [[2017 Navy Midshipmen football team|Navy]]
+| '''L''' 7–49
+| 35,921
+|- style="background:#fbb;"
+| [[2017 Camping World Bowl]]
+| December 28
+| [[Camping World Stadium]] • [[Orlando, Florida|Orlando, FL]]
+| [[ESPN College Football|ESPN]]
+| 5:15&nbsp;p.m.
+| '''#22 Virginia Tech'''
+| #19 [[2017 Oklahoma State Cowboys football team|Oklahoma State]]
+| '''L''' 21–30
+| 39,610
+|- style="background:#bfb;"
+| [[2017 Belk Bowl]]
+| December 29
+| [[Bank of America Stadium]] • [[Charlotte, North Carolina|Charlotte, NC]]
+| [[ESPN College Football|ESPN]]
+| 1:00&nbsp;p.m.
+| '''Wake Forest'''
+| [[2017 Texas A&M Aggies football team|Texas A&M]]
+| '''W''' 55-52
+| 32,784
+|- style="background:#bfb;"
+| [[2017 Sun Bowl]]
+| December 29
+| [[Sun Bowl]] • [[El Paso, Texas|El Paso, TX]]
+| [[CBS]]
+| 3:00&nbsp;p.m.
+| '''#24 NC State'''
+| [[2017 Arizona State Sun Devils football team|Arizona State]]
+| '''W''' 52-31
+| 39,897
+|- style="background:#fbb;"
+| [[2017 TaxSlayer Bowl]]
+| December 30
+| [[EverBank Field]] • [[Jacksonville, Florida|Jacksonville, FL]]
+| [[ESPN College Football|ESPN]]
+| 12:00&nbsp;p.m.
+| '''Louisville'''
+| #23 [[2017 Mississippi State Bulldogs football team|Mississippi]]
+| '''L''' 27–31
+| 41,310
+|-
+|colspan="9" style="text-align:center;"|'''New Year's Six Bowls'''
+|- style="background:#fbb;"
+| [[2017 Orange Bowl]]
+| December 30
+| [[Hard Rock Stadium]] • [[Miami Gardens, Florida|Miami Gardens, FL]]
+| [[ESPN College Football|ESPN]]
+| 8:00&nbsp;p.m.
+| '''#10 Miami'''
+| #6 [[2017 Wisconsin Badgers football team|Wisconsin]]
+| '''L''' 24–34
+| 65,326
+|- style="background:#fbb;"
+|[[2018 Sugar Bowl|Sugar Bowl (Semifinal)]]
+|January 1
+|[[Mercedes-Benz Superdome]] • [[New Orleans, Louisiana|New Orleans, LA]]
+|[[ESPN College Football|ESPN]]
+|8:45&nbsp;p.m.
+| '''#1 Clemson'''
+| #4 [[2017 Alabama Crimson Tide football team|Alabama]]
+| '''L''' 6–24
+| 72,360
+|}
+
+<small>Rankings are from CFP rankings.  All times Eastern Time Zone.  ACC teams shown in bold.</small>
+
+==Awards and honors==
+
+===Player of the week honors===
+{| class="wikitable" border="1" 
+|-
+! rowspan="2"| Week
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Offensive Back
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Offensive Line
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Receiver
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Defensive Line
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Linebacker
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Defensive Back
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Specialist
+! rowSpan="15" style="background-color:lightgrey;"|
+! colspan="3"| Rookie
+! rowSpan="15" style="background-color:lightgrey;"| 
+|-
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+! Player
+! Team
+! Position
+|-
+| Week 1 (Sept. 1)<ref>{{cite web|url=http://theacc.com/news/2017/9/5/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=September 5, 2017|access-date=September 5, 2017}}</ref>
+| [[TaQuon Marshall]]
+| Georgia Tech
+| QB
+| Tony Adams
+| NC State
+| G
+| Cam Phillips
+| Virginia Tech
+| WR
+| Josh Sweat
+| Florida State
+| DE
+| Andrew Motuapuaka
+| Virginia Tech
+| LB
+| Derwin James
+| Florida State
+| S
+| Colton Lichtenberg
+| Boston College
+| PK
+| Josh Jackson
+| Virginia Tech
+| QB
+|-
+| Week 2 (Sept. 9)<ref>{{cite web|url=http://www.theacc.com/news/2017/9/11/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=September 11, 2017|access-date=September 11, 2017}}</ref>
+| [[Lamar Jackson]]
+| Louisville
+| QB
+| Evan Lisle
+| Duke
+| OT
+| Jaylen Smith
+| Louisville
+| WR
+| Austin Bryant
+| Clemson
+| DE
+| Dorian O'Daniel
+| Clemson
+| LB
+| [[Essang Bassey]]
+| Wake Forest
+| CB
+| Anthony Ratliff-Williams
+| North Carolina
+| KR
+| Chazz Surratt
+| North Carolina
+| QB
+|-
+| Week 3 (Sept. 16)<ref>{{cite web|url=http://www.theacc.com/news/2017/9/18/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=September 18, 2017|access-date=September 18, 2017}}</ref>
+| [[Kelly Bryant (American football)|Kelly Bryant]]
+| Clemson
+| QB
+| [[Taylor Hearn (American football)|Taylor Hearn]]
+| Clemson
+| OG
+| Cam Phillips
+| Virginia Tech
+| WR
+| Mike Ramsay
+| Duke
+| DT
+| Micah Kiser 
+| Virginia 
+| ILB
+| Cameron Glenn
+| Wake Forest
+| FS
+| Will Spiers
+| Clemson
+| P
+| Josh Jackson
+| Virginia Tech
+| QB
+|-
+| Week 4 (Sept. 22)<ref>{{cite web|url=http://theacc.com/news/2017/9/25/ACC_POTW_0925.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=September 25, 2017|access-date=September 25, 2017}}</ref>
+| [[Kurt Benkert]]
+| Virginia
+| QB
+| Parker Braun
+| Georgia Tech
+| OG
+| Andrew Levrone
+| Virginia
+| WR
+| Bradley Chubb
+| NC State
+| DE
+| Parris Bennett
+| Syracuse
+| WLB
+| Byron Fields Jr.
+| Duke
+| CB
+| Quadree Henderson
+| Pittsburgh
+| KR
+| [[Travis Etienne]]
+| Clemson
+| RB
+|-
+| Week 5 (Sept. 29)<ref>{{cite web|url=http://theacc.com/news/2017/10/2/ACC_FB_POTW-1002.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=October 2, 2017|access-date=October 2, 2017}}</ref>
+| [[Max Browne]]
+| Pittsburgh
+| QB
+| Kenny Cooper
+| Georgia Tech
+| C
+| Ervin Philips
+| Syracuse
+| WR
+| Bradley Chubb
+| NC State
+| DE
+| Dorian O'Daniel
+| Clemson
+| LB
+| A.J. Gray
+| Georgia Tech
+| S
+| Ricky Aguayo
+| Florida State
+| PK
+| Greg Dortch
+| Wake Forest
+| WR
+|-
+| Week 6 (Oct. 6)<ref>{{cite web|url=http://theacc.com/news/2017/10/9/FB_POTW_1009.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=October 9, 2017|access-date=October 9, 2017}}</ref>
+| [[Ryan Finley (American football)|Ryan Finley]]
+| NC State
+| QB
+| Will Richardson
+| NC State
+| OT
+| Braxton Berrios
+| Miami
+| WR
+| [[Zach Allen]]
+| Boston College
+| DE
+| Joe Giles-Harris
+| Duke
+| LB
+| Quin Blanding
+| Virginia
+| FS
+| [[Alex Kessman]]
+| Pittsburgh
+| PK
+| Sean Savoy
+| Virginia Tech
+| WR
+|-
+| Week 7 (Oct. 13)<ref>{{cite web|url=http://theacc.com/news/2017/10/16/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=October 16, 2017|access-date=October 16, 2017}}</ref>
+| [[A. J. Dillon]] <br>& Eric Dungey
+| Boston College <br>& Syracuse
+| RB <br> QB
+| Chris Lindstrom
+| Boston College
+| RT
+| Ervin Philips<br>& Darrell Langham
+| Syracuse <br>& Miami
+| WR
+| [[Clelin Ferrell]]
+| Clemson
+| DE
+| Parris Bennett
+| Syracuse
+| WLB
+| Quin Blanding 
+| Virginia
+| FS
+| Michael Badgley
+| Miami
+| PK
+| A. J. Dillon
+| Boston College
+| RB
+|-
+| Week 8 (Oct. 20)<ref>{{cite web|url=http://theacc.com/news/2017/10/23/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=October 23, 2017|access-date=October 23, 2017}}</ref>
+| Darrin Hall
+| Pittsburgh
+| RB
+| Shamire Devine
+| Georgia Tech
+| OG
+| Christopher Herndon IV
+| Miami
+| TE
+| [[Ricky Walker]]
+| Virginia Tech
+| DT
+| Michael Pinckney
+| Miami
+| MLB
+| Jordan Whitehead <br> & Reggie Floyd
+| Pittsburgh <br> & Virginia Tech
+| SS <br> S
+| Greg Stroman
+| Virginia Tech
+| KR
+| [[Anthony Brown (quarterback)|Anthony Brown]]
+| Boston College
+| QB
+|-
+| Week 9 (Oct. 27)<ref>{{cite web|url=http://theacc.com/news/2017/10/30/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=October 30, 2017|access-date=October 30, 2017}}</ref>
+| [[John Wolford]]
+| Wake Forest
+| QB
+| Mitch Hyatt
+| Clemson
+| OT
+| Greg Dortch
+| Wake Forest
+| WR
+| [[R. J. McIntosh]]
+| Miami
+| DT
+| Ty Schwab
+| Boston College
+| WLB
+| Terrell Edumnds
+| Virginia Tech
+| S
+| Quadree Henderson
+| Pittsburgh
+| KR
+| Greg Dortch
+| Wake Forest
+| WR
+|-
+| Week 10 (Nov. 4)<ref>{{cite web|url=http://theacc.com/news/2017/11/6/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=November 6, 2017|access-date=November 6, 2017}}</ref>
+| Cam Akers
+| Florida State
+| RB
+| Mitch Hyatt
+| Clemson
+| OT
+| Steve Ishmael
+| Syracuse
+| WR
+| [[Clelin Ferrell]]
+| Clemson
+| DE
+| Micah Kiser
+| Virginia
+| ILB
+| Jaquan Johnson
+| Miami
+| S
+| Joe Reed
+| Virginia
+| KR
+| Cam Akers
+| Florida State
+| RB
+|-
+| Week 11 (Nov. 9)<ref>{{cite web|url=http://theacc.com/news/2017/11/13/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=November 13, 2017|access-date=November 13, 2017}}</ref>
+| John Wolford
+| Wake Forest
+| QB
+| Navaugh Donaldson
+| Miami
+| RG
+| Cam Serigne
+| Wake Forest
+| TE
+| [[Bradley Chubb]]
+| NC State
+| DE
+| Brant Mitchell <br> & Zach McCloud
+| Georgia Tech <br> & Miami
+| LB
+| Jaquan Johnson
+| Miami
+| S
+| Anthony Ratliff-Williams
+| North Carolina
+| WR
+| Travis Etienne
+| Clemson
+| RB
+|-
+| Week 12 (Nov. 18)<ref>{{cite web|url=http://theacc.com/news/2017/11/20/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=November 20, 2017|access-date=November 20, 2017}}</ref>
+
+| [[Lamar Jackson]]
+| Louisville
+| QB
+| Ryan Anderson
+| Wake Forest
+| C
+| Tabari Hines
+| Wake Forest
+| WR
+| Trent Harris <br> & Joshua Kaindoh
+| Miami <br> & Florida State
+| DE
+| Demetrius Kemp
+| Wake Forest
+| LB
+| Jaquan Johnson
+| Miami
+| S
+| Ryan Winslow
+| Pittsburgh
+| P
+| A. J. Dillon
+| Boston College
+| RB
+|-
+| Week 13 (Nov. 24)<ref>{{cite web|url=http://theacc.com/news/2017/11/27/acc-announces-football-players-of-the-week.aspx|title=ACC Announces Football Players of the Week|publisher=The Atlantic Coast Conference|website=theacc.com|date=November 27, 2017|access-date=November 27, 2017}}</ref>
+| [[Lamar Jackson]]
+| Louisville
+| QB
+| [[Garrett Bradbury]] <br> & Mitch Hyatt
+| NC State  <br> & Clemson
+| C <br> & LT
+| Steve Ishmael
+| Syracuse
+| WR
+| [[Brian Burns (American football)|Brian Burns]]
+| Florida State
+| DE
+| [[Tremaine Edmunds]]
+| Virginia Tech
+| LB
+| Will Harris <br> & Avonte Maddox
+| Boston College <br> & Pittsburgh
+| S <br> & CB
+| Dom Maggio
+| Wake Forest
+| P
+| [[Kenny Pickett]]
+| Pittsburgh
+| QB
+|-
+|}
+
+===All-conference teams===
+
+<ref>{{cite web|url=http://theacc.com/news/2017/11/27/2017-all-acc-football-teams-announced.aspx|title=2017 All-ACC Football Teams Announced|website=theacc.com|publisher=The Atlantic Coast Conference|date=November 27, 2017|access-date=November 27, 2017}}</ref>
+
+{{col-begin}}
+{{col-1-of-3}}
+
+'''First Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Class
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Lamar Jackson]]
+| Jr.
+!| Louisville
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[A. J. Dillon]]
+| Fr.
+!| Boston College
+
+|- style="text-align:center;"
+| [[Nyheim Hines]]
+| Jr.
+!| NC State
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Steve Ishmael]]
+| Sr.
+!| Syracuse
+
+|- style="text-align:center;"
+| Cam Phillips
+| Sr.
+!| Virginia Tech
+
+|- style="text-align:center;"
+| Jaylen Smith
+| Jr.
+!| Louisville
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| Cam Serigne
+| Sr.
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Mitch Hyatt]]
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Brian O'Neill (American football)|Brian O'Neill]]
+| Jr.
+!| Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| Tyrone Crowder
+| Sr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Wyatt Teller]]
+| Sr.
+!| Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| Justin Falcinelli
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Jaylen Samuels]]
+| Sr.
+!| NC State
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Bradley Chubb]]
+| Sr.
+!| NC State
+
+|- style="text-align:center;"
+| [[Clelin Ferrell]]
+| So.
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Christian Wilkins]]
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Dexter Lawrence]]
+| So.
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Micah Kiser]]
+| Sr.
+!| Virginia
+
+|- style="text-align:center;"
+| [[Tremaine Edmunds]]
+| Jr
+!| Virginia Tech
+
+|- style="text-align:center;"
+| Joe Giles-Harris
+| So.
+!| Duke
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| Mark Gilbert
+| So.
+!| Duke
+
+|- style="text-align:center;"
+| [[Greg Stroman]]
+| Sr.
+!| Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Quin Blanding]]
+| Sr.
+!| Virginia
+
+|- style="text-align:center;"
+| [[Derwin James]]
+| So.
+!| Florida State
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''First Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| Michael Badgley
+| Sr.
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Ryan Winslow]]
+| Sr.
+!| Pittsburgh
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Anthony Ratliff-Williams]]
+| So.
+!| North Carolina
+|-
+|}
+
+{{col-2-of-3}}
+'''Second Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Class
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| John Wolford
+| Sr.
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| KirVonte Benson
+| So.
+!| Georgia Tech
+
+|- style="text-align:center;"
+| [[Travis Homer]]
+| So.
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Kelvin Harmon]]
+| So.
+!| NC State
+
+|- style="text-align:center;"
+| [[Olamide Zaccheaus]]
+| Jr.
+!| Virginia
+
+|- style="text-align:center;"
+| Ervin Philips
+| Sr.
+!| Syracuse
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Chris Herndon|Christopher Herndon IV]]
+| Sr.
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[Will Richardson (American football)|Will Richardson]]
+| Jr.
+!| NC State
+
+|- style="text-align:center;"
+| Chris Lindstrom
+| Jr.
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| Tony Adams
+| Sr.
+!| NC State
+
+|- style="text-align:center;"
+| Parker Braun
+| So.
+!| Georgia Tech
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| Alec Eberle
+| Jr.
+!| Florida State
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Greg Dortch]]
+| Fr.
+!| Wake Forest
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Austin Bryant]]
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Duke Ejiofor]]
+| Sr.
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Tim Settle]]
+| So.
+!| Virginia Tech
+
+|- style="text-align:center;"
+| [[R. J. McIntosh]]
+| Jr.
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| [[Dorian O'Daniel]]
+| Sr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Shaquille Quarterman]]
+| So.
+!| Miami
+
+|- style="text-align:center;"
+| Parris Bennett
+| Sr.
+!| Syracuse
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Michael Jackson (cornerback)|Michael Jackson]]
+| Jr.
+!| Miami
+
+|- style="text-align:center;"
+| [[Tarvarus McFadden]]
+| Jr.
+!| Florida State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Jaquan Johnson]]
+| Jr.
+!| Miami
+
+|- style="text-align:center;"
+| Lukas Denis
+| Jr.
+!| Boston College
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Second Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| Mike Weaver
+| Sr.
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| Lester Coleman
+| Jr.
+!| Virginia
+
+|- style="text-align:center;"
+! rowspan="1" | [[Kickoff returner|SP]]
+| [[Quadree Henderson]]
+| Jr.
+!| Pittsburgh
+|-
+|}
+
+{{col-3-of-3}}
+'''Third Team'''
+{| class="wikitable"
+|-
+! Position
+! Player
+! Class
+! Team
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Offense'''
+|- style="text-align:center;"
+! rowspan="1" | [[Quarterback|QB]]
+| [[Ryan Finley (American football)|Ryan Finley]]
+| Jr.
+!| NC State
+
+|- style="text-align:center;"
+! rowspan="2" | [[Running back|RB]]
+| [[Travis Etienne]]
+| Fr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Cam Akers]]
+| Fr.
+!| Florida State
+
+|- style="text-align:center;"
+! rowspan="3" | [[Wide receiver|WR]]
+| [[Braxton Berrios]]
+| Sr.
+!| Miami
+
+|- style="text-align:center;"
+| [[Hunter Renfrow]]
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+| [[Deon Cain]]
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+! rowspan="1" | [[Tight end|TE]]
+| [[Tommy Sweeney]]
+| Jr.
+!| Boston College
+
+|- style="text-align:center;"
+! rowspan="2" | [[Offensive tackle|T]]
+| [[K. C. McDermott]]
+| Sr.
+!| Miami
+
+|- style="text-align:center;"
+| Justin Herron
+| Jr.
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="2" | [[Guard (American football)|G]]
+| [[Taylor Hearn (American football)|Taylor Hearn]]
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+| Phil Haynes
+| Jr.
+!| Wake Forest
+
+|- style="text-align:center;"
+! rowspan="1" | [[Center (American football)|C]]
+| Austin Davis
+| Sr.
+!| Duke
+
+|- style="text-align:center;"
+! rowspan="1" | All Purpose Back
+| [[Anthony Ratliff-Williams]]
+| So.
+!| North Carolina
+
+|- style="text-align:center;"
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Defense'''
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive end|DE]]
+| [[Harold Landry]]
+| Sr.
+!| Boston College
+
+|- style="text-align:center;"
+| Trent Harris
+| Sr.
+!| Miami
+
+|- style="text-align:center;"
+! rowspan="2" | [[Defensive tackle|DT]]
+| [[Derrick Nnadi]]
+| Sr.
+!| Florida State
+
+|- style="text-align:center;"
+| Mike Ramsay
+| Sr.
+!| Duke
+
+|- style="text-align:center;"
+! rowspan="3" | [[Linebacker|LB]]
+| Kendall Joseph
+| Jr.
+!| Clemson
+
+|- style="text-align:center;"
+| Ty Schwab
+| Sr.
+!| Boston College
+
+|- style="text-align:center;"
+| Andrew Motuapuaka
+| Sr.
+!| Virginia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Cornerback|CB]]
+| [[Avonte Maddox]]
+| Sr.
+!| Pittsburgh
+
+|- style="text-align:center;"
+| [[Juan Thornhill]]
+| Jr.
+!| Virginia
+
+|- style="text-align:center;"
+! rowspan="2" | [[Safety (American football position)|S]]
+| [[Terrell Edmunds]]
+| Jr.
+!| Virginia Tech
+
+|- style="text-align:center;"
+| Jeremy McDuffie
+| Jr.
+!| Duke
+
+|-
+| colspan="4" style="text-align:center; background:#ddd;"| '''Third Team Special Teams'''
+|- style="text-align:center;"
+! rowspan="1" | [[Placekicker|PK]]
+| Cole Murphy
+| Sr.
+!| Syracuse
+
+|- style="text-align:center;"
+! rowspan="1" | [[Punter (American football)|P]]
+| [[Pressley Harvin III]]
+| Fr.
+!| Georgia Tech
+
+|- style="text-align:center;"
+! rowspan="2" | [[Kickoff returner|SP]]
+| [[Nyheim Hines]]
+| Jr.
+!| NC State
+
+|- style="text-align:center;"
+| [[Michael Walker (American football)|Michael Walker]]
+| Jr.
+!| Boston College
+|}
+
+{{col-end}}
+
+===[[Atlantic Coast Conference football individual awards|ACC Individual Awards]]===
+ 
+{{col-begin}}
+{{col-1-of-3}}
+'''ACC Player of the Year'''
+: [[Lamar Jackson]], Louisville<ref name="lamar">{{cite web|url=http://theacc.com/news/2017/11/29/football-louisvilles-jackson-repeats-as-acc-player-of-the-year.aspx|website=theacc.com|title=Louisville's Jackson Repeats as ACC Player of the Year|publisher=The Atlantic Coast Conference|date=November 29, 2017|access-date=November 30, 2017}}</ref>
+ 
+'''ACC Rookie of the Year'''
+: [[A. J. Dillon]], Boston College<ref name="rookie">{{cite web|url=http://theacc.com/news/2017/11/28/football-boston-colleges-dillon-voted-acc-rookie-of-the-year-virginias-nelson-selected-top-defensive-rookie.aspx|website=theacc.com|title=Boston College's Dillon Voted ACC Rookie of the Year; Virginia's Nelson Selected Top Defensive Rookie|publisher=The Atlantic Coast Conference|date=November 28, 2017|access-date=November 28, 2017}}</ref> 
+ 
+'''ACC Coach of the Year'''
+: [[Mark Richt]], Miami<ref>{{cite web|url=http://theacc.com/news/2017/11/28/miamis-richt-voted-acc-football-coach-of-the-year.aspx|website=theacc.com|title=Miami's Richt Voted ACC Football Coach of the Year|publisher=The Atlantic Coast Conference|date=November 28, 2017|access-date=November 28, 2017}}</ref>
+ 
+{{col-2-of-3}}
+'''ACC Offensive Player of the Year'''
+: Lamar Jackson, Louisville<ref name="lamar"/>
+ 
+'''ACC Offensive Rookie of the Year'''
+: A. J. Dillon, Boston College<ref name="rookie"/> 
+ 
+'''[[Jacobs Blocking Trophy]]'''
+: [[Mitch Hyatt]], Clemson<ref>{{cite web|url=http://theacc.com/news/2017/11/26/football-clemsons-hyatt-named-acc-jacobs-blocking-trophy-recipient.aspx?path=football|website=theacc.com|title=Clemson's Hyatt Named ACC Jacobs Blocking Trophy Recipient|publisher=The Atlantic Coast Conference|date=November 26, 2017|access-date=November 27, 2017}}</ref>
+ 
+{{col-3-of-3}}
+'''ACC Defensive Player of the Year'''
+: [[Bradley Chubb]], NC State<ref name="lamar"/>
+ 
+'''ACC Defensive Rookie of the Year'''
+: Brenton Nelson, Virginia<ref name="rookie"/> 
+ 
+{{col-end}}
+
+====All-Americans====
+
+{{Main|2017 College Football All-America Team}}
+
+=====Consensus=====
+
+Unanimous selection: [[Bradley Chubb]] - NC State
+
+=====Associated Press=====
+<ref>{{cite web|url=http://theacc.com/news/2017/12/11/football-acc-second-with-14-all-americans.aspx|title=ACC Second With 14 AP All-Americans|publisher=The Atlantic Coast Conference|website=theacc.com|date=December 11, 2017|access-date=December 12, 2017}}</ref>
+* AP First Team: 
+[[Bradley Chubb]] - NC State, 
+[[Clelin Ferrell]] - Clemson,
+* AP Second Team: 
+[[Lamar Jackson]] - Louisville, 
+[[Mitch Hyatt]] - Clemson,
+[[Christian Wilkins]] - Clemson,
+[[Dorian O'Daniel]] - Clemson,
+[[Derwin James]] - Florida State,
+* AP Third Team: 
+[[Tyrone Crowder]] - Clemson,
+[[Jaylen Samuels]] - NC State,
+[[Steve Ishmael]] - Syracuse,
+[[Austin Bryant]] - Clemson,
+[[Micah Kiser]] - Virginia,
+[[Tremaine Edmunds]] - Virginia Tech,
+[[Quin Blanding]] - Virginia,
+
+=====Walter Camp=====
+<ref>{{cite web|url=http://theacc.com/news/2017/12/8/football-chubb-headlines-walter-camp-all-america-team.aspx|title=Chubb Headlines Walter Camp All-America Team|publisher=The Atlantic Coast Conference|website=theacc.com|date=December 8, 2017|access-date=December 12, 2017}}</ref>
+*Walter Camp First Team:
+Bradley Chubb - NC State
+*Walter Camp Second Team:
+Steve Ishmael - Syracuse, 
+Mitch Hyatt - Clemson, 
+Lamar Jackson - Louisville, 
+Austin Bryant - Clemson, 
+Christian Wilkins - Clemson, 
+Micah Kiser - Virginia, 
+[[Joe Giles-Harris]] - Duke, 
+Derwin James - Florida State, 
+Quin Blanding - Virginia, 
+[[Lukas Denis]] - Boston College
+
+=====FWAA=====
+<ref>{{cite web|url=http://theacc.com/news/2017/12/11/football-nine-from-acc-named-to-fwaa-all-america-teams.aspx|title=Nine From ACC Named To FWAA All-America Teams|publisher=The Atlantic Coast Conference|website=theacc.com|date=December 11, 2017|access-date=December 12, 2017}}</ref>
+
+*FWAA First Team:
+Bradley Chubb - NC State,
+Austin Bryant - Clemson,
+Derwin James - Florida State,
+
+*FWAA Second Team:
+Lamar Jackson - Louisville,
+Steve Ishmael - Syracuse,
+Mitch Hyatt - Clemson,
+[[Clelin Ferrell]] - Clemson,
+Micah Kiser - Virginia,
+Quin Blanding - Virginia,
+
+====National Award Winners====
+*[[Bronko Nagurski Trophy]] – [[Bradley Chubb]] - Defensive End, NC State
+*[[Broyles Award]] - [[Tony Elliott (American football coach)|Tony Elliott]] - Co-Offensive Coordinator, Clemson
+*[[Walter Camp Coach of the Year Award]] - [[Mark Richt]] - Head Coach, Miami
+*[[William V. Campbell Trophy|Campbell Trophy]] - [[Micah Kiser]] - Linebacker, Virginia
+
+==Home game attendance==
+{| class="wikitable sortable"
+|-'''Attendance'''
+!Team
+!Stadium
+!Capacity
+!Game 1
+!Game 2
+!Game 3
+!Game 4
+!Game 5 
+!Game 6
+!Game 7
+!Total 
+!Average
+!% of Capacity
+|-
+! |Boston College
+|[[Alumni Stadium]]
+| 44,500<ref>{{cite web|url=http://bceagles.com/sports/2015/8/14/GamedayA-Z-Football.aspx|website=bceagles.com|title=Alumni Stadium: A to Z|access-date=September 23, 2016}}</ref>
+| 38,082
+| 44,500†
+| 27,036
+| 32,057
+| 40,629
+| 33,242
+| style="background:#666666;" |
+| 215,546
+| 35,924
+| 80.73%
+|-
+! |Clemson
+|[[Memorial Stadium (Clemson)|Memorial Stadium]]
+| 81,500<ref>{{cite web|url=http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|website=ClemsonTigers.com|title=Memorial Stadium-Death Valley-Denny Stadium|access-date=September 23, 2016|archive-url=https://web.archive.org/web/20160924022856/http://www.clemsontigers.com/ViewArticle.dbml?ATCLID=205504990|archive-date=2016-09-24|url-status=dead}}</ref>
+| 80,121
+| '''81,799'''†
+| 80,525
+| 80,567
+| 80,346
+| 81,436
+| 80,618
+| 565,412
+| 80,773
+| 99.11%
+|-
+! |Duke
+|[[Wallace Wade Stadium]]
+| 40,000<ref>{{cite web|url=http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|website=goduke.com|title=Brooks Field at Wallace Wade Stadium|access-date=September 23, 2016|archive-date=October 12, 2016|archive-url=https://web.archive.org/web/20161012031200/http://www.goduke.com/ViewArticle.dbml?ATCLID=218252|url-status=dead}}</ref>
+| 30,477
+| 20,241
+| 26,714
+| 36,314†
+| 31,073
+| 22,621
+| 20,141
+| 187,518
+| 26,797
+| 66.99%
+|-
+! |Florida State
+|[[Doak Campbell Stadium]]
+| 79,560<ref>{{cite web|url=http://www.seminoles.com/ViewArticle.dbml?ATCLID=209595993|website=Seminoles.com|title=Bobby Bowden Field at Doak S. Campbell Stadium|access-date=September 23, 2016}}</ref>
+| 73,541
+| 78,169†
+| 72,764
+| 71,805
+| 70,599
+| 58,780
+| style="background:#666666;" |
+| 425,658
+| 70,943
+| 89.17%
+|-
+! |Georgia Tech
+|[[Bobby Dodd Stadium]]
+| 55,000<ref>{{cite web|url=http://www.ramblinwreck.com/genrel/071001aaa.html|website=RamblinWreck.com|title=Bobby Dodd Stadium at Historic Grant Field|access-date=September 23, 2016}}</ref>
+| 50,161
+| 40,211
+| 42,805
+| 45,224
+| 47,909
+| 55,000†
+| style="background:#666666;" |
+| 281,310
+| 46,885
+| 85.25%
+|-
+! |Louisville
+|[[Papa John's Cardinal Stadium]]
+| 55,000<ref>{{cite web|url=http://www.pjcardinalstadium.comwebsite=pjcardinalstadium.com|title=Papa Johns Cardinal Stadium|access-date=September 23, 2016}}{{Dead link|date=September 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+| '''55,588'''†
+| 47,812
+| 47,826
+| 44,679
+| 46,787
+| 34,265
+| style="background:#666666;" |
+| 276,957
+| 46,160
+| 84.75%
+|-
+! |Miami
+|[[Hard Rock Stadium]]
+| 65,326<ref>{{cite web|url=http://hardrockstadium.com/faqs/|website=HardRockStadium.com|title=Hard Rock Stadium FAQs|access-date=September 23, 2016|archive-url=https://web.archive.org/web/20160922231817/http://hardrockstadium.com/faqs/|archive-date=2016-09-22|url-status=dead}}</ref>
+| 50,454
+| 49,361
+| 55,799
+| 56,158
+| 63,932
+| 65,326†
+| 63,415
+| 404,444
+| 57,778
+| 88.45%
+|-
+!| North Carolina
+|[[Kenan Memorial Stadium]]
+| 63,000<ref>{{cite web|url=http://www.goheels.com/ViewArticle.dbml?ATCLID=205912861|website=goheels.com|title=Kenan Stadium|access-date=September 23, 2016}}</ref>
+| 49,500
+| 47,000
+| 59,000†
+| 57,000
+| 50,000
+| 45,000
+| 43,000
+| 350,500
+| 50,071
+| 76.65%
+|-
+!| NC State
+|[[Carter–Finley Stadium]]
+| 57,583<ref>{{cite web|url=http://gopack.com/facilities/?id=3|website=gopack.com|title=Facilities|access-date=September 23, 2016}}</ref>
+| 57,430
+| 56,166
+| 56,197
+| 56,107
+| '''57,600'''†
+| '''57,600'''†
+| style="background:#666666;" |
+| 341,100
+| 56,850
+| 98.73%
+|-
+!| Pittsburgh
+|[[Heinz Field]]
+| 68,400<ref>{{cite web|url=http://heinzfield.com/stadium/heinz-field-facts/|website=HeinzField.com|title=Heinz Field Facts|access-date=September 23, 2016|archive-date=October 3, 2014|archive-url=https://web.archive.org/web/20141003160106/http://heinzfield.com/stadium/heinz-field-facts/|url-status=dead}}</ref>
+| 40,012
+| 38,952
+| 33,051
+| 41,124†
+| 30,889
+| 34,056
+| 35,978
+| 254,062
+| 36,295
+| 53.06%
+|-
+!| Syracuse
+|[[Carrier Dome]]
+| 49,262<ref>{{cite web|url=http://www.cuse.com/facilities/carrier-dome.aspx|website=cuse.com|title=Carrier Dome|access-date=September 23, 2016|archive-date=September 19, 2016|archive-url=https://web.archive.org/web/20160919151111/http://cuse.com/facilities/carrier-dome.aspx|url-status=dead}}</ref>
+| 30,273
+| 29,731
+| 33,004
+| 33,290
+| 42,475†
+| 38,539
+| 30,202
+| 237,514
+| 33,931
+| 68.88%
+|-
+!| Virginia
+|[[Scott Stadium]]
+| 61,500<ref>{{cite web|url=http://www.virginiasports.com/facilities/scott-stadium.html|website=virginiasports.com|title=Carl Smith Center, home of David A. Harrison III Field at Scott Stadium|access-date=September 23, 2016}}</ref>
+| 38,828
+| 38,993
+| 33,056
+| 38,638
+| 39,216
+| 38,448
+| 48,609†
+| 275,788
+| 39,398
+| 64.06%
+|-
+!| Virginia Tech
+|[[Lane Stadium]]
+| 66,233<ref>{{cite web|url=https://www.vt.edu/about/buildings/lane-stadium-worsham-field.html|website=vt.edu|title=Lane Stadium/Worsham Field|access-date=September 23, 2016}}</ref>
+| 62,526
+| 65,632†
+| 65,632†
+| 65,632†
+| 60,914
+| 58,948
+| style="background:#666666;" |
+| 379,284
+| 63,214
+| 96.77%
+|-
+!| Wake Forest
+|[[BB&T Field]]
+| 31,500<ref>{{cite web|url=http://www.wakeforestsports.com/facilities/wake-bbt-field.html|website=wakeforestsports.com|title=Wake Forest Facilities|access-date=September 23, 2016|archive-date=September 20, 2016|archive-url=https://web.archive.org/web/20160920213752/http://www.wakeforestsports.com/facilities/wake-bbt-field.html|url-status=dead}}</ref>
+| 22,643
+| 27,971
+| '''31,588'''†
+| 29,593
+| 31,803
+| 27,016
+| style="background:#666666;" |
+| 170,614
+| 28,436
+| 90.27%
+|}
+
+'''Bold''' – Exceeded capacity<br>
+†Season High
+
+==NFL draft==
+{{main|2018 NFL draft}}
+
+There were a total of 45 athletes from the Atlantic Coast Conference selected in the 2018 NFL Draft.  This was the second most from a single conference in the draft, and the third most from the ACC all–time.  Georgia Tech was the only member university to not have a player drafted.<ref>{{cite web|url=http://theacc.com/news/2018/4/28/football-acc-has-45-selected-in-2018-nfl-draft.aspx|title=ACC Has 45 Selected in 2018 NFL Draft|publisher=Atlantic Coast Conference|website=theacc.com|date=April 28, 2018|access-date=April 30, 2018}}</ref>
+
+{| class="wikitable sortable" border="1" style="text-align: center;"
+|-
+!style="background:#A8BDEC;" width=7%| Round # !!style="background:#A8BDEC;" width=7%| Pick # !!width=40% style="background:#A8BDEC;"| NFL team !!width=15% style="background:#A8BDEC;"| Player !!width=13% style="background:#A8BDEC;"| Position !!style="background:#A8BDEC;"| College
+|-
+! 1||5
+| [[Denver Broncos]] || [[Bradley Chubb]] || [[Defensive end]] || [[NC State Wolfpack football|NC State]]
+|-
+! 1||16
+| [[Buffalo Bills]] <sup>(from Baltimore)</sup> || [[Tremaine Edmunds]] || [[Linebacker]] || [[Virginia Tech Hokies football|Virginia Tech]]
+|-
+! 1||17
+| [[Los Angeles Chargers]] || [[Derwin James]] || [[Safety (gridiron football position)|Safety]] || [[Florida State Seminoles football|Florida State]]
+|-
+! 1||18
+| [[Green Bay Packers]] <sup>(from Seattle)</sup>|| [[Jaire Alexander]] || [[Cornerback]] || [[Louisville Cardinals football|Louisville]]
+|-
+! 1||28
+| [[Pittsburgh Steelers]] || [[Terrell Edmunds]] || [[Safety (gridiron football position)|Safety]] || [[Virginia Tech Hokies football|Virginia Tech]]
+|-
+! 1||32
+| [[Baltimore Ravens]] <sup>(from Philadelphia)</sup> || [[Lamar Jackson]] || [[Quarterback]] || [[Louisville Cardinals football|Louisville]]
+|-
+! 2||41
+| [[Tennessee Titans]] <sup>(from Oakland)</sup> || [[Harold Landry]] || [[Linebacker]] || [[Boston College Eagles football|Boston College]]
+|-
+! 2||54
+| [[Cincinnati Bengals]] <sup>(from Kansas City)</sup> || [[Jessie Bates]] || [[Safety (gridiron football position)|Safety]] || [[Wake Forest Demon Deacons football|Wake Forest]]
+|-
+! 2||62
+| [[Minnesota Vikings]] || [[Brian O'Neill (American football)|Brian O'Neill]] || [[Tackle (gridiron football position)|Tackle]] || [[Pittsburgh Panthers football|Pittsburgh]]
+|-
+! 3||67
+| [[Indianapolis Colts]] || [[Chad Thomas]] || [[Defensive end]]  || [[Miami Hurricanes football|Miami]]
+|-
+! 3||69
+| [[New York Giants]]<sup>(from Tampa Bay)</sup> || [[B. J. Hill (American football)|B.J. Hill]] || [[Defensive tackle]] || [[NC State Wolfpack football|NC State]]
+|-
+! 3||74
+| [[Washington Redskins]]<sup>(from San Francisco)</sup> || [[Geron Christian]] || [[Offensive tackle]] || [[Louisville Cardinals football|Louisville]]
+|-
+! 3||75
+| [[Kansas City Chiefs]]<sup>(from Baltimore through Oakland)</sup> || [[Derrick Nnadi]] || [[Defensive tackle]] || [[Florida State Seminoles football|Florida State]]
+|-
+! 3||84
+| [[Los Angeles Chargers]] || [[Justin Jones (American football)|Justin Jones]] || [[Defensive tackle]] || [[NC State Wolfpack football|NC State]]
+|-
+! 3||99
+| [[Denver Broncos]] || [[Isaac Yiadom]] || [[Cornerback]] || [[Boston College Eagles football|Boston College]]
+|-
+! 3||100
+| [[Kansas City Chiefs]]<sup>(from Cincinnati)</sup> || [[Dorian O'Daniel]] || [[Linebacker]] || [[Clemson Tigers football|Clemson]]
+|-
+! 4||104
+| [[Indianapolis Colts]] || [[Nyheim Hines]] || [[Running back]] || [[NC State Wolfpack football|NC State]]
+|-
+! 4||107
+| [[New York Jets]] || [[Chris Herndon]] || [[Tight end]] || [[Miami Hurricanes football|Miami]]
+|-
+! 4||112
+| [[Cincinnati Bengals]] || [[Mark Walton (American football)|Mark Walton]] || [[Running back]] || [[Miami Hurricanes football|Miami]]
+|-
+! 4||117
+| [[Tampa Bay Buccaneers]]<sup>(from Detroit via New England)</sup> || [[Jordan Whitehead]] || [[Safety (gridiron football position)|Safety]] || [[Pittsburgh Panthers football|Pittsburgh]]
+|-
+! 4||125
+| [[Philadelphia Eagles]]<sup>(from Baltimore via Tennessee)</sup> || [[Avonte Maddox]] || [[Cornerback]] || [[Pittsburgh Panthers football|Pittsburgh]]
+|-
+! 4||127
+| [[New Orleans Saints]] || [[Rick Leonard]] || [[Tackle (gridiron football position)|Tackle]] || [[Florida State Seminoles football|Florida State]]
+|-
+! 4||128
+| [[San Francisco 49ers]]<sup>(from Pittsburgh)</sup> || [[Kentavius Street]] || [[Defensive end]] || [[NC State Wolfpack football|NC State]]
+|-
+! 4||129
+| [[Jacksonville Jaguars]] || [[Will Richardson (American football)|Will Richardson]] || [[Tackle (gridiron football position)|Tackle]] || [[NC State Wolfpack football|NC State]]
+|-
+! 4||130
+| [[Philadelphia Eagles]]<sup>(from Minnesota)</sup> || [[Josh Sweat]] || [[Defensive end]] || [[Florida State Seminoles football|Florida State]]
+|-
+! 5||139
+| [[New York Giants]] || [[R. J. McIntosh]] || [[Defensive tackle]] || [[Miami Hurricanes football|Miami]]
+|-
+! 5||147
+| [[Los Angeles Rams]]<sup>(from Miami via New Orleans and Green Bay)</sup> || [[Micah Kiser]] || [[Linebacker]] || [[Virginia Cavaliers football|Virginia]]
+|-
+! 5||158
+| [[Cincinnati Bengals]]<sup>(from Buffalo)</sup> || [[Andrew Brown (American football)|Andrew Brown]] || [[Defensive end]] || [[Virginia Cavaliers football|Virginia]]
+|-
+! 5||163
+| [[Washington Redskins]]<sup>(from Atlanta via Denver)</sup> || [[Tim Settle]] || [[Defensive tackle]] || [[Virginia Tech Hokies|Virginia Tech]]
+|-
+! 5||165
+| [[Pittsburgh Steelers]] || [[Jaylen Samuels]] || [[Fullback (gridiron football)|Fullback]] || [[NC State Wolfpack football|NC State]]
+|-
+! 5||166
+| [[Buffalo Bills]]<sup>(from Jacksonville)</sup> || [[Wyatt Teller]] || [[Guard (gridiron football)|Guard]] || [[Virginia Tech Hokies football|Virginia Tech]]
+|-
+! 6||177
+| [[Houston Texans]] || [[Duke Ejiofor]] || [[Defensive end]] || [[Wake Forest Demon Deacons football|Wake Forest]]
+|-
+! 6||185
+| [[Indianapolis Colts]]<sup>(from Oakland)</sup> || [[Deon Cain]] || [[Wide receiver]] || [[Clemson Tigers football|Clemson]]
+|-
+! 6||187
+| [[Buffalo Bills]]<sup>(from Cincinnati)</sup> || [[Ray-Ray McCloud]] || [[Wide receiver]] || [[Clemson Tigers football|Clemson]]
+|-
+! 6||189
+| [[New Orleans Saints]]<sup>(from Arizona)</sup> || [[Kamrin Moore]] || [[Cornerback]] || [[Boston College Eagles football|Boston College]]
+|-
+! 6||205
+| [[Los Angeles Rams]]<sup>(from New England via Cleveland and Washington)</sup> || [[Trevon Young]] || [[Defensive end]] || [[Louisville Cardinals football|Louisville]]
+|-
+! 6||210
+| [[New England Patriots]]<sup>(from Oakland)</sup> || [[Braxton Berrios]] || [[Wide receiver]] || [[Miami Hurricanes football|Miami]]
+|-
+! 7||234
+| [[Carolina Panthers]]<sup>(from LA Chargers via Buffalo)</sup> || [[Andre Smith (linebacker)|Andre Smith]] || [[Linebacker]] || [[North Carolina Tar Heels football|North Carolina]]
+|-
+! 7||235
+| [[Indianapolis Colts]]<sup>(from Seattle via NY Jets)</sup> || [[Zaire Franklin]] || [[Linebacker]] || [[Syracuse Orange football|Syracuse]]
+|-
+! 7||241
+| [[Washington Redskins]]<sup>(from LA Rams)</sup> || [[Greg Stroman]] || [[Cornerback]] || [[Virginia Tech Hokies football|Virginia Tech]]
+|-
+! 7||242
+| [[Carolina Panthers]] || [[Kendrick Norton]] || [[Defensive tackle]] || [[Miami Hurricanes football|Miami]]
+|-
+! 7||250
+| [[New England Patriots]]<sup>(from Philadelphia via Seattle, New England, Seattle, and Philadelphia)</sup> || [[Ryan Izzo]] || [[Tight end]] || [[Florida State Seminoles football|Florida State]]
+|-
+! 7||253
+| [[Cincinnati Bengals]] || [[Auden Tate]] || [[Wide receiver]] || [[Florida State Seminoles football|Florida State]]
+|-
+! 7||255
+| [[Buffalo Bills]]<sup>(from Tampa Bay)</sup> || [[Austin Proehl]] || [[Wide receiver]] || [[North Carolina Tar Heels football|North Carolina]]
+|}
+
+==References==
+{{Reflist}}
+
+{{Atlantic Coast Conference football navbox}}
+{{2017 NCAA Division I FBS football season navbox}}
+
+[[Category:2017 Atlantic Coast Conference football season| ]]

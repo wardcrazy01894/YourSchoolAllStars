@@ -37,9 +37,10 @@ export interface School {
   theme: Theme
   /** Basketball dataset, when the school is live. */
   basketball?: Dataset
-  /** Football dataset, when the school's football game is live. Michigan ships a
-   * MOCK/provisional seed (flagged `provisional`) to flesh out the flow ahead of
-   * curated data; schools without it fall back to the "coming soon" screen. */
+  /** Football dataset, when the school's football game is live (Michigan, Pitt,
+   * Florida, Virginia Tech — all real/sourced). A school without one falls back
+   * to the "coming soon" screen; the `provisional` flag survives for any future
+   * MOCK seed, and keeps such data out of the cross-school Full Football pool. */
   football?: FootballDataset
   /** Does this school field a football team at all? (VCU does not.) The sport
    * picker hides football wherever this is false (else VCU would wrongly show a
