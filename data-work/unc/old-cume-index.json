@@ -1,0 +1,30 @@
+{
+ "2000": {
+  "season": 2000,
+  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/060101aab.html",
+  "snapshot": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/060101aab.html",
+  "scope": "as of Nov 19, 2000",
+  "scopeDate": "Nov 19, 2000"
+ },
+ "2001": {
+  "season": 2001,
+  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/071102aaa.html",
+  "snapshot": "http://web.archive.org/web/20030121155618id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/071102aaa.html",
+  "scope": "as of Dec 01, 2001",
+  "scopeDate": "Dec 01, 2001"
+ },
+ "2002": {
+  "season": 2002,
+  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/teamcume-02.html",
+  "snapshot": "http://web.archive.org/web/20040121140115id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/archive/teamcume-02.html",
+  "scope": "FINAL STATS",
+  "scopeDate": null
+ },
+ "2003": {
+  "season": 2003,
+  "url": "http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/teamcume.html",
+  "snapshot": "http://web.archive.org/web/20040405115508id_/http://tarheelblue.ocsn.com:80/sports/m-footbl/stats/teamcume.html",
+  "scope": "as of Nov 22, 2003",
+  "scopeDate": "Nov 22, 2003"
+ }
+}
