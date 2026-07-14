@@ -113,18 +113,29 @@ pre-1997 defense anywhere) and Pitt (Turnstile-gated media guides) had.
       docs/DATA-SOURCING.md §VT, browser-verify (VT single-school + auto-join
       of Full Football), PR with adversarial review.
 
-## Next actions
+## Next actions (crossval-report.json is the worklist — all inputs now local)
 
-1. Write `data-work/vt/fetch-sr.mjs`: download SR VT season pages 1994–2025
-   via Wayback (`web.archive.org/web/2024/https://www.sports-reference.com/cfb/schools/virginia-tech/<year>.html`
-   — direct SR 403s scripted fetches) into `sr-html/<year>.html`. Note SR
-   pre-redesign snapshots use different table ids (`passing`,
-   `rushing_and_receiving`, positional columns) — see Pitt lesson.
-2. Write `parse-sr.mjs` + `crossval.mjs`: extract SR rows (name, pos, key
-   stats), resolve the 355 unresolved positions (defense-table pos beats
-   offense-table), and emit a phantom/hole/delta report vs merged.json.
-3. Repair deltas (SR-cited rows), trim below composite floor, finalize
-   (QB rush lines, ids, redshirtYears), then honors + ship.
+SR pages are downloaded (`sr-html/`, incl. a fresh Save-Page-Now capture for
+1997 whose old snapshots lacked individual tables) and parsed (`sr/`).
+`crossval.mjs` output (`crossval-report.json`): **136 stat deltas (24 big),
+58 phantoms, 14 holes, 355 unresolved positions** ranked by composite.
+
+1. **Triage deltas/phantoms/holes** (crossval-report.json): repair real
+   divergences with the SR snapshot cited as that row's `source`; known
+   suspect Burmeister 2021 rec:1/recTD:2 should fall out here. Note SR
+   quirks: pbu NOT comparable (SR pass_defended = PBU+INT), pre-2005 SR
+   defense is INT-only (already excluded from phantom/delta logic).
+2. **Position resolution**, worklist order (composite desc). SR fine codes
+   only appear ~2015+; older defenders need verified positions from
+   all-conference listings / Wikipedia bios / VT record book — build a cited
+   override map (`positions-override.json`, name+span → QB..S), drop
+   low-confidence marginal players below the composite floor. Top names are
+   famous (Corey Moore DE, Cornell Brown DE, J.C. Price DT, Ben Taylor LB,
+   Andre Davis WR, Darryl Tapp DE, Kendall Fuller CB…). DB→CB/S and DL→DE/DT
+   splits are the bulk. WMT/SR vote hints are in the report.
+3. **Finalize**: floor trim, QB rush lines, id de-collision, redshirtYears,
+   per-window coverage → build `src/data/vt-football.json`.
+4. **Honors** (stage 4 sources listed above), then **ship** (stage 5).
 
 ## Decisions log
 
