@@ -1,0 +1,176 @@
+<!-- source: https://en.wikipedia.org/wiki/2013_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2013}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2013 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2013 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2012 All-America college football team|2012]] &nbsp; [[2014 All-America college football team|2014]] → 
+}}
+
+The '''2013 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].  In 1950, the National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=2011-10-17 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=2009-07-14 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, covering all NCAA championship sports.
+
+The 2013 College Football All-America Team is composed of the following [[All-America college football team|All-America]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[The Sporting News]]'' (''TSN''), ''[[Sports Illustrated]]'' (''SI''), ''[[USA Today]]'' (USAT) [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], and [[Yahoo! Sports]] (Yahoo!).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I-FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  The system consists of three points for a first-team honor, two points for second-team honor, and one point for third-team honor.  Honorable mention and fourth team or lower recognitions are not accorded any points.  Football consensus teams are compiled by position and the player accumulating the most points at each position is named first team consensus all-American.  Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine Consensus and Unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=2011-12-10 |archive-date=2012-01-03 |date=2010-09-15 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref> For the first time since [[1949 All-America college football team|1949]], the FWAA named a second team in 2013.<ref>{{cite web|title=FWAA NAMES 2013 ALL-AMERICA TEAM|date=December 18, 2013|publisher=Football Writers Association of America |url=http://www.sportswriters.net/fwaa/news/2013/allamerica131218.html|archive-url=https://web.archive.org/web/20131231170209/https://www.sportswriters.net/fwaa/news/2013/allamerica131218.html|archive-date=December 31, 2013|url-status=deviated}}</ref>
+
+In 2013, there were 10 unanimous All-Americans.<ref>{{cite news|title=FSU QB Jameis Winston leads the 2013 Consensus All-America team|url=https://www.ncaa.com/news/football/article/2014-01-08/fsu-qb-jameis-winston-leads-2013-consensus-all-america-team|access-date=May 18, 2017|work=NCAA.com|date=January 8, 2014}}</ref>
+
+{| class="wikitable sortable" style="font-size:90%; text-align:left"
+|-
+! Name !! Position !! Year !! University
+|-
+| [[Jace Amaro]] || Tight End || Junior|| [[2013 Texas Tech Red Raiders football team|Texas Tech]]
+|-
+| [[Darqueze Dennard]] || Defensive Back || Senior || [[2013 Michigan State Spartans football team|Michigan St.]]
+|-
+| [[Aaron Donald]] || Defensive Line || Senior || [[2013 Pittsburgh Panthers football team|Pittsburgh]]
+|-
+| [[Lamarcus Joyner]] || Defensive Back || Senior || [[2013 Florida State Seminoles football team|Florida St.]]
+|-
+| [[Jake Matthews (American football)|Jake Matthews]] || Offensive Line || Senior || [[2013 Texas A&M Aggies football team|Texas A&M]]
+|-
+| [[C. J. Mosley (linebacker)|C.J. Mosley]] || Linebacker || Senior || [[2013 Alabama Crimson Tide football team|Alabama]]
+|-
+| [[Cyril Richardson (American football)|Cyril Richardson]] || Offensive Line || Senior || [[2013 Baylor Bears football team|Baylor]]
+|-
+| [[Michael Sam]] || Defensive Line || Senior || [[2013 Missouri Tigers football team|Missouri]]
+|-
+| [[Andre Williams (American football)|Andre Williams]] || Running Back || Senior || [[2013 Boston College Eagles football team|Boston College]]
+|-
+| [[David Yankey]] || Offensive Line || Junior || [[2013 Stanford Cardinal football team|Stanford]]
+|-
+|}
+
+==Offense==
+
+===Quarterback===
+*[[A. J. McCarron]], [[2013 Alabama Crimson Tide football team|Alabama]] <small>('''AFCA''', '''WCFF''')</small>
+*'''[[Jameis Winston]]''', [[2013 Florida State Seminoles football team|Florida State]] <small>-- CONSENSUS -- ('''AP''', '''FWAA''', '''TSN''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+
+===Running back===
+*'''[[Ka'Deem Carey]]''', [[2013 Arizona Wildcats football team|Arizona]] <small>-- CONSENSUS -- ('''AFCA''', '''FWAA''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+*[[Tre Mason]], [[2013 Auburn Tigers football team|Auburn]] <small> ('''TSN''')</small>
+*'''[[Andre Williams (American football)|Andre Williams]]''', [[2013 Boston College Eagles football team|Boston College]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+
+===Wide receiver===
+*[[Kelvin Benjamin]], [[2013 Florida State Seminoles football team|Florida State]] <small> (SI)</small>
+*'''[[Brandin Cooks]]''', [[2013 Oregon State Beavers football team|Oregon State]] <small>-- CONSENSUS -- ('''FWAA''', '''TSN''', '''WCFF''', '''AP''', CBS, ESPN, SI, Athlon, FOX)</small>
+*'''[[Mike Evans (wide receiver)|Mike Evans]]''', [[2013 Texas A&M Aggies football team|Texas A&M]] <small> -- CONSENSUS -- ('''AFCA''', '''FWAA''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, FOX)</small>
+*[[Jordan Matthews]], [[2013 Vanderbilt Commodores football team|Vanderbilt]] <small>(USAT, Athlon)</small>
+*[[Allen Robinson]], [[2013 Penn State Nittany Lions football team|Penn State]] <small> ('''TSN''', CBS)</small>
+*[[Sammy Watkins (American football)|Sammy Watkins]], [[2013 Clemson Tigers football team|Clemson]] <small>('''AFCA''')</small>
+
+===Tight end===
+*'''[[Jace Amaro]]''', [[2013 Texas Tech Red Raiders football team|Texas Tech]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', CBS, SI, USAT, Athlon, FOX)</small>
+*[[Eric Ebron]], [[2013 North Carolina Tar Heels football team|North Carolina]] <small>(ESPN)</small>
+
+===Offensive line===
+*[[Cameron Erving]], [[2013 Florida State Seminoles football team|Florida State]] <small> ('''TSN''', SI, USAT)</small>
+*[[Hroniss Grasu]], [[2013 Oregon Ducks football team|Oregon]] <small>(SI, Athlon)</small>
+*'''[[Gabe Ikard]]''', [[2013 Oklahoma Sooners football team|Oklahoma]] <small>-- CONSENSUS -- ('''AFCA''', '''WCFF''', CBS, FOX)</small>
+*'''[[Cyrus Kouandjio]]''', [[2013 Alabama Crimson Tide football team|Alabama]] <small>-- CONSENSUS -- ('''AFCA''', '''FWAA''', '''WCFF''', '''AP''', CBS, Athlon)</small>
+*[[Taylor Lewan]], [[2013 Michigan Wolverines football team|Michigan]] <small> ('''TSN''', FOX)</small>
+*'''[[Jake Matthews (American football)|Jake Matthews]]''', [[2013 Texas A&M Aggies football team|Texas A&M]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+*[[Jack Mewhort]], [[2013 Ohio State Buckeyes football team|Ohio State]] <small>(ESPN)</small>
+*'''[[Cyril Richardson (American football)|Cyril Richardson]]''', [[2013 Baylor Bears football team|Baylor]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+*'''[[Bryan Stork]]''', [[2013 Florida State Seminoles football team|Florida State]] <small>-- CONSENSUS -- ('''AP''', '''FWAA''', ESPN)</small>
+*[[Travis Swanson]], [[2013 Arkansas Razorbacks football team|Arkansas]] <small>(USAT)</small>
+*'''[[David Yankey]]''', [[2013 Stanford Cardinal football team|Stanford]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+
+==Defense==
+
+===Defensive line===
+*'''[[Vic Beasley]]''', [[2013 Clemson Tigers football team|Clemson]] <small>-- CONSENSUS -- ('''TSN''', '''WCFF''', CBS, SI, USAT, Athlon)</small>
+*[[Jadeveon Clowney]], [[2013 South Carolina Gamecocks football team|South Carolina]] <small>('''AFCA''')</small>
+*'''[[Aaron Donald]]''', [[2013 Pittsburgh Panthers football team|Pittsburgh]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+*'''[[Jackson Jeffcoat]]''', [[2013 Texas Longhorns football team|Texas]] <small>-- CONSENSUS -- ('''AFCA''', '''WCFF''', '''AP''', FOX)</small>
+*[[Timmy Jernigan]], [[2013 Florida State Seminoles football team|Florida State]] <small>(ESPN, Athlon)</small>
+*[[Kelcy Quarles]], [[2013 South Carolina Gamecocks football team|South Carolina]] <small> ('''TSN''')</small>
+*'''[[Michael Sam]]''', [[2013 Missouri Tigers football team|Missouri]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+*[[Marcus Smith (defensive end, born 1992)|Marcus Smith]], [[2013 Louisville Cardinals football team|Louisville]] <small>('''FWAA''')</small>
+*[[Will Sutton]], [[2013 Arizona State Sun Devils football team|Arizona State]] <small>('''AP''', CBS, USAT, FOX)</small>
+*[[Leonard Williams (defensive end)|Leonard Williams]], [[2013 USC Trojans football team|Southern California]] <small>(ESPN)</small>
+
+===Linebacker===
+*'''[[Anthony Barr (American football)|Anthony Barr]]''', [[2013 UCLA Bruins football team|UCLA]] <small>-- CONSENSUS -- ('''AFCA''', '''TSN''', '''WCFF''', '''AP''', CBS, SI, USAT, Athlon, FOX)</small>
+*[[Chris Borland]], [[2013 Wisconsin Badgers football team|Wisconsin]] <small>('''FWAA''')</small>
+*[[Khalil Mack]], [[2013 Buffalo Bulls football team|Buffalo]] <small>('''FWAA''', CBS, SI)</small>
+*'''[[C. J. Mosley (linebacker)|C. J. Mosley]]''', [[2013 Alabama Crimson Tide football team|Alabama]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, Athlon, FOX)</small>
+*'''[[Trent Murphy]]''', [[2013 Stanford Cardinal football team|Stanford]] <small>-- CONSENSUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', ESPN, SI, FOX)</small>
+*[[Ryan Shazier]], [[2013 Ohio State Buckeyes football team|Ohio State]] <small>('''AP''', USAT, ESPN, SI, Athlon)</small>
+
+===Defensive back===
+*[[Terrence Brooks]], [[2013 Florida State Seminoles football team|Florida State]] <small>(CBS)</small>
+*[[Deone Bucannon]], [[2013 Washington State Cougars football team|Washington State]] <small>('''AP''', Athlon)</small>
+*'''[[Ha Ha Clinton-Dix]]''', [[2013 Alabama Crimson Tide football team|Alabama]] <small>-- CONSENSUS -- ('''AFCA''', '''FWAA''', '''TSN''', ESPN, FOX)</small>
+*'''[[Darqueze Dennard]]''', [[2013 Michigan State Spartans football team|Michigan State]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, CBS, ESPN, SI, Athlon, FOX)</small>
+*[[Ahmad Dixon]], [[2013 Baylor Bears football team|Baylor]] <small> ('''AFCA''', '''TSN''')</small>
+*[[Ifo Ekpre-Olomu]], [[2013 Oregon Ducks football team|Oregon]] <small>(ESPN, FOX)</small>
+*'''[[Justin Gilbert]]''', [[2013 Oklahoma State Cowboys football team|Oklahoma State]] <small>-- CONSENSUS -- ('''FWAA''', '''WCFF''', CBS)</small>
+*[[Anthony Harris (safety)|Anthony Harris]], [[2013 Virginia Cavaliers football team|Virginia]] <small>(SI)</small>
+*'''[[Lamarcus Joyner]]''', [[2013 Florida State Seminoles football team|Florida State]] <small>-- UNANIMOUS -- ('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', '''AP''', USAT, ESPN, SI, Athlon)</small>
+*[[Cody Prewitt]], [[2013 Ole Miss Rebels football team|Ole Miss]] <small>('''AP''', USAT)</small>
+*[[Ed Reynolds (safety)|Ed Reynolds]], [[2013 Stanford Cardinal football team|Stanford]] <small>(CBS, Athlon)</small>
+*[[Jason Verrett]], [[2013 TCU Horned Frogs football team|TCU]] <small>('''WCFF''')</small>
+*[[Jimmie Ward]], [[2013 Northern Illinois Huskies football team|Northern Illinois]] <small>(SI, USAT)</small>
+
+==Special teams==
+
+===Kicker===
+*[[Roberto Aguayo]], [[2013 Florida State Seminoles football team|Florida State]] <small>('''WCFF''', '''AP''', CBS, SI, USAT, Athlon)</small>
+*[[Jeff Budzien]], [[2013 Northwestern Wildcats football team|Northwestern]] <small> ('''TSN''')</small>
+*'''[[Anthony Fera]]''', [[2013 Texas Longhorns football team|Texas]] <small>-- CONSENSUS -- ('''AFCA''', '''FWAA''', '''WCFF''')</small>
+*[[Nate Freese]], [[2013 Boston College Eagles football team|Boston College]] <small>(ESPN)</small>
+
+===Punter===
+*'''[[Tom Hornsey]]''', [[2013 Memphis Tigers football team|Memphis]] <small>-- CONSENSUS -- ('''AFCA''', '''AP''', '''FWAA''', USAT, Athlon)</small>
+*[[Drew Kaser]], [[2013 Texas A&M Aggies football team|Texas A&M]] <small> ('''TSN''', SI)</small>
+*[[Austin Rehkow]], [[2013 Idaho Vandals football team|Idaho]] <small>('''WCFF''')</small>
+*[[Mike Sadler (American football)|Mike Sadler]], [[2013 Michigan State Spartans football team|Michigan State]] <small>(CBS, ESPN)</small>
+
+===All-purpose / return specialist===
+*[[Antonio Andrews]], [[2013 Western Kentucky Hilltoppers football team|Western Kentucky]] <small>(SI)</small>
+*[[Odell Beckham Jr.]], [[2013 LSU Tigers football team|LSU]] <small>('''FWAA''', CBS)</small>
+*[[Chris Davis (cornerback)|Chris Davis]], [[2013 Auburn Tigers football team|Auburn]] <small> ('''TSN''', CBS)</small>
+*[[Myles Jack]], [[2013 UCLA Bruins football team|UCLA]] <small>(Athlon, FOX)</small>
+*[[Jordan Lynch]], [[2013 Northern Illinois Huskies football team|Northern Illinois]] <small>('''AP''')</small>
+*'''[[Ty Montgomery]]''', [[2013 Stanford Cardinal football team|Stanford]] <small>-- CONSENSUS -- ('''AFCA''', '''TSN''', '''WCFF''', CBS, SI, USAT, Athlon, FOX)</small>
+*[[Ryan Switzer]], [[2013 North Carolina Tar Heels football team|North Carolina]] <small>('''FWAA''', ESPN, Athlon)</small>
+
+==See also==
+* [[2013 All-Big 12 Conference football team]]
+* [[2013 All-Big Ten Conference football team]]
+* [[2013 All-Pac-12 Conference football team]]
+* [[2013 All-SEC football team]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*[https://web.archive.org/web/20131219100729/http://www.afca.com/article/article.php?id=2435 American Football Coaches Association All-America team]
+*{{cite web|title=FWAA NAMES 2013 ALL-AMERICA TEAM|date=December 18, 2013|publisher=Football Writers Association of America |url=http://www.sportswriters.net/fwaa/news/2013/allamerica131218.html|archive-url=https://web.archive.org/web/20131231170209/https://www.sportswriters.net/fwaa/news/2013/allamerica131218.html|archive-date=December 31, 2013|url-status=deviated}}
+*[https://web.archive.org/web/20140101154744/https://www.cbssports.com/collegefootball/eye-on-college-football/24378716/winston-donald-lead-cbssportscom-2013-all-america-team CBS All-America team]. Archived from [http://www.cbssports.com/collegefootball/eye-on-college-football/24378716/winston-donald-lead-cbssportscom-2013-all-america-team the original].
+*[https://www.espn.com/blog/ncfnation/post/_/id/91214/att-espn-all-america-team-2 ESPN All-America team]
+*{{cite web|date=December 12, 2013|work=Sporting News|url=http://www.sportingnews.com/ncaa-football/story/2013-12-12/sporting-news-all-american-football-team/|title=Sporting News All-American football team|archive-url=https://web.archive.org/web/20140203054422/https://www.sportingnews.com/ncaa-football/story/2013-12-12/sporting-news-all-american-football-team/|archive-date=February 3, 2014}}
+*[https://www.usatoday.com/picture-gallery/sports/ncaaf/2013/12/10/usa-today-sports-all-america-college-football-first-team/3979091/ USA Today All-America team]
+*[http://www.waltercamp.org/124th-walter-camp-all-america-teams-announced/ Walter Camp All-America team]
+*[http://athlonsports.com/college-football/college-footballs-2013-postseason-all-america-team Athlon Sports All-America team]
+*[https://web.archive.org/web/20140520031222/http://collegefootball.ap.org/article/ap-all-america-team-list Associated Press All-America Team]
+*[https://web.archive.org/web/20140220205032/http://sportsillustrated.cnn.com/college-football/news/20131217/college-football-all-america-team/ Sports Illustrated All-America Team]. Archived from [https://web.archive.org/web/20131217224703/http://sportsillustrated.cnn.com/college-football/news/20131217/college-football-all-america-team/ the original].
+*[https://www.ncaa.com/news/football/article/2014-01-08/fsu-qb-jameis-winston-leads-2013-consensus-all-america-team NCAA Consensus All-America team]
+*[http://www.foxsports.com/college-football/photos/fox-sports-2013-college-football-all-america-team-121813 Fox Sports All-America team]
+
+{{2013 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2013 NCAA Division I FBS football season navbox}}
+
+[[Category:2013 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

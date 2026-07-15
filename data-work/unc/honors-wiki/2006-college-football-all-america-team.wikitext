@@ -1,0 +1,238 @@
+<!-- source: https://en.wikipedia.org/wiki/2006_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2006}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2006 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2006 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2005 All-America college football team|2005]] &nbsp; [[2007 All-America college football team|2007]] → 
+}}
+
+The '''2006 All-America college football team''' is composed of the following All-American Teams: [[Associated Press]], [[Football Writers Association of America]], [[American Football Coaches Association]], [[Walter Camp Foundation]], ''[[The Sporting News]]'', ''[[Sports Illustrated]]'', ''[[Pro Football Weekly]]'', [[CBS Sports]], [[ESPN]], ''[[College Football News]]'', [[Rivals.com]], and [[Scout.com]].
+
+The [[All-America college football team]] is an honor given annually to the best American college football players at their respective positions. The original usage of the term All-America seems to have been to such a list selected by football pioneer Walter Camp in the 1890s. The [[NCAA]] officially recognizes All-Americans selected by the AP, AFCA, FWAA, TSN, and the WCFF to determine Consensus All-Americans.
+
+Nineteen players were recognized as consensus All-Americans for 2006, 8 of them unanimously. [[List of unanimous All-Americans in college football|Unanimous selections]] are followed by an asterisk (*)
+
+{| class="wikitable sortable"
+|+2006 Consensus All-Americans<ref>{{cite web|title=Official 2007 NCAA Division I Football Records Book|publisher=National Collegiate Athletic Association|year=2007|issn=0735-5475|page=224|url=http://www.ncaa.org/library/records/football/football_records_book/2007/2007_d1_football_records_book.pdf|archive-url=https://web.archive.org/web/20070930220759/http://www.ncaa.org/library/records/football/football_records_book/2007/2007_d1_football_records_book.pdf|archive-date=September 30, 2007}}</ref>
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Troy|Smith}}* || Quarterback ||{{sort|4|Senior}} || [[2006 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Steve|Slaton}}* || rowspan="2" | Running back ||{{sort|2|Sophomore}} || [[2006 West Virginia Mountaineers football team|West Virginia]]
+|-
+| {{sortname|Darren|McFadden}} || {{sort|2|Sophomore}} || [[2006 Arkansas Razorbacks football team|Arkansas]]
+|-
+| {{sortname|Calvin|Johnson}}* || rowspan=2|Wide receiver ||{{sort|3|Junior}} || [[2006 Georgia Tech Yellow Jackets football team|Georgia Tech]]
+|-
+| {{sortname|Dwayne|Jarrett}} ||{{sort|3|Junior}} || [[2006 USC Trojans football team|USC]]
+|-
+| {{sortname|Zach|Miller|dab=tight end, born 1985}} ||Tight end || {{sort|3|Junior}} || [[2006 Arizona State Sun Devils football team|Arizona State]]
+|-
+| {{sortname|Dan|Mozes}}* || Center ||{{sort|4|Senior}} || West Virginia
+|-
+| {{sortname|Sam|Baker|dab=offensive tackle}} || rowspan="4" | Offensive lineman ||{{sort|3|Junior}} || [[2006 California Golden Bears football team|California]]
+|-
+| {{sortname|Justin|Blalock}} || {{sort|4|Senior}} || [[2006 Texas Longhorns football team|Texas]]
+|-
+| {{sortname|Jake|Long}} ||{{sort|4|Junior}} || [[2006 Michigan Wolverines football team|Michigan]]
+|-
+| {{sortname|Joe|Thomas|Joe Thomas (offensive tackle)}}* ||{{sort|4|Senior}} || [[2006 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Gaines|Adams}}* || rowspan="4" | Defensive lineman ||{{sort|4|Senior}} || [[2006 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Justin|Hickman}} || {{sort|4|Senior}} || [[2006 UCLA Bruins football team|UCLA]]
+|-
+| {{sortname|Quinn|Pitcock}} || {{sort|4|Senior}} || Ohio State
+|-
+| {{sortname|LaMarr|Woodley}}* ||{{sort|4|Senior}} || Michigan
+|-
+| {{sortname|James|Laurinaitis}} || rowspan="3" | Linebacker || {{sort|4|Sophomore}} || Ohio State
+|-
+| {{sortname|Patrick|Willis}} ||{{sort|4|Senior}} || [[2006 Ole Miss Rebels football team|Ole Miss]]
+|-
+| {{sortname|Paul|Posluszny}} || {{sort|4|Senior}} || [[2006 Penn State Nittany Lions football team|Penn State]]
+|-
+| {{sortname|Leon|Hall}} || rowspan="5" | Defensive back ||{{sort|4|Senior}} || Michigan
+|-
+| {{sortname|Dante|Hughes}} ||{{sort|4|Senior}} || [[2006 California Golden Bears football team|California]]
+|-
+| {{sortname|LaRon|Landry}} || {{sort|4|Senior}} || [[2006 LSU Tigers football team|LSU]] 
+|-
+| {{sortname|Reggie|Nelson}} ||{{sort|3|Junior}} || [[2006 Florida Gators football team|Florida]]
+|-
+| {{sortname|Eric|Weddle}} || {{sort|4|Senior}} || [[2006 Utah Utes football team|Utah]]
+|-
+| {{sortname|Justin|Medlock}} || Kicker ||{{sort|4|Senior}} || [[2006 UCLA Bruins football team|UCLA]]
+|-
+| {{sortname|Daniel|Sepulveda}}* || Punter ||{{sort|4|Senior}} || [[2006 Baylor Bears football team|Baylor]]
+|-
+| {{sortname|DeSean|Jackson}} || Return specialist ||{{sort|2|Sophomore}} || California
+|}
+
+==Offense==
+===Quarterbacks===
+*'''[[Troy Smith]]''', Ohio State <small>('''AP-1''', '''AFCA''', '''FWAA''', '''TSN''', '''Walter Camp''', SI, PFW, ESPN, CBS, CFN, Rivals.com, Scout.com)</small>
+*[[Brady Quinn]], Notre Dame <small>(AP-2)</small>
+*[[Colt Brennan]], Hawaii <small>(AP-3, Walter Camp-2)</small>
+
+===Running backs===
+*'''[[Darren McFadden]]''', Arkansas <small>('''AP-1''', '''AFCA'''-Coaches, All-Purpose, '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Sports Illustrated, Pro Football Weekly, ESPN, CBS Sports, Rivals.com, Scout.com)</small>
+*'''[[Steve Slaton]]''', West Virginia <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Scout.com)</small>
+*[[Marshawn Lynch]], California <small>('''AFCA'''-Coaches</small>)
+*[[Ian Johnson (American football)|Ian Johnson]], Boise State <small>(Sports Illustrated, CBS Sports, AP-3)</small>
+*[[Mike Hart (American football)|Mike Hart]], Michigan <small>(College Football News, Rivals.com, AP-2,Walter Camp-2)</small>
+*[[Jonathan Stewart]], Oregon <small>(Pro Football Weekly)</small>
+*[[Ray Rice]], Rutgers <small>(AP-2, Walter Camp-2)</small>
+*[[Garrett Wolfe]], Northern Illinois <small>(AP-3)</small>
+
+===Fullbacks===
+*[[Brian Leonard]], Rutgers <small>(Pro Football Weekly, ESPN, Scout.com)</small>
+
+===Wide receivers===
+*'''[[Calvin Johnson]]''', [[2006 Georgia Tech Yellow Jackets football team|Georgia Tech]] (CFHOF) <small>('''AP-1''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', SI, PFW, CBS, CFN, Rivals.com, Scout.com)</small>
+*'''[[Dwayne Jarrett]]''', Southern California <small>('''AP-1''', '''WCFF''', SI, Scout.com)</small> 
+*[[Robert Meachem]], [[2006 Tennessee Volunteers football team|Tennessee]] <small>('''FWAA, TSN''', ESPN, CFN, Rivals.com, AP-3)</small>
+*[[Jeff Samardzija]], [[2006 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''FWAA''', AP-2, Walter Camp-2)</small>
+*[[Johnnie Lee Higgins]], UTEP<small> ('''AFCA''', AP-3)</small>
+*[[Jarett Dillard]], Rice <small>(ESPN, AP-2, Walter Camp-2)</small>
+*[[Steve Smith (wide receiver, born 1985)|Steve Smith]], Southern California <small>(CBS)</small>
+
+===Tight ends===
+*'''[[Zach Miller (tight end, born 1985)|Zach Miller]]''', Arizona State <small>('''AFCA'''-Coaches, '''Walter Camp''', AP-2)</small>
+*[[Matt Spaeth]], Minnesota <small>('''AP-1''', Rivals.com)</small>
+*Jonny Harline, BYU <small>(Sporting News, Sports Illustrated, ESPN, CBS Sports, College Football News, Scout.com, AP-3)</small>
+*[[Travis Beckum]], Wisconsin <small>(Walter Camp-2)</small>
+
+===Offensive linemen===
+*'''[[Sam Baker (offensive tackle)|Sam Baker]]''', Southern California <small>('''FWAA'''-Writers, '''Sporting News''', CBS Sports, AP-2, Walter Camp-2)</small>
+*'''[[Joe Thomas (offensive tackle)|Joe Thomas]]''', Wisconsin (CFHOF) <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', Sporting News, Sports Illustrated, Pro Football Weekly, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*'''[[Jake Long]]''', Michigan <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', Sports Illustrated, Pro Football Weekly, ESPN, CBS Sports, Rivals.com, Scout.com)</small>
+*'''[[Justin Blalock]]''', Texas <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Pro Football Weekly, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*[[Arron Sears]], Tennessee <small>('''AFCA'''-Coaches, '''Walter Camp''', College Football News, AP-2)</small>
+*[[Steve Vallos]], Wake Forest <small>(Sporting News, Sports Illustrated, College Football News, Walter Camp-2)</small>
+*[[Josh Beekman]], Boston College <small>('''AP-1''', Walter Camp-2)</small>
+*[[Ben Grubbs]], Auburn <small>(Pro Football Weekly, ESPN, Rivals.com, AP-2)</small>
+*[[Alex Boone]], Ohio State <small>(Sports Illustrated)</small>
+*[[Mike Jones (offensive lineman)|Mike Jones]], Iowa <small>(Scout.com) </small>
+* T. J. Downing, Ohio State <small>(AP-2)</small>
+* [[Levi Brown (offensive tackle)|Levi Brown]], Penn State <small>(AP-3, Walter Camp-2)</small>
+* [[Tony Ugoh]], Arkansas <small>(AP-3)</small>
+* [[Kurt Quarterman]], Louisville <small>(AP-3)</small>
+* [[Nate Bennett]], Clemson <small>(AP-3)</small>
+
+===Centers===
+*'''[[Dan Mozes]]''', West Virginia <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Sports Illustrated, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*[[Ryan Kalil]], Southern California <small>(Pro Football Weekly, AP-2, Walter Camp-2)</small>
+*[[Jonathan Luigs]], Arkansas <small>(AP-3)</small>
+
+==Defense==
+===Ends===
+*'''[[Gaines Adams]]''', Clemson <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Sports Illustrated, Pro Football Weekly, ESPN, CBS Sports, College Football News, Rivals.com)</small>
+*'''[[Justin Hickman]]''', UCLA <small>('''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', AP-2)</small>
+*'''[[LaMarr Woodley]]''', Michigan <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', ESPN, CBS Sports, Rivals.com, Scout.com)</small>
+*[[Bruce Davis (linebacker)|Bruce Davis]], UCLA <small>(Sports Illustrated, College Football News)</small>
+*[[Jarvis Moss]], Florida <small>(Pro Football Weekly)</small>
+*[[Anthony E. Spencer II|Anthony Spencer]], Purdue <small>(Scout.com, AP-3, Walter Camp-2)</small>
+*[[Mkristo Bruce]], Washington State <small>(AP-2, Walter Camp-2)</small>
+*[[Quentin Moses]], Georgia <small>(AP-3, Walter Camp-2)</small>
+*[[Tim Crowder]], Texas  <small>(Walter Camp-2)</small>
+
+===Tackles===
+*'''[[Quinn Pitcock]]''', Ohio State <small>('''AP-1''', '''AFCA'''-Coaches, '''Walter Camp''', '''Sporting News''', ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*[[Glenn Dorsey]], LSU <small>('''AP-1''', '''AFCA'''-Coaches, Sports Illustrated, Pro Football Weekly, CBS Sports, Rivals.com)</small>
+*[[Eric Foster (American football)|Eric Foster]], Rutgers <small>('''FWAA'''-Writers, AP-3)</small>
+*[[Alan Branch]], Michigan <small>(Sports Illustrated, Pro Football Weekly, ESPN, Scout.com, AP-2)</small>
+*[[Sedrick Ellis]], Southern California <small>(College Football News)</small>
+*[[Amobi Okoye]], Louisville <small>(AP-2)</small>
+*[[Jay Alford]], Penn State <small>(AP-3)</small>
+
+===Linebackers===
+*'''[[Patrick Willis]]''', Mississippi <small>('''AP-1''', '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Sports Illustrated, Pro Football Weekly, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*'''[[James Laurinaitis]]''', Ohio State <small>('''AP-1''', '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Sports Illustrated, ESPN, CBS Sports, Rivals.com, Scout.com)</small>
+*'''[[Paul Posluszny]]''', Penn State <small>('''AP-1''', '''Walter Camp''', ESPN, Rivals.com, Scout.com)</small>
+*[[Rufus Alexander]], Oklahoma <small>('''AFCA'''-Coaches, CBS Sports, AP-3, Walter Camp-2)</small>
+*[[Buster Davis (linebacker)|Buster Davis]], Florida State <small>('''AFCA'''-Coaches, Walter Camp-2)</small>
+*[[H.B. Blades]], Pittsburgh <small>('''FWAA'''-Writers, Sports Illustrated, AP-3, Walter Camp-2)</small>
+*[[Dan Connor (American football)|Dan Connor]], Penn State <small>('''Sporting News''', Pro Football Weekly, AP-2)</small>
+*[[Vince Hall]], Virginia Tech <small>(College Football News)</small>
+*Ameer Ismail, Western Michigan <small>(College Football News, AP-2)</small>
+*[[Jon Beason]], Miami-FL <small>(Pro Football Weekly</small>)
+*[[David Harris (American football)|David Harris]], Michigan <small>(AP-2)</small>
+*[[Brandon Siler]], Florida <small>(AP-3)</small>
+
+===Defensive backs===
+*'''[[Leon Hall]]''', Michigan <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', Pro Football Weekly, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*'''[[Dante Hughes]]''', California <small>('''AP-1''', '''AFCA'''-Coaches, '''Walter Camp''', '''Sporting News''', Sports Illustrated, ESPN, CBS Sports, Rivals.com, Scout.com)</small>
+*'''[[Reggie Nelson]]''', Florida <small>('''AP-1''', '''FWAA'''-Writers, '''Walter Camp''', '''Sporting News''', Sports Illustrated, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*'''[[Eric Weddle]]''', Utah <small>('''AFCA'''-Coaches, '''Sporting News''', Sports Illustrated, CBS Sports, College Football News, Rivals.com, AP-2, Walter Camp-2)</small>
+*'''[[LaRon Landry]]''', LSU <small>('''AP-1''', '''AFCA'''-Coaches, Pro Football Weekly, ESPN, Walter Camp-2)</small>
+*[[Aaron Ross (American football)|Aaron Ross]], Texas <small>('''FWAA'''-Writers, '''Walter Camp''', Sports Illustrated, Pro Football Weekly, ESPN, College Football News, AP-2)</small>
+*[[Dwight Lowery]], San Jose State <small>('''AFCA'''-Coaches, '''FWAA'''-Writers, AP-3)</small>
+*[[Michael Griffin (American football)|Michael Griffin]], Texas <small>(Pro Football Weekly, Rivals.com, Scout.com, AP-2, Walter Camp-2)</small>
+*John Talley, Duke <small>('''Sporting News''')</small>
+*[[Ryan Smith (cornerback, born 1985)|Ryan Smith]], Florida <small>(AP-2)</small>
+*[[Brandon Flowers (American football)|Brandon Flowers]], Virginia Tech <small>(AP-3)</small>
+*[[Tra Battle]], Georgia <small>(AP-3)</small>
+*[[Tom Zbikowski]], Notre Dame <small>(AP-3, Walter Camp-2)</small>
+
+==Special teams==
+===Kickers===
+*'''[[Justin Medlock]]''', UCLA <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Sporting News''', CBS Sports, College Football News, Scout.com, Walter Camp-2)</small>
+*[[Mason Crosby]], Colorado <small>('''Walter Camp''', Pro Football Weekly, AP-3)</small>
+*[[Sam Swank]], Wake Forest <small>(Sports Illustrated, ESPN, Rivals.com)</small>
+*[[Art Carmody]], Louisville <small>(AP-2)</small>
+
+===Punters===
+*'''[[Daniel Sepulveda]]''', Baylor <small>('''AP-1''', '''AFCA'''-Coaches, '''FWAA'''-Writers, '''Walter Camp''', Sporting News, Sports Illustrated, Pro Football Weekly, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*[[Durant Brooks]], Georgia Tech <small>(AP-2, Walter Camp-2)</small>
+*[[Jeremy Kapinos]], Penn State <small>(AP-3)</small>
+
+===All-purpose / return specialists===
+*'''[[DeSean Jackson]]''', California <small>('''AP-1''' [All-purpose player], '''FWAA'''-Writers, '''Sporting News''', '''Walter Camp'''-KR, Sports Illustrated, Pro Football Weekly-WR and PR, ESPN, CBS Sports, College Football News, Rivals.com, Scout.com)</small>
+*[[Marcus Thigpen]], Indiana <small>('''Sporting News''', Sports Illustrated, Pro Football Weekly, ESPN, College Football News, Rivals.com)</small>
+*[[Ted Ginn Jr.]], Ohio State <small>(Rivals.com- All-purpose player, AP-2, Walter Camp-2)</small>
+*[[Sammie Stroughter]], Oregon State <small>(AP-3)</small>
+
+==See also==
+* [[2006 All-Atlantic Coast Conference football team]]
+* [[2006 All-Big Ten Conference football team]]
+* [[2006 All-Big 12 Conference football team]]
+* [[2006 All-Pacific-10 Conference football team]]
+* [[2006 All-SEC football team]]
+
+==References==
+{{reflist}}
+*{{cite news|title=2006 AP All-America Team|date=December 13, 2006|website=ESPN.com|agency=Associated Press|url=https://www.espn.com/college-football/news/story?id=2695097|access-date=May 18, 2021}}
+*{{cite web|first1=Ted|last1=Gangi|first2=Josh|last2=Yonis|title=FWAA All-America Team Since 1944|publisher=Football Writers Association of America|year=2023|url=https://f002.backblazeb2.com/file/cpbmedia/fwaa/23fwaa_allamerica.pdf|access-date=December 25, 2023}}
+
+==External links==
+{{col-begin}}
+{{col-2}}
+* [https://web.archive.org/web/20110524071629/http://www.afca.com/ViewArticle.dbml?DB_OEM_ID=9300&ATCLID=1329519 2006 Coaches All-American Team]
+* [http://nationalchamps.net/2006/awards/AA_waltercamp.htm 2006 Walter Camp Foundation All-American Team]
+* [https://godeacs.com/news/2006/12/12/2006_sporting_news_all_america_team 2006 Sporting News All-American Team]
+* [https://web.archive.org/web/20061209005857/http://sportsillustrated.cnn.com/2006/football/ncaa/12/07/all.americans/index.html 2006 Sports Illustrated All-American Team]
+{{col-2}}
+* [http://www.profootballweekly.com 2006 Pro Football Weekly All-American Team]
+* [http://olemisssports.com/ViewArticle.dbml?SPSID=56305&SPID=737&DB_OEM_ID=2600&ATCLID=727102 2006 ESPN.com All-American team]{{dead link|date=June 2017 |bot=InternetArchiveBot |fix-attempted=yes }}
+* [https://web.archive.org/web/20071217035437/http://cbs.sportsline.com/collegefootball/story/9856839 2006 CBS Sportsline All-American Team]
+* [https://web.archive.org/web/20080906122536/http://cfn.scout.com/2/601016.html 2006 College Football News All-American Team]
+* [https://web.archive.org/web/20070125231943/http://collegefootball.rivals.com/content.asp?CID=613635 2006 Rivals.com All-American Team]
+* [https://web.archive.org/web/20061206064515/http://recruiting.scout.com/2/597263.html 2006 Scout.com All-American Team]
+{{col-end}}
+
+{{2006 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2006 NCAA Division I FBS football season navbox}}
+
+[[Category:2006 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

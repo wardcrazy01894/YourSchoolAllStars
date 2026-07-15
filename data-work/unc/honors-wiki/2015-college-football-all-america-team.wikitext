@@ -1,0 +1,230 @@
+<!-- source: https://en.wikipedia.org/wiki/2015_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2015}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2015 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| content2 = [[2015 NCAA Division I FBS football season]]
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2014 All-America college football team|2014]] &nbsp; [[2016 All-America college football team|2016]] → 
+}}
+
+The '''2015 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite journal|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml|title=Walter Camp and His Gridiron Game|access-date=October 17, 2011|date=October 1961|volume=12|issue=6|author=Martin, John Stuart|journal=[[American Heritage (magazine)|American Heritage]]|url-status=dead|archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml|archive-date=July 23, 2008}}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=October 17, 2011 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref>  In 1950, the National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=October 17, 2011 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, covering all NCAA championship sports.
+
+The 2015 All-America college football team is composed of the following [[All-America college football team|All-America]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[The Sporting News]]'' (''TSN''), ''[[Sports Illustrated]]'' (''SI''), ''[[USA Today]]'' (USAT) [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], and [[Yahoo! Sports]] (Yahoo!).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I-FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  Players are chosen against other players playing at their position only.  To be selected a consensus All-American, players must be chosen to the first team on at least two of the five official selectors as recognized by the NCAA.  Second- and third-team honors are used to break ties.  Players named first-team to all five selectors are deemed unanimous All-Americans. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+In 2015, there were 26 consensus All-Americans, 12 of which were unanimous. [[List of unanimous college football All-Americans|Unanimous selections]] are listed with an asterisk.<ref>{{cite web|title=2015 Consensus All-America|url=http://www.sportswriters.net/fwaa/awards/allamerica/15consensus.pdf|publisher=Football Writers Association of America|access-date=May 18, 2017|archive-date=March 17, 2016|archive-url=https://web.archive.org/web/20160317020431/http://www.sportswriters.net/fwaa/awards/allamerica/15consensus.pdf|url-status=dead}}</ref>
+
+{| class="wikitable sortable"
+|+2015 consensus All-Americans
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Deshaun|Watson}} || Quarterback || Sophomore || [[2015 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Leonard|Fournette}} || Running back || Sophomore || [[2015 LSU Tigers football team|LSU]]
+|-
+| {{sortname|Derrick|Henry}}* || Running back || Junior || [[2015 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Corey|Coleman}}* || Wide receiver || Junior || [[2015 Baylor Bears football team|Baylor]]
+|-
+| {{sortname|Josh |Doctson}}* || Wide receiver || Senior || [[2015 TCU Horned Frogs football team|TCU]]
+|-
+| {{sortname|Hunter|Henry}}* || Tight end || Junior || [[2015 Arkansas Razorbacks football team|Arkansas]]
+|-
+| {{sortname|Taylor|Decker}} || Offensive tackle || Senior || [[2015 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Spencer|Drango}}* || Offensive tackle || Senior || [[2015 Baylor Bears football team|Baylor]]
+|-
+| {{sortname|Ronnie|Stanley}} || Offensive tackle || Senior || [[2015 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| {{sortname|Joshua|Garnett}}* || Guard || Senior || [[2015 Stanford Cardinal football team|Stanford]]
+|-
+| {{sortname|Ryan|Kelly|Ryan Kelly (American football)}} || Center || Senior || [[2015 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Joey|Bosa}} || Defensive end || Junior || [[2015 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Shaq|Lawson}} || Defensive end || Junior || [[2015 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Carl|Nassib}}* || Defensive end || Senior || [[2015 Penn State Nittany Lions football team|Penn St.]]
+|-
+| {{sortname|A'Shawn|Robinson}} || Defensive tackle || Junior || [[2015 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Reggie|Ragland}}* || Linebacker || Senior || [[2015 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Tyler|Matakevich}} || Linebacker || Senior || [[2015 Temple Owls football team|Temple]]
+|-
+| {{sortname|Jaylon|Smith}} || Linebacker || Junior || [[2015 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| {{sortname|Jeremy|Cash}}* || Safety || Senior || [[2015 Duke Blue Devils football team|Duke]]
+|-
+| {{sortname|Jalen|Ramsey}} || Safety || Junior || [[2015 Florida State Seminoles football team|Florida State]]
+|-
+| {{sortname|Vernon|Hargreaves}}* || Cornerback || Junior || [[2015 Florida Gators football team|Florida]]
+|-
+| {{sortname|Desmond|King|Desmond King (American football)}}* || Cornerback || Junior || [[2015 Iowa Hawkeyes football team|Iowa]]
+|-
+| {{sortname|Kaʻimi|Fairbairn}} || Kicker || Senior || [[2015 UCLA Bruins football team|UCLA]]
+|-
+| {{sortname|Tom|Hackett}}* || Punter || Senior || [[2015 Utah Utes football team|Utah]]
+|-
+| {{sortname|Evan|Berry}} || All-purpose || Sophomore || [[2015 Tennessee Volunteers football team|Tennessee]]
+|-
+| {{sortname|Christian|McCaffrey}} || All-purpose || Sophomore || [[2015 Stanford Cardinal football team|Stanford]]
+|}
+
+==Offense==
+===Quarterback===
+*[[Trevone Boykin]], [[2015 TCU Horned Frogs football team|TCU]] <small>(WCFF-2)</small>
+*[[Baker Mayfield]], [[2015 Oklahoma Sooners football team|Oklahoma]] <small>(AP-2, '''WCFF-1''', '''TSN-1''', SI)</small>
+*[[Keenan Reynolds (American football)|Keenan Reynolds]], [[2015 Navy Midshipmen football team|Navy]] <small>(AP-3)</small>
+*'''[[Deshaun Watson]]''', [[2015 Clemson Tigers football team|Clemson]] <small>-- CONSENSUS --</small> <small>(</small><small>'''AP-1''', '''FWAA''', '''AFCA''', '''TSN-2''', WCFF-2, USAT, CBS, ESPN, Athlon)</small>
+
+===Running back===
+*[[Dalvin Cook]], [[2015 Florida State Seminoles football team|Florida State]] <small>(AP-2, '''FWAA''', TSN-2, WCFF-2, SI, Athlon)</small>
+*[[Ezekiel Elliott]], [[2015 Ohio State Buckeyes football team|Ohio State]] <small>(AP-2)</small>
+*'''[[Leonard Fournette]]''', [[2015 LSU Tigers football team|LSU]] <small>-- CONSENSUS --</small> <small>('''AP-1''', '''WCFF-1''', '''FWAA''', TSN-2, CBS, ESPN)</small>
+*[[Royce Freeman]], [[2015 Oregon Ducks football team|Oregon]] <small>(AP-3)</small>
+*'''[[Derrick Henry]]''', [[2015 Alabama Crimson Tide football team|Alabama]] <small>-- UNANIMOUS --</small> <small>('''AP-1''', '''WCFF-1''', '''FWAA''', '''AFCA''', '''TSN-1''', USAT, CBS, SI, ESPN, Athlon)</small>
+*[[Christian McCaffrey]], [[2015 Stanford Cardinal football team|Stanford]] <small>('''AFCA''', '''TSN-1''', WCFF-2, USAT)</small>
+*[[Larry Rose III]], [[2015 New Mexico State Aggies football team|New Mexico State]] <small>(AP-3)</small>
+
+===Wide receiver===
+*'''[[Corey Coleman]]''', [[2015 Baylor Bears football team|Baylor]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', USAT, CBS, SI, ESPN, Athlon)</small>
+*'''[[Josh Doctson]]''', [[2015 TCU Horned Frogs football team|TCU]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', USAT, CBS, SI, Athlon)</small>
+*[[Will Fuller]], [[2015 Notre Dame Fighting Irish football team|Notre Dame]] <small>(AP-2, TSN-2)</small>
+*[[Roger Lewis (American football)|Roger Lewis]], [[2015 Bowling Green Falcons football team|Bowling Green]] <small>(AP-3)</small>
+*[[Tajae Sharpe]], [[2015 UMass Minutemen football team|UMass]] <small>(WCFF-2)</small>
+*[[Sterling Shepard]], [[2015 Oklahoma Sooners football team|Oklahoma]] <small>(ESPN)</small>
+*[[JuJu Smith-Schuster]], [[2015 USC Trojans football team|Southern California]] <small>(AP-2, TSN-2)</small>
+*[[Laquon Treadwell]], [[2015 Ole Miss Rebels football team|Ole Miss]] <small>(AP-3, WCFF-2)</small>
+
+===Tight end===
+*[[Jake Butt]], [[2015 Michigan Wolverines football team|Michigan]] <small>(AP-2, TSN-2, CBS, SI)</small>
+*'''[[Hunter Henry]]''', [[2015 Arkansas Razorbacks football team|Arkansas]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''TSN-1''', '''AFCA''', USAT, ESPN, Athlon)</small>
+*[[Austin Hooper]], [[2015 Stanford Cardinal football team|Stanford]] <small>(AP-3)</small>
+*[[Jordan Leggett]], [[2015 Clemson Tigers football team|Clemson]] <small>(WCFF-2)</small>
+
+===Offensive line===
+*[[Vadal Alexander]], [[2015 LSU Tigers football team|LSU]] <small>(AP-3, TSN-2, WCFF-2)</small>
+*[[Jack Allen (American football)|Jack Allen]], [[2015 Michigan State Spartans football team|Michigan State]] <small>('''AP-1''', WCFF-2, CBS, SI)</small>
+*[[Austin Blythe]], [[2015 Iowa Hawkeyes football team|Iowa]] <small>(AP-3)</small>
+*[[Jack Conklin]], [[2015 Michigan State Spartans football team|Michigan State]] <small>(AP-2, '''TSN-1''', WCFF-2, USAT, Athlon)</small>
+*'''[[Taylor Decker]]''',  [[2015 Ohio State Buckeyes football team|Ohio State]] <small>-- CONSENSUS --</small> <small>('''AP-1''', '''WCFF-1''', '''AFCA''', TSN-2, CBS, SI)</small>
+*'''[[Spencer Drango]]''', [[2015 Baylor Bears football team|Baylor]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', USAT, CBS, SI, ESPN, Athlon)</small>
+*[[Pat Elflein]], [[2015 Ohio State Buckeyes football team|Ohio State]] <small>(AP-2)</small>
+*[[Dan Feeney]], [[2015 Indiana Hoosiers football team|Indiana]] <small>(AP-3, ESPN)</small>
+*'''[[Joshua Garnett]]''', [[2015 Stanford Cardinal football team|Stanford]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''AFCA''', '''TSN-1''', USAT, CBS, SI, ESPN, Athlon)</small>
+*[[Roderick Johnson]], [[2015 Florida State Seminoles football team|Florida State]] <small>(TSN-2)</small>
+*'''[[Ryan Kelly (American football)|Ryan Kelly]]''', [[2015 Alabama Crimson Tide football team|Alabama]] <small>-- CONSENSUS --</small> <small>(AP-2, '''WCFF-1''', '''FWAA''', '''AFCA''', '''TSN-1''', USAT, ESPN, Athlon)</small>
+*[[Jason Spriggs]], [[2015 Indiana Hoosiers football team|Indiana]] <small>(AP-3, '''FWAA''', TSN-2, WCFF-2)</small>
+*'''[[Ronnie Stanley]]''', [[2015 Notre Dame Fighting Irish football team|Notre Dame]] <small>-- CONSENSUS --</small> <small>(AP-2, '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', CBS, ESPN)</small>
+*[[Joe Thuney]], [[2015 NC State Wolfpack football team|North Carolina State]] <small>(AP-3, USAT)</small>
+*[[Sebastian Tretola]], [[2015 Arkansas Razorbacks football team|Arkansas]] <small>(AP-2, TSN-2, SI)</small>
+*[[Laremy Tunsil]], [[2015 Ole Miss Rebels football team|Ole Miss]] <small>(WCFF-2)</small>
+*[[Landon Turner]], [[2015 North Carolina Tar Heels football team|North Carolina]] <small>('''AP-1''', Athlon)</small>
+
+==Defense==
+===Defensive line===
+*[[Andrew Billings]], [[2015 Baylor Bears football team|Baylor]] <small>('''AP-1''', TSN-2, ESPN, Athlon)</small>
+*'''[[Joey Bosa]]''', [[2015 Ohio State Buckeyes football team|Ohio State]] <small>-- CONSENSUS --</small> <small>(AP-2, '''WCFF-1''', '''AFCA''', TSN-2, USAT, CBS, SI, ESPN, Athlon)</small>
+*[[DeForest Buckner]], [[2015 Oregon Ducks football team|Oregon]] <small>(AP-2, USAT)</small>
+*[[Jonathan Bullard]], [[2015 Florida Gators football team|Florida]] <small>(AP-3, TSN-2, CBS)</small>
+*[[Shilique Calhoun]], [[2015 Michigan State Spartans football team|Michigan State]] <small>(AP-3, WCFF-2)</small>
+*[[Kenny Clark (defensive tackle)|Kenny Clark]], [[2015 UCLA Bruins football team|UCLA]] <small>(AP-3)</small>
+*[[Sheldon Day]], [[2015 Notre Dame Fighting Irish football team|Notre Dame]] <small>(AP-2, USAT)</small>
+*[[Myles Garrett]], [[2015 Texas A&M Aggies football team|Texas A&M]] <small>(AP-3, '''WCFF-1''', '''FWAA''')</small>
+*'''[[Shaq Lawson]]''', [[2015 Clemson Tigers football team|Clemson]] <small>-- CONSENSUS --</small> <small>('''AP-1''', '''WCFF-1''', '''FWAA''', '''AFCA''', TSN-2, USAT, ESPN)</small>
+*'''[[Carl Nassib]]''', [[2015 Penn State Nittany Lions football team|Penn State]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', CBS, SI, ESPN, Athlon)</small>
+*[[Robert Nkemdiche]], [[2015 Ole Miss Rebels football team|Ole Miss]] <small>(AP-3, WCFF-2)</small>
+*[[Emmanuel Ogbah]], [[2015 Oklahoma State Cowboys football team|Oklahoma State]] <small>('''TSN-1''', WCFF-2)</small>
+*'''[[A'Shawn Robinson]]''', [[2015 Alabama Crimson Tide football team|Alabama]] <small>-- CONSENSUS --</small> <small>('''AP-1''', '''FWAA''', '''AFCA''', '''TSN-1''', WCFF-2, CBS, SI, Athlon)</small>
+*[[Adolphus Washington]], [[2015 Ohio State Buckeyes football team|Ohio State]] <small>('''TSN-1''')</small>
+
+===Linebacker===
+*[[Kentrell Brothers]], [[2015 Missouri Tigers football team|Missouri]] <small>(AP-2, TSN-2, WCFF-2, CBS, SI, Athlon)</small>
+*[[Su'a Cravens]], [[2015 USC Trojans football team|Southern California]] <small>(AP-3)</small>
+*'''[[Tyler Matakevich]]''', [[2015 Temple Owls football team|Temple]] <small>-- CONSENSUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''AFCA''', TSN-2, USAT, ESPN)</small>
+*[[Blake Martinez]], [[2015 Stanford Cardinal football team|Stanford]] <small>(AP-3)</small>
+*[[Raekwon McMillan]], [[2015 Ohio State Buckeyes football team|Ohio State]] <small>(WCFF-2)</small>
+*'''[[Reggie Ragland]]''', [[2015 Alabama Crimson Tide football team|Alabama]] <small>-- UNANIMOUS --</small> <small>('''AP-1''', '''WCFF-1''', '''FWAA''', '''AFCA''', '''TSN-1''', USAT, CBS, SI, ESPN, Athlon)</small>
+*[[Joe Schobert]], [[2015 Wisconsin Badgers football team|Wisconsin]] <small>(AP-3, '''FWAA''', TSN-2, WCFF-2, ESPN)</small>
+*'''[[Jaylon Smith]]''', [[2015 Notre Dame Fighting Irish football team|Notre Dame]] <small>-- CONSENSUS --</small> <small>('''AP-1''', '''WCFF-1''', '''TSN-1''', '''AFCA''', USAT, CBS, SI, Athlon)</small>
+*[[Eric Striker]], [[2015 Oklahoma Sooners football team|Oklahoma]] <small>(AP-2, '''TSN-1''', SI)</small>
+*[[Anthony Walker (American football)|Anthony Walker]], [[2015 Northwestern Wildcats football team|Northwestern]] <small>(AP-3)</small>
+
+===Defensive back===
+*[[Mackensie Alexander]], [[2015 Clemson Tigers football team|Clemson]] <small>(AP-3)</small>
+*[[Vonn Bell]], [[2015 Ohio State Buckeyes football team|Ohio State]] <small>('''AP-1''', '''TSN-1''', SI, Athlon)</small>
+*'''[[Jeremy Cash]]''', [[2015 Duke Blue Devils football team|Duke]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', USAT, CBS, SI, ESPN, Athlon)</small>
+*[[Trae Elston]], [[2015 Ole Miss Rebels football team|Ole Miss]] <small>(AP-2)</small>
+*'''[[Vernon Hargreaves]]''', [[2015 Florida Gators football team|Florida]] <small>-- UNANIMOUS --</small> <small>('''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', CBS)</small>
+*[[Eddie Jackson (safety)|Eddie Jackson]], [[2015 Alabama Crimson Tide football team|Alabama]] <small>(AP-3, WCFF-2)</small>
+*[[Jayron Kearse]], [[2015 Clemson Tigers football team|Clemson]] <small>(AP-2, ESPN)</small>
+*'''[[Desmond King (American football)|Desmond King]]''', [[2015 Iowa Hawkeyes football team|Iowa]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', USAT, CBS, SI, ESPN, Athlon)</small>
+*[[Jourdan Lewis]], [[2015 Michigan Wolverines football team|Michigan]] <small>(AP-2, WCFF-2, USAT, SI)</small>
+*[[Shawun Lurry]], [[2015 Northern Illinois Huskies football team|Northern Illinois]] <small>(AP-3, '''FWAA''', WCFF-2)</small>
+*[[Marcus Maye]], [[2015 Florida Gators football team|Florida]] <small>(USAT)</small>
+*[[Jalen Mills]], [[2015 LSU Tigers football team|LSU]] <small>(CBS)</small>
+*[[Jabrill Peppers]], [[2015 Michigan Wolverines football team|Michigan]] <small>(TSN-2)</small>
+*'''[[Jalen Ramsey]]''', [[2015 Florida State Seminoles football team|Florida State]] <small>-- CONSENSUS --</small> <small>(AP-2, '''WCFF-1''', '''AFCA''', TSN-2, ESPN, Athlon)</small>
+*[[Zack Sanchez]], [[2015 Oklahoma Sooners football team|Oklahoma]] <small>(TSN-2, WCFF-2)</small>
+*[[Teez Tabor]], [[2015 Florida Gators football team|Florida]] <small>(TSN-2)</small>
+*[[Darian Thompson]], [[2015 Boise State Broncos football team|Boise State]] <small>(AP-3)</small>
+
+==Special teams==
+===Kicker===
+*[[Roberto Aguayo]], [[2015 Florida State Seminoles football team|Florida State]] <small>('''TSN-1''', CBS)</small>
+*[[Daniel Carlson]], [[2015 Auburn Tigers football team|Auburn]] <small>(WCFF-2)</small>
+*[[Jake Elliott]], [[2015 Memphis Tigers football team|Memphis]] <small>(AP-2, USAT, WCFF-2, ESPN)</small>
+*'''[[Kaʻimi Fairbairn]]''', [[2015 UCLA Bruins football team|UCLA]] <small>-- CONSENSUS --</small> <small href="Jaylon Smith">(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''AFCA''', TSN-2, SI, Athlon)</small>
+*Aidan Schneider, [[2015 Oregon Ducks football team|Oregon]] <small>(AP-3)</small>
+
+===Punter===
+*Michael Carrizosa, [[2015 San Jose State Spartans football team|San Jose State]] <small>(WCFF-2)</small>
+*'''[[Tom Hackett]]''', [[2015 Utah Utes football team|Utah]] <small>-- UNANIMOUS --</small> <small>(</small><small>'''AP-1''', '''WCFF-1''', '''FWAA''', '''TSN-1''', '''AFCA''', USAT, SI, ESPN, Athlon)</small>
+*[[Drew Kaser]], [[2015 Texas A&M Aggies football team|Texas A&M]] <small>(AP-2, TSN-2, CBS)</small>
+*Hayden Hunt, [[2015 Colorado State Rams football team|Colorado State]] <small>(AP-3)</small>
+
+===All-purpose / return specialist===
+*'''[[Evan Berry]]''', [[2015 Tennessee Volunteers football team|Tennessee]] <small>-- CONSENSUS --</small> <small>('''WCFF-1''', '''TSN-1''', SI)</small>
+*[[Morgan Burns]], [[2015 Kansas State Wildcats football team|Kansas State]] <small>(AP-2, TSN-2, USAT, CBS, Athlon)</small>
+*[[Antonio Callaway]], [[2015 Florida Gators football team|Florida]] <small>(CBS)</small>
+*[[Jakeem Grant]], [[2015 Texas Tech Red Raiders football team|Texas Tech]] <small>(AP-3)</small>
+*[[Christian Kirk]], [[2015 Texas A&M Aggies football team|Texas A&M]] <small>(Athlon)</small>
+*[[William Likely]], [[2015 Maryland Terrapins football team|Maryland]] <small>('''FWAA''')</small>
+*'''[[Christian McCaffrey]]''', [[2015 Stanford Cardinal football team|Stanford]] <small>-- CONSENSUS --</small> <small>('''AP-1''', '''FWAA''', WCFF-2, CBS, SI, ESPN)</small>
+*[[Dante Pettis]], [[2015 Washington Huskies football team|Washington]] <small>(TSN-2)</small>
+*[[Cameron Sutton]], [[2015 Tennessee Volunteers football team|Tennessee]] <small>('''TSN-1''')</small>
+*[[Ryan Switzer]], [[2015 North Carolina Tar Heels football team|North Carolina]] <small>('''AFCA''')</small>
+
+==See also==
+* [[2015 All-SEC football team]]
+* [[2015 All-Big Ten Conference football team]]
+* [[2015 All-Big 12 Conference football team]]
+* [[2015 All-Pac-12 Conference football team]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*{{cite news|title=Switzer Named AFCA All-America|date=December 16, 2015|publisher=University of North Carolina Athletics|url=https://goheels.com/news/2015/12/16/210589210|url-status=live|access-date=January 2, 2024|archive-url=https://web.archive.org/web/20240102105358/https://goheels.com/news/2015/12/16/210589210|archive-date=January 2, 2024}}
+*[http://www.sportingnews.com/list/4688069-sporting-news-all-american-team-derrick-henry-christian-mccaffrey-baker-mayfield-notre-dame-ohio-state-alabama-baylor Sporting News All-America Team] {{Webarchive|url=https://web.archive.org/web/20151216134637/http://www.sportingnews.com/list/4688069-sporting-news-all-american-team-derrick-henry-christian-mccaffrey-baker-mayfield-notre-dame-ohio-state-alabama-baylor |date=2015-12-16 }}
+*{{cite web|title=2015 AUTONATION FWAA ALL-AMERICA TEAM UNVEILED|date=December 14, 2015|publisher=Football Writers Association of America|url=http://www.sportswriters.net/fwaa/news/2015/allamerica151214.html|archive-url=https://web.archive.org/web/20151222101436/https://www.sportswriters.net/fwaa/news/2015/allamerica151214.html|archive-date=December 22, 2015|url-status=deviated}}
+*[http://collegefootball.ap.org/article/heisman-trophy-winner-henry-highlights-ap-all-america-team Associated Press All-America team] {{Webarchive|url=https://web.archive.org/web/20151222153905/http://collegefootball.ap.org/article/heisman-trophy-winner-henry-highlights-ap-all-america-team |date=2015-12-22 }}
+*[http://waltercamp.org/126th-walter-camp-all-america-teams-announced/ Walter Camp All-America team]
+*[https://www.usatoday.com/story/sports/ncaaf/2015/12/08/all-america-college-football-team/76965922/ USA Today All-America team]
+*[https://web.archive.org/web/20151211034854/http://www.cbssports.com/collegefootball/eye-on-college-football/25407430/cbs-sports-2015-college-football-all-america-team CBS Sports All-America team]
+*[https://www.si.com/college-football/2015/12/10/college-football-all-america-team Sports Illustrated All-America team]
+*[https://www.espn.com/college-football/story/_/id/14356641/clemson-alabama-baylor-lead-2015-all-america-team ESPN.com All-America Team]
+*[http://athlonsports.com/college-football/college-footballs-2015-postseason-all-america-team Athlon Sports All-America Team]
+{{2015 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2015 NCAA Division I FBS football season navbox}}
+
+[[Category:2015 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

@@ -1,0 +1,984 @@
+{
+ "season": 1999,
+ "source": "http://web.archive.org/web/20250830050526/https://www.sports-reference.com/cfb/schools/north-carolina/1999.html",
+ "rows": [
+  {
+   "table": "passing_standard",
+   "name": "Ronald Curry",
+   "pos": "QB",
+   "stats": {
+    "games": 5,
+    "pass_cmp": 54,
+    "pass_att": 110,
+    "pass_cmp_pct": 49.1,
+    "pass_yds": 682,
+    "pass_td": 3,
+    "pass_td_pct": 2.7,
+    "pass_int": 10,
+    "pass_int_pct": 9.1,
+    "pass_yds_per_att": 6.2,
+    "pass_adj_yds_per_att": 2.65,
+    "pass_yds_per_cmp": 12.6,
+    "pass_yds_per_g": 136.4,
+    "pass_rating": 92
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Domonique Williams",
+   "pos": "QB",
+   "stats": {
+    "games": 11,
+    "pass_cmp": 21,
+    "pass_att": 47,
+    "pass_cmp_pct": 44.7,
+    "pass_yds": 352,
+    "pass_td": 2,
+    "pass_td_pct": 4.3,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 7.5,
+    "pass_adj_yds_per_att": 8.34,
+    "pass_yds_per_cmp": 16.8,
+    "pass_yds_per_g": 32,
+    "pass_rating": 121.6
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Luke Huard",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "pass_cmp": 29,
+    "pass_att": 75,
+    "pass_cmp_pct": 38.7,
+    "pass_yds": 256,
+    "pass_td": 1,
+    "pass_td_pct": 1.3,
+    "pass_int": 2,
+    "pass_int_pct": 2.7,
+    "pass_yds_per_att": 3.4,
+    "pass_adj_yds_per_att": 2.48,
+    "pass_yds_per_cmp": 8.8,
+    "pass_yds_per_g": 36.6,
+    "pass_rating": 66.4
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Antwon Black",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "pass_cmp": 11,
+    "pass_att": 23,
+    "pass_cmp_pct": 47.8,
+    "pass_yds": 139,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 2,
+    "pass_int_pct": 8.7,
+    "pass_yds_per_att": 6,
+    "pass_adj_yds_per_att": 2.13,
+    "pass_yds_per_cmp": 12.6,
+    "pass_yds_per_g": 19.9,
+    "pass_rating": 81.2
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Jason Peace",
+   "pos": "WR",
+   "stats": {
+    "games": 10,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_cmp_pct": 100,
+    "pass_yds": 18,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 18,
+    "pass_adj_yds_per_att": 18,
+    "pass_yds_per_cmp": 18,
+    "pass_yds_per_g": 1.8,
+    "pass_rating": 251.2
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Brian Schmitz",
+   "pos": "P",
+   "stats": {
+    "games": 11,
+    "pass_cmp": 1,
+    "pass_att": 1,
+    "pass_cmp_pct": 100,
+    "pass_yds": 11,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 11,
+    "pass_adj_yds_per_att": 11,
+    "pass_yds_per_cmp": 11,
+    "pass_yds_per_g": 1,
+    "pass_rating": 192.4
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Domonique Williams",
+   "pos": "QB",
+   "stats": {
+    "games": 11,
+    "rush_att": 74,
+    "rush_yds": 183,
+    "rush_yds_per_att": 2.5,
+    "rush_td": 0,
+    "rush_yds_per_g": 16.6,
+    "rec": 1,
+    "rec_yds": 5,
+    "rec_yds_per_rec": 5,
+    "rec_td": 0,
+    "rec_yds_per_g": 0.5,
+    "scrim_att": 75,
+    "yds_from_scrimmage": 188,
+    "scrim_yds_per_att": 2.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Sam Aiken",
+   "pos": "WR",
+   "stats": {
+    "games": 11,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 3,
+    "rec_yds": 16,
+    "rec_yds_per_rec": 5.3,
+    "rec_td": 0,
+    "rec_yds_per_g": 1.5,
+    "scrim_att": 3,
+    "yds_from_scrimmage": 16,
+    "scrim_yds_per_att": 5.3,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Ronnie Robinson",
+   "pos": "RB",
+   "stats": {
+    "games": 11,
+    "rush_att": 7,
+    "rush_yds": 12,
+    "rush_yds_per_att": 1.7,
+    "rush_td": 2,
+    "rush_yds_per_g": 1.1,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 7,
+    "yds_from_scrimmage": 12,
+    "scrim_yds_per_att": 1.7,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Kory Bailey",
+   "pos": "WR",
+   "stats": {
+    "games": 11,
+    "rush_att": 2,
+    "rush_yds": -8,
+    "rush_yds_per_att": -4,
+    "rush_td": 0,
+    "rush_yds_per_g": -0.7,
+    "rec": 25,
+    "rec_yds": 418,
+    "rec_yds_per_rec": 16.7,
+    "rec_td": 2,
+    "rec_yds_per_g": 38,
+    "scrim_att": 27,
+    "yds_from_scrimmage": 410,
+    "scrim_yds_per_att": 15.2,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Greg Harris",
+   "pos": "TE",
+   "stats": {
+    "games": 11,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 12,
+    "rec_yds": 184,
+    "rec_yds_per_rec": 15.3,
+    "rec_td": 0,
+    "rec_yds_per_g": 16.7,
+    "scrim_att": 12,
+    "yds_from_scrimmage": 184,
+    "scrim_yds_per_att": 15.3,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Alge Crumpler",
+   "pos": "TE",
+   "stats": {
+    "games": 11,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 20,
+    "rec_yds": 191,
+    "rec_yds_per_rec": 9.6,
+    "rec_td": 0,
+    "rec_yds_per_g": 17.4,
+    "scrim_att": 20,
+    "yds_from_scrimmage": 191,
+    "scrim_yds_per_att": 9.6,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Deon Dyer",
+   "pos": "RB",
+   "stats": {
+    "games": 11,
+    "rush_att": 73,
+    "rush_yds": 233,
+    "rush_yds_per_att": 3.2,
+    "rush_td": 2,
+    "rush_yds_per_g": 21.2,
+    "rec": 7,
+    "rec_yds": 55,
+    "rec_yds_per_rec": 7.9,
+    "rec_td": 1,
+    "rec_yds_per_g": 5,
+    "scrim_att": 80,
+    "yds_from_scrimmage": 288,
+    "scrim_yds_per_att": 3.6,
+    "scrim_td": 3
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Dauntae' Finger",
+   "pos": "TE",
+   "stats": {
+    "games": 11,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 10,
+    "rec_yds": 81,
+    "rec_yds_per_rec": 8.1,
+    "rec_td": 1,
+    "rec_yds_per_g": 7.4,
+    "scrim_att": 10,
+    "yds_from_scrimmage": 81,
+    "scrim_yds_per_att": 8.1,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Defonte Coleman",
+   "pos": "WR",
+   "stats": {
+    "games": 10,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 1,
+    "rec_yds": 11,
+    "rec_yds_per_rec": 11,
+    "rec_td": 0,
+    "rec_yds_per_g": 1.1,
+    "scrim_att": 1,
+    "yds_from_scrimmage": 11,
+    "scrim_yds_per_att": 11,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Jason Peace",
+   "pos": "WR",
+   "stats": {
+    "games": 10,
+    "rush_att": 3,
+    "rush_yds": 19,
+    "rush_yds_per_att": 6.3,
+    "rush_td": 0,
+    "rush_yds_per_g": 1.9,
+    "rec": 23,
+    "rec_yds": 373,
+    "rec_yds_per_rec": 16.2,
+    "rec_td": 1,
+    "rec_yds_per_g": 37.3,
+    "scrim_att": 26,
+    "yds_from_scrimmage": 392,
+    "scrim_yds_per_att": 15.1,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Chesley Borders",
+   "pos": "WR",
+   "stats": {
+    "games": 10,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 4,
+    "rec_yds": 37,
+    "rec_yds_per_rec": 9.3,
+    "rec_td": 0,
+    "rec_yds_per_g": 3.7,
+    "scrim_att": 4,
+    "yds_from_scrimmage": 37,
+    "scrim_yds_per_att": 9.3,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Anthony Saunders",
+   "pos": "RB",
+   "stats": {
+    "games": 9,
+    "rush_att": 75,
+    "rush_yds": 297,
+    "rush_yds_per_att": 4,
+    "rush_td": 1,
+    "rush_yds_per_g": 33,
+    "rec": 2,
+    "rec_yds": 27,
+    "rec_yds_per_rec": 13.5,
+    "rec_td": 1,
+    "rec_yds_per_g": 3,
+    "scrim_att": 77,
+    "yds_from_scrimmage": 324,
+    "scrim_yds_per_att": 4.2,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Danny Davis",
+   "pos": "WR",
+   "stats": {
+    "games": 8,
+    "rush_att": 0,
+    "rush_yds": 0,
+    "rush_td": 0,
+    "rush_yds_per_g": 0,
+    "rec": 4,
+    "rec_yds": 38,
+    "rec_yds_per_rec": 9.5,
+    "rec_td": 0,
+    "rec_yds_per_g": 4.8,
+    "scrim_att": 4,
+    "yds_from_scrimmage": 38,
+    "scrim_yds_per_att": 9.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Daniel Davis",
+   "pos": "RB",
+   "stats": {
+    "games": 8,
+    "rush_att": 69,
+    "rush_yds": 303,
+    "rush_yds_per_att": 4.4,
+    "rush_td": 2,
+    "rush_yds_per_g": 37.9,
+    "rec": 3,
+    "rec_yds": 20,
+    "rec_yds_per_rec": 6.7,
+    "rec_td": 0,
+    "rec_yds_per_g": 2.5,
+    "scrim_att": 72,
+    "yds_from_scrimmage": 323,
+    "scrim_yds_per_att": 4.5,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Luke Huard",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "rush_att": 32,
+    "rush_yds": -31,
+    "rush_yds_per_att": -1,
+    "rush_td": 1,
+    "rush_yds_per_g": -4.4,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 32,
+    "yds_from_scrimmage": -31,
+    "scrim_yds_per_att": -1,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Antwon Black",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "rush_att": 20,
+    "rush_yds": 82,
+    "rush_yds_per_att": 4.1,
+    "rush_td": 0,
+    "rush_yds_per_g": 11.7,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 20,
+    "yds_from_scrimmage": 82,
+    "scrim_yds_per_att": 4.1,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Rufus Brown",
+   "pos": "RB",
+   "stats": {
+    "games": 7,
+    "rush_att": 74,
+    "rush_yds": 275,
+    "rush_yds_per_att": 3.7,
+    "rush_td": 1,
+    "rush_yds_per_g": 39.3,
+    "rec": 2,
+    "rec_yds": 2,
+    "rec_yds_per_rec": 1,
+    "rec_td": 0,
+    "rec_yds_per_g": 0.3,
+    "scrim_att": 76,
+    "yds_from_scrimmage": 277,
+    "scrim_yds_per_att": 3.6,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_standard",
+   "name": "Ronald Curry",
+   "pos": "QB",
+   "stats": {
+    "games": 5,
+    "rush_att": 60,
+    "rush_yds": 226,
+    "rush_yds_per_att": 3.8,
+    "rush_td": 2,
+    "rush_yds_per_g": 45.2,
+    "rec": 0,
+    "rec_yds": 0,
+    "rec_td": 0,
+    "rec_yds_per_g": 0,
+    "scrim_att": 60,
+    "yds_from_scrimmage": 226,
+    "scrim_yds_per_att": 3.8,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Antwon Black",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "def_int": 2,
+    "def_int_yds": 89,
+    "def_int_yds_per_int": 44.5,
+    "def_int_td": 1
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Billy-Dee Greenwood",
+   "pos": "DB",
+   "stats": {
+    "games": 11,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "David Bomar",
+   "pos": "DB",
+   "stats": {
+    "games": 11,
+    "def_int": 1,
+    "def_int_yds": 18,
+    "def_int_yds_per_int": 18,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Errol Hood",
+   "pos": "DB",
+   "stats": {
+    "games": 11,
+    "def_int": 5,
+    "def_int_yds": 21,
+    "def_int_yds_per_int": 4.2,
+    "def_int_td": 1
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Jason Horton",
+   "pos": "DB",
+   "stats": {
+    "games": 10,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Julius Peppers",
+   "pos": "DL",
+   "stats": {
+    "games": 11,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Sedrick Hodge",
+   "pos": "LB",
+   "stats": {
+    "games": 11,
+    "def_int": 1,
+    "def_int_yds": 19,
+    "def_int_yds_per_int": 19,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_standard",
+   "name": "Tim Burgess",
+   "pos": "LB",
+   "stats": {
+    "games": 11,
+    "def_int": 1,
+    "def_int_yds": 8,
+    "def_int_yds_per_int": 8,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Deon Dyer",
+   "pos": "RB",
+   "stats": {
+    "games": 11,
+    "kick_ret": 1,
+    "kick_ret_yds": 19,
+    "kick_ret_yds_per_ret": 19,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 307
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Kory Bailey",
+   "pos": "WR",
+   "stats": {
+    "games": 11,
+    "kick_ret": 12,
+    "kick_ret_yds": 223,
+    "kick_ret_yds_per_ret": 18.6,
+    "kick_ret_td": 0,
+    "punt_ret": 15,
+    "punt_ret_yds": 62,
+    "punt_ret_yds_per_ret": 4.1,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 695
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Ronnie Robinson",
+   "pos": "RB",
+   "stats": {
+    "games": 11,
+    "kick_ret": 3,
+    "kick_ret_yds": 45,
+    "kick_ret_yds_per_ret": 15,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 57
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Sam Aiken",
+   "pos": "WR",
+   "stats": {
+    "games": 11,
+    "kick_ret": 13,
+    "kick_ret_yds": 275,
+    "kick_ret_yds_per_ret": 21.2,
+    "kick_ret_td": 0,
+    "punt_ret": 12,
+    "punt_ret_yds": 23,
+    "punt_ret_yds_per_ret": 1.9,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 314
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Daniel Davis",
+   "pos": "RB",
+   "stats": {
+    "games": 8,
+    "kick_ret": 1,
+    "kick_ret_yds": 18,
+    "kick_ret_yds_per_ret": 18,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 341
+   }
+  },
+  {
+   "table": "kick_return_standard",
+   "name": "Antwon Black",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "kick_ret": 4,
+    "kick_ret_yds": 121,
+    "kick_ret_yds_per_ret": 30.3,
+    "kick_ret_td": 0,
+    "punt_ret": 0,
+    "punt_ret_yds": 0,
+    "punt_ret_td": 0,
+    "all_purpose_yds": 292
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Josh McGee",
+   "pos": "K",
+   "stats": {
+    "games": 11,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 0,
+    "xpm": 15,
+    "xpa": 16,
+    "fgm": 17,
+    "fga": 21,
+    "two_pt_md": 0,
+    "total_points": 66,
+    "points_per_game": 6
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Deon Dyer",
+   "pos": "RB",
+   "stats": {
+    "games": 11,
+    "rush_td": 2,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 3,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 18,
+    "points_per_game": 1.6
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Anthony Saunders",
+   "pos": "RB",
+   "stats": {
+    "games": 9,
+    "rush_td": 1,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 2,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 12,
+    "points_per_game": 1.3
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Daniel Davis",
+   "pos": "RB",
+   "stats": {
+    "games": 8,
+    "rush_td": 2,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 2,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 12,
+    "points_per_game": 1.5
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Kory Bailey",
+   "pos": "WR",
+   "stats": {
+    "games": 11,
+    "rush_td": 0,
+    "rec_td": 2,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 2,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 12,
+    "points_per_game": 1.1
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Ronald Curry",
+   "pos": "QB",
+   "stats": {
+    "games": 5,
+    "rush_td": 2,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 2,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 12,
+    "points_per_game": 2.4
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Ronnie Robinson",
+   "pos": "RB",
+   "stats": {
+    "games": 11,
+    "rush_td": 2,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 2,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 12,
+    "points_per_game": 1.1
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Antwon Black",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 1,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.9
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Dauntae' Finger",
+   "pos": "TE",
+   "stats": {
+    "games": 11,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.5
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Errol Hood",
+   "pos": "DB",
+   "stats": {
+    "games": 11,
+    "rush_td": 0,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 1,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.5
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Jason Peace",
+   "pos": "WR",
+   "stats": {
+    "games": 10,
+    "rush_td": 0,
+    "rec_td": 1,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.6
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Luke Huard",
+   "pos": "QB",
+   "stats": {
+    "games": 7,
+    "rush_td": 1,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.9
+   }
+  },
+  {
+   "table": "scoring_standard",
+   "name": "Rufus Brown",
+   "pos": "RB",
+   "stats": {
+    "games": 7,
+    "rush_td": 1,
+    "rec_td": 0,
+    "punt_ret_td": 0,
+    "kick_ret_td": 0,
+    "def_int_td": 0,
+    "all_td": 1,
+    "xpm": 0,
+    "xpa": 0,
+    "fgm": 0,
+    "fga": 0,
+    "two_pt_md": 0,
+    "total_points": 6,
+    "points_per_game": 0.9
+   }
+  }
+ ]
+}

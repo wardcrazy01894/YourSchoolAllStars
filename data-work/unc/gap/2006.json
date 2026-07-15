@@ -1,0 +1,379 @@
+{
+ "season": 2006,
+ "source": "http://web.archive.org/web/20100412145643id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2006-2007/teamcume.html",
+ "scope": "Final Stats",
+ "players": [
+  {
+   "name": "Andre Barbour",
+   "position": "Offensive Tackle",
+   "jersey": "78",
+   "stats": {
+    "rec": 1,
+    "recYds": 1,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Anthony Elzy",
+   "position": "Tailback",
+   "jersey": "6",
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Bobby Rome II",
+   "position": "Fullback",
+   "jersey": "4",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brandon Tate",
+   "position": "Wide Receiver",
+   "jersey": "87",
+   "stats": {
+    "rushYds": 20,
+    "rec": 5,
+    "recYds": 72,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brooks Foster",
+   "position": "Wide Receiver",
+   "jersey": "1",
+   "stats": {
+    "rushYds": 15,
+    "rec": 38,
+    "recYds": 486,
+    "recTD": 2,
+    "tackles": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Bryan Bethea",
+   "position": "Cornerback",
+   "jersey": "35",
+   "stats": {
+    "tackles": 18,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "Bryan Dixon",
+   "position": "Strong Safety",
+   "jersey": "30",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Camaron Thomas",
+   "position": "Defensive Tackle",
+   "jersey": "93",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1.5,
+    "sacks": 1.5
+   }
+  },
+  {
+   "name": "Cameron Sexton",
+   "position": "Quarterback",
+   "jersey": "11",
+   "stats": {
+    "rushYds": 25,
+    "rushTD": 1,
+    "passYds": 840,
+    "passTD": 4,
+    "passInt": 8
+   }
+  },
+  {
+   "name": "Chase Rice",
+   "position": "Linebacker",
+   "jersey": "44",
+   "stats": {
+    "tackles": 31,
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Connor Barth",
+   "position": "Placekicker/Punt",
+   "jersey": "10",
+   "stats": {
+    "rushYds": 21
+   }
+  },
+  {
+   "name": "Dirk Engram",
+   "position": "Wide Receiver",
+   "jersey": "82",
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Durrell Mapp",
+   "position": "Linebacker",
+   "jersey": "48",
+   "stats": {
+    "tackles": 87,
+    "tfl": 4,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "E.J. Wilson",
+   "position": "Defensive End",
+   "jersey": "92",
+   "stats": {
+    "tackles": 19,
+    "tfl": 3,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "Garrett Reynolds",
+   "position": "Offensive Tackle",
+   "jersey": "75",
+   "stats": {
+    "tackles": 26,
+    "tfl": 3.5,
+    "sacks": 3
+   }
+  },
+  {
+   "name": "Garrett White",
+   "position": "Defensive End",
+   "jersey": "56",
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "Hakeem Nicks",
+   "position": "Wide Receiver",
+   "jersey": "88",
+   "stats": {
+    "rushYds": 10,
+    "rec": 39,
+    "recYds": 660,
+    "recTD": 4,
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Hilee Taylor",
+   "position": "Defensive End",
+   "jersey": "33",
+   "stats": {
+    "tackles": 29,
+    "tfl": 5,
+    "sacks": 3,
+    "ff": 1
+   }
+  },
+  {
+   "name": "James Cooter Arnold",
+   "position": "Wide Receiver",
+   "jersey": "2",
+   "stats": {
+    "tackles": 48,
+    "tfl": 1,
+    "pbu": 2,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Jermaine Strong",
+   "position": "Cornerback",
+   "jersey": "38",
+   "stats": {
+    "tackles": 18,
+    "pbu": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Joe Dailey",
+   "position": "Wide Reciever/QB",
+   "jersey": "12",
+   "stats": {
+    "rushYds": 61,
+    "rushTD": 1,
+    "passYds": 1316,
+    "passTD": 7,
+    "passInt": 10,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jordan Hemby",
+   "position": "Cornerback",
+   "jersey": "23",
+   "stats": {
+    "tackles": 6
+   }
+  },
+  {
+   "name": "Justin Warren",
+   "position": "Tailback",
+   "jersey": "29",
+   "stats": {
+    "rushYds": 77,
+    "rushTD": 1,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Kennedy Tinsley",
+   "position": "Linebacker",
+   "jersey": "36",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Kenton Thornton",
+   "position": "Wide Receiver",
+   "jersey": "3",
+   "stats": {
+    "rec": 5,
+    "recYds": 47
+   }
+  },
+  {
+   "name": "Kenton Thornton",
+   "position": "Wide Receiver",
+   "jersey": "3",
+   "stats": {
+    "tackles": 22,
+    "defInt": 1
+   }
+  },
+  {
+   "name": "Kentwan Balmer",
+   "position": "Defensive Tackle",
+   "jersey": "90",
+   "stats": {
+    "tackles": 16,
+    "tfl": 2.5,
+    "sacks": 2.5,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Kyndraus Guy",
+   "position": "Defensive Tackle",
+   "jersey": "74",
+   "stats": {
+    "tackles": 26,
+    "tfl": 3.5,
+    "sacks": 1.5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Mark Paschal",
+   "position": "Linebacker",
+   "jersey": "41",
+   "stats": {
+    "tackles": 23,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Martel Thatch",
+   "position": "Linebacker",
+   "jersey": "21",
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "Nick Starcevic",
+   "position": "Fullback",
+   "jersey": "43",
+   "stats": {
+    "rec": 1,
+    "recYds": 8,
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Richard Rich",
+   "position": "Cornerback",
+   "jersey": "26",
+   "stats": {
+    "rushYds": -1,
+    "rec": 2,
+    "recYds": 24,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Rock Wells",
+   "position": "Athlete",
+   "jersey": "81",
+   "stats": {
+    "rec": 1,
+    "recYds": 7
+   }
+  },
+  {
+   "name": "Ryan Taylor",
+   "position": "Linebacker",
+   "jersey": "49",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Shawn Lawson",
+   "position": "Place-Kicker",
+   "jersey": "42",
+   "stats": {
+    "tackles": 28,
+    "tfl": 2,
+    "sacks": 2,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Tavares Brown",
+   "position": "Defensive Tackle",
+   "jersey": "96",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Trey Brenner",
+   "position": "Linebacker",
+   "jersey": "58",
+   "stats": {
+    "tackles": 23,
+    "tfl": 1,
+    "sacks": 1,
+    "pbu": 1,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Wesley Flagg",
+   "position": "Linebacker",
+   "jersey": "51",
+   "stats": {
+    "tackles": 9
+   }
+  }
+ ]
+}

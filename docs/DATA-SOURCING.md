@@ -555,3 +555,100 @@ committed so the work is session-restartable). Source map:
     **14/14 confirmed**.
     Unmatched ledger entries are all kickers/punters/OL (positions the game
     doesn't carry) or players trimmed below the composite floor.
+
+### North Carolina (1994–2025) — fifth live football school
+
+`src/data/unc-football.json` (421 players, 139 honors). The pipeline is
+committed at `data-work/unc/` (scripts + parsed checkpoints + `PROGRESS.md`).
+
+**The 1994–99 defense problem, and how it was actually solved.** No structured
+database publishes UNC's per-player defense before 2000: Sports-Reference's
+tackle table starts in **2005**, cfbstats in 2005, CFBD around 2002, and the
+archived official site has no cume page before 2000. That is not a quirk of any
+one site — **the NCAA did not centrally compile individual defensive statistics
+until ~2000**. Tackles, TFL and sacks were kept by each school's sports
+information department and published in exactly one place: **the school's own
+printed media guide**.
+
+Those guides are digitized, and this is the trap that made them look
+unavailable — there are **two** Internet Archive item runs:
+
+| item id                                      | what it actually is                                                                           |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `north-carolina-football-<year>-media-guide` | **cover image only** (0–7 files, no PDF) — a decoy                                            |
+| `carolinafootball<year>unse`                 | the **real full scan** (PDF + OCR), collection `ncunc`, scanned by UNC Libraries, open access |
+
+A guide published in year _N_ prints the **final defensive statistics for season
+N−1** (and the roster for season _N_), so guides 1995–2000 cover seasons
+1994–1999 — exactly the gap. This is where the whole 1994–99 defensive box score
+comes from: tackles, TFL, sacks, PBU for every player on the team.
+
+**Read the geometry, not the text.** The `_djvu.txt` rendering of these pages is
+column-major and _ragged_ — OCR silently drops individual cells, so the Nth
+number in a column does not belong to the Nth player, and zipping those lists
+would move a real player's stats onto someone else. The parser instead works
+from `_djvu.xml` (a bounding box per word) and rebuilds each table
+geometrically. Each of the seven books is broken in its own way (one page is
+**rotated**; another's baseline **drifts 30px** across the page, which splits its
+header row; the mid-90s tables **centre** numbers under wide headers while the
+later ones are left-aligned), so `parse-guides.mjs` tries each plausible reading
+and **scores it against evidence**, keeping the one the data confirms:
+
+- every row must satisfy **T + A = Hit** (a row with no printed total is dropped,
+  never reconstructed — that fallback once turned a misread "1 12" into 13
+  tackles for a man who made 2);
+- the rows must reconcile with the guide's own **printed team-total row**;
+- the interception column must agree with **Sports-Reference**, which is
+  independent and complete for these years;
+- **TFL and sacks are printed as count–yards pairs** ("2-8", "12.5-56") while the
+  neighbouring pressures column is a bare integer — so a bare number in the TFL
+  column is provably a column shift. This is the only check that tests those
+  columns on 1994–96, whose tables print no team total, and it is what caught the
+  1994 table being read one column off.
+
+**Verification.** The 1994–99 numbers come from a single source, so the pipeline
+is proved on a season it does not need: **2000**, which we independently hold
+from the official archived cume. `validate-guides.mjs` runs the guide chain over
+the 2001 guide and diffs it against that cume — **all 67 stat values across 19
+players match**. Interceptions are still taken from SR (complete for these years;
+the guides' INT column has OCR holes). Forced fumbles are **deliberately not
+taken**: the 1997/98 printings carry both a `CF` and an `FF` column with
+different team totals and nothing says which is "forced fumbles", so the stat is
+left absent rather than guessed. A missing stat is a hole; a guessed stat is a
+lie.
+
+This retired the old `record-book-supplement.json`, which could only scrape a
+handful of leaderboard lines for the six stars in the all-time top tens. Worth
+noting: every one of its ten hand-transcribed values is reproduced exactly by the
+guides (Greg Ellis's 12.5 sacks in 1996, Ebenezer Ekuban's 23 TFL in 1998,
+Brandon Spoon's 138 tackles) — it was simply far too thin.
+
+Source map:
+
+- **2016–2025** — goheels.com **is Sidearm**, so
+  `fetch-football-mgoblue.mjs --site https://goheels.com` works unchanged (its
+  stats pages carry no defensive block before 2016 — that's the Sidearm floor).
+  The payload **mislinks defensive lines onto offensive players** (the Florida
+  class: it credited WR Dyami Brown with 2 sacks and 4 TFL), so a defensive key
+  from these years survives only if SR corroborates it — **451 fabricated keys
+  were stripped**.
+- **2005–2015** — Sports-Reference (full defense from 2005).
+- **2000–2004** — the Wayback-archived **official** Automated-ScoreBook season
+  cumes from the old site. Pre-2003 they're **date-named**
+  (`stats/071102aaa.html` is the 2001 final), so they had to be _discovered_, not
+  guessed: `classify-cumes.py` fetches every archived page and classifies it by
+  its **printed scope** ("FINAL STATS" / "as of Dec 01, 2001") — never the
+  capture date, since 2010/2011 survive only as mid-season captures (the Pitt
+  trap) and are deliberately unused. Every parsed column is checksum-validated
+  against the printed Total row.
+- **1994–1999** — Sports-Reference for offense and interceptions, **official
+  media guides** for the full defensive box (above).
+- **The roster join is what unlocks the abbreviated eras.** The cumes print names
+  abbreviated (`30 Thornton, D.`) and the mid-90s guide tables print only a
+  surname and a position code (`Morton, lb`) — a surname is not a player (the
+  1994 table alone has two Thomases and two Joneses). goheels keeps historical
+  rosters back to 1997, **but they have holes** (its 1999 roster has 53 players
+  and no Julius Peppers), and SR's 1994–96 roster pages are worse (the 1994 one
+  omits Brian Simmons). So `parse-guide-rosters.mjs` reads each guide's **own**
+  roster and the two are **unioned**. A row resolves only if the match is unique
+  and position-consistent; anything ambiguous is reported, never guessed.

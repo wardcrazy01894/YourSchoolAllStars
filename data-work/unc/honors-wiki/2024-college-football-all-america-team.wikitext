@@ -1,0 +1,218 @@
+<!-- source: https://en.wikipedia.org/wiki/2024_College_Football_All-America_Team -->
+{{Short description|College football honors}}
+{{Use mdy dates|date=January 2025}}
+{{sidebar
+| width = 25em
+| title = 2024 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2024 NCAA Division I FBS football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2023 All-America college football team|2023]] &nbsp; [[2025 All-America college football team|2025]] →
+}}
+
+The '''2024 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions. The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season. The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].<ref>{{cite book|title=The Michigan alumnus|publisher=University of Michigan Library|year=2010|asin=B0037HO8MY|page=495}}</ref><ref>{{cite magazine|url=http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |title=Walter Camp and His Gridiron Game |access-date=December 6, 2023 |date=October 1961 |volume=12 |issue=6 |author=Martin, John Stuart |magazine=[[American Heritage (magazine)|American Heritage]] |url-status=dead |archive-url=https://web.archive.org/web/20080723155909/http://www.americanheritage.com/articles/magazine/ah/1961/6/1961_6_50.shtml |archive-date=July 23, 2008 }}</ref><ref>{{cite web|url=https://www.ncaa.com/sports/m-footbl/champpage/inc/div3/m-footbl-div3-stagg.html |title=Amos Alonzo Stagg: Just Who Was This Guy, Anyway? |access-date=December 6, 2023 |author=Newsome, Ron |publisher=[[CBS Interactive]]/[[NCAA.org]] }}{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> The National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled in the 1950s the first list of All-Americans, including first-team selections on teams created for a national audience.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=December 6, 2023 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref> Since 1957, [[College Sports Communicators]] (CSC) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA, as well as [[National Association of Intercollegiate Athletics|NAIA]] and [[NJCAA]] athletes.
+
+The 2024 All-America college football team is composed of the following [[All-America college football team|All-America college football]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Football Foundation]] (WCFF), ''[[Sporting News]]'' (TSN, from its historic name of ''The Sporting News''), ''[[Sports Illustrated]]'' (SI), ''[[The Athletic]]'' (Athletic), ''[[USA Today]]'' (USAT), [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (CFN), [[Athlon Sports]], and [[Phil Steele]].
+
+Currently, the NCAA compiles consensus All-America teams in the sports of [[Division I FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources. In football, the teams are compiled by position, and the player accumulating the most points at each
+position is named a first-team consensus All-American. If there is a tie at a position for first team, then the
+players who are tied shall be named to the team.<ref>{{cite web|url=http://fs.ncaa.org/Docs/stats/ForSIDs/Policies.pdf|title=Statistics, Policies and Guidelines|publisher=NCAA}}</ref> Players named first-team by all five selectors are deemed [[unanimous All-American]]s. Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, TSN and the WCFF to determine consensus and unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 6, 2023 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+The following players were recognized as consensus All-Americans for 2024. Unanimous selections are followed by an asterisk (*).
+
+{| class="wikitable sortable"
+|+2024 Consensus All-Americans
+! Name !! Position !! Year !! University
+|-
+| [[Cam Ward (American football)|Cam Ward]] || Quarterback || Senior || [[2024 Miami Hurricanes football team|Miami (FL)]]
+|-
+| [[Ashton Jeanty]]* || rowspan="2" | Running back || rowspan="3" | Junior || [[2024 Boise State Broncos football team|Boise State]]
+|-
+| [[Kaleb Johnson (running back)|Kaleb Johnson]] || [[2024 Iowa Hawkeyes football team|Iowa]]
+|-
+| [[Tetairoa McMillan]] || rowspan="3" | Wide receiver || [[2024 Arizona Wildcats football team|Arizona]]
+|-
+| [[Nick Nash]]* || rowspan="2" | Senior || [[2024 San Jose State Spartans football team|San Jose State]]
+|-
+| [[Xavier Restrepo]] || Miami (FL)
+|- 
+| [[Harold Fannin Jr.]] || Tight end || rowspan="3" | Junior || [[2024 Bowling Green Falcons football team|Bowling Green]]
+|-
+| [[Kelvin Banks]]* || rowspan="5" | Offensive line || [[2024 Texas Longhorns football team|Texas]]
+|-
+| [[Will Campbell (offensive lineman)|Will Campbell]] || [[2024 LSU Tigers football team|LSU]]
+|-
+| [[Seth McLaughlin]] || rowspan="5" | Senior ||  [[2024 Ohio State Buckeyes football team|Ohio State]]
+|-
+| [[Wyatt Milum]] || [[2024 West Virginia Mountaineers football team|West Virginia]]
+|-
+| [[Addison West]] || [[2024 Western Michigan Broncos football team|Western Michigan]]
+|-
+| [[Donovan Ezeiruaku]] || rowspan="5" | Defensive line || [[2024 Boston College Eagles football team|Boston College]]
+|-
+| [[Kyle Kennard]] || [[2024 South Carolina Gamecocks football team|South Carolina]]
+|-
+| [[Abdul Carter]]* || rowspan="3" | Junior || [[2024 Penn State Nittany Lions football team|Penn State]]
+|-
+| [[Mason Graham]]* || [[2024 Michigan Wolverines football team|Michigan]]
+|-
+| [[Walter Nolen]] || [[2024 Ole Miss Rebels football team|Ole Miss]]
+|-
+| [[Shaun Dolac]] || rowspan="3" | Linebacker || rowspan="6" | Senior || [[2024 Buffalo Bulls football team|Buffalo]]
+|-
+| [[Jay Higgins]]* || [[2024 Iowa Hawkeyes football team|Iowa]]
+|-
+| [[Danny Stutsman]] || [[2024 Oklahoma Sooners football team|Oklahoma]]
+|-
+| [[Jahdae Barron]] || rowspan="4" | Defensive back || [[2024 Texas Longhorns football team|Texas]]
+|-
+| [[Xavier Watts]] || [[2024 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| [[Nohl Williams]] || [[2024 California Golden Bears football team|California]]
+|-
+| [[Caleb Downs]]* || Sophomore || [[2024 Ohio State Buckeyes football team|Ohio State]]
+|-
+| [[Kenneth Almendares]] || Kicker || rowspan="2" | Senior || [[2024 Louisiana Ragin' Cajuns football team|Louisiana]]
+|-
+| [[Alex Mastromanno]] || Punter || [[2024 Florida State Seminoles football team|Florida State]]
+|-
+| [[Travis Hunter]]* || All-purpose,<br>return specialist || Junior || [[2024 Colorado Buffaloes football team|Colorado]]
+|-
+|}
+
+==Offense==
+===Quarterback===
+* [[Cam Ward (American football)|'''Cam Ward''']], [[2024 Miami Hurricanes football team|Miami (FL)]] <small>('''AFCA''', '''AP''', '''TSN''', '''WCFF''', CBS, Athletic, ESPN, PFF)</small>
+* [[Dillon Gabriel]], [[2024 Oregon Ducks football team|Oregon]] <small>('''FWAA''', USAT, SI)</small>
+
+===Running back===
+* '''[[Ashton Jeanty]]''', [[2024 Boise State Broncos football team|Boise State]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, PFF, USAT, ESPN, SI)</small>
+* '''[[Kaleb Johnson (running back)|Kaleb Johnson]]''', [[2024 Iowa Hawkeyes football team|Iowa]] <small>('''WCFF''', '''FWAA''', '''TSN''', USAT)</small>
+* [[Cam Skattebo]], [[2024 Arizona State Sun Devils football team|Arizona State]] <small>('''AP''', CBS, Athletic, ESPN, SI)</small>
+* [[Omarion Hampton]], [[2024 North Carolina Tar Heels football team|North Carolina]] <small>('''AFCA''')</small>
+
+===Wide receiver===
+* '''[[Nick Nash]]''', [[2024 San Jose State Spartans football team|San Jose State]] <small>('''AFCA''', '''AP''', '''FWAA''', '''WCFF''', '''TSN''' CBS, ESPN, PFF)</small>
+* '''[[Tetairoa McMillan]]''', [[2024 Arizona Wildcats football team|Arizona]] <small>('''AFCA''', '''AP''', CBS, Athletic, PFF, USAT)</small>
+* '''[[Xavier Restrepo]]''', Miami (FL) <small>('''AFCA''', '''AP''', Athletic, SI)</small>
+* [[Travis Hunter]], [[2024 Colorado Buffaloes football team|Colorado]] <small>('''TSN''', '''WCFF''', CBS, SI)</small>
+* [[Harold Fannin Jr.]], [[2024 Bowling Green Falcons football team|Bowling Green]] <small>('''FWAA''')</small>
+* [[Jeremiah Smith (American football)|Jeremiah Smith]], [[2024 Ohio State Buckeyes football team|Ohio State]] <small>(USAT, ESPN)</small>
+
+===Tight end===
+* '''[[Harold Fannin Jr.]]''', [[2024 Bowling Green Falcons football team|Bowling Green]] <small>('''AFCA''', '''AP''', '''WCFF''', PFF, USAT, SI)</small>
+* [[Tyler Warren]], [[2024 Penn State Nittany Lions football team|Penn State]] <small>('''TSN''', '''FWAA''', CBS, ESPN, Athletic)</small>
+
+===Offensive line===
+* '''[[Kelvin Banks]]''', [[2024 Texas Longhorns football team|Texas]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, PFF, USAT, ESPN, SI)</small>
+* '''[[Wyatt Milum]]''', [[2024 West Virginia Mountaineers football team|West Virginia]] <small>('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, SI)</small>
+* [[Will Campbell (offensive lineman)|'''Will Campbell''']], [[2024 LSU Tigers football team|LSU]] <small>('''AFCA''', '''AP''', '''FWAA''', '''WCFF''', CBS, Athletic, ESPN, USAT)</small>
+* '''[[Addison West]]''', [[2024 Western Michigan Broncos football team|Western Michigan]] <small>('''AP''', '''FWAA''', '''WCFF''', PFF)</small>
+* [[Willie Lampkin]], North Carolina <small>('''AP, TSN''')</small>
+* [[Donovan Jackson]], Ohio State <small>('''TSN,''' USAT, ESPN, SI)</small>
+* [[Tate Ratledge]], Georgia <small>('''AFCA''')</small>
+* [[Tyler Booker]], [[2024 Alabama Crimson Tide football team|Alabama]] <small>(CBS, ESPN, USAT)</small>
+* [[Josh Conerly Jr.]], Oregon <small>(Athletic)</small>
+* [[Dylan Fairchild]], [[2024 Georgia Bulldogs football team|Georgia]] <small>(PFF)</small>
+* [[Spencer Fano]], [[2024 Utah Utes football team|Utah]] <small>(PFF)</small>
+* Bill Katsigiannis, [[2024 Army Black Knights football team|Army]] <small>(SI)</small>
+
+===Center===
+* '''[[Seth McLaughlin]]''', Ohio State <small>('''AFCA''', '''FWAA''', '''WCFF''', CBS, Athletic)</small>
+* [[Jake Slaughter]], [[2024 Florida Gators football team|Florida]] <small>('''AP''', ESPN, PFF)</small>
+* [[Cooper Mays]], [[2024 Tennessee Volunteers football team|Tennessee]] <small>('''TSN,''' USAT, SI)</small>
+
+==Defense==
+===Defensive line===
+* '''[[Abdul Carter]]''', Penn State <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, PFF, USAT, ESPN, SI)</small>
+* '''[[Mason Graham]]''', [[2024 Michigan Wolverines football team|Michigan]] <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, PFF, USAT, ESPN, SI)</small>
+* '''[[Kyle Kennard]]''', [[2024 South Carolina Gamecocks football team|South Carolina]] <small>('''AFCA''', '''FWAA''', '''WCFF''', Athletic, USAT, SI)</small>
+* '''[[Walter Nolen]]''', [[2024 Ole Miss Rebels football team|Ole Miss]] <small>('''AP''', '''FWAA''', '''TSN''', Athletic, PFF, USAT, ESPN, SI)</small>
+* '''[[Donovan Ezeiruaku]]''', [[2024 Boston College Eagles football team|Boston College]] <small>('''AFCA''', '''AP''', '''TSN''', CBS, ESPN, PFF)</small>
+* [[Mike Green (defensive end)|Mike Green]], [[2024 Marshall Thundering Herd football team|Marshall]] <small>('''WCFF''')</small>
+
+===Linebacker===
+* '''[[Jay Higgins]]''', Iowa <small>('''AFCA''', '''AP''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, PFF, USAT, SI)</small>
+* '''[[Shaun Dolac]]''', [[2024 Buffalo Bulls football team|Buffalo]] <small>('''AP''', '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, ESPN, PFF)</small>
+* '''[[Danny Stutsman]]''', [[2024 Oklahoma Sooners football team|Oklahoma]] <small>('''AFCA''', '''WCFF''', CBS)</small>
+* [[Jalon Walker]], Georgia <small>('''AFCA''', USAT, ESPN, SI)</small>
+* [[Carson Schwesinger]], [[2024 UCLA Bruins football team|UCLA]] <small>('''AP''')</small>
+* [[Aiden Fisher]], Indiana ('''<small>FWAA</small>'''<small>)</small>
+* [[Kyle Louis]], [[2024 Pittsburgh Panthers football team|Pitt]] ('''<small>TSN</small>'''<small>)</small>
+* [[Anthony Hill Jr.]], Texas <small>(Athletic, ESPN, SI)</small>
+* [[Chris Paul Jr.]], Ole Miss <small>(USAT)</small>
+
+===Defensive back===
+* '''[[Caleb Downs]]''', Ohio State <small>('''AFCA''', '''AP''',  '''FWAA''', '''TSN''', '''WCFF''', CBS, Athletic, USAT, ESPN, SI)</small>
+* '''[[Xavier Watts]]''', [[2024 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''AFCA''', '''AP''', '''TSN''', '''WCFF''', CBS, Athletic, PFF, USAT, ESPN, SI)</small>
+* '''[[Nohl Williams]]''', [[2024 California Golden Bears football team|California]] <small>('''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', Athletic, ESPN, SI)</small>
+* '''[[Jahdae Barron]]''', Texas <small>('''AP''', '''FWAA''', '''TSN,''' CBS, Athletic, PFF, ESPN, USAT)</small>
+* Travis Hunter, Colorado <small>('''AP''', '''WCFF''', CBS, PFF, USAT, SI)</small>
+* [[Malaki Starks]], [[2024 Georgia Bulldogs football team|Georgia]] <small>('''AFCA''', '''FWAA''', CBS)</small>
+* [[Nick Emmanwori]], South Carolina <small>('''AP''', '''TSN''')</small>
+* [[Michael Taaffe]], Texas <small>(PFF)</small>
+* [[Malachi Moore]], Alabama <small>(PFF)</small>
+
+==Special teams==
+===Kicker===
+* '''[[Kenneth Almendares]]''', [[2024 Louisiana Ragin' Cajuns football team|Louisiana]] <small>('''AP''', '''WCFF''', CBS, USAT)</small>
+* [[Dominic Zvada]], Michigan <small>('''TSN''', ESPN, Athletic)</small>
+* [[Ryan Fitzgerald (American football)|Ryan Fitzgerald]], [[2024 Florida State Seminoles football team|Florida State]] <small>('''AFCA''')</small>
+* Collin Rogers, [[2024 SMU Mustangs football team|SMU]] <small>('''FWAA''', SI)</small>
+* [[Ben Sauls]], [[2024 Pittsburgh Panthers football team|Pittsburgh]] <small>(PFF)</small>
+
+===Punter===
+* '''[[Alex Mastromanno]]''', Florida State <small>('''AFCA''', '''AP''', '''FWAA''', '''WCFF''', CBS, USAT)</small>
+* [[Eddie Czaplicki]], [[2024 USC Trojans football team|USC]] <small>('''TSN''', ESPN, Athletic)</small>
+* [[Brett Thorson]], Georgia, <small>(PFF, SI)</small>
+
+===All-purpose / return specialist===
+* '''Travis Hunter''', Colorado <small>('''AFCA''', '''AP''', '''FWAA''', CBS, Athletic, ESPN, USAT)</small>
+* [[Keelan Marion]], [[2024 BYU Cougars football team|BYU]] <small>('''FWAA''', '''WCFF''', CBS, PFF, USAT)</small>
+* [[Kam Shanks]], [[2024 UAB Blazers football team|UAB]] <small>('''TSN''', ESPN, CBS)</small>
+* Cam Skattebo, Arizona State (<small>'''TSN''')</small>
+* [[Kaden Wetjen]], Iowa ('''<small>FWAA</small>'''<small>)</small>
+* [[Rayshawn Pleasant]], [[2024 Tulane Green Wave football team|Tulane]] (<small>'''TSN''')</small>
+* [[Tyler Warren]], Penn State <small>(SI)</small>
+* [[Dalen Cambre]], Louisiana <small>(PFF)</small>
+
+===Long snapper===
+* [[Luke Elkin]], Iowa <small>('''AFCA''')</small>
+* Bryce Robinson, [[2024 Kennesaw State Owls football team|Kennesaw State]] <small>(PFF)</small>
+
+==See also==
+* [[2024 FCS College Football All-America Team]]
+* [[2024 All-Big 12 Conference football team]]
+* [[2024 All-Big Ten Conference football team]]
+* [[2024 All-SEC football team]]
+* [[2024 All-ACC football team]]
+
+==Footnotes==
+{{Reflist}}
+
+==References==
+*[https://www.afca.com/colorados-travis-hunter-and-san-jose-states-nick-nash-headline-the-2024-afca-fbs-coaches-all-america-teams/ American Football Coaches Association All-America Team]
+*[https://apnews.com/article/ap-all-america-college-football-fb5a85150bf6850fdc5d32275fe59938 Associated Press All-America Team]
+*[https://www.sportswriters.net/fwaa/news/2024/12/17/five-repeat-honorees-16-players-in-cfp-dot-2024-fwaa-all-america-team-presented-by-the-goodyear-cotton-bowl-classic Football Writers Association of America All-America Team]
+*[https://www.sportingnews.com/us/ncaa-football/news/college-football-all-america-team-2024-sporting-news/eccd2bb9feeff15df1ff3a25 The Sporting News College Football All-America Team]
+*[https://waltercamp.org/135th-annual-walter-camp-all-america-first-and-second-teams/ Walter Camp All-America Team]
+*[https://athlonsports.com/college-football/college-football-2024-all-america-team Athlon Sports College Football's Postseason All-America Team]
+*[https://www.nytimes.com/athletic/5984654/2024/12/11/college-football-all-america-teams-2024/ The Athletic All-America Team]
+*[https://www.cbssports.com/college-football/news/2024-cbs-sports-all-america-team-big-ten-edges-sec-in-selections-travis-hunter-picks-up-three-honors/ CBS Sports All-America Team]
+* [https://www.espn.com/college-football/story/_/id/43411007/espn-2024-college-football-all-america-team ESPN All-America Team]
+*[https://www.pff.com/news/college-football-2024-pff-all-america-team-travis-hunter-ashton-jeanty-mason-graham/ PFF College All-America Team]
+*[https://philsteele.com/2024-phil-steeles-postseason-all-american-all-conference-teams/ Phil Steele Postseason All Conference Teams]
+*[https://www.si.com/college-football/sports-illustrated-2024-college-football-all-americans Sports Illustrated All-America Team]
+*[https://www.usatoday.com/story/sports/ncaaf/2024/12/12/college-football-all-american-team/76928339007/ USA Today All-America Team]
+
+{{2024 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2024 NCAA Division I FBS football season navbox}}
+
+[[Category:2024 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

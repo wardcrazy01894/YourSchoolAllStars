@@ -1,0 +1,410 @@
+{
+ "season": 1995,
+ "source": "https://archive.org/details/carolinafootball1996unse",
+ "sourceNote": "1996 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1995 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1996unse.",
+ "players": [
+  {
+   "name": "Kivuusama Mays",
+   "position": "MLB",
+   "rosterPosition": "MLB",
+   "stats": {
+    "tackles": 138,
+    "tfl": 6,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Brian Simmons",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 113,
+    "tfl": 11,
+    "sacks": 5,
+    "defInt": 2,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Marcus Jones",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 94,
+    "tfl": 19,
+    "sacks": 7,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Sean Boyd",
+   "position": "FS",
+   "rosterPosition": "FS",
+   "stats": {
+    "tackles": 89,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "James Hamilton",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 73,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 71,
+    "tfl": 9,
+    "sacks": 7,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "SS",
+   "rosterPosition": "SS",
+   "stats": {
+    "tackles": 66,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Fuzzy Lee",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 50,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": null,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Russell Davis",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 46,
+    "tfl": 6,
+    "sacks": 3,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Rick Terry",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 44,
+    "tfl": 12,
+    "sacks": 8,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Mike Pringley",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 41,
+    "tfl": 5,
+    "sacks": 4,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 39,
+    "tfl": 4,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 31,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Kevin Addis",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 27,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Eric Thomas",
+   "position": "SS",
+   "rosterPosition": "SS",
+   "stats": {
+    "tackles": 25,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "LB",
+   "rosterPosition": "DB",
+   "stats": {
+    "tackles": 21,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Jamie Carrick",
+   "position": "MLB",
+   "rosterPosition": "MLB",
+   "stats": {
+    "tackles": 19,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 15,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 14,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Ronald Thomas",
+   "position": "FS",
+   "rosterPosition": "FS",
+   "stats": {
+    "tackles": 14,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Andre Purvis",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 10,
+    "tfl": 2,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Shawn Lyons",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 8,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Shane Pierson",
+   "position": "OLB",
+   "rosterPosition": "OLB",
+   "stats": {
+    "tackles": 8,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Nate Hobgood-Chittick",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 7,
+    "tfl": 3,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Marcus Dow",
+   "position": "DT",
+   "rosterPosition": "DT",
+   "stats": {
+    "tackles": 7,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 7,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Wendell Camp",
+   "position": "SS",
+   "rosterPosition": "SS",
+   "stats": {
+    "tackles": 6,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Robert Williams",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 5,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Teto Simpson",
+   "position": "DE",
+   "rosterPosition": "DE",
+   "stats": {
+    "tackles": 5,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Mark Dunn",
+   "position": "SLB",
+   "rosterPosition": "SLB",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  },
+  {
+   "name": "Chuckie Parquet",
+   "position": "CB",
+   "rosterPosition": "CB",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1996unse"
+  }
+ ]
+}

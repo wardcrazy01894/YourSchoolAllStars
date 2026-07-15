@@ -1,0 +1,231 @@
+<!-- source: https://en.wikipedia.org/wiki/2005_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2005}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2005 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| heading2 = 
+| content2 = [[2005 NCAA Division I-A football season]]
+| heading3 = 
+| content3 = 
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2004 All-America college football team|2004]] &nbsp; [[2006 All-America college football team|2006]] → 
+}}
+
+The '''2005 All-America college football team''' is composed of the following All-American Teams: [[Associated Press]], [[Football Writers Association of America]], [[American Football Coaches Association]], [[Walter Camp Foundation]], ''[[The Sporting News]]'', ''[[Sports Illustrated]]'', ''[[Pro Football Weekly]]'', [[ESPN]], [[CBS Sports]], ''[[College Football News]]'', and [[Rivals.com]].
+
+The [[All-America college football team]] is an honor given annually to the best American college football players at their respective positions. The original usage of the term All-America was with lists selected by [[Caspar Whitney]] starting in [[1889 All-America college football team|1889]]. The [[NCAA]] officially recognizes All-Americans selected by the AP, AFCA, FWAA, TSN, and the WCFF to determine consensus All-Americans.
+
+Eighteen players were recognized as consensus All-Americans for 2005, 12 of them unanimously. [[List of unanimous All-Americans in college football|Unanimous selections]] are followed by an asterisk (*)
+
+{| class="wikitable sortable"
+|+2005 Consensus All-Americans<ref>{{cite web|title=Official 2007 NCAA Division I Football Record Books|year=2007|publisher=National Collegiate Athletic Association|page=224|url=http://www.ncaa.org/library/records/football/football_records_book/2007/2007_d1_football_records_book.pdf|archive-url=https://web.archive.org/web/20070930220759/http://www.ncaa.org/library/records/football/football_records_book/2007/2007_d1_football_records_book.pdf|archive-date=September 30, 2007}}</ref>
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Vince|Young}} || Quarterback || {{sort|3|Junior}} || [[2005 Texas Longhorns football team|Texas]]
+|-
+| {{sortname|Reggie|Bush}}* || rowspan=2| Running back ||{{sort|3|Junior}} || [[2005 USC Trojans football team|USC]]
+|-
+| {{sortname|Jerome|Harrison}} || {{sort|4|Senior}} || [[2005 Washington State Cougars football team|Washington State]]
+|-
+| {{sortname|Dwayne|Jarrett}}* || rowspan=2|Wide receiver || {{sort|2|Sophomore}} || USC
+|-
+| {{sortname|Jeff|Samardzija}} || {{sort|3|Junior}} || [[2005 Notre Dame Fighting Irish football team|Notre Dame]]
+|-
+| {{sortname|Marcedes|Lewis}} ||  Tight end || {{sort|4|Senior}} || [[2005 UCLA Bruins football team|UCLA]] 
+|-
+| {{sortname|Greg|Eslinger}}* || Center ||{{sort|4|Senior}} || [[2005 Minnesota Golden Gophers football team|Minnesota]]
+|-
+| {{sortname|Max|Jean-Gilles}} || rowspan="4" | Offensive line ||{{sort|4|Senior}} || [[2005 Georgia Bulldogs football team|Georgia]]
+|-
+| {{sortname|Marcus|McNeill}} ||{{sort|4|Senior}} || [[2005 Auburn Tigers football team|Auburn]]
+|-
+| {{sortname|Jonathan|Scott|Jonathan Scott (American football)}}* ||{{sort|4|Senior}} || Texas
+|-
+| {{sortname|Deuce|Lutui}} || {{sort|4|Senior}} || USC
+|-
+| {{sortname|Elvis|Dumervil}}* || rowspan="4" | Defensive line ||{{sort|4|Senior}} || [[2005 Louisville Cardinals football team|Louisville]]
+|-
+| {{sortname|Tamba|Hali}}* ||{{sort|4|Senior}} || [[2005 Penn State Nittany Lions football team|Penn State]]
+|-
+| {{sortname|Haloti|Ngata}} || {{sort|4|Senior}} || [[2005 Oregon Ducks football team|Oregon]]
+|-
+| {{sortname|Rodrique|Wright}} ||{{sort|4|Senior}} || Texas
+|-
+| {{sortname|A. J.|Hawk}}* || rowspan="3" | Linebacker ||{{sort|4|Senior}} || [[2005 Ohio State Buckeyes football team|Ohio State]]
+|-
+| {{sortname|Demeco|Ryans}}* ||{{sort|4|Senior}} || [[2005 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Paul|Posluszny}} ||{{sort|4|Senior}} || Penn State
+|-
+| {{sortname|Jimmy|Williams|Jimmy Williams (cornerback, born 1984)}}* || rowspan="4" | Defensive back ||{{sort|4|Senior}} || [[2005 Virginia Tech Hokies football team|Virginia Tech]]
+|-
+| {{sortname|Michael|Huff}}* ||{{sort|4|Senior}} || Texas
+|-
+| {{sortname|Greg|Blue}} || {{sort|4|Senior}} || Georgia
+|-
+| {{sortname|Tye|Hill}} ||{{sort|4|Senior}} ||  [[2005 Clemson Tigers football team|Clemson]]
+|-
+| {{sortname|Mason|Crosby}} || Kicker ||{{sort|3|Junior}} || [[2005 Colorado Buffaloes football team|Colorado]]
+|-
+| {{sortname|Ryan|Plackemeier}}* || Punter ||{{sort|4|Senior}} || [[2005 Wake Forest Demon Deacons football team|Wake Forest]]
+|-
+| {{sortname|Maurice|Drew|Maurice Jones-Drew}}* || Return specialist ||{{sort|3|Junior}} || UCLA
+|}
+
+==Offense==
+===Quarterback===
+*'''[[Vince Young]]''', [[2005 Texas Longhorns football team|Texas]] <small>('''AP-1, FWAA, TSN''', SI, PFW, ESPN, CBS, CFN, Rivals.com, WCFF-2)</small> 
+*[[Matt Leinart]], [[2005 USC Trojans football team|Southern California]] <small>('''AFCA, WCFF''', AP-2)</small>
+*[[Brady Quinn]], Notre Dame <small>(AP-3)</small>
+
+===Running backs===
+*'''[[Reggie Bush]]''', Southern California <small>('''AP-1''', '''AFCA''', '''FWAA''', '''TSN''', '''WCFF''', SI, PFW, ESPN, CBS, CFN, Rivals.com-All-purpose)</small> 
+*'''[[Jerome Harrison]]''', [[2005 Washington State Cougars football team|Washington State]] <small>('''AP-1, FWAA, TSN''', SI, ESPN, CBS, CFN, Rivals.com, WCFF-2)</small>
+*[[DeAngelo Williams]], [[2005 Memphis Tigers football team|Memphis]] <small>('''AFCA''', '''WCFF''', AP-2)</small>
+*[[Laurence Maroney]], Minnesota <small>(PFW, Rivals.com, AP-3, WCFF-2)</small>
+*[[Brian Calhoun]], Wisconsin <small>(AP-2)</small>
+*[[LenDale White]], USC <small>(AP-3)</small>
+
+===Fullback===
+*[[Brian Leonard]], [[2005 Rutgers Scarlet Knights football team|Rutgers]] <small>(PFW)</small>
+
+===Wide receivers===
+*'''[[Dwayne Jarrett]]''', Southern California <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, CBS, CFN)</small>
+*'''[[Jeff Samardzija]]''', [[2005 Notre Dame Fighting Irish football team|Notre Dame]] <small>('''FWAA, TSN''', SI, PFW, ESPN, CBS, CFN, Rivals.com, AP-2, WCFF-2)</small> 
+*[[Mike Hass]], Oregon State <small>('''AP-1, WCFF''', ESPN)</small> 
+*[[Calvin Johnson]], Georgia Tech <small>('''AFCA''', PFW, Rivals.com, AP-2, WCFF-2)</small>
+*[[Greg Jennings]], Western Michigan <small>(AP-3)</small>
+*[[Derek Hagan]], Arizona State <small>(AP-3)</small>
+
+===Tight end===
+*'''[[Marcedes Lewis]]''', [[2005 UCLA Bruins football team|UCLA]] <small>('''FWAA, TSN, WCFF''', Rivals.com, AP-2)</small>
+*[[Vernon Davis]], [[2005 Maryland Terrapins football team|Maryland]] <small>('''AP-1, AFCA''', PFW, CFN)</small>
+*[[Garrett Mills]], [[2005 Tulsa Golden Hurricane football team|Tulsa]] <small>(SI, ESPN, CBS, AP-3, WCFF-2)</small>
+
+===Linemen===
+*'''[[Jonathan Scott (American football)|Jonathan Scott]]''', Texas <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, ESPN, CBS)</small>
+*'''[[Marcus McNeill]]''', [[2005 Auburn Tigers football team|Auburn]] <small>('''AP-1, FWAA, TSN, WCFF''', SI, ESPN, CFN, Rivals.com)</small>
+*'''[[Max Jean-Gilles]]''', [[2005 Georgia Bulldogs football team|Georgia]] <small>('''AP-1, AFCA, TSN, WCFF''', PFW, ESPN, CFN, Rivals.com)</small> 
+*'''[[Taitusi Lutui]]''', Southern California <small>('''AFCA, FWAA, TSN''', SI, ESPN, CBS, Rivals.com, AP-2, WCFF-2)</small>
+*[[Eric Winston]], [[2005 Miami Hurricanes football team|Miami (FL)]] <small>('''AFCA, WCFF''', SI, CBS, CFN, Rivals.com, AP-2)</small> 
+*[[D'Brickashaw Ferguson]], [[2005 Virginia Cavaliers football team|Virginia]] <small>('''AP-1''', WCFF-2, PFW)</small> 
+*[[Zach Strief]], [[2005 Northwestern Wildcats football team|Northwestern]] <small>('''FWAA''')</small>
+*[[Sam Baker (offensive tackle)|Sam Baker]], Southern California <small>(CBS, AP-3)</small>  
+*[[Justin Blalock]], Texas <small>(CFN, AP-3)</small> 
+*[[Davin Joseph]], [[2005 Oklahoma Sooners football team|Oklahoma]] <small>(PFW, CFN)</small> 
+*[[Joe Thomas (offensive tackle)|Joe Thomas]], [[2005 Wisconsin Badgers football team|Wisconsin]] <small>(PFW, WCFF-2)</small>
+*[[Levi Brown (offensive tackle)|Levi Brown]], Penn State <small>(AP-2)</small>
+*[[Mark Setterstrom]], Minnesota <small>(AP-2)</small>
+*[[Andrew Whitworth]], LSU <small>(AP-3, WCFF-2)</small>
+*Will Allen, Texas <small>(AP-3)</small>
+
+===Center===
+*'''[[Greg Eslinger]]''', [[2005 Minnesota Golden Gophers football team|Minnesota]] <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, ESPN, CBS, Rivals.com)</small>
+*[[Nick Mangold]], Ohio State <small>(PFW, WCFF-2)</small>
+*[[Dan Mozes]], West Virginia <small>(AP-2)</small>
+
+==Defense==
+===Ends===
+*'''[[Tamba Hali]]''', Penn State <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', ESPN, CBS, Rivals.com)</small>
+*'''[[Elvis Dumervil]]''', [[2005 Louisville Cardinals football team|Louisville]] <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, ESPN, CBS, CFN)</small>
+*[[Mario Williams]], [[2005 NC State Wolfpack football team|North Carolina State]] <small>(SI, PFW, AP-3, WCFF-2)</small>
+*[[Mathias Kiwanuka]], Boston College <small>('''AFCA''', CBS, Rivals.com, AP-2, WCFF-2)</small>
+*[[Darryl Tapp]], Virginia Tech <small>('''AFCA''', CFN, AP-2, WCFF-2)</small> 
+*[[Kamerion Wimbley]], Florida State <small>(PFW)</small>
+*[[Willie Evans (defensive end)|Willie Evans]], Mississippi State <small>(AP-3)</small>
+
+===Tackles===
+*'''[[Haloti Ngata]]''', [[2005 Oregon Ducks football team|Oregon]] <small>('''AP-1, FWAA, TSN, WCFF''', SI, ESPN, CFN, Rivals.com)</small> 
+*'''[[Rodrique Wright]]''', Texas <small>('''AP-1, TSN, WCFF''', ESPN, CBS)</small>; 
+*[[Brodrick Bunkley]], Florida State <small>('''FWAA''', SI, PFW, AP-3)</small>; 
+*[[Claude Wroten]], LSU <small>(CFN)</small>; 
+*[[Kyle Williams (defensive tackle)|Kyle Williams]], LSU <small>(PFW, Rivals.com, AP-2, WCFF-2)</small>
+*[[Orien Harris]], Miami <small>(AP-2)</small>
+*[[Jesse Mahelona]], Tennessee <small>(AP-3)</small>
+
+===Linebackers===
+*'''[[A. J. Hawk]]''', [[2005 Ohio State Buckeyes football team|Ohio State]] <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, PFW, ESPN, CBS, CFN, Rivals.com)</small>
+*'''[[Paul Posluszny]]''', [[2005 Penn State Nittany Lions football team|Penn State]] <small>('''AP-1, FWAA, TSN, WCFF''', SI, ESPN, CBS, Rivals.com)</small> 
+*'''[[DeMeco Ryans]]''', [[2005 Alabama Crimson Tide football team|Alabama]] <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', ESPN, CBS, Rivals.com)</small>
+*[[D’Qwell Jackson]], Maryland <small>('''AFCA''', SI, AP-2, WCFF-2)</small>
+*[[Chad Greenway]], [[2005 Iowa Hawkeyes football team|Iowa]] (<small>PFW, CFN, AP-2, WCFF-2)</small>
+*[[Patrick Willis]], [[2005 Ole Miss Rebels football team|Ole Miss]], <small>(PFW, CFN, AP-2, WCFF-2)</small>
+*Aaron Harris, Texas <small>(AP-3)</small>
+*[[Nick Reid]], Kansas <small>(AP-3)</small>
+*[[Bobby Carpenter (American football)|Bobby Carpenter]], Ohio State <small>(AP-3)</small>
+
+===Backs===
+*'''[[Jimmy F. Williams|Jimmy Williams]]''', [[2005 Virginia Tech Hokies football team|Virginia Tech]] <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', ESPN, CBS, CFN, Rivals.com)</small> 
+*'''[[Michael Huff]]''', Texas <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, PFW, ESPN, CBS, CFN, Rivals.com)</small>
+*'''[[Greg Blue]]''', Georgia  <small>('''AP-1, AFCA, TSN, WCFF''', SI, ESPN, CFN)</small>
+*'''[[Tye Hill]]''', Clemson <small>('''TSN, WCFF''', ESPN, Rivals.com, AP-2)</small>
+*[[Darnell Bing]], Southern California <small>('''AP-1''', Rivals.com, WCFF-2)</small>
+*[[Dion Byrum]], [[2005 Ohio Bobcats football team|Ohio]] <small>('''AFCA''', AP-2)</small>
+*[[Ko Simpson]], [[2005 South Carolina Gamecocks football team|South Carolina]] <small>('''FWAA''', CBS, CFN, AP-3)</small> 
+*[[Brandon Meriweather]], Miami-FL <small>('''FWAA''', WCFF-2)</small>
+*[[Kelly Jennings]], Miami-FL <small>(SI, PFW, CBS, AP-2)</small> 
+*[[Dwayne Slay]], [[2005 Texas Tech Red Raiders football team|Texas Tech]] <small>(SI)</small>
+*[[Alan Zemaitis]], Penn State <small>(PFW, AP-2, WCFF-2)</small> 
+*[[Donte Whitner]], Ohio State <small>(PFW)</small>
+*Aaron Gipson, Oregon <small>(AP-3, WCFF-2)</small>
+*[[LaRon Landry]], LSU <small>(AP-3)</small>
+*[[Tom Zbikowski]], Notre Dame <small>(AP-3)</small>
+
+==Special teams==
+===Kicker===
+*'''[[Mason Crosby]]''', Colorado <small>('''AP-1, FWAA, TSN, WCFF''', SI, PFW, ESPN, CBS, CFNews, Rivals.com)</small> 
+*[[Alexis Serna]], [[2005 Oregon State Beavers football team|Oregon State]] <small>('''AFCA''', AP-2, WCFF-2)</small>
+*[[Brandon Coutu]], Georgia <small>(AP-3)</small>
+
+===Punter===
+*'''[[Ryan Plackemeier]]''', Wake Forest <small>('''AP-1, AFCA, FWAA, TSN, WCFF''', SI, ESPN, CBS, CFN, Rivals.com)</small>
+*[[Danny Baugher]], Arizona <small>(PFW, AP-3)</small>
+*[[Daniel Sepulveda]], Baylor <small>(AP-2)</small>
+*John Torp, Colorado <small>(WCFF-2)</small>
+
+===Returners===
+*'''[[Maurice Jones-Drew|Maurice Drew]]''', UCLA <small>('''AP-1'''[All-Purpose], '''AFCA'''-Return Specialist, '''FWAA, TSN, WCFF''', SI-PR, PFWeekly-PR, CBS, CFN-PR)</small> 
+*[[Cory Rodgers]], [[2005 TCU Horned Frogs football team|TCU]] <small>(WCFF-2, SI-KR, PFW-KR, ESPN)</small> 
+*[[Felix Jones]], [[2005 Arkansas Razorbacks football team|Arkansas]] <small>(CFN-KR)</small> 
+*[[Skyler Green]], LSU <small>(Rivals.com-PR, AP-3)</small>
+*[[Ted Ginn Jr.]], Ohio State <small>(Rivals.com-KR)</small>
+*[[Brandon Williams (wide receiver)|Brandon Williams]], Wisconsin <small>(AP-2)</small>
+
+==See also==
+* [[2005 All-Atlantic Coast Conference football team]]
+* [[2005 All-Big Ten Conference football team]]
+* [[2005 All-Big 12 Conference football team]]
+* [[2005 All-Pacific-10 Conference football team]]
+* [[2005 All-SEC football team]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{col-begin}}
+{{col-2}}
+*[https://www.deseret.com/2005/12/14/19927808/2005-ap-all-america-team 2005 AP All-American Team]
+*[https://web.archive.org/web/20110524071629/http://www.afca.com/ViewArticle.dbml?DB_OEM_ID=9300&ATCLID=1329519 2005 Coaches All-American Team]
+*[http://www.sportswriters.net/fwaa/news/2005/allamerica051210.html 2005 Writers All-American Team]
+*[https://waltercamp.org/awards/all-america-team/all-america-team-2005/ 2005 Walter Camp Foundation All-American Team]
+*[http://goliath.ecnext.com/coms2/gi_0199-5077286/Reg-gie-Reg-gie-2005.html 2005 The Sporting News All-American Team]
+*[https://archive.today/20130119200947/http://sportsillustrated.cnn.com/2005/football/ncaa/all.america/index.html 2005 Sports Illustrated All-American Team]
+{{col-2}}
+*[http://www.profootballweekly.com  2005 Pro Football Weekly All-American Team]
+*[https://www.espn.com/college-football/columns/story?columnist=maisel_ivan&id=3158430 2005 ESPN All-American Team]
+*[https://web.archive.org/web/20070808032045/http://cbs.sportsline.com/collegefootball/story/9080815 2005 CBS Sportsline All-American Team]
+*[https://web.archive.org/web/20091220212854/http://cfn.scout.com/2/710932.html 2005 College Football News All-American Team]
+*[https://web.archive.org/web/20060105213620/http://collegefootball.rivals.com/content.asp?CID=489391 2005 Rivals.com All-American Team]
+*{{cite web|title=Football Award Winners|publisher=NCAA|year=2007|pages=4, 18|url=http://www.ncaa.org/library/records/football/football_records_book/2007/2007_d1_football_records_book.pdf|archive-url=https://web.archive.org/web/20070930220759/http://www.ncaa.org/library/records/football/football_records_book/2007/2007_d1_football_records_book.pdf|archive-date=September 30, 2007}}
+{{col-end}}
+
+{{2005 NCAA Division I-A College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2005 NCAA Division I FBS football season navbox}}
+
+[[Category:2005 NCAA Division I-A football season|All-America team]]
+[[Category:All-America college football teams]]

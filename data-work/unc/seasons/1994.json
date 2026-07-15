@@ -1,0 +1,477 @@
+{
+ "year": 1994,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Jason Stanicek",
+   "position": "QB",
+   "stats": {
+    "passYds": 1222,
+    "passTD": 7,
+    "passInt": 7,
+    "rushYds": 281,
+    "rushTD": 3
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Mike Thomas",
+   "position": "QB",
+   "stats": {
+    "passYds": 715,
+    "passTD": 8,
+    "passInt": 3,
+    "rushYds": 45,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Octavus Barnes",
+   "position": "WR",
+   "stats": {
+    "passYds": 48,
+    "passTD": 1,
+    "rushYds": 10,
+    "rec": 32,
+    "recYds": 609,
+    "recTD": 3
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Tucker Perry",
+   "position": "QB",
+   "stats": {
+    "passYds": 1,
+    "rushYds": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Malcolm Marshall",
+   "position": "RB",
+   "stats": {
+    "rushYds": 198,
+    "rushTD": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "William Henderson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 251,
+    "rushTD": 1,
+    "rec": 1,
+    "recYds": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "_ Patton",
+   "position": null,
+   "stats": {
+    "rec": 1,
+    "recYds": 17
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Mike Geter",
+   "position": "RB",
+   "stats": {
+    "rushYds": 56,
+    "rec": 2,
+    "recYds": 12
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Maurice McGregor",
+   "position": "RB",
+   "stats": {
+    "rushYds": 23,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Marcus Wall",
+   "position": "WR",
+   "stats": {
+    "rushYds": 31,
+    "rushTD": 1,
+    "rec": 29,
+    "recYds": 569,
+    "recTD": 9
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Chris Watson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 65
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Leon Johnson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 805,
+    "rushTD": 7,
+    "rec": 29,
+    "recYds": 266,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Jonathan Linton",
+   "position": "RB",
+   "stats": {
+    "rushYds": 19
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Greg DeLong",
+   "position": "TE",
+   "stats": {
+    "rec": 12,
+    "recYds": 141
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Freddie Jones",
+   "position": "TE",
+   "stats": {
+    "rec": 4,
+    "recYds": 30
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Darrin Ashford",
+   "position": "WR",
+   "stats": {
+    "rec": 17,
+    "recYds": 240,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Curtis Johnson",
+   "position": "RB",
+   "stats": {
+    "rushYds": 721,
+    "rushTD": 7,
+    "rec": 10,
+    "recYds": 101
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html"
+  },
+  {
+   "name": "Fuzzy Lee",
+   "position": "CB",
+   "stats": {
+    "defInt": 1,
+    "tackles": 63,
+    "tfl": 4,
+    "pbu": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "James Hamilton",
+   "position": "OLB",
+   "stats": {
+    "defInt": 1,
+    "tackles": 59,
+    "tfl": 3,
+    "sacks": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Mike Morton",
+   "position": "WLB",
+   "stats": {
+    "defInt": 2,
+    "tackles": 126,
+    "tfl": 2,
+    "pbu": 7
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "CB",
+   "stats": {
+    "defInt": 1,
+    "tackles": 31,
+    "tfl": 2,
+    "pbu": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Oscar Sturgis",
+   "position": "DE",
+   "stats": {
+    "defInt": 1,
+    "tackles": 39,
+    "tfl": 9,
+    "sacks": 2,
+    "pbu": 1
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "CB",
+   "stats": {
+    "defInt": 1,
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Sean Boyd",
+   "position": "SS",
+   "stats": {
+    "defInt": 2,
+    "tackles": 57,
+    "pbu": 10
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "CB",
+   "stats": {
+    "defInt": 1,
+    "tackles": 26,
+    "pbu": 2
+   },
+   "source": "http://web.archive.org/web/20250114105452/https://www.sports-reference.com/cfb/schools/north-carolina/1994.html + https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Eddie Mason",
+   "position": "SLB",
+   "stats": {
+    "tackles": 76,
+    "tfl": 4,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Kerry Mock",
+   "position": "SLB",
+   "stats": {
+    "tackles": 75,
+    "tfl": 4.5,
+    "sacks": 1.5,
+    "pbu": 7
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Marcus Jones",
+   "position": "DE",
+   "stats": {
+    "tackles": 62,
+    "tfl": 12.5,
+    "sacks": 7.5
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Eric Thomas",
+   "position": "FS",
+   "stats": {
+    "tackles": 48,
+    "tfl": 1,
+    "pbu": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Riddick Parker",
+   "position": "DT",
+   "stats": {
+    "tackles": 41,
+    "tfl": 4,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Greg Black",
+   "position": "DT",
+   "stats": {
+    "tackles": 37,
+    "tfl": 4,
+    "sacks": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Jimmy Hitchcock",
+   "position": "DB",
+   "stats": {
+    "tackles": 27,
+    "tfl": 4,
+    "sacks": 1,
+    "pbu": 6
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "DE",
+   "stats": {
+    "tackles": 24,
+    "tfl": 5,
+    "sacks": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Brian Simmons",
+   "position": "OLB",
+   "stats": {
+    "tackles": 23,
+    "tfl": 3,
+    "sacks": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Rick Terry",
+   "position": "DT",
+   "stats": {
+    "tackles": 19,
+    "tfl": 2,
+    "sacks": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Kivuusama Mays",
+   "position": "WLB",
+   "stats": {
+    "tackles": 16,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Wendell Camp",
+   "position": "SS",
+   "stats": {
+    "tackles": 13
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "DT",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Ronald Thomas",
+   "position": "CB",
+   "stats": {
+    "tackles": 11,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Kevin Addis",
+   "position": "DB",
+   "stats": {
+    "tackles": 8
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "John Bradley",
+   "position": "DE",
+   "stats": {
+    "tackles": 7
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Doug Leonard",
+   "position": "DE",
+   "stats": {
+    "tackles": 5,
+    "tfl": 1,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Andre Purvis",
+   "position": "DT",
+   "stats": {
+    "tackles": 5,
+    "tfl": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Clay Eddie",
+   "position": "FS",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Beau Parry",
+   "position": "OLB",
+   "stats": {
+    "tackles": 3,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Scott Caparelli",
+   "position": "KS",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Ryan Marsh",
+   "position": "SLB",
+   "stats": {
+    "tackles": 2,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  },
+  {
+   "name": "Jamez Griffin",
+   "position": "SS",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1995unse"
+  }
+ ]
+}

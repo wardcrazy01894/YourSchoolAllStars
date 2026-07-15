@@ -1,0 +1,636 @@
+{
+ "year": 2002,
+ "source": "https://goheels.com/sports/football/roster/2002",
+ "players": [
+  {
+   "jersey": "1",
+   "name": "Derrele Mitchell",
+   "position": "Wide Receiver",
+   "class": "Fr."
+  },
+  {
+   "jersey": "2",
+   "name": "Derrick Johnson",
+   "position": "Cornerback",
+   "class": "Jr."
+  },
+  {
+   "jersey": "4",
+   "name": "Darian Durant",
+   "position": "Quarterback",
+   "class": "So."
+  },
+  {
+   "jersey": "5",
+   "name": "Jonathan Cork",
+   "position": "Punter/Kicker",
+   "class": "Sr."
+  },
+  {
+   "jersey": "5",
+   "name": "Jarwarski Pollock",
+   "position": "Wide Receiver",
+   "class": "So."
+  },
+  {
+   "jersey": "6",
+   "name": "Chris Hawkins",
+   "position": "Cornerback",
+   "class": "So."
+  },
+  {
+   "jersey": "6",
+   "name": "Chad Scott",
+   "position": "Tailback",
+   "class": "So."
+  },
+  {
+   "jersey": "7",
+   "name": "C.J. Stephens",
+   "position": "Quarterback",
+   "class": "Jr."
+  },
+  {
+   "jersey": "8",
+   "name": "Terrance Highsmith",
+   "position": "Quarterback",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "9",
+   "name": "Ronald Brewer",
+   "position": "Defensive Back",
+   "class": "Sr."
+  },
+  {
+   "jersey": "9",
+   "name": "Landon Mariani",
+   "position": "Quarterback",
+   "class": "So."
+  },
+  {
+   "jersey": "10",
+   "name": "Will Berry",
+   "position": "Defensive Back",
+   "class": "So."
+  },
+  {
+   "jersey": "10",
+   "name": "Isaiah Robinson",
+   "position": "Wide Receiver",
+   "class": "Jr."
+  },
+  {
+   "jersey": "11",
+   "name": "Dan Orner",
+   "position": "Punter/Kicker",
+   "class": "Jr."
+  },
+  {
+   "jersey": "11",
+   "name": "Clay Roberson",
+   "position": "Linebacker",
+   "class": "Jr."
+  },
+  {
+   "jersey": "12",
+   "name": "Chris Curry",
+   "position": "Strong Safety",
+   "class": "So."
+  },
+  {
+   "jersey": "12",
+   "name": "Linwood Williams",
+   "position": "Wide Receiver",
+   "class": "So."
+  },
+  {
+   "jersey": "13",
+   "name": "Cedrick Holt",
+   "position": "Defensive Back",
+   "class": "Fr."
+  },
+  {
+   "jersey": "14",
+   "name": "Topher Roberts",
+   "position": "Place-Kicker",
+   "class": "Jr."
+  },
+  {
+   "jersey": "15",
+   "name": "Willie Parker",
+   "position": "Tailback",
+   "class": "Jr."
+  },
+  {
+   "jersey": "16",
+   "name": "Jared Hall",
+   "position": "Quarterback",
+   "class": "Rs."
+  },
+  {
+   "jersey": "16",
+   "name": "Jacoby Watkins",
+   "position": "Defensive Back",
+   "class": "Fr."
+  },
+  {
+   "jersey": "17",
+   "name": "Matt Baker",
+   "position": "Quarterback",
+   "class": "Rs."
+  },
+  {
+   "jersey": "18",
+   "name": "Michael Waddell",
+   "position": "Cornerback",
+   "class": "Sr."
+  },
+  {
+   "jersey": "19",
+   "name": "Danny Rumley",
+   "position": "Wide Receiver",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "20",
+   "name": "Jacque Lewis",
+   "position": "Tailback",
+   "class": "So."
+  },
+  {
+   "jersey": "21",
+   "name": "Kevin Knight",
+   "position": "Cornerback",
+   "class": "Sr."
+  },
+  {
+   "jersey": "23",
+   "name": "Mahlon Carey",
+   "position": "Running Back",
+   "class": "Fr."
+  },
+  {
+   "jersey": "23",
+   "name": "Carl Clodfelter",
+   "position": "Cornerback",
+   "class": "So."
+  },
+  {
+   "jersey": "24",
+   "name": "Dexter Reid",
+   "position": "Free Safety",
+   "class": "Jr."
+  },
+  {
+   "jersey": "25",
+   "name": "DeFonte Coleman",
+   "position": "Strong Safety",
+   "class": "Sr."
+  },
+  {
+   "jersey": "25",
+   "name": "Lance Williams",
+   "position": "Wide Receiver",
+   "class": "So."
+  },
+  {
+   "jersey": "26",
+   "name": "Michael Harris",
+   "position": "Free Safety",
+   "class": "Jr."
+  },
+  {
+   "jersey": "27",
+   "name": "Bryant Macklin",
+   "position": "Strong Safety",
+   "class": "So."
+  },
+  {
+   "jersey": "28",
+   "name": "D.J. Walker",
+   "position": "Running Back",
+   "class": "Fr."
+  },
+  {
+   "jersey": "29",
+   "name": "Tommy Richardson",
+   "position": "Defensive Back",
+   "class": "Fr."
+  },
+  {
+   "jersey": "30",
+   "name": "Rashaad Tindall",
+   "position": "Defensive Back",
+   "class": "Fr."
+  },
+  {
+   "jersey": "31",
+   "name": "Paul Roberts",
+   "position": "Punter",
+   "class": "So."
+  },
+  {
+   "jersey": "32",
+   "name": "Ronnie Bryant",
+   "position": "Strong Safety",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "32",
+   "name": "Dokun Olagoke",
+   "position": "Tailback",
+   "class": "So."
+  },
+  {
+   "jersey": "33",
+   "name": "John Lafferty",
+   "position": "Placekicker/Punt",
+   "class": "Jr."
+  },
+  {
+   "jersey": "33",
+   "name": "David Nance",
+   "position": "Wide Receiver",
+   "class": "So."
+  },
+  {
+   "jersey": "34",
+   "name": "Andre' Williams",
+   "position": "Tailback",
+   "class": "Jr."
+  },
+  {
+   "jersey": "35",
+   "name": "Michael Gilmore",
+   "position": "Wide Receiver",
+   "class": "Fr."
+  },
+  {
+   "jersey": "36",
+   "name": "James Gibson",
+   "position": "Fullback",
+   "class": "So."
+  },
+  {
+   "jersey": "37",
+   "name": "Clarence Gaddy",
+   "position": "Linebacker",
+   "class": "So."
+  },
+  {
+   "jersey": "38",
+   "name": "Daunte Fields",
+   "position": "Wide Receiver",
+   "class": "Fr."
+  },
+  {
+   "jersey": "39",
+   "name": "Chelsey Borders",
+   "position": "Wide Receiver",
+   "class": "Sr."
+  },
+  {
+   "jersey": "40",
+   "name": "Rikki Cook",
+   "position": "Running Back",
+   "class": "So."
+  },
+  {
+   "jersey": "41",
+   "name": "Alden Blizzard",
+   "position": "Defensive End",
+   "class": "Fr."
+  },
+  {
+   "jersey": "42",
+   "name": "Brian Rackley",
+   "position": "Defensive End",
+   "class": "Fr."
+  },
+  {
+   "jersey": "43",
+   "name": "Jocques Dumas",
+   "position": "Defensive End",
+   "class": "So."
+  },
+  {
+   "jersey": "44",
+   "name": "Madison Hedgecock",
+   "position": "Fullback",
+   "class": "So."
+  },
+  {
+   "jersey": "44",
+   "name": "Martin Jernigan",
+   "position": "Linebacker",
+   "class": "So."
+  },
+  {
+   "jersey": "45",
+   "name": "David Wooldridge",
+   "position": "Placekicker/Punt",
+   "class": "Fr."
+  },
+  {
+   "jersey": "47",
+   "name": "Eric Davis",
+   "position": "Defensive Tackle",
+   "class": "Sr."
+  },
+  {
+   "jersey": "48",
+   "name": "James Faison",
+   "position": "Fullback",
+   "class": "Jr."
+  },
+  {
+   "jersey": "49",
+   "name": "Xavier Rainey",
+   "position": "Defensive End",
+   "class": "Fr."
+  },
+  {
+   "jersey": "51",
+   "name": "Sean Williams",
+   "position": "Linebacker",
+   "class": "Sr."
+  },
+  {
+   "jersey": "52",
+   "name": "Jeff Longhany",
+   "position": "Linebacker",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "53",
+   "name": "Doug Justice",
+   "position": "Linebacker",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "54",
+   "name": "Victor Worsley",
+   "position": "Linebacker",
+   "class": "Fr."
+  },
+  {
+   "jersey": "55",
+   "name": "Robert Harris",
+   "position": "Linebacker",
+   "class": "Sr."
+  },
+  {
+   "jersey": "55",
+   "name": "Wesley Sigmon",
+   "position": "DS",
+   "class": "So."
+  },
+  {
+   "jersey": "56",
+   "name": "Leon Scroggins",
+   "position": "Linebacker",
+   "class": "So."
+  },
+  {
+   "jersey": "56",
+   "name": "Greg Warren",
+   "position": "DS",
+   "class": "So."
+  },
+  {
+   "jersey": "57",
+   "name": "Devllen Bullard",
+   "position": "Linebacker",
+   "class": "So."
+  },
+  {
+   "jersey": "58",
+   "name": "Melik Brown",
+   "position": "Linebacker",
+   "class": "Fr."
+  },
+  {
+   "jersey": "64",
+   "name": "Whit Efird",
+   "position": "Offensive Line",
+   "class": "Fr."
+  },
+  {
+   "jersey": "66",
+   "name": "Arthur Smith",
+   "position": "Offensive Guard",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "67",
+   "name": "Marcus Wilson",
+   "position": "Offensive Guard",
+   "class": "Jr."
+  },
+  {
+   "jersey": "68",
+   "name": "Chris Woods",
+   "position": "Offensive Line",
+   "class": "Fr."
+  },
+  {
+   "jersey": "69",
+   "name": "Jonas Seawright",
+   "position": "Offensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "70",
+   "name": "Steven Bell",
+   "position": "Center",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "71",
+   "name": "Jupiter Wilson",
+   "position": "Linebacker",
+   "class": "Jr."
+  },
+  {
+   "jersey": "72",
+   "name": "Jason Brown",
+   "position": "Center",
+   "class": "So."
+  },
+  {
+   "jersey": "73",
+   "name": "Drew Hunter",
+   "position": "Offensive Tackle",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "74",
+   "name": "Justin Barton",
+   "position": "Offensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "75",
+   "name": "Skip Seagraves",
+   "position": "Offensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "76",
+   "name": "Willie McNeill",
+   "position": "Offensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "77",
+   "name": "Jeb Terry",
+   "position": "Offensive Guard",
+   "class": "Jr."
+  },
+  {
+   "jersey": "78",
+   "name": "Kyle Ralph",
+   "position": "Offensive Guard",
+   "class": "Fr."
+  },
+  {
+   "jersey": "80",
+   "name": "Tommy Davis",
+   "position": "Defensive End",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "80",
+   "name": "Tandon Mardis",
+   "position": "Defensive Back",
+   "class": "So."
+  },
+  {
+   "jersey": "81",
+   "name": "Harry Lewis",
+   "position": "Wide Receiver",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "82",
+   "name": "Brandon Russell",
+   "position": "Wide Receiver",
+   "class": "Jr."
+  },
+  {
+   "jersey": "83",
+   "name": "Lewis Burnham",
+   "position": "Tight End",
+   "class": "Fr."
+  },
+  {
+   "jersey": "83",
+   "name": "Tony Pigford",
+   "position": "Defensive End",
+   "class": "So."
+  },
+  {
+   "jersey": "84",
+   "name": "Larry Jessup",
+   "position": "Defensive End",
+   "class": "So."
+  },
+  {
+   "jersey": "85",
+   "name": "Calvin Covington",
+   "position": "Defensive Back",
+   "class": "So."
+  },
+  {
+   "jersey": "85",
+   "name": "Malcolm Stewart",
+   "position": "Linebacker",
+   "class": "Sr."
+  },
+  {
+   "jersey": "86",
+   "name": "Zach Hilton",
+   "position": "Tight End",
+   "class": "Sr."
+  },
+  {
+   "jersey": "87",
+   "name": "Brian Chacos",
+   "position": "Tight End",
+   "class": "R-Fr."
+  },
+  {
+   "jersey": "88",
+   "name": "Sam Aiken",
+   "position": "Wide Receiver",
+   "class": "Sr."
+  },
+  {
+   "jersey": "89",
+   "name": "Bobby Blizzard",
+   "position": "Tight End",
+   "class": "Jr."
+  },
+  {
+   "jersey": "90",
+   "name": "Jermicus Banks",
+   "position": "Defensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "91",
+   "name": "Will Chapman",
+   "position": "Defensive Tackle",
+   "class": "Jr."
+  },
+  {
+   "jersey": "92",
+   "name": "Isaac Mooring",
+   "position": "Defensive Tackle",
+   "class": "Jr."
+  },
+  {
+   "jersey": "93",
+   "name": "John Dunn",
+   "position": "Tight End",
+   "class": "So."
+  },
+  {
+   "jersey": "93",
+   "name": "Carl Smalls",
+   "position": "Defensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "94",
+   "name": "Donti Coats",
+   "position": "Defensive Tackle",
+   "class": "Jr."
+  },
+  {
+   "jersey": "95",
+   "name": "Chase Page",
+   "position": "Defensive Tackle",
+   "class": "So."
+  },
+  {
+   "jersey": "96",
+   "name": "Darryl Grant",
+   "position": "Defensive Tackle",
+   "class": "Jr."
+  },
+  {
+   "jersey": "97",
+   "name": "Mickey Rice",
+   "position": "Defensive Tackle",
+   "class": "Fr."
+  },
+  {
+   "jersey": "98",
+   "name": "Kendall High",
+   "position": "Defensive End",
+   "class": "Fr."
+  }
+ ]
+}

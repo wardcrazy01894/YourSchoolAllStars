@@ -1,0 +1,26 @@
+{
+ "2000": {
+  "url": "http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
+  "ts": "20021114000638",
+  "snapshot": "http://web.archive.org/web/20021114000638id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/060101aab.html",
+  "hasDefense": true,
+  "scope": "as of Nov 19, 2000",
+  "season": 2000
+ },
+ "2001": {
+  "url": "http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+  "ts": "20021121143616",
+  "snapshot": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+  "hasDefense": true,
+  "scope": "as of Dec 01, 2001",
+  "season": 2001
+ },
+ "2002": {
+  "url": "http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html",
+  "ts": "20030814171120",
+  "snapshot": "http://web.archive.org/web/20030814171120id_/http://tarheelblue.ocsn.com/sports/m-footbl/archive/teamcume-02.html",
+  "hasDefense": true,
+  "scope": "FINAL STATS",
+  "season": 2002
+ }
+}

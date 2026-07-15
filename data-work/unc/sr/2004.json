@@ -1,0 +1,872 @@
+{
+ "season": 2004,
+ "source": "http://web.archive.org/web/20241007142103/https://www.sports-reference.com/cfb/schools/north-carolina/2004.html",
+ "rows": [
+  {
+   "table": "passing_standard",
+   "name": "Darian Durant",
+   "pos": "QB",
+   "stats": {
+    "games": 12,
+    "pass_cmp": 178,
+    "pass_att": 299,
+    "pass_cmp_pct": 59.5,
+    "pass_yds": 2238,
+    "pass_td": 17,
+    "pass_td_pct": 5.7,
+    "pass_int": 9,
+    "pass_int_pct": 3,
+    "pass_yds_per_att": 7.5,
+    "pass_adj_yds_per_att": 7.27,
+    "pass_yds_per_cmp": 12.6,
+    "pass_yds_per_g": 186.5,
+    "pass_rating": 135.1
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Matt Baker",
+   "pos": "QB",
+   "stats": {
+    "games": 6,
+    "pass_cmp": 23,
+    "pass_att": 36,
+    "pass_cmp_pct": 63.9,
+    "pass_yds": 326,
+    "pass_td": 1,
+    "pass_td_pct": 2.8,
+    "pass_int": 2,
+    "pass_int_pct": 5.6,
+    "pass_yds_per_att": 9.1,
+    "pass_adj_yds_per_att": 7.11,
+    "pass_yds_per_cmp": 14.2,
+    "pass_yds_per_g": 54.3,
+    "pass_rating": 138
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Jared Hall",
+   "pos": "QB",
+   "stats": {
+    "games": 5,
+    "pass_cmp": 1,
+    "pass_att": 3,
+    "pass_cmp_pct": 33.3,
+    "pass_yds": 9,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 3,
+    "pass_adj_yds_per_att": 3,
+    "pass_yds_per_cmp": 9,
+    "pass_yds_per_g": 1.8,
+    "pass_rating": 58.5
+   }
+  },
+  {
+   "table": "passing_standard",
+   "name": "Derrele Mitchell",
+   "pos": "WR",
+   "stats": {
+    "games": 12,
+    "pass_cmp": 0,
+    "pass_att": 1,
+    "pass_cmp_pct": 0,
+    "pass_yds": 0,
+    "pass_td": 0,
+    "pass_td_pct": 0,
+    "pass_int": 0,
+    "pass_int_pct": 0,
+    "pass_yds_per_att": 0,
+    "pass_adj_yds_per_att": 0,
+    "pass_yds_per_g": 0,
+    "pass_rating": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Chad Scott",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "rush_att": 143,
+    "rush_yds": 796,
+    "rush_yds_per_att": 5.6,
+    "rush_td": 8,
+    "rec": 13,
+    "rec_yds": 107,
+    "rec_yds_per_rec": 8.2,
+    "rec_td": 1,
+    "scrim_att": 156,
+    "scrim_yds": 903,
+    "scrim_yds_per_att": 5.8,
+    "scrim_td": 9
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Darian Durant",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 81,
+    "rush_yds": 188,
+    "rush_yds_per_att": 2.3,
+    "rush_td": 1,
+    "scrim_att": 81,
+    "scrim_yds": 188,
+    "scrim_yds_per_att": 2.3,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Ronnie McGill",
+   "pos": null,
+   "stats": {
+    "g": 7,
+    "rush_att": 79,
+    "rush_yds": 419,
+    "rush_yds_per_att": 5.3,
+    "rush_td": 5,
+    "rec": 2,
+    "rec_yds": 19,
+    "rec_yds_per_rec": 9.5,
+    "rec_td": 1,
+    "scrim_att": 81,
+    "scrim_yds": 438,
+    "scrim_yds_per_att": 5.4,
+    "scrim_td": 6
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Jacque Lewis",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "rush_att": 74,
+    "rush_yds": 557,
+    "rush_yds_per_att": 7.5,
+    "rush_td": 3,
+    "rec": 5,
+    "rec_yds": 24,
+    "rec_yds_per_rec": 4.8,
+    "rec_td": 0,
+    "scrim_att": 79,
+    "scrim_yds": 581,
+    "scrim_yds_per_att": 7.4,
+    "scrim_td": 3
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Madison Hedgecock",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 30,
+    "rush_yds": 118,
+    "rush_yds_per_att": 3.9,
+    "rush_td": 2,
+    "rec": 4,
+    "rec_yds": 35,
+    "rec_yds_per_rec": 8.8,
+    "rec_td": 0,
+    "scrim_att": 34,
+    "scrim_yds": 153,
+    "scrim_yds_per_att": 4.5,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Vince Wilson",
+   "pos": null,
+   "stats": {
+    "g": 9,
+    "rush_att": 7,
+    "rush_yds": -3,
+    "rush_yds_per_att": -0.4,
+    "rush_td": 0,
+    "scrim_att": 7,
+    "scrim_yds": -3,
+    "scrim_yds_per_att": -0.4,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Jarwarski Pollock",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 6,
+    "rush_yds": 24,
+    "rush_yds_per_att": 4,
+    "rush_td": 0,
+    "rec": 45,
+    "rec_yds": 408,
+    "rec_yds_per_rec": 9.1,
+    "rec_td": 2,
+    "scrim_att": 51,
+    "scrim_yds": 432,
+    "scrim_yds_per_att": 8.5,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Matt Baker",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "rush_att": 6,
+    "rush_yds": 15,
+    "rush_yds_per_att": 2.5,
+    "rush_td": 0,
+    "scrim_att": 6,
+    "scrim_yds": 15,
+    "scrim_yds_per_att": 2.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Jesse Holley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 2,
+    "rush_yds": 4,
+    "rush_yds_per_att": 2,
+    "rush_td": 0,
+    "rec": 30,
+    "rec_yds": 456,
+    "rec_yds_per_rec": 15.2,
+    "rec_td": 2,
+    "scrim_att": 32,
+    "scrim_yds": 460,
+    "scrim_yds_per_att": 14.4,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Wallace Wright",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 2,
+    "rush_yds": 2,
+    "rush_yds_per_att": 1,
+    "rush_td": 0,
+    "rec": 10,
+    "rec_yds": 119,
+    "rec_yds_per_rec": 11.9,
+    "rec_td": 2,
+    "scrim_att": 12,
+    "scrim_yds": 121,
+    "scrim_yds_per_att": 10.1,
+    "scrim_td": 2
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Doug Justice",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 1,
+    "rush_yds": 3,
+    "rush_yds_per_att": 3,
+    "rush_td": 0,
+    "scrim_att": 1,
+    "scrim_yds": 3,
+    "scrim_yds_per_att": 3,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Mike Mason",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rush_att": 1,
+    "rush_yds": 0,
+    "rush_yds_per_att": 0,
+    "rush_td": 0,
+    "rec": 19,
+    "rec_yds": 272,
+    "rec_yds_per_rec": 14.3,
+    "rec_td": 1,
+    "scrim_att": 20,
+    "scrim_yds": 272,
+    "scrim_yds_per_att": 13.6,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Adarius Bowman",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "rush_att": 1,
+    "rush_yds": -4,
+    "rush_yds_per_att": -4,
+    "rush_td": 0,
+    "rec": 18,
+    "rec_yds": 329,
+    "rec_yds_per_rec": 18.3,
+    "rec_td": 3,
+    "scrim_att": 19,
+    "scrim_yds": 325,
+    "scrim_yds_per_att": 17.1,
+    "scrim_td": 3
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Rikki Cook",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "rec": 2,
+    "rec_yds": 7,
+    "rec_yds_per_rec": 3.5,
+    "rec_td": 0,
+    "scrim_att": 2,
+    "scrim_yds": 7,
+    "scrim_yds_per_att": 3.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Derrele Mitchell",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rec": 21,
+    "rec_yds": 354,
+    "rec_yds_per_rec": 16.9,
+    "rec_td": 3,
+    "scrim_att": 21,
+    "scrim_yds": 354,
+    "scrim_yds_per_att": 16.9,
+    "scrim_td": 3
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Jon Hamlett",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "rec": 14,
+    "rec_yds": 184,
+    "rec_yds_per_rec": 13.1,
+    "rec_td": 1,
+    "scrim_att": 14,
+    "scrim_yds": 184,
+    "scrim_yds_per_att": 13.1,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Daunte Fields",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "rec": 6,
+    "rec_yds": 87,
+    "rec_yds_per_rec": 14.5,
+    "rec_td": 0,
+    "scrim_att": 6,
+    "scrim_yds": 87,
+    "scrim_yds_per_att": 14.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Scott Brumett",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "rec": 6,
+    "rec_yds": 66,
+    "rec_yds_per_rec": 11,
+    "rec_td": 1,
+    "scrim_att": 6,
+    "scrim_yds": 66,
+    "scrim_yds_per_att": 11,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Justin Phillips",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "rec": 5,
+    "rec_yds": 79,
+    "rec_yds_per_rec": 15.8,
+    "rec_td": 1,
+    "scrim_att": 5,
+    "scrim_yds": 79,
+    "scrim_yds_per_att": 15.8,
+    "scrim_td": 1
+   }
+  },
+  {
+   "table": "rushing_and_receiving",
+   "name": "Del Roberts",
+   "pos": null,
+   "stats": {
+    "g": 5,
+    "rec": 2,
+    "rec_yds": 27,
+    "rec_yds_per_rec": 13.5,
+    "rec_td": 0,
+    "scrim_att": 2,
+    "scrim_yds": 27,
+    "scrim_yds_per_att": 13.5,
+    "scrim_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Larry Edwards",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "def_int": 2,
+    "def_int_yds": 56,
+    "def_int_yds_per_int": 28,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Jacoby Watkins",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "def_int": 2,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Lionell Green",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Gerald Sensabaugh",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "def_int": 1,
+    "def_int_yds": 0,
+    "def_int_yds_per_int": 0,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Fred Sparkman",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "def_int": 1,
+    "def_int_yds": 9,
+    "def_int_yds_per_int": 9,
+    "def_int_td": 0
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Kareen Taylor",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "def_int": 1,
+    "def_int_yds": 64,
+    "def_int_yds_per_int": 64,
+    "def_int_td": 1
+   }
+  },
+  {
+   "table": "defense_and_fumbles",
+   "name": "Hilee Taylor",
+   "pos": null,
+   "stats": {
+    "g": 7,
+    "fumbles_rec": 1,
+    "fumbles_rec_yds": 21,
+    "fumbles_rec_td": 1
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Mike Mason",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 22,
+    "kick_ret_yds": 508,
+    "kick_ret_yds_per_ret": 23.1,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Trimane Goddard",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "kick_ret": 9,
+    "kick_ret_yds": 175,
+    "kick_ret_yds_per_ret": 19.4,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Wallace Wright",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "kick_ret": 8,
+    "kick_ret_yds": 135,
+    "kick_ret_yds_per_ret": 16.9,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Del Roberts",
+   "pos": null,
+   "stats": {
+    "g": 5,
+    "kick_ret": 7,
+    "kick_ret_yds": 152,
+    "kick_ret_yds_per_ret": 21.7,
+    "kick_ret_td": 0,
+    "punt_ret": 1,
+    "punt_ret_yds": 7,
+    "punt_ret_yds_per_ret": 7,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Chad Scott",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "kick_ret": 3,
+    "kick_ret_yds": 36,
+    "kick_ret_yds_per_ret": 12,
+    "kick_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Jarwarski Pollock",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "punt_ret": 19,
+    "punt_ret_yds": 160,
+    "punt_ret_yds_per_ret": 8.4,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Quinton Person",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "punt_ret": 4,
+    "punt_ret_yds": 27,
+    "punt_ret_yds_per_ret": 6.8,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Tom O'Leary",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "punt_ret": 1,
+    "punt_ret_yds": 16,
+    "punt_ret_yds_per_ret": 16,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Mahlon Carey",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "punt_ret": 1,
+    "punt_ret_yds": 9,
+    "punt_ret_yds_per_ret": 9,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "Daunte Fields",
+   "pos": null,
+   "stats": {
+    "g": 8,
+    "punt_ret": 1,
+    "punt_ret_yds": -14,
+    "punt_ret_yds_per_ret": -14,
+    "punt_ret_td": 0
+   }
+  },
+  {
+   "table": "returns",
+   "name": "D.J. Walker",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "punt_ret_yds": 1,
+    "punt_ret_td": 1
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Connor Barth",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "xpm": 35,
+    "fgm": 14,
+    "points": 77
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Chad Scott",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "td_rush": 8,
+    "td_rec": 1,
+    "td_total": 9,
+    "points": 54
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Ronnie McGill",
+   "pos": null,
+   "stats": {
+    "g": 7,
+    "td_rush": 5,
+    "td_rec": 1,
+    "td_total": 6,
+    "points": 36
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Adarius Bowman",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "td_rec": 3,
+    "td_total": 3,
+    "points": 18
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Derrele Mitchell",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 3,
+    "td_total": 3,
+    "points": 18
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Jacque Lewis",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "td_rush": 3,
+    "td_total": 3,
+    "points": 18
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Wallace Wright",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Madison Hedgecock",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rush": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Jesse Holley",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Jarwarski Pollock",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 2,
+    "td_total": 2,
+    "points": 12
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Jon Hamlett",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Justin Phillips",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "td_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Kareen Taylor",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_def_int": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Hilee Taylor",
+   "pos": null,
+   "stats": {
+    "g": 7,
+    "td_fumbles_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Mike Mason",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "D.J. Walker",
+   "pos": null,
+   "stats": {
+    "g": 11,
+    "td_punt_ret": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Scott Brumett",
+   "pos": null,
+   "stats": {
+    "g": 10,
+    "td_rec": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Darian Durant",
+   "pos": null,
+   "stats": {
+    "g": 12,
+    "td_rush": 1,
+    "td_total": 1,
+    "points": 6
+   }
+  },
+  {
+   "table": "scoring",
+   "name": "Matt Baker",
+   "pos": null,
+   "stats": {
+    "g": 6,
+    "two_pt_md": 1,
+    "points": 2
+   }
+  }
+ ]
+}

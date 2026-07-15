@@ -1,0 +1,646 @@
+{
+ "year": 2023,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "British Brooks",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 387,
+    "rushTD": 2,
+    "rec": 14,
+    "recYds": 73
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kamari Morales",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0,
+    "rec": 11,
+    "recYds": 158
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Tomari Fox",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 14,
+    "tfl": 1.5,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Giovanni Biggers",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 57,
+    "tfl": 1,
+    "defInt": 1,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Drew Little",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kevin Hester Jr.",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 30
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jefferson Boaz",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 3,
+    "passInt": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "D.J. Jones",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 15,
+    "tfl": 0.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Elijah Green",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 12,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Cedric Gray",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 121,
+    "tfl": 11,
+    "sacks": 5,
+    "defInt": 1,
+    "pbu": 4,
+    "ff": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jake Harkleroad",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Ben Kiernan",
+   "position": "Punter",
+   "stats": {
+    "rushYds": 17,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Drake Maye",
+   "position": "QB",
+   "stats": {
+    "passYds": 3608,
+    "passTD": 24,
+    "passInt": 9,
+    "rushYds": 449,
+    "rushTD": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kaimon Rucker",
+   "position": "DE",
+   "stats": {
+    "tackles": 61,
+    "tfl": 15,
+    "sacks": 8.5,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "J.J. Jones",
+   "position": "WR",
+   "stats": {
+    "rec": 46,
+    "recYds": 711,
+    "recTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Caleb Hood",
+   "position": "Running Back",
+   "stats": {
+    "passInt": 0,
+    "rushYds": 43,
+    "rushTD": 1,
+    "rec": 1,
+    "recYds": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Power Echols",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 102,
+    "tfl": 5.5,
+    "defInt": 1,
+    "pbu": 1,
+    "ff": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Bryson Nesbit",
+   "position": "Tight End",
+   "stats": {
+    "rec": 41,
+    "recYds": 585,
+    "recTD": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "John Copenhaver",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 3,
+    "rushTD": 0,
+    "rec": 18,
+    "recYds": 279,
+    "recTD": 4,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Myles Murphy",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 24,
+    "tfl": 4.5,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Don Chapman",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 64,
+    "tfl": 4.5,
+    "sacks": 1,
+    "defInt": 2,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jahvaree Ritzie",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 25,
+    "tfl": 0.5,
+    "sacks": 0.5,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Desmond Evans",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 33,
+    "tfl": 5,
+    "sacks": 3,
+    "pbu": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kedrick Bingley-Jones",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 2,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kobe Paysour",
+   "position": "WR",
+   "stats": {
+    "rec": 22,
+    "recYds": 282,
+    "recTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "George Pettaway",
+   "position": "RB",
+   "stats": {
+    "rec": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Andre Greene Jr.",
+   "position": "TE",
+   "stats": {
+    "rec": 2,
+    "recYds": 17
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Omarion Hampton",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 1504,
+    "rushTD": 15,
+    "rec": 29,
+    "recYds": 222,
+    "recTD": 1,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Gavin Blackwell",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 9,
+    "recYds": 166,
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Will Hardy",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 22,
+    "tfl": 1,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Travis Shaw",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 11,
+    "tfl": 1,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Marcus Allen",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 49,
+    "tfl": 0.5,
+    "defInt": 1,
+    "pbu": 8
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Randy Caldwell",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jacolbe Cowan",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 3,
+    "tfl": 1,
+    "sacks": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jalen Brooks",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Sebastian Cheeks",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Devontez Walker",
+   "position": "WR",
+   "stats": {
+    "rushYds": 23,
+    "rushTD": 0,
+    "rec": 41,
+    "recYds": 699,
+    "recTD": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Tyler Thompson",
+   "position": "DE",
+   "stats": {
+    "tackles": 2,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Conner Harrell",
+   "position": "QB",
+   "stats": {
+    "passYds": 278,
+    "passTD": 2,
+    "passInt": 2,
+    "rushYds": 55,
+    "rushTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jaybron Harvey",
+   "position": "DE",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Deems May",
+   "position": "TE",
+   "stats": {
+    "rec": 1,
+    "recYds": 12
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kellan Hood",
+   "position": "RB",
+   "stats": {
+    "rushYds": 12,
+    "rushTD": 0,
+    "rec": 1,
+    "recYds": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Tychaun Chapman",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 7,
+    "rushTD": 0,
+    "rec": 7,
+    "recYds": 135,
+    "recTD": 1,
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Jordan Louie",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Chris Culliver",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -4,
+    "rushTD": 0,
+    "rec": 1,
+    "recYds": 41,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Nate McCollum",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 44,
+    "recYds": 469,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Christian Hamilton",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 3,
+    "recYds": 28
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Antavious Lane",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 62,
+    "tfl": 3,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Alijah Huzzie",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 42,
+    "tfl": 1,
+    "defInt": 3,
+    "pbu": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Amari Gainer",
+   "position": "Jack",
+   "stats": {
+    "tackles": 27,
+    "tfl": 6,
+    "sacks": 2.5,
+    "pbu": 2,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Beau Atkinson",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 19,
+    "tfl": 4.5,
+    "sacks": 3.5,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Tayon Holloway",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 19,
+    "tfl": 1.5,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Armani Chatman",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 18,
+    "tfl": 0.5,
+    "defInt": 2,
+    "pbu": 4,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Amare Campbell",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 14,
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Kaleb Cost",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 5,
+    "pbu": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Brooks Miller",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Derrik Allen",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Liam Boyd",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Ryan Coe",
+   "position": "Place-Kicker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Ayden Duncanson",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Damon Bremer",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Cade Law",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Gibson Macrae",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  },
+  {
+   "name": "Tre Miller",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2023"
+  }
+ ]
+}

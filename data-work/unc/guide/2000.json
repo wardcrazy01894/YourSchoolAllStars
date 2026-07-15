@@ -1,0 +1,287 @@
+{
+ "season": 2000,
+ "guideYear": 2001,
+ "page": 141,
+ "ocr": "archive",
+ "srCheck": {
+  "agree": 5,
+  "disagree": 0
+ },
+ "fmtViolations": 0,
+ "source": "https://archive.org/details/carolinafootball2001unse",
+ "sourceNote": "2001 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 2000 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball2001unse.",
+ "read": {
+  "rotated": false,
+  "mode": "anchor",
+  "slope": 0.014,
+  "anchor": "left"
+ },
+ "columns": [
+  "_G",
+  "T",
+  "A",
+  "HIT",
+  "TFL",
+  "SACKS",
+  "INT",
+  "PBU",
+  "_QBH",
+  "_FR-YDS",
+  "_FF",
+  "_BK",
+  "_S"
+ ],
+ "players": [
+  {
+   "rawName": "Brandon Spoon",
+   "T": 71,
+   "A": 60,
+   "tackles": 131,
+   "tfl": 13,
+   "sacks": 1,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Sedrick Hodge",
+   "T": 55,
+   "A": 27,
+   "tackles": 82,
+   "tfl": 16,
+   "sacks": 7,
+   "defInt": 0,
+   "pbu": 4
+  },
+  {
+   "rawName": "DeFonte Coleman",
+   "T": 42,
+   "A": 36,
+   "tackles": 78,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 2
+  },
+  {
+   "rawName": "Quincy Monk",
+   "T": 35,
+   "A": 41,
+   "tackles": 76,
+   "tfl": 6,
+   "sacks": 2,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Dexter Reid",
+   "T": 35,
+   "A": 34,
+   "tackles": 69,
+   "tfl": 3,
+   "sacks": 1,
+   "defInt": 1,
+   "pbu": 6
+  },
+  {
+   "rawName": "Julius Peppers",
+   "T": 44,
+   "A": 20,
+   "tackles": 64,
+   "tfl": 24,
+   "sacks": 15,
+   "defInt": 1,
+   "pbu": 2
+  },
+  {
+   "rawName": "ErrolHood",
+   "T": 38,
+   "A": 16,
+   "tackles": 54,
+   "tfl": 2,
+   "sacks": 0,
+   "defInt": 2,
+   "pbu": 12
+  },
+  {
+   "rawName": "Ryan Sims",
+   "T": 26,
+   "A": 26,
+   "tackles": 52,
+   "tfl": 9,
+   "sacks": 6,
+   "defInt": 0,
+   "pbu": 3
+  },
+  {
+   "rawName": "Anthony Perkins",
+   "T": 24,
+   "A": 22,
+   "tackles": 46,
+   "tfl": 4,
+   "sacks": 2,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "David Bomar",
+   "T": 24,
+   "A": 21,
+   "tackles": 45,
+   "tfl": 4,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Michael Waddell",
+   "T": 34,
+   "A": 8,
+   "tackles": 42,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 12
+  },
+  {
+   "rawName": "Billy-Dee Greenwood",
+   "T": 12,
+   "A": 28,
+   "tackles": 40,
+   "tfl": 2,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 2
+  },
+  {
+   "rawName": "Joey Evans",
+   "T": 26,
+   "A": 12,
+   "tackles": 38,
+   "tfl": 11,
+   "sacks": 8,
+   "defInt": 0,
+   "pbu": 4
+  },
+  {
+   "rawName": "Ross McAllister",
+   "T": 21,
+   "A": 14,
+   "tackles": 35,
+   "tfl": 9,
+   "sacks": 5,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Will Chapman",
+   "T": 21,
+   "A": 10,
+   "tackles": 31,
+   "tfl": 8,
+   "sacks": 2.5,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Kevin Knight",
+   "T": 15,
+   "A": 10,
+   "tackles": 25,
+   "tfl": 3,
+   "sacks": 1,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "David Thornton",
+   "T": 8,
+   "A": 8,
+   "tackles": 16,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Robert Harris",
+   "T": 13,
+   "A": 3,
+   "tackles": 16,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "Eric Davis",
+   "T": 7,
+   "A": 7,
+   "tackles": 14,
+   "tfl": 3,
+   "sacks": 1.5,
+   "defInt": 0,
+   "pbu": 0
+  }
+ ],
+ "teamTotals": {
+  "unc": {
+   "rawName": "North Carolina",
+   "T": 591,
+   "A": 436,
+   "tackles": null,
+   "tfl": 123,
+   "sacks": 53,
+   "defInt": 7,
+   "pbu": 57
+  },
+  "opponents": {
+   "rawName": "Opponents",
+   "T": null,
+   "A": null,
+   "tackles": null,
+   "tfl": null,
+   "sacks": 35,
+   "defInt": 12,
+   "pbu": null
+  }
+ },
+ "checks": {
+  "tfl": {
+   "printed": 123,
+   "parsed": 120,
+   "coverage": 0.976,
+   "over": false
+  },
+  "sacks": {
+   "printed": 53,
+   "parsed": 52,
+   "coverage": 0.981,
+   "over": false
+  },
+  "defInt": {
+   "printed": 7,
+   "parsed": 6,
+   "coverage": 0.857,
+   "over": false
+  },
+  "pbu": {
+   "printed": 57,
+   "parsed": 51,
+   "coverage": 0.895,
+   "over": false
+  }
+ },
+ "warnings": [
+  "Stephon McQueen: no printed tackle total — dropped",
+  "Donti Coats: no printed tackle total — dropped",
+  "David Scott: no printed tackle total — dropped",
+  "Nathan Sutton: no printed tackle total — dropped",
+  "Derrick Johnson: no printed tackle total — dropped",
+  "Kitwana Jones: no printed tackle total — dropped",
+  "Merceda Perry: no printed tackle total — dropped",
+  "David Mcintosh: no printed tackle total — dropped",
+  "Isaac Mooring: no printed tackle total — dropped",
+  "Malcolm Stewart: no printed tackle total — dropped",
+  "Clay Roberson: no printed tackle total — dropped"
+ ]
+}

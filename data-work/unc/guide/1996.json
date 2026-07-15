@@ -1,0 +1,254 @@
+{
+ "season": 1996,
+ "guideYear": 1997,
+ "page": 146,
+ "ocr": "archive",
+ "srCheck": {
+  "agree": 4,
+  "disagree": 0
+ },
+ "fmtViolations": 2,
+ "source": "https://archive.org/details/carolinafootball1997unse",
+ "sourceNote": "1997 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1996 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1997unse.",
+ "read": {
+  "rotated": false,
+  "mode": "anchor",
+  "slope": 0,
+  "anchor": "left"
+ },
+ "columns": [
+  "_G-GS",
+  "T",
+  "A",
+  "HIT",
+  "_CF",
+  "_RF-YDS",
+  "PBU",
+  "_PRES",
+  "TFL",
+  "SACKS",
+  "INT",
+  "_BK"
+ ],
+ "players": [
+  {
+   "rawName": "K Mays",
+   "T": 64,
+   "A": 48,
+   "tackles": 112,
+   "tfl": 7,
+   "sacks": 2,
+   "defInt": 0,
+   "pbu": 2
+  },
+  {
+   "rawName": "B Simmons",
+   "T": 41,
+   "A": 44,
+   "tackles": 85,
+   "tfl": 9,
+   "sacks": 2,
+   "defInt": 4,
+   "pbu": 6
+  },
+  {
+   "rawName": "O Brown",
+   "T": 42,
+   "A": 29,
+   "tackles": 71,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 6
+  },
+  {
+   "rawName": "G Williams",
+   "T": 42,
+   "A": 24,
+   "tackles": 66,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 4
+  },
+  {
+   "rawName": "G Ellis",
+   "T": 36,
+   "A": 26,
+   "tackles": 62,
+   "tfl": 18,
+   "sacks": 12.5,
+   "defInt": 0,
+   "pbu": 1
+  },
+  {
+   "rawName": "J Hamilton",
+   "T": 37,
+   "A": null,
+   "tackles": 55,
+   "tfl": 5.5,
+   "sacks": 3.5,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "V Holliday",
+   "T": 32,
+   "A": 15,
+   "tackles": 47,
+   "tfl": 11,
+   "sacks": 5,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "R Terry",
+   "T": 32,
+   "A": 15,
+   "tackles": 47,
+   "tfl": 15.5,
+   "sacks": 3,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "K Newman",
+   "T": 23,
+   "A": 20,
+   "tackles": 43,
+   "tfl": 4,
+   "sacks": 1,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "D Bly",
+   "T": 24,
+   "A": null,
+   "tackles": 32,
+   "tfl": 2,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "M Pringley",
+   "T": 18,
+   "A": 12,
+   "tackles": 30,
+   "tfl": 8,
+   "sacks": 3,
+   "defInt": 0,
+   "pbu": 2
+  },
+  {
+   "rawName": "J Legins",
+   "T": 24,
+   "A": 5,
+   "tackles": 29,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 2
+  },
+  {
+   "rawName": "R Williams",
+   "T": 19,
+   "A": 9,
+   "tackles": 28,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 1,
+   "pbu": 23
+  },
+  {
+   "rawName": "R Davis",
+   "T": 14,
+   "A": 13,
+   "tackles": 27,
+   "tfl": 4.5,
+   "sacks": 2.5,
+   "defInt": 0,
+   "pbu": 2
+  },
+  {
+   "rawName": "B Spoon",
+   "T": 17,
+   "A": 9,
+   "tackles": 26,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "A Purvis",
+   "T": 13,
+   "A": null,
+   "tackles": 24,
+   "tfl": 4.5,
+   "sacks": 2.5,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "T Simpson",
+   "T": 12,
+   "A": null,
+   "tackles": 19,
+   "tfl": 4,
+   "sacks": 2,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "D Dyer",
+   "T": null,
+   "A": null,
+   "tackles": 13,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "N Hobgood-Chiftick",
+   "T": null,
+   "A": null,
+   "tackles": 13,
+   "tfl": 2,
+   "sacks": 1,
+   "defInt": null,
+   "pbu": null
+  },
+  {
+   "rawName": "M Dow",
+   "T": null,
+   "A": null,
+   "tackles": 12,
+   "tfl": 2,
+   "sacks": 2,
+   "defInt": null,
+   "pbu": null
+  }
+ ],
+ "teamTotals": {},
+ "checks": {},
+ "warnings": [
+  "R Thomas: no printed tackle total — dropped",
+  "A Crumpler: no printed tackle total — dropped",
+  "R Love: no printed tackle total — dropped",
+  "T Billups: no printed tackle total — dropped",
+  "S Fisher: no printed tackle total — dropped",
+  "E Ekuban: no printed tackle total — dropped",
+  "S Woodard: no printed tackle total — dropped",
+  "G Harris: no printed tackle total — dropped",
+  "B Schmitz: no printed tackle total — dropped",
+  "R McCain: no printed tackle total — dropped",
+  "J Carrick: no printed tackle total — dropped",
+  "A Mogridge: no printed tackle total — dropped",
+  "C Minfz: no printed tackle total — dropped",
+  "C Allnutf: no printed tackle total — dropped",
+  "M Dunn: no printed tackle total — dropped"
+ ]
+}

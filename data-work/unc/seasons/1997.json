@@ -1,0 +1,476 @@
+{
+ "year": 1997,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Chris Keldorf",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1448,
+    "passTD": 12,
+    "passInt": 9,
+    "rushYds": -108,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Oscar Davenport",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1380,
+    "passTD": 7,
+    "passInt": 3,
+    "rushYds": 12,
+    "rushTD": 2,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Kevin Carty",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 52,
+    "rushYds": -4
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Alge Crumpler",
+   "position": "Tight End",
+   "stats": {
+    "rec": 24,
+    "recYds": 278,
+    "recTD": 4,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Chuckie Parquet",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 6
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Deon Dyer",
+   "position": "Fullback",
+   "stats": {
+    "rushYds": 90,
+    "rushTD": 1,
+    "rec": 5,
+    "recYds": 31
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Domonique Williams",
+   "position": "Athlete",
+   "stats": {
+    "rushYds": 50,
+    "rushTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 42
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Jason Peace",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 32,
+    "recYds": 418,
+    "recTD": 2
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Jonathan Linton",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 1004,
+    "rushTD": 10,
+    "rec": 29,
+    "recYds": 286,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "L.C. Stevens",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 45,
+    "recYds": 727,
+    "recTD": 3
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Mike Geter",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 245,
+    "rec": 5,
+    "recYds": 20
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Na Brown",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 55,
+    "recYds": 610,
+    "recTD": 4
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Octavus Barnes",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 21,
+    "recYds": 441,
+    "recTD": 5
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Ronnie Robinson",
+   "position": "Fullback",
+   "stats": {
+    "rec": 3,
+    "recYds": 21
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html"
+  },
+  {
+   "name": "Dre' Bly",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 5,
+    "tackles": 26,
+    "pbu": 4
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Greg Williams",
+   "position": "Safety",
+   "stats": {
+    "defInt": 2,
+    "tackles": 83,
+    "tfl": 1,
+    "pbu": 8
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "Safety",
+   "stats": {
+    "defInt": 1,
+    "tackles": 24
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Kivuusama Mays",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 1,
+    "tackles": 123,
+    "tfl": 16.5,
+    "sacks": 3
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Omar Brown",
+   "position": "Safety",
+   "stats": {
+    "defInt": 2,
+    "tackles": 97,
+    "tfl": 1.5,
+    "pbu": 9
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Reggie Love",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 1,
+    "tackles": 15,
+    "pbu": 3
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Robert Williams",
+   "position": "Linebacker",
+   "stats": {
+    "defInt": 2,
+    "tackles": 25,
+    "pbu": 13
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 1,
+    "tackles": 10
+   },
+   "source": "http://web.archive.org/web/20241216022854/https://www.sports-reference.com/cfb/schools/north-carolina/1997.html + https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Brian Simmons",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 119,
+    "tfl": 13,
+    "sacks": 3,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Greg Ellis",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 87,
+    "tfl": 18,
+    "sacks": 9,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 79,
+    "tfl": 5.5,
+    "sacks": 2.5
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Brandon Spoon",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 65,
+    "tfl": 7.5,
+    "sacks": 3.5
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Vonnie Holliday",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 64,
+    "tfl": 13,
+    "sacks": 5,
+    "pbu": 5
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Russell Davis",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 60,
+    "tfl": 9,
+    "sacks": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Mike Pringley",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 45,
+    "tfl": 8.5,
+    "sacks": 3.5,
+    "pbu": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 40,
+    "tfl": 9,
+    "sacks": 5,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Nate Hobgood-Chittick",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 36,
+    "tfl": 8.5,
+    "sacks": 2.5,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Merceda Perry",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 18
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 15,
+    "tfl": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Quinton Savage",
+   "position": "Safety",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Terry Billups",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 10
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Antwon Black",
+   "position": "Safety",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Stephon McQueen",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 7,
+    "tfl": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Brian Schmitz",
+   "position": "Punter/Kicker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Shawn Lyons",
+   "position": "Running Back",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ricky Smith",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ross McAllister",
+   "position": "Offensive Tackle",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Toney Coles",
+   "position": "Deep Snapper",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Bryan Jones",
+   "position": "Offensive Tackle",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Darien Johnson",
+   "position": "Wide Receiver",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Damon Dawson",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Allen Mogridge",
+   "position": "Tight End",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Mark Dunn",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  },
+  {
+   "name": "Ricco McCain",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1998unse"
+  }
+ ]
+}

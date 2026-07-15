@@ -1,0 +1,449 @@
+{
+ "season": 1998,
+ "source": "https://archive.org/details/carolinafootball1999unse",
+ "sourceNote": "1999 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1998 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1999unse.",
+ "players": [
+  {
+   "name": "Brandon Spoon",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 138,
+    "tfl": 8,
+    "sacks": 5,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Keith Newman",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 132,
+    "tfl": 12,
+    "sacks": 4,
+    "defInt": 1,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Ebenezer Ekuban",
+   "position": "DE/TE",
+   "rosterPosition": "DE/TE",
+   "stats": {
+    "tackles": 96,
+    "tfl": 23,
+    "sacks": 7,
+    "defInt": 0,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Sedrick Hodge",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 89,
+    "tfl": 11,
+    "sacks": 3.5,
+    "defInt": 1,
+    "pbu": 6
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Jomo Legins",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 81,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 1,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Billy-Dee Greenwood",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 78,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Mike Pringley",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 70,
+    "tfl": 7,
+    "sacks": 4,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Marcus Dow",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 67,
+    "tfl": 6,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Antwon Black",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 63,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Sherrod Peace",
+   "position": "DE/DT",
+   "rosterPosition": "DE/DT",
+   "stats": {
+    "tackles": 57,
+    "tfl": 7.5,
+    "sacks": 3.5,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Dre' Bly",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 44,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 4,
+    "pbu": 10
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Steve Fisher",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 42,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 5,
+    "pbu": 17
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Merceda Perry",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 41,
+    "tfl": 2,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Russell Davis",
+   "position": "Defensive Tackle",
+   "rosterPosition": "Defensive Tackle",
+   "stats": {
+    "tackles": 36,
+    "tfl": 3.5,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Ryan Sims",
+   "position": "Defensive Line",
+   "rosterPosition": "Defensive Line",
+   "stats": {
+    "tackles": 31,
+    "tfl": 4,
+    "sacks": 2,
+    "defInt": 0,
+    "pbu": 2
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Quinton Savage",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 28,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 4
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Joey Evans",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 12,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Teto Simpson",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 12,
+    "tfl": 3,
+    "sacks": 1,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Stephon McQueen",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 11,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Anthony Anderson",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 10,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 5
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "David Bomar",
+   "position": "Safety",
+   "rosterPosition": "Safety",
+   "stats": {
+    "tackles": 10,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Ross McAllister",
+   "position": "DE/DT",
+   "rosterPosition": "DE/DT",
+   "stats": {
+    "tackles": 9,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Danny Davis",
+   "position": "Wide Receiver",
+   "rosterPosition": "Wide Receiver",
+   "stats": {
+    "tackles": 6,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Errol Hood",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 6,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Anthony Perkins",
+   "position": "Tight End",
+   "rosterPosition": "Tight End",
+   "stats": {
+    "tackles": 5,
+    "tfl": 1,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Doug Brown",
+   "position": "Defensive End",
+   "rosterPosition": "Defensive End",
+   "stats": {
+    "tackles": 5,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 4,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 1
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Tim Burgess",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 3,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Greg Harris",
+   "position": "Wide Receiver",
+   "rosterPosition": "Wide Receiver",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Shawn Woodard",
+   "position": "Linebacker",
+   "rosterPosition": "Linebacker",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Anthony Saunders",
+   "position": "Fullback",
+   "rosterPosition": "Fullback",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Brian Schmitz",
+   "position": "Punter/Kicker",
+   "rosterPosition": "Punter/Kicker",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Tyrell Godwin",
+   "position": "Cornerback",
+   "rosterPosition": "Cornerback",
+   "stats": {
+    "tackles": 1,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  },
+  {
+   "name": "Donte' Thorogood",
+   "position": "Running Back",
+   "rosterPosition": "Running Back",
+   "stats": {
+    "tackles": 0,
+    "tfl": 0,
+    "sacks": 0,
+    "defInt": 0,
+    "pbu": 0
+   },
+   "source": "https://archive.org/details/carolinafootball1999unse"
+  }
+ ]
+}

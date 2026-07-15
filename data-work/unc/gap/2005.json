@@ -1,0 +1,349 @@
+{
+ "season": 2005,
+ "source": "http://web.archive.org/web/20081206112026id_/http://tarheelblue.cstv.com/sports/m-footbl/stats/2005-2006/teamcume.html",
+ "scope": "as of Nov 28, 2005",
+ "players": [
+  {
+   "name": "Barrington Edwards",
+   "position": "Running Back",
+   "jersey": "32",
+   "stats": {
+    "rushYds": 397,
+    "rushTD": 2,
+    "rec": 10,
+    "recYds": 99,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Bobby Rome II",
+   "position": "Fullback",
+   "jersey": "4",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brian Chacos",
+   "position": "Offensive Tackle",
+   "jersey": "65",
+   "stats": {
+    "rushYds": 5
+   }
+  },
+  {
+   "name": "Brian Rackley",
+   "position": "Defensive End",
+   "jersey": "42",
+   "stats": {
+    "tackles": 15,
+    "tfl": 3,
+    "sacks": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Bryan Bethea",
+   "position": "Cornerback",
+   "jersey": "35",
+   "stats": {
+    "tackles": 14,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Charlston Gray",
+   "position": "Offensive Line",
+   "jersey": "77",
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Connor Barth",
+   "position": "Placekicker/Punt",
+   "jersey": "10",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "D.J. Walker",
+   "position": "Free Safety",
+   "jersey": "28",
+   "stats": {
+    "tackles": 9
+   }
+  },
+  {
+   "name": "David Wooldridge",
+   "position": "Placekicker/Punt",
+   "jersey": "45",
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Durrell Mapp",
+   "position": "Linebacker",
+   "jersey": "48",
+   "stats": {
+    "tackles": 46,
+    "tfl": 1.5,
+    "sacks": 1,
+    "ff": 2
+   }
+  },
+  {
+   "name": "Garrett White",
+   "position": "Defensive End",
+   "jersey": "56",
+   "stats": {
+    "tackles": 8
+   }
+  },
+  {
+   "name": "Hilee Taylor",
+   "position": "Defensive End",
+   "jersey": "33",
+   "stats": {
+    "tackles": 12,
+    "tfl": 1.5,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Jacoby Watkins",
+   "position": "Cornerback",
+   "jersey": "16",
+   "stats": {
+    "tackles": 19,
+    "pbu": 3
+   }
+  },
+  {
+   "name": "James Cooter Arnold",
+   "position": "Wide Receiver",
+   "jersey": "20",
+   "stats": {
+    "rushYds": 187,
+    "rec": 4,
+    "recYds": 29,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Jay Spence",
+   "position": "Quarterback",
+   "jersey": "13",
+   "stats": {
+    "tackles": 59,
+    "tfl": 6,
+    "sacks": 1,
+    "defInt": 2,
+    "pbu": 10
+   }
+  },
+  {
+   "name": "Jesse Holley",
+   "position": "Wide Receiver",
+   "jersey": "9",
+   "stats": {
+    "rec": 47,
+    "recYds": 670,
+    "recTD": 1,
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Jon Hamlett",
+   "position": "Tight End",
+   "jersey": "86",
+   "stats": {
+    "rec": 21,
+    "recYds": 212,
+    "recTD": 1
+   }
+  },
+  {
+   "name": "Joseph Bozich",
+   "position": "Linebacker",
+   "jersey": "18",
+   "stats": {
+    "rushYds": 2,
+    "passYds": 12,
+    "passInt": 1
+   }
+  },
+  {
+   "name": "Justin Henderson",
+   "position": "Athlete",
+   "jersey": "15",
+   "stats": {
+    "tackles": 2,
+    "tfl": 0.5
+   }
+  },
+  {
+   "name": "Justin Warren",
+   "position": "Running Back",
+   "jersey": "21",
+   "stats": {
+    "rushYds": 86
+   }
+  },
+  {
+   "name": "Kareen Taylor",
+   "position": "Defensive Back",
+   "jersey": "27",
+   "stats": {
+    "tackles": 61,
+    "tfl": 4.5,
+    "sacks": 3.5,
+    "defInt": 2,
+    "pbu": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Kentwan Balmer",
+   "position": "Defensive Tackle",
+   "jersey": "90",
+   "stats": {
+    "tackles": 17,
+    "tfl": 5,
+    "sacks": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Khalif Mitchell",
+   "position": "Defensive End",
+   "jersey": "94",
+   "stats": {
+    "tackles": 13,
+    "pbu": 2
+   }
+  },
+  {
+   "name": "Kyndraus Guy",
+   "position": "Defensive Tackle",
+   "jersey": "74",
+   "stats": {
+    "tackles": 21,
+    "tfl": 5,
+    "sacks": 3,
+    "defInt": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Mark Paschal",
+   "position": "Linebacker",
+   "jersey": "41",
+   "stats": {
+    "tackles": 7
+   }
+  },
+  {
+   "name": "Martel Thatch",
+   "position": "Linebacker",
+   "jersey": "21",
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Melik Brown",
+   "position": "Linebacker",
+   "jersey": "58",
+   "stats": {
+    "tackles": 7,
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Nick Starcevic",
+   "position": "Fullback",
+   "jersey": "43",
+   "stats": {
+    "rushYds": 1,
+    "rushTD": 1,
+    "rec": 1,
+    "recYds": 7
+   }
+  },
+  {
+   "name": "Quinton Person",
+   "position": "Cornerback",
+   "jersey": "3",
+   "stats": {
+    "tackles": 36,
+    "tfl": 0.5,
+    "defInt": 1,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Richard Quinn",
+   "position": "Tight End",
+   "jersey": "89",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Ronnie McGill",
+   "position": "Running Back",
+   "jersey": "25",
+   "stats": {
+    "rushYds": 530,
+    "rushTD": 5,
+    "rec": 15,
+    "recYds": 99
+   }
+  },
+  {
+   "name": "Shelton Bynum",
+   "position": "Defensive Line",
+   "jersey": "75",
+   "stats": {
+    "tackles": 22,
+    "tfl": 3,
+    "sacks": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Trey Brenner",
+   "position": "Linebacker",
+   "jersey": "47",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Trimane Goddard",
+   "position": "Strong Safety",
+   "jersey": "31",
+   "stats": {
+    "tackles": 53,
+    "tfl": 2.5,
+    "defInt": 3,
+    "pbu": 5
+   }
+  },
+  {
+   "name": "Victor Worsley",
+   "position": "Linebacker",
+   "jersey": "54",
+   "stats": {
+    "tackles": 22,
+    "tfl": 0.5
+   }
+  }
+ ]
+}

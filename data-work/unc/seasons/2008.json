@@ -1,0 +1,549 @@
+{
+ "year": 2008,
+ "from": "sports-reference",
+ "players": [
+  {
+   "name": "Cameron Sexton",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1261,
+    "passTD": 9,
+    "passInt": 6,
+    "rushYds": -96,
+    "rushTD": 1,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "T.J. Yates",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 1168,
+    "passTD": 11,
+    "passInt": 4,
+    "rushYds": -67,
+    "rushTD": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Cooter Arnold",
+   "position": "WR",
+   "stats": {
+    "passYds": 66,
+    "passTD": 1,
+    "rushYds": 19,
+    "rec": 7,
+    "recYds": 87,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "James Arnold",
+   "position": "WR",
+   "stats": {
+    "passYds": 66,
+    "passTD": 1,
+    "rushYds": 19,
+    "rec": 7,
+    "recYds": 87,
+    "recTD": 1,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Bobby Rome II",
+   "position": "Fullback",
+   "stats": {
+    "passYds": 44,
+    "rec": 8,
+    "recYds": 65
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Mike Paulus",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 33,
+    "passInt": 2,
+    "rushYds": -13
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Brandon Tate",
+   "position": "Wide Receiver",
+   "stats": {
+    "passYds": 12,
+    "rushYds": 143,
+    "rushTD": 1,
+    "rec": 16,
+    "recYds": 376,
+    "recTD": 3
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Brooks Foster",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 104,
+    "rec": 30,
+    "recYds": 334,
+    "recTD": 2,
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Greg Little",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 339,
+    "rushTD": 3,
+    "rec": 11,
+    "recYds": 146,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Hakeem Nicks",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 34,
+    "rushTD": 1,
+    "rec": 68,
+    "recYds": 1222,
+    "recTD": 12,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Terrence Brown",
+   "position": "Punter",
+   "stats": {
+    "rushYds": -19
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Shaun Draughn",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 866,
+    "rushTD": 3,
+    "rec": 16,
+    "recYds": 81,
+    "recTD": 1,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Richard Quinn",
+   "position": "Tight End",
+   "stats": {
+    "rec": 8,
+    "recYds": 97,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Johnny White",
+   "position": "Cornerback",
+   "stats": {
+    "rec": 1,
+    "recYds": -3,
+    "tackles": 11
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Ryan Houston",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 299,
+    "rushTD": 8
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Christian Wilson",
+   "position": "H-B",
+   "stats": {
+    "rec": 2,
+    "recYds": 19
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Zack Pianalto",
+   "position": "Tight End",
+   "stats": {
+    "rec": 7,
+    "recYds": 69,
+    "recTD": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Anthony Elzy",
+   "position": "Tailback",
+   "stats": {
+    "rushYds": 5,
+    "rec": 7,
+    "recYds": 86,
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Kenton Thornton",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 1,
+    "recYds": 5
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Anthony Parker-Boyd",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 2
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Quan Sturdivant",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 6,
+    "sacks": 2,
+    "defInt": 2,
+    "ff": 1,
+    "tackles": 122
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Mark Paschal",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 7,
+    "sacks": 2,
+    "defInt": 2,
+    "ff": 2,
+    "tackles": 103
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Kendric Burney",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 7,
+    "defInt": 3,
+    "tackles": 77
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Bruce Carter",
+   "position": "Linebacker",
+   "stats": {
+    "tfl": 11,
+    "sacks": 5,
+    "defInt": 1,
+    "tackles": 68
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Deunta Williams",
+   "position": "Safety",
+   "stats": {
+    "tfl": 1,
+    "defInt": 3,
+    "ff": 1,
+    "tackles": 65
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Trimane Goddard",
+   "position": "Safety",
+   "stats": {
+    "tfl": 2,
+    "defInt": 7,
+    "ff": 2,
+    "tackles": 54
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Jordan Hemby",
+   "position": "Cornerback",
+   "stats": {
+    "tfl": 3,
+    "ff": 3,
+    "pbu": 3,
+    "tackles": 49
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Marvin Austin",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "defInt": 1,
+    "tackles": 38
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "E.J. Wilson",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 5,
+    "sacks": 1,
+    "pbu": 1,
+    "tackles": 38
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Robert Quinn",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 7,
+    "sacks": 2,
+    "ff": 2,
+    "pbu": 1,
+    "tackles": 34
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Cam Thomas",
+   "position": "DL",
+   "stats": {
+    "tfl": 4,
+    "sacks": 1,
+    "tackles": 34
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Charles Brown",
+   "position": "Cornerback",
+   "stats": {
+    "defInt": 1,
+    "tackles": 26
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Da'Norris Searcey",
+   "position": "DB",
+   "stats": {
+    "tfl": 2,
+    "sacks": 2,
+    "pbu": 3,
+    "tackles": 25
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Chase Rice",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 20
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Ryan Taylor",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 19
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Tydreke Powell",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 5,
+    "sacks": 1,
+    "tackles": 18
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Aleric Mullins",
+   "position": "Defensive Tackle",
+   "stats": {
+    "tfl": 2,
+    "sacks": 1,
+    "ff": 1,
+    "tackles": 12
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Matt Merletti",
+   "position": "Safety",
+   "stats": {
+    "tackles": 11
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Richie Rich",
+   "position": "DB",
+   "stats": {
+    "pbu": 1,
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Michael McAdoo",
+   "position": "Defensive Line",
+   "stats": {
+    "tfl": 3,
+    "sacks": 2.5,
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Kennedy Tinsley",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Quinton Coples",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 4,
+    "sacks": 1.5,
+    "tackles": 8
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Darrius Massenburg",
+   "position": "DL",
+   "stats": {
+    "tackles": 7
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Zach Brown",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Jonathan Smith",
+   "position": "Safety",
+   "stats": {
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Greg Elleby",
+   "position": "Defensive End",
+   "stats": {
+    "tfl": 1,
+    "ff": 1,
+    "tackles": 6
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Melvin Williams",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Darius Powell",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Ebele Okakpu",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Tavorris Jolly",
+   "position": "Cornerback",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Trevor Stuart",
+   "position": "DS",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Jay Wooten",
+   "position": "Place-Kicker",
+   "stats": {
+    "tfl": 1,
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Vince Jacobs",
+   "position": "Defensive End",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  },
+  {
+   "name": "Linwan Euwell",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+<!-- source: https://en.wikipedia.org/wiki/2014_College_Football_All-America_Team -->
+{{Short description|Official list of the best college football players of 2014}}
+{{Use mdy dates|date=August 2023}}
+{{sidebar
+| width = 25em
+| title = 2014 All-America college football team
+| headingstyle = border-top:#aaa 1px solid
+| content1style = border-top:1px #aaa solid
+| content1 = [[All-America college football team]]
+| content2 = [[2014 NCAA Division I FBS football season]]
+| content4style = border-top:1px #aaa solid
+| content4 =  ← [[2013 All-America college football team|2013]] &nbsp; [[2015 All-America college football team|2015]] → 
+}}
+
+The '''2014 All-America college football team''' includes those players of American [[college football]] who have been honored by various selector organizations as the best players at their respective positions.  The selector organizations award the "[[All-America]]" honor annually following the conclusion of the fall college football season.  The original All-America team was the [[1889 All-America college football team]] selected by [[Caspar Whitney]].  In 1950, the National Collegiate Athletic Bureau, which is the [[National Collegiate Athletic Association]]'s (NCAA) service bureau, compiled the first list of All-Americans including first-team selections on teams created for a national audience that received national circulation with the intent of recognizing selections made from viewpoints that were nationwide.<ref>{{cite web|url=http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |title=Football Award Winners |access-date=October 17, 2011 |publisher=[[NCAA]] |url-status=dead |archive-url=https://web.archive.org/web/20090714223946/http://www.docstoc.com/docs/4844195/Awards-compiled-NCAA-2008-Record-Book-Division-1-Football |archive-date=July 14, 2009 }}</ref>  Since 1957, [[College Sports Information Directors of America]] (CoSIDA) has bestowed [[Academic All-American]] recognition on male and female athletes in [[NCAA Division I|Divisions I]], [[NCAA Division II|II]], and [[NCAA Division III|III]] of the NCAA as well as [[National Association of Intercollegiate Athletics]] athletes, covering all NCAA championship sports.
+
+The 2014 College Football All-America Team is composed of the following [[All-America college football team|All-America]] first teams chosen by the following selector organizations: [[Associated Press]] (AP), [[Football Writers Association of America]] (FWAA), [[American Football Coaches Association]] (AFCA), [[Walter Camp Foundation]] (WCFF), ''[[The Sporting News]]'' (''TSN''), ''[[Sports Illustrated]]'' (''SI''), ''[[USA Today]]'' (USAT) [[ESPN]], [[CBS Sports]] (CBS), ''[[College Football News]]'' (''CFN''), [[Scout.com]], and [[Yahoo! Sports]] (Yahoo!).
+
+Currently, the NCAA compiles consensus all-America teams in the sports of [[NCAA Division I Football Bowl Subdivision|Division I-FBS]] football and Division I men's basketball using a point system computed from All-America teams named by coaches associations or media sources.  The system consists of three points for a first-team honor, two points for second-team honor, and one point for third-team honor.  Honorable mention and fourth team or lower recognitions are not accorded any points.  Football consensus teams are compiled by position and the player accumulating the most points at each position is named first team consensus all-American.  Currently, the NCAA recognizes All-Americans selected by the AP, AFCA, FWAA, ''TSN'', and the WCFF to determine Consensus and Unanimous All-Americans.<ref>{{cite web |url=https://www.ncaa.org/wps/wcm/connect/public/ncaa/resources/stats/statistics+policies |title=2010-11 NCAA Statistics Policies(updated 9/15/2010) |access-date=December 10, 2011 |archive-date=January 3, 2012 |date=September 15, 2010 |archive-url=https://web.archive.org/web/20120103181529/http://www.ncaa.org/wps/wcm/connect/public/NCAA/Resources/Stats/Statistics+Policies |publisher=[[National Collegiate Athletic Association]] |url-status=dead }}</ref>
+
+In 2014, there were 12 unanimous All-Americans.
+
+{| class="wikitable sortable" style="font-size:90%; text-align:left"
+|-
+! Name !! Position !! Year !! University
+|-
+| {{sortname|Joey|Bosa}} || Defensive Line || Sophomore || [[2014 Ohio State Buckeyes football team|Ohio St.]]
+|-
+| {{sortname|Tevin|Coleman}} || Running Back || Junior || [[2014 Indiana Hoosiers football team|Indiana]]
+|-
+| {{sortname|Landon|Collins}} || Defensive Back || Junior || [[2014 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Amari|Cooper}} || Wide Receiver || Junior || [[2014 Alabama Crimson Tide football team|Alabama]]
+|-
+| {{sortname|Senquez|Golson}} || Defensive Back || Senior || [[2014 Ole Miss Rebels football team|Ole Miss]]
+|-
+| {{sortname|Melvin|Gordon}} || Running Back || Junior || [[2014 Wisconsin Badgers football team|Wisconsin]]
+|-
+| {{sortname|Gerod|Holliman}} || Defensive Back || Sophomore || [[2014 Louisville Cardinals football team|Louisville]]
+|-
+| {{sortname|Tre'|Jackson}} || Offensive Line || Senior || [[2014 Florida State Seminoles football team|Florida St.]]
+|-
+| {{sortname|Hau'oli|Kikaha}} || Linebacker || Senior || [[2014 Washington Huskies football team|Washington]]
+|-
+| {{sortname|Marcus|Mariota}} || Quarterback || Junior|| [[2014 Oregon Ducks football team|Oregon]]
+|-
+| {{sortname|Brandon|Scherff}} || Offensive Line || Senior || [[2014 Iowa Hawkeyes football team|Iowa]]
+|-
+| {{sortname|Scooby|Wright III|Scooby Wright}} || Linebacker || Sophomore || [[2014 Arizona Wildcats football team|Arizona]]
+|}
+
+==Offense==
+
+===Quarterback===
+*'''[[Marcus Mariota]]''', [[2014 Oregon Ducks football team|Oregon]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+
+===Running back===
+*'''[[Tevin Coleman]]''', [[2014 Indiana Hoosiers football team|Indiana]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+*[[James Conner (American football)|James Conner]], [[2014 Pittsburgh Panthers football team|Pittsburgh]] <small> ('''AFCA''')</small>
+*'''[[Melvin Gordon]]''', [[2014 Wisconsin Badgers football team|Wisconsin]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+
+===Wide receiver===
+*'''[[Amari Cooper]]''', [[2014 Alabama Crimson Tide football team|Alabama]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+*'''[[Rashard Higgins]]''', [[2014 Colorado State Rams football team|Colorado State]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''FWAA''', USAT, ESPN, SI, FOX)</small>
+*[[Jaelen Strong]], [[2014 Arizona State Sun Devils football team|Arizona State]] <small> (ESPN)</small>
+*[[Kevin White (American football)|Kevin White]], [[2014 West Virginia Mountaineers football team|West Virginia]] <small> ('''TSN''', '''AFCA''', CBS, Scout)</small>
+
+===Tight end===
+*'''[[Nick O'Leary]]''', [[2014 Florida State Seminoles football team|Florida State]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''AFCA''', USAT, CBS, Scout, SI)</small>
+*[[Clive Walford]], [[2014 Miami Hurricanes football team|Miami]] <small> (FOX)</small>
+*[[Maxx Williams]], [[2014 Minnesota Golden Gophers football team|Minnesota]] <small> ('''TSN''', '''FWAA''')</small>
+
+===Offensive line===
+*[[Jack Allen (American football)|Jack Allen]], [[2014 Michigan State Spartans football team|Michigan State]] <small> (USAT)</small>
+*[[A. J. Cann]], [[2014 South Carolina Gamecocks football team|South Carolina]] <small> ('''TSN''', CBS, ESPN, FOX)</small>
+*[[Kyle Costigan]], [[2014 Wisconsin Badgers football team|Wisconsin]] <small> (ESPN)</small>
+*'''[[Reese Dismukes]]''', [[2014 Auburn Tigers football team|Auburn]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''AFCA''', '''FWAA''', CBS, ESPN, Scout)</small>
+*'''[[Spencer Drango]]''', [[2014 Baylor Bears football team|Baylor]] <small>-- CONSENSUS -- ('''AP''', '''FWAA''', USAT, ESPN, Scout, FOX)</small>
+*[[Cameron Erving]], [[2014 Florida State Seminoles football team|Florida State]] <small> (CBS)</small>
+*[[Jake Fisher]], [[2014 Oregon Ducks football team|Oregon]] <small> ('''FWAA''')</small>
+*[[Hroniss Grasu]], [[2014 Oregon Ducks football team|Oregon]] <small> ('''TSN''', SI)</small>
+*[[Rob Havenstein]], [[2014 Wisconsin Badgers football team|Wisconsin]] <small> ('''AFCA''')</small>
+*'''[[Tre' Jackson]]''', [[2014 Florida State Seminoles football team|Florida State]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', CBS, Scout, SI)</small>
+*[[Arie Kouandjio]], [[2014 Alabama Crimson Tide football team|Alabama]] <small> ('''AFCA''', USAT, SI)</small>
+*[[Shaquille Mason]], [[2014 Georgia Tech Yellow Jackets football team|Georgia Tech]] <small> (USAT)</small>
+*[[Cedric Ogbuehi]], [[2014 Texas A&M Aggies football team|Texas A&M]] <small> ('''WCFF''', Scout)</small>
+*[[Andrus Peat]], [[2014 Stanford Cardinal football team|Stanford]] <small> ('''TSN''', ESPN, SI)</small>
+*'''[[Brandon Scherff]]''', [[2014 Iowa Hawkeyes football team|Iowa]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, Scout, SI, FOX)</small>
+*'''[[Laken Tomlinson]]''', [[2014 Duke Blue Devils football team|Duke]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''')</small>
+
+==Defense==
+
+===Defensive line===
+*'''[[Vic Beasley]]''', [[2014 Clemson Tigers football team|Clemson]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''AFCA''', FOX)</small>
+*[[Michael Bennett (defensive tackle, born 1990s)|Michael Bennett]], [[2014 Ohio State Buckeyes football team|Ohio State]] <small> (CBS)</small>
+*'''[[Joey Bosa]]''', [[2014 Ohio State Buckeyes football team|Ohio State]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, Scout, FOX)</small>
+*'''[[Malcom Brown]]''', [[2014 Texas Longhorns football team|Texas]] <small>-- CONSENSUS -- ('''AP''', '''TSN''', '''FWAA''', USAT, CBS, ESPN, FOX)</small>
+*[[Eddie Goldman]], [[2014 Florida State Seminoles football team|Florida State]] <small> (SI)</small>
+*[[Nate Orchard]], [[2014 Utah Utes football team|Utah]] <small> ('''WCFF''', '''FWAA''', ESPN, Scout, SI)</small>
+*'''[[Shane Ray]]''', [[2014 Missouri Tigers football team|Missouri]] <small>-- CONSENSUS -- ('''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, Scout, SI)</small>
+*[[Danny Shelton (American football)|Danny Shelton]], [[2014 Washington Huskies football team|Washington]] <small> ('''AP''', '''TSN''', USAT)</small>
+*[[Leonard Williams (defensive end)|Leonard Williams]], [[2014 USC Trojans football team|Southern California]] <small> ('''AFCA''', ESPN, FOX)</small>
+
+===Linebacker===
+*'''[[Paul Dawson (American football)|Paul Dawson]]''', [[2014 TCU Horned Frogs football team|TCU]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', USAT, Scout, FOX)</small>
+*[[Trey DePriest]], [[2014 Alabama Crimson Tide football team|Alabama]] <small> ('''AFCA''')</small>
+*[[Eric Kendricks]], [[2014 UCLA Bruins football team|UCLA]] <small> ('''TSN''', USAT, Scout, SI)</small>
+*'''[[Hau'oli Kikaha]]''', [[2014 Washington Huskies football team|Washington]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', CBS, ESPN, Scout, FOX)</small>
+*[[Benardrick McKinney]], [[2014 Mississippi State Bulldogs football team|Mississippi State]] <small> ('''FWAA''', ESPN, SI)</small>
+*[[Shaq Thompson]], [[2014 Washington Huskies football team|Washington]] <small> (CBS, ESPN, SI)</small>
+*'''[[Scooby Wright|Scooby Wright III]]''', [[2014 Arizona Wildcats football team|Arizona]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+
+===Defensive back===
+*'''[[Landon Collins]]''', [[2014 Alabama Crimson Tide football team|Alabama]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', CBS, ESPN, Scout, SI, FOX)</small>
+*[[Kurtis Drummond]], [[2014 Michigan State Spartans football team|Michigan State]] <small> ('''FWAA''')</small>
+*'''[[Ifo Ekpre-Olomu]]''', [[2014 Oregon Ducks football team|Oregon]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''AFCA''', USAT, SI, FOX)</small>
+*'''[[Senquez Golson]]''', [[2014 Ole Miss Rebels football team|Ole Miss]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+*[[Vernon Hargreaves III]], [[2014 Florida Gators football team|Florida]] <small> ('''TSN''', CBS, ESPN)</small>
+*'''[[Gerod Holliman]]''', [[2014 Louisville Cardinals football team|Louisville]] <small>-- UNANIMOUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', '''FWAA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+*[[Jalen Ramsey]], [[2014 Florida State Seminoles football team|Florida State]] <small> (USAT, Scout)</small>
+
+==Special teams==
+
+===Kicker===
+*'''[[Roberto Aguayo]]''', [[2014 Florida State Seminoles football team|Florida State]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''TSN''', '''AFCA''', USAT, CBS, ESPN, Scout, SI, FOX)</small>
+*[[Brad Craddock]], [[2014 Maryland Terrapins football team|Maryland]] <small> ('''FWAA''')</small>
+
+===Punter===
+*'''[[Tom Hackett]]''', [[2014 Utah Utes football team|Utah]] <small>-- CONSENSUS -- ('''AP''', '''WCFF''', '''AFCA''', '''FWAA''', CBS, Scout, FOX)</small>
+*[[J. K. Scott]], [[2014 Alabama Crimson Tide football team|Alabama]] <small> ('''TSN''', USAT, ESPN, SI)</small>
+
+===All-purpose / return specialist===
+*[[Mario Alford]], [[2014 West Virginia Mountaineers football team|West Virginia]] <small> ('''FWAA''')</small>
+*[[Kaelin Clay]], [[2014 Utah Utes football team|Utah]] <small> ('''TSN''', CBS, FOX)</small>
+*'''[[Tyler Lockett]]''', [[2014 Kansas State Wildcats football team|Kansas State]] <small>-- CONSENSUS -- ('''AFCA''', '''FWAA''', CBS, ESPN, Scout, SI, FOX)</small>
+*[[Marcus Murphy]], [[2014 Missouri Tigers football team|Missouri]] <small>(Scout)</small>
+*[[J. J. Nelson]], [[2014 UAB Blazers football team|UAB]] <small>('''WCFF''', USAT, CBS, SI)</small>
+*[[Shaq Thompson]], [[2014 Washington Huskies football team|Washington]] <small>('''AP''', Scout)</small>
+
+==See also==
+* [[2014 All-Big 12 Conference football team]]
+* [[2014 All-Big Ten Conference football team]]
+* [[2014 All-Pac-12 Conference football team]]
+* [[2014 All-SEC football team]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*[http://waltercamp.org/125th-walter-camp-all-america-teams-announced/#more-6120 Walter Camp All-America team]
+*[https://www.usatoday.com/story/sports/ncaaf/2014/12/11/all-america-college-football-team/20199701/ USA Today All-America team]
+*[http://www.cbssports.com/collegefootball/eye-on-college-football/24879398/cbs-sports-college-football-all-america-team CBS All-America team]
+*[https://www.espn.com/college-football/feature/video?page=PreseasonAllAmericans141212&_slug_=2014-all-america-team ESPN All-America team]
+*{{cite news|title=2014 AP All-America Team, List|url=http://collegefootball.ap.org/article/2014-ap-all-america-team-list|publisher=Associated Press|archive-url=https://web.archive.org/web/20141217025813/http://collegefootball.ap.org/article/2014-ap-all-america-team-list|archive-date=December 17, 2014}}
+*[http://collegefootball.scout.com/story/1491096-scout-2014-all-america-team Scout All-America team]
+*[https://www.si.com/college-football/2014/12/15/college-football-all-america-team Sports Illustrated All-America team]
+*{{cite news|title=SN All-American team: Mariota, Cooper, Gordon lead way|work=Sporting News|url=http://www.sportingnews.com/photos/4630079-college-football-sn-all-american-teams-photos-marcus-mariota-melvin-gordon-amari-cooper-jt-barrett-joey-bosa-scooby-wright|archive-url=https://web.archive.org/web/20150109183635/http://www.sportingnews.com/photos/4630079-college-football-sn-all-american-teams-photos-marcus-mariota-melvin-gordon-amari-cooper-jt-barrett-joey-bosa-scooby-wright/slide/288130|archive-date=January 9, 2015}}
+*[https://web.archive.org/web/20150206090056/http://www.afca.com/article/article.php?id=2581 American Football Coaches Association All-America team]
+*{{cite web|title=FWAA NAMES 2014 ALL-AMERICA TEAM|date=December 17, 2014|publisher=Football Writers Association of America|url=http://www.sportswriters.net/fwaa/news/2014/allamerica141217.html|url-status=deviated|archive-url=https://web.archive.org/web/20141230231349/http://www.sportswriters.net/fwaa/news/2014/allamerica141217.html|archive-date=December 30, 2014}}
+*[http://www.foxsports.com/college-football/photos/alabama-crimson-tide-ohio-state-buckeyes-texas-longhorns-2014-all-america-team-121614#img_0 Fox Sports All-American team]
+
+{{2014 NCAA Division I FBS College Football Consensus All-Americans}}
+{{All-America college football teams}}
+{{2014 NCAA Division I FBS football season navbox}}
+
+[[Category:2014 NCAA Division I FBS football season|All-America team]]
+[[Category:All-America college football teams]]

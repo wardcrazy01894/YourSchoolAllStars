@@ -17,3 +17,10 @@ dist/
 # Scratch dir created by data-pipeline scripts during local runs.
 scripts/tmp/
 data/_raw/
+
+# UNC media-guide scans — large, and re-fetchable with data-work/unc/fetch-guides.mjs
+# (145 MB of OCR XML + page images). The DERIVED files are committed: guide/,
+# guide-resolved/, guide-rosters/ and the Vision OCR TSVs in guide-ocr/.
+data-work/unc/guide-xml/
+data-work/unc/guide-txt/
+data-work/unc/guide-img/

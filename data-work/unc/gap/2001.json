@@ -1,0 +1,496 @@
+{
+ "season": 2001,
+ "source": "http://web.archive.org/web/20021121143616id_/http://tarheelblue.ocsn.com/sports/m-footbl/stats/071102aaa.html",
+ "scope": "as of Dec 01, 2001",
+ "players": [
+  {
+   "name": "Aaron Leak",
+   "position": "Quarterback",
+   "jersey": "9",
+   "stats": {
+    "rushYds": 3,
+    "passYds": 24
+   }
+  },
+  {
+   "name": "Andre' Williams",
+   "position": "Tailback",
+   "jersey": "34",
+   "stats": {
+    "rushYds": 520,
+    "rushTD": 4,
+    "rec": 5,
+    "recYds": 25
+   }
+  },
+  {
+   "name": "Anthony Perkins",
+   "position": "Defensive Tackle",
+   "jersey": "58",
+   "stats": {
+    "tackles": 17,
+    "tfl": 1,
+    "sacks": 1,
+    "pbu": 1,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Billy-Dee Greenwood",
+   "position": "Safety",
+   "jersey": "28",
+   "stats": {
+    "tackles": 67,
+    "tfl": 1,
+    "pbu": 7
+   }
+  },
+  {
+   "name": "Bosley Allen",
+   "position": "Wide Receiver",
+   "jersey": "3",
+   "stats": {
+    "rec": 39,
+    "recYds": 562,
+    "recTD": 4,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Brandon Russell",
+   "position": "Wide Receiver",
+   "jersey": "31",
+   "stats": {
+    "rushYds": 2,
+    "rec": 19,
+    "recYds": 235,
+    "recTD": 1,
+    "tackles": 6
+   }
+  },
+  {
+   "name": "Chelsey Borders",
+   "position": "Wide Receiver",
+   "jersey": "39",
+   "stats": {
+    "rushYds": 8,
+    "rec": 27,
+    "recYds": 448,
+    "recTD": 4
+   }
+  },
+  {
+   "name": "Chris Bender",
+   "position": "Place-Kicker",
+   "jersey": "95",
+   "stats": {
+    "tackles": 40,
+    "tfl": 9,
+    "sacks": 2.5,
+    "pbu": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Chris Curry",
+   "position": "Safety",
+   "jersey": "40",
+   "stats": {
+    "tackles": 5,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Chris Hawkins",
+   "position": "Cornerback",
+   "jersey": "35",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Clarence Gaddy",
+   "position": "Linebacker",
+   "jersey": "37",
+   "stats": {
+    "tackles": 2,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Danny Davis",
+   "position": "Wide Receiver",
+   "jersey": "6",
+   "stats": {
+    "rec": 1,
+    "recYds": 7,
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Danny Rumley",
+   "position": "Wide Receiver",
+   "jersey": "19",
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Darian Durant",
+   "position": "Quarterback",
+   "jersey": "11",
+   "stats": {
+    "rushYds": 128,
+    "rushTD": 2,
+    "passYds": 1843,
+    "passTD": 17,
+    "passInt": 10
+   }
+  },
+  {
+   "name": "Darryl Grant",
+   "position": "Defensive Tackle",
+   "jersey": "96",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "David McIntosh",
+   "position": "Safety",
+   "jersey": "7",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "David Thornton",
+   "position": "Linebacker",
+   "jersey": "30",
+   "stats": {
+    "tackles": 131,
+    "tfl": 10,
+    "sacks": 3,
+    "defInt": 1,
+    "pbu": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "DeFonte Coleman",
+   "position": "Safety",
+   "jersey": "25",
+   "stats": {
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Derrick Johnson",
+   "position": "Cornerback",
+   "jersey": "2",
+   "stats": {
+    "tackles": 10,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Dexter Reid",
+   "position": "Safety",
+   "jersey": "24",
+   "stats": {
+    "tackles": 99,
+    "tfl": 5,
+    "sacks": 2,
+    "defInt": 2,
+    "pbu": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Donti Coats",
+   "position": "Defensive Tackle",
+   "jersey": "94",
+   "stats": {
+    "tackles": 8,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Doug Brown",
+   "position": "Tight End",
+   "jersey": "81",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Eric Davis",
+   "position": "Defensive Tackle",
+   "jersey": "47",
+   "stats": {
+    "tackles": 11,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Errol Hood",
+   "position": "Cornerback",
+   "jersey": "29",
+   "stats": {
+    "tackles": 74,
+    "tfl": 6,
+    "pbu": 6
+   }
+  },
+  {
+   "name": "Greg Warren",
+   "position": "Deep Snapper",
+   "jersey": "56",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Isaac Mooring",
+   "position": "Defensive End",
+   "jersey": "92",
+   "stats": {
+    "tackles": 21,
+    "tfl": 2,
+    "sacks": 2
+   }
+  },
+  {
+   "name": "Isaiah Robinson",
+   "position": "Wide Receiver",
+   "jersey": "10",
+   "stats": {
+    "rec": 2,
+    "recYds": 21,
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jacque Lewis",
+   "position": "Tailback",
+   "jersey": "20",
+   "stats": {
+    "rushYds": 241,
+    "rushTD": 1,
+    "rec": 8,
+    "recYds": 63,
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Jeff Reed",
+   "position": "Place-Kicker",
+   "jersey": "45",
+   "stats": {
+    "tackles": 1
+   }
+  },
+  {
+   "name": "Jermicus Banks",
+   "position": "Defensive End",
+   "jersey": "90",
+   "stats": {
+    "tackles": 5
+   }
+  },
+  {
+   "name": "Jocques Dumas",
+   "position": "Defensive End",
+   "jersey": "42",
+   "stats": {
+    "tackles": 8,
+    "tfl": 1
+   }
+  },
+  {
+   "name": "Julius Peppers",
+   "position": "Defensive End",
+   "jersey": "49",
+   "stats": {
+    "tackles": 63,
+    "tfl": 19,
+    "sacks": 9.5,
+    "defInt": 3,
+    "pbu": 9,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Kevin Knight",
+   "position": "Cornerback",
+   "jersey": "21",
+   "stats": {
+    "tackles": 49,
+    "tfl": 2,
+    "sacks": 1,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Kitwana Jones",
+   "position": "Fullback",
+   "jersey": "36",
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Kory Bailey",
+   "position": "Wide Receiver",
+   "jersey": "12",
+   "stats": {
+    "rec": 44,
+    "recYds": 608,
+    "recTD": 6,
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Madison Hedgecock",
+   "position": "Fullback",
+   "jersey": "44",
+   "stats": {
+    "rushYds": 1,
+    "tackles": 5,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Malcolm Stewart",
+   "position": "Linebacker",
+   "jersey": "85",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Merceda Perry",
+   "position": "Linebacker",
+   "jersey": "54",
+   "stats": {
+    "tackles": 39,
+    "tfl": 3,
+    "pbu": 1
+   }
+  },
+  {
+   "name": "Michael Harris",
+   "position": "Tailback",
+   "jersey": "26",
+   "stats": {
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Michael Waddell",
+   "position": "Cornerback",
+   "jersey": "18",
+   "stats": {
+    "tackles": 54,
+    "tfl": 1,
+    "pbu": 14
+   }
+  },
+  {
+   "name": "Quincy Monk",
+   "position": "Linebacker",
+   "jersey": "41",
+   "stats": {
+    "tackles": 125,
+    "tfl": 6,
+    "defInt": 2,
+    "pbu": 8,
+    "ff": 3
+   }
+  },
+  {
+   "name": "Richard Moore",
+   "position": "Fullback",
+   "jersey": "43",
+   "stats": {
+    "rushYds": 11,
+    "tackles": 2
+   }
+  },
+  {
+   "name": "Robert Harris",
+   "position": "Linebacker",
+   "jersey": "55",
+   "stats": {
+    "tackles": 4
+   }
+  },
+  {
+   "name": "Ronald Curry",
+   "position": "Quarterback",
+   "jersey": "1",
+   "stats": {
+    "rushYds": 253,
+    "rushTD": 3,
+    "passYds": 1005,
+    "passTD": 8,
+    "passInt": 6
+   }
+  },
+  {
+   "name": "Ryan Sims",
+   "position": "Defensive Tackle",
+   "jersey": "87",
+   "stats": {
+    "tackles": 51,
+    "tfl": 8,
+    "sacks": 5,
+    "pbu": 4
+   }
+  },
+  {
+   "name": "Sam Aiken",
+   "position": "Wide Receiver",
+   "jersey": "88",
+   "stats": {
+    "rushYds": 1,
+    "rec": 46,
+    "recYds": 789,
+    "recTD": 8,
+    "tackles": 3
+   }
+  },
+  {
+   "name": "Will Chapman",
+   "position": "Defensive End",
+   "jersey": "91",
+   "stats": {
+    "tackles": 29,
+    "tfl": 3,
+    "pbu": 2,
+    "ff": 1
+   }
+  },
+  {
+   "name": "Willie Parker",
+   "position": "Tailback",
+   "jersey": "15",
+   "stats": {
+    "rushYds": 400,
+    "rushTD": 3,
+    "rec": 2,
+    "recYds": 26
+   }
+  },
+  {
+   "name": "Zach Hilton",
+   "position": "Tight End",
+   "jersey": "86",
+   "stats": {
+    "rec": 12,
+    "recYds": 88,
+    "recTD": 2
+   }
+  }
+ ]
+}

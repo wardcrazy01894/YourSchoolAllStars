@@ -1,0 +1,205 @@
+<!-- source: https://en.wikipedia.org/wiki/Jim_Thorpe_Award -->
+{{Short description|College football award}}
+{{for|the NFL most valuable player award|Jim Thorpe Trophy}}
+{{Infobox sports award
+| name           = Jim Thorpe Award
+| current_awards = 
+| image          = 
+| imagesize      = 
+| caption        = 
+| description    = The top defensive back in [[college football]]
+| presenter      = [[Oklahoma Sports Hall of Fame]]
+| country        = United States
+| location       = 
+| year           = 1986
+| holder         = [[2025 Ohio State Buckeyes football team|Ohio State]] safety [[Caleb Downs]]
+| website        = http://www.oksportshof.org
+}}
+The '''Jim Thorpe Award''', named in memory of multi-sport athlete [[Jim Thorpe]], has been awarded to the top [[defensive back]] in [[college football]] since 1986. It is voted on by the [[Oklahoma Sports Hall of Fame]].  In 2017, the award became sponsored by [[Paycom]] and was named the '''Paycom Jim Thorpe Award'''.<ref>{{Cite web | url=https://oklahomasportshalloffame.org/paycom-jim-thorpe-award | title=Awards - Paycom Jim Thorpe Award}}</ref>
+
+==Winners==
+{| class="wikitable"
+|-
+! Season !! Player 
+!Position!! School !! Ref
+|-
+| 1986 || [[Thomas Everett]] 
+| [[Safety (gridiron football position)|S]] || [[1986 Baylor Bears football team|Baylor]]
+| <ref>{{cite web|first=John |last=Werner |date=2015-10-04 |url=http://www.wacotrib.com/sports/baylor/football/swc-legend-baylor-db-thomas-everett-won-st-ever-jim/article_78d345d0-a04a-5885-b3e0-5ae22b3d1290.html |title=SWC legend, Baylor DB Thomas Everett won 1st-ever Jim Thorpe Award - WacoTrib.com: Baylor Bears Football |publisher=WacoTrib.com |access-date=2016-12-13}}</ref>
+|-
+|rowspan=2| 1987 (tie) || [[Bennie Blades]] 
+| S || [[1987 Miami Hurricanes football team|Miami (FL)]]
+|rowspan=2| <ref>{{cite web|last=Miller |first=Susan |url=http://www.miamiherald.com/sports/college/acc/university-of-miami/article36503694.html |title=UM coach Randy Ableman among those to be inducted into Florida Sports Hall of Fame |publisher=Miami Herald |date=2015-09-24 |access-date=2016-12-13}}</ref>
+|-
+| [[Rickey Dixon]] 
+| S || [[1987 Oklahoma Sooners football team|Oklahoma]]
+|-
+| 1988 || [[Deion Sanders]] 
+| [[Cornerback|CB]]|| [[1988 Florida State Seminoles football team|Florida State]]
+|<ref>{{cite news|title=Sanders wins Jim Thorpe Award|url=https://news.google.com/newspapers?id=mKNGAAAAIBAJ&sjid=UjMNAAAAIBAJ&pg=5395%2C787605|access-date=September 24, 2016|work=The Evening News|agency=Associated Press|date=January 11, 1989|page=2B}}</ref>
+|-
+| 1989 || [[Mark Carrier (safety)|Mark Carrier]] 
+| S || [[1989 USC Trojans football team|USC]]
+| <ref>{{Cite web | url=http://www.ocregister.com/articles/jackson-737880-award-football.html | title=USC's Adoree' Jackson wins Jim Thorpe Award as nation's top DB| date=2016-12-08}}</ref>
+|-
+| 1990 || [[Darryll Lewis]] 
+| CB || [[1990 Arizona Wildcats football team|Arizona]]
+| <ref>{{cite web|last=Gimino |first=Anthony |url=http://archive.azcentral.com/sports/ua/articles/20130824top-50-arizona-wildcats-football-players-of-all-time-darryll-lewis.html |title=No. 8: Defensive back Darryll Lewis, 1987-90 |publisher=Archive.azcentral.com |date=2013-08-25 |access-date=2016-12-13}}</ref>
+|-
+| 1991 || [[Terrell Buckley]] 
+| CB || [[1991 Florida State Seminoles football team|Florida State]] (2)
+| <ref>{{cite web|url=http://jacksonville.com/sports/college/florida-state-seminoles/2014-12-10/story/florida-state-tight-end-nick-oleary-receives |title=Florida State tight end Nick O'Leary receives John Mackey Award |publisher=Jacksonville.com |date=2014-12-10 |access-date=2016-12-13}}</ref>
+|-
+| 1992 || [[Deon Figures]] 
+| CB || [[1992 Colorado Buffaloes football team|Colorado]]
+| <ref>{{cite web|url=http://www.denverpost.com/2014/06/19/deon-figures-bob-beattie-among-cu-buffs-new-hall-of-famers/ |title=Deon Figures, Bob Beattie among CU Buffs' new Hall of Famers |work=The Denver Post |date= 2014-06-19|access-date=2016-12-13}}</ref>
+|-
+| 1993 || [[Antonio Langham]] 
+| CB || [[1993 Alabama Crimson Tide football team|Alabama]]
+| <ref name="sec">{{cite web|url=http://www.al.com/sports/index.ssf/2016/12/sec_football_by_the_numbers_aw_5.html |title=SEC Football by the Numbers: Awards season |publisher=AL.com |date= 2016-12-07|access-date=2016-12-13}}</ref>
+|-
+| 1994 || [[Chris Hudson (American football)|Chris Hudson]] 
+| [[Defensive back|DB]] || [[1994 Colorado Buffaloes football team|Colorado]] (2)
+| <ref>{{cite news|url=https://www.nytimes.com/1994/12/09/sports/sports-people-college-football-two-awards-for-penn-state-quarterback.html |title=SPORTS PEOPLE - COLLEGE FOOTBALL - Two Awards for Penn State Quarterback |work=[[The New York Times]] |date=1994-12-09 |access-date=2016-12-13}}</ref>
+|-
+| 1995 || [[Greg Myers (American football)|Greg Myers]] 
+| S || [[1995 Colorado State Rams football team|Colorado State]]  
+| <ref>{{cite web|last=Moss |first=Irv |url=http://www.denverpost.com/2012/04/17/colorado-classics-one-time-football-star-greg-myers-now-an-anesthesiologist-and-professor-2/ |title=Colorado Classics: One-time football star Greg Myers now an anesthesiologist and professor – The Denver Post |publisher=Denverpost.com |date= 2012-04-17|access-date=2016-12-13}}</ref>
+|-
+| 1996{{efn|In 1996, finalist [[1996 Kansas State Wildcats football team|Kansas State]] cornerback [[Chris Canty (defensive back)|Chris Canty]] withdrew his name from consideration, which caused a re-vote.<ref>{{cite web |url=https://apnews.com/29f90f21cae62dfaf6fda7e22b8b392b |title=Canty apologizes, withdraws from awards consideration |publisher=Apnewsarchive.com |date=1996-12-10 |access-date=2016-12-13 |url-status=live |archive-url=https://web.archive.org/web/20180210003211/http://www.apnewsarchive.com/1996/Canty-apologizes-withdraws-from-awards-consideration/id-29f90f21cae62dfaf6fda7e22b8b392b |archive-date=February 10, 2018 }}</ref>}} || [[Lawrence Wright (American football)|Lawrence Wright]] 
+| [[Free safety|FS]] || [[1996 Florida Gators football team|Florida]]
+| <ref>{{cite web|url=https://www.orlandosentinel.com/1996/12/13/wright-captures-thorpe/ |title=Wright Captures Thorpe - tribunedigital-orlandosentinel |publisher=Articles.orlandosentinel.com |date=1996-12-13 |access-date=2016-12-13}}</ref><ref>{{Cite web |last=HUBER |first=MIC |title=Wright making Major impact |url=https://www.heraldtribune.com/story/news/2007/10/04/wright-making-major-impact/28633028007/ |access-date=2025-03-03 |website=Sarasota Herald-Tribune |language=en-US}}</ref>
+|-
+| 1997 || [[Charles Woodson]] 
+| CB || [[1997 Michigan Wolverines football team|Michigan]]
+| <ref>{{cite web|url=http://www.freep.com/story/sports/college/university-michigan/wolverines/2016/11/21/michigan-football-awards/94240774/ |title=Three Wolverines named finalists for college football awards |publisher=Freep.com |date=2016-11-21 |access-date=2016-12-13}}</ref>
+|-
+| 1998 || [[Antoine Winfield Sr.]] 
+| CB || [[1998 Ohio State Buckeyes football team|Ohio State]]
+| <ref>{{cite web|url=http://www.startribune.com/inch-for-inch-winfield-the-best-cornerback/34784724/ |title=Inch for inch, Winfield the best cornerback |publisher=StarTribune.com |date=2008-11-20 |access-date=2016-12-13}}</ref>
+|-
+| 1999 || [[Tyrone Carter]] 
+| S || [[1999 Minnesota Golden Gophers football team|Minnesota]]
+| <ref>{{cite web|url=http://www.espn.com/espn/wire/_/section/nfl/id/2535637 |title=Player's brother gets extra jail time for watching Super Bowl - NFL |publisher=ESPN |date=2006-07-31 |access-date=2016-12-13}}</ref>
+|-
+| 2000 || [[Jamar Fletcher]] 
+| CB || [[2000 Wisconsin Badgers football team|Wisconsin]]
+| <ref>{{cite web|url=http://usatoday30.usatoday.com/sports/football/sfc/00bowls/sun.htm |title=USA TODAY Latest news |publisher=Usatoday30.usatoday.com |date=2000-12-30 |access-date=2016-12-13}}</ref>
+|-
+| 2001 || [[Roy Williams (safety)|Roy Williams]] 
+| [[Strong safety|SS]] || [[2001 Oklahoma Sooners football team|Oklahoma]] (2)
+| <ref>{{cite web|url=http://www.tulsaworld.com/sportsextra/ousportsextra/sooners-defensive-back-planted-on-jim-thorpe-award-watch-list/article_f959724e-9aac-54d3-9340-3937f1550fd7.html |title=OU Sports Extra - Sooners defensive back Zack Sanchez planted on Jim Thorpe Award watch list |publisher=Tulsaworld.com |date=2014-07-12 |access-date=2016-12-13}}</ref>
+|-
+| 2002 || [[Terence Newman]] 
+| CB || [[2002 Kansas State Wildcats football team|Kansas State]]
+| <ref>{{cite web |url=http://www.stjosephpost.com/2011/10/31/kansas-states-malone-named-semifinalist-for-thorpe-award/ |title=Kansas State's Malone named semifinalist for Thorpe Award |publisher=Stjosephpost.com |date=2011-10-31 |access-date=2016-12-13 |archive-date=2016-12-21 |archive-url=https://web.archive.org/web/20161221000927/http://www.stjosephpost.com/2011/10/31/kansas-states-malone-named-semifinalist-for-thorpe-award/ |url-status=dead }}</ref>
+|-
+| 2003 || [[Derrick Strait]] 
+| CB || [[2003 Oklahoma Sooners football team|Oklahoma]] (3)
+| <ref>{{cite web|url=http://www.newson6.com/story/7713938/ous-derrick-strait-wins-jim-thorpe-award |title=OU's Derrick Strait wins Jim Thorpe award - NewsOn6.com - Tulsa, OK - News, Weather, Video and Sports - KOTV.com &#124; |publisher=NewsOn6.com |date=2003-12-12 |access-date=2016-12-13}}</ref>
+|-
+| 2004 || [[Carlos Rogers (American football)|Carlos Rogers]] 
+| CB || [[2004 Auburn Tigers football team|Auburn]]
+| <ref name="sec" />
+|-
+| 2005 || [[Michael Huff]] 
+| SS || [[2005 Texas Longhorns football team|Texas]]
+| <ref>{{cite web|last=Howe |first=Jeff |url=http://www.cbssports.com/college-football/news/former-thorpe-award-winner-huff-a-member-of-hermans-texas-staff/ |title=Former Thorpe Award winner Huff a member of Herman's Texas staff |publisher=CBSSports.com |date=2016-12-08 |access-date=2016-12-13}}</ref>
+|-
+| 2006 || [[Aaron Ross (American football)|Aaron Ross]] 
+| CB || [[2006 Texas Longhorns football team|Texas]] (2)
+| <ref>{{cite web|url=http://www.espn.com/sportsnation/post/_/id/5842684/who-win-jim-thorpe-award |title=Who should win the Jim Thorpe Award? - SportsNation |publisher=ESPN |date=2010-12-03 |access-date=2016-12-13}}</ref>
+|-
+| 2007 || [[Antoine Cason]] 
+| CB || [[2007 Arizona Wildcats football team|Arizona]] (2)
+| <ref>{{cite web|last=Gimino |first=Anthony |url=http://tucsoncitizen.com/wildcatreport/2013/03/15/ex-arizona-wildcat-star-antoine-cason-to-join-the-arizona-cardinals/ |title=Ex-Arizona Wildcat star Antoine Cason to join the Arizona Cardinals - AG's Wildcat Report |publisher=Tucsoncitizen.com |date=2013-03-15 |access-date=2016-12-13}}</ref>
+|-
+| 2008 || [[Malcolm Jenkins]] 
+| CB || [[2008 Ohio State Buckeyes football team|Ohio State]] (2)
+| <ref>{{cite web|first=Marvin |last=Fong |work=The Plain Dealer |url=http://www.cleveland.com/livingston/index.ssf/2008/12/osus_jenkins_often_overlooked.html |title=OSU's Jenkins often overlooked, but he's a worthy recipient of Thorpe honor |date=2008-12-17 |access-date=2016-12-13}}</ref>
+|-
+| 2009 || [[Eric Berry]] 
+| SS || [[2009 Tennessee Volunteers football team|Tennessee]]
+| <ref name="sec" />
+|-
+| 2010 || [[Patrick Peterson]] 
+| CB || [[2010 LSU Tigers football team|LSU]]
+| <ref>{{cite news|title=LSU's Patrick Peterson wins Chuck Bednarik, Jim Thorpe awards|url=http://www.nola.com/lsu/index.ssf/2010/12/patrick_peterson_wins_jim_thor.html|access-date=January 8, 2017|work=The Times-Picayune|date=December 9, 2010}}</ref>
+|-
+| 2011 || [[Morris Claiborne]] 
+| CB || [[2011 LSU Tigers football team|LSU]] (2)
+| <ref name="sec" />
+|-
+| 2012 || [[Johnthan Banks]] 
+| CB || [[2012 Mississippi State Bulldogs football team|Mississippi State]]
+| <ref name="sec" />
+|-
+| 2013 || [[Darqueze Dennard]] 
+| CB || [[2013 Michigan State Spartans football team|Michigan State]]
+| <ref>{{cite web|url=http://www.mlive.com/spartans/index.ssf/2013/12/michigan_states_darqueze_denna_12.html |title=Michigan State's Darqueze Dennard wins Jim Thorpe award, named Walter Camp All-American |publisher=MLive.com |date=2013-12-12 |access-date=2016-12-13}}</ref>
+|-
+| 2014 || [[Gerod Holliman]] 
+| S ||  [[2014 Louisville Cardinals football team|Louisville]]
+| <ref>{{cite web|agency=Associated Press |url=https://www.usatoday.com/story/sports/ncaaf/2014/12/11/louisvilles-gerod-holliman-wins-jim-thorpe-award/20276345/ |title=Louisville's Gerod Holliman wins Jim Thorpe Award |work=USA Today |date=2014-12-11 |access-date=2016-12-13}}</ref>
+|-
+| 2015 || [[Desmond King (American football)|Desmond King]] 
+| CB ||  [[2015 Iowa Hawkeyes football team|Iowa]]
+| <ref>{{cite web|agency=Associated Press |url=https://www.usatoday.com/story/sports/ncaaf/2015/12/10/iowas-desmond-king-wins-jim-thorpe-award/77124734/ |title=Iowa's Desmond King wins Jim Thorpe Award |work=USA Today |date=2015-12-10 |access-date=2016-12-13}}</ref>
+|-
+| 2016 || [[Adoree' Jackson]] 
+| CB || [[2016 USC Trojans football team|USC]] (2)
+| <ref>{{cite web|url=http://draftwire.usatoday.com/2016/12/08/uscs-adoree-jackson-wins-2016-thorpe-award/ |title=USC's Adoree' Jackson wins 2016 Thorpe Award &#124; The Draft Wire |work=USA Today|date= 2016-12-09|access-date=2016-12-13}}</ref>
+|-
+| 2017 || [[Minkah Fitzpatrick]] 
+| S || [[2017 Alabama Crimson Tide football team|Alabama]] (2)
+| <ref>{{cite web|url=https://247sports.com/college/alabama/article/alabama-crimson-tide-football-minkah-fitzpatrick-wins-second-ever-jim-thorpe-award-for-alabama-111922024/ |title=Alabama's Fitzpatrick wins 2nd ever Thorpe Award for Alabama &#124; Bamaonline |publisher=bamaonline.com |access-date=2017-12-07}}</ref>
+|-
+| 2018 || [[Deandre Baker]] 
+| CB || [[2018 Georgia Bulldogs football team|Georgia]]
+| <ref>{{cite web|url=https://bleacherreport.com/articles/2809556-georgias-deandre-baker-wins-2018-jim-thorpe-award-as-college-footballs-best-db|title=Georgia's Deandre Baker Wins 2018 Jim Thorpe Award as College Football's Best DB|website=[[Bleacher Report]] }}</ref>
+|-
+| 2019 || [[Grant Delpit]] 
+| S || [[2019 LSU Tigers football team|LSU]] (3)
+| <ref>{{cite web|last1=Pickman|first1=Ben|title=College Football Awards: Full List of Winners, Results|url=https://www.si.com/college/2019/12/13/awards-joe-burrow-lsu-chase-young-ohio-state-full-list|website=si.com|publisher=Sports Illustrated|access-date=December 12, 2019|date=December 12, 2019}}</ref>
+|-
+| 2020 || [[Tre'von Moehrig]] 
+| FS || [[2020 TCU Horned Frogs football team|TCU]]
+| <ref>{{Cite web|last=Bonagura|first=Kevin|date=January 8, 2021|title=Bama players take home several major awards|url=https://www.espn.com/college-football/story/_/id/30670450/alabama-crimson-tide-players-take-home-several-major-college-football-awards|access-date=June 28, 2021|website=ESPN.com|language=en-US}}</ref>
+|-
+| 2021 || [[Coby Bryant]] 
+| CB || [[2021 Cincinnati Bearcats football team|Cincinnati]]
+|<ref>{{cite web|url=https://www.cincinnati.com/story/sports/college/university-of-cincinnati/2021/12/09/college-football-awards-uc-bearcats-coby-bryant-wins-jim-thorpe-award/6456448001/|title=Cincinnati Bearcats defensive back Coby Bryant makes history by winning Jim Thorpe Award|work=Cincinnati.com|date=December 10, 2021|access-date=December 31, 2021}}</ref>
+|-
+| 2022 || [[Tre Tomlinson]] 
+| CB || [[2022 TCU Horned Frogs football team|TCU]] (2)
+| <ref>{{cite press release|url=https://www.businesswire.com/news/home/20221208006069/en/|title=TCU's Tre'Vius Hodges-Tomlinson Named 2022 Paycom Jim Thorpe Award Winner|date=9 December 2022 }}</ref>
+|-
+| 2023 || [[Trey Taylor]] 
+| FS || [[2023 Air Force Falcons football team|Air Force]] || <ref>{{Cite web|url=https://themw.com/news/2023/12/08/trey-taylor-wins-2023-paycom-jim-thorpe-award/|title=Trey Taylor wins 2023 Paycom Jim Thorpe Award|date=December 8, 2023|accessdate=December 9, 2023|website=themw.com|publisher=Mountain West Conference}}</ref>
+|-
+| 2024 || [[Jahdae Barron]] 
+| CB || [[2024 Texas Longhorns football team|Texas]] (3) || <ref>{{cite web|last=Tafolla|first=Grace|title=No. 4/4/3 Football's Barron wins 2024 Jim Thorpe Award|url=https://texaslonghorns.com/news/2024/12/12/no-4-4-3-footballs-barron-wins-2024-jim-thorpe-award|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 12, 2024|access-date=May 20, 2026}}</ref>
+|-
+| 2025 || [[Caleb Downs]] 
+| S || [[2025 Ohio State Buckeyes football team|Ohio State]] (3) || <ref>{{cite web|title=Caleb Downs is 2025 Paycom Jim Thorpe Award Winner|url=https://ohiostatebuckeyes.com/news/2025/12/12/football-caleb-downs-is-2025-paycom-jim-thorpe-award-winner|website=ohiostatebuckeyes.com|publisher=The Ohio State University|date=December 12, 2025|access-date=May 20, 2026}}</ref>
+|}
+
+* Note:
+{{Notelist}}
+
+==References==
+
+;General
+* {{cite web|title=Jim Thorpe Award Winners |url=https://www.sports-reference.com/cfb/awards/thorpe.html |publisher=Sports Reference |access-date=January 8, 2017 |url-status=dead |archive-url=https://web.archive.org/web/20160812173940/http://www.sports-reference.com/cfb/awards/thorpe.html |archive-date=August 12, 2016 }}
+
+;Footnotes
+{{Reflist}}
+
+==External links==
+* {{Official website|http://www.oksportshof.org}}
+
+{{Jim Thorpe Award}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1986]]

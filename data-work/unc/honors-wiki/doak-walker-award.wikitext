@@ -1,0 +1,125 @@
+<!-- source: https://en.wikipedia.org/wiki/Doak_Walker_Award -->
+{{short description|American college football award}}
+{{Use American English|date=January 2026}}
+{{Use mdy dates|date=January 2026}}
+{{Infobox sports award
+| name           = Doak Walker Award
+| current_awards = 
+| image          = Toby Gerhart's Doak Walker Award 1.JPG
+| imagesize      = 
+| caption        = The Doak Walker Award, designed by artist [[Blair Buswell]]
+| description    = The nation's top [[college football]] [[running back]]
+| presenter      = [[Southern Methodist University|SMU]]
+| country        = United States
+| location       = 
+| year           = 1990
+| holder         = [[Jeremiyah Love]], [[Notre Dame Fighting Irish football|Notre Dame]]
+| website        = {{url|https://www.smu.edu/DoakWalkerAward}}
+}}
+The '''Doak Walker Award''' honors the top [[running back]] in [[college football]] in the United States. Established in 1990, it is named in honor of [[Doak Walker]], a former running back who played for the [[SMU Mustangs football|SMU Mustangs]] from 1945 to 1949 and in the [[National Football League]] (NFL) for the [[Detroit Lions]] from 1950 to 1955. The player is selected by the award's National Selection Committee, which consists of notable sportswriters, television commentators, analysts, radio sports personalities and former All-America and NFL All-Pro football players.<ref>{{Cite web|url=https://www.smu.edu/DoakWalkerAward/AboutUs/SelectionCommittee|title = Selection Committee - SMU}}</ref> Recipients receive a bronze sculpture of Doak Walker, designed by artist [[Blair Buswell]]. The most recent winner of the award was [[Jeremiyah Love]] of Notre Dame.
+
+==Notable accomplishments==
+[[Wisconsin Badgers football|Wisconsin Badgers]] running backs won four times in eight years from 2012 to 2019. The Badgers and [[Texas Longhorns football|Texas Longhorns]] are tied with the most wins with five apiece.<ref name=":0"/>
+
+[[Ricky Williams]] from Texas (1997, 1998), [[Darren McFadden]] from the [[Arkansas Razorbacks football|Arkansas Razorbacks]] (2006, 2007) and [[Jonathan Taylor (American football)|Jonathan Taylor]] from Wisconsin (2018, 2019) are the only three players to win the award twice.
+
+==Winners==
+{|class="wikitable"
+|-
+|  style="background:#ffe6bd; text-align:center;" |
+| colspan="5" | Made at least one [[Pro Bowl]] during NFL career.
+|}
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! Year !! Winner !! School !! class=unsortable | Ref.
+|-
+| 1990 || {{sortname|Greg|Lewis|dab=running back}} || [[1990 Washington Huskies football team|Washington]] ||
+|-
+| 1991 || {{sortname|Trevor|Cobb}} || [[1991 Rice Owls football team|Rice]] ||
+|-style="background:#ffe6bd"
+| 1992 || {{sortname|Garrison|Hearst}} || [[1992 Georgia Bulldogs football team|Georgia]] ||
+|-
+| 1993 || {{sortname|Bam|Morris}} || [[1993 Texas Tech Red Raiders football team|Texas Tech]] ||
+|-
+| 1994 || {{sortname|Rashaan|Salaam}} || [[1994 Colorado Buffaloes football team|Colorado]] ||
+|-style="background:#ffe6bd"
+| 1995 || {{sortname|Eddie|George}} || [[1995 Ohio State Buckeyes football team|Ohio State]] ||
+|-
+| 1996 || {{sortname|Byron|Hanspard}} || [[1996 Texas Tech Red Raiders football team|Texas Tech]] (2) ||  
+|-style="background:#ffe6bd"
+| 1997 || {{sortname|Ricky|Williams}} || [[1997 Texas Longhorns football team|Texas]] || rowspan="2" |
+|-style="background:#ffe6bd"
+| 1998 || {{sortname|Ricky|Williams|nolink=y}} (2) || [[1998 Texas Longhorns football team|Texas]] (2)
+|-
+| 1999 || {{sortname|Ron|Dayne}} || [[1999 Wisconsin Badgers football team|Wisconsin]] ||<ref>{{cite news|title=Dayne Wins Walker, Maxwell|url=https://www.cbsnews.com/news/dayne-wins-walker-maxwell/|access-date=July 24, 2021|work=[[CBS News]]|date=December 9, 1999}}</ref>
+|-style="background:#ffe6bd"
+| 2000 || {{sortname|LaDainian|Tomlinson}} || [[2000 TCU Horned Frogs football team|TCU]] ||<ref>{{cite web|title=TCU's LaDainian Tomlinson Named Winner of the 2000 Doak Walker Award Presented by Vectrix|url=https://gofrogs.com/news/2000/12/9/TCU_s_LaDainian_Tomlinson_Named_Winner_of_the_2000_Doak_Walker_Award_Presented_by_Vectrix|access-date=July 24, 2021|publisher=[[TCU Horned Frogs|Texas Christian University Athletics]]|date=December 9, 2000}}</ref>
+|-
+| 2001 || {{sortname|Luke|Staley}} || [[2001 BYU Cougars football team|BYU]] ||
+|-style="background:#ffe6bd"
+| 2002 || {{sortname|Larry|Johnson|dab=running back}} || [[2002 Penn State Nittany Lions football team|Penn State]] ||
+|-
+| 2003 || {{sortname|Chris|Perry|dab=American football}} || [[2003 Michigan Wolverines football team|Michigan]] ||
+|-
+| 2004 || {{sortname|Cedric|Benson}} || [[2004 Texas Longhorns football team|Texas]] (3) ||
+|-
+| 2005 || {{sortname|Reggie|Bush}} || [[2005 USC Trojans football team|USC]] ||
+|-
+| 2006 || {{sortname|Darren|McFadden}} || [[2006 Arkansas Razorbacks football team|Arkansas]] || rowspan="2" | <ref>{{cite news |date=December 7, 2007 |title=Tebow takes Maxwell, O'Brien; McFadden wins Walker |url=https://www.espn.com/college-football/news/story?id=3144727 |access-date=January 25, 2024 |work=ESPN.com}}</ref>
+|-
+| 2007 || {{sortname|Darren|McFadden|nolink=y}} (2) || [[2007 Arkansas Razorbacks football team|Arkansas]] (2)
+|-
+| 2008 || {{sortname|Shonn|Greene}} || [[2008 Iowa Hawkeyes football team|Iowa]] ||<ref>{{cite news |last=Rittenberg |first=Adam |date=December 11, 2008 |title=Iowa's Greene wins Doak Walker Award |url=https://www.espn.com/blog/bigten/post/_/id/1262 |access-date=January 25, 2024 |work=ESPN.com}}</ref>
+|-
+| 2009 || {{sortname|Toby|Gerhart}} || [[2009 Stanford Cardinal football team|Stanford]] ||<ref>{{cite news|title=Stanford's Toby Gerhart wins Doak Walker Award|url=http://www.mercurynews.com/2009/12/10/stanfords-toby-gerhart-wins-doak-walker-award/|access-date=December 13, 2016|work=The Mercury News|date=December 10, 2009}}</ref>
+|-
+| 2010 || {{sortname|LaMichael|James}} || [[2010 Oregon Ducks football team|Oregon]] ||<ref>{{cite news |date=December 9, 2010 |title=Oregon RB LaMichael James wins Doak Walker Award |url=https://www.sandiegouniontribune.com/sdut-oregon-rb-lamichael-james-wins-doak-walker-award-2010dec09-story.html |access-date=January 25, 2024 |work=San Diego Union-Tribune |agency=Associated Press}}</ref>
+|-
+| 2011 || {{sortname|Trent|Richardson}} || [[2011 Alabama Crimson Tide football team|Alabama]] ||<ref>{{cite news |date=December 8, 2011 |title=Alabama's Trent Richardson wins Doak Walker Award |url=http://www.espn.com/espn/wire/_/section/ncf/id/7333976 |access-date=January 25, 2024 |work=ESPN.com |agency=Associated Press}}</ref>
+|-
+| 2012 || {{sortname|Montee|Ball}} || [[2012 Wisconsin Badgers football team|Wisconsin]] (2) ||<ref>{{cite news|last=Temple|first=Jesse|title=Wisconsin's Ball wins Doak Walker Award|url=http://www.foxsports.com/wisconsin/story/wisconsins-ball-wins-doak-walker-award-120612|access-date=December 13, 2016|work=Fox Sports|date=December 6, 2012}}</ref>
+|-
+| 2013 || {{sortname|Andre|Williams|dab=American football}} || [[2013 Boston College Eagles football team|Boston College]] ||<ref>{{cite news|last=Hightower|first=Kyle|title=BC's Andre Williams Wins Doak Walker Award|url=http://collegefootball.ap.org/article/bcs-andre-williams-wins-doak-walker-award-0|access-date=December 13, 2016|agency=Associated Press|date=December 12, 2013}}</ref>
+|-style="background:#ffe6bd"
+| 2014 || {{sortname|Melvin|Gordon}} || [[2014 Wisconsin Badgers football team|Wisconsin]] (3) ||<ref>{{cite news|last=Potrykus|first=Jeff|title=Melvin Gordon wins Doak Walker Award as top running back|url=http://archive.jsonline.com/sports/badgers/melvin-gordon-wins-doak-walker-award-as-top-running-back-b99407441z1-285562811.html|access-date=December 13, 2016|work=Milwaukee Journal Sentinel|date=December 11, 2014}}</ref>
+|-style="background:#ffe6bd"
+| 2015 || {{sortname|Derrick|Henry}} || [[2015 Alabama Crimson Tide football team|Alabama]] (2) || <ref name=":0">{{Cite web |last=Galloway |first=Jason |title=Badgers running back Jonathan Taylor becomes 4th Wisconsin player to win Doak Walker Award |url=https://madison.com/sports/college/football/badgers-running-back-jonathan-taylor-becomes-th-wisconsin-player-to/article_4db7c942-a5f2-5d4b-840f-89131c7a61a4.html |access-date=2018-12-07 |website=madison.com |date=7 December 2018 |language=en}}</ref>
+|-
+| 2016 || {{sortname|D'Onta|Foreman}} || [[2016 Texas Longhorns football team|Texas]] (4) || <ref name=":0"/>
+|-
+| 2017 || {{sortname|Bryce|Love}} || [[2017 Stanford Cardinal football team|Stanford]] (2) || <ref name=":0"/>
+|-style="background:#ffe6bd"
+| 2018 || {{sortname|Jonathan|Taylor}} || [[2018 Wisconsin Badgers football team|Wisconsin]] (4) || rowspan="2" | <ref>{{cite web|url=https://bleacherreport.com/articles/2866773-wisconsins-jonathan-taylor-wins-2019-doak-walker-award-as-nations-best-rb|title=Wisconsin's Jonathan Taylor Wins 2019 Doak Walker Award as Nation's Best RB|first=Joseph|last=Zucker|date=December 12, 2019|website=Bleacher Report}}</ref>
+|-style="background:#ffe6bd"
+| 2019 || {{sortname|Jonathan|Taylor|nolink=y}} (2) || [[2019 Wisconsin Badgers football team|Wisconsin]] (5)
+|-style="background:#ffe6bd"
+| 2020 || {{sortname|Najee|Harris}} || [[2020 Alabama Crimson Tide football team|Alabama]] (3) || <ref>{{cite magazine|url=https://www.si.com/college/alabama/bamacentral/alabama-rb-najee-harris-wins-2020-doak-walker-award|title=Alabama RB Najee Harris Wins 2020 Doak Walker Award|first=Tyler|last=Martin|date=January 7, 2021|magazine=[[Sports Illustrated]]}}</ref>
+|-
+| 2021 || {{sortname|Kenneth|Walker III}} || [[2021 Michigan State Spartans football team|Michigan State]] || <ref>{{cite web|title=Kenneth Walker III Named Walter Camp Player of the Year, Wins Doak Walker Award|url=https://msuspartans.com/news/2021/12/9/football-kenneth-walker-iii-named-walter-camp-player-of-the-year-wins-doak-walker-award|website=msuspartans.com|publisher=Michigan State University|date=December 9, 2021|access-date=March 25, 2026}}</ref>
+|- style="background:#ffe6bd"
+| 2022 || {{sortname|Bijan|Robinson}} || [[2022 Texas Longhorns football team|Texas]] (5) || <ref>{{cite web|title=Robinson wins 2022 Doak Walker Award|quote=Junior running back Bijan Robinson is the fourth Longhorn to win the award honoring the nation's top college running back.|url=https://texaslonghorns.com/news/2022/12/8/football-robinson-wins-2022-doak-walker-award|website=texaslonghorns.com|publisher=University of Texas at Austin|date=December 8, 2022|access-date=March 25, 2026}}</ref>
+|-
+| 2023 || {{sortname|Ollie|Gordon II}} || [[2023 Oklahoma State Cowboys football team|Oklahoma State]] || <ref>{{cite web|title=Ollie Gordon II Wins Doak Walker Award and All-America Honors|url=https://okstate.com/news/2023/12/8/cowboy-football-ollie-gordon-ii-wins-doak-walker-award-and-all-america-honors|website=okstate.com|publisher=Oklahoma State University–Stillwater|date=December 8, 2023|access-date=March 25, 2026}}</ref>
+|-
+| 2024 || {{sortname|Ashton|Jeanty}} || [[2024 Boise State Broncos football team|Boise State]] || <ref>{{cite web|title=Ashton Jeanty Wins Doak Walker Award and Maxwell Award|quote=Heisman finalist first player to win both awards since 2015|url=https://broncosports.com/news/2024/12/12/football-ashton-jeanty-wins-doak-walker-award-and-maxwell-award|website=broncosports.com|publisher=Boise State University|date=December 12, 2024|access-date=March 25, 2026}}</ref>
+|-
+| 2025 || {{sortname|Jeremiyah|Love}} || [[2025 Notre Dame Fighting Irish football team|Notre Dame]] || <ref>{{cite web|title=Jeremiyah Love Wins 2025 Doak Walker Award|url=https://fightingirish.com/jeremiyah-love-wins-2025-doak-walker-award/|website=fightingirish.com|publisher=University of Notre Dame|date=December 12, 2025|access-date=March 25, 2026}}</ref>
+|}
+
+==References==
+;General
+* [https://web.archive.org/web/20130505000928/http://www.sports-reference.com/cfb/awards/walker.html Doak Walker Award Winners]. Sports-Reference.com. Retrieved December 13, 2016.
+* [https://www.espn.com/college-football/awards/_/id/5 College Football Awards – Doak Walker Award]. ESPN.com. Retrieved December 13, 2016.
+;Footnotes
+{{reflist}}
+
+==External links==
+{{commons category}}
+*{{official website|http://smu.edu/doakwalker/}}
+
+{{Doak Walker Award winners}}
+{{College football award navbox}}
+
+[[Category:College football national player awards]]
+[[Category:Awards established in 1990]]

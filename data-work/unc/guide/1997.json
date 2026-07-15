@@ -1,0 +1,430 @@
+{
+ "season": 1997,
+ "guideYear": 1998,
+ "page": 148,
+ "ocr": "archive",
+ "srCheck": {
+  "agree": 3,
+  "disagree": 0
+ },
+ "fmtViolations": 0,
+ "source": "https://archive.org/details/carolinafootball1998unse",
+ "sourceNote": "1998 Carolina Football media guide (UNC Athletics), \"Defensive Statistics\" — final 1997 team defensive statistics. Scanned by UNC Libraries; Internet Archive item carolinafootball1998unse.",
+ "read": {
+  "rotated": false,
+  "mode": "anchor",
+  "slope": 0,
+  "anchor": "center"
+ },
+ "columns": [
+  "_G-GS",
+  "T",
+  "A",
+  "HIT",
+  "_CF",
+  "_FF",
+  "_RF-YDS",
+  "PBU",
+  "_PRES",
+  "TFL",
+  "SACKS",
+  "INT",
+  "_BP"
+ ],
+ "players": [
+  {
+   "rawName": "Kivuusama Mays",
+   "T": 73,
+   "A": 50,
+   "tackles": 123,
+   "tfl": 16.5,
+   "sacks": 3,
+   "defInt": 1,
+   "pbu": 0
+  },
+  {
+   "rawName": "Brian Simmons",
+   "T": 60,
+   "A": 59,
+   "tackles": 119,
+   "tfl": 13,
+   "sacks": 3,
+   "defInt": 0,
+   "pbu": 2
+  },
+  {
+   "rawName": "Omar Brown",
+   "T": 45,
+   "A": 52,
+   "tackles": 97,
+   "tfl": 1.5,
+   "sacks": 0,
+   "defInt": 2,
+   "pbu": 9
+  },
+  {
+   "rawName": "Greg Williams",
+   "T": 38,
+   "A": 45,
+   "tackles": 83,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 2,
+   "pbu": 8
+  },
+  {
+   "rawName": "Greg Ellis",
+   "T": 47,
+   "A": 40,
+   "tackles": 87,
+   "tfl": 18,
+   "sacks": 9,
+   "defInt": 0,
+   "pbu": 3
+  },
+  {
+   "rawName": "Keith Newman",
+   "T": 42,
+   "A": 37,
+   "tackles": 79,
+   "tfl": 5.5,
+   "sacks": 2.5,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Brandon Spoon",
+   "T": 39,
+   "A": 26,
+   "tackles": 65,
+   "tfl": 7.5,
+   "sacks": 3.5,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Vonnie Holliday",
+   "T": 29,
+   "A": 35,
+   "tackles": 64,
+   "tfl": 13,
+   "sacks": 5,
+   "defInt": 0,
+   "pbu": 5
+  },
+  {
+   "rawName": "Russell Davis",
+   "T": 26,
+   "A": 34,
+   "tackles": 60,
+   "tfl": 9,
+   "sacks": 3,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Mike Pringley",
+   "T": 14,
+   "A": 31,
+   "tackles": 45,
+   "tfl": 8.5,
+   "sacks": 3.5,
+   "defInt": 0,
+   "pbu": 3
+  },
+  {
+   "rawName": "Ebenezer Ekuban",
+   "T": 21,
+   "A": 19,
+   "tackles": 40,
+   "tfl": 9,
+   "sacks": 5,
+   "defInt": null,
+   "pbu": 2
+  },
+  {
+   "rawName": "Nate Hobgood-Chittick",
+   "T": 20,
+   "A": 16,
+   "tackles": 36,
+   "tfl": 8.5,
+   "sacks": 2.5,
+   "defInt": null,
+   "pbu": 1
+  },
+  {
+   "rawName": "Dre' Bly",
+   "T": 17,
+   "A": 9,
+   "tackles": 26,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 4
+  },
+  {
+   "rawName": "Robert Williams",
+   "T": 18,
+   "A": 7,
+   "tackles": 25,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 13
+  },
+  {
+   "rawName": "Jomo Leg ins",
+   "T": 11,
+   "A": 13,
+   "tackles": 24,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 0
+  },
+  {
+   "rawName": "Merceda Perry",
+   "T": 6,
+   "A": 12,
+   "tackles": 18,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 0
+  },
+  {
+   "rawName": "Sedrick Hodge",
+   "T": 10,
+   "A": 5,
+   "tackles": 15,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 0
+  },
+  {
+   "rawName": "Reggie Love",
+   "T": 9,
+   "A": 6,
+   "tackles": 15,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 3
+  },
+  {
+   "rawName": "Quinton Savage",
+   "T": 7,
+   "A": 5,
+   "tackles": 12,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 0
+  },
+  {
+   "rawName": "Steve Fisher",
+   "T": 7,
+   "A": 3,
+   "tackles": 10,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": null,
+   "pbu": 0
+  },
+  {
+   "rawName": "Terry Billups",
+   "T": 6,
+   "A": 4,
+   "tackles": 10,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Anrwon Black",
+   "T": 6,
+   "A": 3,
+   "tackles": 9,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Stephon McQueen",
+   "T": 2,
+   "A": 5,
+   "tackles": 7,
+   "tfl": 1,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Brian Schmitz",
+   "T": 3,
+   "A": 1,
+   "tackles": 4,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Shawn Lyons",
+   "T": 2,
+   "A": 2,
+   "tackles": 4,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Ricky Smith",
+   "T": 1,
+   "A": 3,
+   "tackles": 4,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Ross McAllister",
+   "T": 1,
+   "A": 3,
+   "tackles": 4,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Toney Coles",
+   "T": 2,
+   "A": 1,
+   "tackles": 3,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Bryan Jones",
+   "T": 0,
+   "A": 3,
+   "tackles": 3,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Darien Johnson",
+   "T": 2,
+   "A": 0,
+   "tackles": 2,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Damon Dawson",
+   "T": 2,
+   "A": 0,
+   "tackles": 2,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Allen Mogridge",
+   "T": 2,
+   "A": 0,
+   "tackles": 2,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "AlgeCrumpler",
+   "T": null,
+   "A": 1,
+   "tackles": 2,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Mark Dunn",
+   "T": null,
+   "A": 1,
+   "tackles": 12,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Oscar Davenport",
+   "T": 1,
+   "A": 0,
+   "tackles": 1,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Domonique Williams",
+   "T": 0,
+   "A": 1,
+   "tackles": 1,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  },
+  {
+   "rawName": "Ricco McCain",
+   "T": 0,
+   "A": 1,
+   "tackles": 1,
+   "tfl": 0,
+   "sacks": 0,
+   "defInt": 0,
+   "pbu": 0
+  }
+ ],
+ "teamTotals": {
+  "unc": {
+   "rawName": "Carolina ranked second in",
+   "T": null,
+   "A": null,
+   "tackles": null,
+   "tfl": null,
+   "sacks": null,
+   "defInt": null,
+   "pbu": null
+  },
+  "opponents": {
+   "rawName": "Opponents",
+   "T": 0,
+   "A": 0,
+   "tackles": 0,
+   "tfl": 0,
+   "sacks": 36,
+   "defInt": 12,
+   "pbu": 0
+  }
+ },
+ "checks": {},
+ "warnings": []
+}

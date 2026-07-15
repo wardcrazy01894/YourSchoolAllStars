@@ -1,0 +1,582 @@
+{
+ "year": 2024,
+ "from": "sidearm",
+ "players": [
+  {
+   "name": "Kevin Hester Jr.",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 40,
+    "tfl": 3.5,
+    "sacks": 3.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jacolby Criswell",
+   "position": "QB",
+   "stats": {
+    "passYds": 2459,
+    "passTD": 15,
+    "passInt": 6,
+    "rushYds": 103,
+    "rushTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Kaimon Rucker",
+   "position": "DE",
+   "stats": {
+    "tackles": 30,
+    "tfl": 8,
+    "sacks": 6,
+    "defInt": 1,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "J.J. Jones",
+   "position": "WR",
+   "stats": {
+    "rec": 36,
+    "recYds": 582,
+    "recTD": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Caleb Hood",
+   "position": "Running Back",
+   "stats": {
+    "passYds": 19,
+    "passTD": 1,
+    "passInt": 0,
+    "rushYds": 81,
+    "rushTD": 0,
+    "rec": 4,
+    "recYds": 37
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Power Echols",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 76,
+    "tfl": 1.5,
+    "sacks": 0.5,
+    "defInt": 1,
+    "pbu": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Bryson Nesbit",
+   "position": "Tight End",
+   "stats": {
+    "rec": 24,
+    "recYds": 264,
+    "recTD": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "John Copenhaver",
+   "position": "Tight End",
+   "stats": {
+    "rushYds": 6,
+    "rushTD": 0,
+    "rec": 40,
+    "recYds": 414,
+    "recTD": 4,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jahvaree Ritzie",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 40,
+    "tfl": 6.5,
+    "sacks": 6.5,
+    "defInt": 1,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Desmond Evans",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 38,
+    "tfl": 10,
+    "sacks": 5,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "DeAndre Boykins",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 6,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Kobe Paysour",
+   "position": "WR",
+   "stats": {
+    "rec": 21,
+    "recYds": 365
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Omarion Hampton",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 1660,
+    "rushTD": 15,
+    "rec": 38,
+    "recYds": 373,
+    "recTD": 2,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Gavin Blackwell",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 4,
+    "recYds": 43
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Will Hardy",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 34,
+    "tfl": 1,
+    "defInt": 1,
+    "pbu": 1,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Travis Shaw",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 26,
+    "tfl": 4,
+    "pbu": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Marcus Allen",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 36,
+    "tfl": 1,
+    "defInt": 2,
+    "pbu": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jacolbe Cowan",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 18,
+    "tfl": 1.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Tyler Thompson",
+   "position": "DE",
+   "stats": {
+    "tackles": 5
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Conner Harrell",
+   "position": "QB",
+   "stats": {
+    "passYds": 282,
+    "passTD": 2,
+    "passInt": 1,
+    "rushYds": 55,
+    "rushTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jaybron Harvey",
+   "position": "DE",
+   "stats": {
+    "tackles": 12
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Chris Culliver",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": -8,
+    "rushTD": 0,
+    "rec": 6,
+    "recYds": 135,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Nate McCollum",
+   "position": "Wide Receiver",
+   "stats": {
+    "rushYds": 40,
+    "rushTD": 1,
+    "rec": 24,
+    "recYds": 274
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Christian Hamilton",
+   "position": "Wide Receiver",
+   "stats": {
+    "rec": 7,
+    "recYds": 159,
+    "recTD": 1,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Antavious Lane",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 80,
+    "tfl": 4.5,
+    "sacks": 1,
+    "pbu": 2,
+    "ff": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Alijah Huzzie",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 40,
+    "tfl": 5.5,
+    "sacks": 2,
+    "defInt": 1,
+    "pbu": 8
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Beau Atkinson",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 35,
+    "tfl": 12,
+    "sacks": 7.5
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Amare Campbell",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 76,
+    "tfl": 10.5,
+    "sacks": 6.5,
+    "pbu": 2,
+    "ff": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Kaleb Cost",
+   "position": "Defensive Back",
+   "stats": {
+    "rec": 1,
+    "tackles": 64,
+    "tfl": 2.5,
+    "sacks": 0.5,
+    "defInt": 2,
+    "pbu": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Cade Law",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Tre Miller",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jordan Shipp",
+   "position": "WR",
+   "stats": {
+    "passInt": 0,
+    "rushYds": -13,
+    "rushTD": 0,
+    "rec": 9,
+    "recYds": 114,
+    "recTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jake Johnson",
+   "position": "TE",
+   "stats": {
+    "rec": 2,
+    "recYds": 21
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Javarius Green",
+   "position": "TE",
+   "stats": {
+    "rushYds": 8,
+    "rushTD": 0,
+    "rec": 1,
+    "recYds": 12
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Max Johnson",
+   "position": "QB",
+   "stats": {
+    "passYds": 71,
+    "passInt": 1,
+    "rushYds": 10,
+    "rushTD": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Paul Billups II",
+   "position": "TE",
+   "stats": {
+    "rec": 4,
+    "recYds": 27
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Charleston French",
+   "position": "RB",
+   "stats": {
+    "rushYds": 84,
+    "rushTD": 1,
+    "rec": 1,
+    "recYds": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Alex Taylor",
+   "position": "TE",
+   "stats": {
+    "rec": 1,
+    "recYds": 15
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Darwin Barlow",
+   "position": "RB",
+   "stats": {
+    "rushYds": 62,
+    "rushTD": 0,
+    "rec": 3,
+    "recYds": 31
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Austin Blaske",
+   "position": "TE",
+   "stats": {
+    "recYds": 6
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Mali Hamrick",
+   "position": "DE",
+   "stats": {},
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Michael Merdinger",
+   "position": "Quarterback",
+   "stats": {
+    "passYds": 86,
+    "passInt": 1,
+    "rushYds": -31,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Davion Gause",
+   "position": "Running Back",
+   "stats": {
+    "rushYds": 326,
+    "rushTD": 4,
+    "rec": 4,
+    "recYds": 45,
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Aidan Banfield",
+   "position": "Offensive Line",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jakiah Leftwich",
+   "position": "Offensive Line",
+   "stats": {
+    "rushYds": 0,
+    "rushTD": 0
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Tyrane Stewart",
+   "position": "Defensive Back",
+   "stats": {
+    "rushYds": -7,
+    "rushTD": 0,
+    "tackles": 9
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jakeen Harris",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 68,
+    "tfl": 1,
+    "pbu": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Michael Short",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 23,
+    "tfl": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Caleb LaVallee",
+   "position": "Linebacker",
+   "stats": {
+    "tackles": 14
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Malcolm Ziglar",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 7
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Ty Adams",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 4
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Ty White",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 3
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Rodney Lora",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Jaiden Patterson",
+   "position": "Defensive Back",
+   "stats": {
+    "tackles": 2
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Leroy Jackson",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Joel Starlings",
+   "position": "Defensive Line",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  },
+  {
+   "name": "Spencer Triplett",
+   "position": "Long Snapper",
+   "stats": {
+    "tackles": 1
+   },
+   "source": "https://goheels.com/sports/football/stats/2024"
+  }
+ ]
+}

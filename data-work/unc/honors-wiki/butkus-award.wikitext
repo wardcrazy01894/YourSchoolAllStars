@@ -1,0 +1,211 @@
+<!-- source: https://en.wikipedia.org/wiki/Butkus_Award -->
+{{Short description|College football award}}
+{{Infobox sports award
+| name           = Butkus Award
+| current_awards = 
+| image          = 
+| imagesize      = 
+| caption        =  
+| description    = Given to the best linebackers at the [[high school football|high school]], [[college football|collegiate]] and [[National Football League|professional]] levels of [[American football|football]]
+| presenter      = Downtown Athletic Club of Orlando (1985–2007)<br />Butkus Foundation (2008–present)
+| country        = [[United States]]
+| location       = 
+| year           = 1985
+| holder         = {{ubl|College: [[Jacob Rodriguez]] |Pro: [[Jack Campbell (American football)|Jack Campbell]] |High School: [[Tyler Atkinson]]}}
+| website        = http://www.thebutkusaward.com/
+}}
+The '''Butkus Award''', instituted in 1985 by the Downtown Athletic Club of Orlando, is given annually to the top [[linebacker]]s at the [[high school football|high school]], [[college football|collegiate]] and [[National Football League|professional]] levels of [[American football|football]]. The award, named in honor of [[College Football Hall of Fame]] and [[Pro Football Hall of Fame]] linebacker [[Dick Butkus]], is presented by the Butkus Foundation, a non-profit organization that supports a number of health and wellness activities including the "I Play Clean" anti-steroid program. The award was first established by the Downtown Athletic Club of Orlando, which relinquished control of the award in 2008 following a lawsuit by Butkus.<ref>{{cite news|last1=Schmadtke|first1=Alan|title=Downtown Athletic Club of Orlando relinquishes rights to the Dick Butkus Award|url=http://articles.orlandosentinel.com/2008-04-29/sports/butkus29_1_butkus-award-daco-college-football-award|archive-url=https://web.archive.org/web/20170121083437/http://articles.orlandosentinel.com/2008-04-29/sports/butkus29_1_butkus-award-daco-college-football-award|url-status=dead|archive-date=January 21, 2017|access-date=April 8, 2018|work=Orlando Sentinel|date=April 29, 2008}}</ref>
+
+Traditionally, the award was given only to the top collegiate linebacker. The Butkus Award was expanded in 2008 to include high school and professional winners<ref name="ware2008">{{cite web|url=http://www.dallasnews.com/sharedcontent/dws/spt/football/cowboys/stories/011009dnspocowlede.3381c08.html|title=Dallas Cowboys' Ware wins Butkus Award|last=Archer|first=Todd|date=January 9, 2009|work=Dallasnews.com: the Dallas Morning News website|publisher=Belo Corporation|access-date=January 11, 2009|archive-date=June 29, 2011|archive-url=https://web.archive.org/web/20110629101309/http://www.dallasnews.com/sharedcontent/dws/spt/football/cowboys/stories/011009dnspocowlede.3381c08.html|url-status=dead}}</ref> as part of a makeover by the Butkus family to help end [[anabolic steroid]] abuse among young athletes. Three players have won both the high school and collegiate Butkus Awards: [[Notre Dame Fighting Irish football|Notre Dame]] linebackers [[Manti Te'o]] (2008, 2012) and [[Jaylon Smith]] (2012, 2015) and also [[Georgia Bulldogs football|Georgia]] linebacker [[Nakobe Dean]] (2018, 2021). Five players have won both the collegiate and professional Butkus Awards: San Francisco 49ers linebacker [[Patrick Willis]] (2006, 2009), Denver Broncos linebacker [[Von Miller]] (2010, 2012), Carolina Panthers linebacker [[Luke Kuechly]] (2011, 2014, 2015, 2017), Baltimore Ravens linebacker [[Roquan Smith]] (2017, 2022, 2023), and Detroit Lions linebacker Jack Campbell (2022, 2025).
+
+==Recipients==
+===Collegiate winners===
+{| class="wikitable sortable" style="text-align: center;"
+! Year !! Player !! School !! class=unsortable | Ref.
+|-
+| 1985 || {{sortname|Brian|Bosworth}} || [[1985 Oklahoma Sooners football team|Oklahoma]] || 
+|-
+| 1986 || {{sortname|Brian|Bosworth|nolink=y}} (2) || [[1986 Oklahoma Sooners football team|Oklahoma]] (2) || 
+|-
+| 1987 || {{sortname|Paul|McGowan|dab=American football}} || [[1987 Florida State Seminoles football team|Florida State]] || 
+|-
+| 1988 || {{sortname|Derrick|Thomas}} || [[1988 Alabama Crimson Tide football team|Alabama]] || 
+|-
+| 1989 || {{sortname|Percy|Snow}} || [[1989 Michigan State Spartans football team|Michigan State]] || 
+|-
+| 1990 || {{sortname|Alfred|Williams}} || [[1990 Colorado Buffaloes football team|Colorado]] || 
+|-
+| 1991 || {{sortname|Erick|Anderson}} || [[1991 Michigan Wolverines football team|Michigan]] || 
+|-
+| 1992 || {{sortname|Marvin|Jones|dab=linebacker}}  || [[1992 Florida State Seminoles football team|Florida State]] (2) || 
+|-
+| 1993 || {{sortname|Trev|Alberts}} || [[1993 Nebraska Cornhuskers football team|Nebraska]] || 
+|-
+| 1994 || {{sortname|Dana|Howard}} || [[1994 Illinois Fighting Illini football team|Illinois]] || 
+|-
+| 1995 || {{sortname|Kevin|Hardy|dab=linebacker}} || [[1995 Illinois Fighting Illini football team|Illinois]] (2) || 
+|-
+| 1996 || {{sortname|Matt|Russell}} || [[1996 Colorado Buffaloes football team|Colorado]] (2) || 
+|-
+| 1997 || {{sortname|Andy|Katzenmoyer}} || [[1997 Ohio State Buckeyes football team|Ohio State]] || 
+|-
+| 1998 || {{sortname|Chris|Claiborne}} || [[1998 USC Trojans football team|USC]] || 
+|-
+| 1999 || {{sortname|LaVar|Arrington}} || [[1999 Penn State Nittany Lions football team|Penn State]] || 
+|-
+| 2000 || {{sortname|Dan|Morgan}} || [[2000 Miami Hurricanes football team|Miami (FL)]] || 
+|-
+| 2001 || {{sortname|Rocky|Calmus}} || [[2001 Oklahoma Sooners football team|Oklahoma]] (3) || 
+|-
+| 2002 || {{sortname|E. J.|Henderson}} || [[2002 Maryland Terrapins football team|Maryland]] || 
+|-
+| 2003 || {{sortname|Teddy|Lehman}} || [[2003 Oklahoma Sooners football team|Oklahoma]] (4) || 
+|-
+| 2004 || {{sortname|Derrick|Johnson}} || [[2004 Texas Longhorns football team|Texas]] || 
+|-
+| 2005 || {{sortname|Paul|Posluszny}} || [[2005 Penn State Nittany Lions football team|Penn State]] (2) || 
+|-
+| 2006 || {{sortname|Patrick|Willis}} || [[2006 Ole Miss Rebels football team|Ole Miss]] || 
+|-
+| 2007 || {{sortname|James|Laurinaitis}} || [[2007 Ohio State Buckeyes football team|Ohio State]] (2) || 
+|-
+| 2008 || {{sortname|Aaron|Curry|dab=American football}} || [[2008 Wake Forest Demon Deacons football team|Wake Forest]] || 
+|-
+| 2009 || {{sortname|Rolando|McClain}} || [[2009 Alabama Crimson Tide football team|Alabama]] (2) || 
+|-
+| 2010 || {{sortname|Von|Miller}} || [[2010 Texas A&M Aggies football team|Texas A&M]] || <ref>{{cite web|title=Big 12 Sack Leader Miller Receives Butkus Award|url=https://12thman.com/news/2010/12/7/205233853|website=12thman.com|publisher=Texas A&M University|date=December 7, 2010|access-date=May 26, 2026}}</ref>
+|-
+| 2011 || {{sortname|Luke|Kuechly}} || [[Boston College Eagles football|Boston College]] || <ref>{{cite web|title=Kuechly Earns Butkus Award|url=https://bceagles.com/news/2011/12/4/Kuechly_Earns_Butkus_Award|website=bceagles.com|publisher=Boston College|date=December 4, 2011|access-date=May 26, 2026}}</ref>
+|-
+| 2012 || {{sortname|Manti|Teʻo}} || [[2012 Notre Dame Fighting Irish football team|Notre Dame]] || 
+|-
+| 2013 || {{sortname|C. J.|Mosley|dab=linebacker}} || [[2013 Alabama Crimson Tide football team|Alabama]] (3) || <ref>{{cite web|last=Goodbread|first=Chase|title=Alabama LB C.J. Mosley wins prestigious Butkus Award|url=https://www.nfl.com/news/alabama-lb-c-j-mosley-wins-prestigious-butkus-award-0ap2000000295018|website=NFL.com|publisher=National Football League|date=December 8, 2013|access-date=May 26, 2026}}</ref>
+|-
+| 2014 || {{sortname|Eric|Kendricks}} || [[2014 UCLA Bruins football team|UCLA]] || <ref>{{cite web|last=Goodbread|first=Chase|title=UCLA's Eric Kendricks wins Butkus Award|url=https://www.nfl.com/news/ucla-s-eric-kendricks-wins-butkus-award-0ap3000000441238|website=NFL.com|publisher=National Football League|date=December 9, 2014|access-date=May 26, 2026}}</ref>
+|-
+| 2015 || {{sortname|Jaylon|Smith}} || [[2015 Notre Dame Fighting Irish football team|Notre Dame]] (2) || <ref>{{cite news|last1=Skrbina|first1=Paul|title=Notre Dame's Jaylon Smith named Butkus Award winner|url=http://www.chicagotribune.com/sports/college/ct-jaylon-smith-wins-butkus-award-spt-1209-20151208-story.html|access-date=August 6, 2017|work=Chicago Tribune|date=December 8, 2015}}</ref>
+|-
+| 2016 || {{sortname|Reuben|Foster}} || [[2016 Alabama Crimson Tide football team|Alabama]] (4) || <ref>{{cite news|last1=Potter|first1=Charlie|title=Alabama LB Reuben Foster named 2016 Butkus Award winner|url=https://www.cbssports.com/college-football/news/alabama-lb-reuben-foster-named-2016-butkus-award-winner/|access-date=August 6, 2017|work=CBS Sports|date=December 5, 2016}}</ref>
+|-
+| 2017 || {{sortname|Roquan|Smith}} || [[2017 Georgia Bulldogs football team|Georgia]] || <ref>{{cite web|title=Roquan Smith Wins 2017 Butkus Award|url=https://georgiadogs.com/news/2017/12/3/football-roquan-smith-wins-2017-butkus-award|website=georgiadogs.com|publisher=University of Georgia|date=December 3, 2017|access-date=May 26, 2026}}</ref>
+|-
+| 2018 || {{sortname|Devin|White}} || [[2018 LSU Tigers football team|LSU]] || <ref>{{cite web|last=Bonnette|first=Michael|title=Devin White Named 2018 Butkus Award Winner|url=https://lsusports.net/news/2018/12/04/211782908/|website=lsusports.net|publisher=Louisiana State University and Agricultural and Mechanical College|date=December 4, 2018|access-date=May 26, 2026}}</ref>
+|-
+| 2019 || {{sortname|Isaiah|Simmons}} || [[2019 Clemson Tigers football team|Clemson]] || <ref>{{cite web|title=Simmons Wins 2019 Butkus Award|url=https://clemsontigers.com/news/2019/12/08/simmons-wins-2019-butkus-award|website=clemsontigers.com|publisher=Clemson University|date=December 8, 2019|access-date=May 26, 2026}}</ref><ref>{{cite web|url=https://www.si.com/college/clemson/football/simmons-wins-2019-butkus-award/|title=Simmons Wins 2019 Butkus Award|website=si.com|publisher=Sports Illustrated|first=Zach|last=Lentz|date=December 8, 2019|access-date=December 8, 2019}}</ref>
+|-
+| 2020 || {{sortname|Jeremiah|Owusu-Koramoah}} || [[2020 Notre Dame Fighting Irish football team|Notre Dame]] (3) || <ref>{{cite web|title=Owusu-Koramoah Wins Butkus Award for Nation's Top Linebacker|url=https://fightingirish.com/owusu-koramoah-wins-butkus-award-for-nations-top-linebacker/|website=fightingirish.com|publisher=University of Notre Dame|date=December 21, 2020|access-date=May 26, 2026}}</ref>
+|-
+| 2021 || {{sortname|Nakobe|Dean}} || [[2021 Georgia Bulldogs football team|Georgia]] (2) || <ref>{{cite web|title=Nakobe Dean Wins Butkus Award As Nation's Top Linebacker|url=https://georgiadogs.com/news/2021/12/5/football-nakobe-dean-wins-butkus-award-as-nations-top-linebacker|website=georgiadogs.com|publisher=University of Georgia|date=December 5, 2021|access-date=May 26, 2026}}</ref>
+|-
+| 2022 || {{sortname|Jack|Campbell|dab=American football}} || [[2022 Iowa Hawkeyes football team|Iowa]] || <ref>{{cite web|title=Campbell Earns Butkus Award|url=https://hawkeyesports.com/news/2022/12/8/campbell-earns-butkus-award|website=hawkeyesports.com|publisher=University of Iowa|date=December 8, 2022|access-date=May 26, 2026}}</ref>
+|-
+| 2023 || {{sortname|Payton|Wilson}} || [[2023 NC State Wolfpack football team|NC State]] || <ref>{{cite web|title=Payton Wilson Wins Butkus Award|url=https://gopack.com/news/2023/12/6/football-payton-wilson-wins-butkus-award|website=gopack.com|publisher=North Carolina State University|date=December 6, 2023|access-date=May 26, 2026}}</ref>
+|-
+| 2024 || {{sortname|Jalon|Walker}} || [[2024 Georgia Bulldogs football team|Georgia]] (3) || <ref>{{cite web|last=Williams|first=Jonathan|title=Georgia Linebacker Jalon Walker Wins the Butkus Award|url=https://www.si.com/college/georgia/football/georgia-linebacker-jalon-walker-wins-the-butkus-award-01jevryzcq8e|website=si.com|publisher=Sports Illustrated|date=December 11, 2024|access-date=May 26, 2026}}</ref>
+|-
+| 2025 || {{sortname|Jacob|Rodriguez}} || [[2025 Texas Tech Red Raiders football team|Texas Tech]] || <ref>{{cite web|title=Rodriguez named 2025 winner of the Butkus Award|url=https://texastech.com/news/2025/12/5/football-rodriguez-named-2025-winner-of-the-butkus-award|website=texastech.com|publisher=Texas Tech University|date=December 5, 2025|access-date=May 26, 2026}}</ref>
+|}
+
+===Professional winners===
+[[File:Saints vs Panthers 12.6.15 189.jpg|thumb|right|200px|[[Luke Kuechly]] holds the record for most wins by a player with four awards (one in college and three in the pros).]]
+{| class="wikitable sortable" style="text-align: center;"
+! Season !! Player !! Team !! class=unsortable | Ref.
+|-
+| {{NFL Year|2008}} || {{sortname|DeMarcus|Ware}} || [[2008 Dallas Cowboys season|Dallas Cowboys]] || <ref name="ware2008"/>
+|-
+| {{NFL Year|2009}} || {{sortname|Patrick|Willis}} || [[2009 San Francisco 49ers season|San Francisco 49ers]] || <ref name="willis2009">[http://www.olemisssports.com//ViewArticle.dbml?DB_OEM_ID=2600&ATCLID=204910130 OleMissSports.com: Willis Wins Butkus Award As Collegian And Pro] {{webarchive |url=https://web.archive.org/web/20090105160114/http://www.olemisssports.com/ |date=January 5, 2009 }}</ref>
+|-
+| {{NFL Year|2010}} || {{sortname|Clay|Matthews III}} || [[2010 Green Bay Packers season|Green Bay Packers]] || <ref name="butkuspastwinners">{{cite web |title=Past Winners |url=https://www.thebutkusaward.com/watchlist/pastwinners.aspx |website=www.thebutkusaward.com}}</ref>
+|-
+|rowspan="2" | {{NFL Year|2011}} || {{sortname|Terrell|Suggs}} || [[2011 Baltimore Ravens season|Baltimore Ravens]] || <ref name="butkuspastwinners" />
+|-
+| {{sortname|DeMarcus|Ware|nolink=y}} (2) || [[2011 Dallas Cowboys season|Dallas Cowboys]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2012}} || {{sortname|Von|Miller}} || [[2012 Denver Broncos season|Denver Broncos]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2013}} || {{sortname|NaVorro|Bowman}} || [[2013 San Francisco 49ers season|San Francisco 49ers]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2014}} || {{sortname|Luke|Kuechly}} || [[2014 Carolina Panthers season|Carolina Panthers]] || rowspan="2" | <ref>{{cite news|title=Former BC great Kuechly wins second Butkus Award|url=http://www.foxsports.com/college-football/story/former-bc-great-kuechly-wins-second-butkus-award-051215|access-date=August 6, 2017|work=Fox Sports|date=May 12, 2015}}</ref>
+|-
+| {{NFL Year|2015}} || {{sortname|Luke|Kuechly|nolink=y}} (2) || [[2015 Carolina Panthers season|Carolina Panthers]]
+|-
+| {{NFL Year|2016}} || {{sortname|Khalil|Mack}} || [[2016 Oakland Raiders season|Oakland Raiders]] || <ref>{{Cite web |url=http://www.marketwired.com/press-release/khalil-mack-receives-pro-butkus-awardr-2221970.htm |title=Khalil Mack Receives Pro Butkus Award(R) |access-date=2017-06-14 |archive-date=2017-08-06 |archive-url=https://web.archive.org/web/20170806222142/http://www.marketwired.com/press-release/khalil-mack-receives-pro-butkus-awardr-2221970.htm |url-status=dead }}</ref>
+|-
+| {{NFL Year|2017}} || {{sortname|Luke|Kuechly|nolink=y}} (3) || [[2017 Carolina Panthers season|Carolina Panthers]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2018}} || {{sortname|Khalil|Mack|nolink=y}} (2)  || [[2018 Chicago Bears season|Chicago Bears]] || <ref>{{cite news|url=https://chicago.suntimes.com/bears/2019/6/4/18652835/bears-khalil-mack-dick-butkus-wins-award|title=Bears OLB Khalil Mack wins pro Butkus Award|newspaper=[[Chicago Sun-Times]]|date=June 4, 2019|access-date=June 4, 2019|author=Finley, Patrick}}</ref>
+|-
+| {{NFL Year|2019}} || {{sortname|Chandler|Jones}} || [[2019 Arizona Cardinals season|Arizona Cardinals]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2020}} || {{sortname|T. J.|Watt}} || [[2020 Pittsburgh Steelers season|Pittsburgh Steelers]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2021}} || {{sortname|Micah|Parsons}} || [[2021 Dallas Cowboys season|Dallas Cowboys]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2022}} || {{sortname|Roquan|Smith}} || [[2022 Baltimore Ravens season|Baltimore Ravens]] || rowspan="2" | <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2023}} || {{sortname|Roquan|Smith|nolink=y}} (2) || [[2023 Baltimore Ravens season|Baltimore Ravens]]
+|-
+| {{NFL Year|2024}} || {{sortname|Zack|Baun}} || [[2024 Philadelphia Eagles season|Philadelphia Eagles]] || <ref name="butkuspastwinners" />
+|-
+| {{NFL Year|2025}} || {{sortname|Jack|Campbell|dab=American football}} || [[2025 Detroit Lions season|Detroit Lions]] || <ref name="butkuspastwinners" />
+|}
+
+===High school winners===
+{| class="wikitable" style="text-align: center;"
+! Year !! Player !! School
+|-
+| 2008 || [[Manti Teʻo]] || [[Punahou School|Punahou]]<br>([[Honolulu]], HI)
+|-
+| 2009 || [[Jordan Hicks (American football)|Jordan Hicks]] || [[Lakota West High School|Lakota West]]<br>([[West Chester Township, Butler County, Ohio|West Chester, OH]])
+|-
+| 2010 || [[Tony Steward (American football)|Tony Steward]] || [[Pedro Menendez High School|Pedro Menendez]]<br>([[St. Augustine, FL]])
+|-
+| 2011 || [[Noor Davis]] || [[Leesburg High School (Leesburg, Florida)|Leesburg]]<br>([[Leesburg, FL]])
+|-
+| 2012 || [[Jaylon Smith]] || [[Bishop Luers High School|Bishop Luers]]<br>([[Fort Wayne, IN]])
+|-
+| 2013 || [[Raekwon McMillan]] || [[Liberty County High School (Georgia)|Liberty County]]<br>([[Hinesville, GA]])
+|-
+| 2014 || [[Malik Jefferson]] || [[Poteet High School (Mesquite, Texas)|Ralph H. Poteet]]<br>([[Mesquite, TX]])
+|-
+| 2015 || [[Caleb Kelly (American football)|Caleb Kelly]] || [[Clovis West High School|Clovis West]]<br>([[Fresno, CA]])
+|-
+| 2016 || [[Dylan Moses]] || [[IMG Academy|IMG]]<br>([[Bradenton, FL]])
+|-
+| 2017 || [[Solomon Tuliaupupu]] || [[Mater Dei High School (Santa Ana, California)|Mater Dei]]<br>([[Santa Ana, CA]])
+|-
+| 2018 || [[Nakobe Dean]] || [[Horn Lake High School|Horn Lake]]<br>([[Horn Lake, MS]])
+|-
+| 2019 || [[Justin Flowe]] || [[Upland High School|Upland]]<br>([[Upland, CA]])
+|-
+| 2020 || [[Prince Kollie]] || [[David Crockett High School (Tennessee)|David Crockett]]<br>([[Jonesborough, TN]])
+|-
+| 2021 ||<!--No WP page: NOT [[Shawn Murphy (American football)]]. This Murphy was HS snr in 2021, so born c. 2003. Could not red link, as no DoB found yet.-->Shawn Murphy<ref>{{cite news |last1=Pascal |first1=Evan |title=Prince William County's Shawn Murphy wins Butkus Award as nation's top prep linebacker |url=https://wjla.com/sports/high-school/prince-william-countys-shawn-murphy-wins-butkus-award-as-nations-top-prep-linebacker |access-date=4 April 2022 |work=WJLA |date=7 December 2021 |language=en}}</ref> || [[Unity Reed High School|Unity Reed]]<br>([[Manassas, VA]])
+|-
+| 2022 || [[Drayk Bowen]] || [[Andrean High School|Andrean]]<br>([[Merrillville, IN]])
+|-
+| 2023 || [[Sammy Brown (linebacker, born 2005)|Sammy Brown]] || [[Jefferson City School District|Jefferson]]<br>([[Jefferson, GA]])
+|-
+| 2024 || Christian Jones || [[Westside High School (Omaha)|Westside]]<br>([[Omaha, NE]])
+|-
+| 2025 || [[Tyler Atkinson]] || [[Grayson High School|Grayson]]<br>([[Loganville, GA]])
+|}
+
+==References==
+{{reflist|60em}}
+
+==External links==
+* {{Official website|http://www.thebutkusaward.com/}}
+
+{{Dick Butkus Award (collegiate)}}
+{{Dick Butkus Award (high school)}}
+{{Dick Butkus Award (professional)}}
+{{College football award navbox}}
+{{High school football award navbox}}
+{{NFL awards}}
+
+[[Category:NFL trophies and awards]]
+[[Category:College football national player awards]]
+[[Category:High school football trophies and awards in the United States]]
+[[Category:Awards established in 1985]]
+[[Category:1985 establishments in Florida]]
