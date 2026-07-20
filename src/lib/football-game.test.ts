@@ -15,6 +15,7 @@ import {
   respin,
   ratedStarters,
   fbDraftResult,
+  reduceIqNames,
 } from './football-game'
 import { FB_DRAFT_ROUNDS } from './football'
 import { FB_SLOTS } from '../types'
@@ -354,5 +355,78 @@ describe('FB_DRAFT_ROUNDS sizing', () => {
     expect(allFbSlotsFilled(s)).toBe(true)
     expect(isFbComplete(s)).toBe(true)
     expect(s.cursor).toBe(seq.length)
+  })
+})
+
+describe('reduceIqNames (Gridiron IQ "fewer names")', () => {
+  // Plain items in NAME order (a..h); rating comes from a map so the "good"
+  // players aren't the alphabetically-first ones.
+  const items = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'].map((id) => ({ id }))
+  const ratings: Record<string, number> = {
+    a: 10,
+    b: 90, // top
+    c: 20,
+    d: 30,
+    e: 85, // 2nd
+    f: 40,
+    g: 50,
+    h: 60,
+  }
+  const rate = (p: { id: string }) => ratings[p.id]
+
+  it('returns the list unchanged when there are limit-or-fewer candidates', () => {
+    const five = items.slice(0, 5)
+    expect(reduceIqNames(five, rate, 'w:QB')).toBe(five)
+    expect(reduceIqNames(items.slice(0, 3), rate, 'w:QB')).toHaveLength(3)
+  })
+
+  it('reduces to exactly 5 when there are more', () => {
+    expect(reduceIqNames(items, rate, 'w:QB')).toHaveLength(5)
+  })
+
+  it('always includes the top-2 by rating (never hides the good players)', () => {
+    const shown = reduceIqNames(items, rate, 'w:QB').map((p) => p.id)
+    expect(shown).toContain('b') // 90
+    expect(shown).toContain('e') // 85
+  })
+
+  it('preserves the input (name-sorted) order', () => {
+    const shown = reduceIqNames(items, rate, 'w:QB').map((p) => p.id)
+    expect(shown).toEqual([...shown].sort())
+  })
+
+  it('is stable: the same inputs yield the same names every call (toggle off/on reveals nothing)', () => {
+    const a = reduceIqNames(items, rate, 'w:QB').map((p) => p.id)
+    const b = reduceIqNames(items, rate, 'w:QB').map((p) => p.id)
+    const c = reduceIqNames(items, rate, 'w:QB').map((p) => p.id)
+    expect(b).toEqual(a)
+    expect(c).toEqual(a)
+  })
+
+  it('changing the salt reshuffles the random three but keeps the top-2', () => {
+    const q = reduceIqNames(items, rate, 'w:QB').map((p) => p.id)
+    const r = reduceIqNames(items, rate, 'w:RB').map((p) => p.id)
+    // Both keep the good players...
+    for (const good of ['b', 'e']) {
+      expect(q).toContain(good)
+      expect(r).toContain(good)
+    }
+    // ...but a different era/position generally draws a different filler set.
+    expect(r).not.toEqual(q)
+  })
+
+  it('breaks rating ties deterministically by id', () => {
+    const flat = ['x', 'y', 'z', 'p', 'q', 'r'].map((id) => ({ id }))
+    const shown = reduceIqNames(flat, () => 50, 'w:LB', 5, 2).map((p) => p.id)
+    // Ties → the two lowest ids are the guaranteed "top-2".
+    expect(shown).toContain('p')
+    expect(shown).toContain('q')
+    expect(shown).toHaveLength(5)
+  })
+
+  it('honors custom limit and topN', () => {
+    const shown = reduceIqNames(items, rate, 'w:QB', 4, 1).map((p) => p.id)
+    expect(shown).toHaveLength(4)
+    expect(shown).toContain('b') // the single top-rated is kept
   })
 })

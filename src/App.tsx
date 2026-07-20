@@ -95,6 +95,7 @@ import {
   isPickable as fbIsPickable,
   eligibleOpenSlots as fbEligibleOpenSlots,
   playersThisEra as fbPlayersThisEra,
+  reduceIqNames,
   canRespin as fbCanRespin,
   respin as fbRespin,
   type FbDraftState,
@@ -2456,6 +2457,11 @@ export function FbPlaying({
   const [reveal, setReveal] = useState(false)
   const [spinning, setSpinning] = useState(false)
   const [rolling, setRolling] = useState(false)
+  // Gridiron IQ only: "fewer names" trims each position to ~5 candidates so the
+  // draft-on-names board is less overwhelming. Persists across eras within a game;
+  // the reduction itself is deterministic (see `groups`), so toggling reveals
+  // nothing. Meaningless outside IQ (stats are shown), so the control is hidden.
+  const [fewerNames, setFewerNames] = useState(false)
   // Full Football spins two reels in sequence: 'team' lands the school, then
   // 'year' lands the era. 'idle' = single-school games (year reel only).
   const [spinPhase, setSpinPhase] = useState<'idle' | 'team' | 'year'>('idle')
@@ -2511,20 +2517,31 @@ export function FbPlaying({
         slot.accepts.includes(pos),
     )
   const groups = sidePositions
-    .map((pos) => ({
-      pos,
+    .map((pos) => {
       // Sort best-first by the rating of each player's best season WITHIN this
       // era (what drafting them here actually scores). In Gridiron IQ that
       // would leak the hidden ranking, so sort by name instead.
-      players: era
+      const sorted = era
         .filter((p) => p.position === pos)
         .sort((a, b) =>
           hideStats || !w
             ? a.name.localeCompare(b.name)
             : fbPlayerRating(b, w, power5Of(b)) -
               fbPlayerRating(a, w, power5Of(a)),
-        ),
-    }))
+        )
+      // Gridiron IQ "fewer names": keep the top 2 rated + a deterministic 3, so
+      // the board is lighter without hiding the best options or letting a re-toggle
+      // re-roll the filler. Only in IQ (stats hidden) and only when the user asks.
+      const players =
+        hideStats && fewerNames && w
+          ? reduceIqNames(
+              sorted,
+              (p) => fbPlayerRating(p, w, power5Of(p)),
+              `${w.start}-${w.end}:${pos}`,
+            )
+          : sorted
+      return { pos, players }
+    })
     .filter((g) => g.players.length > 0)
 
   function place(slotId: string) {
@@ -2600,6 +2617,29 @@ export function FbPlaying({
 
   return (
     <section>
+      {/* Gridiron IQ only: let the player thin each position to ~5 names. Flippable
+          any time; the reduced set is stable so it can't be re-rolled to out the
+          top players. Hidden outside IQ, where full stat lines are shown anyway. */}
+      {hideStats && (
+        <div className={`iq-names-toggle${fewerNames ? ' on' : ''}`}>
+          <label>
+            <span className="iq-names-icon" aria-hidden="true">
+              👁️
+            </span>
+            <span className="iq-names-text">
+              Fewer names{' '}
+              <small>{fewerNames ? '~5 per position' : 'trim the board'}</small>
+            </span>
+            <input
+              type="checkbox"
+              checked={fewerNames}
+              onChange={(e) => setFewerNames(e.target.checked)}
+            />
+            <span className="iq-names-switch" aria-hidden="true" />
+          </label>
+        </div>
+      )}
+
       <FbRosterRail
         slots={state.slots}
         targetable={targetSlotIds}
