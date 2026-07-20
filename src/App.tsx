@@ -95,7 +95,7 @@ import {
   isPickable as fbIsPickable,
   eligibleOpenSlots as fbEligibleOpenSlots,
   playersThisEra as fbPlayersThisEra,
-  reduceIqNames,
+  fewerNamesForGroup,
   canRespin as fbCanRespin,
   respin as fbRespin,
   type FbDraftState,
@@ -2529,12 +2529,14 @@ export function FbPlaying({
             : fbPlayerRating(b, w, power5Of(b)) -
               fbPlayerRating(a, w, power5Of(a)),
         )
-      // Gridiron IQ "fewer names": keep the top 2 rated + a deterministic 3, so
-      // the board is lighter without hiding the best options or letting a re-toggle
-      // re-roll the filler. Only in IQ (stats hidden) and only when the user asks.
+      // Gridiron IQ "fewer names": trim to the top 2 rated + a deterministic 3,
+      // drawn only from still-draftable candidates so an open slot always keeps a
+      // pickable option. Stable across toggles (no re-roll to out the good ones).
+      // Only in IQ (stats hidden) and only when the user asks.
       const players =
         hideStats && fewerNames && w
-          ? reduceIqNames(
+          ? fewerNamesForGroup(
+              state,
               sorted,
               (p) => fbPlayerRating(p, w, power5Of(p)),
               `${w.start}-${w.end}:${pos}`,

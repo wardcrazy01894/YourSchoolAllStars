@@ -16,7 +16,9 @@ import {
   ratedStarters,
   fbDraftResult,
   reduceIqNames,
+  fewerNamesForGroup,
 } from './football-game'
+import { fbPlayerRating } from './football-rating'
 import { FB_DRAFT_ROUNDS } from './football'
 import { FB_SLOTS } from '../types'
 import type { FbPlayer, FbPosition, FbStats, YearWindow } from '../types'
@@ -428,5 +430,75 @@ describe('reduceIqNames (Gridiron IQ "fewer names")', () => {
     const shown = reduceIqNames(items, rate, 'w:QB', 4, 1).map((p) => p.id)
     expect(shown).toHaveLength(4)
     expect(shown).toContain('b') // the single top-rated is kept
+  })
+
+  it('does not overshoot when topN >= limit (negative-slice guard)', () => {
+    // topN(5) fills the keep past limit(3); the shuffle-fill must take NONE, so
+    // exactly the 5 keeps come back — not the 6 a negative `slice(0, -2)` would add.
+    const shown = reduceIqNames(items, rate, 'w:QB', 3, 5).map((p) => p.id)
+    expect(shown).toHaveLength(5)
+  })
+})
+
+describe('fewerNamesForGroup (pickability-aware reduction)', () => {
+  // WRs whose rating varies by receiving yards, so the drafted one can be the
+  // single best — the exact case that must NOT claim a keep slot.
+  function wr(id: string, recYds: number): FbPlayer {
+    return {
+      id,
+      name: id,
+      position: 'WR',
+      firstYear: W.start,
+      lastYear: W.end,
+      seasons: [
+        {
+          year: W.start,
+          stats: { rec: 70, recYds, recTD: 11 },
+          honors: [],
+          source: 'test',
+        },
+      ],
+    }
+  }
+  // The elite WR is the highest-rated; 7 others fill out a >5 group.
+  const elite = wr('WR-elite', 3000)
+  const others = Array.from({ length: 7 }, (_, i) =>
+    wr(`WR-${i}`, 400 + i * 20),
+  )
+  const wrs = [elite, ...others].sort((a, b) => a.name.localeCompare(b.name))
+  const rate = (p: FbPlayer) => fbPlayerRating(p, W, true)
+  const salt = `${W.start}-${W.end}:WR`
+
+  it('excludes an already-drafted player even when it is the top-rated one', () => {
+    // Draft the elite WR into the WR slot, then reduce a later overlapping era's
+    // group where it would otherwise reappear as a locked, top-2 keep.
+    const state = draftToSlot(initFbDraft(SEQ), elite, 'WR')
+    const shown = fewerNamesForGroup(state, wrs, rate, salt).map((p) => p.id)
+    expect(shown).not.toContain('WR-elite')
+    expect(shown).toHaveLength(5)
+    // Every shown player is genuinely pickable (WR slot filled, but FLEX accepts WR).
+    for (const p of wrs.filter((x) => shown.includes(x.id))) {
+      expect(isPickable(state, p)).toBe(true)
+    }
+  })
+
+  it('proves the fix: the raw reduction WOULD keep the drafted top player', () => {
+    // Contrast — without the already-drafted filter the elite WR is a top-2 keep,
+    // which is the soft-lock vector fewerNamesForGroup closes.
+    const raw = reduceIqNames(wrs, rate, salt).map((p) => p.id)
+    expect(raw).toContain('WR-elite')
+  })
+
+  it('is stable across calls (toggle off/on shows the same names)', () => {
+    const state = draftToSlot(initFbDraft(SEQ), elite, 'WR')
+    const a = fewerNamesForGroup(state, wrs, rate, salt).map((p) => p.id)
+    const b = fewerNamesForGroup(state, wrs, rate, salt).map((p) => p.id)
+    expect(b).toEqual(a)
+  })
+
+  it('returns all when nothing is drafted and the group is already small', () => {
+    const small = others.slice(0, 4)
+    const shown = fewerNamesForGroup(initFbDraft(SEQ), small, rate, salt)
+    expect(shown).toHaveLength(4)
   })
 })
