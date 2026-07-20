@@ -23,6 +23,7 @@ import {
   FB_RESPINS_PER_SIDE,
   playerInWindow,
 } from './football'
+import { hashStringToSeed, mulberry32 } from './daily'
 import {
   fbPlayerRating,
   fbProjectedWins,
@@ -143,6 +144,87 @@ export function playersThisEra(s: FbDraftState, pool: FbPlayer[]): FbPlayer[] {
   return pool
     .filter((p) => sideOfPosition(p.position) === side && playerInWindow(p, w))
     .sort((a, b) => a.id.localeCompare(b.id))
+}
+
+/**
+ * Gridiron IQ "fewer names" reduction. Given ONE position's candidates for an era
+ * (already in display/name order), return a stable subset of at most `limit`:
+ *
+ *   • the `topN` highest-rated are ALWAYS kept — so the strongest options never
+ *     vanish and the draft can't soft-lock on a hidden pickable player; and
+ *   • the remaining slots fill from a DETERMINISTIC shuffle of the rest, seeded by
+ *     the pool itself (its ids + a `salt` naming the era + position).
+ *
+ * Because the seed is a pure function of the candidates, flipping the toggle off
+ * and back on yields the EXACT same names every time — you can't re-roll the
+ * "random" three to spot which two are always present (i.e. the good ones). The
+ * output preserves the input order, so the kept names stay name-sorted and the
+ * top-rated ones aren't betrayed by their position in the list.
+ *
+ * `limit` or fewer candidates → returned unchanged (nothing to hide). Pure; the
+ * `rate` fn lets the caller inject `fbPlayerRating(p, window, power5)` without this
+ * module owning the window/power-5 plumbing. NOTE: reduction is rating-based and
+ * has no notion of pickability — feed it only draftable candidates (see
+ * {@link fewerNamesForGroup}), or an already-drafted, unpickable player could take
+ * a keep slot and hide the real choices.
+ */
+export function reduceIqNames<T extends { id: string }>(
+  players: T[],
+  rate: (p: T) => number,
+  salt: string,
+  limit = 5,
+  topN = 2,
+): T[] {
+  if (players.length <= limit) return players
+  // Top `topN` by rating, ties broken by id so the pick is deterministic.
+  const ranked = [...players].sort(
+    (a, b) => rate(b) - rate(a) || a.id.localeCompare(b.id),
+  )
+  const keep = new Set(ranked.slice(0, topN).map((p) => p.id))
+  // Deterministically shuffle the remainder (in canonical id order, so the seed
+  // maps the same way regardless of the input's order) and take enough to fill up
+  // to `limit`. Fisher–Yates driven by a pool-derived seed. `Math.max(0, …)`
+  // guards a `topN >= limit` call (keep already ≥ limit → take nothing).
+  const rest = players.filter((p) => !keep.has(p.id))
+  rest.sort((a, b) => a.id.localeCompare(b.id))
+  const seed = hashStringToSeed(`${salt}|${rest.map((p) => p.id).join(',')}`)
+  const rng = mulberry32(seed)
+  for (let i = rest.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1))
+    ;[rest[i], rest[j]] = [rest[j], rest[i]]
+  }
+  for (const p of rest.slice(0, Math.max(0, limit - keep.size))) keep.add(p.id)
+  // Preserve the caller's (name-sorted) order.
+  return players.filter((p) => keep.has(p.id))
+}
+
+/**
+ * The names to show for ONE position group in Gridiron IQ's "fewer names" view.
+ *
+ * Crucially, this drops already-drafted players FIRST. `playersThisEra` doesn't
+ * filter them out (they render as `.locked`), and because the era wheel draws
+ * overlapping windows with replacement, a player picked in an earlier round
+ * routinely reappears in a later one. Left in the pool, such a locked player's
+ * rating could claim a keep slot (or the shuffle could favour it) and crowd every
+ * genuinely-pickable candidate out of the visible five — stranding an open slot.
+ * Filtering to the not-yet-drafted set first means every reduced group with an
+ * open slot still surfaces a draftable player, so the reduction can't soft-lock.
+ *
+ * The already-drafted set is fixed within an era (a pick advances the cursor to a
+ * new era), so the reduced subset stays stable across toggles — the anti-cheese
+ * guarantee holds. `positionPlayers` must already be filtered to one position and
+ * in display order; the result preserves that order.
+ */
+export function fewerNamesForGroup(
+  state: FbDraftState,
+  positionPlayers: FbPlayer[],
+  rate: (p: FbPlayer) => number,
+  salt: string,
+  limit = 5,
+  topN = 2,
+): FbPlayer[] {
+  const live = positionPlayers.filter((p) => !alreadyDrafted(state, p))
+  return reduceIqNames(live, rate, salt, limit, topN)
 }
 
 /** Place a player into a chosen open, eligible slot; advance to the next era. */
