@@ -97,6 +97,12 @@ const SIMILAR = 0.85
 // Longest plausible single career: 4 years of eligibility + a redshirt + a
 // medical/COVID year. Wider than this and two same-name players are two people.
 const MAX_CAREER = 6
+// Biggest hole one career can have between the two halves. This deliberately
+// matches merge.mjs's own same-person adjacency tolerance: a fork's halves are
+// separated by however many statless years (redshirt, injury) sit between them,
+// and 32 UNC players alone have a real interior gap of 2-3 years. A tighter
+// bound here would let exactly the fork this guard exists to catch slip past.
+const MAX_GAP = 3
 
 describe.each(DATASETS)(
   '$school $sport player identity',
@@ -109,7 +115,7 @@ describe.each(DATASETS)(
           const b = players[j]
           // Cheap structural filters first — the edit distance is the expensive part.
           const [lo, hi] = a.firstYear <= b.firstYear ? [a, b] : [b, a]
-          if (hi.firstYear - lo.lastYear > 1) continue // tenures neither overlap nor abut
+          if (hi.firstYear - lo.lastYear > MAX_GAP) continue // too far apart to be one career
           const span =
             Math.max(a.lastYear, b.lastYear) -
             Math.min(a.firstYear, b.firstYear) +

@@ -110,8 +110,11 @@ for (const r of rows) {
   if (!prev) byPersonYear.set(k, r)
   else {
     prev.stats = { ...prev.stats, ...r.stats }
-    // A RENAME'd person's rows carry both spellings; keep the canonical one so
-    // the display name below doesn't inherit the source's typo.
+    // WITHIN one season: SR's 2014 and 2016 pages each list Green under BOTH
+    // spellings, so the row we keep for that year may be the typo'd one. Keep
+    // the canonically-spelled row's name. (The person-level pick further down
+    // chooses between YEARS; this one chooses within a single year, before
+    // that code ever sees the row.)
     if (normName0(prev.name) !== prev.key && normName0(r.name) === r.key)
       prev.name = r.name
   }

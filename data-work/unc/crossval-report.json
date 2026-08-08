@@ -963,14 +963,14 @@
    }
   },
   {
-   "name": "Da'Norris Searcey",
+   "name": "Da'Norris Searcy",
    "year": 2007,
    "stats": {
     "tackles": 9
    }
   },
   {
-   "name": "Da'Norris Searcey",
+   "name": "Da'Norris Searcy",
    "year": 2008,
    "stats": {
     "tfl": 2,
@@ -1389,17 +1389,6 @@
     "tfl": 0,
     "sacks": 0,
     "defInt": 0,
-    "ff": 0
-   }
-  },
-  {
-   "srName": "dominique green",
-   "year": 2016,
-   "stats": {
-    "tackles": 67,
-    "tfl": 1,
-    "sacks": 0,
-    "defInt": 1,
     "ff": 0
    }
   },
@@ -1912,18 +1901,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Dominique Green",
-   "span": "2013-2014",
-   "composite": 24.7,
-   "wmtVotes": {
-    "DB": 2
-   },
-   "srDefVotes": {
-    "DB": 2
-   },
-   "srOffVotes": {}
-  },
-  {
    "name": "DeAndre Boykins",
    "span": "2021-2024",
    "composite": 24.1,
@@ -2386,16 +2363,6 @@
    "srOffVotes": {}
   },
   {
-   "name": "Da'Norris Searcey",
-   "span": "2007-2008",
-   "composite": 8.1,
-   "wmtVotes": {
-    "DB": 1
-   },
-   "srDefVotes": {},
-   "srOffVotes": {}
-  },
-  {
    "name": "Kyler McMichael",
    "span": "2021-2021",
    "composite": 7.6,
@@ -2667,14 +2634,6 @@
    "srDefVotes": {
     "DB": 3
    },
-   "srOffVotes": {}
-  },
-  {
-   "name": "Anrwon Black",
-   "span": "1997-1997",
-   "composite": 1.8,
-   "wmtVotes": {},
-   "srDefVotes": {},
    "srOffVotes": {}
   },
   {
