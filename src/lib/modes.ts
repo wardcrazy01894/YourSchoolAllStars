@@ -24,11 +24,7 @@
 import type { SportId } from './sports'
 
 export type GameMode =
-  | 'daily'
-  | 'daily-iq'
-  | 'classic'
-  | 'hoops-iq'
-  | 'gridiron-iq'
+  'daily' | 'daily-iq' | 'classic' | 'hoops-iq' | 'gridiron-iq'
 
 export interface ModeConfig {
   id: GameMode
