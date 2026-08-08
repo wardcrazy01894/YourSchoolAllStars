@@ -58,8 +58,18 @@ function posOf(raw) {
 // Cross-source name variants (the Sidearm payload and the SR/roster spellings
 // disagree), verified same human/era. Without these the person is SPLIT in two
 // and his honors can't attach to the seasons he won them in.
+// Each key is a WRONG spelling seen in a source, mapped to the spelling UNC's
+// own roster uses; the value side is what the person is keyed and named by.
 const RENAME = {
   'a ratliff': 'anthony ratliff-williams',
+  // SR spells him "Searcey" in 2007-08 and "Searcy" in 2009-10; the goheels
+  // rosters have Da'Norris Searcy at #30/#21 all four years (2007 Fr → 2010
+  // Sr). Left split, he shipped as two safeties with two-year careers.
+  'danorris searcey': 'danorris searcy',
+  // SR carries BOTH spellings as separate rows on the 2014 and 2016 pages with
+  // the same tackle line; the goheels rosters have Dominquie Green at #26 for
+  // 2013 Fr → 2016 Sr. Left split, both halves reached one draft board.
+  'dominique green': 'dominquie green',
 }
 
 const normName0 = (s) =>
@@ -98,7 +108,13 @@ for (const r of rows) {
   const k = `${r.key}:${r.year}`
   const prev = byPersonYear.get(k)
   if (!prev) byPersonYear.set(k, r)
-  else prev.stats = { ...prev.stats, ...r.stats }
+  else {
+    prev.stats = { ...prev.stats, ...r.stats }
+    // A RENAME'd person's rows carry both spellings; keep the canonical one so
+    // the display name below doesn't inherit the source's typo.
+    if (normName0(prev.name) !== prev.key && normName0(r.name) === r.key)
+      prev.name = r.name
+  }
 }
 rows.length = 0
 rows.push(...byPersonYear.values())
@@ -162,8 +178,10 @@ for (const per of persons) {
     position = offFine.sort((a, b) => b[1] - a[1])[0][0]
   }
   if (!position) report.unresolved++
+  // Latest season's spelling, but never a spelling RENAME has ruled wrong.
+  const canonical = per.rows.filter((r) => normName0(r.name) === per.key)
   out.push({
-    name: per.rows.at(-1).name,
+    name: (canonical.at(-1) ?? per.rows.at(-1)).name,
     key: per.key,
     position,
     positionVotes: votes,

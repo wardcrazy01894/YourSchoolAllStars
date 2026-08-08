@@ -7478,11 +7478,11 @@
       "redshirtYears": [2010]
     },
     {
-      "id": "danorris-searcey",
-      "name": "Da'Norris Searcey",
+      "id": "danorris-searcy",
+      "name": "Da'Norris Searcy",
       "position": "S",
       "firstYear": 2007,
-      "lastYear": 2008,
+      "lastYear": 2010,
       "seasons": [
         {
           "year": 2007,
@@ -7502,6 +7502,26 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html"
+        },
+        {
+          "year": 2009,
+          "stats": {
+            "tfl": 1,
+            "defInt": 1,
+            "tackles": 35
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
+        },
+        {
+          "year": 2010,
+          "stats": {
+            "tfl": 2,
+            "defInt": 4,
+            "tackles": 37
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html"
         }
       ]
     },
@@ -8543,35 +8563,6 @@
         }
       ],
       "redshirtYears": [2010]
-    },
-    {
-      "id": "danorris-searcy",
-      "name": "Da'Norris Searcy",
-      "position": "S",
-      "firstYear": 2009,
-      "lastYear": 2010,
-      "seasons": [
-        {
-          "year": 2009,
-          "stats": {
-            "tfl": 1,
-            "defInt": 1,
-            "tackles": 35
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html"
-        },
-        {
-          "year": 2010,
-          "stats": {
-            "tfl": 2,
-            "defInt": 4,
-            "tackles": 37
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html"
-        }
-      ]
     },
     {
       "id": "dion-guy",
@@ -10822,11 +10813,11 @@
       ]
     },
     {
-      "id": "dominique-green",
-      "name": "Dominique Green",
+      "id": "dominquie-green",
+      "name": "Dominquie Green",
       "position": "S",
       "firstYear": 2013,
-      "lastYear": 2014,
+      "lastYear": 2016,
       "seasons": [
         {
           "year": 2013,
@@ -10847,6 +10838,28 @@
           },
           "honors": [],
           "source": "http://web.archive.org/web/20241211155617/https://www.sports-reference.com/cfb/schools/north-carolina/2014.html"
+        },
+        {
+          "year": 2015,
+          "stats": {
+            "defInt": 2,
+            "ff": 1,
+            "pbu": 2,
+            "tackles": 41
+          },
+          "honors": [],
+          "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
+        },
+        {
+          "year": 2016,
+          "stats": {
+            "tackles": 67,
+            "tfl": 1,
+            "defInt": 1,
+            "pbu": 5
+          },
+          "honors": [],
+          "source": "https://goheels.com/sports/football/stats/2016"
         }
       ]
     },
@@ -11508,46 +11521,6 @@
           },
           "honors": [],
           "source": "https://goheels.com/sports/football/stats/2017"
-        }
-      ]
-    },
-    {
-      "id": "dominquie-green",
-      "name": "Dominquie Green",
-      "position": "S",
-      "firstYear": 2014,
-      "lastYear": 2016,
-      "seasons": [
-        {
-          "year": 2014,
-          "stats": {
-            "pbu": 2,
-            "tackles": 41
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20241211155617/https://www.sports-reference.com/cfb/schools/north-carolina/2014.html"
-        },
-        {
-          "year": 2015,
-          "stats": {
-            "defInt": 2,
-            "ff": 1,
-            "pbu": 2,
-            "tackles": 41
-          },
-          "honors": [],
-          "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html"
-        },
-        {
-          "year": 2016,
-          "stats": {
-            "tackles": 67,
-            "tfl": 1,
-            "defInt": 1,
-            "pbu": 5
-          },
-          "honors": [],
-          "source": "https://goheels.com/sports/football/stats/2016"
         }
       ]
     },

@@ -10338,14 +10338,15 @@
    ]
   },
   {
-   "name": "Da'Norris Searcey",
-   "key": "danorris searcey",
-   "position": null,
+   "name": "Da'Norris Searcy",
+   "key": "danorris searcy",
+   "position": "S",
    "positionVotes": {
-    "DB": 1
+    "DB": 1,
+    "S": 2
    },
    "firstYear": 2007,
-   "lastYear": 2008,
+   "lastYear": 2010,
    "seasons": [
     {
      "year": 2007,
@@ -10364,6 +10365,26 @@
       "tackles": 25
      },
      "source": "http://web.archive.org/web/20241210210800/https://www.sports-reference.com/cfb/schools/north-carolina/2008.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2009,
+     "stats": {
+      "tfl": 1,
+      "defInt": 1,
+      "tackles": 35
+     },
+     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2010,
+     "stats": {
+      "tfl": 2,
+      "defInt": 4,
+      "tackles": 37
+     },
+     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
      "from": "sports-reference"
     }
    ]
@@ -11824,38 +11845,6 @@
       "tackles": 8
      },
      "source": "http://web.archive.org/web/20250120233930/https://www.sports-reference.com/cfb/schools/north-carolina/2011.html",
-     "from": "sports-reference"
-    }
-   ]
-  },
-  {
-   "name": "Da'Norris Searcy",
-   "key": "danorris searcy",
-   "position": "S",
-   "positionVotes": {
-    "S": 2
-   },
-   "firstYear": 2009,
-   "lastYear": 2010,
-   "seasons": [
-    {
-     "year": 2009,
-     "stats": {
-      "tfl": 1,
-      "defInt": 1,
-      "tackles": 35
-     },
-     "source": "http://web.archive.org/web/20241204050710/https://www.sports-reference.com/cfb/schools/north-carolina/2009.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2010,
-     "stats": {
-      "tfl": 2,
-      "defInt": 4,
-      "tackles": 37
-     },
-     "source": "http://web.archive.org/web/20241204123404/https://www.sports-reference.com/cfb/schools/north-carolina/2010.html",
      "from": "sports-reference"
     }
    ]
@@ -15134,14 +15123,15 @@
    ]
   },
   {
-   "name": "Dominique Green",
-   "key": "dominique green",
-   "position": null,
+   "name": "Dominquie Green",
+   "key": "dominquie green",
+   "position": "S",
    "positionVotes": {
-    "DB": 2
+    "DB": 2,
+    "S": 2
    },
    "firstYear": 2013,
-   "lastYear": 2014,
+   "lastYear": 2016,
    "seasons": [
     {
      "year": 2013,
@@ -15162,6 +15152,28 @@
      },
      "source": "http://web.archive.org/web/20241211155617/https://www.sports-reference.com/cfb/schools/north-carolina/2014.html",
      "from": "sports-reference"
+    },
+    {
+     "year": 2015,
+     "stats": {
+      "defInt": 2,
+      "ff": 1,
+      "pbu": 2,
+      "tackles": 41
+     },
+     "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html",
+     "from": "sports-reference"
+    },
+    {
+     "year": 2016,
+     "stats": {
+      "tackles": 67,
+      "tfl": 1,
+      "defInt": 1,
+      "pbu": 5
+     },
+     "source": "https://goheels.com/sports/football/stats/2016",
+     "from": "sidearm"
     }
    ]
   },
@@ -15985,49 +15997,6 @@
       "sacks": 0.5
      },
      "source": "https://goheels.com/sports/football/stats/2017",
-     "from": "sidearm"
-    }
-   ]
-  },
-  {
-   "name": "Dominquie Green",
-   "key": "dominquie green",
-   "position": "S",
-   "positionVotes": {
-    "S": 3
-   },
-   "firstYear": 2014,
-   "lastYear": 2016,
-   "seasons": [
-    {
-     "year": 2014,
-     "stats": {
-      "pbu": 2,
-      "tackles": 41
-     },
-     "source": "http://web.archive.org/web/20241211155617/https://www.sports-reference.com/cfb/schools/north-carolina/2014.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2015,
-     "stats": {
-      "defInt": 2,
-      "ff": 1,
-      "pbu": 2,
-      "tackles": 41
-     },
-     "source": "http://web.archive.org/web/20250113075519/https://www.sports-reference.com/cfb/schools/north-carolina/2015.html",
-     "from": "sports-reference"
-    },
-    {
-     "year": 2016,
-     "stats": {
-      "tackles": 67,
-      "tfl": 1,
-      "defInt": 1,
-      "pbu": 5
-     },
-     "source": "https://goheels.com/sports/football/stats/2016",
      "from": "sidearm"
     }
    ]

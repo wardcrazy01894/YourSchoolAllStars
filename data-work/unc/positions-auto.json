@@ -1305,10 +1305,9 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Da'Norris Searcey",
+  "name": "Da'Norris Searcy",
   "position": "S",
-  "basis": "override",
-  "source": "https://en.wikipedia.org/wiki/Da'Norris_Searcy"
+  "basis": "wmt-fine"
  },
  {
   "name": "Darius Powell",
@@ -1477,11 +1476,6 @@
  {
   "name": "Brian Gupton",
   "position": "CB",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Da'Norris Searcy",
-  "position": "S",
   "basis": "wmt-fine"
  },
  {
@@ -1866,10 +1860,9 @@
   "basis": "wmt-fine"
  },
  {
-  "name": "Dominique Green",
+  "name": "Dominquie Green",
   "position": "S",
-  "basis": "override",
-  "source": "https://goheels.com/news/2013/10/18/209286711"
+  "basis": "wmt-fine"
  },
  {
   "name": "Eric Albright",
@@ -1965,11 +1958,6 @@
  {
   "name": "Dajaun Drennon",
   "position": "DE",
-  "basis": "wmt-fine"
- },
- {
-  "name": "Dominquie Green",
-  "position": "S",
   "basis": "wmt-fine"
  },
  {
