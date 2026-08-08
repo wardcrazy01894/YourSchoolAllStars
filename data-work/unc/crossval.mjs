@@ -45,6 +45,12 @@ const SR_RENAME = {
   'samuel denmark': 'sam denmark',
   'ron moody': 'ronald moody',
   '_ goff': 'lance goff', // SR data glitch drops the first name
+  // Both of these are ALSO in merge.mjs's RENAME (they split a person in two
+  // when left alone). They belong here too, or the SR rows filed under the
+  // typo get reported as "holes" in our coverage that a future pass would
+  // "fix" by re-splitting the person.
+  'danorris searcey': 'danorris searcy', // SR misspelling, 2007-08 pages
+  'dominique green': 'dominquie green', // SR misspelling, 2013/14/16 pages
 }
 const srKey = (s) => SR_RENAME[normName(s)] ?? normName(s)
 
