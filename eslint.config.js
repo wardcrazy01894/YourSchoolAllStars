@@ -18,7 +18,15 @@ export default tseslint.config(
       'react-refresh': reactRefresh,
     },
     rules: {
-      ...reactHooks.configs.recommended.rules,
+      // eslint-plugin-react-hooks v7 (required by eslint 10) expanded
+      // `recommended` from these two rules to sixteen — the React Compiler set
+      // (immutability, purity, set-state-in-effect, use-memo, …). Those flag 9
+      // real issues in App.tsx; adopting them is a source refactor, not a
+      // dependency bump, so it's deliberately a follow-up and this pins the
+      // rule set to what it enforced before. Spread `recommended` again once
+      // App.tsx is clean.
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'warn',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
