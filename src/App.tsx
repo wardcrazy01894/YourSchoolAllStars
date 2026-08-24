@@ -1,5 +1,6 @@
 import {
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
@@ -1429,8 +1430,10 @@ export function Playing({
 
   // Timers/frames from the era we're leaving must not fire into the new one (a
   // late `setReveal(true)` would reveal a pool nobody spun for). Cleanup-only —
-  // the reset above is not an effect's job.
-  useEffect(() => {
+  // the reset above is not an effect's job. Still a LAYOUT effect so the clear
+  // stays synchronous and pre-paint, exactly as before; a passive effect would
+  // leave a frame in which a stale timer could still land.
+  useLayoutEffect(() => {
     return () => {
       window.clearTimeout(timeoutRef.current)
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
@@ -2630,8 +2633,10 @@ export function FbPlaying({
 
   // Timers/frames from the era we're leaving must not fire into the new one (a
   // late `setReveal(true)` would reveal a pool nobody spun for). Cleanup-only —
-  // the reset above is not an effect's job.
-  useEffect(() => {
+  // the reset above is not an effect's job. Still a LAYOUT effect so the clear
+  // stays synchronous and pre-paint, exactly as before; a passive effect would
+  // leave a frame in which a stale timer could still land.
+  useLayoutEffect(() => {
     return () => {
       window.clearTimeout(timeoutRef.current)
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
