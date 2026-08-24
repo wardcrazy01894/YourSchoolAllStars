@@ -1,4 +1,11 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import {
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from 'react'
 import confetti from 'canvas-confetti'
 import { honorBadges, HONOR_LEGEND } from './lib/honors'
 import {
@@ -86,6 +93,7 @@ import {
 } from './lib/progress'
 import { buildShareString, buildFbShareString } from './lib/share'
 import { buildReelPlan, buildIndexReelPlan } from './lib/reel'
+import type { ReelPlan } from './lib/reel'
 import {
   initFbDraft,
   draftToSlot as fbDraftToSlot,
@@ -208,13 +216,49 @@ function schoolTagOf(
   return id ? (SCHOOL_META.get(id) ?? null) : null
 }
 
-/** Read the user's reduced-motion preference once (stable for the component's life). */
+/** Reel geometry for an era spin: a chronological wheel of era start years that
+ *  lands on `targetYear`. Memoized so the plan stays stable across the spin's
+ *  re-renders — a fresh plan mid-spin would restart the scroll.
+ *
+ *  This lives in its own hook rather than inline in `Playing`/`FbPlaying` on
+ *  purpose. Inline, `targetYear` is `currentWindow(state)?.start`, and that
+ *  window object is later handed to `seasonFor(...)`; the React Compiler can't
+ *  see inside that call, so it must assume the window (and anything aliasing it)
+ *  may be mutated afterwards and gives up on the component
+ *  (`react-hooks/preserve-manual-memoization`). Taking the year as a plain
+ *  parameter severs the alias, and both call sites stop duplicating the memo.
+ */
+function useReelPlan(
+  wheel: YearWindow[],
+  targetYear: number | null,
+): ReelPlan | null {
+  return useMemo(
+    () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
+    [wheel, targetYear],
+  )
+}
+
+const REDUCED_MOTION_QUERY = '(prefers-reduced-motion: reduce)'
+
+/** Subscribe to OS-level reduced-motion changes. Module-level (not inline) so the
+ *  reference is stable — a fresh function each render would resubscribe forever.
+ *  `matchMedia` is absent under jsdom, so every access is optional. */
+function subscribeReducedMotion(onChange: () => void): () => void {
+  const mq = window.matchMedia?.(REDUCED_MOTION_QUERY)
+  mq?.addEventListener('change', onChange)
+  return () => mq?.removeEventListener('change', onChange)
+}
+
+function readReducedMotion(): boolean {
+  return window.matchMedia?.(REDUCED_MOTION_QUERY).matches ?? false
+}
+
+/** The user's reduced-motion preference. `useSyncExternalStore` is React's
+ *  designated way to read browser state: it's safe to call during render (the
+ *  old `useRef(...).current` read was not — see issue #69) and, as a bonus, the
+ *  value now tracks the OS setting instead of freezing at mount. */
 function usePrefersReducedMotion(): boolean {
-  // useRef, not useState: this is a read-once value that never re-renders the
-  // component, so the discarded setState setter would only mislead.
-  return useRef(
-    window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false,
-  ).current
+  return useSyncExternalStore(subscribeReducedMotion, readReducedMotion)
 }
 
 type StatKey = keyof BballStats
@@ -751,7 +795,7 @@ function Game({
   )
   const provisional = school.basketball?.provisional ?? false
 
-  const dateKey = useMemo(activeDateKey, [])
+  const dateKey = useMemo(() => activeDateKey(), [])
   // Daily mode shares ONE deterministic seed (same eras for everyone today);
   // Classic/Hoops IQ get a fresh random seed per game — and a new one on "play
   // again". State, not memo: playAgain mutates it to reshuffle the wheel.
@@ -940,7 +984,7 @@ function FullGame({
   const pool = useMemo(() => buildFullPool(SCHOOLS), [])
   const wheels = useMemo(() => buildSchoolWheels(SCHOOLS), [])
 
-  const dateKey = useMemo(activeDateKey, [])
+  const dateKey = useMemo(() => activeDateKey(), [])
   // Daily/Daily-IQ share ONE deterministic seed for today (same team+era sequence
   // for everyone); free-play modes get a fresh random seed per game. `seedFor`
   // ignores the mode, so Daily and Daily IQ naturally draw the same sequence.
@@ -1316,10 +1360,7 @@ export function Playing({
   // lands on w.start. Memoized on the target year so it stays stable across the
   // spin's re-renders (a fresh plan mid-spin would restart the scroll).
   const targetYear = w?.start ?? null
-  const plan = useMemo(
-    () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
-    [wheel, targetYear],
-  )
+  const plan = useReelPlan(wheel, targetYear)
   // Full Basketball: geometry for the TEAM reel (phase 1). Present only when the
   // caller supplies a team wheel; single-school games leave it null and spin the
   // year reel alone. Memoized so it stays stable across the spin's re-renders.
@@ -1370,16 +1411,29 @@ export function Playing({
     }
   }
 
-  // Each new era hides the pool until the player spins the reel for it. Use a
-  // LAYOUT effect so the reset lands BEFORE the browser paints — otherwise the
-  // next era's pool flashes for a frame (and leaks the upcoming lineup) because
-  // `reveal` is still true on the first render after the cursor advances.
-  useLayoutEffect(() => {
+  // Each new era hides the pool until the player spins the reel for it. This is
+  // React's "adjust state when a prop changes" pattern, NOT an effect: React
+  // discards this render and immediately re-renders with the reset values, so
+  // the stale `reveal` never reaches the DOM. An effect — even a layout one —
+  // commits the stale render first, and the next era's pool flashes for a frame
+  // (leaking the upcoming lineup). Guarded by the cursor compare, so it runs
+  // once per era rather than every render.
+  const [resetForCursor, setResetForCursor] = useState(state.cursor)
+  if (resetForCursor !== state.cursor) {
+    setResetForCursor(state.cursor)
     setReveal(false)
     setSpinning(false)
     setRolling(false)
     setSpinPhase('idle')
     setSelectedId(null)
+  }
+
+  // Timers/frames from the era we're leaving must not fire into the new one (a
+  // late `setReveal(true)` would reveal a pool nobody spun for). Cleanup-only —
+  // the reset above is not an effect's job. Still a LAYOUT effect so the clear
+  // stays synchronous and pre-paint, exactly as before; a passive effect would
+  // leave a frame in which a stale timer could still land.
+  useLayoutEffect(() => {
     return () => {
       window.clearTimeout(timeoutRef.current)
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)
@@ -1931,7 +1985,7 @@ function FbGame({
   // good enough to test every screen + mode before real sourced data lands.
   const provisional = school.football?.provisional ?? false
 
-  const dateKey = useMemo(activeDateKey, [])
+  const dateKey = useMemo(() => activeDateKey(), [])
   const [gameSeed, setGameSeed] = useState<number>(() =>
     mode.daily ? seedFor(dateKey, `${school.id}:${sport.id}`) : randomSeed(),
   )
@@ -2091,7 +2145,7 @@ function FullFbGame({
   const pool = useMemo(() => buildFullFbPool(SCHOOLS), [])
   const wheels = useMemo(() => buildFbSchoolWheels(SCHOOLS), [])
 
-  const dateKey = useMemo(activeDateKey, [])
+  const dateKey = useMemo(() => activeDateKey(), [])
   // Daily/Daily-IQ share ONE deterministic seed for today (same team+era sequence
   // for everyone); free-play modes get a fresh random seed per game.
   const [gameSeed, setGameSeed] = useState<number>(() =>
@@ -2481,10 +2535,7 @@ export function FbPlaying({
   const respinsLeft = FB_RESPINS_PER_SIDE - state.respinsUsed[side]
 
   const targetYear = w?.start ?? null
-  const plan = useMemo(
-    () => (targetYear === null ? null : buildReelPlan(wheel, targetYear)),
-    [wheel, targetYear],
-  )
+  const plan = useReelPlan(wheel, targetYear)
   // Full Football: geometry for the TEAM reel (phase 1). Present only when the
   // caller supplies a team wheel; single-school games leave it null and spin the
   // year reel alone. Memoized so it stays stable across the spin's re-renders.
@@ -2563,12 +2614,29 @@ export function FbPlaying({
     }
   }
 
-  useLayoutEffect(() => {
+  // Each new era hides the pool until the player spins the reel for it. This is
+  // React's "adjust state when a prop changes" pattern, NOT an effect: React
+  // discards this render and immediately re-renders with the reset values, so
+  // the stale `reveal` never reaches the DOM. An effect — even a layout one —
+  // commits the stale render first, and the next era's pool flashes for a frame
+  // (leaking the upcoming lineup). Guarded by the cursor compare, so it runs
+  // once per era rather than every render.
+  const [resetForCursor, setResetForCursor] = useState(state.cursor)
+  if (resetForCursor !== state.cursor) {
+    setResetForCursor(state.cursor)
     setReveal(false)
     setSpinning(false)
     setRolling(false)
     setSpinPhase('idle')
     setSelectedId(null)
+  }
+
+  // Timers/frames from the era we're leaving must not fire into the new one (a
+  // late `setReveal(true)` would reveal a pool nobody spun for). Cleanup-only —
+  // the reset above is not an effect's job. Still a LAYOUT effect so the clear
+  // stays synchronous and pre-paint, exactly as before; a passive effect would
+  // leave a frame in which a stale timer could still land.
+  useLayoutEffect(() => {
     return () => {
       window.clearTimeout(timeoutRef.current)
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current)

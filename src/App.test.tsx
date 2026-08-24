@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
 import type { BballPlayer, FbPlayer } from './types'
 import { FB_SLOTS } from './types'
-import { initDraft } from './lib/game'
+import { initDraft, draftToSlot } from './lib/game'
 import { initFbDraft } from './lib/football-game'
 import { getMode } from './lib/modes'
 import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
@@ -135,6 +135,67 @@ describe('Playing — Hoops IQ stat hiding', () => {
   it('hides the badge key in Hoops IQ (no badges ⇒ nothing to explain)', () => {
     renderPlaying(true)
     expect(screen.queryByText(/what do the badges mean/i)).toBeNull()
+  })
+})
+
+// The era-advance reset: each new era must hide the pool again so the next
+// lineup can't be seen (or drafted from) before the player spins for it. This
+// pins that behaviour independently of HOW it's implemented — issue #69 moved
+// it off a `setState`-in-effect, and a regression here would silently leak the
+// upcoming era's players.
+describe('Playing — the pool re-hides when the era advances', () => {
+  const TWO_ERA_WHEEL = [
+    { start: 2000, end: 2003 },
+    { start: 2004, end: 2007 },
+  ]
+  const ERA_PLAYERS = [
+    player('alpha', 'PG', 22.5),
+    player('bravo', 'SG', 18.3),
+    { ...player('charlie', 'SF', 15.1), firstYear: 2004, lastYear: 2007 },
+  ]
+  ERA_PLAYERS[2].seasons[0].year = 2005
+
+  it('hides the revealed pool again after the cursor moves to the next era', () => {
+    const first = initDraft(TWO_ERA_WHEEL)
+    const { rerender } = render(
+      <Playing
+        players={ERA_PLAYERS}
+        state={first}
+        wheel={TWO_ERA_WHEEL}
+        hideStats={false}
+        power5Of={() => true}
+        onAdvance={() => {}}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+    expect(screen.getByText('alpha Player')).toBeTruthy()
+
+    // Advance to era 2 the way the app does — draft a player, then hand the
+    // resulting state back down.
+    const second = draftToSlot(first, ERA_PLAYERS[0], 'PG')
+    expect(second.cursor).toBe(1)
+    rerender(
+      <Playing
+        players={ERA_PLAYERS}
+        state={second}
+        wheel={TWO_ERA_WHEEL}
+        hideStats={false}
+        power5Of={() => true}
+        onAdvance={() => {}}
+      />,
+    )
+
+    // The new era's pool must be hidden behind a fresh spin…
+    expect(screen.queryByText('charlie Player')).toBeNull()
+    // …and the previous era's table must be gone too (it is not the pool for
+    // this era, and leaving it up would let a stale row be clicked).
+    expect(screen.queryByText('bravo Player')).toBeNull()
+    expect(screen.getByRole('button', { name: /Spin/ })).toBeTruthy()
+
+    // Spinning again reveals era 2 — and only era 2.
+    fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
+    expect(screen.getByText('charlie Player')).toBeTruthy()
+    expect(screen.queryByText('bravo Player')).toBeNull()
   })
 })
 
