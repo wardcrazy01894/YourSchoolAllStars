@@ -150,6 +150,11 @@ Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
 - **One re-spin per side** (`FB_RESPINS_PER_SIDE = 1`): a fresh re-spin for the
   offensive half and another for the defensive half; an unused offensive re-spin
   does not carry over. (Basketball stays at one re-spin for the whole game.)
+- **Two era sequences, one per side** (`FB_OFFENSE_ERAS = 7`, `FB_DEFENSE_ERAS =
+7`, `fbEraSequences`): the daily's 14-window draw is split 7 offense / 7
+  defense (6 slots + that side's re-spin each). Offense walks only its 7; when
+  the last offensive slot fills the cursor jumps to defense's first era, so the
+  defensive eras you see never depend on whether you re-spun on offense.
 - **Stats** (`FbStats`, heterogeneous, per-position columns):
   - QB: pass yds/TD/INT (+ rush yds/TD for runners like Denard).
   - RB: rush yds/TD (+ rec/yds/TD). WR/TE: rec/yds/TD.

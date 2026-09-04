@@ -17,15 +17,34 @@ import {
   fbDraftResult,
   reduceIqNames,
   fewerNamesForGroup,
+  fbEraProgress,
+  openFbSlotsOnSide,
 } from './football-game'
 import { fbPlayerRating } from './football-rating'
-import { FB_DRAFT_ROUNDS } from './football'
+import {
+  FB_DRAFT_ROUNDS,
+  FB_OFFENSE_ERAS,
+  FB_DEFENSE_ERAS,
+  fbEraSequences,
+} from './football'
 import { FB_SLOTS } from '../types'
 import type { FbPlayer, FbPosition, FbStats, YearWindow } from '../types'
 
 const W: YearWindow = { start: 2013, end: 2016 }
-// A long fixed sequence (more than enough rounds) all on the same window.
-const SEQ: YearWindow[] = Array.from({ length: 14 }, () => W)
+/** `n` copies of the same window. */
+const same = (n: number): YearWindow[] => Array.from({ length: n }, () => W)
+/**
+ * `n` DISTINCT windows (starts `from`, `from`+1, …; `span` years each) so a
+ * sequence can be told apart. Starts 2010–2016 all overlap the pool's 2013–16
+ * tenure, so every window stays draftable.
+ */
+const distinct = (from: number, n: number, span = 4): YearWindow[] =>
+  Array.from({ length: n }, (_, i) => ({
+    start: from + i,
+    end: from + i + span - 1,
+  }))
+// The daily's shape: 7 offense eras + 7 defense eras, all on the same window.
+const SEQ = fbEraSequences(same(FB_DRAFT_ROUNDS))
 
 // Elite-ish stat line per position so ratings are non-trivial.
 const STATLINE: Record<FbPosition, FbStats> = {
@@ -107,6 +126,8 @@ describe('initFbDraft', () => {
   it('starts at round 0 with 12 open slots, offense side, no respins used', () => {
     const s = initFbDraft(SEQ)
     expect(s.cursor).toBe(0)
+    expect(s.defenseStart).toBe(FB_OFFENSE_ERAS)
+    expect(s.windows).toHaveLength(FB_DRAFT_ROUNDS)
     expect(openFbSlots(s).length).toBe(12)
     expect(currentSide(s)).toBe('offense')
     expect(s.respinsUsed).toEqual({ offense: 0, defense: 0 })
@@ -237,31 +258,103 @@ describe('respins (per side)', () => {
   })
 })
 
-describe('canRespin no-strand guard', () => {
-  it('refuses a respin that would strand a slot even when the side cap is unused', () => {
-    // 7 windows; draft one offensive slot → 11 slots still open, only 5 windows
-    // would remain after a respin advanced the cursor. Not enough to fill them,
-    // so canRespin is false — and crucially the offensive respin is still UNUSED,
-    // so this is the no-strand guard talking, not the per-side cap.
-    let s = initFbDraft(Array.from({ length: 7 }, () => W))
+describe('canRespin no-strand guard (per side)', () => {
+  it('refuses a respin that would strand an OFFENSIVE slot even when the side cap is unused', () => {
+    // Offense has exactly 6 eras (no spare). Draft one → 5 offensive slots open,
+    // only 4 offense eras would remain after a respin. Not enough, so canRespin
+    // is false — and the offensive respin is still UNUSED, so this is the
+    // no-strand guard talking, not the per-side cap. The 7 defense eras are
+    // irrelevant: offense can't borrow from them.
+    let s = initFbDraft({ offense: same(6), defense: same(7) })
     s = draftToSlot(s, byId('QB-a'), 'QB')
     expect(s.respinsUsed.offense).toBe(0)
-    expect(openFbSlots(s).length).toBe(11)
+    expect(openFbSlotsOnSide(s, 'offense').length).toBe(5)
     expect(canRespin(s)).toBe(false)
     expect(respin(s)).toBe(s) // no-op, same reference
   })
 
-  it('is exact at the boundary (off-by-one pin)', () => {
-    // From the start 12 slots are open; a respin advances one window, so it needs
-    // 12 windows to REMAIN after it → a 13-window sequence just allows the first
-    // respin, a 12-window one strands a slot. Pins canRespin's `>=` against an
-    // off-by-one regression.
-    expect(canRespin(initFbDraft(Array.from({ length: 13 }, () => W)))).toBe(
-      true,
+  it('is exact at the offensive boundary (off-by-one pin)', () => {
+    // 6 offensive slots open; a respin advances one era, so 6 offense eras must
+    // REMAIN after it → 7 offense eras just allow the first respin, 6 strand.
+    const d = same(7)
+    expect(canRespin(initFbDraft({ offense: same(7), defense: d }))).toBe(true)
+    expect(canRespin(initFbDraft({ offense: same(6), defense: d }))).toBe(false)
+  })
+
+  it('is exact at the defensive boundary, independent of the offense sequence', () => {
+    // Offense is fully drafted either way; only the DEFENSE sequence length
+    // decides whether the defensive respin is allowed.
+    const ok = fillOffense(initFbDraft({ offense: same(7), defense: same(7) }))
+    expect(currentSide(ok)).toBe('defense')
+    expect(canRespin(ok)).toBe(true)
+    const tight = fillOffense(
+      initFbDraft({ offense: same(7), defense: same(6) }),
     )
-    expect(canRespin(initFbDraft(Array.from({ length: 12 }, () => W)))).toBe(
-      false,
-    )
+    expect(currentSide(tight)).toBe('defense')
+    expect(canRespin(tight)).toBe(false)
+  })
+})
+
+describe('per-side era sequences', () => {
+  // Same starts, different spans, so the two sequences are distinguishable.
+  const offense = distinct(2010, FB_OFFENSE_ERAS)
+  const defense = distinct(2010, FB_DEFENSE_ERAS, 5)
+
+  it('offense walks its own sequence in order', () => {
+    let s = initFbDraft({ offense, defense })
+    expect(currentFbWindow(s)).toEqual(offense[0])
+    s = respin(s)
+    expect(currentFbWindow(s)).toEqual(offense[1])
+    s = draftToSlot(s, byId('QB-a'), 'QB')
+    expect(currentFbWindow(s)).toEqual(offense[2])
+  })
+
+  it('defense starts at ITS first era whether or not offense re-spun', () => {
+    // No offensive re-spin: offense consumed 6 eras.
+    const noRespin = fillOffense(initFbDraft({ offense, defense }))
+    expect(currentSide(noRespin)).toBe('defense')
+    expect(currentFbWindow(noRespin)).toEqual(defense[0])
+    // One offensive re-spin: offense consumed all 7 eras.
+    const withRespin = fillOffense(respin(initFbDraft({ offense, defense })))
+    expect(currentSide(withRespin)).toBe('defense')
+    expect(currentFbWindow(withRespin)).toEqual(defense[0])
+    // …and the defensive sequence continues identically from there.
+    const a = draftToSlot(noRespin, byId('DE-a'), 'DE')
+    const b = draftToSlot(withRespin, byId('DE-a'), 'DE')
+    expect(currentFbWindow(a)).toEqual(defense[1])
+    expect(currentFbWindow(b)).toEqual(defense[1])
+    expect(currentFbWindow(respin(a))).toEqual(defense[2])
+  })
+
+  it('offense never draws from the defense sequence, even when it runs dry', () => {
+    // Only 2 offense eras: after two offensive picks the offense sequence is
+    // exhausted, so the game ends stranded rather than borrowing defense eras.
+    let s = initFbDraft({ offense: distinct(2010, 2), defense })
+    s = draftToSlot(s, byId('QB-a'), 'QB')
+    s = draftToSlot(s, byId('RB-a'), 'RB')
+    expect(currentSide(s)).toBe('offense')
+    expect(currentFbWindow(s)).toBeNull()
+    expect(isFbComplete(s)).toBe(true)
+    expect(draftToSlot(s, byId('WR-a'), 'WR')).toBe(s)
+    expect(respin(s)).toBe(s)
+  })
+
+  it('reports era progress within the current side', () => {
+    let s = initFbDraft({ offense, defense })
+    expect(fbEraProgress(s)).toEqual({ era: 1, total: FB_OFFENSE_ERAS })
+    s = respin(s)
+    expect(fbEraProgress(s)).toEqual({ era: 2, total: FB_OFFENSE_ERAS })
+    s = fillOffense(s)
+    expect(fbEraProgress(s)).toEqual({ era: 1, total: FB_DEFENSE_ERAS })
+    s = respin(s)
+    expect(fbEraProgress(s)).toEqual({ era: 2, total: FB_DEFENSE_ERAS })
+  })
+
+  it('records the pick against the era it was drafted from, on either side', () => {
+    let s = fillOffense(respin(initFbDraft({ offense, defense })))
+    s = draftToSlot(s, byId('DE-a'), 'DE')
+    expect(s.picks[0].window).toEqual(offense[1])
+    expect(s.picks[s.picks.length - 1].window).toEqual(defense[0])
   })
 })
 
@@ -273,7 +366,7 @@ describe('completion', () => {
   })
 
   it('is complete when the window sequence runs out', () => {
-    const short = initFbDraft([W, W]) // only 2 rounds
+    const short = initFbDraft({ offense: [W, W], defense: [] }) // only 2 rounds
     let s = draftToSlot(short, byId('QB-a'), 'QB')
     s = draftToSlot(s, byId('RB-a'), 'RB')
     expect(s.cursor).toBe(2)
@@ -284,7 +377,7 @@ describe('completion', () => {
   it('drafting or respinning past the end of the sequence is a no-op', () => {
     // Exhaust a 2-window sequence, then confirm both transitions reject cleanly
     // (same reference) once there is no current window left to draft from.
-    const short = initFbDraft([W, W])
+    const short = initFbDraft({ offense: [W, W], defense: [] })
     let s = draftToSlot(short, byId('QB-a'), 'QB')
     s = draftToSlot(s, byId('RB-a'), 'RB')
     expect(isFbComplete(s)).toBe(true)
@@ -347,8 +440,7 @@ describe('FB_SLOTS wiring sanity', () => {
 
 describe('FB_DRAFT_ROUNDS sizing', () => {
   it('a full-length daily sequence survives both per-side respins and still fills all 12 slots', () => {
-    const seq = Array.from({ length: FB_DRAFT_ROUNDS }, () => W)
-    let s = initFbDraft(seq)
+    let s = initFbDraft(SEQ)
     s = respin(s) // burn the one offensive respin
     s = fillOffense(s) // 6 offensive picks
     expect(currentSide(s)).toBe('defense')
@@ -356,7 +448,13 @@ describe('FB_DRAFT_ROUNDS sizing', () => {
     s = fillDefense(s) // 6 defensive picks
     expect(allFbSlotsFilled(s)).toBe(true)
     expect(isFbComplete(s)).toBe(true)
-    expect(s.cursor).toBe(seq.length)
+    expect(s.cursor).toBe(FB_DRAFT_ROUNDS)
+  })
+
+  it('splits the daily draw 7 offense / 7 defense', () => {
+    expect(FB_OFFENSE_ERAS).toBe(7)
+    expect(FB_DEFENSE_ERAS).toBe(7)
+    expect(FB_DRAFT_ROUNDS).toBe(14)
   })
 })
 

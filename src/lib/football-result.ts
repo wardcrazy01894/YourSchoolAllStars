@@ -127,6 +127,7 @@ export function fbRosterFromSaved(
   }
   return {
     windows: [],
+    defenseStart: 0,
     cursor: 0,
     slots,
     picks,

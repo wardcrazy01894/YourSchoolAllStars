@@ -1,20 +1,25 @@
 // Football draft state machine (pure) — the 12-man, two-phase parallel to the
 // basketball reducer in game.ts.
 //
-// Flow (16-0 style, with Alex's rules): the day fixes a SEQUENCE of era windows
-// (one per round; see `FB_DRAFT_ROUNDS`). You draft OFFENSE first — its 6 slots
-// (QB/RB/WR/TE + 2 FLEX) — then DEFENSE (DE/DT/LB/CB/S + 1 FLEX). At each round
-// you either:
+// Flow (16-0 style, with Alex's rules): the day fixes TWO sequences of era
+// windows, one per side (`FB_OFFENSE_ERAS` = 7 for offense, `FB_DEFENSE_ERAS` =
+// 7 for defense; see `fbEraSequences`). You draft OFFENSE first — its 6 slots
+// (QB/RB/WR/TE + 2 FLEX) — walking the offense sequence, then DEFENSE
+// (DE/DT/LB/CB/S + 1 FLEX) walking the defense sequence FROM ITS START. At each
+// round you either:
 //   • pick a player and drop them into an OPEN slot their position fits — a
 //     single-position slot or a FLEX that accepts several — which advances the
 //     round; or
-//   • RE-SPIN, which advances to the next round's window WITHOUT drafting. You get
-//     one re-spin PER SIDE (offense and defense each), and an unused offensive
-//     re-spin does NOT carry into defense.
+//   • RE-SPIN, which advances to the next window on the current side WITHOUT
+//     drafting. You get one re-spin PER SIDE (offense and defense each), and an
+//     unused offensive re-spin does NOT carry into defense.
 // The side is derived from the slots: while any offensive slot is open you're on
-// offense; once they're all filled you're on defense. The game ends when all 12
-// slots are filled OR the era sequence runs out. Because the eras are fixed up
-// front, the outcome never depends on WHEN you re-spin.
+// offense; once they're all filled you're on defense — and the cursor jumps to
+// the first DEFENSIVE era regardless of how many offensive eras were consumed.
+// So the defensive eras you see are the same whether or not you re-spun on
+// offense; each side's sequence is its own. The game ends when all 12 slots are
+// filled OR the current side's sequence runs out. Because both sequences are
+// fixed up front, the outcome never depends on WHEN you re-spin.
 
 import type { FbPlayer, FbPosition, RosterSlot, YearWindow } from '../types'
 import { FB_SLOTS, FB_OFF_POSITIONS } from '../types'
@@ -22,6 +27,7 @@ import {
   OFFENSE_SLOT_IDS,
   FB_RESPINS_PER_SIDE,
   playerInWindow,
+  type FbEraSequences,
 } from './football'
 import { hashStringToSeed, mulberry32 } from './daily'
 import {
@@ -44,9 +50,19 @@ export interface FbDraftPick {
 }
 
 export interface FbDraftState {
-  /** The fixed era sequence for this game (deterministic for the daily). */
+  /**
+   * The fixed era sequences for this game (deterministic for the daily), laid
+   * out flat: the OFFENSE sequence first, then the DEFENSE sequence starting at
+   * `defenseStart`. Offense draws only from `[0, defenseStart)`, defense only
+   * from `[defenseStart, windows.length)` — neither side ever borrows the
+   * other's windows. Kept flat (rather than two arrays) so a caller that pairs
+   * each window with extra per-spin data (Full Football's school per era) can
+   * index that data by `cursor` directly.
+   */
   windows: YearWindow[]
-  /** Index of the current era within `windows`. */
+  /** Index in `windows` where the defense sequence begins. */
+  defenseStart: number
+  /** Index of the current era within `windows` (always on the current side). */
   cursor: number
   /** All 12 slots, keyed by FB_SLOTS id; null = open. */
   slots: Record<string, FbPlayer | null>
@@ -64,13 +80,14 @@ export function sideOfPosition(pos: FbPosition): FbSide {
     : 'defense'
 }
 
-export function initFbDraft(windows: YearWindow[]): FbDraftState {
+export function initFbDraft(sequences: FbEraSequences): FbDraftState {
   const slots = Object.fromEntries(FB_SLOTS.map((s) => [s.id, null])) as Record<
     string,
     FbPlayer | null
   >
   return {
-    windows,
+    windows: [...sequences.offense, ...sequences.defense],
+    defenseStart: sequences.offense.length,
     cursor: 0,
     slots,
     picks: [],
@@ -90,16 +107,53 @@ export function openFbSlots(s: FbDraftState): RosterSlot[] {
   return FB_SLOTS.filter((slot) => s.slots[slot.id] === null)
 }
 
+/** The open slots on ONE side — what that side's era sequence must still fill. */
+export function openFbSlotsOnSide(s: FbDraftState, side: FbSide): RosterSlot[] {
+  return openFbSlots(s).filter((slot) => slot.side === side)
+}
+
 export function allFbSlotsFilled(s: FbDraftState): boolean {
   return FB_SLOTS.every((slot) => s.slots[slot.id] !== null)
 }
 
-export function isFbComplete(s: FbDraftState): boolean {
-  return allFbSlotsFilled(s) || s.cursor >= s.windows.length
+/**
+ * The half-open index range `[start, end)` of `windows` that belongs to `side`.
+ * Offense owns the prefix before `defenseStart`; defense owns the rest.
+ */
+function sideEraRange(
+  s: FbDraftState,
+  side: FbSide,
+): { start: number; end: number } {
+  return side === 'offense'
+    ? { start: 0, end: s.defenseStart }
+    : { start: s.defenseStart, end: s.windows.length }
 }
 
+/**
+ * Complete when every slot is filled OR the CURRENT SIDE's sequence has run
+ * out. A side running dry (offense exhausting its 7 before its 6 slots fill)
+ * ends the game stranded rather than borrowing the other side's windows — the
+ * per-side count guard in {@link canRespin} makes that unreachable in play.
+ */
+export function isFbComplete(s: FbDraftState): boolean {
+  return allFbSlotsFilled(s) || currentFbWindow(s) === null
+}
+
+/** The era being drafted from — null once the current side's sequence is spent. */
 export function currentFbWindow(s: FbDraftState): YearWindow | null {
-  return s.cursor < s.windows.length ? s.windows[s.cursor] : null
+  const { start, end } = sideEraRange(s, currentSide(s))
+  return s.cursor >= start && s.cursor < end ? s.windows[s.cursor] : null
+}
+
+/**
+ * Where the draft is within the CURRENT side's sequence, for display: `era` is
+ * 1-based and clamped to `total` (the side's sequence length) so a spent
+ * sequence reads "7 / 7" rather than "8 / 7".
+ */
+export function fbEraProgress(s: FbDraftState): { era: number; total: number } {
+  const { start, end } = sideEraRange(s, currentSide(s))
+  const total = end - start
+  return { era: Math.max(1, Math.min(s.cursor - start + 1, total)), total }
 }
 
 export function alreadyDrafted(s: FbDraftState, player: FbPlayer): boolean {
@@ -227,7 +281,12 @@ export function fewerNamesForGroup(
   return reduceIqNames(live, rate, salt, limit, topN)
 }
 
-/** Place a player into a chosen open, eligible slot; advance to the next era. */
+/**
+ * Place a player into a chosen open, eligible slot; advance to the next era.
+ * When the pick fills the LAST offensive slot the cursor jumps to the start of
+ * the defense sequence — not merely to the next window — so defense always
+ * begins at its own first era, whether offense consumed 6 windows or 7.
+ */
 export function draftToSlot(
   s: FbDraftState,
   player: FbPlayer,
@@ -237,19 +296,27 @@ export function draftToSlot(
   if (!eligibleOpenSlots(s, player).some((slot) => slot.id === slotId)) return s
   const window = currentFbWindow(s)
   if (!window) return s
-  return {
+  const slots = { ...s.slots, [slotId]: player }
+  const next: FbDraftState = {
     ...s,
-    slots: { ...s.slots, [slotId]: player },
+    slots,
     picks: [...s.picks, { player, slotId, window }],
-    cursor: s.cursor + 1,
+  }
+  const crossedToDefense =
+    currentSide(s) === 'offense' && currentSide(next) === 'defense'
+  return {
+    ...next,
+    cursor: crossedToDefense ? s.defenseStart : s.cursor + 1,
   }
 }
 
 /**
  * Re-spinning is allowed only while the game isn't over, you have a re-spin left
- * ON THE CURRENT SIDE, and advancing wouldn't strand a slot (enough windows must
- * remain after the skip to fill every open slot). Like basketball's skip cap,
- * this lives in the state machine so no caller can exceed it.
+ * ON THE CURRENT SIDE, and advancing wouldn't strand a slot: enough windows must
+ * remain IN THIS SIDE'S SEQUENCE after the skip to fill every open slot ON THIS
+ * SIDE (the other side has its own sequence and is never counted). Like
+ * basketball's skip cap, this lives in the state machine so no caller can
+ * exceed it.
  *
  * Soft-lock freedom depends on a DATA invariant, not on this count guard: the
  * guard only ensures enough windows REMAIN, not that each remaining window holds
@@ -273,9 +340,10 @@ export function draftToSlot(
  */
 export function canRespin(s: FbDraftState): boolean {
   if (isFbComplete(s)) return false
-  if (s.respinsUsed[currentSide(s)] >= FB_RESPINS_PER_SIDE) return false
-  const windowsAfter = s.windows.length - (s.cursor + 1)
-  return windowsAfter >= openFbSlots(s).length
+  const side = currentSide(s)
+  if (s.respinsUsed[side] >= FB_RESPINS_PER_SIDE) return false
+  const windowsAfter = sideEraRange(s, side).end - (s.cursor + 1)
+  return windowsAfter >= openFbSlotsOnSide(s, side).length
 }
 
 /** Advance past the current era without drafting; consumes a side re-spin. */
