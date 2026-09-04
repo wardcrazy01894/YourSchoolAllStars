@@ -60,13 +60,43 @@ export const DEFENSE_SLOT_IDS = FB_SLOTS.filter(
 export const FB_RESPINS_PER_SIDE = 1
 
 /**
- * How many era windows the daily draws for a football game: one per slot plus the
- * per-side re-spins (one offense + one defense). The extra windows are consumed
- * only if the player re-spins; the per-side cap in the reducer still limits a
- * side to one. With this many windows the sequence can never run dry before the
- * roster is full, even if both re-spins are used.
+ * Era windows drawn PER SIDE: one per slot on that side plus that side's re-spin.
+ * Offense and defense each get their OWN fixed sequence — offense draws only
+ * from its 7, defense only from its 7 — so the defensive eras a player sees never
+ * depend on whether they burned the offensive re-spin (Alex's call).
  */
-export const FB_DRAFT_ROUNDS = FB_SLOTS.length + 2 * FB_RESPINS_PER_SIDE
+export const FB_OFFENSE_ERAS = OFFENSE_SLOT_IDS.length + FB_RESPINS_PER_SIDE
+export const FB_DEFENSE_ERAS = DEFENSE_SLOT_IDS.length + FB_RESPINS_PER_SIDE
+
+/**
+ * How many era windows the daily draws for a football game in total: the offense
+ * sequence followed by the defense sequence (see {@link fbEraSequences}). Each
+ * side's spare window is consumed only if that side re-spins; the per-side cap
+ * in the reducer still limits a side to one. With this many windows neither
+ * side's sequence can run dry before its slots are full.
+ */
+export const FB_DRAFT_ROUNDS = FB_OFFENSE_ERAS + FB_DEFENSE_ERAS
+
+/** The two fixed per-side era sequences a football draft runs on. */
+export interface FbEraSequences {
+  offense: YearWindow[]
+  defense: YearWindow[]
+}
+
+/**
+ * Split the day's flat draw (`generateSpins(seed, FB_DRAFT_ROUNDS, wheel)`) into
+ * its per-side sequences: the first {@link FB_OFFENSE_ERAS} windows are
+ * offense's, the rest defense's. Slicing (rather than drawing twice) keeps the
+ * flat index meaningful for callers that pair each window with extra spin data
+ * by position (Full Football's per-era school). An empty draw (dead wheel) →
+ * two empty sequences.
+ */
+export function fbEraSequences(spins: YearWindow[]): FbEraSequences {
+  return {
+    offense: spins.slice(0, FB_OFFENSE_ERAS),
+    defense: spins.slice(FB_OFFENSE_ERAS),
+  }
+}
 
 /** Which side draft round `r` belongs to (0–5 offense, 6–11 defense). */
 export function sideForRound(round: number): 'offense' | 'defense' {

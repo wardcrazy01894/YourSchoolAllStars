@@ -4,6 +4,10 @@ import {
   fbWindows,
   FB_ROUNDS,
   FB_RESPINS_PER_SIDE,
+  FB_OFFENSE_ERAS,
+  FB_DEFENSE_ERAS,
+  FB_DRAFT_ROUNDS,
+  fbEraSequences,
   OFFENSE_SLOT_IDS,
   DEFENSE_SLOT_IDS,
   sideForRound,
@@ -105,6 +109,24 @@ describe('draft order + re-spins', () => {
 
   it('one re-spin per side', () => {
     expect(FB_RESPINS_PER_SIDE).toBe(1)
+  })
+
+  it('draws one era per slot plus the re-spin ON EACH SIDE', () => {
+    expect(FB_OFFENSE_ERAS).toBe(OFFENSE_SLOT_IDS.length + FB_RESPINS_PER_SIDE)
+    expect(FB_DEFENSE_ERAS).toBe(DEFENSE_SLOT_IDS.length + FB_RESPINS_PER_SIDE)
+    expect(FB_DRAFT_ROUNDS).toBe(FB_OFFENSE_ERAS + FB_DEFENSE_ERAS)
+  })
+
+  it('fbEraSequences splits the flat daily draw: first 7 offense, last 7 defense', () => {
+    const flat = Array.from({ length: FB_DRAFT_ROUNDS }, (_, i) => ({
+      start: 2000 + i,
+      end: 2003 + i,
+    }))
+    const seq = fbEraSequences(flat)
+    expect(seq.offense).toEqual(flat.slice(0, FB_OFFENSE_ERAS))
+    expect(seq.defense).toEqual(flat.slice(FB_OFFENSE_ERAS))
+    // A dead wheel (empty draw) → two empty sequences, no holes.
+    expect(fbEraSequences([])).toEqual({ offense: [], defense: [] })
   })
 })
 

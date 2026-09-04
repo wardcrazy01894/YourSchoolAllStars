@@ -99,6 +99,7 @@ import {
   draftToSlot as fbDraftToSlot,
   currentSide as fbCurrentSide,
   currentFbWindow,
+  fbEraProgress,
   isFbComplete,
   isPickable as fbIsPickable,
   eligibleOpenSlots as fbEligibleOpenSlots,
@@ -108,7 +109,12 @@ import {
   respin as fbRespin,
   type FbDraftState,
 } from './lib/football-game'
-import { FB_DRAFT_ROUNDS, FB_RESPINS_PER_SIDE, fbWindows } from './lib/football'
+import {
+  FB_DRAFT_ROUNDS,
+  FB_RESPINS_PER_SIDE,
+  fbEraSequences,
+  fbWindows,
+} from './lib/football'
 import {
   fbPlayerRating,
   fbSeasonForWindow,
@@ -1993,8 +1999,9 @@ function FbGame({
   // floor — see docs/DATA-SOURCING.md) up to the dataset's max season. Same
   // data-driven rolling scheme basketball uses.
   const windows = useMemo(() => fbWindows(players), [players])
-  // FB_DRAFT_ROUNDS windows: one per slot + the two per-side re-spins, so the
-  // sequence can never run dry even if both re-spins are used.
+  // FB_DRAFT_ROUNDS windows, split by fbEraSequences into offense's 7 and
+  // defense's 7 (one per slot + that side's re-spin), so neither side's sequence
+  // can run dry and the defensive eras never depend on an offensive re-spin.
   const spins = useMemo(
     () => generateSpins(gameSeed, FB_DRAFT_ROUNDS, windows),
     [gameSeed, windows],
@@ -2008,7 +2015,9 @@ function FbGame({
     savedToday ? 'done' : 'landing',
   )
   const [state, setState] = useState<FbDraftState>(() =>
-    savedToday ? fbRosterFromSaved(savedToday, players) : initFbDraft(spins),
+    savedToday
+      ? fbRosterFromSaved(savedToday, players)
+      : initFbDraft(fbEraSequences(spins)),
   )
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, sport.id, mode.id),
@@ -2018,7 +2027,7 @@ function FbGame({
 
   function start() {
     if (spins.length === 0) return
-    setState(initFbDraft(spins))
+    setState(initFbDraft(fbEraSequences(spins)))
     setPhase('playing')
   }
 
@@ -2052,7 +2061,11 @@ function FbGame({
     const next = randomSeed()
     setGameSeed(next)
     setResult(null)
-    setState(initFbDraft(generateSpins(next, FB_DRAFT_ROUNDS, windows)))
+    setState(
+      initFbDraft(
+        fbEraSequences(generateSpins(next, FB_DRAFT_ROUNDS, windows)),
+      ),
+    )
     setPhase('playing')
   }
 
@@ -2166,7 +2179,9 @@ function FullFbGame({
     savedToday ? 'done' : 'landing',
   )
   const [state, setState] = useState<FbDraftState>(() =>
-    savedToday ? fbRosterFromSaved(savedToday, pool) : initFbDraft(spins),
+    savedToday
+      ? fbRosterFromSaved(savedToday, pool)
+      : initFbDraft(fbEraSequences(spins)),
   )
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, sport.id, mode.id),
@@ -2212,7 +2227,7 @@ function FullFbGame({
 
   function start() {
     if (spins.length === 0) return
-    setState(initFbDraft(spins))
+    setState(initFbDraft(fbEraSequences(spins)))
     setPhase('playing')
   }
 
@@ -2250,7 +2265,9 @@ function FullFbGame({
     setResult(null)
     setState(
       initFbDraft(
-        generateFullSpins(next, FB_DRAFT_ROUNDS, wheels).map((e) => e.window),
+        fbEraSequences(
+          generateFullSpins(next, FB_DRAFT_ROUNDS, wheels).map((e) => e.window),
+        ),
       ),
     )
     setPhase('playing')
@@ -2524,6 +2541,7 @@ export function FbPlaying({
   const reduced = usePrefersReducedMotion()
   const w = currentFbWindow(state)
   const side = fbCurrentSide(state)
+  const eraProgress = fbEraProgress(state)
   const era = fbPlayersThisEra(state, players)
   const selected = selectedId
     ? (era.find((p) => p.id === selectedId) ?? null)
@@ -2760,7 +2778,7 @@ export function FbPlaying({
               ? spinPhase === 'team'
                 ? 'Picking team…'
                 : 'Spinning…'
-              : `🎰 Spin era ${Math.min(state.cursor + 1, state.windows.length)} / ${state.windows.length}`}
+              : `🎰 Spin era ${eraProgress.era} / ${eraProgress.total}`}
           </button>
         </div>
       ) : (
@@ -2771,8 +2789,7 @@ export function FbPlaying({
               {w ? windowLabel(w) : ''}
               <small>
                 {side === 'offense' ? 'Offense' : 'Defense'} · Era{' '}
-                {Math.min(state.cursor + 1, state.windows.length)} /{' '}
-                {state.windows.length}
+                {eraProgress.era} / {eraProgress.total}
               </small>
             </div>
             <button

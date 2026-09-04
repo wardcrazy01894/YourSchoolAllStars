@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { FB_SLOTS } from '../types'
 import type { FbPlayer, FbPosition, FbStats, YearWindow } from '../types'
 import { initFbDraft, draftToSlot } from './football-game'
+import { fbEraSequences } from './football'
 import {
   fbWindowBySlot,
   fbEvaluate,
@@ -10,7 +11,7 @@ import {
 } from './football-result'
 
 const W: YearWindow = { start: 2013, end: 2016 }
-const SEQ: YearWindow[] = Array.from({ length: 14 }, () => W)
+const SEQ = fbEraSequences(Array.from({ length: 14 }, () => W))
 
 const STATLINE: Record<FbPosition, FbStats> = {
   QB: { passYds: 3500, passTD: 35, passInt: 8, rushYds: 700, rushTD: 10 },

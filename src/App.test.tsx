@@ -264,7 +264,7 @@ describe('FbPlaying — award badges and key', () => {
     render(
       <FbPlaying
         players={[fbPlayer('alpha', honors)]}
-        state={initFbDraft(WHEEL)}
+        state={initFbDraft({ offense: WHEEL, defense: [] })}
         wheel={WHEEL}
         hideStats={hideStats}
         power5Of={() => true}
@@ -504,7 +504,7 @@ describe('FbPlaying — Full Football era label', () => {
     render(
       <FbPlaying
         players={[fullFbPlayer('qb1', 'QB')]}
-        state={initFbDraft(WHEEL)}
+        state={initFbDraft({ offense: WHEEL, defense: [] })}
         wheel={WHEEL}
         hideStats={false}
         power5Of={() => true}
@@ -524,7 +524,7 @@ describe('FbPlaying — Full Football era label', () => {
     render(
       <FbPlaying
         players={[fullFbPlayer('qb1', 'QB')]}
-        state={initFbDraft(WHEEL)}
+        state={initFbDraft({ offense: WHEEL, defense: [] })}
         wheel={WHEEL}
         hideStats={false}
         power5Of={() => true}
