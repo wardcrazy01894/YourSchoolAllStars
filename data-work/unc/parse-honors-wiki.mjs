@@ -166,8 +166,8 @@ for (let y = 1997; y <= 2025; y++) {
           }
           return null
         }
-        let school = null
-        let player = null
+        let school
+        let player
         if (carryLeft > 0) {
           school = carryTeam
           player = playerBefore(cells.length - 1)

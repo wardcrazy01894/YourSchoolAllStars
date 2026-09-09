@@ -211,8 +211,8 @@ function slugify(name) {
 const players = new Map() // id → { name, posVotes:Map, ambiguous:bool, seasons:Map<year,stats> }
 
 for (let year = START; year <= END; year++) {
-  let roster = []
-  let stats = []
+  let roster
+  let stats
   try {
     ;[roster, stats] = await Promise.all([
       cfbd(`/roster?team=${encodeURIComponent(TEAM)}&year=${year}`),
