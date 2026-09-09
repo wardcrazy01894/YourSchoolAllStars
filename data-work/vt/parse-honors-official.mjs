@@ -76,7 +76,7 @@ const add = (year, name, honor, source) =>
     const m = head.match(
       /^(\d{4})(?:\s*\([A-Z]+\))?\s*-\s*(First|Second|Third)\s*[Tt]eam:|^(\d{4})(?:\s*\([A-Z]+\))?\s*-\s*Honorable Mention:/,
     )
-    let team = null
+    let team
     if (m) {
       curYear = Number(m[1] ?? m[3])
       team = teamOf(head)

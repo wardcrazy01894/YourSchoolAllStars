@@ -66,7 +66,6 @@ for (let y = 2016; y <= 2025; y++) {
     !/^(So|Jr|Sr|Fr|Gr|RS|R-)\.?$/i.test(t) &&
     !/Team (Offense|Defense|Special)/i.test(t)
 
-  let team = null
   let rows = []
   let cur = null
   for (const line of sec.split('\n')) {
@@ -75,7 +74,7 @@ for (let y = 2016; y <= 2025; y++) {
     // '''First Team Offense''' separators (the closing ''' pins that).
     const tm = t.match(/'''\s*(First|Second|Third)[-\s]team\s*'''/i)
     if (tm) {
-      team = tm[1][0].toUpperCase() + tm[1].slice(1).toLowerCase()
+      const team = tm[1][0].toUpperCase() + tm[1].slice(1).toLowerCase()
       rows.push({ marker: team })
       continue
     }
@@ -114,8 +113,8 @@ for (let y = 2016; y <= 2025; y++) {
       }
       return null
     }
-    let school = null
-    let player = null
+    let school
+    let player
     if (carryLeft > 0) {
       // School cell was rowspanned from an earlier row.
       school = carryTeam
