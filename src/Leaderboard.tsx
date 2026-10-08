@@ -12,7 +12,6 @@ import { useEffect, useState } from 'react'
 import {
   fetchLeaderboard,
   buildLeaderboardRows,
-  yourRankOn,
   ordinal,
   type BoardEntry,
   type LeaderboardRow,
@@ -29,10 +28,14 @@ export interface LeaderboardPanelProps {
   dateKey: string
   /** Games in a season (40 basketball / 16 football) — renders the W–L. */
   games: number
-  /** The viewer's own result today, to flag their row / derive their rank. */
+  /** The viewer's own result today, to flag their row. Pass it ONLY when the
+   *  play actually reached the server (i.e. a standing exists) — otherwise a
+   *  stranger with the same numbers would be flagged as you. */
   yours?: BoardEntry
-  /** The viewer's submit-time standing — the fallback "You placed Xth" when
-   *  their result is below the returned (capped) list. */
+  /** The viewer's submit-time standing — the "You placed Xth of Y when you
+   *  finished" line when their result is below the returned (capped) list.
+   *  Its arrival also triggers a re-read, so a board opened before the
+   *  submit landed picks up the viewer's own row. */
   standing?: Standing | null
   onClose: () => void
 }
@@ -72,20 +75,23 @@ export function LeaderboardPanel({
     return () => {
       live = false
     }
-    // One fetch per open; the identifying inputs are fixed for a mount.
+    // One fetch per open, plus one more when the viewer's own submit lands
+    // (standing goes from null to a value) so their row appears. `yours` is
+    // read from the same render as `standing` and never changes on its own.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [school, sport, mode, dateKey])
+  }, [school, sport, mode, dateKey, standing?.rank])
 
-  // Your rank for the "You placed…" line: fresh from the board when your pair
-  // is on it, else the submit-time standing (never re-ranked).
+  // When the viewer's row is on the board it's flagged in place. When it's
+  // below the shown (capped) list, fall back to their submit-time standing —
+  // rank AND total from that moment, worded as a snapshot, never mixed with
+  // today's total.
   const youShown = state.phase === 'ready' && state.rows.some((r) => r.you)
-  const yourLine = (() => {
-    if (state.phase !== 'ready' || youShown || !yours) return null
-    const fresh = yourRankOn(state.rows, yours)
-    const rank = fresh ?? standing?.rank
-    if (rank === undefined) return null
-    return `You placed ${ordinal(rank)} of ${state.total.toLocaleString('en-US')}`
-  })()
+  const yourLine =
+    state.phase === 'ready' && !youShown && yours && standing
+      ? `You placed ${ordinal(standing.rank)} of ${standing.total.toLocaleString(
+          'en-US',
+        )} when you finished`
+      : null
 
   return (
     <section className="board card" aria-label="Today's leaderboard">

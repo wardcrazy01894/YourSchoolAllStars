@@ -1,5 +1,5 @@
 import type React from 'react'
-import { describe, it, expect, beforeEach, vi } from 'vitest'
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
 import type { BballPlayer, FbPlayer } from './types'
 import { FB_SLOTS } from './types'
@@ -211,6 +211,7 @@ describe('Playing — the pool re-hides when the era advances', () => {
 })
 
 describe('Results — award badges on the final roster', () => {
+  afterEach(() => vi.unstubAllEnvs())
   function renderResults(
     over: Partial<React.ComponentProps<typeof Results>> = {},
   ) {
@@ -252,7 +253,33 @@ describe('Results — award badges on the final roster', () => {
     vi.stubEnv('VITE_LEADERBOARD_ENDPOINT', '')
     renderResults()
     expect(screen.queryByRole('button', { name: /Leaderboard/ })).toBeNull()
-    vi.unstubAllEnvs()
+  })
+
+  it('never flags a board row as "you" when your play never reached the server', async () => {
+    // No standing = the submit didn't happen (offline, non-official, rejected).
+    // A stranger with the same numbers must not be marked as you.
+    vi.stubEnv('VITE_LEADERBOARD_ENDPOINT', 'https://lb.example')
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => ({
+        ok: true,
+        status: 200,
+        json: async () => ({
+          ok: true,
+          total: 2,
+          rows: [
+            { strength: 100, score: 40 },
+            { strength: 0, score: 0 },
+          ],
+        }),
+        text: async () => '',
+      })),
+    )
+    renderResults({ standing: null })
+    fireEvent.click(screen.getByRole('button', { name: /Leaderboard/ }))
+    await screen.findAllByRole('listitem')
+    expect(screen.queryByText(/^you$/i)).toBeNull()
+    vi.unstubAllGlobals()
   })
 
   it('shows the leaderboard standing line on a fresh daily finish', () => {

@@ -378,17 +378,3 @@ export function buildLeaderboardRows(
     return { ...e, rank, you }
   })
 }
-
-/**
- * The viewer's CURRENT rank derived from a fresh board read — exact whenever
- * their pair is within the returned (capped) window, since every better pair
- * is then guaranteed to be on the list. `null` when it isn't (past the cap),
- * so the caller falls back to the submit-time standing. Pure.
- */
-export function yourRankOn(
-  rows: BoardEntry[],
-  yours: BoardEntry,
-): number | null {
-  if (!rows.some((e) => samePair(e, yours))) return null
-  return 1 + rows.filter((e) => betterThan(e, yours)).length
-}

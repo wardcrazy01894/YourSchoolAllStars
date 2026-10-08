@@ -9,7 +9,6 @@ import {
   submitDaily,
   fetchLeaderboard,
   buildLeaderboardRows,
-  yourRankOn,
   PERCENTILE_MIN_TOTAL,
   type Standing,
 } from './leaderboard'
@@ -412,20 +411,5 @@ describe('buildLeaderboardRows (pure)', () => {
     expect(
       buildLeaderboardRows(rows, { strength: 10, score: 5 }).some((r) => r.you),
     ).toBe(false)
-  })
-})
-
-describe('yourRankOn (fresh rank from the board when you are on it)', () => {
-  const rows = [
-    { strength: 92, score: 38 },
-    { strength: 80, score: 34 },
-    { strength: 70, score: 30 },
-  ]
-  it('is 1 + the number of strictly better pairs when your pair appears', () => {
-    expect(yourRankOn(rows, { strength: 80, score: 34 })).toBe(2)
-    expect(yourRankOn(rows, { strength: 92, score: 38 })).toBe(1)
-  })
-  it('is null when your pair is below the returned window (cannot be derived)', () => {
-    expect(yourRankOn(rows, { strength: 10, score: 5 })).toBeNull()
   })
 })

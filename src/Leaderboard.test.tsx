@@ -59,13 +59,15 @@ describe('LeaderboardPanel', () => {
     expect(rows[2].textContent).toMatch(/30–10/)
   })
 
-  it('shows your standing when your result is below the shown list', async () => {
+  it('shows your SUBMIT-TIME standing (rank AND total from then) when below the shown list', async () => {
+    // 300 have finished since you placed 120th of 150 — never mix the old
+    // rank with today's total.
     vi.stubGlobal(
       'fetch',
       vi.fn(async () =>
         okResponse({
           ok: true,
-          total: 150,
+          total: 300,
           rows: [{ strength: 92, score: 38 }],
         }),
       ),
@@ -77,7 +79,53 @@ describe('LeaderboardPanel', () => {
         standing={{ rank: 120, total: 150 }}
       />,
     )
-    expect(await screen.findByText(/You placed 120th of 150/)).toBeTruthy()
+    expect(
+      await screen.findByText(/You placed 120th of 150 when you finished/),
+    ).toBeTruthy()
+    expect(screen.queryByText(/120th of 300/)).toBeNull()
+  })
+
+  it('shares a rank on a full tie and skips the next (1, 2, 2, 4)', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          total: 4,
+          rows: [
+            { strength: 92, score: 38 },
+            { strength: 80, score: 34 },
+            { strength: 80, score: 34 },
+            { strength: 70, score: 30 },
+          ],
+        }),
+      ),
+    )
+    render(<LeaderboardPanel {...PROPS} />)
+    const rows = await screen.findAllByRole('listitem')
+    expect(
+      rows.map((r) => r.querySelector('.board-rank')?.textContent?.slice(1)),
+    ).toEqual(['1', '2', '2', '4'])
+    expect(screen.queryByText(/^you$/i)).toBeNull() // no `yours` → nothing flagged
+  })
+
+  it('re-reads the board once your own submit lands (standing arrives)', async () => {
+    const fetchMock = vi.fn(async () =>
+      okResponse({ ok: true, total: 1, rows: [{ strength: 92, score: 38 }] }),
+    )
+    vi.stubGlobal('fetch', fetchMock)
+    const { rerender } = render(<LeaderboardPanel {...PROPS} />)
+    await screen.findAllByRole('listitem')
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    rerender(
+      <LeaderboardPanel
+        {...PROPS}
+        yours={{ strength: 92, score: 38 }}
+        standing={{ rank: 1, total: 1 }}
+      />,
+    )
+    await screen.findByText(/^you$/i)
+    expect(fetchMock).toHaveBeenCalledTimes(2)
   })
 
   it('shows an empty state when nobody has finished', async () => {

@@ -1886,7 +1886,9 @@ export function Results({
       <div className="record">
         <div className="big">{recordLabel(wins, GAMES)}</div>
         <div className="grade">{grade}</div>
-        <p className="muted">Team strength {strength} / 100</p>
+        <p className="muted">
+          Team strength {saved?.strength ?? strength} / 100
+        </p>
         {mode.daily && <StreakChips streak={streak} />}
         {mode.daily && standing && (
           <p className="standing" title="Anonymous daily leaderboard">
@@ -1982,7 +1984,11 @@ export function Results({
           modeLabel={mode.name}
           dateKey={dateKey}
           games={GAMES}
-          yours={{ strength: saved?.strength ?? strength, score: wins }}
+          yours={
+            standing
+              ? { strength: saved?.strength ?? strength, score: wins }
+              : undefined
+          }
           standing={standing}
           onClose={() => setShowBoard(false)}
         />
@@ -3179,7 +3185,9 @@ function FbResults({
           {wins}&ndash;{FB_GAMES - wins}
         </div>
         <div className="grade">{grade}</div>
-        <p className="muted">Team strength {strength} / 100</p>
+        <p className="muted">
+          Team strength {saved?.strength ?? strength} / 100
+        </p>
         {mode.daily && <StreakChips streak={streak} />}
         {mode.daily && standing && (
           <p className="standing" title="Anonymous daily leaderboard">
@@ -3274,7 +3282,11 @@ function FbResults({
           modeLabel={mode.name}
           dateKey={dateKey}
           games={FB_GAMES}
-          yours={{ strength: saved?.strength ?? strength, score: wins }}
+          yours={
+            standing
+              ? { strength: saved?.strength ?? strength, score: wins }
+              : undefined
+          }
           standing={standing}
           onClose={() => setShowBoard(false)}
         />
