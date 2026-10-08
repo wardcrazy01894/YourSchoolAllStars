@@ -99,12 +99,23 @@ export function percentile(rank: number, total: number): number {
   return Math.min(100, Math.max(1, Math.round((rank / total) * 100)))
 }
 
-/** Human standing line for the Results screen. Pure. */
-export function formatStanding({ rank, total }: Standing): string {
-  if (total <= 1) return 'You’re the first to finish today!'
+/**
+ * Human standing line for the Results screen. Pure. The standing is a snapshot
+ * taken when the player finished (the cache never re-ranks), so a RETURNING
+ * visit must not say "today" — by then hundreds more may have played.
+ */
+export function formatStanding(
+  { rank, total }: Standing,
+  returning = false,
+): string {
+  if (total <= 1)
+    return returning
+      ? 'You were the first to finish when you played'
+      : 'You’re the first to finish today!'
+  const when = returning ? 'when you finished' : 'today'
   const base = `You placed ${ordinal(rank)} of ${total.toLocaleString(
     'en-US',
-  )} today`
+  )} ${when}`
   return total >= PERCENTILE_MIN_TOTAL
     ? `${base} · top ${percentile(rank, total)}%`
     : base
@@ -183,14 +194,20 @@ export function buildSubmitPayload(args: SubmitArgs) {
   }
 }
 
-/** The worker's streak shape → the client's `Streak` (`best` → `max`). */
+/**
+ * The worker's streak shape → the client's `Streak` (`best` → `max`). Only a
+ * REAL streak qualifies for mirroring: a played day and a count ≥ 1. The
+ * worker can't send an empty one today, but a future change must never be
+ * able to overwrite a good local streak with nothing.
+ */
 function streakFromServer(s: unknown): Streak | undefined {
   const o = s as { current?: unknown; best?: unknown; lastDate?: unknown }
   if (
     o &&
     typeof o.current === 'number' &&
+    o.current >= 1 &&
     typeof o.best === 'number' &&
-    (typeof o.lastDate === 'string' || o.lastDate === null)
+    typeof o.lastDate === 'string'
   )
     return { current: o.current, max: o.best, lastDate: o.lastDate }
   return undefined
@@ -234,7 +251,12 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
     }
     const standing: Standing = { rank: data.rank, total: data.total }
     const streak = streakFromServer(data.streak)
-    if (streak) {
+    // Mirror only an answer at least as recent as the seed we just sent — a
+    // stale one (dated before the day we just saved locally) is ignored.
+    if (
+      streak &&
+      (args.seed.lastDate === null || streak.lastDate >= args.seed.lastDate)
+    ) {
       standing.streak = streak
       writeStreak(school, sport, streak, mode)
     }

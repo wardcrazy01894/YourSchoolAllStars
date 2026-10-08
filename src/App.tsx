@@ -1845,7 +1845,7 @@ export function Results({
         {mode.daily && <StreakChips streak={streak} />}
         {mode.daily && standing && (
           <p className="standing" title="Anonymous daily leaderboard">
-            🏆 {formatStanding(standing)}
+            🏆 {formatStanding(standing, returning)}
           </p>
         )}
       </div>
@@ -3098,7 +3098,7 @@ function FbResults({
         {mode.daily && <StreakChips streak={streak} />}
         {mode.daily && standing && (
           <p className="standing" title="Anonymous daily leaderboard">
-            🏆 {formatStanding(standing)}
+            🏆 {formatStanding(standing, returning)}
           </p>
         )}
       </div>

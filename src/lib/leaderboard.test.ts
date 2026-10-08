@@ -65,6 +65,17 @@ describe('ordinal / percentile / formatStanding', () => {
     expect(percentile(100, 100)).toBe(100)
     expect(percentile(1, 0)).toBe(100)
   })
+  it('formatStanding on a returning visit is a snapshot, not "today"', () => {
+    expect(formatStanding({ rank: 3, total: 7 }, true)).toBe(
+      'You placed 3rd of 7 when you finished',
+    )
+    expect(formatStanding({ rank: 1, total: 1 }, true)).toBe(
+      'You were the first to finish when you played',
+    )
+    expect(formatStanding({ rank: 2, total: 40 }, true)).toBe(
+      'You placed 2nd of 40 when you finished · top 5%',
+    )
+  })
   it('formatStanding: first finisher, small field, big field', () => {
     expect(formatStanding({ rank: 1, total: 1 })).toBe(
       'You’re the first to finish today!',
@@ -175,6 +186,45 @@ describe('submitDaily', () => {
     await submitDaily({ ...ARGS, mode: 'daily-iq' })
     expect(loadStreak('michigan', 'basketball', 'daily-iq').current).toBe(7)
     expect(loadStreak('michigan', 'basketball', 'daily').current).toBe(0)
+  })
+  it('does not mirror a server streak that is empty or older than the seed', async () => {
+    saveDailyResult('michigan', 'basketball', {
+      dateKey: '2026-10-08',
+      playerIds: {},
+      wins: 31,
+      grade: 'GOOD',
+    })
+    // Empty / undated streak: never overwrite a real local one with nothing.
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          rank: 1,
+          total: 1,
+          streak: { current: 0, best: 9, lastDate: null },
+        }),
+      ),
+    )
+    let s = await submitDaily(ARGS)
+    expect(s).toEqual({ rank: 1, total: 1 })
+    expect(loadStreak('michigan', 'basketball').current).toBe(1)
+    // Dated BEFORE the seed we just sent: a stale answer, keep the local copy.
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          rank: 1,
+          total: 1,
+          streak: { current: 3, best: 3, lastDate: '2026-10-07' },
+        }),
+      ),
+    )
+    localStorage.removeItem('ysas:lb:v1:michigan:basketball:daily:2026-10-08')
+    s = await submitDaily(ARGS)
+    expect(s).toEqual({ rank: 1, total: 1 })
+    expect(loadStreak('michigan', 'basketball').current).toBe(1)
   })
   it('leaves the local streak alone when the server omits one', async () => {
     saveDailyResult('michigan', 'basketball', {
