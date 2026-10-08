@@ -14,6 +14,9 @@ dist/
 # Local-only harness settings.
 .claude/settings.local.json
 
+# Wrangler's local D1/state for the leaderboard worker (`wrangler dev`).
+worker/.wrangler/
+
 # Scratch dir created by data-pipeline scripts during local runs.
 scripts/tmp/
 data/_raw/
@@ -24,3 +27,6 @@ data/_raw/
 data-work/unc/guide-xml/
 data-work/unc/guide-txt/
 data-work/unc/guide-img/
+
+# Vitest JSON reporter output (written by the rtk test wrapper).
+.vitest/
