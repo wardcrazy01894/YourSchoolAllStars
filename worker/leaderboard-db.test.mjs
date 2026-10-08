@@ -175,15 +175,13 @@ describe('updateStreak (real streaks table)', () => {
     const s = await updateStreak(db, sub('friend', '2026-10-08', seed), NOW)
     expect(s).toEqual({ current: 55, best: 55, lastDate: '2026-10-08' })
   })
-  it('best is the max across both records', async () => {
-    await updateStreak(
-      db,
-      sub('dev', '2026-10-08', { current: 2, max: 30, lastDate: '2026-10-08' }),
-      NOW,
-    )
-    const seed = { current: 3, max: 3, lastDate: '2026-10-09' }
+  it('best is the max across both records, even when the LOSING side holds it', async () => {
+    await updateStreak(db, sub('dev', '2026-10-08'), NOW) // stored: 1 / best 1
+    // Stored advances to 2 and wins on current; the seed loses but carries 30.
+    const seed = { current: 1, max: 30, lastDate: '2026-10-09' }
     const s = await updateStreak(db, sub('dev', '2026-10-09', seed), NOW)
-    expect(s).toEqual({ current: 3, best: 30, lastDate: '2026-10-09' })
+    expect(s).toEqual({ current: 2, best: 30, lastDate: '2026-10-09' })
+    expect(row('dev')).toMatchObject({ current: 2, best: 30 })
   })
   it('streaks are per (school, sport, mode)', async () => {
     await updateStreak(db, sub('dev', '2026-07-08'), NOW)

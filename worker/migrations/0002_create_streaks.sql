@@ -15,9 +15,10 @@
 -- The worker advances this on every official daily submission (see
 -- updateStreak in leaderboard-lib.mjs): same-day replay = no change,
 -- previous-day = +1, a gap made only of listed site-outage days = carried and
--- credited, any other gap = reset to 1; `best` is the all-time high. The first
--- time a device is seen, the row is BOOTSTRAPPED from the streak the client
--- already held locally, so streaks earned before this table existed carry over.
+-- credited, any other gap = reset to 1; `best` is the all-time high. On EVERY
+-- submit the row is RECONCILED with the streak the client holds locally (both
+-- advanced to the day, the better one wins), so streaks earned before this
+-- table existed carry over and a run of failed submits can never cost one.
 
 CREATE TABLE IF NOT EXISTS streaks (
   school           TEXT    NOT NULL,

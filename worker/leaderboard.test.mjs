@@ -18,6 +18,7 @@ import {
   validateView,
   validateSeed,
   validateSubmission,
+  reconcileStreak,
   cutoffDateKey,
   RETENTION_DAYS,
   dayDiff,
@@ -180,31 +181,33 @@ describe('validateView', () => {
 })
 
 describe('validateSeed', () => {
+  // Afternoon Eastern on 2026-10-08: the submit window is 10-07..10-09.
+  const NOW = new Date('2026-10-08T16:00:00Z')
   const DATE = '2026-10-08'
   it('absent → no seed', () => {
-    expect(validateSeed(undefined, DATE)).toEqual({ ok: true, value: null })
-    expect(validateSeed(null, DATE)).toEqual({ ok: true, value: null })
+    expect(validateSeed(undefined, NOW)).toEqual({ ok: true, value: null })
+    expect(validateSeed(null, NOW)).toEqual({ ok: true, value: null })
   })
   it('passes a well-formed client streak through', () => {
-    expect(
-      validateSeed({ current: 54, max: 54, lastDate: '2026-10-08' }, DATE),
-    ).toEqual({
-      ok: true,
-      value: { current: 54, max: 54, lastDate: '2026-10-08' },
-    })
+    expect(validateSeed({ current: 54, max: 54, lastDate: DATE }, NOW)).toEqual(
+      {
+        ok: true,
+        value: { current: 54, max: 54, lastDate: DATE },
+      },
+    )
   })
   it('a never-played streak is the same as no seed', () => {
-    expect(validateSeed({ current: 0, max: 0, lastDate: null }, DATE)).toEqual({
+    expect(validateSeed({ current: 0, max: 0, lastDate: null }, NOW)).toEqual({
       ok: true,
       value: null,
     })
   })
   it('treats a malformed seed as NO seed (advisory — never fails the score)', () => {
     const none = { ok: true, value: null }
-    expect(
-      validateSeed({ current: 1.5, max: 2, lastDate: DATE }, DATE),
-    ).toEqual(none)
-    expect(validateSeed({ current: 5, max: 2, lastDate: DATE }, DATE)).toEqual(
+    expect(validateSeed({ current: 1.5, max: 2, lastDate: DATE }, NOW)).toEqual(
+      none,
+    )
+    expect(validateSeed({ current: 5, max: 2, lastDate: DATE }, NOW)).toEqual(
       none,
     )
     expect(
@@ -214,23 +217,77 @@ describe('validateSeed', () => {
           max: MAX_SEED_STREAK + 1,
           lastDate: DATE,
         },
-        DATE,
+        NOW,
       ),
     ).toEqual(none)
     expect(
-      validateSeed({ current: 1, max: 1, lastDate: 'yesterday' }, DATE),
+      validateSeed({ current: 1, max: 1, lastDate: 'yesterday' }, NOW),
     ).toEqual(none)
-    expect(validateSeed('54', DATE)).toEqual(none)
+    expect(validateSeed('54', NOW)).toEqual(none)
   })
-  it('keeps a seed whose lastDate is after the submitted day (old-tab finish)', () => {
-    // An old tab finishing yesterday's puzzle after today was already played:
-    // advanceStreak's backwards guard handles it; the seed is still valid.
+  it('keeps a seed dated tomorrow (old-tab finish / clock skew inside the window)', () => {
     expect(
-      validateSeed({ current: 2, max: 2, lastDate: '2026-10-09' }, DATE),
+      validateSeed({ current: 2, max: 2, lastDate: '2026-10-09' }, NOW),
     ).toEqual({
       ok: true,
       value: { current: 2, max: 2, lastDate: '2026-10-09' },
     })
+  })
+  it('drops a seed dated beyond the submit window (would freeze the row)', () => {
+    const none = { ok: true, value: null }
+    expect(
+      validateSeed({ current: 9, max: 9, lastDate: '2099-01-01' }, NOW),
+    ).toEqual(none)
+    expect(
+      validateSeed({ current: 9, max: 9, lastDate: '2026-10-10' }, NOW),
+    ).toEqual(none)
+  })
+})
+
+describe('reconcileStreak', () => {
+  const row = (current, best, last_played_date) => ({
+    current,
+    best,
+    last_played_date,
+  })
+  it('no stored row → the seed bootstraps', () => {
+    expect(
+      reconcileStreak(null, row(54, 54, '2026-10-08'), '2026-10-08'),
+    ).toEqual(row(54, 54, '2026-10-08'))
+  })
+  it('the better advanced record wins; ties keep the stored row', () => {
+    expect(
+      reconcileStreak(
+        row(5, 5, '2026-10-08'),
+        row(8, 8, '2026-10-11'),
+        '2026-10-11',
+      ),
+    ).toEqual(row(8, 8, '2026-10-11'))
+    expect(
+      reconcileStreak(
+        row(1, 1, '2026-10-08'),
+        row(2, 2, '2026-10-09'),
+        '2026-10-09',
+      ),
+    ).toEqual(row(2, 2, '2026-10-09'))
+  })
+  it('best is the max across BOTH records, even when the loser holds it', () => {
+    expect(
+      reconcileStreak(
+        row(2, 2, '2026-10-08'),
+        row(1, 30, '2026-10-09'),
+        '2026-10-09',
+      ),
+    ).toEqual(row(3, 30, '2026-10-09'))
+  })
+  it('never rolls last_played_date backwards because of the seed', () => {
+    expect(
+      reconcileStreak(
+        row(3, 3, '2026-10-12'),
+        row(5, 5, '2026-10-10'),
+        '2026-10-11',
+      ),
+    ).toEqual(row(3, 3, '2026-10-12'))
   })
 })
 

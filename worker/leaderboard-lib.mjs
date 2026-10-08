@@ -139,11 +139,16 @@ export function validateView(query) {
  * with a submission — see updateStreak for how it's used. ADVISORY: a missing,
  * empty, or malformed seed simply becomes `null`; it never fails the score.
  * (The client always builds it from a typed Streak, so "malformed" means a
- * hand-crafted request — dropping it is the right outcome.) A seed dated AFTER
- * the submitted day is kept: that's an old tab finishing yesterday's puzzle
- * after today was played, and advanceStreak's backwards guard handles it.
+ * hand-crafted request — dropping it is the right outcome.)
+ *
+ * `lastDate` may be up to the LATEST day the submit window accepts for `now`
+ * (tomorrow, ET): that keeps the legitimate "old tab finishing yesterday after
+ * today was played" case, while a seed dated further ahead (a device clock
+ * once set years forward) is dropped — otherwise it would win on `current`,
+ * park `last_played_date` in the future, and freeze the row behind the
+ * backwards guard forever.
  */
-export function validateSeed(seed) {
+export function validateSeed(seed, now = new Date()) {
   const none = { ok: true, value: null }
   if (seed == null || typeof seed !== 'object') return none
   const { current, max, lastDate } = seed
@@ -152,6 +157,8 @@ export function validateSeed(seed) {
   if (lastDate !== null && !isValidDateKey(lastDate)) return none
   // Nothing played yet is the same as no seed.
   if (lastDate === null || current === 0) return none
+  const latest = [...validDateKeys(now)].sort().pop()
+  if (lastDate > latest) return none
   return { ok: true, value: { current, max, lastDate } }
 }
 
@@ -178,7 +185,7 @@ export function validateSubmission(body, now = new Date()) {
   if (!isValidClientId(clientId))
     return { ok: false, status: 400, error: 'invalid clientId' }
 
-  const seed = validateSeed(body?.seed).value
+  const seed = validateSeed(body?.seed, now).value
 
   return {
     ok: true,
@@ -371,9 +378,13 @@ export async function updateStreak(
 export function reconcileStreak(stored, fromSeed, dateKey) {
   const a = advanceStreak(stored, dateKey)
   if (!fromSeed) return a
+  // A submit dated BEFORE the stored row's last play (old tab, or two requests
+  // racing) must not let the seed roll `last_played_date` backwards — the
+  // stored row stands, exactly as advanceStreak's own backwards guard does.
+  if (stored && dateKey < stored.last_played_date) return a
   const b = advanceStreak(fromSeed, dateKey)
   const winner = b.current > a.current ? b : a
-  return { ...winner, best: Math.max(a.best, b.best, winner.current) }
+  return { ...winner, best: Math.max(a.best, b.best) }
 }
 
 /**

@@ -113,7 +113,10 @@ wrangler d1 execute ysas-leaderboard --remote -c worker/wrangler.toml \
 The player sees the repaired value on their next submit (the client mirrors the
 server streak). Set `last_played_date` to the last day that should COUNT — the
 next real play advances from it; the reconcile rule keeps the repair over the
-device's reset copy because the repaired count is higher. For a site-wide outage, add the day to `OUTAGE_DAYS` in **both**
+device's reset copy because the repaired count is higher. The flip side: a
+repair can only RAISE a streak — lowering an inflated one doesn't stick, because
+the device's next seed carries the higher number back (inherent to trusting the
+seed; anti-cheat is a non-goal). For a site-wide outage, add the day to `OUTAGE_DAYS` in **both**
 `worker/leaderboard-lib.mjs` and `src/lib/progress.ts` instead.
 
 ## Tests
