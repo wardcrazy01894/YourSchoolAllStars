@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import {
   EMPTY_STREAK,
+  OUTAGE_DAYS,
   dayDiff,
   nextStreak,
   loadStreak,
@@ -90,6 +91,74 @@ describe('nextStreak', () => {
     s = nextStreak(s, '2026-06-24') // backwards — ignored
     s = nextStreak(s, '2026-06-27') // the genuine next day
     expect(s).toEqual({ current: 3, max: 3, lastDate: '2026-06-27' })
+  })
+})
+
+describe('nextStreak — outage amnesty', () => {
+  // The site was offline for all of 2026-10-07 (hosting account suspension), so
+  // nobody could play that daily. A gap that consists ONLY of outage days must
+  // not break a streak, and the outage day is credited as played — the player
+  // did everything they could, so their count reads as if the day happened.
+  it('lists the 2026-10-07 outage', () => {
+    expect(OUTAGE_DAYS).toContain('2026-10-07')
+  })
+  it('carries a streak across the outage day and credits it', () => {
+    const before = { current: 52, max: 52, lastDate: '2026-10-06' }
+    expect(nextStreak(before, '2026-10-08')).toEqual({
+      current: 54,
+      max: 54,
+      lastDate: '2026-10-08',
+    })
+  })
+  it('credits the outage for a short streak too (1 → 3)', () => {
+    const before = { current: 1, max: 9, lastDate: '2026-10-06' }
+    expect(nextStreak(before, '2026-10-08')).toEqual({
+      current: 3,
+      max: 9,
+      lastDate: '2026-10-08',
+    })
+  })
+  it('does not forgive a gap that includes a non-outage day', () => {
+    // Missed 2026-10-06 (a real day) as well as the outage → genuine break.
+    const before = { current: 52, max: 52, lastDate: '2026-10-05' }
+    expect(nextStreak(before, '2026-10-08')).toEqual({
+      current: 1,
+      max: 52,
+      lastDate: '2026-10-08',
+    })
+  })
+  it('does not forgive a return several days after the outage', () => {
+    // Played 10-06, outage 10-07, then skipped 10-08 → 10-08 breaks it.
+    const before = { current: 52, max: 52, lastDate: '2026-10-06' }
+    expect(nextStreak(before, '2026-10-09')).toEqual({
+      current: 1,
+      max: 52,
+      lastDate: '2026-10-09',
+    })
+  })
+  it('keeps the backwards-date guard ahead of the amnesty', () => {
+    // Opening the outage day's ?date= URL AFTER playing a later day must not
+    // roll lastDate back or re-credit anything.
+    const after = { current: 54, max: 54, lastDate: '2026-10-08' }
+    expect(nextStreak(after, '2026-10-07')).toBe(after)
+  })
+  it('leaves a never-played streak alone', () => {
+    expect(nextStreak(EMPTY_STREAK, '2026-10-08')).toEqual({
+      current: 1,
+      max: 1,
+      lastDate: '2026-10-08',
+    })
+  })
+  it('does not double-credit when lastDate IS the outage day', () => {
+    // A ?date=2026-10-07 playtest saves with advanceStreak:false (App only
+    // advances on the real current day), so lastDate normally can't land on an
+    // outage day — but if it does, the next day is an ordinary +1, not +2.
+    const before = { current: 53, max: 53, lastDate: '2026-10-07' }
+    expect(nextStreak(before, '2026-10-08')).toEqual({
+      current: 54,
+      max: 54,
+      lastDate: '2026-10-08',
+    })
   })
 })
 

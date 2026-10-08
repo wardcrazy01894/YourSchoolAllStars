@@ -15,15 +15,46 @@ export interface Streak {
 
 export const EMPTY_STREAK: Streak = { current: 0, max: 0, lastDate: null }
 
+/**
+ * Days (ET dateKeys) on which the site was unreachable, so NOBODY could play the
+ * daily. A gap made up solely of these days doesn't break a streak, and each is
+ * credited as played — the player did everything they could. Keep this list
+ * short and dated; it's an append-only record of real outages.
+ *
+ * - 2026-10-07: GitHub Pages offline all day (hosting account suspended).
+ */
+export const OUTAGE_DAYS: readonly string[] = ['2026-10-07']
+
 /** Whole-day difference between two 'YYYY-MM-DD' keys (b − a). */
 export function dayDiff(a: string, b: string): number {
   const ms = Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)
   return Math.round(ms / 86_400_000)
 }
 
+/** The 'YYYY-MM-DD' key `n` days after `dateKey`. */
+function addDays(dateKey: string, n: number): string {
+  return new Date(Date.parse(`${dateKey}T00:00:00Z`) + n * 86_400_000)
+    .toISOString()
+    .slice(0, 10)
+}
+
+/**
+ * True when every one of the `diff - 1` days strictly after `from` (and before
+ * the day being played) is a listed outage day, i.e. the gap consists only of
+ * days nobody could have played.
+ */
+function gapIsAllOutage(from: string, diff: number): boolean {
+  for (let n = 1; n < diff; n++) {
+    if (!OUTAGE_DAYS.includes(addDays(from, n))) return false
+  }
+  return true
+}
+
 /**
  * Advance a streak when a daily is completed on `dateKey`. Same-day replays don't
- * double-count; a gap of more than one day resets to 1.
+ * double-count; a gap of more than one day resets to 1 — unless every skipped
+ * day was a site outage (`OUTAGE_DAYS`), in which case the streak continues and
+ * the outage days are credited too.
  */
 export function nextStreak(prev: Streak, dateKey: string): Streak {
   if (prev.lastDate === dateKey) return prev // already counted today
@@ -33,7 +64,13 @@ export function nextStreak(prev: Streak, dateKey: string): Streak {
   // make every later real day read as a gap and silently break the count. The
   // daily itself is still persisted by saveDailyResult; only the streak is held.
   if (diff !== null && diff < 0) return prev
-  const current = diff === 1 ? prev.current + 1 : 1
+  // diff is null (first play) or ≥ 1 here: 0 was the same-day short-circuit.
+  const continues =
+    prev.lastDate !== null &&
+    diff !== null &&
+    (diff === 1 || gapIsAllOutage(prev.lastDate, diff))
+  // `diff` counts the outage days plus today, so a forgiven gap credits each.
+  const current = continues ? prev.current + diff : 1
   return { current, max: Math.max(prev.max, current), lastDate: dateKey }
 }
 
