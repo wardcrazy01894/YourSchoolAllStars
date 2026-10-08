@@ -17,6 +17,7 @@ import {
 } from './App'
 import { getSport } from './lib/sports'
 import { writeStreak } from './lib/progress'
+import { getDateKey } from './lib/daily'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -589,15 +590,16 @@ describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
     screen.getByRole('button', { name: new RegExp(name) })
 
   it('shows the Daily Challenge streak on the Daily Challenge card, and Daily IQ’s on its card', () => {
+    const today = getDateKey()
     writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
       current: 3,
       max: 12,
-      lastDate: '2026-10-08',
+      lastDate: today,
     })
     writeStreak(
       DEFAULT_SCHOOL_ID,
       'basketball',
-      { current: 1, max: 20, lastDate: '2026-10-08' },
+      { current: 1, max: 20, lastDate: today },
       'daily-iq',
     )
     renderMenu()
@@ -605,19 +607,42 @@ describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
     // streak (Daily's 3) and highest best (Daily IQ's 20).
     const headline = document.querySelector('.hero .streaks')!
     expect(headline.textContent).toMatch(/🔥 3 days/)
-    expect(headline.textContent).toMatch(/best 20/)
+    expect(headline.textContent).toMatch(/best 20\b/)
     expect(card('Daily Challenge').textContent).toMatch(/🔥 3 days/)
-    expect(card('Daily Challenge').textContent).toMatch(/best 12/)
+    expect(card('Daily Challenge').textContent).toMatch(/best 12\b/)
     expect(card('Daily IQ').textContent).toMatch(/🔥 1 day\b/)
-    expect(card('Daily IQ').textContent).toMatch(/best 20/)
+    expect(card('Daily IQ').textContent).toMatch(/best 20\b/)
     // Free-play cards never carry a streak.
     expect(card('Classic').textContent).not.toMatch(/🔥/)
     expect(card('Hoops IQ').textContent).not.toMatch(/🔥/)
   })
 
-  it('shows a broken streak honestly (0 days, best kept) and nothing when never played', () => {
+  it('the user’s example: Daily IQ 10, Daily 6 → 10 on IQ, 6 on Daily, 10 up top', () => {
+    const today = getDateKey()
     writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
-      current: 0,
+      current: 6,
+      max: 6,
+      lastDate: today,
+    })
+    writeStreak(
+      DEFAULT_SCHOOL_ID,
+      'basketball',
+      { current: 10, max: 10, lastDate: today },
+      'daily-iq',
+    )
+    renderMenu()
+    expect(card('Daily IQ').textContent).toMatch(/🔥 10 days/)
+    expect(card('Daily Challenge').textContent).toMatch(/🔥 6 days/)
+    expect(document.querySelector('.hero .streaks')!.textContent).toMatch(
+      /🔥 10 days/,
+    )
+  })
+
+  it('a LAPSED streak reads 0 days (best kept) even though storage still holds the old count', () => {
+    // Storage only changes on a play, so a streak abandoned weeks ago still
+    // holds e.g. current 7. The UI must not show it as alive.
+    writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
+      current: 7,
       max: 7,
       lastDate: '2026-09-01',
     })

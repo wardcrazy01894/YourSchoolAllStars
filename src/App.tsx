@@ -87,6 +87,7 @@ import {
   loadDaily,
   loadStreak,
   saveDailyResult,
+  displayStreak,
   EMPTY_STREAK,
   type Streak,
   type SavedDaily,
@@ -715,12 +716,18 @@ export function ModeMenu({
   // Each DAILY flow keeps its own lock + streak (Daily and Daily IQ are separate
   // one-shots). Read each here so every daily card can show ITS OWN streak —
   // read ONCE (side-effectful storage).
+  // Shown as DISPLAY streaks: a lapsed one reads 0 days (storage keeps the old
+  // count until the next play), so a card or the headline never claims a run
+  // that can no longer be continued.
   const [streaks] = useState(
     () =>
       Object.fromEntries(
         modes
           .filter((m) => m.daily)
-          .map((m) => [m.id, loadStreak(school.id, sport.id, m.id)]),
+          .map((m) => [
+            m.id,
+            displayStreak(loadStreak(school.id, sport.id, m.id), getDateKey()),
+          ]),
       ) as Record<string, Streak>,
   )
   // The headline is the LARGEST streak across every daily mode: the longest
@@ -762,8 +769,8 @@ export function ModeMenu({
           // Every daily flow is a separate one-shot with an independent streak,
           // so each daily card carries its own chip (current + best); the
           // headline above is the largest across them. A mode never completed
-          // (max 0) shows nothing; a broken streak shows "0 days" with the
-          // best kept, honestly.
+          // (max 0) shows nothing; a lapsed streak shows "0 days" with the
+          // best kept (displayStreak above).
           const s = m.daily ? (streaks[m.id] ?? EMPTY_STREAK) : undefined
           return (
             <button
@@ -1241,8 +1248,11 @@ function FullGame({
   )
 }
 
-function StreakChips({ streak }: { streak: Streak }) {
-  if (streak.max === 0) return null // never completed a day — nothing to show
+function StreakChips({ streak: stored }: { streak: Streak }) {
+  if (stored.max === 0) return null // never completed a day — nothing to show
+  // A lapsed streak reads 0 days (see displayStreak) — Landing and Results
+  // pass the stored value, which only changes on a play.
+  const streak = displayStreak(stored, getDateKey())
   return (
     <div className="streaks">
       <span className="streak-chip" title="Consecutive days played">

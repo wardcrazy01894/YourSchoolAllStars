@@ -75,6 +75,22 @@ export function nextStreak(prev: Streak, dateKey: string): Streak {
 }
 
 /**
+ * What the UI should SHOW for a stored streak on `todayKey`. Storage only
+ * changes on a play, so a streak abandoned weeks ago still holds its old
+ * `current`; nothing lowers it until the next play resets it to 1. For display,
+ * a streak is alive only if it can still be continued today — last play today
+ * or yesterday, or separated only by outage days — otherwise it reads 0 (best
+ * kept). Pure; never written back (the stored value is what the next play and
+ * the server seed reason from).
+ */
+export function displayStreak(s: Streak, todayKey: string): Streak {
+  if (s.lastDate === null || s.current === 0) return s
+  const diff = dayDiff(s.lastDate, todayKey)
+  if (diff <= 1 || gapIsAllOutage(s.lastDate, diff)) return s
+  return { ...s, current: 0 }
+}
+
+/**
  * A completed daily, persisted so the day can't be replayed and reloads restore
  * it. Sport-agnostic by key: `playerIds`/`windows` are keyed by a SLOT string —
  * basketball uses its `BballPosition` ids (`PG`/`SG`/…), football uses its
