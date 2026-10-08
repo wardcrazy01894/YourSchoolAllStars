@@ -200,7 +200,9 @@ export function buildSubmitPayload(args: SubmitArgs) {
  * worker can't send an empty one today, but a future change must never be
  * able to overwrite a good local streak with nothing.
  */
-function streakFromServer(s: unknown): Streak | undefined {
+function streakFromServer(
+  s: unknown,
+): (Streak & { lastDate: string }) | undefined {
   const o = s as { current?: unknown; best?: unknown; lastDate?: unknown }
   if (
     o &&
