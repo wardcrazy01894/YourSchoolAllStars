@@ -90,7 +90,10 @@ wrangler deploy -c worker/wrangler.toml
 
 Then set the repo **Variable** `VITE_LEADERBOARD_ENDPOINT` (Settings → Secrets
 and variables → Actions → Variables) to the printed URL; `deploy.yml` bakes it
-into the site build. Locally, put it in `.env.local`.
+into the site build. Locally, put it in `.env.local`. **The same origin must be
+in `connect-src` of the Content-Security-Policy in `index.html`** (pinned by
+`src/csp.test.ts`) — without it the browser blocks every submit and the game
+silently carries on with local streaks only.
 
 Everything here is on Cloudflare's free plan: Workers (100k req/day), D1 (5M
 reads / 100k writes per day, 5 GB), the rate-limit binding and Cron Triggers.
