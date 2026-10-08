@@ -1,0 +1,24 @@
+{
+  // Type-check the Cloudflare Worker source. The worker is JSDoc-typed plain
+  // ESM (.mjs), so it needs allowJs + checkJs — the base tsconfig only compiles
+  // the app's .ts/.tsx. Test files (*.test.mjs) are excluded: their vitest mock
+  // factories infer over-narrow types that aren't worth annotating around.
+  //
+  // strict is OFF here on purpose: the worker is loosely JSDoc-typed and its
+  // runtime handler signatures (request/env/ctx) would need
+  // @cloudflare/workers-types to satisfy noImplicitAny. This pass is a safety
+  // net for structural breakage it CAN catch without strict — non-existent
+  // property access, wrong arg counts, unused locals — not wrong arg *types*.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": false,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["worker/leaderboard-lib.mjs", "worker/leaderboard.mjs"]
+}

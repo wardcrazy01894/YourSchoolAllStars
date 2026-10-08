@@ -1,0 +1,49 @@
+# YourSchoolAllStars leaderboard + streaks Worker. Deploy with:
+#   wrangler deploy -c worker/wrangler.toml
+# Its OWN Worker + D1 database, independent of KnowYourCity's (same design,
+# separate resources — if one is ever retired the other is unaffected).
+
+name = "ysas-leaderboard"
+main = "leaderboard.mjs"
+compatibility_date = "2025-11-01"
+
+[vars]
+# Comma-separated allowed origins (worker rejects other browser origins).
+# Includes localhost for local testing.
+ALLOWED_ORIGIN = "https://wardcrazy01894.github.io,http://localhost:5173,http://localhost:4173"
+
+# --- D1 database (scores + streaks tables) -----------------------------------
+# Create it once, then paste the printed database_id below:
+#   wrangler d1 create ysas-leaderboard
+#   wrangler d1 migrations apply ysas-leaderboard --local  -c worker/wrangler.toml   # local dev
+#   wrangler d1 migrations apply ysas-leaderboard --remote -c worker/wrangler.toml   # production
+[[d1_databases]]
+binding = "DB"
+database_name = "ysas-leaderboard"
+database_id = "5c7c05d0-7a96-45f8-9f28-9b3fbe2bc02d"
+migrations_dir = "migrations"
+
+# Per-IP rate limit — GA binding, needs NO account resource (just this config).
+# 30 requests / 60s per IP: generous for real play (one submit per game/day)
+# while capping a single source's ability to stuff the "of Y" denominator. This
+# satisfies the worker's fail-closed check, so a fresh deploy is not wide-open.
+# namespace_id must be unique per account (KnowYourCity's limiter is 1001).
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "3001"
+
+  [ratelimits.simple]
+  limit = 30
+  period = 60
+
+# Daily retention prune (Cron Trigger) — deletes scores older than
+# RETENTION_DAYS (90) so the table stays bounded no matter the traffic. Runs at
+# 05:00 UTC (off-peak ET). Free — Cron Triggers cost nothing. Streaks are kept.
+[triggers]
+crons = ["0 5 * * *"]
+
+# --- Optional secrets (set with `wrangler secret put NAME -c worker/wrangler.toml`)
+# TURNSTILE_SECRET  optional. When set, a valid Turnstile token is REQUIRED on
+#                   every submission. The client submits automatically with no
+#                   widget, so leave this UNSET unless you also wire an
+#                   invisible Turnstile execute on the client.

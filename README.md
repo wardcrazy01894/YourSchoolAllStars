@@ -40,8 +40,12 @@ Add `?date=YYYY-MM-DD` to play any day's deterministic puzzle.
 
 ## How it works
 
-No backend. The day (in **ET**) seeds a PRNG that picks the same windows for
-everyone. A player's stat line + honors become a 0–100 rating; the five ratings
+No backend for gameplay. The day (in **ET**) seeds a PRNG that picks the same
+windows for everyone. An optional, anonymous Cloudflare Worker + D1 database
+([`worker/`](worker/README.md)) records each daily play for a "you placed Xth
+of Y today" line and keeps a server-side copy of every streak so one can be
+repaired if the site is ever down; unset `VITE_LEADERBOARD_ENDPOINT` and the
+game runs fully without it. A player's stat line + honors become a 0–100 rating; the five ratings
 (PG and C weighted up) combine — with a **"no weak links"** penalty on your worst
 starter — into a projected record out of 40. Full model and tunable constants in
 [`docs/PLAN.md`](docs/PLAN.md) §Rating model.

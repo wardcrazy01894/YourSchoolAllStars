@@ -1,3 +1,4 @@
+import type React from 'react'
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
 import type { BballPlayer, FbPlayer } from './types'
@@ -200,7 +201,9 @@ describe('Playing — the pool re-hides when the era advances', () => {
 })
 
 describe('Results — award badges on the final roster', () => {
-  function renderResults() {
+  function renderResults(
+    over: Partial<React.ComponentProps<typeof Results>> = {},
+  ) {
     const state = initDraft(WHEEL)
     state.slots.PG = PLAYERS[0]
     state.picks = [{ player: PLAYERS[0], position: 'PG', window: WHEEL[0] }]
@@ -214,9 +217,31 @@ describe('Results — award badges on the final roster', () => {
         saved={null}
         returning={false}
         onPlayAgain={() => {}}
+        {...over}
       />,
     )
   }
+
+  it('shows the leaderboard standing line on a fresh daily finish', () => {
+    renderResults({ standing: { rank: 3, total: 7 } })
+    expect(screen.getByText(/You placed 3rd of 7 today/)).toBeTruthy()
+  })
+
+  it('words a RETURNING visit as a snapshot (the board has moved on since)', () => {
+    renderResults({ standing: { rank: 3, total: 7 }, returning: true })
+    expect(
+      screen.getByText(/You placed 3rd of 7 when you finished/),
+    ).toBeTruthy()
+    expect(screen.queryByText(/today/)).toBeNull()
+  })
+
+  it('shows no standing line without one, or in a free-play mode', () => {
+    renderResults()
+    expect(screen.queryByText(/You placed/)).toBeNull()
+    cleanup()
+    renderResults({ mode: getMode('classic'), standing: { rank: 1, total: 9 } })
+    expect(screen.queryByText(/You placed/)).toBeNull()
+  })
 
   it('shows each starter’s award badges next to their name', () => {
     renderResults()

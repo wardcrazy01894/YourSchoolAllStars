@@ -146,6 +146,21 @@ export function loadStreak(
   return read<Streak>(streakKey(school, sport, mode), EMPTY_STREAK)
 }
 
+/**
+ * Persist a streak verbatim — used to MIRROR the server-authoritative streak
+ * returned by the leaderboard worker (src/lib/leaderboard.ts) so the device's
+ * local copy (what Landing + Results read) matches the record. Returns whether
+ * the write persisted.
+ */
+export function writeStreak(
+  school: string,
+  sport: string,
+  streak: Streak,
+  mode?: GameMode,
+): boolean {
+  return write(streakKey(school, sport, mode), streak)
+}
+
 export function loadDaily(
   school: string,
   sport: string,

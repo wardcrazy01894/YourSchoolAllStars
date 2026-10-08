@@ -169,6 +169,15 @@ body {
   padding: 5px 12px;
 }
 
+/* "You placed Xth of Y today" — the anonymous leaderboard standing line. */
+.standing {
+  margin: -8px 0 18px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text);
+}
+
 /* The one-shot lock banner shown on a completed day's Results. */
 .lock-note {
   text-align: center;
