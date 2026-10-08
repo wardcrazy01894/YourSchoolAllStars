@@ -384,7 +384,10 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
   if (stored && dateKey < stored.last_played_date) return a
   const b = advanceStreak(fromSeed, dateKey)
   const winner = b.current > a.current ? b : a
-  return { ...winner, best: Math.max(a.best, b.best) }
+  // `winner.current` is in the max so a repair that raised `current` without
+  // `best` still reads best ≥ current (advanceStreak returns prev unchanged on
+  // a same-day / backwards submit, so it wouldn't fix that up itself).
+  return { ...winner, best: Math.max(a.best, b.best, winner.current) }
 }
 
 /**

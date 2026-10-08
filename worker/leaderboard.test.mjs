@@ -383,6 +383,15 @@ describe('validateSubmission', () => {
     expect(r.ok).toBe(true)
     expect(r.value.seed).toEqual(seed)
   })
+  it("bounds the seed against the SERVER's clock (now is passed through)", () => {
+    // now = 2026-06-15; a seed dated five days later must be dropped. If
+    // validateSubmission stopped passing `now`, validateSeed would use the
+    // real clock and keep it.
+    const seed = { current: 3, max: 3, lastDate: '2026-06-20' }
+    const r = validateSubmission({ ...good, seed }, now)
+    expect(r.ok).toBe(true)
+    expect(r.value.seed).toBeNull()
+  })
   it('a malformed seed is dropped, not a rejection (the score still counts)', () => {
     const r = validateSubmission({ ...good, seed: { current: -1 } }, now)
     expect(r.ok).toBe(true)

@@ -111,7 +111,7 @@ wrangler d1 execute ysas-leaderboard --remote -c worker/wrangler.toml \
 ```
 
 The player sees the repaired value on their next submit (the client mirrors the
-server streak). Set `last_played_date` to the last day that should COUNT — the
+server streak). Always set `best` ≥ `current`. Set `last_played_date` to the last day that should COUNT — the
 next real play advances from it; the reconcile rule keeps the repair over the
 device's reset copy because the repaired count is higher. The flip side: a
 repair can only RAISE a streak — lowering an inflated one doesn't stick, because
