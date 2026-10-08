@@ -209,6 +209,22 @@ describe('submitDaily', () => {
     let s = await submitDaily(ARGS)
     expect(s).toEqual({ rank: 1, total: 1 })
     expect(loadStreak('michigan', 'basketball').current).toBe(1)
+    // Dated today but with no count: isolates the `current >= 1` guard.
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          rank: 1,
+          total: 1,
+          streak: { current: 0, best: 9, lastDate: '2026-10-08' },
+        }),
+      ),
+    )
+    localStorage.removeItem('ysas:lb:v1:michigan:basketball:daily:2026-10-08')
+    s = await submitDaily(ARGS)
+    expect(s).toEqual({ rank: 1, total: 1 })
+    expect(loadStreak('michigan', 'basketball').current).toBe(1)
     // Dated BEFORE the seed we just sent: a stale answer, keep the local copy.
     vi.stubGlobal(
       'fetch',

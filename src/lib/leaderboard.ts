@@ -254,7 +254,9 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
     const standing: Standing = { rank: data.rank, total: data.total }
     const streak = streakFromServer(data.streak)
     // Mirror only an answer at least as recent as the seed we just sent — a
-    // stale one (dated before the day we just saved locally) is ignored.
+    // stale one (dated before the day we just saved locally) is ignored. A
+    // NEWER server date (its stored row was ahead of this device) is adopted
+    // on purpose: that's the record winning over a held-back local copy.
     if (
       streak &&
       (args.seed.lastDate === null || streak.lastDate >= args.seed.lastDate)
