@@ -110,6 +110,11 @@ export interface SavedDaily {
   windows?: Record<string, YearWindow>
   wins: number
   grade: string
+  /**
+   * Rounded team strength (0..100, the "overall") at the time of play — what
+   * the leaderboard ranks by. Optional: saves from before it existed lack it.
+   */
+  strength?: number
 }
 
 // ── localStorage wrappers (fail-safe) ────────────────────────────────────────

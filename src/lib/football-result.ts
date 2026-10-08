@@ -89,14 +89,21 @@ export function fbSavedDailyFrom(
   dateKey: string,
   power5: FbPower5Spec,
 ): SavedDaily {
-  const { wins, grade } = fbEvaluate(state, power5)
+  const { wins, grade, strength } = fbEvaluate(state, power5)
   const playerIds: Record<string, string> = {}
   const windows: Record<string, YearWindow> = {}
   for (const pk of state.picks) {
     playerIds[pk.slotId] = pk.player.id
     windows[pk.slotId] = pk.window
   }
-  return { dateKey, playerIds, windows, wins, grade }
+  return {
+    dateKey,
+    playerIds,
+    windows,
+    wins,
+    grade,
+    strength: Math.round(strength),
+  }
 }
 
 /**

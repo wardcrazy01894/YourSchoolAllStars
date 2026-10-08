@@ -247,6 +247,15 @@ describe('teamStatTotals', () => {
 })
 
 describe('savedDailyFrom', () => {
+  it('persists the rounded team strength (the 0..100 overall the leaderboard ranks by)', () => {
+    const state = stateFrom(fullPicks())
+    const saved = savedDailyFrom(state, '2026-06-26', 40)
+    const live = evaluateRoster(state, 40)
+    expect(saved.strength).toBe(Math.round(live.strength))
+    expect(saved.strength).toBeGreaterThanOrEqual(0)
+    expect(saved.strength).toBeLessThanOrEqual(100)
+  })
+
   it('serializes the filled roster, its windows, and the record', () => {
     const picks = fullPicks()
     const saved = savedDailyFrom(stateFrom(picks), '2026-06-26', 40)

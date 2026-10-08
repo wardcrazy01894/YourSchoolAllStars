@@ -138,7 +138,7 @@ export function savedDailyFrom(
   games: number,
   power5: Power5Spec = true,
 ): SavedDaily {
-  const { wins, grade } = evaluateRoster(state, games, power5)
+  const { wins, grade, strength } = evaluateRoster(state, games, power5)
   const winByPos = windowByPosition(state.picks)
   // Keyed by slot string (BballPosition ids) — the sport-agnostic SavedDaily shape.
   const playerIds: Record<string, string> = {}
@@ -150,7 +150,14 @@ export function savedDailyFrom(
     const w = winByPos[pos]
     if (w) windows[pos] = w
   }
-  return { dateKey, playerIds, windows, wins, grade }
+  return {
+    dateKey,
+    playerIds,
+    windows,
+    wins,
+    grade,
+    strength: Math.round(strength),
+  }
 }
 
 /**
