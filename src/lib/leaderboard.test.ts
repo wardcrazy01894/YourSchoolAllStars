@@ -7,6 +7,9 @@ import {
   buildSubmitPayload,
   readStanding,
   submitDaily,
+  fetchLeaderboard,
+  buildLeaderboardRows,
+  yourRankOn,
   PERCENTILE_MIN_TOTAL,
   type Standing,
 } from './leaderboard'
@@ -19,6 +22,7 @@ const ARGS = {
   mode: 'daily' as const,
   dateKey: '2026-10-08',
   score: 31,
+  strength: 79,
   seed: { current: 54, max: 54, lastDate: '2026-10-08' },
   official: true,
 }
@@ -98,6 +102,7 @@ describe('buildSubmitPayload', () => {
       mode: 'daily',
       date: '2026-10-08',
       score: 31,
+      strength: 79,
       clientId: getClientId(),
       seed: ARGS.seed,
     })
@@ -298,5 +303,128 @@ describe('submitDaily', () => {
   it('a Standing with no streak is still a valid cache entry', () => {
     const s: Standing = { rank: 1, total: 1 }
     expect(formatStanding(s)).toContain('first')
+  })
+})
+
+describe('fetchLeaderboard', () => {
+  it('returns null when the endpoint is unset', async () => {
+    vi.stubEnv('VITE_LEADERBOARD_ENDPOINT', '')
+    expect(
+      await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
+    ).toBeNull()
+  })
+  it('GETs the board for the game + day and returns total + rows', async () => {
+    const fetchMock = vi.fn(async () =>
+      okResponse({
+        ok: true,
+        total: 3,
+        rows: [
+          { strength: 92, score: 38 },
+          { strength: 80, score: 34 },
+          { strength: 70, score: 30 },
+        ],
+      }),
+    )
+    vi.stubGlobal('fetch', fetchMock)
+    const board = await fetchLeaderboard(
+      'michigan',
+      'basketball',
+      'daily-iq',
+      '2026-10-08',
+    )
+    expect(board).toEqual({
+      total: 3,
+      rows: [
+        { strength: 92, score: 38 },
+        { strength: 80, score: 34 },
+        { strength: 70, score: 30 },
+      ],
+    })
+    const url = new URL(String(fetchMock.mock.calls[0][0]))
+    expect(url.origin).toBe(ENDPOINT)
+    expect(url.searchParams.get('school')).toBe('michigan')
+    expect(url.searchParams.get('sport')).toBe('basketball')
+    expect(url.searchParams.get('mode')).toBe('daily-iq')
+    expect(url.searchParams.get('date')).toBe('2026-10-08')
+  })
+  it('drops malformed rows and resolves null on a bad response / network error', async () => {
+    const spy = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          total: 2,
+          rows: [{ strength: 92, score: 38 }, { strength: 'x' }],
+        }),
+      ),
+    )
+    expect(
+      await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
+    ).toEqual({ total: 2, rows: [{ strength: 92, score: 38 }] })
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => okResponse({ error: 'x' }, false, 400)),
+    )
+    expect(
+      await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
+    ).toBeNull()
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => {
+        throw new Error('offline')
+      }),
+    )
+    expect(
+      await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
+    ).toBeNull()
+    spy.mockRestore()
+  })
+})
+
+describe('buildLeaderboardRows (pure)', () => {
+  const rows = [
+    { strength: 92, score: 38 },
+    { strength: 80, score: 34 },
+    { strength: 80, score: 30 },
+    { strength: 80, score: 30 },
+    { strength: 70, score: 31 },
+  ]
+  it('assigns competition ranks: ties on BOTH numbers share a rank, next rank skips', () => {
+    expect(buildLeaderboardRows(rows).map((r) => r.rank)).toEqual([
+      1, 2, 3, 3, 5,
+    ])
+  })
+  it('sorts by strength then score even if the server order is off', () => {
+    const shuffled = [rows[4], rows[2], rows[0], rows[1], rows[3]]
+    expect(buildLeaderboardRows(shuffled).map((r) => r.strength)).toEqual([
+      92, 80, 80, 80, 70,
+    ])
+    expect(buildLeaderboardRows(shuffled)[1].score).toBe(34)
+  })
+  it('flags exactly ONE row as yours — the first matching pair', () => {
+    const out = buildLeaderboardRows(rows, { strength: 80, score: 30 })
+    expect(out.filter((r) => r.you).length).toBe(1)
+    expect(out.findIndex((r) => r.you)).toBe(2)
+  })
+  it('flags nothing when your pair is not on the (capped) list', () => {
+    expect(
+      buildLeaderboardRows(rows, { strength: 10, score: 5 }).some((r) => r.you),
+    ).toBe(false)
+  })
+})
+
+describe('yourRankOn (fresh rank from the board when you are on it)', () => {
+  const rows = [
+    { strength: 92, score: 38 },
+    { strength: 80, score: 34 },
+    { strength: 70, score: 30 },
+  ]
+  it('is 1 + the number of strictly better pairs when your pair appears', () => {
+    expect(yourRankOn(rows, { strength: 80, score: 34 })).toBe(2)
+    expect(yourRankOn(rows, { strength: 92, score: 38 })).toBe(1)
+  })
+  it('is null when your pair is below the returned window (cannot be derived)', () => {
+    expect(yourRankOn(rows, { strength: 10, score: 5 })).toBeNull()
   })
 })

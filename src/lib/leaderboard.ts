@@ -171,6 +171,8 @@ export interface SubmitArgs {
   dateKey: string
   /** Projected wins (0..40 basketball, 0..16 football). */
   score: number
+  /** Rounded team strength, 0..100 — what the board ranks by. */
+  strength: number
   /** The device's local streak AFTER saveDailyResult — the worker reconciles
    *  its stored row against this (the better one wins). */
   seed: Streak
@@ -188,6 +190,7 @@ export function buildSubmitPayload(args: SubmitArgs) {
     mode: args.mode,
     date: args.dateKey,
     score: args.score,
+    strength: args.strength,
     clientId: getClientId(),
     seed: args.seed,
     ...(args.turnstileToken ? { turnstileToken: args.turnstileToken } : {}),
@@ -270,4 +273,117 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
     console.warn('leaderboard submit failed (network)', { error: String(e) })
     return null
   }
+}
+
+// ── The day's board ──────────────────────────────────────────────────────────
+
+/** One finisher on the day's board: overall (0..100) + projected wins. */
+export interface BoardEntry {
+  strength: number
+  score: number
+}
+
+export interface Board {
+  /** Devices on the board today. */
+  total: number
+  /** Best overall first (then most wins), capped by the server's TOP_LIMIT. */
+  rows: BoardEntry[]
+}
+
+/**
+ * Fetch the day's board for a game. Read-only and anonymous — the server
+ * returns numbers only, never ids or names. Resolves `null` when the
+ * leaderboard is off/unavailable so the caller shows a friendly empty state.
+ */
+export async function fetchLeaderboard(
+  school: string,
+  sport: string,
+  mode: GameMode,
+  dateKey: string,
+): Promise<Board | null> {
+  const endpoint = import.meta.env.VITE_LEADERBOARD_ENDPOINT
+  if (!endpoint) return null
+  try {
+    const u = new URL(endpoint)
+    u.searchParams.set('school', school)
+    u.searchParams.set('sport', sport)
+    u.searchParams.set('mode', mode)
+    u.searchParams.set('date', dateKey)
+    const r = await fetch(u.toString())
+    if (!r.ok) {
+      console.warn('leaderboard read rejected', { status: r.status })
+      return null
+    }
+    const data = (await r.json().catch(() => null)) as Partial<Board> | null
+    if (!data || !Array.isArray(data.rows) || typeof data.total !== 'number') {
+      console.warn('leaderboard read: unexpected response shape', { data })
+      return null
+    }
+    const rows = data.rows.filter(
+      (e): e is BoardEntry =>
+        !!e && typeof e.strength === 'number' && typeof e.score === 'number',
+    )
+    return { total: data.total, rows }
+  } catch (e) {
+    console.warn('leaderboard read failed (network)', { error: String(e) })
+    return null
+  }
+}
+
+/** Lexicographic (strength, score) comparison, best first. */
+function betterThan(a: BoardEntry, b: BoardEntry): boolean {
+  return (
+    a.strength > b.strength || (a.strength === b.strength && a.score > b.score)
+  )
+}
+function samePair(a: BoardEntry, b: BoardEntry): boolean {
+  return a.strength === b.strength && a.score === b.score
+}
+
+export interface LeaderboardRow extends BoardEntry {
+  /** 1-based competition rank: ties on BOTH numbers share a rank, the next
+   *  rank skips (92/38, 80/34, 80/30, 80/30, 70/31 → 1, 2, 3, 3, 5). */
+  rank: number
+  /** This row is the viewer's own result (at most one row is flagged). */
+  you: boolean
+}
+
+/**
+ * Rank the board for display. Sorted by overall then wins (defensively — the
+ * server already does), competition-ranked, and the viewer's own result (if
+ * given and on the list) flagged exactly once: anonymous play can't tell tied
+ * players apart, so the first matching pair is theirs. Pure.
+ */
+export function buildLeaderboardRows(
+  rows: BoardEntry[],
+  yours?: BoardEntry,
+): LeaderboardRow[] {
+  const sorted = [...rows].sort((a, b) =>
+    betterThan(a, b) ? -1 : betterThan(b, a) ? 1 : 0,
+  )
+  let flagged = false
+  let prev: BoardEntry | null = null
+  let prevRank = 0
+  return sorted.map((e, i) => {
+    const rank = prev && samePair(e, prev) ? prevRank : i + 1
+    prev = e
+    prevRank = rank
+    const you = !flagged && !!yours && samePair(e, yours)
+    if (you) flagged = true
+    return { ...e, rank, you }
+  })
+}
+
+/**
+ * The viewer's CURRENT rank derived from a fresh board read — exact whenever
+ * their pair is within the returned (capped) window, since every better pair
+ * is then guaranteed to be on the list. `null` when it isn't (past the cap),
+ * so the caller falls back to the submit-time standing. Pure.
+ */
+export function yourRankOn(
+  rows: BoardEntry[],
+  yours: BoardEntry,
+): number | null {
+  if (!rows.some((e) => samePair(e, yours))) return null
+  return 1 + rows.filter((e) => betterThan(e, yours)).length
 }

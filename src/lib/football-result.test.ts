@@ -150,6 +150,14 @@ describe('per-player power-5 (Full Football)', () => {
 })
 
 describe('save / restore round-trip', () => {
+  it('persists the rounded team strength (0..100 overall)', () => {
+    const s = fullRoster()
+    const saved = fbSavedDailyFrom(s, '2026-06-27', true)
+    expect(saved.strength).toBe(Math.round(fbEvaluate(s, true).strength))
+    expect(saved.strength).toBeGreaterThanOrEqual(0)
+    expect(saved.strength).toBeLessThanOrEqual(100)
+  })
+
   it('serializes a completed draft into the persisted daily shape', () => {
     const saved = fbSavedDailyFrom(fullRoster(), '2026-06-27', true)
     expect(saved.dateKey).toBe('2026-06-27')
