@@ -3,7 +3,7 @@
 // environment (file: URLs for the migrations, real Request/Response).
 import { describe, it, expect, beforeEach } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
-// node:sqlite needs Node >= 22.5 (package.json `engines` enforces >= 22).
+// node:sqlite is unflagged from Node 22.13 (package.json `engines` enforces it).
 import { DatabaseSync } from 'node:sqlite'
 import { upsertAndRank, topScores, updateStreak } from './leaderboard-lib.mjs'
 
@@ -140,11 +140,50 @@ describe('updateStreak (real streaks table)', () => {
     const s = await updateStreak(db, sub('dev', '2026-07-09', seed), NOW)
     expect(s).toEqual({ current: 11, best: 12, lastDate: '2026-07-09' })
   })
-  it('ignores the seed once a server row exists (server is authoritative)', async () => {
+  it('keeps the stored row when the seed is no better (normal consecutive play)', async () => {
     await updateStreak(db, sub('dev', '2026-07-08'), NOW) // row: 1
-    const bogus = { current: 999, max: 999, lastDate: '2026-07-08' }
-    const s = await updateStreak(db, sub('dev', '2026-07-09', bogus), NOW)
+    // Client saved locally first, so its seed already reads 2 for 07-09; the
+    // stored row advances to the same 2 — a tie keeps the stored row.
+    const seed = { current: 2, max: 2, lastDate: '2026-07-09' }
+    const s = await updateStreak(db, sub('dev', '2026-07-09', seed), NOW)
     expect(s).toEqual({ current: 2, best: 2, lastDate: '2026-07-09' })
+  })
+  it('RECONCILES to the client when submits were missed (no lost streak)', async () => {
+    // Server row stuck at 5 / 10-08 because the 10-09 and 10-10 submits failed
+    // (offline, 503, 429). Locally the player legitimately reached 8 / 10-11.
+    // The server must NOT reset to 1 and then have the client mirror 1.
+    await updateStreak(
+      db,
+      sub('dev', '2026-10-08', { current: 5, max: 5, lastDate: '2026-10-08' }),
+      NOW,
+    )
+    const seed = { current: 8, max: 8, lastDate: '2026-10-11' }
+    const s = await updateStreak(db, sub('dev', '2026-10-11', seed), NOW)
+    expect(s).toEqual({ current: 8, best: 8, lastDate: '2026-10-11' })
+    expect(row('dev')).toMatchObject({ current: 8, best: 8 })
+  })
+  it('a server-side REPAIR beats a reset local streak', async () => {
+    // Operator repaired the row to 54 (last counted yesterday). The device's
+    // local copy had reset to 1 and is submitting today with that as its seed.
+    db.raw
+      .prepare(
+        `INSERT INTO streaks (school, sport, mode, client_id, current, best, last_played_date, updated_at)
+         VALUES (?, ?, ?, ?, 54, 54, '2026-10-07', 0)`,
+      )
+      .run(UM.school, UM.sport, UM.mode, 'friend')
+    const seed = { current: 1, max: 54, lastDate: '2026-10-08' }
+    const s = await updateStreak(db, sub('friend', '2026-10-08', seed), NOW)
+    expect(s).toEqual({ current: 55, best: 55, lastDate: '2026-10-08' })
+  })
+  it('best is the max across both records', async () => {
+    await updateStreak(
+      db,
+      sub('dev', '2026-10-08', { current: 2, max: 30, lastDate: '2026-10-08' }),
+      NOW,
+    )
+    const seed = { current: 3, max: 3, lastDate: '2026-10-09' }
+    const s = await updateStreak(db, sub('dev', '2026-10-09', seed), NOW)
+    expect(s).toEqual({ current: 3, best: 30, lastDate: '2026-10-09' })
   })
   it('streaks are per (school, sport, mode)', async () => {
     await updateStreak(db, sub('dev', '2026-07-08'), NOW)

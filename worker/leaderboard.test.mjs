@@ -199,14 +199,14 @@ describe('validateSeed', () => {
       value: null,
     })
   })
-  it('rejects non-integers, max < current, absurd values, bad dates', () => {
-    const bad = { ok: false, status: 400, error: 'invalid seed' }
+  it('treats a malformed seed as NO seed (advisory — never fails the score)', () => {
+    const none = { ok: true, value: null }
     expect(
       validateSeed({ current: 1.5, max: 2, lastDate: DATE }, DATE),
-    ).toMatchObject(bad)
-    expect(
-      validateSeed({ current: 5, max: 2, lastDate: DATE }, DATE),
-    ).toMatchObject(bad)
+    ).toEqual(none)
+    expect(validateSeed({ current: 5, max: 2, lastDate: DATE }, DATE)).toEqual(
+      none,
+    )
     expect(
       validateSeed(
         {
@@ -216,16 +216,21 @@ describe('validateSeed', () => {
         },
         DATE,
       ),
-    ).toMatchObject(bad)
+    ).toEqual(none)
     expect(
       validateSeed({ current: 1, max: 1, lastDate: 'yesterday' }, DATE),
-    ).toMatchObject(bad)
-    expect(validateSeed('54', DATE)).toMatchObject(bad)
+    ).toEqual(none)
+    expect(validateSeed('54', DATE)).toEqual(none)
   })
-  it('rejects a seed claiming a play after the submitted day', () => {
+  it('keeps a seed whose lastDate is after the submitted day (old-tab finish)', () => {
+    // An old tab finishing yesterday's puzzle after today was already played:
+    // advanceStreak's backwards guard handles it; the seed is still valid.
     expect(
-      validateSeed({ current: 1, max: 1, lastDate: '2026-10-09' }, DATE),
-    ).toMatchObject({ ok: false, error: 'invalid seed' })
+      validateSeed({ current: 2, max: 2, lastDate: '2026-10-09' }, DATE),
+    ).toEqual({
+      ok: true,
+      value: { current: 2, max: 2, lastDate: '2026-10-09' },
+    })
   })
 })
 
@@ -321,10 +326,10 @@ describe('validateSubmission', () => {
     expect(r.ok).toBe(true)
     expect(r.value.seed).toEqual(seed)
   })
-  it('rejects a malformed seed', () => {
-    expect(
-      validateSubmission({ ...good, seed: { current: -1 } }, now),
-    ).toMatchObject({ ok: false, error: 'invalid seed' })
+  it('a malformed seed is dropped, not a rejection (the score still counts)', () => {
+    const r = validateSubmission({ ...good, seed: { current: -1 } }, now)
+    expect(r.ok).toBe(true)
+    expect(r.value.seed).toBeNull()
   })
   it('rejects an unknown school', () => {
     expect(validateSubmission({ ...good, school: 'osu' }, now)).toMatchObject({

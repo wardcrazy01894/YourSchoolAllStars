@@ -135,24 +135,23 @@ export function validateView(query) {
 }
 
 /**
- * Validate an OPTIONAL client-held streak the server may bootstrap from on a
- * device's first-ever submission (see updateStreak). Absent → null. Present but
- * malformed → `{ error }` so a bad seed is rejected rather than silently
- * ignored (the client only sends what it just read from localStorage).
+ * Validate an OPTIONAL client-held streak (`{ current, max, lastDate }`) sent
+ * with a submission — see updateStreak for how it's used. ADVISORY: a missing,
+ * empty, or malformed seed simply becomes `null`; it never fails the score.
+ * (The client always builds it from a typed Streak, so "malformed" means a
+ * hand-crafted request — dropping it is the right outcome.) A seed dated AFTER
+ * the submitted day is kept: that's an old tab finishing yesterday's puzzle
+ * after today was played, and advanceStreak's backwards guard handles it.
  */
-export function validateSeed(seed, date) {
-  if (seed == null) return { ok: true, value: null }
-  const { current, max, lastDate } = seed ?? {}
+export function validateSeed(seed) {
+  const none = { ok: true, value: null }
+  if (seed == null || typeof seed !== 'object') return none
+  const { current, max, lastDate } = seed
   const okInt = (n) => Number.isInteger(n) && n >= 0 && n <= MAX_SEED_STREAK
-  if (!okInt(current) || !okInt(max) || max < current)
-    return { ok: false, status: 400, error: 'invalid seed' }
-  if (lastDate !== null && !isValidDateKey(lastDate))
-    return { ok: false, status: 400, error: 'invalid seed' }
-  // A seed claiming a play AFTER the day being submitted is nonsense.
-  if (lastDate !== null && lastDate > date)
-    return { ok: false, status: 400, error: 'invalid seed' }
-  // A seed with nothing played is the same as no seed.
-  if (lastDate === null || current === 0) return { ok: true, value: null }
+  if (!okInt(current) || !okInt(max) || max < current) return none
+  if (lastDate !== null && !isValidDateKey(lastDate)) return none
+  // Nothing played yet is the same as no seed.
+  if (lastDate === null || current === 0) return none
   return { ok: true, value: { current, max, lastDate } }
 }
 
@@ -179,12 +178,11 @@ export function validateSubmission(body, now = new Date()) {
   if (!isValidClientId(clientId))
     return { ok: false, status: 400, error: 'invalid clientId' }
 
-  const s = validateSeed(body?.seed, date)
-  if (!s.ok) return { ok: false, status: s.status, error: s.error }
+  const seed = validateSeed(body?.seed).value
 
   return {
     ok: true,
-    value: { school, sport, mode, date, score, clientId, seed: s.value },
+    value: { school, sport, mode, date, score, clientId, seed },
   }
 }
 
@@ -301,15 +299,22 @@ export function advanceStreak(prev, dateKey) {
 }
 
 /**
- * Read → advance → upsert the player's streak for (game, client_id) on a daily
- * submission. Returns `{ current, best, lastDate }`.
+ * Read → reconcile → advance → upsert the player's streak for (game, client_id)
+ * on a daily submission. Returns `{ current, best, lastDate }`.
  *
- * BOOTSTRAP: when the device has NO stored row yet and the submission carries a
- * `seed` (the streak the client already held in localStorage), the seed is
- * adopted as the prior row before advancing — so every streak earned before
- * this table existed carries over on the first submit instead of restarting at
- * 1. The seed is used ONLY for a first-ever row; after that the server copy is
- * authoritative and the client mirrors it.
+ * RECONCILE: the submission carries `seed`, the streak the client holds in
+ * localStorage. Both the stored row (if any) and the seed are advanced to the
+ * submitted day and the BETTER one wins (higher `current`; a tie keeps the
+ * stored row; `best` is the max of both). This one rule covers every case:
+ *   - first-ever submit → no row, the seed bootstraps, so a streak earned
+ *     before this table existed carries over;
+ *   - missed submits (offline / 503 / 429) → the stored row is stale and would
+ *     reset, but the seed carried the real count → the seed wins, so the
+ *     worker can never destroy a streak the player legitimately earned;
+ *   - server-side REPAIR (an operator UPDATE) → the stored row is better than
+ *     a locally-reset seed → the repair wins and the client mirrors it.
+ * The seed is trusted exactly as much as the bootstrap already was (anti-cheat
+ * is a documented non-goal for an anonymous board).
  *
  * Separate from the score write so a streak hiccup never blocks the score;
  * SQLite serializes the read/write and a same-device double-submit converges to
@@ -327,16 +332,10 @@ export async function updateStreak(
     )
     .bind(school, sport, mode, clientId)
     .first()
-  const prev =
-    stored ??
-    (seed
-      ? {
-          current: seed.current,
-          best: seed.max,
-          last_played_date: seed.lastDate,
-        }
-      : null)
-  const next = advanceStreak(prev, date)
+  const fromSeed = seed
+    ? { current: seed.current, best: seed.max, last_played_date: seed.lastDate }
+    : null
+  const next = reconcileStreak(stored, fromSeed, date)
   await db
     .prepare(
       `INSERT INTO streaks (school, sport, mode, client_id, current, best, last_played_date, updated_at)
@@ -363,6 +362,18 @@ export async function updateStreak(
     best: next.best,
     lastDate: next.last_played_date,
   }
+}
+
+/**
+ * Advance both candidate rows to `dateKey` and keep the better one (see
+ * updateStreak). Pure. Either side may be null; both null = first play.
+ */
+export function reconcileStreak(stored, fromSeed, dateKey) {
+  const a = advanceStreak(stored, dateKey)
+  if (!fromSeed) return a
+  const b = advanceStreak(fromSeed, dateKey)
+  const winner = b.current > a.current ? b : a
+  return { ...winner, best: Math.max(a.best, b.best, winner.current) }
 }
 
 /**

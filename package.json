@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.13"
   },
   "description": "A daily draft-your-all-time-college-team game, one school at a time. Spin a 4-year window, draft a starting five (basketball) or 12-man roster (football), and see how good a team you can build. Michigan first.",
   "scripts": {

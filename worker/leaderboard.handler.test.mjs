@@ -22,7 +22,11 @@ const GAME = 'school=michigan&sport=basketball&mode=daily'
 // Fake D1: batch() returns [upsertResult, standingResult]; the standing row is
 // configurable so we can assert rank = better + 1.
 const fakeDB = (rankRow = { better: 2, total: 10 }) => {
-  const stmt = { bind: () => stmt }
+  const stmt = {
+    bind: () => stmt,
+    first: async () => null,
+    run: async () => ({ meta: { changes: 1 } }),
+  }
   return {
     prepare: vi.fn(() => stmt),
     batch: vi.fn(async () => [{ results: [] }, { results: [rankRow] }]),
@@ -31,7 +35,7 @@ const fakeDB = (rankRow = { better: 2, total: 10 }) => {
 
 // Fake D1 for the GET view path: batch() returns [scoresResult, countResult].
 const fakeViewDB = (scores = [38, 34, 30], total = scores.length) => {
-  const stmt = { bind: () => stmt }
+  const stmt = { bind: () => stmt, first: async () => null }
   return {
     prepare: vi.fn(() => stmt),
     batch: vi.fn(async () => [
@@ -256,7 +260,12 @@ describe('leaderboard worker handler', () => {
     const env = makeEnv({ DB: fakeDB({ better: 2, total: 47 }) })
     const res = await handler.fetch(post(goodBody()), env)
     expect(res.status).toBe(200)
-    expect(await res.json()).toEqual({ ok: true, rank: 3, total: 47 })
+    expect(await res.json()).toEqual({
+      ok: true,
+      rank: 3,
+      total: 47,
+      streak: { current: 1, best: 1, lastDate: TODAY },
+    })
     expect(env.DB.batch).toHaveBeenCalledOnce()
   })
 

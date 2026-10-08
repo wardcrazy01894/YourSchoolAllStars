@@ -27,7 +27,7 @@ migrations_dir = "migrations"
 # 30 requests / 60s per IP: generous for real play (one submit per game/day)
 # while capping a single source's ability to stuff the "of Y" denominator. This
 # satisfies the worker's fail-closed check, so a fresh deploy is not wide-open.
-# namespace_id must be unique per account (KnowYourCity's limiter is 2001).
+# namespace_id must be unique per account (KnowYourCity's limiter is 1001).
 [[ratelimits]]
 name = "RATE_LIMITER"
 namespace_id = "3001"

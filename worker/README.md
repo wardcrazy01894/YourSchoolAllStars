@@ -35,11 +35,14 @@ table, a repair is one SQL `UPDATE` instead of a code change + deploy.
 client_id)` row in `streaks` (migration `0002`) with **exactly** the client's
   rules (`src/lib/progress.ts` `nextStreak`, including the `OUTAGE_DAYS`
   amnesty) and returns it. The client then mirrors the server value locally.
-- **Bootstrap from the client.** The first time a device is seen for a game,
-  the submission's `seed` (the streak the browser already held) is adopted as
-  the prior row, so every streak earned before this table existed carries over
-  on its first submit. After that the server row is authoritative and the seed
-  is ignored.
+- **Reconciles with the client.** Every submit carries `seed`, the streak the
+  browser holds locally. The worker advances both its stored row and the seed
+  to the submitted day and keeps the **better** one (`best` = max of both). So
+  a device's first submit carries its pre-existing streak over, a run of
+  failed submits (offline / 503 / 429) can never make the server reset a
+  streak the player really earned, and a server-side repair (below) still
+  wins over a locally-reset copy. The seed is trusted exactly as much as a
+  bootstrap would be; anti-cheat is a non-goal for an anonymous board.
 
 ## Request / response
 
@@ -108,7 +111,9 @@ wrangler d1 execute ysas-leaderboard --remote -c worker/wrangler.toml \
 ```
 
 The player sees the repaired value on their next submit (the client mirrors the
-server streak). For a site-wide outage, add the day to `OUTAGE_DAYS` in **both**
+server streak). Set `last_played_date` to the last day that should COUNT — the
+next real play advances from it; the reconcile rule keeps the repair over the
+device's reset copy because the repaired count is higher. For a site-wide outage, add the day to `OUTAGE_DAYS` in **both**
 `worker/leaderboard-lib.mjs` and `src/lib/progress.ts` instead.
 
 ## Tests
