@@ -205,11 +205,17 @@ export function validateSubmission(body, now = new Date()) {
 
 /**
  * UPSERT the device's result for a (game, date) and read back the standing in
- * one atomic D1 batch. Keep-max on BOTH strength and score: a reload or racing
- * duplicate POST can never lower a stored value. The standing is ranked by
- * STRENGTH (the 0..100 overall — what the leaderboard shows); ties share a rank
+ * one atomic D1 batch.
+ *
+ * Ordering is by (strength, score) compared IN THAT ORDER — the 0..100 overall
+ * first, projected wins as the tiebreak — and the SAME key drives the keep-max,
+ * the standing and the board, so "Xth of Y" always agrees with the board order.
+ * Keep-max keeps the better PAIR (never a mix of one submit's strength with
+ * another's wins). NULL strength (rows from before the column existed, or an
+ * old client) reads as 0, so an all-NULL day still ranks by wins exactly as it
+ * did before — the deploy window is harmless. Ties share a rank
  * (strictly-greater counting), rank = better + 1; `total` is the number of
- * devices on the day's board. Rows from before strength existed rank as 0.
+ * devices on the day's board.
  */
 export async function upsertAndRank(
   db,
@@ -221,20 +227,26 @@ export async function upsertAndRank(
       `INSERT INTO scores (school, sport, mode, date, client_id, score, strength, created_at, updated_at)
        VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?8)
        ON CONFLICT(school, sport, mode, date, client_id) DO UPDATE SET
-         score = MAX(score, excluded.score),
-         strength = MAX(COALESCE(strength, 0), COALESCE(excluded.strength, 0)),
+         score = CASE WHEN (COALESCE(excluded.strength, 0), excluded.score)
+                           > (COALESCE(strength, 0), score)
+                      THEN excluded.score ELSE score END,
+         strength = CASE WHEN (COALESCE(excluded.strength, 0), excluded.score)
+                              > (COALESCE(strength, 0), score)
+                         THEN COALESCE(excluded.strength, 0)
+                         ELSE COALESCE(strength, 0) END,
          updated_at = excluded.updated_at`,
     )
     .bind(school, sport, mode, date, clientId, score, strength, now)
   const standing = db
     .prepare(
-      `SELECT
-         (SELECT COUNT(*) FROM scores
+      `WITH me AS (
+         SELECT COALESCE(strength, 0) AS s, score AS w FROM scores
+         WHERE school = ?1 AND sport = ?2 AND mode = ?3
+           AND date = ?4 AND client_id = ?5)
+       SELECT
+         (SELECT COUNT(*) FROM scores, me
             WHERE school = ?1 AND sport = ?2 AND mode = ?3 AND date = ?4
-              AND COALESCE(strength, 0) > (
-                SELECT COALESCE(strength, 0) FROM scores
-                WHERE school = ?1 AND sport = ?2 AND mode = ?3
-                  AND date = ?4 AND client_id = ?5)
+              AND (COALESCE(strength, 0), score) > (me.s, me.w)
          ) AS better,
          (SELECT COUNT(*) FROM scores
             WHERE school = ?1 AND sport = ?2 AND mode = ?3 AND date = ?4

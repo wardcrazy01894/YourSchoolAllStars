@@ -88,6 +88,60 @@ describe('standing (ranked by STRENGTH, one device = one competitor, keep-max)',
     const b = await submit('device-B', 1, 5)
     expect(b).toEqual({ rank: 1, total: 2 })
   })
+  it('equal strength (incl. all-NULL, old clients) is ranked by wins — never everyone 1st', async () => {
+    // Deploy window: the live client doesn't send strength yet, so every row
+    // is NULL. Ranking must still work exactly as it did (by wins).
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'A', score: 38 },
+      NOW,
+    )
+    const b = await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'B', score: 12 },
+      NOW,
+    )
+    expect(b).toEqual({ rank: 2, total: 2 })
+    const a = await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'A', score: 38 },
+      NOW,
+    )
+    expect(a).toEqual({ rank: 1, total: 2 })
+    // Same with real, equal strengths: more wins ranks higher (board order agrees).
+    await submit('C', 80, 30)
+    const d = await submit('D', 80, 34)
+    expect(d).toEqual({ rank: 1, total: 4 })
+  })
+  it('keep-max with a NULL on either side keeps the real value', async () => {
+    await submit('A', 92, 38)
+    // Old client re-posts without strength: must not wipe the stored 92.
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'A', score: 38 },
+      NOW,
+    )
+    let { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 92, score: 38 }])
+    // Legacy NULL row then a real submit: adopts it.
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'L', score: 40 },
+      NOW,
+    )
+    await submit('L', 80, 30)
+    ;({ rows } = await topScores(db, { ...UM, date: DATE }))
+    expect(rows).toEqual([
+      { strength: 92, score: 38 },
+      { strength: 80, score: 30 },
+    ])
+  })
+  it('keeps the (strength, score) PAIR of the better submission, never a mix', async () => {
+    await submit('A', 80, 20)
+    await submit('A', 70, 25) // worse overall, more wins → ignored as a pair
+    const { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 80, score: 20 }])
+  })
   it('boards are isolated by school, sport, mode and date', async () => {
     await submit('device-A', 99)
     await submit('device-B', 99, 16, { ...UM, sport: 'football' })

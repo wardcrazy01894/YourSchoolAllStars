@@ -377,6 +377,11 @@ describe('validateSubmission', () => {
       value: { ...good, seed: null, strength: null },
     })
   })
+  it('an explicit strength: null is the same as absent', () => {
+    expect(
+      validateSubmission({ ...good, strength: null }, now).value.strength,
+    ).toBeNull()
+  })
   it('carries an integer strength in [0, 100]; rejects anything else', () => {
     expect(
       validateSubmission({ ...good, strength: 79 }, now).value.strength,

@@ -3,8 +3,9 @@
 -- `score` (projected wins) stays as the record shown beside it.
 --
 -- Nullable: rows written before this migration have no strength and rank as 0
--- (COALESCE in the queries). ALTER TABLE ADD COLUMN is safe + re-runnable
--- under D1's migration tracking.
+-- (COALESCE in the queries). ALTER TABLE ADD COLUMN is NOT re-runnable (a
+-- second run fails with "duplicate column name"); it runs exactly once under
+-- D1's migration tracking, which is what makes it safe.
 
 ALTER TABLE scores ADD COLUMN strength INTEGER;
 
