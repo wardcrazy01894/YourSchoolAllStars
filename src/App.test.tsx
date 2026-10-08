@@ -232,6 +232,15 @@ describe('Results — award badges on the final roster', () => {
     )
   }
 
+  it('shows a LAPSED stored streak as 0 days (best kept) on the results chips', () => {
+    // Storage still says 7, but the last play was weeks ago — the chip must
+    // not claim a live run (displayStreak inside StreakChips).
+    renderResults({ streak: { current: 7, max: 7, lastDate: '2026-09-01' } })
+    const chips = document.querySelector('.record .streaks')!
+    expect(chips.textContent).toMatch(/🔥 0 days/)
+    expect(chips.textContent).toMatch(/best 7\b/)
+  })
+
   it('shows the leaderboard standing line on a fresh daily finish', () => {
     renderResults({ standing: { rank: 3, total: 7 } })
     expect(screen.getByText(/You placed 3rd of 7 today/)).toBeTruthy()
