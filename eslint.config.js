@@ -5,7 +5,11 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
-  { ignores: ['dist', 'node_modules'] },
+  // `.claude/worktrees/` holds isolated reviewer-agent checkouts (full repo
+  // copies with their own tsconfig); linting them breaks typescript-eslint's
+  // tsconfigRootDir detection and double-counts every file. `.vitest/` is the
+  // JSON reporter output of the rtk test wrapper.
+  { ignores: ['dist', 'node_modules', '.claude/worktrees', '.vitest'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
