@@ -33,15 +33,19 @@ const fakeDB = (rankRow = { better: 2, total: 10 }) => {
   }
 }
 
-// Fake D1 for the GET view path: batch() returns [scoresResult, countResult].
-const fakeViewDB = (scores = [38, 34, 30], total = scores.length) => {
+// Fake D1 for the GET view path: batch() returns [rowsResult, countResult].
+const fakeViewDB = (
+  rows = [
+    { strength: 92, score: 38 },
+    { strength: 80, score: 34 },
+    { strength: 70, score: 30 },
+  ],
+  total = rows.length,
+) => {
   const stmt = { bind: () => stmt, first: async () => null }
   return {
     prepare: vi.fn(() => stmt),
-    batch: vi.fn(async () => [
-      { results: scores.map((s) => ({ score: s })) },
-      { results: [{ total }] },
-    ]),
+    batch: vi.fn(async () => [{ results: rows }, { results: [{ total }] }]),
   }
 }
 
@@ -145,14 +149,18 @@ describe('leaderboard worker handler', () => {
     expect(res.status).toBe(405)
   })
 
-  it('GET returns the day’s top scores + total for a known game', async () => {
-    const env = makeEnv({ DB: fakeViewDB([38, 34, 30], 12) })
+  it('GET returns the day’s board rows ({strength, score}) + total for a known game', async () => {
+    const env = makeEnv({ DB: fakeViewDB(undefined, 12) })
     const res = await handler.fetch(get(`${GAME}&date=${TODAY}`), env)
     expect(res.status).toBe(200)
     expect(await res.json()).toEqual({
       ok: true,
       total: 12,
-      scores: [38, 34, 30],
+      rows: [
+        { strength: 92, score: 38 },
+        { strength: 80, score: 34 },
+        { strength: 70, score: 30 },
+      ],
     })
   })
 

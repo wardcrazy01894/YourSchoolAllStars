@@ -23,6 +23,9 @@ export const GAME_TZ = 'America/New_York'
  */
 export const SPORT_MAX_SCORE = { basketball: 40, football: 16 }
 
+/** Team strength ("overall") is a 0..100 rating in both sports. */
+export const MAX_STRENGTH = 100
+
 /**
  * The daily (one-shot, streak-bearing) modes. Free-play modes never submit
  * (they're replayable, so a score means nothing on a daily board). Keep in step
@@ -185,42 +188,53 @@ export function validateSubmission(body, now = new Date()) {
   if (!isValidClientId(clientId))
     return { ok: false, status: 400, error: 'invalid clientId' }
 
+  // Team strength, the 0..100 "overall" — what the leaderboard ranks by.
+  // Optional only for old clients (absent → null, ranks as 0); when present it
+  // must be a real integer in range.
+  const strength = body?.strength == null ? null : body.strength
+  if (strength !== null && !isValidScore(strength, MAX_STRENGTH))
+    return { ok: false, status: 400, error: 'invalid strength' }
+
   const seed = validateSeed(body?.seed, now).value
 
   return {
     ok: true,
-    value: { school, sport, mode, date, score, clientId, seed },
+    value: { school, sport, mode, date, score, strength, clientId, seed },
   }
 }
 
 /**
- * UPSERT the device's score for a (game, date) and read back the standing in
- * one atomic D1 batch. Keep-max: a reload or racing duplicate POST can never
- * lower a stored score. Ties share a rank (strictly-greater counting),
- * rank = better + 1; `total` is the number of devices on the day's board.
+ * UPSERT the device's result for a (game, date) and read back the standing in
+ * one atomic D1 batch. Keep-max on BOTH strength and score: a reload or racing
+ * duplicate POST can never lower a stored value. The standing is ranked by
+ * STRENGTH (the 0..100 overall — what the leaderboard shows); ties share a rank
+ * (strictly-greater counting), rank = better + 1; `total` is the number of
+ * devices on the day's board. Rows from before strength existed rank as 0.
  */
 export async function upsertAndRank(
   db,
-  { school, sport, mode, date, clientId, score },
+  { school, sport, mode, date, clientId, score, strength = null },
   now,
 ) {
   const upsert = db
     .prepare(
-      `INSERT INTO scores (school, sport, mode, date, client_id, score, created_at, updated_at)
-       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?7)
+      `INSERT INTO scores (school, sport, mode, date, client_id, score, strength, created_at, updated_at)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?8)
        ON CONFLICT(school, sport, mode, date, client_id) DO UPDATE SET
          score = MAX(score, excluded.score),
+         strength = MAX(COALESCE(strength, 0), COALESCE(excluded.strength, 0)),
          updated_at = excluded.updated_at`,
     )
-    .bind(school, sport, mode, date, clientId, score, now)
+    .bind(school, sport, mode, date, clientId, score, strength, now)
   const standing = db
     .prepare(
       `SELECT
          (SELECT COUNT(*) FROM scores
             WHERE school = ?1 AND sport = ?2 AND mode = ?3 AND date = ?4
-              AND score > (SELECT score FROM scores
-                             WHERE school = ?1 AND sport = ?2 AND mode = ?3
-                               AND date = ?4 AND client_id = ?5)
+              AND COALESCE(strength, 0) > (
+                SELECT COALESCE(strength, 0) FROM scores
+                WHERE school = ?1 AND sport = ?2 AND mode = ?3
+                  AND date = ?4 AND client_id = ?5)
          ) AS better,
          (SELECT COUNT(*) FROM scores
             WHERE school = ?1 AND sport = ?2 AND mode = ?3 AND date = ?4
@@ -391,9 +405,10 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
 }
 
 /**
- * Read the day's top scores (desc, capped at TOP_LIMIT) plus the total entry
- * count for a game + date. Anonymous: scores only — no ids, no names. The
- * client assigns display ranks (ties share a rank).
+ * Read the day's board — one `{ strength, score }` row per device, best overall
+ * first (then most wins), capped at TOP_LIMIT — plus the total entry count for
+ * a game + date. Anonymous: numbers only — no ids, no names. The client
+ * assigns display ranks (ties share a rank) and flags its own row.
  */
 export async function topScores(
   db,
@@ -402,9 +417,9 @@ export async function topScores(
 ) {
   const list = db
     .prepare(
-      `SELECT score FROM scores
+      `SELECT COALESCE(strength, 0) AS strength, score FROM scores
        WHERE school = ?1 AND sport = ?2 AND mode = ?3 AND date = ?4
-       ORDER BY score DESC LIMIT ?5`,
+       ORDER BY COALESCE(strength, 0) DESC, score DESC LIMIT ?5`,
     )
     .bind(school, sport, mode, date, limit)
   const count = db
@@ -416,6 +431,9 @@ export async function topScores(
   const [listRes, countRes] = await db.batch([list, count])
   return {
     total: Number(countRes.results[0].total) || 0,
-    scores: listRes.results.map((r) => Number(r.score)),
+    rows: listRes.results.map((r) => ({
+      strength: Number(r.strength),
+      score: Number(r.score),
+    })),
   }
 }

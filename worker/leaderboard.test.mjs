@@ -374,8 +374,28 @@ describe('validateSubmission', () => {
   it('accepts a well-formed submission for a known game + today', () => {
     expect(validateSubmission(good, now)).toEqual({
       ok: true,
-      value: { ...good, seed: null },
+      value: { ...good, seed: null, strength: null },
     })
+  })
+  it('carries an integer strength in [0, 100]; rejects anything else', () => {
+    expect(
+      validateSubmission({ ...good, strength: 79 }, now).value.strength,
+    ).toBe(79)
+    expect(
+      validateSubmission({ ...good, strength: 0 }, now).value.strength,
+    ).toBe(0)
+    expect(
+      validateSubmission({ ...good, strength: 100 }, now).value.strength,
+    ).toBe(100)
+    for (const bad of [101, -1, 79.5, '79', NaN]) {
+      expect(validateSubmission({ ...good, strength: bad }, now)).toMatchObject(
+        {
+          ok: false,
+          status: 400,
+          error: 'invalid strength',
+        },
+      )
+    }
   })
   it('carries a well-formed seed when provided', () => {
     const seed = { current: 54, max: 54, lastDate: today }
