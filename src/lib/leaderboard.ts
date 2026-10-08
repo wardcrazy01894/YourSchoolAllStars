@@ -32,6 +32,11 @@ import type { GameMode } from './modes'
 const CLIENT_ID_KEY = 'ysas:clientId'
 const CACHE_PREFIX = 'ysas:lb:v1'
 
+/** True when the site was built with a leaderboard worker URL. */
+export function leaderboardEnabled(): boolean {
+  return Boolean(import.meta.env.VITE_LEADERBOARD_ENDPOINT)
+}
+
 export interface Standing {
   /** 1-based competition rank (ties share a rank). */
   rank: number

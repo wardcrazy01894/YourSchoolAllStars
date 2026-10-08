@@ -96,8 +96,10 @@ import {
   submitDaily,
   readStanding,
   formatStanding,
+  leaderboardEnabled,
   type Standing,
 } from './lib/leaderboard'
+import { LeaderboardPanel } from './Leaderboard'
 import { buildShareString, buildFbShareString } from './lib/share'
 import { buildReelPlan, buildIndexReelPlan } from './lib/reel'
 import type { ReelPlan } from './lib/reel'
@@ -921,6 +923,7 @@ function Game({
         mode: mode.id,
         dateKey,
         score: saved.wins,
+        strength: saved.strength ?? 0,
         seed: updated,
         official,
       }).then((s) => {
@@ -1148,6 +1151,7 @@ function FullGame({
         mode: mode.id,
         dateKey,
         score: saved.wins,
+        strength: saved.strength ?? 0,
         seed: updated,
         official,
       }).then((s) => {
@@ -1281,6 +1285,7 @@ function Landing({
   streak: Streak
   onStart: () => void
 }) {
+  const [showBoard, setShowBoard] = useState(false)
   return (
     <section className="hero">
       <span className="banner">
@@ -1313,6 +1318,23 @@ function Landing({
         <p className="muted">
           No {school.name} basketball data yet — check back soon.
         </p>
+      )}
+      {mode.daily && leaderboardEnabled() && (
+        <button className="btn" onClick={() => setShowBoard((v) => !v)}>
+          🏆 {showBoard ? 'Hide leaderboard' : "Today's leaderboard"}
+        </button>
+      )}
+      {showBoard && (
+        <LeaderboardPanel
+          school={school.id}
+          schoolLabel={school.short}
+          sport="basketball"
+          mode={mode.id}
+          modeLabel={mode.name}
+          dateKey={dateKey}
+          games={GAMES}
+          onClose={() => setShowBoard(false)}
+        />
       )}
     </section>
   )
@@ -1834,6 +1856,7 @@ export function Results({
   })
 
   const [copied, setCopied] = useState(false)
+  const [showBoard, setShowBoard] = useState(false)
   function copyShare() {
     navigator.clipboard?.writeText(share).then(
       () => {
@@ -1944,7 +1967,26 @@ export function Results({
             🔄 Play again
           </button>
         )}
+        {mode.daily && leaderboardEnabled() && (
+          <button className="btn" onClick={() => setShowBoard((v) => !v)}>
+            🏆 {showBoard ? 'Hide leaderboard' : 'Leaderboard'}
+          </button>
+        )}
       </div>
+      {showBoard && (
+        <LeaderboardPanel
+          school={school.id}
+          schoolLabel={school.short}
+          sport="basketball"
+          mode={mode.id}
+          modeLabel={mode.name}
+          dateKey={dateKey}
+          games={GAMES}
+          yours={{ strength: saved?.strength ?? strength, score: wins }}
+          standing={standing}
+          onClose={() => setShowBoard(false)}
+        />
+      )}
       <p className="center muted" style={{ marginTop: 14 }}>
         {mode.daily
           ? 'New challenge at midnight ET. Come back tomorrow.'
@@ -2152,6 +2194,7 @@ function FbGame({
         mode: mode.id,
         dateKey,
         score: saved.wins,
+        strength: saved.strength ?? 0,
         seed: updated,
         official,
       }).then((s) => {
@@ -2380,6 +2423,7 @@ function FullFbGame({
         mode: mode.id,
         dateKey,
         score: saved.wins,
+        strength: saved.strength ?? 0,
         seed: updated,
         official,
       }).then((s) => {
@@ -2502,6 +2546,7 @@ function FbLanding({
   streak: Streak
   onStart: () => void
 }) {
+  const [showBoard, setShowBoard] = useState(false)
   return (
     <section className="hero">
       <span className="banner">
@@ -2540,6 +2585,23 @@ function FbLanding({
         <p className="muted">
           No {school.name} football data yet — check back soon.
         </p>
+      )}
+      {mode.daily && leaderboardEnabled() && (
+        <button className="btn" onClick={() => setShowBoard((v) => !v)}>
+          🏆 {showBoard ? 'Hide leaderboard' : "Today's leaderboard"}
+        </button>
+      )}
+      {showBoard && (
+        <LeaderboardPanel
+          school={school.id}
+          schoolLabel={school.short}
+          sport="football"
+          mode={mode.id}
+          modeLabel={mode.name}
+          dateKey={dateKey}
+          games={FB_GAMES}
+          onClose={() => setShowBoard(false)}
+        />
       )}
     </section>
   )
@@ -3094,6 +3156,7 @@ function FbResults({
   })
 
   const [copied, setCopied] = useState(false)
+  const [showBoard, setShowBoard] = useState(false)
   function copyShare() {
     navigator.clipboard?.writeText(share).then(
       () => {
@@ -3196,7 +3259,26 @@ function FbResults({
             🔄 Play again
           </button>
         )}
+        {mode.daily && leaderboardEnabled() && (
+          <button className="btn" onClick={() => setShowBoard((v) => !v)}>
+            🏆 {showBoard ? 'Hide leaderboard' : 'Leaderboard'}
+          </button>
+        )}
       </div>
+      {showBoard && (
+        <LeaderboardPanel
+          school={school.id}
+          schoolLabel={school.short}
+          sport="football"
+          mode={mode.id}
+          modeLabel={mode.name}
+          dateKey={dateKey}
+          games={FB_GAMES}
+          yours={{ strength: saved?.strength ?? strength, score: wins }}
+          standing={standing}
+          onClose={() => setShowBoard(false)}
+        />
+      )}
       <p className="center muted" style={{ marginTop: 14 }}>
         {mode.daily
           ? 'New challenge at midnight ET. Come back tomorrow.'

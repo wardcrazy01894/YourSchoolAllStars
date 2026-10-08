@@ -241,6 +241,20 @@ describe('Results — award badges on the final roster', () => {
     expect(chips.textContent).toMatch(/best 7\b/)
   })
 
+  it('offers the leaderboard toggle only for daily modes, and only when the worker is configured', () => {
+    vi.stubEnv('VITE_LEADERBOARD_ENDPOINT', 'https://lb.example')
+    renderResults()
+    expect(screen.getByRole('button', { name: /Leaderboard/ })).toBeTruthy()
+    cleanup()
+    renderResults({ mode: getMode('classic') })
+    expect(screen.queryByRole('button', { name: /Leaderboard/ })).toBeNull()
+    cleanup()
+    vi.stubEnv('VITE_LEADERBOARD_ENDPOINT', '')
+    renderResults()
+    expect(screen.queryByRole('button', { name: /Leaderboard/ })).toBeNull()
+    vi.unstubAllEnvs()
+  })
+
   it('shows the leaderboard standing line on a fresh daily finish', () => {
     renderResults({ standing: { rank: 3, total: 7 } })
     expect(screen.getByText(/You placed 3rd of 7 today/)).toBeTruthy()

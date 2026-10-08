@@ -340,7 +340,8 @@ describe('fetchLeaderboard', () => {
         { strength: 70, score: 30 },
       ],
     })
-    const url = new URL(String(fetchMock.mock.calls[0][0]))
+    const calls = fetchMock.mock.calls as unknown as [string][]
+    const url = new URL(calls[0][0])
     expect(url.origin).toBe(ENDPOINT)
     expect(url.searchParams.get('school')).toBe('michigan')
     expect(url.searchParams.get('sport')).toBe('basketball')

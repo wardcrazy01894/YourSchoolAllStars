@@ -178,6 +178,70 @@ body {
   color: var(--text);
 }
 
+/* ── Leaderboard panel ───────────────────────────────────────────────────── */
+.board {
+  margin: 16px 0;
+}
+.board-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.board-head h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+.board-head p {
+  margin: 0;
+  font-size: 13px;
+}
+.board-list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+}
+.board-row {
+  display: grid;
+  grid-template-columns: 48px 1fr auto auto;
+  align-items: baseline;
+  gap: 12px;
+  padding: 9px 10px;
+  border-top: 1px solid var(--line);
+}
+.board-row.you {
+  background: var(--panel-2);
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.board-rank {
+  font-weight: 800;
+  color: var(--muted);
+}
+.board-overall {
+  font-size: 22px;
+  font-weight: 900;
+}
+.board-overall small {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+}
+.board-record {
+  font-weight: 700;
+  color: var(--muted);
+}
+.board-you {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--brand);
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
 /* The one-shot lock banner shown on a completed day's Results. */
 .lock-note {
   text-align: center;
