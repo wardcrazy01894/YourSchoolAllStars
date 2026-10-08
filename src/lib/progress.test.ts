@@ -5,6 +5,7 @@ import {
   dayDiff,
   nextStreak,
   loadStreak,
+  writeStreak,
   loadDaily,
   saveDailyResult,
   type SavedDaily,
@@ -294,5 +295,32 @@ describe('mode namespacing (Daily vs Daily IQ)', () => {
     ).not.toBeNull()
     // The legacy daily key must NOT be written by a daily-iq save.
     expect(localStorage.getItem(`ysas:${SCHOOL}:${SPORT}:streak`)).toBeNull()
+  })
+})
+
+describe('writeStreak (mirror a server-authoritative streak)', () => {
+  it('persists the streak so loadStreak reads it back', () => {
+    const s = { current: 54, max: 54, lastDate: '2026-10-08' }
+    expect(writeStreak(SCHOOL, SPORT, s)).toBe(true)
+    expect(loadStreak(SCHOOL, SPORT)).toEqual(s)
+  })
+  it('writes into the mode namespace (daily-iq is separate from daily)', () => {
+    writeStreak(
+      SCHOOL,
+      SPORT,
+      { current: 3, max: 3, lastDate: '2026-10-08' },
+      'daily-iq',
+    )
+    expect(loadStreak(SCHOOL, SPORT, 'daily-iq').current).toBe(3)
+    expect(loadStreak(SCHOOL, SPORT, 'daily')).toEqual(EMPTY_STREAK)
+  })
+  it('overwrites a local streak (the server copy wins once it exists)', () => {
+    saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25'))
+    writeStreak(SCHOOL, SPORT, { current: 9, max: 12, lastDate: '2026-06-25' })
+    expect(loadStreak(SCHOOL, SPORT)).toEqual({
+      current: 9,
+      max: 12,
+      lastDate: '2026-06-25',
+    })
   })
 })
