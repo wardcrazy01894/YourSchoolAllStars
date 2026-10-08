@@ -50,4 +50,14 @@ export default tseslint.config(
       ],
     },
   },
+  // The Worker runs on the Cloudflare/service-worker runtime, so it sees the
+  // serviceworker globals (Request, Response, fetch, …) — not browser or node —
+  // a Worker has no window/document/process. Tests stay on the node block.
+  {
+    files: ['worker/**/*.mjs'],
+    ignores: ['worker/**/*.test.mjs'],
+    languageOptions: {
+      globals: { ...globals.serviceworker },
+    },
+  },
 )

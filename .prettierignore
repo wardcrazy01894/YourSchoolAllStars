@@ -9,3 +9,6 @@ package-lock.json
 
 # Committed data-pipeline work-in-progress (big JSON drafts; PROGRESS.md is hand-formatted).
 data-work
+
+# Vitest JSON reporter output (local only).
+.vitest
