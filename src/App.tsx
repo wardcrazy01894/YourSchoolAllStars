@@ -87,6 +87,7 @@ import {
   loadDaily,
   loadStreak,
   saveDailyResult,
+  displayStreak,
   EMPTY_STREAK,
   type Streak,
   type SavedDaily,
@@ -696,7 +697,7 @@ function SportComingSoon({
   )
 }
 
-function ModeMenu({
+export function ModeMenu({
   school,
   sport,
   onPick,
@@ -713,17 +714,32 @@ function ModeMenu({
   // sport-flavoured — basketball shows Hoops IQ, football shows Gridiron IQ.
   const modes = modesForSport(sport.id)
   // Each DAILY flow keeps its own lock + streak (Daily and Daily IQ are separate
-  // one-shots). Read each here so the headline can show the classic Daily streak
-  // and every daily card can show its own — read ONCE (side-effectful storage).
+  // one-shots). Read each here so every daily card can show ITS OWN streak —
+  // read ONCE (side-effectful storage).
+  // Shown as DISPLAY streaks: a lapsed one reads 0 days (storage keeps the old
+  // count until the next play), so a card or the headline never claims a run
+  // that can no longer be continued.
   const [streaks] = useState(
     () =>
       Object.fromEntries(
         modes
           .filter((m) => m.daily)
-          .map((m) => [m.id, loadStreak(school.id, sport.id, m.id)]),
+          .map((m) => [
+            m.id,
+            displayStreak(loadStreak(school.id, sport.id, m.id), getDateKey()),
+          ]),
       ) as Record<string, Streak>,
   )
-  const dailyStreak = streaks['daily'] ?? EMPTY_STREAK
+  // The headline is the LARGEST streak across every daily mode: the longest
+  // current run and the highest best, whichever mode holds each (Alex's call).
+  const headline = Object.values(streaks).reduce<Streak>(
+    (acc, s) => ({
+      current: Math.max(acc.current, s.current),
+      max: Math.max(acc.max, s.max),
+      lastDate: null,
+    }),
+    EMPTY_STREAK,
+  )
   return (
     <div className="app">
       <header className="topbar">
@@ -746,14 +762,16 @@ function ModeMenu({
       <section className="hero" style={{ paddingBottom: 8 }}>
         <h1>{schoolSportLabel(school, sport)}</h1>
         <p>Choose how you want to play.</p>
-        <StreakChips streak={dailyStreak} />
+        <StreakChips streak={headline} />
       </section>
       <div className="mode-menu">
         {modes.map((m) => {
-          // The classic Daily's streak is the headline above; the OTHER daily
-          // flows (Daily IQ) show their own current streak inline on the card —
-          // each is a separate one-shot with an independent streak.
-          const s = m.daily && m.id !== DEFAULT_MODE ? streaks[m.id] : undefined
+          // Every daily flow is a separate one-shot with an independent streak,
+          // so each daily card carries its own chip (current + best); the
+          // headline above is the largest across them. A mode never completed
+          // (max 0) shows nothing; a lapsed streak shows "0 days" with the
+          // best kept (displayStreak above).
+          const s = m.daily ? (streaks[m.id] ?? EMPTY_STREAK) : undefined
           return (
             <button
               key={m.id}
@@ -763,12 +781,13 @@ function ModeMenu({
               <span className="mode-emoji">{m.emoji}</span>
               <span className="mode-name">{m.name}</span>
               <span className="mode-blurb">{m.blurb}</span>
-              {s && s.current > 0 && (
+              {s && s.max > 0 && (
                 <span
                   className="streak-chip"
-                  title="Your current streak in this mode"
+                  title="Your current streak in this mode · your best"
                 >
-                  🔥 {s.current} day{s.current === 1 ? '' : 's'}
+                  🔥 {s.current} day{s.current === 1 ? '' : 's'} · 🏆 best{' '}
+                  {s.max}
                 </span>
               )}
             </button>
@@ -1229,8 +1248,11 @@ function FullGame({
   )
 }
 
-function StreakChips({ streak }: { streak: Streak }) {
-  if (streak.max === 0) return null // never completed a day — nothing to show
+function StreakChips({ streak: stored }: { streak: Streak }) {
+  if (stored.max === 0) return null // never completed a day — nothing to show
+  // A lapsed streak reads 0 days (see displayStreak) — Landing and Results
+  // pass the stored value, which only changes on a play.
+  const streak = displayStreak(stored, getDateKey())
   return (
     <div className="streaks">
       <span className="streak-chip" title="Consecutive days played">
