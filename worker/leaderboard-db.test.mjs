@@ -50,47 +50,144 @@ beforeEach(() => {
 const NOW = 1_760_000_000_000
 const UM = { school: 'michigan', sport: 'basketball', mode: 'daily' }
 const DATE = '2026-07-08'
-const submit = (clientId, score, game = UM, date = DATE) =>
-  upsertAndRank(db, { ...game, date, clientId, score }, NOW)
+// strength = the 0..100 overall; score = projected wins shown beside it.
+const submit = (clientId, strength, score = 30, game = UM, date = DATE) =>
+  upsertAndRank(db, { ...game, date, clientId, score, strength }, NOW)
 
-describe('standing (one device = one competitor, keep-max)', () => {
-  it('ranks by strictly-greater count and totals the field', async () => {
-    await submit('device-A', 34)
-    await submit('device-B', 30)
-    const c = await submit('device-C', 32)
+describe('standing (ranked by STRENGTH, one device = one competitor, keep-max)', () => {
+  it('ranks by strictly-greater strength and totals the field', async () => {
+    await submit('device-A', 92, 38)
+    await submit('device-B', 70, 30)
+    const c = await submit('device-C', 80, 32)
     expect(c).toEqual({ rank: 2, total: 3 })
   })
-  it('keep-max: a reload cannot lower a stored score', async () => {
-    await submit('device-A', 34)
-    const again = await submit('device-A', 20)
+  it('strength decides the rank even when wins disagree', async () => {
+    await submit('device-A', 85, 33)
+    const b = await submit('device-B', 88, 31) // fewer wins, higher overall
+    expect(b).toEqual({ rank: 1, total: 2 })
+  })
+  it('keep-max: a reload cannot lower a stored strength or score', async () => {
+    await submit('device-A', 92, 38)
+    const again = await submit('device-A', 50, 20)
     expect(again).toEqual({ rank: 1, total: 1 })
-    const { scores } = await topScores(db, { ...UM, date: DATE })
-    expect(scores).toEqual([34])
+    const { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 92, score: 38 }])
   })
   it('ties across devices share a rank', async () => {
-    await submit('device-A', 34)
-    await submit('device-B', 34)
-    const c = await submit('device-C', 30)
+    await submit('device-A', 90)
+    await submit('device-B', 90)
+    const c = await submit('device-C', 70)
     expect(c).toEqual({ rank: 3, total: 3 })
   })
+  it('a legacy row with no strength ranks as 0 (never above a real one)', async () => {
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'legacy', score: 40 },
+      NOW,
+    )
+    const b = await submit('device-B', 1, 5)
+    expect(b).toEqual({ rank: 1, total: 2 })
+  })
+  it('equal strength (incl. all-NULL, old clients) is ranked by wins — never everyone 1st', async () => {
+    // Deploy window: the live client doesn't send strength yet, so every row
+    // is NULL. Ranking must still work exactly as it did (by wins).
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'A', score: 38 },
+      NOW,
+    )
+    const b = await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'B', score: 12 },
+      NOW,
+    )
+    expect(b).toEqual({ rank: 2, total: 2 })
+    const a = await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'A', score: 38 },
+      NOW,
+    )
+    expect(a).toEqual({ rank: 1, total: 2 })
+    // Same with real, equal strengths: more wins ranks higher (board order agrees).
+    await submit('C', 80, 30)
+    const d = await submit('D', 80, 34)
+    expect(d).toEqual({ rank: 1, total: 4 })
+  })
+  it('keep-max with a NULL on either side keeps the real value', async () => {
+    await submit('A', 92, 38)
+    // Old client re-posts without strength: must not wipe the stored 92.
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'A', score: 38 },
+      NOW,
+    )
+    let { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 92, score: 38 }])
+    // Legacy NULL row then a real submit: adopts it.
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'L', score: 40 },
+      NOW,
+    )
+    await submit('L', 80, 30)
+    ;({ rows } = await topScores(db, { ...UM, date: DATE }))
+    expect(rows).toEqual([
+      { strength: 92, score: 38 },
+      { strength: 80, score: 30 },
+    ])
+  })
+  it('keeps the (strength, score) PAIR of the better submission, never a mix', async () => {
+    await submit('A', 80, 20)
+    await submit('A', 70, 25) // worse overall, more wins → ignored as a pair
+    const { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 80, score: 20 }])
+  })
+  it('keep-max honours the WINS tiebreak at equal strength (incl. all-NULL old clients)', async () => {
+    // Equal real strengths: more wins must update.
+    await submit('A', 80, 30)
+    await submit('A', 80, 34)
+    let { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 80, score: 34 }])
+    // Deploy window: NULL strength both times, more wins must update.
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'N', score: 30 },
+      NOW,
+    )
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'N', score: 38 },
+      NOW,
+    )
+    ;({ rows } = await topScores(db, { ...UM, date: DATE }))
+    expect(rows).toEqual([
+      { strength: 80, score: 34 },
+      { strength: 0, score: 38 },
+    ])
+  })
   it('boards are isolated by school, sport, mode and date', async () => {
-    await submit('device-A', 40)
-    await submit('device-B', 16, { ...UM, sport: 'football' })
-    await submit('device-C', 40, { ...UM, mode: 'daily-iq' })
-    await submit('device-D', 40, { ...UM, school: 'unc' })
-    await submit('device-E', 40, UM, '2026-07-09')
-    const f = await submit('device-F', 30)
+    await submit('device-A', 99)
+    await submit('device-B', 99, 16, { ...UM, sport: 'football' })
+    await submit('device-C', 99, 40, { ...UM, mode: 'daily-iq' })
+    await submit('device-D', 99, 40, { ...UM, school: 'unc' })
+    await submit('device-E', 99, 40, UM, '2026-07-09')
+    const f = await submit('device-F', 70)
     // Only device-A shares michigan/basketball/daily/2026-07-08 with F.
     expect(f).toEqual({ rank: 2, total: 2 })
   })
 })
 
 describe('topScores board', () => {
-  it('returns scores desc capped at the limit but totals the whole field', async () => {
-    for (let i = 0; i < 5; i++) await submit(`device-${i}`, 20 + i)
-    const { scores, total } = await topScores(db, { ...UM, date: DATE }, 3)
-    expect(scores).toEqual([24, 23, 22])
-    expect(total).toBe(5)
+  it('returns {strength, score} rows by strength desc (then score), capped, totalling the field', async () => {
+    for (let i = 0; i < 5; i++) await submit(`device-${i}`, 60 + i, 20 + i)
+    await submit('device-tie', 64, 30) // same overall as device-4, more wins
+    const { rows, total } = await topScores(db, { ...UM, date: DATE }, 3)
+    expect(rows).toEqual([
+      { strength: 64, score: 30 },
+      { strength: 64, score: 24 },
+      { strength: 63, score: 23 },
+    ])
+    expect(total).toBe(6)
   })
 })
 
