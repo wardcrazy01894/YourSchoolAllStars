@@ -601,6 +601,11 @@ describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
       'daily-iq',
     )
     renderMenu()
+    // The headline is the LARGEST across all daily modes: longest current
+    // streak (Daily's 3) and highest best (Daily IQ's 20).
+    const headline = document.querySelector('.hero .streaks')!
+    expect(headline.textContent).toMatch(/🔥 3 days/)
+    expect(headline.textContent).toMatch(/best 20/)
     expect(card('Daily Challenge').textContent).toMatch(/🔥 3 days/)
     expect(card('Daily Challenge').textContent).toMatch(/best 12/)
     expect(card('Daily IQ').textContent).toMatch(/🔥 1 day\b/)
@@ -620,5 +625,13 @@ describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
     expect(card('Daily Challenge').textContent).toMatch(/🔥 0 days/)
     expect(card('Daily Challenge').textContent).toMatch(/best 7/)
     expect(card('Daily IQ').textContent).not.toMatch(/🔥/)
+    expect(document.querySelector('.hero .streaks')!.textContent).toMatch(
+      /🔥 0 days.*best 7/,
+    )
+  })
+
+  it('shows no headline when no daily mode has ever been completed', () => {
+    renderMenu()
+    expect(document.querySelector('.hero .streaks')).toBeNull()
   })
 })

@@ -723,6 +723,16 @@ export function ModeMenu({
           .map((m) => [m.id, loadStreak(school.id, sport.id, m.id)]),
       ) as Record<string, Streak>,
   )
+  // The headline is the LARGEST streak across every daily mode: the longest
+  // current run and the highest best, whichever mode holds each (Alex's call).
+  const headline = Object.values(streaks).reduce<Streak>(
+    (acc, s) => ({
+      current: Math.max(acc.current, s.current),
+      max: Math.max(acc.max, s.max),
+      lastDate: null,
+    }),
+    EMPTY_STREAK,
+  )
   return (
     <div className="app">
       <header className="topbar">
@@ -745,14 +755,15 @@ export function ModeMenu({
       <section className="hero" style={{ paddingBottom: 8 }}>
         <h1>{schoolSportLabel(school, sport)}</h1>
         <p>Choose how you want to play.</p>
+        <StreakChips streak={headline} />
       </section>
       <div className="mode-menu">
         {modes.map((m) => {
           // Every daily flow is a separate one-shot with an independent streak,
-          // so each daily card carries its own chip (current + best) — no
-          // shared headline, which read as if only one mode had a streak. A
-          // mode never completed (max 0) shows nothing; a broken streak shows
-          // "0 days" with the best kept, honestly.
+          // so each daily card carries its own chip (current + best); the
+          // headline above is the largest across them. A mode never completed
+          // (max 0) shows nothing; a broken streak shows "0 days" with the
+          // best kept, honestly.
           const s = m.daily ? (streaks[m.id] ?? EMPTY_STREAK) : undefined
           return (
             <button
