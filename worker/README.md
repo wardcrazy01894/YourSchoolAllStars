@@ -46,12 +46,15 @@ client_id)` row in `streaks` (migration `0002`) with **exactly** the client's
 
 ## Request / response
 
-- **Submit:** `POST { school, sport, mode, date, score, clientId, seed?, turnstileToken? }`
+- **Submit:** `POST { school, sport, mode, date, score, strength, clientId, seed?, turnstileToken? }`
   → `{ ok, rank, total, streak? }`, `streak` = `{ current, best, lastDate }`.
+  `score` = projected wins; `strength` = the 0..100 team overall (**what the
+  rank is by**; optional only for old clients, ranks as 0 when absent);
   `seed` = `{ current, max, lastDate }` (the client's local `Streak`).
-- **View:** `GET ?school=&sport=&mode=&date=` → `{ ok, total, scores[] }` —
-  the day's top 100 scores (desc), anonymous (no ids). Rate-limited and
-  validated like the POST.
+- **View:** `GET ?school=&sport=&mode=&date=` → `{ ok, total, rows[] }` —
+  the day's top 100 as `{ strength, score }`, best overall first, anonymous
+  (no ids). Powers the leaderboard page. Rate-limited and validated like the
+  POST.
 
 ## Local-only trial (no production resources)
 
