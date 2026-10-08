@@ -7,7 +7,16 @@ import { initDraft, draftToSlot } from './lib/game'
 import { initFbDraft } from './lib/football-game'
 import { getMode } from './lib/modes'
 import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
-import { Playing, RosterRail, Results, FbPlaying, FbRosterRail } from './App'
+import {
+  Playing,
+  RosterRail,
+  Results,
+  FbPlaying,
+  FbRosterRail,
+  ModeMenu,
+} from './App'
+import { getSport } from './lib/sports'
+import { writeStreak } from './lib/progress'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -559,5 +568,57 @@ describe('FbPlaying — Full Football era label', () => {
     fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
     expect(screen.queryByText(/Florida/)).toBeNull()
     expect(screen.getByText(/2000–2003/)).toBeTruthy()
+  })
+})
+
+describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
+  // Streaks live in localStorage; isolate each case.
+  beforeEach(() => localStorage.clear())
+  function renderMenu() {
+    render(
+      <ModeMenu
+        school={getSchool(DEFAULT_SCHOOL_ID)!}
+        sport={getSport('basketball')}
+        onPick={() => {}}
+        onBackToSports={() => {}}
+        onSwitchSchool={() => {}}
+      />,
+    )
+  }
+  const card = (name: string) =>
+    screen.getByRole('button', { name: new RegExp(name) })
+
+  it('shows the Daily Challenge streak on the Daily Challenge card, and Daily IQ’s on its card', () => {
+    writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
+      current: 3,
+      max: 12,
+      lastDate: '2026-10-08',
+    })
+    writeStreak(
+      DEFAULT_SCHOOL_ID,
+      'basketball',
+      { current: 1, max: 20, lastDate: '2026-10-08' },
+      'daily-iq',
+    )
+    renderMenu()
+    expect(card('Daily Challenge').textContent).toMatch(/🔥 3 days/)
+    expect(card('Daily Challenge').textContent).toMatch(/best 12/)
+    expect(card('Daily IQ').textContent).toMatch(/🔥 1 day\b/)
+    expect(card('Daily IQ').textContent).toMatch(/best 20/)
+    // Free-play cards never carry a streak.
+    expect(card('Classic').textContent).not.toMatch(/🔥/)
+    expect(card('Hoops IQ').textContent).not.toMatch(/🔥/)
+  })
+
+  it('shows a broken streak honestly (0 days, best kept) and nothing when never played', () => {
+    writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
+      current: 0,
+      max: 7,
+      lastDate: '2026-09-01',
+    })
+    renderMenu()
+    expect(card('Daily Challenge').textContent).toMatch(/🔥 0 days/)
+    expect(card('Daily Challenge').textContent).toMatch(/best 7/)
+    expect(card('Daily IQ').textContent).not.toMatch(/🔥/)
   })
 })

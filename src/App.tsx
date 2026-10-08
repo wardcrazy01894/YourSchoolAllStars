@@ -696,7 +696,7 @@ function SportComingSoon({
   )
 }
 
-function ModeMenu({
+export function ModeMenu({
   school,
   sport,
   onPick,
@@ -713,8 +713,8 @@ function ModeMenu({
   // sport-flavoured — basketball shows Hoops IQ, football shows Gridiron IQ.
   const modes = modesForSport(sport.id)
   // Each DAILY flow keeps its own lock + streak (Daily and Daily IQ are separate
-  // one-shots). Read each here so the headline can show the classic Daily streak
-  // and every daily card can show its own — read ONCE (side-effectful storage).
+  // one-shots). Read each here so every daily card can show ITS OWN streak —
+  // read ONCE (side-effectful storage).
   const [streaks] = useState(
     () =>
       Object.fromEntries(
@@ -723,7 +723,6 @@ function ModeMenu({
           .map((m) => [m.id, loadStreak(school.id, sport.id, m.id)]),
       ) as Record<string, Streak>,
   )
-  const dailyStreak = streaks['daily'] ?? EMPTY_STREAK
   return (
     <div className="app">
       <header className="topbar">
@@ -746,14 +745,15 @@ function ModeMenu({
       <section className="hero" style={{ paddingBottom: 8 }}>
         <h1>{schoolSportLabel(school, sport)}</h1>
         <p>Choose how you want to play.</p>
-        <StreakChips streak={dailyStreak} />
       </section>
       <div className="mode-menu">
         {modes.map((m) => {
-          // The classic Daily's streak is the headline above; the OTHER daily
-          // flows (Daily IQ) show their own current streak inline on the card —
-          // each is a separate one-shot with an independent streak.
-          const s = m.daily && m.id !== DEFAULT_MODE ? streaks[m.id] : undefined
+          // Every daily flow is a separate one-shot with an independent streak,
+          // so each daily card carries its own chip (current + best) — no
+          // shared headline, which read as if only one mode had a streak. A
+          // mode never completed (max 0) shows nothing; a broken streak shows
+          // "0 days" with the best kept, honestly.
+          const s = m.daily ? (streaks[m.id] ?? EMPTY_STREAK) : undefined
           return (
             <button
               key={m.id}
@@ -763,12 +763,13 @@ function ModeMenu({
               <span className="mode-emoji">{m.emoji}</span>
               <span className="mode-name">{m.name}</span>
               <span className="mode-blurb">{m.blurb}</span>
-              {s && s.current > 0 && (
+              {s && s.max > 0 && (
                 <span
                   className="streak-chip"
-                  title="Your current streak in this mode"
+                  title="Your current streak in this mode · your best"
                 >
-                  🔥 {s.current} day{s.current === 1 ? '' : 's'}
+                  🔥 {s.current} day{s.current === 1 ? '' : 's'} · 🏆 best{' '}
+                  {s.max}
                 </span>
               )}
             </button>
