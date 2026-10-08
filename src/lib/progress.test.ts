@@ -110,7 +110,7 @@ describe('nextStreak — outage amnesty', () => {
       lastDate: '2026-10-08',
     })
   })
-  it('still increments normally on the first day back when the streak was 1', () => {
+  it('credits the outage for a short streak too (1 → 3)', () => {
     const before = { current: 1, max: 9, lastDate: '2026-10-06' }
     expect(nextStreak(before, '2026-10-08')).toEqual({
       current: 3,
@@ -136,6 +136,12 @@ describe('nextStreak — outage amnesty', () => {
       lastDate: '2026-10-09',
     })
   })
+  it('keeps the backwards-date guard ahead of the amnesty', () => {
+    // Opening the outage day's ?date= URL AFTER playing a later day must not
+    // roll lastDate back or re-credit anything.
+    const after = { current: 54, max: 54, lastDate: '2026-10-08' }
+    expect(nextStreak(after, '2026-10-07')).toBe(after)
+  })
   it('leaves a never-played streak alone', () => {
     expect(nextStreak(EMPTY_STREAK, '2026-10-08')).toEqual({
       current: 1,
@@ -143,10 +149,10 @@ describe('nextStreak — outage amnesty', () => {
       lastDate: '2026-10-08',
     })
   })
-  it('does not count an outage day that was somehow played (same-day guard)', () => {
-    // A ?date=2026-10-07 playtest would normally go through advanceStreak:false,
-    // but if a streak's lastDate IS the outage day, the next day is an ordinary
-    // +1 — no double credit.
+  it('does not double-credit when lastDate IS the outage day', () => {
+    // A ?date=2026-10-07 playtest saves with advanceStreak:false (App only
+    // advances on the real current day), so lastDate normally can't land on an
+    // outage day — but if it does, the next day is an ordinary +1, not +2.
     const before = { current: 53, max: 53, lastDate: '2026-10-07' }
     expect(nextStreak(before, '2026-10-08')).toEqual({
       current: 54,
