@@ -8,11 +8,13 @@
  * future login would link to.
  *
  * STREAKS: the submission carries the device's local streak as a `seed`. The
- * worker adopts it the FIRST time it sees the device (so streaks earned before
- * the worker existed carry over) and from then on keeps the authoritative copy,
- * returning it on every submit. We MIRROR that copy back into localStorage
- * (progress.ts:writeStreak), so a server-side repair shows up on the device at
- * the next play and Landing/Results keep reading the local key as before.
+ * worker RECONCILES it with its stored row — both advanced to today, the better
+ * one wins — and returns the result. So a streak earned before the worker
+ * existed carries over, missed submits (offline / 503) can never cost a streak,
+ * and a server-side repair wins over a locally-reset copy. We MIRROR the
+ * returned streak into localStorage (progress.ts:writeStreak), so a repair
+ * shows up on the device at the next play and Landing/Results keep reading the
+ * local key as before.
  *
  * INTEGRITY: only official daily plays submit. Free-play modes and `?date=`
  * playtests never do (the `official` gate, computed by the caller as
@@ -158,8 +160,8 @@ export interface SubmitArgs {
   dateKey: string
   /** Projected wins (0..40 basketball, 0..16 football). */
   score: number
-  /** The device's local streak AFTER saveDailyResult — the worker adopts it the
-   *  first time it sees this device for this game. */
+  /** The device's local streak AFTER saveDailyResult — the worker reconciles
+   *  its stored row against this (the better one wins). */
   seed: Streak
   /** True only for a real current-day play of a daily mode. */
   official: boolean

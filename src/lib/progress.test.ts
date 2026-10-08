@@ -314,7 +314,7 @@ describe('writeStreak (mirror a server-authoritative streak)', () => {
     expect(loadStreak(SCHOOL, SPORT, 'daily-iq').current).toBe(3)
     expect(loadStreak(SCHOOL, SPORT, 'daily')).toEqual(EMPTY_STREAK)
   })
-  it('overwrites a local streak (the server copy wins once it exists)', () => {
+  it('overwrites a local streak (mirroring the reconciled server value)', () => {
     saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25'))
     writeStreak(SCHOOL, SPORT, { current: 9, max: 12, lastDate: '2026-06-25' })
     expect(loadStreak(SCHOOL, SPORT)).toEqual({

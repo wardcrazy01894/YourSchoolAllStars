@@ -134,7 +134,7 @@ describe('submitDaily', () => {
       seed: ARGS.seed,
     })
   })
-  it('MIRRORS the server streak into localStorage (server copy wins)', async () => {
+  it('MIRRORS the server streak into localStorage (the reconciled value)', async () => {
     saveDailyResult('michigan', 'basketball', {
       dateKey: '2026-10-08',
       playerIds: {},

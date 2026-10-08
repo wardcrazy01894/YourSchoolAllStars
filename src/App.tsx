@@ -892,10 +892,10 @@ function Game({
       })
       setStreak(updated)
       // Best-effort: record the play server-side (worker/) and show the day's
-      // standing. The worker bootstraps its streak row from `seed` the first
-      // time it sees this device, then its copy is authoritative — adopt it
-      // (submitDaily also mirrors it into localStorage). Non-official plays
-      // and an unset endpoint resolve null and change nothing.
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
       void submitDaily({
         school: school.id,
         sport: sport.id,
@@ -1119,10 +1119,10 @@ function FullGame({
       })
       setStreak(updated)
       // Best-effort: record the play server-side (worker/) and show the day's
-      // standing. The worker bootstraps its streak row from `seed` the first
-      // time it sees this device, then its copy is authoritative — adopt it
-      // (submitDaily also mirrors it into localStorage). Non-official plays
-      // and an unset endpoint resolve null and change nothing.
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
       void submitDaily({
         school: school.id,
         sport: sport.id,
@@ -2120,10 +2120,10 @@ function FbGame({
       })
       setStreak(updated)
       // Best-effort: record the play server-side (worker/) and show the day's
-      // standing. The worker bootstraps its streak row from `seed` the first
-      // time it sees this device, then its copy is authoritative — adopt it
-      // (submitDaily also mirrors it into localStorage). Non-official plays
-      // and an unset endpoint resolve null and change nothing.
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
       void submitDaily({
         school: school.id,
         sport: sport.id,
@@ -2348,10 +2348,10 @@ function FullFbGame({
       })
       setStreak(updated)
       // Best-effort: record the play server-side (worker/) and show the day's
-      // standing. The worker bootstraps its streak row from `seed` the first
-      // time it sees this device, then its copy is authoritative — adopt it
-      // (submitDaily also mirrors it into localStorage). Non-official plays
-      // and an unset endpoint resolve null and change nothing.
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
       void submitDaily({
         school: school.id,
         sport: sport.id,
