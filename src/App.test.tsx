@@ -7,7 +7,17 @@ import { initDraft, draftToSlot } from './lib/game'
 import { initFbDraft } from './lib/football-game'
 import { getMode } from './lib/modes'
 import { getSchool, DEFAULT_SCHOOL_ID } from './schools'
-import { Playing, RosterRail, Results, FbPlaying, FbRosterRail } from './App'
+import {
+  Playing,
+  RosterRail,
+  Results,
+  FbPlaying,
+  FbRosterRail,
+  ModeMenu,
+} from './App'
+import { getSport } from './lib/sports'
+import { writeStreak } from './lib/progress'
+import { getDateKey } from './lib/daily'
 
 // Force prefers-reduced-motion so spin() reveals the pool synchronously (no
 // rAF/timeout to await) — we want to assert on the revealed table, not animate.
@@ -221,6 +231,15 @@ describe('Results — award badges on the final roster', () => {
       />,
     )
   }
+
+  it('shows a LAPSED stored streak as 0 days (best kept) on the results chips', () => {
+    // Storage still says 7, but the last play was weeks ago — the chip must
+    // not claim a live run (displayStreak inside StreakChips).
+    renderResults({ streak: { current: 7, max: 7, lastDate: '2026-09-01' } })
+    const chips = document.querySelector('.record .streaks')!
+    expect(chips.textContent).toMatch(/🔥 0 days/)
+    expect(chips.textContent).toMatch(/best 7\b/)
+  })
 
   it('shows the leaderboard standing line on a fresh daily finish', () => {
     renderResults({ standing: { rank: 3, total: 7 } })
@@ -559,5 +578,94 @@ describe('FbPlaying — Full Football era label', () => {
     fireEvent.click(screen.getByRole('button', { name: /Spin/ }))
     expect(screen.queryByText(/Florida/)).toBeNull()
     expect(screen.getByText(/2000–2003/)).toBeTruthy()
+  })
+})
+
+describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
+  // Streaks live in localStorage; isolate each case.
+  beforeEach(() => localStorage.clear())
+  function renderMenu() {
+    render(
+      <ModeMenu
+        school={getSchool(DEFAULT_SCHOOL_ID)!}
+        sport={getSport('basketball')}
+        onPick={() => {}}
+        onBackToSports={() => {}}
+        onSwitchSchool={() => {}}
+      />,
+    )
+  }
+  const card = (name: string) =>
+    screen.getByRole('button', { name: new RegExp(name) })
+
+  it('shows the Daily Challenge streak on the Daily Challenge card, and Daily IQ’s on its card', () => {
+    const today = getDateKey()
+    writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
+      current: 3,
+      max: 12,
+      lastDate: today,
+    })
+    writeStreak(
+      DEFAULT_SCHOOL_ID,
+      'basketball',
+      { current: 1, max: 20, lastDate: today },
+      'daily-iq',
+    )
+    renderMenu()
+    // The headline is the LARGEST across all daily modes: longest current
+    // streak (Daily's 3) and highest best (Daily IQ's 20).
+    const headline = document.querySelector('.hero .streaks')!
+    expect(headline.textContent).toMatch(/🔥 3 days/)
+    expect(headline.textContent).toMatch(/best 20\b/)
+    expect(card('Daily Challenge').textContent).toMatch(/🔥 3 days/)
+    expect(card('Daily Challenge').textContent).toMatch(/best 12\b/)
+    expect(card('Daily IQ').textContent).toMatch(/🔥 1 day\b/)
+    expect(card('Daily IQ').textContent).toMatch(/best 20\b/)
+    // Free-play cards never carry a streak.
+    expect(card('Classic').textContent).not.toMatch(/🔥/)
+    expect(card('Hoops IQ').textContent).not.toMatch(/🔥/)
+  })
+
+  it('the user’s example: Daily IQ 10, Daily 6 → 10 on IQ, 6 on Daily, 10 up top', () => {
+    const today = getDateKey()
+    writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
+      current: 6,
+      max: 6,
+      lastDate: today,
+    })
+    writeStreak(
+      DEFAULT_SCHOOL_ID,
+      'basketball',
+      { current: 10, max: 10, lastDate: today },
+      'daily-iq',
+    )
+    renderMenu()
+    expect(card('Daily IQ').textContent).toMatch(/🔥 10 days/)
+    expect(card('Daily Challenge').textContent).toMatch(/🔥 6 days/)
+    expect(document.querySelector('.hero .streaks')!.textContent).toMatch(
+      /🔥 10 days/,
+    )
+  })
+
+  it('a LAPSED streak reads 0 days (best kept) even though storage still holds the old count', () => {
+    // Storage only changes on a play, so a streak abandoned weeks ago still
+    // holds e.g. current 7. The UI must not show it as alive.
+    writeStreak(DEFAULT_SCHOOL_ID, 'basketball', {
+      current: 7,
+      max: 7,
+      lastDate: '2026-09-01',
+    })
+    renderMenu()
+    expect(card('Daily Challenge').textContent).toMatch(/🔥 0 days/)
+    expect(card('Daily Challenge').textContent).toMatch(/best 7/)
+    expect(card('Daily IQ').textContent).not.toMatch(/🔥/)
+    expect(document.querySelector('.hero .streaks')!.textContent).toMatch(
+      /🔥 0 days.*best 7/,
+    )
+  })
+
+  it('shows no headline when no daily mode has ever been completed', () => {
+    renderMenu()
+    expect(document.querySelector('.hero .streaks')).toBeNull()
   })
 })

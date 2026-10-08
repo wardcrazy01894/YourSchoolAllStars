@@ -6,6 +6,7 @@ import {
   nextStreak,
   loadStreak,
   writeStreak,
+  displayStreak,
   loadDaily,
   saveDailyResult,
   type SavedDaily,
@@ -322,5 +323,24 @@ describe('writeStreak (mirror a server-authoritative streak)', () => {
       max: 12,
       lastDate: '2026-06-25',
     })
+  })
+})
+
+describe('displayStreak (what the UI should show for a stored streak today)', () => {
+  it('keeps a live streak (played today or yesterday)', () => {
+    const s = { current: 10, max: 12, lastDate: '2026-10-08' }
+    expect(displayStreak(s, '2026-10-08')).toEqual(s)
+    expect(displayStreak(s, '2026-10-09')).toEqual(s)
+  })
+  it('shows 0 for a lapsed streak (gap of 2+ real days), keeping best', () => {
+    const s = { current: 10, max: 12, lastDate: '2026-09-15' }
+    expect(displayStreak(s, '2026-10-08')).toEqual({ ...s, current: 0 })
+  })
+  it('keeps a streak whose only gap is the 2026-10-07 outage', () => {
+    const s = { current: 52, max: 52, lastDate: '2026-10-06' }
+    expect(displayStreak(s, '2026-10-08')).toEqual(s)
+  })
+  it('passes EMPTY_STREAK through', () => {
+    expect(displayStreak(EMPTY_STREAK, '2026-10-08')).toBe(EMPTY_STREAK)
   })
 })
