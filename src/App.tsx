@@ -91,6 +91,12 @@ import {
   type Streak,
   type SavedDaily,
 } from './lib/progress'
+import {
+  submitDaily,
+  readStanding,
+  formatStanding,
+  type Standing,
+} from './lib/leaderboard'
 import { buildShareString, buildFbShareString } from './lib/share'
 import { buildReelPlan, buildIndexReelPlan } from './lib/reel'
 import type { ReelPlan } from './lib/reel'
@@ -842,6 +848,12 @@ function Game({
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, sport.id, mode.id),
   )
+  // Today's leaderboard standing — null until a submit returns (or always, when
+  // the worker is off). A returning visit restores the cached submit so the
+  // line survives a reload without re-POSTing.
+  const [standing, setStanding] = useState<Standing | null>(() =>
+    mode.daily ? readStanding(school.id, sport.id, mode.id, dateKey) : null,
+  )
   // The persisted result for the locked view. Carries the EARNED wins/grade so a
   // returning player sees what they actually scored, even if the dataset's stats
   // were corrected since (the live re-rate would otherwise drift). Null until done.
@@ -873,11 +885,30 @@ function Game({
     // streak. saveDailyResult is idempotent and fail-safe; only a REAL today play
     // moves the streak — `?date=` playtest days save + lock but stay neutral.
     if (mode.daily) {
+      const official = dateKey === getDateKey()
       const updated = saveDailyResult(school.id, sport.id, saved, {
-        advanceStreak: dateKey === getDateKey(),
+        advanceStreak: official,
         mode: mode.id,
       })
       setStreak(updated)
+      // Best-effort: record the play server-side (worker/) and show the day's
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
+      void submitDaily({
+        school: school.id,
+        sport: sport.id,
+        mode: mode.id,
+        dateKey,
+        score: saved.wins,
+        seed: updated,
+        official,
+      }).then((s) => {
+        if (!s) return
+        setStanding(s)
+        if (s.streak) setStreak(s.streak)
+      })
     }
     // Celebration is mode-agnostic on purpose: a great roster earns confetti in
     // Classic / Hoops IQ too, even though those don't save or touch the streak.
@@ -952,6 +983,7 @@ function Game({
           state={state}
           dateKey={dateKey}
           streak={streak}
+          standing={standing}
           saved={result}
           returning={returning}
           onPlayAgain={playAgain}
@@ -1017,6 +1049,12 @@ function FullGame({
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, sport.id, mode.id),
   )
+  // Today's leaderboard standing — null until a submit returns (or always, when
+  // the worker is off). A returning visit restores the cached submit so the
+  // line survives a reload without re-POSTing.
+  const [standing, setStanding] = useState<Standing | null>(() =>
+    mode.daily ? readStanding(school.id, sport.id, mode.id, dateKey) : null,
+  )
   const [result, setResult] = useState<SavedDaily | null>(savedToday)
   const returning = savedToday !== null
 
@@ -1074,11 +1112,30 @@ function FullGame({
     const saved = savedDailyFrom(s, dateKey, GAMES, power5OfFull)
     setResult(saved)
     if (mode.daily) {
+      const official = dateKey === getDateKey()
       const updated = saveDailyResult(school.id, sport.id, saved, {
-        advanceStreak: dateKey === getDateKey(),
+        advanceStreak: official,
         mode: mode.id,
       })
       setStreak(updated)
+      // Best-effort: record the play server-side (worker/) and show the day's
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
+      void submitDaily({
+        school: school.id,
+        sport: sport.id,
+        mode: mode.id,
+        dateKey,
+        score: saved.wins,
+        seed: updated,
+        official,
+      }).then((s) => {
+        if (!s) return
+        setStanding(s)
+        if (s.streak) setStreak(s.streak)
+      })
     }
     if (
       saved.grade === 'PERFECT' ||
@@ -1155,6 +1212,7 @@ function FullGame({
           state={state}
           dateKey={dateKey}
           streak={streak}
+          standing={standing}
           saved={result}
           returning={returning}
           onPlayAgain={playAgain}
@@ -1698,6 +1756,7 @@ export function Results({
   state,
   dateKey,
   streak,
+  standing,
   saved,
   returning,
   onPlayAgain,
@@ -1709,6 +1768,8 @@ export function Results({
   state: DraftState
   dateKey: string
   streak: Streak
+  /** Today's anonymous leaderboard standing, when the worker returned one. */
+  standing?: Standing | null
   /** The persisted result for this day; its EARNED wins/grade win over a re-rate. */
   saved: SavedDaily | null
   /** Already in the books on load (a returning visit) — shows the lock banner. */
@@ -1782,6 +1843,11 @@ export function Results({
         <div className="grade">{grade}</div>
         <p className="muted">Team strength {strength} / 100</p>
         {mode.daily && <StreakChips streak={streak} />}
+        {mode.daily && standing && (
+          <p className="standing" title="Anonymous daily leaderboard">
+            🏆 {formatStanding(standing, returning)}
+          </p>
+        )}
       </div>
 
       <RosterRail
@@ -2022,6 +2088,12 @@ function FbGame({
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, sport.id, mode.id),
   )
+  // Today's leaderboard standing — null until a submit returns (or always, when
+  // the worker is off). A returning visit restores the cached submit so the
+  // line survives a reload without re-POSTing.
+  const [standing, setStanding] = useState<Standing | null>(() =>
+    mode.daily ? readStanding(school.id, sport.id, mode.id, dateKey) : null,
+  )
   const [result, setResult] = useState<SavedDaily | null>(savedToday)
   const returning = savedToday !== null
 
@@ -2041,11 +2113,30 @@ function FbGame({
     const saved = fbSavedDailyFrom(s, dateKey, school.power5)
     setResult(saved)
     if (mode.daily) {
+      const official = dateKey === getDateKey()
       const updated = saveDailyResult(school.id, sport.id, saved, {
-        advanceStreak: dateKey === getDateKey(),
+        advanceStreak: official,
         mode: mode.id,
       })
       setStreak(updated)
+      // Best-effort: record the play server-side (worker/) and show the day's
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
+      void submitDaily({
+        school: school.id,
+        sport: sport.id,
+        mode: mode.id,
+        dateKey,
+        score: saved.wins,
+        seed: updated,
+        official,
+      }).then((s) => {
+        if (!s) return
+        setStanding(s)
+        if (s.streak) setStreak(s.streak)
+      })
     }
     if (
       saved.grade === 'PERFECT' ||
@@ -2120,6 +2211,7 @@ function FbGame({
           state={state}
           dateKey={dateKey}
           streak={streak}
+          standing={standing}
           saved={result}
           returning={returning}
           onPlayAgain={playAgain}
@@ -2186,6 +2278,12 @@ function FullFbGame({
   const [streak, setStreak] = useState<Streak>(() =>
     loadStreak(school.id, sport.id, mode.id),
   )
+  // Today's leaderboard standing — null until a submit returns (or always, when
+  // the worker is off). A returning visit restores the cached submit so the
+  // line survives a reload without re-POSTing.
+  const [standing, setStanding] = useState<Standing | null>(() =>
+    mode.daily ? readStanding(school.id, sport.id, mode.id, dateKey) : null,
+  )
   const [result, setResult] = useState<SavedDaily | null>(savedToday)
   const returning = savedToday !== null
 
@@ -2243,11 +2341,30 @@ function FullFbGame({
     const saved = fbSavedDailyFrom(s, dateKey, power5OfFullFb)
     setResult(saved)
     if (mode.daily) {
+      const official = dateKey === getDateKey()
       const updated = saveDailyResult(school.id, sport.id, saved, {
-        advanceStreak: dateKey === getDateKey(),
+        advanceStreak: official,
         mode: mode.id,
       })
       setStreak(updated)
+      // Best-effort: record the play server-side (worker/) and show the day's
+      // standing. The worker reconciles its streak row with `seed` (the better
+      // of the two wins) and returns it — adopt it (submitDaily also mirrors it
+      // into localStorage). Non-official plays and an unset endpoint resolve
+      // null and change nothing.
+      void submitDaily({
+        school: school.id,
+        sport: sport.id,
+        mode: mode.id,
+        dateKey,
+        score: saved.wins,
+        seed: updated,
+        official,
+      }).then((s) => {
+        if (!s) return
+        setStanding(s)
+        if (s.streak) setStreak(s.streak)
+      })
     }
     if (
       saved.grade === 'PERFECT' ||
@@ -2327,6 +2444,7 @@ function FullFbGame({
           state={state}
           dateKey={dateKey}
           streak={streak}
+          standing={standing}
           saved={result}
           returning={returning}
           onPlayAgain={playAgain}
@@ -2903,6 +3021,7 @@ function FbResults({
   state,
   dateKey,
   streak,
+  standing,
   saved,
   returning,
   onPlayAgain,
@@ -2914,6 +3033,8 @@ function FbResults({
   state: FbDraftState
   dateKey: string
   streak: Streak
+  /** Today's anonymous leaderboard standing, when the worker returned one. */
+  standing?: Standing | null
   /** The persisted result for this day; its EARNED wins/grade win over a re-rate. */
   saved: SavedDaily | null
   returning: boolean
@@ -2975,6 +3096,11 @@ function FbResults({
         <div className="grade">{grade}</div>
         <p className="muted">Team strength {strength} / 100</p>
         {mode.daily && <StreakChips streak={streak} />}
+        {mode.daily && standing && (
+          <p className="standing" title="Anonymous daily leaderboard">
+            🏆 {formatStanding(standing, returning)}
+          </p>
+        )}
       </div>
 
       <FbRosterRail

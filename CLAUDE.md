@@ -6,6 +6,13 @@ good a team you can build. First school: **Michigan**. See `docs/PLAN.md` for
 architecture and `docs/DATA-SOURCING.md` for the data pipeline. This file is the
 contract for how changes get made — it mirrors the KnowYourCity setup.
 
+**Leaderboard + streaks worker:** `worker/` is this game's own Cloudflare
+Worker + D1 (`ysas-leaderboard`), separate from KnowYourCity's. The client
+submits official daily plays and mirrors the server's streak; the server streak
+rules (`worker/leaderboard-lib.mjs` `advanceStreak`, incl. `OUTAGE_DAYS`) must
+stay identical to `src/lib/progress.ts` `nextStreak` — change both together.
+Deploy / repair recipes: `worker/README.md`.
+
 ## Branch & PR workflow
 
 - **All changes land via a Pull Request — never push directly to `main`.**
