@@ -9,6 +9,9 @@
 
 ALTER TABLE scores ADD COLUMN strength INTEGER;
 
--- Board + rank now read by strength: (…, date, strength).
+-- The rank/board queries filter on (school, sport, mode, date) and then sort
+-- by COALESCE(strength, 0), so only this index's prefix is used and the day's
+-- rows are scanned — fine at this scale. (An expression index or a NOT NULL
+-- DEFAULT 0 column would let the sort use the index; not worth it yet.)
 CREATE INDEX IF NOT EXISTS idx_scores_board
   ON scores (school, sport, mode, date, strength);

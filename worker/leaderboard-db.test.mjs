@@ -142,6 +142,29 @@ describe('standing (ranked by STRENGTH, one device = one competitor, keep-max)',
     const { rows } = await topScores(db, { ...UM, date: DATE })
     expect(rows).toEqual([{ strength: 80, score: 20 }])
   })
+  it('keep-max honours the WINS tiebreak at equal strength (incl. all-NULL old clients)', async () => {
+    // Equal real strengths: more wins must update.
+    await submit('A', 80, 30)
+    await submit('A', 80, 34)
+    let { rows } = await topScores(db, { ...UM, date: DATE })
+    expect(rows).toEqual([{ strength: 80, score: 34 }])
+    // Deploy window: NULL strength both times, more wins must update.
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'N', score: 30 },
+      NOW,
+    )
+    await upsertAndRank(
+      db,
+      { ...UM, date: DATE, clientId: 'N', score: 38 },
+      NOW,
+    )
+    ;({ rows } = await topScores(db, { ...UM, date: DATE }))
+    expect(rows).toEqual([
+      { strength: 80, score: 34 },
+      { strength: 0, score: 38 },
+    ])
+  })
   it('boards are isolated by school, sport, mode and date', async () => {
     await submit('device-A', 99)
     await submit('device-B', 99, 16, { ...UM, sport: 'football' })

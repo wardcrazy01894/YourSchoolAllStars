@@ -230,6 +230,9 @@ export async function upsertAndRank(
          score = CASE WHEN (COALESCE(excluded.strength, 0), excluded.score)
                            > (COALESCE(strength, 0), score)
                       THEN excluded.score ELSE score END,
+         -- NOTE: a re-posted legacy row's NULL becomes 0 here, so NULL does
+         -- NOT reliably mean "written before the migration"; every read
+         -- COALESCEs and nothing distinguishes the two.
          strength = CASE WHEN (COALESCE(excluded.strength, 0), excluded.score)
                               > (COALESCE(strength, 0), score)
                          THEN COALESCE(excluded.strength, 0)
