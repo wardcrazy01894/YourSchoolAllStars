@@ -11,11 +11,12 @@ import { FB_SLOTS } from '../types'
 
 /**
  * First season on the football era wheel — matches basketball's 1994 floor.
- * Official per-player stats (mgoblue.com) cover 1997+ on both sides of the
- * ball; 1994–96 offense comes from Sports-Reference, while pre-1997 defense
- * is INT-only (no source publishes tackles that far back). Since eligibility
- * is season-ROW-based, windows starting 1994–96 still fill every defensive
- * slot from the 1997 rows they contain. See docs/DATA-SOURCING.md.
+ * Sources vary by school (docs/DATA-SOURCING.md). Michigan's official stats
+ * (mgoblue.com) cover 1997+ on both sides, its 1994–96 offense comes from
+ * Sports-Reference, and its pre-1997 defense is INT-only; since eligibility is
+ * season-ROW-based, its 1994–96 windows still fill every defensive slot from
+ * the 1997 rows they contain. The other schools carry a full 1994–96
+ * defensive box from digitized media guides or official archived stats.
  */
 export const FB_FIRST_YEAR = 1994
 

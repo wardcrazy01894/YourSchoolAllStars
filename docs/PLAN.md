@@ -42,10 +42,10 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
   era, data-driven up to the latest season (`buildRollingWindows`). The fixed
   `BBALL_WINDOWS` survive only as a coverage-test fixture.)_
 - **Football is 1994+, like basketball.** _(Superseded: originally "football
-  starts 2005" because defensive stats looked unavailable earlier. Official
-  per-player stats turned out to cover 1997+ on both sides, and pre-1997
-  offense comes from Sports-Reference, so the wheel starts at `FB_FIRST_YEAR =
-1994` — see `football.ts` and `docs/DATA-SOURCING.md`.)_
+  starts 2005" because defensive stats looked unavailable earlier. Real
+  sources turned up for every school back to 1994 — official stats, digitized
+  media guides and Sports-Reference, varying by school — so the wheel starts at
+  `FB_FIRST_YEAR` (1994). See `football.ts` and `docs/DATA-SOURCING.md`.)_
 - **Best single season** represents each player (matches 40-0).
 - **Full basketball rosters at launch**: each season's starters + key rotation
   (~7/season), ~200–250 unique player-records, all **sourced, not fabricated**.
@@ -82,6 +82,8 @@ src/
     honors.ts         honor strings → badge glyphs
     football*.ts      football windows/slots, draft machine, rating, result
     full*.ts          cross-school Full Basketball / Full Football pools + spins
+    sports.ts         sport registry + which sports a school can play
+    version.ts        new-deploy detection (version.json on tab focus)
     modes.ts          Daily / Daily IQ / Classic / Hoops IQ / Gridiron IQ configs
     reel.ts           spin-wheel geometry (which years, where it lands)
     progress.ts       localStorage persistence + streaks (nextStreak, OUTAGE_DAYS)
@@ -162,9 +164,10 @@ Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
 - **Defense (6):** DE · DT · LB · CB · S · FLEX. The defensive FLEX accepts any
   defender (DE/DT/LB/CB/S).
 - **Windows: rolling 4-year eras from 1994** (`fbWindows`, floor
-  `FB_FIRST_YEAR`), data-driven from each school's own coverage. Pre-1997
-  defense is INT-only, so 1994–96 eras fill defensive slots from the 1997 rows
-  they contain (see `football.ts`).
+  `FB_FIRST_YEAR`), data-driven from each school's own coverage. Only
+  Michigan's pre-1997 defense is INT-only (its 1994–96 eras fill defensive slots
+  from the 1997 rows they contain); the other schools carry a full 1994–96
+  defensive box from media guides or official sources (see `football.ts`).
 - **12 rounds** (one per slot). Draft = pick an eligible player, drop into an open
   slot their position fits (single-position or FLEX).
 - **Draft order: all 6 offense first, then all 6 defense** (`OFFENSE_SLOT_IDS`
