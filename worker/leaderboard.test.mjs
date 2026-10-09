@@ -24,6 +24,8 @@ import {
   dayDiff,
   addDays,
   advanceStreak,
+  expectedWins,
+  isPlausibleScore,
 } from './leaderboard-lib.mjs'
 
 /**
@@ -255,6 +257,13 @@ describe('reconcileStreak', () => {
       reconcileStreak(null, row(54, 54, '2026-10-08'), '2026-10-08'),
     ).toEqual(row(54, 54, '2026-10-08'))
   })
+  it('never rolls back behind a seed that is AHEAD of the submit, even with no row', () => {
+    // Lost D+1 submit (no row yet), then yesterday's tab finishes: the seed
+    // already played D+1, so the row must not be parked on D.
+    expect(
+      reconcileStreak(null, row(1, 1, '2026-10-10'), '2026-10-09'),
+    ).toEqual(row(1, 1, '2026-10-10'))
+  })
   it('the better advanced record wins; ties keep the stored row', () => {
     expect(
       reconcileStreak(
@@ -359,6 +368,32 @@ describe('advanceStreak (mirrors the client nextStreak exactly)', () => {
   })
 })
 
+describe('expectedWins / isPlausibleScore — the score must fit the strength', () => {
+  it('85+ runs the table and sub-30 is winless, in both sports', () => {
+    expect(expectedWins(85, 40)).toBe(40)
+    expect(expectedWins(100, 16)).toBe(16)
+    expect(expectedWins(29, 40)).toBe(0)
+    expect(expectedWins(0, 16)).toBe(0)
+  })
+  it('the pivot (57) is a coin flip', () => {
+    expect(expectedWins(57, 40)).toBe(20)
+    expect(expectedWins(57, 16)).toBe(8)
+  })
+  it('accepts the expected wins ±1 in the logistic middle', () => {
+    const w = expectedWins(70, 40)
+    for (const d of [-1, 0, 1])
+      expect(isPlausibleScore(w + d, 70, 40)).toBe(true)
+    expect(isPlausibleScore(w + 2, 70, 40)).toBe(false)
+    expect(isPlausibleScore(w - 2, 70, 40)).toBe(false)
+  })
+  it('the overrides are exact: an 85+ must be undefeated, a sub-30 winless', () => {
+    expect(isPlausibleScore(40, 85, 40)).toBe(true)
+    expect(isPlausibleScore(39, 85, 40)).toBe(false)
+    expect(isPlausibleScore(0, 29, 40)).toBe(true)
+    expect(isPlausibleScore(1, 29, 40)).toBe(false)
+  })
+})
+
 describe('validateSubmission', () => {
   const now = new Date('2026-06-15T16:00:00Z') // afternoon Eastern
   const today = dateKeyFor(now)
@@ -377,6 +412,23 @@ describe('validateSubmission', () => {
       value: { ...good, seed: null, strength: null },
     })
   })
+  it('rejects a score that cannot come from the claimed strength', () => {
+    // A forged #1: overall 100 needs a 40-0, and a 31-win overall 100 is not a
+    // team any client can produce.
+    expect(
+      validateSubmission({ ...good, strength: 100, score: 31 }, now),
+    ).toMatchObject({
+      ok: false,
+      status: 400,
+      error: 'score does not match strength',
+    })
+    expect(
+      validateSubmission(
+        { ...good, sport: 'football', strength: 20, score: 16 },
+        now,
+      ),
+    ).toMatchObject({ ok: false, error: 'score does not match strength' })
+  })
   it('an explicit strength: null is the same as absent', () => {
     expect(
       validateSubmission({ ...good, strength: null }, now).value.strength,
@@ -384,13 +436,16 @@ describe('validateSubmission', () => {
   })
   it('carries an integer strength in [0, 100]; rejects anything else', () => {
     expect(
-      validateSubmission({ ...good, strength: 79 }, now).value.strength,
+      validateSubmission({ ...good, strength: 79, score: 38 }, now).value
+        .strength,
     ).toBe(79)
     expect(
-      validateSubmission({ ...good, strength: 0 }, now).value.strength,
+      validateSubmission({ ...good, strength: 0, score: 0 }, now).value
+        .strength,
     ).toBe(0)
     expect(
-      validateSubmission({ ...good, strength: 100 }, now).value.strength,
+      validateSubmission({ ...good, strength: 100, score: 40 }, now).value
+        .strength,
     ).toBe(100)
     for (const bad of [101, -1, 79.5, '79', NaN]) {
       expect(validateSubmission({ ...good, strength: bad }, now)).toMatchObject(
