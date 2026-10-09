@@ -17,6 +17,9 @@ import type {
   YearWindow,
 } from '../types'
 
+/** Basketball season length the projected record is rated over (a 40-0). */
+export const BBALL_GAMES = 40
+
 // ── Per-player rating ────────────────────────────────────────────────────────
 //
 // Fantasy-style composite: rarer, higher-leverage stats are weighted up. Steals
@@ -280,7 +283,10 @@ export function winProbability(strength: number): number {
 }
 
 /** Projected wins out of `games` (default 40 for basketball). */
-export function projectedWins(starters: RatedStarter[], games = 40): number {
+export function projectedWins(
+  starters: RatedStarter[],
+  games = BBALL_GAMES,
+): number {
   const strength = teamStrength(starters)
   // An 85+ overall (as displayed, i.e. rounded) is undefeated, full stop — the
   // logistic curve alone would round a true elite down to 39-1, which feels wrong.
@@ -291,12 +297,12 @@ export function projectedWins(starters: RatedStarter[], games = 40): number {
 }
 
 /** "34–6", "40–0", etc. */
-export function recordLabel(wins: number, games = 40): string {
+export function recordLabel(wins: number, games = BBALL_GAMES): string {
   return `${wins}–${games - wins}`
 }
 
 /** A flavor grade for the final record, à la 40-0's tiers. */
-export function gradeLabel(wins: number, games = 40): string {
+export function gradeLabel(wins: number, games = BBALL_GAMES): string {
   const pct = wins / games
   if (wins === games) return 'PERFECT'
   if (pct >= 0.9) return 'HISTORIC'

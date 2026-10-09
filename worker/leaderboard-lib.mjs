@@ -18,7 +18,7 @@ export const GAME_TZ = 'America/New_York'
 
 /**
  * Sport → max score. `score` is the projected-wins number the app shows:
- * basketball rates over a 40-game season (src/App.tsx GAMES), football over 16
+ * basketball rates over a 40-game season (src/lib/rating.ts BBALL_GAMES), football over 16
  * (src/lib/football-rating.ts FB_GAMES). Keep in step with the client.
  */
 export const SPORT_MAX_SCORE = { basketball: 40, football: 16 }
@@ -36,9 +36,9 @@ export const DAILY_MODES = ['daily', 'daily-iq']
 /**
  * Known school ids — the real schools (src/schools.ts) plus the two
  * cross-school sentinels the app uses as the streak namespace for its "full"
- * modes (src/App.tsx FULL_BBALL_ID / FULL_FB_ID). The worker rejects anything
+ * modes (src/lib/full.ts FULL_BBALL_ID / FULL_FB_ID). The worker rejects anything
  * else so a junk slug can't seed its own board. Keep in step when a school is
- * added (the lib test pins the list).
+ * added (worker/parity.test.mjs checks it against src/schools.ts).
  */
 export const SCHOOLS = [
   'michigan',
