@@ -160,13 +160,12 @@ function writeStanding(
   dateKey: string,
   s: Standing,
 ): void {
+  const key = cacheKey(school, sport, mode, dateKey)
   try {
-    localStorage.setItem(
-      cacheKey(school, sport, mode, dateKey),
-      JSON.stringify(s),
-    )
-  } catch {
-    /* best-effort */
+    localStorage.setItem(key, JSON.stringify(s))
+  } catch (e) {
+    // Best-effort; without the cache a reload just re-POSTs (harmless keep-max).
+    console.warn('leaderboard standing not cached', { key, error: String(e) })
   }
 }
 
@@ -239,6 +238,8 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
   const { school, sport, mode, dateKey } = args
   const cached = readStanding(school, sport, mode, dateKey)
   if (cached) return cached
+  // Every failure log below carries what it was for.
+  const ctx = { game: `${school}:${sport}:${mode}`, date: dateKey }
 
   try {
     const r = await fetch(endpoint, {
@@ -250,14 +251,17 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
       const body = await r.text().catch(() => '')
       console.warn('leaderboard submit rejected', {
         status: r.status,
-        game: `${school}:${sport}:${mode}`,
+        ...ctx,
         body: body.slice(0, 200),
       })
       return null
     }
     const data = (await r.json().catch(() => null)) as Partial<Standing> | null
     if (typeof data?.rank !== 'number' || typeof data?.total !== 'number') {
-      console.warn('leaderboard submit: unexpected response shape', { data })
+      console.warn('leaderboard submit: unexpected response shape', {
+        ...ctx,
+        data,
+      })
       return null
     }
     const standing: Standing = { rank: data.rank, total: data.total }
@@ -276,7 +280,10 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
     writeStanding(school, sport, mode, dateKey, standing)
     return standing
   } catch (e) {
-    console.warn('leaderboard submit failed (network)', { error: String(e) })
+    console.warn('leaderboard submit failed (network)', {
+      ...ctx,
+      error: String(e),
+    })
     return null
   }
 }
@@ -309,6 +316,7 @@ export async function fetchLeaderboard(
 ): Promise<Board | null> {
   const endpoint = import.meta.env.VITE_LEADERBOARD_ENDPOINT
   if (!endpoint) return null
+  const ctx = { game: `${school}:${sport}:${mode}`, date: dateKey }
   try {
     const u = new URL(endpoint)
     u.searchParams.set('school', school)
@@ -317,12 +325,20 @@ export async function fetchLeaderboard(
     u.searchParams.set('date', dateKey)
     const r = await fetch(u.toString())
     if (!r.ok) {
-      console.warn('leaderboard read rejected', { status: r.status })
+      const body = await r.text().catch(() => '')
+      console.warn('leaderboard read rejected', {
+        status: r.status,
+        ...ctx,
+        body: body.slice(0, 200),
+      })
       return null
     }
     const data = (await r.json().catch(() => null)) as Partial<Board> | null
     if (!data || !Array.isArray(data.rows) || typeof data.total !== 'number') {
-      console.warn('leaderboard read: unexpected response shape', { data })
+      console.warn('leaderboard read: unexpected response shape', {
+        ...ctx,
+        data,
+      })
       return null
     }
     const rows = data.rows.filter(
@@ -331,7 +347,10 @@ export async function fetchLeaderboard(
     )
     return { total: data.total, rows }
   } catch (e) {
-    console.warn('leaderboard read failed (network)', { error: String(e) })
+    console.warn('leaderboard read failed (network)', {
+      ...ctx,
+      error: String(e),
+    })
     return null
   }
 }

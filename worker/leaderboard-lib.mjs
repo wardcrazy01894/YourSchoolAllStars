@@ -27,6 +27,39 @@ export const SPORT_MAX_SCORE = { basketball: 40, football: 16 }
 export const MAX_STRENGTH = 100
 
 /**
+ * The client's strength → projected-wins curve, shared by both sports
+ * (src/lib/rating.ts projectedWins, src/lib/football-rating.ts fbProjectedWins):
+ * a logistic around WIN_PIVOT, with a displayed (rounded) overall of
+ * UNDEFEATED_STRENGTH+ running the table and one below WINLESS_STRENGTH going
+ * winless. worker/parity.test.mjs pins these to the client's constants.
+ */
+export const WIN_PIVOT = 57
+export const WIN_SPREAD = 7.5
+export const UNDEFEATED_STRENGTH = 85
+export const WINLESS_STRENGTH = 30
+
+/** Projected wins out of `games` for a displayed (integer) overall. */
+export function expectedWins(strength, games) {
+  if (strength >= UNDEFEATED_STRENGTH) return games
+  if (strength < WINLESS_STRENGTH) return 0
+  const p = 1 / (1 + Math.exp(-(strength - WIN_PIVOT) / WIN_SPREAD))
+  return Math.round(p * games)
+}
+
+/**
+ * Could a real client have produced `score` wins from a displayed overall of
+ * `strength`? The overrides are exact; in the logistic middle the client rates
+ * the UNROUNDED strength (up to ±0.5 away, ≤0.67 wins at the curve's steepest),
+ * so ±1 win covers it. Not anti-cheat — just stops a hand-made
+ * `{strength: 100, score: 3}` or a 0-overall 40-0 from reaching the board.
+ */
+export function isPlausibleScore(score, strength, games) {
+  if (strength >= UNDEFEATED_STRENGTH) return score === games
+  if (strength < WINLESS_STRENGTH) return score === 0
+  return Math.abs(score - expectedWins(strength, games)) <= 1
+}
+
+/**
  * The daily (one-shot, streak-bearing) modes. Free-play modes never submit
  * (they're replayable, so a score means nothing on a daily board). Keep in step
  * with src/lib/modes.ts `daily: true` entries.
@@ -194,6 +227,11 @@ export function validateSubmission(body, now = new Date()) {
   const strength = body?.strength == null ? null : body.strength
   if (strength !== null && !isValidScore(strength, MAX_STRENGTH))
     return { ok: false, status: 400, error: 'invalid strength' }
+  if (
+    strength !== null &&
+    !isPlausibleScore(score, strength, SPORT_MAX_SCORE[sport])
+  )
+    return { ok: false, status: 400, error: 'score does not match strength' }
 
   const seed = validateSeed(body?.seed, now).value
 
@@ -412,7 +450,14 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
   // stored row stands, exactly as advanceStreak's own backwards guard does.
   if (stored && dateKey < stored.last_played_date) return a
   const b = advanceStreak(fromSeed, dateKey)
-  const winner = b.current > a.current ? b : a
+  // Ties keep the stored row — unless the seed is AHEAD of this submit (a late
+  // finish of yesterday's tab after a lost submit for today): then the seed
+  // wins, so last_played_date never rolls back behind what the device played.
+  const winner =
+    b.current > a.current ||
+    (b.current === a.current && b.last_played_date > a.last_played_date)
+      ? b
+      : a
   // `winner.current` is in the max so a repair that raised `current` without
   // `best` still reads best ≥ current (advanceStreak returns prev unchanged on
   // a same-day / backwards submit, so it wouldn't fix that up itself).

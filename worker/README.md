@@ -51,6 +51,14 @@ client_id)` row in `streaks` (migration `0002`) with **exactly** the client's
   `score` = projected wins; `strength` = the 0..100 team overall (**what the
   rank is by**; optional only for old clients, ranks as 0 when absent);
   `seed` = `{ current, max, lastDate }` (the client's local `Streak`).
+  When `strength` is sent, `score` must be what the client's win curve gives
+  for it (±1; exact at the 85+ undefeated and sub-30 winless overrides) —
+  `400 score does not match strength` otherwise. The curve constants are
+  pinned to the client by `worker/parity.test.mjs`.
+- **Rejections are logged.** Every non-2xx answer logs
+  `leaderboard rejected { status, error, … }` (game + date for a submit or
+  view, the origin for a 403, siteverify `turnstileErrors` for a Turnstile
+  failure), so `wrangler tail` shows why players' submits are failing.
 - **View:** `GET ?school=&sport=&mode=&date=` → `{ ok, total, rows[] }` —
   the day's top 100 as `{ strength, score }`, best overall first, anonymous
   (no ids). Powers the leaderboard page. Rate-limited and validated like the

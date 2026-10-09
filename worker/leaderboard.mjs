@@ -89,7 +89,7 @@ function json(obj, status, headers) {
 }
 
 async function verifyTurnstile(token, secret, ip) {
-  if (!token) return false
+  if (!token) return { ok: false, errors: ['missing-token'] }
   const form = new URLSearchParams({ secret, response: token })
   if (ip) form.set('remoteip', ip)
   try {
@@ -98,7 +98,12 @@ async function verifyTurnstile(token, secret, ip) {
       { method: 'POST', body: form },
     )
     const data = await r.json()
-    return Boolean(data.success)
+    return {
+      ok: Boolean(data.success),
+      // Why siteverify said no — tells a misconfigured key
+      // (invalid-input-secret) apart from a real bot (invalid-input-response).
+      errors: data['error-codes'] ?? [],
+    }
   } catch (e) {
     // A siteverify NETWORK failure looks identical to a bot rejection (both
     // return false → 403). Log it distinctly so "every legit user is blocked"
@@ -106,12 +111,27 @@ async function verifyTurnstile(token, secret, ip) {
     console.warn('leaderboard turnstile siteverify network error', {
       error: String(e),
     })
-    return false
+    return { ok: false, errors: ['siteverify-unreachable'] }
   }
 }
 
-/** The (school, sport, mode) triple as one log-friendly string. */
-const gameTag = (v) => `${v.school}:${v.sport}:${v.mode}`
+/** The (school, sport, mode) triple as one log-friendly string. Also used on
+ *  UNVALIDATED input, so each part is stringified and length-capped. */
+const gameTag = (v) =>
+  [v?.school, v?.sport, v?.mode]
+    .map((x) => String(x ?? '').slice(0, 32))
+    .join(':')
+
+/**
+ * Refuse a request AND log why. Every non-2xx answer goes through here so a
+ * contract drift (a client sending something the worker now rejects), a
+ * misconfigured Turnstile key, or an abuse burst shows up in `wrangler tail`
+ * with its status, reason and context — not only in players' browser consoles.
+ */
+function reject(status, error, headers, context = {}) {
+  console.warn('leaderboard rejected', { status, error, ...context })
+  return json({ error }, status, headers)
+}
 
 export default {
   async fetch(request, env) {
@@ -119,38 +139,45 @@ export default {
     const headers = cors(env, origin)
     if (request.method === 'OPTIONS') return new Response(null, { headers })
     if (request.method !== 'POST' && request.method !== 'GET')
-      return json({ error: 'method not allowed' }, 405, headers)
+      return reject(405, 'method not allowed', headers, {
+        method: request.method,
+      })
 
     // Fail CLOSED: refuse to operate without at least one anti-abuse control.
-    if (!env.RATE_LIMITER && !env.RL && !env.TURNSTILE_SECRET)
+    if (!env.RATE_LIMITER && !env.RL && !env.TURNSTILE_SECRET) {
+      console.error(
+        'leaderboard fails closed: no rate limit or Turnstile configured',
+      )
       return json(
         { error: 'leaderboard disabled: configure a rate limit or Turnstile' },
         503,
         headers,
       )
+    }
 
     // Server-side Origin allowlist (CORS headers alone don't stop curl).
     if (origin && !originAllowed(env, origin))
-      return json({ error: 'forbidden origin' }, 403, headers)
+      return reject(403, 'forbidden origin', headers, { origin })
 
-    if (!env.DB) return json({ error: 'leaderboard unavailable' }, 503, headers)
+    if (!env.DB) {
+      console.error('leaderboard unavailable: no D1 binding (env.DB)')
+      return json({ error: 'leaderboard unavailable' }, 503, headers)
+    }
 
     const len = parseInt(request.headers.get('Content-Length') || '0', 10)
     if (len > MAX_BODY_BYTES)
-      return json({ error: 'payload too large' }, 413, headers)
+      return reject(413, 'payload too large', headers, { bytes: len })
 
     const ip = request.headers.get('CF-Connecting-IP') || 'unknown'
 
     // Per-IP rate limit (native binding preferred, KV counter fallback).
     if (env.RATE_LIMITER) {
       const { success } = await env.RATE_LIMITER.limit({ key: ip })
-      if (!success)
-        return json({ error: 'rate limited, try later' }, 429, headers)
+      if (!success) return reject(429, 'rate limited, try later', headers)
     } else if (env.RL) {
       const key = `rl:${ip}`
       const n = parseInt((await env.RL.get(key)) || '0', 10)
-      if (n >= RL_MAX)
-        return json({ error: 'rate limited, try later' }, 429, headers)
+      if (n >= RL_MAX) return reject(429, 'rate limited, try later', headers)
       await env.RL.put(key, String(n + 1), { expirationTtl: RL_WINDOW_SECONDS })
     }
 
@@ -163,7 +190,16 @@ export default {
         mode: q.get('mode'),
         date: q.get('date'),
       })
-      if (!vv.ok) return json({ error: vv.error }, vv.status, headers)
+      if (!vv.ok)
+        return reject(vv.status, vv.error, headers, {
+          method: 'GET',
+          game: gameTag({
+            school: q.get('school'),
+            sport: q.get('sport'),
+            mode: q.get('mode'),
+          }),
+          date: String(q.get('date') ?? '').slice(0, 32),
+        })
       try {
         const board = await topScores(env.DB, vv.value)
         return json({ ok: true, ...board }, 200, headers)
@@ -180,25 +216,35 @@ export default {
     let body
     try {
       const raw = await request.text()
-      if (new TextEncoder().encode(raw).byteLength > MAX_BODY_BYTES)
-        return json({ error: 'payload too large' }, 413, headers)
+      const bytes = new TextEncoder().encode(raw).byteLength
+      if (bytes > MAX_BODY_BYTES)
+        return reject(413, 'payload too large', headers, { bytes })
       body = JSON.parse(raw)
     } catch {
-      return json({ error: 'invalid json' }, 400, headers)
+      return reject(400, 'invalid json', headers)
     }
+    // Context for any rejection below (raw, capped — it isn't validated yet).
+    const subject = () => ({
+      game: gameTag(body),
+      date: String(body?.date ?? '').slice(0, 32),
+    })
 
     // Bot check (only when Turnstile is configured for this worker).
     if (env.TURNSTILE_SECRET) {
-      const ok = await verifyTurnstile(
+      const ts = await verifyTurnstile(
         body?.turnstileToken,
         env.TURNSTILE_SECRET,
         ip,
       )
-      if (!ok) return json({ error: 'verification failed' }, 403, headers)
+      if (!ts.ok)
+        return reject(403, 'verification failed', headers, {
+          ...subject(),
+          turnstileErrors: ts.errors,
+        })
     }
 
     const v = validateSubmission(body, new Date())
-    if (!v.ok) return json({ error: v.error }, v.status, headers)
+    if (!v.ok) return reject(v.status, v.error, headers, subject())
 
     try {
       const now = Date.now()

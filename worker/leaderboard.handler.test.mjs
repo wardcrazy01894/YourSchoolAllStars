@@ -335,6 +335,90 @@ describe('leaderboard worker handler', () => {
     spy.mockRestore()
   })
 
+  // Every rejection is logged server-side (status + reason + context) so a
+  // contract drift or a misconfigured key is diagnosable from `wrangler tail`,
+  // not only from players' browser consoles.
+  describe('logs every rejection with its status and reason', () => {
+    let warn
+    beforeEach(() => {
+      warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    })
+    afterEach(() => warn.mockRestore())
+    const lastLog = () => warn.mock.calls.at(-1)
+
+    it('403 forbidden origin (with the origin)', async () => {
+      await handler.fetch(
+        post(goodBody(), { origin: 'https://evil.example' }),
+        makeEnv(),
+      )
+      expect(lastLog()[0]).toBe('leaderboard rejected')
+      expect(lastLog()[1]).toMatchObject({
+        status: 403,
+        error: 'forbidden origin',
+        origin: 'https://evil.example',
+      })
+    })
+    it('413 oversized body', async () => {
+      await handler.fetch(
+        post(goodBody(), { headers: { 'Content-Length': '999999' } }),
+        makeEnv(),
+      )
+      expect(lastLog()[1]).toMatchObject({ status: 413 })
+    })
+    it('429 rate limited', async () => {
+      await handler.fetch(post(goodBody()), makeEnv({ RL: kv(30) }))
+      expect(lastLog()[1]).toMatchObject({ status: 429 })
+    })
+    it('400 invalid json', async () => {
+      await handler.fetch(post('{ not json'), makeEnv())
+      expect(lastLog()[1]).toMatchObject({ status: 400, error: 'invalid json' })
+    })
+    it('400 validation, with the game and date it was for', async () => {
+      await handler.fetch(post(goodBody({ school: 'osu' })), makeEnv())
+      expect(lastLog()[1]).toMatchObject({
+        status: 400,
+        error: 'unknown school',
+        game: 'osu:basketball:daily',
+        date: TODAY,
+      })
+    })
+    it('400 on a GET view, with the game', async () => {
+      await handler.fetch(get(`${GAME}&date=nope`), makeEnv())
+      expect(lastLog()[1]).toMatchObject({
+        status: 400,
+        error: 'invalid date',
+        game: 'michigan:basketball:daily',
+      })
+    })
+    it('403 Turnstile, with siteverify error-codes', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => ({
+          json: async () => ({
+            success: false,
+            'error-codes': ['invalid-input-secret'],
+          }),
+        })),
+      )
+      await handler.fetch(
+        post(goodBody({ turnstileToken: 'tok' })),
+        makeEnv({ TURNSTILE_SECRET: 'secret' }),
+      )
+      expect(lastLog()[1]).toMatchObject({
+        status: 403,
+        error: 'verification failed',
+        turnstileErrors: ['invalid-input-secret'],
+      })
+    })
+  })
+
+  it('logs (error) when the worker fails closed for lack of any abuse control', async () => {
+    const err = vi.spyOn(console, 'error').mockImplementation(() => {})
+    await handler.fetch(post(goodBody()), makeEnv({ RL: undefined }))
+    expect(JSON.stringify(err.mock.calls)).toMatch(/fail(s|ing)? closed/i)
+    err.mockRestore()
+  })
+
   it('degrades to 503 (not 500) when D1 throws, and logs the failure', async () => {
     const broken = fakeDB()
     broken.batch = vi.fn(async () => {
