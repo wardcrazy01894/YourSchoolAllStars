@@ -24,10 +24,11 @@ North Carolina, Florida, Virginia Tech, Pittsburgh, and VCU** (Michigan is the
 default; VCU is the lone non-power-5 school and fields no football). Each runs on
 a fully sourced, gap-free dataset — Michigan alone is **95 sourced players / 259
 season rows (1992–2026)**, with every (window × position) and (year × position)
-cell covered (see [`docs/DATA-SOURCING.md`](docs/DATA-SOURCING.md)). **Football
-(2005+)** is playable behind a per-school sport picker on a **MOCK/provisional**
-Michigan dataset (engine, rating, and UI all built; curated football data is the
-remaining work).
+cell covered (see [`docs/DATA-SOURCING.md`](docs/DATA-SOURCING.md)).
+**Football** is live too: the five schools that field it (all but VCU) each ship
+a real, sourced per-season dataset from 1994 on, played as a 12-man roster.
+Two **Full** modes pool every school at once, and each daily has a **streak**
+and an optional **leaderboard**.
 
 ## How to play
 
@@ -67,9 +68,15 @@ PR workflow) are in [`CLAUDE.md`](CLAUDE.md).
 
 ## Layout
 
-- `src/lib/` — pure, tested engine: `windows`, `daily`, `rating`, `game`, `share`.
+- `src/lib/` — pure, tested engine: basketball (`windows`, `daily`, `rating`,
+  `game`, `result`, `honors`), football (`football*`), cross-school `full*`,
+  `modes`, `reel`, `progress` (persistence + streaks), `leaderboard` (worker
+  client), `share`, `version`.
 - `src/data/` — curated datasets + integrity guard.
-- `src/App.tsx` — the React shell (Landing → Playing → Results).
+- `src/App.tsx` — the React shell (Landing → Playing → Results);
+  `src/Leaderboard.tsx` — today's board.
+- `worker/` — the leaderboard + streaks Cloudflare Worker (D1).
+- `scripts/`, `data-work/` — data pipelines and per-school sourcing recipes.
 - `docs/` — `PLAN.md`, `DATA-SOURCING.md`, `BACKLOG.md`, `QUESTIONS-FOR-ALEX.md`.
 
 ## Tech

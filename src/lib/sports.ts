@@ -73,9 +73,9 @@ export function sportsForSchool(school: School): SportConfig[] {
  * Is this sport actually PLAYABLE for THIS school right now? `sportsForSchool`
  * decides whether to *show* a sport's card; this decides whether that card routes
  * into a real draft or to the "coming soon" screen. A sport is playable only when
- * it's globally `available` AND the school carries that sport's dataset — football
- * ships for Michigan only today, so every other school's football card (it still
- * fields football) reads as "coming soon" instead of opening an empty draft.
+ * it's globally `available` AND the school carries that sport's dataset — a school
+ * that fields a sport but doesn't ship its data yet gets a "coming soon" card
+ * instead of an empty draft. (Today every live school ships every sport it fields.)
  */
 export function sportPlayableForSchool(
   school: School,
