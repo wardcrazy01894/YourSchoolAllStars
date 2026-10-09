@@ -165,9 +165,9 @@ const GAMES = BBALL_GAMES
 const SPIN_MS = 2600
 
 // ── Full games ────────────────────────────────────────────────────────────────
-// Sentinel "school" ids for the two cross-school home cards. They aren't real
-// `School`s (no single dataset), so routing special-cases them before the normal
-// school → sport → mode flow.
+// The two cross-school home cards use sentinel "school" ids (FULL_BBALL_ID /
+// FULL_FB_ID, lib/full.ts). They aren't real `School`s (no single dataset), so
+// routing special-cases them before the normal school → sport → mode flow.
 
 /** Neutral multi-school theme for the Full games (no single school's colors). */
 const FULL_THEME: Theme = {
