@@ -4,9 +4,13 @@ Strike through as they're answered.
 
 ## Answered
 
-- ~~Year-window width?~~ → **4-year, non-overlapping** ("college is 4 years").
-- ~~Football's pre-2005 defensive-stat gap?~~ → **Football starts 2005**;
-  basketball 1994+.
+- ~~Year-window width?~~ → **4-year** ("college is 4 years"). _(Originally
+  non-overlapping; superseded in #16 by a rolling wheel — every year starts its
+  own 4-year era.)_
+- ~~Football's pre-2005 defensive-stat gap?~~ → _(Superseded.)_ Originally
+  **football starts 2005**; real sources were later found for 1994+ (official
+  stats 1997+, media guides / Sports-Reference earlier), so football is now
+  1994+ like basketball. See `docs/DATA-SOURCING.md`.
 - ~~Stat line per player?~~ → **Best single season.**
 - ~~How much data at launch?~~ → **Full basketball rosters** (starters + key
   rotation), sourced not fabricated.

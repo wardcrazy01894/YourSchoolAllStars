@@ -17,25 +17,26 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
 
 ## Daily polish
 
-- [ ] **One-shot daily persistence** + streaks (localStorage), so the Daily is a
-      single attempt and reload restores your result.
+- [x] **One-shot daily persistence** + streaks (localStorage), so the Daily is a
+      single attempt and reload restores your result (`src/lib/progress.ts`).
 - [ ] **"Yesterday's solution"** panel (an optimal/strong five for the prior day).
-- [ ] **Spin animation** (slot-reel feel) on each round, matching 40-0's spin.
+- [x] **Spin animation** (slot-reel feel) on each round, matching 40-0's spin
+      (`src/lib/reel.ts`).
 - [ ] **Sound feedback** (Web Audio, no files) on draft / great result, like
       KnowYourCity's `sound.ts`.
-- [ ] **Leaderboard** (future, needs a tiny worker) — same Cloudflare pattern as
-      KnowYourCity.
+- [x] **Leaderboard** — own Cloudflare Worker + D1 (`worker/`, #91/#92/#96/#98):
+      "Xth of Y today", today's board by team strength, server-side streaks.
 
 ## Modes
 
-- [ ] **Classic free-play** (random spins, replayable) and **Hoops IQ**
-      (stats-hidden) toggle.
+- [x] **Classic free-play** (random spins, replayable) and **Hoops IQ**
+      (stats-hidden), plus **Daily IQ** and **Gridiron IQ** (`src/lib/modes.ts`).
 - [ ] **"By position" draft view** (40-0 has it).
 
-## Football (M6) — LIVE on four schools
+## Football (M6) — LIVE on five schools
 
 - [x] Football types + 12-slot roster (QB/RB/WR/TE + 2 flex; DE/DT/LB/CB/S + 1
-      flex), windows from 2005 (`src/types.ts`, `src/lib/football.ts`).
+      flex), rolling windows from 1994 (`src/types.ts`, `src/lib/football.ts`).
 - [x] Football rating model + draft state machine + UI (`football-rating.ts`,
       `football-game.ts`, `football-result.ts`, `App.tsx`).
 - [x] **Curated (non-mock) football datasets** — Michigan, Pittsburgh, Florida,
@@ -43,7 +44,8 @@ Roughly priority-ordered. Pull items into PRs; keep each PR small.
 false`) with a cited `source` on every row and per-season honors. See
       `docs/DATA-SOURCING.md` for each school's source map.
 - [x] **UNC football dataset** — North Carolina ships real per-season data
-      (1997+, see DATA-SOURCING for why the floor is 1997) and has auto-joined
+      (1994+; pre-2000 defense from digitized media guides, see DATA-SOURCING)
+      and has auto-joined
       Full Football. **Every live school now ships both sports.**
 
 ## Multi-school
@@ -65,7 +67,9 @@ false`) with a cited `source` on every row and per-season honors. See
       `eligible: BballPosition[]`; draft is pick-player-then-tap-slot
       (`draftToSlot`). Done in gameplay v2.
 - [ ] **Populate `eligible` in the data**: tag combo players (e.g. a PG who also
-      played SG) so the new multi-slot draft actually has choices to offer.
+      played SG) so the multi-slot draft has choices to offer. Mostly done —
+      combo-tagged players: UNC 78/106, Florida 170/191, Pitt 170/197, VCU
+      175/198, VT 61/106; **Michigan (35/95) is the gap**.
 - [ ] Bug-report flow (reuse KnowYourCity's worker pattern) for stat corrections —
       crucial for a stats game.
 - [ ] Provenance viewer: click a player to see their `source`.

@@ -2,7 +2,7 @@
 
 ## What it is
 
-A daily, no-backend, share-friendly draft game in the family of
+A daily, static-hosted, share-friendly draft game in the family of
 [20-0.com](https://www.20-0.com/) (whose **40-0** = college basketball and
 **16-0** = college football), but scoped to **one school at a time**. Six
 basketball schools are live (Michigan — the default — plus North Carolina,
@@ -36,15 +36,21 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
 
 ## Locked decisions (ratified by Alex — do not relitigate)
 
-- **Windows: 4-year, non-overlapping**, from 1994. Basketball → 1994–97, 1998–01,
-  … 2022–25 (8 windows). "One window ≈ one college career."
-- **Football starts 2005** (defensive stats — tackles/sacks — don't reliably
-  exist before ~2005 at any source). Basketball is 1994+.
+- **Windows: 4-year, from 1994.** "One window ≈ one college career."
+  _(Superseded in #16: originally 8 fixed NON-overlapping windows (1994–97,
+  1998–01, …); the live wheel is now ROLLING — every year starts its own 4-year
+  era, data-driven up to the latest season (`buildRollingWindows`). The fixed
+  `BBALL_WINDOWS` survive only as a coverage-test fixture.)_
+- **Football is 1994+, like basketball.** _(Superseded: originally "football
+  starts 2005" because defensive stats looked unavailable earlier. Official
+  per-player stats turned out to cover 1997+ on both sides, and pre-1997
+  offense comes from Sports-Reference, so the wheel starts at `FB_FIRST_YEAR =
+1994` — see `football.ts` and `docs/DATA-SOURCING.md`.)_
 - **Best single season** represents each player (matches 40-0).
 - **Full basketball rosters at launch**: each season's starters + key rotation
   (~7/season), ~200–250 unique player-records, all **sourced, not fabricated**.
 - Stack mirrors KnowYourCity: **React + TS + Vite**, static **GitHub Pages**,
-  deterministic daily seed (no backend), CI (build/typecheck/lint/test/secret),
+  deterministic daily seed (gameplay needs no backend), CI (build/typecheck/lint/test/secret),
   branch protection, TDD. Repo `wardcrazy01894/YourSchoolAllStars`.
 - **Difficulty (revised 2026-06-26, Alex): a more forgiving curve.** The original
   "~4% perfect" target is retired — the win curve was intentionally eased so a
@@ -68,10 +74,18 @@ Alex's spec: 4 offense (QB/RB/WR/TE) + 2 flex, 5 defense (DE/DT/LB/CB/S) + 1 fle
 src/
   types.ts            domain types (Sport, BballPosition, BballPlayer, YearWindow)
   lib/
-    windows.ts        window config (buildWindows) + eligibility (tenureOverlaps, playerInWindow)
+    windows.ts        rolling era wheel (buildRollingWindows) + eligibility (tenureOverlaps, playerInWindow)
     daily.ts          getDateKey (ET), seeded PRNG (mulberry32), generateSpins (fixed era sequence)
     rating.ts         stat line → player rating → team strength → projected record
     game.ts           pure draft state machine (initDraft, draftToSlot, skip, isPickable, …)
+    result.ts         roster evaluation (rate → record) + saved-daily (de)serialization
+    honors.ts         honor strings → badge glyphs
+    football*.ts      football windows/slots, draft machine, rating, result
+    full*.ts          cross-school Full Basketball / Full Football pools + spins
+    modes.ts          Daily / Daily IQ / Classic / Hoops IQ / Gridiron IQ configs
+    reel.ts           spin-wheel geometry (which years, where it lands)
+    progress.ts       localStorage persistence + streaks (nextStreak, OUTAGE_DAYS)
+    leaderboard.ts    worker client: submit a daily, read standing + the board
     share.ts          Wordle-style spoiler-free share string
   data/
     michigan-basketball.json   curated player dataset (95 players / 259 rows, sourced)
@@ -81,7 +95,13 @@ src/
     dataset.test.ts            integrity guard (shape, coverage, completeness, tenure)
   schools.ts          school registry + per-school theme tokens + applyTheme()
   App.tsx             React shell: Picker → Landing → Playing → Results
+  Leaderboard.tsx     today's board (overall /100 per finisher)
+worker/               optional leaderboard + streaks Cloudflare Worker (D1) — worker/README.md
 ```
+
+The game itself needs no backend. The worker is optional: with
+`VITE_LEADERBOARD_ENDPOINT` unset, the standing line and board are omitted and
+streaks stay local-only.
 
 ### Daily determinism
 
@@ -141,12 +161,15 @@ Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
   RB/WR/TE.
 - **Defense (6):** DE · DT · LB · CB · S · FLEX. The defensive FLEX accepts any
   defender (DE/DT/LB/CB/S).
-- **Windows: 4-year from 2005** (`FB_WINDOWS` = 2005-08 … 2021-24). Defensive
-  box-score stats (tackles/sacks) aren't reliable before 2005 — hence the start.
+- **Windows: rolling 4-year eras from 1994** (`fbWindows`, floor
+  `FB_FIRST_YEAR`), data-driven from each school's own coverage. Pre-1997
+  defense is INT-only, so 1994–96 eras fill defensive slots from the 1997 rows
+  they contain (see `football.ts`).
 - **12 rounds** (one per slot). Draft = pick an eligible player, drop into an open
   slot their position fits (single-position or FLEX).
 - **Draft order: all 6 offense first, then all 6 defense** (`OFFENSE_SLOT_IDS`
-  then `DEFENSE_SLOT_IDS`; `sideForRound`).
+  then `DEFENSE_SLOT_IDS`; the reducer derives the side from which slots are
+  filled).
 - **One re-spin per side** (`FB_RESPINS_PER_SIDE = 1`): a fresh re-spin for the
   offensive half and another for the defensive half; an unused offensive re-spin
   does not carry over. (Basketball stays at one re-spin for the whole game.)
@@ -163,14 +186,14 @@ Same engine shape as basketball, onto a **12-man roster** (`FB_SLOTS`):
   each position gets its own normalized 0→100 curve off fixed anchors (e.g. a
   1,000-yd rusher, a 10-sack edge, a 4,000-yd passer all map high), then the same
   weak-link-penalized team strength → projected record **out of 16**. Premium
-  slots (QB, and an edge rusher) can carry a small multiplier, TBD at calibration.
+  slots carry a small multiplier (`FB_POSITION_WEIGHT`).
 
 Football is **playable** end-to-end: `src/types.ts`
-(FbPosition/FbStats/FbPlayer/FB_SLOTS), `src/lib/football.ts` (FB_WINDOWS, slot
+(FbPosition/FbStats/FbPlayer/FB_SLOTS), `src/lib/football.ts` (fbWindows, slot
 eligibility incl. FLEX), `football-game.ts` (draft state machine),
 `football-rating.ts` + `football-result.ts` (rating → record out of 16), the
-football UI in `App.tsx`, and four real sourced datasets
-(`{michigan,pitt,florida,vt}-football.json`, all `_provisional: false`) — all
+football UI in `App.tsx`, and five real sourced datasets
+(`{michigan,pitt,florida,vt,unc}-football.json`, all `_provisional: false`) — all
 tested. Cross-school **Full Football** (`full-football.ts`) pools every school
 with a real dataset.
 
@@ -187,20 +210,24 @@ with a real dataset.
   position AND year × position filled; the `dataset.test.ts` coverage guards
   assert it). Win-curve eased per Alex (2026-06-26): undefeated cutoff 85, pivot
   57 — the old ~4% target is retired.
-- **M3 — Modes:** Daily (one-shot + streaks) · Classic (free-play) · Hoops IQ.
-- **M4 — Adjacent positions:** eligibility + "tap an open slot" draft UX.
+- **M3 — Modes (DONE):** Daily (one-shot + streaks) · Classic (free-play) ·
+  Hoops IQ, plus Daily IQ and Gridiron IQ (`modes.ts`).
+- **M4 — Adjacent positions (DONE):** eligibility + "tap an open slot" draft UX.
 - **M5 — Ship (DONE):** repo public, branch protection on, Pages deploy live
   (`.github/workflows/deploy.yml`).
 - **M6 — Football (1994+) (DONE):** 12-slot roster, engine + rating + UI, and
-  four real sourced datasets (Michigan, Pitt, Florida, Virginia Tech) with
+  five real sourced datasets (Michigan, Pitt, Florida, Virginia Tech, UNC) with
   per-season honors. Era wheel is data-driven from each school's own coverage.
 - **M7 — More schools (6 LIVE):** Michigan, North Carolina, Florida, Virginia
-  Tech, Pittsburgh, and VCU all ship real basketball datasets; four of them also
-  ship real football datasets. End state: those schools × both sports (UNC
-  football is the remaining gap), added over time.
+  Tech, Pittsburgh, and VCU all ship real basketball datasets, and the five that
+  field football ship real football datasets too. Next: new schools
+  (`data-work/unc/` and `data-work/vt/` are the recipes).
 - **M8 — Full (cross-school) modes (DONE):** Full Basketball and Full Football
   spin a team + an era each round, drafting from every live school; the
   non-power-5 rating haircut is per-player.
+- **M9 — Leaderboard + streaks worker (DONE):** `worker/` (Cloudflare Worker +
+  D1) records official daily plays, ranks the day's board by team strength, and
+  keeps a server copy of every streak (`worker/README.md`).
 
 ## Open questions
 

@@ -2,7 +2,7 @@
 //
 // A "window" is a 4-year span of season-ending years (one window ≈ one college
 // career, per Alex's call). The daily game spins one window per draft round; you
-// may only draft players whose Michigan tenure OVERLAPS the spun window.
+// may only draft players whose tenure at the school OVERLAPS the spun window.
 //
 // The LIVE daily wheel is now the data-driven ROLLING wheel: the app spins
 // `buildRollingWindows(1994, datasetMaxYear(players), 4)` (overlapping 4-year

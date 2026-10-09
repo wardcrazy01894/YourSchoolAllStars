@@ -2123,17 +2123,18 @@ function FbGame({
     () => school.football?.players ?? [],
     [school.football],
   )
-  // For football, `provisional` means the bundled stats are MOCK placeholders —
-  // good enough to test every screen + mode before real sourced data lands.
+  // For football, `provisional` would mean the bundled stats are MOCK
+  // placeholders (kept for a future school's seed data — every shipped football
+  // dataset today is real, so this is false and the mock banner never shows).
   const provisional = school.football?.provisional ?? false
 
   const dateKey = useMemo(() => activeDateKey(), [])
   const [gameSeed, setGameSeed] = useState<number>(() =>
     mode.daily ? seedFor(dateKey, `${school.id}:${sport.id}`) : randomSeed(),
   )
-  // Football's rolling wheel: 4-year eras from 2016 (the CFBD defensive-data
-  // floor — see docs/DATA-SOURCING.md) up to the dataset's max season. Same
-  // data-driven rolling scheme basketball uses.
+  // Football's rolling wheel: 4-year eras from the dataset's own floor (never
+  // before FB_FIRST_YEAR = 1994 — see football.ts / docs/DATA-SOURCING.md) up to
+  // its max season. Same data-driven rolling scheme basketball uses.
   const windows = useMemo(() => fbWindows(players), [players])
   // FB_DRAFT_ROUNDS windows, split by fbEraSequences into offense's 7 and
   // defense's 7 (one per slot + that side's re-spin), so neither side's sequence
@@ -2547,7 +2548,8 @@ function FbLanding({
   dateKey: string
   /** False when this school has no draftable football wheel (no data yet). */
   playable: boolean
-  /** Mock/placeholder data — surfaced so playtesters know stats aren't real yet. */
+  /** Mock/placeholder data (a future school's seed) — surfaced so playtesters
+   *  know stats aren't real yet. False for every shipped dataset today. */
   provisional: boolean
   streak: Streak
   onStart: () => void
