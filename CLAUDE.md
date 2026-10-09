@@ -79,7 +79,7 @@ window-era and year position-coverage guards. Full policy + rationale:
 
 ```bash
 npm install          # first time
-npm run hooks:install  # once per clone: pre-push hook runs the CI gates
+npm run hooks:install # once per clone: pre-push hook = the CI gates
 npm run dev          # local dev server (http://localhost:5173/YourSchoolAllStars/)
 npm run typecheck    # tsc --noEmit
 npm run lint         # eslint
