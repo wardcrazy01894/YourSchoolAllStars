@@ -157,7 +157,9 @@ export default {
 
     // Server-side Origin allowlist (CORS headers alone don't stop curl).
     if (origin && !originAllowed(env, origin))
-      return reject(403, 'forbidden origin', headers, { origin })
+      return reject(403, 'forbidden origin', headers, {
+        origin: String(origin).slice(0, 200),
+      })
 
     if (!env.DB) {
       console.error('leaderboard unavailable: no D1 binding (env.DB)')

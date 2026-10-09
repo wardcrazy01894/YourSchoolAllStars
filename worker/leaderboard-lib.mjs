@@ -379,7 +379,8 @@ export function advanceStreak(prev, dateKey) {
  * RECONCILE: the submission carries `seed`, the streak the client holds in
  * localStorage. Both the stored row (if any) and the seed are advanced to the
  * submitted day and the BETTER one wins (higher `current`; a tie keeps the
- * stored row; `best` is the max of both). This one rule covers every case:
+ * stored row — unless the seed is dated AFTER the submit, then the seed wins
+ * so `last_played_date` never rolls back; `best` is the max of both). This one rule covers every case:
  *   - first-ever submit → no row, the seed bootstraps, so a streak earned
  *     before this table existed carries over;
  *   - missed submits (offline / 503 / 429) → the stored row is stale and would

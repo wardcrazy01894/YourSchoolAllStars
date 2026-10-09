@@ -54,7 +54,11 @@ client_id)` row in `streaks` (migration `0002`) with **exactly** the client's
   When `strength` is sent, `score` must be what the client's win curve gives
   for it (±1; exact at the 85+ undefeated and sub-30 winless overrides) —
   `400 score does not match strength` otherwise. The curve constants are
-  pinned to the client by `worker/parity.test.mjs`.
+  pinned to the client by `worker/parity.test.mjs`. (A submit with no
+  `strength` skips the check; it ranks as overall 0, below every real row.)
+  **Deploy coupling:** the client ships on merge but the worker deploys by
+  hand — a change to the win curve must be deployed to the worker in the same
+  window, or every real submit 400s until it is.
 - **Rejections are logged.** Every non-2xx answer logs
   `leaderboard rejected { status, error, … }` (game + date for a submit or
   view, the origin for a 403, siteverify `turnstileErrors` for a Turnstile
