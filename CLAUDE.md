@@ -20,7 +20,8 @@ Deploy / repair recipes: `worker/README.md`.
 - **All changes land via a Pull Request — never push directly to `main`.**
 - Every PR runs these CI checks (must be green before merge):
   - **build / typecheck / lint** — `npm ci`, `tsc --noEmit`, `eslint`,
-    `prettier --check`, `vite build`.
+    `prettier --check`, `vite build`, and a `wrangler deploy --dry-run` of the
+    worker (bundles + checks `worker/wrangler.toml`; no credentials).
   - **test** — `vitest run`.
   - **secret scan** — gitleaks over the branch history.
 - Branches **delete automatically on merge**. Use short-lived feature branches:
@@ -78,6 +79,7 @@ window-era and year position-coverage guards. Full policy + rationale:
 
 ```bash
 npm install          # first time
+npm run hooks:install  # once per clone: pre-push hook runs the CI gates
 npm run dev          # local dev server (http://localhost:5173/YourSchoolAllStars/)
 npm run typecheck    # tsc --noEmit
 npm run lint         # eslint

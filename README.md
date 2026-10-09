@@ -63,7 +63,8 @@ npm run build        # what CI runs
 ```
 
 Run `npm run typecheck && npm run lint && npm run format:check && npm test && npm
-run build` before opening a PR. Contribution rules (TDD, **no fabricated stats**,
+run build` before opening a PR — or run `npm run hooks:install` once and the
+committed pre-push hook (`.githooks/pre-push`) runs them for you on every push. Contribution rules (TDD, **no fabricated stats**,
 PR workflow) are in [`CLAUDE.md`](CLAUDE.md).
 
 ## Layout

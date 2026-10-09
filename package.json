@@ -15,7 +15,8 @@
     "lint": "eslint .",
     "test": "vitest run",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "hooks:install": "git config core.hooksPath .githooks"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
