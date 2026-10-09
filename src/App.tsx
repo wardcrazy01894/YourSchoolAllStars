@@ -911,7 +911,8 @@ function Game({
     // Only the DAILY persists + advances the per-device streak. Free-play modes
     // (Classic / Hoops IQ) are replayable, so they neither save nor touch the
     // streak. saveDailyResult is idempotent and fail-safe; only a REAL play
-    // (started today, even if it ends past midnight ET — isOfficialPlay) moves
+    // (the page loaded on its date, even if it ends past midnight ET —
+    // isOfficialPlay) moves
     // the streak — `?date=` playtest days save + lock but stay neutral.
     if (mode.daily) {
       const official = isOfficialPlay(dateKey, getDateKey(), isPlaytestDate())
