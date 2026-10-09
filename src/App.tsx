@@ -40,6 +40,8 @@ import {
   buildSchoolWheels,
   generateFullSpins,
   power5OfFull,
+  FULL_BBALL_ID,
+  FULL_FB_ID,
   type FullPlayer,
   type EraSpin,
 } from './lib/full'
@@ -75,6 +77,7 @@ import {
   bestSeason,
   seasonForWindow,
   recordLabel,
+  BBALL_GAMES,
 } from './lib/rating'
 import {
   evaluateRoster,
@@ -155,7 +158,7 @@ import {
   type SportConfig,
 } from './lib/sports'
 
-const GAMES = 40
+const GAMES = BBALL_GAMES
 
 /** Spin duration (ms). Kept in sync with the wheel's CSS deceleration. */
 const SPIN_MS = 2600
@@ -164,8 +167,6 @@ const SPIN_MS = 2600
 // Sentinel "school" ids for the two cross-school home cards. They aren't real
 // `School`s (no single dataset), so routing special-cases them before the normal
 // school → sport → mode flow.
-const FULL_BBALL_ID = 'full-basketball'
-const FULL_FB_ID = 'full-football'
 
 /** Neutral multi-school theme for the Full games (no single school's colors). */
 const FULL_THEME: Theme = {

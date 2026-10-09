@@ -18,6 +18,13 @@ import { buildRollingWindows, datasetMaxYear } from './windows'
 import { mulberry32 } from './daily'
 
 /** Basketball rolling-wheel base year — overlapping 4-year eras start here. */
+/**
+ * Sentinel "school" ids for the two cross-school home cards — also the streak
+ * namespace the leaderboard worker accepts (worker/leaderboard-lib.mjs SCHOOLS).
+ */
+export const FULL_BBALL_ID = 'full-basketball'
+export const FULL_FB_ID = 'full-football'
+
 export const FULL_WINDOW_FROM = 1994
 /** Rolling-era length in years (matches the single-school basketball wheel). */
 export const FULL_WINDOW_SIZE = 4

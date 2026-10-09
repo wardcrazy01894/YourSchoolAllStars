@@ -10,7 +10,9 @@ contract for how changes get made — it mirrors the KnowYourCity setup.
 Worker + D1 (`ysas-leaderboard`), separate from KnowYourCity's. The client
 submits official daily plays and mirrors the server's streak; the server streak
 rules (`worker/leaderboard-lib.mjs` `advanceStreak`, incl. `OUTAGE_DAYS`) must
-stay identical to `src/lib/progress.ts` `nextStreak` — change both together.
+stay identical to `src/lib/progress.ts` `nextStreak` — change both together
+(`worker/parity.test.mjs` fails CI if the rules or the school/mode/outage
+allowlists drift).
 Deploy / repair recipes: `worker/README.md`.
 
 ## Branch & PR workflow

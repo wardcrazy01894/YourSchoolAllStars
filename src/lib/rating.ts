@@ -21,6 +21,9 @@ import type {
 //
 // Fantasy-style composite: rarer, higher-leverage stats are weighted up. Steals
 // and blocks are scarce so they carry the most per-unit value; points the least.
+/** Basketball season length the projected record is rated over (a 40-0). */
+export const BBALL_GAMES = 40
+
 export const STAT_WEIGHTS: Record<keyof BballStats, number> = {
   pts: 1.0,
   reb: 1.2,

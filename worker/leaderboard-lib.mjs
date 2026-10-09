@@ -38,7 +38,7 @@ export const DAILY_MODES = ['daily', 'daily-iq']
  * cross-school sentinels the app uses as the streak namespace for its "full"
  * modes (src/App.tsx FULL_BBALL_ID / FULL_FB_ID). The worker rejects anything
  * else so a junk slug can't seed its own board. Keep in step when a school is
- * added (the lib test pins the list).
+ * added (worker/parity.test.mjs checks it against src/schools.ts).
  */
 export const SCHOOLS = [
   'michigan',
