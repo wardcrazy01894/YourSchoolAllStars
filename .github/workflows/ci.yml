@@ -37,6 +37,16 @@ jobs:
         run: npm run format:check
       - name: Build (vite)
         run: npm run build
+      # The leaderboard Worker deploys by hand (worker/README.md), so nothing
+      # else would notice a broken wrangler.toml, a bad binding, or a worker
+      # import that doesn't bundle until deploy day. --dry-run bundles + checks
+      # the config without credentials or any network write. Pinned version.
+      # (Unknown config keys are only warnings, so it won't catch a typo'd
+      # optional key — it catches what would fail the real deploy.)
+      - name: Validate worker (wrangler deploy --dry-run)
+        run: npx --yes wrangler@4.139.0 deploy --dry-run --outdir "$RUNNER_TEMP/worker-dry-run" -c worker/wrangler.toml
+        env:
+          WRANGLER_SEND_METRICS: 'false'
 
   test:
     name: test
