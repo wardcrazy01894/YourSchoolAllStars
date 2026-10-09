@@ -3,7 +3,8 @@
 // environment (file: URLs for the migrations, real Request/Response).
 import { describe, it, expect, beforeEach } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
-// node:sqlite is unflagged from Node 22.13 (package.json `engines` enforces it).
+// node:sqlite is unflagged from Node 22.13 (package.json `engines` documents the
+// floor; CI's `node-version: '22'` resolves to the latest 22.x).
 import { DatabaseSync } from 'node:sqlite'
 import { upsertAndRank, topScores, updateStreak } from './leaderboard-lib.mjs'
 
