@@ -277,27 +277,84 @@ describe('submitDaily', () => {
       readStanding('michigan', 'basketball', 'daily-iq', '2026-10-08'),
     ).toBeNull()
   })
-  it('resolves null on a rejected submit, a bad shape, or a network error', async () => {
-    const spy = vi.spyOn(console, 'warn').mockImplementation(() => {})
-    vi.stubGlobal(
-      'fetch',
-      vi.fn(async () => okResponse({ error: 'invalid score' }, false, 400)),
-    )
-    expect(await submitDaily(ARGS)).toBeNull()
-    vi.stubGlobal(
-      'fetch',
-      vi.fn(async () => okResponse({ ok: true })),
-    )
-    expect(await submitDaily(ARGS)).toBeNull()
-    vi.stubGlobal(
-      'fetch',
-      vi.fn(async () => {
-        throw new Error('offline')
-      }),
-    )
-    expect(await submitDaily(ARGS)).toBeNull()
-    expect(spy).toHaveBeenCalled()
-    spy.mockRestore()
+  // Each failure path logs its OWN warn with enough to act on (status/reason,
+  // game, day) — pinned per case so dropping one can't hide behind another.
+  describe('resolves null and logs on every failure path', () => {
+    let warn: ReturnType<typeof vi.spyOn>
+    beforeEach(() => {
+      warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    })
+    afterEach(() => warn.mockRestore())
+    const ctx = { game: 'michigan:basketball:daily', date: '2026-10-08' }
+
+    it('a rejected submit logs status + server reason', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => okResponse({ error: 'invalid score' }, false, 400)),
+      )
+      expect(await submitDaily(ARGS)).toBeNull()
+      expect(warn).toHaveBeenCalledWith(
+        'leaderboard submit rejected',
+        expect.objectContaining({ status: 400, ...ctx }),
+      )
+      expect(JSON.stringify(warn.mock.calls)).toMatch(/invalid score/)
+    })
+    it('an unexpected response shape', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => okResponse({ ok: true })),
+      )
+      expect(await submitDaily(ARGS)).toBeNull()
+      expect(warn).toHaveBeenCalledWith(
+        'leaderboard submit: unexpected response shape',
+        expect.objectContaining(ctx),
+      )
+    })
+    it('a network error', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => {
+          throw new Error('offline')
+        }),
+      )
+      expect(await submitDaily(ARGS)).toBeNull()
+      expect(warn).toHaveBeenCalledWith(
+        'leaderboard submit failed (network)',
+        expect.objectContaining({ ...ctx, error: 'Error: offline' }),
+      )
+    })
+    it('a board read rejected by the server logs status + game + day', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => okResponse({ error: 'invalid date' }, false, 400)),
+      )
+      expect(
+        await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
+      ).toBeNull()
+      expect(warn).toHaveBeenCalledWith(
+        'leaderboard read rejected',
+        expect.objectContaining({ status: 400, ...ctx }),
+      )
+    })
+    it('a standing that cannot be cached locally', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => okResponse({ ok: true, rank: 1, total: 1 })),
+      )
+      const orig = localStorage.setItem.bind(localStorage)
+      localStorage.setItem = () => {
+        throw new Error('QuotaExceeded')
+      }
+      try {
+        expect(await submitDaily(ARGS)).toEqual({ rank: 1, total: 1 })
+      } finally {
+        localStorage.setItem = orig
+      }
+      expect(warn).toHaveBeenCalledWith(
+        'leaderboard standing not cached',
+        expect.objectContaining({ key: expect.stringContaining('2026-10-08') }),
+      )
+    })
   })
   it('a Standing with no streak is still a valid cache entry', () => {
     const s: Standing = { rank: 1, total: 1 }

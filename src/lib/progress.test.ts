@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, beforeEach, vi } from 'vitest'
 import {
   EMPTY_STREAK,
   OUTAGE_DAYS,
@@ -206,11 +206,21 @@ describe('localStorage persistence', () => {
     localStorage.setItem = () => {
       throw new Error('QuotaExceeded')
     }
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
     try {
       const streak = saveDailyResult(SCHOOL, SPORT, sampleDaily('2026-06-25'))
       expect(streak).toEqual(EMPTY_STREAK) // not advanced
+      // …and the failed save is visible, naming the key it couldn't write.
+      expect(warn).toHaveBeenCalledWith(
+        'progress: localStorage write failed',
+        expect.objectContaining({
+          key: `ysas:${SCHOOL}:${SPORT}:daily:2026-06-25`,
+          error: 'Error: QuotaExceeded',
+        }),
+      )
     } finally {
       localStorage.setItem = orig
+      warn.mockRestore()
     }
     expect(loadDaily(SCHOOL, SPORT, '2026-06-25')).toBeNull() // still replayable
     expect(loadStreak(SCHOOL, SPORT)).toEqual(EMPTY_STREAK)

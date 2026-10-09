@@ -20,6 +20,12 @@ describe('getDateKey', () => {
 })
 
 describe('isValidDateKey', () => {
+  it('rejects impossible calendar days the worker would reject too', () => {
+    expect(isValidDateKey('2026-02-31')).toBe(false)
+    expect(isValidDateKey('2026-13-01')).toBe(false)
+    expect(isValidDateKey('2025-02-29')).toBe(false)
+    expect(isValidDateKey('2024-02-29')).toBe(true) // leap day
+  })
   it('accepts YYYY-MM-DD and rejects junk', () => {
     expect(isValidDateKey('2026-06-25')).toBe(true)
     expect(isValidDateKey('2026-6-25')).toBe(false)

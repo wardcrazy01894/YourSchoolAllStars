@@ -38,8 +38,13 @@ export function getDateKey(
   return `${get('year')}-${get('month')}-${get('day')}`
 }
 
+/** A REAL calendar day in YYYY-MM-DD form. Round-trips through UTC so an
+ *  impossible day (2026-02-31, which Date.parse happily rolls into March) is
+ *  rejected — the same check the worker's isValidDateKey applies. */
 export function isValidDateKey(key: string): boolean {
-  return /^\d{4}-\d{2}-\d{2}$/.test(key) && !Number.isNaN(Date.parse(key))
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(key)) return false
+  const d = new Date(`${key}T00:00:00Z`)
+  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === key
 }
 
 /** FNV-1a-ish string hash → unsigned 32-bit seed. */

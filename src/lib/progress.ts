@@ -170,8 +170,14 @@ function write(key: string, value: unknown): boolean {
   try {
     localStorage.setItem(key, JSON.stringify(value))
     return true
-  } catch {
-    return false // storage full / disabled — non-fatal, caller decides
+  } catch (e) {
+    // Non-fatal (storage full / disabled) — the caller decides — but a save
+    // that silently didn't happen means a streak that silently didn't advance.
+    console.warn('progress: localStorage write failed', {
+      key,
+      error: String(e),
+    })
+    return false
   }
 }
 
