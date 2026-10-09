@@ -51,6 +51,22 @@ function gapIsAllOutage(from: string, diff: number): boolean {
 }
 
 /**
+ * Whether a finished daily for `dateKey` is an OFFICIAL play (advances the
+ * streak + submits to the leaderboard) when it ends on `todayKey`. A puzzle
+ * started on its own day still counts if it ends after midnight ET (the
+ * worker's ±1-day window exists for exactly this case); one left open 2+ days,
+ * a future date, or a `?date=` playtest of a past day does not.
+ */
+export function isOfficialPlay(
+  dateKey: string,
+  todayKey: string,
+  playtest: boolean,
+): boolean {
+  const diff = dayDiff(dateKey, todayKey)
+  return diff === 0 || (diff === 1 && !playtest)
+}
+
+/**
  * Advance a streak when a daily is completed on `dateKey`. Same-day replays don't
  * double-count; a gap of more than one day resets to 1 — unless every skipped
  * day was a site outage (`OUTAGE_DAYS`), in which case the streak continues and

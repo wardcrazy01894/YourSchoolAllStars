@@ -88,6 +88,7 @@ import {
   loadStreak,
   saveDailyResult,
   displayStreak,
+  isOfficialPlay,
   EMPTY_STREAK,
   type Streak,
   type SavedDaily,
@@ -311,6 +312,12 @@ function activeDateKey(): string {
   const q = param('date')
   if (q && isValidDateKey(q)) return q
   return getDateKey()
+}
+
+/** True when the page was opened on a `?date=` playtest link. */
+function isPlaytestDate(): boolean {
+  const q = param('date')
+  return !!q && isValidDateKey(q)
 }
 
 /** True for a routable school id — a live `School` OR a Full-game sentinel. */
@@ -903,10 +910,12 @@ function Game({
     setResult(saved)
     // Only the DAILY persists + advances the per-device streak. Free-play modes
     // (Classic / Hoops IQ) are replayable, so they neither save nor touch the
-    // streak. saveDailyResult is idempotent and fail-safe; only a REAL today play
-    // moves the streak — `?date=` playtest days save + lock but stay neutral.
+    // streak. saveDailyResult is idempotent and fail-safe; only a REAL play
+    // (the page loaded on its date, even if it ends past midnight ET —
+    // isOfficialPlay) moves
+    // the streak — `?date=` playtest days save + lock but stay neutral.
     if (mode.daily) {
-      const official = dateKey === getDateKey()
+      const official = isOfficialPlay(dateKey, getDateKey(), isPlaytestDate())
       const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: official,
         mode: mode.id,
@@ -1134,7 +1143,7 @@ function FullGame({
     const saved = savedDailyFrom(s, dateKey, GAMES, power5OfFull)
     setResult(saved)
     if (mode.daily) {
-      const official = dateKey === getDateKey()
+      const official = isOfficialPlay(dateKey, getDateKey(), isPlaytestDate())
       const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: official,
         mode: mode.id,
@@ -2183,7 +2192,7 @@ function FbGame({
     const saved = fbSavedDailyFrom(s, dateKey, school.power5)
     setResult(saved)
     if (mode.daily) {
-      const official = dateKey === getDateKey()
+      const official = isOfficialPlay(dateKey, getDateKey(), isPlaytestDate())
       const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: official,
         mode: mode.id,
@@ -2412,7 +2421,7 @@ function FullFbGame({
     const saved = fbSavedDailyFrom(s, dateKey, power5OfFullFb)
     setResult(saved)
     if (mode.daily) {
-      const official = dateKey === getDateKey()
+      const official = isOfficialPlay(dateKey, getDateKey(), isPlaytestDate())
       const updated = saveDailyResult(school.id, sport.id, saved, {
         advanceStreak: official,
         mode: mode.id,
