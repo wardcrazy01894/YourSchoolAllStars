@@ -52,7 +52,8 @@ CI green is necessary but **not sufficient**. Before merging any PR, run an
 
 Every behavior change is **test-first**: red → green → refactor. Keep game logic
 in **pure functions** under `src/lib` (`windows`, `daily`, `rating`, `game`,
-`share`, `honors`) so it's unit-testable without the DOM; keep the React shell
+`result`, `football*`, `full*`, `modes`, `progress`, `leaderboard`, `share`,
+`honors`, …) so it's unit-testable without the DOM; keep the React shell
 thin and verify it manually / with Playwright. New logic without a failing-first
 test is incomplete.
 
@@ -94,5 +95,7 @@ Playtesting: append `?date=YYYY-MM-DD` to play any day's deterministic puzzle.
 
 ## Git identity
 
-Commits Claude makes are authored as `wardcrazy01894 <alanc3939@gmail.com>` via
-inline `-c` overrides; pushes use the `github-wardcrazy` SSH remote alias.
+Commits Claude makes are authored and committed as `wardcrazy01894`
+(`2790686+wardcrazy01894@users.noreply.github.com`) via the `GIT_AUTHOR_*` /
+`GIT_COMMITTER_*` env vars in `~/.claude/settings.json` — no per-command `-c`
+flags needed. Pushes use the `github-wardcrazy` SSH remote alias.
