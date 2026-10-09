@@ -17,8 +17,9 @@
  * local key as before.
  *
  * INTEGRITY: only official daily plays submit. Free-play modes and `?date=`
- * playtests never do (the `official` gate, computed by the caller as
- * `mode.daily && dateKey === getDateKey()`), and the worker independently
+ * playtests of past days never do (the `official` gate, computed by the caller
+ * as `mode.daily && isOfficialPlay(...)` — today's puzzle, with a one-day grace
+ * for a play that ends past midnight ET), and the worker independently
  * rejects unknown games and out-of-window dates.
  *
  * GRACEFUL: every failure path (endpoint unset, offline, non-official game, bad

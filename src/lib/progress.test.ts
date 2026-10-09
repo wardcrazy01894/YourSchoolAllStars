@@ -4,6 +4,7 @@ import {
   OUTAGE_DAYS,
   dayDiff,
   nextStreak,
+  isOfficialPlay,
   loadStreak,
   writeStreak,
   displayStreak,
@@ -342,5 +343,26 @@ describe('displayStreak (what the UI should show for a stored streak today)', ()
   })
   it('passes EMPTY_STREAK through', () => {
     expect(displayStreak(EMPTY_STREAK, '2026-10-08')).toBe(EMPTY_STREAK)
+  })
+})
+
+describe('isOfficialPlay — a daily started today counts even if it ends after midnight ET', () => {
+  it('counts a play finished on the day it started', () => {
+    expect(isOfficialPlay('2026-10-09', '2026-10-09', false)).toBe(true)
+  })
+  it('counts a play started at 23:59 and finished at 00:01 (next day)', () => {
+    expect(isOfficialPlay('2026-10-09', '2026-10-10', false)).toBe(true)
+  })
+  it('does not count a puzzle left open for two or more days', () => {
+    expect(isOfficialPlay('2026-10-08', '2026-10-10', false)).toBe(false)
+  })
+  it('does not count a ?date= playtest of a past day', () => {
+    expect(isOfficialPlay('2026-10-09', '2026-10-10', true)).toBe(false)
+  })
+  it("still counts a ?date= link that names today's date", () => {
+    expect(isOfficialPlay('2026-10-10', '2026-10-10', true)).toBe(true)
+  })
+  it('never counts a future date', () => {
+    expect(isOfficialPlay('2026-10-11', '2026-10-10', false)).toBe(false)
   })
 })
