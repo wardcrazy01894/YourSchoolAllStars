@@ -6,7 +6,12 @@ import { readFileSync, readdirSync } from 'node:fs'
 // node:sqlite is unflagged from Node 22.13 (package.json `engines` documents the
 // floor; CI's `node-version: '22'` resolves to the latest 22.x).
 import { DatabaseSync } from 'node:sqlite'
-import { upsertAndRank, topScores, updateStreak } from './leaderboard-lib.mjs'
+import {
+  upsertAndRank,
+  topScores,
+  updateStreak,
+  pruneIfDue,
+} from './leaderboard-lib.mjs'
 
 /**
  * SQL-level tests for the standing/board/streak queries against a REAL SQLite
@@ -28,7 +33,12 @@ function d1(db) {
     first: () => db.prepare(sql).all(...args)[0] ?? null,
   })
   return {
-    prepare: (sql) => ({ bind: (...args) => wrap(sql, args) }),
+    // Like real D1, an unbound statement can run directly (pruneIfDue's
+    // marker read has no params) or be bound first.
+    prepare: (sql) => ({
+      ...wrap(sql, []),
+      bind: (...args) => wrap(sql, args),
+    }),
     batch: async (stmts) => stmts.map((s) => ({ results: s.all() })),
     raw: db,
   }
@@ -296,5 +306,17 @@ describe('updateStreak (real streaks table)', () => {
     await updateStreak(db, sub('dev', '2026-07-08'), NOW)
     const s = await updateStreak(db, sub('dev', '2026-07-08'), NOW)
     expect(s.current).toBe(1)
+  })
+})
+
+describe('lazy prune (pruneIfDue — replaces the Cron Trigger)', () => {
+  it('prunes once per UTC day and is a no-op until the next day', async () => {
+    const now = new Date('2026-07-08T12:00:00Z')
+    await submit('device-A', 90, 30, UM, '2026-01-01') // older than 90 days
+    await submit('device-A', 90, 30, UM, DATE)
+    expect(await pruneIfDue(db, now)).toBe(1)
+    await submit('device-B', 80, 30, UM, '2026-01-02') // another old row…
+    expect(await pruneIfDue(db, now)).toBeNull() // …but today's prune already ran
+    expect(await pruneIfDue(db, new Date('2026-07-09T00:00:01Z'))).toBe(1)
   })
 })

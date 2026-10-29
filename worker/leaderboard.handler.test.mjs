@@ -451,6 +451,61 @@ describe('leaderboard worker handler', () => {
   })
 })
 
+describe('leaderboard worker lazy prune (no cron slot on the free plan)', () => {
+  // A D1 stub whose prepare() answers the streak read/write AND the meta
+  // marker read/write, so the POST path completes and the prune can run.
+  const dbFor = ({ metaThrows = false } = {}) => {
+    const ok = {
+      bind: () => ok,
+      first: async () => null,
+      run: async () => ({ meta: { changes: 1 } }),
+    }
+    const metaStmt = {
+      bind: () => metaStmt,
+      first: async () => {
+        if (metaThrows) throw new Error('META_D1_ERROR')
+        return null
+      },
+      run: async () => ({ meta: { changes: 1 } }),
+    }
+    return {
+      prepare: vi.fn((sql) => (/meta/.test(sql) ? metaStmt : ok)),
+      batch: vi.fn(async () => [
+        { results: [] },
+        { results: [{ better: 0, total: 1 }] },
+      ]),
+    }
+  }
+
+  it('kicks the prune via ctx.waitUntil after a successful submit (never on the response path)', async () => {
+    const pending = []
+    const res = await handler.fetch(
+      post(goodBody()),
+      makeEnv({ DB: dbFor() }),
+      {
+        waitUntil: (p) => pending.push(p),
+      },
+    )
+    expect(res.status).toBe(200)
+    expect(pending).toHaveLength(1)
+    await Promise.allSettled(pending)
+  })
+
+  it('still answers 200 when the lazy prune throws (logged, best-effort)', async () => {
+    const spy = vi.spyOn(console, 'error').mockImplementation(() => {})
+    const pending = []
+    const res = await handler.fetch(
+      post(goodBody()),
+      makeEnv({ DB: dbFor({ metaThrows: true }) }),
+      { waitUntil: (p) => pending.push(p) },
+    )
+    expect(res.status).toBe(200)
+    await Promise.allSettled(pending)
+    expect(JSON.stringify(spy.mock.calls)).toMatch(/lazy prune/)
+    spy.mockRestore()
+  })
+})
+
 describe('leaderboard worker scheduled (retention prune)', () => {
   const pruneDB = () => {
     const calls = { sql: '', bound: null }
