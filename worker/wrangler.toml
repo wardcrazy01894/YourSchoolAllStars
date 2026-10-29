@@ -39,10 +39,13 @@ namespace_id = "3001"
 # Retention prune: NOT a Cron Trigger any more. The account is on the Workers
 # Free plan (5 cron triggers per account) and every slot was in use, so the
 # worker prunes lazily instead (pruneIfDue: from a submit, at most once per
-# UTC day; marker in the `meta` table, migration 0004). This freed the slot.
-# If a cron is ever wanted again:
-#   [triggers]
-#   crons = ["0 5 * * *"]
+# UTC day; marker in the `meta` table, migration 0004).
+# The EMPTY list below is deliberate and must stay: wrangler only sends a
+# schedules update when `crons` is defined, so deleting the block would leave
+# the old "0 5 * * *" schedule registered (and the slot taken). `crons = []`
+# clears it on the next deploy. To bring the cron back: crons = ["0 5 * * *"].
+[triggers]
+crons = []
 
 # --- Optional secrets (set with `wrangler secret put NAME -c worker/wrangler.toml`)
 # TURNSTILE_SECRET  optional. When set, a valid Turnstile token is REQUIRED on

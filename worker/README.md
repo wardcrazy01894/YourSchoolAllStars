@@ -31,8 +31,12 @@ table, a repair is one SQL `UPDATE` instead of a code change + deploy.
 - **Bounded storage.** `scores` older than 90 days are pruned **lazily**: on a
   submit, at most once per UTC day (`pruneIfDue`, marker in the `meta` table,
   migration `0004`). No Cron Trigger — the account's Workers Free plan allows
-  5 per account and they were all in use; the `scheduled` handler is kept
-  should one ever be wanted again. **Streaks are never pruned.**
+  5 per account and they were all in use. The toml keeps `[triggers]
+crons = []` on purpose: an EMPTY list is what makes `wrangler deploy` clear
+  the old schedule (deleting the block leaves it registered). Confirm after
+  deploying: `GET /accounts/<id>/workers/scripts/<name>/schedules` → `[]`.
+  The `scheduled` handler is kept should one ever be wanted again. **Streaks
+  are never pruned.**
 - **Per-player streak.** Each submit advances the `(school, sport, mode,
 client_id)` row in `streaks` (migration `0002`) with **exactly** the client's
   rules (`src/lib/progress.ts` `nextStreak`, including the `OUTAGE_DAYS`
