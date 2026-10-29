@@ -327,6 +327,34 @@ export async function pruneOldScores(db, cutoff) {
   return res?.meta?.changes ?? 0
 }
 
+/**
+ * Lazy retention: run pruneOldScores at most once per UTC day, from the submit
+ * path, using the `meta.last_prune` marker (migration 0004). This replaced the
+ * Cron Trigger: the Cloudflare account is on the Workers Free plan (5 cron
+ * triggers per account) and every slot was in use. Two submits racing on the
+ * day boundary may both prune — harmless (same DELETE). The marker is written
+ * only AFTER a successful delete, so a failing delete is retried on the next
+ * submit rather than silently skipped for the day. Returns the rows removed,
+ * or null when not due. Throws on D1 errors; the caller treats it as
+ * best-effort.
+ */
+export async function pruneIfDue(db, now) {
+  const today = now.toISOString().slice(0, 10)
+  const row = await db
+    .prepare(`SELECT value FROM meta WHERE key = 'last_prune'`)
+    .first()
+  if (row?.value === today) return null
+  const removed = await pruneOldScores(db, cutoffDateKey(now))
+  await db
+    .prepare(
+      `INSERT INTO meta (key, value, updated_at) VALUES ('last_prune', ?1, ?2)
+       ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at`,
+    )
+    .bind(today, now.getTime())
+    .run()
+  return removed
+}
+
 /** Whole-day difference between two 'YYYY-MM-DD' keys (b − a). Mirrors the
  *  client's dayDiff (src/lib/progress.ts). */
 export function dayDiff(a, b) {

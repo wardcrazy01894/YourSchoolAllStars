@@ -36,11 +36,13 @@ namespace_id = "3001"
   limit = 30
   period = 60
 
-# Daily retention prune (Cron Trigger) — deletes scores older than
-# RETENTION_DAYS (90) so the table stays bounded no matter the traffic. Runs at
-# 05:00 UTC (off-peak ET). Free — Cron Triggers cost nothing. Streaks are kept.
-[triggers]
-crons = ["0 5 * * *"]
+# Retention prune: NOT a Cron Trigger any more. The account is on the Workers
+# Free plan (5 cron triggers per account) and every slot was in use, so the
+# worker prunes lazily instead (pruneIfDue: from a submit, at most once per
+# UTC day; marker in the `meta` table, migration 0004). This freed the slot.
+# If a cron is ever wanted again:
+#   [triggers]
+#   crons = ["0 5 * * *"]
 
 # --- Optional secrets (set with `wrangler secret put NAME -c worker/wrangler.toml`)
 # TURNSTILE_SECRET  optional. When set, a valid Turnstile token is REQUIRED on

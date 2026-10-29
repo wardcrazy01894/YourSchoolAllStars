@@ -28,9 +28,11 @@ table, a repair is one SQL `UPDATE` instead of a code change + deploy.
   if abuse ever appears.
 - **Behind `VITE_LEADERBOARD_ENDPOINT`** — unset means the app omits the
   standing line and keeps its local streak, so the worker is **optional**.
-- **Bounded storage.** A nightly Cron Trigger prunes `scores` older than 90
-  days. `wrangler deploy` registers the cron automatically. **Streaks are never
-  pruned.**
+- **Bounded storage.** `scores` older than 90 days are pruned **lazily**: on a
+  submit, at most once per UTC day (`pruneIfDue`, marker in the `meta` table,
+  migration `0004`). No Cron Trigger — the account's Workers Free plan allows
+  5 per account and they were all in use; the `scheduled` handler is kept
+  should one ever be wanted again. **Streaks are never pruned.**
 - **Per-player streak.** Each submit advances the `(school, sport, mode,
 client_id)` row in `streaks` (migration `0002`) with **exactly** the client's
   rules (`src/lib/progress.ts` `nextStreak`, including the `OUTAGE_DAYS`
@@ -111,7 +113,7 @@ in `connect-src` of the Content-Security-Policy in `index.html`** (pinned by
 silently carries on with local streaks only.
 
 Everything here is on Cloudflare's free plan: Workers (100k req/day), D1 (5M
-reads / 100k writes per day, 5 GB), the rate-limit binding and Cron Triggers.
+reads / 100k writes per day, 5 GB) and the rate-limit binding.
 There is no card on file, so an overage can't bill — it just stops serving.
 
 ## Repairing a streak (the whole point)
