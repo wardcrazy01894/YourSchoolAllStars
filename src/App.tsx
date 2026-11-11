@@ -505,6 +505,20 @@ export default function App() {
   )
 }
 
+/** The one page footer every screen shares: the fan-project disclaimer
+ *  (`subject` = who we are not affiliated with) and, last, the studio credit. */
+export function SiteFooter({ subject }: { subject: string }) {
+  return (
+    <footer className="footer">
+      <div>
+        An independent fan project. Not affiliated with or endorsed by {subject}
+        . Player data curated from public sources.
+      </div>
+      <div>A Spicy Al Software Solution</div>
+    </footer>
+  )
+}
+
 function Picker({ onPick }: { onPick: (id: string) => void }) {
   return (
     <div className="app">
@@ -577,10 +591,7 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
           </div>
         ))}
       </div>
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by any
-        university. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject="any university" />
     </div>
   )
 }
@@ -641,10 +652,7 @@ function SportMenu({
           )
         })}
       </div>
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by{' '}
-        {school.name}. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject={school.name} />
     </div>
   )
 }
@@ -699,10 +707,7 @@ function SportComingSoon({
           ← Back to sports
         </button>
       </section>
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by{' '}
-        {school.name}. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject={school.name} />
     </div>
   )
 }
@@ -804,13 +809,13 @@ export function ModeMenu({
           )
         })}
       </div>
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by{' '}
-        {school.id === FULL_BBALL_ID || school.id === FULL_FB_ID
-          ? 'any school'
-          : school.name}
-        . Player data curated from public sources.
-      </footer>
+      <SiteFooter
+        subject={
+          school.id === FULL_BBALL_ID || school.id === FULL_FB_ID
+            ? 'any school'
+            : school.name
+        }
+      />
     </div>
   )
 }
@@ -1022,10 +1027,7 @@ function Game({
         />
       )}
 
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by{' '}
-        {school.name}. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject={school.name} />
     </div>
   )
 }
@@ -1254,10 +1256,7 @@ function FullGame({
         />
       )}
 
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by any
-        school. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject="any school" />
     </div>
   )
 }
@@ -2300,10 +2299,7 @@ function FbGame({
         />
       )}
 
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by{' '}
-        {school.name}. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject={school.name} />
     </div>
   )
 }
@@ -2536,10 +2532,7 @@ function FullFbGame({
         />
       )}
 
-      <footer className="footer">
-        An independent fan project. Not affiliated with or endorsed by any
-        school. Player data curated from public sources.
-      </footer>
+      <SiteFooter subject="any school" />
     </div>
   )
 }
