@@ -14,6 +14,7 @@ import {
   FbPlaying,
   FbRosterRail,
   ModeMenu,
+  SiteFooter,
 } from './App'
 import { getSport } from './lib/sports'
 import { writeStreak } from './lib/progress'
@@ -708,5 +709,35 @@ describe('ModeMenu — every daily mode card carries ITS OWN streak', () => {
   it('shows no headline when no daily mode has ever been completed', () => {
     renderMenu()
     expect(document.querySelector('.hero .streaks')).toBeNull()
+  })
+})
+
+describe('SiteFooter — the one footer every screen shares', () => {
+  it('names who the project is not affiliated with', () => {
+    render(<SiteFooter subject="any university" />)
+    expect(
+      screen.getByText(
+        'An independent fan project. Not affiliated with or endorsed by any university. Player data curated from public sources.',
+      ),
+    ).toBeTruthy()
+  })
+
+  it('ends with the studio credit line', () => {
+    render(<SiteFooter subject="any school" />)
+    const credit = screen.getByText('A Spicy Al Software Solution')
+    expect(credit.closest('footer')?.lastElementChild).toBe(credit)
+  })
+
+  it('is what a screen renders (ModeMenu shows the credit)', () => {
+    render(
+      <ModeMenu
+        school={getSchool(DEFAULT_SCHOOL_ID)!}
+        sport={getSport('basketball')}
+        onPick={() => {}}
+        onBackToSports={() => {}}
+        onSwitchSchool={() => {}}
+      />,
+    )
+    expect(screen.getByText('A Spicy Al Software Solution')).toBeTruthy()
   })
 })
