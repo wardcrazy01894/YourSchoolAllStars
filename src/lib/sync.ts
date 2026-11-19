@@ -21,6 +21,7 @@
 
 import {
   fetchMe,
+  loadAccount,
   type Me,
   type ServerDay,
   type ServerStreak,
@@ -262,6 +263,13 @@ export async function syncProgress(input: {
       reset,
     }
 
+  // The device signed out (or switched account) while the request was in
+  // flight: its storage is no longer this account's to write. Without this, a
+  // sync that outlives a sign-out would put the account's streaks back on the
+  // freshly-reset anonymous device.
+  const stillSignedIn = () => loadAccount()?.token === token
+  if (!stillSignedIn()) return { status: 'offline', changed: [], reset }
+
   // Storage is read AFTER the await: the player may have finished a day while
   // the request was in flight.
   const todayKey = getDateKey()
@@ -288,7 +296,7 @@ export async function syncProgress(input: {
 
   for (const u of plan.unsent) {
     const key = `${token}|${gameId(u)}|${todayKey}`
-    if (attempted.has(key)) continue
+    if (attempted.has(key) || !stillSignedIn()) continue
     attempted.add(key)
     const before = loadStreak(u.school, u.sport, u.mode)
     const standing = await submitDaily({

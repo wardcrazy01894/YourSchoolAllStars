@@ -545,6 +545,15 @@ describe('accounts: token, draft and names', () => {
     expect(rows.map((r) => r.name)).toEqual(['', 'Rival', 'Spicy Al'])
   })
 
+  it('signed in but not on the list: an anonymous stranger with your numbers is not you', () => {
+    const rows = buildLeaderboardRows(
+      [{ strength: 80, score: 34, name: '' }],
+      { strength: 80, score: 34 },
+      'Spicy Al',
+    )
+    expect(rows[0].you).toBe(false)
+  })
+
   it('anonymous: yours is the first ANONYMOUS tied row, never a named player’s', () => {
     const yours = { strength: 80, score: 34 }
     expect(

@@ -578,7 +578,9 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
  * TOP_LIMIT — plus the total entry count for a game + date. `name` is a
  * signed-in player's display name and '' for an anonymous device; never an id,
  * a username or a token. The client assigns display ranks (ties share a rank)
- * and flags its own row.
+ * and flags its own row. The join resolves the account id FROM the score row
+ * (a primary-key lookup per row) — joining on `'acct:' || a.id` would scan
+ * every account for every score.
  */
 export async function topScores(
   db,
@@ -589,7 +591,9 @@ export async function topScores(
     .prepare(
       `SELECT COALESCE(s.strength, 0) AS strength, s.score AS score,
               COALESCE(a.name, '') AS name
-       FROM scores s LEFT JOIN accounts a ON s.client_id = 'acct:' || a.id
+       FROM scores s LEFT JOIN accounts a
+         ON s.client_id LIKE 'acct:%'
+        AND a.id = CAST(substr(s.client_id, 6) AS INTEGER)
        WHERE s.school = ?1 AND s.sport = ?2 AND s.mode = ?3 AND s.date = ?4
        ORDER BY COALESCE(s.strength, 0) DESC, s.score DESC, s.created_at, s.client_id
        LIMIT ?5`,

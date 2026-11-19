@@ -6,7 +6,7 @@ import {
   streakClaims,
   syncProgress,
 } from './sync'
-import type { ServerDay, ServerStreak } from './account'
+import { saveAccount, type ServerDay, type ServerStreak } from './account'
 import { getDateKey } from './daily'
 import {
   EMPTY_STREAK,
@@ -339,6 +339,22 @@ describe('syncProgress', () => {
     return calls
   }
   const run = () => syncProgress({ token: TOKEN, username: 'spicy_al' })
+  beforeEach(() =>
+    saveAccount({ token: TOKEN, username: 'spicy_al', name: 'Spicy Al' }),
+  )
+
+  it('a sync that outlives a sign-out writes nothing to the anonymous device', async () => {
+    server({
+      streaks: [serverStreak(UM, 12, 15, TODAY)],
+      days: [serverDay(UM, TODAY)],
+    })
+    const pending = run()
+    saveAccount(null) // signed out while /me was in flight
+    expect(await pending).toMatchObject({ status: 'offline', changed: [] })
+    expect(loadStreak('michigan', 'basketball')).toEqual(EMPTY_STREAK)
+    expect(loadDaily('michigan', 'basketball', TODAY)).toBeNull()
+    expect(loadOwner()).toBeNull()
+  })
 
   it('a new account keeps the device’s streak: it is sent as a claim', async () => {
     writeStreak('michigan', 'basketball', streak(12, 15, TODAY))

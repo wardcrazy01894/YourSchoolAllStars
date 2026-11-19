@@ -457,6 +457,14 @@ export default function App() {
       username: account.username,
     })
     if (r.status === 'offline' && !force) return 'unsaved'
+    if (r.status === 'signed-out') {
+      // The server had already ended this session, so nothing could be saved
+      // to the account: drop the sign-in but KEEP the device's progress (the
+      // same outcome as the sync finding a dead session on load).
+      saveAccount(null)
+      setAccount(null)
+      return 'done'
+    }
     // Best effort: with no connection the session lingers on the server, but
     // this device is signed out either way.
     await logout(account.token)

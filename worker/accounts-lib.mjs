@@ -472,10 +472,16 @@ export async function foldIntoAccount(db, accountId, from, now) {
         `INSERT INTO streaks (school, sport, mode, client_id, current, best, last_played_date, updated_at)
          VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
          ON CONFLICT(school, sport, mode, client_id) DO UPDATE SET
-           current = excluded.current,
-           best = excluded.best,
+           current = CASE
+             WHEN excluded.last_played_date > last_played_date THEN excluded.current
+             ELSE MAX(current, excluded.current) END,
+           best = MAX(best, excluded.best),
            last_played_date = excluded.last_played_date,
-           updated_at = excluded.updated_at`,
+           updated_at = excluded.updated_at
+         -- The merge above was computed from a row read a moment ago. If a
+         -- score submit advanced the streak since, never write over it with
+         -- the older picture.
+         WHERE excluded.last_played_date >= last_played_date`,
       )
       .bind(
         r.school,

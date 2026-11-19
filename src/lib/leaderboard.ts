@@ -410,9 +410,10 @@ export interface LeaderboardRow extends BoardEntry {
  * Rank the board for display. Sorted by overall then wins (defensively — the
  * server already does), competition-ranked, and the viewer's own result (if
  * given and on the list) flagged exactly once. Among rows with the viewer's
- * numbers: signed in (`yourName`), the one under their display name is theirs;
- * otherwise the first ANONYMOUS one (anonymous play can't tell tied players
- * apart). A row under someone else's name is never the viewer's. Pure.
+ * numbers: signed in (`yourName`), the one under their display name is theirs
+ * (never an anonymous stranger's); signed out, the first ANONYMOUS one
+ * (anonymous play can't tell tied players apart). A row under someone else's
+ * name is never the viewer's. Pure.
  */
 export function buildLeaderboardRows(
   rows: BoardEntry[],
@@ -432,9 +433,7 @@ export function buildLeaderboardRows(
   })
   if (yours) {
     const mine = out.filter((r) => samePair(r, yours))
-    const row =
-      (yourName && mine.find((r) => r.name === yourName)) ||
-      mine.find((r) => r.name === '')
+    const row = mine.find((r) => r.name === (yourName ?? ''))
     if (row) row.you = true
   }
   return out

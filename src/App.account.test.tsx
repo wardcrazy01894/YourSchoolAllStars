@@ -221,6 +221,23 @@ describe('sign out', () => {
     expect(screen.getByRole('button', { name: /Play Today/ })).toBeTruthy()
   })
 
+  it('a session the server already ended: signed out, but the progress stays', async () => {
+    saveAccount(AL)
+    writeStreak('michigan', 'basketball', {
+      current: 9,
+      max: 9,
+      lastDate: TODAY,
+    })
+    render(<App />)
+    await waitFor(() => expect(calls.some((c) => c.route === 'me')).toBe(true))
+    server({ status: 401 })
+    fireEvent.click(screen.getAllByRole('button', { name: '👤 Spicy Al' })[0])
+    fireEvent.click(screen.getByRole('button', { name: 'Sign out' }))
+    await waitFor(() => expect(loadAccount()).toBeNull())
+    expect(calls.some((c) => c.route === 'logout')).toBe(false)
+    expect(loadStreak('michigan', 'basketball').current).toBe(9)
+  })
+
   it('offline: nothing is wiped until the player insists', async () => {
     saveAccount(AL)
     writeStreak('michigan', 'basketball', {

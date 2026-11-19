@@ -444,6 +444,32 @@ describe('foldIntoAccount (SQL)', () => {
     ])
   })
 
+  it('never writes a stale merge over a streak that advanced meanwhile', async () => {
+    // A streak row that is AHEAD of the claim being folded keeps its day and
+    // its count; only `best` can still grow.
+    await seedStreak(key, 8, 8, TODAY)
+    await db
+      .prepare(
+        `INSERT INTO streaks (school, sport, mode, client_id, current, best, last_played_date, updated_at)
+         VALUES ('michigan', 'basketball', 'daily', ?1, 3, 30, ?2, 9)
+         ON CONFLICT(school, sport, mode, client_id) DO UPDATE SET
+           current = CASE
+             WHEN excluded.last_played_date > last_played_date THEN excluded.current
+             ELSE MAX(current, excluded.current) END,
+           best = MAX(best, excluded.best),
+           last_played_date = excluded.last_played_date,
+           updated_at = excluded.updated_at
+         WHERE excluded.last_played_date >= last_played_date`,
+      )
+      .bind(key, YESTERDAY)
+      .run()
+    expect(streakOf(key)).toEqual({
+      current: 8,
+      best: 8,
+      last_played_date: TODAY,
+    })
+  })
+
   it("never folds another ACCOUNT's rows: a forged player key is ignored", async () => {
     const victim = (
       await createAccount(db, { username: 'victim', pass: PASS }, 1)
@@ -515,6 +541,39 @@ describe('readProgress + the board (SQL)', () => {
         },
       ],
     })
+  })
+
+  it('the board resolves names by primary key, not by scanning accounts per row', () => {
+    const plan = db
+      .rows(
+        `EXPLAIN QUERY PLAN
+         SELECT COALESCE(a.name, '') FROM scores s LEFT JOIN accounts a
+           ON s.client_id LIKE 'acct:%'
+          AND a.id = CAST(substr(s.client_id, 6) AS INTEGER)
+         WHERE s.school = 'michigan' AND s.sport = 'basketball'
+           AND s.mode = 'daily' AND s.date = '2026-11-19'`,
+      )
+      .map((r) => r.detail)
+      .join(' | ')
+    expect(plan).toMatch(/SEARCH a USING INTEGER PRIMARY KEY/)
+    expect(plan).not.toMatch(/SCAN a/)
+  })
+
+  it('a device id that merely looks numeric is never given an account’s name', async () => {
+    await upsertAndRank(
+      db,
+      {
+        ...GAME,
+        date: TODAY,
+        clientId: '1'.repeat(8),
+        score: 30,
+        strength: 70,
+      },
+      5,
+    )
+    expect((await topScores(db, { ...GAME, date: TODAY })).rows[0].name).toBe(
+      '',
+    )
   })
 
   it('the board shows a signed-in player’s display name and nothing for a device', async () => {
