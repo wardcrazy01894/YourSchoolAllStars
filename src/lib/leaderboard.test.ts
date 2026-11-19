@@ -391,9 +391,9 @@ describe('fetchLeaderboard', () => {
     expect(board).toEqual({
       total: 3,
       rows: [
-        { strength: 92, score: 38 },
-        { strength: 80, score: 34 },
-        { strength: 70, score: 30 },
+        { strength: 92, score: 38, name: '' },
+        { strength: 80, score: 34, name: '' },
+        { strength: 70, score: 30, name: '' },
       ],
     })
     const calls = fetchMock.mock.calls as unknown as [string][]
@@ -418,7 +418,7 @@ describe('fetchLeaderboard', () => {
     )
     expect(
       await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
-    ).toEqual({ total: 2, rows: [{ strength: 92, score: 38 }] })
+    ).toEqual({ total: 2, rows: [{ strength: 92, score: 38, name: '' }] })
     vi.stubGlobal(
       'fetch',
       vi.fn(async () => okResponse({ error: 'x' }, false, 400)),
@@ -467,6 +467,101 @@ describe('buildLeaderboardRows (pure)', () => {
   it('flags nothing when your pair is not on the (capped) list', () => {
     expect(
       buildLeaderboardRows(rows, { strength: 10, score: 5 }).some((r) => r.you),
+    ).toBe(false)
+  })
+})
+
+describe('accounts: token, draft and names', () => {
+  const SAVED = {
+    dateKey: ARGS.dateKey,
+    playerIds: { PG: 'trey-burke' },
+    windows: { PG: { start: 2010, end: 2013 } },
+    wins: 31,
+    grade: 'SOLID',
+    strength: 79,
+  }
+
+  it('an anonymous submit carries no token; a signed-in one does, in the body', () => {
+    expect(buildSubmitPayload(ARGS)).not.toHaveProperty('token')
+    expect(buildSubmitPayload({ ...ARGS, token: 'f'.repeat(48) }).token).toBe(
+      'f'.repeat(48),
+    )
+  })
+
+  it('sends the draft (roster, eras, grade) — not the numbers twice', () => {
+    expect(buildSubmitPayload(ARGS)).not.toHaveProperty('detail')
+    expect(buildSubmitPayload({ ...ARGS, saved: SAVED }).detail).toEqual({
+      playerIds: SAVED.playerIds,
+      windows: SAVED.windows,
+      grade: 'SOLID',
+    })
+  })
+
+  it('force re-submits past this device’s cached standing', async () => {
+    const f = vi.fn(async () => okResponse({ ok: true, rank: 2, total: 5 }))
+    vi.stubGlobal('fetch', f)
+    await submitDaily(ARGS)
+    await submitDaily(ARGS)
+    expect(f).toHaveBeenCalledTimes(1)
+    await submitDaily({ ...ARGS, force: true })
+    expect(f).toHaveBeenCalledTimes(2)
+  })
+
+  it('the board keeps each row’s display name; anything else is no name', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          total: 3,
+          rows: [
+            { strength: 92, score: 38, name: 'Spicy Al' },
+            { strength: 80, score: 34 }, // an older worker
+            { strength: 70, score: 30, name: 7 },
+          ],
+        }),
+      ),
+    )
+    const board = await fetchLeaderboard(
+      'michigan',
+      'basketball',
+      'daily',
+      ARGS.dateKey,
+    )
+    expect(board?.rows.map((r) => r.name)).toEqual(['Spicy Al', '', ''])
+  })
+
+  it('signed in: among tied rows, the one under YOUR name is yours', () => {
+    const rows = buildLeaderboardRows(
+      [
+        { strength: 80, score: 34, name: '' },
+        { strength: 80, score: 34, name: 'Rival' },
+        { strength: 80, score: 34, name: 'Spicy Al' },
+      ],
+      { strength: 80, score: 34 },
+      'Spicy Al',
+    )
+    expect(rows.map((r) => r.you)).toEqual([false, false, true])
+    expect(rows.map((r) => r.name)).toEqual(['', 'Rival', 'Spicy Al'])
+  })
+
+  it('anonymous: yours is the first ANONYMOUS tied row, never a named player’s', () => {
+    const yours = { strength: 80, score: 34 }
+    expect(
+      buildLeaderboardRows(
+        [
+          { strength: 80, score: 34, name: 'Rival' },
+          { strength: 80, score: 34, name: '' },
+          { strength: 80, score: 34, name: '' },
+        ],
+        yours,
+      ).map((r) => r.you),
+    ).toEqual([false, true, false])
+    expect(
+      buildLeaderboardRows(
+        [{ strength: 80, score: 34, name: 'Rival' }],
+        yours,
+      )[0].you,
     ).toBe(false)
   })
 })

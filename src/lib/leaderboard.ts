@@ -1,11 +1,13 @@
 /**
- * Anonymous daily leaderboard + server-side streak — client side.
+ * Daily leaderboard + server-side streak — client side.
  *
  * On finishing a REAL, current-day play of a daily mode, the app submits the
  * projected-wins score to the leaderboard Worker (worker/leaderboard.mjs) and
- * shows "you placed Xth of Y today". No accounts, no names: identity is an
- * anonymous random UUID kept in localStorage (`ysas:clientId`) — the seam a
- * future login would link to.
+ * shows "you placed Xth of Y today". A player is anonymous by default — a
+ * random UUID kept in localStorage (`ysas:clientId`) — or, when signed in
+ * (account.ts), an account: the submission then carries the session token and
+ * the score is the account's, one row across all its devices, shown under its
+ * display name.
  *
  * STREAKS: the submission carries the device's local streak as a `seed`. The
  * worker RECONCILES it with its stored row — both advanced to today, the better
@@ -27,7 +29,7 @@
  * leaderboard can never block or break the game.
  */
 
-import { writeStreak, type Streak } from './progress'
+import { writeStreak, type SavedDaily, type Streak } from './progress'
 import type { GameMode } from './modes'
 
 const CLIENT_ID_KEY = 'ysas:clientId'
@@ -185,6 +187,15 @@ export interface SubmitArgs {
   official: boolean
   /** Cloudflare Turnstile token, when the widget is enabled (optional). */
   turnstileToken?: string
+  /** Session token when signed in (account.ts) — the score is then the
+   *  account's rather than this device's. */
+  token?: string
+  /** The finished draft. Sent along so the account's OTHER devices can show
+   *  the day locked with its roster (sync.ts); the worker only stores it. */
+  saved?: SavedDaily
+  /** Submit even when this device has a cached standing for the day — the
+   *  cache only says the DEVICE submitted it, not that the account has it. */
+  force?: boolean
 }
 
 /** The JSON body POSTed to the leaderboard endpoint. Pure + testable. */
@@ -198,6 +209,16 @@ export function buildSubmitPayload(args: SubmitArgs) {
     strength: args.strength,
     clientId: getClientId(),
     seed: args.seed,
+    ...(args.saved
+      ? {
+          detail: {
+            playerIds: args.saved.playerIds,
+            ...(args.saved.windows ? { windows: args.saved.windows } : {}),
+            grade: args.saved.grade,
+          },
+        }
+      : {}),
+    ...(args.token ? { token: args.token } : {}),
     ...(args.turnstileToken ? { turnstileToken: args.turnstileToken } : {}),
   }
 }
@@ -236,7 +257,7 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
   if (!endpoint) return null
 
   const { school, sport, mode, dateKey } = args
-  const cached = readStanding(school, sport, mode, dateKey)
+  const cached = args.force ? null : readStanding(school, sport, mode, dateKey)
   if (cached) return cached
   // Every failure log below carries what it was for.
   const ctx = { game: `${school}:${sport}:${mode}`, date: dateKey }
@@ -294,6 +315,8 @@ export async function submitDaily(args: SubmitArgs): Promise<Standing | null> {
 export interface BoardEntry {
   strength: number
   score: number
+  /** A signed-in player's display name; '' or absent for an anonymous one. */
+  name?: string
 }
 
 export interface Board {
@@ -304,8 +327,9 @@ export interface Board {
 }
 
 /**
- * Fetch the day's board for a game. Read-only and anonymous — the server
- * returns numbers only, never ids or names. Resolves `null` when the
+ * Fetch the day's board for a game. Read-only — the server returns numbers
+ * and signed-in players' display names, never ids, usernames or tokens.
+ * Resolves `null` when the
  * leaderboard is off/unavailable so the caller shows a friendly empty state.
  */
 export async function fetchLeaderboard(
@@ -341,10 +365,17 @@ export async function fetchLeaderboard(
       })
       return null
     }
-    const rows = data.rows.filter(
-      (e): e is BoardEntry =>
-        !!e && typeof e.strength === 'number' && typeof e.score === 'number',
-    )
+    const rows = data.rows
+      .filter(
+        (e): e is BoardEntry =>
+          !!e && typeof e.strength === 'number' && typeof e.score === 'number',
+      )
+      // An older worker sends no names; anything but a string is no name.
+      .map((e) => ({
+        strength: e.strength,
+        score: e.score,
+        name: typeof e.name === 'string' ? e.name : '',
+      }))
     return { total: data.total, rows }
   } catch (e) {
     console.warn('leaderboard read failed (network)', {
@@ -366,6 +397,8 @@ function samePair(a: BoardEntry, b: BoardEntry): boolean {
 }
 
 export interface LeaderboardRow extends BoardEntry {
+  /** Display name of a signed-in player; '' for an anonymous one. */
+  name: string
   /** 1-based competition rank: ties on BOTH numbers share a rank, the next
    *  rank skips (92/38, 80/34, 80/30, 80/30, 70/31 → 1, 2, 3, 3, 5). */
   rank: number
@@ -376,25 +409,33 @@ export interface LeaderboardRow extends BoardEntry {
 /**
  * Rank the board for display. Sorted by overall then wins (defensively — the
  * server already does), competition-ranked, and the viewer's own result (if
- * given and on the list) flagged exactly once: anonymous play can't tell tied
- * players apart, so the first matching pair is theirs. Pure.
+ * given and on the list) flagged exactly once. Among rows with the viewer's
+ * numbers: signed in (`yourName`), the one under their display name is theirs;
+ * otherwise the first ANONYMOUS one (anonymous play can't tell tied players
+ * apart). A row under someone else's name is never the viewer's. Pure.
  */
 export function buildLeaderboardRows(
   rows: BoardEntry[],
   yours?: BoardEntry,
+  yourName?: string,
 ): LeaderboardRow[] {
   const sorted = [...rows].sort((a, b) =>
     betterThan(a, b) ? -1 : betterThan(b, a) ? 1 : 0,
   )
-  let flagged = false
   let prev: BoardEntry | null = null
   let prevRank = 0
-  return sorted.map((e, i) => {
+  const out: LeaderboardRow[] = sorted.map((e, i) => {
     const rank = prev && samePair(e, prev) ? prevRank : i + 1
     prev = e
     prevRank = rank
-    const you = !flagged && !!yours && samePair(e, yours)
-    if (you) flagged = true
-    return { ...e, rank, you }
+    return { ...e, name: e.name ?? '', rank, you: false }
   })
+  if (yours) {
+    const mine = out.filter((r) => samePair(r, yours))
+    const row =
+      (yourName && mine.find((r) => r.name === yourName)) ||
+      mine.find((r) => r.name === '')
+    if (row) row.you = true
+  }
+  return out
 }

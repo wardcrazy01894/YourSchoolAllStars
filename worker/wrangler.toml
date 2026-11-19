@@ -36,6 +36,18 @@ namespace_id = "3001"
   limit = 30
   period = 60
 
+# Accounts: the tight limiter on /register (per IP), /login and /password
+# (per IP + username) — 5 tries a minute. Password guessing is the one attack
+# on this worker with a real payoff; those routes fail CLOSED without this
+# binding.
+[[ratelimits]]
+name = "LOGIN_LIMITER"
+namespace_id = "3102"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60
+
 # Retention prune: NOT a Cron Trigger any more. The account is on the Workers
 # Free plan (5 cron triggers per account) and every slot was in use, so the
 # worker prunes lazily instead (pruneIfDue: from a submit, at most once per

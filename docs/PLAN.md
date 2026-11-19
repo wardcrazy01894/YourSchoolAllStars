@@ -231,6 +231,16 @@ with a real dataset.
 - **M9 — Leaderboard + streaks worker (DONE):** `worker/` (Cloudflare Worker +
   D1) records official daily plays, ranks the day's board by team strength, and
   keeps a server copy of every streak (`worker/README.md`).
+- **M10 — Optional accounts (DONE):** username + password + display name (no
+  email), in the same worker (`worker/accounts-lib.mjs`, migration `0005`;
+  ported from CampusPin Showdown / WhereHePlay). An account's rows are ordinary
+  `scores`/`streaks` rows keyed `acct:<id>`; signing in folds the device's
+  scores and streaks (every game) into it, so an existing streak is kept. A
+  signed-in device syncs on load / focus (`src/lib/sync.ts`): every game's
+  streak, and days finished on another device (stored with their draft) open
+  locked. Display names show on the boards. Anti-cheat stays a non-goal
+  (scores and streaks are client-computed); the controls stop accidents,
+  drive-by abuse and account takeover.
 
 ## Open questions
 

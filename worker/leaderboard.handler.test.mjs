@@ -157,9 +157,9 @@ describe('leaderboard worker handler', () => {
       ok: true,
       total: 12,
       rows: [
-        { strength: 92, score: 38 },
-        { strength: 80, score: 34 },
-        { strength: 70, score: 30 },
+        { strength: 92, score: 38, name: '' },
+        { strength: 80, score: 34, name: '' },
+        { strength: 70, score: 30, name: '' },
       ],
     })
   })

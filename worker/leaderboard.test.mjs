@@ -409,7 +409,7 @@ describe('validateSubmission', () => {
   it('accepts a well-formed submission for a known game + today', () => {
     expect(validateSubmission(good, now)).toEqual({
       ok: true,
-      value: { ...good, seed: null, strength: null },
+      value: { ...good, seed: null, strength: null, detail: null },
     })
   })
   it('rejects a score that cannot come from the claimed strength', () => {

@@ -38,6 +38,8 @@ import {
   FB_WINLESS_STRENGTH,
 } from '../src/lib/football-rating'
 import { OUTAGE_DAYS, nextStreak, EMPTY_STREAK } from '../src/lib/progress'
+import { mergeStreaks } from './accounts-lib.mjs'
+import { mergeStreak } from '../src/lib/sync'
 
 describe('worker allowlists match the client', () => {
   it('SCHOOLS = every available school + the two Full sentinels', () => {
@@ -107,6 +109,47 @@ describe('advanceStreak (worker) ≡ nextStreak (client)', () => {
           `${JSON.stringify(prev)} → ${date}`,
         ).toEqual(nextStreak(prev, date))
       }
+    }
+  })
+})
+
+describe('mergeStreaks (worker) ≡ mergeStreak (client)', () => {
+  // Two devices' streaks for one game must merge to the same answer on the
+  // server (the account's row) and on the device (what it shows) — otherwise
+  // a signed-in player sees a different streak on each device.
+  const anchors = ['2026-06-01', ...OUTAGE_DAYS]
+  const streaks = []
+  for (const a of anchors) {
+    for (const off of [-3, -2, -1, 0, 1, 2]) {
+      for (const [current, max] of [
+        [1, 1],
+        [4, 9],
+        [12, 12],
+      ]) {
+        streaks.push({ current, max, lastDate: addDays(a, off) })
+      }
+    }
+  }
+
+  it('agrees on every pair, in both orders', () => {
+    for (const a of streaks) {
+      for (const b of streaks) {
+        expect(
+          fromRow(mergeStreaks(toRow(a), toRow(b))),
+          `${JSON.stringify(a)} + ${JSON.stringify(b)}`,
+        ).toEqual(mergeStreak(a, b))
+      }
+    }
+  })
+
+  it('agrees when one side has never played', () => {
+    for (const a of streaks) {
+      expect(fromRow(mergeStreaks(toRow(a), null))).toEqual(
+        mergeStreak(a, EMPTY_STREAK),
+      )
+      expect(fromRow(mergeStreaks(null, toRow(a)))).toEqual(
+        mergeStreak(EMPTY_STREAK, a),
+      )
     }
   })
 })

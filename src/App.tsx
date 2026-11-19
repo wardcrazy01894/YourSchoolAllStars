@@ -1,4 +1,5 @@
 import {
+  useCallback,
   useEffect,
   useLayoutEffect,
   useMemo,
@@ -92,10 +93,22 @@ import {
   saveDailyResult,
   displayStreak,
   isOfficialPlay,
+  resetProgressForSignOut,
   EMPTY_STREAK,
   type Streak,
   type SavedDaily,
 } from './lib/progress'
+import {
+  accountsEnabled,
+  loadAccount,
+  logout,
+  saveAccount,
+  type Account,
+} from './lib/account'
+import { syncProgress, type SyncResult } from './lib/sync'
+import { AccountContext, useAccountUi, type AccountUi } from './account-context'
+import { AccountButton } from './AccountButton'
+import { AccountDialog } from './AccountDialog'
 import {
   submitDaily,
   readStanding,
@@ -348,7 +361,144 @@ function initialSportId(): string | null {
   return isSportId(q) ? q : null
 }
 
+/**
+ * Counters the account sync bumps so mounted screens re-read localStorage
+ * (their state is seeded from it once, in useState initializers): `all` on any
+ * change (the mode menu's streak chips), `reset` when the device's progress
+ * was wiped (sign-out), and one per game whose streak or saved daily changed.
+ * A game's counters are part of its React key, so ONLY that game remounts — a
+ * draft in progress in another game, or a free-play result, is left alone.
+ */
+interface Epochs {
+  all: number
+  reset: number
+  games: Record<string, number>
+}
+
+/**
+ * The app shell: the optional account (lib/account.ts) around the game's
+ * screens. Owns the sign-in, the account dialog (an overlay — the screens stay
+ * mounted underneath, hidden) and the cross-device sync (lib/sync.ts), which
+ * runs on load, on signing in, and whenever the tab comes back.
+ */
 export default function App() {
+  const [account, setAccount] = useState<Account | null>(() =>
+    accountsEnabled() ? loadAccount() : null,
+  )
+  const [accountOpen, setAccountOpen] = useState(false)
+  const [epochs, setEpochs] = useState<Epochs>({ all: 0, reset: 0, games: {} })
+  const [syncAsk, setSyncAsk] = useState(0)
+
+  function applySync(r: SyncResult, token: string) {
+    if (r.status === 'signed-out') {
+      // The server ended this session (signed out elsewhere, or pushed out by
+      // newer sign-ins): carry on anonymously. Progress stays on the device.
+      saveAccount(null)
+      setAccount((a) => (a?.token === token ? null : a))
+      return
+    }
+    if (r.status !== 'ok') return
+    const { username, name } = r
+    if (username && name)
+      setAccount((a) => {
+        if (!a || a.token !== token) return a
+        if (a.username === username && a.name === name) return a
+        const next = { ...a, username, name }
+        saveAccount(next)
+        return next
+      })
+    if (r.reset || r.changed.length > 0)
+      setEpochs((e) => ({
+        all: e.all + 1,
+        reset: e.reset + (r.reset ? 1 : 0),
+        games: {
+          ...e.games,
+          ...Object.fromEntries(
+            r.changed.map((g) => [g, (e.games[g] ?? 0) + 1]),
+          ),
+        },
+      }))
+  }
+
+  const token = account?.token
+  const username = account?.username
+  useEffect(() => {
+    const onVisible = () => {
+      if (!document.hidden) setSyncAsk((n) => n + 1)
+    }
+    document.addEventListener('visibilitychange', onVisible)
+    return () => document.removeEventListener('visibilitychange', onVisible)
+  }, [])
+  useEffect(() => {
+    if (!token || !username) return
+    // No "is this effect still live?" guard on purpose: the sync writes
+    // localStorage whatever happens to this effect, so the screens must be
+    // told to re-read it even if a newer sync has since started.
+    void syncProgress({ token, username }).then((r) => applySync(r, token))
+  }, [token, username, syncAsk])
+
+  function changeAccount(next: Account) {
+    saveAccount(next)
+    setAccount(next)
+  }
+
+  /**
+   * Sign out. The streaks and finished days here are the account's, so the
+   * device goes back to a fresh anonymous player (progress.ts:
+   * resetProgressForSignOut says why) — but first the account gets whatever
+   * only this device has (a day finished offline, a streak the server
+   * missed). If the server can't be reached for that, nothing is wiped unless
+   * the player insists (`force`).
+   */
+  async function signOut(force: boolean): Promise<'done' | 'unsaved'> {
+    if (!account) return 'done'
+    const r = await syncProgress({
+      token: account.token,
+      username: account.username,
+    })
+    if (r.status === 'offline' && !force) return 'unsaved'
+    // Best effort: with no connection the session lingers on the server, but
+    // this device is signed out either way.
+    await logout(account.token)
+    saveAccount(null)
+    setAccount(null)
+    resetProgressForSignOut()
+    setEpochs((e) => ({ ...e, all: e.all + 1, reset: e.reset + 1 }))
+    return 'done'
+  }
+
+  const closeAccount = useCallback(() => setAccountOpen(false), [])
+  const ui = useMemo<AccountUi | null>(
+    () =>
+      accountsEnabled() ? { account, open: () => setAccountOpen(true) } : null,
+    [account],
+  )
+
+  return (
+    <AccountContext.Provider value={ui}>
+      {/* Hidden, not unmounted, while the dialog is open: a draft in progress
+          must survive a trip to the account screen. */}
+      <div style={{ display: accountOpen ? 'none' : 'contents' }}>
+        <Screens epochs={epochs} />
+      </div>
+      {accountOpen && (
+        <AccountDialog
+          account={account}
+          onChange={changeAccount}
+          onSignOut={signOut}
+          onClose={closeAccount}
+        />
+      )}
+    </AccountContext.Provider>
+  )
+}
+
+function Screens({ epochs }: { epochs: Epochs }) {
+  /** The remount key for one game: its identity + the sync counters. */
+  const keyFor = (school: string, sport: string, mode: GameMode) => {
+    const id = `${school}:${sport}:${mode}`
+    return `${id}:${epochs.reset}:${epochs.games[id] ?? 0}`
+  }
   const [schoolId, setSchoolId] = useState<string | null>(initialSchoolId)
   const [sportId, setSportId] = useState<string | null>(initialSportId)
   const [modeId, setModeId] = useState<GameMode | null>(initialModeId)
@@ -398,6 +548,7 @@ export default function App() {
     if (!modeId || !sportOffersMode('basketball', modeId))
       return (
         <ModeMenu
+          key={epochs.all}
           school={FULL_BBALL_SCHOOL}
           sport={bball}
           onPick={setModeId}
@@ -407,7 +558,7 @@ export default function App() {
       )
     return (
       <FullGame
-        key={`${FULL_BBALL_ID}:${modeId}`}
+        key={keyFor(FULL_BBALL_ID, 'basketball', modeId)}
         sport={bball}
         mode={getMode(modeId)}
         onExitToModes={() => setModeId(null)}
@@ -423,6 +574,7 @@ export default function App() {
     if (!modeId || !sportOffersMode('football', modeId))
       return (
         <ModeMenu
+          key={epochs.all}
           school={FULL_FB_SCHOOL}
           sport={fb}
           onPick={setModeId}
@@ -432,7 +584,7 @@ export default function App() {
       )
     return (
       <FullFbGame
-        key={`${FULL_FB_ID}:${modeId}`}
+        key={keyFor(FULL_FB_ID, 'football', modeId)}
         sport={fb}
         mode={getMode(modeId)}
         onExitToModes={() => setModeId(null)}
@@ -469,6 +621,7 @@ export default function App() {
   if (!modeId || !sportOffersMode(sport.id, modeId))
     return (
       <ModeMenu
+        key={epochs.all}
         school={school}
         sport={sport}
         onPick={setModeId}
@@ -478,10 +631,12 @@ export default function App() {
     )
   // key=school:sport:mode makes the remount explicit: Game's useState
   // initializers (seed/phase/state/streak) all derive from the chosen sport +
-  // mode + loaded save, so any of those changing must start a fresh Game.
+  // mode + loaded save, so any of those changing must start a fresh Game. The
+  // account sync's counters ride along (keyFor), so a streak or a finished day
+  // that arrived from another device is picked up the same way.
   // Football has its own parallel game component (12-man, two-phase draft, record
   // out of 16) so the live basketball flow stays untouched.
-  const gameKey = `${school.id}:${sport.id}:${modeId}`
+  const gameKey = keyFor(school.id, sport.id, modeId)
   if (sport.id === 'football')
     return (
       <FbGame
@@ -514,6 +669,9 @@ export function SiteFooter({ subject }: { subject: string }) {
         An independent fan project. Not affiliated with or endorsed by {subject}
         . Player data curated from public sources.
       </div>
+      <div>
+        <AccountButton quiet />
+      </div>
       <div>A Spicy Al Software Solution</div>
     </footer>
   )
@@ -529,6 +687,9 @@ function Picker({ onPick }: { onPick: (id: string) => void }) {
             YourSchoolAllStars
             <small>Pick your school</small>
           </div>
+        </div>
+        <div className="topbar-actions">
+          <AccountButton />
         </div>
       </header>
       <section className="hero" style={{ paddingBottom: 8 }}>
@@ -941,6 +1102,8 @@ function Game({
         strength: saved.strength ?? 0,
         seed: updated,
         official,
+        saved,
+        token: loadAccount()?.token,
       }).then((s) => {
         if (!s) return
         setStanding(s)
@@ -1166,6 +1329,8 @@ function FullGame({
         strength: saved.strength ?? 0,
         seed: updated,
         official,
+        saved,
+        token: loadAccount()?.token,
       }).then((s) => {
         if (!s) return
         setStanding(s)
@@ -1865,6 +2030,7 @@ export function Results({
   })
 
   const [copied, setCopied] = useState(false)
+  const signedIn = !!useAccountUi()?.account
   const [showBoard, setShowBoard] = useState(false)
   function copyShare() {
     navigator.clipboard?.writeText(share).then(
@@ -1993,8 +2159,10 @@ export function Results({
           modeLabel={mode.name}
           dateKey={dateKey}
           games={GAMES}
+          // On the server for sure when a standing came back — or, signed
+          // in, when the day was finished on another device (no standing here).
           yours={
-            standing
+            standing || signedIn
               ? { strength: saved?.strength ?? strength, score: wins }
               : undefined
           }
@@ -2213,6 +2381,8 @@ function FbGame({
         strength: saved.strength ?? 0,
         seed: updated,
         official,
+        saved,
+        token: loadAccount()?.token,
       }).then((s) => {
         if (!s) return
         setStanding(s)
@@ -2439,6 +2609,8 @@ function FullFbGame({
         strength: saved.strength ?? 0,
         seed: updated,
         official,
+        saved,
+        token: loadAccount()?.token,
       }).then((s) => {
         if (!s) return
         setStanding(s)
@@ -3167,6 +3339,7 @@ function FbResults({
   })
 
   const [copied, setCopied] = useState(false)
+  const signedIn = !!useAccountUi()?.account
   const [showBoard, setShowBoard] = useState(false)
   function copyShare() {
     navigator.clipboard?.writeText(share).then(
@@ -3287,8 +3460,10 @@ function FbResults({
           modeLabel={mode.name}
           dateKey={dateKey}
           games={FB_GAMES}
+          // On the server for sure when a standing came back — or, signed
+          // in, when the day was finished on another device (no standing here).
           yours={
-            standing
+            standing || signedIn
               ? { strength: saved?.strength ?? strength, score: wins }
               : undefined
           }

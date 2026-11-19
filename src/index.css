@@ -203,7 +203,7 @@ body {
 }
 .board-row {
   display: grid;
-  grid-template-columns: 48px 1fr auto auto;
+  grid-template-columns: 48px auto 1fr auto auto;
   align-items: baseline;
   gap: 12px;
   padding: 9px 10px;
@@ -863,4 +863,93 @@ body {
   font-weight: 500;
   color: var(--muted);
   line-height: 1.4;
+}
+
+/* ── Account (sign in / create / manage) ─────────────────────────────────── */
+.account {
+  max-width: 560px;
+}
+.account h2 {
+  margin: 14px 0 6px;
+}
+.account h3 {
+  margin: 10px 0;
+}
+.account .row {
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+.field input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--ink);
+  color: var(--text);
+  font: inherit;
+  /* 16px: iOS Safari zooms the page on focus for anything smaller. */
+  font-size: 16px;
+  font-weight: 400;
+}
+.field input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.field-row {
+  display: flex;
+  gap: 8px;
+}
+.field-row input {
+  flex: 1;
+  min-width: 0;
+}
+.hint {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.link-btn {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.account-error {
+  color: #ff9c8a;
+  font-weight: 700;
+}
+.account-note {
+  color: var(--good);
+  font-weight: 700;
+}
+/* The account entry point: a pill in the top bar, a quiet link in the footer. */
+.account-btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  max-width: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.footer .link-btn {
+  color: var(--muted);
+}
+.board-name {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
 }
