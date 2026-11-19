@@ -13,7 +13,15 @@ rules (`worker/leaderboard-lib.mjs` `advanceStreak`, incl. `OUTAGE_DAYS`) must
 stay identical to `src/lib/progress.ts` `nextStreak` — change both together
 (`worker/parity.test.mjs` fails CI if the rules or the school/mode/outage
 allowlists drift).
-Deploy / repair recipes: `worker/README.md`.
+**Accounts** (optional; username + password + display name, no email) live in
+the same worker (`worker/accounts-lib.mjs`, client `src/lib/account.ts` +
+`src/lib/sync.ts`): an account's rows are ordinary `scores`/`streaks` rows keyed
+`acct:<id>`, signing in folds the device's streaks into it, and display names
+show on the boards. The server's streak MERGE (`mergeStreaks`) must stay
+identical to the client's (`src/lib/sync.ts` `mergeStreak`) — the parity test
+covers that too. A new worker migration must be applied (`--remote`) and the
+worker deployed by hand; the site deploys on merge.
+Deploy / repair / password-reset recipes: `worker/README.md`.
 
 ## Branch & PR workflow
 

@@ -3,7 +3,8 @@
  * every finisher's OVERALL out of 100 (team strength), their projected record
  * beside it, competition-ranked, with the viewer's own row flagged.
  *
- * Anonymous: the server returns numbers only (no ids, no names). Read-only and
+ * A signed-in player's row carries their display name; an anonymous one shows
+ * the numbers only (the server never returns ids or usernames). Read-only and
  * best-effort: a load failure shows a friendly line, never an error that
  * blocks the screen it's embedded in. One fetch per open.
  */
@@ -18,6 +19,7 @@ import {
   type Standing,
 } from './lib/leaderboard'
 import type { GameMode } from './lib/modes'
+import { useAccountUi } from './account-context'
 
 export interface LeaderboardPanelProps {
   school: string
@@ -59,6 +61,8 @@ export function LeaderboardPanel({
   onClose,
 }: LeaderboardPanelProps) {
   const [state, setState] = useState<LoadState>({ phase: 'loading' })
+  // Signed in: among rows with our numbers, the one under our name is ours.
+  const yourName = useAccountUi()?.account?.name
 
   useEffect(() => {
     let live = true
@@ -68,7 +72,7 @@ export function LeaderboardPanel({
       if (board.rows.length === 0) return setState({ phase: 'empty' })
       setState({
         phase: 'ready',
-        rows: buildLeaderboardRows(board.rows, yours),
+        rows: buildLeaderboardRows(board.rows, yours, yourName),
         total: board.total,
       })
     })
@@ -76,10 +80,11 @@ export function LeaderboardPanel({
       live = false
     }
     // One fetch per open, plus one more when the viewer's own submit lands
-    // (standing goes from null to a value) so their row appears. `yours` is
-    // read from the same render as `standing` and never changes on its own.
+    // (standing goes from null to a value) so their row appears, or when they
+    // rename themselves. `yours` is read from the same render as `standing`
+    // and never changes on its own.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [school, sport, mode, dateKey, standing?.rank])
+  }, [school, sport, mode, dateKey, standing?.rank, yourName])
 
   // When the viewer's row is on the board it's flagged in place. When it's
   // below the shown (capped) list, fall back to their submit-time standing —
@@ -132,6 +137,7 @@ export function LeaderboardPanel({
                   {r.strength}
                   <small> /100</small>
                 </span>
+                <span className="board-name">{r.name}</span>
                 <span className="board-record">
                   {r.score}–{games - r.score}
                 </span>

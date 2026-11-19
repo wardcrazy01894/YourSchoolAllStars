@@ -1,10 +1,11 @@
 // Daily one-shot persistence + streaks. Pure logic (nextStreak, dayDiff) is
-// unit-tested; the localStorage wrappers are thin and fail-safe. No backend —
-// streaks are per-device, exactly like KnowYourCity. (A cross-player leaderboard
-// would be the only thing needing a server.)
+// unit-tested; the localStorage wrappers are thin and fail-safe. The device's
+// localStorage is the working copy; the leaderboard worker mirrors the streak
+// (leaderboard.ts) and, for a signed-in account, keeps every device in step
+// (sync.ts).
 
 import type { YearWindow } from '../types'
-import type { GameMode } from './modes'
+import { isGameMode, type GameMode } from './modes'
 
 export interface Streak {
   current: number
@@ -43,7 +44,7 @@ function addDays(dateKey: string, n: number): string {
  * the day being played) is a listed outage day, i.e. the gap consists only of
  * days nobody could have played.
  */
-function gapIsAllOutage(from: string, diff: number): boolean {
+export function gapIsAllOutage(from: string, diff: number): boolean {
   for (let n = 1; n < diff; n++) {
     if (!OUTAGE_DAYS.includes(addDays(from, n))) return false
   }
@@ -246,4 +247,129 @@ export function saveDailyResult(
   const updated = nextStreak(prev, result.dateKey)
   write(streakKey(school, sport, mode), updated)
   return updated
+}
+
+// ── Every game at once (accounts: src/lib/sync.ts) ───────────────────────────
+
+/** One daily game: the (school, sport, mode) triple that owns a lock + streak. */
+export interface GameRef {
+  school: string
+  sport: string
+  mode: GameMode
+}
+
+/** `school:sport:mode` — a stable id for a game (React keys, change lists). */
+export const gameId = (g: GameRef) => `${g.school}:${g.sport}:${g.mode}`
+
+// The two key shapes `ns` produces: legacy (classic Daily, no mode segment) and
+// mode-qualified. School ids are slugs, sport ids are words.
+const GAME_KEY_RE =
+  /^ysas:([a-z0-9-]+):([a-z]+)(?::([a-z-]+))?:(streak|daily:(\d{4}-\d{2}-\d{2}))$/
+const OWNER_KEY = 'ysas:owner'
+const STANDING_PREFIX = 'ysas:lb:v1:'
+
+interface GameKey extends GameRef {
+  key: string
+  /** Set for a saved daily; undefined for a streak key. */
+  dateKey?: string
+}
+
+/** Every progress key in storage, parsed. Fail-safe: [] when storage throws. */
+function gameKeys(): GameKey[] {
+  const out: GameKey[] = []
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i)
+      const m = key?.match(GAME_KEY_RE)
+      if (!key || !m) continue
+      const mode = m[3] ?? 'daily'
+      if (!isGameMode(mode)) continue
+      out.push({ key, school: m[1], sport: m[2], mode, dateKey: m[5] })
+    }
+  } catch {
+    // Storage blocked — nothing to list.
+  }
+  return out
+}
+
+const isCount = (n: unknown): n is number =>
+  typeof n === 'number' && Number.isInteger(n) && n >= 0
+
+/** Every game this device holds a real streak for (a played day, count ≥ 1). */
+export function listStreaks(): (GameRef & { streak: Streak })[] {
+  const out: (GameRef & { streak: Streak })[] = []
+  for (const { school, sport, mode, dateKey } of gameKeys()) {
+    if (dateKey) continue
+    const s = loadStreak(school, sport, mode) as Partial<Streak> | null
+    if (
+      s &&
+      isCount(s.current) &&
+      s.current >= 1 &&
+      isCount(s.max) &&
+      typeof s.lastDate === 'string'
+    )
+      out.push({
+        school,
+        sport,
+        mode,
+        streak: {
+          current: s.current,
+          max: Math.max(s.max, s.current),
+          lastDate: s.lastDate,
+        },
+      })
+  }
+  return out
+}
+
+/** Every game with a daily saved on this device for `dateKey`. */
+export function listDailies(
+  dateKey: string,
+): (GameRef & { saved: SavedDaily })[] {
+  const out: (GameRef & { saved: SavedDaily })[] = []
+  for (const k of gameKeys()) {
+    if (k.dateKey !== dateKey) continue
+    const saved = loadDaily(k.school, k.sport, dateKey, k.mode)
+    if (saved)
+      out.push({ school: k.school, sport: k.sport, mode: k.mode, saved })
+  }
+  return out
+}
+
+/** The account (username) this device's progress was last synced to. */
+export function loadOwner(): string | null {
+  try {
+    return localStorage.getItem(OWNER_KEY)
+  } catch {
+    return null
+  }
+}
+
+export function saveOwner(username: string): void {
+  try {
+    localStorage.setItem(OWNER_KEY, username)
+  } catch {
+    // Best-effort: without it a shared device just skips the foreign-save check.
+  }
+}
+
+/**
+ * Sign-out: this device goes back to a fresh anonymous player. Every streak,
+ * every saved daily and every cached standing here is the ACCOUNT's (it was
+ * synced there first — sync.ts), so leaving them would hand them to whoever
+ * uses the device next, and their next sign-in would claim them for a
+ * different account. The chosen school and the anonymous device id stay.
+ */
+export function resetProgressForSignOut(): void {
+  try {
+    const doomed = gameKeys().map((k) => k.key)
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i)
+      if (key?.startsWith(STANDING_PREFIX)) doomed.push(key)
+    }
+    doomed.push(OWNER_KEY)
+    for (const key of doomed) localStorage.removeItem(key)
+  } catch (e) {
+    console.warn('progress: sign-out reset failed', { error: String(e) })
+  }
 }

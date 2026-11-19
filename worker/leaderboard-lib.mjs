@@ -198,6 +198,57 @@ export function validateSeed(seed, now = new Date()) {
   return { ok: true, value: { current, max, lastDate } }
 }
 
+/** Most draft slots a result can have (football's roster is 12). */
+export const MAX_DETAIL_SLOTS = 16
+/** Cap on the stored draft JSON, well above a real 12-man roster. */
+export const MAX_DETAIL_CHARS = 2_500
+
+const SLOT_RE = /^[A-Za-z0-9_-]{1,12}$/
+const isPlainObject = (v) => !!v && typeof v === 'object' && !Array.isArray(v)
+const isYear = (n) => Number.isInteger(n) && n >= 1850 && n <= 2200
+
+/**
+ * Validate the OPTIONAL draft behind a score — `{ playerIds, windows?, grade }`,
+ * the client's SavedDaily minus the numbers the row already has. It is stored
+ * for the account's OTHER devices (so they show the day locked, with its
+ * roster) and only ever returned to the same account, so this is a shape and
+ * size check, not a judgement of the roster. ADVISORY like the seed: anything
+ * malformed becomes `null` and the score still counts. Returns the JSON text
+ * to store, or null. Pure.
+ */
+export function validateDetail(raw) {
+  if (!isPlainObject(raw) || !isPlainObject(raw.playerIds)) return null
+  const slots = Object.keys(raw.playerIds)
+  if (slots.length < 1 || slots.length > MAX_DETAIL_SLOTS) return null
+  const playerIds = {}
+  for (const slot of slots) {
+    const id = raw.playerIds[slot]
+    if (!SLOT_RE.test(slot) || typeof id !== 'string') return null
+    if (id.length < 1 || id.length > 80) return null
+    playerIds[slot] = id
+  }
+  const out = { playerIds }
+  if (raw.windows != null) {
+    if (!isPlainObject(raw.windows)) return null
+    const windows = {}
+    for (const slot of Object.keys(raw.windows)) {
+      const w = raw.windows[slot]
+      if (!(slot in playerIds) || !isPlainObject(w)) return null
+      if (!isYear(w.start) || !isYear(w.end) || w.end < w.start) return null
+      windows[slot] = { start: w.start, end: w.end }
+    }
+    out.windows = windows
+  }
+  if (
+    typeof raw.grade !== 'string' ||
+    !/^[A-Za-z0-9+ -]{1,16}$/.test(raw.grade)
+  )
+    return null
+  out.grade = raw.grade
+  const text = JSON.stringify(out)
+  return text.length <= MAX_DETAIL_CHARS ? text : null
+}
+
 /**
  * Validate + normalize a submission against the server's clock. Returns
  * `{ ok: true, value }` or `{ ok: false, status, error }`. Pure given `now`, so
@@ -234,10 +285,21 @@ export function validateSubmission(body, now = new Date()) {
     return { ok: false, status: 400, error: 'score does not match strength' }
 
   const seed = validateSeed(body?.seed, now).value
+  const detail = validateDetail(body?.detail)
 
   return {
     ok: true,
-    value: { school, sport, mode, date, score, strength, clientId, seed },
+    value: {
+      school,
+      sport,
+      mode,
+      date,
+      score,
+      strength,
+      clientId,
+      seed,
+      detail,
+    },
   }
 }
 
@@ -249,7 +311,8 @@ export function validateSubmission(body, now = new Date()) {
  * first, projected wins as the tiebreak — and the SAME key drives the keep-max,
  * the standing and the board, so "Xth of Y" always agrees with the board order.
  * Keep-max keeps the better PAIR (never a mix of one submit's strength with
- * another's wins). NULL strength (rows from before the column existed, or an
+ * another's wins), and `detail` (the draft, validateDetail) always describes
+ * the pair that stands — a re-post of the SAME pair fills in a missing one. NULL strength (rows from before the column existed, or an
  * old client) reads as 0, so an all-NULL day still ranks by wins exactly as it
  * did before — the deploy window is harmless. Ties share a rank
  * (strictly-greater counting), rank = better + 1; `total` is the number of
@@ -257,14 +320,30 @@ export function validateSubmission(body, now = new Date()) {
  */
 export async function upsertAndRank(
   db,
-  { school, sport, mode, date, clientId, score, strength = null },
+  {
+    school,
+    sport,
+    mode,
+    date,
+    clientId,
+    score,
+    strength = null,
+    detail = null,
+  },
   now,
 ) {
   const upsert = db
     .prepare(
-      `INSERT INTO scores (school, sport, mode, date, client_id, score, strength, created_at, updated_at)
-       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?8)
+      `INSERT INTO scores (school, sport, mode, date, client_id, score, strength, created_at, updated_at, detail)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?8, ?9)
        ON CONFLICT(school, sport, mode, date, client_id) DO UPDATE SET
+         detail = CASE
+           WHEN (COALESCE(excluded.strength, 0), excluded.score)
+                > (COALESCE(strength, 0), score) THEN excluded.detail
+           WHEN detail IS NULL
+                AND (COALESCE(excluded.strength, 0), excluded.score)
+                    = (COALESCE(strength, 0), score) THEN excluded.detail
+           ELSE detail END,
          score = CASE WHEN (COALESCE(excluded.strength, 0), excluded.score)
                            > (COALESCE(strength, 0), score)
                       THEN excluded.score ELSE score END,
@@ -277,7 +356,7 @@ export async function upsertAndRank(
                          ELSE COALESCE(strength, 0) END,
          updated_at = excluded.updated_at`,
     )
-    .bind(school, sport, mode, date, clientId, score, strength, now)
+    .bind(school, sport, mode, date, clientId, score, strength, now, detail)
   const standing = db
     .prepare(
       `WITH me AS (
@@ -371,7 +450,7 @@ export function addDays(dateKey, n) {
 
 /** True when every one of the `diff - 1` days strictly after `from` is a listed
  *  outage day, i.e. the gap consists only of days nobody could have played. */
-function gapIsAllOutage(from, diff) {
+export function gapIsAllOutage(from, diff) {
   for (let n = 1; n < diff; n++) {
     if (!OUTAGE_DAYS.includes(addDays(from, n))) return false
   }
@@ -494,10 +573,14 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
 }
 
 /**
- * Read the day's board — one `{ strength, score }` row per device, best overall
- * first (then most wins), capped at TOP_LIMIT — plus the total entry count for
- * a game + date. Anonymous: numbers only — no ids, no names. The client
- * assigns display ranks (ties share a rank) and flags its own row.
+ * Read the day's board — one `{ strength, score, name }` row per player, best
+ * overall first (then most wins, then who got there first), capped at
+ * TOP_LIMIT — plus the total entry count for a game + date. `name` is a
+ * signed-in player's display name and '' for an anonymous device; never an id,
+ * a username or a token. The client assigns display ranks (ties share a rank)
+ * and flags its own row. The join resolves the account id FROM the score row
+ * (a primary-key lookup per row) — joining on `'acct:' || a.id` would scan
+ * every account for every score.
  */
 export async function topScores(
   db,
@@ -506,9 +589,14 @@ export async function topScores(
 ) {
   const list = db
     .prepare(
-      `SELECT COALESCE(strength, 0) AS strength, score FROM scores
-       WHERE school = ?1 AND sport = ?2 AND mode = ?3 AND date = ?4
-       ORDER BY COALESCE(strength, 0) DESC, score DESC LIMIT ?5`,
+      `SELECT COALESCE(s.strength, 0) AS strength, s.score AS score,
+              COALESCE(a.name, '') AS name
+       FROM scores s LEFT JOIN accounts a
+         ON s.client_id LIKE 'acct:%'
+        AND a.id = CAST(substr(s.client_id, 6) AS INTEGER)
+       WHERE s.school = ?1 AND s.sport = ?2 AND s.mode = ?3 AND s.date = ?4
+       ORDER BY COALESCE(s.strength, 0) DESC, s.score DESC, s.created_at, s.client_id
+       LIMIT ?5`,
     )
     .bind(school, sport, mode, date, limit)
   const count = db
@@ -523,6 +611,7 @@ export async function topScores(
     rows: listRes.results.map((r) => ({
       strength: Number(r.strength),
       score: Number(r.score),
+      name: typeof r.name === 'string' ? r.name : '',
     })),
   }
 }

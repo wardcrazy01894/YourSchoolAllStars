@@ -10,6 +10,12 @@ import {
   displayStreak,
   loadDaily,
   saveDailyResult,
+  gameId,
+  listStreaks,
+  listDailies,
+  loadOwner,
+  saveOwner,
+  resetProgressForSignOut,
   type SavedDaily,
 } from './progress'
 
@@ -374,5 +380,84 @@ describe('isOfficialPlay — a daily started today counts even if it ends after 
   })
   it('never counts a future date', () => {
     expect(isOfficialPlay('2026-10-11', '2026-10-10', false)).toBe(false)
+  })
+})
+
+describe('every game at once (accounts)', () => {
+  beforeEach(() => localStorage.clear())
+  const daily = (dateKey: string): SavedDaily => ({
+    dateKey,
+    playerIds: { PG: 'a' },
+    wins: 30,
+    grade: 'SOLID',
+    strength: 70,
+  })
+
+  it('gameId is school:sport:mode', () => {
+    expect(
+      gameId({ school: 'unc', sport: 'basketball', mode: 'daily-iq' }),
+    ).toBe('unc:basketball:daily-iq')
+  })
+
+  it('listStreaks finds legacy and mode-qualified keys, real streaks only', () => {
+    saveDailyResult('michigan', 'basketball', daily('2026-11-18'))
+    saveDailyResult('michigan', 'basketball', daily('2026-11-18'), {
+      mode: 'daily-iq',
+    })
+    writeStreak('unc', 'basketball', EMPTY_STREAK)
+    localStorage.setItem('ysas:vt:football:streak', 'not json')
+    localStorage.setItem('ysas:vt:football:bogus-mode:streak', '{"current":9}')
+    localStorage.setItem('ysas:school', 'michigan')
+    expect(
+      listStreaks()
+        .map((s) => `${gameId(s)}=${s.streak.current}`)
+        .sort(),
+    ).toEqual(['michigan:basketball:daily-iq=1', 'michigan:basketball:daily=1'])
+  })
+
+  it('listDailies returns the games saved for one day', () => {
+    saveDailyResult('michigan', 'basketball', daily('2026-11-18'))
+    saveDailyResult('michigan', 'basketball', daily('2026-11-19'))
+    saveDailyResult('full-football', 'football', daily('2026-11-19'), {
+      mode: 'daily-iq',
+    })
+    expect(
+      listDailies('2026-11-19')
+        .map((d) => gameId(d))
+        .sort(),
+    ).toEqual(['full-football:football:daily-iq', 'michigan:basketball:daily'])
+    expect(listDailies('2026-11-19')[0].saved.dateKey).toBe('2026-11-19')
+  })
+
+  it('sign-out wipes streaks, saved dailies, standings and the owner — nothing else', () => {
+    saveDailyResult('michigan', 'basketball', daily('2026-11-19'))
+    saveDailyResult('unc', 'basketball', daily('2026-11-19'), {
+      mode: 'daily-iq',
+    })
+    localStorage.setItem(
+      'ysas:lb:v1:michigan:basketball:daily:2026-11-19',
+      '{"rank":1,"total":2}',
+    )
+    saveOwner('spicy_al')
+    localStorage.setItem('ysas:school', 'michigan')
+    localStorage.setItem('ysas:clientId', 'device-1234')
+    localStorage.setItem('ysas:account', '{}')
+    localStorage.setItem('unrelated', 'x')
+
+    resetProgressForSignOut()
+
+    expect(loadStreak('michigan', 'basketball')).toEqual(EMPTY_STREAK)
+    expect(loadDaily('michigan', 'basketball', '2026-11-19')).toBeNull()
+    expect(loadDaily('unc', 'basketball', '2026-11-19', 'daily-iq')).toBeNull()
+    expect(loadOwner()).toBeNull()
+    const left = Array.from({ length: localStorage.length }, (_, i) =>
+      localStorage.key(i),
+    )
+    expect(left.sort()).toEqual([
+      'unrelated',
+      'ysas:account',
+      'ysas:clientId',
+      'ysas:school',
+    ])
   })
 })

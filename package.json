@@ -16,7 +16,8 @@
     "test": "vitest run",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "hooks:install": "git config core.hooksPath .githooks"
+    "hooks:install": "git config core.hooksPath .githooks",
+    "account:reset-password": "node scripts/reset-password.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

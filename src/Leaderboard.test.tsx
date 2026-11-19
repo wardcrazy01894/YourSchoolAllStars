@@ -172,4 +172,24 @@ describe('LeaderboardPanel', () => {
     fireEvent.click(screen.getByRole('button', { name: /close/i }))
     expect(onClose).toHaveBeenCalled()
   })
+
+  it('shows a signed-in player’s display name beside their result', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          total: 2,
+          rows: [
+            { strength: 92, score: 38, name: 'Spicy Al' },
+            { strength: 80, score: 34, name: '' },
+          ],
+        }),
+      ),
+    )
+    render(<LeaderboardPanel {...PROPS} />)
+    const rows = await screen.findAllByRole('listitem')
+    expect(rows[0].textContent).toContain('Spicy Al')
+    expect(rows[1].querySelector('.board-name')?.textContent).toBe('')
+  })
 })
