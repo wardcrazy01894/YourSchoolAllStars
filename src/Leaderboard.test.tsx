@@ -59,6 +59,33 @@ describe('LeaderboardPanel', () => {
     expect(rows[2].textContent).toMatch(/30–10/)
   })
 
+  it('shows a streak of 2 or more next to the name, and none below that', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          total: 3,
+          rows: [
+            { strength: 92, score: 38, name: 'Spicy Al', streak: 12 },
+            { strength: 80, score: 34, name: '', streak: 2 },
+            { strength: 70, score: 30, name: 'Day One', streak: 1 },
+          ],
+        }),
+      ),
+    )
+    render(<LeaderboardPanel {...PROPS} />)
+    await screen.findByText(/3 players today/)
+    const rows = screen.getAllByRole('listitem')
+    expect(rows[0].querySelector('.board-who')!.textContent).toBe(
+      'Spicy Al🔥12',
+    )
+    // An anonymous row has no name, but still shows its streak.
+    expect(rows[1].querySelector('.board-who')!.textContent).toBe('🔥2')
+    // A first day is not a streak yet.
+    expect(rows[2].textContent).not.toContain('🔥')
+  })
+
   it('shows your SUBMIT-TIME standing (rank AND total from then) when below the shown list', async () => {
     // 300 have finished since you placed 120th of 150 — never mix the old
     // rank with today's total.

@@ -573,11 +573,14 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
 }
 
 /**
- * Read the day's board — one `{ strength, score, name }` row per player, best
+ * Read the day's board — one `{ strength, score, name, streak }` row per player, best
  * overall first (then most wins, then who got there first), capped at
  * TOP_LIMIT — plus the total entry count for a game + date. `name` is a
  * signed-in player's display name and '' for an anonymous device; never an id,
- * a username or a token. The client assigns display ranks (ties share a rank)
+ * a username or a token. `streak` is the player's current streak in this game,
+ * but only on the latest day they played — an older day's board, or a player
+ * with no streak row, gets 0, since streak history is not kept (a primary-key
+ * lookup per row). The client assigns display ranks (ties share a rank)
  * and flags its own row. The join resolves the account id FROM the score row
  * (a primary-key lookup per row) — joining on `'acct:' || a.id` would scan
  * every account for every score.
@@ -590,10 +593,15 @@ export async function topScores(
   const list = db
     .prepare(
       `SELECT COALESCE(s.strength, 0) AS strength, s.score AS score,
-              COALESCE(a.name, '') AS name
+              COALESCE(a.name, '') AS name,
+              CASE WHEN st.last_played_date = s.date
+                   THEN st.current ELSE 0 END AS streak
        FROM scores s LEFT JOIN accounts a
          ON s.client_id LIKE 'acct:%'
         AND a.id = CAST(substr(s.client_id, 6) AS INTEGER)
+       LEFT JOIN streaks st
+         ON st.school = s.school AND st.sport = s.sport
+        AND st.mode = s.mode AND st.client_id = s.client_id
        WHERE s.school = ?1 AND s.sport = ?2 AND s.mode = ?3 AND s.date = ?4
        ORDER BY COALESCE(s.strength, 0) DESC, s.score DESC, s.created_at, s.client_id
        LIMIT ?5`,
@@ -612,6 +620,7 @@ export async function topScores(
       strength: Number(r.strength),
       score: Number(r.score),
       name: typeof r.name === 'string' ? r.name : '',
+      streak: Number(r.streak) || 0,
     })),
   }
 }

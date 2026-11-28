@@ -958,6 +958,17 @@ body {
 .footer .link-btn {
   color: var(--muted);
 }
+.board-who {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+}
+.board-streak {
+  flex: none;
+  white-space: nowrap;
+  font-weight: 700;
+}
 .board-name {
   font-weight: 700;
   overflow: hidden;

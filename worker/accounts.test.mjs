@@ -596,8 +596,8 @@ describe('readProgress + the board (SQL)', () => {
     expect(await topScores(db, { ...GAME, date: TODAY })).toEqual({
       total: 2,
       rows: [
-        { strength: 92, score: 38, name: '' },
-        { strength: 70, score: 30, name: 'Spicy Al' },
+        { strength: 92, score: 38, name: '', streak: 0 },
+        { strength: 70, score: 30, name: 'Spicy Al', streak: 0 },
       ],
     })
   })
