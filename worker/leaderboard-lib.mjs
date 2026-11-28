@@ -580,7 +580,8 @@ export function reconcileStreak(stored, fromSeed, dateKey) {
  * a username or a token. `streak` is the player's current streak in this game,
  * but only on the latest day they played — an older day's board, or a player
  * with no streak row, gets 0, since streak history is not kept (a primary-key
- * lookup per row). The client assigns display ranks (ties share a rank)
+ * lookup per score row of that game + day — the sort is not indexed, so every
+ * one of the day's rows is joined before the LIMIT). The client assigns display ranks (ties share a rank)
  * and flags its own row. The join resolves the account id FROM the score row
  * (a primary-key lookup per row) — joining on `'acct:' || a.id` would scan
  * every account for every score.
