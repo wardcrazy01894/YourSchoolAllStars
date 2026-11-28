@@ -147,10 +147,11 @@ describe('an account inherits what the device already had', () => {
     expect(me.body.days).toEqual([
       { ...GAME, date: TODAY, score: 34, strength: 70, detail: DETAIL },
     ])
-    // One row on the board, now named — no anonymous twin left behind.
+    // One row on the board, now named — no anonymous twin left behind —
+    // and the streak the device earned shows on it.
     expect(await board()).toMatchObject({
       total: 1,
-      rows: [{ strength: 70, score: 34, name: 'Spicy Al' }],
+      rows: [{ strength: 70, score: 34, name: 'Spicy Al', streak: 12 }],
     })
   })
 
@@ -204,7 +205,7 @@ describe('playing while signed in', () => {
     expect(b.body).toMatchObject({ rank: 1, total: 1 })
     expect(await board()).toMatchObject({
       total: 1,
-      rows: [{ strength: 80, score: 38, name: 'Spicy Al' }],
+      rows: [{ strength: 80, score: 38, name: 'Spicy Al', streak: 1 }],
     })
     expect(env.DB.rows(`SELECT client_id FROM scores`)).toEqual([
       { client_id: 'acct:1' },

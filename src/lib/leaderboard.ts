@@ -317,6 +317,9 @@ export interface BoardEntry {
   score: number
   /** A signed-in player's display name; '' or absent for an anonymous one. */
   name?: string
+  /** The player's current streak in days as of this day; 0 or absent when
+   *  there is none to show (or the worker predates board streaks). */
+  streak?: number
 }
 
 export interface Board {
@@ -371,10 +374,17 @@ export async function fetchLeaderboard(
           !!e && typeof e.strength === 'number' && typeof e.score === 'number',
       )
       // An older worker sends no names; anything but a string is no name.
+      // Likewise no streaks; anything but a positive whole number is none.
       .map((e) => ({
         strength: e.strength,
         score: e.score,
         name: typeof e.name === 'string' ? e.name : '',
+        streak:
+          typeof e.streak === 'number' &&
+          Number.isInteger(e.streak) &&
+          e.streak > 0
+            ? e.streak
+            : 0,
       }))
     return { total: data.total, rows }
   } catch (e) {
@@ -399,6 +409,8 @@ function samePair(a: BoardEntry, b: BoardEntry): boolean {
 export interface LeaderboardRow extends BoardEntry {
   /** Display name of a signed-in player; '' for an anonymous one. */
   name: string
+  /** The player's current streak in days; 0 when there is none to show. */
+  streak: number
   /** 1-based competition rank: ties on BOTH numbers share a rank, the next
    *  rank skips (92/38, 80/34, 80/30, 80/30, 70/31 → 1, 2, 3, 3, 5). */
   rank: number
@@ -429,7 +441,7 @@ export function buildLeaderboardRows(
     const rank = prev && samePair(e, prev) ? prevRank : i + 1
     prev = e
     prevRank = rank
-    return { ...e, name: e.name ?? '', rank, you: false }
+    return { ...e, name: e.name ?? '', streak: e.streak ?? 0, rank, you: false }
   })
   if (yours) {
     const mine = out.filter((r) => samePair(r, yours))

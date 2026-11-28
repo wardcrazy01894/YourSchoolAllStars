@@ -132,8 +132,8 @@ To repair an account's streak, use the recipe below with
   view, the origin for a 403, siteverify `turnstileErrors` for a Turnstile
   failure), so `wrangler tail` shows why players' submits are failing.
 - **View:** `GET ?school=&sport=&mode=&date=` → `{ ok, total, rows[] }` —
-  the day's top 100 as `{ strength, score, name }`, best overall first
-  (`name` = a signed-in player's display name, else `''`; never an id). Powers the leaderboard page. Rate-limited and validated like the
+  the day's top 100 as `{ strength, score, name, streak }`, best overall first
+  (`name` = a signed-in player's display name, else `''`; never an id; `streak` = the player's current streak in this game when `date` is the latest day they played, else `0` — the board shows it as 🔥N from 2 days up). Powers the leaderboard page. Rate-limited and validated like the
   POST.
 
 ## Local-only trial (no production resources)

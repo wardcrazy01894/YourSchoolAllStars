@@ -3,6 +3,7 @@
  * every finisher's OVERALL out of 100 (team strength), their projected record
  * beside it, competition-ranked, with the viewer's own row flagged.
  *
+ * A current streak of 2+ days shows as 🔥N next to the name.
  * A signed-in player's row carries their display name; an anonymous one shows
  * the numbers only (the server never returns ids or usernames). Read-only and
  * best-effort: a load failure shows a friendly line, never an error that
@@ -137,7 +138,18 @@ export function LeaderboardPanel({
                   {r.strength}
                   <small> /100</small>
                 </span>
-                <span className="board-name">{r.name}</span>
+                <span className="board-who">
+                  <span className="board-name">{r.name}</span>
+                  {/* A first day is not a streak yet: shown from 2 up. */}
+                  {r.streak > 1 && (
+                    <span
+                      className="board-streak"
+                      title={`${r.streak}-day streak`}
+                    >
+                      🔥{r.streak}
+                    </span>
+                  )}
+                </span>
                 <span className="board-record">
                   {r.score}–{games - r.score}
                 </span>

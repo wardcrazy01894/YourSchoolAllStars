@@ -391,9 +391,9 @@ describe('fetchLeaderboard', () => {
     expect(board).toEqual({
       total: 3,
       rows: [
-        { strength: 92, score: 38, name: '' },
-        { strength: 80, score: 34, name: '' },
-        { strength: 70, score: 30, name: '' },
+        { strength: 92, score: 38, name: '', streak: 0 },
+        { strength: 80, score: 34, name: '', streak: 0 },
+        { strength: 70, score: 30, name: '', streak: 0 },
       ],
     })
     const calls = fetchMock.mock.calls as unknown as [string][]
@@ -403,6 +403,31 @@ describe('fetchLeaderboard', () => {
     expect(url.searchParams.get('sport')).toBe('basketball')
     expect(url.searchParams.get('mode')).toBe('daily-iq')
     expect(url.searchParams.get('date')).toBe('2026-10-08')
+  })
+  it('reads each row’s streak, and a missing or malformed one as 0', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () =>
+        okResponse({
+          ok: true,
+          total: 5,
+          rows: [
+            { strength: 92, score: 38, name: 'Spicy Al', streak: 12 },
+            { strength: 80, score: 34 },
+            { strength: 70, score: 30, streak: '7' },
+            { strength: 60, score: 28, streak: -2 },
+            { strength: 50, score: 25, streak: 2.5 },
+          ],
+        }),
+      ),
+    )
+    const board = await fetchLeaderboard(
+      'michigan',
+      'basketball',
+      'daily',
+      '2026-10-08',
+    )
+    expect(board?.rows.map((r) => r.streak)).toEqual([12, 0, 0, 0, 0])
   })
   it('drops malformed rows and resolves null on a bad response / network error', async () => {
     const spy = vi.spyOn(console, 'warn').mockImplementation(() => {})
@@ -418,7 +443,10 @@ describe('fetchLeaderboard', () => {
     )
     expect(
       await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
-    ).toEqual({ total: 2, rows: [{ strength: 92, score: 38, name: '' }] })
+    ).toEqual({
+      total: 2,
+      rows: [{ strength: 92, score: 38, name: '', streak: 0 }],
+    })
     vi.stubGlobal(
       'fetch',
       vi.fn(async () => okResponse({ error: 'x' }, false, 400)),
@@ -436,6 +464,22 @@ describe('fetchLeaderboard', () => {
       await fetchLeaderboard('michigan', 'basketball', 'daily', '2026-10-08'),
     ).toBeNull()
     spy.mockRestore()
+  })
+})
+
+describe('buildLeaderboardRows streaks', () => {
+  it('keeps each streak on its own row through the sort, 0 when absent', () => {
+    expect(
+      buildLeaderboardRows([
+        { strength: 70, score: 30, streak: 3 },
+        { strength: 92, score: 38, streak: 12 },
+        { strength: 80, score: 34 },
+      ]).map((r) => [r.strength, r.streak]),
+    ).toEqual([
+      [92, 12],
+      [80, 0],
+      [70, 3],
+    ])
   })
 })
 
@@ -515,7 +559,7 @@ describe('accounts: token, draft and names', () => {
           ok: true,
           total: 3,
           rows: [
-            { strength: 92, score: 38, name: 'Spicy Al' },
+            { strength: 92, score: 38, name: 'Spicy Al', streak: 0 },
             { strength: 80, score: 34 }, // an older worker
             { strength: 70, score: 30, name: 7 },
           ],
@@ -534,9 +578,9 @@ describe('accounts: token, draft and names', () => {
   it('signed in: among tied rows, the one under YOUR name is yours', () => {
     const rows = buildLeaderboardRows(
       [
-        { strength: 80, score: 34, name: '' },
-        { strength: 80, score: 34, name: 'Rival' },
-        { strength: 80, score: 34, name: 'Spicy Al' },
+        { strength: 80, score: 34, name: '', streak: 0 },
+        { strength: 80, score: 34, name: 'Rival', streak: 0 },
+        { strength: 80, score: 34, name: 'Spicy Al', streak: 0 },
       ],
       { strength: 80, score: 34 },
       'Spicy Al',
@@ -547,7 +591,7 @@ describe('accounts: token, draft and names', () => {
 
   it('signed in but not on the list: an anonymous stranger with your numbers is not you', () => {
     const rows = buildLeaderboardRows(
-      [{ strength: 80, score: 34, name: '' }],
+      [{ strength: 80, score: 34, name: '', streak: 0 }],
       { strength: 80, score: 34 },
       'Spicy Al',
     )
@@ -559,16 +603,16 @@ describe('accounts: token, draft and names', () => {
     expect(
       buildLeaderboardRows(
         [
-          { strength: 80, score: 34, name: 'Rival' },
-          { strength: 80, score: 34, name: '' },
-          { strength: 80, score: 34, name: '' },
+          { strength: 80, score: 34, name: 'Rival', streak: 0 },
+          { strength: 80, score: 34, name: '', streak: 0 },
+          { strength: 80, score: 34, name: '', streak: 0 },
         ],
         yours,
       ).map((r) => r.you),
     ).toEqual([false, true, false])
     expect(
       buildLeaderboardRows(
-        [{ strength: 80, score: 34, name: 'Rival' }],
+        [{ strength: 80, score: 34, name: 'Rival', streak: 0 }],
         yours,
       )[0].you,
     ).toBe(false)
